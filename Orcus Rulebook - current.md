@@ -1,7 +1,7 @@
 # Orcus Rulebook
 A retroclone of 4th Edition
 
-Version 0.1 (Alpha)
+Version 0.2 (Alpha)
 
 
 
@@ -119,7 +119,7 @@ Each ability also has a modifier, derived from the score and ranging from -5 (fo
 
 To determine an ability modifier without consulting the table, subtract 10 from the ability score and then divide the total by 2 (round down).
 
-Because ability modifiers affect almost every attack roll, ability check, and saving throw, ability modifiers come up in play more often than their associated scores.
+Because ability modifiers affect almost every attack roll, skill check, ability check, and defense, ability modifiers come up in play more often than their associated scores.
 
 ## Using Each Ability
 
@@ -207,6 +207,10 @@ The GM might call for a Dexterity check when you try to accomplish tasks like th
 - Play a stringed instrument
 - Craft a small or detailed object
 
+##### Initiative
+
+An initiative check is a special Dexterity check that you make at the beginning of every combat. Initiative determines the order of creatures' turns in combat.
+
 #### Skill Checks
 
 Acrobatics, Stealth and Sleight of Hand skill checks add your Dexterity modifier. 
@@ -220,10 +224,6 @@ Certain powers use a Dexterity attack roll and/or add Dexterity modifier to dama
 #### Armor Class and Reflex Defense
 
 If you wear light or no armor, add the higher of your Dexterity modifier and your Intelligence modifier to your Armor Class and your Reflex defense. 
-
-#### Initiative
-
-At the beginning of every combat, you roll initiative by making a Dexterity check. Initiative determines the order of creatures' turns in combat.
 
 ### Intelligence
 
@@ -547,6 +547,8 @@ For Weapon powers, this is simple: the reach of the melee weapon (usually 1, i.e
 
 For other ranged powers, the range is specified in squares. 
 
+Melee "touch" means the power has range equal to the user's reach. Medium and Small creatures typically have a reach of 1, and the rules will specify if the creature has a longer reach. This is separate to the user's weapon's reach. 
+
 Near powers have no range; they originate with the user and have a set area of effect. 
 
 Far powers have a range specified; the origin square of the area of effect has to be within that range. 
@@ -678,7 +680,7 @@ A band of adventurers sneaks up on a bandit camp, springing from the trees to at
 
 The GM determines who might be surprised. If neither side tries to be stealthy, they automatically notice each other. Otherwise, the GM compares the Stealth checks of anyone hiding with the passive Perception score of each creature on the opposing side. Any character or monster that doesn't notice a threat is surprised at the start of the encounter.
 
-If you're surprised, you can't move or take an action on your first turn of the combat, and you can't take a reaction until that turn ends. A member of a group can be surprised even if the other members aren't.
+If you're surprised, you can't take actions on your first turn of the combat, and you can't take immediate actions until that turn ends. A member of a group can be surprised even if the other members aren't.
 
 ## Initiative
 
@@ -811,6 +813,8 @@ Used in hand-to-hand combat, a melee attack allows you to attack a foe within yo
 Your reach is primarily used to determine which enemies you can make melee attacks against. Tiny creatures have a reach of 0, meaning they must be in the same square as their target to attack them in melee.
 
 Most creatures have a 1-square **reach** and can thus attack targets within 1 square of them when making a melee attack. Certain creatures (typically those larger than Medium) have melee attacks with a greater reach than 1 square, as noted in their descriptions. However, note that opportunity attacks are provoked when a creature leaves an *adjacent* square, so even if you have a longer reach you do not make opportunity attacks when they leave your reach. 
+
+A melee attack with a range of **Melee touch** uses the user's reach, rather than their weapon's reach.  
 
 ### Ranged
 
@@ -1010,6 +1014,10 @@ When you take actions on your turn, you can take the actions presented here, use
 
 When you describe an action not detailed elsewhere in the rules, the GM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure.
 
+## Aid Another (standard action)
+
+You can lend your aid to another creature in the completion of a skill check. See the Aid Another section of the Skills chapter. 
+
 ## Basic Attack (standard action)
 
 With this action, you make a melee basic attack or a ranged basic attack.
@@ -1096,11 +1104,17 @@ Make a Strength attack vs the grappled creature's Fortitude.
 
 *Hit:* You can drag or carry the grappled creature with you, but your speed is halved. Your movement provokes opportunity attacks as normal movement does. 
 
-## Help (standard action)
+## Help Attack (standard action)
 
-You can lend your aid to another creature in the completion of a task. When you take the Help action to help with a skill, see the Aid Another section of the Skills chapter. 
+You can aid a friendly creature in fighting a creature within your reach. You feint, distract the target, or in some other way team up to make your ally's attack more effective. 
 
-Alternatively, you can aid a friendly creature in fighting a creature within your reach. You feint, distract the target, or in some other way team up to make your ally's attack or defense more effective. Make a basic melee attack vs AC 10. On a hit, do no damage, but grant a +2 bonus either to your ally's next attack roll against that target or to their defenses against the target's next attack against them (if not used, these bonuses expire at the end of your next turn). 
+You grant a +2 bonus to your ally's next attack roll against that target (if not used, this bonus expires at the end of your next turn). 
+
+## Help Defense (standard action)
+
+You can aid a friendly creature in fighting a creature within your reach. You feint, distract the target, or in some other way team up to make your ally's defense more effective. 
+
+You grant a +2 bonus to your ally's defenses against the target's next attack against them (if not used, this bonus expires at the end of your next turn). 
 
 ## Rally (standard action)
 
