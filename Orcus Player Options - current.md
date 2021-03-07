@@ -1452,37 +1452,51 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 An improvised weapon, including an unarmed strike, does 1d4 damage (one-handed) or 1d8 damage (two-handed), with no proficiency bonus on the attack. 
 
-**Table - Weapons** 
-! Update
+**Table - Simple Melee Weapons** 
 
-| Name            | Range  | Type    | Hand | Proficiency Bonus | Damage (dW) | Range | Cost (gp) | Weight (lb) | Buffs                       | Group                       |
-| --------------- | ------ | ------- | ---- | ----------------- | ----------- | ----- | --------- | ----------- | --------------------------- | --------------------------- |
-| Club            | Melee  | Simple  | 1    | 2                 | 1d6         |       | 1         | 3           |                             | Maces and Clubs             |
-| Dagger          | Melee  | Simple  | 1    | 3                 | 1d4         | 5/10  | 1         | 1           | Side Weapon, Thrown (Light) | Light Blades                |
-| Javelin         | Melee  | Simple  | 1    | 2                 | 1d6         | 10/20 | 5         | 2           | Thrown (Heavy)              | Spears and Lances           |
-| Mace            | Melee  | Simple  | 1    | 2                 | 1d8         |       | 5         | 6           | Bastard                     | Maces and Clubs             |
-| Sickle          | Melee  | Simple  | 1    | 2                 | 1d6         |       | 2         | 2           | Side Weapon, Thrown (Light) | Light Blades                |
-| Spear           | Melee  | Simple  | 1    | 2                 | 1d8         |       | 5         | 6           | Bastard                     | Spears and Lances           |
-| Greatclub       | Melee  | Simple  | 2    | 2                 | 2d4         |       | 1         | 10          |                             | Maces and Clubs             |
-| Quarterstaff    | Melee  | Simple  | 2    | 2                 | 1d8         |       | 5         | 4           |                             | Staffs                      |
-| Scythe          | Melee  | Simple  | 2    | 2                 | 2d4         |       | 5         | 10          |                             | Heavy Blades                |
-| Battleaxe       | Melee  | Martial | 1    | 2                 | 1d10        |       | 15        | 6           | Bastard                     | Axes                        |
-| Handaxe         | Melee  | Martial | 1    | 2                 | 1d6         |       | 5         | 3           | Side Weapon, Thrown (Heavy) | Axes                        |
-| Longsword       | Melee  | Martial | 1    | 3                 | 1d8         |       | 15        | 4           | Bastard                     | Heavy Blades                |
-| Rapier          | Melee  | Martial | 1    | 3                 | 1d8         |       | 25        | 2           |                             | Light Blades                |
-| Scimitar        | Melee  | Martial | 1    | 2                 | 1d8         |       | 10        | 4           | Improved Critical           | Heavy Blades                |
-| Short Sword     | Melee  | Martial | 1    | 3                 | 1d6         |       | 10        | 2           | Side Weapon                 | Light Blades                |
-| Throwing Hammer | Melee  | Martial | 1    | 2                 | 1d6         |       | 5         | 2           | Side Weapon, Thrown (Heavy) | Picks and Hammers           |
-| Warhammer       | Melee  | Martial | 1    | 2                 | 1d10        |       | 15        | 5           | Bastard                     | Picks and Hammers           |
-| Greataxe        | Melee  | Martial | 2    | 2                 | 1d12        |       | 30        | 12          | Improved Critical           | Axes                        |
-| Greatsword      | Melee  | Martial | 2    | 3                 | 1d10        |       | 30        | 8           |                             | Heavy Blades                |
-| Longspear       | Melee  | Martial | 2    | 2                 | 1d10        |       | 10        | 9           | Reach                       | Polearms, Spears and Lances |
-| Maul            | Melee  | Martial | 2    | 2                 | 2d6         |       | 30        | 12          |                             | Picks and Hammers           |
-| Hand Crossbow   | Ranged | Simple  | 1    | 2                 | 1d6         | 10/20 | 25        | 2           | Loading (Free)              | Crossbows                   |
-| Sling           | Ranged | Simple  | 1    | 2                 | 1d6         | 10/20 | 1         | 0           | Loading (Free)              | Slings                      |
-| Crossbow        | Ranged | Simple  | 2    | 2                 | 1d8         | 15/30 | 25        | 4           | Loading (swift)             | Crossbows                   |
-| Longbow         | Ranged | Martial | 2    | 2                 | 1d10        | 20/40 | 30        | 3           | Loading (Free)              | Bows                        |
-| Shortbow        | Ranged | Martial | 2    | 2                 | 1d8         | 15/30 | 25        | 2           | Loading (Free), Small       | Bows                        |
+| Name         | Range | Type   | Hand | Proficiency Bonus | Damage (dW) | Range | Cost (gp) | Weight (lb) | Buffs                       | Group             |
+| ------------ | ----- | ------ | ---- | ----------------- | ----------- | ----- | --------- | ----------- | --------------------------- | ----------------- |
+| Club         | Melee | Simple | 1    | +2                | 1d6         |       | 1         | 3           |                             | Maces and Clubs   |
+| Dagger       | Melee | Simple | 1    | +3                | 1d4         | 5/10  | 1         | 1           | Side Weapon, Thrown (Light) | Light Blades      |
+| Javelin      | Melee | Simple | 1    | +2                | 1d6         | 10/20 | 5         | 2           | Thrown (Heavy)              | Spears and Lances |
+| Mace         | Melee | Simple | 1    | +2                | 1d8         |       | 5         | 6           | Bastard                     | Maces and Clubs   |
+| Sickle       | Melee | Simple | 1    | +2                | 1d6         |       | 2         | 2           | Side Weapon, Thrown (Light) | Light Blades      |
+| Spear        | Melee | Simple | 1    | +2                | 1d8         |       | 5         | 6           | Bastard                     | Spears and Lances |
+| Greatclub    | Melee | Simple | 2    | +2                | 2d4         |       | 1         | 10          |                             | Maces and Clubs   |
+| Quarterstaff | Melee | Simple | 2    | +2                | 1d8         |       | 5         | 4           |                             | Staffs            |
+| Scythe       | Melee | Simple | 2    | +2                | 2d4         |       | 5         | 10          |                             | Heavy Blades      |
+
+**Table - Martial Melee Weapons**
+
+| Name            | Range | Type    | Hand | Proficiency Bonus | Damage (dW) | Range | Cost (gp) | Weight (lb) | Buffs                       | Group                       |
+| --------------- | ----- | ------- | ---- | ----------------- | ----------- | ----- | --------- | ----------- | --------------------------- | --------------------------- |
+| Battleaxe       | Melee | Martial | 1    | +2                | 1d10        |       | 15        | 6           | Bastard                     | Axes                        |
+| Handaxe         | Melee | Martial | 1    | +2                | 1d6         |       | 5         | 3           | Side Weapon, Thrown (Heavy) | Axes                        |
+| Longsword       | Melee | Martial | 1    | +3                | 1d8         |       | 15        | 4           | Bastard                     | Heavy Blades                |
+| Rapier          | Melee | Martial | 1    | +3                | 1d8         |       | 25        | 2           |                             | Light Blades                |
+| Scimitar        | Melee | Martial | 1    | +2                | 1d8         |       | 10        | 4           | Improved Critical           | Heavy Blades                |
+| Short Sword     | Melee | Martial | 1    | +3                | 1d6         |       | 10        | 2           | Side Weapon                 | Light Blades                |
+| Throwing Hammer | Melee | Martial | 1    | +2                | 1d6         |       | 5         | 2           | Side Weapon, Thrown (Heavy) | Picks and Hammers           |
+| Warhammer       | Melee | Martial | 1    | +2                | 1d10        |       | 15        | 5           | Bastard                     | Picks and Hammers           |
+| Greataxe        | Melee | Martial | 2    | +2                | 1d12        |       | 30        | 12          | Improved Critical           | Axes                        |
+| Greatsword      | Melee | Martial | 2    | +3                | 1d10        |       | 30        | 8           |                             | Heavy Blades                |
+| Longspear       | Melee | Martial | 2    | +2                | 1d10        |       | 10        | 9           | Reach                       | Polearms, Spears and Lances |
+| Maul            | Melee | Martial | 2    | +2                | 2d6         |       | 30        | 12          |                             | Picks and Hammers           |
+
+**Table - Simple Ranged Weapons**
+
+| Name          | Range  | Type   | Hand | Proficiency Bonus | Damage (dW) | Range | Cost (gp) | Weight (lb) | Buffs           | Group     |
+| ------------- | ------ | ------ | ---- | ----------------- | ----------- | ----- | --------- | ----------- | --------------- | --------- |
+| Hand Crossbow | Ranged | Simple | 1    | +2                | 1d6         | 10/20 | 25        | 2           | Loading (Free)  | Crossbows |
+| Sling         | Ranged | Simple | 1    | +2                | 1d6         | 10/20 | 1         | 0           | Loading (Free)  | Slings    |
+| Crossbow      | Ranged | Simple | 2    | +2                | 1d8         | 15/30 | 25        | 4           | Loading (swift) | Crossbows |
+
+**Table - Martial Ranged Weapons**
+
+| Name     | Range  | Type    | Hand | Proficiency Bonus | Damage (dW) | Range | Cost (gp) | Weight (lb) | Buffs                 | Group |
+| -------- | ------ | ------- | ---- | ----------------- | ----------- | ----- | --------- | ----------- | --------------------- | ----- |
+| Longbow  | Ranged | Martial | 2    | +2                | 1d10        | 20/40 | 30        | 3           | Loading (Free)        | Bows  |
+| Shortbow | Ranged | Martial | 2    | +2                | 1d8         | 15/30 | 25        | 2           | Loading (Free), Small | Bows  |
 
 ## Focuses
 
@@ -1525,8 +1539,6 @@ This section describes items that have special rules or require further explanat
 ***Torch:*** A torch burns for 1 hour, providing bright light in a 5-square radius.
 
 ***Torch, Everburning:*** This otherwise normal torch has a *continual flame* incantation cast upon it. Casts bright light in a 5-square radius. 
-
-! Write a continual flame incantation
 
 ***Thieves' tools:*** This kit contains the tools you need to disable traps and open locks, and gives you a +2 bonus on Thievery checks to do so. 
 
