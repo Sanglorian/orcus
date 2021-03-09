@@ -1294,6 +1294,7 @@ The following definitions specify what happens to a creature while it is subject
 ## Marked
 * -2 penalty to attack rolls on attacks that do not include the creature that marked you as a target.
 * If the creature that marked you dies or falls unconscious, you lose the marked condition. 
+* If you are marked by another creature while already marked, the new mark supersedes the old one (in other words, you cannot be marked by two different creatures at the same time).
 
 ## Petrified
 

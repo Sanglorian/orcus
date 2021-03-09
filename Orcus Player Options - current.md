@@ -1156,6 +1156,11 @@ _Scale mail:_ Str 13, Con 13, Armor Proficiency (chainmail)
 **Benefit:** Choose a type of armor you meet the prerequisites for. You are proficient with that type of armor. 
 **Special:** You can gain Armor Proficiency multiple times. Each time you take the feat, it applies to a new type of armor. 
 
+### Athame
+
+**Prerequisite:** Proficiency with one or more focuses.
+**Benefit:** You can use a weapon as your focus. Add its enhancement bonus, if any, to attack and damage rolls, and any properties that apply to powers to powers you use with the weapon as your focus. Your weapon's proficiency bonus, however, is *not* applied to focus powers even if you use the weapon as a focus. 
+
 ### Avoidance
 **Benefit:** Attacks of opportunity suffer a -2 penalty on attack rolls against you. 
 

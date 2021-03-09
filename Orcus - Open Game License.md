@@ -276,4 +276,30 @@ Dungeon Crawl Classics #61: Citadel of the Corruptor, by Adrian Pommier, Copyrig
 
 Dungeon Crawl Classics #56: Isle of the Sea Drake, by Adrian Pommier, Copyright 2008 Goodman Games (contact info@goodman-games.com, or see www.goodman-games.com)
 
+Pathfinder RPG Core Rulebook. © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams. 
+Pathfinder RPG Bestiary, © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
+Advanced Player’s Guide, © 2010, Paizo Publishing, LLC; Author: Jason Bulmahn
+Pathfinder RPG GameMastery Guide, © 2010, Paizo Publishing, LLC; Author: Cam Banks, Wolfgang Buar, Jason Bulmahn, Jim Butler, Eric Cagle, Graeme Davis, Adam Daigle, Joshua J. Frost, James Jacobs, Kenneth Hite, Steven Kenson, Robin Laws, Tito Leati, Rob McCreary, Hal Maclean, Colin McComb, Jason Nelson, David Noonan, Richard Pett, Rich Redman, Sean K Reynolds, F. Wesley Schneider, Amber Scorr, Doug Seacat, Mike Selinker, Lisa Stevens, James L. Sutter, Russ Taylor, Penny Williams, Skip Williams, Teeuwynn Woodruff.
+Pathfinder Roleplaying Game Ultimate Magic, © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.
+Pathfinder Roleplaying Game Ultimate Combat, © 2011, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Brian J. Cortijo, Jim Groves, Tim Hitchcock, Richard A. Hunt, Colin McComb, Jason Nelson, Tom Phillips, Patrick Renie, Sean K Reynolds, and Russ Taylor.
+The Book of Experimental Might, © 2008, Monte J. Cook. All rights reserved.
+Tome of Horrors, © 2002, Necromancer Games, Inc.; Authors: Scott Greene, with Clark Peterson, Erica Balsley, Kevin Baase, Casey Christofferson, Lance
+Hawvermale, Travis Hawvermale, Patrick Lawinger, and Bill Webb; Based on original content from TSR.
+Unearthed Arcana, © 2004, Wizards of the Coast, Inc.; Authors Andy Collins, Jesse Decker, David Noonan, Rich Redman
+The Iconic Bestiary: Classics of Fantasy, © 2005, Lions Den Press; Author Ari Marmell
+Hyperconscious: Explorations in Psionics, © 2004, Bruce R Cordell. All rights reserved.
+If Thoughts Could Kill, © 2001–2004, Bruce R. Cordell. All rights reserved.
+Mindscapes, © 2003–2004, Bruce R. Cordell. All rights reserved.
+Unearthed Arcana, © 2004, Wizards of the Coast.
+Mutants & Masterminds © 2002, Green Ronin Publishing.
+Swords of Our Fathers, Copyright 2003, The Game Mechanics.
+Modern System Reference Document, © 2002, Wizards of the Coast, Inc.; Authors Bill Slavicsek, Jeff Grubb, Rich Redman, Charles Ryan, based on material by Jonathan Tweet, Monte Cook, Skip Williams, Richard Baker, Peter Adkison, Bruce R. Cordell, John Tynes, Andy Collins, and JD Wiker
+Psionics Unleashed. Copyright 2010, Dreamscarred Press.
+Path of War, © 2014, Dreamscarred Press.
+
+Monte Cook’s Arcana Evolved Copyright 2005 Monte J. Cook. All rights reserved.
+Monte Cook’s Arcana Unearthed DM’s Screen and Player’s Guide Copyright 2003 Monte J. Cook. All rights reserved.
+The Diamond Throne Copyright 2003 Monte J. Cook. All rights reserved.
+Monte Cook’s Arcana Unearthed Copyright 2003 Monte J. Cook. All rights reserved.
+
 END OF LICENSE
