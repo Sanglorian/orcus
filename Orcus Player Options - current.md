@@ -77,9 +77,7 @@ Your dwarf character has an assortment of inborn abilities, part and parcel of d
 **Self** 
 **Effect:** You rally.
 
-## Elf, High
-
-As a high elf, you have a keen mind and a mastery of at least the basics of magic. Some high elves are haughty and reclusive, believing themselves to be superior to non-elves and even other elves. Others are more common and more friendly, and often encountered among humans and other races.
+## Elf
 
 Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.
 
@@ -89,7 +87,11 @@ Elves range from under 5 to over 6 feet tall and have slender builds.
 
 ### High Elf Traits
 
-Your elf character has a variety of natural abilities, the result of thousands of years of elven refinement.
+As a high elf, you have a keen mind and a mastery of at least the basics of magic. Some high elves are haughty and reclusive, believing themselves to be superior to non-elves and even other elves. Others are more common and more friendly, and often encountered among humans and other races.
+
+---
+
+Your high elf character has a variety of natural abilities, the result of thousands of years of elven refinement.
 
 ***Ability Score Increases:*** 
 
@@ -128,6 +130,38 @@ Your 4-hour trance has the same effect as a 6-hour long rest.
 **High Elf Utility Racial** ● **Teleport**
 **Self** 
 **Effect:** Teleport up to 5.
+
+### Wood Elf Traits
+
+Wood elf hair color ranges from yellow to a coppery red, and they are more muscular than other elves. Their clothing is in dark shades of green  and earth tones to better blend in with their natural surroundings.
+
+***Ability Score Increases:*** 
+
+* +2 Dexterity
+* +2 Intelligence OR Wisdom
+
+***Size:*** Your size is Medium.
+
+***Speed:*** Your base walking speed is 7 squares.
+
+***Low-Light Vision:*** You can see in dim light as if it were bright light.
+
+***Wild Senses:*** 
+
+* +2 Nature
+* +2 Perception
+
+***Fey Ancestry:*** You count as a fey creature for all purposes.
+
+***Languages:*** You can speak, read, and write Common and Elvish. 
+
+***Elf Weapon Training:*** You have proficiency with the longbow and the shortbow.
+
+***Nature Guide:*** Non-wood elf allies within 5 gain +1 racial bonus to Perception.
+
+***Versatile Stride:*** You ignore difficult terrain. 
+
+***Elfshot:*** You have the *elfshot* power.
 
 ## Halfling
 
@@ -201,7 +235,10 @@ Humans typically learn the languages of other peoples they deal with, including 
 
 ***Hardy Stock:*** +1 racial bonus to Fortitude, Reflex and Will defenses. 
 
-***True Grit:*** You have the *true grit* power.
+***Human Power:*** Choose one: 
+
+* You have the *true grit* power.
+* You have a third level 1 at-will attack power from your class. 
 
 #### True Grit
 **Encounter** **No Action**
@@ -327,8 +364,6 @@ Your half-elf character has some qualities in common with elves and some that ar
 
 ***Low-Light Vision:*** You can see in dim light as if it were bright light.
 
-***Skill Versatility:*** You gain training in two skills of your choice.
-
 ***Skill Bonuses:*** 
 
 * +2 Diplomacy
@@ -338,7 +373,10 @@ Your half-elf character has some qualities in common with elves and some that ar
 
 ***Follow My Lead:*** Allies within 10 squares receive a +1 racial bonus to Diplomacy. 
 
-***Half-Elven Ingenuity:*** You have the *half-elven ingenuity* power.
+***Half-Elven Power:*** Choose one at character creation: 
+
+* You have the *half-elven ingenuity* power.
+* Choose a level 1 at-will attack power from any class. It is an encounter power for you. 
 
 #### Half-Elven Ingenuity
 **Encounter** **Swift Action**
