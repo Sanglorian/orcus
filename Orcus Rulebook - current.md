@@ -559,7 +559,14 @@ To calculate range, count how many squares are between the user and the target. 
 
 Melee and Ranged powers will specify whether they have one or more targets. 
 
-Area of effect powers may target every character in the area of effect, or the nearest ally in the area of effect, or only enemies in the area of effect but not allies, or one or more targets of the user's choice in the area of effect. 
+Area of effect powers may target, for example: 
+
+* **all:** every creature in the area of effect
+* **nearest ally:** the nearest ally in the area of effect
+* **nearest enemy:** the nearest enemy in the area of effect
+* **all enemies:** only enemies in the area of effect
+* **all allies:** only allies in the area of effect
+* **any:** one or more targets of the user's choice in the area of effect. 
 
 #### Allies and Enemies
 
@@ -638,7 +645,9 @@ A conjuration disappears if its creator is killed.
 
 ### Summon
 
-A summon is a monster that is created by a power or other effect. It is an ally of its summoner, and of its summoner's allies. It uses your defenses. If the summon is reduced to 0 HP, it is destroyed. The summoner loses a recovery, if able to do so, or HP equal to half their Staggered value, if not able to lose a recovery. 
+A summon is a monster that is created by a power or other effect. It is an ally of its summoner, and of its summoner's allies. It uses your defenses. 
+
+If the summon is reduced to 0 HP, it is destroyed and the summoner loses a recovery, if able to do so. If the summoner has no recoveries left, they lose HP equal to half their Staggered value instead. 
 
 Unless otherwise mentioned, calculate the summon's stats as follows: 
 
@@ -705,11 +714,48 @@ The most common actions you can take are described in the "Actions in Combat" se
 
 You can forgo taking one or more actions, or doing anything at all on your turn. 
 
-## Swift Actions
+### Standard Actions
+
+Your standard action is typically the main thing that you do in a turn - for example, use a significant power (including most powers that involve attacks), make a basic attack, a charge, etc. 
+
+Actions that use a standard action include: 
+
+* Aid Another
+* Basic Attack
+* Grapple
+* Escape a Grapple
+* Help Attack
+* Help Defense
+* Coup de Grace
+* Charge
+* Rally
+* Shove
+* Total Defence
+
+### Move Actions
+
+Your move action is almost always used to move, or to use a power that involves movement. 
+
+Actions that use a move action include:
+
+* Walk
+* Dash
+* Crawl
+* Squeeze
+* Five-Foot Step
+* Stand Up from Prone
+
+### Swift Actions
+
+The main use of swift actions is for certain powers. Of the four actions usable on your turn (standard, move, swift and free), swift actions are the ones least often used. 
+
+You can also use swift actions to:
 
 * Interact with an object. For example, you could open a door or you could draw your weapon.
 
-## Free Actions
+### Free Actions
+
+You can use free actions to:
 
 * Communicate however you are able, through brief utterances and gestures, as you take your turn or on other characters' turns.
 * Drop an item. 
@@ -717,31 +763,36 @@ You can forgo taking one or more actions, or doing anything at all on your turn.
 * End a grapple (if you are the grappler, not the one being grappled). 
 * Spend an action point.
 
-### Variant Rule
+There are also some powers that require a free action. 
+
+#### Variant Rule: One Free Action per Turn
 
 You can only take one free action per turn (including other characters' turns). For example, you could drop one item on your turn, and then another item on the creature's turn following yours. 
 
-## Action Points
+### Action Points
 
 A player character's Action Points are reset to 1 after each long rest. A character gains an additional Action Point after every second encounter they have between long rests. 
 
 Once per encounter (but not during a surprise round), a character can spend an Action Point to take one additional standard, move or swift action during their turn. 
 
-## The End of Your Turn
+### The End of Your Turn
 At the end of your turn you make saving throws against any effects that require them. 
 
 Any effects that require an action to maintain concentration, which you have not spent, end now. 
 
 Other effects may also resolve at the end of your turn as noted in their descriptions. You can choose in which order to resolve effects that happen at the end of your turn.
 
-## Saving Throws
+### Saving Throws
 
 A saving throw - also called a save - represents an attempt to shake off an effect. You don't normally decide to make a saving throw; you are forced to make one because your character or monster is at risk of harm or trying to shake off a condition, persistent damage or other negative effect.
 
 To make a saving throw, roll a d20. If specified, add other bonuses. If the result is 10 or higher, the save succeeds. Typically, if the save is successful it means the effect ends. 
 
-# Outside of Your Turn
-## Immediate Actions 
+## Outside of Your Turn
+
+There are two types of action you can take outside of your turn: immediate actions and opportunity attacks. 
+
+### Immediate Actions 
 
 Certain special abilities, powers, and situations allow you to take a special action called an immediate action. It must occur on someone else's turn. 
 
@@ -749,7 +800,7 @@ Some immediate actions interrupt the other creature's action. When your immediat
 
 Other immediate actions react to the other creature's action, and occur after the creature completes their action. That creature can continue its turn right after the immediate action.
 
-## Opportunity Attacks
+### Opportunity Attacks
 
 In a fight, everyone is constantly watching for a chance to strike an enemy who is fleeing or passing by. Such a strike is called an opportunity attack.
 
@@ -794,7 +845,7 @@ When an enemy is at a disadvantage defending themselves, you have combat advanta
 
 Sometimes fate blesses or curses a combatant, causing the novice to hit or the veteran to miss.
 
-If the d20 roll for an attack is a 20, the attack hits regardless of any modifiers or the target's defenses. This is called a critical hit, which is explained later in this chapter.
+If the d20 roll for an attack is a 20, the attack hits regardless of any modifiers or the target's defenses. If the attack hits, and would have hit even if it weren't for this special rule, then this is called a critical hit, which is explained later in this chapter.
 
 If the d20 roll for an attack is a 1, the attack misses regardless of any modifiers or the target's defenses.
 
@@ -880,7 +931,7 @@ Hit points represent a combination of physical and mental durability, the will t
 
 A creature's **current hit points** (usually just called **hit points**) can be any number from the creature's hit point maximum down to 0. This number changes frequently as a creature takes damage or receives healing.
 
-Whenever a creature takes damage, that damage is subtracted from its hit points. The loss of hit points has no effect on a creature's capabilities until the creature drops to 0 hit points.
+Whenever a creature takes damage, that damage is subtracted from its hit points. The loss of hit points has no effect on a creature's capabilities until the creature drops to 0 hit points or below. You can have negative hit points if damage would take you below 0 HP. 
 
 ### Damage Rolls
 
@@ -928,7 +979,7 @@ In combat, characters and monsters are in constant motion, often using movement 
 Move actions include: 
 
 * **Walk:** Move a distance up to your speed. 
-* **Five-Foot Step:** Move one square, without provoking opportunity attacks. 
+* **Five-Foot Step:** Shift one square. Shifting is a form of movement that does not provoke opportunity attacks. 
 * **Dash:** Move a distance up to your speed +2, with penalties. 
 * **Crawl:** Move a distance up to half your speed, even if prone. 
 * **Stand Up from Prone:** Stop being prone. 
@@ -1084,7 +1135,7 @@ You cannot maintain powers if you Delay. Beneficial effects that end at the end 
 
 Your initiative result becomes the count on which you took the delayed turn. 
 
-## Grapple
+## Grapple (standard action)
 
 When you want to grab a creature or wrestle with it, you can grapple.
 
@@ -1189,39 +1240,47 @@ When you use a recovery, regain lost hit points equal to your recovery value.
 
 When you are reduced to half your maximum hit points or fewer, you’re **Staggered**. Some powers, spells, and monster interactions work differently when you are Staggered.
 
-### Dropping to 0 Hit Points
+### Dropping to 0 Hit Points or Below
 
-When you drop to 0 hit points, you either die outright or fall unconscious, as explained in the following sections.
+When you drop to 0 hit points or below, you either die outright or fall unconscious, as explained in the following sections.
+
+### Healing on Negative HP
+
+Whenever you receive healing while you are at negative HP, simply add the healing to 0 to determine your current HP. 
+
+For example, if you are on -10 HP and you heal 7 HP, your HP become 7, *not* -3. 
 
 ### Instant Death
 
-Massive damage can kill you instantly. When damage reduces you to 0 hit points and there is damage remaining, you die if the remaining damage equals or exceeds your Staggered value. The same applies if you are on 0 HP and take damage that equals or exceeds your Staggered value. 
-
-For example, a cleric with a maximum of 22 hit points currently has 11 hit points. If she takes 22 damage from an attack, she is reduced to 0 hit points, but 11 damage remains. Because the remaining damage equals her Staggered value (11, i.e. half her maximum HP), the cleric dies.
-
-Note that you cannot fall below 0 HP. If an attack fails to cause instant death, none of the extra damage remains for subsequent attacks. 
+Massive damage can kill you instantly. When damage reduces you to negative hit points equivalent to your Staggered value or worse (e.g. -22 HP if your HP is 44), you die. 
 
 ### Falling Unconscious
 
-If damage reduces you to 0 hit points and fails to kill you, you fall unconscious. This unconsciousness ends if you regain any hit points.
+If damage reduces you to 0 hit points or below and fails to kill you, you fall unconscious. This unconsciousness ends if you regain any hit points.
 
 ### Death Saving Throws
 
-Whenever you start your turn with 0 hit points, you must make a special saving throw, called a death saving throw, to determine whether you creep closer to death or hang onto life. You are in the hands of fate now, aided only by powers and features that improve your chances of succeeding on a saving throw.
+Whenever you start your turn with 0 hit points or below, you must make a special saving throw, called a death saving throw, to determine whether you creep closer to death or hang onto life. You are in the hands of fate now, aided only by powers and features that improve your chances of succeeding on a saving throw.
 
 Roll a d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third failure, you die. The successes and failures don't need to be consecutive; keep track of both until you collect three of a kind. The number of failures is reset to zero when you take a short or long rest. 
 
-***Rolling 20 or higher:*** When you make a death saving throw and roll 20 or higher, you can spend a recovery. You heal equal to your recovery value, and therefore stop dying and become conscious, although you are still prone. If you have no recoveries to spend, treat this result as a 19. 
+***Rolling 20 or higher:*** When you make a death saving throw and roll 20 or higher, you can spend a recovery. Your HP are set to equal to your recovery value, and therefore you stop dying and become conscious, although you are still prone. If you have no recoveries to spend, treat this result as a 19. 
 
 #### Stabilizing a Creature
 
-If a dying creature gets the opportunity to spend a recovery to heal but it has no recoveries left, it heals 1 HP only. 
+If a dying creature gets the opportunity to spend a recovery to heal but it has no recoveries left, its HP is set to 1 only. 
 
 ### Monsters and Death
 
 Most GMs have a monster die the instant it drops to 0 hit points, rather than having it fall unconscious and make death saving throws.
 
 Mighty villains and special nonplayer characters are common exceptions; the GM might have them fall unconscious and follow the same rules as player characters.
+
+### Variant: No Negative HP
+
+In this variant, characters never go below 0 HP. They only die from hit point loss (rather than from failed death saves) if a single attack would reduce them to negative hit points equal to their Staggered value or worse. 
+
+*For example, a cleric with 22 HP takes 23 damage. They fall to 0 HP. They then take an attack that does 7 damage. Since it is less than their Staggered value, they stay at 0 HP. Then they take an attack that does 13 damage - since that exceeds their Staggered value, they die.*
 
 ## Knocking a Creature Out
 
