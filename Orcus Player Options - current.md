@@ -163,6 +163,16 @@ Wood elf hair color ranges from yellow to a coppery red, and they are more muscu
 
 ***Elfshot:*** You have the *elfshot* power.
 
+#### Elfshot
+
+**Encounter** **Free Action**
+
+**Wood Elf Utility Racial** 
+
+**Self** **Trigger:** You just made an attack roll.
+
+**Effect:** Reroll the attack roll and take the new result.
+
 ## Halfling
 
 As a halfling, you can easily hide from notice, even using other people as cover. You're inclined to be affable and get along well with others.
