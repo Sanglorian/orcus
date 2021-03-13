@@ -33,7 +33,7 @@ A modifier is any bonus or penalty applying to a die roll. A positive modifier i
 
 #### Stacking
 
-In most cases, modifiers to a given check or roll stack (combine for a cumulative effect) if they come from different sources and have different types (or no type at all), but do **not** stack if they have the same type. If the modifiers to a particular roll do not stack, only the best bonus and worst penalty applies. 
+Modifiers to a given check or roll stack (combine for a cumulative effect) if they have different types (or no type at all), but do **not** stack if they have the same type. If the modifiers to a particular roll do not stack, only the best bonus and worst penalty applies. 
 
 #### Modifier Types
 
@@ -130,13 +130,11 @@ Many tasks that a character or monster might attempt in the game are covered by 
 Strength measures bodily power, athletic training, and the extent to which you can exert raw physical force.
 
 #### Strength Checks
-The GM might call for a Strength check when you try to accomplish tasks like the following:
+The GM might call for a Strength check when you try to accomplish tasks that require brute strength, that do not fall under the Athletics skill. Examples might include:
 
-- Force open a stuck, locked, or barred door
-- Push through a tunnel that is too small
-- Hang on to a wagon while being dragged behind it
-- Tip over a statue
-- Keep a boulder from rolling
+- Forcing open a stuck, locked, or barred door
+- Tipping over a statue
+- Keeping a boulder from rolling
 
 #### Skill Checks
 
@@ -168,10 +166,7 @@ Constitution measures health, stamina, and vital force.
 
 #### Constitution Checks
 
-The GM might call for a Constitution check when you try to accomplish tasks like the following:
-
-- Hold your breath
-- Quaff an entire stein of ale in one go
+The GM might call for a Constitution check when you try to accomplish tasks that require hardiness and good health, that do not fall under the Endure skill. The Endure skill is broad enough that it would cover most situations that you might otherwise use a Constitution check for, but for example testing to see if you can quaff an entire stein of ale in one go might use a Constitution check since it is not really something you "endure". 
 
 #### Skill Checks
 
@@ -199,13 +194,11 @@ Dexterity measures agility, reflexes, and balance.
 
 #### Dexterity Checks
 
-The GM might call for a Dexterity check when you try to accomplish tasks like the following:
+The GM might call for a Dexterity check when you try to accomplish tasks that require finesse or agility, that do not fall under the Acrobatics, Stealth or Sleight of Hand skills. Examples might include:
 
-- Control a heavily laden cart on a steep descent
-- Steer a chariot around a tight turn
-- Securely tie up a prisoner
-- Play a stringed instrument
-- Craft a small or detailed object
+- Steering a chariot around a tight turn
+- Playing a stringed instrument
+- Crafting a small or detailed object
 
 ##### Initiative
 
@@ -231,14 +224,10 @@ Intelligence measures mental acuity, accuracy of recall, and the ability to reas
 
 #### Intelligence Checks
 
-The GM might call for an Intelligence check when you try to accomplish tasks like the following:
+The GM might call for an Intelligence check when you try to accomplish tasks that require quick-wittedness and rationality, that do not fall under the Arcane, History and Religion skills. Examples might include:
 
-- Communicate with a creature without using words
-- Estimate the value of a precious item
-- Pull together a disguise to pass as a city guard
-- Forge a document
-- Recall lore about a craft or trade
-- Win a game of skill
+- Estimating the value of a precious item
+- Recalling lore about a craft or trade
 
 #### Skill Checks
 
@@ -258,10 +247,7 @@ Wisdom reflects how attuned you are to the world around you and represents perce
 
 #### Wisdom Checks
 
-The GM might call for a Wisdom check when you try to accomplish tasks like the following:
-
-- Get a gut feeling about what course of action to follow
-- Discern whether a seemingly dead or living creature is undead
+The GM might call for a Wisdom check when you try to accomplish tasks that require perceptiveness and intuition, that do not fall under the Dungeoneering, Heal, Insight and Perception skills. An example could be getting a gut feeling about what course of action to follow.
 
 #### Skill Checks
 
@@ -281,14 +267,11 @@ Charisma measures your ability to interact effectively with others. It includes 
 
 #### Charisma Checks
 
-The GM might call for a Charisma check when you try to accomplish tasks like the following:
-
-- Find the best person to talk to for news, rumors, and gossip
-- Blend into a crowd to get the sense of key topics of conversation
+The GM might call for a Charisma check when you try to accomplish tasks that require charm and personability, that do not fall under the Bluff, Diplomacy, Intimidate and Streetsmarts skills. An example could be communicating with a creature when you do not share a common language. 
 
 #### Skill Checks
 
-Deception, Persuasion, Intimidate and Streetsmarts skill checks add your Charisma modifier.
+Bluff, Diplomacy, Intimidate and Streetsmarts skill checks add your Charisma modifier.
 
 #### Attack Rolls and Damage
 
@@ -347,6 +330,22 @@ These brief summaries of the five alignments describe the typical behavior of a 
 **Evil** is the alignment of those who do whatever they can get away with, without compassion or qualms. Many drow, some cloud giants, and goblins are evil.
 
 **Chaotic evil** creatures act with arbitrary violence, spurred by their greed, hatred, or bloodlust. 
+
+### Variant: Nine-Point Alignment
+
+In this variant, instead of five alignments there are nine. 
+
+Alignment is a combination of two factors: one identifies morality  (good, evil, or neutral), and the other describes attitudes toward  society and order (lawful, chaotic, or neutral). Thus, nine distinct  alignments define the possible combinations. These brief summaries of  the nine alignments describe the typical behavior of a creature with  that alignment. Individuals might vary significantly from that typical  behavior, and few people are perfectly and consistently faithful to the  precepts of their alignment.
+
+- **Lawful good (LG)** creatures can be counted on to do  the right thing as expected by society. 
+- **Neutral good (NG)** folk do the best they can to help others according to their needs. 
+- **Chaotic good (CG)** creatures act as their conscience directs, with little regard for what others expect. Copper dragons,  many elves, and unicorns are chaotic good.
+- **Lawful neutral (LN)** individuals act in accordance with law, tradition, or personal codes. 
+- **Neutral (N)** or **True neutral (TN)** is the alignment of those who prefer to steer clear of moral questions and don’t take sides, doing what seems  best at the time. 
+- **Chaotic neutral (CN)** creatures follow their whims,  holding their personal freedom above all else. 
+- **Lawful evil (LE)** creatures methodically take what  they want, within the limits of a code of tradition, loyalty, or order.
+- **Neutral evil (NE)** is the alignment of those who do  whatever they can get away with, without compassion or qualms. 
+- **Chaotic evil (CE)** creatures act with arbitrary  violence, spurred by their greed, hatred, or bloodlust.
 
 ## Languages
 
@@ -530,7 +529,7 @@ Areas of effect only apply to Near and Far powers.
 Each Near or Far power describes its area of effect, usually by giving its size and one of the following area types:
 
 - **Burst:** A burst has an area of effect reaching a number of squares in each direction from the area's base square equal to its size. For example, a “burst 2” will affect the base square and each square within two squares of the base square.
-- **Arc:** An arc creates a quadratic area of effect where the length of each side is a number of squares equal to the size of the arc. For example, an “arc 2” will create an area two squares on each side (four squares total). The area of effect is adjacent to the area's base square.
+- **Arc:** An arc creates a quadratic area of effect where the length of each side is a number of squares equal to the size of the arc. For example, an “arc 2” will create an area two squares on each side (four squares total). The area of effect begins adjacent to the area's base square.
 - **Wall:** A wall creates an area of effect filling a number of squares equal to the area's size, starting with a square adjacent to the area's base square. Each square in the area must share an edge with at least one other square in the area and may not share more than two edges with other squares at the same height. However, wall squares may be stacked on top of each other.
 
 Other areas are possible as specified by individual powers.
@@ -655,6 +654,19 @@ Unless otherwise mentioned, calculate the summon's stats as follows:
 * **Hit Points:** Equal to the summoner's Staggered value
 
 A summoner can dismiss their summon with a swift action. Otherwise it disappears after five minutes. 
+
+### Teleportation
+
+Unless otherwise specified, teleportation obeys the following rules: 
+
+* You can teleport while prone or while restrained or immobilized. You remain prone after your teleport; whether you remain restrained/immobilized depends on whether you have left behind what was causing that condition. 
+* Teleportation is not affected by the terrain between your start point and your destination. 
+* The destination of the teleport must be a space that is unoccupied and can fit the subject of the teleport. 
+* The initiator of the teleportation must have line of sight to the destination of the teleport. The initiator may or may not be the subject of the teleportation, depending on whether the teleportation affects the user or another target.  
+* Teleportation does not provoke opportunity attacks. 
+* Teleportation does not count as unwilling movement, even if the creature does not want to be teleported. 
+
+Because a teleport requires line of sight, blindfolding creatures that are capable of teleporting prevents them from escaping. 
 
 ### Zones
 
@@ -1012,7 +1024,7 @@ Combatants often find themselves lying on the ground, either because they are kn
 
 You can **Drop Prone** as a free action. **Stand Up from Prone** is a move action.
 
-To move while prone, you must **Crawl** or use magic such as teleportation. Every foot of movement while crawling costs 1 extra square, and you provoke opportunity attacks while crawling. 
+To move while prone, you must **Crawl** or use magic such as teleportation (you remain prone after teleporting, but at least you move). Every foot of movement while crawling costs 1 extra square, and you provoke opportunity attacks while crawling. 
 
 ## Moving Around Other Creatures
 
@@ -1379,7 +1391,11 @@ The following definitions specify what happens to a creature while it is subject
 - Attack rolls against you have combat advantage.
 
 ## Slowed
-- Your speed for any form of movement other than teleportation is reduced to 2 and can't be increased.
+- Your speed for any form of movement other than teleportation is reduced to 2 if it was higher than 2.
+
+The slowed condition setting your speed to 2 applies *after* all other modifiers to your speed have been applied. For example, if you are subject to a power that gives you a -2 penalty to speed, and your speed is normally 6, then your speed while slowed is 2. 
+
+However, note that slowed affects your speed, not your movement. For example, if you take the Dash action (allowing you to move your speed +2), you can move 4 since your speed is 2. 
 
 ## Stunned
 

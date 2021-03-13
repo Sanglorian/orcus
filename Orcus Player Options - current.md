@@ -874,7 +874,7 @@ In cases where the skill restricts who can achieve certain results you can’t a
 
 Sometimes a character tries to do something to which no specific skill really applies. In these cases, you make an ability check. An ability check is a roll of 1d20 plus the appropriate ability modifier. Essentially, you’re making an untrained skill check.
 
-In some cases, an action is a straight test of one’s ability with no luck involved. Just as you wouldn’t make a height check to see who is taller, you don’t make a Strength check to see who is stronger.
+In some cases, what is needed is a straight test of one’s ability with no luck involved. Just as you wouldn’t make a height check to see who is taller, you don’t make a Strength check to see who is stronger.
 
 ## Extended Challenges
 
