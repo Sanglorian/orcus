@@ -123,9 +123,9 @@ Your 4-hour trance has the same effect as a 6-hour long rest.
 
 ***Extra Skill:*** You are trained in an extra skill of your choice.
 
-***Fairy Waltz:*** You have the *fairy waltz* power.
+***Fairy Waltz:*** You have the *highblood teleport* power.
 
-#### Fairy Waltz
+#### Highblood Teleport
 **Encounter** **Move Action**
 **High Elf Utility Racial** ● **Teleport**
 **Self** 
@@ -169,7 +169,9 @@ Wood elf hair color ranges from yellow to a coppery red, and they are more muscu
 
 **Wood Elf Utility Racial** 
 
-**Self** **Trigger:** You just made an attack roll.
+**Self** 
+
+**Trigger:** You just made an attack roll.
 
 **Effect:** Reroll the attack roll and take the new result.
 
@@ -177,7 +179,7 @@ Wood elf hair color ranges from yellow to a coppery red, and they are more muscu
 
 As a halfling, you can easily hide from notice, even using other people as cover. You're inclined to be affable and get along well with others.
 
-A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.
+A halfling reaches adulthood at the age of 20 and generally lives into the middle of their second century.
 
 As a rule, halflings are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.
 
@@ -245,10 +247,13 @@ Humans typically learn the languages of other peoples they deal with, including 
 
 ***Hardy Stock:*** +1 racial bonus to Fortitude, Reflex and Will defenses. 
 
-***Human Power:*** Choose one: 
+***Human Power:*** You have a third level 1 at-will attack power from your class. 
 
-* You have the *true grit* power.
-* You have a third level 1 at-will attack power from your class. 
+### Variant: True Grit
+
+Instead of giving humans a third level 1 at-will attack power from their class, GMs may want to offer them the *true grit* power instead - especially if they are taking a class that does not have at-will attack powers. However, GMs should note that *true grit* is unusually powerful for a racial power and it overlaps with the wood elf's *elfshot* power.
+
+***Human Power:*** You have the *true grit* power.
 
 #### True Grit
 **Encounter** **No Action**
@@ -295,7 +300,7 @@ Which type of damage you do (and what tag the power has) depends on which type o
 **Encounter** **Swift Action**
 **Dragonborn Attack Racial** ● **[Energy]**
 **Near** arc 3, targets all 
-**Attack:** Highest of Strength, Constitution, Dexterity, +2 vs Reflex
+**Attack:** (Highest of Strength, Constitution, Dexterity) +2 vs Reflex
 **Hit:** Level 1: 1d6 + Constitution modifier. Level 11: 2d6 + Constitution modifier. Level 21: 3d6 + Constitution modifier.
 
 ## Gnome
@@ -398,8 +403,6 @@ Your half-elf character has some qualities in common with elves and some that ar
 
 Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.
 
-Half-orcs inherit a tendency toward chaos from their orc parents and are not strongly inclined toward good. Half-orcs raised among orcs and willing to live out their lives among them are usually evil.
-
 Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. 
 
 ### Half-Orc Traits
@@ -464,7 +467,7 @@ Tieflings share certain racial traits as a result of their infernal descent.
 
 ***Low-Light Vision:*** You can see in dim light as if it were bright light.
 
-***Hellish Resistance:*** Resistance to fire 5 + (level/2).
+***Hellish Resistance:*** Resistance to fire 5 + half your level.
 
 ***Infernal Legacy:*** +1 racial bonus on attacks against Staggered enemies. 
 
@@ -559,48 +562,60 @@ Level 11: Attack bonus increases to +4. 2d8 + modifier damage.
 Level 21: Attack bonus increases to +6. 3d8 + modifier damage.
 **Special:** This is a basic melee attack.
 
+## Variant: No Weapon Limitations for Small Characters
+
+While officially Small characters are limited in which weapons they can use, this can be frustrating for players and is not very important for game balance. GMs may prefer to let Small characters use any weapon they like. 
+
 # Classes
 
 Some classes have custom level progressions. Otherwise they follow the default progression, shown below.
 
+The numbers indicate powers from your class (although note that sometimes you will have the opportunity to select a power not of your class, but filling a class slot). 
+
+"P" indicates a power from your prestige path, so for example at level 11 you will typically gain an encounter attack power from your prestige path. "E" indicates a power from your epic path. 
+
+The appendix has a table that shows which level powers a character of a particular level (following the default progression) can have. This is useful if you are creating a character at higher than 1st level, or if you get confused about which powers can be replaced when. 
+
+When you reach a level that allows you to replace a power, you choose a class attack power you know of that frequency (encounter or daily) and give it up, exchanging it for a power of the level you're gaining. For example, at level 13 you can give up one of your existing encounter attack powers (e.g., the one you got at level 1) in exchange for a level 13 encounter attack power. 
+
 **Table - Default Power Progression**
 
-| Level | At-will | Encounter | Daily | Utility | Power Replacements               |
-| ----- | ------- | --------- | ----- | ------- | -------------------------------- |
-| 1     | 2       | 1         | 1     |         |                                  |
-| 2     | 2       | 1         | 1     | 1       |                                  |
-| 3     | 2       | 2         | 1     | 1       |                                  |
-| 4     | 2       | 2         | 1     | 1       |                                  |
-| 5     | 2       | 2         | 2     | 1       |                                  |
-| 6     | 2       | 2         | 2     | 2       |                                  |
-| 7     | 2       | 3         | 2     | 2       |                                  |
-| 8     | 2       | 3         | 2     | 2       |                                  |
-| 9     | 2       | 3         | 3     | 2       |                                  |
-| 10    | 2       | 3         | 3     | 3       |                                  |
-| 11    | 2       | 4         | 3     | 3       |                                  |
-| 12    | 2       | 4         | 3     | 4       |                                  |
-| 13    | 2       | 4         | 3     | 4       | Replace 1 encounter attack power |
-| 14    | 2       | 4         | 3     | 4       |                                  |
-| 15    | 2       | 4         | 3     | 4       | Replace 1 daily attack power     |
-| 16    | 2       | 4         | 3     | 5       |                                  |
-| 17    | 2       | 4         | 3     | 5       | Replace 1 encounter attack power |
-| 18    | 2       | 4         | 3     | 5       |                                  |
-| 19    | 2       | 4         | 3     | 5       | Replace 1 daily attack power     |
-| 20    | 2       | 4         | 4     | 5       |                                  |
-| 21    | 2       | 4         | 4     | 5       |                                  |
-| 22    | 2       | 4         | 4     | 6       |                                  |
-| 23    | 2       | 4         | 4     | 6       | Replace 1 encounter attack power |
-| 24    | 2       | 4         | 4     | 6       |                                  |
-| 25    | 2       | 4         | 4     | 6       | Replace 1 daily attack power     |
-| 26    | 2       | 4         | 4     | 7       |                                  |
-| 27    | 2       | 4         | 4     | 7       | Replace 1 encounter attack power |
-| 28    | 2       | 4         | 4     | 7       |                                  |
-| 29    | 2       | 4         | 4     | 7       | Replace 1 daily attack power     |
-| 30    | 2       | 4         | 4     | 7       |                                  |
+| Level | At-will Attack | Encounter Attack | Daily Attack | Utility   | Power Replacements               |
+| ----- | -------------- | ---------------- | ------------ | --------- | -------------------------------- |
+| 1     | 2              | 1                | 1            |           |                                  |
+| 2     | 2              | 1                | 1            | 1         |                                  |
+| 3     | 2              | 2                | 1            | 1         |                                  |
+| 4     | 2              | 2                | 1            | 1         |                                  |
+| 5     | 2              | 2                | 2            | 1         |                                  |
+| 6     | 2              | 2                | 2            | 2         |                                  |
+| 7     | 2              | 3                | 2            | 2         |                                  |
+| 8     | 2              | 3                | 2            | 2         |                                  |
+| 9     | 2              | 3                | 3            | 2         |                                  |
+| 10    | 2              | 3                | 3            | 3         |                                  |
+| 11    | 2              | 3 + P            | 3            | 3         |                                  |
+| 12    | 2              | 3 + P            | 3            | 3 + P     |                                  |
+| 13    | 2              | 3 + P            | 3            | 3 + P     | Replace 1 encounter attack power |
+| 14    | 2              | 3 + P            | 3            | 3 + P     |                                  |
+| 15    | 2              | 3 + P            | 3            | 3 + P     | Replace 1 daily attack power     |
+| 16    | 2              | 3 + P            | 3            | 4 + P     |                                  |
+| 17    | 2              | 3 + P            | 3            | 4 + P     | Replace 1 encounter attack power |
+| 18    | 2              | 3 + P            | 3            | 4 + P     |                                  |
+| 19    | 2              | 3 + P            | 3            | 4 + P     | Replace 1 daily attack power     |
+| 20    | 2              | 3 + P            | 3 + P        | 4 + P     |                                  |
+| 21    | 2              | 3 + P            | 3 + P        | 4 + P     |                                  |
+| 22    | 2              | 3 + P            | 3 + P        | 5 + P     |                                  |
+| 23    | 2              | 3 + P            | 3 + P        | 5 + P     | Replace 1 encounter attack power |
+| 24    | 2              | 3 + P            | 3 + P        | 5 + P     |                                  |
+| 25    | 2              | 3 + P            | 3 + P        | 5 + P     | Replace 1 daily attack power     |
+| 26    | 2              | 3 + P            | 3 + P        | 5 + P + E |                                  |
+| 27    | 2              | 3 + P            | 3 + P        | 5 + P + E | Replace 1 encounter attack power |
+| 28    | 2              | 3 + P            | 3 + P        | 5 + P + E |                                  |
+| 29    | 2              | 3 + P            | 3 + P        | 5 + P + E | Replace 1 daily attack power     |
+| 30    | 2              | 3 + P            | 3 + P        | 5 + P + E |                                  |
 
-# Prestige Classes
+# Prestige Paths
 
-At level 11, each player character gets a prestige class. This class is in addition to their main class, which still gives them some powers. 
+At level 11, each player character gets a prestige path. This path is in addition to their main class, which still gives them some powers. 
 
 ## Weapon Master
 
@@ -622,14 +637,14 @@ At level 11, each player character gets a prestige class. This class is in addit
 **Melee or Ranged** weapon 
 **Attack:** Strength vs AC
 **Hit:** 2dW + Strength modifier damage.
-Secondary attack: Strength vs AC. Hit: 1dW + Strength modifier damage.
-**Miss:** Secondary attack: Strength vs AC. Hit: 2dW + Strength modifier damage.
+*Secondary attack:* Must be against the same target. Strength vs AC. Hit: 1dW + Strength modifier damage.
+**Miss:** *Secondary attack:* Must be against the same target. Strength vs AC. Hit: 2dW + Strength modifier damage.
 
 #### Fast Learner
 **Daily** **Swift Action**
 **Weapon Master Utility 12** ● **Martial**
 **Self** 
-**Hit:** Select a feat you meet the prerequisites for. You gain that feat until your next long rest.
+**Effect:** Select a feat you meet the prerequisites for. You gain that feat until your next long rest.
 
 #### First Blood
 **Daily** **Standard Action**
@@ -683,11 +698,11 @@ While you move, you are incorporeal.
 **Hit:** The creature is transported to an extradimensional space and cannot act (save ends).
 Optional: The creature takes 2dW + Dexterity modifier damage.
 
-# Epic Classes
+# Epic Paths
 
-At level 21, each player character gets an epic class. This class is on top of their main class, which still gives them some powers. 
+At level 21, each player character gets an epic path. This path is on top of their main class, which still gives them some powers, and their prestige path (which stops giving them powers after level 20). 
 
-## Agent Retriever (Epic Class)
+## Agent Retriever
 
 Elemental tyrants, the heralds of the gods, the voices between the planets - they all have peculiar needs, and the agents retriever cater to them. You travel across the planes, locating and acquiring whatever your patrons need. 
 
@@ -695,7 +710,9 @@ Elemental tyrants, the heralds of the gods, the voices between the planets - the
 
 ### Immortality
 
-You fade away from public view, but no one can ever confirm your death. Just when people think old age, misadventure or vengeance must have done you in, someone reports spying you in a bazaar, or finding your calling card in the Celestial Vaults, or seeing you for a moment through a pool in the Astral Plane. 
+When your adventuring days come to an end, a number of different fates may await you. What follows is one possibility. 
+
+***Corner of the World's Eye:*** You fade away from public view, but no one can ever confirm your death. Just when people think old age, misadventure or vengeance must have done you in, someone reports spying you in a bazaar, or finding your calling card in the Celestial Vaults, or seeing you for a moment through a pool in the Astral Plane. 
 
 ### Class Features
 
@@ -703,7 +720,7 @@ You fade away from public view, but no one can ever confirm your death. Just whe
 
 The magic item is not created, it is summoned. The GM may want to identify which creature's possession the magic item was summoned from, and whether there are any hints to your identity when it arrives back in their possession the following day. 
 
-***Interplanar Contingencies (Level 24):*** Once per day, when you die, you appear the following round on your initiative count with half your maximum HP and under the slowed condition, in an unoccupied space of your choice at least 6 squares from your body. You cannot use any attack powers or recoveries. 
+***Interplanar Contingencies (Level 24):*** Once per day, when you die, you appear the following round on your initiative count with half your maximum HP and under the slowed condition, in an unoccupied space of your choice at least 6 squares from your dead body. You cannot use any attack powers or recoveries, but you have all the equipment and magic items that were on your person when you died. The equipment and magic items that are actually on your body become shimmering and insubstantial, and cannot be used or picked up.  
 
 When you are adjacent to your corpse, you can use a swift action to merge the old and new bodies. You can now use attack powers and recoveries, although you do not recover any powers or recoveries that were already spent. You lose the slowed condition, but otherwise keep the HP and any conditions, persistent damage, etc., of your new body. Choose which square your merged body appears in. 
 
@@ -735,13 +752,13 @@ This roll works just like an attack roll - the higher the roll, the better. Eith
 
 ## Using Skills
 
-When your character uses a skill, you make a skill check to see how well he or she does. The higher the result of the skill check, the better. Based on the circumstances, your result must match or beat a particular number (a DC or the result of an opposed skill check) for the check to be successful. The harder the task, the higher the number you need to roll.
+When your character uses a skill, you make a skill check to see how well they do. The higher the result of the skill check, the better. Based on the circumstances, your result must match or beat a particular number (a DC or the result of an opposed skill check) for the check to be successful. The harder the task, the higher the number you need to roll.
 
-Circumstances can affect your check. A character who is free to work without distractions can make a careful attempt and avoid simple mistakes. A character who has lots of time can try over and over again, thereby assuring the best outcome. If others help, the character may succeed where otherwise he or she would fail.
+Circumstances can affect your check. A character who is free to work without distractions can make a careful attempt and avoid simple mistakes. A character who has lots of time can try over and over again, thereby assuring the best outcome. If others help, the character may succeed where otherwise they would fail.
 
 ## Skill Checks
 
-A skill check takes into account a character’s training (skill training), natural talent (ability modifier), and luck (the die roll). It may also take into account his or her race’s knack for doing certain things (racial bonus) or what armor he or she is wearing (armor check penalty), or a certain feat the character possesses, among other things.
+A skill check takes into account a character’s training (skill training), natural talent (ability modifier), and luck (the die roll). It may also take into account their race’s knack for doing certain things (racial bonus) or what armor they are wearing (armor check penalty), or a certain feat the character possesses, among other things.
 
 To make a skill check, roll 1d20 and add your character’s skill modifier for that skill. The skill modifier incorporates the character’s ranks in that skill and the ability modifier for that skill’s key ability, plus any other miscellaneous modifiers that may apply, including racial bonuses and armor check penalties. The higher the result, the better. Unlike with attack rolls and saving throws, a natural roll of 20 on the d20 is not an automatic success, and a natural roll of 1 is not an automatic failure.
 
@@ -794,7 +811,7 @@ In general, you can try a skill check again if you fail, and you can keep trying
 
 ### Untrained Skill Checks
 
-Generally, if your character attempts to use a skill he or she does not possess, you make a skill check as normal. The skill modifier doesn’t have a skill training bonus added. Any other applicable modifiers, such as the modifier for the skill’s key ability, are applied to the check.
+Generally, if your character attempts to use a skill they do not possess, you make a skill check as normal. The skill modifier doesn’t have a skill training bonus added. Any other applicable modifiers, such as the modifier for the skill’s key ability, are applied to the check.
 
 Certain uses of some skills are only available to someone who is trained in that skill.
 
@@ -831,7 +848,7 @@ Here's how to determine a character's total for a passive check:
 
 The game refers to a passive check total as a **score**.
 
-For example, if a 1st-level character has a Wisdom of 15 and training in Perception, he or she has a passive Perception score of 17.
+For example, if a 1st-level character has a Wisdom of 15 and training in Perception, they have a passive Perception score of 17.
 
 ## Combining Skill Attempts
 
@@ -847,7 +864,7 @@ Group checks don't come up very often, and they're most useful when all the char
 
 ### Aid Another
 
-You can help another character achieve success on his or her skill or ability check by making the same kind of check in a cooperative effort. The DC is 10 + half the level of the ally you are aiding. If you succeed, the character you are helping gets a +2 bonus to his or her check. If you fail, the character you are helping gets a -1 penalty to his or her check. 
+You can help another character achieve success on their skill or ability check by making the same kind of check in a cooperative effort. The DC is 10 + half the level of the ally you are aiding. If you succeed, the character you are helping gets a +2 bonus to their check. If you fail, the character you are helping gets a -1 penalty to their check. 
 
 In many cases, a character’s help won’t be beneficial, or only a limited number of characters can help at once.
 
@@ -914,8 +931,8 @@ The skill name line is followed by a general description of what using the skill
 * Acrobatics
 * Arcana
 * Athletics
-* Deception
-* Persuasion
+* Bluff
+* Diplomacy
 * Dungeoneering 
 * Endure
 * Heal
@@ -1207,7 +1224,7 @@ _Scale mail:_ Str 13, Con 13, Armor Proficiency (chainmail)
 ### Athame
 
 **Prerequisite:** Proficiency with one or more focuses.
-**Benefit:** You can use a weapon as your focus. Add its enhancement bonus, if any, to attack and damage rolls, and any properties that apply to powers to powers you use with the weapon as your focus. Your weapon's proficiency bonus, however, is *not* applied to focus powers even if you use the weapon as a focus. 
+**Benefit:** Choose one weapon type (longsword, longbow, etc). You can use a weapon of that type, including a magic weapon, as your focus. Add its enhancement bonus, if any, to attack and damage rolls, and any properties that apply to powers to powers you use with the weapon as your focus. Your weapon's proficiency bonus, however, is *not* applied to focus powers even if you use the weapon as a focus. 
 
 ### Avoidance
 **Benefit:** Attacks of opportunity suffer a -2 penalty on attack rolls against you. 
@@ -1282,6 +1299,10 @@ Choose a skill.
 
 ### Skill Training 
 **Benefit:** Each time you take this feat, you gain training in an additional skill. 
+
+### Tactical Rearrangement
+
+**Benefit:** When you would push or pull a target, you can slide them instead.
 
 ### Talented Healer
 **Benefit:** You can provide first aid as a swift action. You also get a +2 bonus on all Heal checks. 
@@ -1446,7 +1467,7 @@ Every weapon is classified as either melee or ranged. A **melee weapon** is typi
 
 ### Weapon Proficiency
 
-Your race, class, and feats can grant you proficiency with certain weapons or categories of weapons. The two categories are **simple** and **martial**. Most people can use simple weapons with proficiency. These weapons include clubs, maces, and other weapons often found in the hands of commoners. Martial weapons, including swords, axes, and polearms, require more specialized training to use effectively. Most warriors use martial weapons because these weapons put their fighting style and training to best use.
+Your race, class, and feats can grant you proficiency with certain weapons or categories of weapons. The three categories are **simple**, **martial** and **exotic**. Most people can use simple weapons with proficiency. These weapons include clubs, maces, and other weapons often found in the hands of commoners. Martial weapons, including swords, axes, and polearms, require more specialized training to use effectively. Most warriors use martial weapons because these weapons put their fighting style and training to best use. Typically, proficiency in an exotic weapon only comes with specialized training. 
 
 Proficiency with a weapon allows you to add the weapon's proficiency bonus to the attack roll for any attack you make with that weapon. If you make an attack roll using a weapon with which you lack proficiency, you do not add the proficiency bonus to the attack roll.
 
@@ -1504,6 +1525,12 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 #### Improvised Weapons
 
 An improvised weapon, including an unarmed strike, does 1d4 damage (one-handed) or 1d8 damage (two-handed), with no proficiency bonus on the attack. 
+
+### Exotic Weapons
+
+At the moment, no particular exotic weapons are presented. If you take the Weapon Proficiency feat and would like to select an exotic weapon, work with your GM to design one. A simple rule of thumb to create an exotic weapon is to take a martial weapon and add either +1 to the proficiency bonus (maximum +3) **or** +2 to the damage die size (so a 1d6 damage weapon becomes a 1d8 damage weapon). 
+
+For example, you could create a bastard sword exotic weapon by taking the longsword and giving it a 1d10 damage die instead of a 1d8 damage die, or a compound longbow by taking the longbow and giving it a +3 proficiency bonus instead of a +2 proficiency bonus. 
 
 **Table - Simple Melee Weapons** 
 
@@ -2300,6 +2327,49 @@ The third command word causes the *folding boat* to fold back into a box, provid
 | Salve of resurrection                 | 30    | Standard | Apply to an adjacent character that died within 1 round. That character is resurrected and they are healed 50 HP.      |
 | Potion of healing and rescue          | 15    | Swift    | Spend a healing surge. Heal 25 HP instead of your normal value, and make one saving throw against a save-ends effect.  |
 | Advanced potion of healing and rescue | 25    | Swift    | Spend a healing surge. Heal 50 HP instead of your normal value, and make one saving throw against a save-ends effect.  |
+
+# Appendices
+
+## Appendix A: Powers Available by Level
+
+The following table shows how many powers and of which levels a character is entitled to, based on the character's level. A character can always choose a lower-level power (of the same frequency, e.g. a level 3 encounter attack power instead of a level 7 encounter attack power) in place of a higher-level one.
+
+"(P)" indicates that the power comes from a prestige path. "(E)" indicates that the power comes from an epic path. 
+
+**Table - Powers Available by Level**
+
+| Level | At-will Attack | Encounter Attack   | Daily Attack       | Utility                          |
+| ----- | -------------- | ------------------ | ------------------ | -------------------------------- |
+| 1     | 1, 1           | 1                  | 1                  |                                  |
+| 2     | 1, 1           | 1                  | 1                  | 2                                |
+| 3     | 1, 1           | 1, 3               | 1                  | 2                                |
+| 4     | 1, 1           | 1, 3               | 1                  | 2                                |
+| 5     | 1, 1           | 1, 3               | 1, 5               | 2                                |
+| 6     | 1, 1           | 1, 3               | 1, 5               | 2, 6                             |
+| 7     | 1, 1           | 1, 3, 7            | 1, 5               | 2, 6                             |
+| 8     | 1, 1           | 1, 3, 7            | 1, 5               | 2, 6                             |
+| 9     | 1, 1           | 1, 3, 7            | 1, 5, 9            | 2, 6                             |
+| 10    | 1, 1           | 1, 3, 7            | 1, 5, 9            | 2, 6, 10                         |
+| 11    | 1, 1           | 1, 3, 7, 11 (P)    | 1, 5, 9            | 2, 6, 10                         |
+| 12    | 1, 1           | 1, 3, 7, 11 (P)    | 1, 5, 9            | 2, 6, 10, 12 (P)                 |
+| 13    | 1, 1           | 3, 7, 11 (P), 13   | 1, 5, 9            | 2, 6, 10, 12 (P)                 |
+| 14    | 1, 1           | 3, 7, 11 (P), 13   | 1, 5, 9            | 2, 6, 10, 12 (P)                 |
+| 15    | 1, 1           | 3, 7, 11 (P), 13   | 5, 9, 15           | 2, 6, 10, 12 (P)                 |
+| 16    | 1, 1           | 3, 7, 11 (P), 13   | 5, 9, 15           | 2, 6, 10, 12 (P), 16             |
+| 17    | 1, 1           | 7, 11 (P), 13, 17  | 5, 9, 15           | 2, 6, 10, 12 (P), 16             |
+| 18    | 1, 1           | 7, 11 (P), 13, 17  | 5, 9, 15           | 2, 6, 10, 12 (P), 16             |
+| 19    | 1, 1           | 7, 11 (P), 13, 17  | 9, 15, 19          | 2, 6, 10, 12 (P), 16             |
+| 20    | 1, 1           | 7, 11 (P), 13, 17  | 9, 15, 19, 20 (P)  | 2, 6, 10, 12 (P), 16             |
+| 21    | 1, 1           | 7, 11 (P), 13, 17  | 9, 15, 19, 20 (P)  | 2, 6, 10, 12 (P), 16             |
+| 22    | 1, 1           | 7, 11 (P), 13, 17  | 9, 15, 19, 20 (P)  | 2, 6, 10, 12 (P), 16, 22         |
+| 23    | 1, 1           | 11 (P), 13, 17, 23 | 9, 15, 19, 20 (P)  | 2, 6, 10, 12 (P), 16, 22         |
+| 24    | 1, 1           | 11 (P), 13, 17, 23 | 9, 15, 19, 20 (P)  | 2, 6, 10, 12 (P), 16, 22         |
+| 25    | 1, 1           | 11 (P), 13, 17, 23 | 15, 19, 20 (P), 25 | 2, 6, 10, 12 (P), 16, 22         |
+| 26    | 1, 1           | 11 (P), 13, 17, 23 | 15, 19, 20 (P), 25 | 2, 6, 10, 12 (P), 16, 22, 26 (E) |
+| 27    | 1, 1           | 11 (P), 17, 23, 27 | 15, 19, 20 (P), 25 | 2, 6, 10, 12 (P), 16, 22, 26 (E) |
+| 28    | 1, 1           | 11 (P), 17, 23, 27 | 15, 19, 20 (P), 25 | 2, 6, 10, 12 (P), 16, 22, 26 (E) |
+| 29    | 1, 1           | 11 (P), 17, 23, 27 | 19, 20 (P), 25, 29 | 2, 6, 10, 12 (P), 16, 22, 26 (E) |
+| 30    | 1, 1           | 11 (P), 17, 23, 27 | 19, 20 (P), 25, 29 | 2, 6, 10, 12 (P), 16, 22, 26 (E) |
 
 # Legal
 

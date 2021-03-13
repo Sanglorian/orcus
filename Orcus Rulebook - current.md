@@ -495,7 +495,7 @@ The rest of a power entry describes the power's effects.
 
 Most powers require a standard action to use, but some powers require a move action, swift action, immediate action, or other. Some only require a free action. 
 
-Some powers have a "Trigger" listed. You can only use the power if the trigger is satisfied. 
+Some powers have a "Trigger" listed. You can only use the power if the trigger is satisfied, although you do not have to use the power just because you are able to do so. 
 
 ## Tags
 
