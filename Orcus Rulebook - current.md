@@ -59,7 +59,7 @@ A feat modifier comes from one of your feats.
 
 A power modifier comes from your or another's use of a power. 
 
-##### Racial Bonus
+##### Ancestry Bonus
 
 A bonus granted because of the culture a particular creature was brought up in or because of innate characteristics of that type of creature. 
 
@@ -285,7 +285,7 @@ Add the higher of your Wisdom modifier and your Charisma modifier to your Reflex
 
 Your character can be assigned ability scores in various ways. Here are two ways.
 
-These methods are done *before* racial bonuses are applied. 
+These methods are done *before* ancestry bonuses are applied. 
 
 ### Point Buy
 
@@ -349,7 +349,7 @@ Alignment is a combination of two factors: one identifies morality  (good, evil,
 
 ## Languages
 
-Your race indicates the languages your character can speak by default. Note these languages on your character sheet.
+Your ancestry indicates the languages your character can speak by default. Note these languages on your character sheet.
 
 Choose your languages from the Standard Languages table. If you learn a language at a level later than 1, you can also select from the Exotic Languages table or a secret language, such as thieves' cant or the tongue of druids.
 
@@ -381,38 +381,38 @@ The table below shows how many experience points (XP) are required to reach a pa
 
 **Table - Levels and Their Benefits** 
 
-| Level | XP to Reach Next Level | Cumulative XP | Ability Scores     | Feats | Features                      |
-| ----- | ---------------------- | ------------- | ------------------ | ----- | ----------------------------- |
-| 1     | 1,000                  | -             |                    | 1     | Class features, racial traits |
-| 2     | 1,250                  | 1,000         |                    | +1    |                               |
-| 3     | 1,500                  | 2,250         |                    |       |                               |
-| 4     | 1,750                  | 3,750         | Increase two by +1 | +1    |                               |
-| 5     | 2,000                  | 5,500         |                    |       |                               |
-| 6     | 2,500                  | 7,500         |                    | +1    |                               |
-| 7     | 3,000                  | 10,000        |                    |       |                               |
-| 8     | 3,500                  | 13,000        | Increase two by +1 | +1    |                               |
-| 9     | 4,000                  | 16,500        |                    |       |                               |
-| 10    | 5,000                  | 20,500        |                    | +1    |                               |
-| 11    | 6,000                  | 25,500        | Increase all by +1 |       | Select a prestige class       |
-| 12    | 7,000                  | 31,500        |                    | +1    |                               |
-| 13    | 8,000                  | 38,500        |                    |       |                               |
-| 14    | 10,000                 | 46,500        | Increase two by +1 | +1    |                               |
-| 15    | 12,000                 | 56,500        |                    |       |                               |
-| 16    | 14,000                 | 68,500        |                    | +1    |                               |
-| 17    | 16,000                 | 82,500        |                    |       |                               |
-| 18    | 20,000                 | 98,500        | Increase two by +1 | +1    |                               |
-| 19    | 24,000                 | 118,500       |                    |       |                               |
-| 20    | 28,000                 | 142,500       |                    | +1    |                               |
-| 21    | 32,000                 | 170,500       | Increase all by +1 |       | Select an epic class          |
-| 22    | 40,000                 | 202,500       |                    | +1    |                               |
-| 23    | 48,000                 | 242,500       |                    |       |                               |
-| 24    | 56,000                 | 290,500       | Increase two by +1 | +1    |                               |
-| 25    | 64,000                 | 346,500       |                    |       |                               |
-| 26    | 80,000                 | 410,500       |                    | +1    |                               |
-| 27    | 96,000                 | 490,500       |                    |       |                               |
-| 28    | 112,000                | 586,500       | Increase two by +1 | +1    |                               |
-| 29    | 128,000                | 698,500       |                    |       |                               |
-| 30    | N/A                    | 826,500       |                    | +1    |                               |
+| Level | XP to Reach Next Level | Cumulative XP | Ability Scores     | Feats | Features                        |
+| ----- | ---------------------- | ------------- | ------------------ | ----- | ------------------------------- |
+| 1     | 1,000                  | -             |                    | 1     | Class features, ancestry traits |
+| 2     | 1,250                  | 1,000         |                    | +1    |                                 |
+| 3     | 1,500                  | 2,250         |                    |       |                                 |
+| 4     | 1,750                  | 3,750         | Increase two by +1 | +1    |                                 |
+| 5     | 2,000                  | 5,500         |                    |       |                                 |
+| 6     | 2,500                  | 7,500         |                    | +1    |                                 |
+| 7     | 3,000                  | 10,000        |                    |       |                                 |
+| 8     | 3,500                  | 13,000        | Increase two by +1 | +1    |                                 |
+| 9     | 4,000                  | 16,500        |                    |       |                                 |
+| 10    | 5,000                  | 20,500        |                    | +1    |                                 |
+| 11    | 6,000                  | 25,500        | Increase all by +1 |       | Select a prestige class         |
+| 12    | 7,000                  | 31,500        |                    | +1    |                                 |
+| 13    | 8,000                  | 38,500        |                    |       |                                 |
+| 14    | 10,000                 | 46,500        | Increase two by +1 | +1    |                                 |
+| 15    | 12,000                 | 56,500        |                    |       |                                 |
+| 16    | 14,000                 | 68,500        |                    | +1    |                                 |
+| 17    | 16,000                 | 82,500        |                    |       |                                 |
+| 18    | 20,000                 | 98,500        | Increase two by +1 | +1    |                                 |
+| 19    | 24,000                 | 118,500       |                    |       |                                 |
+| 20    | 28,000                 | 142,500       |                    | +1    |                                 |
+| 21    | 32,000                 | 170,500       | Increase all by +1 |       | Select an epic class            |
+| 22    | 40,000                 | 202,500       |                    | +1    |                                 |
+| 23    | 48,000                 | 242,500       |                    |       |                                 |
+| 24    | 56,000                 | 290,500       | Increase two by +1 | +1    |                                 |
+| 25    | 64,000                 | 346,500       |                    |       |                                 |
+| 26    | 80,000                 | 410,500       |                    | +1    |                                 |
+| 27    | 96,000                 | 490,500       |                    |       |                                 |
+| 28    | 112,000                | 586,500       | Increase two by +1 | +1    |                                 |
+| 29    | 128,000                | 698,500       |                    |       |                                 |
+| 30    | N/A                    | 826,500       |                    | +1    |                                 |
 
 ## Level Bonus
 
@@ -808,9 +808,9 @@ There are two types of action you can take outside of your turn: immediate actio
 
 Certain special abilities, powers, and situations allow you to take a special action called an immediate action. It must occur on someone else's turn. 
 
-Some immediate actions interrupt the other creature's action. When your immediate action interrupts another creature's action, that creature can continue its action right after the immediate action.
+Some immediate actions interrupt the other creature's action. When your immediate action is intended to **counter** another creature's action, their action pauses while your immediate action is resolved. Then that creature can continue its action right after the immediate action ends.
 
-Other immediate actions react to the other creature's action, and occur after the creature completes their action. That creature can continue its turn right after the immediate action.
+Other immediate actions **react** to the other creature's action, and occur after the creature completes their action. That creature can continue its turn right after the immediate action.
 
 ### Opportunity Attacks
 

@@ -10,19 +10,19 @@ Dedicated to the hobbyists, designers, developers and publishers that have relea
 
 Orcus is a work in progress. All feedback is welcome. 
 
-# Races
+# Ancestries
 
-## Racial Traits
+## Ancestry Traits
 
-The description of each race includes racial traits that are common to members of that race. The following entries appear among the traits of most races.
+The description of each ancestry includes traits that are common to members of that ancestry. The following entries appear among the traits of most ancestries.
 
 ### Ability Score Increase(s)
 
-Every race increases one or more of a character's ability scores.
+Every ancestry increases one or more of a character's ability scores.
 
 ### Size
 
-Characters of most races are Medium, a size category including creatures that are roughly 4 to 8 feet tall. Members of a few races are Small (between 2 and 4 feet tall), which means that certain rules of the game affect them differently. The most important of these rules is that Small characters have trouble wielding two-handed weapons.
+Characters of most ancestries are Medium, a size category including creatures that are roughly 4 to 8 feet tall. Members of a few ancestries are Small (between 2 and 4 feet tall), which means that certain rules of the game affect them differently. The most important of these rules is that Small characters have trouble wielding two-handed weapons.
 
 ### Speed
 
@@ -30,7 +30,7 @@ Your speed determines how far you can move.
 
 ### Languages
 
-By virtue of your race, your character can speak, read, and write certain languages.
+By virtue of your ancestry, your character can speak, read, and write certain languages.
 
 ## Dwarf
 As a dwarf, you have keen senses, deep intuition, and remarkable resilience.
@@ -61,7 +61,7 @@ Your dwarf character has an assortment of inborn abilities, part and parcel of d
 * +2 Dungeoneering
 * +2 Endurance
 
-***Dwarven Resilience:*** +5 racial bonus on saving throws against poison.
+***Dwarven Resilience:*** +5 ancestry bonus on saving throws against poison.
 
 ***Dwarven Combat Training:*** You have proficiency with the throwing hammer and warhammer.
 
@@ -73,7 +73,7 @@ Your dwarf character has an assortment of inborn abilities, part and parcel of d
 
 #### Tough as Nails
 **Encounter** **Swift Action**
-**Dwarf Utility Racial** 
+**Dwarf Utility Ancestry** 
 **Self** 
 **Effect:** You rally.
 
@@ -87,7 +87,7 @@ Elves range from under 5 to over 6 feet tall and have slender builds.
 
 ### High Elf Traits
 
-As a high elf, you have a keen mind and a mastery of at least the basics of magic. Some high elves are haughty and reclusive, believing themselves to be superior to non-elves and even other elves. Others are more common and more friendly, and often encountered among humans and other races.
+As a high elf, you have a keen mind and a mastery of at least the basics of magic. Some high elves are haughty and reclusive, believing themselves to be superior to non-elves and even other elves. Others are more common and more friendly, and often encountered among humans and other ancestries.
 
 ---
 
@@ -119,7 +119,7 @@ Your 4-hour trance has the same effect as a 6-hour long rest.
 
 ***Elf Weapon Training:*** You have proficiency with the longsword.
 
-***High Elf Mettle:*** +1 racial bonus to Will defense. +5 racial bonus to saving throws against charm effects. 
+***High Elf Mettle:*** +1 ancestry bonus to Will defense. +5 ancestry bonus to saving throws against charm effects. 
 
 ***Extra Skill:*** You are trained in an extra skill of your choice.
 
@@ -127,7 +127,7 @@ Your 4-hour trance has the same effect as a 6-hour long rest.
 
 #### Highblood Teleport
 **Encounter** **Move Action**
-**High Elf Utility Racial** ● **Teleport**
+**High Elf Utility Ancestry** ● **Teleport**
 **Self** 
 **Effect:** Teleport up to 5.
 
@@ -157,22 +157,18 @@ Wood elf hair color ranges from yellow to a coppery red, and they are more muscu
 
 ***Elf Weapon Training:*** You have proficiency with the longbow and the shortbow.
 
-***Nature Guide:*** Non-wood elf allies within 5 gain +1 racial bonus to Perception.
+***Nature Guide:*** Non-wood elf allies within 5 gain +1 ancestry bonus to Perception.
 
 ***Versatile Stride:*** You ignore difficult terrain. 
 
-***Elfshot:*** You have the *elfshot* power.
+***Careful Focus:*** You have the *careful focus* power.
 
-#### Elfshot
+#### Careful Focus
 
 **Encounter** **Free Action**
-
-**Wood Elf Utility Racial** 
-
+**Wood Elf Utility Ancestry** 
 **Self** 
-
 **Trigger:** You just made an attack roll.
-
 **Effect:** Reroll the attack roll and take the new result.
 
 ## Halfling
@@ -200,9 +196,9 @@ Your halfling character has a number of traits in common with all other halfling
 
 ***Languages:*** You can speak, read, and write Common and one other language of your choice. 
 
-***Brave:*** +5 racial bonus to saving throws versus fear.
+***Brave:*** +5 ancestry bonus to saving throws versus fear.
 
-***Halfling Nimbleness:*** +2 racial bonus to AC against attacks of opportunity. 
+***Halfling Nimbleness:*** +2 ancestry bonus to AC against attacks of opportunity. 
 
 ***Naturally Stealthy:*** 
 
@@ -213,7 +209,7 @@ Your halfling character has a number of traits in common with all other halfling
 
 #### Lucky
 **Encounter** **Immediate Action**
-**Halfling Utility Racial** 
+**Halfling Utility Ancestry** 
 **Self** **Trigger:** An attack hits you.
 **Effect:** Reroll the attack roll and take the second result.
 
@@ -245,21 +241,21 @@ Humans typically learn the languages of other peoples they deal with, including 
 
 ***Bonus Skill:*** Choose one class skill. You become trained in that skill. 
 
-***Hardy Stock:*** +1 racial bonus to Fortitude, Reflex and Will defenses. 
+***Hardy Stock:*** +1 ancestry bonus to Fortitude, Reflex and Will defenses. 
 
 ***Human Power:*** You have a third level 1 at-will attack power from your class. 
 
 ### Variant: True Grit
 
-Instead of giving humans a third level 1 at-will attack power from their class, GMs may want to offer them the *true grit* power instead - especially if they are taking a class that does not have at-will attack powers. However, GMs should note that *true grit* is unusually powerful for a racial power and it overlaps with the wood elf's *elfshot* power.
+Instead of giving humans a third level 1 at-will attack power from their class, GMs may want to offer them the *true grit* power instead - especially if they are taking a class that does not have at-will attack powers. However, GMs should note that *true grit* is unusually powerful for an ancestry power and it overlaps with the wood elf's *elfshot* power.
 
 ***Human Power:*** You have the *true grit* power.
 
 #### True Grit
 **Encounter** **No Action**
-**Human Utility Racial** 
+**Human Utility Ancestry** 
 **Self** **Trigger:** You fail a saving throw or miss with an attack roll
-**Effect:** Add a +4 racial bonus to the roll/throw.
+**Effect:** Add a +4 ancestry bonus to the roll/throw.
 
 ## Dragonborn
 
@@ -288,7 +284,7 @@ Your draconic heritage manifests in a variety of traits you share with other dra
 
 ***Draconic Vigor:*** Calculate your healing surge value by adding your Constitution modifier. 
 
-***Injured Rage:*** +1 racial bonus on attack rolls while Staggered. 
+***Injured Rage:*** +1 ancestry bonus on attack rolls while Staggered. 
 
 ***Languages:*** You can speak, read, and write Common and Draconic.
 
@@ -298,7 +294,7 @@ Which type of damage you do (and what tag the power has) depends on which type o
 
 #### Breath Weapon
 **Encounter** **Swift Action**
-**Dragonborn Attack Racial** ● **[Energy]**
+**Dragonborn Attack Ancestry** ● **[Energy]**
 **Near** arc 3, targets all 
 **Attack:** (Highest of Strength, Constitution, Dexterity) +2 vs Reflex
 **Hit:** Level 1: 1d6 + Constitution modifier. Level 11: 2d6 + Constitution modifier. Level 21: 3d6 + Constitution modifier.
@@ -335,11 +331,11 @@ Your gnome character has certain characteristics in common with all other gnomes
 
 ***Fey Ancestry:*** You count as a fey creature for all purposes.
 
-***Lightning Hide:*** When you make an initiative check, if you are in cover or concealment, you can make a Stealth check to hide (takes no action). 
+***Hide in a Flash:*** When you make an initiative check, if you are in cover or concealment, you can make a Stealth check to hide (takes no action). 
 
-***Gnomish Skepticism:*** +5 racial bonus on saving throws against illusions. 
+***Gnomish Skepticism:*** +5 ancestry bonus on saving throws against illusions. 
 
-***Ghost Sound and Spirited Away:*** You have the *ghost sound* and *spirited away* powers.
+***Ghost Sound and Spirited Away:*** You have the *ghost sound* and *disappearing act* powers.
 
 #### Ghost Sound
 **At-Will** **Standard Action**
@@ -347,9 +343,9 @@ Your gnome character has certain characteristics in common with all other gnomes
 **Ranged** 10, one object or empty square 
 **Effect:** Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place. You choose what type of sound ghost sound creates when casting it and cannot thereafter change the sound’s basic character. You can produce as much noise as a person. The noise a ghost sound spell produces can be virtually any type of sound within the volume limit.
 
-#### Spirited Away
+#### Disappearing Act
 **Encounter** **Immediate Reaction Action**
-**Gnome Utility Racial** 
+**Gnome Utility Ancestry** 
 **Self** 
 **Trigger:** You take damage.
 **Effect:** Become invisible until the end of your next turn, or until you make an attack (whichever comes sooner).
@@ -386,7 +382,7 @@ Your half-elf character has some qualities in common with elves and some that ar
 
 ***Elven Blood, Human Blood:*** For the purpose of taking feats, you count as an elf and as a human. 
 
-***Follow My Lead:*** Allies within 10 squares receive a +1 racial bonus to Diplomacy. 
+***Follow My Lead:*** Allies within 10 squares receive a +1 ancestry bonus to Diplomacy. 
 
 ***Half-Elven Power:*** Choose one at character creation: 
 
@@ -395,9 +391,9 @@ Your half-elf character has some qualities in common with elves and some that ar
 
 #### Half-Elven Ingenuity
 **Encounter** **Swift Action**
-**Half-Elf Utility Racial** 
+**Half-Elf Utility Ancestry** 
 **Near** burst 5, self or one ally 
-**Effect:** Choose one: target shifts up to 2 as a free action, target makes a saving throw, target gets +2 power bonus to next attack roll or target gets +4 power bonus to next skill check. Power bonuses expire at the end of target's next turn if not already used.
+**Effect:** Choose one: target shifts up to 2 as a free action, target makes a saving throw, target gets +2 power bonus to next attack roll or target gets +4 power bonus to next skill check. Power bonuses expire at the end of your next turn if not already used.
 
 ## Half-Orc
 
@@ -437,7 +433,7 @@ Your half-orc character has certain traits deriving from your orc ancestry.
 
 #### Orcish Rush
 **Encounter** **Free Action**
-**Half-Orc Utility Racial** 
+**Half-Orc Utility Ancestry** 
 **Self** 
 **Trigger:** You hit with an attack.
 **Effect:** Attack does +1dW. If attack was not with a weapon, +1d8 instead.
@@ -452,7 +448,7 @@ Tieflings are about the same size and build as humans.
 
 ### Tiefling Traits
 
-Tieflings share certain racial traits as a result of their infernal descent.
+Tieflings share certain ancestry traits as a result of their infernal descent.
 
 ***Ability Score Increases:*** 
 
@@ -469,13 +465,13 @@ Tieflings share certain racial traits as a result of their infernal descent.
 
 ***Hellish Resistance:*** Resistance to fire 5 + half your level.
 
-***Infernal Legacy:*** +1 racial bonus on attacks against Staggered enemies. 
+***Infernal Legacy:*** +1 ancestry bonus on attacks against Staggered enemies. 
 
 ***Vengeance of the Pits:*** You have the *vengeance of the pits* power.
 
 #### Vengeance of the Pits
 **Encounter** **Free Action**
-**Tiefling Attack Racial** ● **Fire**
+**Tiefling Attack Ancestry** ● **Fire**
 **Near** burst 10, one enemy
 **Trigger:** An attack by that enemy hits you.
 **Effect:** Level 1: The target takes 1d6 + Intelligence OR Charisma modifier fire damage. Level 11: 2d6 + Intelligence OR Charisma modifier. Level 21: 3d6 + Intelligence OR Charisma modifier.
@@ -495,7 +491,7 @@ Whoms are humanoid wombats who live in burrows underground. They are a practical
 
 ***Speed:*** Your base walking speed is 5 squares.
 
-***Burrow:*** You have a burrow speed of 1 square.
+***Burrow:*** You have a burrow speed of 1 square. Your burrow cannot extend too far or it risks caving in; you must double back to the surface after burrowing for 5 squares. 
 
 ***Languages:*** You can speak, read, and write Common and Dwarvish.
 
@@ -510,21 +506,22 @@ Whoms are humanoid wombats who live in burrows underground. They are a practical
 
 ***Just Keep Digging:*** When you make Endure checks as part of a group check or extended challenge, or to Aid Another, roll twice and take the higher result. 
 
-***Lightening Quip:*** You have the *lightening quip* power.
+***Barrel Along:*** You have the *barrel along* power.
 
-#### Lightening Quip
-**Daily** **Swift Action**
-**Whom Utility Racial** ● **Healing**
-**Near** burst 5, allies who can hear you 
-**Effect:** Targets may spend a recovery and heal their recovery value.
+#### Barrel Along
+**Encounter Swift Action**
+**Whom Utility Ancestry**
+**Self** 
+**Trigger:** You are staggered.
+**Effect:** You have a +2 bonus to speed and to damage rolls until the end of the encounter.
 
-## Lizardfolk
+## Vishyas
 
-Lizardfolk are lizard-like humanoids that are ill-tempered but not violent by nature.
+Vishyas are graceful humanoids with venomous fangs and serpentine eyes. Their supple skin is covered with tiny scales, often of a light green, which are sometimes arrayed in patterns not unlike those of a serpent. 
 
-The fearful murmurs of children and the wails of the dogs are the only warning that a lizardfolk warband approaches.
+The fearful murmurs of children and the wails of the dogs are the only warning that a vishya warband approaches.
 
-### Lizardfolk Traits
+### Vishya Traits
 
 ***Ability Score Increases:*** 
 
@@ -541,10 +538,10 @@ The fearful murmurs of children and the wails of the dogs are the only warning t
 
 ***Skill Bonuses:*** 
 
-* +2 Athletics
-* +2 Nature
+* +2 Acrobatics
+* +2 Bluff
 
-***Hold Breath:*** +5 racial bonus to Endure checks to hold your breath.
+***Hold Breath:*** +5 ancestry bonus to Endure checks to hold your breath.
 
 ***Swamp Dweller:*** Shallow water, mud and marshes are not difficult terrain for you.
 
@@ -553,187 +550,17 @@ The fearful murmurs of children and the wails of the dogs are the only warning t
 ***Poisonous Nip:*** You have the *poisonous nip* power.
 
 #### Poisonous Nip
-**At-Will** **Standard Action**
-**Lizardfolk Attack Racial** ● **Poison**
+**Encounter Minor Action**
+**Lizardfolk Attack Ancestry** ● **Poison**
 **Melee** 1, one target 
 **Attack:** Dexterity or Constitution +2 vs AC
 **Hit:** 1d8 + your Dexterity or Constitution modifier poison damage.
 Level 11: Attack bonus increases to +4. 2d8 + modifier damage.
 Level 21: Attack bonus increases to +6. 3d8 + modifier damage.
-**Special:** This is a basic melee attack.
 
 ## Variant: No Weapon Limitations for Small Characters
 
 While officially Small characters are limited in which weapons they can use, this can be frustrating for players and is not very important for game balance. GMs may prefer to let Small characters use any weapon they like. 
-
-# Classes
-
-Some classes have custom level progressions. Otherwise they follow the default progression, shown below.
-
-The numbers indicate powers from your class (although note that sometimes you will have the opportunity to select a power not of your class, but filling a class slot). 
-
-"P" indicates a power from your prestige path, so for example at level 11 you will typically gain an encounter attack power from your prestige path. "E" indicates a power from your epic path. 
-
-The appendix has a table that shows which level powers a character of a particular level (following the default progression) can have. This is useful if you are creating a character at higher than 1st level, or if you get confused about which powers can be replaced when. 
-
-When you reach a level that allows you to replace a power, you choose a class attack power you know of that frequency (encounter or daily) and give it up, exchanging it for a power of the level you're gaining. For example, at level 13 you can give up one of your existing encounter attack powers (e.g., the one you got at level 1) in exchange for a level 13 encounter attack power. 
-
-**Table - Default Power Progression**
-
-| Level | At-will Attack | Encounter Attack | Daily Attack | Utility   | Power Replacements               |
-| ----- | -------------- | ---------------- | ------------ | --------- | -------------------------------- |
-| 1     | 2              | 1                | 1            |           |                                  |
-| 2     | 2              | 1                | 1            | 1         |                                  |
-| 3     | 2              | 2                | 1            | 1         |                                  |
-| 4     | 2              | 2                | 1            | 1         |                                  |
-| 5     | 2              | 2                | 2            | 1         |                                  |
-| 6     | 2              | 2                | 2            | 2         |                                  |
-| 7     | 2              | 3                | 2            | 2         |                                  |
-| 8     | 2              | 3                | 2            | 2         |                                  |
-| 9     | 2              | 3                | 3            | 2         |                                  |
-| 10    | 2              | 3                | 3            | 3         |                                  |
-| 11    | 2              | 3 + P            | 3            | 3         |                                  |
-| 12    | 2              | 3 + P            | 3            | 3 + P     |                                  |
-| 13    | 2              | 3 + P            | 3            | 3 + P     | Replace 1 encounter attack power |
-| 14    | 2              | 3 + P            | 3            | 3 + P     |                                  |
-| 15    | 2              | 3 + P            | 3            | 3 + P     | Replace 1 daily attack power     |
-| 16    | 2              | 3 + P            | 3            | 4 + P     |                                  |
-| 17    | 2              | 3 + P            | 3            | 4 + P     | Replace 1 encounter attack power |
-| 18    | 2              | 3 + P            | 3            | 4 + P     |                                  |
-| 19    | 2              | 3 + P            | 3            | 4 + P     | Replace 1 daily attack power     |
-| 20    | 2              | 3 + P            | 3 + P        | 4 + P     |                                  |
-| 21    | 2              | 3 + P            | 3 + P        | 4 + P     |                                  |
-| 22    | 2              | 3 + P            | 3 + P        | 5 + P     |                                  |
-| 23    | 2              | 3 + P            | 3 + P        | 5 + P     | Replace 1 encounter attack power |
-| 24    | 2              | 3 + P            | 3 + P        | 5 + P     |                                  |
-| 25    | 2              | 3 + P            | 3 + P        | 5 + P     | Replace 1 daily attack power     |
-| 26    | 2              | 3 + P            | 3 + P        | 5 + P + E |                                  |
-| 27    | 2              | 3 + P            | 3 + P        | 5 + P + E | Replace 1 encounter attack power |
-| 28    | 2              | 3 + P            | 3 + P        | 5 + P + E |                                  |
-| 29    | 2              | 3 + P            | 3 + P        | 5 + P + E | Replace 1 daily attack power     |
-| 30    | 2              | 3 + P            | 3 + P        | 5 + P + E |                                  |
-
-# Prestige Paths
-
-At level 11, each player character gets a prestige path. This path is in addition to their main class, which still gives them some powers. 
-
-## Weapon Master
-
-**_Requirements:_** One or more of your powers has the Martial tag
-
-### Class Features
-
-***Quick Change Artist (11th level):*** As a swift action, you can sheathe a weapon and draw a weapon.
-
-**_Whirling Dervish (11th level):_** Instead of spending an action point to take an additional action, you can spend it to use two at-will attack powers that require a standard action, one after the other. They do not have to have the same target.
-
-**_Careful Opportunist (16th level):_** When a creature provokes an opportunity attack, you can use an at-will attack power instead of making a basic attack. You must make a melee attack.
-
-### Powers
-
-#### One-Two Punch
-**Encounter** **Standard Action**
-**Weapon Master Attack 11** ● **Martial, Weapon**
-**Melee or Ranged** weapon 
-**Attack:** Strength vs AC
-**Hit:** 2dW + Strength modifier damage.
-*Secondary attack:* Must be against the same target. Strength vs AC. Hit: 1dW + Strength modifier damage.
-**Miss:** *Secondary attack:* Must be against the same target. Strength vs AC. Hit: 2dW + Strength modifier damage.
-
-#### Fast Learner
-**Daily** **Swift Action**
-**Weapon Master Utility 12** ● **Martial**
-**Self** 
-**Effect:** Select a feat you meet the prerequisites for. You gain that feat until your next long rest.
-
-#### First Blood
-**Daily** **Standard Action**
-**Weapon Master Attack 20** ● **Martial, Weapon**
-**Melee or Ranged** weapon 
-**Attack:** Strength vs AC
-**Hit:** 3dW + Strength modifier damage if the target is below maximum HP.
-5dW + Strength modifier damage if the target is at maximum HP.
-**Miss:** Half damage.
-
-## Prince of Shadows
-
-**_Requirements:_** Your base class has the Striker role.
-
-You are recognized by every brigand and cutpurse, every sneakthief and bandit. Cat burglars are your courtiers; extortionists your earls. The darkness is your cloak and crown.
-
-### Class Features
-
-***Trusty Action (11th level):*** You perform … not quite reliably, but always with spectacular results.
-
-When you use an action point to take an extra action, the action always succeeds (you pass your skill check or attack roll no matter your roll, for example). If you would fail, you succeed but there’s a sting in the tail or side-effect.
-
-**_Do As I Do (11th level):_** You are used to leading teams along corridors on tip-toes or up walls without rope or crampon. No one can afford to fail.
-
-When you make a skill check, allies gain a +2 power bonus to the same skill until the beginning of your next turn. 
-
-**_The Cloak is My Shadow, I Shall Not Want (16th level):_** Your cloak billows as you move, hiding you away until it seems to be all cloak and no man.
-
-While you move, you are incorporeal. 
-
-### Powers
-
-#### Just Desserts
-**Encounter** **Standard Action**
-**Prince of Shadows Attack 11** ● **Shadow, Weapon**
-**Melee or Ranged** weapon 
-**Attack:** Dexterity vs AC
-**Hit:** 2dW + Dexterity modifier. Also, name a condition or effect (like persistent damage) that the target imposed upon another creature since your last turn. They suffer that effect.
-
-#### Out of Mind
-**Daily** **Immediate Action Action**
-**Prince of Shadows Utility 16** ● **Shadow, Teleport**
-**Self** **Trigger:** You are out of view of all creatures.
-**Effect:** You teleport 20, but must choose a square that no other creature can see (you need not be able to see it).
-
-#### Cloak Abduction
-**Daily** **Standard Action**
-**Prince of Shadows Attack 20** ● **Shadow**
-**Melee** 1 
-**Attack:** Dexterity vs AC
-**Hit:** The creature is transported to an extradimensional space and cannot act (save ends).
-Optional: The creature takes 2dW + Dexterity modifier damage.
-
-# Epic Paths
-
-At level 21, each player character gets an epic path. This path is on top of their main class, which still gives them some powers, and their prestige path (which stops giving them powers after level 20). 
-
-## Agent Retriever
-
-Elemental tyrants, the heralds of the gods, the voices between the planets - they all have peculiar needs, and the agents retriever cater to them. You travel across the planes, locating and acquiring whatever your patrons need. 
-
-***Requirements:*** You must have retrieved something of value from another plane of existence, and traded it for a fair price. 
-
-### Immortality
-
-When your adventuring days come to an end, a number of different fates may await you. What follows is one possibility. 
-
-***Corner of the World's Eye:*** You fade away from public view, but no one can ever confirm your death. Just when people think old age, misadventure or vengeance must have done you in, someone reports spying you in a bazaar, or finding your calling card in the Celestial Vaults, or seeing you for a moment through a pool in the Astral Plane. 
-
-### Class Features
-
-***Appropriation (Level 21):*** Each night, you dream of a magic item. After a long rest, choose any magic item of your level or lower. That magic item appears under your bedroll, ready for use. It disappears when you begin your next long rest. 
-
-The magic item is not created, it is summoned. The GM may want to identify which creature's possession the magic item was summoned from, and whether there are any hints to your identity when it arrives back in their possession the following day. 
-
-***Interplanar Contingencies (Level 24):*** Once per day, when you die, you appear the following round on your initiative count with half your maximum HP and under the slowed condition, in an unoccupied space of your choice at least 6 squares from your dead body. You cannot use any attack powers or recoveries, but you have all the equipment and magic items that were on your person when you died. The equipment and magic items that are actually on your body become shimmering and insubstantial, and cannot be used or picked up.  
-
-When you are adjacent to your corpse, you can use a swift action to merge the old and new bodies. You can now use attack powers and recoveries, although you do not recover any powers or recoveries that were already spent. You lose the slowed condition, but otherwise keep the HP and any conditions, persistent damage, etc., of your new body. Choose which square your merged body appears in. 
-
-***The Economic Flow (Level 30):*** You are at the center of a vast trade network. If something is for sale anywhere in the planes, for any price, you can purchase it with a snap of your fingers (free action). The object appears in your hand or on your person, if feasible, or otherwise in the nearest unoccupied space(s) that can hold it. The payment price must be on your person (for example, a pouch of gold pieces on your belt) - it disappears at the same time as the purchased object appears.
-
-### Powers
-
-#### Force Sphere
-**Encounter** **Immediate Action**
-**Agent Retriever Utility 26** ● **Arcane, Force, Zone**
-**Near** burst X 
-**Effect:** Create a sphere of force in a near burst between 1 and 5 squares in radius (your choice). The sphere is impenetrable by any means.
-**Maintain:** Swift action
 
 
 # Skills
@@ -748,7 +575,7 @@ This roll works just like an attack roll - the higher the roll, the better. Eith
 
 **Ability Modifier**: The ability modifier used in a skill check is the modifier for the skill’s key ability (the ability associated with the skill’s use). The key ability of each skill is noted in its description.
 
-**Miscellaneous Modifiers**: Miscellaneous modifiers include racial bonuses, armor check penalties, and bonuses provided by feats, among others.
+**Miscellaneous Modifiers**: Miscellaneous modifiers include ancestry bonuses, armor check penalties, and bonuses provided by feats, among others.
 
 ## Using Skills
 
@@ -758,9 +585,9 @@ Circumstances can affect your check. A character who is free to work without dis
 
 ## Skill Checks
 
-A skill check takes into account a character’s training (skill training), natural talent (ability modifier), and luck (the die roll). It may also take into account their race’s knack for doing certain things (racial bonus) or what armor they are wearing (armor check penalty), or a certain feat the character possesses, among other things.
+A skill check takes into account a character’s training (skill training), natural talent (ability modifier), and luck (the die roll). It may also take into account their ancestry's knack for doing certain things (ancestry bonus) or what armor they are wearing (armor check penalty), or a certain feat the character possesses, among other things.
 
-To make a skill check, roll 1d20 and add your character’s skill modifier for that skill. The skill modifier incorporates the character’s ranks in that skill and the ability modifier for that skill’s key ability, plus any other miscellaneous modifiers that may apply, including racial bonuses and armor check penalties. The higher the result, the better. Unlike with attack rolls and saving throws, a natural roll of 20 on the d20 is not an automatic success, and a natural roll of 1 is not an automatic failure.
+To make a skill check, roll 1d20 and add your character’s skill modifier for that skill. The skill modifier incorporates the character’s ranks in that skill and the ability modifier for that skill’s key ability, plus any other miscellaneous modifiers that may apply, including ancestry bonuses and armor check penalties. The higher the result, the better. Unlike with attack rolls and saving throws, a natural roll of 20 on the d20 is not an automatic success, and a natural roll of 1 is not an automatic failure.
 
 ### Difficulty Class
 
@@ -1334,21 +1161,20 @@ You can also take feats to take some of the class features and powers of other c
 
 **Retraining:** Each level, you can retrain one power selection from your Battle Adaptation, Functional Adaptation or Daily Adaptation feats. This could involve swapping a power for a secondary class power, swapping a secondary class power for a power from your base class, or swapping a secondary class power for a different one of the same level. 
 
-### Recruit to the Pits (Dualclass Gladiator)
+### Dualclass Recruit (Dualclass)
 
-**Prerequisite:** Str 13
-**Benefit:** You get skill training in any one skill. 
-Gain one of the gladiator's 1st-level at-will power as an encounter power.
-Your secondary class is gladiator. 
+As you take this feat, choose a class of which you are not already a member.
+**Prerequisite:** 13 in the chosen class's primary ability.
+**Benefit:** You count as the chosen class (sometimes called your "secondary class") in addition to any classes of which you are already a member. In addition, you gain the benefits described in the chosen class's "Dualclass" section.
 
 ### Battle Adaptation (Dualclass)
 
-**Prerequisite:** You have a secondary class, Level 4
+**Prerequisite:** Dualclass Recruit, Level 4
 **Benefit:** When you gain this feat, choose one encounter attack power. You lose that power and may select one encounter attack power of the same level from your secondary class. 
 
 ### Functional Adaptation (Dualclass)
 
-**Prerequisite:** You have a secondary class, Level 8
+**Prerequisite:** Dualclass Recruit, Level 8
 **Benefit:** When you gain this feat, choose one utility power. You lose that power and may select one utility power of the same level from your secondary class. 
 
 ### Daily Adaptation (Dualclass)
@@ -1467,7 +1293,7 @@ Every weapon is classified as either melee or ranged. A **melee weapon** is typi
 
 ### Weapon Proficiency
 
-Your race, class, and feats can grant you proficiency with certain weapons or categories of weapons. The three categories are **simple**, **martial** and **exotic**. Most people can use simple weapons with proficiency. These weapons include clubs, maces, and other weapons often found in the hands of commoners. Martial weapons, including swords, axes, and polearms, require more specialized training to use effectively. Most warriors use martial weapons because these weapons put their fighting style and training to best use. Typically, proficiency in an exotic weapon only comes with specialized training. 
+Your ancestry, class, and feats can grant you proficiency with certain weapons or categories of weapons. The three categories are **simple**, **martial** and **exotic**. Most people can use simple weapons with proficiency. These weapons include clubs, maces, and other weapons often found in the hands of commoners. Martial weapons, including swords, axes, and polearms, require more specialized training to use effectively. Most warriors use martial weapons because these weapons put their fighting style and training to best use. Typically, proficiency in an exotic weapon only comes with specialized training. 
 
 Proficiency with a weapon allows you to add the weapon's proficiency bonus to the attack roll for any attack you make with that weapon. If you make an attack roll using a weapon with which you lack proficiency, you do not add the proficiency bonus to the attack roll.
 
@@ -1496,7 +1322,7 @@ Many weapons have special properties related to their use, as shown in the Weapo
 
 ***Improved Critical:*** *Level 1:* +1dW damage on a critical hit. *Level 11:* +2dW damage on a critical hit. *Level 21:* +3dW damage on a critical hit. 
 
-***Loading:*** You can use a weapon that requires loading with ammunition to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container takes either a free or swift action, as specified in the table. At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.
+***Loading:*** You can use a weapon that requires loading with ammunition to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container takes either a free or swift action, as specified in the table. At the end of the encounter, you can recover half your expended ammunition by taking a minute to search the battlefield.
 
 > ***Loading (free):*** It takes two hands to reload this weapon.
 >
@@ -1859,7 +1685,7 @@ On a hit the target is teleported to a pocket dimension until the end of your ne
 *Sustain Standard*. Keep them in the pocket dimension for 1 extra round. You can only do this once. 
 
 ### Draining (II)
-Once per encounter, as a swift action, each time you hit with an attack made with this focus, you do +2d6 damage but you take 1d6 damage. Lasts till the end of your next round. 
+Once per encounter, as a swift action, each time you hit with an attack made with this focus, you do +2d6 damage but you take 1d6 damage. Lasts till the end of your next turn. 
 
 ### Elemental's Ally (I)
 Once a day as a swift action, target within 5 squares gains vulnerability 5 to either acid, fire, lightning or cold. At level 11 this increases to vulnerability 10 and at level 21 this increases to vulnerability 15.

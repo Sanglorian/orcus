@@ -302,4 +302,18 @@ Monte Cook’s Arcana Unearthed DM’s Screen and Player’s Guide Copyright 200
 The Diamond Throne Copyright 2003 Monte J. Cook. All rights reserved.
 Monte Cook’s Arcana Unearthed Copyright 2003 Monte J. Cook. All rights reserved.
 
+Tome of Secrets, Copyright 2009, Adamant Entertainment, Inc. Authors: Walt Ciechanowski and Gareth-Michael Skarka.
+
+Pathfinder Advanced Player’s Guide © 2020, Paizo Inc.; Authors: Amirali Attar Olyaee, Alexander Augunas, Kate Baker, Brian Bauman, Logan Bonner, Carlos Cabrera, James Case, Jessica Catalan, John Compton, Paris Crenshaw, Jesse Decker, Fabby Garza Marroquín, Steven Hammond, Sasha Laranoa Harving, Joan Hong, Nicolas Hornyak, Vanessa Hoskins, James Jacobs, Erik Keith, Lyz Liddell, Luis Loza, Ron Lundeen, Patchen Mortimer, Dennis Muldoon, Stephen Radney-MacFarland, Jessica Redekop, Mikhail Rekun, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Kendra Leigh Speedling, Jason Tondro, Clark Valentine, and Andrew White. 
+
+Dungeon Crawl Classics #54: Forges of the Mountain King, by Harley Stroh, Copyright 2008 Goodman Games (contact info@goodman-games.com, or see www.goodman-games.com)
+
+Dungeon Crawl Classics #56: Isle of the Sea Drake, by Adrian Pommier, Copyright 2008 Goodman Games (contact info@goodman-games.com, or see www.goodman-games.com)
+
+Dungeon Crawl Classics #58: The Forgotten Portal, by Chris Doyle, Copyright 2008 Goodman Games (contact info@goodman-games.com, or see www.goodman-games.com)
+
+Dungeon Crawl Classics #59: Mists of Madness, by Harley Stroh, Copyright 2008 Goodman Games (contact info@goodman-games.com, or see www.goodman-games.com)
+
+Dungeon Crawl Classics #60: Thrones of Punjar, by Rick Maffei, Copyright 2008 Goodman Games (contact info@goodman-games.com, or see www.goodman-games.com)
+
 END OF LICENSE
