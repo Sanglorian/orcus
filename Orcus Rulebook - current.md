@@ -15,7 +15,9 @@ What follows are terms that might be unfamiliar even to experienced gamers.
 
 ### General terms
 **Ancestry:** Ancestries are the racial, cultural and other origins of characters. Only racial ancestries are presented in Orcus so far. 
+**Epic path:** Each player character chooses an epic path at level 21, which gives new powers and features through to level 30.
 **Kit:** A kit is an set of powers and features chosen at first level, and providing another facet of a character beyond their ancestry and class.
+**Prestige path:** Each player character chooses an epic path at level 21, which gives new powers and features through to level 30.
 **Tags:** Descriptive words or phrases attached to powers, monsters and other game components. 
 
 **Long rest:** A rest that takes six hours to complete. Daily powers that have been expended are usable again after a long rest, and characters heal to maximum HP and have their recoveries restored to maximum.
@@ -54,7 +56,7 @@ What follows are terms that might be unfamiliar even to experienced gamers.
 **Illusion (incantation):** Illusion incantations create phantasms and hallucinations that are not real, although they are sometimes substantial. 
 **Practical (incantation):** Practical incantations have a variety of effects that help with adventure or everyday life. 
 **Crafting (incantation):** Crafting incantations create something lasting, whether that is raw materials, magic items, or something else. 
-**Transportation (incantation):** Transportation incantations make travel easier or faster, open up new forms of transportation like swimming or flying, or allow for travel to other planes of existance. 
+**Transportation (incantation):** Transportation incantations make travel easier or faster, open up new forms of transportation like swimming or flying, or allow for travel to other planes of existence. 
 **Conjuration (incantation):** Conjuration incantations summon and bind creatures from other planes of existence. 
 
 ### Monsters
