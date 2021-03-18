@@ -9,6 +9,74 @@ Dedicated to the hobbyists, designers, developers and publishers that have relea
 
 Orcus is a work in progress. All feedback is welcome. 
 
+# Glossary of New Terms
+
+What follows are terms that might be unfamiliar even to experienced gamers.
+
+### General terms
+**Ancestry:** Ancestries are the racial, cultural and other origins of characters. Only racial ancestries are presented in Orcus so far. 
+**Kit:** A kit is an set of powers and features chosen at first level, and providing another facet of a character beyond their ancestry and class.
+**Tags:** Descriptive words or phrases attached to powers, monsters and other game components. 
+
+**Long rest:** A rest that takes six hours to complete. Daily powers that have been expended are usable again after a long rest, and characters heal to maximum HP and have their recoveries restored to maximum.
+**Persistent damage:** Persistent damage is experienced at the start of each of your turns until you succeed on a saving throw to shake it off.
+**Rally:** Once per encounter, a creature can rally, which costs a recovery but heals them equal to their recovery value and gives them a temporary +2 bonus to all defenses. 
+**Recoveries:** Creatures have a number of recoveries, which allow them to heal outside of combat (and sometimes in combat). 
+**Recovery value:** How much a creature heals after spending a single recovery, equal to one quarter their maximum HP. 
+**Staggered:** A creature is staggered when its current HP are half or fewer its maximum HP.
+
+**Adventurer (tier):** Characters, creatures, items, powers, etc. that are between levels 1 and 10 are in the adventurer tier. 
+**Prestige (tier):** Characters, creatures, items, powers, etc. that are between levels 11 and 20 are in the prestige tier. 
+
+**Sleight of Hand (skill):** A skill used for picking pockets and disabling traps. 
+**Streetsmarts (skill):** A skill used for operating in urban environments, gathering information and blending into crowds.
+**Endure (skill):** A skill used for enduring heat and cold and shaking off poison and disease. 
+
+**Near (range):** A power with a Near range originates from the user of the power.
+**Far (range):** A power with a Far range originates from a square some number of squares from the user of the power.
+**Arc (area of effect):** An arc originates from a particular square and goes outwards the same number of squares on either side. 
+
+**Immediate actions:** These are actions that must be performed in other creatures' turns, not your own, once a trigger is satisfied. They come in two forms: **counters,** which happen during the action that triggered them, and **reacts,** which happen after.
+**Dash (action):** A move action in which you move up to your speed +2, but you provoke opportunity attacks, grant combat advantage and suffer an attack penalty. 
+
+**Controlled (condition):** The creature is under the control of another.
+**Immobile (condition):** The creature cannot willingly leave its current space.
+
+**Unwilling movement:** Unwilling movement is one of three forms of movement forced on a creature: pushes, pulls and slides. 
+
+**Extended challenge:** A challenge that requires multiple skill checks to overcome, not just one. An extended challenge will identify how many successes are required to succeed at the overall task; typically, these must be achieved before three failures.
+
+### Incantations
+**Incantation:** A kind of spell that takes time and material components to cast. 
+
+**Abjuration (incantation):** Abjuration incantations are protective or warding in nature.
+**Curative (incantation):** Curative incantations heal wounds, raise the dead or treat disease and poison.
+**Illusion (incantation):** Illusion incantations create phantasms and hallucinations that are not real, although they are sometimes substantial. 
+**Practical (incantation):** Practical incantations have a variety of effects that help with adventure or everyday life. 
+**Crafting (incantation):** Crafting incantations create something lasting, whether that is raw materials, magic items, or something else. 
+**Transportation (incantation):** Transportation incantations make travel easier or faster, open up new forms of transportation like swimming or flying, or allow for travel to other planes of existance. 
+**Conjuration (incantation):** Conjuration incantations summon and bind creatures from other planes of existence. 
+
+### Monsters
+**Source (monster):** Which category of planes of existence the monster comes from. 
+**Cosmic (source):** Creatures from the cosmic source are aberrations from outside this universe. 
+**Immortal (source):** Creatures from the Outer Planes, like Heaven and Hell. 
+
+**Boss (monster type):** The strongest type of monster, equivalent to five standard monsters of the same level. 
+**Mook (monster tyoe):** Weak monsters with just 1 HP. 
+
+**Archer (monster role):** Archers make ranged attacks, sometimes ranged area attacks. 
+**Blocker (monster role):** Blockers  are harder to hit than other monsters, and can defend their weaker allies from attacks. 
+**Spoiler (monster role):** Spoilers create zones and other battlefield conditions, use area attacks and debuff enemies. 
+**Wrecker (monster role):** Wreckers do large amounts of damage, usually in melee range.
+
+**Monstrosity (type):** Monstrosities are magical beasts or other creatures that have complicated or clearly magical physionomy. 
+**Automaton (type):** Automatons are creatures made of animated matter, whether that is animated elements (elementals), corpses (undead) or plant matter (plants).
+
+**Refresh:** If a monster uses a refresh power, it is not available to use again right away. Each time the monster takes a turn, a die is rolled and if a certain number appears (as specified in the power) then the power is available again. 
+
+**Incorporeal:** A creature that is incorporeal takes half damage on all attacks. 
+
 ## The Core Mechanic
 
 Whenever you attempt an action that has some chance of failure, you roll a twenty-sided die (d20). To determine if your character succeeds at a task you do this:
@@ -593,7 +661,7 @@ If a power simply targets "allies in range", it does not include you.
 
 To determine the nearest target, determine the range to each possible target and then pick the one at the shortest range. If the range to two or more targets is equal you can choose which is the nearest.
 
-# Power Attack Rolls
+## Power Attack Rolls
 
 Some powers require the user to make an attack roll to determine whether the power effect hits the intended target (one attack roll per target, in the case of a power that targets multiple creatures). 
 
@@ -601,7 +669,7 @@ Your attack bonus with an attack power equals the ability modifier specified in 
 
 All attacks target one of the four defenses: Armor Class, Fortitude, Reflex or Will. 
 
-# Power Effects
+## Power Effects
 
 A power can have three kinds of effects: 
 
@@ -635,6 +703,12 @@ Some powers require you to maintain concentration in order to keep functioning. 
 If a power must be maintained with concentration, that fact appears in a Maintain entry, and the power specifies what action is required from you each turn to maintain it. You can end concentration at any time (no action required).
 
 You can maintain any number of powers, provided you have the actions to do so.
+
+## Boost
+
+If a power has a "Boost" entry, then the power can be selected at a higher level with the improved effect. 
+
+## Keywords
 
 ### Conjuration
 

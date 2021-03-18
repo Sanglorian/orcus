@@ -316,4 +316,6 @@ Dungeon Crawl Classics #59: Mists of Madness, by Harley Stroh, Copyright 2008 Go
 
 Dungeon Crawl Classics #60: Thrones of Punjar, by Rick Maffei, Copyright 2008 Goodman Games (contact info@goodman-games.com, or see www.goodman-games.com)
 
+Spheres of Power © 2014 Drop Dead Studios LLC, Author Adam Meyers
+
 END OF LICENSE
