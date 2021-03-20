@@ -31,14 +31,14 @@ Every character belongs to a class, which they choose at first level. They will 
 
 Since there are ways to get some of the perks of other classes, such as multiclass feats and kits, the original class you chose is sometimes referred to as your "base class". If you do pick up other classes, you count as a member of those classes, but they will never affect your character as much as your base class does. 
 
-## Power Sources and Roles
+## Traditions and Roles
 
-Each class has one or more power sources, which summarize where that class draws most of its power from. 
+Each class has one or more traditions, which summarize where that class draws most of its power from. 
 
-* **Arcane:** Your power comes from arcane magic, which is studied or learned. A bard studies songs that have magical effects; a warlock bargains for or steals magical knowledge from powerful extraplanar beings; and a wizard researches and memorizes magical spells. 
-* **Natural:** Your power comes from the natural world or the spirits of the world. A barbarian is ridden by the spirits for their own purposes; a druid serves the spirits and is empowered by them as a reward. A shaman consults and calls friendly spirits. 
+* **Arcane:** The practitioners of the arcane tradition seek to understand the unexplainable, categorize the bizarre, and otherwise access the ephemeral in a systematic way. If your power comes from arcane magic, it is studied or learned. A bard studies songs that have magical effects; a warlock bargains for or steals magical knowledge from powerful extraplanar beings; and a wizard researches and memorizes magical spells. 
+* **Natural:** An instinctual connection to  and faith in the world, the cycle of day and night, the turning of the  seasons, and the natural selection of predator and prey drive the natural tradition. If your power comes from the natural tradition, it is drawn from the natural world or the spirits of the world. A barbarian is ridden by the spirits for their own purposes; a druid serves the spirits and is empowered by them as a reward. A shaman consults and calls friendly spirits. 
 * **Martial:** Your power comes from strength at arms, experience in battle and training. Martial adventurers have extraordinary abilities, but they are grounded in what is humanly possible. 
-* **Divine:** Your power comes from the gods or other higher powers. A cleric is or was part of the organized hierarchy of a religion; a speaker has been directly chosen by a god. Paladins serve the gods directly or a cause that a god favors. 
+* **Divine:** The power of the divine is steeped in faith, the unseen, and belief in a power source from beyond the Material Plane. If your power comes from divine magic, it is granted by the gods or other higher powers. A cleric is or was part of the organized hierarchy of a religion; a speaker has been directly chosen by a god. Paladins serve the gods directly or a cause that a god favors. 
 * **Shadow:** Your power comes from dark magic, the occult or other mysteries.  
 
 Each class has one or two roles, which summarize how the class most often contributes in combat.
@@ -173,8 +173,8 @@ Martial Leader
 **Defenses:** +2 Fortitude.
 ### Proficiencies and Training
 **Armor:** Cloth, leather, hide, chainmail, scale; light shields.
-**Weapons:** Simple melee, martial melee; simple ranged..
-**Focuses:** Martial focus
+**Weapons:** Simple melee, martial melee; simple ranged.
+**Focuses:** Martial focus.
 **Trained Skills:**  4 from your class skills.
 **Class Skills:** Athletics, Diplomacy, Endure, Heal, History, Intimidate, Religion.
 

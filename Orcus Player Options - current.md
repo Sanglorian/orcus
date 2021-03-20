@@ -834,11 +834,11 @@ You sense the presence of magic.
 
 #### Identify Persistant Power
 
-Make an Arcana check against a power you can see with the Conjuration, Summon or Zone tags (DC 15 + 1/2 power's level). On a success, you learn the power's name, tags and power source. On a failure, you must take a short rest before trying to identify that particular power again. 
+Make an Arcana check against a power you can see with the Conjuration, Summon or Zone tags (DC 15 + 1/2 power's level). On a success, you learn the power's name, tags and tradition. On a failure, you must take a short rest before trying to identify that particular power again. 
 
 #### Identify Magical Things
 
-Make an Arcana check against an environmental magical effect or the results of an incantation (hard DC). On a success, you identify the name of the phenomenon, any tags or power source it might have, and its general purpose. If it is the result of an incantation, you learn the incantation's names and the basics of its effects. On a failure, you must take a long rest before trying to identify that particular thing again. 
+Make an Arcana check against an environmental magical effect or the results of an incantation (hard DC). On a success, you identify the name of the phenomenon, any tags it might have or tradition it comes from, and its general purpose. If it is the result of an incantation, you learn the incantation's names and the basics of its effects. On a failure, you must take a long rest before trying to identify that particular thing again. 
 
 #### Sense Magic
 
@@ -846,8 +846,8 @@ As a standard action, you attempt to sense the presence of magic within 5 + your
 
 For each magical thing in range: 
 
-* If its level is your level -5 or less, you automatically learn its power source and location. 
-* If its level is greater than your level -5, make an Arcana check (hard DC) to learn its power source and location. 
+* If its level is your level -5 or less, you automatically learn its tradition and location. 
+* If its level is greater than your level -5, make an Arcana check (hard DC) to learn its tradition and location. 
 
 ## Athletics (Str, Armor Check Penalty)
 Athletics covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:
@@ -1406,7 +1406,7 @@ For example, you could create a bastard sword exotic weapon by taking the longsw
 
 ## Focuses
 
-Most arcane, divine and natural powers have the Focus tag, meaning that they benefit from a magic focus if you use one while you use the power. Each power can only benefit from one magic focus at most. 
+Most arcane, divine and natural powers, and some martial powers, have the Focus tag, meaning that they benefit from a magic focus if you use one while you use the power. Each power can only benefit from one magic focus at most.
 
 ***Arcane Focus:*** An arcane focus is a special item - typically an orb, rod, staff, wand or book, although a crystal or a pouch of spell components would also be thematically appropriate - designed to channel the power of arcane spells.
 
@@ -1418,9 +1418,13 @@ Unless otherwise mentioned, arcane focuses require a hand to use.
 
 Unless otherwise mentioned, druidic focuses require a hand to use.
 
-***Holy Symbol:*** A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield.
+***Holy Symbol:*** A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic.
 
-Unless otherwise mentioned, holy symbols do not require a hand to use. It is enough that you have it on your person (perhaps emblazoned on a shield or hung around your neck).
+Unless otherwise mentioned, a holy symbol does not require a hand to use. It is enough that you have it on your person (perhaps emblazoned on a shield or hung around your neck).
+
+***Martial Focus:*** A martial focus is an item that inspires or reminds when seen or studied. It might be a short scroll describing a meditation that sharpens the mind for battle, or a book of strategies that can be reviewed quickly before bed, or a blunt sword that can be practiced with, or bindings wrapped around your hands while bareknuckle boxing, or a banner you carry on your back. 
+
+Unless otherwise mentioned, a martial focus does not require a hand to use. It is enough that you have it on your person.
 
 ## Adventuring Gear
 
@@ -1469,6 +1473,7 @@ This section describes items that have special rules or require further explanat
 | Staff (arcane focus)                | 5 gp  | 4 lb.        |
 | Wand (arcane focus)                 | 7 gp  | -            |
 | Book (arcane focus)                 | 7 gp  | 1 lb.            |
+| Martial focus | 5 gp | 1 lb. |
 
 **Table - Adventuring Gear**
 
