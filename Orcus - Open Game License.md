@@ -318,4 +318,48 @@ Dungeon Crawl Classics #60: Thrones of Punjar, by Rick Maffei, Copyright 2008 Go
 
 Spheres of Power © 2014 Drop Dead Studios LLC, Author Adam Meyers
 
+Book of Demons. Copyright © 2018 Pelgrane Press Ltd. under license from Fire Opal Media. All Rights Reserved. Licensed under the Open Game License.
+
+Mutants & Masterminds, Copyright 2002, Green Ronin Publishing; Author Steve Kenson.
+
+Mutants & Masterminds, Second Edition, Copyright 2005, Green Ronin Publishing; Author Steve Kenson.
+
+Mutants & Masterminds Hero’s Handbook, Copyright 2011, Green Ronin Publishing; Author Steve Kenson.
+
+Mutants & Masterminds Gadget Guide: Vehicles, Copyright 2013, Green Ronin Publishing, LLC; Author Steve Kenson.
+
+Mutants & Masterminds Gadget Guide: Mecha, Copyright 2013, Green Ronin Publishing, LLC; Author Steve Kenson.
+
+Mutants & Masterminds Gadget Guide: Installations, Copyright 2013, Green Ronin Publishing, LLC; Author Steve Kenson.
+
+Mutants & Masterminds Gadget Guide: Cybertech, Copyright 2013, Green Ronin Publishing, LLC; Author Steve Kenson.
+
+Mutants & Masterminds Gadget Guide: Armor, Copyright 2013, Green Ronin Publishing, LLC; Author Steve Kenson.
+
+Mutants & Masterminds Gadget Guide: Archaic Weapons, Copyright 20123, Green Ronin Publishing, LLC; Author Steve Kenson.
+
+Mutants & Masterminds Gadget Guide: Alien Tech, Copyright 20123, Green Ronin Publishing, LLC; Author Steve Kenson.
+
+Advanced Player’s Manual, Copyright 2005, Green Ronin Publishing: Author Skip Williams.
+
+Silver Age Sentinels d20, Copyright 2002, Guardians of Order, Inc.; Authors Stephen Kenson, Mark C. Mackinnon, Jeff Mackintosh, Jesse Scoble.
+
+DC Adventures Hero’s Handbook, Copyright 2010, Green Ronin Publishing; Author Steve Kenson.
+
+d20herosrd.com, Copyright 2016, d20pfsrd.com Publishing; Author John Reyst.
+
+13th Age. Copyright 2013, Fire Opal Media; Authors: Rob Heinsoo, Jonathan Tweet, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
+
+13th Age Bestiary. Copyright 2014, Fire Opal Media and Pelgrane Press  Ltd;  Authors:  Ryven  Cedyrlle,  Rob  Heinsoo,  Kenneth  Hite,  Kevin Kulp, ASH LAW, Cal Moore, Steve Townshend, Rob Watkins, Rob Wieland.
+
+13 True Ways. Copyright 2014, Fire Opal Media, Inc.; Authors: Rob Heinsoo, Jonathan Tweet, Robin D. Laws.
+
+Pathfinder RPG Core Rulebook. Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
+
+Castles  &  Crusades,  Copyright  2004,  Troll  Lord  Games;  Authors:  Davis Chenault, Mac Golden.
+
+13th Age Archmage Engine. Copyright 2013-2016, Fire Opal Media. Author:  Chad  Dylan  Long,  based  on  material  by  Jonathan  Tweet,  Rob Heinsoo, Ryven Cedyrlle, Kenneth Hite, Kevin Kulp, ASH LAW, Cal Moore, Steve Townshend, Rob Watkins, and Rob Wieland.
+
+Dark Pacts & Ancient Secrets © 2017 Author Martin Killmann
+
 END OF LICENSE

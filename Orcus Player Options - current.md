@@ -1775,23 +1775,18 @@ Do +Xd6 extra damage against creatures with that tag.
 6. Fire
 7. Water
 8. Air
-9. Angel
+9. Celestial
 10. Aquatic
-11. Blind*
 12. Cold
 13. Demon
 14. Devil
-15. Homunculus*
 16. Plant
 17. Reptile
 18. Shapechanger
 19. Spider
 20. Swarm
 21. Ooze
-22. Mount*
-23. Living construct*
-
-Tags marked with an asterisk are included for completeness, but are unlikely to appear often in a game. 
+22. Mount
 
 ### Venom (II)
 

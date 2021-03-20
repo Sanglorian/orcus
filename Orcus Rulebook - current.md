@@ -718,18 +718,31 @@ A conjuration is an object or monster that is created by a power. It normally ca
 
 A conjuration disappears if its creator is killed. 
 
-### Summon
+### Summons
 
-A summon is a monster that is created by a power or other effect. It is an ally of its summoner, and of its summoner's allies. It uses your defenses. 
+A Summons power creates one or more summoned monsters. The summoned monster obeys the following rules:
 
-If the summon is reduced to 0 HP, it is destroyed and the summoner loses a recovery, if able to do so. If the summoner has no recoveries left, they lose HP equal to half their Staggered value instead. 
+*Actions*
 
-Unless otherwise mentioned, calculate the summon's stats as follows: 
+* You can give up actions to command the summoned monster, in which case it gets to take the same actions. For example, you can give up your standard action in order for the summoned monster to take a standard action. You can also use an immediate action in order for the animal companion to make an opportunity attack (if eligible to do so). 
+* Some summoned monsters have an "Instinct" listed. This is how the monster behaves when you do not command it. 
 
-* **Defenses, Skill Modifiers, Attack Roll Modifiers:** Equal to the summoner's, unless otherwise mentioned. Don't include temporary bonuses and penalties the summoner may happen to have at the moment.  
-* **Hit Points:** Equal to the summoner's Staggered value
+*Stats and Combat*
 
-A summoner can dismiss their summon with a swift action. Otherwise it disappears after five minutes. 
+* The summoned monster's level is equal to the level of the power that summoned it.
+* The summoned monster's maximum HP (and starting HP each time it is summoned) will be specified. 
+* Your summoned monster has no recoveries of its own, but can use yours. 
+* When your summoned monster drops to 0 hit points, it disappears, leaving behind no physical form. You lose one recovery or, if not able to lose a recovery, take damage equal to your recovery value. 
+* Your summoned monster uses your Armor Class, Fortitude, Reflex and Will defenses. 
+* Your summoned monster can contribute to a flank. 
+
+*Other*
+
+* Your summoned monster always obeys your commands.
+* The animal companion is an ally of you, and of your allies.
+* The animal companion is a bright, sensitive animal, but nonetheless has animal-level intelligence. 
+
+* A summoner can dismiss their summon with a swift action. Otherwise it disappears after five minutes or at the end of the encounter. 
 
 ### Teleportation
 
@@ -1109,6 +1122,12 @@ You can move through an allied creature's space. In contrast, you can move throu
 Whether a creature is a friend or an enemy, you can't willingly end your move in its space.
 
 If you leave a square adjacent to an enemy, e.g. by moving into their space, you provoke an opportunity attack.
+
+## Flanking
+
+When making an attack, you have combat advantage if your opponent is flanked, that is to say an ally is on the opponent’s opposite border or opposite corner.
+
+Only a creature or character that can attack the defender can help an attacker flank. For example, a creature without attacks or that is unconscious cannot contribute to a flank. 
 
 ## Flying Movement
 
