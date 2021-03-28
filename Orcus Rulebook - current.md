@@ -1,13 +1,15 @@
 # Orcus Rulebook
 A retroclone of 4th Edition
 
-Version 0.2 (Alpha)
+Version 0.3 (Alpha)
 
 
 
 Dedicated to the hobbyists, designers, developers and publishers that have released their work under the Open Game License.
 
 Orcus is a work in progress. All feedback is welcome. 
+
+![Compatible with Fourth Edition](Compatible with Fourth Edition.png)
 
 # Glossary of New Terms
 
@@ -27,6 +29,7 @@ What follows are terms that might be unfamiliar even to experienced gamers.
 **Recoveries:** Creatures have a number of recoveries, which allow them to heal outside of combat (and sometimes in combat). 
 **Recovery value:** How much a creature heals after spending a single recovery, equal to one quarter their maximum HP. 
 **Staggered:** A creature is staggered when its current HP are half or fewer its maximum HP.
+**Streak:** The player characters complete a streak every two encounters they face without stopping for a long rest. 
 
 **Adventurer (tier):** Characters, creatures, items, powers, etc. that are between levels 1 and 10 are in the adventurer tier. 
 **Prestige (tier):** Characters, creatures, items, powers, etc. that are between levels 11 and 20 are in the prestige tier. 
@@ -45,7 +48,8 @@ What follows are terms that might be unfamiliar even to experienced gamers.
 **Controlled (condition):** The creature is under the control of another.
 **Immobile (condition):** The creature cannot willingly leave its current space.
 
-**Unwilling movement:** Unwilling movement is one of three forms of movement forced on a creature: pushes, pulls and slides. 
+**Unwilling movement:** Unwilling movement is one of three forms of movement forced on a creature: pushes, pulls and shunts. 
+**Shunt (unwilling movement):** A shunt moves the creature in any direction, unlike a pull which must bring them closer or a push which must take them further away. 
 
 **Extended challenge:** A challenge that requires multiple skill checks to overcome, not just one. An extended challenge will identify how many successes are required to succeed at the overall task; typically, these must be achieved before three failures.
 
@@ -69,7 +73,7 @@ What follows are terms that might be unfamiliar even to experienced gamers.
 **Mook (monster tyoe):** Weak monsters with just 1 HP. 
 
 **Archer (monster role):** Archers make ranged attacks, sometimes ranged area attacks. 
-**Blocker (monster role):** Blockers  are harder to hit than other monsters, and can defend their weaker allies from attacks. 
+**Blocker (monster role):** Blockers are harder to hit than other monsters, and can defend their weaker allies from attacks. 
 **Spoiler (monster role):** Spoilers create zones and other battlefield conditions, use area attacks and debuff enemies. 
 **Wrecker (monster role):** Wreckers do large amounts of damage, usually in melee range.
 
@@ -406,17 +410,17 @@ These brief summaries of the five alignments describe the typical behavior of a 
 
 In this variant, instead of five alignments there are nine. 
 
-Alignment is a combination of two factors: one identifies morality  (good, evil, or neutral), and the other describes attitudes toward  society and order (lawful, chaotic, or neutral). Thus, nine distinct  alignments define the possible combinations. These brief summaries of  the nine alignments describe the typical behavior of a creature with  that alignment. Individuals might vary significantly from that typical  behavior, and few people are perfectly and consistently faithful to the  precepts of their alignment.
+Alignment is a combination of two factors: one identifies morality (good, evil, or neutral), and the other describes attitudes toward society and order (lawful, chaotic, or neutral). Thus, nine distinct alignments define the possible combinations. These brief summaries of the nine alignments describe the typical behavior of a creature with that alignment. Individuals might vary significantly from that typical behavior, and few people are perfectly and consistently faithful to the precepts of their alignment.
 
-- **Lawful good (LG)** creatures can be counted on to do  the right thing as expected by society. 
+- **Lawful good (LG)** creatures can be counted on to do the right thing as expected by society. 
 - **Neutral good (NG)** folk do the best they can to help others according to their needs. 
-- **Chaotic good (CG)** creatures act as their conscience directs, with little regard for what others expect. Copper dragons,  many elves, and unicorns are chaotic good.
+- **Chaotic good (CG)** creatures act as their conscience directs, with little regard for what others expect. 
 - **Lawful neutral (LN)** individuals act in accordance with law, tradition, or personal codes. 
-- **Neutral (N)** or **True neutral (TN)** is the alignment of those who prefer to steer clear of moral questions and don’t take sides, doing what seems  best at the time. 
-- **Chaotic neutral (CN)** creatures follow their whims,  holding their personal freedom above all else. 
-- **Lawful evil (LE)** creatures methodically take what  they want, within the limits of a code of tradition, loyalty, or order.
-- **Neutral evil (NE)** is the alignment of those who do  whatever they can get away with, without compassion or qualms. 
-- **Chaotic evil (CE)** creatures act with arbitrary  violence, spurred by their greed, hatred, or bloodlust.
+- **Neutral (N)** or **True neutral (TN)** is the alignment of those who prefer to steer clear of moral questions and don’t take sides, doing what seems best at the time. 
+- **Chaotic neutral (CN)** creatures follow their whims, holding their personal freedom above all else. 
+- **Lawful evil (LE)** creatures methodically take what they want, within the limits of a code of tradition, loyalty, or order.
+- **Neutral evil (NE)** is the alignment of those who do whatever they can get away with, without compassion or qualms. 
+- **Chaotic evil (CE)** creatures act with arbitrary violence, spurred by their greed, hatred, or bloodlust.
 
 ## Languages
 
@@ -497,7 +501,7 @@ Characters have a level bonus equal to half their level, rounded down, which app
 
 ## Retraining
 
-If you are unsatisfied with a feat, skill or power you chose, you may trade one old option for a new one each time you gain a level.  One retraining per level, only. 
+If you are unsatisfied with a feat, skill or power you chose, you may trade one old option for a new one each time you gain a level. One retraining per level, only. 
 
 You cannot retrain a feat, skill or power that serves as a requirement for any other character option you have. 
 
@@ -713,6 +717,10 @@ If a power has a "Boost" entry, then the power can be selected at a higher level
 
 ## Keywords
 
+### Booster
+
+This power is used after you hit with a basic attack (or power that counts as a basic attack). A Booster power adds damage and/or additional effects to the triggering hit. You can only apply one Booster power per attack (even if boosters inflict different effects or the attack results in multiple hits). You can only apply a Booster power to a hit that inflicts at least one die of damage.
+
 ### Conjuration
 
 A conjuration is an object or monster that is created by a power. It normally cannot be attacked. Allies of its creator can pass through its space but enemies cannot. If it makes attacks or is attacked, it uses the power user's attack modifiers and defense scores. A conjuration cannot be affected by conditions or persistent damage. 
@@ -742,8 +750,19 @@ A Summons power creates one or more summoned monsters. The summoned monster obey
 * Your summoned monster always obeys your commands.
 * The animal companion is an ally of you, and of your allies.
 * The animal companion is a bright, sensitive animal, but nonetheless has animal-level intelligence. 
-
 * A summoner can dismiss their summon with a swift action. Otherwise it disappears after five minutes or at the end of the encounter. 
+
+### Psyche
+
+These powers involve using dialogue and presence of personality to inflict effects. These powers depend on the target being able to understand you. If the target is deafened, does not share a language with you, or lacks free will, they cannot be affected by this ability. These powers may not function in certain circumstances at the GM’s discretion. If a Psyche power cannot be used, it is not considered to be expended if attempted. Since they do no damage, if you score critical hit with a power with the Psyche keyword, you gain a +4 power bonus to your next attack roll with a power with the Psyche keyword in that same encounter.
+
+### Stance
+
+A stance is a type of fighting method that you maintain from round to round. So long as you stay in a stance, you gain some benefit from it. 
+
+You can use a single swift action to end one stance and begin another, or you can choose to simply end your current stance without entering another. You continue to gain a stance’s benefits until you switch to a new stance or end your current one. You cannot have more than one stance active at a time. 
+
+Your stance ends if you are rendered helpless for any reason.
 
 ### Teleportation
 
@@ -752,7 +771,7 @@ Unless otherwise specified, teleportation obeys the following rules:
 * You can teleport while prone or while restrained or immobilized. You remain prone after your teleport; whether you remain restrained/immobilized depends on whether you have left behind what was causing that condition. 
 * Teleportation is not affected by the terrain between your start point and your destination. 
 * The destination of the teleport must be a space that is unoccupied and can fit the subject of the teleport. 
-* The initiator of the teleportation must have line of sight to the destination of the teleport. The initiator may or may not be the subject of the teleportation, depending on whether the teleportation affects the user or another target.  
+* The initiator of the teleportation must have line of sight to the destination of the teleport. The initiator may or may not be the subject of the teleportation, depending on whether the teleportation affects the user or another target. 
 * Teleportation does not provoke opportunity attacks. 
 * Teleportation does not count as unwilling movement, even if the creature does not want to be teleported. 
 
@@ -967,7 +986,7 @@ Your reach is primarily used to determine which enemies you can make melee attac
 
 Most creatures have a 1-square **reach** and can thus attack targets within 1 square of them when making a melee attack. Certain creatures (typically those larger than Medium) have melee attacks with a greater reach than 1 square, as noted in their descriptions. However, note that opportunity attacks are provoked when a creature leaves an *adjacent* square, so even if you have a longer reach you do not make opportunity attacks when they leave your reach. 
 
-A melee attack with a range of **Melee touch** uses the user's reach, rather than their weapon's reach.  
+A melee attack with a range of **Melee touch** uses the user's reach, rather than their weapon's reach. 
 
 ### Ranged
 
@@ -1161,11 +1180,17 @@ A creature's space is the area in squares that it effectively controls in combat
 
 ### Unwilling Movement
 
-Creatures can be moved against their will with three forms of unwilling movement: 
+When an effect forces you to move, or if you start falling, the distance you move is defined by the effect that moved you, not by your speed. Because you’re not acting to move, this doesn’t trigger reactions that are triggered by movement.
+
+If unwilling movement would move you into a space you can’t occupy—because objects are in the way or because you lack the movement type needed to reach it, for example—you stop moving in the last space you can occupy. Usually the creature or effect forcing the movement chooses the path the victim takes. 
+
+Unwilling movement can usually move you through hazardous terrain, pushed off a ledge, or the like. However, you may make a saving throw before being moved into hazardous terrain - and on a success you fall prone at the edge instead of being moved.
+
+The three forms of unwilling movement are: 
 
 * *Push X:* The creature is moved X squares, as the attacker chooses, but each move must be away from the attacker (or from the origin of the attack, if it is a Far attack).
 * *Pull X:* The creature is moved X squares, as the attacker chooses, but each move must be towards the attacker (or towards the origin of the attack, if it is a Far attack)
-* *Slip X:* The creature is moved X squares, as the attacker chooses. 
+* *Shunt X:* The creature is moved X squares, as the attacker chooses. 
 
 # Actions in Combat
 
@@ -1221,7 +1246,7 @@ You cannot Walk or Dash while prone, which is why you might choose the Crawl act
 
 When you take the Dash move action, you move your speed +2. Until the end of your next turn, you grant combat advantage and suffer a -5 penalty to attacks.
 
-Your movement provokes opportunity attacks as normal movement does.  
+Your movement provokes opportunity attacks as normal movement does. 
 
 ## Five-Foot Step (move action)
 
@@ -1532,7 +1557,7 @@ In combat and other fast-paced situations, the game relies on **rounds**, a 6-se
 
 ## Falling
 
-A fall from a great height is one of the most common hazards facing an adventurer. At the end of a fall, a creature takes 1d10 damage for every 10 feet it fell, to a maximum of 50d10. The creature lands prone, unless it avoids taking damage from the fall.
+A fall from a great height is one of the most common hazards facing an adventurer. At the end of a fall, a creature takes 1d10 damage for every 2 squares (10 feet) it fell, to a maximum of 50d10. The creature lands prone, unless it avoids taking damage from the fall.
 
 ## Vision and Light
 
@@ -1585,6 +1610,10 @@ A short rest is a period of downtime, at least five minutes long, during which a
 A long rest is a period of extended downtime, at least 6 hours long, during which a character sleeps or performs light activity, such as reading, talking, eating, or standing watch. 
 
 A character can't benefit from more than one long rest in a 24-hour period.
+
+### Streak
+
+After every two encounter that the heroes have without stopping for a long rest, they gain an action point. This is called completing a streak, and some powers and features also work off of it. 
 
 # Legal
 

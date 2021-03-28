@@ -2,13 +2,17 @@
 
 A retroclone of 4th Edition
 
-Version 0.1 (Alpha)
+Version 0.3 (Alpha)
 
 
 
 Dedicated to the hobbyists, designers, developers and publishers that have released their work under the Open Game License.
 
 Orcus is a work in progress. All feedback is welcome. 
+
+
+
+![Compatible with Fourth Edition](Compatible with Fourth Edition.png)
 
 # Ancestries
 
@@ -1059,6 +1063,28 @@ _Scale mail:_ Str 13, Con 13, Armor Proficiency (chainmail)
 ### Awareness
 **Benefit:** You may use your Wisdom bonus instead of your Dexterity bonus to determine your initiative bonus. 
 
+### **Crossbow-Something-Something**
+
+**Benefit:** You treat one-handed ranged weapons as melee weapons when firing into adjacent squares.
+
+### **Crossfire**
+
+**Benefit:** You can flank from two squares away from an enemy as long as you and an ally are in a straight line through the center of the target and are wielding ranged weapons.
+
+### **Crossfire, Improved**
+
+**Prerequisite:** 21st level, Crossfire
+
+**Benefit:** You can flank three squares away from an enemy as long as you and an ally are in a straight line through the center of the target. You both must be using Ranged weapons and use them with attack powers to employ this feat.
+
+### **Deck Fire**
+
+**Benefit:** You do not suffer the attack penalties with ranged attacks while prone.
+
+### **Deflecting Shot**
+
+**Benefit:** You reduce the penalty for firing ranged weapons against an enemy in cover by 1.
+
 ### Energy Resistance
 **Benefit:** You gains resistance to [damage type] 5. At level 11, your resistance increases to 10. At level 21, your resistance increases to 15. 
 
@@ -1101,12 +1127,38 @@ You are talented at learning languages.
 **Benefit:** You may speak three new languages that are available for you to learn. If you are not illiterate, you can also read and write in these languages. 
 **Special:** You can gain Linguistic Savant multiple times. Each time you take the feat, it applies to three new languages. 
 
+### Melee Finesse
+
+**Benefit:** Choose an ability. Use that ability modifier for your basic melee attack's attack rolls, instead of Strength. You may also add half that ability modifier to damage in lieu of your Strength modifier, if you like. 
+
+### Monster Expert
+
+**Prerequisites:** 11th level
+
+**Benefit:** You can take 10 on knowledge and monster knowledge checks with skills you are trained in, and you can take 10 with these skills during an encounter as a standard action.
+
 ### Night Sight
 **Benefit:** You gain low-light vision. If you already had low-light vision, you gain darkvision up to 2 squares distance. 
 **Special:** You can gain this feat twice, once for low-light vision and once for darkvision. 
 
 ### Rapid Reload
 **Benefit:** If you could normally reload your crossbow as a swift action, the time required for you to reload a crossbow is reduced to a free action. 
+
+### Resilience
+
+**Benefit:** Your recovery value increases by +3. 
+*Level 11:* By +1 further, to +4. 
+*Level 21:* By +1 further, to +5.
+
+### **Rolling Kip**
+
+**Prerequisite:** 11th level
+
+**Benefit:** If you fall prone but don’t suffer any other effects, you can make a DC 20 Acrobatics roll as an immediate reaction to immediately stand up.
+
+### **Sign Of Weakness**
+
+**Benefit:** The first time a creature is staggered in an encounter, your next hit against that creature gains a bonus to the damage roll equal to you Wisdom modifier. This may only occur once per target per encounter.
 
 ### Shield Focus
 **Benefit:** Shields do not inflict an armor check penalty on you. 
@@ -1129,10 +1181,16 @@ Choose a skill.
 
 ### Tactical Rearrangement
 
-**Benefit:** When you would push or pull a target, you can slide them instead.
+**Benefit:** When you would push or pull a target, you can shunt them instead.
 
 ### Talented Healer
 **Benefit:** You can provide first aid as a swift action. You also get a +2 bonus on all Heal checks. 
+
+### **The Presence**
+
+**Prerequisite:** 11th level, Charisma 16
+
+**Benefit:** Anytime any ally spends a recovery within 5 squares of you, they recover additional hit points equal to your Charisma modifier.
 
 ### Touch of Grace
 Fate is looking out for you. 
@@ -1154,6 +1212,170 @@ Choose one type of weapon, like "longsword" or "hand crossbow". You understand h
 Choose one weapon group, like "axes" or "spears and lances". 
 **Benefit:** You gain a +1 bonus on all damage rolls you make using the selected weapons. At level 11, this bonus increases to +2. At level 21, this bonus increases to +3. 
 **Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new group of weapons.
+
+## Martial Training Feats
+
+These feats represent expanded possibilities for unarmed combat. Many of these feats employ a special critical effect, which is in addition to the normal effects of a critical hit but cannot be combined with any other special critical effects from martial training feats. If you have several critical effects at your disposal via martial training feats, you must decide which one will be applied. You can decide the critical effect after the attack roll. These critical effects cannot be inflicted upon vehicles or opponents larger than you.
+
+### **Balance and Direction**
+
+You are trained in a martial art focused on pure foot and fist fighting. 
+
+**Prerequisite:** Unarmed Combat
+
+**Benefit:** If you are unarmed or wielding only natural weapons, you gain a +1 feat bonus to all defenses against melee attacks.
+
+*Critical:* If you score a critical hit with an unarmed attack, the target is weakened and grants you combat advantage until the end of your next turn.
+
+### **Best on the Mat**
+
+**Prerequisite:** Evolution of Pankration
+
+**Benefit:** You gain a +1 feat bonus to grapples and attack powers involving grapples while prone. You gain a +2 feat bonus to damage against grappled opponents while you are prone.
+
+### **Bouncing Combo**
+
+**Prerequisite:** 21st level, Unarmed Combat
+
+**Benefit:** If you stagger or drop an enemy with an unarmed attack, you can take a move action that must be used before the end of your turn. You can only gain one move action this way per round, and you can only use it to walk, run, or shift.
+
+### **Deep in a Clinch**
+
+**Prerequisite:** Evolution of Pankration
+
+**Benefit:** You do not release an opponent from a grapple if you are dazed.
+
+### **Earned the Belt**
+
+**Prerequisite:** 11th level, Evolution of Pankration
+
+**Benefit:** You can sustain two grapples with only a single swift action. You can move a grappled target one square with a move action without requiring a Strength attack.
+
+###  Evolution of Pankration
+
+You are trained in a martial art involving pinning or submission. 
+
+**Prerequisite:** Unarmed Combat
+
+**Benefit:** You do not grant combat advantage if prone. If you grapple a prone opponent, they are restrained instead of immobile (you are still capable of forcing movement on the target) and cannot stand until he escapes.
+
+*Critical:* If you roll a natural 20 on a grapple attempt or attack power that involves a grapple, the target cannot attempt to escape from the grapple on its next turn.
+
+### **Game Of Sticks**
+
+You are trained in a stick-based martial art. 
+
+**Prerequisite**: Unarmed Combat
+
+**Benefit:** When wielding a quarterstaff, it gains the reach property.
+
+*Critical:* If you score a critical hit with a quarterstaff, the target drops one held item and is dazed until the start of your next turn.
+
+### **Ham Hands**
+
+**Prerequisite:** 21st level, Unarmed Combat
+
+**Benefit:** If you hit a target one size larger than you or smaller with an unarmed attack, you can spend a move action to immobilize that target until the start of your next turn. This takes up a hand.
+
+### **Jumping Knee**
+
+**Prerequisite:** Unarmed Expanded Profile
+
+**Benefit:** When you hit with an unarmed attack as part of a charge, the target also suffers the effects of a bull rush as well the damage from the hit. If the target cannot be pushed because of an obstruction, it takes an additional +2 damage.
+
+### **Kayfabe Maneuver**
+
+**Prerequisite:** Superior Position
+
+**Benefit:** You can move a target you have grappled with a move action instead of a standard action.
+
+### **Master Degree Martial Artist**
+
+**Prerequisite:** 21st level, Unarmed Combat, at least one other martial training feat
+
+**Benefit:** With unarmed attacks, you score a critical hit on a natural roll of 19 or 20.
+
+### **Non-Lethal Intent**
+
+**Benefit:** If you inflict damage with a melee attack equal to half the target's staggered value in a single turn, you can elect to inflict no damage for that entire turn and instead stun the target until the start of your next turn. In addition, if the damage equals or exceeds the target's staggered value, you can elect to inflict no damage for that entire turn and instead knock the target prone and render it unconscious for five minutes. Any further damage wakes the target up.
+
+### **Swords of Grace**
+
+You are trained in a defensive weapon-based martial arts. 
+
+**Prerequisite:** Unarmed Combat
+
+**Benefit:** When wielding a one-handed light blade, you do not grant combat advantage when flanked.
+
+*Critical:* Once per round, if you score a critical hit while wielding a one-handed light blade, you can immediately make a melee basic attack against the same target.
+
+### Superior Position
+
+**Benefit:** When an enemy attempts to escape from a grapple you are sustaining, regardless if the target uses Acrobatics or Athletics, it rolls against the higher of your Fortitude or Reflex defenses.
+
+### **Tag Team**
+
+**Prerequisite:** 11th level, Unarmed Combat
+
+**Benefit:** If an ally hits an enemy adjacent to you with a melee attack, you can deal damage to that enemy equal to your Strength or Dexterity modifier as an immediate reaction.
+
+### The Ritual of Dance and Damage
+
+Your combat style has become flamboyant and entertaining when not directly involved in the harming of another. 
+
+**Prerequisite:** Unarmed Combat, Unarmed Expanded Profile
+
+**Benefit:** While you are unarmed or wielding only natural weapons and are in reach of an enemy, you can shift two squares as a move action instead of one as long as you remain in reach of that enemy.
+
+*Critical:* If you score a critical hit with an unarmed attack, you can shift up to your speed as free action and gain combat advantage against all adjacent enemies until the end of your next turn.
+
+### **Think Big**
+
+**Prerequisite:** 11th level
+
+**Benefit:** You can gain the benefits of martial combat feat critical effects against targets one size larger than you.
+
+### **True Enlightenment of the Art**
+
+**Prerequisite:** Unarmed Combat
+
+**Benefit:** As a minor action, you can spend a recovery to gain resistance to all damage 5 until the end of your next turn.
+
+*Critical:* If you score a critical hit and you have spent a recovery on this feat since the start of your last turn, you gain a bonus equal to half your recovery value to your next melee damage roll.
+
+### **Unarmed Combat**
+
+**Benefit:** You are proficient with your fists in combat. Your unarmed attack gains a +3 proficiency bonus and the off-hand property. The base damage die of your unarmed attack improves by one step (1d4 > 1d6 > 1d8 > 1d10 > 1d12 > 2d6 > 2d10). If you gain a natural enhancement bonus with unarmed attacks, they deal 1d6 critical damage per plus.
+
+### **Unarmed Combat, Improved**
+
+**Prerequisite:** Unarmed Combat
+
+**Benefit:** Your damage die with all unarmed attacks improves by one step (1d4 > 1d6 > 1d8 > 1d10 > 1d12 > 2d6 > 2d8 > 2d10).
+
+### **Unarmed Combat, Master**
+
+**Prerequisite:** 11th level, Improved Unarmed Combat
+
+**Benefit:** Your damage die with all unarmed attacks improves by one step (1d4 > 1d6 > 1d8 > 1d10 > 1d12 > 2d6 > 2d8 > 2d10).
+
+### **Unarmed Expanded Profile**
+
+Your legs become part of your unarmed attack profile. 
+
+**Prerequisite:** Unarmed Combat
+
+**Benefit:** You can spend a move action before making an unarmed melee attack to gain a +2 bonus to all damage rolls with that attack. At 11th level, this bonus increases to +3 and at 21st level, it increases to +4.
+
+### **Way Of The Turn**
+
+You specialize in a martial art specializing in redirecting an opponent's momentum or throwing them to the ground. 
+
+**Prerequisite:** Unarmed Combat
+
+**Benefit:** When you hit with a melee attack that inflicts at least 1dW damage, you can choose to inflict half damage and knock your opponent prone.
+
+*Critical:* If you score a critical and choose to use this feat, the target is stunned until the start of your next turn.
 
 ## Dualclassing
 

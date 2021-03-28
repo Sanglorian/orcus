@@ -2,13 +2,17 @@
 
 A retroclone of 4th Edition
 
-Version 0.1 (Alpha)
+Version 0.3 (Alpha)
 
 
 
 Dedicated to the hobbyists, designers, developers and publishers that have released their work under the Open Game License.
 
 Orcus is a work in progress. All feedback is welcome. 
+
+
+
+![Compatible with Fourth Edition](Compatible with Fourth Edition.png)
 
 # Character Elements
 
@@ -141,7 +145,7 @@ If you use an encounter attack power and do not hit any targets, you can lose yo
 
 You get a +2 bonus on attack rolls you make outside of your turn (e.g. opportunity attacks and immediate actions).
 
-### Subclasses
+### Talents
 
 Choose either Forceful Swashbuckler or Goading Swashbuckler. 
 
@@ -150,7 +154,7 @@ Choose either Forceful Swashbuckler or Goading Swashbuckler.
 
 ### Powers
 
-You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline's key ability with Dexterity instead. You can replace any reference to the discipline's secondary ability or abilities with the secondary ability linked to your subclass.
+You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline's key ability with Dexterity instead. You can replace any reference to the discipline's secondary ability or abilities with the secondary ability linked to your talent.
 
 **Class Disciplines:** Rapier's Point, Blades in the Dark.
 
@@ -198,7 +202,7 @@ You can use the *lift spirits* power two times each encounter. *Level 16:* Three
 **Near** burst 5 (10 at level 11, 15 at level 21), one ally or yourself
 **Effect:** The target spends a recovery and heals their recovery value plus your Charisma modifier.
 
-### Subclasses
+### Talents
 Choose one at character creation. 
 
 **React to Ill Fortune:** If an ally within 5 misses with an attack, they can shift 1 as a free action. Your secondary ability is Intelligence. 
@@ -210,7 +214,7 @@ Choose one at character creation.
 **React to Treachery:** Allies within 5 get a +1 bonus to all defenses against attacks that have combat advantage against them. Your secondary ability is Intelligence.
 
 ### Powers
-You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline's key ability with Charisma instead. You can replace any reference to the discipline's secondary ability or abilities with the secondary ability linked to your subclass.
+You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline's key ability with Charisma instead. You can replace any reference to the discipline's secondary ability or abilities with the secondary ability linked to your talent.
 
 **Class Disciplines:** Angel's Trumpet, Golden Lion.
 
@@ -250,7 +254,7 @@ As a standard action, if you have a free hand you can summon your key weapon. If
 *Level 21:* Within 100 miles.
 #### Shimmering Shield
 You have a +1 bonus to AC. If you have a spare hand (not carrying a shield, wielding a two-handed weapon, etc.) then it is a +3 bonus instead.
-### Subclasses
+### Talents
 **Illusion Specialist:** Your secondary ability is Constitution. You can use the *blurring sigil* power.
 
 **Assault Specialist:** Your secondary ability is Strength. You can use the *sigil of retaliation* power.
@@ -268,7 +272,7 @@ You have a +1 bonus to AC. If you have a spare hand (not carrying a shield, wiel
 **Effect:** The target is marked until you use this power again. While this target is marked, if it makes an attack that does not include you as a target, and it hits, you can - as an immediate action - reduce the damage to any one target of the attack by 5 + your Constitution modifier (Level 11: 10 + your Constitution modifier; Level 21: 15 + your Constitution modifier). You must be within 10 of the target in order to do so.
 
 ### Powers
-You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline's key ability with Intelligence instead. You can replace any reference to the discipline's secondary ability or abilities with the secondary ability linked to your subclass.
+You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline's key ability with Intelligence instead. You can replace any reference to the discipline's secondary ability or abilities with the secondary ability linked to your talent.
 
 **Class Disciplines:** 
 
@@ -914,8 +918,8 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 **Melee** weapon, one target
 **Attack:**  Strength vs AC
 **Hit:**  1dW + Strength modifier damage and push the target 2. Each ally that is in reach of the target at some point during its move may make a melee basic attack against it.
-**Boost:**  **Level 17:** 2dW + Strength modifier damage and slide the target 4
-**Level 27:** 3dW + Strength modifier damage and slide the target 8 
+**Boost:**  **Level 17:** 2dW + Strength modifier damage and shunt the target 4
+**Level 27:** 3dW + Strength modifier damage and shunt the target 8 
 #### Kill the Wounded
 
 **Daily** **Standard Action**
