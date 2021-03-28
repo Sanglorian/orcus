@@ -9,4 +9,4 @@ Dedicated to the hobbyists, designers, developers and publishers that have relea
 
 Orcus is a work in progress. All feedback is welcome. 
 
-![Compatible with Fourth Edition](Compatible with Fourth Edition.png)
+![Compatible with Fourth Edition](https://github.com/Sanglorian/orcus/raw/main/Compatible%20with%20Fourth%20Edition.png)
