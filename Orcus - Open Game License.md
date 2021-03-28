@@ -362,4 +362,14 @@ Castles  &  Crusades,  Copyright  2004,  Troll  Lord  Games;  Authors:  Davis Ch
 
 Dark Pacts & Ancient Secrets © 2017 Author Martin Killmann
 
+Hyperconscious: Explorations in Psionics Copyright 2004 Bruce R. Cordell. All rights reserved.
+
+If Thoughts Could Kill Copyright 2001–2004 Bruce R. Cordell. All rights reserved.
+
+Mindscapes Copyright 2003–2004 Bruce R. Cordell. All rights reserved
+
+Ultramodern4 ©2012 Dias Ex Machina; Author: Chris Dias
+
+Apex ©2013 Dias Ex Machina; Author: Chris Dias
+
 END OF LICENSE
