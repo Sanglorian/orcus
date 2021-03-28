@@ -1,7 +1,7 @@
 # Orcus
 A retroclone of 4th Edition
 
-Version 0.1 (Alpha)
+Version 0.3 (Alpha)
 
 
 
