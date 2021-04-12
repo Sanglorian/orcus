@@ -264,7 +264,7 @@ When you use your Channel Divinity, you choose which effect to create. You can u
 > **Crusader Attack Feature** ● **Divine, Focus, Radiant**
 > **Near** burst 2 (Level 11: 5; Level 21: 8), all undead
 > **Attack:**  Wisdom vs Will
-> **Hit:**  1d10 + Wisdom modifier radiant damage. Target is pushed 3 + your Charisma modifier and immobilised until the end of your next turn.
+> **Hit:**  1d10 + Wisdom modifier radiant damage. Target is pushed 3 + your Charisma modifier and immobile until the end of your next turn.
 > **Miss:**  Half damage.
 > **Special:**  Level 5: 2d10 + Wisdom modifier damage; Level 11: 3d10 + Wisdom modifier damage; Level 15: 4d10 + Wisdom modifier damage; Level 21: 5d10 + Wisdom modifier damage; Level 25: 6d10 + Wisdom modifier damage
 
@@ -1924,7 +1924,7 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 > **Daily** **Move Action**
 > **Born Leadership Attack 9** ● **Martial, Weapon**
 > **Near** wall 10
-> **Effect:** The endpoint of the wall must be adjacent to one ally, and must cover the shortest path between you. You or the ally can make a basic attack as an opportunity action against any creature that enters the wall until the start of your next turn. A creature hit by this attack is immobilized until the start of your next turn.
+> **Effect:** The endpoint of the wall must be adjacent to one ally, and must cover the shortest path between you. You or the ally can make a basic attack as an opportunity action against any creature that enters the wall until the start of your next turn. A creature hit by this attack is immobile until the start of your next turn.
 > **Maintain:**  Move: The effect persists: if you or the ally has moved, you can also move the wall. This effect ends if the distance between you and the ally is greater than 10 squares or if line of sight is broken with the ally.
 
 > #### Bolster the Line
@@ -3943,7 +3943,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 > **Last Laugh Attack 1** ● **Martial, Psyche, Consistent**
 > **Near** burst 10, one creature you can see
 > **Attack:**  Charisma +2 vs Will
-> **Hit:**  The target is immobilized until the end of your next turn. If the target takes any damage from you or your allies, it immediately recovers from this effect.
+> **Hit:**  The target is immobile until the end of your next turn. If the target takes any damage from you or your allies, it immediately recovers from this effect.
 > **Effect:** You can use this power again with an action point (replacing the action). You cannot target the same creature.
 
 > #### Personal Betrayal
@@ -4371,8 +4371,8 @@ When a power refers to [flux], it always means your current flux energy, even if
 > **Puppeteer's String Attack 9** ● **Arcane, Psychic, Focus**
 > **Far** burst 3 (range 10), all enemies
 > **Attack:**  Wisdom vs Will
-> **Hit:**  The target is dazed, immobilized, and weakened (save ends all).
-> **Miss:**  The target is dazed, immobilized, and weakened until the start of your next turn.
+> **Hit:**  The target is dazed, immobile, and weakened (save ends all).
+> **Miss:**  The target is dazed, immobile, and weakened until the start of your next turn.
 
 > #### Telepathic Blocker
 > *You go on the defense to ensure you don’t suffer from any effects you yourself are known for.*
@@ -5400,7 +5400,7 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Ranged** 20, one Medium or smaller creature
 > **Attack:**  Dexterity vs Reflex
 > **Hit:**  1d6 + Dexterity modifier [flux] damage, and you inflict additional effects based on your flux energy.
-> * Cold: The target is immobilized in an ice cage, blocking line of sight, and cannot break free until it inflicts damage on the ice equal to twice your level plus your Dexterity modifier.
+> * Cold: The target is immobile in an ice cage, blocking line of sight, and cannot break free until it inflicts damage on the ice equal to twice your level plus your Dexterity modifier.
 > * Fire: You inflict additional damage equal to your level and can slide the target as many squares as your Dexterity modifier.
 > **Boost:**  **Level 17:** 3d6 + Dexterity modifier damage.
 
@@ -5574,7 +5574,7 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Ranged** weapon, one creature
 > **Attack:**  Dexterity vs AC
 > **Hit:**  1dW + Dexterity modifier damage, and the target is slowed until the start of your next turn.
-> **Special:**  If you do not move this turn, the target is immobilized instead of slowed.
+> **Special:**  If you do not move this turn, the target is immobile instead of slowed.
 > **Maintain:**  Standard:  Repeat the attack against the same target.  You can sustain only once.
 
 > #### Shot on the Run
@@ -5612,7 +5612,7 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Starfall Attack 3** ● **Martial, Weapon**
 > **Ranged** weapon, one creature
 > **Attack:**  Dexterity vs Reflex
-> **Hit:**  1dW + Dexterity modifier damage, and the target is immobilized and cannot make opportunity attacks until the start of your next turn.
+> **Hit:**  1dW + Dexterity modifier damage, and the target is immobile and cannot make opportunity attacks until the start of your next turn.
 > **Special:**  You can use this power again with an action point (replacing the action).
 > If you do not move this turn, the target suffers a -2 penalty to all attack rolls until the start of your next turn (this does not require a hit).
 
@@ -5641,7 +5641,7 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Starfall Attack 5** ● **Martial, Weapon**
 > **Far** burst 1 (weapon range), all creatures you can see
 > **Attack:**  Dexterity vs Reflex
-> **Hit:**  1dW + Dexterity modifier damage, and the target is immobilized until the start of your next turn.
+> **Hit:**  1dW + Dexterity modifier damage, and the target is immobile until the start of your next turn.
 > **Miss:**  Half damage.
 > **Special:**  If you do not move this turn, on a hit, the target suffers a -2 penalty to all attack rolls until the start of your next turn.
 > **Maintain:**  Move and Standard:  Repeat the attack against the same area.
@@ -5686,7 +5686,7 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Starfall Attack 9** ● **Martial, Weapon**
 > **Far** burst 2 (weapon range), all creatures you can see
 > **Attack:**  Dexterity vs Reflex
-> **Hit:**  1dW + Dexterity modifier damage, and the target is immobilized until the end of your next turn.
+> **Hit:**  1dW + Dexterity modifier damage, and the target is immobile until the end of your next turn.
 > **Special:**  If you do not move this turn, the target suffers a -2 penalty to all attack rolls until the start of your next turn whether or not you hit.
 > **Maintain:**  Standard: Repeat the attack. You can shift the barrage up to 3 squares every turn. If you miss all targets in the burst, you can no longer sustain.
 
