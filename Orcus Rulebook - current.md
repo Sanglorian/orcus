@@ -613,13 +613,15 @@ When an area of effect attack affects multiple targets you make a separate attac
 
 If a creature that is Large or larger is affected by an area of effect power it is only affected once, even if more than one of its squares are within the area of effect.
 
-When you make an area attack with a ranged weapon you need one projectile or thrown weapon for each target.
+When you make an area of effect attack with a ranged weapon you need one projectile or thrown weapon for each target.
+
+Special sizes for area of effect are "eyesight" and "earshot". Eyesight means the target(s) can be anywhere that the user has line of sight. Earshot means the target(s) can be any creature that can hear the user. 
 
 ### Range
 
-For Weapon powers, this is simple: the reach of the melee weapon (usually 1, i.e. adjacent squares only) or the range of the ranged weapon. 
+For Weapon powers (Melee and Ranged), this is simple: the reach of the melee weapon (usually 1, i.e. adjacent squares only) or the range of the ranged weapon. 
 
-For other ranged powers, the range is specified in squares. 
+For Ranged powers that are not Weapon powers, the range is usually specified in squares. 
 
 Melee "touch" means the power has range equal to the user's reach. Medium and Small creatures typically have a reach of 1, and the rules will specify if the creature has a longer reach. This is separate to the user's weapon's reach. 
 
@@ -727,6 +729,26 @@ A conjuration is an object or monster that is created by a power. It normally ca
 
 A conjuration disappears if its creator is killed. 
 
+### Consistent
+
+If the user of a Consistent power misses on all attacks made with that power, the power is not expended. 
+
+### Maneuver
+
+These attack powers inflict no damage; instead, they involve outmaneuvering your opponent with skill and natural agility. Since they do no damage, if you score critical hit with a power with the maneuver keyword, you gain a +2 power bonus to your next attack roll with a power with the maneuver or weapon keyword in that same encounter.
+
+### Psyche
+
+These powers involve using dialogue and presence of personality to inflict effects. These powers depend on the target being able to understand you. If the target is deafened, does not share a language with you, or lacks free will, they cannot be affected by this ability. These powers may not function in certain circumstances at the GM’s discretion. If a Psyche power cannot be used, it is not considered to be expended if attempted. Since they do no damage, if you score critical hit with a power with the Psyche keyword, you gain a +4 power bonus to your next attack roll with a power with the Psyche keyword in that same encounter.
+
+### Stance
+
+A stance is a type of fighting method that you maintain from round to round. So long as you stay in a stance, you gain some benefit from it. 
+
+You can use a single swift action to end one stance and begin another, or you can choose to simply end your current stance without entering another. You continue to gain a stance’s benefits until you switch to a new stance or end your current one. You cannot have more than one stance active at a time. 
+
+Your stance ends if you are rendered helpless for any reason.
+
 ### Summons
 
 A Summons power creates one or more summoned monsters. The summoned monster obeys the following rules:
@@ -752,17 +774,9 @@ A Summons power creates one or more summoned monsters. The summoned monster obey
 * The animal companion is a bright, sensitive animal, but nonetheless has animal-level intelligence. 
 * A summoner can dismiss their summon with a swift action. Otherwise it disappears after five minutes or at the end of the encounter. 
 
-### Psyche
+### Tactical
 
-These powers involve using dialogue and presence of personality to inflict effects. These powers depend on the target being able to understand you. If the target is deafened, does not share a language with you, or lacks free will, they cannot be affected by this ability. These powers may not function in certain circumstances at the GM’s discretion. If a Psyche power cannot be used, it is not considered to be expended if attempted. Since they do no damage, if you score critical hit with a power with the Psyche keyword, you gain a +4 power bonus to your next attack roll with a power with the Psyche keyword in that same encounter.
-
-### Stance
-
-A stance is a type of fighting method that you maintain from round to round. So long as you stay in a stance, you gain some benefit from it. 
-
-You can use a single swift action to end one stance and begin another, or you can choose to simply end your current stance without entering another. You continue to gain a stance’s benefits until you switch to a new stance or end your current one. You cannot have more than one stance active at a time. 
-
-Your stance ends if you are rendered helpless for any reason.
+These attack powers inflict no damage and involve using combat experience and tactical observation to outthink or trick opponents into an action that is beneficial to you. Since they do no damage, if you score a critical hit with a power with the tactical keyword, you gain a +2 power bonus to your next attack roll with a power with the tactical or weapon keyword in that same encounter. 
 
 ### Teleportation
 

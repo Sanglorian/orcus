@@ -75,11 +75,11 @@ Your dwarf character has an assortment of inborn abilities, part and parcel of d
 
 ***Tough as Nails:*** You have the *tough as nails* power.
 
-#### Tough as Nails
-**Encounter** **Swift Action**
-**Dwarf Utility Ancestry** 
-**Self** 
-**Effect:** You rally.
+> #### Tough as Nails
+> **Encounter** **Swift Action**
+> **Dwarf Utility Ancestry** 
+> **Self** 
+> **Effect:** You rally.
 
 ## Elf
 
@@ -127,13 +127,13 @@ Your 4-hour trance has the same effect as a 6-hour long rest.
 
 ***Extra Skill:*** You are trained in an extra skill of your choice.
 
-***Fairy Waltz:*** You have the *highblood teleport* power.
+***Highblood Teleport:*** You have the *highblood teleport* power.
 
-#### Highblood Teleport
-**Encounter** **Move Action**
-**High Elf Utility Ancestry** ● **Teleport**
-**Self** 
-**Effect:** Teleport up to 5.
+> #### Highblood Teleport
+> **Encounter** **Move Action**
+> **High Elf Utility Ancestry** ● **Teleport**
+> **Self** 
+> **Effect:** Teleport up to 5.
 
 ### Wood Elf Traits
 
@@ -167,13 +167,12 @@ Wood elf hair color ranges from yellow to a coppery red, and they are more muscu
 
 ***Careful Focus:*** You have the *careful focus* power.
 
-#### Careful Focus
-
-**Encounter** **Free Action**
-**Wood Elf Utility Ancestry** 
-**Self** 
-**Trigger:** You just made an attack roll.
-**Effect:** Reroll the attack roll and take the new result.
+> #### Careful Focus
+> **Encounter** **Free Action**
+> **Wood Elf Utility Ancestry**   
+> **Self** 
+> **Trigger:**  You just made an attack roll.
+> **Effect:** Reroll the attack roll and take the new result.
 
 ## Halfling
 
@@ -211,11 +210,12 @@ Your halfling character has a number of traits in common with all other halfling
 
 ***Lucky:*** You have the *lucky* power.
 
-#### Lucky
-**Encounter** **Immediate Action**
-**Halfling Utility Ancestry** 
-**Self** **Trigger:** An attack hits you.
-**Effect:** Reroll the attack roll and take the second result.
+> #### Lucky
+> **Encounter** **Immediate (Counter) Action**
+> **Halfling Utility Ancestry**   
+> **Self** 
+> **Trigger:**  An attack hits you.
+> **Effect:** Reroll the attack roll and take the second result.
 
 ## Human
 
@@ -255,11 +255,12 @@ Instead of giving humans a third level 1 at-will attack power from their class, 
 
 ***Human Power:*** You have the *true grit* power.
 
-#### True Grit
-**Encounter** **No Action**
-**Human Utility Ancestry** 
-**Self** **Trigger:** You fail a saving throw or miss with an attack roll
-**Effect:** Add a +4 ancestry bonus to the roll/throw.
+> #### True Grit
+> **Encounter** **No Action**
+> **Human Utility Ancestry**   
+> **Self** 
+> **Trigger:**  You fail a saving throw or miss with an attack roll
+> **Effect:** Add a +4 Ancestry bonus to the roll/throw.
 
 ## Dragonborn
 
@@ -296,12 +297,14 @@ Your draconic heritage manifests in a variety of traits you share with other dra
 
 Which type of damage you do (and what tag the power has) depends on which type of dragon you are descended from: acid (black dragon), cold (white dragon), fire (red dragon), lightning (blue dragon) or poison (green dragon). 
 
-#### Breath Weapon
-**Encounter** **Swift Action**
-**Dragonborn Attack Ancestry** ● **[Energy]**
-**Near** arc 3, targets all 
-**Attack:** (Highest of Strength, Constitution, Dexterity) +2 vs Reflex
-**Hit:** Level 1: 1d6 + Constitution modifier. Level 11: 2d6 + Constitution modifier. Level 21: 3d6 + Constitution modifier.
+> #### Breath Weapon
+> **Encounter** **Swift Action**
+> **Dragonborn Attack Ancestry** ● **[Energy]**
+> **Near** arc 3, targets all
+> **Attack:**  Highest of Strength, Constitution, Dexterity, +2 vs Reflex
+> **Hit:**  1d6 + Constitution modifier. 
+> *Level 11:* 2d6 + Constitution modifier. 
+> *Level 21:* 3d6 + Constitution modifier.
 
 ## Gnome
 
@@ -341,18 +344,18 @@ Your gnome character has certain characteristics in common with all other gnomes
 
 ***Ghost Sound and Spirited Away:*** You have the *ghost sound* and *disappearing act* powers.
 
-#### Ghost Sound
-**At-Will** **Standard Action**
-**Wizard Utility Cantrip** ● **Illusion**
-**Ranged** 10, one object or empty square 
-**Effect:** Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place. You choose what type of sound ghost sound creates when casting it and cannot thereafter change the sound’s basic character. You can produce as much noise as a person. The noise a ghost sound spell produces can be virtually any type of sound within the volume limit.
+> #### Disappearing Act
+> **Encounter** **Immediate (React) Action**
+> **Gnome Utility Ancestry**   
+> **Self** 
+> **Trigger:**  You take damage.
+> **Effect:** Become invisible until the end of your next turn, or until you make an attack (whichever comes sooner).
 
-#### Disappearing Act
-**Encounter** **Immediate Reaction Action**
-**Gnome Utility Ancestry** 
-**Self** 
-**Trigger:** You take damage.
-**Effect:** Become invisible until the end of your next turn, or until you make an attack (whichever comes sooner).
+> #### Ghost Sound
+> **At-Will** **Standard Action**
+> **Wizard Utility Cantrip** ● **Illusion**
+> **Ranged** 10, one object or empty square
+> **Effect:** Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place. You choose what type of sound ghost sound creates when casting it and cannot thereafter change the sound’s basic character. You can produce as much noise as a person. The noise a ghost sound spell produces can be virtually any type of sound within the volume limit.
 
 ## Half-Elf
 
@@ -393,11 +396,11 @@ Your half-elf character has some qualities in common with elves and some that ar
 * You have the *half-elven ingenuity* power.
 * Choose a level 1 at-will attack power from any class. It is an encounter power for you. 
 
-#### Half-Elven Ingenuity
-**Encounter** **Swift Action**
-**Half-Elf Utility Ancestry** 
-**Near** burst 5, self or one ally 
-**Effect:** Choose one: target shifts up to 2 as a free action, target makes a saving throw, target gets +2 power bonus to next attack roll or target gets +4 power bonus to next skill check. Power bonuses expire at the end of your next turn if not already used.
+> #### Half-Elven Ingenuity
+> **Encounter** **Swift Action**
+> **Half-Elf Utility Ancestry**   
+> **Near** burst 5, self or one ally
+> **Effect:** Choose one: target shifts up to 2 as a free action, target makes a saving throw, target gets +2 power bonus to next attack roll or target gets +4 power bonus to next skill check. Power bonuses expire at the end of your next turn if not already used.
 
 ## Half-Orc
 
@@ -435,12 +438,12 @@ Your half-orc character has certain traits deriving from your orc ancestry.
 
 ***Orcish Rush:*** You have the *orcish rush* power.
 
-#### Orcish Rush
-**Encounter** **Free Action**
-**Half-Orc Utility Ancestry** 
-**Self** 
-**Trigger:** You hit with an attack.
-**Effect:** Attack does +1dW. If attack was not with a weapon, +1d8 instead.
+> #### Orcish Rush
+> **Encounter** **Free Action**
+> **Half-Orc Utility Ancestry**   
+> **Self** 
+> **Trigger:**  You hit with an attack.
+> **Effect:** Attack does +1dW. If attack was not with a weapon, +1d8 instead.
 
 ## Tiefling
 
@@ -473,12 +476,14 @@ Tieflings share certain ancestry traits as a result of their infernal descent.
 
 ***Vengeance of the Pits:*** You have the *vengeance of the pits* power.
 
-#### Vengeance of the Pits
-**Encounter** **Free Action**
-**Tiefling Attack Ancestry** ● **Fire**
-**Near** burst 10, one enemy
-**Trigger:** An attack by that enemy hits you.
-**Effect:** Level 1: The target takes 1d6 + Intelligence OR Charisma modifier fire damage. Level 11: 2d6 + Intelligence OR Charisma modifier. Level 21: 3d6 + Intelligence OR Charisma modifier.
+> #### Vengeance of the Pits
+> **Encounter** **Free Action**
+> **Tiefling Attack Ancestry** ● **Fire**
+> **Near** burst 10, one enemy
+> **Trigger:**  An attack by that enemy hits you.
+> **Effect:** The target takes 1d6 + Intelligence OR Charisma modifier fire damage. 
+> *Level 11:* 2d6 + Intelligence OR Charisma modifier. 
+> *Level 21:* 3d6 + Intelligence OR Charisma modifier.
 
 ## Whoms
 
@@ -512,12 +517,12 @@ Whoms are humanoid wombats who live in burrows underground. They are a practical
 
 ***Barrel Along:*** You have the *barrel along* power.
 
-#### Barrel Along
-**Encounter Swift Action**
-**Whom Utility Ancestry**
-**Self** 
-**Trigger:** You are staggered.
-**Effect:** You have a +2 bonus to speed and to damage rolls until the end of the encounter.
+> #### Barrel Along
+> **Encounter** **Swift Action**
+> **Whom Utility Ancestry**   
+> **Self** 
+> **Trigger:**  You are staggered.
+> **Effect:** You have a +2 bonus to speed and to damage rolls until the end of the encounter.
 
 ## Vishyas
 
@@ -553,14 +558,15 @@ The fearful murmurs of children and the wails of the dogs are the only warning t
 
 ***Poisonous Nip:*** You have the *poisonous nip* power.
 
-#### Poisonous Nip
-**Encounter Minor Action**
-**Lizardfolk Attack Ancestry** ● **Poison**
-**Melee** 1, one target 
-**Attack:** Dexterity or Constitution +2 vs AC
-**Hit:** 1d8 + your Dexterity or Constitution modifier poison damage.
-Level 11: Attack bonus increases to +4. 2d8 + modifier damage.
-Level 21: Attack bonus increases to +6. 3d8 + modifier damage.
+> #### Poisonous Nip
+> *Your fangs excrete a mild poison.*
+> **Encounter Swift Action**
+> **Vishya Attack Ancestry** ● **Poison**
+> **Melee** 1, one target
+> **Attack:**  Dexterity or Constitution +2 vs AC
+> **Hit:**  1d8 + your Dexterity or Constitution modifier poison damage.
+> *Level 11:* Attack bonus increases to +4. 2d8 + modifier damage.
+> *Level 21:* Attack bonus increases to +6. 3d8 + modifier damage.
 
 ## Variant: No Weapon Limitations for Small Characters
 
@@ -1043,6 +1049,11 @@ You must meet any prerequisite specified in a feat to take that feat. If you eve
 ### Armor Focus
 **Benefit:** Armor does not inflict an armor check penalty on you. 
 
+### Armor Grace
+
+**Prerequisite:** Armor Focus.
+**Benefit:** You can move at full speed when wearing heavy armor or carrying a heavy load.
+
 ### Armor Proficiency
 **Prerequisite:** Depends on the armor you wish to gain proficiency with: 
 _Chainmail:_ Str 13, Con 13, Armor Proficiency (leather) or Armor Proficiency (hide). 
@@ -1085,8 +1096,12 @@ _Scale mail:_ Str 13, Con 13, Armor Proficiency (chainmail)
 
 **Benefit:** You reduce the penalty for firing ranged weapons against an enemy in cover by 1.
 
+### Easy Target
+
+**Benefit:** When targeting a Large or larger creature with an arc, burst, or wall attack, you gain a +2 bonus to damage rolls against the target for every square beyond the first that it occupies.
+
 ### Energy Resistance
-**Benefit:** You gains resistance to [damage type] 5. At level 11, your resistance increases to 10. At level 21, your resistance increases to 15. 
+**Benefit:** You gains resistance to [damage type] equal to your level. 
 
 Choose one from the below damage types: 
 
@@ -1170,6 +1185,10 @@ _Heavy:_ Str 15, Shield Proficiency (light).
 **Benefit:** Choose a type of shield you meet the prerequisites for. You are proficient with that type of shield. 
 **Special:** You can gain Shield Proficiency multiple times. Each time you take the feat, it applies to a new type of shield. 
 
+### Skill Critical
+
+**Benefit:** If you roll a natural 20 with any Intelligence- or Wisdom-based skill check, you gain a +5 bonus to the final result.
+
 ### Skill Focus
 Choose a skill. 
 **Prerequisite:** You must have at least one rank in the chosen skill. 
@@ -1197,7 +1216,7 @@ Fate is looking out for you.
 **Benefit:** You get a +1 bonus on all saving throws. At level 11, this bonus increases to +2. At level 21, this bonus increases to +3. 
 
 ### Toughness
-**Benefit:** You gain +5 hit points. At level 11, this feat grants an additional 5 hit points. At level 21, this feat grants an additional 5 hit points.
+**Benefit:** You gain additional hit points equal to your level.
 
 ### Two-Weapon Defense
 **Prerequisite:** Dex 13, Two-Weapon Fighting 
@@ -1574,12 +1593,6 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 An improvised weapon, including an unarmed strike, does 1d4 damage (one-handed) or 1d8 damage (two-handed), with no proficiency bonus on the attack. 
 
-### Exotic Weapons
-
-At the moment, no particular exotic weapons are presented. If you take the Weapon Proficiency feat and would like to select an exotic weapon, work with your GM to design one. A simple rule of thumb to create an exotic weapon is to take a martial weapon and add either +1 to the proficiency bonus (maximum +3) **or** +2 to the damage die size (so a 1d6 damage weapon becomes a 1d8 damage weapon). 
-
-For example, you could create a bastard sword exotic weapon by taking the longsword and giving it a 1d10 damage die instead of a 1d8 damage die, or a compound longbow by taking the longbow and giving it a +3 proficiency bonus instead of a +2 proficiency bonus. 
-
 **Table - Simple Melee Weapons** 
 
 | Name         | Range | Type   | Hand | Proficiency Bonus | Damage (dW) | Range | Cost (gp) | Weight (lb) | Buffs                       | Group             |
@@ -1625,6 +1638,20 @@ For example, you could create a bastard sword exotic weapon by taking the longsw
 | -------- | ------ | ------- | ---- | ----------------- | ----------- | ----- | --------- | ----------- | --------------------- | ----- |
 | Longbow  | Ranged | Martial | 2    | +2                | 1d10        | 20/40 | 30        | 3           | Loading (Free)        | Bows  |
 | Shortbow | Ranged | Martial | 2    | +2                | 1d8         | 15/30 | 25        | 2           | Loading (Free), Small | Bows  |
+
+### Exotic Weapons
+
+Only a small number of special exotic weapons are presented here. 
+
+If you take the Weapon Proficiency feat and would like to select an exotic weapon, you can work with your GM to design one. A simple rule of thumb to create an exotic weapon is to take a martial weapon and add either +1 to the proficiency bonus (maximum +3) **or** +2 to the damage die size (so a 1d6 damage weapon becomes a 1d8 damage weapon). 
+
+For example, you could create a "bastard sword" exotic weapon by taking the longsword and giving it a 1d10 damage die instead of a 1d8 damage die, or a "compound longbow" by taking the longbow and giving it a +3 proficiency bonus instead of a +2 proficiency bonus. 
+
+***Garrote:*** A simple wire, when used properly, can disable or kill an opponent in seconds. 
+
+*Requirement:* You can only use a garrote against a target granting you combat advantage which is not aware of you. You can only use the garrote with a melee basic attack or specific powers which utilize the garrote.
+
+*Property:* When you hit with a garrote, you grapple the target. The target cannot speak while grappled. The target is dazed while the grapple is in effect. The target also suffers a -2 penalty to escape attempts.
 
 ## Focuses
 
@@ -1772,11 +1799,17 @@ Wondrous items can be worn or carried without taking up space on a character’s
 
 ## Distributing Magic Items
 
-GMs can decide for themselves how to distribute magic items in their games, but for a balanced game the rules can briefly be described as follows.
+GMs can decide for themselves how to distribute magic items in their games, but for a balanced game there are a variety of options.
 
-A player character should get a new permanent magic item every 12 encounters or so, and that item should be of a level equal to their own level +1 to +4 (roughly 25% chance of each). Since there are roughly 10 encounters to a level, another way of saying that is that each level a player character should get 0.8 of a permanent item, *or* that over the course of five levels, a player character should get four permanent magic items. 
+### Steady Progression
 
-In addition, a player character should get gold pieces, trade goods, precious items, consumable magic items and so on equivalent in value to a magic item of their level roughly every 25 encounters or so. Another way of saying that is that every level a player character should get 0.4 of a permanent item in gold pieces, etc.
+A player character should get a new permanent magic item every 12 encounters or so, and that item should be of a level equal to their own level +1 to +4 (roughly 25% chance of each). Since there are roughly 10 encounters to a level, other ways of thinking about this is that:
+
+1. each level a player character should get 0.8 of a permanent item *or* 
+2. each level, a five-adventurer team should get four permanent items *or*
+3. over the course of five levels, a player character should get four permanent magic items. 
+
+In addition, a player character should get gold pieces, trade goods, precious items, consumable magic items and so on equivalent in value to a permanent magic item of their level roughly every 25 encounters or so. Another way of saying that is that every level a player character should get 0.4 of a permanent item in gold pieces, etc.
 
 Keep in mind that a consumable magic item costs 1/25th as much as a permanent magic item of the same level. 
 
@@ -1817,9 +1850,90 @@ Assuming a rate of 10 encounters per level, that results in the following averag
 | 29   | 2,625,000                       | 105,000                    | 1,050,000                                  |
 | 30   | 3,125,000                       | 125,000                    | 1,250,000                                  |
 
-### Alternative Distribution Method
+### Magic Item Only
 
 Each level, each character receives one magic item of level +2 or two magic items of level +0. They do not receive any other treasure. 
+
+### Treasure Troves
+
+Each level, the party should discover about 10 treasure troves of their level. Each treasure trove is randomly generated by rolling 1d4, 1d6, 1d8, 1d10, 1d12 and 1d20, with each result helping to determine the contents of the treasure trove. 
+
+**1d4:** This is the magic item level bonus, see 1d12 below. 
+
+**1d6:** This is the coin multiplier, see 1d20 below. 
+
+**1d8:** On a 5, 6 or 7, the trove contains a number of art objects, see 1d10 below. On an 8, it contains a gemstone. On any other result, it contains nothing. See the table below for the value of the art objects or gemstone by level. 
+
+**1d10:** If the trove contains art objects, this is how many it contains. 
+
+Add 1 to the d10 roll for every additional player character in the party beyond 5, and subtract 1 for every player character that the party is missing below 5 PCs (minimum 0). 
+
+**1d12:** On a 6 or less, the trove contains a personal item or something of significance to the story or adventure but not of monetary value. For example, it could be a note with the evil faction's watchword scribbled on it, a key to a door deeper in the dungeon, the mayor's missing spectacles, a clue to the disappearances by the docks, or just a kobold's pet toad. 
+
+On a 5, 6 or 7, the trove contains a consumable item of the party's level. 
+
+On an 8 or higher, the trove contains a permanent magic item of the party's level plus the 1d4 result. 
+
+Add 1 to the d12 roll for every additional player character in the party beyond 5, and subtract 1 for every player character that the party is missing below 5 PCs (minimum 0). 
+
+**1d20:** On an 11 or more, the trove contains coins. Multiply the 1d6 result by the number of coins shown in the table below for the total number of coins in the trove. 
+
+Add 2 to the d20 roll for every additional player character in the party beyond 5, and subtract 2 for every player character that the party is missing below 5 PCs. 
+
+**Table - Treasure Troves by Level**
+
+| Average Party Level | Coin Multiplier | Gem Value  | Art Object Value |
+| ------------------- | --------------- | ---------- | ---------------- |
+| 1                   | 10 gp           | 100 gp     | 20 gp            |
+| 2                   | 25 gp           | 100 gp     | 20 gp            |
+| 3                   | 25 gp           | 200 gp     | 30 gp            |
+| 4                   | 40 gp           | 200 gp     | 30 gp            |
+| 5                   | 40 gp           | 300 gp     | 40 gp            |
+| 6                   | 125 gp          | 300 gp     | 40 gp            |
+| 7                   | 125 gp          | 750 gp     | 90 gp            |
+| 8                   | 210 gp          | 750 gp     | 90 gp            |
+| 9                   | 210 gp          | 1,500 gp   | 120 gp           |
+| 10                  | 300 gp          | 1,500 gp   | 120 gp           |
+| 11                  | 300 gp          | 5,500 gp   | 240 gp           |
+| 12                  | 750 gp          | 5,500 gp   | 240 gp           |
+| 13                  | 750 gp          | 10,000 gp  | 325 gp           |
+| 14                  | 12 pp           | 10,000 gp  | 325 gp           |
+| 15                  | 12 pp           | 12,500 gp  | 525 gp           |
+| 16                  | 34 pp           | 12,500 gp  | 525 gp           |
+| 17                  | 34 pp           | 25,000 gp  | 1,500 gp         |
+| 18                  | 56 pp           | 25,000 gp  | 1,500 gp         |
+| 19                  | 56 pp           | 50,000 gp  | 1,900 gp         |
+| 20                  | 78 pp           | 50,000 gp  | 1,900 gp         |
+| 21                  | 78 pp           | 100,000 gp | 8,000 gp         |
+| 22                  | 185 pp          | 100,000 gp | 8,000 gp         |
+| 23                  | 185 pp          | 125,000 gp | 16,000 gp        |
+| 24                  | 290 pp          | 125,000 gp | 16,000 gp        |
+| 25                  | 290 pp          | 200,000 gp | 21,000 gp        |
+| 26                  | 830 pp          | 200,000 gp | 21,000 gp        |
+| 27                  | 830 pp          | 300,000 gp | 60,000 gp        |
+| 28                  | 1,400 pp        | 300,000 gp | 60,000 gp        |
+| 29                  | 1,400 pp        | 600,000 gp | 86,000 gp        |
+| 30                  | 1,950 pp        | 600,000 gp | 86,000 gp        |
+
+**Table - Art Objects**
+
+| Art Object Value | Examples                                                     |
+| ---------------- | ------------------------------------------------------------ |
+| 20 gp            | Silver ewer; carved bone or ivory statuette; finely wrought small gold bracelet |
+| 30 gp            | Cloth of gold vestments; black velvet mask with numerous citrines; silver chalice with lapis lazuli gems |
+| 40 gp            | Large well-done wool tapestry; brass mug with jade inlays    |
+| 90 gp            | Silver comb with moonstones; silver-plated steel longsword with jet jewel in hilt |
+| 120 gp           | Carved harp of exotic wood with ivory inlay and zircon gems; gilt gold idol (10 lb.) |
+| 240 gp           | Gold dragon comb with red garnet eye; gold and topaz bottle stopper cork; ceremonial electrum dagger with a star ruby in the pommel |
+| 325 gp           | Eyepatch with mock eye of sapphire and moonstone; fire opal pendant on a fine gold chain; old masterpiece painting |
+| 525 gp           | Embroidered silk and velvet mantle with numerous moonstones; sapphire pendant on gold chain |
+| 1,500 gp         | Embroidered and bejeweled glove; jeweled anklet; gold music box |
+| 1,900 gp         | Golden circlet with four aquamarines; a string of small pink pearls (necklace) |
+| 8,000 gp         | Jeweled gold crown; jeweled electrum ring                    |
+| 16,000 gp        | Gold and ruby ring; gold cup set with emeralds               |
+| 21,000 gp        | Adamantine crown set with soul gems; tapestry woven from phase spider silk |
+| 60,000 gp        | Dragon's skull filled in with gold; the lamp once occupied by a djinn prince |
+| 86,000 gp        | Throne carved from treant-wood; deceased lich's mithril phylactery set with diamonds |
 
 ## Enchanted Items
 

@@ -3076,7 +3076,7 @@ The role is the function that the monster plays in combat. It determines defense
 
 *AC:* 12 + level; *Fort:* 13 + level; *Ref:* 11 + level; *Will:* 12 + level.
 
-*HP:* 26 + (10 * level) (double for Elite, quadruple for Boss)
+*HP:* 26 + (7 * level) (double for Elite, quadruple for Boss)
 
 *Attack:* +5 + level
 
@@ -3084,7 +3084,7 @@ The role is the function that the monster plays in combat. It determines defense
 
 *AC:* 16 + level; *Fort:* 13 + level; *Ref:* 12 + level; *Will:* 12 + level.
 
-*HP:* 24 + (8 * level) (double for Elite, quadruple for Boss)
+*HP:* 24 + (5 * level) (double for Elite, quadruple for Boss)
 
 *Attack:* +5 + level
 
@@ -3092,7 +3092,7 @@ The role is the function that the monster plays in combat. It determines defense
 
 *AC:* 14 + level; *Fort:* 12 + level; *Ref:* 13 + level; *Will:* 11 + level.
 
-*HP:* 21 + (6 * level) (double for Elite, quadruple for Boss)
+*HP:* 21 + (4 * level) (double for Elite, quadruple for Boss)
 
 *Attack:* +5 + level
 
@@ -3100,7 +3100,7 @@ The role is the function that the monster plays in combat. It determines defense
 
 *AC:* 12 + level; *Fort:* 11 + level; *Ref:* 12 + level; *Will:* 12 + level.
 
-*HP:* 21 + (6 * level) (double for Elite, quadruple for Boss)
+*HP:* 21 + (4 * level) (double for Elite, quadruple for Boss)
 
 *Attack:* +5 + level
 
@@ -3108,7 +3108,7 @@ The role is the function that the monster plays in combat. It determines defense
 
 *AC:* 14 + level; *Fort:* 11 + level; *Ref:* 13 + level; *Will:* 12 + level.
 
-*HP:* 24 + (8 * level) (double for Elite, quadruple for Boss)
+*HP:* 24 + (5 * level) (double for Elite, quadruple for Boss)
 
 *Attack:* +5 + level
 
