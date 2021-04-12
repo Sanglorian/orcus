@@ -353,7 +353,7 @@ Your gnome character has certain characteristics in common with all other gnomes
 
 > #### Ghost Sound
 > **At-Will** **Standard Action**
-> **Wizard Utility Cantrip** ● **Illusion**
+> **Cantrips Utility Feature** ● **Illusion**
 > **Ranged** 10, one object or empty square
 > **Effect:** Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place. You choose what type of sound ghost sound creates when casting it and cannot thereafter change the sound’s basic character. You can produce as much noise as a person. The noise a ghost sound spell produces can be virtually any type of sound within the volume limit.
 
