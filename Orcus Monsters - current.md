@@ -191,10 +191,11 @@ A monster with phasing can move through difficult terrain, obstacles (like walls
 Terrain Stride describes a set of traits, each of which allows the monster to ignore difficult terrain in some conditions: 
 
 * Ice Stride: Ice, snow or slurry.
-* Swamp Stride: Mud, swamp or shallows.
+* Swamp Stride: Mud, marsh or shallows.
 * Stone Stride: Broken ground, uneven stone or rubble. 
 * Woodland Stride: Shrubbery, trees or plants. 
 * Web Stride: Webs, like those from a spider.
+* Versatile Stride: All.
 
 ## Ability Scores
 

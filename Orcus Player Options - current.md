@@ -26,7 +26,11 @@ Every ancestry increases one or more of a character's ability scores.
 
 ### Size
 
-Characters of most ancestries are Medium, a size category including creatures that are roughly 4 to 8 feet tall. Members of a few ancestries are Small (between 2 and 4 feet tall), which means that certain rules of the game affect them differently. The most important of these rules is that Small characters have trouble wielding two-handed weapons.
+Characters of most ancestries are Medium, a size category including creatures that are roughly 4 to 8 feet tall. Members of a few ancestries are Small (between 2 and 4 feet tall). 
+
+Small characters have trouble wielding two-handed weapons. Small characters cannot wield a two-handed weapon unless the weapon has the Small property. 
+
+Medium characters who wield a one-handed weapon in two hands (other than one-handed weapons with the Side Weapon property) get a +1 bonus to damage. 
 
 ### Speed
 
@@ -37,22 +41,17 @@ Your speed determines how far you can move.
 By virtue of your ancestry, your character can speak, read, and write certain languages.
 
 ## Dwarf
-As a dwarf, you have keen senses, deep intuition, and remarkable resilience.
-
-Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years.
-
-Most dwarves believe firmly in the benefits of a well-ordered society. They tend to have a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order.
-
-Dwarves stand between 4 and 5 feet tall and average about 150 pounds. 
+Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years. Dwarves stand between 4 and 5 feet tall and average about 150 pounds. 
 
 ### Dwarf Traits
 
 Your dwarf character has an assortment of inborn abilities, part and parcel of dwarven nature.
 
-***Ability Score Increases:*** 
+***Ability Score Increases:*** Pick two of:
 
 * +2 Constitution
-* +2 Strength OR Wisdom
+* +2 Strength 
+* +2 Wisdom
 
 ***Size:*** Your size is Medium.
 
@@ -60,14 +59,23 @@ Your dwarf character has an assortment of inborn abilities, part and parcel of d
 
 ***Low-Light Vision:*** You can see in dim light as if it were bright light.
 
-***Skills:*** 
+***Skills:*** Pick two of:
 
 * +2 Dungeoneering
-* +2 Endurance
+* +2 Endure
+* +2 Diplomacy
+* +2 Religion
 
-***Dwarven Resilience:*** +5 ancestry bonus on saving throws against poison.
+***Dwarven Resilience:*** Pick one of: 
 
-***Dwarven Combat Training:*** You have proficiency with the throwing hammer and warhammer.
+* +5 ancestry bonus on saving throws against poison. 
+* +5 ancestry bonus on saving throws against persistent psychic damage. 
+
+***Dwarven Combat Training:*** Pick one of: 
+
+* You have proficiency with martial weapons in the Hammers and Picks group. 
+* You have proficiency with martial weapons in the Axes group.
+* You have proficiency with light shields.
 
 ***Unmoved:*** Reduce any unwilling movement you are subject to by 1 square. When you would fall prone as the result of an attack, make a saving throw-on a success, you do not fall. 
 
@@ -83,115 +91,99 @@ Your dwarf character has an assortment of inborn abilities, part and parcel of d
 
 ## Elf
 
-Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.
+Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old. Elves range from under 5 to over 6 feet tall and have slender builds. 
 
-Elves love freedom, variety, and self-expression. They value and protect others' freedom as well as their own.
+### Elf Traits
 
-Elves range from under 5 to over 6 feet tall and have slender builds. 
-
-### High Elf Traits
-
-As a high elf, you have a keen mind and a mastery of at least the basics of magic. Some high elves are haughty and reclusive, believing themselves to be superior to non-elves and even other elves. Others are more common and more friendly, and often encountered among humans and other ancestries.
-
----
-
-Your high elf character has a variety of natural abilities, the result of thousands of years of elven refinement.
-
-***Ability Score Increases:*** 
-
-* +2 Intelligence
-* +2 Dexterity OR Charisma
-
-***Size:*** Your size is Medium.
-
-***Speed:*** Your base walking speed is 6 squares.
-
-***Low-Light Vision:*** You can see in dim light as if it were bright light.
-
-***Keen Senses:*** 
-
-* +2 Arcana
-* +2 History
-
-***Fey Ancestry:*** You count as a fey creature for all purposes.
-
-***Trance:*** High elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice.
-
-Your 4-hour trance has the same effect as a 6-hour long rest.
-
-***Languages:*** You can speak, read, and write Common and Elvish. 
-
-***Elf Weapon Training:*** You have proficiency with the longsword.
-
-***High Elf Mettle:*** +1 ancestry bonus to Will defense. +5 ancestry bonus to saving throws against charm effects. 
-
-***Extra Skill:*** You are trained in an extra skill of your choice.
-
-***Highblood Teleport:*** You have the *highblood teleport* power.
-
-> #### Highblood Teleport
-> **Encounter** **Move Action**
-> **High Elf Utility Ancestry** ● **Teleport**
-> **Self** 
-> **Effect:** Teleport up to 5.
-
-### Wood Elf Traits
-
-Wood elf hair color ranges from yellow to a coppery red, and they are more muscular than other elves. Their clothing is in dark shades of green  and earth tones to better blend in with their natural surroundings.
-
-***Ability Score Increases:*** 
+***Ability Score Increases:*** Pick two of:
 
 * +2 Dexterity
-* +2 Intelligence OR Wisdom
+* +2 Intelligence 
+* +2 Wisdom
+* +2 Charisma
 
 ***Size:*** Your size is Medium.
 
-***Speed:*** Your base walking speed is 7 squares.
-
 ***Low-Light Vision:*** You can see in dim light as if it were bright light.
 
-***Wild Senses:*** 
+***Elven Senses:*** Pick two of: 
 
 * +2 Nature
 * +2 Perception
+* +2 Arcana
+* +2 History
+* +2 Insight
+* +2 Streetsmarts
+* +2 Bluff
 
 ***Fey Ancestry:*** You count as a fey creature for all purposes.
 
 ***Languages:*** You can speak, read, and write Common and Elvish. 
 
-***Elf Weapon Training:*** You have proficiency with the longbow and the shortbow.
+***Elf Training:*** Pick two of: 
 
-***Nature Guide:*** Non-wood elf allies within 5 gain +1 ancestry bonus to Perception.
+* You have proficiency with martial weapons in the Bows group. 
+* You have proficiency with martial weapons in the Heavy Blades group.
+* You have proficiency with simple and martial weapons in the Spears group. 
+* Allies within 5 gain a +1 ancestry bonus to Perception.
+* You have proficiency with orbs, staffs and wands. 
+* You are trained in an extra skill of your choice.
 
-***Versatile Stride:*** You ignore difficult terrain. 
+***Heritage:*** Pick either wood elf or high elf.  
 
-***Careful Focus:*** You have the *careful focus* power.
+**Wood Elf:** Wood elf hair color ranges from yellow to a coppery red, and they are more muscular than other elves. Their clothing is in dark shades of green  and earth tones to better blend in with their natural surroundings.
+
+* ***Speed:*** Your base walking speed is 7 squares.
+
+* ***Versatile Stride:*** You ignore difficult terrain. 
+
+**High Elf:** As a high elf, you have a keen mind and a mastery of at least the basics of magic. Some high elves are haughty and reclusive, believing themselves to be superior to non-elves and even other elves. Others are more common and more friendly, and often encountered among humans and other ancestries.
+
+* ***Speed:*** Your base walking speed is 6 squares.
+
+* ***Trance:*** High elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. Your 4-hour trance has the same effect as a 6-hour long rest.
+
+* ***High Elf Mettle:*** +1 ancestry bonus to Will defense. +5 ancestry bonus to saving throws against charm effects. 
+
+***Elven Powers:*** Pick one: 
+
+* You have the *careful focus* power.
+* You have the *farstrider* power. 
+* You have the *highblood teleport* power. 
 
 > #### Careful Focus
 > **Encounter** **Free Action**
-> **Wood Elf Utility Ancestry**   
+> **Elf Utility Ancestry**   
 > **Self** 
 > **Trigger:**  You just made an attack roll.
 > **Effect:** Reroll the attack roll and take the new result.
 
+> #### Farstrider
+> **Encounter** **Move  Action**
+> **Elf Utility Ancestry**   
+> **Self** 
+> **Effect:** Shift up to your speed.
+
+> #### Highblood Teleport
+>
+> **Encounter** **Move Action**
+> **Elf Utility Ancestry** ● **Teleport**
+> **Self** 
+> **Effect:** Teleport up to 5.
+
 ## Halfling
 
-As a halfling, you can easily hide from notice, even using other people as cover. You're inclined to be affable and get along well with others.
-
-A halfling reaches adulthood at the age of 20 and generally lives into the middle of their second century.
-
-As a rule, halflings are good-hearted and kind, hate to see others in pain, and have no tolerance for oppression. They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.
-
-Halflings average about 3 feet tall and weigh about 40 pounds. 
+A halfling reaches adulthood at the age of 20 and generally lives into the middle of their second century. Halflings average about 3 feet tall and weigh about 40 pounds. 
 
 ### Halfling Traits
 
 Your halfling character has a number of traits in common with all other halflings.
 
-***Ability Score Increases:*** 
+***Ability Score Increases:*** Pick two of:
 
 * +2 Dexterity
-* +2 Constitution or +2 Charisma
+* +2 Constitution
+* +2 Charisma
 
 ***Size:*** Your size is Small.
 
@@ -223,11 +215,7 @@ Your halfling character has a number of traits in common with all other halfling
 
 It's hard to make generalizations about humans.
 
-Humans reach adulthood in their late teens and live less than a century.
-
-Humans tend toward no particular alignment. The best and the worst are found among them.
-
-Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. 
+Humans reach adulthood in their late teens and live less than a century. Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. 
 
 Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Giant curses, Elvish musical expressions, Dwarvish military phrases, and so on.
 
@@ -251,7 +239,7 @@ Humans typically learn the languages of other peoples they deal with, including 
 
 ### Variant: True Grit
 
-Instead of giving humans a third level 1 at-will attack power from their class, GMs may want to offer them the *true grit* power instead - especially if they are taking a class that does not have at-will attack powers. However, GMs should note that *true grit* is unusually powerful for an ancestry power and it overlaps with the wood elf's *elfshot* power.
+Instead of giving humans a third level 1 at-will attack power from their class, GMs may want to offer them the *true grit* power instead - especially if they are taking a class that does not have at-will attack powers. However, GMs should note that *true grit* is unusually powerful for an ancestry power and it overlaps with the elf's *careful focus* power.
 
 ***Human Power:*** You have the *true grit* power.
 
@@ -264,32 +252,32 @@ Instead of giving humans a third level 1 at-will attack power from their class, 
 
 ## Dragonborn
 
-Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80.
-
-Dragonborn tend to extremes, making a conscious choice for one side or the other in the cosmic war between good and evil. Most dragonborn are good, but those who side with evil can be terrible villains.
-
-Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. 
+Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80. Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. 
 
 ### Dragonborn Traits
 
 Your draconic heritage manifests in a variety of traits you share with other dragonborn.
 
-***Ability Score Increases:*** 
+***Ability Score Increases:*** Pick two of:
 
 * +2 Charisma
-* +2 Strength OR Constitution 
+* +2 Strength 
+* +2 Constitution 
 
 ***Size:*** Your size is Medium.
 
 ***Speed:*** Your base walking speed is 6 squares.
 
-***Draconic Ancestry:*** 
+***Draconic Ancestry:*** Pick two of:
+
 * +2 History
 * +2 Intimidate
+* +2 Diplomacy
+* +2 Endure
 
-***Draconic Vigor:*** Calculate your healing surge value by adding your Constitution modifier. 
+***Draconic Vigor:*** Add your Constitution modifier to your recovery value. 
 
-***Injured Rage:*** +1 ancestry bonus on attack rolls while Staggered. 
+***Injured Rage:*** +1 ancestry bonus on attack rolls while staggered. 
 
 ***Languages:*** You can speak, read, and write Common and Draconic.
 
@@ -301,27 +289,24 @@ Which type of damage you do (and what tag the power has) depends on which type o
 > **Encounter** **Swift Action**
 > **Dragonborn Attack Ancestry** ● **[Energy]**
 > **Near** arc 3, targets all
-> **Attack:**  Highest of Strength, Constitution, Dexterity, +2 vs Reflex
+> **Attack:**  (Highest of Strength, Constitution, Dexterity) +2 vs Reflex
 > **Hit:**  1d6 + Constitution modifier. 
 > *Level 11:* 2d6 + Constitution modifier. 
 > *Level 21:* 3d6 + Constitution modifier.
 
 ## Gnome
 
-Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years.
-
-Gnomes may be sages, engineers, researchers, scholars, investigators, or inventors, or minstrels, tricksters, wanderers, or fanciful jewelers. Gnomes are good-hearted, and even the tricksters among them are more playful than vicious.
-
-Gnomes are between 3 and 4 feet tall and average about 40 pounds. 
+Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years. Gnomes are between 3 and 4 feet tall and average about 40 pounds. 
 
 ### Gnome Traits
 
 Your gnome character has certain characteristics in common with all other gnomes.
 
-***Ability Score Increases:*** 
+***Ability Score Increases:*** Pick two of:
 
 * +2 Intelligence
-* +2 Charisma OR +2 Dexterity
+* +2 Charisma 
+* +2 Dexterity
 
 ***Size:*** Your size is Small.
 
@@ -331,10 +316,11 @@ Your gnome character has certain characteristics in common with all other gnomes
 
 ***Low-Light Vision:*** You can see in dim light as if it were bright light.
 
-***Gnome Cunning:*** 
+***Gnome Cunning:*** Pick two of:
 
 * +2 Arcana
 * +2 Stealth
+* +2 Sleight of Hand
 
 ***Fey Ancestry:*** You count as a fey creature for all purposes.
 
@@ -342,7 +328,7 @@ Your gnome character has certain characteristics in common with all other gnomes
 
 ***Gnomish Skepticism:*** +5 ancestry bonus on saving throws against illusions. 
 
-***Ghost Sound and Spirited Away:*** You have the *ghost sound* and *disappearing act* powers.
+***Ancestry Powers:*** You have the *ghost sound* and *disappearing act* powers.
 
 > #### Disappearing Act
 > **Encounter** **Immediate (React) Action**
@@ -359,20 +345,17 @@ Your gnome character has certain characteristics in common with all other gnomes
 
 ## Half-Elf
 
-Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years.
-
-Half-elves share the chaotic bent of their elven heritage. They value both personal freedom and creative expression, demonstrating neither love of leaders nor desire for followers. They chafe at rules, resent others' demands, and sometimes prove unreliable, or at least unpredictable.
-
-Half-elves are about the same size as humans, ranging from 5 to 6 feet tall. 
+Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years. Half-elves are about the same size as humans, ranging from 5 to 6 feet tall. 
 
 ### Half-Elf Traits
 
 Your half-elf character has some qualities in common with elves and some that are unique to half-elves.
 
-***Ability Score Increases:*** 
+***Ability Score Increases:*** Pick two of:
 
 * +2 Constitution
-* +2 Wisdom OR Charisma
+* +2 Wisdom 
+* +2 Charisma
 
 ***Size:*** Your size is Medium.
 
@@ -382,14 +365,15 @@ Your half-elf character has some qualities in common with elves and some that ar
 
 ***Low-Light Vision:*** You can see in dim light as if it were bright light.
 
-***Skill Bonuses:*** 
+***Skill Bonuses:*** Pick two of:
 
 * +2 Diplomacy
 * +2 Insight
+* +2 Perception
 
 ***Elven Blood, Human Blood:*** For the purpose of taking feats, you count as an elf and as a human. 
 
-***Follow My Lead:*** Allies within 10 squares receive a +1 ancestry bonus to Diplomacy. 
+***Follow My Lead:*** Allies within 10 receive a +1 ancestry bonus to Diplomacy. 
 
 ***Half-Elven Power:*** Choose one at character creation: 
 
@@ -404,18 +388,18 @@ Your half-elf character has some qualities in common with elves and some that ar
 
 ## Half-Orc
 
-Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.
-
-Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. 
+Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years. Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. 
 
 ### Half-Orc Traits
 
-Your half-orc character has certain traits deriving from your orc ancestry.
+Your half-orc character has certain traits deriving from human and orc ancestry.
 
-***Ability Score Increases:*** 
+***Ability Score Increases:*** Pick two of:
 
 * +2 Dexterity
-* +2 Strength OR +2 Constitution 
+* +2 Strength 
+* +2 Constitution 
+* +2 Wisdom
 
 ***Size:*** Your size is Medium.
 
@@ -425,16 +409,16 @@ Your half-orc character has certain traits deriving from your orc ancestry.
 
 ***Low-Light Vision:*** You can see in dim light as if it were bright light.
 
-***Menacing:*** You gain training in the Intimidate skill.
-
-***Relentless Endurance (1/encounter):*** When you are Staggered, gain temporary HP depending on your level. *Level 1:* 5 HP. *Level 11:* 10 HP. *Level 21:* 15 HP. 
+***Relentless Endurance (1/encounter):*** When you are staggered, gain temporary HP equal to your level.  
 
 ***Savage Attacks:*** Your speed increases by +2 squares when you charge. 
 
-***Orcish Heritage:*** 
+***Orcish Heritage:*** Pick two of:
 
 * +2 Endurance
 * +2 Intimidate
+* +2 Athletics 
+* +2 Nature
 
 ***Orcish Rush:*** You have the *orcish rush* power.
 
@@ -447,20 +431,17 @@ Your half-orc character has certain traits deriving from your orc ancestry.
 
 ## Tiefling
 
-Tieflings mature at the same rate as humans but live a few years longer.
-
-Tieflings might not have an innate tendency toward evil, but many of them end up there.
-
-Tieflings are about the same size and build as humans. 
+Tieflings mature at the same rate as humans but live a few years longer. Tieflings are about the same size and build as humans. 
 
 ### Tiefling Traits
 
 Tieflings share certain ancestry traits as a result of their infernal descent.
 
-***Ability Score Increases:*** 
+***Ability Score Increases:*** Pick two of:
 
 * +2 Charisma
-* +2 Constitution OR Intelligence
+* +2 Constitution 
+* +2 Intelligence
 
 ***Size:*** Your size is Medium.
 
@@ -468,11 +449,18 @@ Tieflings share certain ancestry traits as a result of their infernal descent.
 
 ***Languages:*** You can speak, read, and write Common and one other language of your choice.
 
+***Tiefling Skills:*** Pick two of:
+
+* +2 Bluff
+* +2 Stealth
+* +2 Arcana
+* +2 Sleight of Hand
+
 ***Low-Light Vision:*** You can see in dim light as if it were bright light.
 
 ***Hellish Resistance:*** Resistance to fire 5 + half your level.
 
-***Infernal Legacy:*** +1 ancestry bonus on attacks against Staggered enemies. 
+***Infernal Legacy:*** +1 ancestry bonus on attacks against staggered enemies. 
 
 ***Vengeance of the Pits:*** You have the *vengeance of the pits* power.
 
@@ -485,16 +473,63 @@ Tieflings share certain ancestry traits as a result of their infernal descent.
 > *Level 11:* 2d6 + Intelligence OR Charisma modifier. 
 > *Level 21:* 3d6 + Intelligence OR Charisma modifier.
 
+## Vishyas
+
+Vishyas are graceful humanoids with venomous fangs and serpentine eyes. Their supple skin is covered with tiny scales, often of a light green, which are sometimes arrayed in patterns not unlike those of a serpent. 
+
+### Vishya Traits
+
+***Ability Score Increases:*** Pick two of:
+
+* +2 Dexterity
+* +2 Constitution 
+* +2 Wisdom
+
+***Size:*** Your size is Medium.
+
+***Speed:*** Your base walking speed is 6 squares.
+
+***Languages:*** You can speak, read, and write Common and Draconic.
+
+***Low-Light Vision:*** You can see in dim light as if it were bright light.
+
+***Skill Bonuses:*** 
+
+* +2 Acrobatics
+* +2 Bluff
+
+***Reptile Ancestry:*** You have the reptile tag.
+
+***Hold Breath:*** +5 ancestry bonus to Endure checks to hold your breath.
+
+***Swamp Stride:*** Mud, marsh and shallows are not difficult terrain for you.
+
+***Whistle:*** Vishya can communicate using high-pitch whistles that adults cannot hear but dogs and children can.
+
+***Poisonous Nip:*** You have the *poisonous nip* power.
+
+> #### Poisonous Nip
+>
+> *Your fangs excrete a mild poison.*
+> **Encounter Swift Action**
+> **Vishya Attack Ancestry** ● **Poison**
+> **Melee** 1, one target
+> **Attack:**  Dexterity or Constitution +2 vs AC
+> **Hit:**  1d8 + your Dexterity or Constitution modifier poison damage.
+> *Level 11:* Attack bonus increases to +4. 2d8 + modifier damage.
+> *Level 21:* Attack bonus increases to +6. 3d8 + modifier damage.
+
 ## Whoms
 
-Whoms are humanoid wombats who live in burrows underground. They are a practical, no-nonsense people with a deeply-felt sense of duty.
+Whoms are humanoid wombats who live in burrows underground. 
 
 ### Whom Traits
 
-***Ability Score Increases:*** 
+***Ability Score Increases:*** Pick two of:
 
 * +2 Wisdom
-* +2 Constitution OR +2 Strength
+* +2 Constitution 
+* +2 Strength
 
 ***Size:*** Your size is Small.
 
@@ -511,7 +546,7 @@ Whoms are humanoid wombats who live in burrows underground. They are a practical
 * +2 Dungeoneering
 * +2 Insight
 
-***Whom Weapon Proficiencies:*** You have proficiency with the light pick and the heavy pick.
+***Whom Weapon Proficiencies:*** You have proficiency with martial weapons of the Pick group.
 
 ***Just Keep Digging:*** When you make Endure checks as part of a group check or extended challenge, or to Aid Another, roll twice and take the higher result. 
 
@@ -523,50 +558,6 @@ Whoms are humanoid wombats who live in burrows underground. They are a practical
 > **Self** 
 > **Trigger:**  You are staggered.
 > **Effect:** You have a +2 bonus to speed and to damage rolls until the end of the encounter.
-
-## Vishyas
-
-Vishyas are graceful humanoids with venomous fangs and serpentine eyes. Their supple skin is covered with tiny scales, often of a light green, which are sometimes arrayed in patterns not unlike those of a serpent. 
-
-The fearful murmurs of children and the wails of the dogs are the only warning that a vishya warband approaches.
-
-### Vishya Traits
-
-***Ability Score Increases:*** 
-
-* +2 Dexterity
-* +2 Constitution OR +2 Wisdom
-
-***Size:*** Your size is Medium.
-
-***Speed:*** Your base walking speed is 6 squares.
-
-***Languages:*** You can speak, read, and write Common and Draconic.
-
-***Low-Light Vision:*** You can see in dim light as if it were bright light.
-
-***Skill Bonuses:*** 
-
-* +2 Acrobatics
-* +2 Bluff
-
-***Hold Breath:*** +5 ancestry bonus to Endure checks to hold your breath.
-
-***Swamp Dweller:*** Shallow water, mud and marshes are not difficult terrain for you.
-
-***Whistle:*** Lizardfolk can communicate using high-pitch whistles that adults cannot hear but dogs and children can.
-
-***Poisonous Nip:*** You have the *poisonous nip* power.
-
-> #### Poisonous Nip
-> *Your fangs excrete a mild poison.*
-> **Encounter Swift Action**
-> **Vishya Attack Ancestry** ● **Poison**
-> **Melee** 1, one target
-> **Attack:**  Dexterity or Constitution +2 vs AC
-> **Hit:**  1d8 + your Dexterity or Constitution modifier poison damage.
-> *Level 11:* Attack bonus increases to +4. 2d8 + modifier damage.
-> *Level 21:* Attack bonus increases to +6. 3d8 + modifier damage.
 
 ## Variant: No Weapon Limitations for Small Characters
 
@@ -1171,7 +1162,7 @@ You are talented at learning languages.
 
 **Benefit:** If you fall prone but don’t suffer any other effects, you can make a DC 20 Acrobatics roll as an immediate reaction to immediately stand up.
 
-### **Sign Of Weakness**
+### **Sign of Weakness**
 
 **Benefit:** The first time a creature is staggered in an encounter, your next hit against that creature gains a bonus to the damage roll equal to you Wisdom modifier. This may only occur once per target per encounter.
 
@@ -1561,6 +1552,8 @@ Weapon group has no rules of its own, but other powers and features might depend
 
 Many weapons have special properties related to their use, as shown in the Weapons table.
 
+***Execution #:*** Reroll damage die results of # or lower. For example, if you roll 2d6 with an execution 1 weapon, reroll any d6s that come up 1 until they come up a different number. 
+
 ***Improved Critical:*** *Level 1:* +1dW damage on a critical hit. *Level 11:* +2dW damage on a critical hit. *Level 21:* +3dW damage on a critical hit. 
 
 ***Loading:*** You can use a weapon that requires loading with ammunition to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container takes either a free or swift action, as specified in the table. At the end of the encounter, you can recover half your expended ammunition by taking a minute to search the battlefield.
@@ -1579,11 +1572,9 @@ Many weapons have special properties related to their use, as shown in the Weapo
 
 ***Two-Handed:*** This weapon requires two hands when you attack with it.
 
-***Bastard:*** This weapon can be used with one or two hands. Do +1 damage when you wield a bastard weapon in two hands.
-
 ***Side Weapon:*** You can hold a side weapon in your off hand. You can wield a one-handed weapon in one hand and a side weapon in your other. Each time you make a weapon attack (including a weapon power), you choose which weapon you attack with. 
 
-***Small:*** Small characters cannot use a two-handed weapon unless it also has the Small property. Small characters can use bastard weapons, but must wield them in two hands (and do not get the +1 damage bonus). 
+***Small:*** Small characters cannot use a two-handed weapon unless it also has the Small property.
 
 #### Silvered Weapons
 
@@ -1593,65 +1584,80 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 An improvised weapon, including an unarmed strike, does 1d4 damage (one-handed) or 1d8 damage (two-handed), with no proficiency bonus on the attack. 
 
-**Table - Simple Melee Weapons** 
+### Designing Your Own Weapons
 
-| Name         | Range | Type   | Hand | Proficiency Bonus | Damage (dW) | Range | Cost (gp) | Weight (lb) | Buffs                       | Group             |
-| ------------ | ----- | ------ | ---- | ----------------- | ----------- | ----- | --------- | ----------- | --------------------------- | ----------------- |
-| Club         | Melee | Simple | 1    | +2                | 1d6         |       | 1         | 3           |                             | Maces and Clubs   |
-| Dagger       | Melee | Simple | 1    | +3                | 1d4         | 5/10  | 1         | 1           | Side Weapon, Thrown (Light) | Light Blades      |
-| Javelin      | Melee | Simple | 1    | +2                | 1d6         | 10/20 | 5         | 2           | Thrown (Heavy)              | Spears and Lances |
-| Mace         | Melee | Simple | 1    | +2                | 1d8         |       | 5         | 6           | Bastard                     | Maces and Clubs   |
-| Sickle       | Melee | Simple | 1    | +2                | 1d6         |       | 2         | 2           | Side Weapon, Thrown (Light) | Light Blades      |
-| Spear        | Melee | Simple | 1    | +2                | 1d8         |       | 5         | 6           | Bastard                     | Spears and Lances |
-| Greatclub    | Melee | Simple | 2    | +2                | 2d4         |       | 1         | 10          |                             | Maces and Clubs   |
-| Quarterstaff | Melee | Simple | 2    | +2                | 1d8         |       | 5         | 4           |                             | Staffs            |
-| Scythe       | Melee | Simple | 2    | +2                | 2d4         |       | 5         | 10          |                             | Heavy Blades      |
+Only a small selection of weapons are presented.  
 
-**Table - Martial Melee Weapons**
+However, you can design your own melee weapons by selecting one of the generic options in square brackets, and assigning a Weapon Group to them.
 
-| Name            | Range | Type    | Hand | Proficiency Bonus | Damage (dW) | Range | Cost (gp) | Weight (lb) | Buffs                       | Group                       |
-| --------------- | ----- | ------- | ---- | ----------------- | ----------- | ----- | --------- | ----------- | --------------------------- | --------------------------- |
-| Battleaxe       | Melee | Martial | 1    | +2                | 1d10        |       | 15        | 6           | Bastard                     | Axes                        |
-| Handaxe         | Melee | Martial | 1    | +2                | 1d6         |       | 5         | 3           | Side Weapon, Thrown (Heavy) | Axes                        |
-| Longsword       | Melee | Martial | 1    | +3                | 1d8         |       | 15        | 4           | Bastard                     | Heavy Blades                |
-| Rapier          | Melee | Martial | 1    | +3                | 1d8         |       | 25        | 2           |                             | Light Blades                |
-| Scimitar        | Melee | Martial | 1    | +2                | 1d8         |       | 10        | 4           | Improved Critical           | Heavy Blades                |
-| Short Sword     | Melee | Martial | 1    | +3                | 1d6         |       | 10        | 2           | Side Weapon                 | Light Blades                |
-| Throwing Hammer | Melee | Martial | 1    | +2                | 1d6         |       | 5         | 2           | Side Weapon, Thrown (Heavy) | Picks and Hammers           |
-| Warhammer       | Melee | Martial | 1    | +2                | 1d10        |       | 15        | 5           | Bastard                     | Picks and Hammers           |
-| Greataxe        | Melee | Martial | 2    | +2                | 1d12        |       | 30        | 12          | Improved Critical           | Axes                        |
-| Greatsword      | Melee | Martial | 2    | +3                | 1d10        |       | 30        | 8           |                             | Heavy Blades                |
-| Longspear       | Melee | Martial | 2    | +2                | 1d10        |       | 10        | 9           | Reach                       | Polearms, Spears and Lances |
-| Maul            | Melee | Martial | 2    | +2                | 2d6         |       | 30        | 12          |                             | Picks and Hammers           |
+Certain weapons get an additional property or benefit based on their Group (if [group] is written under Properties): 
+
+* **Maces and Clubs; Spears and Lances; Staffs:** Weapon die increases by one (see Increased Weapon Die table below). 
+* **Spears and Lances:** Weapon die increases by one (see Increased Weapon Die table below). 
+* **Light Blades:** Proficiency bonus increases by +1.
+* **Heavy Blades:** Proficiency bonus increases by +1. 
+* **Axes:** Execution 1.
+* **Picks and Hammers; Flails and Chains:** Improved Critical. 
+
+You can design an exotic melee weapon by taking a martial weapon and adding another Group to it, along with the Group-based benefit or property listed above. For example, a khopesh could be a one-handed weapon in the Heavy Blades and Axes Groups, making it a proficiency +3, damage 1d8, Execution 1 weapon. 
+
+You can design an exotic ranged weapon by taking a martial weapon and increasing either its proficiency bonus by +1 or its damage die by one step. 
+
+**Table - Increased Weapon Die**
+
+| Die         | Increases to |
+| ----------- | ------------ |
+| 1d4         | 1d6          |
+| 1d6         | 1d8          |
+| 1d8         | 2d4 or 1d10  |
+| 2d4 or 1d10 | 2d6 or 1d12  |
+
+**Table - Weapon Templates**
+
+| Type                      | Examples                                                     | Range | Type    | Hand | Proficiency Bonus | Damage (dW) | Cost (gp) | Weight (lb) | Range | Properties                  |
+| ------------------------- | ------------------------------------------------------------ | ----- | ------- | ---- | ----------------- | ----------- | --------- | ----------- | ----- | --------------------------- |
+| Simple side weapon        | Knife (light blade), dart (spear)                            | Melee | Simple  | 1    | +2                | 1d4         | 2         | 2           | 5/10  | Side Weapon, Thrown (Light) |
+| Simple one-handed weapon  | Light mace (mace), sickle (light blade), shortspear (spear), club (mace) | Melee | Simple  | 1    | +2                | 1d8         | 5         | 5           |       |                             |
+| Simple two-handed weapon  | Greatclub (mace), morningstar (mace), quarterstaff (staff), scythe (heavy blade) | Melee | Simple  | 2    | +2                | 1d10        | 5         | 10          |       |                             |
+| Martial side weapon       | Throwing hammer (hammer), handaxe (axe), hatchet (axe), shortsword (light blade), juggling club (mace), combat grapnel (flail), fork (spear) | Melee | Martial | 1    | +2                | 1d6         | 5         | 1           | 5/10  | Side Weapon, Thrown (Heavy) |
+| Martial one-handed weapon | Rapier (light blade), scimitar (light blade), heavy mace (mace), longsword (heavy blade), warhammer (hammer), adze (axe), war pick (pick), battleaxe (axe), bladed scarf (flail), fighting fan (light blade) | Melee | Martial | 1    | +2                | 1d8         | 10        | 4           |       | [group]                     |
+| Martial two-handed weapon | Greataxe (axe), greatsword (heavy blade), maul (hammer), heavy flail (flail), falchion (heavy blade), greatpick (pick), hooked hammer (pick) | Melee | Martial | 2    | +2                | 1d10        | 25        | 8           |       | [group]                     |
+| Martial reach weapon      | Longspear (polearm, spear), halberd (axe, polearm), glaive (heavy blade, polearm), bo staff (staff, polearm), pike (spear, polearm) | Melee | Martial | 2    | +2                | 1d8         | 25        | 8           |       | Reach 1, [group]            |
+
+### Default Weapons
+
+#### Ranged Weapons
 
 **Table - Simple Ranged Weapons**
 
-| Name          | Range  | Type   | Hand | Proficiency Bonus | Damage (dW) | Range | Cost (gp) | Weight (lb) | Buffs           | Group     |
-| ------------- | ------ | ------ | ---- | ----------------- | ----------- | ----- | --------- | ----------- | --------------- | --------- |
-| Hand Crossbow | Ranged | Simple | 1    | +2                | 1d6         | 10/20 | 25        | 2           | Loading (Free)  | Crossbows |
-| Sling         | Ranged | Simple | 1    | +2                | 1d6         | 10/20 | 1         | 0           | Loading (Free)  | Slings    |
-| Crossbow      | Ranged | Simple | 2    | +2                | 1d8         | 15/30 | 25        | 4           | Loading (swift) | Crossbows |
+| Name           | Range  | Type   | Hand | Proficiency Bonus | Damage (dW) | Range | Cost (gp) | Weight (lb) | Buffs           | Group     |
+| -------------- | ------ | ------ | ---- | ----------------- | ----------- | ----- | --------- | ----------- | --------------- | --------- |
+| Light Crossbow | Ranged | Simple | 1    | +2                | 1d6         | 10/20 | 35        | 4           | Loading (Free)  | Crossbows |
+| Sling          | Ranged | Simple | 1    | +2                | 1d6         | 10/20 |           | 0           | Loading (Free)  | Slings    |
+| Heavy Crossbow | Ranged | Simple | 2    | +2                | 1d8         | 15/30 | 50        | 8           | Loading (Swift) | Crossbows |
 
 **Table - Martial Ranged Weapons**
 
 | Name     | Range  | Type    | Hand | Proficiency Bonus | Damage (dW) | Range | Cost (gp) | Weight (lb) | Buffs                 | Group |
 | -------- | ------ | ------- | ---- | ----------------- | ----------- | ----- | --------- | ----------- | --------------------- | ----- |
-| Longbow  | Ranged | Martial | 2    | +2                | 1d10        | 20/40 | 30        | 3           | Loading (Free)        | Bows  |
-| Shortbow | Ranged | Martial | 2    | +2                | 1d8         | 15/30 | 25        | 2           | Loading (Free), Small | Bows  |
+| Longbow  | Ranged | Martial | 2    | +2                | 1d10        | 20/40 | 50        | 4           | Loading (Free)        | Bows  |
+| Shortbow | Ranged | Martial | 2    | +2                | 1d8         | 15/30 | 35        | 3           | Loading (Free), Small | Bows  |
 
-### Exotic Weapons
+#### Exotic Weapons
 
 Only a small number of special exotic weapons are presented here. 
-
-If you take the Weapon Proficiency feat and would like to select an exotic weapon, you can work with your GM to design one. A simple rule of thumb to create an exotic weapon is to take a martial weapon and add either +1 to the proficiency bonus (maximum +3) **or** +2 to the damage die size (so a 1d6 damage weapon becomes a 1d8 damage weapon). 
-
-For example, you could create a "bastard sword" exotic weapon by taking the longsword and giving it a 1d10 damage die instead of a 1d8 damage die, or a "compound longbow" by taking the longbow and giving it a +3 proficiency bonus instead of a +2 proficiency bonus. 
 
 ***Garrote:*** A simple wire, when used properly, can disable or kill an opponent in seconds. 
 
 *Requirement:* You can only use a garrote against a target granting you combat advantage which is not aware of you. You can only use the garrote with a melee basic attack or specific powers which utilize the garrote.
 
 *Property:* When you hit with a garrote, you grapple the target. The target cannot speak while grappled. The target is dazed while the grapple is in effect. The target also suffers a -2 penalty to escape attempts.
+
+**Table - Exotic Weapons**
+
+| Name    | Range | Type   | Hand | Proficiency Bonus | Damage (dW) | Range | Cost (gp) | Weight (lb) | Buffs             | Group   |
+| ------- | ----- | ------ | ---- | ----------------- | ----------- | ----- | --------- | ----------- | ----------------- | ------- |
+| Garrote | Melee | Exotic | 1    | +2                | 1d4         |       | 1         | 0           | Special (Garrote) | Special |
 
 ## Focuses
 

@@ -108,15 +108,15 @@ When you reach a level that allows you to replace a power, you choose a class at
 | 29    | 2              | 3 + P            | 3 + P        | 5 + P + E | Replace 1 daily attack power     |
 | 30    | 2              | 3 + P            | 3 + P        | 5 + P + E |                                  |
 
+## Dualclass
+
+Each class has a "Dualclass" option listed. This is the benefit that a character receives when they take the Dualclass Recruit feat and select that class. 
+
 # Swashbuckler
 
 <figure><img src="pics\Flashing Ray Color.png" alt="Flashing Ray by Crystal Frasier" style="zoom: 20%;" /><figcaption>Flashing Ray by Crystal Frasier</figcaption></figure>
 
 Martial Striker
-
-
-
-**Group:** Rogue
 
 ### Stats
 
@@ -167,14 +167,13 @@ You can choose powers from your class disciplines. When you do so, you can repla
 
 If a character takes the Dualclass Recruit feat and selects the Swashbuckler, it has the following benefit:
 
-**Benefit:** You belong to the Rogue group and the Swashbuckler class (along with any other groups and classes that you belong to), and gain the following benefits:
+**Benefit:** You belong to the Swashbuckler class (along with any other classes that you belong to), and gain the following benefits:
 
 * When you hit an enemy with a melee attack, you gain momentum. When you are hit by any kind of attack, you lose momentum. Momentum has no effect on its own, but it is required for your Triumphant Strike feature and is referenced by some powers.
 * Once per encounter, you can use the Swashbuckler's Triumphant Strike feature (noting that it requires momentum to use).
 
 # Commander
 Martial Leader
-**Group:** Warlord
 ### Stats
 **Hit Points at 1st Level:** 12 + your Constitution score.
 **Hit Points at Higher Levels:** 5 + your Constitution modifier per level after 1st.
@@ -227,14 +226,13 @@ You can choose powers from your class disciplines. When you do so, you can repla
 
 If a character takes the Dualclass Recruit feat and selects the Commander, it has the following benefit:
 
-**Benefit:** You belong to the Warlord group and the Commander class (along with any other groups and classes that you belong to), with Commander becoming your "secondary class". You gain the following benefits:
+**Benefit:** You belong to the Commander class (along with any other classes that you belong to), with Commander becoming your "secondary class". You gain the following benefits:
 
 * Once per encounter, you can use the Commander's *lift spirits* power.
 
 # Crusader
 
 Divine Leader
-**Group:** Cleric
 
 ### Stats
 
@@ -255,18 +253,19 @@ Divine Leader
 
 #### Channel Divinity
 
-You gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: Turn Undead and an effect associated with your Divine Domain.
+You gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: *censure undead* and an effect associated with your Divine Domain.
+
 When you use your Channel Divinity, you choose which effect to create. You can use Channel Divinity once per encounter, however many powers you learn that are usable through Channel Divinity (although see Action Recharge).
 
-> #### Turn Undead
+> #### Censure Undead
 > *You present your holy symbol and speak a prayer censuring the undead.*
 > **Encounter** **Standard Action**
-> **Crusader Attack Feature** ● **Divine, Focus, Radiant**
+> **Cleric Attack Feature** ● **Divine, Focus, Radiant**
 > **Near** burst 2 (Level 11: 5; Level 21: 8), all undead
 > **Attack:**  Wisdom vs Will
-> **Hit:**  1d10 + Wisdom modifier radiant damage. Target is pushed 3 + your Charisma modifier and immobile until the end of your next turn.
-> **Miss:**  Half damage.
-> **Special:**  Level 5: 2d10 + Wisdom modifier damage; Level 11: 3d10 + Wisdom modifier damage; Level 15: 4d10 + Wisdom modifier damage; Level 21: 5d10 + Wisdom modifier damage; Level 25: 6d10 + Wisdom modifier damage
+> **Hit:**  1d8 + Wisdom modifier radiant damage. Target is pushed 3 + your Charisma modifier and immobile until the end of your next turn.
+> **Miss:**  Half damage. Target is pushed squares equal to your Charisma modifier.
+> **Special:**  Level 5: 2d8 + Wisdom modifier damage; Level 11: 3d8 + Wisdom modifier damage; Level 15: 4d8 + Wisdom modifier damage; Level 21: 5d8 + Wisdom modifier damage; Level 25: 6d8 + Wisdom modifier damage
 
 #### Infuse with Life
 
@@ -309,13 +308,12 @@ You can choose powers from your class disciplines. When you do so, you can repla
 
 ### Dualclass
 
-You belong to the Spellsword group and the Mageblade class (along with any other groups and classes that you belong to), and gain the following benefits:
+You belong to the Mageblade class (along with any other classes that you belong to), and gain the following benefits:
 
 * When you select this feat, select one of the sigil powers. Once per encounter, you can use that power.
 
 # Guard
 Martial Defender
-**Group:** Fighter
 ### Stats
 **Hit Points at 1st Level:** 15 + your Constitution score.
 **Hit Points at Higher Levels:** 6 + your Constitution modifier per level after 1st.
@@ -349,9 +347,14 @@ You can choose powers from your class disciplines. When you do so, you can repla
 
 **Class Disciplines:** Art of War, Juggernautical.
 
+### Dualclass
+
+You belong  to the Guard class (along with any other classes that you belong to), and  gain the following benefits: 
+
+* Once per encounter, you get a +1 bonus on an attack roll. All targets of  the attack (whether you hit them or not) are marked until the end of your  next turn. 
+
 # Jester
 Martial Controller
-**Group:** Bard
 ### Stats
 **Hit Points at 1st Level:** 10 + your Constitution score.
 **Hit Points at Higher Levels:** 4 + your Constitution modifier per level after 1st.
@@ -392,11 +395,16 @@ You can choose powers from your class disciplines. When you do so, you can repla
 
 **Class Disciplines:** Last Laugh.
 
+### Dualclass
+
+You belong to the Jester class (along with any other classes that you belong to), and gain the following benefits:
+
+* You gain the Eyes on Me class feature. In addition, once per encounter, you can use the *wrong place—wrong time* power.
+
 # Mageblade
 <figure><img src="pics\WarriorBIG (1).jpg" alt="Warrior by Sarah Carney" style="zoom: 20%;" /><figcaption>Warrior by Sarah Carney</figcaption></figure>
 
 Arcane Defender
-**Group:** Spellsword.
 
 ### Stats
 **Hit Points at 1st Level:** 15 + your Constitution score.
@@ -412,42 +420,78 @@ Arcane Defender
 **Class Skills:** Arcana, Acrobatics, Athletics, Diplomacy, Endure, History, Insight, Intimidate.
 
 ### Features
+#### Mageblade's Sigil
+You can use the *mageblade's sigil* power. 
+
+> #### Mageblade's Sigil
+> **At-Will** **Swift Action**
+> **Mageblade Utility 1** ● **Arcane**
+> **Near burst** 2, one target
+> **Effect:** The target is marked until you use this power again.
+
 #### Athame Bonus Feat
 You have the Athame feat for the weapon type that your particular weapon belongs to. For example, if your particular weapon is a *+1 longsword*, you have the Athame (longsword) feat. This changes if your Special Bond changes. 
 #### Special Bond
 You select a particular weapon that you are proficient with and perform a daylong ceremony to make it your key weapon.  You can only have one key weapon at a time, but you can repeat the ceremony with a different weapon to make it your key weapon.
-#### Summon Athame
+
 As a standard action, if you have a free hand you can summon your key weapon. If it is within 10 squares, it appears in your hand.
 *Level 11:* Within 10 miles.
 *Level 21:* Within 100 miles.
 #### Shimmering Shield
 You have a +1 bonus to AC. If you have a spare hand (not carrying a shield, wielding a two-handed weapon, etc.) then it is a +3 bonus instead.
 ### Talents
+Choose one at character creation. 
+
 **Illusion Specialist:** Your secondary ability is Constitution. You can use the *blurring sigil* power.
 
-> #### Blurring Sigil
->
-> **At-Will** **Swift Action**
-> **Mageblade Utility 1** ● **Arcane, Weapon**
-> **Near burst** 2, one target
-> **Effect:** The target is marked until you use this power again. While this target is marked, if it makes an attack that does not include you as a target, and it hits, you can - as an immediate action - reduce the damage to any one target of the attack by 5 + your Constitution modifier (Level 11: 10 + your Constitution modifier; Level 21: 15 + your Constitution modifier). You must be within 10 of the target in order to do so.
+**Rush Specialist:** Your secondary ability is Strength. You can use the *beacon sigil* power.
 
-**Assault Specialist:** Your secondary ability is Strength. You can use the *sigil of retaliation* power.
+**Punishment Specialist:** Your secondary ability is Charisma. You can use the *fiery sigil* power.
 
-> #### Sigil of Retaliation
-> **At-Will** **Swift Action**
+**Martyr Specialist:** Your secondary ability is Dexterity. You can use the *vortex sigil* power.
+
+> #### Beacon Sigil
+> **At-Will** **Immediate (React) Action**
 > **Mageblade Utility 1** ● **Arcane, Weapon, Teleport**
-> **Near burst** 2, one target
-> **Effect:** The target is marked until you use this power again. While this target is marked, if it makes an attack that does not include you as a target, and it hits, you can - as an immediate action - appear in an unoccupied square adjacent to the target and make a basic melee attack against them. You must be within 10 of the target in order to do so.
+> **Near burst** 5, the triggering enemy
+> **Trigger:**  A creature marked by your *sigil* makes an attack that does not include you as a target
+> **Effect:** Teleport to an unoccupied square adjacent to the target and make a basic melee attack against them.
+
+> #### Blurring Sigil
+> **At-Will** **Immediate (Counter) Action**
+> **Mageblade Utility 1** ● **Arcane, Weapon**
+> **Near burst** 10, the triggering enemy
+> **Trigger:**  A creature marked by your *sigil* makes an attack that does not include you as a target
+> **Effect:** Any one target of the triggering creature's attack gains resistance to all damage equal to your level + your Constitution modifier, until the end of the current turn.
+
+> #### Fiery Sigil
+> **At-Will** **Immediate (React) Action**
+> **Mageblade Utility 1** ● **Arcane, Weapon, Fire**
+> **Near burst** 10, the triggering enemy
+> **Trigger:**  A creature marked by your *sigil* makes an attack that does not include you as a target
+> **Effect:** The triggering creature takes 1d6 + your Charisma modifier fire damage. *Level 11:* 2d6 + your Charisma modifier damage. *Level 21:* 3d6 + your Charisma modifier damage.
+
+> #### Vortex Sigil
+> **At-Will** **Immediate (Counter) Action**
+> **Mageblade Utility 1** ● **Arcane, Weapon, Teleport**
+> **Near burst** 5, the triggering enemy
+> **Trigger:**  A creature marked by your *sigil* attempts to make an attack that does not include you as a target
+> **Effect:** The triggering creature teleports to an unoccupied square adjacent to you. If it now arranges the attack so that it includes you as a target, the attack goes ahead. Otherwise it misses all targets.
+
 
 ### Powers
 You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline's key ability with Intelligence instead. You can replace any reference to the discipline's secondary ability or abilities with the secondary ability linked to your talent.
 
 **Class Disciplines:** Elemental Flux, Veiled Moon.
 
+### Dualclass
+
+You belong to the Mageblade class (along with any other classes that you belong to), and gain the following benefits:
+
+* When you select this feat, select one of the sigil powers. Once per encounter, you can use that power.
+
 # Reaper
 Spirit Controller
-**Group:** Ranger
 ### Stats
 **Hit Points at 1st Level:** 12 + your Constitution score.
 **Hit Points at Higher Levels:** 5 + your Constitution modifier per level after 1st.
@@ -507,12 +551,17 @@ You can choose powers from your class disciplines. When you do so, you can repla
 
 **Class Disciplines:** Starfall.
 
+### Dualclass
+
+You belong to the Reaper class (along with any other classes that you belong to), and gain the following benefit:
+
+* Once per day, you can use a Spirit Entreaty power. 
+
 # Specialist Wizard
 
 <figure><img src="pics\Vera.png" alt="Vera by Justin Nichols" style="zoom: 50%;" /><figcaption>Vera by Justin Nichol</figcaption></figure>
 
 Arcane Controller
-**Group:** Wizard
 
 ### Stats
 **Hit Points at 1st Level:** 10 + your Constitution score.
@@ -551,9 +600,15 @@ You can choose powers from your class disciplines. When you do so, you can repla
 
 **Class Disciplines:** Spells of Ice and Fire, Cup of Brimstone, Puppeteer's Pull.
 
+### Dualclass
+
+You belong to the Specialist Wizard class (along with any other classes that you belong to), and gain the following benefits:
+
+* You are proficient with one of the following: orb, staff, wand, rod or book.
+* Choose one at-will 1st-level attack power from a Specialist Wizard class discipline. It is an encounter power for you. 
+
 # Sylvan
 Spirit Striker
-**Group:** Ranger
 ### Stats
 **Hit Points at 1st Level:** 12 + your Constitution score.
 **Hit Points at Higher Levels:** 5 + your Constitution modifier per level after 1st.
@@ -642,6 +697,12 @@ Choose one at character creation. Note that rampage powers do not necessarily ha
 You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline's key ability with Constitution instead. You can replace any reference to the discipline's secondary ability or abilities with the secondary ability linked to your talent.
 
 **Class Disciplines:** Red in Tooth and Claw, Strong Bidding, Frontline Fighting.
+
+### Dualclass
+
+You belong to the Sylvan class (along with any other classes that you belong to), and gain the following benefit:
+
+* Choose a rampage power. Once per encounter, you can use that power. 
 
 ## Animal Companions
 
@@ -1000,9 +1061,9 @@ If you complete a long rest, all your daily powers reset and if you use them fro
 
 Commander multiclass.
 
-**Requirements:** You cannot take this kit if you belong to any class in the Warlord group (e.g. Commander), or if you already have a secondary class.
+**Requirements:** You cannot take this kit if you belong to the Commander class, or if you already have a secondary class.
 
-**Called to Service (Level 1):** You belong to the Warlord group and the Commander class (along with any other groups and classes that you belong to), with Commander becoming your "secondary class". You gain the following benefits:
+**Called to Service (Level 1):** You belong to the Commander class (along with any other classes that you belong to), with Commander becoming your "secondary class". You gain the following benefits:
 
 * Once per encounter, you can use the Commander's *lift spirits* power.
 
@@ -1020,15 +1081,15 @@ Commander multiclass.
 
 Crusader multiclass.
 
-**Requirements:** You cannot take this kit if you belong to any class in the Cleric group (e.g. Crusader), or if you already have a secondary class.
+**Requirements:** You cannot take this kit if you belong to the Crusader class, or if you already have a secondary class.
 
-**Part-Time Medic (Level 1):** You belong to the Cleric group and the Crusader class (along with any other groups and classes that you belong to), with Crusader becoming your "secondary class". You gain the following benefits:
+**Part-Time Medic (Level 1):** You belong to the Crusader class (along with any other classes that you belong to), with Crusader becoming your "secondary class". You gain the following benefits:
 
 * You can use *infuse with life* once per encounter. 
 
 **Crusader Skills (Level 5):** You become trained in a skill of your choice from the Crusader class skills. 
 
-**Divine Blessing (Level 10):** You learn the *turn undead* Channel Divinity power. You can Channel Divinity once per encounter.  
+**Divine Blessing (Level 10):** You learn the *censure undead* Channel Divinity power. You can Channel Divinity once per encounter.  
 
 **Associated Disciplines (Level 1):** You can take powers from the Cleric list, and from one of the following disciplines: 
 
@@ -1038,9 +1099,9 @@ Crusader multiclass.
 
 Jester multiclass.
 
-**Requirements:** You cannot take this kit if you belong to any class in the Bard group (e.g. Jester), or if you already have a secondary class.
+**Requirements:** You cannot take this kit if you belong to the Jester class, or if you already have a secondary class.
 
-**The Comedian (Level 1):** You belong to the Bard group and the Jester class (along with any other groups and classes that you belong to), with Jester becoming your "secondary class". You gain the following benefits:
+**The Comedian (Level 1):** You belong to the Jester class (along with any other classes that you belong to), with Jester becoming your "secondary class". You gain the following benefits:
 
 * You gain the Eyes on Me class feature. In addition, once per encounter, you can use the *wrong place—wrong time* power.
 
@@ -1056,9 +1117,9 @@ Jester multiclass.
 
 Guard multiclass.
 
-**Requirements:** You cannot take this kit if you belong to any class in the Fighter group (e.g. Guard), or if you already have a secondary class.
+**Requirements:** You cannot take this kit if you belong to the Guard class,  or if you already have a secondary class.
 
-**Protective (Level 1):** You belong to the Fighter group and the Guard class (along with any other groups and classes that you belong to), with Guard becoming your "secondary class". You gain the following benefits:
+**Protective (Level 1):** You belong to the Guard class (along with any other classes that you belong to), with Guard becoming your "secondary class". You gain the following benefits:
 
 * Once per encounter, you get a +1 bonus on an attack roll. All targets of the attack (whether you hit them or not) are marked until the end of your next turn. 
 
@@ -1075,9 +1136,9 @@ Guard multiclass.
 
 Mageblade multiclass.
 
-**Requirements:** You cannot take this kit if you belong to any class in the Spellsword group (e.g. Mageblade), or if you already have a secondary class.
+**Requirements:** You cannot take this kit if you belong to the Mageblade class, or if you already have a secondary class.
 
-**Ensorcelled Weapon (Level 1):** You belong to the Spellsword group and the Mageblade class (along with any other groups and classes that you belong to), with Mageblade becoming your "secondary class". You gain the following benefits:
+**Ensorcelled Weapon (Level 1):** You belong to the Mageblade class (along with any other classes that you belong to), with Mageblade becoming your "secondary class". You gain the following benefits:
 
 * When you select this kit, select one of the sigil powers. Once per encounter, you can use that power.
 
@@ -1094,9 +1155,9 @@ Mageblade multiclass.
 
 Reaper multiclass.
 
-**Requirements:** You cannot take this kit if you belong to any class in the Ranger group (e.g. Reaper), or if you already have a secondary class.
+**Requirements:** You cannot take this kit if you belong to the Reaper class, or if you already have a secondary class.
 
-**Spirit's Mantle (Level 1):** You belong to the Ranger group and the Reaper class (along with any other groups and classes that you belong to), with Reaper becoming your "secondary class". You gain the following benefits:
+**Spirit's Mantle (Level 1):** You belong to the Reaper class (along with any other classes that you belong to), with Reaper becoming your "secondary class". You gain the following benefits:
 
 * Once per day, you can use a Spirit Entreaty power. 
 
@@ -1112,9 +1173,9 @@ Reaper multiclass.
 
 Sylvan multiclass.
 
-**Requirements:** You cannot take this kit if you belong to any class in the Ranger group (e.g. Sylvan), or if you already have a secondary class.
+**Requirements:** You cannot take this kit if you belong to the Sylvan class, or if you already have a secondary class.
 
-**Spirit's Mantle (Level 1):** You belong to the Ranger group and the Sylvan class (along with any other groups and classes that you belong to), with Sylvan becoming your "secondary class". You gain the following benefits:
+**Spirit's Mantle (Level 1):** You belong to the Sylvan class (along with any other classes that you belong to), with Sylvan becoming your "secondary class". You gain the following benefits:
 
 * Choose a rampage power. Once per encounter, you can use that power. 
 
@@ -1132,9 +1193,9 @@ Sylvan multiclass.
 
 Swashbuckler multiclass.
 
-**Requirements:** You cannot take this kit if you belong to any class in the Rogue group (e.g. Swashbuckler), or if you already have a secondary class.
+**Requirements:** You cannot take this kit if you belong to the Swashbuckler class, or if you already have a secondary class.
 
-**Buckle Your Swashes (Level 1):** You belong to the Rogue group and the Swashbuckler class (along with any other groups and classes that you belong to), with Swashbuckler becoming your "secondary class". You gain the following benefits:
+**Buckle Your Swashes (Level 1):** You belong to the Swashbuckler class (along with any other classes that you belong to), with Swashbuckler becoming your "secondary class". You gain the following benefits:
 
 * When you hit an enemy with a melee attack, you gain momentum. When you are hit by any kind of attack, you lose momentum. Momentum has no effect on its own, but it is required for your Triumphant Strike feature and is referenced by some powers.
 
@@ -1153,9 +1214,9 @@ Swashbuckler multiclass.
 
 Specialist Wizard multiclass.
 
-**Requirements:** You cannot take this kit if you belong to any class in the Wizard group (e.g. Specialist Wizard), or if you already have a secondary class.
+**Requirements:** You cannot take this kit if you belong to the Specialist Wizard class,  or if you already have a secondary class.
 
-**Magician's Apprentice (Level 1):** You belong to the Wizard group and the Specialist Wizard class (along with any other groups and classes that you belong to), with Specialist Wizard becoming your "secondary class". You gain the following benefits:
+**Magician's Apprentice (Level 1):** You belong to the Specialist Wizard class (along with any other classes that you belong to), with Specialist Wizard becoming your "secondary class". You gain the following benefits:
 
 * You are proficient with one of the following: orb, staff, wand, rod or book.
 * Choose one at-will 1st-level attack power from a Specialist Wizard class discipline. It is an encounter power for you. 
@@ -6024,7 +6085,274 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 **Key Ability:** Intelligence.
 **Secondary Ability:** Dexterity.
 
+> #### Dimensional Strike
+> *By shifting slightly between two worlds, the disciple confuses the senses of his foe so he may land his attack more easily.*
+> **At-Will** **Standard Action**
+> **Veiled Moon Attack 1** ● **Shadow, Weapon**
+> **Melee or Ranged** weapon, one target
+> **Attack:**  Intelligence vs Reflex
+> **Hit:**  1dW + Intelligence modifier damage. 
+> *Level 21:* 2dW + Intelligence modifier damage.
 
+
+> #### Disturbing Blow
+> *By establishing counter-resonance within the spirit of an enemy with a well-placed blow, the disciple may disrupt and disturb its next action.*
+> **Encounter** **Standard Action**
+> **Veiled Moon Attack 1** ● **Shadow, Weapon**
+> **Melee** weapon, one target
+> **Attack:**  Intelligence vs AC
+> **Hit:**  1dW + Intelligence modifier damage. The creature grants combat advantage until the end of your next turn or until it is next attacked, whichever occurs sooner.
+
+
+> #### Cursed Fate
+> *The disciple can befuddle and bewilder his opponent with this strike, causing a grave imbalance in the psyche of the victim.*
+> **Daily** **Standard Action**
+> **Veiled Moon Attack 1** ● **Shadow, Weapon**
+> **Melee or Ranged** weapon, one target
+> **Attack:**  Intelligence vs Will
+> **Hit:**  2dW + Intelligence modifier damage and the target grants combat advantage until the end of your next turn.
+> **Miss:**  1dW + Intelligence modifier damage and the creature grants combat advantage until the end of your next turn or until it is next attacked, whichever occurs sooner.
+
+
+> #### Ghost Hunting Blow
+> *By reaching across the barrier between worlds, the disciple may strike at disembodied spirits as easily he would strike a normal mortal.*
+> **Encounter** **Swift Action**
+> **Veiled Moon Utility 2** ● **Shadow, Stance**
+> **Self** 
+> **Effect:** Your attacks do force damage as well as any other type of damage, and they do damage against incorporeal targets as if the targets were not incorporeal.
+
+> #### Inner Sense
+> *By sensing ripples in the spiritual world around him, the Veiled Moon disciple is capable of better avoiding dangerous effects and situations.*
+> **Encounter** **Free Action**
+> **Veiled Moon Utility 2** ● **Shadow**
+> **Self** 
+> **Trigger:**  You make a saving throw.
+> **Effect:** Add +2 to the result.
+> **Special:**  You can use this power after seeing the result of your roll.
+
+> #### Spirit Sensing Stance
+> *By sensing the different patterns all beings that exist have, the senses of the Veiled Moon disciple exceed that of natural beings and move into the realm of supernatural awareness.*
+> **Daily** **Swift Action**
+> **Veiled Moon Utility 2** ● **Shadow, Stance**
+> **Self** 
+> **Effect:** You know the location to the nearest square of all creatures within 6 squares of you, even if they are hiding, incorporeal or invisible.
+
+
+> #### Leaping Spirit Dance
+> *Light as a feather, the Veiled Moon disciple moves gracefully in combat, with the smooth and practiced grace of an incorporeal being.*
+> **Daily** **Swift Action**
+> **Veiled Moon Utility 2** ● **Shadow, Stance**
+> **Self** 
+> **Effect:** You receive a +2 power bonus to AC and Reflex. If you end any turn without having moved at least 2 squares, this stance ends.
+
+> #### Resonance Strike
+> *By funneling his spiritual power into his attack, the Veiled Moon practitioner may strike an opponent with glowing silvery light.*
+> **Daily** **Standard Action**
+> **Veiled Moon Attack 5** ● **Shadow, Weapon**
+> **Near burst** 10, one enemy in range
+> **Attack:**  Intelligence vs Reflex
+> **Hit:**  3dW + Intelligence modifier force damage
+> **Miss:**  Half damage.
+
+> #### Fading Strike
+> *The disciple learns the basic technique at this level for walking between worlds to reach locations that previously could be inaccessible on the mortal world and potentially attack foes at those locales.*
+> **Encounter** **Move Action**
+> **Veiled Moon Utility 6** ● **Shadow, Teleport**
+> **Self** 
+> **Effect:** Teleport 6
+
+> #### Half-Gone
+> *By momentarily slipping through the barrier between the Material and the Astral planes, the Veiled Moon disciple may attempt to avoid an attack by being incorporeal.*
+> **Encounter** **Immediate (Counter) Action**
+> **Veiled Moon Utility 6** ● **Shadow**
+> **Self** 
+> **Trigger:**  You are hit by an attack.
+> **Effect:** You are incorporeal for the purpose of this attack (typically, you take half damage from the attack).
+
+> #### Altered Penumbra
+> *Position is relative to the Veiled Moon disciple’s thinking, and his position in the universe is mutable. Using these principles, the disciple may circumvent reality to remove himself from harms way when necessary.*
+> **Daily** **Immediate (Counter) Action**
+> **Veiled Moon Utility 6** ● **Shadow, Conjuration, Teleport**
+> **Self** 
+> **Trigger:**  You are the target of an attack.
+> **Effect:** Teleport 2. In your space is conjured an immovable illusion of yourself. The conjuration disappears once it is hit by a Melee or Ranged attack (potentially including the attack that triggered the use of this power).
+> **Special:**  If the teleportation does not move you outside the range of a Near or Far attack, you are still subject to that attack.
+> **Maintain:**  Move
+
+> #### Brilliant Moon
+> *By partially phasing a portion of his attack out of this reality, the disciple may ignore certain obstacles, such as armor, when striking at an opponent.*
+> **Encounter** **Standard Action**
+> **Veiled Moon Attack 7** ● **Shadow, Weapon**
+> **Melee or Ranged** weapon, one target
+> **Attack:**  Intelligence vs Reflex
+> **Hit:**  2dW + Intelligence modifier force damage.
+
+> #### Breath of the Moon
+> *The moon is a source of madness, so the legend goes, and by using the principles of lunar cycles on the psyche of mortals, the disciple may temporarily relieve a target of its sanity for a few moments in combat.*
+> **Daily** **Standard Action**
+> **Veiled Moon Attack 9** ● **Shadow, Weapon**
+> **Near arc** 3
+> **Attack:**  Intelligence vs Will
+> **Hit:**  2dW + Intelligence modifier psychic damage, and the target cannot target you with attacks (save ends).
+> **Miss:**  Target cannot target you with attacks until the end of your next turn.
+
+
+> #### Formless Dance
+> *The Veiled Moon disciple immerses himself in a sort of dimensional flux, causing him to be able to see what cannot be perceived and seemingly be in many places at once.*
+> **Encounter** **Swift Action**
+> **Veiled Moon Utility 10** ● **Shadow, Stance**
+> **Self** 
+> **Effect:** You have concealment and truesight 6.
+
+> #### Ghostwalk
+> *The initiator steps through to the borderland between the Material and the Ethereal planes, becoming an incorporeal figure in both realities for a few moments.*
+> **Encounter** **Swift Action**
+> **Veiled Moon Utility 10** ● **Shadow**
+> **Self** 
+> **Hit:**  You become incorporeal until the end of your next turn.
+
+> #### Ethereal Reminiscence
+> *The ectoplasmic nature of beings on the Ethereal plane allows for the Veiled Moon disciple to briefly transport himself to that realm and use his will to restore some his form by filling his wounds with spectral energies, displacing his injuries.*
+> **Daily** **Standard Action**
+> **Veiled Moon Utility 10** ● **Shadow**
+> **Self** 
+> **Hit:**  You become incorporeal until the end of your next turn. Spend a recovery and heal your recovery value.
+
+
+> #### Fading Leap
+> *With nary a thought and a gesture the Veiled Moon disciple may flow like moonlight from one location to another through the Astral plane, moving faster than his earthly body would allow.*
+> **Encounter** **Swift Action**
+> **Veiled Moon Utility 10** ● **Shadow, Teleport**
+> **Self** 
+> **Effect:** Teleport 6
+
+> #### Flicker Strike
+> *In a flickering blur of teleportation and movement, the Veiled Moon disciple may disappear, blink into existence to strike a foe, and then disappear again to appear a safe distance away.*
+> **Encounter** **Standard Action**
+> **Veiled Moon Attack 13** ● **Shadow, Weapon, Teleport**
+> **Self** 
+> **Effect:** Teleport 6.
+> *Secondary Attack:* Intelligence vs AC. 2dW + Intelligence modifier damage on a hit, and you can teleport 6.
+
+> #### Essence Shattering Strike
+> *With a powerful strike, the Veiled Moon disciple attacks at the very spirit of his foe with his silver-blue light.*
+> **Daily** **Standard Action**
+> **Veiled Moon Attack 15** ● **Shadow, Weapon**
+> **Melee or Ranged** weapon, one target
+> **Attack:**  Intelligence vs Fortitude
+> **Hit:**  3dW + Intelligence modifier damage and the target is dazed (save ends).
+> **Miss:**  Half damage.
+
+> #### Stance of the Ether Gate
+> *By shifting his essence partially into the Astral plane, the disciple finds that moving through that plane as just as easy as moving through the material plane.*
+> **Daily** **Swift Action**
+> **Veiled Moon Utility 16** ● **Shadow, Stance, Teleport**
+> **Self** 
+> **Effect:** As a move action, you can teleport 6.
+
+> #### Twisting Ether
+> *With a nod to his ally, the Veiled Moon adept may sink through the world with his ally and switch places with him for better effect in combat.*
+> **Encounter** **Swift Action**
+> **Veiled Moon Utility 16** ● **Shadow, Teleport**
+> **Near burst 5** one ally
+> **Effect:** You and your ally simultaneously swap spaces via teleportation.
+
+> #### Warp Worm
+> *By creating temporary breaches between the worlds of the Material and the Astral, the disciple may teleport through a few enemies and emerge from the space between worlds having done his foes great internal harm.*
+> **Daily** **Standard Action**
+> **Veiled Moon Attack 19** ● **Shadow, Weapon, Teleport**
+> **Melee** touch, one target
+> **Attack:**  Intelligence vs AC
+> **Hit:**  3dW + Intelligence modifier damage, and teleport 4.
+> **Miss:**  Half damage, and teleport 2.
+> **Effect:** *Secondary Attack:* Intelligence vs AC. 2d8 + Intelligence modifier damage, and teleport 4 on a hit (no damage, teleport 2 on miss). 
+> *Secondary Attack:* Intelligence vs AC. 1d8 + Intelligence modifier damage, and teleport 4 on a hit (no damage, teleport 2 on miss).
+> Each secondary attack must be against a different target to the other secondary attack, and to the primary attack.
+
+> #### Ether Wave
+> *The Veiled Moon disciple concentrates his spiritual energies to his hand tears into the barrier between the Astral and the Material, and releases the energies that form from this in a wracking wave of silvery-blue energy.*
+> **Daily** **Standard Action**
+> **Veiled Moon Attack 19** ● **Shadow, Weapon**
+> **Near arc** 4
+> **Attack:**  Intelligence vs Reflex
+> **Hit:**  3dW + Intelligence modifier force damage, and persistent 5 force damage (save ends).
+> **Miss:**  Half damage (no persistent damage).
+
+> #### Phantom Penumbra
+> *To slip through the worlds is a simple matter for the disciple, and using this to deceive and evade an attacker is effortlessly done.*
+> **Daily** **Swift Action**
+> **Veiled Moon Utility 22** ● **Shadow, Illusion**
+> **Self** 
+> **Effect:** A number of times equal to the number of recoveries you have spent so far since your last long rest, you can force enemies within 6 to reroll an attack roll. You can only force each attack roll to be rerolled once.
+> **Maintain:**  Swift
+
+> #### Spiritual Weapon Stance
+> *By channeling ethereal energies along his weapons and his body, the initiator becomes immersed in both worlds, being as solid on the Ethereal Plane as he is on the Material.*
+> **Daily** **Swift Action**
+> **Veiled Moon Utility 22** ● **Shadow, Stance**
+> **Self** 
+> **Effect:** Your attacks do persistent 5 force damage (save ends).
+
+> #### Fade Through
+> *An advanced technique, the Veiled Moon disciple at this point learns how to fold two points in space around him to appear at another location within the span of a heart beat.*
+> **Daily** **Standard Action**
+> **Veiled Moon Utility 22** ● **Shadow, Teleport**
+> **Self** 
+> **Effect:** Move up to your speed, with phasing. Make a basic melee attack against each enemy that you move through.
+
+> #### Anchoring Spirit
+> *The Veiled Moon disciple pulls himself fully into the Ethereal and manifests a ghostly apparition of his form upon the Material, and in doing so he locks his immediate area for travel through the Ethereal or Astral plane.*
+> **Daily** **Swift Action**
+> **Veiled Moon Utility 22** ● **Shadow, Stance**
+> **Self** 
+> **Effect:** You become incorporeal. Enemies within 12 cannot choose to teleport. Allies within 12 can always choose not to teleport if they would be subject to an effect that would teleport them.
+
+
+> #### Lunar Penumbra
+> *It is said that the moon is portrayed in some legends as a laughing trickster, and with this powerful ability, the Veiled Moon disciple is capable of pulling an incredible trick upon his foe.*
+> **Daily** **Immediate (Counter) Action**
+> **Veiled Moon Utility 22** ● **Shadow, Teleport**
+> **Self** 
+> **Trigger:**  You are the target of an attack.
+> **Effect:** You and the attacker swap places via teleportation. The attacker now becomes the target of their own attack.
+
+
+> #### Dispersal Strike
+> *With a powerful strike and flash of silver-blue light, the disciple slams his foe directly into the Ethereal for a few moments, causing it to become ghostly and unreal.*
+> **Daily** **Standard Action**
+> **Veiled Moon Attack 25** ● **Shadow, Weapon**
+> **Melee or Ranged** weapon, one target
+> **Attack:**  Intelligence vs AC
+> **Hit:**  4dW + Intelligence modifier damage.
+> **Miss:**  Half damage.
+> **Effect:** The target becomes incorporeal (save ends). While incorporeal, their attacks behave as if all targets had the incorporeal property (in most cases, this means they do half damage).
+
+> #### Flashing Ether Touch
+> *With but a touch the Veiled Moon disciple may send a foe hurtling through the Astral to reappear with frightening velocity to hit the ground.*
+> **Daily** **Standard Action**
+> **Veiled Moon Attack 25** ● **Shadow, Weapon, Teleport**
+> **Melee** touch, one target
+> **Attack:**  Intelligence vs Will
+> **Hit:**  The target disappears until the beginning of your next turn. Then they appear in the space 12 squares above the space that they disappeared from.
+> **Effect:** The target appears in the space 6 squares above the space that they disappeared from.
+
+> #### Eclipsing Moon
+> *Folding space around his form effortlessly, the disciple is capable of leaps through the ether and attacking through the barrier between the worlds in a series of staccato bursts of silvery-blue light, his image blinking as he strikes.*
+> **Daily** **Standard Action**
+> **Veiled Moon Attack 29** ● **Shadow, Weapon, Teleport**
+> **Near burst** 12, all enemies
+> **Attack:**  Intelligence vs Reflex
+> **Hit:**  2dW + Intelligence modifier damage.
+> **Effect:** After all attacks had been made, choose a space adjacent to an enemy within range. You teleport to that space.
+
+> #### Banish to the Beyond
+> *The ultimate technique of the Veiled Moon disciple is the ability to lay a mark against a target and shunt it gently into the Astral plane where it may ponder its reasons for crossing the likes of a master.*
+> **Daily** **Standard Action**
+> **Veiled Moon Attack 29** ● **Shadow, Weapon, Teleport**
+> **Melee** touch, one target
+> **Attack:**  Intelligence vs Will
+> **Hit:**  4dW + Intelligence modifier force damage. If the target's current hit points are lower than yours, they are transported to the Astral Plane indefinitely. Otherwise, they are transported to the Astral Plane (save ends).
+> **Miss:**  Half damage.
 
 # Prestige Paths
 
@@ -6228,6 +6556,18 @@ You keep your weapon down until the last second. You prefer to stare down oppone
 > **Attack:**  Dexterity vs AC
 > **Hit:**  1dW + Dexterity modifier damage.
 > **Effect:** Repeat the attack three times, shifting 4 squares before each attack.
+
+## Devotee
+
+You specialize in learning the powers of your class, rather than expanding your range. 
+
+***New At-Will Power (11th level):*** Choose an at-will attack power from a discipline you have access to. You gain that power. 
+
+***New Encounter Power (11th level):*** Choose an encounter attack power (level 7 or lower) from a discipline you have access to. You gain that power. 
+
+***New Utility Power (12th level):*** Choose a utility power (level 10 or lower) from a discipline you have access to. You gain that power. 
+
+***New Daily Power (20th level):*** Choose a daily attack power (level 19 or lower) from a discipline you have access to. You gain that power. 
 
 ## Ironsides
 
