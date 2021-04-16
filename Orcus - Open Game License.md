@@ -372,4 +372,10 @@ Ultramodern4 ©2012 Dias Ex Machina; Author: Chris Dias
 
 Apex ©2013 Dias Ex Machina; Author: Chris Dias
 
+Master Dungeons M1: Dragora’s Dungeon, by Harley Stroh, Copyright 2008 Goodman Games (contact info@goodman-games.com, or see www.goodman-games.com)
+
+Master Dungeons M2: Curse of Kingspire, by Harley Stroh, Copyright 2009 Goodman Games (contact info@goodman-games.com, or see www.goodman-games.com)
+
+King of Dungeons. Copyright 2017, Grand Scheme Publishing; Author: Barry Stevens. 
+
 END OF LICENSE
