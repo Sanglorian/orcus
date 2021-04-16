@@ -6,6 +6,8 @@ Warrior by Sarah Carney from the Prismatic Art Collection is released under the 
 
 Flashing Ray by Crystal Frasier from the Prismatic Art Collection is released under the Creative Commons Attribution-ShareAlike 3.0 license. 
 
+Rook by Jared von Hindman from the Prismatic Art Collection is released under the Creative Commons Attribution-ShareAlike 3.0 license. 
+
 [Vera](https://www.patreon.com/posts/vera-49285837) by Justin Nichol is released under the Creative Commons Attribution-ShareAlike 4.0 license. 
 
 [Death Knight](https://www.patreon.com/posts/death-knight-32727697) by Justin Nichol is released under the Creative Commons Attribution-ShareAlike 4.0 license. 

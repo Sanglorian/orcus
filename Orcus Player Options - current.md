@@ -2,7 +2,7 @@
 
 A retroclone of 4th Edition
 
-Version 0.3 (Alpha)
+Version 0.4 (Alpha)
 
 
 
@@ -1065,6 +1065,10 @@ _Scale mail:_ Str 13, Con 13, Armor Proficiency (chainmail)
 ### Awareness
 **Benefit:** You may use your Wisdom bonus instead of your Dexterity bonus to determine your initiative bonus. 
 
+### Cantrip Master
+
+**Benefit:** You learn three powers from the Cantrips discipline. 
+
 ### **Crossbow-Something-Something**
 
 **Benefit:** You treat one-handed ranged weapons as melee weapons when firing into adjacent squares.
@@ -1396,22 +1400,21 @@ You can also take feats to take some of the class features and powers of other c
 ### Dualclass Recruit (Dualclass)
 
 As you take this feat, choose a class of which you are not already a member.
-**Prerequisite:** 13 in the chosen class's primary ability.
 **Benefit:** You count as the chosen class (sometimes called your "secondary class") in addition to any classes of which you are already a member. In addition, you gain the benefits described in the chosen class's "Dualclass" section.
 
 ### Battle Adaptation (Dualclass)
 
-**Prerequisite:** Dualclass Recruit, Level 4
+**Prerequisite:** Dualclass Recruit
 **Benefit:** When you gain this feat, choose one encounter attack power. You lose that power and may select one encounter attack power of the same level from your secondary class. 
 
 ### Functional Adaptation (Dualclass)
 
-**Prerequisite:** Dualclass Recruit, Level 8
+**Prerequisite:** Dualclass Recruit
 **Benefit:** When you gain this feat, choose one utility power. You lose that power and may select one utility power of the same level from your secondary class. 
 
 ### Daily Adaptation (Dualclass)
 
-**Prerequisite:** You have a secondary class, Level 10
+**Prerequisite:** You have a secondary class
 **Benefit:** When you gain this feat, choose one daily attack power. You lose that power and may select one daily attack power of the same level from your secondary class. 
 
 # Equipment
@@ -1558,17 +1561,19 @@ Many weapons have special properties related to their use, as shown in the Weapo
 
 ***Loading:*** You can use a weapon that requires loading with ammunition to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container takes either a free or swift action, as specified in the table. At the end of the encounter, you can recover half your expended ammunition by taking a minute to search the battlefield.
 
-> ***Loading (free):*** It takes two hands to reload this weapon.
+> **Loading (free):** It takes two hands to reload this weapon.
 >
-> ***Loading (swift):*** It takes two hands to reload this weapon. Because of the time required to load this weapon, after making a basic attack or attack power with this weapon, you must spend a swift action before attacking with it again.
+> **Loading (swift):** It takes two hands to reload this weapon. Because of the time required to load this weapon, after making a basic attack or attack power with this weapon, you must spend a swift action before attacking with it again.
 
 ***Range:*** A weapon that can be used to make a ranged attack has a range. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's long range. When attacking a target beyond normal range, you have a -2 penalty on the attack roll. You can't attack a target beyond the weapon's long range.
 
 ***Reach:*** This weapon adds 1 square to your reach when you attack with it. You can only flank or opportunity attack adjacent enemies, however.
 
-***Thrown (Light):*** You can throw the weapon to make a ranged attack.
+***Thrown:*** You can throw the weapon to make a ranged attack.
 
-***Thrown (Heavy):*** You can throw the weapon to make a ranged attack. Use Strength instead of Dexterity for attack and damage rolls when you make a basic ranged attack with a heavy thrown weapon. 
+> **Thrown (light):** Use Dexterity for attack and damage rolls when you make a basic ranged attack with a heavy thrown weapon. 
+>
+> **Thrown (heavy):** Use Strength instead of Dexterity for attack and damage rolls when you make a basic ranged attack with a heavy thrown weapon. 
 
 ***Two-Handed:*** This weapon requires two hands when you attack with it.
 

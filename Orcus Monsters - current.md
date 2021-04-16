@@ -2,7 +2,7 @@
 
 A retroclone of 4th Edition
 
-Version 0.3 (Alpha)
+Version 0.4 (Alpha)
 
 
 
