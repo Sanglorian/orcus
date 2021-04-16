@@ -1435,6 +1435,32 @@ Some classes specify that powers selected from class disciplines use different a
 
 *Porthy is a Fighter with the kit "Dabbles in Swashbuckling", which gives him access to the Blades in the Dark discipline. However, since his access to the discipline comes from his kit, not his class, he cannot use Charisma in place of Strength when using Blades in the Dark powers.*
 
+**Table - Disciplines**
+
+| Name                   | Primary Ability | Secondary Ability | Tradition |
+| ---------------------- | --------------- | ----------------- | --------- |
+| Angel's Trumpet        | Charisma        | Wisdom            | Martial   |
+| Art of War             | Strength        | Dexterity         | Martial   |
+| Blades in the Dark     | Dexterity       | Strength          | Martial   |
+| Born Leadership        | Charisma        | Wisdom            | Martial   |
+| Born to Run            | Dexterity       | Constitution      | Martial   |
+| Cantrips               |                 |                   | Arcane    |
+| Cup of Brimstone       | Charisma        | Constitution      | Arcane    |
+| Elemental Flux         | Intelligence    | Constitution      | Arcane    |
+| Frontline Fighting     | Strength        | Dexterity         | Martial   |
+| Golden Lion            | Strength        | Charisma          | Martial   |
+| High Cunning           | Intelligence    | Wisdom            | Martial   |
+| Juggernautical         | Strength        | Constitution      | Martial   |
+| Last Laugh             | Charisma        | Dexterity         | Martial   |
+| Puppeteer's String     | Wisdom          | Charisma          | Arcane    |
+| Radiant Dawn           | Wisdom          | Charisma          | Divine    |
+| Rapier's Point         | Dexterity       | Charisma          | Martial   |
+| Red in Tooth and Claw  | Constitution    | Wisdom            | Spirit    |
+| Spells of Ice and Fire | Dexterity       | Intelligence      | Arcane    |
+| Starfall               | Dexterity       | Intelligence      | Martial   |
+| Strong Bidding         | Charisma        | Wisdom            | Spirit    |
+| Veiled Moon            | Intelligence    | Dexterity         | Arcane    |
+
 ## Art of War
 
 **Key Ability:** Strength.
