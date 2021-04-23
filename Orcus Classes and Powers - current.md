@@ -3373,7 +3373,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 > **Melee** weapon, one creature
 > **Attack:**  Strength vs AC
 > **Hit:**  1dW + Strength modifier damage, and the target is knocked prone and stunned (save ends).
-> **Miss:**  Your next attack roll with this power suffers a -1 penalty.  After three misses, this power is no longer reliable.
+> **Miss:**  Your next attack roll with this power suffers a -1 penalty.  After three misses, this power loses the Consistent tag.
 
 > #### Free Hand
 > *You see a split-second opening to take a passing strike, given a free appendage to do so.*
@@ -3775,7 +3775,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 > #### Instant Analysis
 > *You study your opponent and gauge what their strengths are as well as possible weaknesses.*
 > **Encounter** **Move Action**
-> **High Cunning Attack 1** ● **Martial, Reliable, Tactical**
+> **High Cunning Attack 1** ● **Martial, Consistent, Tactical**
 > **Ranged** 20, one creature
 > **Attack:**  Intelligence +2 vs Will
 > **Hit:**  You learn the target's attack modifiers, all defense values, and the damage capacities of its attacks. The target also suffers a -2 penalty to attack you until the end of your next turn.
@@ -3800,7 +3800,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 > #### Flash of Brilliance
 > *In an instant, thousands of possible outcomes race by, and you realize the best course of action*
 > **Daily** **Move Action**
-> **High Cunning Attack 5** ● **Martial, Reliable, Tactical**
+> **High Cunning Attack 5** ● **Martial, Consistent, Tactical**
 > **Near** burst 10, one creature you can see
 > **Attack:**  Intelligence +2 vs Reflex
 > **Hit:**  Until the end of the encounter, you gain a +2 power bonus to all defenses and a +5 power bonus to all skill checks against the target.
@@ -3808,7 +3808,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 > #### Think Things Through
 > *You stop and consider your opponent’s weak spot.*
 > **Encounter** **Move Action**
-> **High Cunning Attack 7** ● **Martial, Reliable, Tactical**
+> **High Cunning Attack 7** ● **Martial, Consistent, Tactical**
 > **Near** burst 10, one creature
 > **Attack:**  Intelligence +2 vs Will
 > **Hit:**  Until the end of your next turn, the target's highest defense value is reduced by 4. All other defenses are reduced by 2. Remove any marks the target has placed on you or your allies. You and each ally can immediately make a saving throw against one condition inflicted by the target.
@@ -3817,7 +3817,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 > #### Flash of Violence
 > *You outmaneuver your enemies, allowing yourself a chance to escape.*
 > **Daily** **Move Action**
-> **High Cunning Attack 9** ● **Martial, Reliable, Tactical, Weapon**
+> **High Cunning Attack 9** ● **Martial, Consistent, Tactical, Weapon**
 > **Near** burst 10, one creature you can see
 > **Attack:**  Intelligence +2 vs Reflex
 > **Hit:**  Until the end of the encounter, you either gain a +2 power bonus to all attack rolls and a +4 power bonus to all damage rolls against the target, or you gain a +4 power bonus to all defenses against the target’s attacks.
@@ -3863,7 +3863,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 > #### Focus Weakness
 > *You know this enemy well and know what to do to inflict the most harm.*
 > **Daily** **Move Action**
-> **High Cunning Attack 19** ● **Martial, Reliable, Tactical**
+> **High Cunning Attack 19** ● **Martial, Consistent, Tactical**
 > **Ranged** 20, one enemy
 > **Attack:**  Intelligence +2 vs Will
 > **Hit:**  Until the end of the encounter, you learn all of the target's powers, defense values, and characteristics. In addition, you score a critical hit on a natural roll of 18, 19 or 20 and if you score a critical hit, the target takes 1dW extra damage.

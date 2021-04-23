@@ -40,175 +40,6 @@ Your speed determines how far you can move.
 
 By virtue of your ancestry, your character can speak, read, and write certain languages.
 
-## Dwarf
-Dwarves mature at the same rate as humans, but they're considered young until they reach the age of 50. On average, they live about 350 years. Dwarves stand between 4 and 5 feet tall and average about 150 pounds. 
-
-### Dwarf Traits
-
-Your dwarf character has an assortment of inborn abilities, part and parcel of dwarven nature.
-
-***Ability Score Increases:*** Pick two of:
-
-* +2 Constitution
-* +2 Strength 
-* +2 Wisdom
-
-***Size:*** Your size is Medium.
-
-***Speed:*** Your base walking speed is 5 squares. Your speed is not reduced by wearing heavy armor or carrying a heavy load.
-
-***Low-Light Vision:*** You can see in dim light as if it were bright light.
-
-***Skills:*** Pick two of:
-
-* +2 Dungeoneering
-* +2 Endure
-* +2 Diplomacy
-* +2 Religion
-
-***Dwarven Resilience:*** Pick one of: 
-
-* +5 ancestry bonus on saving throws against poison. 
-* +5 ancestry bonus on saving throws against persistent psychic damage. 
-
-***Dwarven Combat Training:*** Pick one of: 
-
-* You have proficiency with martial weapons in the Hammers and Picks group. 
-* You have proficiency with martial weapons in the Axes group.
-* You have proficiency with light shields.
-
-***Unmoved:*** Reduce any unwilling movement you are subject to by 1 square. When you would fall prone as the result of an attack, make a saving throw-on a success, you do not fall. 
-
-***Languages:*** You can speak, read, and write Common and Dwarvish. 
-
-***Tough as Nails:*** You have the *tough as nails* power.
-
-> #### Tough as Nails
-> **Encounter** **Swift Action**
-> **Dwarf Utility Ancestry** 
-> **Self** 
-> **Effect:** You rally.
-
-## Elf
-
-Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old. Elves range from under 5 to over 6 feet tall and have slender builds. 
-
-### Elf Traits
-
-***Ability Score Increases:*** Pick two of:
-
-* +2 Dexterity
-* +2 Intelligence 
-* +2 Wisdom
-* +2 Charisma
-
-***Size:*** Your size is Medium.
-
-***Low-Light Vision:*** You can see in dim light as if it were bright light.
-
-***Elven Senses:*** Pick two of: 
-
-* +2 Nature
-* +2 Perception
-* +2 Arcana
-* +2 History
-* +2 Insight
-* +2 Streetsmarts
-* +2 Bluff
-
-***Fey Ancestry:*** You count as a fey creature for all purposes.
-
-***Languages:*** You can speak, read, and write Common and Elvish. 
-
-***Elf Training:*** Pick two of: 
-
-* You have proficiency with martial weapons in the Bows group. 
-* You have proficiency with martial weapons in the Heavy Blades group.
-* You have proficiency with simple and martial weapons in the Spears group. 
-* Allies within 5 gain a +1 ancestry bonus to Perception.
-* You have proficiency with orbs, staffs and wands. 
-* You are trained in an extra skill of your choice.
-
-***Heritage:*** Pick either wood elf or high elf.  
-
-**Wood Elf:** Wood elf hair color ranges from yellow to a coppery red, and they are more muscular than other elves. Their clothing is in dark shades of green  and earth tones to better blend in with their natural surroundings.
-
-* ***Speed:*** Your base walking speed is 7 squares.
-
-* ***Versatile Stride:*** You ignore difficult terrain. 
-
-**High Elf:** As a high elf, you have a keen mind and a mastery of at least the basics of magic. Some high elves are haughty and reclusive, believing themselves to be superior to non-elves and even other elves. Others are more common and more friendly, and often encountered among humans and other ancestries.
-
-* ***Speed:*** Your base walking speed is 6 squares.
-
-* ***Trance:*** High elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. Your 4-hour trance has the same effect as a 6-hour long rest.
-
-* ***High Elf Mettle:*** +1 ancestry bonus to Will defense. +5 ancestry bonus to saving throws against charm effects. 
-
-***Elven Powers:*** Pick one: 
-
-* You have the *careful focus* power.
-* You have the *farstrider* power. 
-* You have the *highblood teleport* power. 
-
-> #### Careful Focus
-> **Encounter** **Free Action**
-> **Elf Utility Ancestry**   
-> **Self** 
-> **Trigger:**  You just made an attack roll.
-> **Effect:** Reroll the attack roll and take the new result.
-
-> #### Farstrider
-> **Encounter** **Move  Action**
-> **Elf Utility Ancestry**   
-> **Self** 
-> **Effect:** Shift up to your speed.
-
-> #### Highblood Teleport
->
-> **Encounter** **Move Action**
-> **Elf Utility Ancestry** ● **Teleport**
-> **Self** 
-> **Effect:** Teleport up to 5.
-
-## Halfling
-
-A halfling reaches adulthood at the age of 20 and generally lives into the middle of their second century. Halflings average about 3 feet tall and weigh about 40 pounds. 
-
-### Halfling Traits
-
-Your halfling character has a number of traits in common with all other halflings.
-
-***Ability Score Increases:*** Pick two of:
-
-* +2 Dexterity
-* +2 Constitution
-* +2 Charisma
-
-***Size:*** Your size is Small.
-
-***Speed:*** Your base walking speed is 6 squares.
-
-***Languages:*** You can speak, read, and write Common and one other language of your choice. 
-
-***Brave:*** +5 ancestry bonus to saving throws versus fear.
-
-***Halfling Nimbleness:*** +2 ancestry bonus to AC against attacks of opportunity. 
-
-***Naturally Stealthy:*** 
-
-* +2 Acrobatics
-* +2 Thievery 
-
-***Lucky:*** You have the *lucky* power.
-
-> #### Lucky
-> **Encounter** **Immediate (Counter) Action**
-> **Halfling Utility Ancestry**   
-> **Self** 
-> **Trigger:**  An attack hits you.
-> **Effect:** Reroll the attack roll and take the second result.
-
 ## Human
 
 ### Human Traits
@@ -249,229 +80,6 @@ Instead of giving humans a third level 1 at-will attack power from their class, 
 > **Self** 
 > **Trigger:**  You fail a saving throw or miss with an attack roll
 > **Effect:** Add a +4 Ancestry bonus to the roll/throw.
-
-## Dragonborn
-
-Young dragonborn grow quickly. They walk hours after hatching, attain the size and development of a 10-year-old human child by the age of 3, and reach adulthood by 15. They live to be around 80. Dragonborn are taller and heavier than humans, standing well over 6 feet tall and averaging almost 250 pounds. 
-
-### Dragonborn Traits
-
-Your draconic heritage manifests in a variety of traits you share with other dragonborn.
-
-***Ability Score Increases:*** Pick two of:
-
-* +2 Charisma
-* +2 Strength 
-* +2 Constitution 
-
-***Size:*** Your size is Medium.
-
-***Speed:*** Your base walking speed is 6 squares.
-
-***Draconic Ancestry:*** Pick two of:
-
-* +2 History
-* +2 Intimidate
-* +2 Diplomacy
-* +2 Endure
-
-***Draconic Vigor:*** Add your Constitution modifier to your recovery value. 
-
-***Injured Rage:*** +1 ancestry bonus on attack rolls while staggered. 
-
-***Languages:*** You can speak, read, and write Common and Draconic.
-
-***Breath Weapon:*** You have the *breath weapon* power.
-
-Which type of damage you do (and what tag the power has) depends on which type of dragon you are descended from: acid (black dragon), cold (white dragon), fire (red dragon), lightning (blue dragon) or poison (green dragon). 
-
-> #### Breath Weapon
-> **Encounter** **Swift Action**
-> **Dragonborn Attack Ancestry** ● **[Energy]**
-> **Near** arc 3, targets all
-> **Attack:**  (Highest of Strength, Constitution, Dexterity) +2 vs Reflex
-> **Hit:**  1d6 + Constitution modifier. 
-> *Level 11:* 2d6 + Constitution modifier. 
-> *Level 21:* 3d6 + Constitution modifier.
-
-## Gnome
-
-Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years. Gnomes are between 3 and 4 feet tall and average about 40 pounds. 
-
-### Gnome Traits
-
-Your gnome character has certain characteristics in common with all other gnomes.
-
-***Ability Score Increases:*** Pick two of:
-
-* +2 Intelligence
-* +2 Charisma 
-* +2 Dexterity
-
-***Size:*** Your size is Small.
-
-***Speed:*** Your base walking speed is 5 squares.
-
-***Languages:*** You can speak, read, and write Common and Elvish. 
-
-***Low-Light Vision:*** You can see in dim light as if it were bright light.
-
-***Gnome Cunning:*** Pick two of:
-
-* +2 Arcana
-* +2 Stealth
-* +2 Sleight of Hand
-
-***Fey Ancestry:*** You count as a fey creature for all purposes.
-
-***Hide in a Flash:*** When you make an initiative check, if you are in cover or concealment, you can make a Stealth check to hide (takes no action). 
-
-***Gnomish Skepticism:*** +5 ancestry bonus on saving throws against illusions. 
-
-***Ancestry Powers:*** You have the *ghost sound* and *disappearing act* powers.
-
-> #### Disappearing Act
-> **Encounter** **Immediate (React) Action**
-> **Gnome Utility Ancestry**   
-> **Self** 
-> **Trigger:**  You take damage.
-> **Effect:** Become invisible until the end of your next turn, or until you make an attack (whichever comes sooner).
-
-> #### Ghost Sound
-> **At-Will** **Standard Action**
-> **Cantrips Utility Feature** ● **Illusion**
-> **Ranged** 10, one object or empty square
-> **Effect:** Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place. You choose what type of sound ghost sound creates when casting it and cannot thereafter change the sound’s basic character. You can produce as much noise as a person. The noise a ghost sound spell produces can be virtually any type of sound within the volume limit.
-
-## Half-Elf
-
-Half-elves mature at the same rate humans do and reach adulthood around the age of 20. They live much longer than humans, however, often exceeding 180 years. Half-elves are about the same size as humans, ranging from 5 to 6 feet tall. 
-
-### Half-Elf Traits
-
-Your half-elf character has some qualities in common with elves and some that are unique to half-elves.
-
-***Ability Score Increases:*** Pick two of:
-
-* +2 Constitution
-* +2 Wisdom 
-* +2 Charisma
-
-***Size:*** Your size is Medium.
-
-***Speed:*** Your base walking speed is 6 squares. 
-
-***Languages:*** You can speak, read, and write Common, Elvish, and one extra language of your choice.
-
-***Low-Light Vision:*** You can see in dim light as if it were bright light.
-
-***Skill Bonuses:*** Pick two of:
-
-* +2 Diplomacy
-* +2 Insight
-* +2 Perception
-
-***Elven Blood, Human Blood:*** For the purpose of taking feats, you count as an elf and as a human. 
-
-***Follow My Lead:*** Allies within 10 receive a +1 ancestry bonus to Diplomacy. 
-
-***Half-Elven Power:*** Choose one at character creation: 
-
-* You have the *half-elven ingenuity* power.
-* Choose a level 1 at-will attack power from any class. It is an encounter power for you. 
-
-> #### Half-Elven Ingenuity
-> **Encounter** **Swift Action**
-> **Half-Elf Utility Ancestry**   
-> **Near** burst 5, self or one ally
-> **Effect:** Choose one: target shifts up to 2 as a free action, target makes a saving throw, target gets +2 power bonus to next attack roll or target gets +4 power bonus to next skill check. Power bonuses expire at the end of your next turn if not already used.
-
-## Half-Orc
-
-Half-orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years. Half-orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. 
-
-### Half-Orc Traits
-
-Your half-orc character has certain traits deriving from human and orc ancestry.
-
-***Ability Score Increases:*** Pick two of:
-
-* +2 Dexterity
-* +2 Strength 
-* +2 Constitution 
-* +2 Wisdom
-
-***Size:*** Your size is Medium.
-
-***Speed:*** Your base walking speed is 6 squares. 
-
-***Languages:*** You can speak, read, and write Common and Giant. 
-
-***Low-Light Vision:*** You can see in dim light as if it were bright light.
-
-***Relentless Endurance (1/encounter):*** When you are staggered, gain temporary HP equal to your level.  
-
-***Savage Attacks:*** Your speed increases by +2 squares when you charge. 
-
-***Orcish Heritage:*** Pick two of:
-
-* +2 Endurance
-* +2 Intimidate
-* +2 Athletics 
-* +2 Nature
-
-***Orcish Rush:*** You have the *orcish rush* power.
-
-> #### Orcish Rush
-> **Encounter** **Free Action**
-> **Half-Orc Utility Ancestry**   
-> **Self** 
-> **Trigger:**  You hit with an attack.
-> **Effect:** Attack does +1dW. If attack was not with a weapon, +1d8 instead.
-
-## Tiefling
-
-Tieflings mature at the same rate as humans but live a few years longer. Tieflings are about the same size and build as humans. 
-
-### Tiefling Traits
-
-Tieflings share certain ancestry traits as a result of their infernal descent.
-
-***Ability Score Increases:*** Pick two of:
-
-* +2 Charisma
-* +2 Constitution 
-* +2 Intelligence
-
-***Size:*** Your size is Medium.
-
-***Speed:*** Your base walking speed is 6 squares.
-
-***Languages:*** You can speak, read, and write Common and one other language of your choice.
-
-***Tiefling Skills:*** Pick two of:
-
-* +2 Bluff
-* +2 Stealth
-* +2 Arcana
-* +2 Sleight of Hand
-
-***Low-Light Vision:*** You can see in dim light as if it were bright light.
-
-***Hellish Resistance:*** Resistance to fire 5 + half your level.
-
-***Infernal Legacy:*** +1 ancestry bonus on attacks against staggered enemies. 
-
-***Vengeance of the Pits:*** You have the *vengeance of the pits* power.
-
-> #### Vengeance of the Pits
-> **Encounter** **Free Action**
-> **Tiefling Attack Ancestry** ● **Fire**
-> **Near** burst 10, one enemy
-> **Trigger:**  An attack by that enemy hits you.
-> **Effect:** The target takes 1d6 + Intelligence OR Charisma modifier fire damage. 
-> *Level 11:* 2d6 + Intelligence OR Charisma modifier. 
-> *Level 21:* 3d6 + Intelligence OR Charisma modifier.
 
 ## Vishyas
 
@@ -555,6 +163,183 @@ Whoms are humanoid wombats who live in burrows underground.
 > #### Barrel Along
 > **Encounter** **Swift Action**
 > **Whom Utility Ancestry**   
+> **Self** 
+> **Trigger:**  You are staggered.
+> **Effect:** You have a +2 bonus to speed and to damage rolls until the end of the encounter.
+
+# Designing Your Own Ancestries
+
+While Orcus only comes with a handful of ancestries by default, you can design your own by following the steps below. 
+
+## Ability Score Increases
+
+Pick three ability scores. The ancestry grants +2 to one of the ability scores, and +2 to the player's choice of the other two ability scores.  
+
+## Skill Bonuses
+
+Pick two skills. The ancestry grants a +2 ancestry bonus to. each skill 
+
+## Size, Speed
+
+By default, ancestries are Medium with a speed of 6. Other options include:
+
+* Small, speed 6. 
+* Small, speed 5.
+* Medium, speed 5, your speed is not reduced by wearing heavy armor or carrying a heavy load.
+
+## Language
+
+Common, plus one or two others that make sense. 
+
+## Color Traits
+
+Choose none, or as many as you like. Adding a couple of color traits to an ancestry can be a way to compensate for underwhelming traits in other areas, like a speed of 5 or one of the weaker minor traits. 
+
+* **Low-Light Vision:** You can see in dim light as if it were bright light.
+* **Shake Off X:** +5 ancestry bonus on saving throws against powers and effects with the Poison, Psychic, Fear, Illusion or Charm tag. 
+* **Fey Ancestry:** You count as a fey creature for all purposes.
+* **Undead Ancestry:** You count as an undead creature for all purposes.
+* **Trance:** You don't need to sleep. Instead, you meditate deeply, remaining semiconscious, for 4 hours a day. While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. Your 4-hour trance has the same effect as a 6-hour long rest.
+* **Reptile Ancestry:** You count as a reptile creature for all purposes.
+* **Hold Breath:** +5 ancestry bonus to Endure checks to hold your breath.
+* **Swamp Stride:** Mud, marsh and shallows are not difficult terrain for you.
+* **Ice Stride:** Ice, snow or slurry are not difficult terrain for you.
+* **Stone Stride:** Broken ground, uneven stone or rubble  are not difficult terrain for you.
+* **Woodland Stride:** Shrubbery, trees or plants  are not difficult terrain for you.
+* **Web Stride:** Webs, like those from a spider  are not difficult terrain for you.
+
+## Minor Traits
+
+By default, each ancestry gets two. 
+
+* **X Weapon Proficiency:** You have proficiency with martial weapons in a particular weapon group. 
+* **Light Shield Proficiency:** You have proficiency with light shields.
+* **Unmoved:** Reduce any unwilling movement you are subject to by 1 square. When you would fall prone as the result of an attack, make a saving throw-on a success, you do not fall. 
+* **X Guidance:** Allies within 10 receive a +1 ancestry bonus to a particular skill. 
+* **Focus Proficiency:** You have proficiency with orbs, staffs and wands. 
+* **Skill Training:** You are trained in an extra skill of your choice.
+* **Combined Heritage:** For the purpose of taking feats, you count as two ancestries of your choice. 
+* **Eager Charge:** Your speed increases by +2 when you charge. 
+* **Speedy:** +1 speed.
+* **Versatile Stride:** You ignore difficult terrain. 
+* **X Defense:** +1 ancestry bonus to Fortitude, Reflex or Will defense. 
+* **Nimbleness:** +2 ancestry bonus to AC against attacks of opportunity. 
+* **Vigor:** Add your Constitution modifier to your recovery value. 
+* **Injured Rage:** +1 ancestry bonus on attack rolls while staggered. 
+* **Hide in a Flash:** When you make an initiative check, if you are in cover or concealment, you can make a Stealth check to hide (takes no action). 
+* **Relentless Endurance (1/encounter):** When you are staggered, gain temporary HP equal to your level.  
+* **Resistance to X:** Resistance to one or two types of damage 5 + half your level.
+* **Burrower:** You have a burrow speed of 1 square. Your burrow cannot extend too far or it risks caving in; you must double back to the surface after burrowing for 5 squares. 
+* **Just Keep Going:** When you make Endure checks as part of a group check or extended challenge, or to Aid Another, roll twice and take the higher result. 
+* **Under-Developed Wings:** You have a fly speed of 6, but you fall at the end of your turn and your maximum altitude is 1. 
+* **Go for the Jugular:** +1 ancestry bonus on attacks against staggered enemies. 
+* **Shared Mind:** Telepathy 5.
+* **Minor Magics:** You know one power from the Cantrips discipline.  
+
+## Power
+
+Each ancestry also gets one power. 
+
+* **Dabbler:** Choose a level 1 at-will attack power from any class. It is an encounter power for you. 
+
+Or choose one from the list below:
+
+> #### Tough as Nails
+>
+> **Encounter** **Swift Action**
+> **Utility Ancestry** 
+> **Self** 
+> **Effect:** You rally.
+
+> #### Careful Focus
+>
+> **Encounter** **Free Action**
+> **Utility Ancestry**   
+> **Self** 
+> **Trigger:**  You just made an attack roll.
+> **Effect:** Reroll the attack roll and take the new result.
+
+> #### Farstrider
+>
+> **Encounter** **Move  Action**
+> **Utility Ancestry**   
+> **Self** 
+> **Effect:** Shift up to your speed.
+
+> #### Highblood Teleport
+>
+> **Encounter** **Move Action**
+> **Utility Ancestry** ● **Teleport**
+> **Self** 
+> **Effect:** Teleport up to 5.
+
+> #### Lucky
+>
+> **Encounter** **Immediate (Counter) Action**
+> **Utility Ancestry**   
+> **Self** 
+> **Trigger:**  An attack hits you.
+> **Effect:** Reroll the attack roll and take the second result.
+
+> #### Breath Weapon
+>
+> **Encounter** **Swift Action**
+> **Attack Ancestry** ● **[Energy]**
+> **Near** arc 3, targets all
+> **Attack:**  (Highest of Strength, Constitution, Dexterity) +2 vs Reflex
+> **Hit:**  1d6 + Constitution modifier. 
+> *Level 11:* 2d6 + Constitution modifier. 
+> *Level 21:* 3d6 + Constitution modifier.
+> **Special:** Which type of damage you do (and what tag the power has) depends on which type of dragon you are descended from: acid (black dragon), cold (white dragon), fire (red dragon), lightning (blue dragon) or poison (green dragon). 
+
+> #### Disappearing Act
+>
+> **Encounter** **Immediate (React) Action**
+> **Utility Ancestry**   
+> **Self** 
+> **Trigger:**  You take damage.
+> **Effect:** Become invisible until the end of your next turn, or until you make an attack (whichever comes sooner).
+
+> #### Ingenuity
+>
+> **Encounter** **Swift Action**
+> **Utility Ancestry**   
+> **Near** burst 5, self or one ally
+> **Effect:** Choose one: target shifts up to 2 as a free action, target makes a saving throw, target gets +2 power bonus to next attack roll or target gets +4 power bonus to next skill check. Power bonuses expire at the end of your next turn if not already used.
+
+> #### Violent Rush
+>
+> **Encounter** **Free Action**
+> **Utility Ancestry**   
+> **Self** 
+> **Trigger:**  You hit with an attack.
+> **Effect:** Attack does +1dW. If attack was not with a weapon, +1d8 instead.
+
+> #### Vengeance of the Pits
+>
+> **Encounter** **Free Action**
+> **Attack Ancestry** ● **Fire**
+> **Near** burst 10, one enemy
+> **Trigger:**  An attack by that enemy hits you.
+> **Effect:** The target takes 1d6 + Intelligence OR Charisma modifier fire damage. 
+> *Level 11:* 2d6 + Intelligence OR Charisma modifier. 
+> *Level 21:* 3d6 + Intelligence OR Charisma modifier.
+
+> #### Poisonous Nip
+>
+> *Your fangs excrete a mild poison.*
+> **Encounter Swift Action**
+> **Attack Ancestry** ● **Poison**
+> **Melee** 1, one target
+> **Attack:**  Dexterity or Constitution +2 vs AC
+> **Hit:**  1d8 + your Dexterity or Constitution modifier poison damage.
+> *Level 11:* Attack bonus increases to +4. 2d8 + modifier damage.
+> *Level 21:* Attack bonus increases to +6. 3d8 + modifier damage.
+
+> #### Barrel Along
+>
+> **Encounter** **Swift Action**
+> **Utility Ancestry**   
 > **Self** 
 > **Trigger:**  You are staggered.
 > **Effect:** You have a +2 bonus to speed and to damage rolls until the end of the encounter.
