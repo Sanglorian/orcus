@@ -136,13 +136,13 @@ Martial Leader
 
 ### Features
 #### Stratagem
-The first time in an encounter that you use a power from either the Angel's Trumpet, the Golden Lion or another discipline, you get a bonus. When you use a power from a different discipline, it changes the bonus you get - so you always only get one bonus.
+The first time in an encounter that you use a power, you gain a bonus based on the discipline. Once this bonus is in place, using a power from a different discipline will change which bonus is granted.
 
-**Tactician:** After using a Golden Lion power, allies that are adjacent to you get a +1 bonus on attack rolls.
+**Golden Lion:** Allies that are adjacent to you get a +1 bonus on attack rolls.
 
-**Healer:** After using an Angel's Trumpet power, allies that are adjacent to you get resistance to all damage 2. *Level 11:* Resistance to all damage 4. *Level 21:* Resistance to all damage 6. 
+**Angel's Trumpet:** Allies that are adjacent to you get resistance to all damage 2. *Level 11:* Resistance to all damage 4. *Level 21:* Resistance to all damage 6. 
 
-**Shocktrooper:** After using a power from a different discipline, allies that are adjacent to you get a +1 bonus on Fortitude, Reflex and Will defenses. 
+**Any other discipline:** Allies that are adjacent to you get a +1 bonus on Fortitude, Reflex and Will defenses. 
 
 #### Lift Spirits
 You can use the *lift spirits* power two times each encounter. *Level 16:* Three times per encounter.
@@ -385,7 +385,7 @@ You can use the *mageblade's sigil* power.
 
 #### Athame
 You have the Athame feat for the weapon type that your particular weapon belongs to. For example, if your particular weapon is a *+1 longsword*, you have the Athame (longsword) feat. This changes if your Special Bond changes. 
-#### Special Bond
+#### Key Weapon
 You select a particular weapon that you are proficient with and perform a daylong ceremony to make it your key weapon.  You can only have one key weapon at a time, but you can repeat the ceremony with a different weapon to make it your key weapon.
 
 As a standard action, if you have a free hand you can summon your key weapon. If it is within 10 squares, it appears in your hand.
