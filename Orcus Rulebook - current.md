@@ -19,7 +19,7 @@ What follows are terms that might be unfamiliar even to experienced gamers.
 **Ancestry:** Ancestries are the racial, cultural and other origins of characters. Only racial ancestries are presented in Orcus so far. 
 **Epic path:** Each player character chooses an epic path at level 21, which gives new powers and features through to level 30.
 **Kit:** A kit is an set of powers and features chosen at first level, and providing another facet of a character beyond their ancestry and class.
-**Prestige path:** Each player character chooses an epic path at level 21, which gives new powers and features through to level 30.
+**Prestige path:** Each player character chooses a prestige path at level 11, which gives new powers and features through to level 20.
 **Tags:** Descriptive words or phrases attached to powers, monsters and other game components. 
 **Tradition:** A source of power, like Arcane, Divine, Martial, Natural and Shadow. 
 
@@ -400,9 +400,9 @@ These brief summaries of the five alignments describe the typical behavior of a 
 
 **Good** folk do the best they can to help others according to their needs.
 
-**Unaligned** is the alignment of those who prefer to steer clear of moral questions and don't take sides, doing what seems best at the time. Lizardfolk, most druids, and many humans are unaligned.
+**Unaligned** is the alignment of those who prefer to steer clear of moral questions and don't take sides, doing what seems best at the time. 
 
-**Evil** is the alignment of those who do whatever they can get away with, without compassion or qualms. Many drow, some cloud giants, and goblins are evil.
+**Evil** is the alignment of those who do whatever they can get away with, without compassion or qualms. 
 
 **Chaotic evil** creatures act with arbitrary violence, spurred by their greed, hatred, or bloodlust. 
 
@@ -1636,5 +1636,4 @@ The text of this document is released as Open Game Content under the Open Game L
 No items are declared as Product Identity. 
 
 The terms of the Open Game License Version 1.0a and the relevant Section 15 entries are provided in a separate file. 
-
 
