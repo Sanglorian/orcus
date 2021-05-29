@@ -158,11 +158,11 @@ When you select a background, you can select **one** of the following benefits (
 
 # Incantations
 
-An incantation is like an esoteric and complex spell that anyone can cast. It takes much longer to cast a ritual than a normal spell, but rituals can have more powerful effects. Incantations can be cast by characters who are not spellcasters. Characters who know the correct ritual gestures and phrases for an incantation can achieve powerful magic effects. 
+An incantation is like an esoteric and complex spell that anyone can cast, a ritual. It takes much longer to cast an incantation than a normal spell, but incancations can have more powerful effects. Incantations can be cast by characters who are not spellcasters. Characters who know the correct gestures and phrases for an incantation can achieve powerful magic effects. 
 
-Incantations have drawbacks: They’re time-consuming to cast, and success isn’t assured. They are often expensive, and some require additional participants to complete the ritual. Some incantations work only under certain specific conditions, such as during a full moon.
+Incantations have drawbacks: They’re time-consuming to cast, and success isn’t assured. They are often expensive, and some incantations work only under certain specific conditions, such as during a full moon.
 
-Most important among the drawbacks, an incantation rarely fades away quietly if the caster fails to perform the ritual correctly. Instead it reverses itself on the caster, explodes with a cascade of magical energy, or weakens the barrier between worlds, enabling hostile outsiders to emerge onto the Material Plane.
+Most important among the drawbacks, an incantation rarely fades away quietly if the caster fails to perform it correctly. Instead it reverses itself on the caster, explodes with a cascade of magical energy, or weakens the barrier between worlds, enabling hostile outsiders to emerge onto the Material Plane.
 
 This variant gives a measure of magical power to nonspellcasters, but the incantations themselves are usually too specific in effect to increase a character’s power in the general sense. Because many incantations require academic skills such as Arcana, the characters best equipped to cast them are often spellcasters anyway.
 
@@ -200,7 +200,7 @@ Most incantations require material components, which cost a certain amount.
 
 ## Secondary Casters
 
-Incantations allow four additional participants, unless otherwise mentioned. They must be physically present at the ritual, but do not have to have the Incantation Caster feat. They can pay the recovery cost of a ritual, if any. Secondary casters can also help the primary caster succeed on skill checks (if any are required) by means of the aid another action. 
+Incantations allow four additional participants, unless otherwise mentioned. They must be physically present at the incancation, but do not have to have the Incantation Caster feat. They can pay the recovery cost of an incantation, if any. Secondary casters can also help the primary caster succeed on skill checks (if any are required) by means of the aid another action. 
 
 ## Incantation Scrolls
 
@@ -326,7 +326,7 @@ If you cast the incantation two or more times before completing your next long r
 
 **Duration:** Instantaneous 
 
-You perform this incantation over two participants: the master and the companion. You may include yourself in the ritual as the master, if desired. 
+You perform this incantation over two participants: the master and the companion. You may include yourself in the incancation as the master, if desired. 
 
 The companion obeys the following rules: 
 

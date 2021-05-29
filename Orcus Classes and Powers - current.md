@@ -650,7 +650,7 @@ Spirit Striker
 Choose one of the following.
 
 **Skinchanger:** When you wear light or no armor, you can add your Constitution modifier to your AC instead of Dexterity or Intelligence. You can use Wild Shape powers even while not in *wild shape* form, and can use any power while in *wild shape* form.
-**Hunter:** Whenever you are the closest of your allies to a creature (including tied closest), you get a +1 bonus on attack rolls against that target. In addition, all one-handed melee weapons have the side weapon property for you. You also get a bonus feat: Toughness, Two-Weapon Defense, Shield Proficiency or Melee Finesse. 
+**Hunter:** When no ally is closer to a target than you are, you get a +1 bonus on attack rolls against that target. In addition, all one-handed melee weapons have the side weapon property for you. You also get a bonus feat: Toughness, Two-Weapon Defense, Shield Proficiency or Melee Finesse. 
 **Animal Companion:** You gain the service of an animal companion (from the list below). When you use a Red in Tooth and Claw power, you can choose for your animal companion to use the power in your place (it is assumed to always be in *wild shape* form), using your attack bonus and damage die. 
 The animal companion obeys the following rules:
 
