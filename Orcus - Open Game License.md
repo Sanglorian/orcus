@@ -378,4 +378,10 @@ Master Dungeons M2: Curse of Kingspire, by Harley Stroh, Copyright 2009 Goodman 
 
 King of Dungeons. Copyright 2017, Grand Scheme Publishing; Author: Barry Stevens. 
 
+Skreyn’s  Register: The Bonds of Magic and “Deities of The Faithful” Copyright 2002  Sean K Reynolds. All rights reserved.
+
+The Grand OGL Wiki, http://grandwiki.wikidot.com Copyright 2008-2009 Purple  Duck Creations; Authors: Mark Gedak, Alex Schroeder, Joel Arellano, George  Fields, Yair Rezek, Mike Whalen, Shane O'Connor, Mike Rickard, John Whamond,  Bill Browne, Eric Williamson, Slatz Grubnik, Charles R. Wenzler Jr.
+
+The Iconic Bestiary, Volume 1 Copyright 2005, Lions Den Press; Author Ari Marmell
+
 END OF LICENSE

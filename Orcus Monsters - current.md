@@ -2,7 +2,7 @@
 
 A retroclone of 4th Edition
 
-Version 0.4 (Alpha)
+Version 0.5 (Alpha)
 
 
 
@@ -156,6 +156,8 @@ A monster's speed tells you how far it can move with a Walk action. It can also 
 
 Some creatures have one or more of the following additional movement modes.
 
+**Compress** means that the monster can travel through spaces as if it were one size smaller without squeezing, or as if it were two sizes smaller while squeezing.
+
 ### Burrow
 
 A monster that has a burrowing speed can use that speed to move through sand, earth, mud, or ice. A monster can't burrow through solid rock unless it has a special trait that allows it to do so.
@@ -217,9 +219,13 @@ Two special resistances are described below:
 
 **Reactive Resistance X (immediate (counter) action, encounter):** The first time a creature is damaged by an attack that does acid, cold, lightning, fire or thunder damage, the creature gains resistance to that energy X. This lasts until the end of the encounter. 
 
-## Senses
+## Senses and initiative
 
 The Senses entry notes a monster's passive Perception score, as well as any special senses the monster might have. Special senses are described in the main Rulebook.
+
+Perception equals half the monster's level plus its Wisdom modifier.
+
+Initiative equals half the monster's level plus its Dexterity modifier.  
 
 ## Languages
 
@@ -419,9 +425,7 @@ As with other templates, the move from standard to elite doubles a creature's HP
 * One daily power (two from level 21). 
 * One utility power (two from level 11, three from level 21).
 
-# Monsters
-
-## Animals
+# Animals
 Animals are mundane beasts, like those found in the real world.
 ### Eagle
 **Level 1 Striker** (100 XP)
@@ -722,7 +726,7 @@ The tyrannosaur makes a charge attack: +16 vs. AC; 2d6+12 damage, and the target
 Grappled target only; automatic hit; 4d6+6 damage. 
 
 
-## Apefolk
+# Apefolk
 Apefolk are humanoids reminiscent of humankind's closest relatives: gorillas, orang utans and chimpanzees. Apefolk tend to form city-states, populated by philosophers, soldiers and slaves.
 
 ### Apefolk Legionnaire
@@ -779,6 +783,7 @@ ___
 **Initiative:** +3
 **AC:** 17; **Fort:** 15, **Ref:** 14, **Will** 16
 **HP:** 39, **Staggered:** 19
+
 ___
 **Speed** 6
 <span style='height: 25px; width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:inline-block;'>⚔️</span> **Signum Spear** (standard, at-will) ● Weapon
@@ -840,7 +845,7 @@ the target is marked and grants the infiltrator combat advantage until the end o
  **Combat Advantage**
 The infiltrator deals an additional 2d6 damage on melee attacks against any target it has combat advantage against. 
 
-## Dragon, Feathered
+# Dragon, Feathered
 Couatl, also known as feathered dragons, are dragons sent from the heavens to do good on earth. Despite their holy mission, they remain carnivores - and they hunger for the meat of those intellectually beneath them.
 
 ### Young Couatl
@@ -974,7 +979,7 @@ Near burst 5; targets enemies; +23 vs. Will; the target is blinded until the end
 The couatl becomes invisible until it attacks. 
  **Ethereal Step** (move, refresh 5, 6) ● Teleportation
 The couatl becomes incorporeal and teleports 12 squares. It remains incorporeal until the end of its next turn. 
-## Dwellers in the Deep
+# Dwellers in the Deep
 In cliffside caves and sunken ruins dwell strange beings.
 
 ### Deepfolk
@@ -1088,7 +1093,7 @@ A servant gains a +2 bonus to attack and damage rolls if a target bears a mark f
  **One Mind, One Advantage**
 If a servant gains combat advantage against a target, all servants within 5 squares also gain combat advantage against the target. 
 
-## Goblinoids
+# Goblinoids
 Goblinoids include goblins, hobgoblins and bugbears.
 
 
@@ -1139,7 +1144,7 @@ Near blast 5; +12 vs. Will; 4d6+4 psychic damage, and the target is dazed and we
  **Shifting Shapechange** (minor, once a round) ● Polymorph
 A greater wolf-goblin can assume the shape of a giant black dog or a goblin-like humanoid. It loses its bite attack in goblin form. Each time a greater wolf-goblin changes shape it can shift 3 squares as a free action. 
 
-## Golems
+# Golems
 Golems are magically created automatons of great power. Constructing one involves the employment of mighty magic and elemental forces. The animating force for a golem is a spirit. The process of creating the golem binds the unwilling spirit to the artificial body and subjects it to the will of the golem’s creator. 
 
 ### Squirming Mound
@@ -1207,8 +1212,317 @@ Near burst 5; +9 vs. Will; the target takes a -2 penalty to attack rolls (save e
 **Vigilance**
 A vigilant statue is instantly aware of all creatures entering or leaving its enshrined area. It does not know the exact location of intruders, but is aware of their presence, making it all but impossible to surprise. 
 
+# Fiends
+## Demon Toad
 
-## Hags
+**Level 1 Wrecker** (100 XP)
+Small Outsider Monstrosity (Demon )
+**Senses:** Perception +3; darkvision
+**Languages:** Common, Abyssal
+**Str** 12 (+1), **Con** 17 (+3), **Dex** 14 (+2), **Int** 6 (-2), **Wis** 14 (+2), **Cha** 6 (-2)
+**Alignment:** Chaotic evil
+
+___
+**Initiative:** +3
+**AC:** 13; **Fort:** 14, **Ref:** 12, **Will** 13
+**HP:** 33, **Staggered:** 16
+**Resistance to:** poison 5
+___
+**Speed** 4, jump 4
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Bite** (standard, at-will) ● Poison
++6 vs. AC; 1d8 + Charisma modifier poison damage. 
+ 💥 **Foul Belch** (immediate (react), when the toad takes damage, at-will) ● Poison
+Near burst 1; +6 vs. Fortitude; 1d8 + Charisma modifier poison damage and the target is dazed (save ends). 
+
+### Hopping Imp
+
+**Level 1 Wrecker** (100 XP)
+Small Outsider Humanoid (Demon )
+**Senses:** Perception +2; darkvision
+**Languages:** Common, Abyssal
+**Str** 10 (+0), **Con** 14 (+2), **Dex** 17 (+3), **Int** 10 (+0), **Wis** 12 (+1), **Cha** 14 (+2)
+**Alignment:** Evil
+
+___
+**Initiative:** +4
+**AC:** 13; **Fort:** 14, **Ref:** 12, **Will** 13
+**HP:** 33, **Staggered:** 16
+**Resistance to:** fire 5
+*Curse (Psychic) aura 1:* Each time a creature in the aura misses on an attack, it takes 1d8 + your Charisma modifier psychic damage.
+
+___
+**Speed** 6, fly 2
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Festering Claws** (standard, at-will) ● Poison
++6 vs. AC; Target takes 5 persistent poison damage (save ends). 
+ 💥 **Blight Jet** (standard, at-will) ● Poison
+Near arc 2, +6 vs. Fortitude; 1d8 + Charisma modifier poison damage and the target is slowed (save ends). 
+
+### Burner Demon
+
+**Level 5 Wrecker** (200 XP)
+Medium Outsider Humanoid (Demon, Fire )
+**Senses:** Perception +6; darkvision
+**Languages:** Common, Abyssal
+**Str** 10 (+2), **Con** 16 (+5), **Dex** 19 (+6), **Int** 10 (+2), **Wis** 12 (+3), **Cha** 16 (+5)
+**Alignment:** Chaotic evil
+
+___
+**Initiative:** +9
+**AC:** 17; **Fort:** 18, **Ref:** 16, **Will** 17
+**HP:** 61, **Staggered:** 30
+, **Resistance to:** fire 10, **Vulnerability to:** cold 10
+___
+**Speed** fly 4 (hover, max altitude 2)
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Flickers of Flame** (standard, at-will) ● Fire
++10 vs. Reflex; 1d6 + Charisma modifier fire damage. *Miss:* Random creature adjacent to burner demon takes 1d6 + Charisma modifier fire damage. 
+ 💣 **Quick Flicking Fire** (standard, at-will) ● Fire
+Far burst 1 (range 5), one random target; +10 vs. Reflex; 1d6 + Charisma modifier fire damage. 
+
+### Hellhound
+
+**Level 5 Wrecker** (200 XP)
+Medium Outsider Beast (Demon )
+**Senses:** Perception +8; darkvision
+**Languages:** Common, Abyssal
+**Str** 19 (+6), **Con** 16 (+5), **Dex** 16 (+5), **Int** 6 (+0), **Wis** 16 (+5), **Cha** 6 (+0)
+**Alignment:** Evil
+
+___
+**Initiative:** +8
+**AC:** 17; **Fort:** 18, **Ref:** 16, **Will** 17
+**HP:** 61, **Staggered:** 30
+**Resistance to:** fire 10, **Vulnerability to:** cold 10
+___
+**Speed** 8
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Savage Bite** (standard, at-will) ● Fire
++10 vs. AC; 2d6 + Charisma modifier fire damage. *Miss:* Make a *fiery breath* attack as a free action, if available. 
+ 💥 **Fiery Breath** (standard, refresh 5, 6) ● Fire
+Near arc 2, +10 vs. Reflex; 1d6 + Charisma modifier fire damage and persistent 5 fire damage. 
+
+### Hezrou
+
+**Level 9 Wrecker** (400 XP)
+Large Outsider Humanoid (Demon )
+**Senses:** Perception +11; darkvision
+**Languages:** Common, Abyssal
+**Str** 18 (+8), **Con** 21 (+9), **Dex** 10 (+4), **Int** 18 (+8), **Wis** 14 (+6), **Cha** 18 (+8)
+**Alignment:** Chaotic evil
+
+___
+**Initiative:** +9
+**AC:** 21; **Fort:** 22, **Ref:** 20, **Will** 21
+**HP:** 89, **Staggered:** 44
+*Demonic Stench aura 1:* Creatures in the aura cannot heal.
+
+___
+**Speed** 8, jump 4
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Meaty, Clawed Hands** (standard, at-will)  
++14 vs. AC; 1d8 + Charisma modifier and the target is grappled. 
+ ⚔️ **Constrict** (standard, at-will)  
+A creature the hezrou has grappled takes 2d8 + Charisma modifier damage. 
+
+### Hungry Maw
+
+**Level 9 Wrecker** (400 XP)
+Medium Outsider Monstrosity (Demon )
+**Senses:** Perception +13; darkvision
+**Languages:** Common, Abyssal
+**Str** 21 (+9), **Con** 16 (+7), **Dex** 18 (+8), **Int** 8 (+3), **Wis** 18 (+8), **Cha** 8 (+3)
+**Alignment:** Chaotic evil
+
+___
+**Initiative:** +13
+**AC:** 21; **Fort:** 22, **Ref:** 20, **Will** 21
+**HP:** 89, **Staggered:** 44
+*Chomp and Chew aura 1:* Targets take 10 persistent damage (save ends).
+___
+**Speed** 6
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Big Chomp** (standard, at-will)  
++14 vs. AC; 2d6 + Charisma modifier damage. 
+
+
+### Vulture Demon
+
+**Level 9 Wrecker** (400 XP)
+Large Outsider Monstrosity (Demon )
+**Senses:** Perception +13; darkvision
+**Languages:** Common, Abyssal
+**Str** 21 (+9), **Con** 18 (+8), **Dex** 18 (+8), **Int** 15 (+6), **Wis** 18 (+8), **Cha** 16 (+7)
+**Alignment:** Chaotic evil
+
+___
+**Initiative:** +13
+**AC:** 21; **Fort:** 22, **Ref:** 20, **Will** 21
+**HP:** 89, **Staggered:** 44
+
+___
+**Speed** 6, fly 8
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Filth Covered Claws** (standard, at-will) ● Poison
++14 vs. AC; 1d8 + Charisma modifier damage and 5 persistent poison damage. 
+ 💥 **Demonic Screech** (standard, refresh 5, 6) ● Psychic
+Near arc 3, +14 vs. Will; 1d8 + Charisma modifier psychic damage and the target grants combat advantage until the end of your next turn. 
+
+### Big Burner
+
+**Level 15 Wrecker** (1200 XP)
+Large Outsider Humanoid (Demon, Fire )
+**Senses:** Perception +16; darkvision
+**Languages:** Common, Abyssal
+**Str** 14 (+9), **Con** 21 (+12), **Dex** 24 (+14), **Int** 10 (+7), **Wis** 12 (+8), **Cha** 18 (+11)
+**Alignment:** Chaotic evil
+
+___
+**Initiative:** +22
+**AC:** 27; **Fort:** 28, **Ref:** 26, **Will** 27
+**HP:** 131, **Staggered:** 65
+**Resistance to:** fire 15, **Vulnerability to:** cold 15
+___
+**Speed** fly 8 (hover, max altitude 3)
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Flickers of Flame** (standard, at-will) ● Fire
+Reach 2; +20 vs. Reflex; 3d6 + Charisma modifier fire damage. *Miss:* Random creature adjacent to big burner takes 2d6 + Charisma modifier fire damage. 
+ 💣 **Quick Flicking Fire** (standard, at-will) ● Fire
+Far burst 1 (range 5), one random target; +20 vs. Reflex; 2d6 + Charisma modifier fire damage. 
+
+### Boar Demon (Nalfeshnee)
+
+**Level 19 Wrecker** (2400 XP)
+Large Outsider Humanoid (Demon )
+**Senses:** Perception +25; darkvision
+**Languages:** Common, Abyssal
+**Str** 23 (+15), **Con** 26 (+17), **Dex** 13 (+10), **Int** 23 (+15), **Wis** 23 (+15), **Cha** 20 (+14)
+**Alignment:** Chaotic evil
+
+___
+**Initiative:** +20
+**AC:** 31; **Fort:** 32, **Ref:** 30, **Will** 31
+**HP:** 159, **Staggered:** 79
+
+___
+**Speed** 5, fly 8
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Musky Claw** (standard, at-will)  
++24 vs. AC; 1d10 + Charisma modifier damage. 
+ 💥 **Accursed Blast** (standard, encounter) ● Necrotic, Lightning
+Near arc 2; +24 vs. Reflex; 1d8 + Charisma modifier necrotic and lightning damage and the target is weakened until the end of your next turn. 
+ **Horror Nimbus** (immediate (react), encounter)  
+When the boar demon is reduced to 0 HP or below, it is destroyed. *Secondary Attack:* Near burst 2; +24 vs. Reflex; the target is pushed 2 and dazed (save ends). 
+
+
+### Frenzy Demon
+
+**Level 19 Wrecker** (2400 XP)
+Medium Outsider Humanoid (Demon )
+**Senses:** Perception +20; darkvision
+**Languages:** Common, Abyssal
+**Str** 26 (+17), **Con** 23 (+15), **Dex** 16 (+12), **Int** 8 (+8), **Wis** 12 (+10), **Cha** 23 (+15)
+**Alignment:** Chaotic evil
+
+___
+**Initiative:** +22
+**AC:** 31; **Fort:** 32, **Ref:** 30, **Will** 31
+**HP:** 159, **Staggered:** 79
+*Aura of Frustration aura 3:* Each time a creature within the aura misses on an attack roll, the frenzy demon gets a +2 bonus to its next attack roll.
+___
+**Speed** 8
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Claw** (standard, at-will)  
++24 vs. AC; 1d12 + Charisma modifier damage. 
+ ⚔️ **Raking Claws** (standard, at-will)  
++24 vs. AC; 2d12 + Charisma modifier damage. 
+
+### Pincer Demon (Glabrezu)
+
+**Level 19 Wrecker** (2400 XP)
+Huge Outsider Humanoid (Demon )
+**Senses:** Perception +22; darkvision
+**Languages:** Common, Abyssal
+**Str** 26 (+17), **Con** 23 (+15), **Dex** 10 (+9), **Int** 23 (+15), **Wis** 16 (+12), **Cha** 23 (+15)
+**Alignment:** Chaotic evil
+
+___
+**Initiative:** +19
+**AC:** 31; **Fort:** 32, **Ref:** 30, **Will** 31
+**HP:** 159, **Staggered:** 79
+___
+**Speed** 6
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Pincer** (standard, at-will)  
++24 vs. AC; 2d8 + Charisma modifier damage. 
+ 💣 **Chaos Hammer** (standard, at-will) ● Force
++24 vs. Fortitude; 1d10 + Charisma modifier force damage and the target falls prone. 
+
+### Laughing Demon
+
+**Level 25 Wrecker** (6400 XP)
+Large Outsider Humanoid (Demon )
+**Senses:** Perception +27; darkvision
+**Languages:** Common, Abyssal
+**Str** 26 (+20), **Con** 20 (+17), **Dex** 26 (+20), **Int** 16 (+15), **Wis** 14 (+14), **Cha** 29 (+21)
+**Alignment:** Chaotic evil
+
+___
+**Initiative:** +33
+**AC:** 37; **Fort:** 38, **Ref:** 36, **Will** 37
+**HP:** 201, **Staggered:** 100
+*Aura of Mockery aura 3:* A creature within the aura that fails a saving throw takes 15 damage.
+___
+**Speed** 8
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Tooth and Claw** (standard, at-will)  
++30 vs. AC; 2d8 + Charisma modifier damage, and a creature adjacent to the target takes 1d8 + Charisma modifier damage. 
+ ⚔️ **Tooth and Claw and Stomp** (standard, at-will)  
+Make two *tooth and claw* attacks. 
+
+### Balor
+
+**Level 29 Wrecker** (12800 XP)
+Large Outsider Humanoid (Demon, Fire )
+**Senses:** Perception +36; darkvision, trueseeing
+**Languages:** Common, Abyssal
+**Str** 31 (+24), **Con** 28 (+23), **Dex** 28 (+23), **Int** 24 (+21), **Wis** 24 (+21), **Cha** 26 (+22)
+**Alignment:** Chaotic evil
+
+___
+**Initiative:** +38
+**AC:** 41; **Fort:** 42, **Ref:** 40, **Will** 41
+**HP:** 229, **Staggered:** 114
+**Resistance to:** fire 15, necrotic 15, **Vulnerability to:** cold 15
+*Aura of Flame (Fire) aura 2:* A creature that enters or begins its turn in the aura takes 20 fire damage.
+___
+**Speed** 6, fly 12
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Longsword** (standard, at-will) ● Fire, Necrotic, Weapon
+Reach 2; +34 vs. AC; 2d12 + Charisma modifier fire and necrotic damage. 
+ ⚔️ **Flame Whip** (minor, at-will) ● Fire
+Reach 3; +34 vs. Reflex; The target is knocked prone and pulled 3. 
+ **Lifedrinker** (free, at-will) ● Healing
+If a creature is killed within the balor's aura, the balor's summoner regains a recovery and the balor heals equal to your recovery value. 
+ **Fallen Angel's Reckoning** (immediate (react)) ● Radiant
+When the balor is reduced to 0 HP or below, it is destroyed. All creatures within 5 take 2d12 + your Charisma modifier radiant damage. 
+
+
+### Marilith
+
+**Level 29 Wrecker** (12800 XP)
+Large Outsider Humanoid (Demon )
+**Senses:** Perception +33; darkvision
+**Languages:** Common, Abyssal
+**Str** 31 (+24), **Con** 28 (+23), **Dex** 28 (+23), **Int** 18 (+18), **Wis** 18 (+18), **Cha** 28 (+23)
+**Alignment:** Chaotic evil
+___
+**Initiative:** +38
+**AC:** 41; **Fort:** 42, **Ref:** 40, **Will** 41
+**HP:** 229, **Staggered:** 114
+*Wall of Steel aura 2:* A creature that leaves the aura takes 15 damage.
+
+___
+**Speed** 8
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Sword** (standard, at-will) ● Weapon
+Reach 2; +34 vs. AC; 2d8 + Charisma modifier damage. 
+ ⚔️ **Three Whirling Swords** (standard, at-will) ● Weapon
+Make three *sword* attacks, each against a different target. Shift 1 between attacks. 
+ **Terrible Swift Swords** (free, encounter)  
+For the rest of this turn, all attacks you make score a critical hit on a natural 15-20. 
+ **Beguiling Gaze** (standard, at-will) ● Psychic, Charm
+Ranged 10; +34 vs. Will; Pull the target 6. 
+
+
+# Hags
 Hags are cruel witches from the Plane of Faerie.
 
 ### Blood-Drinker Hag
@@ -1223,6 +1537,7 @@ ___
 **AC:** 21; **Fort:** 19, **Ref:** 17, **Will** 14; **Saving Throws:** +5
 **HP:** 184, **Staggered:** 92
 **Immunity to:** disease, poison, **Resistance to:** necrotic 10, **Vulnerability to:** radiant 5
+
 ___
 **Speed** 6
 <span style='height: 25px; width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:inline-block;'>⚔️</span> **Claw** (standard, at-will) 
@@ -1265,7 +1580,7 @@ The ice hag flies up to 10 squares and makes two claw attacks at any point durin
 An ice hag can alter their physical form to appear as an old wolf or an old woman of any Medium humanoid race. 
 
 
-## Humans
+# Humans
 Humans need no introduction. These profiles can be easily adapted to represent other humanoids, like high elves, wood elves, half-orcs, half-elves, tieflings, dragonborn and dwarves.
 
 ### Bodyguard
@@ -1313,7 +1628,7 @@ Medium Natural Humanoid, Human 	(Any)
 ___
 **Initiative:** +3
 **AC:** 18; **Fort:** 15, **Ref:** 14, **Will** 14
-**HP:** 1, missed attack never damages a mook; see also *rugged*
+**HP:** 1, missed attack never damages a mook
 ___
 **Speed** 6
 <span style='height: 25px; width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:inline-block;'>⚔️</span> **Hatchet** (standard, at-will) ● Weapon
@@ -1356,7 +1671,7 @@ Medium Natural Humanoid, Human 	(Any)
 ___
 **Initiative:** +4
 **AC:** 19; **Fort:** 16, **Ref:** 15, **Will** 15
-**HP:** 1, missed attack never damages a mook; see also *rugged*
+**HP:** 1, missed attack never damages a mook
 ___
 **Speed** 6
 <span style='height: 25px; width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:inline-block;'>⚔️</span> **Club** (standard, at-will) ● Weapon
@@ -1434,7 +1749,7 @@ Medium Natural Humanoid, Human 	(Any)
 ___
 **Initiative:** +6
 **AC:** 19; **Fort:** 18, **Ref:** 18, **Will** 16
-**HP:** 1, missed attack never damages a mook; see also *rugged*
+**HP:** 1, missed attack never damages a mook
 ___
 **Speed** 6
 <span style='height: 25px; width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:inline-block;'>⚔️</span> **Assorted Knives** (standard, at-will) ● Weapon
@@ -1517,7 +1832,7 @@ Medium Natural Humanoid, Human 	(Any)
 ___
 **Initiative:** +7
 **AC:** 20; **Fort:** 18, **Ref:** 18, **Will** 15
-**HP:** 1, missed attack never damages a mook; see also *rugged*
+**HP:** 1, missed attack never damages a mook
 ___
 **Speed** 6
 <span style='height: 25px; width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:inline-block;'>⚔️</span> **Iron Knuckles** (standard, at-will) ● Weapon
@@ -1592,7 +1907,7 @@ Medium Natural Humanoid, Human 	(Any)
 ___
 **Initiative:** +4
 **AC:** 21; **Fort:** 18, **Ref:** 19, **Will** 17
-**HP:** 1, missed attack never damages a mook; see also *rugged*
+**HP:** 1, missed attack never damages a mook
 ___
 **Speed** 6
 <span style='height: 25px; width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:inline-block;'> 🏹 </span> **Repeater Crossbow** (standard, at-will) ● Weapon
@@ -1632,7 +1947,7 @@ Medium Natural Humanoid, Human 	(Any)
 ___
 **Initiative:** +6
 **AC:** 22; **Fort:** 20, **Ref:** 19, **Will** 19
-**HP:** 1, missed attack never damages a mook; see also *rugged*
+**HP:** 1, missed attack never damages a mook
 ___
 **Speed** 6
 <span style='height: 25px; width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:inline-block;'> 🏹 </span> **Bow** (standard, at-will) ● Weapon
@@ -1671,7 +1986,7 @@ Medium Natural Humanoid, Human 	(Any)
 ___
 **Initiative:** +8
 **AC:** 23; **Fort:** 21, **Ref:** 22, **Will** 21
-**HP:** 1, missed attack never damages a mook; see also *rugged*
+**HP:** 1, missed attack never damages a mook
 ___
 **Speed** 6
 <span style='height: 25px; width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:inline-block;'> 🏹 </span> **Repeater Arbalest** (standard, at-will) ● Weapon
@@ -1708,7 +2023,7 @@ Medium Natural Humanoid, Human 	(Any)
 ___
 **Initiative:** +8
 **AC:** 25; **Fort:** 21, **Ref:** 21, **Will** 19
-**HP:** 1, missed attack never damages a mook; see also *rugged*
+**HP:** 1, missed attack never damages a mook
 ___
 **Speed** 6
 <span style='height: 25px; width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:inline-block;'> 🏹 </span> **Longbow** (standard, at-will) ● Weapon
@@ -1748,7 +2063,7 @@ Medium Natural Humanoid, Human 	(Any)
 ___
 **Initiative:** +11
 **AC:** 27; **Fort:** 25, **Ref:** 26, **Will** 25
-**HP:** 1, missed attack never damages a mook; see also *rugged*
+**HP:** 1, missed attack never damages a mook
 ___
 **Speed** 7
 <span style='height: 25px; width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:inline-block;'>⚔️</span> **One Chance Hit** (standard, at-will) 
@@ -1914,7 +2229,7 @@ Medium Natural Humanoid, Human 	(Any)
 ___
 **Initiative:** +13
 **AC:** 30; **Fort:** 28, **Ref:** 30, **Will** 26
-**HP:** 1, missed attack never damages a mook; see also *rugged*
+**HP:** 1, missed attack never damages a mook
 ___
 **Speed** 6
 <span style='height: 25px; width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:inline-block;'>⚔️</span> **Longsword** (standard, at-will) ● Weapon
@@ -1982,7 +2297,7 @@ Medium Natural Humanoid, Human 	(Any)
 ___
 **Initiative:** +13
 **AC:** 30; **Fort:** 28, **Ref:** 30, **Will** 26
-**HP:** 1, missed attack never damages a mook; see also *rugged*
+**HP:** 1, missed attack never damages a mook
 ___
 **Speed** 8
 <span style='height: 25px; width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:inline-block;'> 🏹 </span> **Crossbow** (standard, at-will) ● Weapon
@@ -2000,7 +2315,7 @@ Medium Natural Humanoid, Human 	(Any)
 ___
 **Initiative:** +15
 **AC:** 34; **Fort:** 34, **Ref:** 32, **Will** 31
-**HP:** 1, missed attack never damages a mook; see also *rugged*
+**HP:** 1, missed attack never damages a mook
 ___
 **Speed** 
 <span style='height: 25px; width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:inline-block;'> 🏹 </span> **Crossbow** (standard, at-will) ● Weapon
@@ -2008,7 +2323,7 @@ Ranged 15/30; +23 vs. AC; 10 damage.
  **Resilient** (immediate (counter), encounter) 
 The longshot berserker is hit with an attack: The attack misses.
 
-## Infected
+# Infected
 
 The Infected come about because of a disease, which creates lesions, warts, and boils on the skin as well as causing inflammation within the brain. Those infected think only of eating and destroying. The disease is extremely infectious and can render the target violently ill for days or weeks, bringing them near the point of death, but most of those infected make a full recovery - if they are given time. 
 
@@ -2129,7 +2444,7 @@ Far burst 2 within 20 (each creature in burst); +11 vs. Reflex; 2d6+5 damage, an
  ⚔️ **Hulk Rend** (standard, at-will) ● Weapon
 Reach 2; +13 vs. AC (one creature it is grappling); 2d8+7 damage, and the target is dazed and weakened (save ends both). 
 
-## Invaders
+# Invaders
 
 The Invaders represent an alien invasion. This mixing of genres will not suite all fantasy campaigns, but it has been a part of the hobby since the very beginning. The Invaders may be merely an exploratory force, or a misdirected unit intended for a fight on another planet, or the full force of an interstellar armada. In any case, the creatures outlined here represent bodies (also called "shells") cobbled together by the aliens from supplies on their spaceship and whatever materials - inorganic and otherwise - that they find. 
 
@@ -2177,7 +2492,7 @@ Medium Cosmic Automaton, Living Construct 	(Unaligned)
 ___
 **Initiative:** +13
 **AC:** 30; **Fort:** 28, **Ref:** 30, **Will** 26
-**HP:** 1, missed attack never damages a mook; see also *rugged*
+**HP:** 1, missed attack never damages a mook
 ___
 **Speed** 6
 <span style='height: 25px; width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:inline-block;'> 🏹 </span> **Merged Weapon** (standard, at-will) ● Weapon
@@ -2328,7 +2643,7 @@ Medium Cosmic Automaton, Living Construct 	(Unaligned)
 ___
 **Initiative:** +15
 **AC:** 30; **Fort:** 28, **Ref:** 30, **Will** 28
-**HP:** 1, missed attack never damages a mook; see also *rugged*
+**HP:** 1, missed attack never damages a mook
 ___
 **Speed** -, fly 7
 <span style='height: 25px; width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:inline-block;'> 🏹 </span> **Pulse Rifle** (standard, at-will) ● Weapon
@@ -2339,7 +2654,7 @@ Shift 2 squares.
 An enemy hits the screamer: The screamer shifts one square, and the attack misses. 
 
 
-## Juggernauts
+# Juggernauts
 Juggernauts are the golem-like constructs created by a long-ago empire. Each juggernaut has room in its torso for a humanoid rider, who can direct the juggernaut.
 
 ### The Minotaur
@@ -2463,7 +2778,7 @@ Far burst within 30/60; +20 vs. Reflex (all creatures in burst); 3d6+10 and the 
 The scorpion cannot move or be moved until it deactivates deployment. Its AC increases to 29 but its Reflex defense decreases to 24. The scorpion can no longer make *heavy piton leg* or *thunder fall* attacks. 
 
 
-## Miscellaneous
+# Miscellaneous
 
 
 ### Witchcrawler
@@ -2502,27 +2817,7 @@ ___
 Reach 2; +12 vs. AC; 7 damage. 
 
 
-### Burrower Wurm
-**Level 10 Elite Striker** (1000 XP)
-Huge Cosmic Monstrosity 	(Evil)
-**Senses:** Perception +13
-**Skills:** Stealth +15
-**Str** 21 (+10), **Con** 17 (+8), **Dex** 20 (+10), **Int** 4 (+2), **Wis** 17 (+8), **Cha** 12 (+6)
-___
-**Initiative:** +12
-**AC:** 26; **Fort:** 24, **Ref:** 24, **Will** 22; **Saving Throws:** +2
-**HP:** 210, **Staggered:** 105
-___
-**Speed** 8, burrow 8
-<span style='height: 25px; width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:inline-block;'>⚔️</span> **Bite** (standard, at-will) 
-Reach 2; +15 vs. AC; 2d8+6 damage, and the target is knocked prone 
- ⚔️ **Death from Below** (standard, at-will) 
-The wurm moves below the surface up to its burrow speed, avoiding opportunity attacks, and then bursts up from the ground and makes a bite attack with combat advantage: +17 vs. AC; 2d8+6 damage, and the target is grappled. 
- 💥 **Acidic Spew** (standard, refresh 4, 5, 6) ● Acid
-Far burst 1 (range 10); +15 vs. AC; 1d8+5 damage. 
-
-
-## Oozes
+# Oozes
 Oozes are amorphous creatures.
 
 ### Shapeshifter Slime - Human Form
@@ -2572,7 +2867,100 @@ ___
  **Lethargy**
 Any time the monster takes cold damage, it is slowed (save ends). If the effect that caused the cold damage also causes the target to become slowed, ignore this ability. 
 
-## Plane of Shadow
+# Ophiduan
+
+The ophiduan are an ancient race of serpentine humanoids, whom legend states have walked the earth since before the rise of mammals.
+
+Their cities stand in the midst of thick forests, wild jungles, hidden mountain passes, and anywhere else they can hide from the eyes of humanity. Should anyone draw near enough to see, however, the high walls and sweeping arches of their temples are unmistakable. As befits a race of snake-like creatures, their architecture favors tight spaces, ramps or shallow steps, and rooms built with floors and ledges at various heights. Their tools and weapons are similarly built, favoring flexibility and speed over brute
+force.
+
+<figure><img src="pics\Ophiduan.png" alt="Ophiduan by Beth Trott" style="zoom: 33%;" /><figcaption>Ophiduan by Beth Trott</figcaption></figure>
+
+### Ophiduan - Hominis Caste
+The individual before you might pass for human, were it not for the supple scales that make up her skin. Her eyes are dark and unblinking, her features gaunt, her teeth unusually sharp. A dark shock of hair begins at a widow’s peak at her forehead, and flows down her neck and back. 
+
+**Level 13 Elite Spoiler (Leader)** (1,600 XP)
+Medium Natural Humanoid (Reptile )
+**Senses:** Perception +10; darkvision
+**Languages:** Common, Draconic
+**Str** 13 (+1), **Con** 19 (+4), **Dex** 15 (+2), **Int** 22 (+6), **Wis** 19 (+4), **Cha** 18 (+4)
+**Equipment** Spiked chain, longbow
+**Alignment:** Evil
+___
+**Initiative:** +8
+**AC:** 27; **Fort:** 25, **Ref:** 24, **Will** 26+2
+**HP:** 178, **Staggered:** 89
+**Resistance to:** poison 10
+
+___
+**Speed** 6
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Spiked chain** (standard, at-will) ● Weapon
++11 vs AC; 3d8+7 damage. 
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'> 🏹 </span> **Longbow** (standard, at-will) ● Weapon
+Range 20; +11 vs AC; 3d8+7 damage. 
+ 🏹 **Ophidiophobia** (swift, refresh 5, 6) ● Fear, Psychic
++11 vs Will; 4d10+6 psychic damage and push 4. 
+ 💣 **Hypnotism** (standard, encounter) ● Psychic, Charm
+Far burst 1, range 10; +11 vs Will; 3d8+7 psychic damage and dazed (save ends). 
+
+### Ophiduan - Semiferum Caste
+This creature appears as a somehow pathetic cross of man and snake. A vaguely humanoid torso, covered in reptilian scales, melds into an enormous serpentine tail at the waist. A gaunt humanoid face, also covered in scales, bulges in odd spots as fangs far too large for the mouth push at the thin lips from within. Sporadic tufts of hair just from the top of the head, giving the creature almost a sickly appearance.
+
+**Level 13 Striker** (800 XP)
+Medium Natural Monstrosity (Reptile )
+**Senses:** Perception +7; darkvision
+**Languages:** Common, Draconic
+**Str** 10 (+0), **Con** 19 (+4), **Dex** 22 (+6), **Int** 10 (+0), **Wis** 12 (+1), **Cha** 19 (+4)
+**Equipment** Spiked chain, longbow
+**Alignment:** Evil
+___
+**Initiative:** +12
+**AC:** 27; **Fort:** 24, **Ref:** 26, **Will** 25
+**HP:** 89, **Staggered:** 44
+**Resistance to:** poison 10
+
+___
+**Speed** 6
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Spiked chain** (standard, at-will) ● Weapon, Poison
++11 vs AC; 11 poison damage. 
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'> 🏹 </span> **Longbow** (standard, at-will) ● Weapon
+Range 20; +11 vs AC; 11 damage. 
+ 💥 **Charm** (standard, encounter) ● Psychic, Charm
++11 vs Will; Dazed (save ends). 
+
+
+### Ophiduan - Anguineum Caste
+This creature appears to be a great serpent with humanoid features. A serpentine torso boasts a pair of slender arms, each of which is abnormally long and possessed of two elbow joints. The torso splits into two long, writhing tails. A cobra-like hood flares open behind its head, which boasts an oversized face that — despite its scales and unhinged jaw — appears as much human as snake.
+
+**Level 13 Boss Spoiler** (3200 XP)
+Medium Natural Monstrosity (Reptile )
+**Senses:** Perception +9; darkvision
+**Languages:** Common, Draconic
+**Str** 22 (+6), **Con** 18 (+4), **Dex** 13 (+1), **Int** 19 (+4), **Wis** 17 (+3), **Cha** 19 (+4)
+**Equipment** Spiked chain, longbow
+**Alignment:** Evil
+___
+**Initiative:** +7
+**AC:** 27; **Fort:** 25, **Ref:** 24, **Will** 26+5
+**HP:** 356, **Staggered:** 178
+**Resistance to:** poison 10
+*Ophidiophobia Aura 2:* Creatures beginning their turn in the aura take 4d10+6 psychic damage and are pushed 4.
+
+___
+**Speed** 6
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Spiked chain** (standard, at-will) ● Weapon, Poison
++11 vs AC; 3d8+7 poison damage. 
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'> 🏹 </span> **Longbow** (standard, at-will) ● Weapon
+Range 20; +11 vs AC; 3d8+7 damage. 
+ 💥 **Charm** (swift, encounter) ● Psychic, Charm
++11 vs Will; Dazed (save ends). 
+ 💣 **Hypnotism** (standard, encounter) ● Psychic, Charm
+Far burst 1, range 10; +11 vs Will; 3d8+7 psychic damage and dazed (save ends). 
+ 💥 **Spit Poison** (standard, refresh 5, 6) ● Poison
+Near blast 3; +11 vs Fortitude; 3d8+7 poison damage and persistent poison damage 5 (save ends). *Secondary Attack:* Once target makes save against poison damage, they are blind (save ends). 
+
+# Plane of Shadow
+
 The Plane of Shadow coexists alongside the Prime Material Plane, the world. It is a twisted shadow of the world.
 
 ### Shadow Bat Swarm
@@ -2694,6 +3082,30 @@ Near burst 5; +9 vs. Fortitude; 10 necrotic damage, and all undead and creatures
  **Shadow Jump** (move, at-will) ● Teleportation
 Ranged 10; the Shadow Prince can teleport a single ally 3 squares. 
 
+### Greymalkin
+The creature appears to be some sort of predatory cat, resembling a smoke-gray leopard with an unusually bestial snout.The air around it seems to shimmer, not unlike a heat mirage, and without a sound a second identical creature appears to the left.
+
+**Level 8 Elite Striker** (700 XP)
+Large Shadow Monstrosity
+**Senses:** Perception +7; darkvision, low-light vision
+**Skills:** Stealth +14
+**Str** 15 (+2), **Con** 17 (+3), **Dex** 20 (+5), **Int** 5 (+-2), **Wis** 17 (+3), **Cha** 8 (+-1)
+**Alignment:** Evil
+___
+**Initiative:** +9
+**AC:** 22; **Fort:** 19, **Ref:** 21, **Will** 20+2
+**HP:** 128, **Staggered:** 64
+**Resistance to:** necrotic 5, **Vulnerability to:** radiant 5
+
+___
+**Speed** 8
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Claw** (standard, at-will) ● Teleportation
+Reach 3; +9 vs AC; 2d10+5 damage. 
+ ⚔️ **Bounding Pounce** (standard, at-will)  
+The greymalkin shifts 8 squares and makes a claw attack. If the attack hits, the target is knocked prone. 
+ **Multiple Images** (swift, refresh 5, 6) ● Illusion
++6 power bonus to AC. Each time an attack misses the greymalkin, bonus decreases by 2. 
+
 ### Flying Head Swarm
 **Level 29 Elite Striker** (25,600 XP)
 Huge Shadow Monstrosity, Swarm 	(Evil)
@@ -2716,7 +3128,7 @@ The swarm attacks up to three Medium or smaller targets; +32 vs. Reflex (automat
 Near blast 5; +30 vs. Will; 4d8+4 psychic damage, and the target is immobile (save ends). *First Failed Save:* The target is stunned (save ends). 
 
 
-## Undead
+# Undead
 Undead are those creatures that were once alive; whether what remains is the deceased's body, spirit or soul.
 ### Smoldering Skeleton
 **Level 2 Archer** (125 XP)
@@ -2859,6 +3271,145 @@ ___
  **Blood Frenzy** (only while staggered) 
 The greater failed sacrifice gains a +2 bonus to attack rolls and can take an extra standard action each round. 
 
+# Underdeep
+
+### Burrower Wurm
+
+**Level 10 Elite Striker** (1000 XP)
+Huge Cosmic Monstrosity 	(Evil)
+**Senses:** Perception +13
+**Skills:** Stealth +15
+**Str** 21 (+10), **Con** 17 (+8), **Dex** 20 (+10), **Int** 4 (+2), **Wis** 17 (+8), **Cha** 12 (+6)
+
+___
+
+**Initiative:** +12
+**AC:** 26; **Fort:** 24, **Ref:** 24, **Will** 22; **Saving Throws:** +2
+**HP:** 210, **Staggered:** 105
+
+___
+
+**Speed** 8, burrow 8
+<span style='height: 25px; width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:inline-block;'>⚔️</span> **Bite** (standard, at-will) 
+Reach 2; +15 vs. AC; 2d8+6 damage, and the target is knocked prone 
+ ⚔️ **Death from Below** (standard, at-will) 
+The wurm moves below the surface up to its burrow speed, avoiding opportunity attacks, and then bursts up from the ground and makes a bite attack with combat advantage: +17 vs. AC; 2d8+6 damage, and the target is grappled. 
+ 💥 **Acidic Spew** (standard, refresh 4, 5, 6) ● Acid
+Far burst 1 (range 10); +15 vs. AC; 1d8+5 damage. 
+
+### Phrenic Scourge
+This horrific being stands as a human, but is clearly nothing of the sort. A dark and tattered robe only partly covers a body that appears to be formed entirely of squirming, writhing tendrils in hues of off-white, corpse-gray, and sickly purples and blues. Lengths of these tendrils hang from its sleeves as hands, while others make up a visage that cannot, in any sense of the word, be called a face. It steps forward with a shambling, yet somehow graceful, gait. 
+
+<figure><img src="pics\Phrenic Scourge.jpg" alt="Phrenic Scourge by Beth Trott" style="zoom: 33%;" /><figcaption>Phrenic Scourge by Beth Trott</figcaption></figure>
+
+**Level 16 Elite Spoiler** (2800 XP)
+Medium Cosmic Monstrosity
+**Senses:** Perception +13; darkvision
+**Languages:** Common, Deep Speech; telepathy 20
+**Skills:** Bluff +15, Dungeoneering +20, Insight +18
+**Str** 10 (+0), **Con** 21 (+5), **Dex** 16 (+3), **Int** 24 (+7), **Wis** 21 (+5), **Cha** 15 (+2)
+**Alignment:** Evil
+
+___
+**Initiative:** +11
+**AC:** 30; **Fort:** 28, **Ref:** 27, **Will** 29+2
+**HP:** 208, **Staggered:** 76
+**Resistance to:** radiant 10, **Vulnerability to:** psychic 10
+
+___
+**Speed** 6 (compress), burrow 3, climb 6
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Tendril Cluster** (standard, at-will)  
++13 vs AC; 3d10+7 psychic damage. 
+ ⚔️ **Implant Larva** (standard, refresh 5, 6) ● Psychic, Disease
++13 vs Will; 3d10+7 psychic damage and the target takes 10 persistant psychic damage (save ends). 
+ 💣 **Sap Will** (standard, encounter) ● Psychic
+Far burst 1 within 6; +13 vs Will; Target is stunned (save ends). 
+ 🏹 **Suggestion** (standard, encounter) ● Psychic, Charm
+Range 10, +13 vs Will; Target is dominated (save ends). 
+ 💣 **Mandatory Slumber** (standard, at-will) ● Psychic
+Far burst 1, range 6, +13 vs Will; 2d10+7 psychic damage and the target is knocked prone. 
+ **Teleport** (move, encounter) ● Teleportation
+Teleport up to 6. 
+
+### Scavenger Worm
+This insectoid creature might be mistaken for a simple giant centipede, were it not for the circular, moray-like maw, the hard reflective chitin that clicks as it moves, and its complete lack of eyes. Something green and foul-smelling trickles from its mouth.
+
+**Level 16 Mook Blocker** (350 XP)
+Large Cosmic Monstrosity
+**Senses:** Perception +13; blindsight 12
+**Str** 14 (+2), **Con** 24 (+7), **Dex** 21 (+5), **Int** 1 (+-4), **Wis** 21 (+5), **Cha** 6 (+-2)
+**Alignment:** Unaligned
+___
+**Initiative:** +13
+**AC:** 32; **Fort:** 29, **Ref:** 28, **Will** 28
+**HP:** 138, **Staggered:** 69
+**Resistance to:** radiant 10, **Vulnerability to:** psychic 10
+
+___
+**Speed** 6, climb 4
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Bite** (standard, at-will) ● Acid
++13 vs AC; 12 acid damage. 
+ 💥 **Tranquilizing Spray** (standard, encounter) ● Acid, Psychic
+Near arc 2, +13 vs Fortitude; 12 acid damage and the target falls prone. 
+
+### Tunnel Brute
+This is a brutal giant with insectoid features. Although humanoid in shape, it is covered in a hard chitin. Its eyes are faceted, and its mouth boasts two pairs of mandibles, the lower larger than the upper. It hunches as it walks, its knuckles nearly dragging the floor, and a large tail with a needle-like stinger curls up above its head. A horrific, oppressive stench emanates from the creature; the air around it almost seems to simmer with the fumes.
+
+<figure><img src="pics\Tunnel Brute.png" alt="Tunnel Brute by Beth Trott" style="zoom: 33%;" /><figcaption>Tunnel Brute by Beth Trott</figcaption></figure>
+
+**Level 16 Wrecker** (1400 XP)
+Large Natural Monstrosity
+**Senses:** Perception +8; darkvision, tremorsense 12
+**Str** 24 (+7), **Con** 21 (+5), **Dex** 21 (+5), **Int** 10 (+0), **Wis** 11 (+0), **Cha** 21 (+5)
+**Alignment:** Unaligned
+
+___
+**Initiative:** +13
+**AC:** 28; **Fort:** 29, **Ref:** 27, **Will** 28
+**HP:** 138, **Staggered:** 69
+*Miasma of despair 1:* While a creature is in the aura, it suffers a -2 penalty to defences, on attack rolls and on skill checks.
+___
+**Speed** 4, burrow 4, climb 2
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Sting** (standard, at-will) ● Poison
++13 vs AC; 3d10+13 poison damage. 
+ ⚔️ **All-Out Attack** (standard, encounter)  
++13 vs AC; 7d6+13 damage. 
+
+### Evil Eye
+An enormous floating eye, apparently ripped raw from the skull of some giant beast, hovers in the air before you. Lengths of optic nerve writhe and thrash behind it like tails, fading away after several feet into thin wisps of white mist. That same white mist is visible in the eye’s dark pupil, as though through a window to some distant world.
+
+**Level 16 Boss Wrecker** (5600 XP)
+Large Cosmic Monstrosity
+**Senses:** Perception +13; all-around vision, darkvision, truesight
+**Str** 8 (+-1), **Con** 21 (+5), **Dex** 14 (+2), **Int** 24 (+7), **Wis** 21 (+5), **Cha** 16 (+3)
+**Alignment:** Evil
+___
+**Initiative:** +10
+**AC:** 30; **Fort:** 28, **Ref:** 27, **Will** 29+5
+**HP:** 416, **Staggered:** 208
+**Resistance to:** radiant 10, **Vulnerability to:** psychic 10
+
+___
+**Speed** fly 6 (hover)
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Lash** (standard, at-will)  
++13 vs AC; 3d10+7 damage. 
+ 💥 **Gaze Attack** (standard, at-will) ● Psychic, Fire
+Near arc 6, +13 vs Will; Choose one. You cannot choose one that you have used since the beginning of your last turn.
+
+1. *Charm:* +13 vs Will; dominate (save ends).
+2. *Confuse:* +13 vs Will; 2d10+7 psychic damage and cannot use encounter or daily powers (save ends).
+3. *Death:* +13 vs Fortitude; 3d10+7 damage.
+4. *Enervate:* +13 vs Fortitude; 2d10+7 psychic damage and weakened (save ends).
+5. *Immolate:* +13 vs Reflex; 2d10+7 fire damage. 
+6. *Paralyze:* +13 vs Will; 2d10+7 psychic damage and immobilized (save ends).
+7. *Petrify:* +13 vs Fortitude; petrified (save ends).
+8. *Sleep:* +13 vs Will; 2d10+7 psychic damage and knocked down (save ends).
+
+ **All-Out** (standard, encounter)  
+Use two gaze attacks, chosen randomly. 
+ **Lash Out** (immediate (react), refresh 5, 6)  
+Trigger: The evil eye is hit by an attack; make a gaze attack, chosen randomly. 
+
 # Appendix: Monsters by Level
 
 **Table - Adventurer Monsters (level 1 to level 4)**
@@ -2869,7 +3420,9 @@ The greater failed sacrifice gains a +2 bonus to attack rolls and can take an ex
 | Apefolk Legionnaire             | 1     | Blocker                |
 | Bodyguard                       | 1     | Blocker                |
 | Chain Brawler                   | 1     | Striker                |
+| Demon Toad | 1 | Wrecker |
 | Eagle                           | 1     | Striker                |
+| Hopping Imp | 1 | Wrecker |
 | Raven of Doom                   | 1     | Assassin               |
 | Squirming Mound                 | 1     | Striker                |
 | Warden                          | 1     | Striker                |
@@ -2912,8 +3465,10 @@ The greater failed sacrifice gains a +2 bonus to attack rolls and can take an ex
 | Infected Grub                   | 5     | Striker Mook           |
 | Repeater Crossbowman            | 5     | Mook Archer            |
 | Apefolk Infiltrator             | 5     | Assassin               |
+| Burner Demon | 5 | Wrecker |
 | Cowled Assassin                 | 5     | Assassin               |
 | Flying Head                     | 5     | Striker                |
+| Hellhound | 5 | Wrecker |
 | Repeater Crossbow Master        | 5     | Archer                 |
 | Witchcrawler                    | 5     | Spoiler                |
 | Dog-faced Baboon                | 5     | Elite Wrecker          |
@@ -2943,7 +3498,11 @@ The greater failed sacrifice gains a +2 bonus to attack rolls and can take an ex
 | Fire Magician                   | 8     | Archer                 |
 | Infected Behemoth               | 8     | Wrecker                |
 | Transformed Servant             | 8     | Blocker                |
+| Greymalkin | 8 | Elite Striker |
 | Adult Couatl                    | 8     | Boss Striker           |
+| Hezrou | 9 | Wrecker |
+| Hungry Maw | 9 | Wrecker |
+| Vulture Demon | 9 | Wrecker |
 | Ogre Wretch                     | 9     | Mook                   |
 | Insidious Assassin              | 9     | Assassin               |
 | The Emperor                     | 9     | Elite Archer           |
@@ -2965,21 +3524,32 @@ The greater failed sacrifice gains a +2 bonus to attack rolls and can take an ex
 | Skinner                         | 13    | Archer Mook            |
 | Punk                            | 13    | Elite Wrecker          |
 | Martial Arts Master             | 13    | Boss Blocker           |
+| Ophiduan - Hominis Caste | 13 | Elite Spoiler (Leader) |
+| Ophiduan - Semiferum Caste | 13 | Striker |
+| Ophiduan - Anguineum Caste | 13 | Boss Spoiler |
 | Blademaster                     | 14    | Mook Striker           |
 | Chank                           | 14    | Archer                 |
 | Greater Failed Sacrifice        | 14    | Wrecker                |
 | Mother Screamer                 | 14    | Assassin (Leader)      |
 | Berserker                       | 14    | Elite Striker          |
 | Beast                           | 14    | Boss Striker           |
+| Big Burner | 15 | Wrecker |
 | Formidable Archer               | 15    | Archer                 |
 | Widow                           | 15    | Spoiler (Leader)       |
 | The Scorpion                    | 15    | Elite Archer           |
 | Elder Couatl                    | 15    | Boss Striker           |
 | The Awoken                      | 15    | Boss Striker           |
 | The Tri-Pod                     | 15    | Boss Striker           |
+| Scavenger Worm | 16 | Mook Blocker |
 | Baby Screamer                   | 16    | Mook Archer            |
 | Veteran Crossbowman             | 16    | Mook Archer            |
+| Tunnel Brute | 16 | Wrecker |
 | Archvillain                     | 16    | Elite Wrecker (Leader) |
+| Phrenic Scourge | 16 | Elite Spoiler |
+| Evil Eye | 16 | Boss Wrecker |
+| Boar Demon | 19 | Wrecker |
+| Frenzy Demon | 19 | Wrecker |
+| Pincer Demon | 19 | Wrecker |
 | Longshot Berserker              | 19    | Mook Striker           |
 
 **Table - Epic Monsters (level 21 and higher)**
@@ -2987,6 +3557,9 @@ The greater failed sacrifice gains a +2 bonus to attack rolls and can take an ex
 | Name                            | Level | Role                   |
 | ------------------------------- | ----- | ---------------------- |
 | Ancient Couatl                  | 22    | Boss Striker           |
+| Laughing Demon | 25 | Wrecker |
+| Balor | 29 | Wrecker |
+| Marilith | 29 | Wrecker |
 | Flying Head Swarm               | 29    | Elite Striker          |
 
 # Appendix: Creating New Monsters
@@ -3004,6 +3577,8 @@ When the heroes fight the monster, do you expect it to challenge four or five he
 ### Size, Source, Type and Tags
 
 This is a naturalistic description of how large the monster is, which plane of existence it comes from, what form its body takes and any additional categories it falls into. 
+
+Every monster has a size, source and type. Only add tags where appropriate.
 
 #### Sizes
 
@@ -3059,7 +3634,7 @@ This is a naturalistic description of how large the monster is, which plane of e
 * Large or larger humanoid related to ogres or true giants: Giant.
 * Can freely or regularly change its form: Shapechanger.
 * Is made up of many smaller creatures: Swarm. Resistance to Melee and Ranged X, vulnerability to Near and Far X. 
-* Gives the rider one or more benefits or powers: Mount. 
+* If ridden, gives the rider one or more benefits or powers: Mount. 
 
 ### Role
 
@@ -3069,7 +3644,7 @@ The role is the function that the monster plays in combat. It determines defense
 
 *AC:* 14 + level; *Fort:* 12 + level; *Ref:* 11 + level; *Will:* 13 + level.
 
-*HP:* 24 + (8 * level) (double for Elite, quadruple for Boss)
+*HP:* 24 + (5 * level) (double for Elite, quadruple for Boss)
 
 *Attack:* +5 + level
 
@@ -3139,6 +3714,7 @@ There are a number of special movement properties:
 * The monster is a poor swimmer but comfortable on the ground: Clumsy in Water -4. 
 * The monster can stay in place while flying, even while knocked unconscious: Hover. 
 * The monster can fly or levitate, but not above 10 feet: Maximum Altitude 2. 
+* The monster can squish into very small spaces: Compress
 
 ### Powers
 

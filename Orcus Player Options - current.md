@@ -2,7 +2,7 @@
 
 A retroclone of 4th Edition
 
-Version 0.4 (Alpha)
+Version 0.5 (Alpha)
 
 
 
@@ -177,7 +177,7 @@ Pick three ability scores. The ancestry grants +2 to one of the ability scores, 
 
 ## Skill Bonuses
 
-Pick two skills. The ancestry grants a +2 ancestry bonus to. each skill 
+Pick two skills. The ancestry grants a +2 ancestry bonus to each skill 
 
 ## Size, Speed
 
@@ -204,9 +204,9 @@ Choose none, or as many as you like. Adding a couple of color traits to an ances
 * **Hold Breath:** +5 ancestry bonus to Endure checks to hold your breath.
 * **Swamp Stride:** Mud, marsh and shallows are not difficult terrain for you.
 * **Ice Stride:** Ice, snow or slurry are not difficult terrain for you.
-* **Stone Stride:** Broken ground, uneven stone or rubble  are not difficult terrain for you.
-* **Woodland Stride:** Shrubbery, trees or plants  are not difficult terrain for you.
-* **Web Stride:** Webs, like those from a spider  are not difficult terrain for you.
+* **Stone Stride:** Broken ground, uneven stone or rubble are not difficult terrain for you.
+* **Woodland Stride:** Shrubbery, trees or plants are not difficult terrain for you.
+* **Web Stride:** Webs, like those from a spider, are not difficult terrain for you.
 
 ## Minor Traits
 
@@ -220,7 +220,7 @@ By default, each ancestry gets two.
 * **Skill Training:** You are trained in an extra skill of your choice.
 * **Combined Heritage:** For the purpose of taking feats, you count as two ancestries of your choice. 
 * **Eager Charge:** Your speed increases by +2 when you charge. 
-* **Speedy:** +1 speed.
+* **Speedy:** +1 to your base walking speed.
 * **Versatile Stride:** You ignore difficult terrain. 
 * **X Defense:** +1 ancestry bonus to Fortitude, Reflex or Will defense. 
 * **Nimbleness:** +2 ancestry bonus to AC against attacks of opportunity. 
@@ -247,14 +247,14 @@ Or choose one from the list below:
 > #### Tough as Nails
 >
 > **Encounter** **Swift Action**
-> **Utility Ancestry** 
+> **Ancestry Utility** 
 > **Self** 
 > **Effect:** You rally.
 
 > #### Careful Focus
 >
 > **Encounter** **Free Action**
-> **Utility Ancestry**   
+> **Ancestry Utility**   
 > **Self** 
 > **Trigger:**  You just made an attack roll.
 > **Effect:** Reroll the attack roll and take the new result.
@@ -262,21 +262,21 @@ Or choose one from the list below:
 > #### Farstrider
 >
 > **Encounter** **Move  Action**
-> **Utility Ancestry**   
+> **Ancestry Utility**   
 > **Self** 
 > **Effect:** Shift up to your speed.
 
 > #### Highblood Teleport
 >
 > **Encounter** **Move Action**
-> **Utility Ancestry** ● **Teleport**
+> **Ancestry Utility** ● **Teleport**
 > **Self** 
 > **Effect:** Teleport up to 5.
 
 > #### Lucky
 >
 > **Encounter** **Immediate (Counter) Action**
-> **Utility Ancestry**   
+> **Ancestry Utility**   
 > **Self** 
 > **Trigger:**  An attack hits you.
 > **Effect:** Reroll the attack roll and take the second result.
@@ -284,7 +284,7 @@ Or choose one from the list below:
 > #### Breath Weapon
 >
 > **Encounter** **Swift Action**
-> **Attack Ancestry** ● **[Energy]**
+> **Ancestry Attack** ● **[Energy]**
 > **Near** arc 3, targets all
 > **Attack:**  (Highest of Strength, Constitution, Dexterity) +2 vs Reflex
 > **Hit:**  1d6 + Constitution modifier. 
@@ -295,7 +295,7 @@ Or choose one from the list below:
 > #### Disappearing Act
 >
 > **Encounter** **Immediate (React) Action**
-> **Utility Ancestry**   
+> **Ancestry Utility**   
 > **Self** 
 > **Trigger:**  You take damage.
 > **Effect:** Become invisible until the end of your next turn, or until you make an attack (whichever comes sooner).
@@ -303,14 +303,14 @@ Or choose one from the list below:
 > #### Ingenuity
 >
 > **Encounter** **Swift Action**
-> **Utility Ancestry**   
+> **Ancestry Utility**   
 > **Near** burst 5, self or one ally
 > **Effect:** Choose one: target shifts up to 2 as a free action, target makes a saving throw, target gets +2 power bonus to next attack roll or target gets +4 power bonus to next skill check. Power bonuses expire at the end of your next turn if not already used.
 
 > #### Violent Rush
 >
 > **Encounter** **Free Action**
-> **Utility Ancestry**   
+> **Ancestry Utility**   
 > **Self** 
 > **Trigger:**  You hit with an attack.
 > **Effect:** Attack does +1dW. If attack was not with a weapon, +1d8 instead.
@@ -318,7 +318,7 @@ Or choose one from the list below:
 > #### Vengeance of the Pits
 >
 > **Encounter** **Free Action**
-> **Attack Ancestry** ● **Fire**
+> **Ancestry Attack** ● **Fire**
 > **Near** burst 10, one enemy
 > **Trigger:**  An attack by that enemy hits you.
 > **Effect:** The target takes 1d6 + Intelligence OR Charisma modifier fire damage. 
@@ -329,7 +329,7 @@ Or choose one from the list below:
 >
 > *Your fangs excrete a mild poison.*
 > **Encounter Swift Action**
-> **Attack Ancestry** ● **Poison**
+> **Ancestry Attack** ● **Poison**
 > **Melee** 1, one target
 > **Attack:**  Dexterity or Constitution +2 vs AC
 > **Hit:**  1d8 + your Dexterity or Constitution modifier poison damage.
@@ -339,7 +339,7 @@ Or choose one from the list below:
 > #### Barrel Along
 >
 > **Encounter** **Swift Action**
-> **Utility Ancestry**   
+> **Ancestry Utility**   
 > **Self** 
 > **Trigger:**  You are staggered.
 > **Effect:** You have a +2 bonus to speed and to damage rolls until the end of the encounter.
@@ -1595,11 +1595,11 @@ Wondrous items can be worn or carried without taking up space on a character’s
 
 ## Distributing Magic Items
 
-GMs can decide for themselves how to distribute magic items in their games, but for a balanced game there are a variety of options.
+GMs can decide for themselves how to distribute magic items in their games, but for a balanced game there are three options.
 
-### Steady Progression
+### 1. Steady Progression
 
-A player character should get a new permanent magic item every 12 encounters or so, and that item should be of a level equal to their own level +1 to +4 (roughly 25% chance of each). Since there are roughly 10 encounters to a level, other ways of thinking about this is that:
+A player character should get a new permanent magic item every 12 encounters or so, and that item should be of a level equal to their own level +1 to +4 (roughly 25% chance of each). Since there are roughly 10 encounters to a level, other ways of thinking about this are that:
 
 1. each level a player character should get 0.8 of a permanent item *or* 
 2. each level, a five-adventurer team should get four permanent items *or*
@@ -1646,11 +1646,11 @@ Assuming a rate of 10 encounters per level, that results in the following averag
 | 29   | 2,625,000                       | 105,000                    | 1,050,000                                  |
 | 30   | 3,125,000                       | 125,000                    | 1,250,000                                  |
 
-### Magic Item Only
+### 2. Magic Item Only
 
 Each level, each character receives one magic item of level +2 or two magic items of level +0. They do not receive any other treasure. 
 
-### Treasure Troves
+### 3. Treasure Troves
 
 Each level, the party should discover about 10 treasure troves of their level. Each treasure trove is randomly generated by rolling 1d4, 1d6, 1d8, 1d10, 1d12 and 1d20, with each result helping to determine the contents of the treasure trove. 
 
@@ -1986,13 +1986,13 @@ While wearing this cloak with its hood up, you can breathe underwater, and you h
 
 ### Adamantine Armor (IV)
 
-*Can only be applied to heavy armors*; *Minimum Enchantment:* +4
+*Heavy armor only*; *Minimum Enchantment:* +4
 
 This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.
 
 ### Armor of Invulnerability (IV)
 
-*Plate Armor only*; *Minimum Enchantment:* +4
+*Minimum Enchantment:* +4
 
 You have resistance to untyped damage while you wear this armor, equal to double the enhancement bonus (resistance to untyped damage 6 for +3 armor). 
 
@@ -2052,17 +2052,21 @@ Additionally, you can focus your senses as an action to magically discern the di
 | Silver | Cold       |
 | White  | Cold       |
 
-### Dwarven Plate (II)
+### Dwarf Worked (II)
 
-*Plate Armor only*
+*Heavy armor only*
 
 If you are subject to unwilling movement, you can reduce that unwilling movement by up to 2 squares. 
 
-### Glamored Leather (I)
-
-*Leather Armor only*
+### Glamored (I)
 
 As a swift action, speak the armor's command word. It assumes the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor.
+
+### Ophiduan (II)
+
+*Hide Armor, Chainmail, Scale Armor and Plate Armor only*
+
+Ignore armor check penalties and speed penalties from this armor. 
 
 ## Head Items
 

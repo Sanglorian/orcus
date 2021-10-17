@@ -1,7 +1,7 @@
 # Orcus Rulebook
 A retroclone of 4th Edition
 
-Version 0.4 (Alpha)
+Version 0.5 (Alpha)
 
 
 
@@ -358,7 +358,7 @@ Add the higher of your Wisdom modifier and your Charisma modifier to your Reflex
 
 # Generating Abilities
 
-Your character can be assigned ability scores in various ways. Here are two ways.
+Your character can be assigned ability scores in various ways. Here are three ways.
 
 These methods are done *before* ancestry bonuses are applied. 
 
@@ -387,6 +387,10 @@ You cannot have more than one ability score below 10.
 ### Roll ’em
 
 Roll 4d6 for each of the six ability scores (Strength, Constitution, Dexterity, Intelligence, Wisdom, and Charisma). Drop the low die in each roll. Put the scores into any order to best fit the character you want to play.
+
+### Assign scores
+
+Assign 16, 14, 14, 12, 11 and 8, one each to the six ability scores. 
 
 # Personalization
 
@@ -1590,6 +1594,10 @@ The presence or absence of light in an environment creates three categories of i
 - **Darkness** creates a heavily obscured area.
 
 Characters face darkness outdoors at night (even most moonlit nights), within the confines of an unlit dungeon or a subterranean vault, or in an area of magical darkness.
+
+### All-Around Vision
+
+A creature with all-around vision cannot be flanked.
 
 ### Blindsight
 

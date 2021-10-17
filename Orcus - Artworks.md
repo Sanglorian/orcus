@@ -21,3 +21,5 @@ Rook by Jared von Hindman from the Prismatic Art Collection is released under th
 [Abuse Demon](https://www.patreon.com/posts/abuse-demon-24951144) by Justin Nichol is released under the Creative Commons Attribution-ShareAlike 4.0 license. 
 
 [Ranger](https://www.patreon.com/posts/ranger-22948253) by Justin Nichol is released under the Creative Commons Attribution-ShareAlike 4.0 license. 
+
+The Phrenic Scourge, Tunnel Brute and Ophiduan by Beth Trott are released under the Open Game License. See the entry for *The Iconic Bestiary: Classics of Fantasy* for more details. 

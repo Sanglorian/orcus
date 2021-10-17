@@ -2,7 +2,7 @@
 
 A retroclone of 4th Edition
 
-Version 0.4 (Alpha)
+Version 0.5 (Alpha)
 
 
 
@@ -18,14 +18,15 @@ Orcus is a work in progress. All feedback is welcome.
 
 Making a first-level character involves choosing a few key elements:
 
-* A race.
-* A class.
-* A kit, if you play with them, or a feat, if not.
-* Some trained skills.
-* Some powers. 
-* Setting their six ability scores. 
+- An ancestry.
+- A class.
+- A kit, if you play with them, or a feat, if not.
+- Some trained skills.
+- Some powers. 
 
-Of these, the choice of class is probably most consequential. 
+As well as setting their six ability scores and purchasing equipment. 
+
+Of these choices, class is the most consequential. 
 
 As a character increases in level, they will make other choices, picking up other feats and powers, and - at certain levels - a prestige path and an epic path as well. 
 
@@ -611,7 +612,7 @@ You get a +2 bonus on attack rolls you make outside of your turn (e.g. opportuni
 Choose one at character creation. 
 
 * **Forceful Swashbuckler:** Your secondary ability is Strength. Once per turn, when you shift, you can pull an adjacent enemy 1 at one point during your movement. 
-* **Goading Swashbuckler:** Your secondary ability is Charisma. Your triumphant strike does additional damage equal to your Strength modifier when you attack a marked enemy. 
+* **Goading Swashbuckler:** Your secondary ability is Charisma. Your triumphant strike does additional damage equal to your Charisma modifier when you attack a marked enemy. 
 
 ### Powers
 
@@ -1011,6 +1012,7 @@ Kits are usually named starting with a verb, like "Dabbles in Wizardry", "Takes 
 | Exemplifies Intelligence    | You are instinctively clever, able to appraise a situation quickly. |
 | Exemplifies Speed           | You are quick and agile, mobile whatever the terrain.        |
 | Exemplifies Strength        | You are a pillar of strength, tough and powerful.            |
+| Sculpts Their Body | You can manipulate your own form - stretching, shaping and warping it as you need. |
 | Takes Bestial Form          | You can turn into a fearsome animal, and fight in that form. |
 | Worships the God of Life    | You worship a god devoted to life and healing, and gain their blessings. |
 | Worships the God of Peace   | You worship a god devoted to peace and protection, and gain their blessings. |
@@ -1341,6 +1343,34 @@ You are a beast. Blessed with amazing stamina and brutal strength, you base your
 
 **Associated Discipline:** Juggernautical.
 
+## Sculpts Their Body
+
+You can manipulate your own form - stretching, shaping and warping it as you need. 
+
+**Malleable Form (Level 1):** You gain the *brief mimicry* at-will attack power. 
+
+You also get a +2 bonus to Bluff. 
+
+> #### Brief Mimicry
+> *You change your shape to look like another, throwing off those who see you.*
+> **At-Will** **Move Action**
+> **Deep, Dark Truthful Mirror Attack 1** ● **Arcane, Transmutation**
+> **Self** 
+> **Effect:** You take the form of a particular creature. Allies of that creature must make a saving throw each time they target you with an attack. If the save fails, they must target the attack so it does not affect you, or the attack fails. Lasts until the end of your next turn.
+
+**Adaptable Body (Level 5):** While the target of a power with the Transmutation keyword, you get a +1 bonus to all defences and a +1 bonus to speed. 
+
+**Reflexive Shaper (Level 10):** You gain the *instinctive shift* daily utility power. 
+
+> #### Instinctive Shift
+> *You change form without conscious thought.*
+> **Daily** **Immediate (Counter) Action**
+> **Deep, Dark Truthful Mirror Utility 10** ● **Arcane, Transmutation**
+> **Self** 
+> **Effect:** You can use a power with the Transmutation keyword that normally takes a swift, move or standard action. This still counts as a use of the power for those that are limited in how often they can be used.
+
+**Associated Discipline (Level 1):** Deep, Dark, Truthful Mirror.
+
 ## Takes Bestial Form
 
 You can take the shape of a fearsome animal, or half-man half-beast.
@@ -1437,7 +1467,7 @@ Some classes specify that powers selected from class disciplines use different a
 
 **Table - Disciplines**
 
-| Name                   | Primary Ability | Secondary Ability | Tradition |
+| Name                   | Key Ability | Secondary Ability | Tradition |
 | ---------------------- | --------------- | ----------------- | --------- |
 | Angel's Trumpet        | Charisma        | Wisdom            | Martial   |
 | Art of War             | Strength        | Dexterity         | Martial   |
@@ -1446,6 +1476,7 @@ Some classes specify that powers selected from class disciplines use different a
 | Born to Run            | Dexterity       | Constitution      | Martial   |
 | Cantrips               |                 |                   | Arcane    |
 | Cup of Brimstone       | Charisma        | Constitution      | Arcane    |
+| Deep, Dark, Truthful Mirror | Constitution | Charisma | Arcane |
 | Elemental Flux         | Intelligence    | Constitution      | Arcane    |
 | Frontline Fighting     | Strength        | Dexterity         | Martial   |
 | Golden Lion            | Strength        | Charisma          | Martial   |
@@ -1984,7 +2015,7 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 
 ## Born Leadership
 
-**Primary Ability:** Charisma.
+**Key Ability:** Charisma.
 **Secondary Ability:** Wisdom.
 
 > #### Make Room
@@ -2169,7 +2200,7 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 
 ## Born to Run
 
-**Primary Ability:** Dexterity.
+**Key Ability:** Dexterity.
 **Secondary Ability:** Constitution.
 
 > #### Kinesics
@@ -2410,7 +2441,7 @@ The Cantrips "discipline" is really a collection of powers that can be selected 
 
 ## Cup of Brimstone
 
-**Primary Ability:** Charisma.
+**Key Ability:** Charisma.
 **Secondary Ability:** Constitution.
 
 > #### Contagion
@@ -2889,13 +2920,107 @@ Ranged 10; your level +4 vs. Will; Pull the target 6.
  **Instinct**   
 At the end of your turn, if the marilith has not received a command that turn, it uses *three whirling swords* against an adjacent target. If there is no such target, it uses *beguiling gaze*. 
 
+## Deep, Dark, Truthful Mirror
+
+*You’re able to modify your body in ways not reflective of any animal. This includes the manipulation of your bone structure, your muscles, even altering your size and the position of your limbs.*
+
+**Key Ability:** Constitution.
+**Secondary Ability:** Charisma.
+
+> #### Brief Mimicry
+> *You change your shape to look like another, throwing off those who see you.*
+> **At-Will** **Move Action**
+> **Deep, Dark Truthful Mirror Attack 1** ● **Arcane, Transmutation**
+> **Self** 
+> **Effect:** You take the form of a particular creature. Allies of that creature must make a saving throw each time they target you with an attack. If the save fails, they must target the attack so it does not affect you, or the attack fails. Lasts until the end of your next turn.
+
+> #### Theriophily
+> *You are no monster, and unlike others like you, fitting in has never been a real issue, especially when you can look like anyone.*
+> **Daily** **Swift Action**
+> **Deep, Dark Truthful Mirror Utility 2** ● **Arcane, Transmutation, Stance**
+> **Self** 
+> **Effect:** You can alter your physical form to take on the appearance of another humanoid creature of your size, including unique individuals. You retain your statistics in your new form, and your clothing, armor, and possessions do not change. Other creatures can attempt an Insight check (opposed by your Bluff check) to pierce the disguise. You must have seen the individual being imitated (as well as hear the individual if you wish to simulate the voice as well).
+
+> #### Behemoth
+> *You are able to change your basic biological makeup to make yourself extremely resistant to damage.*
+> **Daily** **Standard Action**
+> **Deep, Dark Truthful Mirror Utility 2** ● **Arcane, Transmutation**
+> **Self** 
+> **Effect:** You gain a number of temporary hit points equal to twice your Constitution modifier + your level. Until you lose all these temporary hit points, your weight is doubled and you gain a +2 bonus to Fortitude defense against forced movement attempts.
+
+
+> #### Bone Blade
+> *From beneath your skin, you extend a sharpened piece of bone which you can immediately employ as a weapon.*
+> **Encounter** **Standard Action**
+> **Deep, Dark Truthful Mirror Utility 2** ● **Arcane, Transmutation**
+> **Self** 
+> **Effect:** You create a simple weapon of your choice. It can remain attached or be detached so it can be thrown.
+
+> #### Bone Shield
+> *You expand one of your arms bones to emerge as a shield to defend against attack. It doesn’t look pretty. It only has to work.*
+> **Daily** **Standard Action**
+> **Deep, Dark Truthful Mirror Utility 2** ● **Arcane, Transmutation**
+> **Self** 
+> **Effect:** You create a shield attached to your arm, which grants a +2 shield bonus to AC. You can dismiss the shield as a swift action.
+
+> #### Clay
+> *It’s like you’re made out of plastic, rubber, or some other kind of other flexible material.*
+> **At-Will** **Move Action**
+> **Deep, Dark Truthful Mirror Utility 2** ● **Arcane, Transmutation**
+> **Self** 
+> **Effect:** You gain reach 1 until the start of your next turn.
+
+> #### Squeeeeze
+> *Your muscles can extend; your bones can slip from their sockets. You find yourself moving through places even a rodent would find difficult.*
+> **At-Will** **Move Action**
+> **Deep, Dark Truthful Mirror Utility 2** ● **Arcane, Transmutation**
+> **Self** 
+> **Effect:** Until the start of your next turn, you can squeeze without a reduction in speed. You suffer no penalties to attack, and do not grant combat advantage while squeezing. You are treated as a Small creature for purposes of squeezing into Tiny spaces.
+
+> #### Perfect Harmony
+> *There is an old saying about making your weapon part of you. In this case, that’s easy.*
+> **Encounter** **Swift Action**
+> **Deep, Dark Truthful Mirror Attack 3** ● **Arcane, Transmutation**
+> **Self** 
+> **Effect:** Your next melee or ranged attack roll with any weapon you create with a Transmutation power automatically hits (but cannot inflict critical hits).
+> **Special:**  Spend a recovery, but recover no hit points: instead, this power is not expended.
+
+> #### Metalform
+> *You crystallize your skin to be resistant to any damage.*
+> **Encounter** **Move Action**
+> **Deep, Dark Truthful Mirror Utility 6** ● **Arcane, Transmutation, Stance**
+> **Self** 
+> **Effect:** You gain resist 5 to all damage.
+
+
+> #### Growth Hormone
+> *Your cells go through a massive transformation, allowing you to increase your size.*
+> **Daily** **Standard Action**
+> **Deep, Dark Truthful Mirror Utility 10** ● **Arcane, Transmutation, Stance**
+> **Self** 
+> **Effect:** You become a Large creature until the end of your next rest. You get a +2 bonus on attack rolls.
+
+> #### Molecular Compression
+> *You change your atomic density, decreasing your size.*
+> **Daily** **Standard Action**
+> **Deep, Dark Truthful Mirror Utility 10** ● **Arcane, Transmutation, Stance**
+> **Self** 
+> **Effect:** You become a Small creature. You get a +2 bonus to AC and Reflex defense.
+
+> #### Instinctive Shift
+> *You change form without conscious thought.*
+> **Daily** **Immediate (Counter) Action**
+> **Deep, Dark Truthful Mirror Utility 10** ● **Arcane, Transmutation**
+> **Self** 
+> **Effect:** You can use a power with the Transmutation keyword that normally takes a swift, move or standard action. This still counts as a use of the power for those that are limited in how often they can be used.
+
 ## Elemental Flux
 
 When you first gain a power with the Flux tag, choose an element: lightning, acid, cold, fire or thunder. All powers with the Flux keyword have that energy as a keyword, and replace any reference to [flux] in the power text with that energy. There are some powers that allow you to change your flux energy, if you take them. You can also change your flux energy when you retrain at a new level. Some classes interact with Flux powers in other ways. 
 
 When a power refers to [flux], it always means your current flux energy, even if you used the power when your flux energy was different. For example, if you conjured a vortex devil, it does damage of your current flux energy not the flux energy you had when you conjured it. 
 
-**Primary Ability:** Intelligence
+**Key Ability:** Intelligence
 **Secondary Ability:** Constitution
 
 > #### Spark Strike
@@ -5056,7 +5181,7 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 
 ## Red in Tooth and Claw
 
-**Primary Ability:** Constitution. 
+**Key Ability:** Constitution. 
 **Secondary Ability:** Wisdom. 
 
 Unless otherwise mentioned, you cannot use Wild Shape powers unless you are currently under the effect of a power with the Form tag (which in practice usually means *wild shape*). 
@@ -5474,7 +5599,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 
 Note that the Spells of Ice and Fire discipline is dedicated to the cold and fire flux energies. You can use these powers while you have a different flux energy active, but you don't get any of the special "Cold" or "Fire" riders. 
 
-**Primary Ability:** Dexterity.
+**Key Ability:** Dexterity.
 **Secondary Ability:** Intelligence.
 
 > #### Magic Touch
