@@ -1,3 +1,9 @@
+---
+layout: default
+title: Home
+navigation_weight: 0
+---
+
 Version 0.5 (Alpha)
 
 * [Rulebook](Orcus Rulebook - current.md) ([PDF](/raw/main/Orcus%20Rulebook%20-%20current.pdf))

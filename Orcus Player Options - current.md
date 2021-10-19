@@ -1,4 +1,11 @@
-  
+---
+layout: default
+title: Player Options
+navigation_weight: 3
+---
+
+# Player Options
+
 * TOC  
 {:toc}  
 

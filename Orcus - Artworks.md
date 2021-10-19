@@ -1,3 +1,9 @@
+---
+layout: default
+title: Artworks
+navigation_weight: 7
+---
+
 ## Artworks
 
 Joshu by Sarah Carney from the Prismatic Art Collection is released under the Creative Commons Attribution-ShareAlike 3.0 license. 

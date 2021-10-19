@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Classes and Powers
-navigation_weight: 1
+navigation_weight: 2
 ---
 
 # Classes and Powers

@@ -1,3 +1,8 @@
+---
+layout: default
+title: Advanced Options
+navigation_weight: 5
+---
 
 * TOC  
 {:toc}  

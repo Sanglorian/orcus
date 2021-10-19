@@ -1,3 +1,10 @@
+---
+layout: default
+title: Rulebook
+navigation_weight: 1
+---
+
+# Rulebook
 
 * TOC  
 {:toc}
