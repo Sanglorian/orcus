@@ -1,8 +1,6 @@
 A retroclone of 4th Edition
 
-```
-* Placeholder for Table of Content (Must not be removed) <newline> {:toc}
-```
+{:toc}
 
 Version 0.5 (Alpha)
 
