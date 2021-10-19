@@ -186,87 +186,87 @@ Netbook of Feats Copyright 2000 Fantasy Netbook Community Council - Authors: Agu
 
 Feats Copyright 2002, Alderac Entertainment Group 
 
-Alchemy & Herbalists Copyright 2002, Bastion Press 
-Arcana - Societies of Magic Copyright 2002, Green Ronin 
-Armies of the Abyss Copyright 2002, Green Ronin 
-Battle Magic: the Eldrich Storm Copyright 2002, Mongoose Publishing 
-Black Flags, Copyright 2002 Avalanche Press 
-Blight Magic, Copyright 2002 Mystic Eye Games 
-Book of Eldritch Might Copyright 2001, Monte J. Cook 
-Broadsides! Naval Adventuring Copyright 2001, Living imagination Inc. 
-Burok Torn, Copyright 2002 Sword & Sorcery Studios/White Wolf 
-Chaos Magic: Wild Sorcery Copyright 2002, Mongoose Publishing 
-Codex Arcanis Copyright 2001, Paradigm Concepts 
-A Complete Guide to Drow Copyright 2002, Goodman games 
-Constructs: It is Alive Copyright 2002, Mongoose Publishing 
-Crusaders of Valor Copyright 2002, Mongoose Publishing 
-Demonology: The Dark Road Copyright 2001, Mongoose Publishing 
-Doom of Odin Copyright 2002, Avalanche Press 
-Dragon Lords of Melnibone Copyright 2000, Chaosium Inc. 
-Dragons Copyright 2001, Alderac Entertainment Group 
-Dungeons Copyright 2001, Alderac Entertainment Group 
-Evil Copyright 2001, Alderac Entertainment Group 
-Fey Magic: Dreaming the Reverie Copyright 2002, Mongoose Publishing 
-Freeport: The City of Adventure Copyright 2002, Green Ronin Publishing 
-Gladiator, Sands of Death Copyright 2001, Mongoose Publishing 
-Gods Copyright 2002, Alderac entertainment Group 
-Hall of the Rainbow Mage Copyright 2002, Sword & Sorcery Studios/White Wolf 
-Hammer & Helm Copyright 2002, Green Ronin 
-Heroes of High Favor: Dwarves Copyright 2002, Badaxe Games 
-Hollowfaust Copyright 2001, Sword & Sorcery Studios/White Wolf 
-The hunt: Rise of Evil World Book Copyright 2002, Mystic Eye Games 
-Interludes, Brief expeditions to Bluffside Copyright 2001, Thunderhead Games 
-Jade & Steel Copyright 2001, Avalanche Press 
-Librium Equitis Copyright 2002, Mystic Eye Games 
-Mercenaries Copyright 2002, Alderac Entertainment Group 
-Monsters Copyright 2002, Alderac Entertainment Group 
-Mystic Warriors Copyright 2001, Mystic eye Games 
-Mythic Races Copyright 2001, Fantasy Flight Inc. 
-Necromancy: Beyond the Grave Copyright 2001, Mongoose Publishing 
-Occult Lore Copyright 2002, Atlas Games 
-Quintessential Cleric Copyright 2002, mongoose Publishing 
-Quintessential Dwarf Copyright 20002, Mongoose Publishing 
-Quintessential Elf Copyright 2002, Mongoose Publishing 
-Quintessential Fighter Copyright 2002, Mongoose Publishing 
-Quintessential Rogue Copyright 2002, Mongoose Publishing 
-Quintessential Wizard Copyright 2002, Mongoose Publishing 
-Relics & Rituals Copyright 2001, Clark Peterson 
-Seas of Blood Copyright 2001, Mongoose Publishing 
-Secret college of Necromancy copyright 2002, Green Ronin Publishing 
-Seven Strongholds Copyright 2002, Atlas games 
-Shaman's Handbook Copyright 2002, Green Ronin Publishing 
-Shamans: Call of the Wild copyright 2002, Mongoose Publishing 
-Slayer's Guide to Dragons Copyright 2002, Mongoose Publishing 
-Slayer's Guide to Trolls Copyright 2002, Mongoose Publishing 
-Slayer's Guide to Sahuagin copyright 2002, Mongoose Publishing 
-Spells & Magic Copyright 2002, Bastion Press 
-Spells & Spellcraft Copyright 2002, Fantasy Flight, Inc. 
-The Taan copyright 2001, Sovereign Press 
-Touched by the gods Copyright 2001, Atlas Games 
-Traps & Treachery Copyright 2001, Fantasy Flight, Inc. 
-Twilight of Atlantis Copyright 2002, Avalanche Press 
-Twin Crowns: Age of Exploration Fantasy Copyright 2001, Living Imagination Inc. 
-Undead Copyright 2001, Alderac Entertainment Group 
-Vlad the Impailer Copyright 2002, Avalanche Press 
-War Copyright 2001, Alderac Entertainment Group 
-Rokugan Copyright 2001, Alderac Entertainment Group 
-The Tide of Years Copyright 2001, Michelle A. Brown Nephew 
-Seafarer's Handbook Copyright 2001, Fantasy Flight, Inc. 
-Way of the Witch Copyright 2002, Citizen Games; Authors Janet Pack, Jean Rabe, Megan Robertson, and Christina Stiles 
-The Shaman's Handbook Copyright 2002, Green Ronin Publishing; Author, Steve Kenson 
-Relics & Rituals Copyright 2001, Clark Peterson 
-Mutants & Masterminds Copyright 2002, Green Ronin Publishing. 
-Swords of Our Fathers Copyright 2003, The Game Mechanics. 
-Blue Rose, Copyright 2005, Green Ronin Publishing, LLC; Authors Jeremy Crawford, Dawn Elliot, Steve Kenson, and John Snead. 
-Advanced Player’s Guide, Copyright 2004, White Wolf Publishing, Inc. 
-The Book of Fiends, Copyright 2003, Green Ronin Publishing, LLC; Authors Aaron Loeb, Erik Mona, Chris Pramas, and Robert J. Schwalb. 
-Legions of Hell, Copyright 2001, Green Ronin Publishing, LLC; Author Chris Pramas 
-Armies of the Abyss, Copyright 2002, Green Ronin Publishing, LLC; Authors Erik Mona and Chris Pramas 
-Book of the Righteous, Copyright 2002, Aaron Loeb. 
-The Avatar’s Handbook, Copyright 2003, Green Ronin Publishing, LLC; Authors Jesse Decker and Chris Tomasson 
-The Unholy Warrior’s Handbook, Copyright 2003, Green Ronin Publishing, LLC; Author Robert J. Schwalb 
-Mutants & Masterminds, Copyright 2002, Green Ronin Publishing, LLC; Author Steve Kenson. 
-The Psychic’s Handbook, Copyright 2004, Green Ronin Publishing, LLC; Author Steve Kenson.
+Alchemy & Herbalists Copyright 2002, Bastion Press  
+Arcana - Societies of Magic Copyright 2002, Green Ronin  
+Armies of the Abyss Copyright 2002, Green Ronin  
+Battle Magic: the Eldrich Storm Copyright 2002, Mongoose Publishing  
+Black Flags, Copyright 2002 Avalanche Press  
+Blight Magic, Copyright 2002 Mystic Eye Games  
+Book of Eldritch Might Copyright 2001, Monte J. Cook  
+Broadsides! Naval Adventuring Copyright 2001, Living imagination Inc.  
+Burok Torn, Copyright 2002 Sword & Sorcery Studios/White Wolf  
+Chaos Magic: Wild Sorcery Copyright 2002, Mongoose Publishing  
+Codex Arcanis Copyright 2001, Paradigm Concepts  
+A Complete Guide to Drow Copyright 2002, Goodman games  
+Constructs: It is Alive Copyright 2002, Mongoose Publishing  
+Crusaders of Valor Copyright 2002, Mongoose Publishing  
+Demonology: The Dark Road Copyright 2001, Mongoose Publishing  
+Doom of Odin Copyright 2002, Avalanche Press  
+Dragon Lords of Melnibone Copyright 2000, Chaosium Inc.  
+Dragons Copyright 2001, Alderac Entertainment Group  
+Dungeons Copyright 2001, Alderac Entertainment Group  
+Evil Copyright 2001, Alderac Entertainment Group  
+Fey Magic: Dreaming the Reverie Copyright 2002, Mongoose Publishing  
+Freeport: The City of Adventure Copyright 2002, Green Ronin Publishing  
+Gladiator, Sands of Death Copyright 2001, Mongoose Publishing  
+Gods Copyright 2002, Alderac entertainment Group  
+Hall of the Rainbow Mage Copyright 2002, Sword & Sorcery Studios/White Wolf  
+Hammer & Helm Copyright 2002, Green Ronin  
+Heroes of High Favor: Dwarves Copyright 2002, Badaxe Games  
+Hollowfaust Copyright 2001, Sword & Sorcery Studios/White Wolf  
+The hunt: Rise of Evil World Book Copyright 2002, Mystic Eye Games  
+Interludes, Brief expeditions to Bluffside Copyright 2001, Thunderhead Games  
+Jade & Steel Copyright 2001, Avalanche Press  
+Librium Equitis Copyright 2002, Mystic Eye Games  
+Mercenaries Copyright 2002, Alderac Entertainment Group  
+Monsters Copyright 2002, Alderac Entertainment Group  
+Mystic Warriors Copyright 2001, Mystic eye Games  
+Mythic Races Copyright 2001, Fantasy Flight Inc.  
+Necromancy: Beyond the Grave Copyright 2001, Mongoose Publishing  
+Occult Lore Copyright 2002, Atlas Games  
+Quintessential Cleric Copyright 2002, mongoose Publishing  
+Quintessential Dwarf Copyright 20002, Mongoose Publishing  
+Quintessential Elf Copyright 2002, Mongoose Publishing  
+Quintessential Fighter Copyright 2002, Mongoose Publishing  
+Quintessential Rogue Copyright 2002, Mongoose Publishing  
+Quintessential Wizard Copyright 2002, Mongoose Publishing  
+Relics & Rituals Copyright 2001, Clark Peterson  
+Seas of Blood Copyright 2001, Mongoose Publishing  
+Secret college of Necromancy copyright 2002, Green Ronin Publishing  
+Seven Strongholds Copyright 2002, Atlas games  
+Shaman's Handbook Copyright 2002, Green Ronin Publishing  
+Shamans: Call of the Wild copyright 2002, Mongoose Publishing  
+Slayer's Guide to Dragons Copyright 2002, Mongoose Publishing  
+Slayer's Guide to Trolls Copyright 2002, Mongoose Publishing  
+Slayer's Guide to Sahuagin copyright 2002, Mongoose Publishing  
+Spells & Magic Copyright 2002, Bastion Press  
+Spells & Spellcraft Copyright 2002, Fantasy Flight, Inc.  
+The Taan copyright 2001, Sovereign Press  
+Touched by the gods Copyright 2001, Atlas Games  
+Traps & Treachery Copyright 2001, Fantasy Flight, Inc.  
+Twilight of Atlantis Copyright 2002, Avalanche Press  
+Twin Crowns: Age of Exploration Fantasy Copyright 2001, Living Imagination Inc.  
+Undead Copyright 2001, Alderac Entertainment Group  
+Vlad the Impailer Copyright 2002, Avalanche Press  
+War Copyright 2001, Alderac Entertainment Group  
+Rokugan Copyright 2001, Alderac Entertainment Group  
+The Tide of Years Copyright 2001, Michelle A. Brown Nephew  
+Seafarer's Handbook Copyright 2001, Fantasy Flight, Inc.  
+Way of the Witch Copyright 2002, Citizen Games; Authors Janet Pack, Jean Rabe, Megan Robertson, and Christina Stiles  
+The Shaman's Handbook Copyright 2002, Green Ronin Publishing; Author, Steve Kenson  
+Relics & Rituals Copyright 2001, Clark Peterson  
+Mutants & Masterminds Copyright 2002, Green Ronin Publishing.  
+Swords of Our Fathers Copyright 2003, The Game Mechanics.  
+Blue Rose, Copyright 2005, Green Ronin Publishing, LLC; Authors Jeremy Crawford, Dawn Elliot, Steve Kenson, and John Snead.  
+Advanced Player’s Guide, Copyright 2004, White Wolf Publishing, Inc.  
+The Book of Fiends, Copyright 2003, Green Ronin Publishing, LLC; Authors Aaron Loeb, Erik Mona, Chris Pramas, and Robert J. Schwalb.  
+Legions of Hell, Copyright 2001, Green Ronin Publishing, LLC; Author Chris Pramas  
+Armies of the Abyss, Copyright 2002, Green Ronin Publishing, LLC; Authors Erik Mona and Chris Pramas  
+Book of the Righteous, Copyright 2002, Aaron Loeb.  
+The Avatar’s Handbook, Copyright 2003, Green Ronin Publishing, LLC; Authors Jesse Decker and Chris Tomasson  
+The Unholy Warrior’s Handbook, Copyright 2003, Green Ronin Publishing, LLC; Author Robert J. Schwalb  
+Mutants & Masterminds, Copyright 2002, Green Ronin Publishing, LLC; Author Steve Kenson.  
+The Psychic’s Handbook, Copyright 2004, Green Ronin Publishing, LLC; Author Steve Kenson. 
 
 Dungeon Crawl Classics #53: Sellswords of Punjar, by Harley Stroh, Copyright 2008 Goodman Games (contact info@goodman-games.com, or see www.goodman-games.com)
 
@@ -276,35 +276,35 @@ Dungeon Crawl Classics #61: Citadel of the Corruptor, by Adrian Pommier, Copyrig
 
 Dungeon Crawl Classics #56: Isle of the Sea Drake, by Adrian Pommier, Copyright 2008 Goodman Games (contact info@goodman-games.com, or see www.goodman-games.com)
 
-Pathfinder RPG Core Rulebook. © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams. 
-Pathfinder RPG Bestiary, © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
-Advanced Player’s Guide, © 2010, Paizo Publishing, LLC; Author: Jason Bulmahn
-Pathfinder RPG GameMastery Guide, © 2010, Paizo Publishing, LLC; Author: Cam Banks, Wolfgang Buar, Jason Bulmahn, Jim Butler, Eric Cagle, Graeme Davis, Adam Daigle, Joshua J. Frost, James Jacobs, Kenneth Hite, Steven Kenson, Robin Laws, Tito Leati, Rob McCreary, Hal Maclean, Colin McComb, Jason Nelson, David Noonan, Richard Pett, Rich Redman, Sean K Reynolds, F. Wesley Schneider, Amber Scorr, Doug Seacat, Mike Selinker, Lisa Stevens, James L. Sutter, Russ Taylor, Penny Williams, Skip Williams, Teeuwynn Woodruff.
-Pathfinder Roleplaying Game Ultimate Magic, © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.
-Pathfinder Roleplaying Game Ultimate Combat, © 2011, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Brian J. Cortijo, Jim Groves, Tim Hitchcock, Richard A. Hunt, Colin McComb, Jason Nelson, Tom Phillips, Patrick Renie, Sean K Reynolds, and Russ Taylor.
-The Book of Experimental Might, © 2008, Monte J. Cook. All rights reserved.
+Pathfinder RPG Core Rulebook. © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.  
+Pathfinder RPG Bestiary, © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.  
+Advanced Player’s Guide, © 2010, Paizo Publishing, LLC; Author: Jason Bulmahn  
+Pathfinder RPG GameMastery Guide, © 2010, Paizo Publishing, LLC; Author: Cam Banks, Wolfgang Buar, Jason Bulmahn, Jim Butler, Eric Cagle, Graeme Davis, Adam Daigle, Joshua J. Frost, James Jacobs, Kenneth Hite, Steven Kenson, Robin Laws, Tito Leati, Rob McCreary, Hal Maclean, Colin McComb, Jason Nelson, David Noonan, Richard Pett, Rich Redman, Sean K Reynolds, F. Wesley Schneider, Amber Scorr, Doug Seacat, Mike Selinker, Lisa Stevens, James L. Sutter, Russ Taylor, Penny Williams, Skip Williams, Teeuwynn Woodruff.  
+Pathfinder Roleplaying Game Ultimate Magic, © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.  
+Pathfinder Roleplaying Game Ultimate Combat, © 2011, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Brian J. Cortijo, Jim Groves, Tim Hitchcock, Richard A. Hunt, Colin McComb, Jason Nelson, Tom Phillips, Patrick Renie, Sean K Reynolds, and Russ Taylor.  
+The Book of Experimental Might, © 2008, Monte J. Cook. All rights reserved.  
 Tome of Horrors, © 2002, Necromancer Games, Inc.; Authors: Scott Greene, with Clark Peterson, Erica Balsley, Kevin Baase, Casey Christofferson, Lance
-Hawvermale, Travis Hawvermale, Patrick Lawinger, and Bill Webb; Based on original content from TSR.
-Unearthed Arcana, © 2004, Wizards of the Coast, Inc.; Authors Andy Collins, Jesse Decker, David Noonan, Rich Redman
-The Iconic Bestiary: Classics of Fantasy, © 2005, Lions Den Press; Author Ari Marmell
-Hyperconscious: Explorations in Psionics, © 2004, Bruce R Cordell. All rights reserved.
-If Thoughts Could Kill, © 2001–2004, Bruce R. Cordell. All rights reserved.
-Mindscapes, © 2003–2004, Bruce R. Cordell. All rights reserved.
-Unearthed Arcana, © 2004, Wizards of the Coast.
-Mutants & Masterminds © 2002, Green Ronin Publishing.
-Swords of Our Fathers, Copyright 2003, The Game Mechanics.
-Modern System Reference Document, © 2002, Wizards of the Coast, Inc.; Authors Bill Slavicsek, Jeff Grubb, Rich Redman, Charles Ryan, based on material by Jonathan Tweet, Monte Cook, Skip Williams, Richard Baker, Peter Adkison, Bruce R. Cordell, John Tynes, Andy Collins, and JD Wiker
-Psionics Unleashed. Copyright 2010, Dreamscarred Press.
-Path of War, © 2014, Dreamscarred Press.
+Hawvermale, Travis Hawvermale, Patrick Lawinger, and Bill Webb; Based on original content from TSR.  
+Unearthed Arcana, © 2004, Wizards of the Coast, Inc.; Authors Andy Collins, Jesse Decker, David Noonan, Rich Redman  
+The Iconic Bestiary: Classics of Fantasy, © 2005, Lions Den Press; Author Ari Marmell  
+Hyperconscious: Explorations in Psionics, © 2004, Bruce R Cordell. All rights reserved.  
+If Thoughts Could Kill, © 2001–2004, Bruce R. Cordell. All rights reserved.  
+Mindscapes, © 2003–2004, Bruce R. Cordell. All rights reserved.  
+Unearthed Arcana, © 2004, Wizards of the Coast.  
+Mutants & Masterminds © 2002, Green Ronin Publishing.  
+Swords of Our Fathers, Copyright 2003, The Game Mechanics.  
+Modern System Reference Document, © 2002, Wizards of the Coast, Inc.; Authors Bill Slavicsek, Jeff Grubb, Rich Redman, Charles Ryan, based on material by Jonathan Tweet, Monte Cook, Skip Williams, Richard Baker, Peter Adkison, Bruce R. Cordell, John Tynes, Andy Collins, and JD Wiker  
+Psionics Unleashed. Copyright 2010, Dreamscarred Press.  
+Path of War, © 2014, Dreamscarred Press.  
 
-Monte Cook’s Arcana Evolved Copyright 2005 Monte J. Cook. All rights reserved.
-Monte Cook’s Arcana Unearthed DM’s Screen and Player’s Guide Copyright 2003 Monte J. Cook. All rights reserved.
-The Diamond Throne Copyright 2003 Monte J. Cook. All rights reserved.
-Monte Cook’s Arcana Unearthed Copyright 2003 Monte J. Cook. All rights reserved.
+Monte Cook’s Arcana Evolved Copyright 2005 Monte J. Cook. All rights reserved.  
+Monte Cook’s Arcana Unearthed DM’s Screen and Player’s Guide Copyright 2003 Monte J. Cook. All rights reserved.  
+The Diamond Throne Copyright 2003 Monte J. Cook. All rights reserved.  
+Monte Cook’s Arcana Unearthed Copyright 2003 Monte J. Cook. All rights reserved.  
 
-Tome of Secrets, Copyright 2009, Adamant Entertainment, Inc. Authors: Walt Ciechanowski and Gareth-Michael Skarka.
+Tome of Secrets, Copyright 2009, Adamant Entertainment, Inc. Authors: Walt Ciechanowski and Gareth-Michael Skarka.  
 
-Pathfinder Advanced Player’s Guide © 2020, Paizo Inc.; Authors: Amirali Attar Olyaee, Alexander Augunas, Kate Baker, Brian Bauman, Logan Bonner, Carlos Cabrera, James Case, Jessica Catalan, John Compton, Paris Crenshaw, Jesse Decker, Fabby Garza Marroquín, Steven Hammond, Sasha Laranoa Harving, Joan Hong, Nicolas Hornyak, Vanessa Hoskins, James Jacobs, Erik Keith, Lyz Liddell, Luis Loza, Ron Lundeen, Patchen Mortimer, Dennis Muldoon, Stephen Radney-MacFarland, Jessica Redekop, Mikhail Rekun, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Kendra Leigh Speedling, Jason Tondro, Clark Valentine, and Andrew White. 
+Pathfinder Advanced Player’s Guide © 2020, Paizo Inc.; Authors: Amirali Attar Olyaee, Alexander Augunas, Kate Baker, Brian Bauman, Logan Bonner, Carlos Cabrera, James Case, Jessica Catalan, John Compton, Paris Crenshaw, Jesse Decker, Fabby Garza Marroquín, Steven Hammond, Sasha Laranoa Harving, Joan Hong, Nicolas Hornyak, Vanessa Hoskins, James Jacobs, Erik Keith, Lyz Liddell, Luis Loza, Ron Lundeen, Patchen Mortimer, Dennis Muldoon, Stephen Radney-MacFarland, Jessica Redekop, Mikhail Rekun, Alex Riggs, David N. Ross, Michael Sayre, Mark Seifter, Kendra Leigh Speedling, Jason Tondro, Clark Valentine, and Andrew White.   
 
 Dungeon Crawl Classics #54: Forges of the Mountain King, by Harley Stroh, Copyright 2008 Goodman Games (contact info@goodman-games.com, or see www.goodman-games.com)
 
