@@ -2,8 +2,8 @@ A retroclone of 4th Edition
 
 Version 0.5 (Alpha)
 
-* Orcus Rulebook ([PDF](/raw/main/Orcus%20Rulebook%20-%20current.pdf), [Markdown](https://github.com/Sanglorian/orcus/blob/main/Orcus%20Rulebook%20-%20current.md))
-* Orcus Player Options (ancestries, skills, feats, equipment, magic items) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Player%20Options%20-%20current.pdf), [Markdown](https://github.com/Sanglorian/orcus/blob/main/Orcus%20Player%20Options%20-%20current.md))
+* Orcus Rulebook ([PDF](/raw/main/Orcus%20Rulebook%20-%20current.pdf), [Markdown](Orcus Rulebook - current.md))
+* Orcus Player Options (ancestries, skills, feats, equipment, magic items) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Player%20Options%20-%20current.pdf), [Markdown](Orcus Player Options - current.md))
 * Classes and Powers ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Classes%20and%20Powers%20-%20current.pdf), [Markdown](https://github.com/Sanglorian/orcus/blob/main/Orcus%20Classes%20and%20Powers%20-%20current.md))
 * Orcus Monsters ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Monsters%20-%20current.pdf), [Markdown](https://github.com/Sanglorian/orcus/blob/main/Orcus%20Monsters%20-%20current.md))
 * Orcus Advanced Options (poisons, diseases, bonds, incantations) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Advanced%20Options%20-%20current.pdf), [Markdown](https://github.com/Sanglorian/orcus/blob/main/Orcus%20Advanced%20Options%20-%20current.md))
