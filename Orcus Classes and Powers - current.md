@@ -110,6 +110,7 @@ When you reach a level that allows you to replace a power, you choose a class at
 | 20    | 2              | 3 + P            | 3 + P        | 4 + P     |                                  |
 
 **Table - Default Power Progression (Epic Tier)**
+
 | Level | At-will Attack | Encounter Attack | Daily Attack | Utility   | Power Replacements               |
 | ----- | -------------- | ---------------- | ------------ | --------- | -------------------------------- |
 | 21    | 2              | 3 + P            | 3 + P        | 4 + P     |                                  |
@@ -130,16 +131,16 @@ Each class has a "Dualclass" option listed. This is the benefit that a character
 # Commander
 Martial Leader
 ### Stats
-**Hit Points at 1st Level:** 12 + your Constitution score.
-**Hit Points at Higher Levels:** 5 + your Constitution modifier per level after 1st.
-**Recoveries per Long Rest:** 7 + your Constitution modifier.
-**Defenses:** +2 Fortitude.
+**Hit Points at 1st Level:** 12 + your Constitution score.  
+**Hit Points at Higher Levels:** 5 + your Constitution modifier per level after 1st.  
+**Recoveries per Long Rest:** 7 + your Constitution modifier.  
+**Defenses:** +2 Fortitude.  
 ### Proficiencies and Training
-**Armor:** Cloth, leather, hide, chainmail, scale; light shields.
-**Weapons:** Simple melee, martial melee; simple ranged.
-**Focuses:** Martial focus.
-**Trained Skills:**  4 from your class skills.
-**Class Skills:** Athletics, Diplomacy, Endure, Heal, History, Intimidate, Religion.
+**Armor:** Cloth, leather, hide, chainmail, scale; light shields.  
+**Weapons:** Simple melee, martial melee; simple ranged.  
+**Focuses:** Martial focus.  
+**Trained Skills:**  4 from your class skills.  
+**Class Skills:** Athletics, Diplomacy, Endure, Heal, History, Intimidate, Religion.  
 
 ### Features
 #### Stratagem
@@ -552,10 +553,13 @@ Encounter attack powers from your class gain the following Miss entry if they do
 * *Stunned:* Dazed.
 * *Weakened:* -4 to damage.
 * *Unwilling movement 3 or more:* Unwilling movement of the same variety 1.
+
 #### Magical Training
 You gain the Athame, Alchemist or Incantation Caster feat (your choice).
+
 #### Cantrips
 You gain the Cantrip Master feat.
+
 ### Talents
 You belong to a particular school of magic. Choose one at character creation. 
 * **Conjurer:** When an encounter ends and you have one or more daily powers with the Summon keyword still active, those daily powers are not expended. However, if you use them again, the summoned creatures appear in the exact state they were when their last summoning ended (current HP, conditions, etc). If you complete a long rest, all your daily powers reset and if you use them from then on a "fresh" creature will be summoned. Your secondary ability is Constitution.
@@ -696,6 +700,7 @@ Choose one at character creation. Note that rampage powers do not necessarily ha
 * **Watchful:** Your secondary ability is Wisdom. You gain the *fearful rampage* power. 
 * **Companionable:** Your secondary ability is Charisma. You gain the *companion rampage* power. 
 * **Swift:** Your secondary ability is Dexterity. You gain the *swift rampage* power.
+
 > #### Fearful Rampage
 > **At-Will** **No Action**
 > **Sylvan Attack Feature** ● **Spirit, Weapon or Focus, Psychic, Fear**
