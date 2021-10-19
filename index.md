@@ -1,17 +1,11 @@
-A retroclone of 4th Edition
-
-* TOC
-{:toc}
-
 Version 0.5 (Alpha)
 
-* Orcus Rulebook ([PDF](/raw/main/Orcus%20Rulebook%20-%20current.pdf), [Markdown](Orcus Rulebook - current.md))
-* Orcus Player Options (ancestries, skills, feats, equipment, magic items) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Player%20Options%20-%20current.pdf), [Markdown](Orcus Player Options - current.md))
-* Classes and Powers ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Classes%20and%20Powers%20-%20current.pdf), [Markdown](https://github.com/Sanglorian/orcus/blob/main/Orcus%20Classes%20and%20Powers%20-%20current.md))
-* Orcus Monsters ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Monsters%20-%20current.pdf), [Markdown](https://github.com/Sanglorian/orcus/blob/main/Orcus%20Monsters%20-%20current.md))
-* Orcus Advanced Options (poisons, diseases, bonds, incantations) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Advanced%20Options%20-%20current.pdf), [Markdown](https://github.com/Sanglorian/orcus/blob/main/Orcus%20Advanced%20Options%20-%20current.md))
-* Orcus Open Game License ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20-%20Open%20Game%20License.pdf))
-* Orcus Artworks ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20-%20Artworks.pdf))
+* [Rulebook](Orcus Rulebook - current.md) ([PDF](/raw/main/Orcus%20Rulebook%20-%20current.pdf))
+* [Player Options](Orcus Player Options - current.md) (ancestries, skills, feats, equipment, magic items) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Player%20Options%20-%20current.pdf))
+* [Classes and Powers](Orcus Player Options - current.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Classes%20and%20Powers%20-%20current.pdf))
+* [Monsters](Orcus Monsters - current.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Monsters%20-%20current.pdf))
+* [Advanced Options](Orcus Advanced Options - current.md) (poisons, diseases, bonds, incantations) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Advanced%20Options%20-%20current.pdf)))
+* [Open Game License](Orcus - Open Game License.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20-%20Open%20Game%20License.pdf)) and [Artwork Credits](Orcus - Artworks.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20-%20Artworks.pdf))
 
 Dedicated to the hobbyists, designers, developers and publishers that have released their work under the Open Game License.
 
