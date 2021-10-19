@@ -858,15 +858,15 @@ _Scale mail:_ Str 13, Con 13, Armor Proficiency (chainmail)
 
 **Benefit:** You learn three powers from the Cantrips discipline. 
 
-### **Crossbow-Something-Something**
+### Crossbow-Something-Something
 
 **Benefit:** You treat one-handed ranged weapons as melee weapons when firing into adjacent squares.
 
-### **Crossfire**
+### Crossfire
 
 **Benefit:** You can flank from two squares away from an enemy as long as you and an ally are in a straight line through the center of the target and are wielding ranged weapons.
 
-### **Crossfire, Improved**
+### Crossfire, Improved
 
 **Prerequisite:** 21st level, Crossfire
 
