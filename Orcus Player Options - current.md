@@ -872,11 +872,11 @@ _Scale mail:_ Str 13, Con 13, Armor Proficiency (chainmail)
 
 **Benefit:** You can flank three squares away from an enemy as long as you and an ally are in a straight line through the center of the target. You both must be using Ranged weapons and use them with attack powers to employ this feat.
 
-### **Deck Fire**
+### Deck Fire
 
 **Benefit:** You do not suffer the attack penalties with ranged attacks while prone.
 
-### **Deflecting Shot**
+### Deflecting Shot
 
 **Benefit:** You reduce the penalty for firing ranged weapons against an enemy in cover by 1.
 
@@ -949,13 +949,13 @@ You are talented at learning languages.
 *Level 11:* By +1 further, to +4. 
 *Level 21:* By +1 further, to +5.
 
-### **Rolling Kip**
+### Rolling Kip
 
 **Prerequisite:** 11th level
 
 **Benefit:** If you fall prone but don’t suffer any other effects, you can make a DC 20 Acrobatics roll as an immediate reaction to immediately stand up.
 
-### **Sign of Weakness**
+### Sign of Weakness
 
 **Benefit:** The first time a creature is staggered in an encounter, your next hit against that creature gains a bonus to the damage roll equal to you Wisdom modifier. This may only occur once per target per encounter.
 
@@ -989,7 +989,7 @@ Choose a skill.
 ### Talented Healer
 **Benefit:** You can provide first aid as a swift action. You also get a +2 bonus on all Heal checks. 
 
-### **The Presence**
+### The Presence
 
 **Prerequisite:** 11th level, Charisma 16
 
@@ -1020,7 +1020,7 @@ Choose one weapon group, like "axes" or "spears and lances".
 
 These feats represent expanded possibilities for unarmed combat. Many of these feats employ a special critical effect, which is in addition to the normal effects of a critical hit but cannot be combined with any other special critical effects from martial training feats. If you have several critical effects at your disposal via martial training feats, you must decide which one will be applied. You can decide the critical effect after the attack roll. These critical effects cannot be inflicted upon vehicles or opponents larger than you.
 
-### **Balance and Direction**
+### Balance and Direction
 
 You are trained in a martial art focused on pure foot and fist fighting. 
 
@@ -1030,25 +1030,25 @@ You are trained in a martial art focused on pure foot and fist fighting.
 
 *Critical:* If you score a critical hit with an unarmed attack, the target is weakened and grants you combat advantage until the end of your next turn.
 
-### **Best on the Mat**
+### Best on the Mat
 
 **Prerequisite:** Evolution of Pankration
 
 **Benefit:** You gain a +1 feat bonus to grapples and attack powers involving grapples while prone. You gain a +2 feat bonus to damage against grappled opponents while you are prone.
 
-### **Bouncing Combo**
+### Bouncing Combo
 
 **Prerequisite:** 21st level, Unarmed Combat
 
 **Benefit:** If you stagger or drop an enemy with an unarmed attack, you can take a move action that must be used before the end of your turn. You can only gain one move action this way per round, and you can only use it to walk, run, or shift.
 
-### **Deep in a Clinch**
+### Deep in a Clinch
 
 **Prerequisite:** Evolution of Pankration
 
 **Benefit:** You do not release an opponent from a grapple if you are dazed.
 
-### **Earned the Belt**
+### Earned the Belt
 
 **Prerequisite:** 11th level, Evolution of Pankration
 
@@ -1064,7 +1064,7 @@ You are trained in a martial art involving pinning or submission.
 
 *Critical:* If you roll a natural 20 on a grapple attempt or attack power that involves a grapple, the target cannot attempt to escape from the grapple on its next turn.
 
-### **Game Of Sticks**
+### Game Of Sticks
 
 You are trained in a stick-based martial art. 
 
@@ -1074,35 +1074,35 @@ You are trained in a stick-based martial art.
 
 *Critical:* If you score a critical hit with a quarterstaff, the target drops one held item and is dazed until the start of your next turn.
 
-### **Ham Hands**
+### Ham Hands
 
 **Prerequisite:** 21st level, Unarmed Combat
 
 **Benefit:** If you hit a target one size larger than you or smaller with an unarmed attack, you can spend a move action to immobilize that target until the start of your next turn. This takes up a hand.
 
-### **Jumping Knee**
+### Jumping Knee
 
 **Prerequisite:** Unarmed Expanded Profile
 
 **Benefit:** When you hit with an unarmed attack as part of a charge, the target also suffers the effects of a bull rush as well the damage from the hit. If the target cannot be pushed because of an obstruction, it takes an additional +2 damage.
 
-### **Kayfabe Maneuver**
+### Kayfabe Maneuver
 
 **Prerequisite:** Superior Position
 
 **Benefit:** You can move a target you have grappled with a move action instead of a standard action.
 
-### **Master Degree Martial Artist**
+### Master Degree Martial Artist
 
 **Prerequisite:** 21st level, Unarmed Combat, at least one other martial training feat
 
 **Benefit:** With unarmed attacks, you score a critical hit on a natural roll of 19 or 20.
 
-### **Non-Lethal Intent**
+### Non-Lethal Intent
 
 **Benefit:** If you inflict damage with a melee attack equal to half the target's staggered value in a single turn, you can elect to inflict no damage for that entire turn and instead stun the target until the start of your next turn. In addition, if the damage equals or exceeds the target's staggered value, you can elect to inflict no damage for that entire turn and instead knock the target prone and render it unconscious for five minutes. Any further damage wakes the target up.
 
-### **Swords of Grace**
+### Swords of Grace
 
 You are trained in a defensive weapon-based martial arts. 
 
@@ -1116,7 +1116,7 @@ You are trained in a defensive weapon-based martial arts.
 
 **Benefit:** When an enemy attempts to escape from a grapple you are sustaining, regardless if the target uses Acrobatics or Athletics, it rolls against the higher of your Fortitude or Reflex defenses.
 
-### **Tag Team**
+### Tag Team
 
 **Prerequisite:** 11th level, Unarmed Combat
 
@@ -1132,13 +1132,13 @@ Your combat style has become flamboyant and entertaining when not directly invol
 
 *Critical:* If you score a critical hit with an unarmed attack, you can shift up to your speed as free action and gain combat advantage against all adjacent enemies until the end of your next turn.
 
-### **Think Big**
+### Think Big
 
 **Prerequisite:** 11th level
 
 **Benefit:** You can gain the benefits of martial combat feat critical effects against targets one size larger than you.
 
-### **True Enlightenment of the Art**
+### True Enlightenment of the Art
 
 **Prerequisite:** Unarmed Combat
 
@@ -1146,23 +1146,23 @@ Your combat style has become flamboyant and entertaining when not directly invol
 
 *Critical:* If you score a critical hit and you have spent a recovery on this feat since the start of your last turn, you gain a bonus equal to half your recovery value to your next melee damage roll.
 
-### **Unarmed Combat**
+### Unarmed Combat
 
 **Benefit:** You are proficient with your fists in combat. Your unarmed attack gains a +3 proficiency bonus and the off-hand property. The base damage die of your unarmed attack improves by one step (1d4 > 1d6 > 1d8 > 1d10 > 1d12 > 2d6 > 2d10). If you gain a natural enhancement bonus with unarmed attacks, they deal 1d6 critical damage per plus.
 
-### **Unarmed Combat, Improved**
+### Unarmed Combat, Improved
 
 **Prerequisite:** Unarmed Combat
 
 **Benefit:** Your damage die with all unarmed attacks improves by one step (1d4 > 1d6 > 1d8 > 1d10 > 1d12 > 2d6 > 2d8 > 2d10).
 
-### **Unarmed Combat, Master**
+### Unarmed Combat, Master
 
 **Prerequisite:** 11th level, Improved Unarmed Combat
 
 **Benefit:** Your damage die with all unarmed attacks improves by one step (1d4 > 1d6 > 1d8 > 1d10 > 1d12 > 2d6 > 2d8 > 2d10).
 
-### **Unarmed Expanded Profile**
+### Unarmed Expanded Profile
 
 Your legs become part of your unarmed attack profile. 
 
@@ -1170,7 +1170,7 @@ Your legs become part of your unarmed attack profile.
 
 **Benefit:** You can spend a move action before making an unarmed melee attack to gain a +2 bonus to all damage rolls with that attack. At 11th level, this bonus increases to +3 and at 21st level, it increases to +4.
 
-### **Way Of The Turn**
+### Way Of The Turn
 
 You specialize in a martial art specializing in redirecting an opponent's momentum or throwing them to the ground. 
 

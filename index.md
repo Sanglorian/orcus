@@ -2,7 +2,7 @@ Version 0.5 (Alpha)
 
 * [Rulebook](Orcus Rulebook - current.md) ([PDF](/raw/main/Orcus%20Rulebook%20-%20current.pdf))
 * [Player Options](Orcus Player Options - current.md) (ancestries, skills, feats, equipment, magic items) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Player%20Options%20-%20current.pdf))
-* [Classes and Powers](Orcus Player Options - current.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Classes%20and%20Powers%20-%20current.pdf))
+* [Classes and Powers](Orcus Classes and Powers - current.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Classes%20and%20Powers%20-%20current.pdf))
 * [Monsters](Orcus Monsters - current.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Monsters%20-%20current.pdf))
 * [Advanced Options](Orcus Advanced Options - current.md) (poisons, diseases, bonds, incantations) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Advanced%20Options%20-%20current.pdf)))
 * [Open Game License](Orcus - Open Game License.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20-%20Open%20Game%20License.pdf)) and [Artwork Credits](Orcus - Artworks.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20-%20Artworks.pdf))
