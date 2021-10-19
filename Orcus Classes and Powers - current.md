@@ -38,9 +38,9 @@ As a character increases in level, they will make other choices, picking up othe
 
 # Classes
 
-Every character belongs to a class, which they choose at first level. They will remain a member of this class during their entire adventuring career - perhaps up to level 30, the highest level available. 
+Every character belongs to a class, which they choose at first level. They will remain a member of this class during their entire adventuring career - perhaps up to level 30, the highest level available.   
 
-Since there are ways to get some of the perks of other classes, such as multiclass feats and kits, the original class you chose is sometimes referred to as your "base class". If you do pick up other classes, you count as a member of those classes, but they will never affect your character as much as your base class does. 
+Since there are ways to get some of the perks of other classes, such as multiclass feats and kits, the original class you chose is sometimes referred to as your "base class". If you do pick up other classes, you count as a member of those classes, but they will never affect your character as much as your base class does.   
 
 ## Traditions and Roles
 
@@ -194,18 +194,18 @@ Divine Leader
 
 ### Stats
 
-**Hit Points at 1st Level:** 12 + your Constitution score.
-**Hit Points at Higher Levels:** 5 + your Constitution modifier per level after 1st.
-**Recoveries per Long Rest:** 7 + your Constitution modifier.
-**Defenses:** +2 Will.
+**Hit Points at 1st Level:** 12 + your Constitution score.  
+**Hit Points at Higher Levels:** 5 + your Constitution modifier per level after 1st.  
+**Recoveries per Long Rest:** 7 + your Constitution modifier.  
+**Defenses:** +2 Will.  
 
 ### Proficiencies and Training
 
-**Armor:** Cloth, leather, hide, chainmail.
-**Weapons:** Simple melee, simple ranged.
-**Focuses:** Holy symbol
-**Trained Skills:** Religion and 3 others from your class skills.
-**Class Skills:** Arcana, Diplomacy, Heal, History, Insight, Religion.
+**Armor:** Cloth, leather, hide, chainmail.  
+**Weapons:** Simple melee, simple ranged.  
+**Focuses:** Holy symbol  
+**Trained Skills:** Religion and 3 others from your class skills.  
+**Class Skills:** Arcana, Diplomacy, Heal, History, Insight, Religion.  
 
 ### Features
 
@@ -216,13 +216,13 @@ You gain the ability to channel divine energy directly from your deity, using th
 When you use your Channel Divinity, you choose which effect to create. You can use Channel Divinity once per encounter, however many powers you learn that are usable through Channel Divinity (although see Action Recharge).
 
 > #### Censure Undead
-> *You present your holy symbol and speak a prayer censuring the undead.*
-> **Encounter** **Standard Action**
-> **Cleric Attack Feature** ● **Divine, Focus, Radiant**
-> **Near** burst 2 (Level 11: 5; Level 21: 8), all undead
-> **Attack:**  Wisdom vs Will
-> **Hit:**  1d8 + Wisdom modifier radiant damage. Target is pushed 3 + your Charisma modifier and immobile until the end of your next turn.
-> *Level 5:* 2d8 + Wisdom modifier damage; *Level 11:* 3d8 + Wisdom modifier damage; *Level 15:* 4d8 + Wisdom modifier damage; *Level 21:* 5d8 + Wisdom modifier damage; *Level 25:* 6d8 + Wisdom modifier damage.
+> *You present your holy symbol and speak a prayer censuring the undead.*  
+> **Encounter** **Standard Action ** 
+> **Cleric Attack Feature** ● **Divine, Focus, Radiant**  
+> **Near** burst 2 (Level 11: 5; Level 21: 8), all undead  
+> **Attack:**  Wisdom vs Will  
+> **Hit:**  1d8 + Wisdom modifier radiant damage. Target is pushed 3 + your Charisma modifier and immobile until the end of your next turn.  
+> *Level 5:* 2d8 + Wisdom modifier damage; *Level 11:* 3d8 + Wisdom modifier damage; *Level 15:* 4d8 + Wisdom modifier damage; *Level 21:* 5d8 + Wisdom modifier damage; *Level 25:* 6d8 + Wisdom modifier damage.  
 > **Miss:**  Half damage. Target is pushed squares equal to your Charisma modifier.
 
 #### Infuse with Life
