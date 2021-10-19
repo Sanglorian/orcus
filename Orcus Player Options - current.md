@@ -14,6 +14,10 @@ Orcus is a work in progress. All feedback is welcome.
 
 ![Compatible with Fourth Edition](Compatible with Fourth Edition.png)
 
+* TOC
+{:toc}
+
+
 # Ancestries
 
 ## Ancestry Traits

@@ -14,6 +14,10 @@ Orcus is a work in progress. All feedback is welcome.
 
 ![Compatible with Fourth Edition](Compatible with Fourth Edition.png)
 
+* TOC
+{:toc}
+
+
 # Monster Statistics
 
 A monster has a rank, a role, a source, a type, tags and a level. For example, a giant frog might be a Standard Lurker (rank and role), Natural Beast (source and type), with the Aquatic tag, and be level 4.

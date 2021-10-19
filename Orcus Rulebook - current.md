@@ -11,6 +11,10 @@ Orcus is a work in progress. All feedback is welcome.
 
 ![Compatible with Fourth Edition](Compatible with Fourth Edition.png)
 
+* TOC
+{:toc}
+
+
 # Glossary of New Terms
 
 What follows are terms that might be unfamiliar even to experienced gamers.

@@ -14,6 +14,10 @@ Orcus is a work in progress. All feedback is welcome.
 
 ![Compatible with Fourth Edition](D:/Google Drive/Obsidian/Tabletop games/d20 System or D&D-esque/2021 Orcus - 4E clone/GitHub/orcus/Compatible with Fourth Edition.png)
 
+* TOC
+{:toc}
+
+
 # Advanced Combat
 ## Mounted Combat
 
