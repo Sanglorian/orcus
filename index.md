@@ -1,5 +1,9 @@
 A retroclone of 4th Edition
 
+```
+* Placeholder for Table of Content (Must not be removed) <newline> {:toc}
+```
+
 Version 0.5 (Alpha)
 
 * Orcus Rulebook ([PDF](/raw/main/Orcus%20Rulebook%20-%20current.pdf), [Markdown](Orcus Rulebook - current.md))
