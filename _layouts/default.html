@@ -21,8 +21,7 @@
           {% endif %}
 
           <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-
+          
           {% if site.show_downloads %}
             <section id="downloads">
               <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
@@ -36,7 +35,7 @@
     {% for p in navigation_pages %}
       {% if p.navigation_weight %}
         <li>
-          <a href="{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
+          <a href="orcus/{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
             {{ p.title }}
           </a>
         </li>
