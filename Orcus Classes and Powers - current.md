@@ -222,7 +222,7 @@ When you use your Channel Divinity, you choose which effect to create. You can u
 
 > #### Censure Undead  
 > *You present your holy symbol and speak a prayer censuring the undead.*    
-> **Encounter Standard Action **   
+> **Encounter Standard Action**   
 > **Cleric Attack Feature** ● **Divine, Focus, Radiant**    
 > **Near** burst 2 (Level 11: 5; Level 21: 8), all undead    
 > **Attack:**  Wisdom vs Will    
