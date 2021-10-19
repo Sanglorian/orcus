@@ -158,6 +158,8 @@ The first time in an encounter that you use a power, you gain a bonus based on t
 #### Lift Spirits  
 You can use the *lift spirits* power two times each encounter. *Level 16:* Three times per encounter.  
 
+
+
 >  ### Lift Spirits  
 >  
 > **Encounter** **Swift Action**  
@@ -220,7 +222,7 @@ When you use your Channel Divinity, you choose which effect to create. You can u
 
 > #### Censure Undead  
 > *You present your holy symbol and speak a prayer censuring the undead.*    
-> **Encounter** **Standard Action **   
+> **Encounter Standard Action **   
 > **Cleric Attack Feature** ● **Divine, Focus, Radiant**    
 > **Near** burst 2 (Level 11: 5; Level 21: 8), all undead    
 > **Attack:**  Wisdom vs Will    
@@ -292,21 +294,28 @@ Martial Defender
 ### Features  
 #### Guard's Challenge  
 When you hit or miss a target with an attack, you may mark them until the end of your next turn.  
+
 #### Punish Cowardice  
 *Trigger:* An adjacent creature you have marked shifts or makes an attack that does not include you.  
 *Action:* Immediate (Counter)  
 *Effect:* Make a basic melee attack against the triggering creature.  
+
 #### Veteran Opportunist  
 Add your Wisdom modifier to your attack rolls when making opportunity attacks.  
+
 #### Block Retreat  
 *Trigger:* A creature is hit by your opportunity attack, and the opportunity attack was provoked by movement.  
 *Effect:* Their movement stops for this action. They may attempt to move again using another action, if applicable.  
 
-### Talents  
+### Talents
+
 Choose one at character creation.   
+
 * **Great Weapon Style:** Your secondary ability is Constitution. You get a +1 bonus on attack rolls with two-handed weapons.  
-* **Protection:** Your secondary ability is Dexterity OR Wisdom (your choice). You get a +1 bonus on attack rolls with one-handed weapons.  
-### Powers  
+* **Protection:** Your secondary ability is Dexterity OR Wisdom (your choice). You get a +1 bonus on attack rolls with one-handed weapons.
+
+### Powers
+
 You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline's key ability with Strength instead. You can replace any reference to the discipline's secondary ability with the secondary ability linked to your talent.  
 
 **Class Disciplines:** Art of War, Juggernautical.  
@@ -411,7 +420,8 @@ Choose one at character creation.
 * **Illusion Specialist:** Your secondary ability is Constitution. You can use the *blurring sigil* power.  
 * **Martyr Specialist:** Your secondary ability is Dexterity. You can use the *vortex sigil* power.  
 * **Punishment Specialist:** Your secondary ability is Charisma. You can use the *fiery sigil* power.  
-* **Rush Specialist:** Your secondary ability is Strength. You can use the *beacon sigil* power.  
+* **Rush Specialist:** Your secondary ability is Strength. You can use the *beacon sigil* power.
+
 > #### Beacon Sigil  
 > **At-Will** **Immediate (React) Action**  
 > **Mageblade Utility 1** ● **Arcane, Weapon, Teleport**  
@@ -760,8 +770,10 @@ Medium Natural Beast
 ___
 
 **AC:** 14 + your level; **Fort:** 10 + your level, **Ref:** 12 + your level, **Will** 14 + your level  
-**HP:** your staggered value, can use your recoveries  
+**HP:** your staggered value, can use your recoveries 
+
 ___
+
 **Speed** 5, climb 5  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Fist** (standard, at-will)    
 your level +4; 1d8 + your level damage.   
@@ -775,13 +787,15 @@ Ranged 5/10; your level +4; 1d8 + your level damage.
 Small Natural Automaton  
 **Senses:**  low-light vision  
 **Skills:** Nature +7 + half your level  
-**Str** 16, **Con** 12, **Dex** 14, **Int** 2, **Wis** 14, **Cha** 10  
+**Str** 16, **Con** 12, **Dex** 14, **Int** 2, **Wis** 14, **Cha** 10 
 
 ___
 
 **AC:** 13 + your level; **Fort:** 14 + your level, **Ref:** 10 + your level, **Will** 11 + your level  
-**HP:** your staggered value, can use your recoveries  
+**HP:** your staggered value, can use your recoveries 
+
 ___
+
 **Speed** 5  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Branch** (standard, at-will) ● Weapon  
 +3 + your level; 1d10 + your level   
@@ -792,12 +806,15 @@ ___
 Medium Natural Beast  
 **Senses:**  low-light vision  
 **Skills:** Endure +7 + half your level, Intimidate +5 + half your level  
-**Str** 16, **Con** 14, **Dex** 14, **Int** 2, **Wis** 12, **Cha** 10  
+**Str** 16, **Con** 14, **Dex** 14, **Int** 2, **Wis** 12, **Cha** 10
+
 ___
 
 **AC:** 14 + your level; **Fort:** 12 + your level, **Ref:** 10 + your level, **Will** 12 + your level  
-**HP:** your staggered value, can use your recoveries  
+**HP:** your staggered value, can use your recoveries 
+
 ___
+
 **Speed** 5  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Bite** (standard, at-will)  
 +2 + your level; 1d12 + your level   
@@ -814,14 +831,15 @@ Medium Fey Beast
 ___
 
 **AC:** 14 + your level; **Fort:** 10 + your level, **Ref:** 14 + your level, **Will** 10 + your level  
-**HP:** your staggered value, can use your recoveries  
+**HP:** your staggered value, can use your recoveries 
+
 ___
+
 **Speed** 6, teleport 3  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Bite** (standard, at-will)  
 +4 + your level; 1d8 + your level   
  **Jolt Back**     
-After the animal companion is hit by an attack, and the attack is fully resolved, it can teleport 2.   
-
+After the animal companion is hit by an attack, and the attack is fully resolved, it can teleport 2.
 
 ### Boar/Buffalo/Bull/Yak  
 
@@ -829,12 +847,15 @@ After the animal companion is hit by an attack, and the attack is fully resolved
 Medium Natural Beast  
 **Senses:**  low-light vision  
 **Skills:** Endure +6 + half your level, Nature +7 + half your level  
-**Str** 16, **Con** 12, **Dex** 14, **Int** 2, **Wis** 14, **Cha** 10  
+**Str** 16, **Con** 12, **Dex** 14, **Int** 2, **Wis** 14, **Cha** 10 
+
 ___
 
 **AC:** 14 + your level; **Fort:** 14 + your level, **Ref:** 10 + your level, **Will** 10 + your level  
-**HP:** your staggered value, can use your recoveries  
+**HP:** your staggered value, can use your recoveries 
+
 ___
+
 **Speed** 6  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Tusk** (standard, at-will)  
 +4 + your level; 1d8 + your level   
@@ -846,12 +867,15 @@ ___
 **Animal Companion**   
 Small Natural Beast  
 **Senses:**  darkvision, blindsight 6  
-**Str** 14, **Con** 16, **Dex** 12, **Int** 2, **Wis** 14, **Cha** 10  
+**Str** 14, **Con** 16, **Dex** 12, **Int** 2, **Wis** 14, **Cha** 10 
+
 ___
 
 **AC:** 14 + your level; **Fort:** 10 + your level, **Ref:** 14 + your level, **Will** 12 + your level  
-**HP:** your staggered value, can use your recoveries  
+**HP:** your staggered value, can use your recoveries 
+
 ___
+
 **Speed** 2, fly 6  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Bite** (standard, at-will)  
 +4 + your level; 1d6 + your level   
@@ -862,12 +886,15 @@ ___
 Small Natural Beast  
 **Senses:**  low-light vision  
 **Skills:** Perception +7 + half your level, Stealth +6 + half your level  
-**Str** 14, **Con** 16, **Dex** 12, **Int** 2, **Wis** 14, **Cha** 10  
+**Str** 14, **Con** 16, **Dex** 12, **Int** 2, **Wis** 14, **Cha** 10 
+
 ___
 
 **AC:** 14 + your level; **Fort:** 10 + your level, **Ref:** 14 + your level, **Will** 12 + your level  
-**HP:** your staggered value, can use your recoveries  
+**HP:** your staggered value, can use your recoveries 
+
 ___
+
 **Speed** 2, fly 8  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Claw** (standard, at-will)  
 +4 + your level; 1d6 + your level   
@@ -878,12 +905,15 @@ ___
 Medium Natural Beast  
 **Senses:**  darkvision  
 **Skills:** Athletics +7 + half your level, Stealth +6 + half your level  
-**Str** 14, **Con** 16, **Dex** 12, **Int** 2, **Wis** 14, **Cha** 10  
+**Str** 14, **Con** 16, **Dex** 12, **Int** 2, **Wis** 14, **Cha** 10 
+
 ___
 
 **AC:** 14 + your level; **Fort:** 12 + your level, **Ref:** 14 + your level, **Will** 10 + your level  
-**HP:** your staggered value, can use your recoveries  
+**HP:** your staggered value, can use your recoveries 
+
 ___
+
 **Speed** 5, climb 5  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Bite** (standard, at-will)  
 +3 + your level; 1d8 + your level   
@@ -894,13 +924,15 @@ ___
 Medium Natural Beast  
 **Senses:**  low-light vision  
 **Skills:** Stealth +6 + half your level  
-**Str** 16, **Con** 16, **Dex** 12, **Int** 2, **Wis** 12, **Cha** 10  
+**Str** 16, **Con** 16, **Dex** 12, **Int** 2, **Wis** 12, **Cha** 10 
 
 ___
 
 **AC:** 12 + your level; **Fort:** 10 + your level, **Ref:** 14 + your level, **Will** 12 + your level  
-**HP:** your staggered value, can use your recoveries  
+**HP:** your staggered value, can use your recoveries 
+
 ___
+
 **Speed** 5, swim 5  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Bite** (standard, at-will)  
 +3 + your level; 1d8 + your level   
@@ -913,13 +945,15 @@ The animal companion's opportunity attacks also do 2 persistent poison damage (s
 Medium Natural Beast  
 **Senses:**  darkvision  
 **Skills:** Athletics +7 + half your level, Stealth +6 + half your level  
-**Str** 14, **Con** 16, **Dex** 12, **Int** 2, **Wis** 14, **Cha** 10  
+**Str** 14, **Con** 16, **Dex** 12, **Int** 2, **Wis** 14, **Cha** 10
 
 ___
 
 **AC:** 14 + your level; **Fort:** 12 + your level, **Ref:** 14 + your level, **Will** 10 + your level  
-**HP:** your staggered value, can use your recoveries  
+**HP:** your staggered value, can use your recoveries 
+
 ___
+
 **Speed** 5, climb 5  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Bite** (standard, at-will)  
 +3 + your level; 1d8 + your level   
@@ -934,13 +968,15 @@ Reach 2; +3 + your level; 1d8 + your level and pull 1.
 Large Natural Beast  
 **Senses:** Perception   
 **Skills:** Endure +6 + half your level  
-**Str** 16, **Con** 12, **Dex** 14, **Int** 2, **Wis** 14, **Cha** 10  
+**Str** 16, **Con** 12, **Dex** 14, **Int** 2, **Wis** 14, **Cha** 10 
 
 ___
 
 **AC:** 14 + your level; **Fort:** 14 + your level, **Ref:** 10 + your level, **Will** 10 + your level  
-**HP:** your staggered value, can use your recoveries  
+**HP:** your staggered value, can use your recoveries 
+
 ___
+
 **Speed** 6  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Hoof** (standard, at-will)  
 +4 + your level; 1d10 + your level   
@@ -951,13 +987,15 @@ ___
 Medium Natural Beast  
 **Senses:**  low-light vision  
 **Skills:** Endure +8 + half your level, Nature +6 + half your level  
-**Str** 14, **Con** 16, **Dex** 14, **Int** 2, **Wis** 12, **Cha** 10  
+**Str** 14, **Con** 16, **Dex** 14, **Int** 2, **Wis** 12, **Cha** 10 
 
 ___
 
 **AC:** 12 + your level; **Fort:** 12 + your level, **Ref:** 12 + your level, **Will** 12 + your level  
-**HP:** your staggered value, can use your recoveries  
+**HP:** your staggered value, can use your recoveries 
+
 ___
+
 **Speed** 8  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Bite** (standard, at-will)  
 +3 + your level; 1d8 + your level   
@@ -971,13 +1009,15 @@ The animal companion does +2 damage when it has combat advantage against the tar
 Medium Natural Beast  
 **Senses:**  low-light vision  
 **Skills:** Athletics +7 + half your level, Stealth +6 + half your level  
-**Str** 14, **Con** 16, **Dex** 12, **Int** 2, **Wis** 14, **Cha** 10  
+**Str** 14, **Con** 16, **Dex** 12, **Int** 2, **Wis** 14, **Cha** 10 
 
 ___
 
 **AC:** 14 + your level; **Fort:** 10 + your level, **Ref:** 14 + your level, **Will** 10 + your level  
-**HP:** your staggered value, can use your recoveries  
+**HP:** your staggered value, can use your recoveries 
+
 ___
+
 **Speed** 7  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Bite** (standard, at-will)   
 +4 + your level; 1d6 + your level   
@@ -2525,13 +2565,16 @@ The Cantrips "discipline" is really a collection of powers that can be selected 
 
 **Level 1 Summoned Creature**   
 Small Outsider Monstrosity (Demon)  
-**Senses:** darkvision  
+**Senses:** darkvision 
+
 ___
 
 **Defenses:** your defenses   
 **HP:** your recovery value, can use your recoveries  
-**Resistance to:** poison 5  
+**Resistance to:** poison 5 
+
 ___
+
 **Speed** 4, jump 4  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Bite** (standard, at-will) ● Poison  
 your level +4 vs. AC; 1d8 + Charisma modifier poison damage.   
@@ -2544,12 +2587,16 @@ At the end of your turn, if the demon toad has not received a command that turn,
 
 **Level 1 Summoned Creature**   
 Small Outsider Humanoid (Demon )  
-**Senses:** darkvision  
+**Senses:** darkvision 
+
 ___
+
 **Defenses:** your defenses   
 **HP:** your recovery value, can use your recoveries  
-*Curse (Psychic) aura 1:* Each time a creature in the aura misses on an attack, it takes 1d8 + your Charisma modifier psychic damage.  
+*Curse (Psychic) aura 1:* Each time a creature in the aura misses on an attack, it takes 1d8 + your Charisma modifier psychic damage. 
+
 ___
+
 **Speed** 6, fly 2  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Festering Claws** (standard, at-will) ● Poison  
 your level +6 vs. AC; Target takes 5 persistent poison damage (save ends).   
@@ -2588,13 +2635,16 @@ At the end of your turn, if the hopping imp has not received a command that turn
 
 **Level 5 Summoned Creature**   
 Medium Outsider Humanoid (Demon, Fire)  
-**Senses:** darkvision  
+**Senses:** darkvision 
+
 ___
 
 **Defenses:** your defenses   
 **HP:** your staggered value, can use your recoveries  
-**Resistance to:** fire 10, **Vulnerability to:** cold 10  
+**Resistance to:** fire 10, **Vulnerability to:** cold 10 
+
 ___
+
 **Speed** fly 4 (hover, max altitude 2)  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Flickers of Flame** (standard, at-will) ● Fire  
 your level +4 vs. Reflex; 1d6 + Charisma modifier fire damage. *Miss:* Random creature adjacent to burner demon takes 1d6 + Charisma modifier fire damage.   
@@ -2607,13 +2657,16 @@ At the end of your turn, if the burner demon has not received a command that tur
 
 **Level 5 Summoned Creature**   
 Medium Outsider Beast (Demon)  
-**Senses:** darkvision  
+**Senses:** darkvision 
+
 ___
 
 **Defenses:** your defenses   
 **HP:** your staggered value, can use your recoveries  
-**Resistance to:** fire 10, **Vulnerability to:** cold 10  
+**Resistance to:** fire 10, **Vulnerability to:** cold 10 
+
 ___
+
 **Speed** 8  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Savage Bite** (standard, at-will) ● Fire  
 your level +4 vs. AC; 2d6 + Charisma modifier fire damage. *Miss:* Make a *fiery breath* attack as a free action, if available.   
@@ -2653,13 +2706,16 @@ At the end of your turn, if the hellhound has not received a command that turn, 
 
 **Level 9 Summoned Creature**   
 Large Outsider Humanoid (Demon)  
-**Senses:** darkvision  
+**Senses:** darkvision 
+
 ___
 
 **Defenses:** your defenses   
 **HP:** your staggered value, can use your recoveries  
-*Demonic Stench aura 1:* Creatures in the aura cannot heal.  
+*Demonic Stench aura 1:* Creatures in the aura cannot heal. 
+
 ___
+
 **Speed** 8, jump 4  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Meaty, Clawed Hands** (standard, at-will)    
 your level +6 vs. AC; 1d8 + Charisma modifier and the target is grappled.   
@@ -2672,13 +2728,16 @@ At the end of your turn, if the hezrou has not received a command that turn, it 
 
 **Level 9 Summoned Creature**   
 Medium Outsider Monstrosity (Demon)  
-**Senses:** darkvision  
+**Senses:** darkvision 
+
 ___
 
 **Defenses:** your defenses   
 **HP:** your staggered value, can use your recoveries  
-*Chomp and Chew aura 1:* Targets take 10 persistent damage (save ends).  
+*Chomp and Chew aura 1:* Targets take 10 persistent damage (save ends). 
+
 ___
+
 **Speed** 6  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Big Chomp** (standard, at-will)    
 your level +4 vs. AC; 2d6 + Charisma modifier damage.   
@@ -2690,12 +2749,15 @@ At the end of your turn, if the hellhound has not received a command that turn, 
 
 **Level 9 Summoned Creature**   
 Large Outsider Monstrosity (Demon)  
-**Senses:** darkvision  
+**Senses:** darkvision 
+
 ___
 
 **Defenses:** your defenses   
-**HP:** your staggered value, can use your recoveries  
+**HP:** your staggered value, can use your recoveries 
+
 ___
+
 **Speed** 6, fly 8  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Filth Covered Claws** (standard, at-will) ● Poison  
 your level +6 vs. AC; 1d8 + Charisma modifier damage and 5 persistent poison damage.   
@@ -2736,13 +2798,16 @@ At the end of your turn, if the vulture demon has not received a command that tu
 
 **Level 15 Summoned Creature**   
 Large Outsider Humanoid (Demon, Fire)  
-**Senses:** darkvision  
+**Senses:** darkvision 
+
 ___
 
 **Defenses:** your defenses   
 **HP:** your staggered value, can use your recoveries  
-**Resistance to:** fire 15, **Vulnerability to:** cold 15  
+**Resistance to:** fire 15, **Vulnerability to:** cold 15 
+
 ___
+
 **Speed** fly 8 (hover, max altitude 3)  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Flickers of Flame** (standard, at-will) ● Fire  
 Reach 2; your level +4 vs. Reflex; 3d6 + Charisma modifier fire damage. *Miss:* Random creature adjacent to big burner takes 2d6 + Charisma modifier fire damage.   
@@ -2788,12 +2853,15 @@ At the end of your turn, if the big burner has not received a command that turn,
 
 **Level 19 Summoned Creature**   
 Large Outsider Humanoid (Demon)  
-**Senses:** darkvision  
+**Senses:** darkvision 
+
 ___
 
 **Defenses:** your defenses   
-**HP:** your staggered value, can use your recoveries  
+**HP:** your staggered value, can use your recoveries 
+
 ___
+
 **Speed** 5, fly 8  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Musky Claw** (standard, at-will)    
 your level +4 vs. AC; 1d10 + Charisma modifier damage.   
@@ -2802,20 +2870,22 @@ Near arc 2; your level +4 vs. Reflex; 1d8 + Charisma modifier necrotic and light
  **Horror Nimbus** (immediate (react), encounter)    
 When the boar demon is reduced to 0 HP or below, it is destroyed. *Secondary Attack:* Near burst 2; your level +4 vs. Reflex; the target is pushed 2 and dazed (save ends)   
  **Instinct**     
-At the end of your turn, if the boar demon has not received a command that turn, it falls to 0 HP and triggers *horror nimbus*.   
-
+At the end of your turn, if the boar demon has not received a command that turn, it falls to 0 HP and triggers *horror nimbus*. 
 
 ### Frenzy Demon  
 
 **Level 19 Summoned Creature**   
 Medium Outsider Humanoid (Demon)  
-**Senses:** darkvision  
+**Senses:** darkvision 
+
 ___
 
 **Defenses:** your defenses   
 **HP:** your staggered value, can use your recoveries  
-*Aura of Frustration aura 3:* Each time a creature within the aura misses on an attack roll, the frenzy demon gets a +2 bonus to its next attack roll.  
+*Aura of Frustration aura 3:* Each time a creature within the aura misses on an attack roll, the frenzy demon gets a +2 bonus to its next attack roll. 
+
 ___
+
 **Speed** 8  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Claw** (standard, at-will)    
 your level vs. AC; 1d12 + Charisma modifier damage.   
@@ -2828,12 +2898,15 @@ At the end of your turn, if the frenzy demon has not received a command that tur
 
 **Level 19 Summoned Creature**   
 Huge Outsider Humanoid (Demon)  
-**Senses:** darkvision  
+**Senses:** darkvision 
+
 ___
 
 **Defenses:** your defenses   
-**HP:** your staggered value, can use your recoveries  
+**HP:** your staggered value, can use your recoveries 
+
 ___
+
 **Speed** 6  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Pincer** (standard, at-will)    
 your level +6 vs. AC; 2d8 + Charisma modifier damage.   
@@ -2874,13 +2947,16 @@ At the end of your turn, if the pincer demon has not received a command that tur
 
 **Level 25 Summoned Creature**   
 Large Outsider Humanoid (Demon )  
-**Senses:** darkvision  
+**Senses:** darkvision 
+
 ___
 
 **Defenses:** your defenses   
 **HP:** your staggered value, can use your recoveries  
-*Aura of Mockery aura 3:* A creature within the aura that fails a saving throw takes 15 damage.  
+*Aura of Mockery aura 3:* A creature within the aura that fails a saving throw takes 15 damage. 
+
 ___
+
 **Speed** 8  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Tooth and Claw** (standard, at-will)    
 your level +6 vs. AC; 2d8 + Charisma modifier damage, and a creature adjacent to the target takes 1d8 + Charisma modifier damage.   
@@ -2906,15 +2982,17 @@ At the end of your turn, if the laughing demon has not received a command that t
 
 **Level 29 Summoned Creature**   
 Large Outsider Humanoid (Demon, Fire)  
-**Senses:** darkvision, trueseeing  
+**Senses:** darkvision, trueseeing 
+
 ___
 
 **Defenses:** your defenses +2  
 **HP:** your staggered value, can use your recoveries  
 **Resistance to:** fire 15, necrotic 15, **Vulnerability to:** cold 15  
-*Aura of Flame (Fire) aura 2:* A creature that enters or begins its turn in the aura takes 20 fire damage.  
+*Aura of Flame (Fire) aura 2:* A creature that enters or begins its turn in the aura takes 20 fire damage. 
 
 ___
+
 **Speed** 6, fly 12  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Longsword** (standard, at-will) ● Fire, Necrotic, Weapon  
 Reach 2; your level +6 vs. AC; 2d12 + Charisma modifier fire and necrotic damage.   
@@ -2931,13 +3009,16 @@ At the end of your turn, if the balor has not received a command that turn, it m
 
 **Level 29 Summoned Creature**   
 Large Outsider Humanoid (Demon)  
-**Senses:** darkvision  
+**Senses:** darkvision 
+
 ___
 
 **Defenses:** your defenses +2  
 **HP:** your staggered value, can use your recoveries  
-*Wall of Steel aura 2:* A creature that leaves the aura takes 15 damage.  
+*Wall of Steel aura 2:* A creature that leaves the aura takes 15 damage. 
+
 ___
+
 **Speed** 8  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Sword** (standard, at-will) ● Weapon  
 Reach 2; your level +6 vs. AC; 2d8 + Charisma modifier damage.   
