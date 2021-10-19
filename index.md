@@ -1,5 +1,6 @@
 A retroclone of 4th Edition
 
+* TOC
 {:toc}
 
 Version 0.5 (Alpha)
