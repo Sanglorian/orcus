@@ -2,6 +2,7 @@
 layout: default
 title: Advanced Options
 navigation_weight: 5
+footer: ${pageNo}
 ---
 
 * TOC  
@@ -1102,19 +1103,19 @@ The knight is granted lands of their own for which they are responsible.
 
 The man-at-arms has one recovery (levels 1-10), two recoveries (levels 11-20) or three recoveries (levels 21-30).   
 
-***Aristocratic Mien +2***   
+***Aristocratic Mien +2***.
 
-***Look Out, Sir***. If you are a target of an attack, an adjacent ally who is not a target of the attack can choose to replace you as a target as a free action.   
+***Look Out, Sir***. If you are a target of an attack, an adjacent ally who is not a target of the attack can choose to replace you as a target as an immediate (counter) action.   
 
 ***Knightly Expectations +5***.   
 
 ### Helpful  
 
-The knight gains a "licence to crenellate", entitling them to build a castle (or to fortify their existing residence).   
+The knight gains a "license to crenellate", entitling them to build a castle (or to fortify their existing residence).   
 
 ***Binding Oath***.   
 
-***Aristocratic Mien +3***  
+***Aristocratic Mien +3***. 
 
 ***Squire***. You are accompanied on adventures by a squire, a blocker whose level equals yours -2 (if you are not yet 3rd-level, you do not get this feature). The squire does not get their own actions; you can spend an action to "command" the squire, who takes the same action. For example, you may spend your standard action and move action to get the squire to walk adjacent to an enemy and make a basic attack.   
 
@@ -1128,7 +1129,9 @@ The squire has one recovery (levels 1-10), two recoveries (levels 11-20) or thre
 
 ### Moving On  
 
-While a player character may well remain a knight for the rest of their life, they may still give up this bond by travelling far away from their lands, by rising to a higher rank with different duties, by leaving their domain in the care of a spouse or regent, and so on. Alternatively, they may actually be stripped of their knighthood - perhaps they lied about their pedigree, they were falsely (or fairly) accused of unchivalrous behaviour or there has been a revolution.   
+While a player character may well remain a knight for the rest of their life, they may still give up this bond by travelling far away from their lands, by rising to a higher rank with different duties, by leaving their domain in the care of a spouse or regent, and so on. 
+
+Alternatively, they may actually be stripped of their knighthood - perhaps they lied about their pedigree, they were falsely (or fairly) accused of unchivalrous behaviour or there has been a revolution.   
 
 ## Tyrfing  
 Prestige-tier bond  
@@ -1193,7 +1196,7 @@ Example ways a character may gain or lose Tyrfing Favor:
 
 Only when the player character has exhausted their capability for bloodletting, or when Tyrfing senses the opportunity for even greater slaughter in other hands, will Tyrfing move on willingly. 
 
-If a creature could deliver a killing blow to the player character but shows them mercy instead, the player character can cast aside Tyrfing.    
+If a creature could deliver a killing blow to the player character but shows them mercy instead, the player character can cast aside Tyrfing of their own free will.    
 
 # Traps  
 

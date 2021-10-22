@@ -390,4 +390,6 @@ The Grand OGL Wiki, http://grandwiki.wikidot.com Copyright 2008-2009 Purple  Duc
 
 The Iconic Bestiary, Volume 1 Copyright 2005, Lions Den Press; Author Ari Marmell
 
+Phrenic Power: Phrenic Shards ©2008 Dreamscarred Press
+
 END OF LICENSE

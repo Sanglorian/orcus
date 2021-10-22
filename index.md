@@ -6,7 +6,7 @@ navigation_weight: 0
 
 Version 0.5 (Alpha)
 
-* [Rulebook](Orcus Rulebook - current.md) ([PDF](/raw/main/Orcus%20Rulebook%20-%20current.pdf))
+* [Rulebook](Orcus Rulebook - current.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Rulebook%20-%20current.pdf))
 * [Player Options](Orcus Player Options - current.md) (ancestries, skills, feats, equipment, magic items) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Player%20Options%20-%20current.pdf))
 * [Classes and Powers](Orcus Classes and Powers - current.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Classes%20and%20Powers%20-%20current.pdf))
 * [Monsters](Orcus Monsters - current.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Monsters%20-%20current.pdf))

@@ -2,6 +2,7 @@
 layout: default
 title: Player Options
 navigation_weight: 3
+footer: ${pageNo}
 ---
 
 # Player Options

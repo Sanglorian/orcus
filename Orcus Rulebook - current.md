@@ -2,6 +2,7 @@
 layout: default
 title: Rulebook
 navigation_weight: 1
+footer: ${pageNo}
 ---
 
 # Rulebook

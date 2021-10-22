@@ -2,6 +2,7 @@
 layout: default
 title: Monsters
 navigation_weight: 4
+footer: ${pageNo}
 ---
 
 # Monsters  
