@@ -3364,7 +3364,7 @@ ___
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'> 🏹 </span> **Longbow** (standard, at-will) ● Weapon  
 Range 20; +11 vs AC; 11 damage.   
  💥 **Charm** (standard, encounter) ● Psychic, Charm  
-+11 vs Will; Dazed (save ends).   
++11 vs Will; dazed (save ends).   
 
 
 ### Ophiduan - Anguineum Caste  
@@ -3395,11 +3395,11 @@ ___
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'> 🏹 </span> **Longbow** (standard, at-will) ● Weapon  
 Range 20; +11 vs AC; 3d8+7 damage.   
  💥 **Charm** (swift, encounter) ● Psychic, Charm  
-+11 vs Will; Dazed (save ends).   
++11 vs Will; dazed (save ends).   
  💣 **Hypnotism** (standard, encounter) ● Psychic, Charm  
 Far burst 1, range 10; +11 vs Will; 3d8+7 psychic damage and dazed (save ends).   
- 💥 **Spit Poison** (standard, refresh 5, 6) ● Poison  
-Near blast 3; +11 vs Fortitude; 3d8+7 poison damage and persistent poison damage 5 (save ends). *Secondary Attack:* Once target makes save against poison damage, they are blind (save ends).   
+ 💥 **Spit Poison** (immediate (react), refresh 5, 6) ● Poison  
+Triggered when the anguineum hits with an attack; Near blast 3; +11 vs Fortitude; 3d8+7 poison damage and persistent poison damage 5 (save ends). *Secondary Attack:* Once target makes save against poison damage, they are blind (save ends).   
 
 # Plane of Shadow  
 
@@ -3790,13 +3790,12 @@ ___
 
 ___
 
-
 **Speed** 8, burrow 8  
 <span style='height: 25px; width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:inline-block;'>⚔️</span> **Bite** (standard, at-will)   
 Reach 2; +15 vs. AC; 2d8+6 damage, and the target is knocked prone   
  ⚔️ **Death from Below** (standard, at-will)   
 The wurm moves below the surface up to its burrow speed, avoiding opportunity attacks, and then bursts up from the ground and makes a bite attack with combat advantage: +17 vs. AC; 2d8+6 damage, and the target is grappled.   
- 💥 **Acidic Spew** (standard, refresh 4, 5, 6) ● Acid  
+ 💥 **Acidic Spew** (swift, refresh 4, 5, 6) ● Acid  
 Far burst 1 (range 10); +15 vs. AC; 1d8+5 damage.   
 
 ### Phrenic Scourge  
@@ -3825,13 +3824,13 @@ ___
 
 **Speed** 6 (compress), burrow 3, climb 6  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Tendril Cluster** (standard, at-will)    
-+13 vs AC; 3d10+7 psychic damage.   
- ⚔️ **Implant Larva** (standard, refresh 5, 6) ● Psychic, Disease  
-+13 vs Will; 3d10+7 psychic damage and the target takes 10 persistant psychic damage (save ends).   
- 💣 **Sap Will** (standard, encounter) ● Psychic  
-Far burst 1 within 6; +13 vs Will; Target is stunned (save ends).   
- 🏹 **Suggestion** (standard, encounter) ● Psychic, Charm  
-Range 10, +13 vs Will; Target is dominated (save ends).   
++13 vs AC; 3d10+7 psychic damage and the target is grabbed.   
+ ⚔️ **Implant Larva** (swift, refresh 5, 6) ● Psychic, Disease  
+Target must be grabbed; +13 vs Will; grab ends; 3d10+7 psychic damage and the target is dominated (save ends).   
+🏹 **Suggestion** (swift, encounter) ● Psychic, Charm  
+Range 10, +13 vs Will; 2d10+7 psychic damage and slide target 5.   
+💣 **Sap Will** (standard, encounter) ● Psychic  
+Far burst 1 within 6; +13 vs Will; target is stunned (save ends).   
  💣 **Mandatory Slumber** (standard, at-will) ● Psychic  
 Far burst 1, range 6, +13 vs Will; 2d10+7 psychic damage and the target is knocked prone.   
  **Teleport** (move, encounter) ● Teleportation  
@@ -3924,8 +3923,8 @@ Near arc 6, +13 vs Will; Choose one. You cannot choose one that you have used si
 8. *Sleep:* +13 vs Will; 2d10+7 psychic damage and knocked down (save ends).  
 
  **All-Out** (standard, encounter)    
-Use two gaze attacks, chosen randomly.   
- **Lash Out** (immediate (react), refresh 5, 6)    
+Use two gaze attacks of your choice. Refreshes when evil eye first Staggered.  
+ **Lash Out** (immediate (react), refresh 4, 5, 6)    
 Trigger: The evil eye is hit by an attack; make a gaze attack, chosen randomly.   
 
 # Appendix: Monsters by Level  
@@ -4240,9 +4239,17 @@ There are a number of special movement properties:
 
 The best way to determine good powers for a monster is to look at similar, existing monsters. However, here is some guidance about the kind of damage that powers should do, by level.   
 
-For each power you design, identify whether it has a single target or two or more targets, and whether it is usable at-will or less frequently (for the purpose of this table, powers usable once per encounter and usable on a refresh are counted together as "surge" powers). This determines how much damage it should do, by level.   
+For each power you design, identify whether it has a single target or two or more targets, and whether it is usable at-will or less frequently (for the purpose of this table, powers usable once per encounter and usable on a refresh are counted together as "surge" powers). This determines how much damage it should do, by level.  
+
+**Type** 
 
 Mooks deal static damage, and in general should only target one creature with each attack.   
+
+Elites should have powers that allow them to attack roughly twice as often as standard monsters. 
+
+Bosses should have powers that allow them to attack roughly four times as often as standard monsters. 
+
+**Role**
 
 Creatures with the wrecker role do bonus damage on all attacks. Mooks with the wrecker role should only add half that number to their damage.   
 
