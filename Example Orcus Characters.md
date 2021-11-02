@@ -1,3 +1,10 @@
+---
+layout: default
+title: Example Orcus Characters
+navigation_weight: 15
+footer: ${pageNo}
+---
+
 # Gir, the Sacred Clown
 
 Gir's people, the Massifi, live in the mountain spine of the Outlaw Kingdoms. Answering to no master, they fiercely protect their independence and the ancient privilege that allows the Massifi to travel the Kingdoms unaccosted and untaxed. Gir was inducted into the sacred clowning tradition as a young child, but has left his clan so he can return once he understands more of the outside world. 
