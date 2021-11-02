@@ -42,7 +42,7 @@ Each class has one or more traditions, which summarize where that class draws mo
 * **Divine:** The power of the divine is steeped in faith, the unseen, and belief in a power source from beyond the Material Plane. If your power comes from divine magic, it is granted by the gods or other higher powers. A cleric is or was part of the organized hierarchy of a religion. Paladins serve the gods directly or a cause that a god favors.   
 * **Martial:** Your power comes from strength at arms, experience in battle and training. Martial adventurers have extraordinary abilities, but they are grounded in what is humanly possible.   
 * **Spirit:** An instinctual connection to  and faith in the world, the cycle of day and night, the turning of the  seasons, and the natural selection of predator and prey drive the spirit tradition. If your power comes from the spirit tradition, it is drawn from the natural world or the spirits of the world. A barbarian is ridden by the spirits for their own purposes; a druid serves the spirits and is empowered by them as a reward. A shaman consults and calls friendly spirits.   
-  
+* **Phrenic:** The strength of psyche and emotions. The phrenic power source represents the power inherent in all sentient beings, the ability to draw forth the spark of life, that inner fire which gives strength to convictions. In some, it takes the form of extreme dedication, unusual courage, or an unbreakable discipline. But in others, it takes on physical form. Their font of power is so great that they can manipulate the world around them by using it.
 
 Each class has one or two roles, which summarize how the class most often contributes in combat.  
 
@@ -214,7 +214,7 @@ When you use your Channel Divinity, you choose which effect to create. You can u
 > #### Censure Undead  
 > *You present your holy symbol and speak a prayer censuring the undead.*    
 > **Encounter Standard Action**   
-> **Cleric Attack Feature** ● **Divine, Focus, Radiant**    
+> **Crusader Attack Feature** ● **Divine, Focus, Radiant**    
 > **Near** burst 2 (Level 11: 5; Level 21: 8), all undead    
 > **Attack:**  Wisdom vs Will    
 > **Hit:**  1d8 + Wisdom modifier radiant damage. Target is pushed 3 + your Charisma modifier and immobile until the end of your next turn.    
@@ -333,11 +333,11 @@ Martial Controller
 
 ### Features  
 
-### Double Your Efforts  
+#### Double Your Efforts  
 
 Once per round, you can use a swift action and spend a recovery. You gain no hit points; instead, you gain a standard action you must use before the end of your next turn.  
 
-### Wrong Place - Wrong Time  
+#### Wrong Place - Wrong Time  
 
 You gain the *wrong place-wrong time* power. As a free action, you can discard any unused encounter attack power and gain a use of *wrong place-wrong time*. You can only use *wrong place-wrong time* once per turn.  
 
@@ -347,7 +347,7 @@ You gain the *wrong place-wrong time* power. As a free action, you can discard a
 > **Self**   
 > **Effect:** Shift your speed and gain a +5 power bonus to AC and Reflex defense until the start of your next turn.  
 
-### Character Actor  
+#### Character Actor  
 
 At the end of each long rest, select a 1st-level at-will attack power from any discipline. You have access to that power until your next long rest.   
 
@@ -1044,6 +1044,7 @@ Kits are usually named starting with a verb, like "Dabbles in Wizardry", "Takes 
 | Name                        | Short Description                                            |  
 | --------------------------- | ------------------------------------------------------------ |  
 | Binds Familiar              | A small, intelligent creature is your companion.             |  
+| Channels Godmind | Through force of will and a connection to a higher intelligence, you gain power. |  
 | Charms Animal               | A large, powerful animal is your companion.                  |  
 | Conjures Fiends             | You can summon and control infernal beings.                  |  
 | Dabbles in Commanding       | Commander multiclass.                                        |  
@@ -1169,8 +1170,7 @@ Commander multiclass.
 
 **Called to Service (Level 1):** You belong to the Commander class (along with any other classes that you belong to), with Commander becoming your "secondary class". You gain the following benefits:  
 
-* Once per encounter, you can use the Commander's *lift spirits* power.  
-  
+* Once per encounter, you can use the Commander's *lift spirits* power.
   
 
 **Commander Skills (Level 5):** You become trained in a skill of your choice from the Commander class skills.   
@@ -1404,6 +1404,50 @@ You are a beast. Blessed with amazing stamina and brutal strength, you base your
 
 **Associated Discipline:** Juggernautical.  
 
+## Channels Godmind
+
+You can focus your mind to unlock your psychic potential. 
+
+**Psi Focus (Level 1):** You have access to psi focus, a heightened state of mental and emotional clarity, that you can utilize to augment powers with the Augmentable keyword. This psi focus, once used, must refresh, much like how certain monsters have powers that refresh at the beginning of their turn on a successful roll. Psi focus works in the exact same way, but the roll needed to refresh it depends on what kind of power it was last used to augment.  
+
+> #### Psi Focus
+> *Utilizing your phrenic power, you heighten a power or ability beyond what others could fathom.*
+> **At-Will** **Free Action**
+> **Channels Godmind Utility Feature** ● **Phrenic**
+> **Self** 
+> **Effect:** When using an Augmentable power, you activate the effect noted under the Augment: line.
+> **Special:**  *Psi focus* refreshes on a 4, 5 and 6 after using it to augment an at-will power, on a 5 and 6 after using it to augment an encounter power, and on a 6 after using it to augment a daily power. You can not use *psi focus* unless it is recharged.
+
+**Mantle (Level 5):** Once per encounter you can draw strength from your Mantle. With this powerful connection to your godmind, you can activate *focal surge* or *intensity*.
+
+> #### Focus Surge
+> *You tap into the mental connection between yourself and your Godmind, allowing you to refresh the phrenic energies of either yourself or an ally.*
+> **Mantle** **Swift Action**
+> **Channels Godmind Utility Feature** ● **Phrenic**
+> **Near** burst 5 (10 at level 11, 15 at level 21), you or an ally
+> **Effect:** The target can spend one focus surge and recharge their *psi focus*.
+
+> #### Intensity
+> *You focus on your connection with your Godmind and you become more intensely focused on your next action.*
+> **Mantle** **Swift Action**
+> **Channels Godmind Utility Feature** ● **Phrenic**
+> **Self** 
+> **Effect:** You gain a +1 bonus to your next attack and damage roll.
+
+**Focused (Level 10):** You have a number of focus surges equal to your Charisma modifier.  Your focus surges are replenished after a long rest.
+
+You can also perform the meditate action. 
+
+> **MEDITATE: STANDARD ACTION**
+>
+> You meditate for a short while, regaining your inner focus and becoming in tune with both your inner well of power and the world around you.
+>
+> - **Spend a Focus Surge:** Spend a focus surge to regain your psi focus.
+> - **+2 bonus to Will Defense:** You gain a +2 bonus to your Will Defense until the start of your next turn.
+> - **Once per Encounter:** You can meditate once per encounter and can use this action again after you take a short rest or an extended rest. Some powers (either yours or another character’s) allow you to spend focus surges without meditating.
+
+**Associated Discipline (Level 1):** Third Mind. 
+
 ## Sculpts Their Body  
 
 You can manipulate your own form - stretching, shaping and warping it as you need.   
@@ -1551,6 +1595,7 @@ Some classes specify that powers selected from class disciplines use different a
 | Spells of Ice and Fire | Dexterity       | Intelligence      | Arcane    |  
 | Starfall               | Dexterity       | Intelligence      | Martial   |  
 | Strong Bidding         | Charisma        | Wisdom            | Spirit    |  
+| Third Mind | Wisdom | Charisma | Phrenic |  
 | Veiled Moon            | Intelligence    | Dexterity         | Arcane    |  
 
 ## Art of War  
@@ -6399,6 +6444,111 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Strong Bidding Utility 19** ● **Spirit, Transmutation, Companion**  
 > **Ranged** 10, one companion  
 > **Effect:** If your companion is smaller than Medium size, it grows to Medium size. If your companion is Medium size or larger, it increases by one size category. Its maximum HP are set to your staggered value. The companion can flank. Once per round, the companion can knock an adjacent enemy prone or push it 1.  
+
+## Third Mind
+
+**Key Ability:** Wisdom.  
+**Secondary Ability:** Charisma
+
+> #### Blazing Mantle
+> *Your channel the awesome energies of your Godmind and you literally come ablaze with phrenic power.*
+> **At-Will** **Standard Action**
+> **Third Mind Attack 1** ● **Augmentable, Phrenic, Focus, Psychic**
+> **Near** burst 1, all enemies
+> **Attack:**  Wisdom vs Will
+> **Hit:**  1d6 + Wisdom modifier psychic damage.
+> Increase damage to 2d6 damage + Wisdom modifier at 21st level.
+> **Special:**  **Augment:** Push each target a number of squares equal to 1 + Charisma modifier.
+
+> #### Gaze of Aeons
+> *You allow yourself to become the outlet of your Godmind's phrenic power, reflecting in your eyes that burn with divine energy, jarring an enemy.*
+> **At-Will** **Standard Action**
+> **Third Mind Attack 1** ● **Augmentable, Phrenic, Focus, Radiant**
+> **Ranged** 5, one creature
+> **Attack:**  Wisdom vs Fortitude
+> **Hit:**  The target grants combat advantage until the end of your next turn. Any ally who hits the target with an attack before your next turn also deals radiant damage equal to your Charisma modifier.
+> **Special:**  **Augment:** As part of the initial attack, also deal 1d6 + Wisdom modifier radiant damage.
+
+> #### Unerring Guidance
+> *You ask your Godmind to guide your attacks against an enemy and your blows ring true.*
+> **Encounter** **Standard Action**
+> **Third Mind Attack 1** ● **Augmentable, Phrenic, Weapon**
+> **Melee** weapon, one creature
+> **Attack:**  Wisdom +2 vs AC
+> **Hit:**  2dW and the next ally that attacks the target gains a +2 power bonus to his or her attack roll.
+> **Special:**  **Augment:** Add your Charisma modifier to the damage and give all allies +2 to their attack rolls against the target until your next turn, instead of just the next ally.
+
+
+> #### Aura of Painful Clarity
+> *Your connection to your Godmind extends into a shining aura, empowering all with greater clarity and focus as they attack their enemies. As enemies come into it, their vulnerabilities become clear to your allies and your intense focus might burn their min*
+> **Daily** **Standard Action**
+> **Third Mind Attack 1** ● **Augmentable, Aura, Phrenic, Focus, Psychic**
+> **Near** burst 1, all creatures
+> **Effect:** Allies that begin their turn inside the aura gain a +2 power bonus to their next attack roll. Enemies inside the aura have vulnerability 2 against all attacks.
+> **Special:**  **Augment:** As a standard action, make a Wisdom vs. Will attack against each enemy inside the aura. Hit: 1d6 + your Charisma modifier psychic damage.
+
+> #### Surging Meditation
+> *You meditate, entering a state of mental clarity that allows you to heal yourself or an ally, while at the same time refreshing their mind.*
+> **Daily** **Standard Action**
+> **Third Mind Utility 2** ● **Augmentable, Phrenic, Healing**
+> **Near** burst 10, you or one ally
+> **Effect:** The target may spend one recovery and one focus surge.
+> **Special:**  **Augment:** This power is not expended when used.
+
+> #### Strike the Weakened Mind
+> *You wield your weapon in a blazing arc and as you hit, you shatter both their physical and mental selves.*
+> **Encounter** **Standard Action**
+> **Third Mind Attack 3** ● **Augmentable, Phrenic, Weapon**
+> **Melee** weapon, one creature
+> **Attack:**  Wisdom vs AC
+> **Hit:**  2dW + Wisdom modifier damage. The target also looses any psi focus they had (refresh as if spent on a daily) and takes a -2 penalty to their Will defense (save ends).
+> **Special:**  **Augment:** Before making the attack roll, this power gains the Reliable keyword.
+
+> #### Siphon the Soul
+> *You intertwine the souls and minds of one enemy and an ally of yours, siphoning away the energy of one to heal the other.*
+> **Daily** **Standard Action**
+> **Third Mind Attack 5** ● **Augmentable, Phrenic, Healing, Focus, Psychic**
+> **Ranged** 10, one creature
+> **Attack:**  Wisdom vs Will
+> **Hit:**  2d10 + Wisdom modifier psychic damage and the target is dazed (save ends).
+> **Effect:** One ally within 10 may spend a recovery.
+> **Special:**  **Augment:** Give the target a penalty on his saves against the dazed condition equal to your Charisma modifier.
+
+> #### Aura of Mending
+> *Your aura shines forth, powered by the connection to your godmind. Allies nearby regain their health and you can guide them into drawing upon inner resources.*
+> **Daily** **Swift Action**
+> **Third Mind Utility 6** ● **Augmentable, Aura, Phrenic, Healing**
+> **Near** burst 2, all allies
+> **Effect:** Every ally inside the aura at the start of their turn gains regeneration 1. While this aura is in place, you may, as a standard action, spend your *psi focus* to enable an ally within the aura to spend a recovery. Expending your psi focus in this fashion makes it refresh as after having used an encounter power.
+> **Special:**  **Augment:** Add your Charisma modifier to the number of hit points regained each time someone spends a recovery.
+
+> #### Unveiling the Godmind
+> *You stretch out your hand, creating a bridge between your godmind’s unbridled energy and the mind of a lesser creature, burning his mind and body to cinders.*
+> **Encounter** **Standard Action**
+> **Third Mind Attack 7** ● **Augmentable, Phrenic, Fear, Focus, Psychic**
+> **Melee** touch, one creature
+> **Attack:**  Wisdom vs Fortitude
+> **Hit:**  3d6 + your Wisdom modifier psychic damage, push the target 1 square and the target is restrained (save ends).
+> **Special:**  **Augment:** Add your Charisma as a power bonus to both the attack and the damage roll.
+
+> #### Consumption of the Sinful
+> *Reaching forth into the mind of your enemy, you unleash his darkest sins and give them form, haunting him while aiding your allies in combat.*
+> **Daily** **Standard Action**
+> **Third Mind Attack 9** ● **Augmentable, Conjuration, Phrenic, Focus, Psychic**
+> **Ranged** 10, one creature
+> **Attack:**  Wisdom vs Will
+> **Hit:**  2d10 + Wisdom modifier psychic damage.
+> **Effect:** You conjure a vile manifestation of your enemy’s darkest sins in a square adjacent to the target. The manifestation exists until the end of your next turn. You can move the manifestation as a move action, using the same speed as the target. If the manifestation is adjacent to the target, the target grants combat advantage and gains vulnerability 5 against all attacks.
+> **Special:**  **Augment:** The target receives a penalty equal to your Charisma modifier to all his attack rolls (save ends).
+> **Maintain:**  Swift: The manifestation persists.
+
+> #### Aura of Psychic Vengeance
+> *You meditate for a short while before your aura blooms out around you, allowing your mind to become as one with your allies, aiding their attacks.*
+> **Daily** **Standard Action**
+> **Third Mind Utility 10** ● **Augmentable, Aura, Phrenic**
+> **Near** burst 2, all allies
+> **Effect:** Each ally who starts their turn inside the aura gains a power bonus equal to your Charisma modifier to their attack rolls until the end of their turn.
+> **Special:**  **Augment:** Each ally within the aura gains regeneration equal to your Charisma modifier when they begin their turn within the zone. 
 
 ## Veiled Moon  
 

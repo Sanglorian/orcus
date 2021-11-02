@@ -627,6 +627,20 @@ If you target a creature submerged in a liquid, the incantation carries the targ
 
 Describe or name a specific kind of beast or plant. Concentrating on the voice of nature in your surroundings, you learn the direction and distance to the closest creature or plant of that kind within 5 miles, if any are present.  
 
+#### Mage's Mark
+
+*1st-level Transmutation*
+
+**Casting Time:** 1 minute
+
+**Components:** Fresh candle and silver stylus (5 gp)
+
+**Duration:** Until dispelled
+
+Every mage has their own mark, usually an elaborate and unique rune. This ritual allows a mage to inscribe their mark on any non-magical substance, including stone and metal. The rune remains permanently upon the surface, only disappearing if the item or surface itself is destroyed. The mage may choose to make this mark visible to all, or only to those with the sight (meaning that most folk will not be able to see it at all, but anyone with Arcana training will see it).
+
+In order to make their mark, a mage must light a fresh candle and stand it upon the surface to be marked in its own wax. They then prick their finger with a silver stylus and draw their rune upon the surface, very slowly and deliberately, with their own blood, seven times. Upon the seventh and final drawing, the blood fades, the candle falls away, the stylus cracks, and the mark is finished.
+
 #### Meld into Stone  
 
 *5th-level Practical*  

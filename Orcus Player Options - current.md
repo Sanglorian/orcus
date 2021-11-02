@@ -1181,6 +1181,369 @@ You specialize in a martial art specializing in redirecting an opponent's moment
 
 *Critical:* If you score a critical and choose to use this feat, the target is stunned until the start of your next turn.  
 
+## Psi Focus Feats
+
+### Adaptation
+**Prerequisite:**  *Psi focus* power
+**Benefit:** When you make a save, you may expend your *psi focus* to gain a bonus to that save equal to your Charisma modifier. This counts as using the *psi focus* for an encounter power.
+
+### Immovable Dominion
+**Prerequisite:**  *Psi focus* power
+**Benefit:** Expend your *psi focus* as a free action when being pushed, pulled or slided. Reduce the distanced moved by your Charisma modifier. This counts as using the *psi focus* for an encounter power.
+
+### Mind and Body
+**Prerequisite:**  *Psi focus* power
+**Benefit:** When you spend a focus surge, regain hit points equal to your Charisma modifier.
+
+### Mind-Eye Accuracy
+**Prerequisite:**  *Psi focus* power, *careful focus* power
+**Benefit:** When using your *careful focus* ancestry power, you may expend your *psi focus* to gain a bonus on the attack roll equal to your Charisma bonus. This counts as using the *psi focus* for an encounter power.
+
+### Phrenic Breath
+**Prerequisite:**  *Psi focus* power, *breath weapon* power
+**Benefit:** Expend your *psi focus* to make your *breath weapon* a Near arc 3 + your Charisma modifier instead of Near arc 3. This counts as using the *psi focus* for an encounter power.
+
+### Phrenic Dodge
+**Prerequisite:**  *Psi focus* power, *lucky* power
+**Benefit:** When using your *lucky* ancestry power, and the enemy misses you on their re-roll, you may expend your *psi focus* instead of your ancestry power. This counts as using the *psi focus* for an encounter power.
+
+### Phrenic Feystep
+**Prerequisite:**  *Psi focus* power, *highblood teleport* power
+**Benefit:** When using your *highblood teleport* ancestry power, you can expend your *psi focus* to teleport a number of additional squares equal to your Charisma modifier. This counts as using the *psi focus* for an encounter power.
+
+### Phrenic Meditation
+**Prerequisite:**  *Psi focus* power
+**Benefit:** You can perform the Meditate action as a swift action once per encounter.
+
+### Phrenic Reservoir
+**Prerequisite:**  *Psi focus* power, Dabbler ancestry feature
+**Benefit:** When using the power from your Dabbler ancestry feature, you may expend your *psi focus* and retain the use of the power gained from your Dabbler. This counts as using the *psi focus* for an encounter power.
+
+
+### Phrenic Talent
+**Prerequisite:**  *Psi focus* power
+**Benefit:** Increase your number of focus surges by one.
+
+### Phrenic Wrath
+**Prerequisite:**  *Psi focus* power, *vengeance of the pits* power
+**Benefit:** You may expend your *psi focus* as a free action to use your *vengeance of the pits* ancestry power even against an enemy which hasn’t just hit you. This counts as using the *psi focus* for an encounter power.
+
+### Surging Mind
+**Prerequisite:**  *Psi focus* power
+**Benefit:** When you use your *psi focus*, you immediately gain temporary hit points equal to your level.
+
+### Wild Talent
+**Benefit:** You gain access to the *psi focus* power. You do not have any focus surges.
+
+## Shard Feats
+All base shard effects remains in effect until you cancel them, are knocked unconscious, take an long rest, sleep, or are reduced to 0 or fewer hit points.
+
+## Aura Shard Feats
+
+### Aura Shard
+You have learned how to weave together all of your emotions, directed and controlled by your intense willpower, casting them as an aural web around you and thus strengthening both yourself and your allies in the process.
+
+**Prerequisite:**  Cha 13
+
+**Benefit:** As a move action, you manifest an aura which allows you to help your allies. This aura has a range of 10. When you or an ally in your aura spend an action point, that individual gains temporary hit points equal to your Charisma modifier.
+
+**Special:** *Level 11:* Temporary HP equal to double your Cha modifier. *Level 21:* Temporary HP equal to triple your Cha modifier. 
+
+### Blasting Aura
+Your emotions are so strong, and composed from such volatile feelings, that you have learned how to strike out against an enemy within your aura and channel your violent energies into it instead.
+
+**Prerequisite:**  Aura Shard, Cha 13
+
+**Benefit:** When you manifest your aura, or by taking a move action when your aura is active, you may make an attack (Charisma vs Will) against one enemy within range, who takes 5 points of psychic damage.
+
+Additionally, when you or an ally spend an action point while inside your aura, you (and only you) may make an additional attack against one enemy within range (Cha vs Will, 5 psychic damage).
+
+**Special:** *Level 11:* Damage increases to 10. *Level 21:* Damage increases to 15. 
+
+### Empowering Aura
+Your experience in using your thieving abilities now allows you weave of emotions and discipline to tap into the surging emotions of others and to gain part of their heroic abilities
+
+**Prerequisite:**  Aura Shard, Thieving Aura, Cha 13, 26th level
+
+**Benefit:** When an ally within range of your aura spends an action point, you immediately gain an additional standard action.
+
+### Extended Aura
+You have put time and training into extending your aura further, so that you can utilize its effects to their maximum potential, almost always keeping allies within range.
+
+**Prerequisite:**  Aura Shard, Cha 13
+
+**Benefit:** The range of your aura extends by 10 squares.
+
+### Forceful Aura
+Your aura shard extends from the phrenic realm into the purely physical realm, and as it comes into existence like a rolling wave of thunderous emotions, it physically pushes enemies away from you.
+
+**Prerequisite:**  Aura Shard, Cha 13
+
+**Benefit:** When you manifest your aura, or by taking a move action when your aura is active, every enemy adjacent to you is pushed 1 square directly away from you.
+
+Additionally, when you or an ally spends an action point while inside your aura, you may choose to make a Charisma vs Fortitude attack against one enemy within range of your aura. If successful, that enemy is pushed 1 square directly away from you.
+
+### Healing Aura
+Using your weave of emotions, you are able to redirect some of the emotions and strength that comes soaring out of you when you stride into action.
+
+**Prerequisite:**  Aura Shard, Cha 13
+
+**Benefit:** When you spend an action point, one ally within range of your aura can spend a recovery as an immediate (react) action.
+
+### Restorative Aura
+Your aura shard and its ability to give your allies a surge in healing has now matured to the point where your own emotions do not merely trigger the surge, but enhances it and makes it stronger.
+
+**Prerequisite:**  Aura Shard, Healing Aura, Cha 13
+
+**Benefit:** Whenever you or an ally within range of your aura would regain hit points, that individual gains an additional number of hit points equal to your Charisma modifier.
+
+### Shifting Aura
+Not unlike the forceful aura shard, you have learned how to channel the roiling energies of your aura into the physical realm, enhancing the movements of your allies as it comes into effect.
+
+**Prerequisite:**  Aura Shard, Cha 13
+
+**Benefit:** When you manifest your aura, or by taking a move action when your aura is active, one ally within range may immediately shift 1 square.
+
+Additionally, when you or an ally spends an action point while inside your aura, that person may choose to forego the temporary hit points and instead shift 1 square.
+
+### Surging Aura
+Your mind now interconnects your aura shard with a surge of emotions, allowing you to share that with your allies, lending strength to their blows and precision to their attacks.
+
+**Prerequisite:**  Aura Shard, Cha 13
+
+**Benefit:** When you manifest your aura, or by taking a move action when your aura is active, every ally within range gains a +1 bonus on attack rolls for one round.
+
+Additionally, when you or an ally spends an action point while inside your aura, that person may choose to gain either the temporary hit points for a +1 bonus on attack rolls for one round.
+
+### Thieving Aura
+Your aura shard weaves its strength from that of your emotions and is kept in check by your discipline - your enemies do not have the same kind of control, which allows you to siphon off their energies and gain them yourself.
+
+**Prerequisite:**  Aura Shard, Cha 13
+
+**Benefit:** Whenever an enemy within range of your aura spends an action point or a recovery, you regain one action point or recovery (your choice).
+
+## Blast Shard Feats
+
+### Acid Blast
+Your shard is touched by the vitriol and hate you hold for your enemies, allowing it to cling to them as if it was acid, burning through them as your emotions burn through you.
+
+**Prerequisite:**  Blast Shard
+
+**Benefit:** When using your blast shard, at your option, it gains the Acid keyword and instead deals 1d4 acid damage, and persistent 5 acid damage (save ends). Attack: Dex vs Reflex.
+
+### Blast Shard
+You have taught yourself how to focus all of your emotions - anger, hate, spite, rage, wrath - and to wrap them in willpower and discipline, turning it all into a fearsome ranged weapon. Because you use your emotions as weapons, you might often seem somewhat apathetic and cold to others.
+
+**Benefit:** As a standard action, you can fire a phrenic blast of energy (see stats below). Blast shards are supernatural weapons, and thus do not belong to any weapon group, and can take almost any form, colour and shape, all according to the wishes of the user. The user is always proficient with his blast shard. For all intents and purposes, the blast shard can be used to make all forms of ranged attacks, as well as in conjunction with powers, or for the purpose of opportunity attacks. 
+
+Your blast shard has a +1 enhancement bonus to attack and damage rolls. This increases by +1 for every 5th level after the 1st (6th, 11th, 16th, 21st, 26th).
+
+Blast Shard (Simple Ranged Weapon), **Proficiency:** +2, **Damage:** 1d6, **Range:** 10/20
+
+### Cold Blast
+You hold nothing but disdain and contempt for your enemies and your phrenic power shapes your blast into the same cold and numbing extension of your will.
+
+**Prerequisite:**  Blast Shard
+
+**Benefit:** When using your blast shard, at your option, it gains the Cold keyword and instead deals 1d8 cold damage, and the target is slowed until the end of your next turn. Attack: Dex vs Fortitude.
+
+### Empowered Blast Shard
+Experience has taught you how to apply your discipline and emotions in the best way, allowing you to extract more energy from your phrenic well than before.
+
+**Prerequisite:**  Blast Shard, 11th level
+
+**Benefit:** Your blast shard damage increases by one die size (for example, from 1d6 to 1d8).
+
+### Far Blast
+So strong is your will, so intense are your emotions that you can sustain attacks far beyond what others can stomach.
+
+**Prerequisite:**  Blast Shard
+
+**Benefit:** Increase both the normal and long range of your blast shard by 5.
+
+### Fire Blast
+Rage, wrath, pride and anger are all fiery emotions that set the world on fire. You, however, use those very emotions to set your blast shard, and enemies, on fire.
+
+**Prerequisite:**  Blast Shard
+
+**Benefit:** When using your blast shard, at your option, it gains the Fire keyword and becomes a close arc 1 effect. Attack: Dex vs Reflex.
+
+### Improved Blast Shard
+You have seen so much of what the world offers, and you can channel that experience into even stronger emotions and a tightened discipline, allowing you to become even more dangerous.
+
+**Prerequisite:**  Blast Shard, 11th level
+
+**Benefit:** Your blast shard damage increases by one die (for example, from 1d6 to 2d6).
+
+### Lightning Blast
+Nothing is as fast as the mind - and lightning. You use your willpower and discipline to hone your attacks, giving them the symbolic form of lightning blasts and increasing your accuracy.
+
+**Prerequisite:**  Blast Shard
+
+**Benefit:** When using your blast shard, at your option, it gains the Lightning keyword and instead deals 1d12 lightning damage, and you gain a +2 bonus to hit. Attack: Dex vs Reflex.
+
+### Mind Blast
+You do not manifest your blast shard as a physical creation, rather you use your training to mentally attack your enemies, filling their minds with emotion and will until they burst from your attack.
+
+**Prerequisite:**  Blast Shard
+
+**Benefit:** When using your blast shard, at your option, it gains the Psychic keyword and instead deals 1d10 psychic damage, and you mark the target. Attack: Dex vs Will.
+
+## Shield Shard Feats
+
+### Bashing Shield
+You have learned how to focus your intense emotions and will into your shield shard, allowing you to push back enemies when the situation becomes dire.
+
+**Prerequisite:**  Shield Shard
+
+**Benefit:** Once per encounter, as an immediate (react) action after someone has missed a melee attack against you, you can push that enemy 1d4 squares away from you.
+
+### Fluid Shield
+No longer a separate physical manifestation of your internal phrenic energies, your shield shard flows with your movements, never being in the way or encumbering you.
+
+**Prerequisite:**  Greater Shield, Shield Shard
+
+**Benefit:** You do not take a check penalty when using your shield shard.
+
+### Force Shield
+Your long experience and strong emotions allow you to call upon them for a short moment. For a short time your phrenic energies surge, creating a powerful shielding effect around all nearby allies.
+
+**Prerequisite:**  Shield Shard, 21st level
+
+**Benefit:** Once per encounter as a swift action, you can extend the protection of your shield to yourself and all allies within 5 squares until the end of your next round.
+
+**Special:** If you have any feats that would be usable when you are attacked, you can use them when any protected ally is attacked. 
+
+### Greater Shield
+Your shield shard has expanded together with your own internal energies, giving it a stronger ability to protect you from outside harm.
+
+**Prerequisite:**  Shield Shard
+
+**Benefit:** You may choose to manifest a heavy shield instead of a light shield, when manifesting your shield shard. If you do, you gain a +2 shield bonus and your shield hand counts as if it was holding a heavy shield.
+
+### Grounding Shard
+Your shield’s phrenic powers extend deep into the earth, grounding you against enemy attacks that threaten to move you from your position without your approval.
+
+**Prerequisite:**  Shield Shard, 11th level
+
+**Benefit:** Any time someone performs a push against you, lower the number of squares you are pushed by 1 (minimum 0).
+
+### Immovable Shield
+Your shield shard now bonds, almost permanently, with the ground if you don’t move, redirecting much of the force in enemy attacks into the earth below you.
+
+**Prerequisite:**  Grounding Shard, Shield Shard, 11th level
+
+**Benefit:** If you do not move at all during your round, you gain resistance 5 until the beginning of your next turn. This stacks with any other forms of resistance you might have.
+
+**Special:** *Level 11:* Resistance 10. *Level 21:* Resistance 15. 
+
+### Offensive Shield
+Even as you protect yourself, your shard has learned that at times a good offense is the best defense, allowing you to use the shield shard as a weapon against enemies not expecting it.
+
+**Prerequisite:**  Shield Shard
+
+**Benefit:** You can make a melee attack with your shield shard. For all purposes, the shield shard counts as a club, including giving you a proficiency bonus with it (+2 proficiency, 1d6 damage).
+
+You are always proficient with your shield shard.
+
+### Refreshing Shard
+Your shield shard allows you to turn internal emotions and diamond hard discipline into energy, providing you with a surge of healing when you are damaged.
+
+**Prerequisite:**  Shield Shard
+
+**Benefit:** Once per encounter, when you are damaged, as an immediate (counter) action, you may spend a recovery.
+
+### Shield Shard
+You draw your power from strong emotions such as chivalry, honor and even fear. These act as energizers to your will and discipline, allowing them to act in conjunction to protect your from harm.
+
+**Benefit:** As a move action, you can manifest a shield of force which attaches to one of your hands, as a regular shield. You gain a +1 shield bonus and your shield hand counts as if it was holding a light shield.
+
+### Toughened Shield
+Your shield now becomes a repository even for your body, allowing it for short moments to share your pain and bear the brunt of a powerful attack.
+
+**Prerequisite:**  Greater Shield, Shield Shard
+
+**Benefit:** Once per encounter, when an enemy successfully deals damage to you, reduce the damage by 5.
+
+**Special:** *Level 11:* By 10. *Level 21:* By 15. 
+
+## Weapon Shard Feats
+
+### As One
+Your intense physical training regimes have combined with your powerful phrenic abilities to allow you to use the weapon shard and your exploits as one.
+
+**Prerequisite:**  Weapon Shard, at least one power from the martial power source
+
+**Benefit:** When using a power with the martial keyword with your weapon shard, you gain a +2 feat bonus to attack and damage rolls.
+
+### Assassin’s Weapon
+You have now used your weapon shard to slay so many in such an underhanded way that your internalized feelings and behaviors have stained your shard. It too excels in underhanded combat.
+
+**Prerequisite:**  Slayer’s Weapon, Weapon Shard
+
+**Benefit:** If you have combat advantage against an opponent and score a critical hit, you deal +2d8 damage. This increases to +3d8 at 11th level and to +4d8 at 21st level.
+
+**Special:** This feat stacks with the benefit of Slayer’s Weapon. 
+
+### Extended Weapon
+Your willpower and intense emotions allow you to extend your weapon, allowing it to strike enemies further away from you than what would be expected, or normal.
+
+**Prerequisite:**  Weapon Shard
+
+**Benefit:** Your weapon shard becomes a reach weapon.
+
+### Greater Weapon Shard
+You are a legend that walks amongst men, your myth has already begun to spread around the world. Now the wellspring of a thousand powers your weapon, giving you an equally legendary weapon shard.
+
+**Prerequisite:**  Improved Weapon Shard, Weapon Shard, 11th level
+
+**Benefit:** Your weapon shard damage increases to 2d8.
+
+### Improved Weapon Shard
+Your experience of the world has only deepened your wellspring of willpower, discipline and emotion and this spills into your weapon shard that is now even more lethal.
+
+**Prerequisite:**  Weapon Shard, 11th level
+
+**Benefit:** Your weapon shard damage increases to 2d6.
+
+### Malleable Weapon
+Your weapon is no longer bound to one form, instead it is as fluid as your thoughts and emotions, becoming whatever kind of weapon you happen to need at the moment.
+
+**Prerequisite:**  Weapon Shard
+
+**Benefit:** By taking a standard action instead of a move action when you manifest your weapon shard, you can choose to have it belong to any weapon group of your choice until the end of the encounter. You also increase the proficiency bonus to +3.
+
+### Slayer’s Weapon
+Your weapon has been used for so many finishing strikes and lethal attacks that it now draws on your most bloodthirsty thoughts and spiteful emotions, becoming a terrible instrument of death.
+
+**Prerequisite:**  Weapon Shard
+
+**Benefit:** Your weapon shard becomes an improved critical weapon and deals +1d8 damage when you score a critical hit. This increases to +2d8 at 11th level and to +3d8 at 21st level.
+
+### Stormshard
+In the blink of an eye and by focusing your phrenic energies, your shard shatters after a successful strike and hits all enemies within reach.
+
+**Prerequisite:**  Weapon Shard
+
+**Benefit:** Once per encounter, when attacking with your weapon shard, your attack gains Near arc 1. Only enemies are affected while inside the arc.
+
+### Twin Weapon
+You focus your energies into your weapon, splitting it into two identical weapons that you use as if they were nothing but extensions of your body and will - flawlessly.
+
+**Prerequisite:**  Weapon Shard
+
+**Benefit:** When you manifest your weapon shard, you can choose to manifest one for each hand instead. When making an attack that requires two melee weapons, you gain a +1 feat bonus to your attack rolls.
+
+### Weapon Shard
+You have learned how to focus your intense internal energies into a weapon, giving it shape and form according to your subconscious wishes.
+
+**Benefit:** As a move action, you can manifest a weapon shard (see stats below). Weapon shards are supernatural weapons (and thus do not belong to any weapon group), and can take almost any form, color and shape, all according to the wishes of the user. The user is always proficient with his weapon shard, and it is a one-handed weapon. For all intents and purposes, the weapon shard can be used to make all forms of melee attacks, as well as in conjunction with powers, or for the purpose of opportunity attacks.
+
+Your weapon shard has a +1 enhancement bonus to attack and damage rolls. This increases by +1 for every 5th level after 1st (+2 at 6th, +3 at 11th, etc.).
+
+Weapon Shard (Simple Melee Weapon)  
+**Proficiency:** +2, **Damage:** 1d8
+
 ## Dualclassing  
 
 You can also take feats to take some of the class features and powers of other classes. Once you take any Dualclassing feat, you count as that class (your "secondary class") as well as your base class for the purpose of prerequisites.   
@@ -1426,11 +1789,11 @@ You can design an exotic ranged weapon by taking a martial weapon and increasing
 
 **Table - Simple Ranged Weapons**  
 
-| Name           | Range  | Type   | Hand | Proficiency Bonus | Damage (dW) | Range | Cost (gp) | Weight (lb) | Buffs           | Group     |  
-| -------------- | ------ | ------ | ---- | ----------------- | ----------- | ----- | --------- | ----------- | --------------- | --------- |  
-| Light Crossbow | Ranged | Simple | 1    | +2                | 1d6         | 10/20 | 35        | 4           | Loading (Free)  | Crossbows |  
-| Sling          | Ranged | Simple | 1    | +2                | 1d6         | 10/20 |           | 0           | Loading (Free)  | Slings    |  
-| Heavy Crossbow | Ranged | Simple | 2    | +2                | 1d8         | 15/30 | 50        | 8           | Loading (Swift) | Crossbows |  
+| Name           | Range  | Type   | Hand | Proficiency Bonus | Damage (dW) | Range | Cost (gp) | Weight (lb) | Buffs           | Group     |
+| -------------- | ------ | ------ | ---- | ----------------- | ----------- | ----- | --------- | ----------- | --------------- | --------- |
+| Light Crossbow | Ranged | Simple | 1    | +2                | 1d6         | 10/20 | 35        | 4           | Loading (Free)  | Crossbows |
+| Sling          | Ranged | Simple | 1    | +2                | 1d6         | 10/20 | 0         | 0           | Loading (Free)  | Slings    |
+| Heavy Crossbow | Ranged | Simple | 2    | +2                | 1d8         | 15/30 | 50        | 8           | Loading (Swift) | Crossbows |
 
 **Table - Martial Ranged Weapons**  
 

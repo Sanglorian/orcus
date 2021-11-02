@@ -1,5 +1,7 @@
 A retroclone of 4th Edition
 
+**NEW!** [Read online on Github Pages](https://sanglorian.github.io/orcus/)
+
 Version 0.5 (Alpha)
 
 * Orcus Rulebook ([PDF](/raw/main/Orcus%20Rulebook%20-%20current.pdf), [Markdown](https://github.com/Sanglorian/orcus/blob/main/Orcus%20Rulebook%20-%20current.md))

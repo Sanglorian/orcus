@@ -389,7 +389,7 @@ You cannot have more than one ability score below 10.
 
 Roll 4d6 for each of the six ability scores (Strength, Constitution, Dexterity, Intelligence, Wisdom, and Charisma). Drop the low die in each roll. Put the scores into any order to best fit the character you want to play.  
 
-### Assign scores  
+### Standard Array  
 
 Assign 16, 14, 14, 12, 11 and 8, one each to the six ability scores.   
 
@@ -728,6 +728,14 @@ You can maintain any number of powers, provided you have the actions to do so.
 If a power has a "Boost" entry, then the power can be selected at a higher level with the improved effect.   
 
 ## Keywords  
+
+### Augmentable
+
+You can use the “Augment:” section of the power that is used. To be able to augment a power, you must be able to expend your *psi focus*, which you gain from being a phrenic.
+
+### Aura
+
+An aura is always a close burst effect, a lingering effect that extends over an area. An aura moves with the character who manifested it and lasts until the end of the encounter, for 5 minutes, or until you use another aura power.
 
 ### Booster  
 

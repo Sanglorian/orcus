@@ -160,6 +160,8 @@ Some creatures have one or more of the following additional movement modes.
 
 A monster that has a burrowing speed can use that speed to move through sand, earth, mud, or ice. A monster can't burrow through solid rock unless it has a special trait that allows it to do so.  
 
+**Earth glide** means the creature can burrow through earthen matter, including rock. When it does so, it moves at its full burrow speed, leaving no tunnels or signs of its passing.
+
 ### Climb  
 
 A monster that has a climbing speed can use all or part of its movement to move on vertical surfaces. The monster doesn't need to spend extra movement to climb.  
@@ -424,7 +426,82 @@ As with other templates, the move from standard to elite doubles a creature's HP
 * One daily power (two from level 21).   
 * One utility power (two from level 11, three from level 21).  
   
+
+# Monster Traits
+
+Monster traits are like templates, but they do not affect the overall challenge posed by the monster enough that their type or level changes.
+
+### Ancestries
+
+You can turn creatures in the Humans category into other ancestries by giving them one of the following traits. 
+
+#### High elf
+
+**Highblood teleport** (move, encounter)  
+Teleport up to 5.
+
+#### Halfling
+
+**Lucky** (counter, an attack hits you, encounter)  
+Triggered when an attack hits you; reroll the attack roll and take the second result.
+
+#### Dragonborn
+
+**Breath weapon** (standard, encounter)  
+Attack vs Reflex; 1d6 + 4 damage. (Level 11: 2d6 + 8, Level 21: 3d6 + 12).
+
+#### Tiefling
+
+**Vengeance of the Pits** (react, an attack by an enemy within 10 hits the creature, encounter)  
+The attacker takes 1d6 + 4 fire damage. (Level 11: 2d6 + 6, Level 21: 3d6 + 12).
+
+#### Dwarf
+
+**Tough as Nails** (swift, encounter)  
+Heal one quarter of maximum HP. 
+
+#### Wood elf
+
+**Careful Focus** (free, creature makes an attack roll, encounter)  
+Reroll the attack roll and take the new result. 
+
+### Other
+
+**More Than Expected (mook only)**  
+When the mook is eliminated, make a save. On a success, place an identical mook anywhere within ten squares of it that is not in line of sight of a player character. Do not adjust experience.
+
+**Martyrdom** (immediate (react), the fanatic is reduced to 0 hit points or less, encounter)  
+All allies in line of sight may shift three squares.
+
+**Dirty Fighter**  
++2 damage against targets granting the creature combat advantage. In addition, all enemies suffer an additional -1 penalty to attack rolls against the creature when it is behind cover or has concealment.
+
+**We Are One**  
+A creature can sacrifice its move action to give an ally a move action. Creatures cannot receive more than two move actions per round. A creature can replace two move actions with one standard action.
+
+**Ironclad (mook only)**  
+When the mook is reduced to 0 hit points or less, it is considered staggered and is set to 1 hit point. If a staggered ironclad mook is reduced to 0 hit points or less, it is killed.
+
+**Group Confidence**  
+If creatures with this trait outnumber their opponents by 2-to-1, each such creature gains +2 bonus to damage rolls.
+
+**Reliable Backup**  
+The creature gains a +2 enhancement bonus to AC while adjacent to an ally. 
+
+**Combat Drill** (immediate (react), when an ally moves into or out of an adjacent square, at-will)  
+The adversary may shift up to three squares as long as he moved in the direction of this ally.
+
+**Encouraging Reaction**  
+When the creature scores a critical hit, one ally can make a basic attack as an immediate (react) action.
+
+**Against the Fallen**  
+When an ally is killed, gain a +1 enhancement bonus with your next attack roll.
+
+**Skysea Denizen**  
+Replace swim speed with fly speed. Remove the aquatic keyword, if the creature had it.
+
 # Animals  
+
 Animals are mundane beasts, like those found in the real world.  
 ### Eagle  
 **Level 1 Striker** (100 XP)  
@@ -3622,6 +3699,56 @@ ___
  🏹 **Blazing Orb** (standard, at-will) ● Fire  
 Ranged 10; +9 vs. Reflex; 1d8+3 fire damage, and persistent 2 fire damage (save ends).   
 
+### Desiccated Husk
+
+**Level 3 Wrecker** (150 XP)
+Medium Elemental Humanoid (Undead )
+**Senses:** Perception +1; darkvision
+**Str** 14 (+2), **Con** 10 (+0), **Dex** 8 (-1), **Int** 14 (+2), **Wis** 10 (+0), **Cha** 17 (+3)
+**Alignment:** Evil
+
+___
+
+**Initiative:** +0
+**AC:** 15; **Fort:** 16, **Ref:** 14, **Will** 15
+**HP:** 44, **Staggered:** 22
+**Resistance to:** necrotic 5, **Vulnerability to:** radiant 5
+*Blood Sweats Aura 4:* A living creature that ends its turn in the aura suffers 3 damage.
+
+___
+
+**Speed** 4
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Claw** (standard, at-will)  
++6 vs AC; 1d12+4 damage. 
+ **Reformation**  
+Keep track of all damage the desiccated husk does, including through its aura. If damage done ever exceeds 22, that desiccated husk is replaced by a bloody bones as an immediate (react) action. Add 44 to the desiccated husk's current HP to determine the bloody bones' current HP. A bloody bones created in this way still only gives 150 XP for being defeated. 
+
+### Bloody Bones
+
+This creature appears as a skeletal humanoid with bits of muscle and sinew hanging from its body. Four long, sinewy tendrils writhe from its midsection. The entire creature constantly oozes a mixture of blood and mucus. Its eye sockets are hollow and show no pupils.
+
+**Level 3 Elite Wrecker** (300 XP)
+Medium Elemental Humanoid (Undead )
+**Senses:** Perception +2; darkvision
+**Str** 14 (+2), **Con** 10 (+0), **Dex** 12 (+1), **Int** 14 (+2), **Wis** 13 (+1), **Cha** 17 (+3)
+**Alignment:** Evil
+
+___
+
+**Initiative:** +2
+**AC:** 15; **Fort:** 16, **Ref:** 14, **Will** 15+2
+**HP:** 88, **Staggered:** 44
+**Resistance to:** necrotic 5, **Vulnerability to:** radiant 5
+*Blood Sweats Aura 4:* A living creature that ends its turn in the aura suffers 3 damage.
+
+___
+
+**Speed** 6
+<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Wicked Claw** (standard, at-will)  
++6 vs AC; 1d12+4 damage and 5 persistent damage (save ends). 
+ **Slide Away** (immediate (counter), encounter)  
+Shift 6.
+
 ### Failed Sacrifice  
 **Level 6 Wrecker** (250 XP)  
 Medium Natural Humanoid, Undead 	(Chaotic evil)  
@@ -3963,6 +4090,8 @@ Trigger: The evil eye is hit by an attack; make a gaze attack, chosen randomly.
 | Shadow Bat Swarm                | 3     | Assassin               |  
 | Shadowblast Warlock             | 3     | Assassin               |  
 | Infected Animal                 | 3     | Wrecker                |  
+| Desiccated Husk | 3 | Wrecker |
+| Bloody Bones | 3 | Elite Wrecker |
 | Blood-Drinker Hag               | 3     | Boss Spoiler           |  
 | Shadow Drake                    | 3     | Boss Assassin          |  
 | Young Couatl                    | 3     | Boss Striker           |  
@@ -4160,27 +4289,11 @@ Every monster has a size, source and type. Only add tags where appropriate.
 
 The role is the function that the monster plays in combat. It determines defenses, HP and the damage that the monster does.   
 
-#### Spoiler  
+#### Archer  
 
-*AC:* 14 + level; *Fort:* 12 + level; *Ref:* 11 + level; *Will:* 13 + level.  
+*AC:* 12 + level; *Fort:* 11 + level; *Ref:* 12 + level; *Will:* 12 + level.  
 
-*HP:* 24 + (5 * level) (double for Elite, quadruple for Boss)  
-
-*Attack:* +5 + level  
-
-#### Wrecker  
-
-*AC:* 12 + level; *Fort:* 13 + level; *Ref:* 11 + level; *Will:* 12 + level.  
-
-*HP:* 26 + (7 * level) (double for Elite, quadruple for Boss)  
-
-*Attack:* +5 + level  
-
-#### Blocker  
-
-*AC:* 16 + level; *Fort:* 13 + level; *Ref:* 12 + level; *Will:* 12 + level.  
-
-*HP:* 24 + (5 * level) (double for Elite, quadruple for Boss)  
+*HP:* 21 + (4 * level) (double for Elite, quadruple for Boss)  
 
 *Attack:* +5 + level  
 
@@ -4192,11 +4305,19 @@ The role is the function that the monster plays in combat. It determines defense
 
 *Attack:* +5 + level  
 
-#### Archer  
+#### Blocker  
 
-*AC:* 12 + level; *Fort:* 11 + level; *Ref:* 12 + level; *Will:* 12 + level.  
+*AC:* 16 + level; *Fort:* 13 + level; *Ref:* 12 + level; *Will:* 12 + level.  
 
-*HP:* 21 + (4 * level) (double for Elite, quadruple for Boss)  
+*HP:* 24 + (5 * level) (double for Elite, quadruple for Boss)  
+
+*Attack:* +5 + level  
+
+#### Spoiler  
+
+*AC:* 14 + level; *Fort:* 12 + level; *Ref:* 11 + level; *Will:* 13 + level.  
+
+*HP:* 24 + (5 * level) (double for Elite, quadruple for Boss)  
 
 *Attack:* +5 + level  
 
@@ -4205,6 +4326,14 @@ The role is the function that the monster plays in combat. It determines defense
 *AC:* 14 + level; *Fort:* 11 + level; *Ref:* 13 + level; *Will:* 12 + level.  
 
 *HP:* 24 + (5 * level) (double for Elite, quadruple for Boss)  
+
+*Attack:* +5 + level  
+
+#### Wrecker  
+
+*AC:* 12 + level; *Fort:* 13 + level; *Ref:* 11 + level; *Will:* 12 + level.  
+
+*HP:* 26 + (6 * level) (double for Elite, quadruple for Boss)  
 
 *Attack:* +5 + level  
 
