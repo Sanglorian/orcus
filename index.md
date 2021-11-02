@@ -15,10 +15,10 @@ Version 0.5 (Alpha)
 
 Campaign resources:
 
-* [The Outlaw Kingdoms](The Outlaw Kingdoms.md) (PDF) campaign setting, with new ancestry rules and deities
+* [The Outlaw Kingdoms](The Outlaw Kingdoms.md) ([PDF](https://github.com/Sanglorian/orcus/blob/main/The%20Outlaw%20Kingdoms.pdf)) campaign setting, with new ancestry rules and deities
 * [Fires in the Crypt](Fires in the Crypt.md) ([PDF](https://github.com/Sanglorian/orcus/blob/main/Fires%20in%20the%20Crypt.pdf)) - first level adventure
 * Ancestral Voices ([PDF only](https://github.com/Sanglorian/orcus/blob/main/Ancestral%20Voices%20(Level%202).pdf)) - second level adventure
-* [Pre-gens](Example Orcus Characters (First Level).md) (PDF) - five first-level characters
+* [Pre-gens](Example Orcus Characters.md) ([PDF](https://github.com/Sanglorian/orcus/blob/main/Example%20Orcus%20Characters.pdf)) - five first-level characters
 
 ---
 
