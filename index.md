@@ -13,6 +13,15 @@ Version 0.5 (Alpha)
 * [Advanced Options](Orcus Advanced Options - current.md) (poisons, diseases, bonds, incantations) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Advanced%20Options%20-%20current.pdf)))
 * [Open Game License](Orcus - Open Game License.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20-%20Open%20Game%20License.pdf)) and [Artwork Credits](Orcus - Artworks.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20-%20Artworks.pdf))
 
+Campaign resources:
+
+* [The Outlaw Kingdoms](The Outlaw Kingdoms.md) (PDF) campaign setting, with new ancestry rules and deities
+* [Fires in the Crypt](Fires in the Crypt (Level 1).md) ([PDF](https://github.com/Sanglorian/orcus/blob/main/Fires%20in%20the%20Crypt%20(Level%201).pdf)) - first level adventure
+* Ancestral Voices ([PDF only](https://github.com/Sanglorian/orcus/blob/main/Ancestral%20Voices%20(Level%202).pdf)) - second level adventure
+* [Pre-gens](Example Orcus Characters (First Level).md) (PDF) - five first-level characters
+
+---
+
 Dedicated to the hobbyists, designers, developers and publishers that have released their work under the Open Game License.
 
 Orcus is a work in progress. All feedback is welcome. 
