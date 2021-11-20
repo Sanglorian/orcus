@@ -19,7 +19,7 @@ Campaign resources:
 * [Fires in the Crypt](Fires in the Crypt.md) ([PDF](https://github.com/Sanglorian/orcus/blob/main/Fires%20in%20the%20Crypt.pdf)) - first level adventure
 * Ancestral Voices ([PDF only](https://github.com/Sanglorian/orcus/blob/main/Ancestral%20Voices%20(Level%202).pdf)) - second level adventure
 * [The False Necromancer](The False Necromancer.md) ([PDF](https://github.com/Sanglorian/orcus/blob/main/The%20False%20Necromancer.pdf)) - second level adventure
-* [Blood and Chaos](Blood and Chaos.md) ([PDF](https://github.com/Sanglorian/orcus/blob/main/Blood%20and%20Chaos.pdf)) - third level adventure
+* [Death and Chaos](Death and Chaos.md) ([PDF](https://github.com/Sanglorian/orcus/blob/main/Blood%20and%20Chaos.pdf)) - third level adventure
 * [Pre-gens](Example Orcus Characters.md) ([PDF](https://github.com/Sanglorian/orcus/blob/main/Example%20Orcus%20Characters.pdf)) - five first-level characters
 * Tiles ([PDF only](https://github.com/Sanglorian/orcus/blob/main/tiles/tiles-merged.pdf))
 
