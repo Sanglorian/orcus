@@ -391,4 +391,6 @@ Beyond the Wall and Other Adventures, Copyright 2012-2014, Flatland Games, llc.
 
 Pathfinder Bestiary 2 (Second Edition) © 2020, Paizo Inc.; Authors: Alexander Augunas, Dennis Baker, Jesse Benner, Joseph Blomquist, Logan Bonner, Paris Crenshaw, Adam Daigle, Jesse Decker, Darrin Drader, Brian Duckwitz, Robert N. Emerson, Scott Fernandez, Keith Garrett, Scott Gladstein, Matthew Goodall, T.H. Gulliver, BJ Hensley, Tim Hitchcock, Vanessa Hoskins, James Jacobs, Brian R. James, Jason Keeley, John Laffan, Lyz Liddell, Colm Lundberg, Ron Lundeen, Jason Nelson, Randy Price, Jessica Redekop, Patrick Renie, Alistair Rigg, Alex Riggs, David N. Ross, David Schwartz, Mark Seifter, Amber Stewart, Jeffrey Swank, Russ Taylor, and Jason Tondro.
 
+Pathfinder Adventure Path #167: Ready? Fight! © 2021, Paizo Inc.; Authors: David N. Ross, with Joan Hong, Joshua Kim, Danita Rambo, Sen H.H.S., Tan Shao Han, and Ruvaid Virk.
+
 END OF LICENSE

@@ -7,6 +7,8 @@ footer: ${pageNo}
 
 # Classes and Powers
 
+0.5.1
+
 * TOC  
 {:toc}  
   
@@ -1136,6 +1138,53 @@ Your familiar reappears after your next short rest if it drops to 0 hit points.
 | Tabby Cat          | low-light vision | 8, climb 6                | +2 bonus to Stealth and Acrobatics during the night.         | *Second Life:* Once per encounter, an attack that would hit the familiar misses it instead. You get a +2 bonus to all defenses until the end of your next turn. |  
 | Weaver Spider      | darkvision       | 4, climb 4 (wall-climber) | +2 bonus to Athletics checks.                                | *Ensnaring Web:* Once per encounter, the square the weaver spider is in becomes difficult terrain until the end of the encounter. |  
 
+## Channels Godmind
+
+You can focus your mind to unlock your psychic potential. 
+
+**Psi Focus (Level 1):** You have access to psi focus, a heightened state of mental and emotional clarity, that you can utilize to augment powers with the Augmentable keyword. This psi focus, once used, must refresh, much like how certain monsters have powers that refresh at the beginning of their turn on a successful roll. Psi focus works in the exact same way, but the roll needed to refresh it depends on what kind of power it was last used to augment.  
+
+> #### Psi Focus
+>
+> *Utilizing your phrenic power, you heighten a power or ability beyond what others could fathom.*
+> **At-Will** **Free Action**
+> **Channels Godmind Utility Feature** ● **Phrenic**
+> **Self** 
+> **Effect:** When using an Augmentable power, you activate the effect noted under the Augment: line.
+> **Special:**  *Psi focus* refreshes on a 4, 5 and 6 after using it to augment an at-will power, on a 5 and 6 after using it to augment an encounter power, and on a 6 after using it to augment a daily power. You can not use *psi focus* unless it is recharged.
+
+**Mantle (Level 5):** Once per encounter you can draw strength from your Mantle. With this powerful connection to your godmind, you can activate *focal surge* or *intensity*.
+
+> #### Focus Surge
+>
+> *You tap into the mental connection between yourself and your Godmind, allowing you to refresh the phrenic energies of either yourself or an ally.*
+> **Mantle** **Swift Action**
+> **Channels Godmind Utility Feature** ● **Phrenic**
+> **Near** burst 5 (10 at level 11, 15 at level 21), you or an ally
+> **Effect:** The target can spend one focus surge and recharge their *psi focus*.
+
+> #### Intensity
+>
+> *You focus on your connection with your Godmind and you become more intensely focused on your next action.*
+> **Mantle** **Swift Action**
+> **Channels Godmind Utility Feature** ● **Phrenic**
+> **Self** 
+> **Effect:** You gain a +1 bonus to your next attack and damage roll.
+
+**Focused (Level 10):** You have a number of focus surges equal to your Charisma modifier.  Your focus surges are replenished after a long rest.
+
+You can also perform the meditate action. 
+
+> **MEDITATE: STANDARD ACTION**
+>
+> You meditate for a short while, regaining your inner focus and becoming in tune with both your inner well of power and the world around you.
+>
+> - **Spend a Focus Surge:** Spend a focus surge to regain your psi focus.
+> - **+2 bonus to Will Defense:** You gain a +2 bonus to your Will Defense until the start of your next turn.
+> - **Once per Encounter:** You can meditate once per encounter and can use this action again after you take a short rest or an extended rest. Some powers (either yours or another character’s) allow you to spend focus surges without meditating.
+
+**Associated Discipline (Level 1):** Third Mind. 
+
 ## Charms Animal  
 
 You have a devoted animal companion who fights alongside you like a member of your adventuring party.  
@@ -1403,50 +1452,6 @@ You are a beast. Blessed with amazing stamina and brutal strength, you base your
 **Comical Reaction (Level 10):** If you succeed on a saving throw for the following conditions, you gain a basic attack as a free action: blinded, dazed, deafened, slowed, stunned, or weakened.  
 
 **Associated Discipline:** Juggernautical.  
-
-## Channels Godmind
-
-You can focus your mind to unlock your psychic potential. 
-
-**Psi Focus (Level 1):** You have access to psi focus, a heightened state of mental and emotional clarity, that you can utilize to augment powers with the Augmentable keyword. This psi focus, once used, must refresh, much like how certain monsters have powers that refresh at the beginning of their turn on a successful roll. Psi focus works in the exact same way, but the roll needed to refresh it depends on what kind of power it was last used to augment.  
-
-> #### Psi Focus
-> *Utilizing your phrenic power, you heighten a power or ability beyond what others could fathom.*
-> **At-Will** **Free Action**
-> **Channels Godmind Utility Feature** ● **Phrenic**
-> **Self** 
-> **Effect:** When using an Augmentable power, you activate the effect noted under the Augment: line.
-> **Special:**  *Psi focus* refreshes on a 4, 5 and 6 after using it to augment an at-will power, on a 5 and 6 after using it to augment an encounter power, and on a 6 after using it to augment a daily power. You can not use *psi focus* unless it is recharged.
-
-**Mantle (Level 5):** Once per encounter you can draw strength from your Mantle. With this powerful connection to your godmind, you can activate *focal surge* or *intensity*.
-
-> #### Focus Surge
-> *You tap into the mental connection between yourself and your Godmind, allowing you to refresh the phrenic energies of either yourself or an ally.*
-> **Mantle** **Swift Action**
-> **Channels Godmind Utility Feature** ● **Phrenic**
-> **Near** burst 5 (10 at level 11, 15 at level 21), you or an ally
-> **Effect:** The target can spend one focus surge and recharge their *psi focus*.
-
-> #### Intensity
-> *You focus on your connection with your Godmind and you become more intensely focused on your next action.*
-> **Mantle** **Swift Action**
-> **Channels Godmind Utility Feature** ● **Phrenic**
-> **Self** 
-> **Effect:** You gain a +1 bonus to your next attack and damage roll.
-
-**Focused (Level 10):** You have a number of focus surges equal to your Charisma modifier.  Your focus surges are replenished after a long rest.
-
-You can also perform the meditate action. 
-
-> **MEDITATE: STANDARD ACTION**
->
-> You meditate for a short while, regaining your inner focus and becoming in tune with both your inner well of power and the world around you.
->
-> - **Spend a Focus Surge:** Spend a focus surge to regain your psi focus.
-> - **+2 bonus to Will Defense:** You gain a +2 bonus to your Will Defense until the start of your next turn.
-> - **Once per Encounter:** You can meditate once per encounter and can use this action again after you take a short rest or an extended rest. Some powers (either yours or another character’s) allow you to spend focus surges without meditating.
-
-**Associated Discipline (Level 1):** Third Mind. 
 
 ## Sculpts Their Body  
 

@@ -9,7 +9,9 @@ footer: ${pageNo}
 
 Gir's people, the Massifi, live in the mountain spine of the Outlaw Kingdoms. Answering to no master, they fiercely protect their independence and the ancient privilege that allows the Massifi to travel the Kingdoms unaccosted and untaxed. Gir was inducted into the sacred clowning tradition as a young child, but has left his clan so he can return once he understands more of the outside world. 
 
-Otherworldly Mountainfolk Jester (Clown) who Dabbles in Guarding
+*Ancestry:* Otherworldly Mountainfolk 
+
+*Class and Kit:* Jester who Dabbles in Guarding (Level 1)
 
 **Abilities:** Str 16 (+3), Con 12 (+1), Dex 16 (+3), Int 8 (-1), Wis 11 (+0), Cha 16 (+3)
 
@@ -97,7 +99,9 @@ Otherworldly Mountainfolk Jester (Clown) who Dabbles in Guarding
 
 In her youth, Talith was inducted into the violent fire cult of Vogg. For many years, she engaged in wanton and selfish destruction. Finally, while she and her co-religionists were sacking a temple to Korven, she came upon an old priest whose quiet strength convinced her of the error of her ways. Now she is a sworn protector of the weak and a faithful servant of Korven, although she still has destructive powers from her service to Vogg. 
 
-Hero Heretic Crusader (War) who Worships the God of Life
+*Ancestry:* Hero Heretic 
+
+*Class and Kit:* Crusader (War) who Worships the God of Life (Level 1)
 
 **Abilities:** Str 16 (+3), Con 14 (+2), Dex 12 (+1), Int 11 (+0), Wis 18 (+4), Cha 8 (-1)
 
@@ -203,7 +207,9 @@ Hero Heretic Crusader (War) who Worships the God of Life
 
 Erik travelled with his merchant father as soon as he was old enough to count coins and carry stock. On one particularly stormy night, their caravan slipped on a patch of mud and slid into a ravine. When Erik came to, his father was nowhere to be found. Erik sheltered in the caves along the ravine, and in time was taken in by a family of giant bats. 
 
-Wild Child Traveler Sylvan who Exemplifies Speed
+*Ancestry:* Wild Child Traveler 
+
+*Class and Kit:* Sylvan who Exemplifies Speed (Level 1)
 
 **Abilities:** Str 12 (+1), Con 18 (+4), Dex 14 (+2), Int 10 (+0), Wis 14 (+2), Cha 11 (+0)
 
@@ -290,7 +296,9 @@ Wild Child Traveler Sylvan who Exemplifies Speed
 
 Glim was, not so long ago, the prince of the fair Kingdom of Brightstar in the foothills of the Brisingtham Mountains. An indifferent heir, he spent a little too freely on magic lessons using the royal treasury and found himself disinherited in favor of his wicked cousin. Within hours of his father's death he was outrunning the hounds over the border to Brightstar's neighbor Talgrad. Now he wanders the Outlaw Kingdoms with vague hopes of raising an army to claim his "rightful" throne.
 
-Ninth Life Aristocrat Mageblade who Conjures Fiends
+*Ancestry:* Ninth Life Aristocrat 
+
+*Class and Kit:* Mageblade who Conjures Fiends (Level 1)
 
 **Abilities:** Str 11 (+0), Con 14 (+2), Dex 12 (+1), Int 18 (+4), Wis 8 (-1), Cha 16 (+3)
 
@@ -373,7 +381,9 @@ Ninth Life Aristocrat Mageblade who Conjures Fiends
 
 When the Empire invaded, they left a trail of dead bodies behind them. Two of those bodies were Rushar's parents. Now, a flippant style of speech and constant smile disguises a deep sadness and anger in Rushar. 
 
-Escaped Aristocrat Swashbuckler who Exemplifies Charisma
+*Ancestry:* Escaped Aristocrat 
+
+*Class and Kit:* Swashbuckler who Exemplifies Charisma (Level 1)
 
 **Abilities:** Str 14 (+2), Con 12 (+1), Dex 18 (+4), Int 11 (+0), Wis 8 (-1), Cha 16 (+3)
 

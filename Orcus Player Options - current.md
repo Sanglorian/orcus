@@ -7,6 +7,8 @@ footer: ${pageNo}
 
 # Player Options
 
+0.5.1
+
 * TOC  
 {:toc}  
 
@@ -543,23 +545,22 @@ The skill name line includes (in addition to the name of the skill) the followin
 The skill name line is followed by a general description of what using the skill represents. After the description are a few other types of information:  
 
 ## Skills  
-* Acrobatics  
-* Arcana  
-* Athletics  
-* Bluff  
-* Diplomacy  
-* Dungeoneering   
-* Endure  
-* Heal  
-* History  
-* Insight  
-* Intimidate  
-* Perception  
-* Religion  
-* Stealth  
-* Streetsmarts  
-* Sleight of Hand  
-  
+* Acrobatics (Dex, Armor Check Penalty)  
+* Arcana (Int)  
+* Athletics (Str, Armor Check Penalty)  
+* Bluff (Cha)  
+* Diplomacy (Cha)  
+* Dungeoneering (Wis)   
+* Endure (Con, Armor Check Penalty)  
+* Heal (Wis)  
+* History (Int)  
+* Insight (Wis)  
+* Intimidate (Cha)  
+* Perception (Wis)  
+* Religion (Int)  
+* Sleight of Hand (Dex, Armor Check Penalty)  
+* Stealth (Dex, Armor Check Penalty)   
+* Streetsmarts (Cha)  
 ### Variant: Skills with Different Abilities  
 
 Normally, a set ability modifier applies to all checks with a particular skill. For example, Athletics checks add your Strength modifier.   
@@ -2620,6 +2621,16 @@ The fortress is a square tower, 4 squares on a side and 6 squares high, with arr
 Each creature in the area where the fortress appears is pushed to an unoccupied space outside but next to the fortress. Objects in the area that aren't being worn or carried take this damage and are pushed automatically.  
 
 The tower is made of adamantine, and its magic prevents it from being tipped over. The roof, the door, and the walls each have 100 hit points, immunity to damage from nonmagical weapons excluding siege weapons, and resistance 15 to all other damage.   
+
+### Necrosis Cube
+
+*Level 7*
+
+**Regenesis:** When you spend a recovery, you heal additional hit points equal to your Wisdom modifier. *Level 11:* Your Wisdom modifier +2. *Level 21:* Your Wisdom modifier +5.  
+
+**Sustenance**: You do not need to eat or drink while carrying the cube. You only need two hours sleep for a long rest. 
+
+**Healing Light**: The *necrosis cube* can transform residual arcane energy into a regenerative burst. Once per encounter, as an immediate (react) action, triggered when a creature within 6 squares uses an arcane power, you can spend a recovery to heal up to your recovery value.  
 
 ### Portable Hole  
 

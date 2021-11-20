@@ -7,6 +7,8 @@ footer: ${pageNo}
 
 # The Outlaw Kingdoms  
 
+0.5.1
+
 On the outskirts of the Empire hang the hundred and eight Outlaw Kingdoms, a motley collection of clans, city-states, marks, principalities, vassaldoms and - yes - even a few kingdoms. The formidable mountains and deep river valleys frustrate invaders, giving the people here a hard-won independence - but the Empire casts a long shadow.   
 
 * TOC    
@@ -22,7 +24,7 @@ Although the Outlaw Kingdoms are there to make your own, the default assumptions
   
 # Ancestries  
 
-Not all heroes in the Outlaw Kingdoms are human, but the differences between species matter less than the background that a hero comes from and the moment that marked them for greatness. As such, instead of having one ancestry like characters in other settings, characters have two halves to their ancestry: a background and a sign.   
+Not all heroes in the Outlaw Kingdoms are human, but the differences between species matter less than the background that a hero comes from and the moment that marked them for greatness. As such, instead of having one ancestry like characters in other settings, characters have two halves to their ancestry: a background and a crux.   
 
 If the two halves of your ancestry give a bonus to the same ability or same skill, choose any other ability or skill for the second bonus. For example, both the Seafarer background and the Escaped crux give a +2 bonus to Dexterity. Instead of a +4 bonus to Dexterity, an Escaped Seafarer would get a +2 bonus to Dexterity and a +2 bonus to any other ability score.   
 
@@ -37,6 +39,8 @@ All heroes have the following traits:
 ***Languages:*** You can speak, read, and write Common and one extra language of your choice.   
 
 ## Cruxes  
+
+A crux is the moment that marked a hero for greatness, the intervention that set them on their path. 
 
 ### Escaped  
 
@@ -152,6 +156,8 @@ You risked your own life to defend something precious: perhaps a loved one, a vi
 * **Violent Rush:** You have the *violent rush* power.  
   
 ## Backgrounds  
+
+A background is the culture and upbringing that a hero came from. 
 
 ### Mountainfolk  
 

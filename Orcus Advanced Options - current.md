@@ -5,6 +5,9 @@ navigation_weight: 5
 footer: ${pageNo}
 ---
 
+# Advanced Options
+0.5.1
+
 * TOC  
 {:toc}  
 
@@ -44,6 +47,92 @@ When making a **weapon attack**, a creature has -2 on the attack roll unless the
 Powers with the fire tag have -2 attack.   
 
 Creatures with the aquatic tag get +2 attack against creatures without the aquatic tag.  
+
+## Maneuvers
+
+The maneuvers introduced here are available to all characters, but they are only usable where they make sense in the fiction. In particular, the *destroy power source*, *repel* and *lure* powers are intended to be used only where an enemy could lose access to its powers (for example, a gem in its forehead is the source of its energy ray), be repulsed by something (perhaps a clove of garlic brandished at a vampire) or attracted to something (like a tyrannosaurus drawn to a dead cow).
+
+> #### Destroy Power Source  
+> **At-Will** **Standard Action**  
+> **Attack Advanced** ● **Martial, Weapon**  
+> **Melee or Ranged** weapon, one creature  
+> **Attack:**  Strength or Dexterity vs Fortitude or Reflex (whichever is higher)  
+> **Hit:**  Choose one of the target's powers. They cannot use it until it refreshes (roll of 5 or 6 required).  
+
+> #### Disarm  
+> **At-Will** **Standard Action**  
+> **Attack Advanced** ● **Martial, Weapon**  
+> **Melee** weapon, one creature  
+> **Attack:**  Strength or Dexterity vs Fortitude or Reflex (whichever is higher)  
+> **Hit:**  The target drops an item of your choice in its space.  
+> **Effect:** You provoke an attack of opportunity from the target.  
+> **Special:**  A disarmed creature cannot use powers with the Weapon tag that are associated with that weapon. However, if disarmed of a melee weapon, they can always make an unarmed attack with the same attack bonus, doing damage equal to 4 + their level.  
+
+> #### Light Up  
+> **At-Will** **Standard Action**  
+> **Attack Advanced** ● **Martial, Weapon**  
+> **Melee or Ranged** weapon, one creature  
+> **Attack:**  Dexterity or Intelligence vs Reflex  
+> **Hit:**  The target takes 5 persistent fire damage (save ends). *Level 11:* 10 persistent fire damage. *Level 21:* 15 persistent fire damage.  
+> **Special:**  You must have a source of fire to use this power.  
+
+> #### Lure  
+> **Encounter** **Standard Action**  
+> **Attack Advanced** ● **Focus**  
+> **Near** burst 5, any vulnerable creatures  
+> **Attack:**  Wisdom or Charisma vs Will  
+> **Hit:**  Target pulled 5 and immobile (save ends).  
+> **Miss:**  You cannot use this power on the same target for the rest of the encounter.  
+> **Special:**  Depending on the vulnerability of the creature, the lure might be deployed in a different space to the user.  
+
+> #### Overrun  
+> **At-Will** **Free Action**  
+> **Attack Advanced** ● **Martial, Weapon**  
+> **Melee** 1, one creature  
+> **Effect:** Make a secondary attack each time you attempt to enter an enemy's space.   
+> *Secondary Attack:* Str vs Fort; push target 1. *Miss:* You provoke an attack of opportunity from the target.  
+> **Special:**  This is an exception to the rule that you cannot enter an enemy's space.  
+
+> #### Repel  
+> **At-Will** **Standard Action**  
+> **Attack Advanced** ● **Focus**  
+> **Near** burst 2, any vulnerable creatures  
+> **Attack:**  Wisdom or Charisma vs Will  
+> **Hit:**  Target pushed their speed and immobile until the end of your next turn.  
+> **Miss:**  You cannot use this power on the same target for the rest of the encounter.  
+> **Special:**  Depending on the vulnerability of the creature, the repellant might be deployed in a different space to the user.  
+
+> #### Sunder  
+> **At-Will** **Standard Action**  
+> **Attack Advanced** ● **Martial, Weapon**  
+> **Melee** weapon, one creature  
+> **Attack:**  Strength or Dexterity vs Reflex  
+> **Hit:**  Choose an item. If the item is a weapon, armor, shield or enchanted cloak, the bonus granted by that item is reduced by 1 (cumulative). The effect on other items depends on their hardness and make-up.  
+> **Effect:** You provoke an attack of opportunity from the target.  
+
+> #### Trip  
+> **At-Will** **Standard Action**  
+> **Attack Advanced** ● **Martial, Weapon**  
+> **Melee** weapon, one creature  
+> **Attack:**  Strength or Dexterity vs Fortitude or Reflex (whichever is higher)  
+> **Hit:**  The target is knocked prone.  
+> **Effect:** You provoke an attack of opportunity from the target.  
+
+### Distant Maneuver [feat]
+
+**Requirements:** Improved Maneuver
+
+**Benefit:** You can *disarm,  trip* or *sunder* using a ranged weapon.  
+
+### Flicking Disarm [feat]
+
+**Requirements:** Improved Maneuver
+
+**Benefit:** When you *disarm* a target, you can choose any unoccupied square adjacent to you or the target for the item to land in. 
+
+### Improved Maneuver [feat]
+
+**Benefit:** You do not provoke attacks of opportunity when you use the *disarm, trip, sunder* or *overrun* powers.
 
 # Objects  
 
@@ -1772,9 +1861,118 @@ This painful infection causes bleeding from the eyes and eventually blinds the v
 * *Stage 1:* -2 penalty to attack rolls and Perception.  
 * *Stage 2:* -4 penalty to attack rolls and Perception.  
 * *Stage 3:* Blinded.  
-  
 
 **Treatment:** Sight rot can be cured using a rare flower called Eyebright, which grows in some swamps. Given an hour, a character trained in Nature can turn the flower into one dose of ointment. Applied to the eyes before a long rest, one dose of it prevents the disease from worsening after that rest. After three doses, the ointment cures the disease entirely.  
+
+# Terrain
+
+## Pools of Chaos
+
+Pools of chaos are composed of raw, seething primal chaos. Proximity to a pool of chaos may bring about strange changes over time, while direct contact with the raw chaos is even quicker. 
+
+**Changes to inanimate matter:** While immediate contact with a pit of chaos is instantly transformative, even near proximity to a pit will slowly transform objects and creatures. Objects (or portions of objects) within 20 squares of a pit of chaos have a chance of alteration as follows:
+
+* 50 percent chance on contact, and each round after
+* 10 percent chance after the first hour
+* 5 percent chance after the first 24 hours
+* 5 percent chance after the first month
+* 5 percent chance after the first year
+* 5 percent chance each year thereafter
+
+These percentage chances are not cumulative.
+
+When something is changed, half the time its material changes and the other half of the time its shape or texture changes. Use the *Material Changes* and *Shape/Texture Changes* tables to determine the specific type of change.
+
+Generally these alterations cannot be reversed or repaired except through the use of an incantation. 
+
+| d%    | Material                            |
+| ----- | ----------------------------------- |
+| 01-05 | Wood                                |
+| 06-10 | Iron                                |
+| 11-13 | Gold                                |
+| 14-16 | Silver                              |
+| 17-19 | Brass                               |
+| 20-22 | Copper                              |
+| 23-25 | Lead                                |
+| 26-30 | Leather                             |
+| 31-35 | Cloth                               |
+| 36-40 | Paper                               |
+| 41-50 | Hard stone                          |
+| 51-55 | Brittle stone                       |
+| 56-60 | Glass                               |
+| 61-62 | Ice (10% chance of being unmelting) |
+| 63-64 | Ooze/paste                          |
+| 65    | Wax                                 |
+| 66-70 | Water                               |
+| 71-73 | Oil                                 |
+| 74    | Blood                               |
+| 75    | Bone                                |
+| 76-78 | Acid                                |
+| 79    | Poisonous liquid                    |
+| 80-86 | Inert vapor                         |
+| 87-90 | Poisonous vapor                     |
+| 91    | Lava                                |
+| 92-93 | Food (bread, meat, soup, etc.)      |
+| 94-00 | Roll again twice                    |
+
+| d%    | Shape/Texture                                            |
+| ----- | -------------------------------------------------------- |
+| 01-15 | Surface becomes smooth as glass                          |
+| 16-30 | Surface becomes rough and jagged                         |
+| 31-35 | Surface becomes spiky                                    |
+| 36-45 | Enlarges (x2d10 in size)                                 |
+| 46-55 | Shrinks (d% of original)                                 |
+| 56-70 | Warps                                                    |
+| 71-80 | Grows appendage/extension/addition (d% of original size) |
+| 81-85 | Liquifies                                                |
+| 86-89 | Shape changes entirely                                   |
+| 90-00 | Roll again twice                                         |
+
+**Changes to creatures:** Living creatures suffer a +7 attack vs Fortitude each time the following occurs:
+
+*Contact:*
+
+* On contact, and each round after
+
+*After spending time within 20 squares of a pit of chaos:*
+
+* After the first hour
+* After the first 24 hours
+* After the first month
+* After the first year
+* After each year thereafter
+
+On a hit, use the *Physical Changes* table to determine the specific type of change.
+
+Generally these alterations cannot be reversed or repaired except through the use of an incantation. 
+
+| d%    | Physical Change                                              |
+| ----- | ------------------------------------------------------------ |
+| 01-15 | Skin changes color                                           |
+| 16-25 | Hair changes color                                           |
+| 26-30 | Skin changes texture                                         |
+| 31-35 | One or two limbs are twisted and useless                     |
+| 36-40 | One or two limbs are enlarged                                |
+| 41-50 | Enlarges (increase one size)                                 |
+| 51-60 | Shrinks (decrease one size)                                  |
+| 61-65 | Grows one or two additional, useless limbs                   |
+| 66-70 | Grows one or two additional, usable limbs                    |
+| 71-73 | Loses one or more eyes                                       |
+| 74-76 | Gains one or more eyes                                       |
+| 77-80 | Portion of creature turns to inanimate matter (roll for material; suffers 1d12+3 points of damage) |
+| 81-85 | Portion of creature liquifies, vaporizes, or alters into untenable shape (suffers 1d12+3 points of damage) |
+| 85-90 | Creature polymorphs into an entirely different, random, creature |
+| 91-00 | Roll again twice                                             |
+
+**Spellcasting near a pool of chaos:** Using incantations or arcane powers within 20 squares of a pit of chaos is a risky proposition. To successfully cast the spell the caster must attempt an Arcana check (DC 10 plus half the level of the power or incantation). If this check fails, roll on the *Spellcasting Changes* table on the next page to determine how the spell’s effect is changed. Some results have multiple entries - choose the first one which applies.
+
+| d%    | Change to the Spell Effect                                   |
+| ----- | ------------------------------------------------------------ |
+| 01-20 | Spell target(s) or those within the area of effect are affected as if they made contact with a pool of chaos. |
+| 21-50 | Near and Far spells have a random area within range (and randon targets within that area where relevant). Melee and Ranged spells choose targets randomly from those within range. Self spells instead target a random creature within 6 squares. |
+| 51-70 | Damage-inflicting spells heal instead of harm. Penalties become bonuses and vice versa. Effects become their opposites, if applicable. |
+| 71-85 | Spell energy goes wild, becoming a random spell of the same level, keeping target the same if possible. |
+| 86-00 | Spell energy surges uncontrollably, exploding in a Near burst 10. +7 attack vs Reflex; 1d12+3 force damage. |
 
 # Legal  
 

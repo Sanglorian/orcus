@@ -7,6 +7,8 @@ footer: ${pageNo}
 
 # Monsters  
 
+0.5.1
+
 * TOC  
 {:toc}  
   
@@ -188,17 +190,21 @@ A monster that has a swim speed doesn't need to spend extra movement to swim.
 
 A monster with phasing can move through difficult terrain, obstacles (like walls) and creatures (including enemies) without penalty.   
 
-### Terrain Stride  
+### Terrain stride  
 
-Terrain Stride describes a set of traits, each of which allows the monster to ignore difficult terrain in some conditions:   
+Terrain stride describes a set of traits, each of which allows the monster to ignore difficult terrain in some conditions:   
 
-* Ice Stride: Ice, snow or slurry.  
-* Swamp Stride: Mud, marsh or shallows.  
-* Stone Stride: Broken ground, uneven stone or rubble.   
-* Woodland Stride: Shrubbery, trees or plants.   
-* Web Stride: Webs, like those from a spider.  
-* Versatile Stride: All.  
-  
+* Ice stride: Ice, snow or slurry.  
+* Swamp stride: Mud, marsh or shallows.  
+* Stone stride: Broken ground, uneven stone or rubble.   
+* Woodland stride: Shrubbery, trees or plants.   
+* Web stride: Webs, like those from a spider.  
+* Versatile stride: All.  
+
+### Earth glide
+
+A monster with earth glide can burrow through earthen matter, including rock. When it does so, it moves at its full burrow speed, leaving no tunnels or signs of its passing.
+
 ## Ability Scores  
 
 Every monster has six ability scores (Strength, Constitution, Dexterity, Intelligence, Wisdom, and Charisma) and corresponding modifiers.   
@@ -1288,6 +1294,33 @@ The transformed servant makes a charge attack while swimming: +16 vs. AC; 2d10+6
 A servant gains a +2 bonus to attack and damage rolls if a target bears a mark from it or one of its allies.   
  **One Mind, One Advantage**  
 If a servant gains combat advantage against a target, all servants within 5 squares also gain combat advantage against the target.   
+
+# Elementals
+
+### Sand Sentry  
+
+**Level 6  Assassin** (250 XP)    
+Medium Elemental Humanoid, Earth (Unaligned)  
+**Senses:** Perception +4; tremorsense 12  
+**Languages** Primordial  
+**Skills** Acrobatics +7, Stealth +7  
+**Str** 16 (+3), **Con** 16 (+3), **Dex** 8 (+-1), **Int** 10 (+0), **Wis** 12 (+1), **Cha** 10 (+0)  
+
+---
+
+**Initiative** +2  
+**AC** 17; **Fort** 15, **Ref** 16, **Will** 14  
+**HP** 45, **Staggered** 22  
+
+---
+
+**Speed** 5, burrow 10 (earth glide)  
+(⚔️) **Fist** (standard action, at-will)  
+Melee, +11 vs AC, 2d10+3 damage.   
+💥 **Blinding Sand** (standard action, encounter)  
+Near arc 2, +11 vs Reflex, 2d10+3 damage and the target is blinded (save ends).  
+**Glass Armor**   
+When the sand sentry takes fire or lightning damage, its outer layer of sand fuses into sheets of hardened glass. It loses earth glide but gains resistance to all damage 5 until it takes damage.   
 
 # Goblinoids  
 Goblinoids include goblins, hobgoblins and bugbears.  
@@ -3871,6 +3904,87 @@ The wyvern zombie can attack with its claws only while flying; +10 vs. AC; 1d10+
  ⚔️ **Necrotic Sting** (standard, at-will) ● Necrotic  
 Reach 2; +10 vs. AC; 1d8+5 damage, and persistent 5 necrotic damage.   
 
+### Jiang-Shi Scholar  
+**Level 8 Boss Striker (Leader)** (1750 XP)    
+Medium Natural Humanoid, Undead (Evil)  
+**Senses:** Perception +12; blind, breathsense 12  
+**Languages** Common  
+**Skills** Acrobatics +13, Athletics +10, Insight +12, Perception +12, Stealth +13  
+**Str** 12 (+1), **Con** 12 (+1), **Dex** 18 (+4), **Int** 12 (+1), **Wis** 16 (+3), **Cha** 14 (+2)  
+
+---
+
+**Initiative** +8  
+**AC** 18; **Fort** 15, **Ref** 17, **Will** 16; **Saving Throws** +5  
+**HP** 256, **Staggered** 128  
+
+---
+
+**Action Points** 2  
+**Speed** 6 (versatile stride)  
+(⚔️) **Bite** (standard action, at-will)  
+Melee, +13 vs AC, 2d10 damage.  
+⚔ ️**Claw** (standard action, at-will)  
+Melee, +13 vs AC, 1d10+5 damage and the target is grappled.   
+**Multiattack**   
+Make a *claw* and a *bite* attack.  
+**Special Scroll**  ● Healing  
+While the hopping vampire is not Staggered, it has regeneration 5 and a +4 bonus to defenses against Arcane attacks.  
+⚔ ️**Drink Breath** (swift action, at-will)  
+Melee, +13 vs Fortitude; grappled creature, 3d10+5 necrotic damage and the target is weakened (save ends), though no longer grappled. *Sudden leap* refreshes.  
+**Sudden Leap** (counter action, refresh special)  
+triggered when the jiang-shi is the target of a melee attack; grapple the attacker and jump 6 squares. The attacker can then make their attack if able to do so.  
+**Breathsense**   
+As truesight, except that a living creature who holds their breath is invisible to the jiang-shi for as long as they hold their breath. To hold their breath in this way, a creature must have one hand free to fully plug their nose or cover their mouth.  
+
+A hopping vampire.   
+
+#### In the World  
+**Distractable:** The jiang-shi is compelled to count any heap of things it comes across, like a pile of glutinous rice or a basket of hen eggs. It must spend at least one move action per round counting until it has finished (it is a very fast counter, but there can be a lot of rice in a pile). It cannot use its Special Scroll or Drink Breath powers while distracted.   
+
+**One More Breath:** When a jiang-shi is reduced to 0 HP or below, they fall unconscious and awaken in 1 hour with full hit points. The jiang-shi must then focus for 1 minute to fully return from the Beyond. If it fails to do so (for example, because it is counting hen eggs), it is destroyed.   
+
+**Weaknesses:** Creatures can use a mirror or ringing bell to *repel* a jiang-shi, or an altar heaped with edible offerings to the spirits to *lure* a jiang-shi (see Advanced Combat).   
+
+**Transformation:** If a jiang-shi scholar has drunk the breath of 10 or more humanoids, then the next time it is reduced to 0 HP, it reforms as a jiang-shi magistrate. This is a good opportunity for the heroes to face the jiang-shi in a weaker form, get a sense of its powers and tactics to defeat it, and then a few days later face a more challenging jiang-shi.
+
+### Jiang-Shi Magistrate  
+**Level 11 Boss Striker (Leader)** (3000 XP)    
+Medium Natural Humanoid, Undead (Evil)  
+**Senses:** Perception +14; blind, breathsense 18  
+**Languages** Common  
+**Skills** Acrobatics +15, Athletics +12, History +12, Insight +14, Perception +14, Stealth +15  
+**Str** 14 (+2), **Con** 14 (+2), **Dex** 20 (+5), **Int** 14 (+2), **Wis** 18 (+4), **Cha** 16 (+3)  
+
+---
+
+**Initiative** +10  
+**AC** 19; **Fort** 16, **Ref** 18, **Will** 17; **Saving Throws** +5  
+**HP** 316, **Staggered** 158  
+
+---
+
+**Action Points** 2  
+**Speed** 8 (versatile stride, water walk)  
+(⚔️) **Bite** (standard action, at-will)  
+Melee, +16 vs AC, 3d8 damage.  
+⚔ ️**Claw** (standard action, at-will)  
+Reach 1, +16 vs AC, 2d8+5 damage and the target is grappled.   
+**Multiattack**   
+Make a *claw* and a *bite* attack.  
+**Special Scroll**  ● Healing  
+While the hopping vampire is not Staggered, it has regeneration 10 and a +4 bonus to defenses against Arcane attacks.  
+⚔ ️**Drink Breath** (swift action, at-will)  
+Melee, +16 vs Fortitude; grappled creature, 6d6+4 necrotic damage and the target is weakened (save ends) and still grappled. *Sudden leap* refreshes.  
+**Sudden Leap** (counter action, refresh special)  
+triggered when the jiang-shi is the target of a melee attack; grapple the attacker and jump 8 squares. The attacker's attack fails.  
+**Breathsense**   
+As truesight, except that a living creature who holds their breath is invisible to the jiang-shi for as long as they hold their breath. To hold their breath in this way, a creature must have one hand free to fully plug their nose or cover their mouth.  
+**Water Walk**   
+The jiang-shi can walk across the surface of water as if it were solid ground.   
+
+The advanced form of a hopping vampire.   
+
 
 ### Greater Failed Sacrifice  
 **Level 14 Wrecker** (1,000 XP)  
@@ -3897,7 +4011,89 @@ ___
  **Blood Frenzy** (only while staggered)   
 The greater failed sacrifice gains a +2 bonus to attack rolls and can take an extra standard action each round.   
 
-# Underdeep  
+# Underdeep 
+
+### Stygira  
+**Level 7 Elite Spoiler** (600 XP)    
+Medium Fey Humanoid, Earth (Evil)  
+**Senses:** Perception +6; gemsight  
+**Languages** Common, Deep Speech, Giant, Primordial  
+**Skills** Arcana +10, Bluff +8, Dungeoneering +11  
+**Str** 12 (+1), **Con** 10 (+0), **Dex** 16 (+3), **Int** 14 (+2), **Wis** 16 (+3), **Cha** 10 (+0)  
+
+---
+
+**Initiative** +6  
+**AC** 17; **Fort** 15, **Ref** 14, **Will** 16; **Saving Throws** +2  
+**HP** 118, **Staggered** 59  
+
+---
+
+**Action Points** 1  
+**Speed** 5  
+(⚔️) **Claw** (standard action, at-will)  
+Melee, +12 vs AC, 2d10+4 damage and target slowed (save ends). If target already slowed, immobile instead (save ends). If target already immobile, petrified instead (indefinitely).  
+🏹 **Gem Gaze** (standard action, at-will) ● Psychic, Fear  
+Ranged 10, +12 vs Will, 2d10+4 psychic damage and target pushed 2.  
+🏹 **Earthbind** (swift action, refresh 5, 6) ● Psychic  
+Ranged 20, +12 vs Fortitude, target is lowered safely to the ground, and cannot fly, levitate or climb (save ends).  
+**Light Sickness**  
+If the stygia is exposed to bright light, it is dazed (save ends).  
+**Gemsight**  
+As long as the stygira holds a gemstone, they can see through the gem with darkvision and truesight. The stygira is blind when they are not holding a gem in a hand.  
+
+**Equipment** gemstone  
+
+A hooded humanoid that sees only through a crystal it holds in its hand, able to paralyze its prey before carting them off to be rendered down in the vast vats of their subterranean lairs.   
+
+#### In the World  
+**Stone Curse:** Wounds dealt by the stygira's claws leave the flesh bleached of color and turn the blood that runs from them dark gray. A creature petrified by the stone curse that spends 8 hours in direct sunlight can attempt a new saving throw to remove the effects of stone curse.  
+
+**Oracles:** Stygira know divination magic pertaining to reading omens, clairaudience, reading auras and auguries.
+
+#### Special  
+Those stygira with particularly precious gemstones may have different gaze attacks.   
+
+### Bauble Beast  
+**Level 9 Elite Blocker** (800 XP)    
+Large Natural Monstrosity, Earth (Unaligned)  
+**Senses:** Perception +7; darkvision  
+**Languages** Common, Deep Speech, Dwarvish, Primordial  
+**Skills** Acrobatics +13, Bluff +13, Sleight of Hand +13  
+**Str** 18 (+4), **Con** 16 (+3), **Dex** 18 (+4), **Int** 12 (+1), **Wis** 16 (+3), **Cha** 18 (+4)  
+
+---
+
+**Initiative** +8  
+**AC** 20; **Fort** 17, **Ref** 16, **Will** 16  
+**HP** 138, **Staggered** 69  
+
+---
+
+**Speed** 6, climb 2  
+(⚔️) **Leg** (standard action, at-will)  
+Melee, +14 vs AC, 2d12+4 damage.  
+⚔ ️**Jaws** (standard action, refresh 4, 5, 6) ● Acid  
+Melee, +14 vs AC, 4d8+5 acid damage and target is overly generous (save ends).   
+💥 **Bile** (standard action, refresh 4, 5, 6) ● Acid  
+Near arc 3, +14 vs Fortitude, 2d12+4 acid damage and target is overly-generous (save ends).  
+🏹 **Item Toss** (react action, bauble beast is handed a gift; at-will)  
+Ranged 10, +14 vs AC, 4d8+5 damage and the gift lands in the target's space.   
+**Bile Duct** ( action, when Staggered; encounter)  
+Make an immediate *bile* attack, whether or not it is refreshed. Both *bile* and *jaws* then immediately refresh.   
+
+A large, four-legged creature with two unexpectedly small and graceful arms and a blocky head, the bauble beast's mustard-yellow hide is spotted with what appear to be precious stones. 
+
+#### In the World  
+**Forge Jewelry:** The bauble beast creates imitation jewelry within its own digestive system. This takes about 4 hours. Determining the jewelry is fake works like detecting a forgery. The process of creating fake jewelry also places an enchantment inside the item. Anyone who dons the imitation jewelry is targeted with a +14 attack vs Will. On a hit, a creature that fails learns the location where the fake jewelry was created and is compelled for one hour to collect their valuable belongings and bring them to that location. Removing the imitation jewelry ends the effect immediately, but the wearer can't take it off voluntarily.  
+
+#### Special  
+The bauble beast introduces a new condition, 'overly-generous'.  
+
+**Overly-generous:** The creature spends up to one move action and up to one swift action per round trying to give away an item of value. Unless a particular creature requests a gift and/or requests a particular gift, the gift is chosen randomly and the target is chosen randomly among those that can be reached with a single move.  
+
+#### Tactics
+The bauble beast uses its attacks until it has been given enough valuable items, at which point it runs away. 
 
 ### Burrower Wurm  
 
@@ -4129,6 +4325,7 @@ Trigger: The evil eye is hit by an attack; make a gaze attack, chosen randomly.
 | Failed Sacrifice                | 6     | Wrecker                |  
 | Hulk                            | 6     | Wrecker                |  
 | Quipper Swarm                   | 6     | Striker                |  
+| Sand Sentry | 6 | Assassin |  
 | Shapeshifter Slime - Human Form | 6     | Archer                 |  
 | Shapeshifter Slime - Slime Form | 6     | Assassin               |  
 | Specter of Chivalry             | 6     | Blocker                |  
@@ -4140,6 +4337,7 @@ Trigger: The evil eye is hit by an attack; make a gaze attack, chosen randomly.
 | Sniper Bandit                   | 7     | Mook Striker           |  
 | Zombified Wyvern                | 7     | Wrecker                |  
 | King of Thieves                 | 7     | Elite Blocker (Leader) |  
+| Stygira | 7 | Elite Spoiler |
 | Longbowman                      | 8     | Mook Archer            |  
 | Aquatic Gargoyle                | 8     | Assassin               |  
 | Fire Magician                   | 8     | Archer                 |  
@@ -4147,11 +4345,13 @@ Trigger: The evil eye is hit by an attack; make a gaze attack, chosen randomly.
 | Transformed Servant             | 8     | Blocker                |  
 | Greymalkin | 8 | Elite Striker |  
 | Adult Couatl                    | 8     | Boss Striker           |  
+| Jiang-Shi Scholar | 8 | Boss Striker |
 | Hezrou | 9 | Wrecker |  
 | Hungry Maw | 9 | Wrecker |  
 | Vulture Demon | 9 | Wrecker |  
 | Ogre Wretch                     | 9     | Mook                   |  
 | Insidious Assassin              | 9     | Assassin               |  
+| Bauble Beast | 9 | Elite Blocker |
 | The Emperor                     | 9     | Elite Archer           |  
 | Martial Artist                  | 10    | Mook Striker           |  
 | Pleisiosaur                     | 10    | Wrecker                |  
@@ -4165,6 +4365,7 @@ Trigger: The evil eye is hit by an attack; make a gaze attack, chosen randomly.
 | ------------------------------- | ----- | ---------------------- |  
 | Greater Wolf-Goblin             | 11    | Elite Striker          |  
 | Dark Knight                     | 11    | Boss Wrecker           |  
+| Jiang-Shi Magistrate | 11 | Boss Striker |
 | Armored Warmage                 | 12    | Wrecker                |  
 | Ice Hag                         | 12    | Elite Striker          |  
 | Master Assassin                 | 12    | Elite Assassin         |  
@@ -4333,7 +4534,7 @@ The role is the function that the monster plays in combat. It determines defense
 
 *AC:* 12 + level; *Fort:* 13 + level; *Ref:* 11 + level; *Will:* 12 + level.  
 
-*HP:* 26 + (6 * level) (double for Elite, quadruple for Boss)  
+*HP:* 27 + (6 * level) (double for Elite, quadruple for Boss)  
 
 *Attack:* +5 + level  
 
@@ -4443,6 +4644,10 @@ Distribute the following ability scores so that each pair of Strength and Consti
   
 
 Then choose any number lower than 13 + half level for the remaining three ability scores. For example, animals are usually given an Intelligence of 1 or 2.   
+
+### Skills
+
+Choose any number of skills for the monster to be trained in. These skills have a bonus of 5 + half level + the relevant ability modifier. 
 
 # Legal  
 
