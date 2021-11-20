@@ -25,7 +25,7 @@ Campaign resources:
 
 Related games:
 
-* [Petit 4](Petit 4.md)
+* [Petit 4](Petit 4.md) ([PDF](https://github.com/Sanglorian/orcus/blob/main/Petit%204.pdf))
 
 ---
 
