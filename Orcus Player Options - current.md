@@ -684,11 +684,7 @@ The DC for the Swim check depends on the water (calm, rough or stormy).
 ## Bluff (Cha)  
 Your Bluff check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie.  
 
-### Feinting in Combat  
-You can also use Bluff as a standard action once per encounter to mislead an opponent in melee combat, giving you combat advantage until the end of your next turn. The DC is the target's passive Insight score.   
-
-### Creating a Diversion to Hide  
-You can use the Bluff skill to help you hide once per encounter as a standard action. A successful Bluff check gives you the momentary diversion you need to attempt a Stealth check while people are aware of you. The DC is the target or targets' passive Insight score (you can target any creatures that can see you).  
+The Feint and Create Diversion actions use the Bluff skill. 
 
 ## Diplomacy (Cha)  
 When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Diplomacy check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring nations, or inspiring a crowd of townsfolk.  
@@ -731,6 +727,8 @@ Your Insight check decides whether you can determine the true intentions of a cr
 
 ## Intimidate (Cha)  
 When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make an Intimidate check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision.  
+
+The Deter and Unnerve actions use the Intimidate skill (see the Rulebook for more details).
 
 ## Nature (Wis)  
 Your Nature check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles.  
@@ -1774,15 +1772,15 @@ You can design an exotic ranged weapon by taking a martial weapon and increasing
 
 **Table - Weapon Templates**  
 
-| Type                      | Examples                                                     | Range | Type    | Hand | Proficiency Bonus | Damage (dW) | Cost (gp) | Weight (lb) | Range | Properties                  |  
-| ------------------------- | ------------------------------------------------------------ | ----- | ------- | ---- | ----------------- | ----------- | --------- | ----------- | ----- | --------------------------- |  
-| Simple side weapon        | Knife (light blade), dart (spear)                            | Melee | Simple  | 1    | +2                | 1d4         | 2         | 2           | 5/10  | Side Weapon, Thrown (Light) |  
-| Simple one-handed weapon  | Light mace (mace), sickle (light blade), shortspear (spear), club (mace) | Melee | Simple  | 1    | +2                | 1d8         | 5         | 5           |       |                             |  
-| Simple two-handed weapon  | Greatclub (mace), morningstar (mace), quarterstaff (staff), scythe (heavy blade) | Melee | Simple  | 2    | +2                | 1d10        | 5         | 10          |       |                             |  
-| Martial side weapon       | Throwing hammer (hammer), handaxe (axe), hatchet (axe), shortsword (light blade), juggling club (mace), combat grapnel (flail), fork (spear) | Melee | Martial | 1    | +2                | 1d6         | 5         | 1           | 5/10  | Side Weapon, Thrown (Heavy) |  
-| Martial one-handed weapon | Rapier (light blade), scimitar (light blade), heavy mace (mace), longsword (heavy blade), warhammer (hammer), adze (axe), war pick (pick), battleaxe (axe), bladed scarf (flail), fighting fan (light blade) | Melee | Martial | 1    | +2                | 1d8         | 10        | 4           |       | [group]                     |  
-| Martial two-handed weapon | Greataxe (axe), greatsword (heavy blade), maul (hammer), heavy flail (flail), falchion (heavy blade), greatpick (pick), hooked hammer (pick) | Melee | Martial | 2    | +2                | 1d10        | 25        | 8           |       | [group]                     |  
-| Martial reach weapon      | Longspear (polearm, spear), halberd (axe, polearm), glaive (heavy blade, polearm), bo staff (staff, polearm), pike (spear, polearm) | Melee | Martial | 2    | +2                | 1d8         | 25        | 8           |       | Reach 1, [group]            |  
+| Type                      | Examples                                                     | Range | Type    | Hand | Proficiency Bonus | Damage (dW) | Cost (gp) | Weight (lb) | Range | Properties                  |
+| ------------------------- | ------------------------------------------------------------ | ----- | ------- | ---- | ----------------- | ----------- | --------- | ----------- | ----- | --------------------------- |
+| Simple side weapon        | Knife (light blade), dart (spear)                            | Melee | Simple  | 1    | +2                | 1d4         | 2         | 2           | 5/10  | Side Weapon, Thrown (Light) |
+| Simple one-handed weapon  | Light mace (mace), sickle (light blade), shortspear (spear), club (mace) | Melee | Simple  | 1    | +2                | 1d8         | 5         | 5           |       |                             |
+| Simple two-handed weapon  | Greatclub (mace), morningstar (mace), quarterstaff (staff), scythe (heavy blade) | Melee | Simple  | 2    | +2                | 1d10        | 5         | 10          |       |                             |
+| Martial side weapon       | Throwing hammer (hammer), handaxe (axe), hatchet (axe), shortsword (light blade), juggling club (mace), combat grapnel (flail), fork (spear), light pick (pick) | Melee | Martial | 1    | +2                | 1d6         | 5         | 1           | 5/10  | Side Weapon, Thrown (Heavy) |
+| Martial one-handed weapon | Rapier (light blade), scimitar (light blade), heavy mace (mace), longsword (heavy blade), warhammer (hammer), adze (axe), war pick (pick), battleaxe (axe), bladed scarf (flail), fighting fan (light blade) | Melee | Martial | 1    | +2                | 1d8         | 10        | 4           |       | [group]                     |
+| Martial two-handed weapon | Greataxe (axe), greatsword (heavy blade), maul (hammer), heavy flail (flail), falchion (heavy blade), greatpick (pick), hooked hammer (pick) | Melee | Martial | 2    | +2                | 1d10        | 25        | 8           |       | [group]                     |
+| Martial reach weapon      | Longspear (polearm, spear), halberd (axe, polearm), glaive (heavy blade, polearm), bo staff (staff, polearm), pike (spear, polearm) | Melee | Martial | 2    | +2                | 1d8         | 25        | 8           |       | Reach 1, [group]            |
 
 ### Default Weapons  
 
@@ -2664,12 +2662,12 @@ The third command word causes the *folding boat* to fold back into a box, provid
 
 **Table - Consumable Magic Items**  
 
-| Name                                  | Level | Action   | Effect                                                                                                                 |  
-|---------------------------------------|-------|----------|------------------------------------------------------------------------------------------------------------------------|  
-| Potion of healing                     | 5     | Swift    | Spend a healing surge. Heal 10 HP instead of your normal value.                                                        |  
-| Salve of resurrection                 | 30    | Standard | Apply to an adjacent character that died within 1 round. That character is resurrected and they are healed 50 HP.      |  
-| Potion of healing and rescue          | 15    | Swift    | Spend a healing surge. Heal 25 HP instead of your normal value, and make one saving throw against a save-ends effect.  |  
-| Advanced potion of healing and rescue | 25    | Swift    | Spend a healing surge. Heal 50 HP instead of your normal value, and make one saving throw against a save-ends effect.  |  
+| Name                                  | Level | Action   | Effect                                                       |
+| ------------------------------------- | ----- | -------- | ------------------------------------------------------------ |
+| Potion of healing                     | 5     | Swift    | Spend a recovery. Heal 10 HP instead of your normal value.   |
+| Salve of resurrection                 | 30    | Standard | Apply to an adjacent character that died within 1 round. That character is resurrected and they are healed 50 HP. |
+| Potion of healing and rescue          | 15    | Swift    | Spend a recovery. Heal 25 HP instead of your normal value, and make one saving throw against a save-ends effect. |
+| Advanced potion of healing and rescue | 25    | Swift    | Spend a recovery. Heal 50 HP instead of your normal value, and make one saving throw against a save-ends effect. |
 
 # Appendices  
 

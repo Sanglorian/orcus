@@ -1158,6 +1158,55 @@ If you have more than one speed, such as your walking speed and a fly speed, you
 
 For example, if you have a speed of 6 and a fly speed of 12 because a wizard cast the *fly* spell on you, you could fly 4 squares, then walk 2 squares, and then leap into the air to fly 6 squares more.  
 
+## Additional Movement Modes
+
+Some creatures have one or more of the following additional movement modes.  
+
+**Compress** means that the monster can travel through spaces as if it were one size smaller without squeezing, or as if it were two sizes smaller while squeezing.  
+
+### Burrow  
+
+A monster that has a burrowing speed can use that speed to move through sand, earth, mud, or ice. A monster can't burrow through solid rock unless it has a special trait that allows it to do so.  
+
+**Earth glide** means the creature can burrow through earthen matter, including rock. When it does so, it moves at its full burrow speed, leaving no tunnels or signs of its passing.
+
+### Climb  
+
+A monster that has a climbing speed can use all or part of its movement to move on vertical surfaces. The monster doesn't need to spend extra movement to climb.  
+
+**Wall-climber** means that the monster does not have to make Athletics checks to climb, even while climbing upside down.   
+
+### Fly  
+
+A monster that has a flying speed can use all or part of its movement to fly.  
+
+If a monster is flying, it typically has to move at least 2 squares per round, or it crashes to earth. It cannot shift or make opportunity attacks while flying.   
+
+Some monsters have the ability to **hover**, which makes them hard to knock out of the air. Such a monster stops hovering when it dies. A hovering monster does not have to move at least 2 squares per round, can shift and can make opportunity attacks.   
+
+Some monsters will specify how high they can fly ("maximum altitude"), in squares. If they fly beyond that height, they crash.   
+
+If a creature has the **clumsy on ground** trait, they suffer a -4 penalty to attack rolls and defences while on the ground. If a creature has the **clumsy in air** trait, they suffer a -4 penalty to attack rolls and defences while flying.   
+
+### Swim  
+
+A monster that has a swim speed doesn't need to spend extra movement to swim.  
+
+### Phasing  
+
+A monster with phasing can move through difficult terrain, obstacles (like walls) and creatures (including enemies) without penalty.   
+
+### Terrain stride  
+
+Terrain stride describes a set of traits, each of which allows the monster to ignore difficult terrain in some conditions:   
+
+* Ice stride: Ice, snow or slurry.  
+* Swamp stride: Mud, marsh or shallows.  
+* Stone stride: Broken ground, uneven stone or rubble.   
+* Woodland stride: Shrubbery, trees or plants.   
+* Web stride: Webs, like those from a spider.  
+* Versatile stride: All.  
+
 ## Difficult Terrain  
 
 Combat rarely takes place in bare rooms or on featureless plains. Boulder-strewn caverns, briar-choked forests, treacherous staircases-the setting of a typical fight contains difficult terrain.  
@@ -1281,11 +1330,41 @@ When you take the Crawl move action, you move half your speed. Your movement pro
 
 You cannot Walk or Dash while prone, which is why you might choose the Crawl action.   
 
+## Create Diversion (standard action)
+
+You can Create Diversion once per encounter. Target any number of enemies within sight. 
+
+*Attack:* Bluff check vs target's passive Insight score. 
+
+*Hit:* You have the momentary diversion you need to attempt a Stealth check while people are aware of you. 
+
 ## Dash (move action)  
 
 When you take the Dash move action, you move your speed +2. Until the end of your next turn, you grant combat advantage and suffer a -5 penalty to attacks.  
 
 Your movement provokes opportunity attacks as normal movement does.   
+
+## Deter (standard action)
+
+*Target:* A creature that can see or hear you.
+
+*Attack:* Intimidate check vs Will. They take a +5 bonus to their Will defense if unfriendly, or +10 if hostile. They gain a further +5 bonus if you do not speak in a language that they understand.
+
+*Hit:* The target cannot take an action of your choice until the end of their next turn.  
+
+*Miss:* The target cannot be the target of your Deter or Unnerve action again until the end of this encounter.
+
+*Effect:* The target becomes hostile if it was not already.
+
+## Feint (standard action)
+
+You can Feint once per encounter. 
+
+*Target:* An adjacent enemy. 
+
+*Attack:* Bluff check vs target's passive Insight score. 
+
+*Hit:* You gain combat advantage against the target until the end of your next turn. 
 
 ## Five-Foot Step (move action)  
 
@@ -1383,6 +1462,16 @@ While squeezing, you grant combat advantage and suffer a -5 penalty to attacks.
 You can defend yourself as a standard action. When you take the Total Defense standard action, you focus entirely on avoiding attacks.   
 
 +2 to all defenses until the start of your next turn.   
+
+## Unnerve (standard action)
+
+*Target:* Staggered enemies of your choice that can see and hear you.
+
+*Attack:* Intimidate vs Will. Targets get a +10 bonus to their Will defense, or +15 if you do not speak in a language that they understand.
+
+*Hit:* The target surrenders.  
+
+*Miss:* The target cannot be the target of your Deter or Unnerve action again until the end of this encounter.
 
 ## Use a Power (various actions)  
 

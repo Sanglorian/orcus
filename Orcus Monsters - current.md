@@ -53,11 +53,11 @@ Bosses are very strong monsters. Five standard monsters are worth one boss.
   
 ## Role  
 
-### Assassin  
+### Assassins  
 
 Do devastating attacks every so often, interspersed with hiding or escaping.   
 
-### Striker  
+### Strikers  
 
 Take advantage of mobility to make attacks and avoid being tied down in combat.   
 
@@ -153,57 +153,6 @@ A monster usually dies or is destroyed when it drops to 0 hit points.
 ## Speed  
 
 A monster's speed tells you how far it can move with a Walk action. It can also take other actions that use speed, like Run and Charge.   
-
-Some creatures have one or more of the following additional movement modes.  
-
-**Compress** means that the monster can travel through spaces as if it were one size smaller without squeezing, or as if it were two sizes smaller while squeezing.  
-
-### Burrow  
-
-A monster that has a burrowing speed can use that speed to move through sand, earth, mud, or ice. A monster can't burrow through solid rock unless it has a special trait that allows it to do so.  
-
-**Earth glide** means the creature can burrow through earthen matter, including rock. When it does so, it moves at its full burrow speed, leaving no tunnels or signs of its passing.
-
-### Climb  
-
-A monster that has a climbing speed can use all or part of its movement to move on vertical surfaces. The monster doesn't need to spend extra movement to climb.  
-
-**Wall-climber** means that the monster does not have to make Athletics checks to climb, even while climbing upside down.   
-
-### Fly  
-
-A monster that has a flying speed can use all or part of its movement to fly.  
-
-If a monster is flying, it typically has to move at least 2 squares per round, or it crashes to earth. It cannot shift or make opportunity attacks while flying.   
-
-Some monsters have the ability to **hover**, which makes them hard to knock out of the air. Such a monster stops hovering when it dies. A hovering monster does not have to move at least 2 squares per round, can shift and can make opportunity attacks.   
-
-Some monsters will specify how high they can fly ("maximum altitude"), in squares. If they fly beyond that height, they crash.   
-
-If a creature has the **clumsy on ground** trait, they suffer a -4 penalty to attack rolls and defences while on the ground. If a creature has the **clumsy in air** trait, they suffer a -4 penalty to attack rolls and defences while flying.   
-
-### Swim  
-
-A monster that has a swim speed doesn't need to spend extra movement to swim.  
-
-### Phasing  
-
-A monster with phasing can move through difficult terrain, obstacles (like walls) and creatures (including enemies) without penalty.   
-
-### Terrain stride  
-
-Terrain stride describes a set of traits, each of which allows the monster to ignore difficult terrain in some conditions:   
-
-* Ice stride: Ice, snow or slurry.  
-* Swamp stride: Mud, marsh or shallows.  
-* Stone stride: Broken ground, uneven stone or rubble.   
-* Woodland stride: Shrubbery, trees or plants.   
-* Web stride: Webs, like those from a spider.  
-* Versatile stride: All.  
-
-### Earth glide
-
-A monster with earth glide can burrow through earthen matter, including rock. When it does so, it moves at its full burrow speed, leaving no tunnels or signs of its passing.
 
 ## Ability Scores  
 
@@ -392,7 +341,7 @@ Ranged 5, 1 target; Level +2 vs Will; target is controlled (save ends). You are 
 ## Half-Fiend  
 **Defenses:** +2 Fortitude, +2 Reflex.  
 **Darkness Aura 6:** Bright light within the aura is reduced to dim light.   
-**Senses:** Darkvision .  
+**Senses:** Darkvision.  
 **Resistance to:** acid 5, cold 5, fire 5.  
 *Level 11:* Acid 10, cold 10, fire 10; *Level 21:* Acid 15, cold 15, fire 15.  
 **Immunity to:** Poison.  
@@ -476,7 +425,7 @@ Reroll the attack roll and take the new result.
 **More Than Expected (mook only)**  
 When the mook is eliminated, make a save. On a success, place an identical mook anywhere within ten squares of it that is not in line of sight of a player character. Do not adjust experience.
 
-**Martyrdom** (immediate (react), the fanatic is reduced to 0 hit points or less, encounter)  
+**Martyrdom** (immediate (react), the monster is reduced to 0 hit points or less, encounter)  
 All allies in line of sight may shift three squares.
 
 **Dirty Fighter**  
@@ -495,7 +444,7 @@ If creatures with this trait outnumber their opponents by 2-to-1, each such crea
 The creature gains a +2 enhancement bonus to AC while adjacent to an ally. 
 
 **Combat Drill** (immediate (react), when an ally moves into or out of an adjacent square, at-will)  
-The adversary may shift up to three squares as long as he moved in the direction of this ally.
+The monster may shift up to three squares as long as he moved in the direction of this ally.
 
 **Encouraging Reaction**  
 When the creature scores a critical hit, one ally can make a basic attack as an immediate (react) action.
@@ -1346,7 +1295,7 @@ ___
 <span style='height: 25px; width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:inline-block;'>⚔️</span> **Bite** (standard, at-will)   
 +11 vs. AC; 1d10+4 damage, and the target is grappled (until escape).   
  ⚔️ **Feed** (standard, at-will) ● Healing, Necrotic  
-Grappled target only; +9 vs. Fortitude; 2d6+2 necrotic damage, the target loses 1 healing surge, and the wolf-goblin regains 10 temporary hit points. In addition, for each successful feeding, the wolf-goblin gains a non-cumulative +2 bonus on attack and damage rolls until the end of its next tu   
+Grappled target only; +9 vs. Fortitude; 2d6+2 necrotic damage, the target loses 1 healing surge, and the wolf-goblin regains 10 temporary hit points. In addition, for each successful feeding, the wolf-goblin gains a non-cumulative +2 bonus on attack and damage rolls until the end of its next turn.  
  💥 **Howl of the Damned** (standard, refresh 5, 6) ● Fear, Psychic  
 Near blast 3; +7 vs. Will; 3d6+3 psychic damage, and the target takes a –2 penalty to attack rolls (save ends).   
  **Shapechange** (minor, at-will) ● Polymorph  
@@ -1375,7 +1324,7 @@ ___
 <span style='height: 25px; width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:inline-block;'>⚔️</span> **Bite** (standard, at-will)   
 +16 vs. AC; 2d6+6 damage, and the target is grappled (until escape).   
  ⚔️ **Feed** (standard, at-will) ● Healing, Necrotic  
-Grappled target only; +14 vs. Fortitude; 4d6+3 necrotic damage, the target loses 2 healing surges, and the greater wolf-goblin regains 10 hit points. If a target is reduced to 0 hit points in this fashion, the greater wolf-goblin gains a cumulative +2 bonus to attack rolls, damage rolls, and all   
+Grappled target only; +14 vs. Fortitude; 4d6+3 necrotic damage, the target loses 2 healing surges, and the greater wolf-goblin regains 10 hit points. If a target is reduced to 0 hit points in this fashion, the greater wolf-goblin gains a cumulative +2 bonus to attack rolls, damage rolls, and all defenses until the end of the encounter.   
  💥 **Howl of the Damned** (standard, refresh 5, 6) ● Fear, Psychic  
 Near blast 5; +12 vs. Will; 4d6+4 psychic damage, and the target is dazed and weakened (save ends both).   
  **Shifting Shapechange** (minor, once a round) ● Polymorph  
@@ -3734,51 +3683,51 @@ Ranged 10; +9 vs. Reflex; 1d8+3 fire damage, and persistent 2 fire damage (save 
 
 ### Desiccated Husk
 
-**Level 3 Wrecker** (150 XP)
-Medium Elemental Humanoid (Undead )
-**Senses:** Perception +1; darkvision
-**Str** 14 (+2), **Con** 10 (+0), **Dex** 8 (-1), **Int** 14 (+2), **Wis** 10 (+0), **Cha** 17 (+3)
-**Alignment:** Evil
+**Level 3 Wrecker** (150 XP)  
+Medium Elemental Humanoid (Undead)  
+**Senses:** Perception +1; darkvision  
+**Str** 14 (+2), **Con** 10 (+0), **Dex** 8 (-1), **Int** 14 (+2), **Wis** 10 (+0), **Cha** 17 (+3)  
+**Alignment:** Evil  
 
 ___
 
-**Initiative:** +0
-**AC:** 15; **Fort:** 16, **Ref:** 14, **Will** 15
-**HP:** 44, **Staggered:** 22
-**Resistance to:** necrotic 5, **Vulnerability to:** radiant 5
+**Initiative:** +0  
+**AC:** 15; **Fort:** 16, **Ref:** 14, **Will** 15  
+**HP:** 44, **Staggered:** 22  
+**Resistance to:** necrotic 5, **Vulnerability to:** radiant 5  
 *Blood Sweats Aura 4:* A living creature that ends its turn in the aura suffers 3 damage.
 
 ___
 
 **Speed** 4
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Claw** (standard, at-will)  
-+6 vs AC; 1d12+4 damage. 
++6 vs AC; 1d12+4 damage.   
  **Reformation**  
 Keep track of all damage the desiccated husk does, including through its aura. If damage done ever exceeds 22, that desiccated husk is replaced by a bloody bones as an immediate (react) action. Add 44 to the desiccated husk's current HP to determine the bloody bones' current HP. A bloody bones created in this way still only gives 150 XP for being defeated. 
 
 ### Bloody Bones
 
-This creature appears as a skeletal humanoid with bits of muscle and sinew hanging from its body. Four long, sinewy tendrils writhe from its midsection. The entire creature constantly oozes a mixture of blood and mucus. Its eye sockets are hollow and show no pupils.
+This creature appears as a skeletal humanoid with bits of muscle and sinew hanging from its body. Four long, sinewy tendrils writhe from its midsection. The entire creature constantly oozes a mixture of blood and mucus. Its eye sockets are hollow and show no pupils.  
 
-**Level 3 Elite Wrecker** (300 XP)
-Medium Elemental Humanoid (Undead )
-**Senses:** Perception +2; darkvision
-**Str** 14 (+2), **Con** 10 (+0), **Dex** 12 (+1), **Int** 14 (+2), **Wis** 13 (+1), **Cha** 17 (+3)
-**Alignment:** Evil
+**Level 3 Elite Wrecker** (300 XP)  
+Medium Elemental Humanoid (Undead )  
+**Senses:** Perception +2; darkvision  
+**Str** 14 (+2), **Con** 10 (+0), **Dex** 12 (+1), **Int** 14 (+2), **Wis** 13 (+1), **Cha** 17 (+3)  
+**Alignment:** Evil  
 
 ___
 
-**Initiative:** +2
-**AC:** 15; **Fort:** 16, **Ref:** 14, **Will** 15+2
-**HP:** 88, **Staggered:** 44
-**Resistance to:** necrotic 5, **Vulnerability to:** radiant 5
+**Initiative:** +2  
+**AC:** 15; **Fort:** 16, **Ref:** 14, **Will** 15+2  
+**HP:** 88, **Staggered:** 44  
+**Resistance to:** necrotic 5, **Vulnerability to:** radiant 5  
 *Blood Sweats Aura 4:* A living creature that ends its turn in the aura suffers 3 damage.
 
 ___
 
-**Speed** 6
+**Speed** 6  
 <span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Wicked Claw** (standard, at-will)  
-+6 vs AC; 1d12+4 damage and 5 persistent damage (save ends). 
++6 vs AC; 1d12+4 damage and 5 persistent damage (save ends).   
  **Slide Away** (immediate (counter), encounter)  
 Shift 6.
 
@@ -3830,7 +3779,7 @@ ___
  ⚔️ **Claw Fury** (standard, at-will) ● Necrotic  
 The slaugh makes two claw attacks. If both claw attacks hit the same target, the target is knocked prone.   
  💥 **Shadowswarm** (standard, encounter) ● Zone  
-Near blast 5; +7 vs. AC; The slaugh vomits forth a cloud of screaming, shadowy bats. The cloud grants concealment to all creatures within it and blocks line of sight. Any enemy within the cloud that makes a Ranged or Far attack suffers an opportunity attack, 1d4+1 damage, and the   
+Near blast 5; +7 vs. AC; The slaugh vomits forth a cloud of screaming, shadowy bats. The cloud grants concealment to all creatures within it and blocks line of sight. Any enemy within the cloud that makes a Ranged or Far attack suffers an opportunity attack, 1d4+1 damage, and the target takes a -2 penalty to all attack rolls until the end of its next turn. The cloud persists until the end of the encounter.   
 
 
 ### Specter of Chivalry  
@@ -3868,7 +3817,7 @@ ___
 **AC:** 20; **Fort:** 15, **Ref:** 19, **Will** 18  
 **HP:** 68, **Staggered:** 34  
 **Immunity to:** disease, poison, **Resistance to:** necrotic 10, incorporeal, **Vulnerability to:** radiant 5  
-*Regretful Whispers (Psychic) aura 1:* Any enemy that enters or starts its turn in the aura takes 5 psychic damage and cannot shift until the start of its next turn. If the spectre of sorrow takes radiant damage, the aura is negated until the end of its n  
+*Regretful Whispers (Psychic) aura 1:* Any enemy that enters or starts its turn in the aura takes 5 psychic damage and cannot shift until the start of its next turn. If the specter of sorrow takes radiant damage, the aura is negated until the end of its next turn.
 
 ___
 
@@ -3940,7 +3889,7 @@ As truesight, except that a living creature who holds their breath is invisible 
 A hopping vampire.   
 
 #### In the World  
-**Distractable:** The jiang-shi is compelled to count any heap of things it comes across, like a pile of glutinous rice or a basket of hen eggs. It must spend at least one move action per round counting until it has finished (it is a very fast counter, but there can be a lot of rice in a pile). It cannot use its Special Scroll or Drink Breath powers while distracted.   
+**Distractible:** The jiang-shi is compelled to count any heap of things it comes across, like a pile of glutinous rice or a basket of hen eggs. It must spend at least one move action per round counting until it has finished (it is a very fast counter, but there can be a lot of rice in a pile). It cannot use its Special Scroll or Drink Breath powers while distracted.   
 
 **One More Breath:** When a jiang-shi is reduced to 0 HP or below, they fall unconscious and awaken in 1 hour with full hit points. The jiang-shi must then focus for 1 minute to fully return from the Beyond. If it fails to do so (for example, because it is counting hen eggs), it is destroyed.   
 

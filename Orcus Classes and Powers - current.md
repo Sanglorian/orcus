@@ -151,8 +151,6 @@ The first time in an encounter that you use a power, you gain a bonus based on t
 #### Lift Spirits  
 You can use the *lift spirits* power two times each encounter. *Level 16:* Three times per encounter.  
 
-
-
 >  ### Lift Spirits  
 >  
 > **Encounter** **Swift Action**  
@@ -165,7 +163,7 @@ Choose one at character creation.
 
 **React to Ill Fortune:** If an ally within 5 misses with an attack, they can shift 1 as a free action. Your secondary ability is Intelligence.   
 
-**React to Good Fortune:** If an ally within 5 makes a critical hit, choose an ally within 5. They get a +2 bonus on their next attack roll (if they use it before the end of your next turn). Your secondary ability is Strength.   
+**React to Good Fortune:** If an ally within 5 makes a critical hit, choose an ally within 5. They get a +2 bonus on their next attack roll (if they use it before the end of their next turn). Your secondary ability is Strength.   
 
 **React to Despair:** Allies within 5 gain a +1 bonus to their saving throws for every saving throw that they have failed in that turn. Your secondary ability is Charisma.   
 
@@ -236,7 +234,7 @@ You can use the *infuse with life* power twice per encounter.
 
 #### Magical Training  
 
-You gain the Athame,  Alchemist, Cantrip Master or Incantation Caster feat (your choice).  
+You gain the Athame, Cantrip Master or Incantation Caster feat (your choice).  
 
 #### Action Recharge  
 
@@ -403,8 +401,10 @@ You have the Athame feat for the weapon type that your particular weapon belongs
 You select a particular weapon that you are proficient with and perform a daylong ceremony to make it your key weapon.  You can only have one key weapon at a time, but you can repeat the ceremony with a different weapon to make it your key weapon.  
 
 As a standard action, if you have a free hand you can summon your key weapon. If it is within 10 squares, it appears in your hand.  
-*Level 11:* Within 10 miles.  
-*Level 21:* Within 100 miles.  
+
+*Level 11:* Move action, on the same place.  
+*Level 21:* Swift action, anywhere.  
+
 #### Shimmering Shield  
 If you have a spare hand (not carrying a shield, wielding a two-handed weapon, etc.), you receive a +2 shield bonus to AC.   
 ### Talents  
@@ -560,8 +560,8 @@ Encounter attack powers from your class gain the following Miss entry if they do
 * *Weakened:* -4 to damage.  
 * *Unwilling movement 3 or more:* Unwilling movement of the same variety 1.  
   
-#### Magical Training  
-You gain the Athame, Alchemist or Incantation Caster feat (your choice).  
+#### Arcane Training  
+You gain the Athame or Incantation Caster feat (your choice).  
 
 #### Cantrips  
 You gain the Cantrip Master feat.  
@@ -574,7 +574,7 @@ You belong to a particular school of magic. Choose one at character creation.
 ### Powers  
 You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline's key ability with Intelligence instead. You can replace any reference to the discipline's secondary ability with the secondary ability linked to your talent.  
 
-**Class Disciplines:** Spells of Ice and Fire, Cup of Brimstone, Puppeteer's Pull.  
+**Class Disciplines:** Spells of Ice and Fire, Cup of Brimstone, Puppeteer's String.  
 
 ### Dualclass  
 
@@ -1392,7 +1392,7 @@ Specialist Wizard multiclass.
 
 * Spells of Ice and Fire.  
 * Cup of Brimstone.  
-* Puppeteer's Pull.   
+* Puppeteer's String.   
   
 ## Exemplifies Charisma  
 
@@ -5295,6 +5295,7 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 > **Rapier's Point Attack 19** ● **Martial**  
 > **Melee** weapon, one target  
 > **Attack:**  Dexterity vs AC  
+> **Hit:** 3dW + Dexterity modifier damage.  
 > **Special:**  Before your attack, an ally within Near range 10 shifts squares equal to your Charisma modifier. Then you teleport into their original space.  
 
 
