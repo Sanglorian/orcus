@@ -22,6 +22,7 @@ Campaign resources:
 * [Death and Chaos](Death and Chaos.md) ([PDF](https://github.com/Sanglorian/orcus/blob/main/Blood%20and%20Chaos.pdf)) - third level adventure
 * [Pre-gens](Example Orcus Characters.md) ([PDF](https://github.com/Sanglorian/orcus/blob/main/Example%20Orcus%20Characters.pdf)) - five first-level characters
 * Tiles ([PDF only](https://github.com/Sanglorian/orcus/blob/main/tiles/tiles-merged.pdf))
+* Monster sheet ([PDF only](https://github.com/Sanglorian/orcus/raw/main/Monster%20Sheet%20%5BFinal%5D.pdf))
 
 Related games:
 
