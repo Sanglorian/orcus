@@ -28,6 +28,6 @@ Rook by Jared von Hindman from the Prismatic Art Collection is released under th
 
 [Ranger](https://www.patreon.com/posts/ranger-22948253) by Justin Nichol is released under the Creative Commons Attribution-ShareAlike 4.0 license. 
 
-The Phrenic Scourge, Tunnel Brute and Ophiduan by Beth Trott are released under the Open Game License. See the entry for *The Iconic Bestiary: Classics of Fantasy* for more details. 
+The Phrenic Scourge, Tunnel Brute and Ophiduan by Beth Trott are released under the Open Game License. See the entry for *The Iconic Bestiary: Classics of Fantasy* and [this exchange with the author](https://www.enworld.org/threads/lions-den-press-the-iconic-bestiary-classics-of-fantasy.126842/#post-2165834) for more details. 
 
 The Red Catacombs and Cannibal Dungeons by [Miska Fredman](https://www.miskasmaps.com/public-domain-maps/) are released under the Creative Commons Attribution 4.0 license. 

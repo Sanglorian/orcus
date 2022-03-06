@@ -7,6 +7,8 @@ footer: ${pageNo}
 
 # Rulebook
 
+0.5.2
+
 * TOC  
 {:toc}
 
@@ -802,7 +804,7 @@ These attack powers inflict no damage and involve using combat experience and ta
 
 Unless otherwise specified, teleportation obeys the following rules:   
 
-* You can teleport while prone or while restrained or immobilized. You remain prone after your teleport; whether you remain restrained/immobilized depends on whether you have left behind what was causing that condition.   
+* You can teleport while prone or while restrained or immobile. You remain prone after your teleport; whether you remain restrained/immobile depends on whether you have left behind what was causing that condition.   
 * Teleportation is not affected by the terrain between your start point and your destination.   
 * The destination of the teleport must be a space that is unoccupied and can fit the subject of the teleport.   
 * The initiator of the teleportation must have line of sight to the destination of the teleport. The initiator may or may not be the subject of the teleportation, depending on whether the teleportation affects the user or another target.   
@@ -1633,6 +1635,11 @@ The following definitions specify what happens to a creature while it is subject
 - Melee attack rolls against you have combat advantage.  
 - +2 to AC, Fortitude, Reflex and Will defense against ranged attacks (unless attacker is adjacent to you).  
   
+
+## Rattled
+
+* -2 penalty to attack rolls. 
+
 ## Restrained  
 
 - You cannot be moved into another square, willingly or with unwilling movement.  
