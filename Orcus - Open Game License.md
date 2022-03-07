@@ -393,4 +393,10 @@ Pathfinder Bestiary 2 (Second Edition) © 2020, Paizo Inc.; Authors: Alexander A
 
 Pathfinder Adventure Path #167: Ready? Fight! © 2021, Paizo Inc.; Authors: David N. Ross, with Joan Hong, Joshua Kim, Danita Rambo, Sen H.H.S., Tan Shao Han, and Ruvaid Virk.
 
+Path of War – Expanded, © 2016, Dreamscarred Press.
+
+Iron Heroes Copyright 2007 Adam Windsor. All rights reserved.
+
+Pact Magic Unbound, Vol. 1. Copyright, 2012, Radiance House. Author(s): Alexander Augunas, Dario Nardi
+
 END OF LICENSE
