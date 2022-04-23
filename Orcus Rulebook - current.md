@@ -7,7 +7,7 @@ footer: ${pageNo}
 
 # Rulebook
 
-0.5.2
+0.6
 
 * TOC  
 {:toc}
@@ -228,15 +228,15 @@ Certain powers use a Strength attack roll and/or add Strength modifier to damage
 
 Add the higher of your Strength modifier and your Constitution modifier to your Fortitude defense.   
 
-#### Lifting and Carrying  
+#### Lifting and Carrying
 
 Your Strength score determines the amount of weight you can bear. The following terms define what you can lift or carry.  
 
-***Carrying Capacity:*** Your carrying capacity is your Strength score multiplied by 10. This is the weight (in pounds) that you can carry, which is high enough that most characters don't usually have to worry about it.  
+***Medium Load:*** Your medium load is your Strength score multiplied by 10. This is the weight (in pounds) that you can lift or carry without suffering a penalty, which is high enough that most characters don't usually have to worry about it.  
 
-***Lift:*** You can push, drag, or lift a weight in pounds up to twice your carrying capacity. While lifting weight in excess of your carrying capacity, you get the slowed condition.  
+***Heavy Load:*** You can lift or carry a weight in pounds up to twice your carrying capacity. While lifting weight in excess of your carrying capacity, you get the slowed condition.  
 
-***Push or Drag:*** You can push a weight in pounds up to five times your carrying capacity. While pushing or dragging weight in excess of your carrying capacity, you get the slowed condition.  
+***Push or Drag:*** You can push or drag a weight in pounds up to five times your carrying capacity. While pushing or dragging weight in excess of your carrying capacity, you get the slowed condition.  
 
 ### Constitution  
 
@@ -739,10 +739,6 @@ You can use the “Augment:” section of the power that is used. To be able to 
 
 An aura is always a close burst effect, a lingering effect that extends over an area. An aura moves with the character who manifested it and lasts until the end of the encounter, for 5 minutes, or until you use another aura power.
 
-### Booster  
-
-This power is used after you hit with a basic attack (or power that counts as a basic attack). A Booster power adds damage and/or additional effects to the triggering hit. You can only apply one Booster power per attack (even if boosters inflict different effects or the attack results in multiple hits). You can only apply a Booster power to a hit that inflicts at least one die of damage.  
-
 ### Conjuration  
 
 A conjuration is an object or monster that is created by a power. It normally cannot be attacked. Allies of its creator can pass through its space but enemies cannot. If it makes attacks or is attacked, it uses the power user's attack modifiers and defense scores. A conjuration cannot be affected by conditions or persistent damage.   
@@ -752,6 +748,12 @@ A conjuration disappears if its creator is killed.
 ### Consistent  
 
 If the user of a Consistent power misses on all attacks made with that power, the power is not expended.   
+
+### Form
+
+A Form power changes the shape of the user. Except as described in the power description, the user keeps all other statistics, HP, etc. Use their regular weapon attacks for the attacks of the new form (for example, if you wield a battleaxe and turned into a brown bear, you can use your battleaxe basic attack for the bear's bite.)
+
+However, a character that has changed form cannot make any attacks that do not make sense in their new form. For example, a brown bear cannot make ranged attacks. 
 
 ### Maneuver  
 
@@ -771,31 +773,14 @@ Your stance ends if you are rendered helpless for any reason.
 
 ### Summons  
 
-A Summons power creates one or more summoned monsters. The summoned monster obeys the following rules:  
-
-*Actions*  
-
-* You can give up actions to command the summoned monster, in which case it gets to take the same actions. For example, you can give up your standard action in order for the summoned monster to take a standard action. You can also use an immediate action in order for the animal companion to make an opportunity attack (if eligible to do so).   
-* Some summoned monsters have an "Instinct" listed. This is how the monster behaves when you do not command it.   
-  
-
-*Stats and Combat*  
+A Summons power creates one or more summoned monsters. The summoned monster follows the Companion rules, as well as the following special rules: 
 
 * The summoned monster's level is equal to the level of the power that summoned it.  
+  
 * The summoned monster's maximum HP (and starting HP each time it is summoned) will be specified.   
-* Your summoned monster has no recoveries of its own, but can use yours.   
-* When your summoned monster drops to 0 hit points, it disappears, leaving behind no physical form. You lose one recovery or, if not able to lose a recovery, take damage equal to your recovery value.   
 * Your summoned monster uses your Armor Class, Fortitude, Reflex and Will defenses.   
-* Your summoned monster can contribute to a flank.   
-  
-
-*Other*  
-
-* Your summoned monster always obeys your commands.  
-* The animal companion is an ally of you, and of your allies.  
-* The animal companion is a bright, sensitive animal, but nonetheless has animal-level intelligence.   
 * A summoner can dismiss their summon with a swift action. Otherwise it disappears after five minutes or at the end of the encounter.   
-  
+* When your summoned monster drops to 0 hit points, it disappears, leaving behind no physical form. You lose one recovery or, if not able to lose a recovery, take damage equal to your recovery value.   
 ### Tactical  
 
 These attack powers inflict no damage and involve using combat experience and tactical observation to outthink or trick opponents into an action that is beneficial to you. Since they do no damage, if you score a critical hit with a power with the tactical keyword, you gain a +2 power bonus to your next attack roll with a power with the tactical or weapon keyword in that same encounter.   
@@ -813,6 +798,12 @@ Unless otherwise specified, teleportation obeys the following rules:
   
 
 Because a teleport requires line of sight, blindfolding creatures that are capable of teleporting prevents them from escaping.   
+
+### Wild Shape
+
+Unless otherwise mentioned, you cannot use Wild Shape powers unless you are currently under the effect of a power with the Form tag (*wild shape* is the classic example). 
+
+If you cease to be under the effect of a power with the Form tag, all Wild Shape powers end as well. 
 
 ### Zones  
 
@@ -954,11 +945,11 @@ There are two types of action you can take outside of your turn: immediate actio
 
 ### Immediate Actions   
 
-Certain special abilities, powers, and situations allow you to take a special action called an immediate action. It must occur on someone else's turn.   
+Certain special abilities, powers, and situations allow you to take a special action called an immediate action. It must occur on someone else's turn, and you can only take one immediate action between each of your turns.   
 
-Some immediate actions interrupt the other creature's action. When your immediate action is intended to **counter** another creature's action, their action pauses while your immediate action is resolved. Then that creature can continue its action right after the immediate action ends.  
+Some immediate actions interrupt the other creature's action. When your immediate action is a **counter** to another creature's action, their action pauses while your immediate action is resolved. Then that creature can continue its action right after the immediate action ends.  
 
-Other immediate actions **react** to the other creature's action, and occur after the creature completes their action. That creature can continue its turn right after the immediate action.  
+Other immediate actions are **reactions** to the other creature's action, and occur after the creature completes their action. That creature can continue its turn right after the immediate action.  
 
 ### Opportunity Attacks  
 
@@ -1202,12 +1193,12 @@ A monster with phasing can move through difficult terrain, obstacles (like walls
 
 Terrain stride describes a set of traits, each of which allows the monster to ignore difficult terrain in some conditions:   
 
-* Ice stride: Ice, snow or slurry.  
-* Swamp stride: Mud, marsh or shallows.  
-* Stone stride: Broken ground, uneven stone or rubble.   
-* Woodland stride: Shrubbery, trees or plants.   
-* Web stride: Webs, like those from a spider.  
-* Versatile stride: All.  
+* Ice stride: Ignore difficult terrain in the form of ice, snow or slurry.  
+* Swamp stride: Ignore difficult terrain in the form of mud, marsh or shallows. You also cannot be trapped in quicksand or sticky mud. 
+* Stone stride: Ignore difficult terrain in the form of broken ground, uneven stone or rubble.   
+* Woodland stride: Ignore difficult terrain in the form of shrubbery, trees or plants.   
+* Web stride: Ignore difficult terrain in the form of webs, like those from a spider. You also cannot be trapped in webs.  
+* Versatile stride: Ignore all difficult terrain.  
 
 ## Difficult Terrain  
 
@@ -1281,7 +1272,17 @@ The three forms of unwilling movement are:
 * *Push X:* The creature is moved X squares, as the attacker chooses, but each move must be away from the attacker (or from the origin of the attack, if it is a Far attack).  
 * *Pull X:* The creature is moved X squares, as the attacker chooses, but each move must be towards the attacker (or towards the origin of the attack, if it is a Far attack)  
 * *Shunt X:* The creature is moved X squares, as the attacker chooses.   
-  
+
+## Overland Movement
+
+Creatures can walk a number of miles per hour equal to half their walk speed in squares. For example, the standard (unencumbered) human speed is 6 squares, which translates to 3 miles per hour. 
+
+Creatures can comfortably walk for five hours a day (15 miles total).
+
+Creatures can push on and walk for another five hours a day with an Endure check (DC 20). If they fail, they lose a recovery and cannot hustle or push on until after a long rest. 
+
+Creatures can hustle, moving at double their walking speed (6 miles per hour for a standard, unencumbered human). However, at the end of each hour they hustle they must make an Endure check (DC 15 + 5 for each hour spent hustling). If they fail, they lose a recovery and cannot hustle or push on until after a long rest. 
+
 # Actions in Combat  
 
 When you take actions on your turn, you can take the actions presented here, use powers, and/or actions that you improvise. Many monsters have action options of their own in their stat blocks.  
@@ -1464,6 +1465,16 @@ While squeezing, you grant combat advantage and suffer a -5 penalty to attacks.
 You can defend yourself as a standard action. When you take the Total Defense standard action, you focus entirely on avoiding attacks.   
 
 +2 to all defenses until the start of your next turn.   
+
+## Treat Ally (standard action)
+
+Choose one each time you take this action. 
+
+_First Aid (Heal DC 15)_: An adjacent dying character is stabilised. A stable character stops making death saves.  
+
+_Additional Saving Throw (Heal DC 15):_ A successful Heal check allows an adjacent ally to either (their choice) make a new saving throw right away or take a +2 bonus on a saving throw of their choice at the end of their next turn.   
+
+_Treat Wound (DC 10)_: A successful Heal check allows an adjacent ally to use their second wind without spending a standard action. They don't get the standard bonus to defense if they choose to use it this way.   
 
 ## Unnerve (standard action)
 
@@ -1681,6 +1692,31 @@ However, note that slowed affects your speed, not your movement. For example, if
   
 # Adventuring  
 
+## Companions
+
+Companions are creatures that accompany you on your adventures, like animal companions, familiars and summoned monsters. 
+
+Each type of companion has some special rules, as well as following these standard rules. 
+
+*Actions*  
+
+* Your companion's initiative equals your own.
+* You can give up actions to command the companion, in which case it gets to take the same actions. For example, you can give up your standard action in order for the summoned monster to take a standard action. You can also use an immediate action in order for the animal companion to make an opportunity attack or use a counter or reaction (in all three cases, only if eligible to do so). 
+* Some companions have an "Instinct" listed. This is how the monster behaves when you do not command it. It has the normal standard, move and swift action when following its instinct, and acts at the end of your turn.    
+
+*Stats and Combat*  
+
+* Your companion typically has no recoveries of its own, but can use yours.   
+* Whenever you have the chance to spend a recovery to heal, you can spend a second recovery to heal your companion your recovery value. 
+* What happens to a companion when it drops to 0 hit points depends on the type of companion.  
+* Companions can contribute to a flank.   
+
+*Other*  
+
+* Your companion always obeys your commands.  
+* If you retrain, you can select a different companion from the list available. 
+* Your companion is an ally of you, and of your allies.  
+
 ## Time  
 
 In situations where keeping track of the passage of time is important, the GM determines the time a task requires. The GM might use a different time scale depending on the context of the situation at hand. In a dungeon environment, the adventurers' movement happens on a scale of **minutes**. It takes them about a minute to creep down a long hallway, another minute to check for traps on the door at the end of the hall, and a good ten minutes to search the chamber beyond for anything interesting or valuable.  
@@ -1763,4 +1799,6 @@ The text of this document is released as Open Game Content under the Open Game L
 
 No items are declared as Product Identity.   
 
-The terms of the Open Game License Version 1.0a and the relevant Section 15 entries are provided in a separate file. 
+The terms of the Open Game License Version 1.0a and the relevant Section 15 entries are provided in a separate file.    
+
+Artworks are not Open Game Content unless otherwise mentioned. Full attribution and license for each artwork is available in the Artworks file.   

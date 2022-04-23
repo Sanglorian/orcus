@@ -7,7 +7,7 @@ footer: ${pageNo}
 
 # Monsters  
 
-0.5.2
+0.6
 
 * TOC  
 {:toc}  
@@ -3642,7 +3642,7 @@ Undead are those creatures that were once alive; whether what remains is the dec
 ### Smoldering Skeleton  
 
 **Level 2 Archer** (125 XP)  
-Medium Natural Undead (Unaligned)  
+Medium Natural Humanoid ● Undead (Unaligned)  
 **Senses:** Perception +9, low-light vision   
 **Str:** 15 (+3), **Con:** 13 (+2), **Dex:** 17 (+4)
 **Int:** 3 (-2), **Wis:** 14 (+3), **Cha:** 12 (+2)  
@@ -4366,4 +4366,6 @@ The text of this document is released as Open Game Content under the Open Game L
 
 No items are declared as Product Identity.   
 
-The terms of the Open Game License Version 1.0a and the relevant Section 15 entries are provided in a separate file.  
+The terms of the Open Game License Version 1.0a and the relevant Section 15 entries are provided in a separate file.    
+
+Artworks are not Open Game Content unless otherwise mentioned. Full attribution and license for each artwork is available in the Artworks file.   

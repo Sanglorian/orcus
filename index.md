@@ -4,18 +4,18 @@ title: Home
 navigation_weight: 0
 ---
 
-Version 0.5 (Alpha)
+Version 0.6 (Beta)
 
 * [Rulebook](Orcus Rulebook - current.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Rulebook%20-%20current.pdf))
 * [Player Options](Orcus Player Options - current.md) (ancestries, skills, feats, equipment, magic items) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Player%20Options%20-%20current.pdf))
 * [Classes and Powers](Orcus Classes and Powers - current.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Classes%20and%20Powers%20-%20current.pdf))
 * [Monsters](Orcus Monsters - current.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Monsters%20-%20current.pdf))
 * [Advanced Options](Orcus Advanced Options - current.md) (poisons, diseases, bonds, incantations) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Advanced%20Options%20-%20current.pdf)))
+* Character sheet ([XLSX](https://github.com/Sanglorian/orcus/raw/main/Character%20Sheet.xlsx))
 * [Open Game License](Orcus - Open Game License.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20-%20Open%20Game%20License.pdf)) and [Artwork Credits](Orcus - Artworks.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20-%20Artworks.pdf))
 
 Campaign resources:
 
-* [The Outlaw Kingdoms](The Outlaw Kingdoms.md) ([PDF](https://github.com/Sanglorian/orcus/blob/main/The%20Outlaw%20Kingdoms.pdf)) campaign setting, with new ancestry rules and deities
 * [Fires in the Crypt](Fires in the Crypt.md) ([PDF](https://github.com/Sanglorian/orcus/blob/main/Fires%20in%20the%20Crypt.pdf)) - first level adventure
 * Ancestral Voices ([PDF only](https://github.com/Sanglorian/orcus/blob/main/Ancestral%20Voices%20(Level%202).pdf)) - second level adventure
 * [The False Necromancer](The False Necromancer.md) ([PDF](https://github.com/Sanglorian/orcus/blob/main/The%20False%20Necromancer.pdf)) - second level adventure
@@ -23,6 +23,10 @@ Campaign resources:
 * [Pre-gens](Example Orcus Characters.md) ([PDF](https://github.com/Sanglorian/orcus/blob/main/Example%20Orcus%20Characters.pdf)) - five first-level characters
 * Tiles ([PDF only](https://github.com/Sanglorian/orcus/blob/main/tiles/tiles-merged.pdf))
 * Monster sheet ([PDF only](https://github.com/Sanglorian/orcus/raw/main/Monster%20Sheet%20%5BFinal%5D.pdf))
+
+Experiments:
+
+* [3-by-4 Sublime Classes](3-by-4 Sublime Classes) ([PDF](https://github.com/Sanglorian/orcus/raw/main/3-by-4%20Sublime%20Classes.pdf))
 
 Related games:
 
