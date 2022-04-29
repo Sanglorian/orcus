@@ -34,7 +34,7 @@ Related games:
 
 ---
 
-Dedicated to the hobbyists, designers, developers and publishers that have released their work under the Open Game License.
+Dedicated to the hobbyists, designers, developers and publishers who have released their work under the Open Game License.
 
 Orcus is a work in progress. All feedback is welcome. 
 

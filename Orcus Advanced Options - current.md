@@ -259,105 +259,98 @@ Each ancestry also gets one power.
 
 **Dabbler:** Choose a level 1 at-will attack power from any class. It is an encounter power for you.  
 
-> #### Tough as Nails  
+> #### Barrel Along  
 >
-> **Encounter** **Swift Action**  
-> **Ancestry Utility**   
+> **Encounter** **Utility** **Feature** (**Swift Action**)   
 > **Self**   
-> **Effect:** You rally.  
-
-> #### Careful Focus  
->
-> **Encounter** **Free Action**  
-> **Ancestry Utility**     
-> **Self**   
-> **Trigger:**  You just made an attack roll.  
-> **Effect:** Reroll the attack roll and take the new result.  
-
-> #### Farstrider  
->
-> **Encounter** **Move  Action**  
-> **Ancestry Utility**     
-> **Self**   
-> **Effect:** Shift up to your speed.  
-
-> #### Highblood Teleport  
->
-> **Encounter** **Move Action**  
-> **Ancestry Utility** ● **Teleport**  
-> **Self**   
-> **Effect:** Teleport up to 5.  
-
-> #### Lucky  
->
-> **Encounter** **Immediate (Counter) Action**  
-> **Ancestry Utility**     
-> **Self**   
-> **Trigger:**  An attack hits you.  
-> **Effect:** Reroll the attack roll and take the second result.  
+> **Trigger** You are staggered.  
+> **Effect** You have a +2 bonus to speed and to damage rolls until the end of the encounter.  
 
 > #### Breath Weapon  
 >
-> **Encounter** **Swift Action**  
-> **Ancestry Attack** ● **[Energy]**  
+> **Encounter** **Attack** **Feature** (**Swift Action**) ● **[Energy]**  
 > **Near** arc 3, targets all  
-> **Attack:**  (Highest of Strength, Constitution, Dexterity) +2 vs Reflex  
-> **Hit:**  1d6 + Constitution modifier.   
-> *Level 11:* 2d6 + Constitution modifier.   
+> **Attack** (Highest of Strength, Constitution, Dexterity) +2 vs Reflex  
+> **Hit** 1d6 + Constitution modifier. 
+> *Level 11:* 2d6 + Constitution modifier. 
 > *Level 21:* 3d6 + Constitution modifier.  
-> **Special:** Which type of damage you do (and what tag the power has) depends on which type of dragon you are descended from: acid (black dragon), cold (white dragon), fire (red dragon), lightning (blue dragon) or poison (green dragon).   
+
+> #### Careful Focus  
+>
+> **Encounter** **Utility** **Feature** (**Free Action**)   
+> **Self**   
+> **Trigger** You just made an attack roll.  
+> **Effect** Reroll the attack roll and take the new result.  
 
 > #### Disappearing Act  
 >
-> **Encounter** **Immediate (React) Action**  
-> **Ancestry Utility**     
+> **Encounter** **Utility** **Feature** (**Reaction Action**)   
 > **Self**   
-> **Trigger:**  You take damage.  
-> **Effect:** Become invisible until the end of your next turn, or until you make an attack (whichever comes sooner).  
+> **Trigger** You take damage.  
+> **Effect** Become invisible until the end of your next turn, or until you make an attack (whichever comes sooner).  
 
-> #### Ingenuity  
+> #### Farstrider  
 >
-> **Encounter** **Swift Action**  
-> **Ancestry Utility**     
+> **Encounter** **Utility** **Feature** (**Move Action**)   
+> **Self**   
+> **Effect** Shift up to your speed.  
+
+> #### Half-Elven Ingenuity  
+>
+> **Encounter** **Utility** **Feature** (**Swift Action**)   
 > **Near** burst 5, self or one ally  
-> **Effect:** Choose one: target shifts up to 2 as a free action, target makes a saving throw, target gets +2 power bonus to next attack roll or target gets +4 power bonus to next skill check. Power bonuses expire at the end of your next turn if not already used.  
+> **Effect** Choose one: target shifts up to 2 as a free action, target makes a saving throw, target gets +2 power bonus to next attack roll or target gets +4 power bonus to next skill check. Power bonuses expire at the end of your next turn if not already used.  
 
-> #### Violent Rush  
+> #### Highblood Teleport  
 >
-> **Encounter** **Free Action**  
-> **Ancestry Utility**     
+> **Encounter** **Utility** **Feature** (**Move Action**) ● **Teleport**  
 > **Self**   
-> **Trigger:**  You hit with an attack.  
-> **Effect:** Attack does +1dW. If attack was not with a weapon, +1d8 instead.  
+> **Effect** Teleport up to 5.  
 
-> #### Vengeance of the Pits  
+> #### Lucky  
 >
-> **Encounter** **Free Action**  
-> **Ancestry Attack** ● **Fire**  
-> **Near** burst 10, one enemy  
-> **Trigger:**  An attack by that enemy hits you.  
-> **Effect:** The target takes 1d6 + Intelligence OR Charisma modifier fire damage.   
-> *Level 11:* 2d6 + Intelligence OR Charisma modifier.   
-> *Level 21:* 3d6 + Intelligence OR Charisma modifier.  
+> **Encounter** **Utility** **Feature** (**Counter Action**)   
+> **Self**   
+> **Trigger** An attack hits you.  
+> **Effect** Reroll the attack roll and take the second result.  
+
+> #### Orcish Rush  
+>
+> **Encounter** **Utility** **Feature** (**Free Action**)   
+> **Self**   
+> **Trigger** You hit with an attack.  
+> **Effect** Attack does +1dW. If attack was not with a weapon, +1d8 instead.  
 
 > #### Poisonous Nip  
 >
-> *Your fangs excrete a mild poison.*  
-> **Encounter Swift Action**  
-> **Ancestry Attack** ● **Poison**  
+> **Encounter** **Attack** **Feature** (**Swift Action**) ● **Poison**  
 > **Melee** 1, one target  
-> **Attack:**  Dexterity or Constitution +2 vs AC  
-> **Hit:**  1d8 + your Dexterity or Constitution modifier poison damage.  
-> *Level 11:* Attack bonus increases to +4. 2d8 + modifier damage.  
+> **Attack** Dexterity or Constitution +2 vs AC  
+> **Hit** 1d8 + your Dexterity or Constitution modifier poison damage.
+> *Level 11:* Attack bonus increases to +4. 2d8 + modifier damage.
 > *Level 21:* Attack bonus increases to +6. 3d8 + modifier damage.  
 
-> #### Barrel Along  
+> #### Tough as Nails  
 >
-> **Encounter** **Swift Action**  
-> **Ancestry Utility**     
+> **Encounter** **Utility** **Feature** (**Swift Action**)   
 > **Self**   
-> **Trigger:**  You are staggered.  
-> **Effect:** You have a +2 bonus to speed and to damage rolls until the end of the encounter.  
+> **Effect** You rally.  
+
+> #### True Grit  
+>
+> **Encounter** **Utility** **Feature** (**No Action**)   
+> **Self**   
+> **Trigger** You fail a saving throw or miss with an attack roll  
+> **Effect** Add a +4 ancestry bonus to the roll/throw.  
+
+> #### Vengeance of the Pits  
+>
+> **Encounter** **Attack** **Feature** (**Free Action**) ● **Fire**  
+> **Near** burst 10, one enemy  
+> **Trigger** An attack by that enemy hits you.  
+> **Effect** The target takes 1d6 + Intelligence OR Charisma modifier fire damage. 
+> *Level 11:* 2d6 + Intelligence OR Charisma modifier. 
+> *Level 21:* 3d6 + Intelligence OR Charisma modifier.   
 
 # Advanced Combat  
 
@@ -403,79 +396,72 @@ Creatures with the Aquatic tag get a +2 bonus on attack rolls against creatures 
 
 The maneuvers introduced here are available to all characters, but they are only usable where they make sense in the fiction. In particular, the *damage power source*, *repel* and *lure* powers are intended to be used only where an enemy could lose access to its powers (for example, a gem in its forehead is the source of its energy ray), be repulsed by something (perhaps a clove of garlic brandished at a vampire) or attracted to something (like a tyrannosaurus drawn to a dead cow).
 
+
+
 > #### Damage Power Source  
 >
-> **At-Will** **Standard Action**  
-> **Attack Advanced** ● **Martial, Weapon**  
+> **At-Will** **Attack**  (**Standard Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, one creature  
-> **Attack:**  Strength or Dexterity vs Fortitude or Reflex (whichever is higher)  
-> **Hit:**  Choose one of the target's powers. They cannot use it until it refreshes (roll of 5 or 6 required).  
+> **Attack** Strength or Dexterity vs Fortitude or Reflex (whichever is higher)  
+> **Hit** Choose one of the target’s powers. They cannot use it until it refreshes (roll of 5 or 6 required).  
 
 > #### Disarm  
 >
-> **At-Will** **Standard Action**  
-> **Attack Advanced** ● **Martial, Weapon**  
+> **At-Will** **Attack**  (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
-> **Attack:**  Strength or Dexterity vs Fortitude or Reflex (whichever is higher)  
-> **Hit:**  The target drops an item of your choice in its space.  
-> **Effect:** You provoke an attack of opportunity from the target.  
-> **Special:**  A disarmed creature cannot use powers with the Weapon tag that are associated with that weapon. However, if disarmed of a melee weapon, they can always make an unarmed attack with the same attack bonus, doing damage equal to 4 + their level.  
+> **Attack** Strength or Dexterity vs Fortitude or Reflex (whichever is higher)  
+> **Hit** The target drops an item of your choice in its space.  
+> **Effect** You provoke an attack of opportunity from the target.  
+> **Special** A disarmed creature cannot use powers with the Weapon tag that are associated with that weapon. However, if disarmed of a melee weapon, they can always make an unarmed attack with the same attack bonus, doing damage equal to 4 + their level.  
 
 > #### Ignite  
 >
-> **At-Will** **Standard Action**  
-> **Attack Advanced** ● **Martial, Weapon**  
+> **At-Will** **Attack**  (**Standard Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, one creature  
-> **Attack:**  Dexterity or Intelligence vs Reflex  
-> **Hit:**  The target takes 5 persistent fire damage (save ends). *Level 11:* 10 persistent fire damage. *Level 21:* 15 persistent fire damage.  
-> **Special:**  You must have a source of fire to use this power.  
+> **Attack** Dexterity or Intelligence vs Reflex  
+> **Hit** The target takes 5 persistent fire damage (save ends). *Level 11:* 10 persistent fire damage. *Level 21:* 15 persistent fire damage.  
+> **Special** You must have a source of fire to use this power.  
 
 > #### Lure  
 >
-> **Encounter** **Standard Action**  
-> **Attack Advanced** ● **Focus**  
-> **Near** burst 5, any vulnerable creatures  
-> **Attack:**  Intelligence or Charisma vs Will  
-> **Hit:**  Target pulled 5 and immobile (save ends).  
-> **Miss:**  You cannot use this power on the same target for the rest of the encounter.  
-> **Special:**  Depending on the vulnerability of the creature, the lure might be deployed in a different space to the user.  
+> **At-Will** **Attack**  (**Standard Action**) ● **Focus**  
+> **Near** burst 5, any creatures susceptible to the *lure*  
+> **Requirements** You have something that the target finds hard to resist.  
+> **Attack** Intelligence or Charisma vs Will  
+> **Hit** The target is pulled 5 squares and is immobile (save ends). The target gets a new save each time it is hit by an attack.  
+> **Effect** The target is immune to the *lure* power until the end of the encounter.  
+> **Special** Depending on the susceptibility of the creature, the *lure* might be deployed in a different space to the user.  
 
 > #### Overrun  
 >
-> **At-Will** **Free Action**  
-> **Attack Advanced** ● **Martial, Weapon**  
-> **Melee** 1, one creature  
-> **Effect:** Make a secondary attack each time you attempt to enter an enemy's space.   
-> *Secondary Attack:* Str vs Fort; push target 1. *Miss:* You provoke an attack of opportunity from the target.  
-> **Special:**  This is an exception to the rule that you cannot enter an enemy's space.  
+> **At-Will** **Attack**  (**Move Action**) ● **Martial, Weapon**  
+> **Effect** Move up to your speed. Make a secondary attack each time you attempt to enter an enemy’s space. 
+> *Secondary Attack:* Strength vs Fortitude; on a hite, push the target 1 square and you successfully enter their space; on a miss, you provoke an opportunity attack from the target and fail to enter their space.  
 
 > #### Repel  
 >
-> **At-Will** **Standard Action**  
-> **Attack Advanced** ● **Focus**  
+> **At-Will** **Attack**  (**Standard Action**) ● **Focus**  
 > **Near** burst 2, any vulnerable creatures  
-> **Attack:**  Wisdom or Charisma vs Will  
-> **Hit:**  Target pushed their speed and immobile until the end of your next turn.  
-> **Miss:**  You cannot use this power on the same target for the rest of the encounter.  
-> **Special:**  Depending on the vulnerability of the creature, the repellant might be deployed in a different space to the user.  
+> **Attack** Wisdom or Charisma vs Will  
+> **Hit** The target is pushed their speed and is immobile until the end of your next turn.  
+> **Effect** The target is immune to the *repel* power until the end of the encounter.  
+> **Special** Depending on the vulnerability of the creature, the repellant might be deployed in a different space to the user.  
 
 > #### Sunder  
 >
-> **At-Will** **Standard Action**  
-> **Attack Advanced** ● **Martial, Weapon**  
+> **At-Will** **Attack**  (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
-> **Attack:**  Strength or Dexterity vs Reflex  
-> **Hit:**  Choose an item. If the item is a weapon, armor, shield or enchanted cloak, the bonus granted by that item is reduced by 1 (cumulative). The effect on other items depends on their hardness and make-up.  
-> **Effect:** You provoke an attack of opportunity from the target.  
+> **Attack** Strength or Dexterity vs Reflex  
+> **Hit** Choose an item in the possession of the creature. Any bonuses it gives the user are reduced by 1 (cumulative) until the user takes a long rest.  
+> **Effect** You provoke an opportunity attack from the target.  
 
 > #### Trip  
 >
-> **At-Will** **Standard Action**  
-> **Attack Advanced** ● **Martial, Weapon**  
+> **At-Will** **Attack**  (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
-> **Attack:**  Strength or Dexterity vs Fortitude or Reflex (whichever is higher)  
-> **Hit:**  The target is knocked prone.  
-> **Effect:** You provoke an attack of opportunity from the target.  
+> **Attack** Strength or Dexterity vs Fortitude or Reflex (whichever is higher)  
+> **Hit** The target is knocked prone.  
+> **Effect** You provoke an opportunity attack from the target.  
 
 ## New Feats
 
@@ -541,42 +527,42 @@ Magic items are presented in alphabetical order. A magic item's description give
 
 ## Purchasing Magic Items
 
-What follows are the standard prices for magic items by level. Of course, magic items may be dearer or cheaper in particular markets, or not available for purchase at all. As discussed in the Equipment chapter, magic items typically fetch one-fifth their cost when sold in a market.  
+What follows are the standard prices for magic items by level. Of course, magic items may be dearer or cheaper in particular markets, or not available for purchase at all. Magic items typically fetch one-fifth their cost when sold in a market.  
 
-##### **Table – Magic Item Prices**
+##### Table – Magic Item Prices
 
-|      | Permanent Magic Item Price (gp) | Consumable Item Price (gp) |
-| ---- | ------------------------------- | -------------------------- |
-| 1    | 360                             | 14                         |
-| 2    | 520                             | 21                         |
-| 3    | 680                             | 27                         |
-| 4    | 840                             | 34                         |
-| 5    | 1,000                           | 40                         |
-| 6    | 1,800                           | 72                         |
-| 7    | 2,600                           | 104                        |
-| 8    | 3,400                           | 136                        |
-| 9    | 4,200                           | 168                        |
-| 10   | 5,000                           | 200                        |
-| 11   | 9,000                           | 360                        |
-| 12   | 13,000                          | 520                        |
-| 13   | 17,000                          | 680                        |
-| 14   | 21,000                          | 840                        |
-| 15   | 25,000                          | 1,000                      |
-| 16   | 45,000                          | 1,800                      |
-| 17   | 65,000                          | 2,600                      |
-| 18   | 85,000                          | 3,400                      |
-| 19   | 105,000                         | 4,200                      |
-| 20   | 125,000                         | 5,000                      |
-| 21   | 225,000                         | 9,000                      |
-| 22   | 325,000                         | 13,000                     |
-| 23   | 425,000                         | 17,000                     |
-| 24   | 525,000                         | 21,000                     |
-| 25   | 625,000                         | 25,000                     |
-| 26   | 1,125,000                       | 45,000                     |
-| 27   | 1,625,000                       | 65,000                     |
-| 28   | 2,125,000                       | 85,000                     |
-| 29   | 2,625,000                       | 105,000                    |
-| 30   | 3,125,000                       | 125,000                    |
+|      | Permanent Magic Item (gp) | Consumable Item (gp) |
+| ---- | ------------------------- | -------------------- |
+| 1    | 360                       | 14                   |
+| 2    | 520                       | 21                   |
+| 3    | 680                       | 27                   |
+| 4    | 840                       | 34                   |
+| 5    | 1,000                     | 40                   |
+| 6    | 1,800                     | 72                   |
+| 7    | 2,600                     | 104                  |
+| 8    | 3,400                     | 136                  |
+| 9    | 4,200                     | 168                  |
+| 10   | 5,000                     | 200                  |
+| 11   | 9,000                     | 360                  |
+| 12   | 13,000                    | 520                  |
+| 13   | 17,000                    | 680                  |
+| 14   | 21,000                    | 840                  |
+| 15   | 25,000                    | 1,000                |
+| 16   | 45,000                    | 1,800                |
+| 17   | 65,000                    | 2,600                |
+| 18   | 85,000                    | 3,400                |
+| 19   | 105,000                   | 4,200                |
+| 20   | 125,000                   | 5,000                |
+| 21   | 225,000                   | 9,000                |
+| 22   | 325,000                   | 13,000               |
+| 23   | 425,000                   | 17,000               |
+| 24   | 525,000                   | 21,000               |
+| 25   | 625,000                   | 25,000               |
+| 26   | 1,125,000                 | 45,000               |
+| 27   | 1,625,000                 | 65,000               |
+| 28   | 2,125,000                 | 85,000               |
+| 29   | 2,625,000                 | 105,000              |
+| 30   | 3,125,000                 | 125,000              |
 
 ## Magic Items on the Body  
 
@@ -615,7 +601,7 @@ Keep in mind that a consumable magic item costs 1/25th as much as a permanent ma
 
 Assuming a rate of 10 encounters per level, that results in the following average treasure per player character per level (not including permanent magic items).   
 
-##### **Table – Treasure per Encounter**  
+##### Table – Treasure per Encounter
 
 |      | Treasure per Player per 10 Encounters (gp) |
 | ---- | ------------------------------------------ |
@@ -680,7 +666,7 @@ Add 1 to the d12 roll for every additional player character in the party beyond 
 
 Add 2 to the d20 roll for every additional player character in the party beyond 5, and subtract 2 for every player character that the party is missing below 5 PCs.   
 
-##### **Table – Treasure Troves by Level**  
+##### Table – Treasure Troves by Level
 
 | Average Party Level | Coin Multiplier | Gem Value  | Art Object Value |
 | ------------------- | --------------- | ---------- | ---------------- |
@@ -715,7 +701,7 @@ Add 2 to the d20 roll for every additional player character in the party beyond 
 | 29                  | 1,400 pp        | 600,000 gp | 86,000 gp        |
 | 30                  | 1,950 pp        | 600,000 gp | 86,000 gp        |
 
-##### **Table – Art Objects**  
+##### Table – Art Objects
 
 | Art Object Value | Examples                                                     |
 | ---------------- | ------------------------------------------------------------ |
@@ -735,7 +721,7 @@ Add 2 to the d20 roll for every additional player character in the party beyond 
 | 60,000 gp        | Dragon's skull filled in with gold; the lamp once occupied by a djinn prince |
 | 86,000 gp        | Throne carved from treant-wood; deceased lich's mithril phylactery set with diamonds |
 
-##### **Table – Random Consumable Items**
+##### Table – Random Consumable Items
 
 | 1d6  | Result                                                       |
 | ---- | ------------------------------------------------------------ |
@@ -772,7 +758,7 @@ Enchanted items give an enhancement bonus – so a +1 enchanted cloak gives a +1
 
 Some enchanted items do nothing extra. However, others have been boosted. There are four tiers of boost: I through IV, which increase the level of the enchanted item by that amount. So, for example, a +1 sword is level 1, but a +1 sword (boost II) is level 3. A +3 sword is level 11, but a +3 sword (boost II) is level 13.   
 
-##### **Table – Enchanted Item Progression by Level**  
+##### Table – Enchanted Item Progression by Level
 
 | Level | Item                        |
 | ----- | --------------------------- |
@@ -1067,7 +1053,7 @@ You are immune to untyped damage until the end of your next turn.
 
 You have resistance to one type of damage while you wear this armor, equal to double the enhancement bonus (resistance to fire 6 for *+3 armor of fire resistance*). The GM chooses the type or determines it randomly from the options below.  
 
-##### **Table – Armor of Resistance**  
+##### Table – Armor of Resistance
 
 | d10  | Damage Type |
 | ---- | ----------- |
@@ -1104,7 +1090,7 @@ You have resistance to one damage type that is determined by the kind of dragon 
 
 Additionally, once a day you can focus your senses as a swift action to magically discern the distance and direction to the closest dragon within 30 miles of you that is of the same type as the armor. 
 
-##### **Table – Dragon Scale Mail**  
+##### Table – Dragon Scale Mail
 
 | Dragon | Resistance |
 | ------ | ---------- |
@@ -1281,7 +1267,7 @@ You have resistance 5 to one damage type while wearing this ring. The gem in the
 
 *Level 26:* Resistance 15  
 
-##### **Table – Ring of Resistance**  
+##### Table – Ring of Resistance
 
 | d10  | Damage Type | Gem        |
 | ---- | ----------- | ---------- |
@@ -1534,246 +1520,163 @@ Poisons are “masterwork consumables”, which just means they cost double that
 
 Poisons can either be used in combat as powers, or if the poisoner gets an opportunity to expose the target to the poison more extensively (by feeding it to them, storing it in a container that the target opens, placing it on their clothes, etc.) then the target can suffer a more serious effect. 
 
-### Pale Tincture  
+> #### Assassin’s Blood  
+>
+> **Consumable** **Attack** **1** (**Swift Action**) ● **Poison**  
+> **Effect** Until your next short rest, any target you hit with a weapon takes 2 persistent poison damage (save ends). If they fail their first save, they instead take 5 persistent poison damage (save ends).  
+> **Special** If Assassin’s Blood is ingested, for 12 hours the target gains vulnerable to poison 5 and loses any poison resistances or immunities it had.  
 
-*Level 1*  
-
-> **Consumable** **Swift Action**  
-> **Poisons** **Attack** **1** ● **Poison**  
+> #### Pale Tincture  
+>
+> **Consumable** **Attack** **1** (**Swift Action**) ● **Poison**  
 > **Effect** The next target you hit with a weapon takes 1d10 poison damage and cannot heal by any means (save ends).  
+> **Special** If the Pale Tincture is ingested, the target suffers a -4 penalty to all saves and cannot heal for 12 hours.  
 
-**Special** If the Pale Tincture is ingested, the target suffers a -4 penalty to all saves and cannot heal for 12 hours.  
-
-### Assassin's Blood  
-
-Level 1  
-
-> **Consumable** **Swift Action**  
-> **Poisons** **Attack** **1** ● **Poison**  
-> **Effect** Until your next short rest, any target you hit with a weapon takes 2 ongoing poison damage (save ends). If they fail their first save, they instead take 5 ongoing poison damage (save ends).  
-
-**Special** If Assassin's Blood is ingested, for 12 hours the target gains vulnerable to poison 5 and loses any poison resistances or immunities it had.  
-
-### Spear Frog Poison  
-
-*Level 1*  
-
-> **Consumable** **Swift Action**  
-> **Poisons** **Attack** **1** ● **Poison**  
+> #### Spear Frog Poison  
+>
+> **Consumable** **Attack** **1** (**Swift Action**) ● **Poison**  
 > **Effect** The next target you hit with a weapon takes 1d6 poison damage and is dazed (save ends).  
+> **Special** If Spear Frog Poison is ingested, the target takes 2d6 poison damage.  
 
-**Special** If Spear Frog Poison is ingested, the target takes 2d6 poison damage.  
-
-### Oil of Taggit  
-
-*Level 5*  
-
-> **Consumable** **Swift Action**  
-> **Poisons** **Attack** **5** ● **Poison**  
+> #### Oil of Taggit  
+>
+> **Consumable** **Attack** **5** (**Swift Action**) ● **Poison**  
 > **Effect** Until your next short rest, any target you hit with a weapon takes 1d8 poison damage and is slowed until the end of their next turn.  
+> **Special** If a creature is in prolonged contact with Oil of Taggit (e.g. it wears clothes on which it has been placed), the creature remains immobilised.  
 
-**Special** If a creature is in prolonged contact with Oil of Taggit (e.g. it wears clothes on which it has been placed), the creature remains immobilised.  
-
-### Phase Spider Venom  
-
-*Level 5*  
-
-> **Consumable** **Swift Action**  
-> **Poisons** **Attack** **5** ● **Poison**  
+> #### Phase Spider Venom  
+>
+> **Consumable** **Attack** **5** (**Swift Action**) ● **Poison**  
 > **Effect** The next target you hit with a weapon takes 5 persistent poison damage and is slowed (save ends both).  
+> **Special** If a creature is in prolonged contact with Phase Spider Venom (e.g. it wears clothes on which it has been placed), it is weakened and gains insubstantial (both for 4 hours).  
 
-**Special** If a creature is in prolonged contact with Phase Spider Venom (e.g. it wears clothes on which it has been placed), it is weakened and gains insubstantial (both for 4 hours).   
-
-### Torpor  
-
-*Level 5*  
-
-> **Consumable** **Swift Action**  
-> **Poisons** **Attack** **5** ● **Poison**  
+> #### Torpor  
+>
+> **Consumable** **Attack** **5** (**Swift Action**) ● **Poison**  
 > **Effect** The next target you hit with a weapon takes 2d6 poison damage and is dazed (save ends).  
+> **Special** If Torpor is ingested, the target is dazed for 12 hours.  
 
-**Special** If Torpor is ingested, the target is dazed for 12 hours.  
+> #### Lethargy Poison  
+>
+> **Consumable** **Attack** **9** (**Swift Action**) ● **Poison**  
+> **Effect** The next target you hit with a weapon is dazed (save ends).  
+> *Aftereffect:* The target falls asleep until disturbed.  
+> **Special** If Lethargy Poison is ingested, the target falls into a coma for 24 hours.  
 
-### Truth Serum  
+> #### Malice  
+>
+> **Consumable** **Attack** **9** (**Standard Action**) ● **Poison**  
+> **Ranged** 5  
+> **Attack** Dexterity vs Reflex  
+> **Hit** 2d10 + Dexterity modifier poison damage and 5 persistent psychic damage (save ends). Each time the target fails a saving throw, it makes a basic attack against the nearest ally (this does not count against its actions).  
+> **Miss** Target takes half damage and 5 persistent psychic damage (save ends).  
+> **Special** If a creature is in prolonged contact with Malice (e.g. it wears clothes on which it has been placed), it hallucinates a terrible waking nightmare.  
 
-*Level 9*  
+> #### Toadskin Salve  
+>
+> **Consumable** **Attack** **9** (**Swift Action**) ● **Poison**  
+> **Effect** Until the end of the encounter, if you are hit by a melee attack, you can make the following attack against your attacker. 
+> *Secondary Attack:* Dexterity vs Fortitude; the target takes 5 persistent poison damage.  
+> **Special** If a creature is in prolonged contact with Toadskin Salve (e.g. it wears clothes on which it has been placed), its skin hardens and the creature is slowed for 3 hours.  
 
-> **Consumable** **Standard Action**  
-> **Poisons** **Attack** **9** ● **Poison**  
+> #### Truth Serum  
+>
+> **Consumable** **Attack** **9** (**Standard Action**) ● **Poison**  
 > **Ranged** 5  
 > **Attack** Dexterity vs Will  
 > **Hit** Target is controlled (save ends).  
+> **Special** If the Truth Serum is ingested, the target is controlled (save ends) and cannot knowingly tell a lie for 1 hour.  
 
-**Special** If the Truth Serum is ingested, the target is Controlled (save ends) and cannot knowingly tell a lie for 1 hour.  
+> #### Hunting Spider Venom  
+>
+> **Consumable** **Attack** **15** (**Swift Action**) ● **Poison**  
+> **Effect** Until your next short rest, any target you hit with a weapon takes 5 persistent poison damage (save ends), and grants combat advantage until the end of your next turn.  
+> **Special** If Hunting Spider Venom is ingested, the target takes 4d6 poison damage.  
 
-### Lethargy Poison  
+> #### Malyass Root Paste  
+>
+> **Consumable** **Attack** **15** (**Swift Action**) ● **Poison**  
+> **Effect** The next target you hit with a weapon is slowed (save ends).  
+> *Aftereffect:* The target is restrained (save ends).  
+> **Special** If Malyass Root Paste is ingested, the target is paralyzed for 3 hours.  
 
-*Level 9*  
-
-> **Consumable** **Swift Action**  
-> **Poisons** **Attack** **9** ● **Poison**  
-> **Effect** The next target you hit with a weapon is dazed (save ends). *Aftereffect:* The target falls asleep until disturbed.  
-
-**Special** If Lethargy Poison is ingested, the target falls into a coma for 24 hours.  
-
-### Malice  
-
-*Level 9*  
-
-> **Consumable** **Standard Action**  
-> **Poisons** **Attack** **9** ● **Poison**  
-> **Ranged** 5  
-> **Attack** Dexterity vs Reflex  
-> **Hit** 2d10 + Dexterity modifier poison damage and 5 ongoing psychic damage (save ends). Each time the target fails a saving throw, it makes a basic attack against the nearest ally (this does not count against its actions).  
-> **Miss** Target takes half damage and 5 ongoing psychic damage (save ends).  
-
-**Special** If a creature is in prolonged contact with Malice (e.g. it wears clothes on which it has been placed), it hallucinates a terrible waking nightmare.  
-
-### Toadskin Salve  
-
-*Level 9*  
-
-> **Consumable** **Swift Action**  
-> **Poisons** **Attack** **9** ● **Poison**  
-> **Effect** Until the end of the encounter, if you are hit by a melee attack, you can make the following attack against your attacker. 
-> *Secondary Attack:* Dexterity vs Fortitude; the target takes 5 persistent poison damage.  
-
-**Special** If a creature is in prolonged contact with Toadskin Salve (e.g. it wears clothes on which it has been placed), its skin hardens and the creature is slowed for 3 hours.  
-
-### Nightmare Salt  
-
-*Level 15*  
-
-> **Consumable** **Swift Action**  
-> **Poisons** **Attack** **15** ● **Poison**  
-> **Effect** The next target you hit with a weapon takes 3d6 poison damage and is dazed (save ends). While the target remains dazed, at the start of each of their turns, you can shunt them 2.  
-
-**Special** If Nightmare Salt is ingested, for 12 hours the target has a -4 penalty on defenses against effects with the Fear or Psychic tags.  
-
-### Mindfog Mist  
-
-*Level 15*  
-
-> **Consumable** **Standard Action**  
-> **Poisons** **Attack** **15** ● **Poison**  
+> #### Mindfog Mist  
+>
+> **Consumable** **Attack** **15** (**Standard Action**) ● **Poison**  
 > **Far** burst 1 within 5  
 > **Attack** Dexterity vs Fortitude  
 > **Hit** 2d6 + Dexterity modifier poison damage, and the target cannot use encounter, refresh or daily powers (save ends).  
+> **Special** Mindfog Mist can be stored in a tight container for up to 24 hours. When the container is opened, the attack is targeted on the container.  
 
-**Special** Mindfog Mist can be stored in a tight container for up to 24 hours. When the container is opened, the attack is targeted on the container.  
+> #### Nightmare Salt  
+> *The victim experiences waking nightmares.*  
+> **Consumable** **Attack** **15** (**Swift Action**) ● **Poison**  
+> **Effect** The next target you hit with a weapon takes 3d6 poison damage and is dazed (save ends). While the target remains dazed, at the start of each of their turns, you can shunt them 2.  
+> **Special** If Nightmare Salt is ingested, for 12 hours the target has a -4 penalty on defenses against effects with the Fear or Psychic tags.  
 
-### Malyass Root Paste  
+> #### Black Smear Poison  
+>
+> **Consumable** **Attack** **19** (**Swift Action**) ● **Poison**  
+> **Effect** Until your next short rest, any target you hit with a weapon takes 5 persistent poison damage (save ends), and is rattled until the end of your next turn.  
+> **Special** If Black Smear Poison is ingested, the target takes 6d6 poison damage.  
 
-*Level 15*  
+> #### Cerulean Scourge  
+>
+> **Consumable** **Attack** **19** (**Swift Action**) ● **Poison, Transmutation**  
+> **Effect** The next target you hit with a weapon casts light with the brightness of a sunroad (save ends).  
+> *Aftereffect:* The target takes 4d6 + Dexterity modifier poison damage.  
+> **Special** If Cerulean Scourge is ingested, the target casts light like a sunrod for 24 hours, and then takes 6d6 poison damage.  
 
-> **Consumable** **Swift Action**  
-> **Poisons** **Attack** **15** ● **Poison**  
-> **Effect** The next target you hit with a weapon is slowed (save ends). *Aftereffect:* The target is restrained (save ends).  
-
-**Special** If Malyass Root Paste is ingested, the target is paralyzed for 3 hours.  
-
-### Hunting Spider Venom  
-
-*Level 15*  
-
-> **Consumable** **Swift Action**  
-> **Poisons** **Attack** **15** ● **Poison**  
-> **Effect** Until your next short rest, any target you hit with a weapon takes 5 ongoing poison damage (save ends), and grants combat advantage until the end of your next turn.  
-
-**Special** If Hunting Spider Venom is ingested, the target takes 4d6 poison damage.  
-
-### Black Smear Poison  
-
-*Level 19*  
-
-> **Consumable** **Swift Action**  
-> **Poisons** **Attack** **19** ● **Poison**  
-> **Effect** Until your next short rest, any target you hit with a weapon takes 5 ongoing poison damage (save ends), and is rattled until the end of your next turn.  
-
-**Special** If Black Smear Poison is ingested, the target takes 6d6 poison damage.  
-
-### Cerulean Scourge  
-
-*Level 19*  
-
-> **Consumable** **Swift Action**  
-> **Poisons** **Attack** **19** ● **Poison, Transmutation**  
-> **Effect** The next target you hit with a weapon casts light with the brightness of a sunroad (save ends). *Aftereffect:* The target takes 4d6 + Dexterity modifier poison damage.  
-
-**Special** If Cerulean Scourge is ingested, the target casts light like a sunrod for 24 hours, and then takes 6d6 poison damage.  
-
-### Weeping Midnight  
-
-*Level 25*  
-
-> **Consumable** **Standard Action**  
-> **Poisons** **Attack** **25** ● **Poison**  
-> **Hit** 5d6 + Dexterity modifier poison damage, and the target is dazed (save ends). *Aftereffect:* The target is blinded until the end of your next turn.  
-> **Miss** The target is blinded until the end of your next turn.  
-
-**Special** If Weeping Midnight is ingested, the target is blinded for 1 day.  
-
-### Brimstone Fumes  
-
-*Level 25*  
-
-> **Consumable** **Standard Action**  
-> **Poisons** **Attack** **25** ● **Poison**  
+> #### Brimstone Fumes  
+>
+> **Consumable** **Attack** **25** (**Standard Action**) ● **Poison**  
 > **Far** burst 1 within 5  
 > **Attack** Dexterity vs Fortitude  
 > **Hit** 3d6 + Dexterity modifier poison damage, and the target is weakened (save ends).  
 > **Miss** The target is weakened until the end of your next turn.  
+> **Special** Brimstone Fumes can be stored in a tight container for up to 24 hours. When the container is opened, the attack is targeted on the container.  
 
-**Special** Brimstone Fumes can be stored in a tight container for up to 24 hours. When the container is opened, the attack is targeted on the container.  
-
-### Frenzy Oil  
-
-*Level 25*  
-
-> **Consumable** **Standard Action**  
-> **Poisons** **Attack** **25** ● **Poison, Psychic**  
+> #### Frenzy Oil  
+>
+> **Consumable** **Attack** **25** (**Standard Action**) ● **Poison, Psychic**  
 > **Ranged** 5  
 > **Attack** Dexterity vs Will  
 > **Hit** 4d6 + Dexterity modifier psychic damage, and the target attacks the nearest creature (chosen randomly if multiple creatures are equally near) (save ends).  
 > **Miss** The target attacks the nearest creature (chosen randomly if multiple creatures are equally near) (save ends).  
+> **Special** If a creature is in prolonged contact with Frenzy Oil (e.g. it wears clothes on which it has been placed), it is thrown into an uncontrollable rage and hatred of all living creatures for 15 minutes.  
 
-**Special** If a creature is in prolonged contact with Frenzy Oil (e.g. it wears clothes on which it has been placed), it is thrown into an uncontrollable rage and hatred of all living creatures for 15 minutes.  
+> #### Weeping Midnight  
+>
+> **Consumable** **Attack** **25** (**Standard Action**) ● **Poison**  
+> **Hit** 5d6 + Dexterity modifier poison damage, and the target is dazed (save ends).  
+> *Aftereffect:* The target is blinded until the end of your next turn.  
+> **Miss** The target is blinded until the end of your next turn.  
+> **Special** If Weeping Midnight is ingested, the target is blinded for 1 day.  
 
-### Repulsion Resin  
+> #### Gorgon’s Breath  
+>
+> **Consumable** **Attack** **29** (**Standard Action**) ● **Poison**  
+> **Far** burst 1 within 5  
+> **Attack** Dexterity vs Fortitude  
+> **Hit** 3d6 + Dexterity modifier poison damage, and the target is slowed (save ends).  
+> *Aftereffect:* The target is petrified (save ends).  
+> **Special** Gorgon’s Breath can be stored in a tight container for up to 24 hours. When the container is opened, the attack is targeted on the container.  
 
-*Level 29*  
+> #### Oblivion Essence  
+>
+> **Consumable** **Attack** **29** (**Swift Action**) ● **Poison**  
+> **Effect** Until your next short rest, any target you hit with a weapon takes 10 persistent poison damage (save ends), and is dazed until the end of your next turn.  
+> **Special** If Oblivion Essence is ingested, the target ages 2d6 years.  
 
-> **Consumable** **Standard Action**  
-> **Poisons** **Attack** **29** ● **Poison, Psychic**  
+> #### Repulsion Resin  
+>
+> **Consumable** **Attack** **29** (**Standard Action**) ● **Poison, Psychic**  
 > **Ranged** 5  
 > **Attack** Dexterity vs Fortitude  
 > **Effect** The next target you hit with a weapon takes 2d6 poison damage, and is dazed (save ends). While the target is dazed, make an attack against any creature that moves into a square adjacent to the target
 > *Attack:* Dexterity vs Fortitude; the target is pushed 1 and their move ends.  
-
-**Special** If Repulsion Resin is consumed, the target has the following aura for 1 hour.
-*Repulsion aura 1:* If a creature moves into an adjacent square, as an opportunity action the subject of the aura makes an attack: Dexterity vs Fortitude; the target is pushed 1 and their move ends.  
-
-### Gorgon's Breath  
-
-*Level 29*  
-
-> **Consumable** **Standard Action**  
-> **Poisons** **Attack** **29** ● **Poison**  
-> **Far** burst 1 within 5  
-> **Attack** Dexterity vs Fortitude  
-> **Hit** 3d6 + Dexterity modifier poison damage, and the target is slowed (save ends). *Aftereffect:* The target is petrified (save ends).  
-
-**Special** Gorgon's Breath can be stored in a tight container for up to 24 hours. When the container is opened, the attack is targeted on the container.  
-
-### Oblivion Essence  
-
-*Level 29*  
-
-> **Consumable** **Swift Action**  
-> **Poisons** **Attack** **29** ● **Poison**  
-> **Effect** Until your next short rest, any target you hit with a weapon takes 10 ongoing poison damage (save ends), and is dazed until the end of your next turn.  
-
-**Special** If Oblivion Essence is ingested, the target ages 2d6 years.  
+> **Special** If Repulsion Resin is consumed, the target has the following aura for 1 hour.
+> *Repulsion aura 1:* If a creature moves into an adjacent square, as an opportunity action the subject of the aura makes an attack: Dexterity vs Fortitude; the target is pushed 1 and their move ends.  
 
 ## Hirelings, Animals and Companions
 
@@ -1958,7 +1861,7 @@ In this rules variant, you must have a relevant feat before you can learn arts.
 
 **Benefit:** You can learn and use practices. However, you must be trained in the relevant skill (where applicable) to learn a practice.   
 
-# Sample Arts
+## Sample Arts
 
 Arts are sorted by skill. 
 
@@ -2050,16 +1953,31 @@ Arts are sorted by skill.
 
 ## Arcana  
 
+### Alarm  
+
+Level 1 Abjuration Incantation (Arcana)  
+
+**Cost to Learn:** 14 gp  
+**Completion Time:** 1 hour  
+**Components:** A tiny bell and a piece of fine silver wire (14 gp)  
+**Duration:** 8 hours  
+
+You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 4-square cube. Until the incantation ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. When you cast the incantation, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible.  
+
+A mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping.  
+
+An audible alarm produces the sound of a hand bell for 10 seconds within 12 squares.  
+
 ### Detect Magic  
 
 Level 1 Divination Incantation (Arcana)  
 
-**Cost to Learn:** 14  
-**Completion Time:** 1 hour  
-**Components:** 14  
-**Duration:** Concentration, up to 10 minutes  
+**Cost to Learn:** 14 gp  
+**Completion Time:** 10 minutes  
+**Components:** 14 gp  
+**Duration:** 10 minutes  
 
-For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.  
+For the duration, you sense the presence of magic within 6 squares of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.  
 
 The incantation can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.  
 
@@ -2067,22 +1985,35 @@ The incantation can penetrate most barriers, but it is blocked by 1 foot of ston
 
 Level 1 Crafting Incantation (Arcana)  
 
-**Cost to Learn:** 14  
+**Cost to Learn:** 14 gp  
 **Completion Time:** 1 hour  
 **Components:** A drop of mercury (14 gp)  
 **Duration:** 1 hour  
 
-This incantation creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied space of your choice that you can see within range. The disk remains for the duration, and can hold up to 500 pounds. If more weight is placed on it, the incantation ends, and everything on the disk falls to the ground.  
+This incantation creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied square of your choice that you can see within range. The disk remains for the duration, and can hold up to 500 pounds. If more weight is placed on it, the incantation ends, and everything on the disk falls to the ground.  
 
-The disk is immobile while you are within 20 feet of it. If you move more than 20 feet away from it, the disk follows you so that it remains within 20 feet of you. It can move across uneven terrain, up or down stairs, slopes and the like, but it can't cross an elevation change of 10 feet or more. For example, the disk can't move across a 10-foot deep pit, nor could it leave such a pit if it was created at the bottom.  
+The disk is immobile while you are within 4 squares of it. If you move more than 4 squares away from it, the disk follows you so that it remains within 4 squares of you. It can move across uneven terrain, up or down stairs, slopes and the like, but it can't cross an elevation change of 2 squares or more. For example, the disk can't move across a 2-square deep pit, nor could it leave such a pit if it was created at the bottom.  
 
 If you move more than 100 feet from the disk (typically because it can't move around an obstacle to follow you), the incantation ends.  
+
+### Identify  
+
+Level 1 Divination Incantation (Arcana)  
+
+**Cost to Learn:** 14 gp  
+**Completion Time:** 1 hour  
+**Components:** A pearl (28 gp)  
+**Duration:** Instantaneous  
+
+You choose one object that you must touch throughout the casting of the incantation. If it is a magic item or some other magic-imbued object, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any magical effects are affecting the item and what they are. If the item was created by an art or power, you learn which art or power created it.  
+
+If you instead touch a creature throughout the casting, you learn what magical effects, if any, are currently affecting it.  
 
 ### Illusory Script  
 
 Level 1 Illusion Incantation (Arcana)  
 
-**Cost to Learn:** 14  
+**Cost to Learn:** 14 gp  
 **Completion Time:** 1 hour  
 **Components:** A lead-based ink (14 gp)  
 **Duration:** 10 days  
@@ -2093,24 +2024,37 @@ To you and any creatures familiar with your technique, the writing appears norma
 
 A creature with truesight can read the hidden message.  
 
-### Identify  
+### Mage's Mark  
+
+Level 1 Transmutation Incantation (Arcana)  
+
+**Cost to Learn:** 14 gp  
+**Completion Time:** 1 minute  
+**Components:** Fresh candle and silver stylus (14 gp)  
+**Duration:** Permanent  
+
+Every mage has their own mark, usually an elaborate and unique rune. This ritual allows a mage to inscribe their mark on any non-magical substance, including stone and metal. The rune remains permanently upon the surface, only disappearing if the item or surface itself is destroyed. The mage may choose to make this mark visible to all, or only to those with the sight (meaning that most folk will not be able to see it at all, but anyone with Arcana training will see it).
+
+In order to make their mark, a mage must light a fresh candle and stand it upon the surface to be marked in its own wax. They then prick their finger with a silver stylus and draw their rune upon the surface, very slowly and deliberately, with their own blood, seven times. Upon the seventh and final drawing, the blood fades, the candle falls away, the stylus cracks, and the mark is finished.  
+
+### Understand Languages  
 
 Level 1 Divination Incantation (Arcana)  
 
-**Cost to Learn:** 14  
+**Cost to Learn:** 14 gp  
 **Completion Time:** 1 hour  
-**Components:** A pearl (28 gp)  
-**Duration:** Instantaneous  
+**Components:** A pinch of soot and salt and an amethyst (14 gp)  
+**Duration:** 1 hour  
 
-You choose one object that you must touch throughout the casting of the incantation. If it is a magic item or some other magic-imbued object, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any incantations are affecting the item and what they are. If the item was created by a incantation or incantation, you learn which incantation or incantation created it.  
+For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.  
 
-If you instead touch a creature throughout the casting, you learn what incantations, if any, are currently affecting it.  
+This incantation doesn't decode secret messages in a text or a glyph, such as an arcane sigil, that isn't part of a written language.  
 
 ### Unseen Servant  
 
 Level 1 Conjuration Incantation (Arcana)  
 
-**Cost to Learn:** 14  
+**Cost to Learn:** 14 gp  
 **Completion Time:** 1 hour  
 **Components:** A piece of string, a bit of wood and a glass bauble (14 gp)  
 **Duration:** 8 hours  
@@ -2121,106 +2065,59 @@ Once on each of your turns as a swift action, you can mentally command the serva
 
 If you command the servant to perform a task that would move it more than 12 squares away from you, the incantation ends.  
 
-### Understand Languages  
+### Perpetual Message  
 
-Level 1 Divination Incantation (Arcana)  
+Level 3 Illusion Incantation (Arcana)  
 
-**Cost to Learn:** 14  
+**Cost to Learn:** 27 gp  
 **Completion Time:** 1 hour  
-**Components:** A pinch of soot and salt and an amethyst (14 gp)  
-**Duration:** 1 hour  
-
-For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.  
-
-This incantation doesn't decode secret messages in a text or a glyph, such as an arcane sigil, that isn't part of a written language.  
-
-### Alarm  
-
-Level 1 Abjuration Incantation (Arcana)  
-
-**Cost to Learn:** 14  
-**Completion Time:** 1 hour  
-**Components:** A tiny bell and a piece of fine silver wire (14 gp)  
-**Duration:** 8 hours  
-
-You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 4-space cube. Until the incantation ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. When you cast the incantation, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible.  
-
-A mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping.  
-
-An audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.  
-
-### Mage's Mark  
-
-Level 1 Transmutation Incantation (Arcana)  
-
-**Cost to Learn:** 14  
-**Completion Time:** 1 minute  
-**Components:** Fresh candle and silver stylus (28 gp)  
+**Components:** A small bit of honeycomb and jade dust (54 gp)  
 **Duration:** Permanent  
 
-Every mage has their own mark, usually an elaborate and unique rune. This ritual allows a mage to inscribe their mark on any non-magical substance, including stone and metal. The rune remains permanently upon the surface, only disappearing if the item or surface itself is destroyed. The mage may choose to make this mark visible to all, or only to those with the sight (meaning that most folk will not be able to see it at all, but anyone with Arcana training will see it).
+You implant a message within an object within 6 squares, a message that is uttered when a trigger condition is met. Choose an object that you can see and that isn't being worn or carried by another creature. Then speak the message, which must be 25 words or less, though it can be delivered over as long as 10 minutes. Finally, determine the circumstance that will trigger the incantation to deliver your message.  
 
-In order to make their mark, a mage must light a fresh candle and stand it upon the surface to be marked in its own wax. They then prick their finger with a silver stylus and draw their rune upon the surface, very slowly and deliberately, with their own blood, seven times. Upon the seventh and final drawing, the blood fades, the candle falls away, the stylus cracks, and the mark is finished.  
+When that circumstance occurs, a magical mouth appears on the object and recites the message in your voice and at the same volume you spoke. If the object you chose has a mouth or something that looks like a mouth (for example, the mouth of a statue), the magical mouth appears there so that the words appear to come from the object's mouth. When you cast this incantation, you can have the incantation end after it delivers its message, or it can remain and repeat its message whenever the trigger occurs.  
+
+The triggering circumstance can be as general or as detailed as you like, though it must be based on visual or audible conditions that occur within 6 squares of the object. For example, you could instruct the mouth to speak when any creature moves within 6 squares of the object or when a silver bell rings within 6 squares of it.  
 
 ### Sphere of Silence  
 
 Level 3 Illusion Incantation (Arcana)  
 
-**Cost to Learn:** 27  
+**Cost to Learn:** 27 gp  
 **Completion Time:** 1 hour  
-**Components:** 27  
+**Components:** 27 gp  
 **Duration:** 8 hours  
 
-For the duration, no sound can be created within or pass through a 20-foot radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a incantation that includes a verbal component is impossible there.  
+For the duration, no sound can be created within or pass through a 4-square burst centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a incantation that includes a verbal component is impossible there.  
 
-### Perpetual Message  
-
-Level 3 Illusion Incantation (Arcana)  
-
-**Cost to Learn:** 27  
-**Completion Time:** 1 hour  
-**Components:** A small bit of honeycomb and jade dust (54 gp)  
-**Duration:** Permanent  
-
-You implant a message within an object within 30 feet, a message that is uttered when a trigger condition is met. Choose an object that you can see and that isn't being worn or carried by another creature. Then speak the message, which must be 25 words or less, though it can be delivered over as long as 10 minutes. Finally, determine the circumstance that will trigger the incantation to deliver your message.  
-
-When that circumstance occurs, a magical mouth appears on the object and recites the message in your voice and at the same volume you spoke. If the object you chose has a mouth or something that looks like a mouth (for example, the mouth of a statue), the magical mouth appears there so that the words appear to come from the object's mouth. When you cast this incantation, you can have the incantation end after it delivers its message, or it can remain and repeat its message whenever the trigger occurs.  
-
-The triggering circumstance can be as general or as detailed as you like, though it must be based on visual or audible conditions that occur within 30 feet of the object. For example, you could instruct the mouth to speak when any creature moves within 30 feet of the object or when a silver bell rings within 30 feet of it.  
-
-### Meld into Stone  
-
-Level 5 Practical Incantation (Arcana)  
-
-**Cost to Learn:** 40  
-**Completion Time:** 1 hour  
-**Components:** 40  
-**Duration:** 8 hours  
-
-You step into a stone object or surface large enough to fully contain your body, melding yourself and all the equipment you carry with the stone for the duration. Using your movement, you step into the stone at a point you can touch. Nothing of your presence remains visible or otherwise detectable by nonmagical senses.  
-
-While merged with the stone, you can't see what occurs outside it, and any Perception checks you make to hear sounds outside it are made with disadvantage. You remain aware of the passage of time and can cast incantations on yourself while merged in the stone. You can use your movement to leave the stone where you entered it, which ends the incantation. You otherwise can't move.  
-
-Minor physical damage to the stone doesn't harm you, but its partial destruction or a change in its shape (to the extent that you no longer fit within it) expels you and deals 6d6 bludgeoning damage to you. The stone's complete destruction (or transmutation into a different substance) expels you and deals 50 bludgeoning damage to you. If expelled, you fall prone in an unoccupied space closest to where you first entered.  
-
-### Spectral Steed  
+### Continual Flame  
 
 Level 5 Crafting Incantation (Arcana)  
 
-**Cost to Learn:** 40  
+**Cost to Learn:** 40 gp  
 **Completion Time:** 1 hour  
-**Components:** 40  
-**Duration:** 8 hours  
+**Components:** Ruby dust (80 gp)  
+**Duration:** Instantaneous  
 
-A Large quasi-real, horselike creature appears on the ground in an unoccupied space of your choice within range. You decide the creature's appearance, but it is equipped with a saddle, bit, and bridle. Any of the equipment created by the incantation vanishes in a puff of smoke if it is carried more than 10 feet away from the steed.  
+A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn’t use oxygen. A *continual flame* can be covered and hidden but not smothered or quenched.  
 
-For the duration, you or a creature you choose can ride the steed. The creature uses the statistics for a riding horse, except it has a speed of 20 squares and can travel 10 miles in an hour, or 13 miles at a fast pace. When the incantation ends, the steed gradually fades, giving the rider 1 minute to dismount. The incantation ends if you use an action to dismiss it or if the steed takes any damage.  
+### Dismiss Magic  
+
+Level 5 Practical Incantation (Arcana)  
+
+**Cost to Learn:** 72 gp  
+**Completion Time:** 1 minute  
+**Components:** 72 gp  
+**Duration:** Instantaneous  
+
+Choose one creature, object, or magical effect within 24 squares. Any incantation or non-martial power of 5th level or lower on the target ends. For each incantation or non-martial power of 6th level or higher (or no level) on the target, make an Arcana check. The DC equals 10 + the incantation or power's level. On a successful check, the effect ends.  
 
 ### Liquid Tread  
 
 Level 5 Transportation Incantation (Arcana)  
 
-**Cost to Learn:** 40  
+**Cost to Learn:** 40 gp  
 **Completion Time:** 1 hour  
 **Components:** A piece of cork and 40 gp  
 **Duration:** 8 hours  
@@ -2229,72 +2126,114 @@ This incantation grants the ability to move across any liquid surface-such as wa
 
 If you target a creature submerged in a liquid, the incantation carries the target to the surface of the liquid at a rate of 12 squares per round.  
 
+### Meld into Stone  
+
+Level 5 Practical Incantation (Arcana)  
+
+**Cost to Learn:** 40 gp  
+**Completion Time:** 1 hour  
+**Components:** 40 gp  
+**Duration:** 8 hours  
+
+You step into a stone object or surface large enough to fully contain your body, melding yourself and all the equipment you carry with the stone for the duration. Using your movement, you step into the stone at a point you can touch. Nothing of your presence remains visible or otherwise detectable by nonmagical senses.  
+
+While merged with the stone, you can't see what occurs outside it, and any Perception checks you make to hear sounds outside it are made with a -4 penalty. You remain aware of the passage of time and can cast incantations on yourself while merged in the stone. You can use your movement to leave the stone where you entered it, which ends the incantation. You otherwise can't move.  
+
+Minor physical damage to the stone doesn't harm you, but its partial destruction or a change in its shape (to the extent that you no longer fit within it) expels you and deals 6d6 bludgeoning damage to you. The stone's complete destruction (or transmutation into a different substance) expels you and deals 50 bludgeoning damage to you. If expelled, you fall prone in an unoccupied space closest to where you first entered.  
+
 ### Sorcerous Gills  
 
 Level 5 Practical Incantation (Arcana)  
 
-**Cost to Learn:** 40  
+**Cost to Learn:** 40 gp  
 **Completion Time:** 1 hour  
 **Components:** A short reed or piece of straw, and 40 gp  
 **Duration:** 24 hours  
 
 This incantation grants up to ten willing creatures you can see within range the ability to breathe underwater until the incantation ends. Affected creatures also retain their normal mode of respiration.  
 
+### Spectral Steed  
+
+Level 5 Crafting Incantation (Arcana)  
+
+**Cost to Learn:** 40 gp  
+**Completion Time:** 1 hour  
+**Components:** 40 gp  
+**Duration:** 8 hours  
+
+A Large quasi-real, horselike creature appears on the ground in an unoccupied space of your choice within range. You decide the creature's appearance, but it is equipped with a saddle, bit, and bridle. Any of the equipment created by the incantation vanishes in a puff of smoke if it is carried more than 2 squares away from the steed.  
+
+For the duration, you or a creature you choose can ride the steed. The creature uses the statistics for a riding horse, except it has a speed of 20 squares and can travel 10 miles in an hour, or 13 miles at a fast pace. When the incantation ends, the steed gradually fades, giving the rider 1 minute to dismount. The incantation ends if you use a swift action to dismiss it or if the steed takes any damage.  
+
 ### Tiny Hut  
 
 Level 5 Crafting Incantation (Arcana)  
 
-**Cost to Learn:** 40  
+**Cost to Learn:** 40 gp  
 **Completion Time:** 1 hour  
 **Components:** A small crystal bead (40 gp)  
 **Duration:** 8 hours  
 
-A 10-foot radius immobile dome of force springs into existence around and above you and remains stationary for the duration. The incantation ends if you leave its area.  
+An immobile dome of force springs into existence in a 2-square burst around and above you and remains stationary for the duration. The incantation ends if you leave its area.  
 
-Nine creatures of Medium size or smaller can fit inside the dome with you. The incantation fails if its area includes a larger creature or more than nine creatures. Creatures and objects within the dome when you cast this incantation can move through it freely. All other creatures and objects are barred from passing through it. incantations and other magical effects can't extend through the dome or be cast through it. The atmosphere inside the space is comfortable and dry, regardless of the weather outside.  
+The incantation fails if its edge intersects a creature. Creatures and objects within the dome when you cast this incantation can move through it freely. All other creatures and objects are barred from passing through it. The atmosphere inside the space is comfortable and dry, regardless of the weather outside.  
 
 Until the incantation ends, you can command the interior to become dimly lit or dark. The dome is opaque from the outside, of any color you choose, but it is transparent from the inside.  
-
-### Continual Flame  
-
-Level 5 Crafting Incantation (Arcana)  
-
-**Cost to Learn:** 40  
-**Completion Time:** 1 hour  
-**Components:** Ruby dust (80 gp)  
-**Duration:** Instantaneous  
-
-A flame, equivalent in brightness to a torch, springs forth from an object that you touch. The effect looks like a regular flame, but it creates no heat and doesn’t use oxygen. A *continual flame* can be covered and hidden but not smothered or quenched.  
-
-### Hidden Magic  
-
-Level 6 Trick Practice (Arcana)  
-
-**Cost to Learn:** 72  
-**Completion Time:** 10 minutes  
-**Components:** 72  
-**Duration:** One day  
-
-You've learned to hide the magical auras of your gear. During your daily preparations, you carefully tweak any or all of your magic items to appear non-magical.  
 
 ### Contact Other Plane  
 
 Level 9 Divination Incantation (Arcana)  
 
-**Cost to Learn:** 168  
+**Cost to Learn:** 168 gp  
 **Completion Time:** 1 hour  
-**Components:** 168  
+**Components:** 168 gp  
 **Duration:** 1 minute  
 
-You mentally contact a demigod, the spirit of a long-dead sage, or some other mysterious entity from another plane. Contacting this extraplanar intelligence can strain or even break your mind. When you cast this incantation, make a DC 25 Arcana check. On a failure, you take 6d6 psychic damage and are insane until you finish a long rest. While insane, you can't take actions, can't understand what other creatures say, can't read, and speak only in gibberish. A *greater restoration* incantation cast on you ends this effect.  
+You mentally contact a demigod, the spirit of a long-dead sage, or some other mysterious entity from another plane. Contacting this extraplanar intelligence can strain or even break your mind. When you cast this incantation, make a DC 25 Arcana check. On a failure, you take 6d6 psychic damage and are overawed until you finish a long rest. While overawed, you can't understand what other creatures say, can't read, and speak only in gibberish. A *restoration* art used on you ends this effect.  
 
 On a successful check, you can ask the entity up to five questions. You must ask your questions before the incantation ends. The GM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “irrelevant,” or “unclear” (if the entity doesn't know the answer to the question). If a one-word answer would be misleading, the GM might instead offer a short phrase as an answer.  
+
+### Call Forth the Dweller  
+
+Level 11 Divination Incantation (Arcana)  
+
+**Cost to Learn:** 360 gp  
+**Completion Time:** 1 hour  
+**Components:** Forty-two mystic symbols inscribed around the perimeter of the target doorway (requiring materials costing 360 gp)  
+**Duration:** 8 hours  
+
+This incantation contacts the enigmatic, extradimensional being known as the Dweller on the Threshold, an entity that imparts knowledge about its specific obsession: doors and other entrances.  
+
+To cast *call forth the Dweller*, the caster must inscribe forty-two mystic symbols around an open doorway, then begin the chants and supplications required for the incantation.  
+
+If the incantation succeeds, an image of the Dweller—an inky mass of tentacles and mouths—appears on the other side of the doorway. The Dweller on the Threshold truthfully answers any questions it is asked about a particular door. For example, the Dweller can provide a magical password that unlocks a door, indicate how to disarm a trap on a door, reveal the weaknesses of a door’s guardian, or describe the room that lies beyond the door. Its answers are clear and fairly specific, if somewhat terse. The caster may well appreciate such concise answers, because one of the forty-two symbols inscribed around the doorway during the casting of the incantation fades away with each word the Dweller on the Threshold speaks—and when all the symbols are gone, the Dweller disappears.  
+
+If the caster asks the Dweller on the Threshold a question that doesn’t involve doors, the Dweller responds with a cutting insult, often about something the caster thought was secret. Each word of the insult likewise makes a symbol disappear from the perimeter of the doorway.  
+
+The exact nature of the Dweller on the Threshold is shrouded in mystery.  
+
+### Hrothgar's Journey  
+
+Level 11 Transportation Incantation (Arcana)  
+
+**Cost to Learn:** 360 gp  
+**Completion Time:** 1 hour  
+**Components:** A windowless, thatched hut in a forest (360 gp)  
+**Duration:** Instantaneous  
+
+*Hrothgar’s journey* is an incantation based on the tale of Hrothgar, a powerful barbarian hero from ages past. When the poetic epic of Hrothgar is recited in the stifling heat of a sweat lodge during the winter solstice, the orator and his listeners receive the same final reward that Hrothgar did: a one-way trip to Asgard’s Valhalla, where they can drink and make merry with the greatest warriors of myth.  
+
+To cast the incantation, the caster must construct a small, windowless hut in the middle of the forest, then build a bonfire in the hut’s center. At least four and up to twelve others accompany the caster into the hut. Other participants must provide the dialogue for other characters in the epic of Hrothgar. Then the flames are lit and the telling of the tale of Hrothgar begins.  
+
+Because the bonfire is large and the hut is small, the atmosphere inside quickly gets stiflingly hot. Any creature inside the hut must make an Endure check (DC 20) every 10 minutes or suffer the effects of severe heat (lose a recovery).  
+
+Just as the tale of Hrothgar approaches its conclusion (near the end of the casting time), the bonfire’s flames light the hut on fire, which creates a great deal of smoke but no additional heat or damage. The flames consume the hut’s roof and walls, revealing Valhalla on the plane of Asgard.  
 
 ### Summon Item  
 
 Level 11 Conjuration Incantation (Arcana)  
 
-**Cost to Learn:** 360  
+**Cost to Learn:** 360 gp  
 **Completion Time:** 1 hour  
 **Components:** A sapphire (720 gp)  
 **Duration:** Permanent  
@@ -2305,49 +2244,13 @@ At any time thereafter, you can use your standard action to speak the item's nam
 
 If another creature is holding or carrying the item, crushing the sapphire doesn't transport the item to you, but instead you learn who the creature possessing the object is and roughly where that creature is located at that moment.  
 
-*Dispel magic* or a similar effect successfully applied to the sapphire ends this incantation's effect.  
-
-### Hrothgar's Journey  
-
-Level 11 Transportation Incantation (Arcana)  
-
-**Cost to Learn:** 360  
-**Completion Time:** 1 hour  
-**Components:** A windowless, thatched hut in a forest (360 gp)  
-**Duration:** Instantaneous  
-
-Hrothgar’s journey is an incantation based on the tale of Hrothgar, a powerful barbarian hero from ages past. When the poetic epic of Hrothgar is recited in the stifling heat of a sweat lodge during the winter solstice, the orator and his listeners receive the same final reward that Hrothgar did: a one-way trip to Asgard’s Valhalla, where they can drink and make merry with the greatest warriors of myth.  
-
-To cast the incantation, the caster must construct a small, windowless hut in the middle of the forest, then build a bonfire in the hut’s center. At least four and up to twelve others accompany the caster into the hut. Other participants must provide the dialogue for other characters in the epic of Hrothgar. Then the flames are lit and the telling of the tale of Hrothgar begins.  
-
-Because the bonfire is large and the hut is small, the atmosphere inside quickly gets stiflingly hot. Any creature inside the hut must make an Endure check (DC 20) every 10 minutes or suffer the effects of severe heat.  
-
-Just as the tale of Hrothgar approaches its conclusion (near the end of the casting time), the bonfire’s flames light the hut on fire, which creates a great deal of smoke but no additional heat or damage. The flames consume the hut’s roof and walls, revealing Valhalla on the plane of Asgard.  
-
-### Call Forth the Dweller  
-
-Level 11 Divination Incantation (Arcana)  
-
-**Cost to Learn:** 360  
-**Completion Time:** 1 hour  
-**Components:** Forty-two mystic symbols inscribed around the perimeter of the focus doorway (requiring materials costing 360 gp)  
-**Duration:** 8 hours  
-
-This incantation contacts the enigmatic, extradimensional being known as the Dweller on the Threshold, an entity that imparts knowledge about its specific obsession: doors and other entrances.  
-
-To cast call forth the Dweller, the caster must inscribe forty-two mystic symbols around an open doorway (the “focus”), then begin the chants and supplications required for the incantation.  
-
-If the incantation succeeds, an image of the Dweller—an inky mass of tentacles and mouths—appears on the other side of the doorway. The Dweller on the Threshold truthfully answers any questions it is asked about a particular door. For example, the Dweller can provide a magical password that unlocks a door, indicate how to disarm a trap on a door, reveal the weaknesses of a door’s guardian, or describe the room that lies beyond the door. Its answers are clear and fairly specific, if somewhat terse. The caster may well appreciate such concise answers, because one of the forty-two symbols inscribed around the doorway during the casting of the incantation fades away with each word the Dweller on the Threshold speaks—and when all the symbols are gone, the Dweller disappears.  
-
-If the caster asks the Dweller on the Threshold a question that doesn’t involve doors, the Dweller responds with a cutting insult, often about something the caster thought was secret. Each word of the insult likewise makes a symbol disappear from the perimeter of the doorway.  
-
-The exact nature of the Dweller on the Threshold is shrouded in mystery. Some contend that it is somehow connected to the god of secrets, although no one has ever found conclusive evidence that the Dweller on the Threshold is evil.  
+*Dismiss magic* or a similar effect successfully applied to the sapphire ends this incantation's effect.  
 
 ### Telepathic Bond  
 
 Level 11 Divination Incantation (Arcana)  
 
-**Cost to Learn:** 360  
+**Cost to Learn:** 360 gp  
 **Completion Time:** 1 hour  
 **Components:** Pieces of eggshell from two different kinds of creatures, one rare (360 gp)  
 **Duration:** 8 hours  
@@ -2360,7 +2263,7 @@ Until the incantation ends, the targets can communicate telepathically through t
 
 Level 13 Transportation Incantation (Arcana)  
 
-**Cost to Learn:** 680  
+**Cost to Learn:** 680 gp  
 **Completion Time:** 1 hour  
 **Components:** A forked, metal rod (680 gp), attuned to a particular plane of existence  
 **Duration:** Instantaneous  
@@ -2373,16 +2276,16 @@ Alternatively, if you know the sigil sequence of a teleportation circle on anoth
 
 Level 21 Practical Incantation (Arcana)  
 
-**Cost to Learn:** 9000  
+**Cost to Learn:** 9,000 gp  
 **Completion Time:** 24 hours  
-**Components:** 18000  
+**Components:** 18,000 gp  
 **Duration:** Permanent  
 
-Select a dwelling of size somewhere between a hut and a small castle. The dwelling lifts itself off the ground and grows one of the following means of transport:   
+Select a dwelling somewhere between a hut and a small castle in size. The dwelling lifts itself off the ground and grows one of the following means of transport:   
 
 * **Levitation:** The dwelling floats over the ground and over water, giving it fly 6 (hover, maximum altitude 2).  
 * **Chicken Legs:** The dwelling runs along the ground, giving it speed 12.    
-* **Rollers:** The dwelling moves on treads on the ground, giving it speed 8 – but it ignores difficult, obstructing and other terrain.   
+* **Rollers:** The dwelling moves on treads on the ground, giving it speed 8 - but it ignores difficult, obstructing and other terrain.   
 
 The dwelling follows your spoken instructions if they are given from within or just outside the dwelling, about as faithfully as a dim but well-meaning dog might.  
 
@@ -2392,7 +2295,7 @@ The dwelling follows your spoken instructions if they are given from within or j
 
 Level 2 Trick Practice (Athletics)  
 
-**Cost to Learn:** 21  
+**Cost to Learn:** 21 gp  
 **Completion Time:** 1 minute  
 **Components:** 1 recovery  
 **Duration:** One day  
@@ -2401,33 +2304,55 @@ Count your load as if it were one step lighter than it actually is (light load i
 
 ## Bluff  
 
-### Cant  
+### Teach Cant  
 
 Level 1 Lesson Practice (Bluff)  
 
-**Cost to Learn:** 14  
+**Cost to Learn:** 14 gp  
 **Completion Time:** 1 week  
-**Components:** 28  
+**Components:** 28 gp  
 **Duration:** Instantaneous  
 
-The subject of the cant lesson learns the cant used by thieves, urchins and demi-mondaines. A character who learns how to give the cant lesson learns cant along with it, if they did not already know it.  
+The subject of a *teach cant* lesson learns the cant used by thieves, urchins and demi-mondaines. A character who learns this art learns cant along with it, if they did not already know it.  
+
+### Backup Disguise  
+
+Level 2 Trick Practice (Bluff)  
+
+**Cost to Learn:** 21 gp  
+**Completion Time:** 10 minutes  
+**Components:** 21 gp  
+**Duration:** Until your next long rest  
+
+You prepare a specific disguise that you keep at the ready, worn underneath your outer garment. You can change into this disguise as a standard action. Having a backup disguise doesn’t allow you to remove your armor or any other complex piece of clothing any more quickly, but once you have those off, the disguise is readily available. Because you have the backup disguise at the ready, it’s possible that a thorough search might reveal some elements of the disguise.  
 
 ### Use Magic Device  
 
 Level 2 Trick Practice (Bluff)  
 
-**Cost to Learn:** 21  
+**Cost to Learn:** 21 gp  
 **Completion Time:** *  
 **Components:** 1 recovery  
 **Duration:** Instantaneous  
 
 You use a magic item or other magical device even if you do not meet the prerequisites to do so. You must succeed on a Bluff check (DC 15 + half the level of the magic item or device) in order to do so. If you fail, there may be negative consequences depending on the item or device. The completion time is double the normal time it takes to activate the item.  
 
+### Hidden Magic  
+
+Level 6 Trick Practice (Bluff)  
+
+**Cost to Learn:** 72 gp  
+**Completion Time:** 10 minutes  
+**Components:** 72 gp  
+**Duration:** 1 year  
+
+You carefully tweak a magic item to appear non-magical according to incantations, powers and skills that observe magical auras.  
+
 ### Social Identity  
 
 Level 6 Trick Practice (Bluff)  
 
-**Cost to Learn:** 72  
+**Cost to Learn:** 72 gp  
 **Completion Time:** 1 week  
 **Components:** 144 gp of bribes, materials, etc.  
 **Duration:** Instantaneous  
@@ -2438,74 +2363,53 @@ Changing from one identity to the other takes 1 minute and must be done out of s
 
 Your two identities are completely distinct. You have your current identity's alignment for effects that rely on alignment, though you are eligible for abilities that require a certain alignment (such as a cleric's deity) only if both of your identities qualify. Researching one of your identities don't reveal information about the other unless the person attempting the research knows both identities are the same person. Effects that detect you based on your identity work only if you are currently in the identity the effect is trying to detect; otherwise, the effect fails as if the target didn't exist.  
 
-### Safe House  
+### Nameless One  
 
-Level 11 Trick Practice (Bluff)  
+Level 15 Trick Practice (Bluff)  
 
-**Cost to Learn:** 360  
+**Cost to Learn:** 1,000 gp  
 **Completion Time:** 1 week  
-**Components:** 720  
+**Components:** 1,000 gp  
 **Duration:** Instantaneous  
 
-You establish a safe house—a secure space in which to hide your secrets from the outside world. This safe house is roughly the size of a 10-foot cube. It's in a location you have access to, and it can be part of a larger building or structure, like a hidden room or an underground cave. The safe house protects objects and people inside it from magical detection. Setting up or moving your safe house takes a week of downtime. The size of the safe house expands by one 10-foot cube each time you use this craft.  
+You eschew all of your former identities, going as far as to render your former name completely inaccessible to discover by mortal means. After this practice, you forever lose all names and identities previously associated with you. You adopt a brief descriptive title in place of a new name. 
+
+At the art's conclusion, you must don the mask created for the art, the appearance of which is evocative of your title. While you’re wearing this mask, any attempts to scry or otherwise locate any of your eschewed identities or connect you to those identities do not work, revealing nothing but darkness, as if you were an invalid target or did not exist.  
 
 ## Diplomacy  
 
-### Signs  
+### Teach Signs  
 
 Level 1 Lesson Practice (Diplomacy)  
 
-**Cost to Learn:** 14  
+**Cost to Learn:** 14 gp  
 **Completion Time:** 1 week  
-**Components:** 28  
+**Components:** 28 gp  
 **Duration:** Instantaneous  
 
-The subject of the signs lesson learns a sign language. A character who learns how to give the signs lesson learns the sign language along with it, if they did not already know it.  
+The subject of a *teach signs* lesson learns a basic sign language. A character who learns this art learns a basic sign language along with it, if they did not already know it.  
 
-### Swear an Oath  
+### Dealmaker  
 
-Level 1 Interaction Practice (Diplomacy)  
+Level 5 Interaction Practice (Diplomacy)  
 
-**Cost to Learn:** 14  
+**Cost to Learn:** 40 gp  
 **Completion Time:** 1 hour  
 **Components:** 1 recovery  
 **Duration:** Instantaneous  
 
-To swear an oath, you name—very specifically—a task you will accomplish in no more than one year’s time. If the task is not completed in that time, or if conditions arise that indicate the failure of the oath, you lose all your recoveries, and cannot regain them for a month. 
-
-You cannot be tricked into thinking an oath is fulfilled when it is not, and no magical compulsion can force you to stop attempting to fulfill it. 
-
-Oaths can be singular tasks (destroy the Dark Tower) or ongoing (keep King Dari alive). Ongoing oaths can be renewed at the end of each year. An oath must be something measurable, so the character knows whether it has been fulfilled. 
-
-You receive a +2 power bonus on skill checks while working towards your oath, and a +2 power bonus to defenses against attacks that would stop you from working towards your oath.  
+You have the air of a person with money, allowing you to buy and sell valuables that otherwise are too rich for the local community. When looking to buy or sell an item that would normally be outside that available for sale or purchase in the local community, make a Diplomacy check (DC depends on the level of the item and the size of the community). On a success, you’re able to sell or purchase that item.  
 
 ### Entourage  
 
 Level 7 Interaction Practice (Diplomacy)  
 
-**Cost to Learn:** 104  
+**Cost to Learn:** 104 gp  
 **Completion Time:** 1 week  
-**Components:** 208  
+**Components:** 208 gp  
 **Duration:** Instantaneous  
 
 You have a small group of admirers who tend to follow you around while you’re in civilized settlements. Your admirers are helpful to you, allowing you to make simple requests of them such as purchasing basic equipment with your funds or finding a room at an inn. These admirers do not travel with you to places that are obviously dangerous, including most adventure locations, but they’ll wait for you at the nearest settlement.  
-
-### Geas  
-
-Level 11 Interaction Practice (Diplomacy)  
-
-**Cost to Learn:** 360  
-**Completion Time:** 1 hour  
-**Components:** 1 recovery (until effect ends)  
-**Duration:** One day / level or until discharged  
-
-A geas places a command on a creature to carry out some service or to refrain from some action or course of activity, as desired by you. The creature must be of your level or lower and be able to understand you. While a geas cannot compel a creature to kill itself or perform acts that would result in certain death, it can cause almost any other course of activity.
-
-The geased creature must follow the given instructions until the geas is completed, no matter how long it takes.
-
-If the instructions involve some open-ended task that the recipient cannot complete through his own actions the craft remains in effect for a maximum of one day per level you have. A clever recipient can subvert some instructions.
-
-If the subject is prevented from obeying the geas for 24 hours, it loses one recovery per day. It cannot regain these recoveries while the geas remains.  
 
 ## Endure  
 
@@ -2513,7 +2417,7 @@ If the subject is prevented from obeying the geas for 24 hours, it loses one rec
 
 Level 2 Trick Practice (Endure)  
 
-**Cost to Learn:** 21  
+**Cost to Learn:** 21 gp  
 **Completion Time:** 1 hour  
 **Components:** 1 recovery  
 **Duration:** Instantaneous  
@@ -2524,7 +2428,7 @@ You no longer need to eat to survive. You can end this craft at any time. Until 
 
 Level 8 Trick Practice (Endure)  
 
-**Cost to Learn:** 136  
+**Cost to Learn:** 136 gp  
 **Completion Time:** 1 hour  
 **Components:** 1 recovery  
 **Duration:** Instantaneous  
@@ -2535,7 +2439,7 @@ You no longer need to drink water to survive. You can end this craft at any time
 
 Level 12 Trick Practice (Endure)  
 
-**Cost to Learn:** 520  
+**Cost to Learn:** 520 gp  
 **Completion Time:** 1 hour  
 **Components:** 1 recovery  
 **Duration:** Instantaneous  
@@ -2546,7 +2450,7 @@ You no longer need to breathe air to survive. You can end this craft at any time
 
 Level 14 Trick Practice (Endure)  
 
-**Cost to Learn:** 840  
+**Cost to Learn:** 840 gp  
 **Completion Time:** 1 hour  
 **Components:** 1 recovery  
 **Duration:** Instantaneous  
@@ -2557,7 +2461,7 @@ You no longer need to sleep. You can stay awake at all times without penalties, 
 
 Level 17 Trick Practice (Endure)  
 
-**Cost to Learn:** 2600  
+**Cost to Learn:** 2,600 gp  
 **Completion Time:** 1 hour  
 **Components:** 1 recovery  
 **Duration:** Instantaneous  
@@ -2566,88 +2470,135 @@ You no longer age through the passing of time. You can end this craft at any tim
 
 ## Heal  
 
-### Detect Poison and Disease  
-
-Level 1 Divination Incantation (Heal)  
-
-**Cost to Learn:** 14  
-**Completion Time:** 1 hour  
-**Components:** A gilt yew leaf (14 gp)  
-**Duration:** Concentration, up to 10 minutes  
-
-For the duration, you can sense the presence and location of poisons, poisonous creatures, and diseases within 30 feet of you. You also identify the kind of poison, poisonous creature, or disease in each case.  
-
-The incantation can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.  
-
-### Embalm  
+### Embalm Corpse  
 
 Level 1 Treatment Practice (Heal)  
 
-**Cost to Learn:** 14  
+**Cost to Learn:** 14 gp  
 **Completion Time:** 1 hour  
 **Components:** embalming fluids (14 gp)  
 **Duration:** 10 days  
 
-You touch a corpse or other remains. For the duration, the target is protected from decay and can’t become undead.
+You treat a corpse or other remains. For the duration, the target is protected from decay and can’t become undead.
 
 The craft also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this incantation don’t count against the time limit of crafts and incantations such as *raise dead*.  
 
-### Preserve Corpse  
+### Forensic Examination  
 
-Level 3 Curative Incantation (Heal)  
+Level 5 Treatment Practice (Heal)  
 
-**Cost to Learn:** 27  
+**Cost to Learn:** 40 gp  
 **Completion Time:** 1 hour  
-**Components:** A pinch of salt and one special coin placed on each of the corpse's eyes, which must remain there for the duration (27 gp)  
-**Duration:** 10 days  
+**Components:** 40 gp  
+**Duration:** Instantaneous  
 
-You touch a corpse or other remains. For the duration, the target is protected from decay and can't become undead.  
-
-The incantation also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this incantation don't count against the time limit of incantations such as *raise dead*.  
+You check for evidence such as wound patterns, learning how a body was injured or killed.  
 
 ### Restoration  
 
 Level 7 Treatment Practice (Heal)  
 
-**Cost to Learn:** 104  
+**Cost to Learn:** 104 gp  
 **Completion Time:** 24 hours  
 **Components:** Healing herbs (208 gp)  
 **Duration:** Instantaneous  
 
-The subject of the restoration treatment is cured of poison, disease, fatigue, petrification or similar maladies. Scars begin to fade and stubborn wounds close. This craft cannot restore missing limbs.  
+The target of the restoration treatment is cured of poison, disease, fatigue, petrification or similar maladies. Scars begin to fade and stubborn wounds close. This craft cannot restore missing limbs.  
 
 ### Experimental Resurrection  
 
 Level 15 Treatment Practice (Heal)  
 
-**Cost to Learn:** 1000  
+**Cost to Learn:** 1,000 gp  
 **Completion Time:** 1 hour  
 **Components:** Reagents and a generator (2,000 gp)  
 **Duration:** Instantaneous  
 
-The subject of the experimental resurrection is brought back to life. The subject must have died within the last 24 hours, and their body must be intact.  
+The target of the experimental resurrection is brought back to life. The subject must have died within the last 24 hours, and their body must be intact.  
+
+## History  
+
+### Delve into Collective Memory  
+
+Level 3 Divination Incantation (History)  
+
+**Cost to Learn:** 27 gp  
+**Completion Time:** 10 minutes  
+**Components:** 27 gp  
+**Duration:** Instantaneous  
+
+You can learn information from the memories of others, even those long dead. This practice allows you to find out information that you could not possibly know yourself. Make the relevant knowledge skill check, adjusted as follows:  
+*A substantial minority of people know this information:* +0 DC.  
+*Only a few people know this information:* +5 DC. 
+*Only very few people know this information, and possibly those who once knew it have forgotten it or those who know it don’t understand the significance of what they know:* +10 DC. 
+*No one alive knows this information:* +15 DC.  
+
+## Insight  
+
+### Biographical Eye  
+
+Level 5 Information Practice (Insight)  
+
+**Cost to Learn:** 40 gp  
+**Completion Time:** 1 minute  
+**Components:** 1 recovery  
+**Duration:** Instantaneous  
+
+In even a brief conversation or social interaction, you pick up on subtle social and visual cues to learn a great deal about a person's origin and history. You might notice bits of green under the person's fingernails and determine they're an herbalist, a pin indicating their membership in a secret society, or something similar. You pick up on only details that have to do with their societal role, so you might learn the city district where a vampire lives, but wouldn't learn any of their weaknesses, nor necessarily even that they are a vampire.
+
+Spend 1 minute, then attempt an Insight check. You gain a +2 circumstance bonus to the check if you engaged the person in conversation during this time. If the person is deliberately trying to conceal their nature or present a false identity, you learn about their false biography rather than their true one unless the result of your Insight check exceeds their Bluff check. 
+
+*Success (DC 10):* You learn the creature's profession and the region of the world they hail from, but no more.  
+If you beat the DC by 10 or more, you learn the creature's profession and specialty within that profession. You learn the nation or settlement where they normally live.  
+If you beat the DC by 20 or more, you learn learn the creature's profession, their specialty within that profession, and a major accomplishment or controversy from their career. You also learn the nation and settlement where they live, as well as the district in a city large enough to have districts. In addition, you learn the nation or settlement where they spent their formative years.
+
+*Failure:* You learn a piece of erroneous information about the creature.  
 
 ## Nature  
+
+### Detect Poison and Disease  
+
+Level 1 Divination Incantation (Nature)  
+
+**Cost to Learn:** 14 gp  
+**Completion Time:** 10 minutes  
+**Components:** A gilt yew leaf (14 gp)  
+**Duration:** 10 minutes  
+
+For the duration, you can sense the presence and location of poisons, poisonous creatures, and diseases within 6 squares of you. You also identify the kind of poison, poisonous creature, or disease in each case.  
+
+The incantation can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.  
+
+### Intuit Direction  
+
+Level 1 Information Practice (Nature)  
+
+**Cost to Learn:** 14 gp  
+**Completion Time:** 1 minute  
+**Components:** 1 recovery  
+**Duration:** Instantaneous  
+
+You learn which way is north, and how many miles you are from your destination.  
 
 ### Purify Food and Drink  
 
 Level 1 Practical Incantation (Nature)  
 
-**Cost to Learn:** 14  
+**Cost to Learn:** 14 gp  
 **Completion Time:** 1 hour  
-**Components:** 14  
+**Components:** 14 gp  
 **Duration:** Instantaneous  
 
-All nonmagical food and drink within a 5-foot radius sphere centered on a point of your choice within range is purified and rendered free of poison and disease.  
+Select a square within 12 squares of you. All nonmagical food and drink within the square is purified and rendered free of poison and disease.  
 
 ### Speak with Animals  
 
 Level 1 Divination Incantation (Nature)  
 
-**Cost to Learn:** 14  
+**Cost to Learn:** 14 gp  
 **Completion Time:** 1 hour  
-**Components:** 14  
-**Duration:** 10 minutes  
+**Components:** 14 gp  
+**Duration:** 1 hour  
 
 You gain the ability to comprehend and verbally communicate with beasts for the duration. The knowledge and awareness of many beasts is limited by their intelligence, but at minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a beast to perform a small favor for you, at the GM's discretion.  
 
@@ -2655,7 +2606,7 @@ You gain the ability to comprehend and verbally communicate with beasts for the 
 
 Level 1 Lesson Practice (Nature)  
 
-**Cost to Learn:** 14  
+**Cost to Learn:** 14 gp  
 **Completion Time:** 1 week  
 **Components:** *  
 **Duration:** Instantaneous  
@@ -2675,80 +2626,52 @@ Animals and other unintelligent creatures can be taught a trick using this metho
 * Track: The animal tracks the scent presented to it. 
 * Work: The animal pulls or pushes a medium or heavy load.  
 
-### Intuit Direction  
-
-Level 1 Information Practice (Nature)  
-
-**Cost to Learn:** 14  
-**Completion Time:** 1 minute  
-**Components:** 1 recovery  
-**Duration:** Instantaneous  
-
-You learn which way is north, and how many miles you are from your destination.  
-
 ### Spirit Speaker  
 
 Level 2 Divination Incantation (Nature)  
 
-**Cost to Learn:** 21  
+**Cost to Learn:** 21 gp  
 **Completion Time:** 10 minutes  
 **Components:** Incense (21 gp)  
 **Duration:** 1 minute  
 
-You know that when an animal dies, its spirit lingers briefly before moving on. Using low chants, body language that shows respect, and special movements that demonstrate to the spirit that you are an ally, you glean information from a spirit before it departs. You ask one simple question of the spirit. Attempt a Nature check at a DC determined by the GM (normally, this is the appropriate DC for the level of the animal or beast when it was alive). Regardless of the result of your check, the spirit immediately departs and can't be used for Spirit Speaker again. 
+When an animal dies, its spirit lingers briefly before moving on. Using low chants, body language that shows respect, and special movements that demonstrate to the spirit that you are an ally, you glean information from a spirit before it departs. You ask one simple question of the spirit. Attempt a Nature check at a DC determined by the GM (normally, this is the appropriate DC for the level of the animal or beast when it was alive). Regardless of the result of your check, the spirit immediately departs and can't be used for Spirit Speaker again. 
 
 If you succeed, the spirit answers you truthfully. The spirit's answer is likely to be terse or cryptic compared to normal communication with an animal, and it can pertain only to things the creature directly experienced or considered important. The spirit doesn't remember anything that happened more than 1 day ago.
 
 If you fail, the spirit doesn't answer you. If you fail by 10 or more, the spirit is wracked with misery or bewilderment and gives you an erroneous answer.  
 
+### Animal Message  
+
+Level 3 Conjuration Incantation (Nature)  
+
+**Cost to Learn:** 27 gp  
+**Completion Time:** 1 hour  
+**Components:** A morsel of food and a fossil (27 gp)  
+**Duration:** Special  
+
+By means of this incantation, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue jay, or a bat. You specify a location, which you must have visited, and a recipient who matches a general description, such as “a man or woman dressed in the uniform of the town guard” or “a red-haired gnome wearing a pointed hat.” You also speak a message of up to twenty-five words. The target beast travels for the duration of the incantation toward the specified location, covering about 50 miles per 24 hours for a flying messenger, or 25 miles for other animals.  
+
+When the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesn't reach its destination before the incantation ends, the message is lost, and the beast makes its way back to where you cast this incantation.  
+
+The duration of the incantation is your Nature check result in hours.  
+
 ### Locate Animals or Plants  
 
 Level 3 Scrying Incantation (Nature)  
 
-**Cost to Learn:** 27  
+**Cost to Learn:** 27 gp  
 **Completion Time:** 1 hour  
 **Components:** A bit of fur from a bloodhound and a silver dowsing rod (27 gp)  
 **Duration:** Instantaneous  
 
 Describe or name a specific kind of beast or plant. Concentrating on the voice of nature in your surroundings, you learn the direction and distance to the closest creature or plant of that kind within 5 miles, if any are present.  
 
-### Animal Message  
-
-Level 3 Conjuration Incantation (Nature)  
-
-**Cost to Learn:** 27  
-**Completion Time:** 1 hour  
-**Components:** A morsel of food and a fossil (27 gp)  
-**Duration:** Special  
-
-By means of this incantation, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue jay, or a bat. You specify a location, which you must have visited, and a recipient who matches a general description, such as “a man or woman dressed in the uniform of the town guard” or “a red-haired dwarf wearing a pointed hat.” You also speak a message of up to twenty-five words. The target beast travels for the duration of the incantation toward the specified location, covering about 50 miles per 24 hours for a flying messenger, or 25 miles for other animals.  
-
-When the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesn't reach its destination before the incantation ends, the message is lost, and the beast makes its way back to where you cast this incantation.  
-
-***Nature Check***. The duration of the incantation is your Nature check result in hours.  
-
-### Speak with Plants  
-
-Level 5 Divination Incantation (Nature)  
-
-**Cost to Learn:** 40  
-**Completion Time:** 1 hour  
-**Components:** 40  
-**Duration:** 8 hours  
-
-You imbue plants within 30 feet of you with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands. You can question plants about events within 30 feet within the past day, gaining information about creatures that have passed, weather, and other circumstances.  
-
-You can also turn difficult terrain caused by plant growth (such as thickets and undergrowth) into ordinary terrain that lasts for the duration. Or you can turn ordinary terrain where plants are present into difficult terrain that lasts for the duration, causing vines and branches to hinder pursuers, for example.  
-
-Plants might be able to perform other tasks on your behalf, at the GM's discretion. The incantation doesn't enable plants to uproot themselves and move about, but they can freely move branches, tendrils, and stalks.  
-
-If a plant creature is in the area, you can communicate with it as if you shared a common language, but you gain no magical ability to influence it.  
-
 ### Bonded Companion  
 
 Level 5 Practical Incantation (Nature)  
 
-**Cost to Learn:** 40  
+**Cost to Learn:** 40 gp  
 **Completion Time:** 8 hours  
 **Components:** An item with special significance to both participants  
 **Duration:** Instantaneous  
@@ -2759,19 +2682,34 @@ The bonded companion follows the Companion rules, as well as the following speci
 
 * If the master takes a move action, the companion can take a move action as well.  
 * If the master is incapacitated or not present, the companion gets its full complement of actions without needing to be “commanded”.    
-
 * The companion's level is equal to the master's, unless it was already higher.  
 * The companion's maximum HP are equal to the master's staggered value, unless it was already higher.   
 * The companion uses the master's defenses, except where the companion's defense is higher.
 * The companion has no recoveries of its own, but can use its master's.   
+* Either participant in the incantation can end its effects as a swift action.  
 
-* Either participant in the incantation can end its effects as a swift action.   
+### Speak with Plants  
+
+Level 5 Divination Incantation (Nature)  
+
+**Cost to Learn:** 40 gp  
+**Completion Time:** 1 hour  
+**Components:** 40 gp  
+**Duration:** 8 hours  
+
+You imbue plants within 6 squares of you with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands. You can question plants about events within 6 squares within the past day, gaining information about creatures that have passed, weather, and other circumstances.  
+
+You can also turn difficult terrain caused by plant growth (such as thickets and undergrowth) into ordinary terrain that lasts for the duration. Or you can turn ordinary terrain where plants are present into difficult terrain that lasts for the duration, causing vines and branches to hinder pursuers, for example.  
+
+Plants might be able to perform other tasks on your behalf, at the GM's discretion. The incantation doesn't enable plants to uproot themselves and move about, but they can freely move branches, tendrils, and stalks.  
+
+If a plant creature is in the area, you can communicate with it as if you shared a common language, but you gain no magical ability to influence it.  
 
 ### Express Rider  
 
 Level 6 Interaction Practice (Nature)  
 
-**Cost to Learn:** 72  
+**Cost to Learn:** 72 gp  
 **Completion Time:** 1 minute  
 **Components:** 1 recovery  
 **Duration:** One day  
@@ -2782,12 +2720,12 @@ You know how to encourage your mount to cover ground quickly. When calculating y
 
 Level 9 Divination Incantation (Nature)  
 
-**Cost to Learn:** 168  
+**Cost to Learn:** 168 gp  
 **Completion Time:** 1 hour  
-**Components:** 168  
+**Components:** 168 gp  
 **Duration:** Instantaneous  
 
-You briefly become one with nature and gain knowledge of the surrounding territory. In the outdoors, the incantation gives you knowledge of the land within 3 miles of you. In caves and other natural underground settings, the radius is limited to 300 feet. The incantation doesn't function where nature has been replaced by construction, such as in dungeons and towns.  
+You briefly become one with nature and gain knowledge of the surrounding territory. In the outdoors, the incantation gives you knowledge of the land within 3 miles of you. In caves and other natural underground settings, the radius is limited to 60 squares. The incantation doesn't function where nature has been replaced by construction, such as in dungeons and towns.  
 
 You instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area:  
 
@@ -2810,7 +2748,33 @@ Level 1 Schema Practice (None)
 **Components:** *  
 **Duration:** Instantaneous  
 
-Each potion, poison or alchemical item has its own schema, which a character can learn after studying another of the same variety for 1 hour, or from scratch with 8 hours. The cost to learn equals the cost of a consumable item of the level of the potion or alchemical item. The component cost to make one of those items equals the cost to buy the item.  
+Each potion and alchemical item has its own schema, which a character can learn after studying another of the same variety for 1 hour, or from scratch with 8 hours. The cost to learn equals the cost of a consumable item of the level of the potion or alchemical item. The component cost to make one of those items equals the cost to buy the item.
+
+You cannot learn the schema of an item of a level higher than your own.  
+
+### Poisoncraft  
+
+Level 1 Schema Practice (None)  
+
+**Cost to Learn:** *  
+**Completion Time:** 1 hour  
+**Components:** *  
+**Duration:** Instantaneous  
+
+Each poison has its own schema, which a character can learn after studying another of the same variety for 1 hour, or from scratch with 8 hours. The cost to learn equals the cost of a masterwork consumable item of the level of the poison. The component cost to make one of those items equals the cost to buy the item.
+
+You cannot learn the schema of an item of a level higher than your own.  
+
+### Cobble Together  
+
+Level 2 Schema Practice (None)  
+
+**Cost to Learn:** 21 gp  
+**Completion Time:** 10 minutes  
+**Components:** 1 recovery  
+**Duration:** 1 day  
+
+You improvise any item that costs 50 gp or less. After one day, the item falls apart.  
 
 ### Craft Enchanted Items  
 
@@ -2821,7 +2785,9 @@ Level 2 Schema Practice (None)
 **Components:** *  
 **Duration:** Instantaneous  
 
-Each enchanted item boost (dragonbane weapon, dismissal focus, amulet of shielding, etc.) has its own schema, which a character can learn after studying another of the same variety for 1 hour, or from scratch with 8 hours. The cost to learn equals the cost of a consumable item of the level of a +1 item with that boost. The component cost to make one of those magic items equal the cost to buy the item. If an existing enchanted item is consumed during the crafting process, deduct its cost from the component cost.  
+Each enchanted item boost (*dragonbane* weapon, *dismissal* focus, *amulet of shielding*, etc.) has its own schema, which a character can learn after studying another of the same variety for 1 hour, or from scratch with 8 hours. The cost to learn equals the cost of a consumable item of the level of a +1 item with that boost. The component cost to make one of those magic items equal the cost to buy the item. If an existing enchanted item is consumed during the crafting process, deduct its cost from the component cost. 
+
+You cannot learn the schema of an item of a level higher than your own.  
 
 ### Craft Wondrous Items  
 
@@ -2832,26 +2798,64 @@ Level 2 Schema Practice (None)
 **Components:** *  
 **Duration:** Instantaneous  
 
-Each wondrous item has its own schema, which a character can learn after studying another of the same variety for 1 hour, or from scratch with 8 hours. The cost to learn equals the cost of a consumable item of the level of the wondrous item. The component cost to make one of those wondrous items equal the cost to buy the item. If an existing wondrous item is consumed during the crafting process, deduct its cost from the component cost.  
+Each wondrous item has its own schema, which a character can learn after studying another of the same variety for 1 hour, or from scratch with 8 hours. The cost to learn equals the cost of a consumable item of the level of the wondrous item. The component cost to make one of those wondrous items equal the cost to buy the item. If an existing wondrous item is consumed during the crafting process, deduct its cost from the component cost. 
 
-### Cobble Together  
+You cannot learn the schema of an item of a level higher than your own.  
 
-Level 2 Schema Practice (None)  
+### Brilliant Planner  
 
-**Cost to Learn:** 21  
-**Completion Time:** 10 minutes  
-**Components:** 1 recovery  
-**Duration:** 1 day  
+Level 5 Schema Practice (None)  
 
-You improvise any item that costs 50 gp or less. After one day, the item falls apart.  
+**Cost to Learn:** 40 gp  
+**Completion Time:** 8 hours  
+**Components:** *  
+**Duration:** Permanent  
+
+You can prepare for future contingencies without defining what those preparations are until they are relevant. This practice requires you to be in a settlement. Spend up to 50 gp per character level, which becomes your brilliant plan fund. While you have a brilliant plan pending, you are always treated as carrying 20 additional pounds of weight, even before you define your brilliant plan.
+
+Once per day, you can take 10 minutes to enact a brilliant plan, withdrawing an item that would have been available in a settlement you visited or procuring a mundane service that your character planned ahead of time. Once you enact the plan, subtract the price of the item or service from the fund. Any item procured must weigh 10 pounds or less. Likewise, the GM must approve any non-magical service you gain by using your fund as being appropriate for the location selected.
+
+Once you have spent all the money in your brilliant plan fund or procured 20 pounds of objects, you must use the practice again to replenish your brilliant plan fund.  
 
 ## Religion  
+
+### Detect Otherworldly  
+
+Level 1 Divination Incantation (Religion)  
+
+**Cost to Learn:** 14 gp  
+**Completion Time:** 10 minutes  
+**Components:** 14 gp  
+**Duration:** 10 minutes  
+
+For the duration, you know if there is a creature of the cosmic, elemental, fey, outsider or shadow source or with the celestial, demon, devil or undead tags within 6 squares of you, as well as where the creature is located. Similarly, you know if there is a place or object within 6 squares of you that has been magically consecrated or desecrated.
+
+The incantation can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.  
+
+### Witness an Oath  
+
+Level 1 Practical Incantation (Religion)  
+
+**Cost to Learn:** 14 gp  
+**Completion Time:** 1 hour  
+**Components:** 1 recovery  
+**Duration:** Instantaneous  
+
+You swear an oath or bear witness to one sworn by another. 
+
+To swear an oath, the subject names—very specifically—a task they will accomplish in no more than one year’s time. If the task is not completed in that time, or if conditions arise that indicate the failure of the oath, they lose all recoveries, and cannot regain them for a month. 
+
+The oath-swearer cannot be tricked into thinking an oath is fulfilled when it is not, and no magical compulsion can force them to stop attempting to fulfill it. 
+
+Oaths can be singular tasks (destroy the Dark Tower) or ongoing (keep King Dari alive). Ongoing oaths can be renewed at the end of each year. An oath must be something measurable, so the character knows whether it has been fulfilled. 
+
+The oath-swearer receive a +2 power bonus on skill checks while working towards their oath, and a +2 power bonus to defenses against attacks that would directly stop them from working towards their oath.  
 
 ### Augury  
 
 Level 3 Divination Incantation (Religion)  
 
-**Cost to Learn:** 27  
+**Cost to Learn:** 27 gp  
 **Completion Time:** 1 hour  
 **Components:** Specially marked sticks (27 gp)  
 **Duration:** Instantaneous  
@@ -2869,11 +2873,11 @@ If you cast the incantation two or more times before completing your next long r
 
 ### Remove Curse  
 
-Level 5 Curative Practice (Religion)  
+Level 5 Curative Incantation (Religion)  
 
-**Cost to Learn:** 40  
+**Cost to Learn:** 40 gp  
 **Completion Time:** 1 hour  
-**Components:** 80  
+**Components:** 80 gp  
 **Duration:** Instantaneous  
 
 At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the incantation breaks its owner’s attunement to the object so it can be removed or discarded.  
@@ -2882,7 +2886,7 @@ At your touch, all curses affecting one creature or object end. If the object is
 
 Level 5 Divination Incantation (Religion)  
 
-**Cost to Learn:** 40  
+**Cost to Learn:** 40 gp  
 **Completion Time:** 1 hour  
 **Components:** Burning incense (40 gp)  
 **Duration:** 10 minutes  
@@ -2891,26 +2895,11 @@ You grant the semblance of life and intelligence to a corpse of your choice with
 
 Until the incantation ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This incantation doesn't return the creature's soul to its body, only its animating spirit. Thus, the corpse can't learn new information, doesn't comprehend anything that has happened since it died, and can't speculate about future events.  
 
-### Divination  
-
-Level 9 Divination Incantation (Religion)  
-
-**Cost to Learn:** 168  
-**Completion Time:** 1 hour  
-**Components:** Incense and a sacrificial offering appropriate to your religion (168 gp)  
-**Duration:** Instantaneous  
-
-Your magic and an offering put you in contact with a god or a god's servants. You ask a single question concerning a specific goal, event, or activity to occur within 7 days. The GM offers a truthful reply. The reply might be a short phrase, a cryptic rhyme, or an omen.  
-
-The incantation doesn't take into account any possible circumstances that might change the outcome.  
-
-If you cast the incantation two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The GM makes this roll in secret.  
-
 ### Commune  
 
 Level 9 Divination Incantation (Religion)  
 
-**Cost to Learn:** 168  
+**Cost to Learn:** 168 gp  
 **Completion Time:** 1 hour  
 **Components:** Incense and a vial of holy or unholy water (168 gp)  
 **Duration:** 1 hour  
@@ -2921,37 +2910,82 @@ Divine beings aren't necessarily omniscient, so you might receive “unclear” 
 
 If you cast the incantation two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer. The GM makes this roll in secret.  
 
+### Prescient Divination  
+
+Level 9 Divination Incantation (Religion)  
+
+**Cost to Learn:** 168 gp  
+**Completion Time:** 1 hour  
+**Components:** Incense and a sacrificial offering appropriate to your religion (168 gp)  
+**Duration:** Instantaneous  
+
+Your magic and an offering put you in contact with a god or a god's servants. You ask a single question concerning a specific goal, event, or activity to occur within 7 days. The GM offers a truthful reply. The reply might be a short phrase, a cryptic rhyme, or an omen.  
+
+The incantation doesn't take into account any possible circumstances that might change the outcome.  
+
+If you cast the incantation two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The GM makes this roll in secret.  
+
 ### Forbid Intrusion  
 
 Level 11 Abjuration Incantation (Religion)  
 
-**Cost to Learn:** 360  
+**Cost to Learn:** 360 gp  
 **Completion Time:** 1 hour  
 **Components:** A sprinkling of holy water, rare incense, and powdered ruby (360 gp)  
 **Duration:** 1 day  
 
-You create a ward against magical travel that protects up to 40,000 square feet of floor space to a height of 30 feet above the floor. For the duration, creatures can't teleport into the area or use portals, such as those created by the *gate* incantation, to enter the area. The incantation proofs the area against planar travel, and therefore prevents creatures from accessing the area by way of the Astral Plane, Ethereal Plane, Plane of Faerie, Plane of Shadow, or the *plane walk* incantation.  
+You create a ward against magical travel that protects up to 1,600 squares of floor space to a height of 6 squares above the floor. For the duration, creatures can't teleport into the area or use portals to enter the area. The incantation proofs the area against planar travel, and therefore prevents creatures from accessing the area by way of the Astral Plane, Ethereal Plane, Plane of Faerie, Plane of Shadow, or the *plane walk* incantation.  
 
-In addition, the incantation damages types of creatures that you choose when you cast it. Choose one or more of the following: celestials, elementals, fey, fiends, and undead. When a chosen creature enters the incantation's area for the first time on a turn or starts its turn there, the creature takes 5d10 radiant or necrotic damage (your choice when you cast this incantation).  
+In addition, the incantation damages types of creatures that you choose when you cast it. Choose one or more of the following tags: air, celestial, cold, demon, devil, earth, fire, water or undead. When a creature with that tag enters the incantation's area for the first time on a turn or starts its turn there, the creature takes 5d10 radiant or necrotic damage (your choice when you cast this incantation).  
 
 When you cast this incantation, you can designate a password. A creature that speaks the password as it enters the area takes no damage from the incantation.  
 
-The incantation's area can't overlap with the area of another *forbiddance* incantation. If you cast *forbiddance* every day for 30 days in the same location, the incantation lasts until it is diincantationed, and the material components are consumed on the last casting.  
+The incantation's area can't overlap with the area of another *forbid intrusion* incantation. If you cast *forbid intrusion* every day for 7 days in the same location, the incantation lasts until it is dispelled.  
 
-### Fires of Hell  
+### Geas  
 
-Level 11 Conjuration Incantation (Religion)  
+Level 11 Practical Incantation (Religion)  
 
-**Cost to Learn:** 360  
+**Cost to Learn:** 360 gp  
+**Completion Time:** 1 hour  
+**Components:** 1 recovery (until effect ends)  
+**Duration:** One day / level or until discharged  
+
+A *geas* places a command on a creature to carry out some service or to refrain from some action or course of activity, as desired by you. The creature must be of your level or lower and be able to understand you. While a geas cannot compel a creature to kill itself or perform acts that would result in certain death, it can cause almost any other course of activity.
+
+The geased creature must follow the given instructions until the geas is completed, no matter how long it takes.
+
+If the instructions involve some open-ended task that the recipient cannot complete through his own actions the craft remains in effect for a maximum of one day per level you have. A clever recipient can subvert some instructions.
+
+If the subject is prevented from obeying the *geas* for 24 hours, it loses one recovery. It cannot regain this recovery while the geas remains.  
+
+### Restore Revenant  
+
+Level 11 Curative Incantation (Religion)  
+
+**Cost to Learn:** 360 gp  
+**Completion Time:** 8 hours  
+**Components:** Incense (360 gp)  
+**Duration:** Instantaneous  
+
+The target of the incantation is brought back to life, with the Revenant bond. Make a Religion check. The result determines what starting Favor the target begins with. *Religion result 10 or less:* -3 Favor. *Religion result 11-15:* 0 Favor. *Religion result 16-20:* 5 Favor. *Religion result 21-25:* 10 Favor. *Religion result 26 or more:* 15 Favor.  
+
+### Fires of the Abyss  
+
+Level 21 Conjuration Incantation (Religion)  
+
+**Cost to Learn:** 360 gp  
 **Completion Time:** 2 hours  
 **Components:** Rare unguents and dark alchemical concoctions (360 gp)  
 **Duration:** 8 hours  
 
-This incantation, dreamed up by insane cultists, opens a fell rift between the Material Plane and the fiery second layer of Hell. This rift brings about a massive conflagration that destroys almost everything in the immediate area, then releases a powerful devil who capers over the smoldering ruins and begins to rampage across the countryside. The fires of Hell ignite everything they touch—except for the caster, who is knocked unconscious and transported to the second layer of Hell.  
+This incantation, dreamed up by cultists, opens a fell rift between the current location and a fiery layer of the Abyss. This rift brings about a massive conflagration that destroys almost everything in the immediate area, then releases a powerful demon who capers over the smoldering ruins and begins to rampage across the countryside. The *fires of the Abyss* ignite everything they touch—except for the caster, who is knocked unconscious and transported to a layer of the Abyss.  
 
-When the incantation is complete, the fires of Hell fill a 16-square-radius spread around the caster’s former location, dealing 18d6 points of fire damage to all creatures and objects. Additionally, everything flammable in that radius is now on fire.  
+When the incantation is complete, the *fires of the Abyss* erupt from the caster's former location.
 
-In the following round, a pit fiend comes through the rift, which then closes. The creature begins to destroy everything in sight.  
+*Attack:* Near burst 16; +26 vs Reflex; on a hit, the target takes 18d6 fire damage. On a miss, the target takes half damage. Either way, everything flammable in the burst is lit on fire.  
+
+*Secondary Effect:* At initiative count 20 on the following round, a balor comes through the rift, which then closes. The balor begins to destroy everything in sight.  
 
 ## Sleight of Hand  
 
@@ -2966,18 +3000,77 @@ Level 1 Schema Practice (Sleight of Hand)
 
 Each trap has its own schema, which a character can learn after studying a trap for 1 hour, or from scratch with 8 hours. The cost to learn equals the cost of a consumable item of the trap's level. The component cost to make one of those traps equal the cost of a consumable item of the trap's level.  
 
+## Stealth  
+
+### Foil Senses  
+
+Level 1 Trick Practice (Stealth)  
+
+**Cost to Learn:** 14 gp  
+**Completion Time:** 10 minutes  
+**Components:** 14 gp  
+**Duration:** 10 minutes  
+
+You make it impossible for a creature that is tracking you or searching for you to use one of its special senses, like scent or tremorsense, for 8 hours.  
+
 ## Streetsmarts  
+
+### Carouse  
+
+Level 1 Interaction Practice (Streetsmarts)  
+
+**Cost to Learn:** 14 gp  
+**Completion Time:** 4 hours  
+**Components:** 14 gp in shouted drinks  
+**Duration:** Instantaneous  
+
+You cope through drink and revelry, and have mastered both. You can gain the benefits of a long rest by spending 4 hours drinking, carousing, and taking the occasional blackout nap. You can carouse in this way so long as you consume at least 4 pints' worth of ale (or equivalent drink), and you are alert and aware of your surroundings while doing so. 
+
+If you carouse with another creature in this way, you can attempt to learn secrets from it by drinking it under the table. Each hour you spend carousing with a willing creature, make an Endure check vs the target's Fortitude. On a success, that creature answers a question truthfully (even questions it would not normally answer).  
+
+### Shady Connections  
+
+Level 2 Interaction Practice (Streetsmarts)  
+
+**Cost to Learn:** 21 gp  
+**Completion Time:** 1 hour  
+**Components:** 21 gp  
+**Duration:** Instantaneous  
+
+You have dealings with a variety of unsavory characters, which you can leverage to trade favors or meet powerful people. When you're in an area where you have connections (typically a settlement where you've spent downtime building connections or possibly another area in the same nation), you can arrange a meeting with an important criminal, such as a thieves' guild leader, or ask for a favor in exchange for a later favor of your contact's choice.  
 
 ### Sow Rumor  
 
 Level 2 Interaction Practice (Streetsmarts)  
 
-**Cost to Learn:** 21  
+**Cost to Learn:** 21 gp  
 **Completion Time:** 2 hours  
 **Components:** 42 gp in shouted drinks, bribed journalists or the like  
 **Duration:** Instantaneous  
 
-You spread rumors, which may or may not be true, about a specific subject. If the subject of your rumor is not currently the subject of any contradictory rumors, this typically takes 2 hours, at the end of which you make a Streetsmarts check to see how well you spread the rumor. If your rumor matches any current rumors about the subject, it takes less time to spread the rumor, and if you are attempting to overtake a particularly popular and contradictory rumor, it takes much longer or may be impossible. The DC similarly increases or decreases depending on how plausible your rumor is. If you succeed, you successfully spread the rumor. If you fail, your rumor dies off. If you fail by 10 or more, a rumor spreads about someone trying to spread false rumors about the subject.    
+You spread rumors, which may or may not be true, about a specific subject. If the subject of your rumor is not currently the subject of any contradictory rumors, this typically takes 2 hours, at the end of which you make a Streetsmarts check to see how well you spread the rumor. If your rumor matches any current rumors about the subject, it takes less time to spread the rumor, and if you are attempting to overtake a particularly popular and contradictory rumor, it takes much longer or may be impossible. The DC similarly increases or decreases depending on how plausible your rumor is. If you succeed, you successfully spread the rumor. If you fail, your rumor dies off. If you fail by 10 or more, a rumor spreads about someone trying to spread false rumors about the subject.  
+
+### Party Crasher  
+
+Level 7 Interaction Practice (Streetsmarts)  
+
+**Cost to Learn:** 104 gp  
+**Completion Time:** 2 hours  
+**Components:** 104 gp  
+**Duration:** Instantaneous  
+
+Any time you encounter a social event you would ordinarily be denied access to, such as a coronation, royal gala, or other society function, you can secure entry without the need for a skill check. You find invitations, invitees looking for fashionable dates, temporary jobs with the caterers, event staff willing to look the other way, or some other mode of access for yourself and your allies. This ability doesn't apply to secret events or other small private gatherings with no staff, dates, or outsiders involved.  
+
+### Safe House  
+
+Level 11 Trick Practice (Streetsmarts)  
+
+**Cost to Learn:** 360 gp  
+**Completion Time:** 1 week  
+**Components:** 720 gp  
+**Duration:** Instantaneous  
+
+You establish a safe house—a secure space in which to hide your secrets from the outside world. This safe house is roughly the size of a 10-foot cube. It's in a location you have access to, and it can be part of a larger building or structure, like a hidden room or an underground cave. The safe house protects objects and people inside it from magical detection. Setting up or moving your safe house takes a week of downtime. The size of the safe house expands by one 10-foot cube each time you use this craft.    
 
 # Extended Challenges  
 
@@ -3703,6 +3796,12 @@ Example ways a character might gain or lose Golemrider: Atlas Favor:
 
 **Repair module:** You gain the *repair module* power.
 
+> #### Repair Module  
+>
+> **Encounter** **Utility**  (**Swift Action**) ● **Healing**  
+> **Self**   
+> **Effect** You can spend a recovery to heal your recovery value in HP.  
+
 ### Moving On  
 
 A player character may give up Atlas, or lose it. After it has served in key battles, Atlas may be broken beyond repair or the spirit that animates the juggernaut may beg to be released from servitude.  
@@ -3776,7 +3875,14 @@ You are granted lands of your own for which you are responsible.
 
 **Man-at-Arms:** You are accompanied on adventures by a man-at-arms, a companion with maximum HP equal to your recovery value.   
 
-**Look Out, Sir:** You gain the *look out, sir* power.
+**Look Out, Sir:** You can use the *look out, sir* power.
+
+> #### Look Out, Sir  
+>
+> **Encounter** **Utility**  (**Counter Action**)   
+> **Near** burst 1, one ally  
+> **Trigger** You are the target of an attack.  
+> **Effect** The target ally can replace you as the target of the attack, if they wish.  
 
 ### Helpful  
 
@@ -3792,7 +3898,14 @@ The knight gains a “license to crenellate”, entitling them to build a castle
 
 **Squire:** Your man-at-arms' maximum HP are equal to your staggered value.  
 
-**Rally the Troops:** Once per encounter, as a swift action, allow a creature within near burst 5 to take the Rally action as a swift action (if they are eligible).   
+**Rally the Troops:** You can use the *rally the troops* power.
+
+> #### Rally the Troops  
+>
+> **Encounter** **Utility**  (**Swift Action**)   
+> **Near** burst 5, one ally  
+> **Effect** The target can take the rally action as a free action, if they are eligible to do so.  
+> **Special** This power does not affect the normal limitation that a character can only take the rally action once per combat.  
 
 ### Moving On  
 
@@ -3853,6 +3966,13 @@ Example ways a character may gain or lose Revenant Favor:
 **Shaky Graves**
 
 **Shadowswarm:** You can use the *shadowswarm* power. 
+
+> #### Shadowswarm  
+> *You vomit forth a cloud of screaming, shadowy bats.*  
+> **Encounter** **Attack**  (**Standard Action**) ● **Focus, Necrotic, Zone**  
+> **Near** burst 2  
+> **Effect** A zone is created in the area of effect until the end of the encounter. The zone grants concealment to creatures within it and against ranged attacks that pass through it. Any enemy within the cloud that makes a ranged or far attack suffers an opportunity attack.
+> *Opportunity attack:* Your Charisma vs AC; 1d10 + your level + your Charisma necrotic damage, and the target is rattled until the end of its next turn.  
 
 ### Friendly
 
@@ -3918,6 +4038,13 @@ Example ways a character may gain or lose Tyrfing Favor:
 **Guided Attack:** Any attack vs AC, you can choose to make against Reflex instead.   
 
 **The Twin:** You can use *the twin*.
+
+> #### The Twin  
+>
+> **Daily** **Attack**  (**Standard Action**) ● **Conjuration**  
+> **Near** burst 10, one unoccupied square  
+> **Effect** You conjure a Medium floating sword in the target square. You can spend a move action to have the sword fly up to 6 squares. Creatures that begin their turn adjacent to the floating sword take 10 persistent damage (save ends). The sword remains until the end of your next turn.  
+> **Maintain Swift** The sword remains until the end of your next turn.  
 
 ### Friendly  
 
@@ -4001,7 +4128,7 @@ There are several varieties of type:
 * **Shooter:** Multiple attacks or areas of effect.   
 * **Assassin:** The trap alternates between triggering and retracting.   
 * **Blocker:** The trap serves as an impediment, or punishes movement through a particular area.   
-* **Alarm:** The trap makes a ruckus or otherwise alerts other enemies. Typically it also has negative effects to those who trigger it.   
+* **Warning:** The trap makes a ruckus or otherwise alerts other enemies. Typically it also has negative effects to those who trigger it.   
 
 ## Traps in Encounters  
 
@@ -4009,487 +4136,541 @@ Traps come with a level and an XP value. Add them to encounters just as you woul
 
 ## Sample Traps  
 
-### Whistling Staircase  
+### Cinder Trap  
 
-**Level 1 Alarm** (100 XP Trap)  
+*One sconce is set up to launch its torch at a distant creature when that creature disturbs the trap's trigger.*  
 
-Perception DC 20: The character notices the cords running beneath the stairs.  
+**Level 1 One-Off Warning** (25 XP Trap)  
 
-**Trigger** The trap triggers when a Medium or larger creature steps onto the stairs.  
+Perception DC 12: The character notices the slow-burning torch and the mechanism that flings it.  
 
-> Immediate (Reaction) Action    
-> **Effect** The trapped stairs make a terrible racket, alerting those nearby.  
+**Trigger** The trap attacks when a character comes into contact with the trigger. It must be manually reset before it triggers again.  
+**Target** The creature that triggers the trap.  
+
+↗	**Attack** ● **Fire**  
+Ranged 5; +4 vs Reflex  
+*Hit* 1d6+1 fire damage.  
 
 **Countermeasures** 
-An adjacent character can disable the Nightingale Stairs trap with a DC 20 Sleight of Hand check.
-A DC 20 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.  
+An adjacent character can disable the trap with a DC 18 Sleight of Hand check.
+If the trap is triggered, an adjacent character can throw himself in front of the trap to prevent the torch from being flung into the air with a successful DC 12 Acrobatics or Athletics check. However, if the character is successful, they suffer 1 point of fire damage.  
 
 ### Simple Spear Trap  
 
-**Level 1 Alarm** (100 XP Trap)  
+*A spear shoots out from a hole near to the trigger of this trap.*  
 
-Perception DC 20: The character notices the mechanism that fires the spear.  
+**Level 1 One-Off Warning** (25 XP Trap)  
 
-**Trigger** The trap attacks when a character opens the drawer.  
+Perception DC 12: The character notices the mechanism that fires the spear.  
 
-> Immediate (Reaction) Action  
-> **Target** The creature that opens the drawer  
-> **Attack** Melee; +4 vs. AC  
-> **Hit** 1d8+3 damage.    
+**Trigger** The trap attacks when a character comes into contact with the trigger. It must be manually reset before it triggers again.  
+**Target** The creature that triggers the trap.  
 
-**Countermeasures** 
-An adjacent character can disable the spear trap with a DC 20 Sleight of Hand check.
-A DC 20 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.  
-
-### Cinder Trap  
-
-**Level 1 Alarm** (100 XP Trap)  
-
-Perception DC 20: The character notices that slow-burning torch and mechanism the flings it on the other side of the bridge.  
-
-**Trigger** The trap is triggered automatically if the bridge trap is triggered. In addition, there is a trip wire the far end of the bridge that will trigger the trap.  
-
-> Immediate (Reaction) Action  
-> **Target** The creature that trips the tripwire.  
-> **Attack** Melee; +4 vs. Reflex  
-> **Hit** 1d6+1 fire damage.    
+†	**Attack**   
++4 vs AC  
+*Hit* 1d8+3 damage.  
 
 **Countermeasures** 
-An adjacent character can disable the trap with a DC 20 Sleight of Hand check.
-If the trap is triggered, an adjacent character can throw himself in front of the trap to prevent the torch from being flung into the air with a successful DC 15 Acrobatics or Athletics check. However, if the character is successful, he suffers 7 points of fire damage.  
+An adjacent character can disable the spear trap with a DC 18 Sleight of Hand check.
+A DC 12 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.  
 
-### Snare Trap  
+### Whistling Staircase  
 
-**Level 1 Alarm** (100 XP Trap)  
+*A staircase where the stairs are attached by a mechanism to a bell that rings when the stairs are stepped on.*  
 
-Perception DC 12: The character notices coiled rope.
-DC 15: The character spots the noose.  
+**Level 1 One-Off Warning** (25 XP Trap)  
 
-**Trigger** The trap attacks immediately when a character enters the square containing the noose. It must be reset before it functions again.  
+Perception DC 12: The character notices the cords running beneath the stairs.  
 
-> Immediate (Reaction) Action  
-> **Target** Creature in trigger square.  
-> **Attack** Melee; +4 vs. Ref  
-> **Hit** Target is immobilized,  suspended upside-down 10 feet in the air,  and loses a recovery.    
+**Trigger** The trap is triggered when a Medium or larger creature steps onto the stairs. It must be manually reset before it triggers again.  
+
+**Attack**   
+
+*Effect* The trapped stairs make a terrible racket, alerting those nearby.  
 
 **Countermeasures** 
-A character who makes a successful Athletics check (DC 5 or DC 10 without a running start) can jump over the noose.
-An adjacent character can trigger the trap with a DC 14 Sleight of Hand check (standard action).
-An adjacent character can destroy the trap by cutting the rope  
+An adjacent character can disable the whistling stairs with a DC 18 Sleight of Hand check.
+A DC 12 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.  
 
 ### Quicksand  
 
-**Level 1 Blocker** (100 XP Trap)  
+*A patch of quicksand across one or several squares, which looks just like other sandy ground.*  
 
-Nature DC 23: Character notices that the ground ahead is quicksand.  
+**Level 1 Hazard Blocker** (50 XP Trap)  
 
-**Trigger** The hazard attacks immediately when a character enters one of its four squares.  
+Nature DC 18: The character notices that the ground ahead is quicksand, and which squares are affected.  
 
-> Immediate (Reaction) Action  
-> **Target** Creature in trigger square.  
-> **Attack** Melee; +4 vs. Ref  
-> **Hit** Target falls into pit and sinks 1 square down. Sinking targets grant combat advantage. Each round, attack +4 vs. Fort. Hit:  target sinks 1 square to a maximum depth of 3 squares,  targets in over their head begin to suffocate.  
-> **Miss** Target returns to last square it occupied and its move action ends immediately    
-> **Effect** Entire pit becomes plain to see.  
+**Trigger** The trap attacks when a character enters one of its squares.  
+**Target** The creature that entered the trigger square.  
+
+†	**Attack**   
++4 vs Reflex  
+*Hit* The target falls into the pit and sinks 1 square down. Sinking targets are restrained. Each round, the trap makes a secondary attack against sinking creatures.  
+*Secondary Attack:* +4 vs Fortitude; the target sinks 1 square to a maximum depth of 3 squares. Targets in over their head begin to suffocate.  
+On a miss, the target rises one square. A creature that rises to the surface can move to an adjacent, unoccupied square as a free action. They are prone.  
+*Miss* Target returns to last square it occupied and its move action ends immediately  
 
 **Countermeasures** 
-A character in the pit can rise 1 square as a move action by making a special escape attempt, using their Athletics (only) vs. Fort 13. 
-A character adjacent to the pit using a long item (like a ten-foot pole, rope, polearm haft, or snake) to help the target escape grants the target a +2 bonus to their escape attempt.
+A character in the pit can rise 1 square as a move action using Athletics (DC 12). 
+A character adjacent to the pit using a long item (like a ten-foot pole, rope, polearm haft or snake) to help the target escape grants the target a +2 bonus to their Athletics check.
 A character with a rope around their body can easily dive in and retrieve a drowning target.  
+
+### Snare Trap  
+
+*A noose lays on the ground. When it is disturbed, the noose tightens and a mechanism in the ceiling (or attached to a tree) yanks the target into the air.*  
+
+**Level 1 One-Off Elite Warning** (50 XP Trap)  
+
+Perception DC 12: The character notices coiled rope.
+DC 18: The character spots the noose.  
+
+**Trigger** The trap attacks when a character enters the square with the noose. It must be manually reset before it triggers again.  
+**Target** The creature that triggers the trap.  
+
+†	**Attack**   
++4 vs Reflex  
+*Hit* The target is restrained and suspended upside-down 2 squares in the air until freed (Sleight of Hand DC 8 for an ally, DC 12 for the target).  
+
+**Countermeasures** 
+A character who makes a successful Athletics check (DC 5 or DC 10 without a running start) can jump over the noose.
+An adjacent character can trigger the trap with a DC 12 Sleight of Hand check (standard action).
+An adjacent character can destroy the trap by cutting the rope  
 
 ### Stinking Trench  
 
-**Level 1 Blocker** (100 XP Trap)  
+*A thin (one-square wide, one-square deep) trench runs along several squares. It is thick on the ground with rotting matter.*  
 
-Perception DC 5: The character notices the horrific smell coming from the trench  
+**Level 1 Hazard Blocker** (50 XP Trap)  
 
-**Trigger** The trap triggers when a hero passes through, or begins their turn in the trench.  
+Perception DC 5: The character notices the horrific smell coming from the trench.  
 
-> **Target** Creature passing through (or in) the trench  
-> **Attack** Near burst 1; +4 vs. Fort  
-> **Hit** Target is dazed (save ends).    
+**Trigger** The trap is triggered when a creature enters or begins its turn in one of the trap’s squares.  
+**Target** The creature.  
 
-**Countermeasures** 
-A character who makes a successful Athletics check (DC 6 or DC 11 without a running start) can jump over the trench.  
-
-### Arrow Trap in Chest  
-
-**Level 2 Alarm** (125 XP Trap)  
-
-Perception DC 25: The character notices the small hole on the chest through which the arrow is fired.  
-
-**Trigger** The trap attacks when a character opens the chest.  
-
-> Immediate (Reaction) Action  
-> **Target** The creature that opens the chest  
-> **Attack** Melee; +8 vs. AC  
-> **Hit** 1d10+3 damage.    
+†	**Attack** ● **Necrotic**  
++4 vs Fortitude  
+*Hit* The target is dazed (save ends).  
 
 **Countermeasures** 
-An adjacent character can disable the poison arrow trap with a DC 20 Sleight of Hand check.
-A DC 20 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.  
+A character who makes a successful Athletics check (DC 5 or DC 10 without a running start) can jump over the trench.  
 
-### Concealled Pit Trap  
+### Arrow Trap  
 
-**Level 2 Alarm** (125 XP Trap)  
+*An arrow shoots out from a hole across the room from the trigger of this trap.*  
 
-Perception DC 25: The character notices that the squares hiding the pit trap bow in slightly.  
+**Level 2 One-Off Warning** (31 XP Trap)  
 
-**Trigger** The trap triggers when a character enters one of its squares.  
+Perception DC 19: The character notices the small hole on the chest through which the arrow is fired.  
 
-> Immediate (Reaction) Action  
-> **Target** The creature that entered one of the trap’s squares  
-> **Attack** Melee; +6 vs. Reflex  
-> **Hit** The target falls into the pit,  takes 1d10+3 damage, and falls prone.  
-> **Miss** Miss: The target returns to the last square it occupied and its move action ends immediately. Effect: The pit trap opens and the trap is no longer hidden.    
+**Trigger** The trap attacks when a character comes into contact with the trigger. It must be manually reset before it triggers again.  
+**Target** The creature that triggers the trap.  
+
+†	**Attack**   
++8 vs AC  
+*Hit* 1d10+3 damage.  
 
 **Countermeasures** 
-An adjacent character can trigger the trap with a DC 15 Sleight of Hand check.
-An adjacent character can disable the trap with a DC 20 Sleight of Hand check.
-A DC 20 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.  
+An adjacent character can disable the poison arrow trap with a DC 13 Sleight of Hand check.
+A DC 13 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.  
 
 ### Scythe Trap  
 
-**Level 2 Alarm** (125 XP Trap)  
+*A scythe swings out from the ceiling to attack the creature that triggers this trap.*  
 
-Perception DC 20: The character notices the scythe blade housing in the drawer  
+**Level 2 One-Off Warning** (31 XP Trap)  
 
-**Trigger** The trap attacks when a character opens the drawer.  
+Perception DC 13: The character notices the scythe blade housing in the drawer  
 
-> Immediate (Reaction) Action  
-> **Target** The creature that opens the drawer  
-> **Attack** Melee; +5 vs. AC  
-> **Hit** 1d10+3 damage.    
+**Trigger** The trap attacks when a character comes into contact with the trigger. It must be manually reset before it triggers again.  
+**Target** The creature that triggers the trap.  
+
+†	**Attack**   
++5 vs AC  
+*Hit* 1d10+3 damage.  
 
 **Countermeasures** 
-An adjacent character can disable the scythe blade trap with a DC 20 Sleight of Hand check.
-A DC 20 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap  
+An adjacent character can disable the scythe blade trap with a DC 13 Sleight of Hand check.
+A DC 13 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap  
+
+### Concealed Pit Trap  
+
+*A pit trap of one or more squares in area is hidden beneath a fragile surface layer, like a lattice of branches heaped with straw.*  
+
+**Level 2 Hazard Warning** (63 XP Trap)  
+
+Perception DC 13: The character notices that the squares hiding the pit trap bow in slightly.  
+
+**Trigger** The trap attacks when a character enters one of its squares. It must be manually reset to be hidden again, but in the meantime characters can enter or be forced to move into its squares.  
+**Target** The creature that entered one of the trap’s squares.  
+
+†	**Attack**   
++6 vs Reflex  
+*Hit* The target falls into the pit, takes 1d10+3 damage, and falls prone.  
+*Miss* The target returns to the last square it occupied and its move action ends immediately.  
+*Effect* The pit trap opens and the trap is no longer hidden.  
+
+**Countermeasures** 
+An adjacent character can trigger the trap with a DC 9 Sleight of Hand check.
+An adjacent character can disable the trap with a DC 13 Sleight of Hand check.
+A DC 13 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.  
 
 ### Gate Spikes  
 
-**Level 2 Assassin** (125 XP Trap)  
+*When disturbed, spikes shoot out of the top of this gate.*  
 
-Perception DC 20: The character notices the hidden mechanism that fires the spears.  
+**Level 2 Hazard Assassin** (63 XP Trap)  
 
-**Trigger** The trap attacks when a character attempts to climb over the gate.  
+Perception DC 13: The character notices the hidden mechanism that fires the spears.  
 
-> Opportunity Action  
-> **Target** The creature climbing over the gate  
-> **Attack** Melee; +7 vs. AC  
-> **Hit** 1d8+3 damage.    
+**Trigger** The trap is triggered when a character attempts to climb over the gate.  
+**Target** The creature climbing over the gate.  
 
-**Countermeasures** 
-An adjacent character can disable the spears with a DC 20 Sleight of Hand check.
-A character that makes a DC 20 Athletics check to vault over the gate is outside of the spike’s reach.  
-
-### Floor Spears  
-
-**Level 2 Blocker** (125 XP Trap)  
-
-Perception DC 20: The character notices the five trigger squares
-Perception DC 25: The character notices the controls.  
-
-**Trigger** The trap triggers when a lever is flicked.  
-
-> Opportunity Action  
-> **Target** All creatures in burst.  
-> **Attack** Near burst 3; +8 vs. AC  
-> **Hit** 1d8+3 damage.    
+†	**Attack**   
++7 vs AC  
+*Hit* 1d8+3 damage.  
 
 **Countermeasures** 
-A character adjacent to the control panel can disable one of the traps with a DC 20 Sleight of Hand check.
-A successful Athletics check (DC 6, or DC 11 without a running start) leaps a pressure plate.
-An adjacent character can disable a trigger plate with a DC 25 Sleight of Hand check.
-A DC 20 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.
-A character can ready an action to attack the spears (AC 13, others 10; hp 10). When the spears in one square are destroyed, that trigger plate becomes useless.  
+An adjacent character can disable the spears with a DC 13 Sleight of Hand check.
+A character that makes a DC 19 Athletics check to vault over the gate is outside of the spike’s reach.  
 
 ### Zombie Breakout  
 
-**Level 2 Blocker** (125 XP Trap)  
+*The arms and heads protuding of several zombies buried beneath the surface.*  
 
-Perception DC 25: The character notices the zombie’s head and shoulders poking out of the muck
-Religion DC 15: The character recognizes the creature as a zombie  
+**Level 2 Hazard Blocker** (63 XP Trap)  
 
-**Trigger** The trap triggers when a living creature that passes through, or begins its turn in a buried zombie’s square is attacked  
+Perception DC 13: The character notices the zombie’s head and shoulders poking out of the muck.  
+Religion DC 13: The character recognizes the creature as a zombie.  
 
-> Standard Action  
-> **Target** The creature in the zombie’s square.  
-> **Attack** Melee; +4 vs. AC  
-> **Hit** 2d6+2 damage and falls prone.    
+**Trigger** The trap is triggered when a creature enters or begins its turn in one of the trap’s squares.  
+**Target** The creature in the zombie’s square.  
+
+†	**Attack** ● **Necrotic**  
++4 vs AC  
+*Hit* 2d6+2 necrotic damage, and the target falls prone.  
 
 **Countermeasures** 
-A character can make a DC 15 (or 25 without an running start) Athletics check to leap over the zombie without provoking an attack
+A character can make a DC 15 (or 30 without an running start) Athletics check to leap over the zombie without provoking an attack
 Killing the zombie removes the hazard.  
 
-### Fusilade of Javelins Trap  
+### Floor Spears  
 
-**Level 2 Shooter** (125 XP Trap)  
+*When triggered, spears jab from holes in the floor.*  
 
-Perception DC 20: The character notices the small holes in the coffer.  
+**Level 2 Recurring Blocker** (125 XP Trap)  
 
-**Trigger** When a character opens the coffer, the trap rolls initiative.  
+Perception DC 13: The character notices a series of holes in the ground.
+Perception DC 19: The character notices the trigger or triggers.  
 
-> Standard Action  
-> **Initiative** +3.0  
-> **Target** 2d4 targets in range  
-> **Attack** Ranged 10; +8 vs. AC  
-> **Hit** 1d4+3 damage    
+**Trigger** The trap attacks when a character comes into contact with the trigger. On subsequent turns, the trap attacks on the initiative count immediately following that of the creature that activated this trap.  
+**Target** All creatures.  
+
+∢	**Attack**   
+Near burst 3; +8 vs AC  
+*Hit* 1d8+3 damage.  
 
 **Countermeasures** 
-An adjacent character can disable the trap with a DC 25 Sleight of Hand check.
-A DC 20 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.
+A character adjacent to the trigger can disable it with a DC 19 Sleight of Hand check.
+A successful Athletics check (DC 5, or DC 10 without a running start) allows a character to leap over the trigger.
+An adjacent character can disable the spear attack in one square with a DC 19 Sleight of Hand check.
+A DC 13 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.
+A character can ready an action to attack the spear for a square (AC 13, other defenses 10; hp 10).  
+
+### Fusillade of Javelins Trap  
+
+*Javelins are launched from a row of holes when this trap is triggered, and every round afterwards.*  
+
+**Level 2 Recurring Shooter** (125 XP Trap)  
+
+Perception DC 13: The character notices the small holes in the coffer.  
+
+**Trigger** The trap attacks when a character comes into contact with the trigger. On subsequent turns, the trap attacks on the initiative count immediately following that of the creature that activated this trap.  
+**Target** 2d4 targets in range.  
+
+↗	**Attack**   
+Ranged 10; +8 vs AC  
+*Hit* 1d4+3 damage  
+
+**Countermeasures** 
+An adjacent character can disable the trap with a DC 13 Sleight of Hand check.
+A DC 13 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.
 A character that moves more than 1 square on a turn gains a +5 bonus to AC against the trap’s needle attack.  
 
 ### Rain of Darts Trap  
 
-**Level 2 Shooter** (125 XP Trap)  
+*Darts are launched from a row of holes when this trap is triggered, and every round afterwards.*  
 
-Perception DC 20: The character notices the small holes in the coffer.  
+**Level 2 Recurring Shooter** (125 XP Trap)  
 
-**Trigger** When a character opens the coffer, the trap rolls initiative.  
+Perception DC 13: The character notices the small holes in the coffer.  
 
-> Standard Action  
-> **Initiative** +3.0  
-> **Target** 1d6 targets in range  
-> **Attack** Ranged 10; +8 vs. AC  
-> **Hit** 1d6+3 damage    
+**Trigger** The trap attacks when a character comes into contact with the trigger. On subsequent turns, the trap attacks on the initiative count immediately following that of the creature that activated this trap.  
+**Target** 1d6 targets in range.  
+
+↗	**Attack**   
+Ranged 10; +8 vs AC  
+*Hit* 1d6+3 damage  
 
 **Countermeasures** 
-An adjacent character can disable the trap with a DC 25 Sleight of Hand check.
-A DC 20 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.
+An adjacent character can disable the trap with a DC 13 Sleight of Hand check.
+A DC 13 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.
 A character that moves more than 1 square on a turn gains a +5 bonus to AC against the traps dart attack.  
 
 ### Double-Pike Trap  
 
-**Level 3 Alarm** (150 XP Trap)  
+*Two pikes poke out from holes near the trigger of this trap.*  
 
-Perception DC 20: The character notices the mechanism that fires the spears.  
+**Level 3 One-Off Warning** (38 XP Trap)  
 
-**Trigger** The trap attacks when a character attempts to open the secret door.  
+Perception DC 14: The character notices the mechanism that fires the spears.  
 
-> Immediate (Reaction) Action  
-> **Target** The creature that attempts to open the secret door  
-> **Attack** Melee; The trap fires two spears, +6 vs. AC  
-> **Hit** 1d8+3 damage. If both spears hit the same target,  the target takes an additional 1d8 damage.    
+**Trigger** The trap attacks when a character comes into contact with the trigger. It must be manually reset before it triggers again.  
+**Target** The two creatures nearest the trap  
+
+↗	**Attack**   
+Ranged 5; +6 vs AC  
+*Hit* 1d8+3 damage.  
 
 **Countermeasures** 
-An adjacent character can disable the twin-spear trap with a DC 20 Sleight of Hand check.
-A DC 20 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.  
+An adjacent character can disable the twin-spear trap with a DC 14 Sleight of Hand check.
+A DC 14 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.  
 
 ### Noxious Leak  
 
-**Level 3 Shooter** (150 XP Trap)  
+*Flicking a lever causes noxious gas to leak from a nozzle elsewhere in the room.*  
 
-Perception DC 25: The character notices the controls and the five total spigots.  
+**Level 3 Recurring Shooter** (150 XP Trap)  
 
-**Trigger** The trap triggers when a lever is flicked.  
+Perception DC 14: The character notices the controls and the spigot.  
 
-> Standard Action  
-> **Target** Each of the six spigots attack one intruder.  
-> **Attack** Ranged 5; +6 vs. AC  
-> **Hit** 2d8+3 necro damage.    
+**Trigger** The trap triggers when a lever is flicked as a swift action. It becomes available to use again at the start of that creature's next turn.  
+**Target** All creatures.  
 
-**Countermeasures** 
-A character adjacent to the fountain can attack a spigot (AC 16, other 13; hp 38), destroying it.
-A character can engage in a skill test to deactivate the control panel. DC 20 Sleight of Hand; (6 successes before 3 failures). Success disables the trap, failure causes it to explode (close blast 3, 2d6+3 necro damage to all in blast) and trap remains active.
-The trap functions for 10 rounds, then it cannot reset for 24 hours.  
-
-### Acid Spear  
-
-**Level 5 Alarm** (200 XP Trap)  
-
-Perception DC 20: The character notices the disguised holes in the ceiling through which the spears are fired.
-DC 25: The character notices the acid burn marks in the square targeted by the trap.  
-
-**Trigger** The trap attacks when a character enters the square before the chest.  
-
-> Immediate (Reaction) Action  
-> **Target** The creature entering the target square  
-> **Attack** Melee; The trap fires a trio of spears, +8 vs. AC  
-> **Hit** 2d6+5 damage,  and the target is immobilized and takes persistent 5 acid damage (save ends both).    
+∢	**Attack** ● **Necrotic**  
+Near burst 3; +6 vs Fortitude  
+*Hit* 2d8+3 necrotic damage.  
 
 **Countermeasures** 
-An adjacent character can disable the caustic spear trap with a DC 20 Sleight of Hand check.
-A DC 20 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.
-An adjacent character can assist an ally immobilized by the trap as a standard action with a DC 15 Strength check, granting the victim a +2 bonus to his saving throw against the trap.  
+A character can attack the spigot (AC 16, other 13; hp 34).
+A character can deactivate the control panel (DC 20 Sleight of Hand). If the character fails the check by 10 or more, the control panel explodes (near arc 3, +6 vs Reflex (all creatures); on a hit, 2d6+3 lightning damage) and the trap triggers every turn for the remainder of the encounter.  
 
 ### Rusty Water Tower  
 
-**Level 5 Assassin** (200 XP Trap)  
+*A fragile water tower will collapse if disturbed.*  
 
-Perception DC 14: The hero notices that the water tower is damaged.
-DC 19: The hero realizes that a sharp blow will bring most of it down.  
+**Level 5 One-Off Elite Assassin** (100 XP Trap)  
 
-**Trigger** The trap is triggered by any attack directly against the scaffolding, any movement (forced or otherwise) into the scaffolding, or any burst or blast that encompasses the scaffolding’s supports.  
+Perception DC 15: The character notices that the water tower is damaged.
+DC 22: The character realizes that a sharp blow will bring most of it down.  
 
-> Immediate (Reaction) Action  
-> **Target** Creatures in the burst  
-> **Attack** Near burst 5; +8 vs. Reflex  
-> **Hit** 3d8+4 damage,  and the target is knocked prone.  
-> **Miss** Half damage.    
-> **Effect** All squares in radius become difficult terrain.  
+**Trigger** The trap is triggered by any attack directly against the scaffolding, any movement (forced or otherwise) into the scaffolding, or any area effect that encompasses the scaffolding’s supports.  
+**Target** All creatures.  
+
+∢	**Attack**   
+Near burst 5; +8 vs Reflex  
+*Hit* 3d8+4 damage,  and the target is knocked prone.  
+*Miss* Half damage.  
+*Effect* All squares in the burst become difficult terrain.  
 
 **Countermeasures** 
-A hero can trigger the scaffolding from far away by attacking it (AC 15, other defenses 12).
-A hero who his aware that the scaffolding may collapse, may make a DC 19 Dungeoneering roll to know which squares will be affected by its collapse.  
+A character can trigger the scaffolding from far away by attacking it (AC 15, other defenses 12).
+A character who his aware that the scaffolding may collapse, may make a DC 15 Dungeoneering roll to know which squares will be affected by its collapse.  
+
+### Acid Spear  
+
+*When triggered, a hollow spear full of acid is dropped on the target, spearing them to the ground. Characters may assume it is a one-off trap, but in fact there is a large reserve of such spears and they keep firing each round.*  
+
+**Level 5 Recurring Warning** (200 XP Trap)  
+
+Perception DC 15: The character notices the disguised hole in the ceiling through which the spear is fired.
+DC 22: The character notices the acid burn marks in the square targeted by the trap.  
+
+**Trigger** The trap attacks when a character comes into contact with the trigger. On subsequent turns, the trap attacks on the initiative count immediately following that of the creature that activated this trap.  
+**Target** The closest creature in a straight line from the trigger (if any).  
+
+↗	**Attack** ● **Acid**  
+Ranged 5; +8 vs AC  
+*Hit* 2d6+5 damage,  and the target is immobile and takes persistent 5 acid damage (save ends both).  
+
+**Countermeasures** 
+An adjacent character can disable the acid spear trap with a DC 15 Sleight of Hand check.
+A DC 15 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.
+An adjacent character can assist an ally immobilized by the trap as a standard action with a DC 15 Athletics check, granting the victim a +2 bonus to their saving throw against the trap.  
 
 ### Phase Spider Venom Needle Trap  
 
-**Level 6 Alarm** (250 XP Trap)  
+*A needle tipped in phase spider venom fires from this trigger when it is touched.*  
 
-Perception DC 20: The character notices the needle mechanism inside the lock.  
+**Level 6 One-Off Warning** (63 XP Trap)  
 
-**Trigger** The trap attacks when a character opens the drawer.  
+Perception DC 16: The character notices the needle mechanism inside the lock.  
 
-> Immediate (Reaction) Action  
-> **Target** The creature that opens the drawer  
-> **Attack** Melee; +8 vs. Fortitude  
-> **Hit** 5 persistent poison damage,  and the target is slowed (save ends both).    
-> **Special** You can create other poison needle traps by taking a poison and setting its attack to +2 + the poison's level. The trap's level is equal to the poison's level.  
+**Trigger** The trap attacks when a character comes into contact with the trigger. It must be manually reset before it triggers again.  
+**Target** The creature that triggers the trap.  
+
+†	**Attack** ● **Poison**  
++8 vs Fortitude  
+*Hit* The target takes 5 persistent poison damage and is slowed (save ends both).  
+
+**Special** You can create other poison needle traps by taking a poison and setting its attack to +2 + the poison's level. The trap's level is equal to the poison's level.  
 
 **Countermeasures** 
-An adjacent character can disable the needle trap with a DC 20 Sleight of Hand check.
-A DC 20 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.  
+An adjacent character can disable the needle trap with a DC 16 Sleight of Hand check.
+A DC 16 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.  
 
 ### Screaming Sarcophagus  
 
-**Level 7 Elite Alarm** (600 XP Trap)  
+*A screeching ghost rises from this sacrophagus when it is disturbed.*  
 
-Perception DC 30: The character notices a small glyph carved into the lid of the sarcophagus, barely distinguishable from the other decorations.
-Arcana DC 26: The character notices the glyph.  
+**Level 7 Recurring Elite Warning** (600 XP Trap)  
 
-**Trigger** The trap is triggered when a character removed the lid of the sarcophagus.  
+Arcana or Religion DC 16: The character notices a small glyph carved into the lid of the sarcophagus, barely distinguishable from the other decorations.  
 
-> Immediate (Reaction) Action  
-> **Target** The creature that opened the sarcophagus.  
-> **Attack** Ranged 1; +10 vs. Will  
-> **Hit** 4d6+4 psychic damage,  and the target is dazed (save ends). Aftereffect: 4d6+4 psychic damage.    
+**Trigger** The trap attacks when a character comes into contact with the trigger. On subsequent turns, the trap attacks on the initiative count immediately following that of the creature that activated this trap.  
+**Target** All creatures.  
 
-**Countermeasures** 
-An adjacent character can disable the glyph with a DC 30 Sleight of Hand check.  
-
-### Plume of Flame  
-
-**Level 8 Elite Shooter** (700 XP Trap)  
-
-Perception DC 26: The character notices 6 small, recessed nozzles.  
-
-**Trigger** The trap is triggered when a character moves the body of the dark elf.  
-
-> Immediate (Reaction) Action  
-> **Initiative** +5.0  
-> **Target** Target: All creatures in blast  
-> **Attack** Near blast 6; +11 vs. Reflex  
-> **Hit** 3d8+4 fire damage,  and persistent 5 fire damage (save ends).    
+∢	**Attack** ● **Psychic**  
+Near burst 1; +10 vs Will  
+*Hit* 4d6+4 psychic damage,  and the target is dazed (save ends).  
+*Aftereffect:* 4d6+4 psychic damage.  
 
 **Countermeasures** 
-An adjacent character can disable a single nozzle with a DC 26 Sleight of Hand check, reducing the blast radius by 1 for each nozzle disabled.  
-
-### Bolt from the Blue  
-
-**Level 8 Elite Shooter** (700 XP Trap)  
-
-Perception DC 26: The character notices 3 short metal rods inset in small holes on the door. The rods extend and generate bolts of lightning when the trap is triggered.  
-
-**Trigger** When a creature touches or moves the levers in the incorrect order, the trap attacks as an immediate reaction. It then rolls initiative, and attacks each round.  
-
-> Immediate (Reaction) or Standard Action  
-> **Initiative** +5.0  
-> **Target** Target: All creatures in blast.  
-> **Attack** Near arc 5; +11 vs. Reflex  
-> **Hit** 3d8+4 lightning damage and persistent 5 lightning damage (save ends).  
-> **Miss** Half damage,  no persistent damage.    
-
-**Countermeasures** 
-An adjacent character can disable one lightning rod with a DC 26 Sleight of Hand check  
+An adjacent character can disable the glyph with a DC 23 Arcana or Religion check.  
 
 ### Mosaic Trap  
 
-**Level 8 Shooter** (400 XP Trap)  
+*The characters must press certain tiles in this ceiling mosaic in the correct order or the roof will collapse on them.*  
 
-Perception DC 24: The character notices that the shards seem conspicuously loose.  
+**Level 8 One-Off Shooter** (100 XP Trap)  
 
-**Trigger** The trap is triggered when a character presses an incorrect sequence of mosaics.  
+Perception DC 17: The character notices that the mosaic tiles seem conspicuously loose.  
 
-> Immediate (Reaction) Action  
-> **Initiative** +5.0  
-> **Target** Target: All creatures in burst.  
-> **Attack** Near burst 5; +11 vs. Reflex  
-> **Hit** 3d8+4 damage,  and persistent 5 damage (save ends).    
+**Trigger** The trap attacks when a character comes into contact with the trigger. It must be manually reset before it triggers again.  
+**Target** All creatures.  
+
+∢	**Attack**   
+Near burst 5; +11 vs Reflex  
+*Hit* 3d8+4 damage, and the target takes persistent 5 damage (save ends).  
 
 **Countermeasures** 
-An adjacent character can disable the trap with a DC 24 Sleight of Hand check.  
+An adjacent character can disable the trap with a DC 17 Sleight of Hand check.  
+
+### Bolt from the Blue  
+
+*Three metal rods generate a field of static electricity when disturbed.*  
+
+**Level 8 Recurring Elite Shooter** (700 XP Trap)  
+
+Perception DC 17: The character notices three short metal rods inset in small holes on the door. The rods extend and generate bolts of lightning when the trap is triggered.  
+
+**Trigger** The trap attacks when a character comes into contact with the trigger. On subsequent turns, the trap attacks on the initiative count immediately following that of the creature that activated this trap.  
+**Target** All creatures.  
+
+∢	**Attack** ● **Lightning**  
+Near arc 5; +11 vs Reflex  
+*Hit* 3d8+4 lightning damage and persistent 5 lightning damage (save ends).  
+*Miss* Half damage, and no persistent damage.  
+
+**Countermeasures** 
+An adjacent character can disable a lightning rod with a DC 17 Sleight of Hand check, reducing the size of the burst by 2 squares for each rod disabled. Once all three are disabled, the trap is disabled.  
+
+### Plume of Flame  
+
+*When triggered, a blast of fire issues from six nozzles around the room. These nozzles keep blasting flame until disabled.*  
+
+**Level 8 Recurring Elite Shooter** (700 XP Trap)  
+
+Perception DC 17: The character notices 6 small, recessed nozzles.  
+
+**Trigger** The trap attacks when a character comes into contact with the trigger. On subsequent turns, the trap attacks on the initiative count immediately following that of the creature that activated this trap.  
+**Target** All creatures.  
+
+∢	**Attack** ● **Fire**  
+Near arc 6; +11 vs Reflex  
+*Hit* 3d8+4 fire damage,  and persistent 5 fire damage (save ends).  
+
+**Countermeasures** 
+An adjacent character can disable a single nozzle with a DC 17 Sleight of Hand check, reducing the arc area by 2 for each nozzle disabled.  
 
 ### Shadow Bite Trap  
 
-**Level 9 Alarm** (400 XP Trap)  
+*A statue of a grimacing face, mouth wide open, is attached around the knob of a locked door. It bites down on anyone who fails to pick the lock.*  
 
-Perception DC 20: The character notices the hinges that bring the jaws slamming shut.  
+**Level 9 One-Off Elite Warning** (200 XP Trap)  
 
-**Trigger** The trap attacks when a character places a limb inside the maw and attempts to pick the lock unsuccessfully.  
+Perception DC 18: The character notices the hinges that bring the jaws slamming shut.  
 
-> Immediate (Reaction) Action  
-> **Target** The creature that placed a limb inside the maw  
-> **Attack** Melee; +5 vs. AC  
-> **Hit** 1d8+2 damage,  and the target is grappled (until escape or 4 rounds have passed). In addition,  the trap makes a secondary attack against the target. Secondary Attack: +10 vs. Fortitude,  the target is injected with shadowstuff toxin.  
-> **Miss** Half damage,  and the target is still grappled,  but no poison is injected.    
+**Trigger** The trap attacks when a character places a limb inside the maw and fails to pick the lock at the back of the maw.  
+**Target** The creature that placed a limb inside the maw.  
+
+†	**Attack** ● **Poison**  
++12 vs AC  
+*Hit* 1d8+2 damage, and the target is grappled. The trap makes a secondary attack against the target.  
+*Secondary Attack:* +10 vs Fortitude,  the target is injected with shadowstuff toxin (see Afflictions for details).  
+*Miss* Half damage, and the target is grappled (but there is no secondary attack).  
 
 **Countermeasures** 
-An adjacent character can disable the maw with a DC 20 Sleight of Hand check.
-A character making a DC 25 Strength check can pry open the maw, or hold it open so that it cannot slam shut.  
+An adjacent character can disable the trap with a DC 18 Sleight of Hand check.
+A character making a DC 18 Athletics check can pry open the maw, or hold it open so that it cannot slam shut.  
 
 ### Acid Slime Patch  
 
-**Level 10 Assassin** (500 XP Trap)  
+*A patch of green slime runs along the ceiling above several squares.*  
 
-Perception DC 16: The character notices the green slime on the ceiling.  
+**Level 10 Hazard Assassin** (250 XP Trap)  
 
-**Trigger** The green slime rolls initiative when a character enters the square directly beneath it.  
+Perception DC 19: The character notices the acid slime on the ceiling.  
 
-> Standard Action  
-> **Target** The creature beneath the patch of green slime.  
-> **Attack** Melee; +13 vs. Reflex  
-> **Hit** 1d12+6 acid damage,  and the green slime makes a secondary attack against the same target. Secondary Attack: +11 vs. Fortitude,  persistent 5 acid damage (save ends).    
-> **Special** The green slime attacks every round a target is beneath it.  
+**Trigger** The trap is triggered when a creature enters or begins its turn in one of the trap’s squares.  
+**Target** The creature beneath the patch of acid slime.  
+
+↗	**Attack** ● **Acid**  
+Ranged 5; +13 vs Reflex  
+*Hit* 1d12+6 acid damage,  and the acid slime makes a secondary attack against the same target.  
+*Secondary Attack:* +11 vs. Fortitude; the target takes persistent 5 acid damage (save ends).  
 
 **Countermeasures** 
-Green slime can simply be avoided if detected early enough.
-A character can attack an acid slime patch (AC 5, all others 10) with fire-based attacks. A patch is destroyed if 10 points of fire damage are inflicted upon it.  
+Acid slime can simply be avoided if detected early enough.
+A character can attack an acid slime patch (AC 5, other defenses 10) with fire-based attacks. A patch is destroyed if 10 points of fire damage are inflicted upon it.  
 
 ### Dwarf-Ward Rune  
 
-**Level 10 Elite Alarm** (1000 XP Trap)  
+*If a non-dwarf passes this magic rune, it glows and releases a blast of force.*  
 
-Perception DC 24: The hero notices the faint rune.
-Arcana DC 22: The hero notices the rune (arcane source) and provides a +2 bonus to Thievery checks to disable the trap.  
+**Level 10 One-Off Elite Warning** (500 XP Trap)  
 
-**Trigger** The trap is triggered when a non-dwarf tries to open the northeast entrance.  
+Perception DC 19: The character notices the faint rune.
+Arcana DC 19: The character notices the rune and provides a +2 bonus to Sleight of Hand checks to disable the trap.  
 
-> Immediate (Reaction) Action  
-> **Target** Creatures in the burst  
-> **Attack** Near burst 5; +13 vs. Reflex  
-> **Hit** 4d8+5 force damage.    
+**Trigger** The trap attacks when a non-dwarf comes into contact with the trigger. It must be manually reset before it triggers again.  
+**Target** All creatures.  
+
+∢	**Attack** ● **Force**  
+Near burst 5; +13 vs Reflex  
+*Hit* 4d8+5 force damage.  
 
 **Countermeasures** 
-An adjacent hero can disable the trap with a DC 26 Sleight of Hand (disable) check.  
+An adjacent character can disable the trap with a DC 26 Sleight of Hand check.  
 
 ### Rickety Old Bridge  
 
-**Level 10 Elite Blocker** (1000 XP Trap)  
+*This bridge over a ravine is old and weak, and in danger of collapse.*  
 
-Perception DC 26: The character notices that the wooden planks in the center of the bridge are loose.  
+**Level 10 One-Off Elite Blocker** (500 XP Trap)  
+
+Perception DC 19: The character notices that the wooden planks in the center of the bridge are loose.  
 
 **Trigger** The trap is triggered when a creature enters one of the trap’s squares.  
+**Target** All creatures on the bridge.  
 
-> **Target** All creatures on the bridge.  
-> **Attack** ; Can’t miss  
-> **Hit** The target(s) fall into the ravine, take 7d10 falling damage and are knocked prone.    
-> **Effect** The bridge is destroyed.  
+**Attack**   
+
+*Effect* The targets fall into the ravine, take 7d10 falling damage, and are knocked prone. The bridge is destroyed.  
 
 **Countermeasures** 
 An adjacent character can disable the trap with a DC 26 Sleight of Hand check.
 A character can attempt to leap over the trapped squares, requiring a DC 20 Athletics check with a running start, or a DC 40 Athletics check without a running start.
-There is a narrow path around the trapped squares of the bridge that can be negotiated with a DC 20 Acrobatics check. A character failing this check by 5 or less triggers the trap, a character failing by 5 or more falls from the bridge into the ravine below (7d10 falling damage).  
+There is a narrow path around the trapped squares of the bridge that can be negotiated with a DC 19 Acrobatics check. A character failing this check by 5 or less triggers the trap, a character failing by 5 or more falls from the bridge into the ravine below (7d10 falling damage).  
 
 # Afflictions
 
@@ -4841,36 +5022,22 @@ The vehicle you are driving moves a number of squares in the direction it is fac
 
 **Impossible Push:** If the target is not pushed or cannot be pushed, you crash instead.  The target takes damage as indicated above: resolve the effects of the crash on your vehicle as normal.
 
-### Scrape Vehicles 
+### Scrape Vehicles (standard action)
 
-
-
-**At-Will \* Martial, Vehicle**
-
-**Standard Action**      **Close** burst 1
-
-**Target:** One enemy vehicle
-
-**Attack:** Dexterity vs. Reflex
-
-**Hit:** Damage is 1d6 + Dexterity modifier damage + your vehicle’s hardness. If the target vehicle is staggered by this hit, its driver must make a check (DC 15; skill depends on the vehicle's Driver Skill). 
-
-*Level 11:* The DC is 20. 
-
-*Level 21:* The DC is 30. Damage is 2d6 + Dexterity modifier damage + your vehicle's hardness. 
+> **At-Will** **Attack**  (**Standard Action**) ● **Focus, Martial, Mount**  
+> **Near** burst 1, one mount or vehicle  
+> **Attack** Dexterity vs Reflex  
+> **Hit** Damage equals 1d6 + your Dexterity modifier damage + your vehicle’s hardness. If the target vehicle is staggered by this hit, you and the driver make opposed Driver Skill checks. The driver who fails their check cannot take any actions relating to their vehicle on their next turn, guaranteeing it will careen.  
+> *Level 21:* Damage is 2d6 + Dexterity modifier damage + your vehicle's hardness. 
 
 ## Example Vehicles
 
 ### Cart
 
-**Level 3 Large vehicle**
-
-**Capacity:** 1+1; **Cargo:** 2,000 pounds
-
-**HP:** 39; **AC:** 15, **Fortitude:** 17; **Reflex:** 11; **Will:** N/A; **Resistance** hardness 5
-
-**Speed:** The speed of the creature pulling it -4, or -2 if two creatures are pulling
-
+**Level 3 Large vehicle**  
+**Capacity:** 1+1; **Cargo:** 2,000 pounds  
+**HP:** 39; **AC:** 15, **Fortitude:** 17; **Reflex:** 11; **Will:** N/A; **Resistance** hardness 5  
+**Speed:** The speed of the creature pulling it -4, or -2 if two creatures are pulling  
 **Driver Skill:** Nature
 
 A cart, pulled by one or two beasts of burden.
@@ -4879,14 +5046,10 @@ A cart, pulled by one or two beasts of burden.
 
 ### Rowboat
 
-**Level 4 Large vehicle**
-
-**Capacity:** 1+2; **Cargo:** 600 pounds
-
-**HP:** 44; **AC:** 16, **Fortitude:** 18; **Reflex:** 12; **Will:** N/A; **Resistance** hardness 5
-
-**Speed:** swim 4 (6 if both passengers are rowing)
-
+**Level 4 Large vehicle**  
+**Capacity:** 1+2; **Cargo:** 600 pounds  
+**HP:** 44; **AC:** 16, **Fortitude:** 18; **Reflex:** 12; **Will:** N/A; **Resistance** hardness 5  
+**Speed:** swim 4 (6 if both passengers are rowing)  
 **Driver Skill:** Athletics
 
 A rowboat. 
@@ -4895,14 +5058,10 @@ A rowboat.
 
 ### Skiff
 
-**Level 8 Large vehicle**
-
-**Capacity:** 1+3; **Cargo:** 1,200 pounds
-
-**HP:** 64; **AC:** 20, **Fortitude:** 22; **Reflex:** 16; **Will:** N/A; **Resistance** hardness 5
-
-**Speed:** swim 6
-
+**Level 8 Large vehicle**  
+**Capacity:** 1+3; **Cargo:** 1,200 pounds  
+**HP:** 64; **AC:** 20, **Fortitude:** 22; **Reflex:** 16; **Will:** N/A; **Resistance** hardness 5  
+**Speed:** swim 6   
 **Driver Skill:** Athletics
 
 A skiff, 10 feet long, 4 feet wide, and 2 feet deep. The boat has one pair of oars, an anchor, a mast, and a lateen sail. The boat can hold up to four Medium creatures comfortably.  
@@ -4911,14 +5070,10 @@ A skiff, 10 feet long, 4 feet wide, and 2 feet deep. The boat has one pair of oa
 
 ### Roller Juggernaut
 
-**Level 8 Huge vehicle**
-
-**Capacity:** 1+3; **Cargo:** 500 pounds
-
-**HP:** 64; **AC:** 20, **Fortitude:** 22; **Reflex:** 16; **Will:** N/A; **Resistance** hardness 5
-
-**Speed:** 8
-
+**Level 8 Huge vehicle**  
+**Capacity:** 1+3; **Cargo:** 500 pounds  
+**HP:** 64; **AC:** 20, **Fortitude:** 22; **Reflex:** 16; **Will:** N/A; **Resistance** hardness 5  
+**Speed:** 8  
 **Driver Skill:** Athletics
 
 A gigantic arcano-mechanical vehicle made of hewn stone and baked clay, travelling forward on log rollers.
@@ -4929,14 +5084,10 @@ A gigantic arcano-mechanical vehicle made of hewn stone and baked clay, travelli
 
 ### Ship
 
-**Level 12 Huge vehicle**
-
-**Capacity:** 2+13; **Cargo:** 5,000 pounds
-
-**HP:** 84; **AC:** 24, **Fortitude:** 26; **Reflex:** 20; **Will:** N/A; **Resistance** hardness 10
-
-**Speed:** swim 8
-
+**Level 12 Huge vehicle **  
+**Capacity:** 2+13; **Cargo:** 5,000 pounds  
+**HP:** 84; **AC:** 24, **Fortitude:** 26; **Reflex:** 20; **Will:** N/A; **Resistance** hardness 10  
+**Speed:** swim 8  
 **Driver Skill:** Athletics
 
 A ship, 24 feet long, 8 feet wide, and 6 feet deep. The ship has a deck, rowing seats, five sets of oars, a steering oar, an anchor, a deck cabin, and a mast with a square sail. 
@@ -4945,14 +5096,10 @@ A ship, 24 feet long, 8 feet wide, and 6 feet deep. The ship has a deck, rowing 
 
 ### Elemental Carriage
 
-**Level 18 Large vehicle**
-
-**Capacity:** 1+4; **Cargo:** 100 pounds
-
-**HP:** 114; **AC:** 30, **Fortitude:** 32; **Reflex:** 26; **Will:** N/A; **Resistance** hardness 10
-
-**Speed:** 8
-
+**Level 18 Large vehicle**  
+**Capacity:** 1+4; **Cargo:** 100 pounds  
+**HP:** 114; **AC:** 30, **Fortitude:** 32; **Reflex:** 26; **Will:** N/A; **Resistance** hardness 10  
+**Speed:** 8  
 **Driver Skill:** Arcana
 
 This device is a handy carriage powered by nothing other than the motive force of an elemental engine.
@@ -4961,14 +5108,10 @@ This device is a handy carriage powered by nothing other than the motive force o
 
 ### Hot-Air Balloon 
 
-**Level 13 Huge vehicle**
-
-**Capacity:** 1+5; **Cargo:** 200 pounds
-
-**HP:** 89; **AC:** 25, **Fortitude:** 27; **Reflex:** 21; **Will:** N/A; **Resistance** hardness 5
-
-**Speed:** 4
-
+**Level 13 Huge vehicle**  
+**Capacity:** 1+5; **Cargo:** 200 pounds  
+**HP:** 89; **AC:** 25, **Fortitude:** 27; **Reflex:** 21; **Will:** N/A; **Resistance** hardness 5  
+**Speed:** 4  
 **Driver Skill:** Nature
 
 The hot air balloon can seat up to 6 comfortably with two weeks provisions. It is not terribly reliable, and requires some effort at successful navigation. It travels at double speed when the wind is at its back and half speed when it is heading into the wind. 
@@ -4979,14 +5122,10 @@ The hot air balloon can seat up to 6 comfortably with two weeks provisions. It i
 
 ### Dirigible
 
-**Level 18 Gargantuan vehicle**
-
-**Capacity:** 2+8; **Cargo:** 2,500 pounds
-
-**HP:** 114; **AC:** 30, **Fortitude:** 32; **Reflex:** 26; **Will:** N/A; **Resistance** hardness 10
-
-**Speed:** 12
-
+**Level 18 Gargantuan vehicle**  
+**Capacity:** 2+8; **Cargo:** 2,500 pounds  
+**HP:** 114; **AC:** 30, **Fortitude:** 32; **Reflex:** 26; **Will:** N/A; **Resistance** hardness 10  
+**Speed:** 12  
 **Driver Skill:** Perception
 
 The dirigible is a form of hot air ship.
@@ -4995,14 +5134,10 @@ The dirigible is a form of hot air ship.
 
 ### Elemental Flying Ship
 
-**Level 23 Gargantuan vehicle**
-
-**Capacity:** 2+16; **Cargo:** 5,000 pounds
-
-**HP:** 139; **AC:** 35, **Fortitude:** 37; **Reflex:** 31; **Will:** N/A; **Resistance** hardness 15
-
-**Speed:** 15
-
+**Level 23 Gargantuan vehicle ** 
+**Capacity:** 2+16; **Cargo:** 5,000 pounds  
+**HP:** 139; **AC:** 35, **Fortitude:** 37; **Reflex:** 31; **Will:** N/A; **Resistance** hardness 15  
+**Speed:** 15  
 **Driver Skill:** Arcana
 
 The flying ship is powered by an elemental engine, and is seaworthy. It can also withstand the rigors of the vacuum of space.

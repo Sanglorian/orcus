@@ -448,4 +448,10 @@ War Copyright 2001, Alderac Entertainment Group
 
 Way of the Witch Copyright 2002, Citizen Games; Authors Janet Pack, Jean Rabe, Megan Robertson, and Christina Stiles 
 
+Carbuncle from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Albie Fiore.
+
+Dragon, Faerie from the Tome of Horrors Complete © 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Brian Jaeger and Gary Gygax.
+
+Pathfinder Player Companion: Familiar Folio © 2015, Paizo Inc.; Authors: Will McCardell, Philip Minchin, Mark Seifter, and Jerome Virnich.
+
 END OF LICENSE

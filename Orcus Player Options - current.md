@@ -31,7 +31,7 @@ Not all heroes in the Outlaw Kingdoms are human, but the differences between spe
 
 **Languages:** You can speak, read, and write Common and one extra language of your choice.   
 
-## Sidebar: The implied setting of Orcus
+## The implied setting of Orcus
 
 On the outskirts of the Empire hang the hundred and eight Outlaw Kingdoms, a motley collection of clans, city-states, marks, principalities, vassaldoms and - yes - even a few kingdoms. The formidable mountains and deep river valleys frustrate invaders, giving the people here a hard-won independence - but the Empire casts a long shadow.   
 
@@ -217,7 +217,7 @@ To make a skill check, roll 1d20 and add your character’s skill modifier for t
 
 Some checks are made against a Difficulty Class (DC). The DC is a number (set using the skill rules as a guideline) that you must score as a result on your skill check in order to succeed.  
 
-##### **Table – Recommended Difficulty Classes by Level**  
+##### Table – Recommended Difficulty Classes by Level
 
 | Level | Easy | Moderate | Hard |  
 |-------|------|----------|------|  
@@ -321,33 +321,24 @@ In many cases, a character’s help won’t be beneficial, or only a limited num
 
 In cases where the skill restricts who can achieve certain results you can’t aid another to grant a bonus to a task that your character couldn’t achieve alone.  
 
+### Contests  
+
+Sometimes one character’s or monster’s efforts are directly opposed to another’s. This can occur when both of them are trying to do the same thing and only one can succeed, such as attempting to snatch up a magic ring that has fallen on the floor. This situation also applies when one of them is trying to prevent the other one from accomplishing a goal—for example, when a monster tries to force open a door that an adventurer is holding closed. In contests like these, the outcome is determined by an opposed check.  
+
+An opposed check is a check whose success or failure is determined by comparing the check result to another character’s check result. In an opposed check, the higher result succeeds, while the lower result fails. In case of a tie, the higher check modifier wins. If these scores are the same, roll again to break the tie.  
+
 ## Ability Checks  
 
 Sometimes a character tries to do something to which no specific skill really applies. In these cases, you make an ability check. An ability check is a roll of 1d20 plus the appropriate ability modifier. Essentially, you’re making an untrained skill check.  
 
 In some cases, what is needed is a straight test of one’s ability with no luck involved. Just as you wouldn’t make a height check to see who is taller, you don’t make a Strength check to see who is stronger.  
 
-# Skill Descriptions   
+## Skill List
 
-This section describes each skill, including common uses and typical modifiers. Characters can sometimes use skills for purposes other than those noted here.  
+ follows is a description of each skill, including which ability modifies the skill and common uses for the skill. Characters can sometimes use skills for purposes other than those noted here. 
 
-Here is the format for skill descriptions.  
+The skills are:
 
-## Skill Name  
-
-The skill name line includes (in addition to the name of the skill) the following information.  
-
-**Key Ability**: The abbreviation of the ability whose modifier applies to the skill check.   
-
-**Example Uses**: Suggestions for how the skill can be used.   
-
-**Trained Only**: If this notation is included for an example use, you must be trained in the skill to use it. If it is omitted, the skill can be used untrained.   
-
-**Armor Check Penalty**: If this notation is included in the skill name line, an armor check penalty applies (when appropriate) to checks using this skill. If this entry is absent, an armor check penalty does not apply.  
-
-The skill name line is followed by a general description of what using the skill represents. After the description are a few other types of information:  
-
-## Skills  
 * Acrobatics (Dex, Armor Check Penalty)  
 * Arcana (Int)  
 * Athletics (Str, Armor Check Penalty)  
@@ -364,16 +355,10 @@ The skill name line is followed by a general description of what using the skill
 * Sleight of Hand (Dex, Armor Check Penalty)  
 * Stealth (Dex, Armor Check Penalty)   
 * Streetsmarts (Cha)  
-### Variant: Skills with Different Abilities  
 
-Normally, a set ability modifier applies to all checks with a particular skill. For example, Athletics checks add your Strength modifier.   
+**Trained Only**: If this notation is included for an example use, you must be trained in the skill to use it. If it is omitted, the skill can be used untrained. 
 
-In some situations, though, a different ability might reasonably apply. In such cases, the GM might ask for a check using an unusual combination of ability and skill, or you might ask your GM if you can apply a different modifier.   
-
-### Contests  
-Sometimes one character’s or monster’s efforts are directly opposed to another’s. This can occur when both of them are trying to do the same thing and only one can succeed, such as attempting to snatch up a magic ring that has fallen on the floor. This situation also applies when one of them is trying to prevent the other one from accomplishing a goal—for example, when a monster tries to force open a door that an adventurer is holding closed. In contests like these, the outcome is determined by an opposed check.  
-
-An opposed check is a check whose success or failure is determined by comparing the check result to another character’s check result. In an opposed check, the higher result succeeds, while the lower result fails. In case of a tie, the higher check modifier wins. If these scores are the same, roll again to break the tie.  
+**Armor Check Penalty**: If this notation is included in the skill name line, an armor check penalty applies (when appropriate) to checks using this skill. If this entry is absent, an armor check penalty does not apply. 
 
 ### Knowledge  
 Five skills – Arcana, Dungeoneering, History, Nature and Religion – can be used to test a character's knowledge about a particular topic. General knowledge should have an Easy DC, knowledge that is based on specialization in a field a Moderate DC and obscure, hidden or secret knowledge a Hard DC.   
@@ -386,7 +371,16 @@ If you also beat the Hard DC, you also learn its powers, its resistances and imm
 
 Use Arcana for elemental, fey and shadow creatures, and creatures with the construct tag. Use Dungeoneering for aberration creatures. Use Religion for outsider creatures, and creatures with the undead tag. Use Nature for natural creatures.  
 
-## Acrobatics (Dex, Armor Check Penalty)  
+### Variant: Skills with Different Abilities  
+
+Normally, a set ability modifier applies to all checks with a particular skill. For example, Athletics checks add your Strength modifier.   
+
+In some situations, though, a different ability might reasonably apply. In such cases, the GM might ask for a check using an unusual combination of ability and skill, or you might ask your GM if you can apply a different modifier.   
+
+## Acrobatics (Dex)  
+
+*Armor Check Penalty applies*
+
 Acrobatics covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck. The GM might also call for an Acrobatics check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips.  
 
 ### Balance  
@@ -1245,6 +1239,13 @@ Your shard is touched by the vitriol and hate you hold for your enemies, allowin
 
 You gain the *acid shard* at-will power. 
 
+> #### Acid Shard  
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Acid, Phrenic, Weapon**  
+> **Ranged** weapon (blast shard), one target  
+> **Attack** Dexterity vs Reflex  
+> **Hit** 1d4 + Dexterity acid damage, and the target takes 5 persistent acid damage (save ends). 
+> *Level 21:* 2d4 + Dexterity acid damage, and 10 persistent acid damage (save ends).  
+
 ### Cold Blast
 You hold nothing but disdain and contempt for your enemies and your phrenic power shapes your blast into the same cold and numbing extension of your will.
 
@@ -1253,6 +1254,13 @@ You hold nothing but disdain and contempt for your enemies and your phrenic powe
 **Benefit:** When using your blast shard, at your option, it gains the Cold tag and deals cold damage.
 
 You gain the *cold shard* at-will power. 
+
+> #### Cold Shard  
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Cold, Phrenic, Weapon**  
+> **Ranged** weapon (blast shard), one target  
+> **Attack** Dexterity vs Fortitude  
+> **Hit** 1d8 + Dexterity cold damage, and the target is slowed until the end of your next turn. 
+> *Level 21:* 2d8 + Dexterity acid damage, and 10 persistent acid damage (save ends).  
 
 ### Empowered Blast Shard
 Experience has taught you how to apply your discipline and emotions in the best way, allowing you to extract more energy from your phrenic well than before.
@@ -1277,6 +1285,14 @@ Rage, wrath, pride and anger are all fiery emotions that set the world on fire. 
 
 You gain the *fire shard* at-will power. 
 
+> #### Fire Shard  
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Fire, Phrenic, Weapon**  
+> **Near** arc 3  
+> **Requirements** The attack must be made with a blast shard.  
+> **Attack** Dexterity vs Reflex  
+> **Hit** 1d6 + Dexterity fire damage. 
+> *Level 21:* 2d6 + Dexterity fire damage.  
+
 ### Improved Blast Shard
 You have seen so much of what the world offers, and you can channel that experience into even stronger emotions and a tightened discipline, allowing you to become even more dangerous.
 
@@ -1293,6 +1309,13 @@ Nothing is as fast as the mind – and lightning. You use your willpower and dis
 
 You gain the *lightning shard* at-will power. 
 
+> #### Lightning Shard  
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Lightning, Phrenic, Weapon**  
+> **Ranged** weapon (blast shard), one target  
+> **Attack** Dexterity vs Fortitude  
+> **Hit** 1d12 + Dexterity lightning damage. 
+> *Level 21:* 2d12 + Dexterity lightning damage.  
+
 ### Mind Blast
 You do not manifest your blast shard as a physical creation, rather you use your training to mentally attack your enemies, filling their minds with emotion and will until they burst from your attack.
 
@@ -1301,6 +1324,13 @@ You do not manifest your blast shard as a physical creation, rather you use your
 **Benefit:** When using your blast shard, at your option, it gains the Psychic tag and deals psychic damage.
 
 You gain the *mind shard* at-will power. 
+
+> #### Mind Shard  
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Phrenic, Psychic, Weapon**  
+> **Ranged** weapon (blast shard), one target  
+> **Attack** Dexterity vs Will  
+> **Hit** 1d10 + Dexterity psychic damage, and you mark the target. 
+> *Level 21:* 2d10 + Dexterity psychic damage.  
 
 ## Shield Shard Feats
 
@@ -1493,7 +1523,7 @@ In addition, unusual coins made of other precious metals sometimes appear in tre
 
 A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.  
 
-##### **Table – Exchange Rates**  
+##### Table – Exchange Rates
 
 | Coin          | CP     | SP    | GP    | PP       |  
 | ------------- | ------ | ----- | ----- | -------- |  
@@ -1558,7 +1588,7 @@ Heavy armor doesn't let you add your Intelligence or Dexterity modifier to your 
 
 **Plate:** Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.  
 
-##### **Table – Armor and Shields**  
+##### Table – Armor and Shields
 
 | Name          | Type  | Base AC | ACP  | Speed Penalty | Cost | Weight |  
 | ------------- | ----- | ------- | ---- | ------------- | ---- | ------ |  
@@ -1594,7 +1624,7 @@ Small characters have trouble wielding two-handed weapons. Small characters cann
 
 Medium characters who wield a one-handed weapon in two hands (other than one-handed weapons with the Side Weapon property) get a +1 bonus to damage.   
 
-#### Variant: No Weapon Limitations for Small Characters  
+### Variant: No Weapon Limitations for Small Characters  
 
 While officially Small characters are limited in which weapons they can use, this can be frustrating for players and is not very important for game balance. GMs may prefer to let Small characters use any weapon they like.   
 
@@ -1684,7 +1714,7 @@ For example, a khopesh could be a one-handed weapon in the Heavy Blades and Axes
 
 You can design an exotic ranged weapon by taking a martial weapon and increasing either its proficiency bonus by +1 or its damage die by one step.   
 
-##### **Table – Increased Weapon Die**  
+##### Table – Increased Weapon Die
 
 | Die         | Increases to |  
 | ----------- | ------------ |  
@@ -1693,21 +1723,29 @@ You can design an exotic ranged weapon by taking a martial weapon and increasing
 | 1d8         | 2d4 or 1d10  |  
 | 2d4 or 1d10 | 2d6 or 1d12  |  
 
-##### **Table – Weapon Templates**  
+**Example Weapons:**
 
-| Type                      | Examples                                                     | Range | Type    | Hand | Proficiency Bonus | Damage (dW) | Cost (gp) | Weight (lb) | Range | Properties                           |
-| ------------------------- | ------------------------------------------------------------ | ----- | ------- | ---- | ----------------- | ----------- | --------- | ----------- | ----- | ------------------------------------ |
-| Simple side weapon        | Knife (light blade), dart (spear)                            | Melee | Simple  | 1    | +2                | 1d4         | 2         | 2           | 5/10  | Side Weapon, Thrown (Light)          |
-| Simple one-handed weapon  | Light mace (mace), sickle (light blade), shortspear (spear), club (mace) | Melee | Simple  | 1    | +2                | 1d8         | 5         | 5           |       |                                      |
-| Simple two-handed weapon  | Greatclub (mace), morningstar (mace), quarterstaff (staff), scythe (heavy blade) | Melee | Simple  | 2    | +2                | 1d10        | 5         | 10          |       |                                      |
-| Martial side weapon       | Throwing hammer (hammer), handaxe (axe), hatchet (axe), shortsword (light blade), juggling club (mace), combat grapnel (flail), fork (spear), light pick (pick) | Melee | Martial | 1    | +2                | 1d6         | 5         | 1           | 5/10  | Side Weapon, Thrown (Heavy), [group] |
-| Martial one-handed weapon | Rapier (light blade), scimitar (light blade), heavy mace (mace), longsword (heavy blade), warhammer (hammer), adze (axe), war pick (pick), battleaxe (axe), bladed scarf (flail), fighting fan (light blade) | Melee | Martial | 1    | +2                | 1d8         | 10        | 4           |       | [group]                              |
-| Martial two-handed weapon | Greataxe (axe), greatsword (heavy blade), maul (hammer), heavy flail (flail), falchion (heavy blade), greatpick (pick), hooked hammer (pick) | Melee | Martial | 2    | +2                | 1d10        | 25        | 8           |       | [group]                              |
-| Martial reach weapon      | Longspear (polearm, spear), halberd (axe, polearm), glaive (heavy blade, polearm), bo staff (staff, polearm), pike (spear, polearm) | Melee | Martial | 2    | +2                | 1d8         | 25        | 8           |       | Reach 1, [group]                     |
+* Simple side weapon: Knife (light blade), dart (spear)
+* Simple one-handed weapon: Light mace (mace), sickle (light blade), shortspear (spear), club (mace)
+* Simple two-handed weapon: Greatclub (mace), morningstar (mace), quarterstaff (staff), scythe (heavy blade)
+* Martial side weapon: Throwing hammer (hammer), handaxe (axe), hatchet (axe), shortsword (light blade), juggling club (mace), combat grapnel (flail), fork (spear), light pick (pick)
+* Martial one-handed weapon: Rapier (light blade), scimitar (light blade), heavy mace (mace), longsword (heavy blade), warhammer (hammer), adze (axe), war pick (pick), battleaxe (axe), bladed scarf (flail), fighting fan (light blade)
+* Martial two-handed weapon: Greataxe (axe), greatsword (heavy blade), maul (hammer), heavy flail (flail), falchion (heavy blade), greatpick (pick), hooked hammer (pick)
+* Martial reach weapon: Longspear (polearm, spear), halberd (axe, polearm), glaive (heavy blade, polearm), bo staff (staff, polearm), pike (spear, polearm)
 
-### Default Ranged Weapons  
+##### Table – Weapon Templates
 
-##### **Table – Simple Ranged Weapons**  
+| Type                      | Range | Type    | Hand | Proficiency Bonus | Damage (dW) | Cost (gp) | Weight (lb) | Range | Properties                           |
+| ------------------------- | ----- | ------- | ---- | ----------------- | ----------- | --------- | ----------- | ----- | ------------------------------------ |
+| Simple side weapon        | Melee | Simple  | 1    | +2                | 1d4         | 2         | 2           | 5/10  | Side Weapon, Thrown (Light)          |
+| Simple one-handed weapon  | Melee | Simple  | 1    | +2                | 1d8         | 5         | 5           |       |                                      |
+| Simple two-handed weapon  | Melee | Simple  | 2    | +2                | 1d10        | 5         | 10          |       |                                      |
+| Martial side weapon       | Melee | Martial | 1    | +2                | 1d6         | 5         | 1           | 5/10  | Side Weapon, Thrown (Heavy), [group] |
+| Martial one-handed weapon | Melee | Martial | 1    | +2                | 1d8         | 10        | 4           |       | [group]                              |
+| Martial two-handed weapon | Melee | Martial | 2    | +2                | 1d10        | 25        | 8           |       | [group]                              |
+| Martial reach weapon      | Melee | Martial | 2    | +2                | 1d8         | 25        | 8           |       | Reach 1, [group]                     |
+
+##### Table – Simple Ranged Weapons
 
 | Name           | Range  | Type   | Hand | Proficiency Bonus | Damage (dW) | Range | Cost (gp) | Weight (lb) | Buffs           | Group     |
 | -------------- | ------ | ------ | ---- | ----------------- | ----------- | ----- | --------- | ----------- | --------------- | --------- |
@@ -1715,14 +1753,14 @@ You can design an exotic ranged weapon by taking a martial weapon and increasing
 | Sling          | Ranged | Simple | 1    | +2                | 1d6         | 10/20 | 0         | 0           | Loading (Free)  | Slings    |
 | Heavy Crossbow | Ranged | Simple | 2    | +2                | 1d8         | 15/30 | 50        | 8           | Loading (Swift) | Crossbows |
 
-##### **Table – Martial Ranged Weapons**  
+##### Table – Martial Ranged Weapons
 
 | Name     | Range  | Type    | Hand | Proficiency Bonus | Damage (dW) | Range | Cost (gp) | Weight (lb) | Buffs                 | Group |  
 | -------- | ------ | ------- | ---- | ----------------- | ----------- | ----- | --------- | ----------- | --------------------- | ----- |  
 | Longbow  | Ranged | Martial | 2    | +2                | 1d10        | 20/40 | 50        | 4           | Loading (Free)        | Bows  |  
 | Shortbow | Ranged | Martial | 2    | +2                | 1d8         | 15/30 | 35        | 3           | Loading (Free), Small | Bows  |  
 
-##### **Table – Exotic Weapons**  
+##### Table – Exotic Weapons
 
 | Name    | Range | Type   | Hand | Proficiency Bonus | Damage (dW) | Range | Cost (gp) | Weight (lb) | Buffs             | Group   |  
 | ------- | ----- | ------ | ---- | ----------------- | ----------- | ----- | --------- | ----------- | ----------------- | ------- |  
@@ -1778,7 +1816,7 @@ This section describes items that have special rules or require further explanat
 
 **Waybread:** 10 days' worth of food in a light but expensive form. Impractically wrapped in flaky leaves.   
 
-##### **Table – Ammunition**  
+##### Table – Ammunition
 
 | Item                   | Cost  | Weight       |  
 | ---------------------- | ----- | ------------ |  
@@ -1786,7 +1824,7 @@ This section describes items that have special rules or require further explanat
 | Crossbow bolts (20)  | 1 gp  | 2 lb.        |  
 | Sling bullets (20)   | 1 gp  | 5 lb.        |  
 
-##### **Table – Focuses**  
+##### Table – Focuses
 
 | Item                   | Cost  | Weight       |  
 | ---------------------- | ----- | ------------ |  
@@ -1799,7 +1837,7 @@ This section describes items that have special rules or require further explanat
 | Book (arcane focus)                 | 7 gp  | 1 lb.            |  
 | Martial focus | 5 gp | 1 lb. |  
 
-##### **Table – Adventuring Gear**  
+##### Table – Adventuring Gear
 
 | Item                   | Cost  | Weight       |  
 | ---------------------- | ----- | ------------ |  
@@ -1837,206 +1875,27 @@ A good mount can help you move more quickly through the wilderness, but its prim
 
 More rules for mounts and vehicles appear in the Advanced Options chapter. 
 
-##### **Table – Mounts and Other Animals**  
+##### Table – Mounts and Other Animals
 
 | Item         | Cost   | 
 | ------------ | ------ | 
 | Riding horse | 360 gp | 
 | War horse    | 520 gp | 
 
-##### **Table – Vehicles**  
+##### Table – Vehicles
 
 | Item    | Cost   | Carrying Capacity |
 | ------- | ------ | ----------------- |
 | Cart    | 340 gp | 2,000 lb.         |
 | Rowboat | 420 gp | 600 lb.           |
 
-# Deities
-
-Crusaders are usually sworn to the service of a particular god. Other characters may worship one or many gods - or none. A sample of gods of worshipped in the Outlaw Kingdoms (the default setting for the Orcus roleplaying game) is given below.   
-
-## Chalavar  
-
-The Glutton  
- **Symbol:** A knife on an empty plate  
- **Portfolio:** Food, feasting, prosperity  
- **Favored Weapon:** Dagger  
-
-A happy and boastful god, Chalavar (CHAL-uh-var) is a welcome visitor to any meal or business gathering, as he makes the food safe and incredibly tasty and the dealings profitable for all involved. Worshipped by people who work with food or conduct trade, Chalavar is a popular deity despite having few actual crusaders. He is shown as a round, pleasant-faced man wearing expensive rings, necklaces, and a jeweled cylindrical hat. He knows the best use for any animal, from the work it is suited for to the other food it complements.  
-
-He also knows the medicinal and culinary use for every plant. His rare temples are popular among adventurers, as Chalavar’s priests love examining the carcasses of strange monsters to see what good can be made of them— for they study the art of cooking with as much ardor as their god.  
-
-Chalavar’s worshippers have many holidays, including the birthdays of famous priests or local nobles, seasonal occurrences, and historical events. These holidays always involve feasting.Worshippers even throw feasts on the holy days of other faiths, knowing that Chalavar gets his thanks whenever someone enjoys a good meal. It is considered bad form to not throw a feast on your own birthday, and wealthier followers of Chalavar show off their prosperity and generosity by holding great birth-feasts with hundreds of guests. Common folk praise Chalavar’s name whenever a meal is extra good or a business deal turns out particularly well.  
-
-## Enoran  
-
-The Old Spirit  
- **Symbol:** Sun setting behind a leafless tree  
- **Portfolio:** Death, the ending of things, mourning  
- **Favored Weapon:** Quarterstaff  
-
-Enoran (EN-or-an) is a god spoken of only rarely, for he represents death from age, as well as the aging and decay of the world over time. He also comforts those who have suffered loss, whether the loss of a family member or the death of a treasured tree. A minor aspect of his faith involves the enactment of vengeance, although he has emphasized this less and less over the centuries.  
-
-He is a sad, quiet deity, weary from carrying on his shoulders the weight of generations of sorrow and death. He is depicted as an impossibly old elf with gray hair and a wrinkled face. Enoran is said to keep a book of names of all the dead, written in his own blood.  
-
-Enoran’s faith has no true holidays, though worshippers sing songs of joy every time someone comes back from the dead. Each day they light black candles in the name of those who died on that day. They fast for the last three days of the year, breaking their fast on the first sunrise of the new year.  
-
-Even devout worshippers rarely speak of Enoran except at funerals and in the wake of battles.  
-
-## Korven  
-
-The Defending Blade  
- **Symbol:** A well-notched short sword  
- **Portfolio:** Defensive tactics, protection, vigilance, Halfling soldiers  
- **Favored Weapon:** Short sword  
-
-A serious-minded deity, Korven (KOR-ven) protects all common folk and inspires them to defend their homes and families when beset by hostile creatures. He and his followers take a more reactive than proactive stance; if people are not threatened, he seems content to remain quiet and fortify, but when people are in danger he is ready to lead them to victory. His followers study traps and fortifications as well as applications of direct force. Under their tutelage even a simple caravan wagon can become a mobile fortress.  
-
-He is rarely depicted, but when he is it is always as a fully-mailed halfling warrior with a battered short sword and metal shield, eyes showing determination from within an open-faced helmet.  
-
-Korven is actually the fourth deity to hold this office. As each fell, their most faithful follower was deified. The cycle of death and renewal gives its current holder an acceptance of death and a tendency toward martyrdom, as he knows his legacy and duties will carry on.  
-
-Korven’s followers celebrate (in somber fashion) the anniversaries of great battles where good people emerged victorious, and they light candles for heroes lost in battle while defending others. Lay people pray to him for protection at the start of a journey and before retiring for the evening, asking for safe travel and safe rest.  
-
-## Larhoon  
-
-The Bloodhunger  
- **Symbol:** Bloody-topped skull  
- **Portfolio:** Killing, murder  
- **Favored Weapon:** Club  
-
-Larhoon (lar-HOON) is an unrelenting, violent deity, said to have sprung from the corpse of the just-murdered god of death, bristling with teeth and horns. He loves death in all its forms, from slow torture to quick disintegration. It is said that Larhoon never sleeps, that he will never rest as long as one creature still remains alive. Larhoon is no fan of the undead, either, and relishes destroying them nearly as much as he does living creatures. He is depicted as a gray-skinned muscular humanoid creature with spines and horns protruding in all places; his only raiment is a belt made of bloody skulls.  
-
-Larhoon spends much of his time alone, searching for new things to kill. He welcomes challenges to his power and has drunk the blood of many godlings and great heroes who thought to slay him.  
-
-Larhoon’s followers celebrate whenever there is a public death (such as an execution), feast on the anniversaries of battles in which many fell, and sacrifice animals to honor the names of famous assassins, murderers, and warlords. His faith consists of many small cults with no central hierarchy. Larhoon’s name has become a curse among the common folk. In less-than-orderly places, criminals are sacrificed to him in hopes of keeping his attention away from others in the community.  
-
-## Kurzana  
-
-The Builder  
- **Symbol:** Carpenter’s hammer with a spider symbol  
- **Portfolio:** Construction, building, weaving, engineering  
- **Favored Weapon:** Hammer  
-
-Kurzana (kur-ZAH-nuh) is an old deity that has changed over time as the people of the world developed their knowledge of building. Originally a goddess of caverns, she took on the mantle of shelters when intelligent creatures began building homes for themselves, and eventually reached her current state, watching over all kinds of building, whether homes, temples, or other structures in a community. She opposes deities of destruction and those that dislike or harm civilization (such as gods of plague). She is depicted as a woman with stony skin, wearing a simple gown and bearing a hammer with a spider on it. Her faith considers killing normal spiders, her chosen animal, bad luck; monstrous spiders that actually constitute a threat are an exception. All building styles intrigue her, and she allies with likeminded deities. Although willing to talk endlessly about engineering, Kurzana remains otherwise a distant deity, having no close friendships with deities who do not share her specialized interests.  
-
-Kurzana’s followers have few holidays, although they do note the dates on which the construction of great buildings began or ended. Although not a particularly martial faith, her priests often move to small communities to establish temples that double as sturdy fortresses, which they open to the entire community when the settlement is threatened. Her priests tend to be scholars in one building style, and sensible folk consult with a member of the church before planning any construction expected to last more than a year. Common folk pray to Kurzana during storms to keep their homes safe and at the groundbreaking of new buildings to bless those within.  
-
-## Kain  
-
-The Black Lord  
- **Symbol:** Horizontal mailed fist  
- **Portfolio:** Tyranny, rulership  
- **Favored Weapon:** Spear  
-
-Kain (KAYN) is a megalomaniacal deity who believes that only the strong are fit to rule, and that he is destined to rule the world and all of the other gods. He makes elaborate plans and spends years watching them unfold, becoming frustrated when the actions of chaotic beings and other meddlers interfere with his plots. His brother is Vogg, a deity of random destruction and one of his frequent opponents, although the two cannot perceive each other directly or be affected by each others’ direct actions. While he hates the forces of good that interfere with his works, he saves his greatest wrath for chaotic fiends, who give no regard to his orders and (in his words) “give evil a bad name.” He is shown as a man with midnight-black skin and glowing eyes, wearing a noble’s clothing of simple cut and dark colors. His left arm is encased in black metallic armor, from which he can pull an iron spear as often as he likes.  
-
-Kain’s church celebrates the anniversaries of great priests’ and tyrants’ birthdays, the first day of every month, and every new moon. These celebrations are more an affirmation of faith in and loyalty to the Black Lord than episodes of revelry. The sacrifice of dissidents or enemies of the church accompanies the rites whenever possible. Few common folk worship Kain, although in places where he holds much political power he is respected for his ability to keep bandits and raiding monsters away. His rule is otherwise harsh.  
-
-## Luna  
-
- **Symbol:** Three crescent moons arranged in a line  
- **Portfolio:** The moon, feminine power, non-evil lycanthropes  
- **Favored Weapon:** Chakram  
-
-A very old goddess, Luna predates current civilizations. A powerful force for the protection and power of women, her strength has waxed and waned over the centuries. Where the sun is hot and aggressive in its light, the moon remains cool and gentle. She prefers peace to war, and kind words to loud speech, but when someone threatens her charges, she can tear apart her foes with the ferocity of a she-bear defending her cubs. She is also the patron goddess of lycanthropes, and her faith teaches that her light blesses good lycanthropes. Conversely, Luna teaches that evil lycanthropes are corruptions of her gifts to mortals; her followers hunt them down to either cure or kill. She is always shown as a woman with white eyes, dark hair, and a crescent symbol on her forehead, although other details vary. Dogs, wolves, and owls are her sacred animals.  
-
-Luna’s church holds a small ceremony on the first day of each new, full, and quarter moon. Lunar eclipses always call for prayer vigils until the moon appears again, while solar eclipses are sacred events to be celebrated publicly, enjoying the night during the day. Women hold most positions of power in her church, and a disproportionate number of her crusaders are female, but her church neither shuns nor marginalizes men. Common folk invoke Luna’s name at weddings to bless the bride and keep her safe in her husband’s house, at childbirth to guard the expectant mother’s health, and at any time when journeys must be made at night.  
-
-## Shehaan  
-
-Goddess of the Mists, the Mist Goddess  
- **Symbol:** A moon (crescent or full) behind a cloud of mist  
- **Portfolio:** Mist, isolation, concealment  
- **Favored Weapon:** Quarterstaff  
-
-Shehaan (shay-HON) is a reclusive goddess, almost forgotten. Although this should mean her power is dwindling, she draws strength from her great solitude and uses it to protect her faithful. She avoids direct confrontation, preferring to redirect an opponent’s attention, confuse the minds of her enemies, and retreat when victory is not certain. She is shown as an elven woman with wet hair and pale skin, dressed in a gossamer robe or a concealing cloak.  
-
-Like the moon, Shehaan changes. On nights when the moon is new she becomes rather wild, willing to take risks and even reveal her presence when she normally would remain hidden. This change does not affect the abilities of her worshippers, although they, too, seem more willing to take risks on these days.  
-
-Solar eclipses are holy days to the faithful, when her followers given up to the goddess unusual plants and fruits as sacrifices. They go into hiding whenever a lunar eclipse occurs; during these times, which they call the “Night of Madness,” they lose all spellcasting ability, as their goddess goes truly mad and forgets her worshippers entirely. Shehaan always regrets these lapses and apologetically pays closer attention to her followers in the weeks following such an event.  
-
-Where she is worshipped, the common folk pray to her to keep them hidden from the eyes of their enemies and to bring needed rain.  
-
-## Thalander  
-
-Quickheart, Many-Father  
- **Symbol:** White cat surrounded by a red glow  
- **Portfolio:** Vitality, fertility, strength  
- **Favored Weapon:** Longsword  
-
-The boisterous and extroverted Thalander (tha-LANder) embodies the principles of life, survival, and perpetuation of life. Where he walks, plants sprout and animals spring up out of nothing. When he laughs, the air is filled with beautiful birds and insects. Thalander, the greatest foe of the undead, is often depicted blasting them out of existence with great beams of life energy from his hands. Like the cat of his symbol, Thalander has a roving eye and woos many people, whether deity, celestial, or mortal. He has many offspring, some of whom carry his divine blood more strongly than others. Thalander himself is a fair-skinned, redheaded man with a lean but strong build; he is usually shown barefoot, wearing cloth breeches and little else. In some of the more decadent cities his temples double as palaces devoted to the flesh, for his faith teaches that passion and childbirth are needed to remain vital and alive.  
-
-The spring equinox is a day of great celebration, marking the height of Thalander’s power, and worshippers hold weekly feasts throughout the entire spring season. The autumn equinox is their only somber holiday, a remembrance of people met and lives shared in the past growing season, ending on a high note as they look forward to the breaking of winter. Common folk pray to Thalander to bring healthy crops and bless marriages with an abundance of children. They invoke his name at the presentation of a new child to the community, in hopes of ensuring a long and healthy life.  
-
-## Thoin  
-
-The Keeper, the Silent Pick  
- **Symbol:** A gem within a mountain  
- **Portfolio:** Mines, secrets under the earth  
- **Favored Weapon:** Pick  
-
-Thoin (THOH-in) the Keeper is a silent deity of the rewards waiting underground. Not content to dig and sift for treasures, Thoin feels that his followers have a birthright to the Underdeep that authorises them to eliminate all heretics underground so their lesser hands will not profane the treasures with unskilled workmanship. Thoin’s particular hatred is for metal- and gem-eating monsters such as rust monsters, xorn, and metal-addicted delvers.  
-
-Thoin is shown as a long-bearded dwarf made of stone, bearing a great pick or pickaxe, eyes and mouth glowing like sparkling gems or fresh lava. He never speaks, but seems amenable to the company of other earth deities who respect his dogma. His faithful take particular vengeance against thieves, burning them to death with molten rock.  
-
-Followers of Thoin celebrate upon finding a vein of new ore, especially if that ore is mithral or adamantine. They hold weeklong wakes whenever a king or high priest dies and his followers never bury their dead with treasures—they see that as a waste of good metal and an affront to the deceased, as it presumes them incapable of looking for new treasures in the afterlife. Thoin’s churches display their wealth openly as a display of the god’s power and generosity. A temple of Thoin doubles as an armory and fortress, as followers use it as a launching point for attacks on pagan miners and for defense against raiders. Common people pray to Thoin after hard work to find rewards and before battles waged to gain or protect valuable objects.  
-
-## Vaath  
-
-The Laugher  
- **Symbol:** A laughing mouth within a wavy circle  
- **Portfolio:** Humor, irony  
- **Favored Weapon:** Rapier  
-
-Vaath (VOTH) is a well-traveled deity, always on the run from her last escapade. She represents the ability to laugh at frightening or impossible situations as well as the more traditional aspects of humor and irony. She dislikes older, staid deities, preferring to shake things up a bit and see what laughter there is to discover in the world. Depictions of her vary, but she is usually shown as a humanoid woman with a large grin and bright teeth (although she is sometimes shown as a fox or even a man). She trained herself to run faster than the wind, hold her breath for nine days, and speak out of both sides of her mouth; three skills she needed to pull off an elaborate joke on the gods of storms, fire, and cities. She loves recruiting worshippers from serious or wrathful deities just to see the reaction of her divine opponents.  
-
-Vaath’s worshippers pray on a different schedule from month to month, chosen by the deity and revealed at the last minute. Her followers are great fans of All Fool’s Day, where they make up almost unbelievable stories and try to get as many people as possible to fall for them. They honor the birthdays of local nobles with roasts and caricatures, and often celebrate somber holidays of other faiths with loud songs, indecent jokes, and extravagant pranks. Because of these habits, many priests of Vaath use aliases when going about the goddess’ work or use disguises or magic to pretend to worship other deities in order to prevent retaliation. Common people invoke her name in times of good cheer and when things go wrong, in hopes of seeing a more positive side—such as the church’s fable of the plowman’s ox that hurt its leg on a stone, under which lay a nugget of gold.  
-
-## Valkon  
-
-The Sky Lord  
- **Symbol:** Cloud with a lightning bolt  
- **Portfolio:** Air, wind, clouds, ordered nature of the heavens  
- **Favored Weapon:** Longbow  
-
-Valkon (VAL-kahn) is the master of the air and heavens, from the stars to coastal breezes and everything in between. An active and aggressive deity, he loathes chaos, unpredictability, and ancient magical weapons of war that promote those things. This puts him at odds with most other weather deities, who tend to be more carefree and capricious. His celestial messengers are birds, and his temples often use birds to carry messages or spy on their enemies. Valkon enjoys archery and believes it to be a superior form of warcraft to melee fighting. In artwork he is depicted as a tall winged man, lithe but strong, bearing a longbow and having close-cropped fair hair.  
-
-Valkon’s worshippers celebrate the equinoxes and solstices as holy days, as well as the first rainfall in spring and the first snowfall in autumn or winter. Common folk pray to him to bring needed rains or fend off approaching storms, which are always considered to be the work of rival weather gods.  
-
-## Vogg  
-
-The Firelord  
- **Symbol:** An eye surrounded by flame  
- **Portfolio:** Wildfire, destruction, randomness  
- **Favored Weapon:** Mace  
-
-Vogg (VOG) is the embodiment of random destruction. Although he is as intelligent as his brother Kain, he only uses his mind to think up ways to break things faster, louder, and hotter. He is more than content to run about covered in flames of his own creation, setting afire anything he touches or even gazes at for too long.  
-
-He is shown as a humanoid (the type varies by artist and cult) with his skin blackened by great heat, hair of flame, and carrying a mace made of solid fire. Vogg doesn’t really hate anything as much as he is curious about how well and how quickly he can destroy it. He becomes angry when someone places in his way obstacles that he cannot harm, and he becomes livid when someone quenches a fire he sets or dares to try calming him. Vogg would be a more powerful deity if he didn’t have the habit of answering some invocations with blasts of violent fire, which tends to reduce his number of worshippers. He is a friend to fire elementals and tolerates efreet and other fiery creatures.  
-
-Vogg’s worshippers care little for scheduled holidays, but revel in the presence of any great fire, whether naturally occurring or deliberately set. They’re not above setting a fire for the excuse to celebrate. Though most of his followers are too simpleminded to appreciate the destruction of particularly valuable things (such as sacred groves, historic buildings, and so on), they do like watching temples to protective or water deities burn to ash. On the hottest day of the year, members of the church summon as many fire elementals as possible and send them running about, burning whatever they see. In idle times, cult cells are likely to self-destruct, as rival priests set each other on fire as fanatical offerings to their obsessive deity.  
-
-## Yaheine  
-
-The Sword Maiden  
- **Symbol:** Kite shield with a sunburst  
- **Portfolio:** Protection, valor, honor  
- **Favored Weapon:** Bastard sword  
-
-Daughter of the sun god, Yaheine (ya-HEEN) is the faithful guardian, protector of the innocent, and champion of good. Channeling the power of her father, Yaheine strikes out at all evil in her path, making places safe for decent folk. She cannot abide fiends or the undead, and hunts necromancers and demonologists without mercy. She is shown as a tall woman bearing a flashing bastard sword and clad in shining metal armor, her gold hair unbound in a storm about her face like solar flames. When age catches up with her crusaders, they usually take up a leadership role in a community, administering fair law and keeping the peace, ready to bear arms whenever evil raises its head. Her followers respect those who worship the sun god, and the two closely allied churches often share space in the same temple.  
-
-Yaheine’s crusaders pray for their spells at dawn when the leading edge of the sun first becomes visible. Their holy days are the summer solstice and midwinter— said to be the time of year when the sun god’s priests received word that his daughter had been born and would become a champion for all good in the world. Common folk pray to her for fairness in all things, as well as protection in unsafe places. Her name is used to seal oaths as a promise of good intent.
-
-# Appendices  
-
-## Appendix A: Powers Available by Level  
+# Appendix A: Powers Available by Level  
 
 The following table shows how many powers and of which levels a character is entitled to, based on the character's level. A character can always choose a lower-level power (of the same frequency, e.g. a level 3 encounter attack power instead of a level 7 encounter attack power) in place of a higher-level one.  
 
 “(P)” indicates that the power comes from a prestige path. “(E)” indicates that the power comes from an epic path.   
 
-##### **Table – Powers Available by Level**  
+##### Table – Powers Available by Level
 
 | Level | At-will Attack | Encounter Attack   | Daily Attack       | Utility                          |  
 | ----- | -------------- | ------------------ | ------------------ | -------------------------------- |  
