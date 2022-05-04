@@ -11,296 +11,6 @@ footer: ${pageNo}
 
 * TOC  
 {:toc}  
-  
-
-# Monster Statistics  
-
-A monster has a rank, a role, a source, a type, tags and a level. For example, a giant frog might be a Standard Lurker (rank and role), Natural Beast (source and type), with the Aquatic tag, and be level 4.  
-
-## Rank  
-
-### Standard  
-
-Standard monsters are the default, so this is usually left out of the description (a “Standard Skulker” is just described as an “Skulker”).   
-
-### Mooks  
-
-Mooks are weaker monsters that can be cut down in large numbers in a single turn. Four mooks are worth one standard monster.   
-
-Compared to standard monsters of the same level, mooks have:
-
-* 1 HP only. A mook takes no damage from attacks that miss them.   
-* One-quarter as much XP.  
-  
-
-### Elites  
-
-Elites are stronger monsters. Two standard monsters are worth one elite.   
-
-Compared to standard monsters of the same level, elite monsters have:
-
-* Twice as much HP.
-* A +2 bonus on saving throws.
-* 1 Action Point per encounter.
-* Twice as much XP.
-  
-### Bosses  
-
-Bosses are very strong monsters. Five standard monsters are worth one boss.   
-
-Compared to standard monsters of the same level, boss monsters have:
-
-* Four times as much HP.
-* A +5 bonus on saving throws.
-* 2 Action Points per encounter.
-* Five times as much XP. 
-  
-## Role  
-
-A monster’s role describes the main contribution they can make in combat. 
-
-**Archers:** Make powerful Ranged or Far attacks, or both.  
-
-**Blockers:** Protect their allies.  
-
-**Leaders:** Help other monster allies fight better. “Leader” is a bonus added to other roles, like Blocker (Leader) or Spoiler (Leader), rather than a pure role.   
-
-**Skulkers:** Do devastating attacks every so often, interspersed with hiding or escaping.   
-
-**Spoilers:** Mess the PCs up with attacks that inflict harmful effects instead of or in addition to hit point damage.  
-
-**Strikers:** Take advantage of mobility to make attacks and avoid being tied down in combat.   
-
-**Wreckers:** Bring the pain (do a lot of damage).  
-
-## Source  
-
-A monster’s source describes where its species or type has come from. Certain spells, magic items, class features, and other effects in the game interact in special ways with creatures of a particular source.  
-
-**Cosmic** creatures are utterly alien, aberrant beings. Many of them have innate magical abilities drawn from the creature’s alien mind rather than the mystical forces of the world.   
-
-**Elemental** creatures are native to the elemental planes. Some creatures of this type are little more than animate masses of their respective elements. Others have biological forms infused with elemental energy.  
-
-**Fey** creatures are closely tied to the forces of nature. They dwell in twilight groves and misty forests. In some worlds, they are closely tied to the Plane of Faerie.  
-
-**Shadow** creatures are tied to the Plane of Shadow.   
-
-**Natural** creatures are native to the Prime Material Plane, i.e. the world.   
-
-**Outsider** creatures are at least partially composed of the essence (but not necessarily the material) of some Outer Plane. Some creatures start out as some other source and become outsiders when they attain a higher (or lower) state of spiritual existence.  
-
-## Type  
-
-A monster’s type describes its shape and form. Certain spells, magic items, class features, and other effects in the game interact in special ways with creatures of a particular type.   
-
-The game includes the following monster types, which have no rules of their own.  
-
-**Beasts** are nonhumanoid creatures that are a natural part of the fantasy ecology. Some of them have magical powers, but most are unintelligent and lack any society or language. Beasts include all varieties of ordinary animals, dinosaurs, and giant versions of animals, as well as fantastical animals like winged cats or elf hounds.  
-
-**Automatons** do not have organs or coherent bodily systems. They may be very simple creatures, like a gelatinous cube, or masses of a material that is magically animated, like a fire elemental or bronze golem. Undead that have been reanimated from a body or body parts, like skeletons and zombies, are automatons, whereas undead that have been transformed from their living form, like vampires, or undead that are a separate soul, like specters, are humanoids.   
-
-**Humanoids** have bipedal forms, and typically are sapient and sentient, and capable of language and culture. Humanoid races include those commonly found as player characters - humans, dwarves, elves, halflings, goblinoids (goblins, hobgoblins, and bugbears), orcs, gnolls, lizardfolk, and kobolds - as well as fey like nymphs and dryads and outsiders with with humanoid forms like many devils.  
-
-**Monstrosities** are monsters in the strictest sense - frightening creatures that are not ordinary, not truly natural, and almost never benign. Some are the results of magical experimentation gone awry (such as owlbears), and others are the product of terrible curses (including minotaurs and medusae). Others are creatures with elemental or other magical influences, like dragons.   
-
-## Tags  
-
-A monster might have one or more tags appended to its type. For example, a couatl is listed as Monstrosity ● Dragon, Celestial. The tags provide additional categorization for certain creatures. The tags have no rules of their own, but something in the game, such as a magic item, might refer to them. For instance, a spear that is especially effective at fighting demons would work against any monster that has the demon tag.  
-
-The most common tags are:
-
-**Air** creatures are particularly linked to the element of air. 
-
-**Aquatic** creatures are comfortable underwater. 
-
-**Celestials** are creatures native to the Upper Planes. Many of them are the servants of deities, employed as messengers or agents in the mortal realm and throughout the planes. A celestial who strays from a good alignment is a horrifying rarity. Celestials include angels and pegasi. 
-
-**Cold** creatures are particularly linked to cold energy. 
-
-**Constructs** are made, not born. Some are programmed by their creators to follow a simple set of instructions, while others are imbued with sentience and capable of independent thought. Golems are the iconic constructs. 
-
-**Demons** are chaotic evil creatures of wickedness that are native to the Lower Planes. Along with devils, they are classified as fiends. A few are the servants of deities, but many more labor under the leadership of demon princes. Evil priests and mages sometimes summon demons to the material world to do their bidding. 
-
-**Devils** are evil creatures of wickedness that are native to the Lower Planes. Along with demons, they are classified as fiends. A few are the servants of deities, but many more labor under the leadership of archdevils. Evil priests and mages sometimes summon devils to the material world to do their bidding. 
-
-**Dragons** are reptilian creatures of ancient origin and tremendous power. True dragons, including the good metallic dragons and the evil chromatic dragons, are highly intelligent and have innate magic. Also in this category are creatures distantly related to true dragons, but less powerful, less intelligent, and less magical, such as wyverns and pseudodragons. 
-
-**Earth** creatures are particularly linked to the element of earth. 
-
-**Fire** creatures are particularly linked to the element of fire. 
-
-**Giants** tower over humans and their kind. They are humanlike in shape, though some have multiple heads (ettins) or strange forms (fomorians). The six varieties of true giant are hill giants, stone giants, frost giants, fire giants, cloud giants, and storm giants. Besides these, creatures such as ogres and trolls are giants.
-
-**Mounts** give their riders special benefits. 
-
-**Oozes** are gelatinous creatures that rarely have a fixed shape. They are mostly subterranean, dwelling in caves and dungeons and feeding on refuse, carrion, or creatures unlucky enough to get in their way. Black puddings and gelatinous cubes are among the most recognizable oozes. 
-
-**Plants** in this context are vegetable creatures, not ordinary flora. Most of them are ambulatory, and some are carnivorous. The quintessential plants are the shambling mound and the treant. Fungal creatures such as the gas spore also fall into this category. 
-
-**Reptiles** are scaled, cold-blooded creatures. 
-
-**Shapechangers** have the innate ability to change forms. 
-
-**Spiders** are eight-legged arachnids. 
-
-**Swarms** are groups of creatures that act as one, like a swarm of rats or spiders. 
-
-**Undead** are once-living creatures brought to a horrifying state of undeath through the practice of necromantic magic or some unholy curse. Undead include walking corpses, such as vampires and zombies, as well as bodiless spirits, such as ghosts and specters. 
-
-**Water** creatures are particularly linked to the element of water. 
-
-## Alignment  
-
-A monster’s alignment provides a clue to its disposition and how it behaves in a roleplaying or combat situation. For example, a chaotic evil monster might be difficult to reason with and might attack characters on sight, whereas an unaligned monster might be willing to negotiate.   
-
-The alignment specified in a monster’s stat block is the default. Feel free to depart from it and change a monster’s alignment to suit the needs of your campaign.  
-
-Some creatures are listed as “Any” alignment.  
-
-## Hit Points  
-
-A monster usually dies or is destroyed when it drops to 0 hit points, or is rendered unconscious if the attacker would prefer.   
-
-**Regeneration #:** The creature heals # hit points at the start of its turn, unless it is dead. 
-
-**Blooded Regeneration #:** The creature has regeneration while it is staggered only.
-
-**Unblooded Regeneration #:** The creature has regeneration while it is not staggered. 
-
-## Speed  
-
-A monster’s speed tells you how far it can move with a Walk action. It can also take other actions that use speed, like Run and Charge.   
-
-Other movement types, like fly or swim, may also be listed. 
-
-## Ability Scores  
-
-Every monster has six ability scores (Strength, Constitution, Dexterity, Intelligence, Wisdom, and Charisma) and corresponding modifiers.   
-
-## Skills  
-
-The Skills entry is reserved for monsters that are trained in one or more skills. For example, a monster that is very perceptive and stealthy might have bonuses to Perception and Stealth checks.  
-
-Monsters can make skill checks with skills that are not listed. In those cases, calculate the skill bonus as: the sum of a monster’s relevant ability modifier and half its level (round down). 
-
-## Vulnerabilities, Resistances, and Immunities  
-
-Some creatures have vulnerability, resistance, or immunity to certain types of damage. In addition, some creatures are immune to certain conditions.  
-
-Two special resistances are described below:   
-
-**Incorporeal:** A creature that is incorporeal takes half damage on all attacks.   
-
-**Reactive Resistance X (immediate (counter) action, encounter):** The first time a creature is damaged by an attack that does acid, cold, lightning, fire or thunder damage, the creature gains resistance to that energy X. This lasts until the end of the encounter.   
-
-## Senses and initiative  
-
-The Senses entry notes a monster’s Perception modifier, as well as any special senses the monster might have. Special senses are described in the main Rulebook.  
-
-## Languages  
-
-The languages that a monster can speak, if any, are listed in alphabetical order. Sometimes a monster can understand a language but can’t speak it, and this is noted in its entry.
-
-### Telepathy  
-
-Telepathy is a magical ability that allows a monster to communicate mentally with another creature within a specified range. The contacted creature doesn’t need to share a language with the monster to communicate in this way with it, but it must be able to understand at least one language. A creature without telepathy can receive and respond to telepathic messages but can’t initiate or terminate a telepathic conversation.  
-
-A telepathic monster doesn’t need to see a contacted creature and can end the telepathic contact at any time. The contact is broken as soon as the two creatures are no longer within range of each other or if the telepathic monster contacts a different creature within range. A telepathic monster can initiate or terminate a telepathic conversation without using an action, but while the monster is incapacitated, it can’t initiate telepathic contact, and any current contact is terminated.  
-
-## Level  
-
-A monster’s **level** tells you how great a threat the monster is. An appropriately equipped and well-rested party of four adventurers should be able to defeat four standard monsters that each have a level equal to the adventurers’ level without suffering any deaths. For example, a party of four 3rd-level characters should find four level 3 monsters to be a worthy challenge, but not a deadly one.  
-
-### Recoveries  
-
-Although they rarely get a chance to use them, all monsters (unless otherwise mentioned) have at least 1 recovery. Level 11+ monsters have 2, and Level 21+ monsters have 3.   
-
-### Experience Points  
-
-The number of experience points (XP) a monster is worth is based on its level. Typically, XP is awarded for defeating the monster, although the GM may also award XP for neutralizing the threat posed by the monster in some other manner.  
-
-A monster’s XP is also used to calculate how many monsters should be included in an encounter.   
-
-XP is calculated based on a monster’s rank and level, as shown below. 
-
-##### Table - Monster XP 
-
-| Level | Mook | Standard | Elite | Boss |  
-| ----- | --------------- | ------------------- | ---------------- | --------------- |  
-| 1     | 25              | 100                 | 200              | 500             |  
-| 2     | 31              | 125                 | 250              | 625             |  
-| 3     | 38              | 150                 | 300              | 750             |  
-| 4     | 44              | 175                 | 350              | 875             |  
-| 5     | 50              | 200                 | 400              | 1,000           |  
-| 6     | 63              | 250                 | 500              | 1,250           |  
-| 7     | 75              | 300                 | 600              | 1,500           |  
-| 8     | 88              | 350                 | 700              | 1,750           |  
-| 9     | 100             | 400                 | 800              | 2,000           |  
-| 10    | 125             | 500                 | 1,000            | 2,500           |  
-| 11    | 150             | 600                 | 1,200            | 3,000           |  
-| 12    | 175             | 700                 | 1,400            | 3,500           |  
-| 13    | 200             | 800                 | 1,600            | 4,000           |  
-| 14    | 250             | 1,000               | 2,000            | 5,000           |  
-| 15    | 300             | 1,200               | 2,400            | 6,000           |  
-| 16    | 350             | 1,400               | 2,800            | 7,000           |  
-| 17    | 400             | 1,600               | 3,200            | 8,000           |  
-| 18    | 500             | 2,000               | 4,000            | 10,000          |  
-| 19    | 600             | 2,400               | 4,800            | 12,000          |  
-| 20    | 700             | 2,800               | 5,600            | 14,000          |  
-| 21    | 800             | 3,200               | 6,400            | 16,000          |  
-| 22    | 1,000           | 4,000               | 8,000            | 20,000          |  
-| 23    | 1,200           | 4,800               | 9,600            | 24,000          |  
-| 24    | 1,400           | 5,600               | 11,200           | 28,000          |  
-| 25    | 1,600           | 6,400               | 12,800           | 32,000          |  
-| 26    | 2,000           | 8,000               | 16,000           | 40,000          |  
-| 27    | 2,400           | 9,600               | 19,200           | 48,000          |  
-| 28    | 2,800           | 11,200              | 22,400           | 56,000          |  
-| 29    | 3,200           | 12,800              | 25,600           | 64,000          |  
-| 30    | 4,000           | 16,000              | 32,000           | 80,000          |  
-
-## Auras  
-
-A creature’s aura affects creatures within a burst X equal to the aura X listed in the monster description.   
-
-## Actions and powers
-
-When a monster takes its action, it can choose from the options in the Actions section of its stat block or use one of the actions available to all creatures, such as the Dash or Hide action, as described in the Rulebook.   
-
-See the Rulebook for more details of how to interpret powers.   
-
-Special symbols are used to indicate whether an attack is a basic attack, and what its range is:   
-
-* ‡ Basic Melee Attack  
-* † Melee Attack  
-* ⇻ Basic Ranged Attack  
-* ⇸ Ranged Attack  
-* ∢ Near Attack  
-* ⋇ Far Attack  
-
-Unless otherwise mentioned, melee and ranged attacks have one target. Near and far attacks target all creatures within their area of effect, unless otherwise mentioned. 
-
-### Power riders
-
-*Aftereffect:* An aftereffect takes place after the target succeeds on its saving throw against the initial effect. For example, “blinded (save ends); *Aftereffect:* dazed (save ends)” means the target is blinded until it succeeds on a saving throw. Then it is dazed until it succeeds on a saving throw. 
-
-*Grappled (save ends):* Most grapples last until the target breaks the grapple or the grappler chooses to end the grapple. When a power says the target is “grappled (save ends)”, as well as those methods to end the grapple the target also makes a saving throw each turn and breaks the grapple on a success. 
-
-### Limited Usage  
-
-Some special abilities have restrictions on the number of times they can be used.  
-
-***Refresh X, Y:*** The notation “refresh X, Y” means a monster can use a special ability once and that the ability then has a random chance of refreshing during each subsequent round of combat. At the start of each of the monster’s turns, roll a d6. If the roll is one of the numbers in the refresh notation, the monster regains the use of the special ability. The ability also refreshes when the monster finishes a short or long rest.  
-
-For example, “refresh 5, 6” means a monster can use the special ability once. Then, at the start of the monster’s turn, it regains the use of that ability if it rolls a 5 or 6 on a d6.  
-
-***Encounter:*** This notation means that a monster can use a special ability once and then must finish a short or long rest to use it again.  
-
-## Equipment  
-
-A stat block rarely refers to equipment, other than armor or weapons used by a monster. A creature that customarily wears clothes, such as a humanoid, is assumed to be dressed appropriately.  
-
-You can equip monsters with additional gear and trinkets however you like, and you decide how much of a monster’s equipment is recoverable after the creature is slain and whether any of that equipment is still usable. A battered suit of armor made for a monster is rarely usable by someone else, for instance.  
-
 # Monster Templates  
 
 Certain creatures are created by adding a template to an existing creature. A templated creature can represent a unique creature, the individual creation of a single experimenter, or the first generation of offspring from parents of different species. Other templates represent a thing that can happen to a creature, like becoming a ghost.   
@@ -4251,228 +3961,841 @@ The bauble beast introduces a new condition:
 | Marilith | 29 | Wrecker |  
 | Flying Head Swarm               | 29    | Elite Striker          |  
 
-# Appendix: Creating New Monsters  
+# Traps  
 
-This guide will step you through the process of creating a new monster.  
+Traps can be found almost anywhere. One wrong step in an ancient tomb might trigger a series of scything blades, which cleave through armor and bone. The seemingly innocuous vines that hang over a cave entrance might grasp and choke anyone who pushes through them. A net hidden among the trees might drop on travelers who pass underneath. In a fantasy game, unwary adventurers can fall to their deaths, be burned alive, or fall under a fusillade of poisoned darts.  
 
-## Level and Rank  
+## How to Use Traps
 
-At what level do you expect heroes to fight this monster? That is the monster’s level.  
+Traps can often spice up a combat encounter. Outside of combat, the party does not face the same time and healing pressures, which means traps can feel a little flat. They can still be used to good effect to heighten tension, consume the party's resources or reward clever thinking by the party. 
 
-If a monster has a resistance or vulnerability “X” listed, this is equal to 5 for monsters level 1-10, 10 for monsters level 11-20 and 15 for monsters level 21-30.   
+The traps are usually generic in describing their trigger, but the following are all good options for a trap that targets the creature that triggered it:
 
-When the heroes fight the monster, do you expect it to challenge four or five heroes (Boss rank), two or three heroes (Elite rank), one hero (Standard rank) or only to challenge one hero when there are about four of the monster (Mook rank)?   
+* When a chest or drawer is opened.
+* When a door is opened. 
+* When a character enters a square, stepping on a pressure plate. 
+* When a character crosses a trip wire stretched across several squares. Characters that have noticed a trip wire can usually step over it and avoid triggering the trap. 
+* When a character interacts with a corpse, precious item or other interesting object, yanking a trip wire attached to the object.  
+* When the wrong answer is inputted to a puzzle, like mosaic tiles that must be pressed in a special sequence. 
 
-## Size, Source, Type and Tags  
+Something like a lever or button could be used to activate traps that target an area, rather than the creature that triggered them. 
 
-This is a naturalistic description of how large the monster is, which plane of existence it comes from, what form its body takes and any additional categories it falls into.   
+If you select the same trap multiple times for an encounter, it could reflect multiple charges of the one trap or multiple instances of the trap scattered throughout the battlefield. 
 
-Every monster has a size, source and type. Only add tags where appropriate.  
+## Traps in Play  
 
-### Sizes
+When adventurers come across a trap, you need to know how the trap is triggered and what it does, as well as the possibility for the characters to detect the trap and to disable or avoid it.  
 
-* Tiny: Cat sized or smaller  
-* Small: Dog sized  
-* Medium: Human sized  
-* Large: Cow sized  
-* Huge: Elephant sized  
-* Gargantuan: Blue whale sized or larger  
-  
-### Sources
+### Triggering a Trap  
 
-* Alien to this universe: Cosmic. Resistance to radiant X, vulnerable to psychic X.   
-* Native to elemental planes: Elemental  
-* Native to outer planes: Outsider. Resistance to radiant X, vulnerable to necrotic X.  
-* Native to the Plane of Faerie: Fey. Vulnerability to poison X.  
-* Native to the Plane of Shadow: Shadow. Resistance to necrotic X, vulnerable to radiant X.   
-* Native to the world: Natural   
-  
-### Type
+Most traps are triggered when a creature goes somewhere or touches something that the trap's creator wanted to protect. Common triggers include stepping on a pressure plate or a false section of floor, pulling a trip wire, turning a doorknob, and using the wrong key in a lock. Magic traps are often set to go off when a creature enters an area or touches an object. Some magic traps (such as the *glyph of warding* spell) have more complicated trigger conditions, including a password that prevents the trap from activating.  
 
-* Humanoid body and physiology: Humanoid  
-* Animal body and physiology: Beast  
-* Unnatural body and physiology: Monstrosity  
-* Assembled from raw matter or materials: Automaton  
-  
-### Tags
+### Detecting and Disabling a Trap  
 
-*Origin:*  
+Usually, some element of a trap is visible to careful inspection. Characters might notice an uneven flagstone that conceals a pressure plate, spot the gleam of light off a trip wire, notice small holes in the walls from which jets of flame will erupt, or otherwise detect something that points to a trap's presence.  
 
-* Comes from the evil elemental planes: Demon. Reactive resistance X.   
-* Comes from Hell: Devil. Resistance to fire X.  
-* Comes from the Heavens: Celestial.   
-* Created from a dead body: Undead. Resistance to poison X, vulnerability to radiant X.   
-* Created from a dead spirit or soul: Undead. Incorporeal, vulnerability to radiant X.
-* Created from non-living matter: Construct. Resistance to poison and psychic X, vulnerability to acid X.   
-* Lives partially or entirely underwater: Aquatic.  
-  
+A trap's description specifies the checks and DCs needed to notice it or disable it. A character actively looking for a trap can attempt a Perception check against the trap's DC. You can also compare the DC to detect the trap with each character's passive Perception score to determine whether anyone in the party notices the trap in passing. If the adventurers detect a trap before triggering it, they might be able to pause or disarm it.   
 
-*Elemental Connection:*   
+### Adjudicating Traps
 
-* Has a special connection to elemental earth: Earth.  
-* Has a special connection to elemental water: Water. Resistance to acid X.   
-* Has a special connection to elemental air: Air.  
-* Has a special connection to elemental fire or to fire energy: Fire. Resistance to fire X, vulnerability to cold X.   
-* Has a special connection to cold energy: Cold. Resistance to cold X, vulnerability to fire X.   
+In most cases, a trap's description is clear enough that you can adjudicate whether a character's actions locate or foil the trap. As with many situations, you shouldn't allow die rolling to override clever play and good planning. Use your common sense, drawing on the trap's description to determine what happens. No trap's design can anticipate every possible action that the characters might attempt.  
 
-*Physiology:*   
+You should allow a character to discover a trap without making a skill check if something would clearly reveal the trap's presence. For example, if a character lifts a rug that conceals a pressure plate, the character has found the trigger and no check is required.  
 
-* Eight-legged arachnid: Spider.  
-* Formless: Ooze. Resistance to acid X.   
-* Reptilian: Reptile.  
-* Is an animated plant: Plant. Resistance to radiant and psychic X, vulnerability to poison and fire X.   
-* Reptilian creature of elemental power, usually winged: Dragon.  
-* Large or larger humanoid related to ogres or true giants: Giant.  
-* Can freely or regularly change its form: Shapechanger.  
-* Is made up of many smaller creatures: Swarm. Resistance to Melee and Ranged X, vulnerability to Near and Far X.   
-* If ridden, gives the rider one or more benefits or powers: Mount.   
-  
-## Role  
+Foiling traps can be a little more complicated. Consider a trapped treasure chest. If the chest is opened without first pulling on the two handles set in its sides, a mechanism inside fires a hail of poison needles toward anyone in front of it. After inspecting the chest and making a few checks, the characters are still unsure if it's trapped. Rather than simply open the chest, they prop a shield in front of it and push the chest open at a distance with an iron rod. In this case, the trap still triggers, but the hail of needles fires harmlessly into the shield.  
 
-The role is the function that the monster plays in combat. It determines defenses, HP and the damage that the monster does.   
+Traps are often designed with mechanisms that allow them to be disarmed or bypassed. Intelligent monsters that place traps in or around their lairs need ways to get past those traps without harming themselves. Such traps might have hidden levers that disable their triggers, or a secret door might conceal a passage that goes around the trap.  
 
-### Archer  
+## Trap Types
 
-*AC:* 12 + level.  
-*Fort:* 11 + level; *Ref:* 12 + level; *Will:* 12 + level.  
-*HP:* 21 + (4 * level) (double for Elite, quadruple for Boss)  
-*Attack:* +5 + level  
+There are several varieties of type:
 
-### Blocker  
+* **One-Off:** These traps trigger once, and must be reset before they will trigger again (or in some cases cannot be reset at all). It would be rare, though not impossible, for a one-off trap to be reset during combat. These traps are usually worth one-quarter the XP of a standard trap of their level. 
+* **Hazard:** These traps remain on the battlefield, affecting any creature that comes into contact with them. These traps are usually worth one-half the XP of a standard trap of their level. 
+* **Recurring:** These traps activate or at least can be activated once per round, once they are triggered. 
 
-*AC:* 16 + level.  
-*Fort:* 13 + level; *Ref:* 12 + level; *Will:* 12 + level.  
-*HP:* 24 + (5 * level) (double for Elite, quadruple for Boss)  
-*Attack:* +5 + level  
+## Trap Roles
 
-### Skulker
+* **Shooter:** Multiple attacks or areas of effect.   
+* **Assassin:** The trap alternates between triggering and retracting.   
+* **Blocker:** The trap serves as an impediment, or punishes movement through a particular area.   
+* **Warning:** The trap makes a ruckus or otherwise alerts other enemies. Typically it also has negative effects to those who trigger it.   
 
-*AC:* 14 + level.  
-*Fort:* 12 + level; *Ref:* 13 + level; *Will:* 11 + level.  
-*HP:* 21 + (4 * level) (double for Elite, quadruple for Boss)  
-*Attack:* +5 + level  
+## Traps in Encounters  
 
-### Spoiler  
+Traps come with a level and an XP value. Add them to encounters just as you would monsters.   
 
-*AC:* 14 + level.  
-*Fort:* 12 + level; *Ref:* 11 + level; *Will:* 13 + level.  
-*HP:* 24 + (5 * level) (double for Elite, quadruple for Boss)  
-*Attack:* +5 + level  
+## Sample Traps  
 
-### Striker  
+### Cinder Trap  
 
-*AC:* 14 + level.  
-*Fort:* 11 + level; *Ref:* 13 + level; *Will:* 12 + level.  
-*HP:* 24 + (5 * level) (double for Elite, quadruple for Boss)  
-*Attack:* +5 + level  
+*One sconce is set up to launch its torch at a distant creature when that creature disturbs the trap's trigger.*  
 
-### Wrecker  
+**Level 1 One-Off Warning** (25 XP Trap)  
 
-*AC:* 12 + level.  
-*Fort:* 13 + level; *Ref:* 11 + level; *Will:* 12 + level.  
-*HP:* 27 + (6 * level) (double for Elite, quadruple for Boss)  
-*Attack:* +5 + level  
+Perception DC 12: The character notices the slow-burning torch and the mechanism that flings it.  
 
-## Senses  
+**Trigger** The trap attacks when a character comes into contact with the trigger. It must be manually reset before it triggers again.  
+**Target** The creature that triggers the trap.  
 
-* The monster is blind: Blind tag, resistance to radiant X.   
-  
-* The monster can see in the dark: Darkvision.   
-* The monster can see well in poor lighting: Low-light vision.   
-* The monster can accurately sense the presence of creatures without seeing, e.g. through echolocation: Blindsight 10.   
-* The monster can accurately sense the presence of creatures in contact with the ground, e.g. through vibrations: Tremorsense 10.   
-* The monster can see through shapechanging magic, illusions, invisibility, etc.: Truesight 10.   
-  
-## Movement  
+↗	**Attack** ● **Fire**  
+Ranged 5; +4 vs Reflex  
+*Hit* 1d6+1 fire damage.  
 
-Most monsters have a regular speed, which is their speed on land (walking). A monster that is as fast as a human should have a speed of 6.   
+**Countermeasures** 
+An adjacent character can disable the trap with a DC 18 Sleight of Hand check.
+If the trap is triggered, an adjacent character can throw himself in front of the trap to prevent the torch from being flung into the air with a successful DC 12 Acrobatics or Athletics check. However, if the character is successful, they suffer 1 point of fire damage.  
 
-Some monsters can also swim, climb, fly, burrow or teleport.  
+### Simple Spear Trap  
 
-There are a number of special movement properties:   
+*A spear shoots out from a hole near to the trigger of this trap.*  
 
-* The monster can move unimpeded through certain difficult terrain: Terrain stride.   
-* The monster’s feet are grippy, allowing it to travel across sheer surfaces and upside down across ceilings: Wall-walker.   
-* The monster can move through obstacles as if they weren’t there: Phasing.   
-* The monster is a good flier or swimmer but clumsy on the ground: Clumsy on ground -4.  
-* The monster is a poor flier but comfortable on the ground: Clumsy in air -4.  
-* The monster is a poor swimmer but comfortable on the ground: Clumsy in water -4.   
-* The monster can stay in place while flying, even while knocked unconscious: Hover.   
-* The monster can fly or levitate, but not above 10 feet: Maximum altitude 2.   
-* The monster can squish into very small spaces: Compress  
-  
-## Abilities  
+**Level 1 One-Off Warning** (25 XP Trap)  
 
-Assign the monster ability scores based on what seems appropriate. In general, a monster’s highest ability score should equal about 16 + half its level.  
+Perception DC 12: The character notices the mechanism that fires the spear.  
 
-## Skills
+**Trigger** The trap attacks when a character comes into contact with the trigger. It must be manually reset before it triggers again.  
+**Target** The creature that triggers the trap.  
 
-Choose any number of skills for the monster to be trained in. These skills have a bonus of 5 + half level + the relevant ability modifier. 
+†	**Attack**   
++4 vs AC  
+*Hit* 1d8+3 damage.  
 
-Always list the monster’s Perception modifier. If they are not trained in Perception, the modifier is half the monster’s level + its Wisdom modifier. 
+**Countermeasures** 
+An adjacent character can disable the spear trap with a DC 18 Sleight of Hand check.
+A DC 12 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.  
 
-## Initiative
+### Whistling Staircase  
 
-A monster’s initiative modifier equals half the monster’s level plus its Dexterity modifier.  
+*A staircase where the stairs are attached by a mechanism to a bell that rings when the stairs are stepped on.*  
 
-## Powers  
+**Level 1 One-Off Warning** (25 XP Trap)  
 
-The best way to determine good powers for a monster is to look at similar, existing monsters. However, here is some guidance about the kind of damage that powers should do, by level.   
+Perception DC 12: The character notices the cords running beneath the stairs.  
 
-For each power you design, identify whether it has a single target or two or more targets, and whether it is usable at-will or less frequently (for the purpose of this table, powers usable once per encounter and usable on a refresh are counted together as “surge” powers). This determines how much damage it should do, by level.  
+**Trigger** The trap is triggered when a Medium or larger creature steps onto the stairs. It must be manually reset before it triggers again.  
 
-### Type
+**Attack**   
 
-Mooks deal static damage, and in general should only target one creature with each attack.   
+*Effect* The trapped stairs make a terrible racket, alerting those nearby.  
 
-Elites should have powers that allow them to attack roughly twice as often as standard monsters. 
+**Countermeasures** 
+An adjacent character can disable the whistling stairs with a DC 18 Sleight of Hand check.
+A DC 12 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.  
 
-Bosses should have powers that allow them to attack roughly four times as often as standard monsters, or do more damage when they attack. 
+### Quicksand  
 
-### Role
+*A patch of quicksand across one or several squares, which looks just like other sandy ground.*  
 
-Creatures with the wrecker role do bonus damage on all attacks. Mooks with the wrecker role should only add half that number to their damage (round down).   
+**Level 1 Hazard Blocker** (50 XP Trap)  
 
-##### Table - Monster Level and Damage
+Nature DC 18: The character notices that the ground ahead is quicksand, and which squares are affected.  
 
-| Level | Mook Damage | At-Will Damage (Single Target) | At-Will Damage (Multi-Target) | Surge Damage (Single Target) | Surge Damage (Multi-Target) | Wrecker Bonus Damage |  
-| ----- | ----------- | ------------------------------ | ----------------------------- | ---------------------------- | --------------------------- | -------------------- |  
-| 1     | 5           | 1d10+3                         | 1d6+3                         | 2d8+3                        | 1d10+3                      | +2                   |  
-| 2     | 5           | 1d12+3                         | 1d8+3                         | 2d10+2                       | 1d12+3                      | +3                   |  
-| 3     | 6           | 1d12+4                         | 1d8+3                         | 2d10+3                       | 1d12+4                      | +3                   |  
-| 4     | 6           | 1d12+5                         | 1d8+4                         | 2d12+3                       | 1d12+5                      | +3                   |  
-| 5     | 7           | 2d8+4                          | 1d10+4                        | 2d12+4                       | 2d8+4                       | +3                   |  
-| 6     | 7           | 2d10+3                         | 1d12+4                        | 3d8+5                        | 2d10+3                      | +4                   |  
-| 7     | 8           | 2d10+4                         | 1d12+4                        | 3d10+3                       | 2d10+4                      | +4                   |  
-| 8     | 8           | 2d10+5                         | 1d12+5                        | 3d10+5                       | 2d10+5                      | +4                   |  
-| 9     | 9           | 2d12+4                         | 1d12+6                        | 4d8+5                        | 2d12+4                      | +4                   |  
-| 10    | 9           | 2d12+5                         | 2d8+5                         | 4d8+6                        | 2d12+5                      | +5                   |  
-| 11    | 10          | 3d8+5                          | 2d8+5                         | 6d6+4                        | 3d8+5                       | +5                   |  
-| 12    | 10          | 3d8+6                          | 2d8+6                         | 6d6+6                        | 3d8+6                       | +5                   |  
-| 13    | 11          | 3d8+7                          | 2d10+5                        | 4d10+6                       | 3d8+7                       | +5                   |  
-| 14    | 11          | 3d10+5                         | 2d10+6                        | 5d8+6                        | 3d10+5                      | +6                   |  
-| 15    | 12          | 3d10+6                         | 2d10+6                        | 5d8+7                        | 3d10+6                      | +6                   |  
-| 16    | 12          | 3d10+7                         | 2d10+7                        | 7d6+7                        | 3d10+7                      | +6                   |  
-| 17    | 13          | 4d8+7                          | 2d12+6                        | 4d12+7                       | 4d8+7                       | +6                   |  
-| 18    | 13          | 4d8+8                          | 2d12+7                        | 5d10+7                       | 4d8+8                       | +7                   |  
-| 19    | 14          | 6d6+6                          | 2d12+7                        | 5d10+8                       | 6d6+6                       | +7                   |  
-| 20    | 14          | 6d6+7                          | 2d12+8                        | 7d8+6                        | 6d6+7                       | +7                   |  
-| 21    | 15          | 6d6+8                          | 3d8+8                         | 7d8+7                        | 6d6+8                       | +7                   |  
-| 22    | 15          | 4d10+8                         | 3d8+9                         | 7d8+8                        | 4d10+8                      | +8                   |  
-| 23    | 16          | 5d8+8                          | 3d8+9                         | 5d12+8                       | 5d8+8                       | +8                   |  
-| 24    | 16          | 5d8+9                          | 3d8+10                        | 5d12+10                      | 5d8+9                       | +8                   |  
-| 25    | 17          | 5d8+10                         | 3d10+8                        | 8d8+8                        | 5d8+10                      | +8                   |  
-| 26    | 17          | 7d6+9                          | 3d10+9                        | 8d8+9                        | 7d6+9                       | +9                   |  
-| 27    | 18          | 4d12+9                         | 3d10+9                        | 8d8+10                       | 4d12+9                      | +9                   |  
-| 28    | 18          | 4d12+10                        | 3d10+10                       | 6d12+9                       | 4d12+10                     | +9                   |  
-| 29    | 19          | 6d8+10                         | 4d8+10                        | 6d12+10                      | 6d8+10                      | +9                   |  
-| 30    | 19          | 5d10+10                        | 4d8+11                        | 9d8+10                       | 5d10+10                     | +10                  |  
-| 31    | 20          | 5d10+11                        | 4d8+11                        | 9d8+11                       | 5d10+11                     | +10                  |  
-| 32    | 20          | 5d10+12                        | 4d8+12                        | 8d10+10                      | 5d10+12                     | +10                  |  
-| 33    | 21          | 7d8+9                          | 6d6+10                        | 8d10+11                      | 7d8+9                       | +10                  |  
-| 34    | 21          | 7d8+10                         | 6d6+11                        | 7d12+10                      | 7d8+10                      | +11                  |  
-| 35    | 22          | 7d8+11                         | 6d6+11                        | 7d12+11                      | 7d8+11                      | +11                  |  
+**Trigger** The trap attacks when a character enters one of its squares.  
+**Target** The creature that entered the trigger square.  
 
+†	**Attack**   
++4 vs Reflex  
+*Hit* The target falls into the pit and sinks 1 square down. Sinking targets are restrained. Each round, the trap makes a secondary attack against sinking creatures.  
+*Secondary Attack:* +4 vs Fortitude; the target sinks 1 square to a maximum depth of 3 squares. Targets in over their head begin to suffocate.  
+On a miss, the target rises one square. A creature that rises to the surface can move to an adjacent, unoccupied square as a free action. They are prone.  
+*Miss* Target returns to last square it occupied and its move action ends immediately  
+
+**Countermeasures** 
+A character in the pit can rise 1 square as a move action using Athletics (DC 12). 
+A character adjacent to the pit using a long item (like a ten-foot pole, rope, polearm haft or snake) to help the target escape grants the target a +2 bonus to their Athletics check.
+A character with a rope around their body can easily dive in and retrieve a drowning target.  
+
+### Snare Trap  
+
+*A noose lays on the ground. When it is disturbed, the noose tightens and a mechanism in the ceiling (or attached to a tree) yanks the target into the air.*  
+
+**Level 1 One-Off Elite Warning** (50 XP Trap)  
+
+Perception DC 12: The character notices coiled rope.
+DC 18: The character spots the noose.  
+
+**Trigger** The trap attacks when a character enters the square with the noose. It must be manually reset before it triggers again.  
+**Target** The creature that triggers the trap.  
+
+†	**Attack**   
++4 vs Reflex  
+*Hit* The target is restrained and suspended upside-down 2 squares in the air until freed (Sleight of Hand DC 8 for an ally, DC 12 for the target).  
+
+**Countermeasures** 
+A character who makes a successful Athletics check (DC 5 or DC 10 without a running start) can jump over the noose.
+An adjacent character can trigger the trap with a DC 12 Sleight of Hand check (standard action).
+An adjacent character can destroy the trap by cutting the rope  
+
+### Stinking Trench  
+
+*A thin (one-square wide, one-square deep) trench runs along several squares. It is thick on the ground with rotting matter.*  
+
+**Level 1 Hazard Blocker** (50 XP Trap)  
+
+Perception DC 5: The character notices the horrific smell coming from the trench.  
+
+**Trigger** The trap is triggered when a creature enters or begins its turn in one of the trap’s squares.  
+**Target** The creature.  
+
+†	**Attack** ● **Necrotic**  
++4 vs Fortitude  
+*Hit* The target is dazed (save ends).  
+
+**Countermeasures** 
+A character who makes a successful Athletics check (DC 5 or DC 10 without a running start) can jump over the trench.  
+
+### Arrow Trap  
+
+*An arrow shoots out from a hole across the room from the trigger of this trap.*  
+
+**Level 2 One-Off Warning** (31 XP Trap)  
+
+Perception DC 19: The character notices the small hole on the chest through which the arrow is fired.  
+
+**Trigger** The trap attacks when a character comes into contact with the trigger. It must be manually reset before it triggers again.  
+**Target** The creature that triggers the trap.  
+
+†	**Attack**   
++8 vs AC  
+*Hit* 1d10+3 damage.  
+
+**Countermeasures** 
+An adjacent character can disable the poison arrow trap with a DC 13 Sleight of Hand check.
+A DC 13 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.  
+
+### Scythe Trap  
+
+*A scythe swings out from the ceiling to attack the creature that triggers this trap.*  
+
+**Level 2 One-Off Warning** (31 XP Trap)  
+
+Perception DC 13: The character notices the scythe blade housing in the drawer  
+
+**Trigger** The trap attacks when a character comes into contact with the trigger. It must be manually reset before it triggers again.  
+**Target** The creature that triggers the trap.  
+
+†	**Attack**   
++5 vs AC  
+*Hit* 1d10+3 damage.  
+
+**Countermeasures** 
+An adjacent character can disable the scythe blade trap with a DC 13 Sleight of Hand check.
+A DC 13 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap  
+
+### Concealed Pit Trap  
+
+*A pit trap of one or more squares in area is hidden beneath a fragile surface layer, like a lattice of branches heaped with straw.*  
+
+**Level 2 Hazard Warning** (63 XP Trap)  
+
+Perception DC 13: The character notices that the squares hiding the pit trap bow in slightly.  
+
+**Trigger** The trap attacks when a character enters one of its squares. It must be manually reset to be hidden again, but in the meantime characters can enter or be forced to move into its squares.  
+**Target** The creature that entered one of the trap’s squares.  
+
+†	**Attack**   
++6 vs Reflex  
+*Hit* The target falls into the pit, takes 1d10+3 damage, and falls prone.  
+*Miss* The target returns to the last square it occupied and its move action ends immediately.  
+*Effect* The pit trap opens and the trap is no longer hidden.  
+
+**Countermeasures** 
+An adjacent character can trigger the trap with a DC 9 Sleight of Hand check.
+An adjacent character can disable the trap with a DC 13 Sleight of Hand check.
+A DC 13 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.  
+
+### Gate Spikes  
+
+*When disturbed, spikes shoot out of the top of this gate.*  
+
+**Level 2 Hazard Assassin** (63 XP Trap)  
+
+Perception DC 13: The character notices the hidden mechanism that fires the spears.  
+
+**Trigger** The trap is triggered when a character attempts to climb over the gate.  
+**Target** The creature climbing over the gate.  
+
+†	**Attack**   
++7 vs AC  
+*Hit* 1d8+3 damage.  
+
+**Countermeasures** 
+An adjacent character can disable the spears with a DC 13 Sleight of Hand check.
+A character that makes a DC 19 Athletics check to vault over the gate is outside of the spike’s reach.  
+
+### Zombie Breakout  
+
+*The arms and heads protuding of several zombies buried beneath the surface.*  
+
+**Level 2 Hazard Blocker** (63 XP Trap)  
+
+Perception DC 13: The character notices the zombie’s head and shoulders poking out of the muck.  
+Religion DC 13: The character recognizes the creature as a zombie.  
+
+**Trigger** The trap is triggered when a creature enters or begins its turn in one of the trap’s squares.  
+**Target** The creature in the zombie’s square.  
+
+†	**Attack** ● **Necrotic**  
++4 vs AC  
+*Hit* 2d6+2 necrotic damage, and the target falls prone.  
+
+**Countermeasures** 
+A character can make a DC 15 (or 30 without an running start) Athletics check to leap over the zombie without provoking an attack
+Killing the zombie removes the hazard.  
+
+### Floor Spears  
+
+*When triggered, spears jab from holes in the floor.*  
+
+**Level 2 Recurring Blocker** (125 XP Trap)  
+
+Perception DC 13: The character notices a series of holes in the ground.
+Perception DC 19: The character notices the trigger or triggers.  
+
+**Trigger** The trap attacks when a character comes into contact with the trigger. On subsequent turns, the trap attacks on the initiative count immediately following that of the creature that activated this trap.  
+**Target** All creatures.  
+
+∢	**Attack**   
+Near burst 3; +8 vs AC  
+*Hit* 1d8+3 damage.  
+
+**Countermeasures** 
+A character adjacent to the trigger can disable it with a DC 19 Sleight of Hand check.
+A successful Athletics check (DC 5, or DC 10 without a running start) allows a character to leap over the trigger.
+An adjacent character can disable the spear attack in one square with a DC 19 Sleight of Hand check.
+A DC 13 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.
+A character can ready an action to attack the spear for a square (AC 13, other defenses 10; hp 10).  
+
+### Fusillade of Javelins Trap  
+
+*Javelins are launched from a row of holes when this trap is triggered, and every round afterwards.*  
+
+**Level 2 Recurring Shooter** (125 XP Trap)  
+
+Perception DC 13: The character notices the small holes in the coffer.  
+
+**Trigger** The trap attacks when a character comes into contact with the trigger. On subsequent turns, the trap attacks on the initiative count immediately following that of the creature that activated this trap.  
+**Target** 2d4 targets in range.  
+
+↗	**Attack**   
+Ranged 10; +8 vs AC  
+*Hit* 1d4+3 damage  
+
+**Countermeasures** 
+An adjacent character can disable the trap with a DC 13 Sleight of Hand check.
+A DC 13 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.
+A character that moves more than 1 square on a turn gains a +5 bonus to AC against the trap’s needle attack.  
+
+### Rain of Darts Trap  
+
+*Darts are launched from a row of holes when this trap is triggered, and every round afterwards.*  
+
+**Level 2 Recurring Shooter** (125 XP Trap)  
+
+Perception DC 13: The character notices the small holes in the coffer.  
+
+**Trigger** The trap attacks when a character comes into contact with the trigger. On subsequent turns, the trap attacks on the initiative count immediately following that of the creature that activated this trap.  
+**Target** 1d6 targets in range.  
+
+↗	**Attack**   
+Ranged 10; +8 vs AC  
+*Hit* 1d6+3 damage  
+
+**Countermeasures** 
+An adjacent character can disable the trap with a DC 13 Sleight of Hand check.
+A DC 13 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.
+A character that moves more than 1 square on a turn gains a +5 bonus to AC against the traps dart attack.  
+
+### Double-Pike Trap  
+
+*Two pikes poke out from holes near the trigger of this trap.*  
+
+**Level 3 One-Off Warning** (38 XP Trap)  
+
+Perception DC 14: The character notices the mechanism that fires the spears.  
+
+**Trigger** The trap attacks when a character comes into contact with the trigger. It must be manually reset before it triggers again.  
+**Target** The two creatures nearest the trap  
+
+↗	**Attack**   
+Ranged 5; +6 vs AC  
+*Hit* 1d8+3 damage.  
+
+**Countermeasures** 
+An adjacent character can disable the twin-spear trap with a DC 14 Sleight of Hand check.
+A DC 14 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.  
+
+### Noxious Leak  
+
+*Flicking a lever causes noxious gas to leak from a nozzle elsewhere in the room.*  
+
+**Level 3 Recurring Shooter** (150 XP Trap)  
+
+Perception DC 14: The character notices the controls and the spigot.  
+
+**Trigger** The trap triggers when a lever is flicked as a swift action. It becomes available to use again at the start of that creature's next turn.  
+**Target** All creatures.  
+
+∢	**Attack** ● **Necrotic**  
+Near burst 3; +6 vs Fortitude  
+*Hit* 2d8+3 necrotic damage.  
+
+**Countermeasures** 
+A character can attack the spigot (AC 16, other 13; hp 34).
+A character can deactivate the control panel (DC 20 Sleight of Hand). If the character fails the check by 10 or more, the control panel explodes (near arc 3, +6 vs Reflex (all creatures); on a hit, 2d6+3 lightning damage) and the trap triggers every turn for the remainder of the encounter.  
+
+### Rusty Water Tower  
+
+*A fragile water tower will collapse if disturbed.*  
+
+**Level 5 One-Off Elite Assassin** (100 XP Trap)  
+
+Perception DC 15: The character notices that the water tower is damaged.
+DC 22: The character realizes that a sharp blow will bring most of it down.  
+
+**Trigger** The trap is triggered by any attack directly against the scaffolding, any movement (forced or otherwise) into the scaffolding, or any area effect that encompasses the scaffolding’s supports.  
+**Target** All creatures.  
+
+∢	**Attack**   
+Near burst 5; +8 vs Reflex  
+*Hit* 3d8+4 damage,  and the target is knocked prone.  
+*Miss* Half damage.  
+*Effect* All squares in the burst become difficult terrain.  
+
+**Countermeasures** 
+A character can trigger the scaffolding from far away by attacking it (AC 15, other defenses 12).
+A character who his aware that the scaffolding may collapse, may make a DC 15 Dungeoneering roll to know which squares will be affected by its collapse.  
+
+### Acid Spear  
+
+*When triggered, a hollow spear full of acid is dropped on the target, spearing them to the ground. Characters may assume it is a one-off trap, but in fact there is a large reserve of such spears and they keep firing each round.*  
+
+**Level 5 Recurring Warning** (200 XP Trap)  
+
+Perception DC 15: The character notices the disguised hole in the ceiling through which the spear is fired.
+DC 22: The character notices the acid burn marks in the square targeted by the trap.  
+
+**Trigger** The trap attacks when a character comes into contact with the trigger. On subsequent turns, the trap attacks on the initiative count immediately following that of the creature that activated this trap.  
+**Target** The closest creature in a straight line from the trigger (if any).  
+
+↗	**Attack** ● **Acid**  
+Ranged 5; +8 vs AC  
+*Hit* 2d6+5 damage,  and the target is immobile and takes persistent 5 acid damage (save ends both).  
+
+**Countermeasures** 
+An adjacent character can disable the acid spear trap with a DC 15 Sleight of Hand check.
+A DC 15 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.
+An adjacent character can assist an ally immobilized by the trap as a standard action with a DC 15 Athletics check, granting the victim a +2 bonus to their saving throw against the trap.  
+
+### Phase Spider Venom Needle Trap  
+
+*A needle tipped in phase spider venom fires from this trigger when it is touched.*  
+
+**Level 6 One-Off Warning** (63 XP Trap)  
+
+Perception DC 16: The character notices the needle mechanism inside the lock.  
+
+**Trigger** The trap attacks when a character comes into contact with the trigger. It must be manually reset before it triggers again.  
+**Target** The creature that triggers the trap.  
+
+†	**Attack** ● **Poison**  
++8 vs Fortitude  
+*Hit* The target takes 5 persistent poison damage and is slowed (save ends both).  
+
+**Special** You can create other poison needle traps by taking a poison and setting its attack to +2 + the poison's level. The trap's level is equal to the poison's level.  
+
+**Countermeasures** 
+An adjacent character can disable the needle trap with a DC 16 Sleight of Hand check.
+A DC 16 Dungeoneering check grants the party a +2 bonus to Sleight of Hand checks to delay or disable the trap.  
+
+### Screaming Sarcophagus  
+
+*A screeching ghost rises from this sacrophagus when it is disturbed.*  
+
+**Level 7 Recurring Elite Warning** (600 XP Trap)  
+
+Arcana or Religion DC 16: The character notices a small glyph carved into the lid of the sarcophagus, barely distinguishable from the other decorations.  
+
+**Trigger** The trap attacks when a character comes into contact with the trigger. On subsequent turns, the trap attacks on the initiative count immediately following that of the creature that activated this trap.  
+**Target** All creatures.  
+
+∢	**Attack** ● **Psychic**  
+Near burst 1; +10 vs Will  
+*Hit* 4d6+4 psychic damage,  and the target is dazed (save ends).  
+*Aftereffect:* 4d6+4 psychic damage.  
+
+**Countermeasures** 
+An adjacent character can disable the glyph with a DC 23 Arcana or Religion check.  
+
+### Mosaic Trap  
+
+*The characters must press certain tiles in this ceiling mosaic in the correct order or the roof will collapse on them.*  
+
+**Level 8 One-Off Shooter** (100 XP Trap)  
+
+Perception DC 17: The character notices that the mosaic tiles seem conspicuously loose.  
+
+**Trigger** The trap attacks when a character comes into contact with the trigger. It must be manually reset before it triggers again.  
+**Target** All creatures.  
+
+∢	**Attack**   
+Near burst 5; +11 vs Reflex  
+*Hit* 3d8+4 damage, and the target takes persistent 5 damage (save ends).  
+
+**Countermeasures** 
+An adjacent character can disable the trap with a DC 17 Sleight of Hand check.  
+
+### Bolt from the Blue  
+
+*Three metal rods generate a field of static electricity when disturbed.*  
+
+**Level 8 Recurring Elite Shooter** (700 XP Trap)  
+
+Perception DC 17: The character notices three short metal rods inset in small holes on the door. The rods extend and generate bolts of lightning when the trap is triggered.  
+
+**Trigger** The trap attacks when a character comes into contact with the trigger. On subsequent turns, the trap attacks on the initiative count immediately following that of the creature that activated this trap.  
+**Target** All creatures.  
+
+∢	**Attack** ● **Lightning**  
+Near arc 5; +11 vs Reflex  
+*Hit* 3d8+4 lightning damage and persistent 5 lightning damage (save ends).  
+*Miss* Half damage, and no persistent damage.  
+
+**Countermeasures** 
+An adjacent character can disable a lightning rod with a DC 17 Sleight of Hand check, reducing the size of the burst by 2 squares for each rod disabled. Once all three are disabled, the trap is disabled.  
+
+### Plume of Flame  
+
+*When triggered, a blast of fire issues from six nozzles around the room. These nozzles keep blasting flame until disabled.*  
+
+**Level 8 Recurring Elite Shooter** (700 XP Trap)  
+
+Perception DC 17: The character notices 6 small, recessed nozzles.  
+
+**Trigger** The trap attacks when a character comes into contact with the trigger. On subsequent turns, the trap attacks on the initiative count immediately following that of the creature that activated this trap.  
+**Target** All creatures.  
+
+∢	**Attack** ● **Fire**  
+Near arc 6; +11 vs Reflex  
+*Hit* 3d8+4 fire damage,  and persistent 5 fire damage (save ends).  
+
+**Countermeasures** 
+An adjacent character can disable a single nozzle with a DC 17 Sleight of Hand check, reducing the arc area by 2 for each nozzle disabled.  
+
+### Shadow Bite Trap  
+
+*A statue of a grimacing face, mouth wide open, is attached around the knob of a locked door. It bites down on anyone who fails to pick the lock.*  
+
+**Level 9 One-Off Elite Warning** (200 XP Trap)  
+
+Perception DC 18: The character notices the hinges that bring the jaws slamming shut.  
+
+**Trigger** The trap attacks when a character places a limb inside the maw and fails to pick the lock at the back of the maw.  
+**Target** The creature that placed a limb inside the maw.  
+
+†	**Attack** ● **Poison**  
++12 vs AC  
+*Hit* 1d8+2 damage, and the target is grappled. The trap makes a secondary attack against the target.  
+*Secondary Attack:* +10 vs Fortitude,  the target is injected with shadowstuff toxin (see Afflictions for details).  
+*Miss* Half damage, and the target is grappled (but there is no secondary attack).  
+
+**Countermeasures** 
+An adjacent character can disable the trap with a DC 18 Sleight of Hand check.
+A character making a DC 18 Athletics check can pry open the maw, or hold it open so that it cannot slam shut.  
+
+### Acid Slime Patch  
+
+*A patch of green slime runs along the ceiling above several squares.*  
+
+**Level 10 Hazard Assassin** (250 XP Trap)  
+
+Perception DC 19: The character notices the acid slime on the ceiling.  
+
+**Trigger** The trap is triggered when a creature enters or begins its turn in one of the trap’s squares.  
+**Target** The creature beneath the patch of acid slime.  
+
+↗	**Attack** ● **Acid**  
+Ranged 5; +13 vs Reflex  
+*Hit* 1d12+6 acid damage,  and the acid slime makes a secondary attack against the same target.  
+*Secondary Attack:* +11 vs. Fortitude; the target takes persistent 5 acid damage (save ends).  
+
+**Countermeasures** 
+Acid slime can simply be avoided if detected early enough.
+A character can attack an acid slime patch (AC 5, other defenses 10) with fire-based attacks. A patch is destroyed if 10 points of fire damage are inflicted upon it.  
+
+### Dwarf-Ward Rune  
+
+*If a non-dwarf passes this magic rune, it glows and releases a blast of force.*  
+
+**Level 10 One-Off Elite Warning** (500 XP Trap)  
+
+Perception DC 19: The character notices the faint rune.
+Arcana DC 19: The character notices the rune and provides a +2 bonus to Sleight of Hand checks to disable the trap.  
+
+**Trigger** The trap attacks when a non-dwarf comes into contact with the trigger. It must be manually reset before it triggers again.  
+**Target** All creatures.  
+
+∢	**Attack** ● **Force**  
+Near burst 5; +13 vs Reflex  
+*Hit* 4d8+5 force damage.  
+
+**Countermeasures** 
+An adjacent character can disable the trap with a DC 26 Sleight of Hand check.  
+
+### Rickety Old Bridge  
+
+*This bridge over a ravine is old and weak, and in danger of collapse.*  
+
+**Level 10 One-Off Elite Blocker** (500 XP Trap)  
+
+Perception DC 19: The character notices that the wooden planks in the center of the bridge are loose.  
+
+**Trigger** The trap is triggered when a creature enters one of the trap’s squares.  
+**Target** All creatures on the bridge.  
+
+**Attack**   
+
+*Effect* The targets fall into the ravine, take 7d10 falling damage, and are knocked prone. The bridge is destroyed.  
+
+**Countermeasures** 
+An adjacent character can disable the trap with a DC 26 Sleight of Hand check.
+A character can attempt to leap over the trapped squares, requiring a DC 20 Athletics check with a running start, or a DC 40 Athletics check without a running start.
+There is a narrow path around the trapped squares of the bridge that can be negotiated with a DC 19 Acrobatics check. A character failing this check by 5 or less triggers the trap, a character failing by 5 or more falls from the bridge into the ravine below (7d10 falling damage).  
+
+# Afflictions
+
+Afflictions are long term, negative effects that characters can suffer from. A creature experiences the negative effects of the stage of the affliction that they are at, plus all earlier stages of the affliction. A creature that reaches stage 0 of its affliction is cured, and loses the affliction. 
+
+## Transmission
+
+Afflictions like poisons and diseases are usually transmitted in one of the four following ways. Afflictions like curses can, of course, be transmitted in all sorts of other ways. 
+
+### Contact
+
+Merely touching this type of affliction exposes the creature. 
+
+### Ingested
+
+Ingested afflictions are virtually impossible to utilize in a combat situation. A poisoner could administer a potion to an unconscious creature or attempt to dupe someone into drinking or eating something poisoned. A chest or other object can be smeared with contact poison as part of a trap. 
+
+### Inhaled
+
+Inhaled afflictions do not affect those that do not breathe. However, holding one’s breath is ineffective against most inhaled afflictions; they  affect the nasal membranes, tear ducts, and other parts of the body as well as the lungs.
+
+### Injury
+
+This affliction must be delivered through a wound. Traps that cause damage from weapons, needles, and the like  sometimes contain injury poisons.
+
+A contact or injury poison applied to a weapon is transmitted to the target the next time an attack with that weapon hits, provided there is such a hit within 5 minutes of application. 
+
+### Curse of Lycanthropy (Curse)  
+
+*Level X (this disease is of the same level as the creature that inflicted it).*  
+
+Lycanthropes are humanoids who can transform themselves into animals. In its natural form, a lycanthrope looks like any other members of its kind, though natural lycanthropes and those who have been afflicted for a long time tend to have or acquire features reminiscent of their animal forms. In animal form, a lycanthrope resembles a powerful version of the normal animal, but on close inspection, its eyes (which often glow red in the dark) show a faint spark of unnatural intelligence.  
+
+Lycanthropy can be spread like a disease, typically from the bites of lycanthropes.    
+
+**Infection:** One day after a humanoid creature is bitten by a lycanthrope, the creature must succeed on a saving throw or become infected. The creature begins on stage 1.
+
+**Progression:** It takes until the next full moon for lycanthropy's symptoms to manifest in an infected creature. Symptoms include heavy hair growth, irritability and a taste for raw meat.  
+
+Each time there is a full moon, an infected creature must make an Endure check (DC 14 + the level of the disease). If they fail, they get one stage worse. If they beat the DC by 5 or more, they get one stage better. Otherwise, they remain at the same stage. If the infected creature reaches stage 3, they remain at that stage until specially treated.  
+
+* *Stage 1:* If the infected creature is adjacent to an enemy, the creature cannot willingly move away from that enemy.   
+* *Stage 2:* If the infected creature is adjacent to an enemy, the creature cannot willingly move away from that enemy. The infected creature cannot use powers that target allies.   
+* *Stage 3:* The infected creature becomes a lycanthrope. They can use the *hybrid shape* power. When under the light of the full moon, they must use *hybrid shape*, and can do so even if it is expended. 
+
+### Sewer Plague (Disease)  
+
+*Level 3*  
+
+Sewer plague is a generic term for a broad category of illnesses that incubate in sewers, refuse heaps, and stagnant swamps, and which are sometimes transmitted by creatures that dwell in those areas, such as rats and otyughs.  
+
+**Infection:** Five minutes after a humanoid creature is bitten by a creature that carries the disease, or comes into contact with filth or offal contaminated by the disease, the creature must succeed on a saving throw or become infected. The creature begins at stage 1.
+
+**Progression:** It takes 1d4 days for sewer plague's symptoms to manifest in an infected creature. Symptoms include fatigue and cramps. The creature begins on stage 1.   
+
+At the end of each long rest, an infected creature must make an Endure check (DC 16). If they fail, they get one stage worse. If they beat the DC by 5 or more, they get one stage better. Otherwise, they remain at the same stage. If the infected creature reaches stage 3, they remain at that stage until specially treated.  
+
+* *Stage 1:* The infected creature does not recover spent recoveries.  
+* *Stage 2:* The infected creature does not recover spent recoveries, cannot heal above its Staggered threshold.   
+* *Stage 3:* The infected creature does not recover spent recoveries and cannot heal by any means.   
+
+### Shadowstuff Toxin (Poison)  
+
+*Level 7*   
+
+**Infection:** A creature that makes contact with or is hit with a weapon coated with shadowstuff toxin is subject to a +10 attack vs Fortitude. If hit, they are afflicted. The creature begins on stage 1.
+
+**Progression:** Each hour the target must make a saving throw.  If they fail, they get one stage worse. If they succeed, they make no further saving throws but stay at their current stage until an antidote is administered.  
+
+* *Stage 1:* Victim's skin and eyes turn grey.  
+
+* *Stage 2:* Shadows cling to the victim; +2 to Stealth.  
+
+* *Stage 3:* Victim can no longer be healed beyond staggered.   
+
+* *Stage 4:* Victim begins to flicker from existence; +2 bonus to AC.   
+
+* *Stage 5:* The character ceases to exist and can only be returned to life by powerful magic.   
+
+**Cost:** 104 gp per dose  
+
+### Cackle Fever (Disease)  
+
+*Level 12*  
+
+This disease targets humanoids, although gnomes are strangely immune. While in the grips of this disease, victims frequently succumb to fits of hysterical laughter, giving the disease its common name and its morbid nickname: “the shrieks.”  
+
+**Infection:** Any humanoid creature that starts its turn within 2 squares of an infected creature in the throes of hysterical laughter (see stage 2) suffers a +16 attack vs Fortitude. On a hit, it is infected with the disease. On a miss, it is immune to the hysterical laughter of that particular infected creature for 24 hours.  
+
+**Progression:** Symptoms manifest 1d4 hours after infection and include fever and disorientation. The infected creature loses one recovery that cannot be restored until the disease is cured. The creature begins on stage 1.
+
+At the end of each long rest, an infected creature must make an Endure check (DC 25). If they fail, they get one stage worse. If they beat the DC by 5 or more, they get one stage better. Otherwise, they remain at the same stage. If the infected creature reaches stage 3, they remain at that stage until specially treated.   
+
+* *Stage 1:* The creature is prone to giggling and finds it hard to concentrate (-2 penalty on all Intelligence, Wisdom and Charisma skill checks).
+* *Stage 2:* Any event that causes the infected creature great stress – including entering combat, taking damage, experiencing fear, or having a nightmare – forces the creature to make a saving throw. On a failed save, the creature takes 2d10 psychic damage and becomes incapacitated with hysterical laughter (save ends).   
+* *Stage 3:* As stage 2, but the infected creature no longer makes Endure checks that might improve the affliction.  
+
+### Sight Rot (Disease)  
+
+*Level 9*  
+
+This painful infection causes bleeding from the eyes and eventually blinds the victim.  
+
+**Infection:** One day after a beast or humanoid drinks water tainted by sight rot, they suffer a +12 attack vs Fortitude. On a hit, they are infected with the disease (beginning on stage 1). 
+
+**Progression:** The creature's vision starts to become blurry.   
+
+At the end of each long rest, an infected creature must make an Endure check (DC 22). If they fail, they get one stage worse. If they beat the DC by 5 or more, they get one stage better. Otherwise, they remain at the same stage. If the infected creature reaches stage 3, they remain at that stage until specially treated.   
+
+* *Stage 1:* The creature suffers a -2 penalty to attack rolls and Perception checks.  
+* *Stage 2:* The creature suffers a -4 penalty to attack rolls and Perception checks.   
+* *Stage 3:* The creature is blinded until treated.  
+
+**Treatment:** Sight rot can be cured using a rare flower called Eyebright, which grows in some swamps. Given an hour, a character trained in Nature can turn the flower into one dose of ointment. Applied to the eyes before a long rest, one dose of it prevents the disease from worsening after that rest. After three doses, the ointment cures the disease entirely.  
+
+# Terrain
+
+## Pools of Chaos
+
+*Level 3*
+
+Pools of chaos are composed of raw, seething primal chaos. Proximity to a pool of chaos may bring about strange changes over time, while direct contact with the raw chaos is even quicker. 
+
+**Changes to inanimate matter:** While immediate contact with a pit of chaos is instantly transformative, even near proximity to a pit will slowly transform objects and creatures. Objects (or portions of objects) within 20 squares of a pit of chaos have a chance of alteration as follows:
+
+* 50 percent chance on contact, and each round after
+* 10 percent chance after the first hour
+* 5 percent chance after the first 24 hours
+* 5 percent chance after the first month
+* 5 percent chance after the first year
+* 5 percent chance each year thereafter
+
+These percentage chances are not cumulative.
+
+When something is changed, half the time its material changes and the other half of the time its shape or texture changes. Use the Material Changes and Shape/Texture Changes tables to determine the specific type of change.
+
+Generally these alterations cannot be reversed or repaired except through the use of an art. 
+
+##### Table – Material Changes
+
+| d%    | Material                            |
+| ----- | ----------------------------------- |
+| 01-05 | Wood                                |
+| 06-10 | Iron                                |
+| 11-13 | Gold                                |
+| 14-16 | Silver                              |
+| 17-19 | Brass                               |
+| 20-22 | Copper                              |
+| 23-25 | Lead                                |
+| 26-30 | Leather                             |
+| 31-35 | Cloth                               |
+| 36-40 | Paper                               |
+| 41-50 | Hard stone                          |
+| 51-55 | Brittle stone                       |
+| 56-60 | Glass                               |
+| 61-62 | Ice (10% chance of being unmelting) |
+| 63-64 | Ooze/paste                          |
+| 65    | Wax                                 |
+| 66-70 | Water                               |
+| 71-73 | Oil                                 |
+| 74    | Blood                               |
+| 75    | Bone                                |
+| 76-78 | Acid                                |
+| 79    | Poisonous liquid                    |
+| 80-86 | Inert vapor                         |
+| 87-90 | Poisonous vapor                     |
+| 91    | Lava                                |
+| 92-93 | Food (bread, meat, soup, etc.)      |
+| 94-00 | Roll again twice                    |
+
+##### Table – Shape/Texture Changes
+
+| d%    | Shape/Texture                                            |
+| ----- | -------------------------------------------------------- |
+| 01-15 | Surface becomes smooth as glass                          |
+| 16-30 | Surface becomes rough and jagged                         |
+| 31-35 | Surface becomes spiky                                    |
+| 36-45 | Enlarges (x2d10 in size)                                 |
+| 46-55 | Shrinks (d% of original)                                 |
+| 56-70 | Warps                                                    |
+| 71-80 | Grows appendage/extension/addition (d% of original size) |
+| 81-85 | Liquifies                                                |
+| 86-89 | Shape changes entirely                                   |
+| 90-00 | Roll again twice                                         |
+
+**Changes to creatures:** Living creatures suffer a +7 attack vs Fortitude each time the following occurs:
+
+*Contact:*
+
+* On contact, and each round after
+
+*After spending time within 20 squares of a pit of chaos:*
+
+* After the first hour
+* After the first 24 hours
+* After the first month
+* After the first year
+* After each year thereafter
+
+On a hit, use the *Physical Changes* table to determine the specific type of change.
+
+Generally these alterations cannot be reversed or repaired except through the use of an incantation. 
+
+##### Table – Physical Changes
+
+| d%    | Physical Change                                              |
+| ----- | ------------------------------------------------------------ |
+| 01-15 | Skin changes color                                           |
+| 16-25 | Hair changes color                                           |
+| 26-30 | Skin changes texture                                         |
+| 31-35 | One or two limbs are twisted and useless                     |
+| 36-40 | One or two limbs are enlarged                                |
+| 41-50 | Enlarges (increase one size)                                 |
+| 51-60 | Shrinks (decrease one size)                                  |
+| 61-65 | Grows one or two additional, useless limbs                   |
+| 66-70 | Grows one or two additional, usable limbs                    |
+| 71-73 | Loses one or more eyes                                       |
+| 74-76 | Gains one or more eyes                                       |
+| 77-80 | Portion of creature turns to inanimate matter (roll for material; suffers 1d12+3 points of damage) |
+| 81-85 | Portion of creature liquifies, vaporizes, or alters into untenable shape (suffers 1d12+3 points of damage) |
+| 85-90 | Creature polymorphs into an entirely different, random, creature |
+| 91-00 | Roll again twice                                             |
+
+**Spellcasting near a pool of chaos:** Using incantations or arcane powers within 20 squares of a pit of chaos is a risky proposition. To successfully cast the spell the caster must attempt an Arcana check (DC 10 plus half the level of the power or incantation). If this check fails, roll on the Spellcasting Changes table to determine how the spell’s effect is changed. Some results have multiple entries – choose the first one which applies.
+
+##### Table – Spellcasting Changes
+
+| d%    | Change to the Spell Effect                                   |
+| ----- | ------------------------------------------------------------ |
+| 01-20 | Spell target(s) or those within the area of effect are affected as if they made contact with a pool of chaos. |
+| 21-50 | Near and Far spells have a random area within range (and random targets within that area where relevant). Melee and ranged spells choose targets randomly from those within range. Spells with a range of self instead target a random creature within 6 squares. |
+| 51-70 | Damage-inflicting spells heal instead of harm. Penalties become bonuses and vice versa. Effects become their opposites, if applicable. |
+| 71-85 | Spell energy goes wild, becoming a random spell of the same level, keeping target the same if possible. |
+| 86-00 | Spell energy surges uncontrollably, exploding in a Near burst 10. +7 attack vs Reflex; on a hit, 1d12+3 force damage. |
 
 # Legal  
 

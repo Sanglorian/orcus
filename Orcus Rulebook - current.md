@@ -310,6 +310,494 @@ Roll 4d6 for each of the six ability scores (Strength, Constitution, Dexterity, 
 
 Assign 16, 14, 14, 12, 11 and 8, one each to the six ability scores.   
 
+# Skills  
+
+A skill check tests a character's or monster's innate talent and training in an effort to overcome a challenge. The GM calls for a skill check when a character or monster attempts an action (other than an attack) that has a chance of failure. When the outcome is uncertain, the dice determine the results.  
+
+**Using Skills**: To make a skill check, roll:  
+
+**1d20 + skill modifier (Skill modifier = +5 if you are trained in the skill + ability modifier + miscellaneous modifiers)**  
+
+This roll works just like an attack roll – the higher the roll, the better. Either you’re trying to match or exceed a certain Difficulty Class (DC), or you’re trying to beat another character’s check result.  
+
+**Ability Modifier**: The ability modifier used in a skill check is the modifier for the skill’s key ability (the ability associated with the skill’s use). The key ability of each skill is noted in its description.  
+
+**Miscellaneous Modifiers**: Miscellaneous modifiers include ancestry bonuses, armor check penalties, and bonuses provided by feats, among others.  
+
+## Using Skills  
+
+When your character uses a skill, you make a skill check to see how well they do. The higher the result of the skill check, the better. Based on the circumstances, your result must match or beat a particular number (a DC or the result of an opposed skill check) for the check to be successful. The harder the task, the higher the number you need to roll.  
+
+Circumstances can affect your check. A character who is free to work without distractions can make a careful attempt and avoid simple mistakes. A character who has lots of time can try over and over again, thereby assuring the best outcome. If others help, the character may succeed where otherwise they would fail.  
+
+## Skill Checks  
+
+A skill check takes into account a character’s training (skill training), natural talent (ability modifier), and luck (the die roll). It may also take into account their ancestry's knack for doing certain things (ancestry bonus) or what armor they are wearing (armor check penalty), or a certain feat the character possesses, among other things.  
+
+To make a skill check, roll 1d20 and add your character’s skill modifier for that skill. The skill modifier incorporates the character’s ranks in that skill and the ability modifier for that skill’s key ability, plus any other miscellaneous modifiers that may apply, including ancestry bonuses and armor check penalties. The higher the result, the better. Unlike with attack rolls and saving throws, a natural roll of 20 on the d20 is not an automatic success, and a natural roll of 1 is not an automatic failure.  
+
+### Difficulty Class  
+
+Some checks are made against a Difficulty Class (DC). The DC is a number (set using the skill rules as a guideline) that you must score as a result on your skill check in order to succeed.  
+
+##### Table – Recommended Difficulty Classes by Level
+
+| Level | Easy | Moderate | Hard |
+| ----- | ---- | -------- | ---- |
+| 1     | 8    | 12       | 18   |
+| 2     | 9    | 13       | 19   |
+| 3     | 9    | 14       | 20   |
+| 4     | 10   | 14       | 21   |
+| 5     | 10   | 15       | 22   |
+| 6     | 11   | 16       | 22   |
+| 7     | 11   | 16       | 23   |
+| 8     | 12   | 17       | 24   |
+| 9     | 12   | 18       | 25   |
+| 10    | 13   | 19       | 26   |
+| 11    | 13   | 19       | 26   |
+| 12    | 14   | 20       | 27   |
+| 13    | 14   | 21       | 28   |
+| 14    | 15   | 21       | 29   |
+| 15    | 15   | 22       | 30   |
+| 16    | 16   | 23       | 30   |
+| 17    | 16   | 23       | 31   |
+| 18    | 17   | 24       | 32   |
+| 19    | 17   | 25       | 33   |
+| 20    | 18   | 26       | 34   |
+| 21    | 18   | 26       | 34   |
+| 22    | 19   | 27       | 35   |
+| 23    | 19   | 28       | 36   |
+| 24    | 20   | 28       | 37   |
+| 25    | 20   | 29       | 38   |
+| 26    | 21   | 30       | 38   |
+| 27    | 21   | 30       | 39   |
+| 28    | 22   | 31       | 40   |
+| 29    | 22   | 32       | 41   |
+| 30    | 23   | 33       | 42   |
+
+### Opposed Checks  
+
+An opposed check is a check whose success or failure is determined by comparing the check result to another character’s check result. In an opposed check, the higher result succeeds, while the lower result fails. In case of a tie, the higher skill modifier wins. If these scores are the same, roll again to break the tie.  
+
+### Trying Again  
+
+In general, you can try a skill check again if you fail, and you can keep trying indefinitely. Some skills, however, have consequences of failure that must be taken into account. A few skills are virtually useless once a check has failed on an attempt to accomplish a particular task. For most skills, when a character has succeeded once at a given task, additional successes are meaningless.  
+
+### Untrained Skill Checks  
+
+Generally, if your character attempts to use a skill they do not possess, you make a skill check as normal. The skill modifier doesn’t have a skill training bonus added. Any other applicable modifiers, such as the modifier for the skill’s key ability, are applied to the check.  
+
+Certain uses of some skills are only available to someone who is trained in that skill.  
+
+### Favorable and Unfavorable Conditions  
+
+Some situations may make a skill easier or harder to use, resulting in a bonus or penalty to the skill modifier for a skill check or a change to the DC of the skill check.  
+
+The chance of success can be altered in four ways to take into account exceptional circumstances.  
+
+1.  Give the skill user a +2 circumstance bonus to represent conditions that improve performance, such as having the perfect tool for the job, getting help from another character (see Combining Skill Attempts), or possessing unusually accurate information.  
+2.  Give the skill user a –2 circumstance penalty to represent conditions that hamper performance, such as being forced to use improvised tools or having misleading information.  
+3.  Reduce the DC by 2 to represent circumstances that make the task easier, such as having a friendly audience or doing work that can be subpar.  
+4.  Increase the DC by 2 to represent circumstances that make the task harder, such as having an uncooperative audience or doing work that must be flawless.  
+
+Conditions that affect your character’s ability to perform the skill change the skill modifier. Conditions that modify how well the character has to perform the skill to succeed change the DC. A bonus to the skill modifier and a reduction in the check’s DC have the same result: They create a better chance of success. But they represent different circumstances, and sometimes that difference is important.  
+
+### Time and Skill Checks  
+
+Using a skill might take a round, take no time, or take several rounds or even longer. Most skill uses are standard actions or move actions. Types of actions define how long activities take to perform within the framework of a combat round (6 seconds) and how movement is treated with respect to the activity. Some skill checks are instant and represent reactions to an event, or are included as part of an action. These skill checks are not actions. Other skill checks represent part of movement.  
+
+### Checks without Rolls  
+
+A skill check represents an attempt to accomplish some goal, usually while under some sort of time pressure or distraction. Sometimes, though, a character can use a skill under more favorable conditions and eliminate the luck factor.  
+
+**Taking 10**: When your character is not being threatened or distracted, you may choose to take 10. Instead of rolling 1d20 for the skill check, calculate your result as if you had rolled a 10. For many routine tasks, taking 10 makes them automatically successful. Distractions or threats (such as combat) make it impossible for a character to take 10. In most cases, taking 10 is purely a safety measure – you know (or expect) that an average roll will succeed but fear that a poor roll might fail, so you elect to settle for the average roll (a 10). Taking 10 is especially useful in situations where a particularly high roll wouldn’t help.  
+
+**Ability Checks**: The normal take 10 rules apply for ability checks.  
+
+**Passive Checks**: A passive check is a special kind of ability check that doesn't involve any die rolls. Such a check can represent the average result for a task done repeatedly, such as searching for secret doors over and over again, or can be used when the GM wants to secretly determine whether the characters succeed at something without rolling dice, such as noticing a hidden monster.  
+
+Here's how to determine a character's total for a passive check:  
+
+10 + all modifiers that normally apply to the check  
+
+The game refers to a passive check total as a **score**.  
+
+For example, if a 1st-level character has a Wisdom of 15 and training in Perception, they have a passive Perception score of 17.  
+
+## Combining Skill Attempts  
+
+When more than one character tries the same skill at the same time and for the same purpose, their efforts may overlap.  
+
+### Group Checks  
+
+When a number of individuals are trying to accomplish something as a group, the GM might ask for a group check. In such a situation, the characters who are skilled at a particular task help cover those who aren't.  
+
+To make a group check, everyone in the group makes the skill check (or, in rare cases, the ability check). If at least half the group succeeds, the whole group succeeds. Otherwise, the group fails.  
+
+Group checks don't come up very often, and they're most useful when all the characters succeed or fail as a group. For example, when adventurers are navigating a swamp, the GM might call for a Nature group check to see if the characters can avoid the quicksand, sinkholes, and other natural hazards of the environment. If at least half the group succeeds, the successful characters are able to guide their companions out of danger. Otherwise, the group stumbles into one of these hazards.  
+
+### Aid Another  
+
+You can help another character achieve success on their skill or ability check by making the same kind of check in a cooperative effort. The DC is 10 + half your level. If you succeed, the character you are helping gets a +2 bonus to their check. If you fail, the character you are helping gets a -1 penalty to their check.   
+
+In many cases, a character’s help won’t be beneficial, or only a limited number of characters can help at once.  
+
+In cases where the skill restricts who can achieve certain results you can’t aid another to grant a bonus to a task that your character couldn’t achieve alone.  
+
+### Contests  
+
+Sometimes one character’s or monster’s efforts are directly opposed to another’s. This can occur when both of them are trying to do the same thing and only one can succeed, such as attempting to snatch up a magic ring that has fallen on the floor. This situation also applies when one of them is trying to prevent the other one from accomplishing a goal—for example, when a monster tries to force open a door that an adventurer is holding closed. In contests like these, the outcome is determined by an opposed check.  
+
+An opposed check is a check whose success or failure is determined by comparing the check result to another character’s check result. In an opposed check, the higher result succeeds, while the lower result fails. In case of a tie, the higher check modifier wins. If these scores are the same, roll again to break the tie.  
+
+## Ability Checks  
+
+Sometimes a character tries to do something to which no specific skill really applies. In these cases, you make an ability check. An ability check is a roll of 1d20 plus the appropriate ability modifier. Essentially, you’re making an untrained skill check.  
+
+In some cases, what is needed is a straight test of one’s ability with no luck involved. Just as you wouldn’t make a height check to see who is taller, you don’t make a Strength check to see who is stronger.  
+
+## Skill List
+
+ follows is a description of each skill, including which ability modifies the skill and common uses for the skill. Characters can sometimes use skills for purposes other than those noted here. 
+
+The skills are:
+
+* Acrobatics (Dex, Armor Check Penalty)  
+* Arcana (Int)  
+* Athletics (Str, Armor Check Penalty)  
+* Bluff (Cha)  
+* Diplomacy (Cha)  
+* Dungeoneering (Wis)   
+* Endure (Con, Armor Check Penalty)  
+* Heal (Wis)  
+* History (Int)  
+* Insight (Wis)  
+* Intimidate (Cha)  
+* Perception (Wis)  
+* Religion (Int)  
+* Sleight of Hand (Dex, Armor Check Penalty)  
+* Stealth (Dex, Armor Check Penalty)   
+* Streetsmarts (Cha)  
+
+**Trained Only**: If this notation is included for an example use, you must be trained in the skill to use it. If it is omitted, the skill can be used untrained. 
+
+**Armor Check Penalty**: If this notation is included in the skill name line, an armor check penalty applies (when appropriate) to checks using this skill. If this entry is absent, an armor check penalty does not apply. 
+
+### Knowledge  
+
+Five skills – Arcana, Dungeoneering, History, Nature and Religion – can be used to test a character's knowledge about a particular topic. General knowledge should have an Easy DC, knowledge that is based on specialization in a field a Moderate DC and obscure, hidden or secret knowledge a Hard DC.   
+
+### Monster Knowledge  
+
+To test what you know about a monster, make a skill check against a Moderate DC (using the level of the monster, not the player character, to determine the DC). On a success, you learn its name, ancestry, type, tags and standard temperament.
+
+If you also beat the Hard DC, you also learn its powers, its resistances and immunities and its vulnerabilities.
+
+Use Arcana for elemental, fey and shadow creatures, and creatures with the construct tag. Use Dungeoneering for aberration creatures. Use Religion for outsider creatures, and creatures with the undead tag. Use Nature for natural creatures.  
+
+### Variant: Skills with Different Abilities  
+
+Normally, a set ability modifier applies to all checks with a particular skill. For example, Athletics checks add your Strength modifier.   
+
+In some situations, though, a different ability might reasonably apply. In such cases, the GM might ask for a check using an unusual combination of ability and skill, or you might ask your GM if you can apply a different modifier.   
+
+## Acrobatics (Dex)  
+
+*Armor Check Penalty applies*
+
+Acrobatics covers your attempt to stay on your feet in a tricky situation, such as when you're trying to run across a sheet of ice, balance on a tightrope, or stay upright on a rocking ship's deck. The GM might also call for an Acrobatics check to see if you can perform acrobatic stunts, including dives, rolls, somersaults, and flips.  
+
+### Balance  
+
+You can walk on a precarious surface. A successful check lets you move at half your speed along the surface for 1 round. A failure by 4 or less means you can’t move for the rest of the action. A failure by 5 or more means you fall. The difficulty varies with the surface.  
+
+_Being Attacked while Balancing_: If you take damage while balancing, you must make another Acrobatics check against the same DC to remain standing.  
+
+### Escape Restraints  
+
+Your Acrobatics check is opposed by a DC based on the type of restraint. It takes five minutes, or a standard action if you take a -10 penalty on the check. If you fail the check, you can only try again if someone is in a position to assist you with Aid Another.   
+
+### Escape a Grapple  
+
+See the Escape action.   
+
+### Fall with Style (Trained Only)  
+
+Make an Acrobatics check while falling to reduce damage. You take less damage equal to half the Acrobatics check result (for example, if your result is 23, you take 11 less damage). If you take no damage, you land on your feet (i.e., not prone).  
+
+## Arcana (Int)  
+
+Your Arcana check measures your ability to recall lore about spells, magic items, eldritch symbols, magical traditions, the planes of existence, and the inhabitants of those planes.  
+
+### Detect Magic (Trained Only)  
+
+You sense the presence of magic.  
+
+**Identify Persistent Power (swift action):** Make an Arcana check against a power you can see with the Conjuration, Summons or Zone tags (DC 15 + 1/2 power's level). On a success, you learn the power's name, tags and tradition. On a failure, you must take a short rest before trying to identify that particular power again.   
+
+**Identify Magical Things (standard action):** Make an Arcana check against an environmental magical effect or the results of an incantation (hard DC). On a success, you identify the name of the phenomenon, any tags it might have or tradition it comes from, and its general purpose. If it is the result of an incantation, you learn the incantation's names and the basics of its effects. On a failure, you must take a long rest before trying to identify that particular thing again.   
+
+**Sense Magic (standard action):** You attempt to sense the presence of magic within 5 + your level squares.   
+
+For each magical thing in range:   
+
+* If its level is your level -5 or less, you automatically learn its tradition and location.   
+* If its level is greater than your level -5, make an Arcana check (hard DC) to learn its tradition and location.   
+
+## Athletics (Str)  
+
+*Armor Check Penalty applies*
+
+Athletics covers difficult situations you encounter while climbing, jumping, or swimming. Examples include the following activities:  
+
+- You attempt to climb a sheer or slippery cliff, avoid hazards while scaling a wall, or cling to a surface while something is trying to knock you off.  
+- You try to jump an unusually long distance or pull off a stunt midjump.  
+- You struggle to swim or stay afloat in treacherous currents, storm-tossed waves, or areas of thick seaweed. Or another creature tries to push or pull you underwater or otherwise interfere with your swimming.  
+
+### Climb  
+
+With a successful Athletics check, you can advance up, down, or across a slope, a wall, or some other steep incline (or even a ceiling with handholds) at half your normal speed.   
+
+An Athletics check that fails by 4 or less means that you make no progress, and one that fails by 5 or more means that you fall from whatever height you have already attained.  
+
+Each square climbed costs one extra square of movement (so if you have a speed of 6, with a move action you can climb 3).   
+
+Any time you take damage while climbing, make an Athletics check against the DC of the slope or wall. Failure means you fall from your current height and sustain the appropriate falling damage.  
+
+_Catching Yourself When Falling_: It’s difficult to catch yourself while falling. Make an Athletics check (DC = wall’s DC + 5) to do so.   
+
+### Escape a Grapple  
+
+See the Escape action.   
+
+### Jump  
+
+Your Strength determines how far you can jump.  
+
+**Long Jump:** When you make a long jump, you cover a number of *squares* equal to the check result divided by 10 (standing long jump) or divided by 5 (if you move at least 2 squares immediately before the jump). If the jump is successful, you land in the square beyond the square you jumped over.   
+
+Either way, each square you clear on the jump costs a square of movement.  
+
+This rule assumes that the height of your jump doesn't matter, such as a jump across a stream or chasm. If you clear at least one square, the vertical height of your jump is 2 feet + the number of squares you could clear. E.g. if your jump could clear a 4-square gap, the vertical height is 6 feet.   
+
+**High Jump:** When you make a high jump, you leap into the air a number of *feet* equal to the check result divided by 10 (standing high jump) or divided by 5 (if you move at least 2 squares immediately before the jump). Either way, every five feet costs a square of movement.   
+
+You can extend your arms a third of your height above yourself during the jump. Thus, you can reach above you a distance equal to the height of the jump plus 1-1/3 times your height.  
+
+### Swim  
+
+Make an Athletics check once per round while you are in the water. Success means you may swim at up to one-half your speed. If you fail by 4 or less, you make no progress through the water. If you fail by 5 or more, you sink 1 square.  
+
+The DC for the Swim check depends on the water (calm, rough or stormy).   
+
+## Bluff (Cha)  
+
+Your Bluff check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie.  
+
+### Feint
+
+See the Feint action. 
+
+### Create Diversion
+
+See the Create Diversion action. 
+
+## Diplomacy (Cha)  
+
+When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Diplomacy check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring nations, or inspiring a crowd of townsfolk.  
+
+## Dungeoneering (Wis)  
+
+Knowledge of aberrations, caverns, oozes and spelunking.   
+
+### Subterranean Hunting and Foraging  
+
+Hunting and foraging takes one hour. On a successful check against DC 15, you find a day's worth of food and water for one creature. DC 25, you find a day's worth of food and water for five creatures.   
+
+If you fail, you cannot attempt the check again for 24 hours.   
+
+## Endure (Con)  
+
+*Armor Check Penalty applies*
+
+Harsh conditions or long exertions do not easily tire you. The GM might call for an Endure check when you:  
+
+- March or labor for hours without rest  
+- Go without sleep  
+- Survive without food or water  
+
+### Swim for Long Periods  
+
+Each hour that you swim, you must make an Endure check (use the DC of the Athletics check you've been using, +2 for every hour). If you fail, you cannot swim any more and begin to sink.   
+
+## Heal (Wis)  
+
+A Heal check lets you try to stabilize a dying companion or diagnose an illness.  
+
+### Treat Ally
+
+See the Treat Ally action. 
+
+### Treat Disease
+
+To treat a disease means to tend a single diseased character. Every time the character makes an Endure or other check against disease effects, you make a Heal check. The diseased character uses your check result or their check result, whichever is higher.  
+
+## History (Int)  
+
+Your History check measures your ability to recall lore about historical events, legendary people, ancient kingdoms, past disputes, recent wars, and lost civilizations.  
+
+## Insight (Wis)  
+
+Your Insight check decides whether you can determine the true intentions of a creature, such as when searching out a lie or predicting someone's next move. Doing so involves gleaning clues from body language, speech habits, and changes in mannerisms.  
+
+## Intimidate (Cha)  
+
+When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make an Intimidate check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision.  
+
+### Deter
+
+See the Deter action. 
+
+### Unnerve
+
+See the Unnerve action. 
+
+## Nature (Wis)  
+
+Your Nature check measures your ability to recall lore about terrain, plants and animals, the weather, and natural cycles.  
+
+When there is any question whether you can calm down a domesticated animal, keep a mount from getting spooked, or intuit an animal's intentions, the GM might call for a Nature check. You also make a Nature check to control your mount when you attempt a risky maneuver.  
+
+The GM might ask you to make a Nature check to follow tracks, hunt wild game, guide your group through frozen wastelands, identify signs that owlbears live nearby, predict the weather, or avoid quicksand and other natural hazards.  
+
+### Wilderness Hunting and Foraging  
+
+Hunting and foraging takes one hour. On a successful check against DC 15, you find a day's worth of food and water for one creature. DC 25, you find a day's worth of food and water for five creatures.    
+
+If you fail, you cannot attempt the check again for 24 hours.   
+
+### Soothe Beast  
+
+To calm or soothe a natural beast, for example so you can ride it or because it has been startled, make a Nature check (hard DC, use the creature's level to calculate DC) as a standard action.  
+
+### Teach an Animal a Trick  
+
+You can teach a natural beast a specific trick, like attack, come, defend, down, fetch, guard, heel, perform, seek, stay, track or work. This may take an extended challenge to complete.   
+
+## Perception (Wis)  
+
+Your Perception check lets you spot, hear, or otherwise detect the presence of something. It measures your general awareness of your surroundings and the keenness of your senses. For example, you might try to hear a conversation through a closed door, eavesdrop under an open window, or hear monsters moving stealthily in the forest. Or you might try to spot things that are obscured or easy to miss, whether they are orcs lying in ambush on a road, thugs hiding in the shadows of an alley, or candlelight under a closed secret door.  
+
+### Notice  
+
+Most of the time, whether you notice something will be determined by the GM rolling against your passive Perception score. When you deliberately turn your attention to something, you can take a swift action to see if you notice something.   
+
+### Search  
+
+When you spend a minute or more searching an area, you can cover a 3 square by 3 square space.   
+
+### Notice Hiding Creature  
+
+Make an opposed Perception vs Stealth check. On a success, you know where they are and, unless they are hidden from you for some other reason (e.g. they are invisible), you can see them.   
+
+## Religion (Int)  
+
+Your Religion check measures your ability to recall lore about deities, rites and prayers, religious hierarchies, holy symbols, and the practices of secret cults.  
+
+## Sleight of Hand (Dex)  
+
+*Armor Check Penalty applies*
+
+Whenever you attempt an act of legerdemain or manual trickery, such as planting something on someone else or concealing an object on your person, make a Sleight of Hand check. The GM might also call for a Sleight of Hand check to determine whether you can lift a coin purse off another person or slip something out of another person's pocket.  
+
+### Disable Device  
+
+Make a Sleight of Hand check as a standard action.   
+
+If the check succeeds, you disable the device. If it fails by 4 or less, you have failed but can try again. If you fail by 5 or more, something goes wrong. If the device is a trap, you spring it.   
+
+### Open Lock  
+
+Opening a lock is a standard action.   
+
+### Pick Pockets  
+
+If you try to take something from another creature, you must make a Sleight of Hand check against a hard DC (target's level, not player character's) to obtain it.   
+
+If the check succeeds, you get the item. If it fails by 4 or less, you have failed but are not caught. If you fail by 5 or more, you have failed and the target catches you doing it.   
+
+An opponent who succeeds on this check notices the attempt, regardless of whether you got the item.  
+
+## Stealth (Dex)  
+
+*Armor Check Penalty applies*
+
+Make a Stealth check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard.  
+
+### Hiding  
+
+You can hide at the end of any action where you moved.   
+
+When you try to hide, make a Stealth check. Until you are discovered or you stop hiding, that check's total is contested by the Perception check of any creature that actively searches for signs of your presence.  
+
+You must have superior cover or total concealment to hide from a target.   
+
+An invisible creature can always try to hide. Signs of its passage might still be noticed, and it does have to stay quiet.  
+
+In combat, most creatures stay alert for signs of danger all around, so if you attack a creature or come out of hiding and approach a creature, it sees you at the end of that action. This means you still get combat advantage on that action.   
+
+**Movement:** If you moved 3 squares or more, take a -5 penalty on the check to hide. If you took the Dash action, take a -10 penalty instead.   
+
+While hidden, if you move 3 squares or more, you must make another Stealth check vs passive Perception score with a -5 penalty (-10 if running).   
+
+**Passive Perception:** When you hide, there's a chance someone will notice you even if they aren't searching. To determine whether such a creature notices you, the DM compares your Stealth check with that creature's passive Perception score (see Passive skills, above).   
+
+## Streetsmarts (Cha)  
+
+You know about life on the streets and feel the pulse of your local settlement.  
+
+# Extended Challenges  
+
+With most skill checks, a single die roll immediately determines whether or not a character succeeds. If a character wants to jump across a chasm or recall a specific piece of information, his success or failure is apparent after a single check.  
+
+For complicated and time-consuming tasks (such as disabling a very complex trap, crafting a powerful artifact or researching an obscure bit of knowledge), or at times when the Game Master wants to build tension and suspense, an extended challenge might be called for. 
+
+### Basic rules
+
+At their simplest, you can design an extended challenge using the following rules: 
+
+An extended challenge is a series of interconnected skill checks, in which the player characters try to succeed on some number of checks before failing three checks, in order to achieve an objective.   
+
+In such a case, a specific number of successful skill checks must be achieved to complete the task. The complexity of the task is reflected in the number of successful rolls required to complete the task, and the maximum number of failed rolls that can occur before the attempt fails. In most cases, one or two failed rolls does not mean that an extended challenge has failed, but if three failed rolls occur before the character makes the required number of successful rolls, the attempt fails. Although three failures is a common baseline, Game Masters are encouraged to change the number if the situation warrants it.  
+
+Extended challenges allow the Game Master to build suspense in critical situations, add tension to multiple-round tasks during combat, enhance special adventure-specific tasks, and resolve complex activities more quickly.  
+
+Succeeding or failing the challenge typically determines whether achieving the objective comes at a cost, not whether the objective is achieved. In some cases, each success represents progress towards the objective, and failing the challenge just means missing out on all the available progress.   
+
+Every extended challenge has a level, which determines the check DCs (different skills may attract Easy, Moderate or Hard DCs as appropriate for that level). Usually the level is set to the level of the PCs. Typically group checks use the Easy DC, the first check with a particular skill uses the Moderate DC and subsequent checks with that skill use the Hard DC. While skills are provided, they should never replace the narrative. For example, if an extended challenge requires an Athletics check to climb a wall, a character that can fly or levitate simply succeeds.   
+
+Whether they succeed or fail, PCs earn the XP specified for the extended challenge, often equivalent to each PC defeating one standard monster of that level.   
+
+All PCs should participate, but not necessarily by making skill checks. They can also use the aid another action to assist an ally's check. A failed aid another check does not count as a failure.   
+
+### Expanding extended challenges
+
+Some special rules may apply to a particular challenge, e.g.:   
+
+* on a failed challenge, each PC loses a recovery   
+* certain skills can only be attempted once or twice   
+* use of an encounter or daily power can serve as a success by itself   
+* use of a consumable item or payment of gold pieces can serve as a success by itself   
+* the outcome depends on which specific skills were used   
+* a successful check removes a failure instead of adding a success  
+* a successful check adds a bonus or reroll to another check instead of adding a success  
+* the challenge has multiple stages, with different checks and outcomes in each one   
+* missing a check DC causes a complication rather than a failure that counts towards the three   
+* the threshold is greater or fewer than three failures  
+* the challenge takes place during a combat (only 4-6 successes should be required in this case, replacing 1-2 standard monsters)  
+
+In the example extended challenges, you will find some that work with the basic rules described above, and others that extend the medium. 
+
 # Personalization  
 
 ## Alignment  
@@ -369,183 +857,6 @@ Choose your languages from the Standard Languages table. If you learn a language
 |-------------|---------------------|-----------|  
 | Abyssal     | Demons              | Abyssal |  
 | Celestial   | Celestials, devils          | Celestial |  
-
-## Deities
-
-Crusaders are usually sworn to the service of a particular god. Other characters may worship one or many gods - or none. A sample of gods of worshipped in the Outlaw Kingdoms (the default setting for the Orcus roleplaying game) is given below.   
-
-### Chalavar  
-
-The Glutton  
- **Symbol:** A knife on an empty plate  
- **Portfolio:** Food, feasting, prosperity  
- **Favored Weapon:** Dagger  
-
-A happy and boastful god, Chalavar (CHAL-uh-var) is a welcome visitor to any meal or business gathering, as he makes the food safe and incredibly tasty and the dealings profitable for all involved. Worshipped by people who work with food or conduct trade, Chalavar is a popular deity despite having few actual crusaders. He is shown as a round, pleasant-faced man wearing expensive rings, necklaces, and a jeweled cylindrical hat. He knows the best use for any animal, from the work it is suited for to the other food it complements.  
-
-He also knows the medicinal and culinary use for every plant. His rare temples are popular among adventurers, as Chalavar’s priests love examining the carcasses of strange monsters to see what good can be made of them— for they study the art of cooking with as much ardor as their god.  
-
-Chalavar’s worshippers have many holidays, including the birthdays of famous priests or local nobles, seasonal occurrences, and historical events. These holidays always involve feasting.Worshippers even throw feasts on the holy days of other faiths, knowing that Chalavar gets his thanks whenever someone enjoys a good meal. It is considered bad form to not throw a feast on your own birthday, and wealthier followers of Chalavar show off their prosperity and generosity by holding great birth-feasts with hundreds of guests. Common folk praise Chalavar’s name whenever a meal is extra good or a business deal turns out particularly well.  
-
-### Enoran  
-
-The Old Spirit  
- **Symbol:** Sun setting behind a leafless tree  
- **Portfolio:** Death, the ending of things, mourning  
- **Favored Weapon:** Quarterstaff  
-
-Enoran (EN-or-an) is a god spoken of only rarely, for he represents death from age, as well as the aging and decay of the world over time. He also comforts those who have suffered loss, whether the loss of a family member or the death of a treasured tree. A minor aspect of his faith involves the enactment of vengeance, although he has emphasized this less and less over the centuries.  
-
-He is a sad, quiet deity, weary from carrying on his shoulders the weight of generations of sorrow and death. He is depicted as an impossibly old elf with gray hair and a wrinkled face. Enoran is said to keep a book of names of all the dead, written in his own blood.  
-
-Enoran’s faith has no true holidays, though worshippers sing songs of joy every time someone comes back from the dead. Each day they light black candles in the name of those who died on that day. They fast for the last three days of the year, breaking their fast on the first sunrise of the new year.  
-
-Even devout worshippers rarely speak of Enoran except at funerals and in the wake of battles.  
-
-### Korven  
-
-The Defending Blade  
- **Symbol:** A well-notched short sword  
- **Portfolio:** Defensive tactics, protection, vigilance, Halfling soldiers  
- **Favored Weapon:** Short sword  
-
-A serious-minded deity, Korven (KOR-ven) protects all common folk and inspires them to defend their homes and families when beset by hostile creatures. He and his followers take a more reactive than proactive stance; if people are not threatened, he seems content to remain quiet and fortify, but when people are in danger he is ready to lead them to victory. His followers study traps and fortifications as well as applications of direct force. Under their tutelage even a simple caravan wagon can become a mobile fortress.  
-
-He is rarely depicted, but when he is it is always as a fully-mailed halfling warrior with a battered short sword and metal shield, eyes showing determination from within an open-faced helmet.  
-
-Korven is actually the fourth deity to hold this office. As each fell, their most faithful follower was deified. The cycle of death and renewal gives its current holder an acceptance of death and a tendency toward martyrdom, as he knows his legacy and duties will carry on.  
-
-Korven’s followers celebrate (in somber fashion) the anniversaries of great battles where good people emerged victorious, and they light candles for heroes lost in battle while defending others. Lay people pray to him for protection at the start of a journey and before retiring for the evening, asking for safe travel and safe rest.  
-
-### Larhoon  
-
-The Bloodhunger  
- **Symbol:** Bloody-topped skull  
- **Portfolio:** Killing, murder  
- **Favored Weapon:** Club  
-
-Larhoon (lar-HOON) is an unrelenting, violent deity, said to have sprung from the corpse of the just-murdered god of death, bristling with teeth and horns. He loves death in all its forms, from slow torture to quick disintegration. It is said that Larhoon never sleeps, that he will never rest as long as one creature still remains alive. Larhoon is no fan of the undead, either, and relishes destroying them nearly as much as he does living creatures. He is depicted as a gray-skinned muscular humanoid creature with spines and horns protruding in all places; his only raiment is a belt made of bloody skulls.  
-
-Larhoon spends much of his time alone, searching for new things to kill. He welcomes challenges to his power and has drunk the blood of many godlings and great heroes who thought to slay him.  
-
-Larhoon’s followers celebrate whenever there is a public death (such as an execution), feast on the anniversaries of battles in which many fell, and sacrifice animals to honor the names of famous assassins, murderers, and warlords. His faith consists of many small cults with no central hierarchy. Larhoon’s name has become a curse among the common folk. In less-than-orderly places, criminals are sacrificed to him in hopes of keeping his attention away from others in the community.  
-
-### Kurzana  
-
-The Builder  
- **Symbol:** Carpenter’s hammer with a spider symbol  
- **Portfolio:** Construction, building, weaving, engineering  
- **Favored Weapon:** Hammer  
-
-Kurzana (kur-ZAH-nuh) is an old deity that has changed over time as the people of the world developed their knowledge of building. Originally a goddess of caverns, she took on the mantle of shelters when intelligent creatures began building homes for themselves, and eventually reached her current state, watching over all kinds of building, whether homes, temples, or other structures in a community. She opposes deities of destruction and those that dislike or harm civilization (such as gods of plague). She is depicted as a woman with stony skin, wearing a simple gown and bearing a hammer with a spider on it. Her faith considers killing normal spiders, her chosen animal, bad luck; monstrous spiders that actually constitute a threat are an exception. All building styles intrigue her, and she allies with likeminded deities. Although willing to talk endlessly about engineering, Kurzana remains otherwise a distant deity, having no close friendships with deities who do not share her specialized interests.  
-
-Kurzana’s followers have few holidays, although they do note the dates on which the construction of great buildings began or ended. Although not a particularly martial faith, her priests often move to small communities to establish temples that double as sturdy fortresses, which they open to the entire community when the settlement is threatened. Her priests tend to be scholars in one building style, and sensible folk consult with a member of the church before planning any construction expected to last more than a year. Common folk pray to Kurzana during storms to keep their homes safe and at the groundbreaking of new buildings to bless those within.  
-
-### Kain  
-
-The Black Lord  
- **Symbol:** Horizontal mailed fist  
- **Portfolio:** Tyranny, rulership  
- **Favored Weapon:** Spear  
-
-Kain (KAYN) is a megalomaniacal deity who believes that only the strong are fit to rule, and that he is destined to rule the world and all of the other gods. He makes elaborate plans and spends years watching them unfold, becoming frustrated when the actions of chaotic beings and other meddlers interfere with his plots. His brother is Vogg, a deity of random destruction and one of his frequent opponents, although the two cannot perceive each other directly or be affected by each others’ direct actions. While he hates the forces of good that interfere with his works, he saves his greatest wrath for chaotic fiends, who give no regard to his orders and (in his words) “give evil a bad name.” He is shown as a man with midnight-black skin and glowing eyes, wearing a noble’s clothing of simple cut and dark colors. His left arm is encased in black metallic armor, from which he can pull an iron spear as often as he likes.  
-
-Kain’s church celebrates the anniversaries of great priests’ and tyrants’ birthdays, the first day of every month, and every new moon. These celebrations are more an affirmation of faith in and loyalty to the Black Lord than episodes of revelry. The sacrifice of dissidents or enemies of the church accompanies the rites whenever possible. Few common folk worship Kain, although in places where he holds much political power he is respected for his ability to keep bandits and raiding monsters away. His rule is otherwise harsh.  
-
-### Luna  
-
- **Symbol:** Three crescent moons arranged in a line  
- **Portfolio:** The moon, feminine power, non-evil lycanthropes  
- **Favored Weapon:** Chakram  
-
-A very old goddess, Luna predates current civilizations. A powerful force for the protection and power of women, her strength has waxed and waned over the centuries. Where the sun is hot and aggressive in its light, the moon remains cool and gentle. She prefers peace to war, and kind words to loud speech, but when someone threatens her charges, she can tear apart her foes with the ferocity of a she-bear defending her cubs. She is also the patron goddess of lycanthropes, and her faith teaches that her light blesses good lycanthropes. Conversely, Luna teaches that evil lycanthropes are corruptions of her gifts to mortals; her followers hunt them down to either cure or kill. She is always shown as a woman with white eyes, dark hair, and a crescent symbol on her forehead, although other details vary. Dogs, wolves, and owls are her sacred animals.  
-
-Luna’s church holds a small ceremony on the first day of each new, full, and quarter moon. Lunar eclipses always call for prayer vigils until the moon appears again, while solar eclipses are sacred events to be celebrated publicly, enjoying the night during the day. Women hold most positions of power in her church, and a disproportionate number of her crusaders are female, but her church neither shuns nor marginalizes men. Common folk invoke Luna’s name at weddings to bless the bride and keep her safe in her husband’s house, at childbirth to guard the expectant mother’s health, and at any time when journeys must be made at night.  
-
-### Shehaan  
-
-Goddess of the Mists, the Mist Goddess  
- **Symbol:** A moon (crescent or full) behind a cloud of mist  
- **Portfolio:** Mist, isolation, concealment  
- **Favored Weapon:** Quarterstaff  
-
-Shehaan (shay-HON) is a reclusive goddess, almost forgotten. Although this should mean her power is dwindling, she draws strength from her great solitude and uses it to protect her faithful. She avoids direct confrontation, preferring to redirect an opponent’s attention, confuse the minds of her enemies, and retreat when victory is not certain. She is shown as an elven woman with wet hair and pale skin, dressed in a gossamer robe or a concealing cloak.  
-
-Like the moon, Shehaan changes. On nights when the moon is new she becomes rather wild, willing to take risks and even reveal her presence when she normally would remain hidden. This change does not affect the abilities of her worshippers, although they, too, seem more willing to take risks on these days.  
-
-Solar eclipses are holy days to the faithful, when her followers given up to the goddess unusual plants and fruits as sacrifices. They go into hiding whenever a lunar eclipse occurs; during these times, which they call the “Night of Madness,” they lose all spellcasting ability, as their goddess goes truly mad and forgets her worshippers entirely. Shehaan always regrets these lapses and apologetically pays closer attention to her followers in the weeks following such an event.  
-
-Where she is worshipped, the common folk pray to her to keep them hidden from the eyes of their enemies and to bring needed rain.  
-
-### Thalander  
-
-Quickheart, Many-Father  
- **Symbol:** White cat surrounded by a red glow  
- **Portfolio:** Vitality, fertility, strength  
- **Favored Weapon:** Longsword  
-
-The boisterous and extroverted Thalander (tha-LANder) embodies the principles of life, survival, and perpetuation of life. Where he walks, plants sprout and animals spring up out of nothing. When he laughs, the air is filled with beautiful birds and insects. Thalander, the greatest foe of the undead, is often depicted blasting them out of existence with great beams of life energy from his hands. Like the cat of his symbol, Thalander has a roving eye and woos many people, whether deity, celestial, or mortal. He has many offspring, some of whom carry his divine blood more strongly than others. Thalander himself is a fair-skinned, redheaded man with a lean but strong build; he is usually shown barefoot, wearing cloth breeches and little else. In some of the more decadent cities his temples double as palaces devoted to the flesh, for his faith teaches that passion and childbirth are needed to remain vital and alive.  
-
-The spring equinox is a day of great celebration, marking the height of Thalander’s power, and worshippers hold weekly feasts throughout the entire spring season. The autumn equinox is their only somber holiday, a remembrance of people met and lives shared in the past growing season, ending on a high note as they look forward to the breaking of winter. Common folk pray to Thalander to bring healthy crops and bless marriages with an abundance of children. They invoke his name at the presentation of a new child to the community, in hopes of ensuring a long and healthy life.  
-
-### Thoin  
-
-The Keeper, the Silent Pick  
- **Symbol:** A gem within a mountain  
- **Portfolio:** Mines, secrets under the earth  
- **Favored Weapon:** Pick  
-
-Thoin (THOH-in) the Keeper is a silent deity of the rewards waiting underground. Not content to dig and sift for treasures, Thoin feels that his followers have a birthright to the Underdeep that authorises them to eliminate all heretics underground so their lesser hands will not profane the treasures with unskilled workmanship. Thoin’s particular hatred is for metal- and gem-eating monsters such as rust monsters, xorn, and metal-addicted delvers.  
-
-Thoin is shown as a long-bearded dwarf made of stone, bearing a great pick or pickaxe, eyes and mouth glowing like sparkling gems or fresh lava. He never speaks, but seems amenable to the company of other earth deities who respect his dogma. His faithful take particular vengeance against thieves, burning them to death with molten rock.  
-
-Followers of Thoin celebrate upon finding a vein of new ore, especially if that ore is mithral or adamantine. They hold weeklong wakes whenever a king or high priest dies and his followers never bury their dead with treasures—they see that as a waste of good metal and an affront to the deceased, as it presumes them incapable of looking for new treasures in the afterlife. Thoin’s churches display their wealth openly as a display of the god’s power and generosity. A temple of Thoin doubles as an armory and fortress, as followers use it as a launching point for attacks on pagan miners and for defense against raiders. Common people pray to Thoin after hard work to find rewards and before battles waged to gain or protect valuable objects.  
-
-### Vaath  
-
-The Laugher  
- **Symbol:** A laughing mouth within a wavy circle  
- **Portfolio:** Humor, irony  
- **Favored Weapon:** Rapier  
-
-Vaath (VOTH) is a well-traveled deity, always on the run from her last escapade. She represents the ability to laugh at frightening or impossible situations as well as the more traditional aspects of humor and irony. She dislikes older, staid deities, preferring to shake things up a bit and see what laughter there is to discover in the world. Depictions of her vary, but she is usually shown as a humanoid woman with a large grin and bright teeth (although she is sometimes shown as a fox or even a man). She trained herself to run faster than the wind, hold her breath for nine days, and speak out of both sides of her mouth; three skills she needed to pull off an elaborate joke on the gods of storms, fire, and cities. She loves recruiting worshippers from serious or wrathful deities just to see the reaction of her divine opponents.  
-
-Vaath’s worshippers pray on a different schedule from month to month, chosen by the deity and revealed at the last minute. Her followers are great fans of All Fool’s Day, where they make up almost unbelievable stories and try to get as many people as possible to fall for them. They honor the birthdays of local nobles with roasts and caricatures, and often celebrate somber holidays of other faiths with loud songs, indecent jokes, and extravagant pranks. Because of these habits, many priests of Vaath use aliases when going about the goddess’ work or use disguises or magic to pretend to worship other deities in order to prevent retaliation. Common people invoke her name in times of good cheer and when things go wrong, in hopes of seeing a more positive side—such as the church’s fable of the plowman’s ox that hurt its leg on a stone, under which lay a nugget of gold.  
-
-### Valkon  
-
-The Sky Lord  
- **Symbol:** Cloud with a lightning bolt  
- **Portfolio:** Air, wind, clouds, ordered nature of the heavens  
- **Favored Weapon:** Longbow  
-
-Valkon (VAL-kahn) is the master of the air and heavens, from the stars to coastal breezes and everything in between. An active and aggressive deity, he loathes chaos, unpredictability, and ancient magical weapons of war that promote those things. This puts him at odds with most other weather deities, who tend to be more carefree and capricious. His celestial messengers are birds, and his temples often use birds to carry messages or spy on their enemies. Valkon enjoys archery and believes it to be a superior form of warcraft to melee fighting. In artwork he is depicted as a tall winged man, lithe but strong, bearing a longbow and having close-cropped fair hair.  
-
-Valkon’s worshippers celebrate the equinoxes and solstices as holy days, as well as the first rainfall in spring and the first snowfall in autumn or winter. Common folk pray to him to bring needed rains or fend off approaching storms, which are always considered to be the work of rival weather gods.  
-
-### Vogg  
-
-The Firelord  
- **Symbol:** An eye surrounded by flame  
- **Portfolio:** Wildfire, destruction, randomness  
- **Favored Weapon:** Mace  
-
-Vogg (VOG) is the embodiment of random destruction. Although he is as intelligent as his brother Kain, he only uses his mind to think up ways to break things faster, louder, and hotter. He is more than content to run about covered in flames of his own creation, setting afire anything he touches or even gazes at for too long.  
-
-He is shown as a humanoid (the type varies by artist and cult) with his skin blackened by great heat, hair of flame, and carrying a mace made of solid fire. Vogg doesn’t really hate anything as much as he is curious about how well and how quickly he can destroy it. He becomes angry when someone places in his way obstacles that he cannot harm, and he becomes livid when someone quenches a fire he sets or dares to try calming him. Vogg would be a more powerful deity if he didn’t have the habit of answering some invocations with blasts of violent fire, which tends to reduce his number of worshippers. He is a friend to fire elementals and tolerates efreet and other fiery creatures.  
-
-Vogg’s worshippers care little for scheduled holidays, but revel in the presence of any great fire, whether naturally occurring or deliberately set. They’re not above setting a fire for the excuse to celebrate. Though most of his followers are too simpleminded to appreciate the destruction of particularly valuable things (such as sacred groves, historic buildings, and so on), they do like watching temples to protective or water deities burn to ash. On the hottest day of the year, members of the church summon as many fire elementals as possible and send them running about, burning whatever they see. In idle times, cult cells are likely to self-destruct, as rival priests set each other on fire as fanatical offerings to their obsessive deity.  
-
-### Yaheine  
-
-The Sword Maiden  
- **Symbol:** Kite shield with a sunburst  
- **Portfolio:** Protection, valor, honor  
- **Favored Weapon:** Bastard sword  
-
-Daughter of the sun god, Yaheine (ya-HEEN) is the faithful guardian, protector of the innocent, and champion of good. Channeling the power of her father, Yaheine strikes out at all evil in her path, making places safe for decent folk. She cannot abide fiends or the undead, and hunts necromancers and demonologists without mercy. She is shown as a tall woman bearing a flashing bastard sword and clad in shining metal armor, her gold hair unbound in a storm about her face like solar flames. When age catches up with her crusaders, they usually take up a leadership role in a community, administering fair law and keeping the peace, ready to bear arms whenever evil raises its head. Her followers respect those who worship the sun god, and the two closely allied churches often share space in the same temple.  
-
-Yaheine’s crusaders pray for their spells at dawn when the leading edge of the sun first becomes visible. Their holy days are the summer solstice and midwinter— said to be the time of year when the sun god’s priests received word that his daughter had been born and would become a champion for all good in the world. Common folk pray to her for fairness in all things, as well as protection in unsafe places. Her name is used to seal oaths as a promise of good intent. 
 
 # Levels, Tiers and Bonuses  
 
@@ -628,8 +939,396 @@ The levels correspond to the tiers as follows:
 
 Tiers do not have a mechanical effect in and of themselves, but they represent a new stage in the player characters’ journeys. An epic character is much more capable than an adventurer character.   
 
+# Equipment  
+
+## Starting Equipment
+
+First-level characters begin with 100 gold pieces to spend. Assume a character owns at least one outfit of normal clothes.  
+
+Unless the GM provides otherwise, characters at higher levels start with one permanent magic item of their level +1, one permanent magic item of their level, one permanent magic item of their level -1, and gold pieces equivalent to the cost of a magic item of their level -1.  
+
+## Coinage  
+
+Common coins come in several different denominations based on the relative worth of the metal from which they are made. The three most common coins are the gold piece (gp), the silver piece (sp), and the copper piece (cp).  
+
+A skilled (but not exceptional) artisan can earn one gold piece a day. The gold piece is the standard unit of measure for wealth, even if the coin itself is not commonly used. When merchants discuss deals that involve goods or services worth hundreds or thousands of gold pieces, the transactions don't usually involve the exchange of individual coins. Rather, the gold piece is a standard measure of value, and the actual exchange is in gold bars, letters of credit, or valuable goods.  
+
+One gold piece is worth ten silver pieces, the most prevalent coin among commoners. A silver piece buys a laborer's work for half a day or a night's rest in a poor inn.  
+
+One silver piece is worth ten copper pieces, which are common among laborers and beggars.   
+
+In addition, unusual coins made of other precious metals sometimes appear in treasure hoards. The platinum piece (pp) originates from fallen empires and lost kingdoms, and they sometimes arouse suspicion and skepticism when used in transactions. A platinum piece is worth one hundred gold pieces.  
+
+A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.  
+
+##### Table – Exchange Rates
+
+| Coin          | CP     | SP    | GP    | PP       |
+| ------------- | ------ | ----- | ----- | -------- |
+| Copper (cp)   | 1      | 1/10  | 1/100 | 1/10,000 |
+| Silver (sp)   | 10     | 1     | 1/10  | 1/1,000  |
+| Gold (gp)     | 100    | 10    | 1     | 1/100    |
+| Platinum (pp) | 10,000 | 1,000 | 100   | 1        |
+
+## Selling Treasure  
+
+Opportunities abound to find treasure, equipment, weapons, armor, and more in the dungeons you explore. Normally, you can sell your treasures and trinkets when you return to a town or other settlement, provided that you can find buyers and merchants interested in your loot.  
+
+**Arms, Armor, and Other Equipment:** As a general rule, undamaged weapons, armor, and other equipment fetch one-fifth their cost when sold in a market.  
+
+**Magic Items:** As a general rule, magic items fetch one-fifth their cost when sold in a market.  
+
+**Gems, Jewelry, and Art Objects:** These items retain their full value in the marketplace, and you can either trade them in for coin or use them as currency for other transactions. For exceptionally valuable treasures, the GM might require you to find a buyer in a large town or larger community first.  
+
+**Trade Goods:** On the borderlands, many people conduct transactions through barter. Like gems and art objects, trade goods – bars of iron, bags of salt, livestock, and so on – retain their full value in the market and can be used as currency.  
+
+## Armor  
+
+Fantasy gaming worlds are a vast tapestry made up of many different cultures, each with its own technology level. For this reason, adventurers have access to a variety of armor types, ranging from cloth (lightly padded armor or regular clothing) to chain mail to costly plate armor, with several other kinds of armor in between. The Armor table collects the most commonly available types of armor found in the game and separates them into two categories: light armor and heavy armor. Many warriors supplement their armor with a shield.  
+
+The Armor table shows the cost, weight, and other properties of the common types of armor worn in fantasy gaming worlds.  
+
+**Armor Proficiency:** Anyone can put on a suit of armor or strap a shield to an arm. Only those proficient in the armor's use know how to wear it effectively, however. Your class gives you proficiency with certain types of armor. If you wear armor that you lack proficiency with, you suffer a -2 penalty to attack rolls and Reflex defense.   
+
+**Armor Class (AC):** Armor protects its wearer from attacks. The armor (and shield) you wear determines your base Armor Class.  
+
+**Heavy Armor:** Heavier armor interferes with the wearer's ability to move quickly, stealthily, and freely. Do not add an ability modifier to your Armor Class while wearing heavy armor.   
+
+**Armor Check Penalty:** If the Armor table shows “ACP”, the wearer suffers that penalty to skills that identify that they come with an Armor Check Penalty.  
+
+**Shields:** A shield is made from wood or metal and is carried in one hand.   
+
+You can benefit from only one shield at a time.  
+
+Light shields are strapped to your arm, you can still use your hand (e.g. to hold things or climb, but not to wield a weapon). Heavy shields are strapped to your arm and held in your hand, so you cannot use your hand for anything else.   
+
+A shield's bonus applies to Armor Class and Reflex defenses.   
+
+### Light Armor  
+
+Made from supple and thin materials, light armor favors agile adventurers since it offers some protection without sacrificing mobility. If you wear light armor, you add your Dexterity or Intelligence modifier to the base number from your armor type to determine your Armor Class.  
+
+**Cloth:** Cloth armor is padded armor, or just regular clothes or a robe.   
+
+**Leather:** The breastplate and shoulder protectors of this armor are made of leather that has been stiffened by being boiled in oil. The rest of the armor is made of softer and more flexible materials.  
+
+**Hide:** This armor consists of thick furs and pelts.   
+
+### Heavy Armor  
+
+Of all the armor categories, heavy armor offers the best protection. These suits of armor cover the entire body and are designed to stop a wide range of attacks. Only proficient warriors can manage their weight and bulk.  
+
+Heavy armor doesn't let you add your Intelligence or Dexterity modifier to your Armor Class.  
+
+**Chain Mail:** Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows.   
+
+**Scale:** This armor consists of a coat and leggings (and perhaps a separate skirt) of leather covered with overlapping pieces of metal, much like the scales of a fish.   
+
+**Plate:** Plate consists of shaped, interlocking metal plates to cover the entire body. A suit of plate includes gauntlets, heavy leather boots, a visored helmet, and thick layers of padding underneath the armor. Buckles and straps distribute the weight over the body.  
+
+##### Table – Armor and Shields
+
+| Name          | Type  | Base AC | ACP  | Speed Penalty | Cost | Weight |
+| ------------- | ----- | ------- | ---- | ------------- | ---- | ------ |
+| Cloth armor   | Light | 10      |      |               | 1    | 4 lb.  |
+| Leather armor | Light | 12      |      |               | 25   | 15 lb. |
+| Hide armor    | Light | 13      | -1   |               | 30   | 25 lb. |
+| Chainmail     | Heavy | 16      | -1   | -1            | 40   | 40 lb. |
+| Scale armor   | Heavy | 17      |      | -1            | 45   | 45 lb. |
+| Plate armor   | Heavy | 18      | -2   | -1            | 50   | 50 lb. |
+
+| Name         | Type   | Shield Bonus | ACP  | Speed Penalty | Cost  | Weight |
+| ------------ | ------ | ------------ | ---- | ------------- | ----- | ------ |
+| Light shield | Shield | +1           |      |               | 5 gp  | 6 lb.  |
+| Heavy shield | Shield | +2           | -2   |               | 10 gp | 15 lb. |
+
+## Weapons  
+
+Your class grants proficiency in certain weapons, reflecting both the class's approach and the tools you are most likely to use. Whether you favor a longsword or a longbow, your weapon and your ability to wield it effectively can mean the difference between life and death while adventuring.  
+
+The Weapons table shows the most common weapons used in the fantasy gaming worlds, their price and weight, the damage they deal when they hit, and any special properties they possess.   
+
+Every weapon is classified as either melee or ranged. A **melee weapon** is typically used to attack a target in an adjacent square to you, whereas a **ranged weapon** is used to attack a target at a distance. Some melee weapons, called **thrown weapons**, can be used at a range. Other melee weapons, called **reach weapons**, are still held in the hands for an attack but can attack creatures further away than just adjacent squares.   
+
+### Weapon Proficiency  
+
+Your ancestry, class, and feats can grant you proficiency with certain weapons or categories of weapons. The three categories are **simple**, **martial** and **exotic**. Most people can use simple weapons with proficiency. These weapons include clubs, maces, and other weapons often found in the hands of commoners. Martial weapons, including swords, axes, and polearms, require more specialized training to use effectively. Most warriors use martial weapons because these weapons put their fighting style and training to best use. Typically, proficiency in an exotic weapon only comes with specialized training.   
+
+Proficiency with a weapon allows you to add the weapon's proficiency bonus to the attack roll for any attack you make with that weapon. If you make an attack roll using a weapon with which you lack proficiency, you do not add the proficiency bonus to the attack roll.  
+
+### Character Size and Weapons
+
+Small characters have trouble wielding two-handed weapons. Small characters cannot wield a two-handed weapon unless the weapon has the Small property.   
+
+Medium characters who wield a one-handed weapon in two hands (other than one-handed weapons with the Side Weapon property) get a +1 bonus to damage.   
+
+### Variant: No Weapon Limitations for Small Characters  
+
+While officially Small characters are limited in which weapons they can use, this can be frustrating for players and is not very important for game balance. GMs may prefer to let Small characters use any weapon they like.   
+
+### Weapon Groups  
+
+A weapon group describes the category that a weapon belongs to. Handaxes, battleaxes and greataxes all belong to the Axes category, for example.   
+
+Weapon group has no rules of its own, but other powers and features might depend on the player character using a weapon from a particular group.   
+
+- Axes  
+- Bows  
+- Crossbows  
+- Slings  
+- Maces and Clubs  
+- Light Blades  
+- Spears and Lances  
+- Staffs  
+- Heavy Blades  
+- Picks and Hammers  
+- Polearms  
+- Flails and Chains  
+
+### Weapon Properties  
+
+Many weapons have special properties related to their use, as shown in the Weapons table.  
+
+**Execution #:** Reroll damage die results of # or lower. For example, if you roll 2d6 with an execution 1 weapon, reroll any d6s that come up 1 until they come up a different number.   
+
+**Improved Critical:** *Level 1:* +1dW damage on a critical hit. *Level 11:* +2dW damage on a critical hit. *Level 21:* +3dW damage on a critical hit.   
+
+**Loading:** You can use a weapon that requires loading with ammunition to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container takes either a free or swift action, as specified in the table. At the end of the encounter, you can recover half your expended ammunition by taking a minute to search the battlefield.  
+
+*Loading (free):* It takes two hands to reload this weapon.  
+
+*Loading (swift):* It takes two hands to reload this weapon. Because of the time required to load this weapon, after making a basic attack or attack power with this weapon, you must spend a swift action before attacking with it again.  
+
+**Range:** A weapon that can be used to make a ranged attack has a range. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's long range. When attacking a target beyond normal range, you have a -2 penalty on the attack roll. You can't attack a target beyond the weapon's long range.  
+
+**Reach:** This weapon adds 1 square to your reach when you attack with it. You can only flank or opportunity attack adjacent enemies, however.  
+
+**Thrown:** You can throw the weapon to make a ranged attack.  
+
+*Thrown (light):* Use Dexterity for attack and damage rolls when you make a basic ranged attack with a heavy thrown weapon.   
+
+*Thrown (heavy):* Use Strength instead of Dexterity for attack and damage rolls when you make a basic ranged attack with a heavy thrown weapon.   
+
+**Two-Handed:** This weapon requires two hands when you attack with it.  
+
+**Side Weapon:** You can hold a side weapon in your off hand. You can wield a one-handed weapon in one hand and a side weapon in your other. Each time you make a weapon attack (including a weapon power), you choose which weapon you attack with.   
+
+**Small:** Small characters cannot use a two-handed weapon unless it also has the Small property.  
+
+### Silvered Weapons  
+
+Some monsters that have immunity or resistance to nonmagical weapons are susceptible to silver weapons, so cautious adventurers invest extra coin to plate their weapons with silver. You can silver a single weapon, 10 crossbow bolts, 20 sling bullets or 30 arrows for 500 gp. This cost represents not only the price of the silver, but the time and expertise needed to add silver to the weapon without making it less effective.  
+
+### Improvised Weapons  
+
+An improvised weapon, including an unarmed strike, does 1d4 damage (one-handed) or 1d8 damage (two-handed), with no proficiency bonus on the attack.   
+
+### Exotic Weapons  
+
+Only a small number of special exotic weapons are presented here.   
+
+**Garrote:** A simple wire, when used properly, can disable or kill an opponent in seconds.   
+
+*Requirement:* You can only use a garrote against a target granting you combat advantage which is not aware of you. You can only use the garrote with a melee basic attack or specific powers which utilize the garrote.  
+
+*Property:* When you hit with a garrote, you grapple the target. The target cannot speak while grappled. The target is dazed while the grapple is in effect. The target also suffers a -2 penalty to escape attempts.  
+
+### Designing Your Own Weapons  
+
+Only a small selection of weapons are presented.    
+
+However, you can design your own melee weapons by selecting one of the generic options in square brackets, and assigning a Weapon Group to them.  
+
+Certain weapons get an additional property or benefit based on their Group (if [group] is written under Properties):   
+
+* **Maces and Clubs; Spears and Lances; Staffs:** Weapon die increases by one (see Increased Weapon Die table below).   
+* **Light Blades; Heavy Blades:** Proficiency bonus increases by +1.  
+* **Axes:** Execution 1.  
+* **Picks and Hammers; Flails and Chains:** Improved Critical.   
+
+You can design an exotic melee weapon by taking a martial weapon and adding another Group to it, along with the Group-based benefit or property listed above. 
+
+For example, a khopesh could be a one-handed weapon in the Heavy Blades and Axes Groups, making it a proficiency +3, damage 1d8, Execution 1 weapon. A kukri could be a side weapon in the Light Blades and Heavy Blades Groups, making it a proficiency +4, damage 1d6 weapon.   
+
+You can design an exotic ranged weapon by taking a martial weapon and increasing either its proficiency bonus by +1 or its damage die by one step.   
+
+##### Table – Increased Weapon Die
+
+| Die         | Increases to |
+| ----------- | ------------ |
+| 1d4         | 1d6          |
+| 1d6         | 1d8          |
+| 1d8         | 2d4 or 1d10  |
+| 2d4 or 1d10 | 2d6 or 1d12  |
+
+**Example Weapons:**
+
+* Simple side weapon: Knife (light blade), dart (spear)
+* Simple one-handed weapon: Light mace (mace), sickle (light blade), shortspear (spear), club (mace)
+* Simple two-handed weapon: Greatclub (mace), morningstar (mace), quarterstaff (staff), scythe (heavy blade)
+* Martial side weapon: Throwing hammer (hammer), handaxe (axe), hatchet (axe), shortsword (light blade), juggling club (mace), combat grapnel (flail), fork (spear), light pick (pick)
+* Martial one-handed weapon: Rapier (light blade), scimitar (light blade), heavy mace (mace), longsword (heavy blade), warhammer (hammer), adze (axe), war pick (pick), battleaxe (axe), bladed scarf (flail), fighting fan (light blade)
+* Martial two-handed weapon: Greataxe (axe), greatsword (heavy blade), maul (hammer), heavy flail (flail), falchion (heavy blade), greatpick (pick), hooked hammer (pick)
+* Martial reach weapon: Longspear (polearm, spear), halberd (axe, polearm), glaive (heavy blade, polearm), bo staff (staff, polearm), pike (spear, polearm)
+
+##### Table – Weapon Templates
+
+| Type                      | Range | Type    | Hand | Proficiency Bonus | Damage (dW) | Cost (gp) | Weight (lb) | Range | Properties                           |
+| ------------------------- | ----- | ------- | ---- | ----------------- | ----------- | --------- | ----------- | ----- | ------------------------------------ |
+| Simple side weapon        | Melee | Simple  | 1    | +2                | 1d4         | 2         | 2           | 5/10  | Side Weapon, Thrown (Light)          |
+| Simple one-handed weapon  | Melee | Simple  | 1    | +2                | 1d8         | 5         | 5           |       |                                      |
+| Simple two-handed weapon  | Melee | Simple  | 2    | +2                | 1d10        | 5         | 10          |       |                                      |
+| Martial side weapon       | Melee | Martial | 1    | +2                | 1d6         | 5         | 1           | 5/10  | Side Weapon, Thrown (Heavy), [group] |
+| Martial one-handed weapon | Melee | Martial | 1    | +2                | 1d8         | 10        | 4           |       | [group]                              |
+| Martial two-handed weapon | Melee | Martial | 2    | +2                | 1d10        | 25        | 8           |       | [group]                              |
+| Martial reach weapon      | Melee | Martial | 2    | +2                | 1d8         | 25        | 8           |       | Reach 1, [group]                     |
+
+##### Table – Simple Ranged Weapons
+
+| Name           | Range  | Type   | Hand | Proficiency Bonus | Damage (dW) | Range | Cost (gp) | Weight (lb) | Buffs           | Group     |
+| -------------- | ------ | ------ | ---- | ----------------- | ----------- | ----- | --------- | ----------- | --------------- | --------- |
+| Light Crossbow | Ranged | Simple | 1    | +2                | 1d6         | 10/20 | 35        | 4           | Loading (Free)  | Crossbows |
+| Sling          | Ranged | Simple | 1    | +2                | 1d6         | 10/20 | 0         | 0           | Loading (Free)  | Slings    |
+| Heavy Crossbow | Ranged | Simple | 2    | +2                | 1d8         | 15/30 | 50        | 8           | Loading (Swift) | Crossbows |
+
+##### Table – Martial Ranged Weapons
+
+| Name     | Range  | Type    | Hand | Proficiency Bonus | Damage (dW) | Range | Cost (gp) | Weight (lb) | Buffs                 | Group |
+| -------- | ------ | ------- | ---- | ----------------- | ----------- | ----- | --------- | ----------- | --------------------- | ----- |
+| Longbow  | Ranged | Martial | 2    | +2                | 1d10        | 20/40 | 50        | 4           | Loading (Free)        | Bows  |
+| Shortbow | Ranged | Martial | 2    | +2                | 1d8         | 15/30 | 35        | 3           | Loading (Free), Small | Bows  |
+
+##### Table – Exotic Weapons
+
+| Name    | Range | Type   | Hand | Proficiency Bonus | Damage (dW) | Range | Cost (gp) | Weight (lb) | Buffs             | Group   |
+| ------- | ----- | ------ | ---- | ----------------- | ----------- | ----- | --------- | ----------- | ----------------- | ------- |
+| Garrote | Melee | Exotic | 1    | +2                | 1d4         |       | 1         | 0           | Special (Garrote) | Special |
+
+## Focuses  
+
+Most arcane, divine and natural powers, and some martial powers, have the Focus tag, meaning that they benefit from a magic focus if you use one while you use the power. Each power can only benefit from one magic focus at most.  
+
+**Arcane Focus:** An arcane focus is a special item – typically an orb, rod, staff, wand or book, although a crystal or a pouch of spell components would also be thematically appropriate – designed to channel the power of arcane spells.  
+
+A quarterstaff can be used as both an arcane focus and a weapon. A quarterstaff can be held in one hand when being used as a focus. A quarterstaff can either be enchanted as a focus or as a weapon, or separately as a weapon and as a focus -- in which case it costs as much as each item would separately, put together.   
+
+Unless otherwise mentioned, arcane focuses require a hand to use.  
+
+**Druidic Focus:** A druidic focus might be a sprig of mistletoe or holly, a wand or scepter made of yew or another special wood, a staff drawn whole out of a living tree, or an object incorporating feathers, fur, bones, and teeth from sacred animals.  
+
+Unless otherwise mentioned, druidic focuses require a hand to use.  
+
+**Holy Symbol:** A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic.  
+
+Unless otherwise mentioned, a holy symbol does not require a hand to use. It is enough that you have it on your person (perhaps emblazoned on a shield or hung around your neck).  
+
+**Martial Focus:** A martial focus is an item that inspires or reminds when seen or studied. It might be a short scroll describing a meditation that sharpens the mind for battle, or a book of strategies that can be reviewed quickly before bed, or a blunt sword that can be practiced with, or bindings wrapped around your hands while bareknuckle boxing, or a banner you carry on your back.   
+
+Unless otherwise mentioned, a martial focus does not require a hand to use. It is enough that you have it on your person.  
+
+## Adventuring Gear  
+
+This section describes items that have special rules or require further explanation.  
+
+**Climber's Kit:** A climber's kit includes a grappling hook, a small hammer and 10 pitons. Gain a +2 bonus on Athletics checks to climb when you use a climber's kit.   
+
+**Candle:** Illuminates a 2-square radius with dim light. Burns for one hour.   
+
+**Dungeoneer's Pack (15 gp):** Includes a backpack, a bedroll, a flint and steel, a belt pouch, 10 days of rations, a waterskin and two sunrods. The pack also has 50 feet of hempen rope strapped to the side of it. The total weight of the pack is 30.5 lbs.
+
+**Lantern:** Burns for 8 hours per pint of oil and casts bright light in a 10-square radius.   
+
+**Rations:** Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts.  
+
+**Spellbook:** Essential for wizards, a spellbook is a leather-bound tome with 128 blank vellum pages suitable for recording spells. It is also used to record incantations by those who can cast them.   
+
+**Sunrod:** This 1-foot-long, gold-tipped, iron rod glows brightly when struck. It clearly illuminates (bright light) a 20-square radius. It glows for 4 hours, after which the gold tip is burned out and worthless.  
+
+**Tent:** A simple and portable canvas shelter.  
+
+**Torch:** A torch burns for 1 hour, providing bright light in a 5-square radius.  
+
+**Torch, Everburning:** This otherwise normal torch has a *continual flame* incantation cast upon it. Casts bright light in a 5-square radius.   
+
+**Thieves' tools:** This kit contains the tools you need to disable traps and open locks, and gives you a +2 bonus on Thievery checks to do so.   
+
+**Waybread:** 10 days' worth of food in a light but expensive form. Impractically wrapped in flaky leaves.   
+
+##### Table – Ammunition
+
+| Item                | Cost | Weight |
+| ------------------- | ---- | ------ |
+| Arrows (30)         | 1 gp | 3 lb.  |
+| Crossbow bolts (20) | 1 gp | 2 lb.  |
+| Sling bullets (20)  | 1 gp | 5 lb.  |
+
+##### Table – Focuses
+
+| Item                 | Cost  | Weight |
+| -------------------- | ----- | ------ |
+| Holy symbol          | 10 gp | 1 lb.  |
+| Druidic focus        | 5 gp  | 2 lb.  |
+| Orb (arcane focus)   | 15 gp | 2 lb.  |
+| Rod (arcane focus)   | 12 gp | 2 lb.  |
+| Staff (arcane focus) | 5 gp  | 4 lb.  |
+| Wand (arcane focus)  | 7 gp  | -      |
+| Book (arcane focus)  | 7 gp  | 1 lb.  |
+| Martial focus        | 5 gp  | 1 lb.  |
+
+##### Table – Adventuring Gear
+
+| Item                   | Cost  | Weight       |
+| ---------------------- | ----- | ------------ |
+| Backpack               | 2 gp  | 2 lb.        |
+| Bedroll                | 1 sp  | 5 lb.        |
+| Flint and steel        | 1 gp  | -            |
+| Candle                 | 1 cp  | -            |
+| Chain (10 feet)        | 30 gp | 2 lb.        |
+| Chest                  | 2 gp  | 25 lb.       |
+| Climber's kit          | 2 gp  | 11 lb.       |
+| Flask                  | 3 cp  | 1 lb.        |
+| Grappling hook         | 1 gp  | 4 lb.        |
+| Hammer                 | 5 sp  | 2 lb.        |
+| Lantern                | 10 gp | 2 lb.        |
+| Oil (flask)            | 1 sp  | 1 lb.        |
+| Piton                  | 1 sp  | 1/2 lb.      |
+| Pole (10-foot)         | 5 cp  | 7 lb.        |
+| Pouch                  | 1 gp  | 1/2 lb.      |
+| Rations (10 days)      | 5 gp  | 10 lb.       |
+| Good clothes           | 30 gp | 6 lb.        |
+| Rope, hempen (50 feet) | 1 gp  | 10 lb.       |
+| Rope, silk (50 feet)   | 10 gp | 5 lb.        |
+| Spellbook              | 50 gp | 3 lb.        |
+| Tent, two-person       | 10 gp | 20 lb.       |
+| Torch                  | 1 cp  | 1 lb.        |
+| Waterskin              | 1 gp  | 4 lb. (full) |
+| Sunrod                 | 4 gp  | 2 lb.        |
+| Everburning torch      | 50 gp | 1 lb.        |
+| Thieves' tools         | 20 gp | 1 lb.        |
+| Waybread (10 days)     | 50 gp | 1 lb.        |
+
+## Mounts and Vehicles  
+
+A good mount can help you move more quickly through the wilderness, but its primary purpose is to carry the gear that would otherwise slow you down.
+
+More rules for mounts and vehicles appear in the Advanced Options chapter. 
+
+##### Table – Mounts and Other Animals
+
+| Item         | Cost   |
+| ------------ | ------ |
+| Riding horse | 360 gp |
+| War horse    | 520 gp |
+
+##### Table – Vehicles
+
+| Item    | Cost   | Carrying Capacity |
+| ------- | ------ | ----------------- |
+| Cart    | 340 gp | 2,000 lb.         |
+| Rowboat | 420 gp | 600 lb.           |
 
 # Powers   
+
 A power is something that your character can do, typically quickly (fast enough to be useful in battle) and with clear rules and effects.  
 
 Since this is a role-playing game, you are not limited by your powers. Anything your character could do, they can attempt to do – even if there are no rules for it. And even if you have a power that says you can do something, the GM may rule that you cannot because it does not fit the fiction.  
@@ -741,11 +1440,13 @@ Melee and Ranged powers will specify whether they have one or more targets.
 
 Area of effect powers may target, for example:   
 
-* **all:** every creature in the area of effect  
+* **all creatures:** every creature in the area of effect  
 * **nearest ally:** the nearest ally in the area of effect  
 * **nearest enemy:** the nearest enemy in the area of effect  
 * **all enemies:** only enemies in the area of effect  
 * **all allies:** only allies in the area of effect  
+* **one ally:** one ally in the area of effect of the user's choice
+* **one enemy:** one enemy in the area of effect of the user's choice
 * **any:** one or more targets of the user’s choice in the area of effect.   
   
 
@@ -787,6 +1488,8 @@ A creature always knows the effect of a power that has affected it.
 ## “dW”  
 The term “dW” refers to weapon dice. Every weapon has a given damage die. Roll that die as many times as specified, and add up the results. For example, if you use a power with a longsword (weapon die: 1d10), and the Hit effect is “3dW damage” that means you do 3d10 damage. If it is “3dW + Strength modifier damage” and your Strength modifier is +2, you roll three d10s, add them up and then add 2.   
 
+Rarely, a weapon will have multiple damage dice, for example 2d4 or 2d6. Multiply these by the number of dW to get the final dice total. For example, a 3dW attack used with a weapon that does 2d6 damage does 6d6 damage. 
+
 ## Duration  
 The following are common effects:   
 
@@ -812,7 +1515,7 @@ You can maintain any number of powers, provided you have the actions to do so.
 
 ## Boost  
 
-If a power has a “Boost” entry, then the power can be selected at a higher level with the improved effect.   
+If a power has a “Boost” entry, then the power can be chosen as a higher-level power. If so, it has the improved effect. Treat it as a power of a higher level for all purposes. 
 
 ## Keywords  
 
@@ -1040,7 +1743,7 @@ On rare occasions, you can perform a non-attack action when someone provokes an 
 
 Whether you’re striking with a melee weapon, firing a weapon at range, or making an attack roll as part of a power, an attack has a simple structure.  
 
-- **Choose a target**. Pick a target within your attack’s **Range:** a creature, an object, or a location. Some attacks will let you choose multiple targets, or choose the targets for you.  
+- **Choose a target**. Pick a target within your attack’s range: a creature, an object, or a location. Some attacks will let you choose multiple targets, or choose the targets for you.  
 - **Determine modifiers**. The GM determines whether the target has cover and whether you have combat advantage against the target. In addition, powers, class features, and other effects can apply penalties or bonuses to your attack roll.  
 - **Resolve the attack**. You make the attack roll. On a hit, you roll damage, unless the particular attack has rules that specify otherwise. Some attacks cause special effects in addition to or instead of damage.  
   
@@ -1133,7 +1836,7 @@ A target with **three-quarters cover** gives a -5 penalty to attack rolls. A tar
 
 A target has concealment when some kind of terrain or other effect prevents you from seeing or otherwise perceiving your target clearly. Commonly this is caused by lighting conditions or soft cover such as leaves or fog.   
 
-Like cover, concealment comes in two levels: Concealment (-2 penalty to attack rolls) and total concealment (-5 penalty to attack rolls).  
+Like cover, concealment comes in two levels: **Concealment** (-2 penalty to attack rolls) and **total concealment** (-5 penalty to attack rolls).  
 
 Concealment penalties do not apply to Near or Far attacks.   
 
@@ -1232,7 +1935,7 @@ Some creatures have one or more of the following additional movement modes.
 
 A monster that has a burrowing speed can use that speed to move through sand, earth, mud, or ice. A monster can’t burrow through solid rock unless it has a special trait that allows it to do so.  
 
-**Earth glide** means the creature can burrow through earthen matter, including rock. When it does so, it moves at its full burrow speed, leaving no tunnels or signs of its passing.
+**Earth glide** means the creature can burrow through earthen matter and rock. While doing so, the creature doesn’t disturb the material it moves through.
 
 ### Climb  
 
@@ -1281,7 +1984,7 @@ Low furniture, rubble, undergrowth, steep stairs, snow, and shallow bogs are exa
 
 ## Being Prone  
 
-Combatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves down. In the game, they are prone, a condition described in appendix A.  
+Combatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves down. In the game, they are prone, as described in the conditions section.  
 
 You can **Drop Prone** as a free action. **Stand Up from Prone** is a move action.  
 
@@ -1733,6 +2436,555 @@ However, note that slowed affects your speed, not your movement. For example, if
 
 - The damage of your attacks is halved, except persistent damage.  
   
+
+# Advanced Combat  
+
+## Mounted Combat  
+
+A knight charging into battle on a warhorse, a wizard casting spells from the back of a griffon, or a cleric soaring through the sky on a pegasus all enjoy the benefits of speed and mobility that a mount can provide.  
+
+A willing creature that is at least one size larger than you and that has an appropriate anatomy can serve as a mount, using the following rules.  
+
+### Mounting and Dismounting  
+
+You can mount a creature an adjacent creature or dismount into an adjacent, unoccupied space. Mounting or dismounting is a move action. 
+
+If an effect moves your mount against its will while you're on it, you travel with it. If an effect moves you against your will while mounted, you can choose whether it is moved as well, or whether you fall off it and are moved.   
+
+If your mount is knocked prone, you are dismounted and land in a space within 1 square.  
+
+If you are knocked prone while mounted, immediately make a saving throw. If you fail, you fall prone in a space of your choice within 1 square. If you succeed, you are not knocked prone.   
+
+### Controlling a Mount  
+
+While you're mounted, you have two options. You can either control the mount or allow it to act independently. Intelligent creatures, such as dragons, always act independently.  
+
+You can control a mount only if it has been trained to accept a rider. Domesticated horses, donkeys, and similar creatures are assumed to have such training. The initiative of a controlled mount changes to match yours when you mount it. 
+
+You can give up actions to command a controlled mount, in which case it gets to take the same actions. For example, you can give up your standard action in order for the mount to take a standard action. You can also use an immediate action in order for the mount to make an opportunity attack or use a counter or reaction (in all three cases, only if eligible to do so). 
+
+An independent mount retains its place in the initiative order. Bearing a rider puts no restrictions on the actions the mount can take, and it moves and acts as it wishes. It might flee from combat, rush to attack and devour a badly injured foe, or otherwise act against your wishes.  
+
+In either case, if the mount provokes an opportunity attack while you're on it, the attacker can target you or the mount.  
+
+## Underwater Combat  
+
+When adventurers pursue sahuagin back to their undersea homes, fight off sharks in an ancient shipwreck, or find themselves in a flooded dungeon room, they must fight in a challenging environment. Underwater the following rules apply.  
+
+When making a **weapon attack**, a creature has -2 on the attack roll unless the weapon is in the spears and lances or crossbows weapon groups.  
+
+Powers with the Fire tag have a -2 penalty on attack rolls.   
+
+Creatures with the Aquatic tag get a +2 bonus on attack rolls against creatures without the Aquatic tag.  
+
+# Monster Statistics  
+
+A monster has a rank, a role, a source, a type, tags and a level. For example, a giant frog might be a Standard Lurker (rank and role), Natural Beast (source and type), with the Aquatic tag, and be level 4.  
+
+## Rank  
+
+### Standard  
+
+Standard monsters are the default, so this is usually left out of the description (a “Standard Skulker” is just described as an “Skulker”).   
+
+### Mooks  
+
+Mooks are weaker monsters that can be cut down in large numbers in a single turn. Four mooks are worth one standard monster.   
+
+Compared to standard monsters of the same level, mooks have:
+
+* 1 HP only. A mook takes no damage from attacks that miss them.   
+* One-quarter as much XP.  
+
+### Elites  
+
+Elites are stronger monsters. Two standard monsters are worth one elite.   
+
+Compared to standard monsters of the same level, elite monsters have:
+
+* Twice as much HP.
+* A +2 bonus on saving throws.
+* 1 Action Point per encounter.
+* Twice as much XP.
+
+### Bosses  
+
+Bosses are very strong monsters. Five standard monsters are worth one boss.   
+
+Compared to standard monsters of the same level, boss monsters have:
+
+* Four times as much HP.
+* A +5 bonus on saving throws.
+* 2 Action Points per encounter.
+* Five times as much XP. 
+
+## Role  
+
+A monster’s role describes the main contribution they can make in combat. 
+
+**Archers:** Make powerful Ranged or Far attacks, or both.  
+
+**Blockers:** Protect their allies.  
+
+**Leaders:** Help other monster allies fight better. “Leader” is a bonus added to other roles, like Blocker (Leader) or Spoiler (Leader), rather than a pure role.   
+
+**Skulkers:** Do devastating attacks every so often, interspersed with hiding or escaping.   
+
+**Spoilers:** Mess the PCs up with attacks that inflict harmful effects instead of or in addition to hit point damage.  
+
+**Strikers:** Take advantage of mobility to make attacks and avoid being tied down in combat.   
+
+**Wreckers:** Bring the pain (do a lot of damage).  
+
+## Source  
+
+A monster’s source describes where its species or type has come from. Certain spells, magic items, class features, and other effects in the game interact in special ways with creatures of a particular source.  
+
+**Cosmic** creatures are utterly alien, aberrant beings. Many of them have innate magical abilities drawn from the creature’s alien mind rather than the mystical forces of the world.   
+
+**Elemental** creatures are native to the elemental planes. Some creatures of this type are little more than animate masses of their respective elements. Others have biological forms infused with elemental energy.  
+
+**Fey** creatures are closely tied to the forces of nature. They dwell in twilight groves and misty forests. In some worlds, they are closely tied to the Plane of Faerie.  
+
+**Shadow** creatures are tied to the Plane of Shadow.   
+
+**Natural** creatures are native to the Prime Material Plane, i.e. the world.   
+
+**Outsider** creatures are at least partially composed of the essence (but not necessarily the material) of some Outer Plane. Some creatures start out as some other source and become outsiders when they attain a higher (or lower) state of spiritual existence.  
+
+## Type  
+
+A monster’s type describes its shape and form. Certain spells, magic items, class features, and other effects in the game interact in special ways with creatures of a particular type.   
+
+The game includes the following monster types, which have no rules of their own.  
+
+**Beasts** are nonhumanoid creatures that are a natural part of the fantasy ecology. Some of them have magical powers, but most are unintelligent and lack any society or language. Beasts include all varieties of ordinary animals, dinosaurs, and giant versions of animals, as well as fantastical animals like winged cats or elf hounds.  
+
+**Automatons** do not have organs or coherent bodily systems. They may be very simple creatures, like a gelatinous cube, or masses of a material that is magically animated, like a fire elemental or bronze golem. Undead that have been reanimated from a body or body parts, like skeletons and zombies, are automatons, whereas undead that have been transformed from their living form, like vampires, or undead that are a separate soul, like specters, are humanoids.   
+
+**Humanoids** have bipedal forms, and typically are sapient and sentient, and capable of language and culture. Humanoid races include those commonly found as player characters - humans, dwarves, elves, halflings, goblinoids (goblins, hobgoblins, and bugbears), orcs, gnolls, lizardfolk, and kobolds - as well as fey like nymphs and dryads and outsiders with with humanoid forms like many devils.  
+
+**Monstrosities** are monsters in the strictest sense - frightening creatures that are not ordinary, not truly natural, and almost never benign. Some are the results of magical experimentation gone awry (such as owlbears), and others are the product of terrible curses (including minotaurs and medusae). Others are creatures with elemental or other magical influences, like dragons.   
+
+## Tags  
+
+A monster might have one or more tags appended to its type. For example, a couatl is listed as Monstrosity ● Dragon, Celestial. The tags provide additional categorization for certain creatures. The tags have no rules of their own, but something in the game, such as a magic item, might refer to them. For instance, a spear that is especially effective at fighting demons would work against any monster that has the demon tag.  
+
+The most common tags are:
+
+**Air** creatures are particularly linked to the element of air. 
+
+**Aquatic** creatures are comfortable underwater. 
+
+**Celestials** are creatures native to the Upper Planes. Many of them are the servants of deities, employed as messengers or agents in the mortal realm and throughout the planes. A celestial who strays from a good alignment is a horrifying rarity. Celestials include angels and pegasi. 
+
+**Cold** creatures are particularly linked to cold energy. 
+
+**Constructs** are made, not born. Some are programmed by their creators to follow a simple set of instructions, while others are imbued with sentience and capable of independent thought. Golems are the iconic constructs. 
+
+**Demons** are chaotic evil creatures of wickedness that are native to the Lower Planes. Along with devils, they are classified as fiends. A few are the servants of deities, but many more labor under the leadership of demon princes. Evil priests and mages sometimes summon demons to the material world to do their bidding. 
+
+**Devils** are evil creatures of wickedness that are native to the Lower Planes. Along with demons, they are classified as fiends. A few are the servants of deities, but many more labor under the leadership of archdevils. Evil priests and mages sometimes summon devils to the material world to do their bidding. 
+
+**Dragons** are reptilian creatures of ancient origin and tremendous power. True dragons, including the good metallic dragons and the evil chromatic dragons, are highly intelligent and have innate magic. Also in this category are creatures distantly related to true dragons, but less powerful, less intelligent, and less magical, such as wyverns and pseudodragons. 
+
+**Earth** creatures are particularly linked to the element of earth. 
+
+**Fire** creatures are particularly linked to the element of fire. 
+
+**Giants** tower over humans and their kind. They are humanlike in shape, though some have multiple heads (ettins) or strange forms (fomorians). The six varieties of true giant are hill giants, stone giants, frost giants, fire giants, cloud giants, and storm giants. Besides these, creatures such as ogres and trolls are giants.
+
+**Mounts** give their riders special benefits. 
+
+**Oozes** are gelatinous creatures that rarely have a fixed shape. They are mostly subterranean, dwelling in caves and dungeons and feeding on refuse, carrion, or creatures unlucky enough to get in their way. Black puddings and gelatinous cubes are among the most recognizable oozes. 
+
+**Plants** in this context are vegetable creatures, not ordinary flora. Most of them are ambulatory, and some are carnivorous. The quintessential plants are the shambling mound and the treant. Fungal creatures such as the gas spore also fall into this category. 
+
+**Reptiles** are scaled, cold-blooded creatures. 
+
+**Shapechangers** have the innate ability to change forms. 
+
+**Spiders** are eight-legged arachnids. 
+
+**Swarms** are groups of creatures that act as one, like a swarm of rats or spiders. 
+
+**Undead** are once-living creatures brought to a horrifying state of undeath through the practice of necromantic magic or some unholy curse. Undead include walking corpses, such as vampires and zombies, as well as bodiless spirits, such as ghosts and specters. 
+
+**Water** creatures are particularly linked to the element of water. 
+
+## Alignment  
+
+A monster’s alignment provides a clue to its disposition and how it behaves in a roleplaying or combat situation. For example, a chaotic evil monster might be difficult to reason with and might attack characters on sight, whereas an unaligned monster might be willing to negotiate.   
+
+The alignment specified in a monster’s stat block is the default. Feel free to depart from it and change a monster’s alignment to suit the needs of your campaign.  
+
+Some creatures are listed as “Any” alignment.  
+
+## Hit Points  
+
+A monster usually dies or is destroyed when it drops to 0 hit points, or is rendered unconscious if the attacker would prefer.   
+
+**Regeneration #:** The creature heals # hit points at the start of its turn, unless it is dead. 
+
+**Blooded Regeneration #:** The creature has regeneration while it is staggered only.
+
+**Unblooded Regeneration #:** The creature has regeneration while it is not staggered. 
+
+## Speed  
+
+A monster’s speed tells you how far it can move with a Walk action. It can also take other actions that use speed, like Run and Charge.   
+
+Other movement types, like fly or swim, may also be listed. 
+
+## Ability Scores  
+
+Every monster has six ability scores (Strength, Constitution, Dexterity, Intelligence, Wisdom, and Charisma) and corresponding modifiers.   
+
+## Skills  
+
+The Skills entry is reserved for monsters that are trained in one or more skills. For example, a monster that is very perceptive and stealthy might have bonuses to Perception and Stealth checks.  
+
+Monsters can make skill checks with skills that are not listed. In those cases, calculate the skill bonus as: the sum of a monster’s relevant ability modifier and half its level (round down). 
+
+## Vulnerabilities, Resistances, and Immunities  
+
+Some creatures have vulnerability, resistance, or immunity to certain types of damage. In addition, some creatures are immune to certain conditions.  
+
+Two special resistances are described below:   
+
+**Incorporeal:** A creature that is incorporeal takes half damage on all attacks.   
+
+**Reactive Resistance X (immediate (counter) action, encounter):** The first time a creature is damaged by an attack that does acid, cold, lightning, fire or thunder damage, the creature gains resistance to that energy X. This lasts until the end of the encounter.   
+
+## Senses and initiative  
+
+The Senses entry notes a monster’s Perception modifier, as well as any special senses the monster might have. Special senses are described in the main Rulebook.  
+
+## Languages  
+
+The languages that a monster can speak, if any, are listed in alphabetical order. Sometimes a monster can understand a language but can’t speak it, and this is noted in its entry.
+
+### Telepathy  
+
+Telepathy is a magical ability that allows a monster to communicate mentally with another creature within a specified range. The contacted creature doesn’t need to share a language with the monster to communicate in this way with it, but it must be able to understand at least one language. A creature without telepathy can receive and respond to telepathic messages but can’t initiate or terminate a telepathic conversation.  
+
+A telepathic monster doesn’t need to see a contacted creature and can end the telepathic contact at any time. The contact is broken as soon as the two creatures are no longer within range of each other or if the telepathic monster contacts a different creature within range. A telepathic monster can initiate or terminate a telepathic conversation without using an action, but while the monster is incapacitated, it can’t initiate telepathic contact, and any current contact is terminated.  
+
+## Level  
+
+A monster’s **level** tells you how great a threat the monster is. An appropriately equipped and well-rested party of four adventurers should be able to defeat four standard monsters that each have a level equal to the adventurers’ level without suffering any deaths. For example, a party of four 3rd-level characters should find four level 3 monsters to be a worthy challenge, but not a deadly one.  
+
+### Recoveries  
+
+Although they rarely get a chance to use them, all monsters (unless otherwise mentioned) have at least 1 recovery. Level 11+ monsters have 2, and Level 21+ monsters have 3.   
+
+### Experience Points  
+
+The number of experience points (XP) a monster is worth is based on its level. Typically, XP is awarded for defeating the monster, although the GM may also award XP for neutralizing the threat posed by the monster in some other manner.  
+
+A monster’s XP is also used to calculate how many monsters should be included in an encounter.   
+
+XP is calculated based on a monster’s rank and level, as shown below. 
+
+##### Table - Monster XP 
+
+| Level | Mook  | Standard | Elite  | Boss   |
+| ----- | ----- | -------- | ------ | ------ |
+| 1     | 25    | 100      | 200    | 500    |
+| 2     | 31    | 125      | 250    | 625    |
+| 3     | 38    | 150      | 300    | 750    |
+| 4     | 44    | 175      | 350    | 875    |
+| 5     | 50    | 200      | 400    | 1,000  |
+| 6     | 63    | 250      | 500    | 1,250  |
+| 7     | 75    | 300      | 600    | 1,500  |
+| 8     | 88    | 350      | 700    | 1,750  |
+| 9     | 100   | 400      | 800    | 2,000  |
+| 10    | 125   | 500      | 1,000  | 2,500  |
+| 11    | 150   | 600      | 1,200  | 3,000  |
+| 12    | 175   | 700      | 1,400  | 3,500  |
+| 13    | 200   | 800      | 1,600  | 4,000  |
+| 14    | 250   | 1,000    | 2,000  | 5,000  |
+| 15    | 300   | 1,200    | 2,400  | 6,000  |
+| 16    | 350   | 1,400    | 2,800  | 7,000  |
+| 17    | 400   | 1,600    | 3,200  | 8,000  |
+| 18    | 500   | 2,000    | 4,000  | 10,000 |
+| 19    | 600   | 2,400    | 4,800  | 12,000 |
+| 20    | 700   | 2,800    | 5,600  | 14,000 |
+| 21    | 800   | 3,200    | 6,400  | 16,000 |
+| 22    | 1,000 | 4,000    | 8,000  | 20,000 |
+| 23    | 1,200 | 4,800    | 9,600  | 24,000 |
+| 24    | 1,400 | 5,600    | 11,200 | 28,000 |
+| 25    | 1,600 | 6,400    | 12,800 | 32,000 |
+| 26    | 2,000 | 8,000    | 16,000 | 40,000 |
+| 27    | 2,400 | 9,600    | 19,200 | 48,000 |
+| 28    | 2,800 | 11,200   | 22,400 | 56,000 |
+| 29    | 3,200 | 12,800   | 25,600 | 64,000 |
+| 30    | 4,000 | 16,000   | 32,000 | 80,000 |
+
+## Auras  
+
+A creature’s aura affects creatures within a burst X equal to the aura X listed in the monster description.   
+
+## Actions and powers
+
+When a monster takes its action, it can choose from the options in the Actions section of its stat block or use one of the actions available to all creatures, such as the Dash or Hide action, as described in the Rulebook.   
+
+See the Rulebook for more details of how to interpret powers.   
+
+Special symbols are used to indicate whether an attack is a basic attack, and what its range is:   
+
+* ‡ Basic Melee Attack  
+* † Melee Attack  
+* ⇻ Basic Ranged Attack  
+* ⇸ Ranged Attack  
+* ∢ Near Attack  
+* ⋇ Far Attack  
+
+Unless otherwise mentioned, melee and ranged attacks have one target. Near and far attacks target all creatures within their area of effect, unless otherwise mentioned. 
+
+### Power riders
+
+*Aftereffect:* An aftereffect takes place after the target succeeds on its saving throw against the initial effect. For example, “blinded (save ends); *Aftereffect:* dazed (save ends)” means the target is blinded until it succeeds on a saving throw. Then it is dazed until it succeeds on a saving throw. 
+
+*Grappled (save ends):* Most grapples last until the target breaks the grapple or the grappler chooses to end the grapple. When a power says the target is “grappled (save ends)”, as well as those methods to end the grapple the target also makes a saving throw each turn and breaks the grapple on a success. 
+
+### Limited Usage  
+
+Some special abilities have restrictions on the number of times they can be used.  
+
+***Refresh X, Y:*** The notation “refresh X, Y” means a monster can use a special ability once and that the ability then has a random chance of refreshing during each subsequent round of combat. At the start of each of the monster’s turns, roll a d6. If the roll is one of the numbers in the refresh notation, the monster regains the use of the special ability. The ability also refreshes when the monster finishes a short or long rest.  
+
+For example, “refresh 5, 6” means a monster can use the special ability once. Then, at the start of the monster’s turn, it regains the use of that ability if it rolls a 5 or 6 on a d6.  
+
+***Encounter:*** This notation means that a monster can use a special ability once and then must finish a short or long rest to use it again.  
+
+## Equipment  
+
+A stat block rarely refers to equipment, other than armor or weapons used by a monster. A creature that customarily wears clothes, such as a humanoid, is assumed to be dressed appropriately.  
+
+You can equip monsters with additional gear and trinkets however you like, and you decide how much of a monster’s equipment is recoverable after the creature is slain and whether any of that equipment is still usable. A battered suit of armor made for a monster is rarely usable by someone else, for instance.  
+
+# Creating New Monsters  
+
+This guide will step you through the process of creating a new monster.  
+
+## Level and Rank  
+
+At what level do you expect heroes to fight this monster? That is the monster’s level.  
+
+If a monster has a resistance or vulnerability “X” listed, this is equal to 5 for monsters level 1-10, 10 for monsters level 11-20 and 15 for monsters level 21-30.   
+
+When the heroes fight the monster, do you expect it to challenge four or five heroes (Boss rank), two or three heroes (Elite rank), one hero (Standard rank) or only to challenge one hero when there are about four of the monster (Mook rank)?   
+
+## Size, Source, Type and Tags  
+
+This is a naturalistic description of how large the monster is, which plane of existence it comes from, what form its body takes and any additional categories it falls into.   
+
+Every monster has a size, source and type. Only add tags where appropriate.  
+
+### Sizes
+
+* Tiny: Cat sized or smaller  
+* Small: Dog sized  
+* Medium: Human sized  
+* Large: Cow sized  
+* Huge: Elephant sized  
+* Gargantuan: Blue whale sized or larger  
+
+### Sources
+
+* Alien to this universe: Cosmic. Resistance to radiant X, vulnerable to psychic X.   
+* Native to elemental planes: Elemental  
+* Native to outer planes: Outsider. Resistance to radiant X, vulnerable to necrotic X.  
+* Native to the Plane of Faerie: Fey. Vulnerability to poison X.  
+* Native to the Plane of Shadow: Shadow. Resistance to necrotic X, vulnerable to radiant X.   
+* Native to the world: Natural   
+
+### Type
+
+* Humanoid body and physiology: Humanoid  
+* Animal body and physiology: Beast  
+* Unnatural body and physiology: Monstrosity  
+* Assembled from raw matter or materials: Automaton  
+
+### Tags
+
+*Origin:*  
+
+* Comes from the evil elemental planes: Demon. Reactive resistance X.   
+* Comes from Hell: Devil. Resistance to fire X.  
+* Comes from the Heavens: Celestial.   
+* Created from a dead body: Undead. Resistance to poison X, vulnerability to radiant X.   
+* Created from a dead spirit or soul: Undead. Incorporeal, vulnerability to radiant X.
+* Created from non-living matter: Construct. Resistance to poison and psychic X, vulnerability to acid X.   
+* Lives partially or entirely underwater: Aquatic.  
+
+*Elemental Connection:*   
+
+* Has a special connection to elemental earth: Earth.  
+* Has a special connection to elemental water: Water. Resistance to acid X.   
+* Has a special connection to elemental air: Air.  
+* Has a special connection to elemental fire or to fire energy: Fire. Resistance to fire X, vulnerability to cold X.   
+* Has a special connection to cold energy: Cold. Resistance to cold X, vulnerability to fire X.   
+
+*Physiology:*   
+
+* Eight-legged arachnid: Spider.  
+* Formless: Ooze. Resistance to acid X.   
+* Reptilian: Reptile.  
+* Is an animated plant: Plant. Resistance to radiant and psychic X, vulnerability to poison and fire X.   
+* Reptilian creature of elemental power, usually winged: Dragon.  
+* Large or larger humanoid related to ogres or true giants: Giant.  
+* Can freely or regularly change its form: Shapechanger.  
+* Is made up of many smaller creatures: Swarm. Resistance to Melee and Ranged X, vulnerability to Near and Far X.   
+* If ridden, gives the rider one or more benefits or powers: Mount.   
+
+## Role  
+
+The role is the function that the monster plays in combat. It determines defenses, HP and the damage that the monster does.   
+
+### Archer  
+
+*AC:* 12 + level.  
+*Fort:* 11 + level; *Ref:* 12 + level; *Will:* 12 + level.  
+*HP:* 21 + (4 * level) (double for Elite, quadruple for Boss)  
+*Attack:* +5 + level  
+
+### Blocker  
+
+*AC:* 16 + level.  
+*Fort:* 13 + level; *Ref:* 12 + level; *Will:* 12 + level.  
+*HP:* 24 + (5 * level) (double for Elite, quadruple for Boss)  
+*Attack:* +5 + level  
+
+### Skulker
+
+*AC:* 14 + level.  
+*Fort:* 12 + level; *Ref:* 13 + level; *Will:* 11 + level.  
+*HP:* 21 + (4 * level) (double for Elite, quadruple for Boss)  
+*Attack:* +5 + level  
+
+### Spoiler  
+
+*AC:* 14 + level.  
+*Fort:* 12 + level; *Ref:* 11 + level; *Will:* 13 + level.  
+*HP:* 24 + (5 * level) (double for Elite, quadruple for Boss)  
+*Attack:* +5 + level  
+
+### Striker  
+
+*AC:* 14 + level.  
+*Fort:* 11 + level; *Ref:* 13 + level; *Will:* 12 + level.  
+*HP:* 24 + (5 * level) (double for Elite, quadruple for Boss)  
+*Attack:* +5 + level  
+
+### Wrecker  
+
+*AC:* 12 + level.  
+*Fort:* 13 + level; *Ref:* 11 + level; *Will:* 12 + level.  
+*HP:* 27 + (6 * level) (double for Elite, quadruple for Boss)  
+*Attack:* +5 + level  
+
+## Senses  
+
+* The monster is blind: Blind tag, resistance to radiant X.   
+
+* The monster can see in the dark: Darkvision.   
+* The monster can see well in poor lighting: Low-light vision.   
+* The monster can accurately sense the presence of creatures without seeing, e.g. through echolocation: Blindsight 10.   
+* The monster can accurately sense the presence of creatures in contact with the ground, e.g. through vibrations: Tremorsense 10.   
+* The monster can see through shapechanging magic, illusions, invisibility, etc.: Truesight 10.   
+
+## Movement  
+
+Most monsters have a regular speed, which is their speed on land (walking). A monster that is as fast as a human should have a speed of 6.   
+
+Some monsters can also swim, climb, fly, burrow or teleport.  
+
+There are a number of special movement properties:   
+
+* The monster can move unimpeded through certain difficult terrain: Terrain stride.   
+* The monster’s feet are grippy, allowing it to travel across sheer surfaces and upside down across ceilings: Wall-walker.   
+* The monster can move through obstacles as if they weren’t there: Phasing.   
+* The monster is a good flier or swimmer but clumsy on the ground: Clumsy on ground -4.  
+* The monster is a poor flier but comfortable on the ground: Clumsy in air -4.  
+* The monster is a poor swimmer but comfortable on the ground: Clumsy in water -4.   
+* The monster can stay in place while flying, even while knocked unconscious: Hover.   
+* The monster can fly or levitate, but not above 10 feet: Maximum altitude 2.   
+* The monster can squish into very small spaces: Compress  
+
+## Abilities  
+
+Assign the monster ability scores based on what seems appropriate. In general, a monster’s highest ability score should equal about 16 + half its level.  
+
+## Skills
+
+Choose any number of skills for the monster to be trained in. These skills have a bonus of 5 + half level + the relevant ability modifier. 
+
+Always list the monster’s Perception modifier. If they are not trained in Perception, the modifier is half the monster’s level + its Wisdom modifier. 
+
+## Initiative
+
+A monster’s initiative modifier equals half the monster’s level plus its Dexterity modifier.  
+
+## Powers  
+
+The best way to determine good powers for a monster is to look at similar, existing monsters. However, here is some guidance about the kind of damage that powers should do, by level.   
+
+For each power you design, identify whether it has a single target or two or more targets, and whether it is usable at-will or less frequently (for the purpose of this table, powers usable once per encounter and usable on a refresh are counted together as “surge” powers). This determines how much damage it should do, by level.  
+
+### Type
+
+Mooks deal static damage, and in general should only target one creature with each attack.   
+
+Elites should have powers that allow them to attack roughly twice as often as standard monsters. 
+
+Bosses should have powers that allow them to attack roughly four times as often as standard monsters, or do more damage when they attack. 
+
+### Role
+
+Creatures with the wrecker role do bonus damage on all attacks. Mooks with the wrecker role should only add half that number to their damage (round down).   
+
+##### Table - Monster Level and Damage
+
+| Level | Mook Damage | At-Will Damage (Single Target) | At-Will Damage (Multi-Target) | Surge Damage (Single Target) | Surge Damage (Multi-Target) | Wrecker Bonus Damage |
+| ----- | ----------- | ------------------------------ | ----------------------------- | ---------------------------- | --------------------------- | -------------------- |
+| 1     | 5           | 1d10+3                         | 1d6+3                         | 2d8+3                        | 1d10+3                      | +2                   |
+| 2     | 5           | 1d12+3                         | 1d8+3                         | 2d10+2                       | 1d12+3                      | +3                   |
+| 3     | 6           | 1d12+4                         | 1d8+3                         | 2d10+3                       | 1d12+4                      | +3                   |
+| 4     | 6           | 1d12+5                         | 1d8+4                         | 2d12+3                       | 1d12+5                      | +3                   |
+| 5     | 7           | 2d8+4                          | 1d10+4                        | 2d12+4                       | 2d8+4                       | +3                   |
+| 6     | 7           | 2d10+3                         | 1d12+4                        | 3d8+5                        | 2d10+3                      | +4                   |
+| 7     | 8           | 2d10+4                         | 1d12+4                        | 3d10+3                       | 2d10+4                      | +4                   |
+| 8     | 8           | 2d10+5                         | 1d12+5                        | 3d10+5                       | 2d10+5                      | +4                   |
+| 9     | 9           | 2d12+4                         | 1d12+6                        | 4d8+5                        | 2d12+4                      | +4                   |
+| 10    | 9           | 2d12+5                         | 2d8+5                         | 4d8+6                        | 2d12+5                      | +5                   |
+| 11    | 10          | 3d8+5                          | 2d8+5                         | 6d6+4                        | 3d8+5                       | +5                   |
+| 12    | 10          | 3d8+6                          | 2d8+6                         | 6d6+6                        | 3d8+6                       | +5                   |
+| 13    | 11          | 3d8+7                          | 2d10+5                        | 4d10+6                       | 3d8+7                       | +5                   |
+| 14    | 11          | 3d10+5                         | 2d10+6                        | 5d8+6                        | 3d10+5                      | +6                   |
+| 15    | 12          | 3d10+6                         | 2d10+6                        | 5d8+7                        | 3d10+6                      | +6                   |
+| 16    | 12          | 3d10+7                         | 2d10+7                        | 7d6+7                        | 3d10+7                      | +6                   |
+| 17    | 13          | 4d8+7                          | 2d12+6                        | 4d12+7                       | 4d8+7                       | +6                   |
+| 18    | 13          | 4d8+8                          | 2d12+7                        | 5d10+7                       | 4d8+8                       | +7                   |
+| 19    | 14          | 6d6+6                          | 2d12+7                        | 5d10+8                       | 6d6+6                       | +7                   |
+| 20    | 14          | 6d6+7                          | 2d12+8                        | 7d8+6                        | 6d6+7                       | +7                   |
+| 21    | 15          | 6d6+8                          | 3d8+8                         | 7d8+7                        | 6d6+8                       | +7                   |
+| 22    | 15          | 4d10+8                         | 3d8+9                         | 7d8+8                        | 4d10+8                      | +8                   |
+| 23    | 16          | 5d8+8                          | 3d8+9                         | 5d12+8                       | 5d8+8                       | +8                   |
+| 24    | 16          | 5d8+9                          | 3d8+10                        | 5d12+10                      | 5d8+9                       | +8                   |
+| 25    | 17          | 5d8+10                         | 3d10+8                        | 8d8+8                        | 5d8+10                      | +8                   |
+| 26    | 17          | 7d6+9                          | 3d10+9                        | 8d8+9                        | 7d6+9                       | +9                   |
+| 27    | 18          | 4d12+9                         | 3d10+9                        | 8d8+10                       | 4d12+9                      | +9                   |
+| 28    | 18          | 4d12+10                        | 3d10+10                       | 6d12+9                       | 4d12+10                     | +9                   |
+| 29    | 19          | 6d8+10                         | 4d8+10                        | 6d12+10                      | 6d8+10                      | +9                   |
+| 30    | 19          | 5d10+10                        | 4d8+11                        | 9d8+10                       | 5d10+10                     | +10                  |
+| 31    | 20          | 5d10+11                        | 4d8+11                        | 9d8+11                       | 5d10+11                     | +10                  |
+| 32    | 20          | 5d10+12                        | 4d8+12                        | 8d10+10                      | 5d10+12                     | +10                  |
+| 33    | 21          | 7d8+9                          | 6d6+10                        | 8d10+11                      | 7d8+9                       | +10                  |
+| 34    | 21          | 7d8+10                         | 6d6+11                        | 7d12+10                      | 7d8+10                      | +11                  |
+| 35    | 22          | 7d8+11                         | 6d6+11                        | 7d12+11                      | 7d8+11                      | +11                  |
+
 # Adventuring  
 
 ## Companions
@@ -1836,6 +3088,463 @@ A character can’t benefit from more than one long rest in a 24-hour period.
 
 After every two encounter that the heroes have without stopping for a long rest, they gain an action point. This is called completing a streak, and some powers and features also work off of it.   
 
+# Objects  
+
+When characters need to saw through ropes, shatter a window, or smash a vampire's coffin, the only hard and fast rule is this: given enough time and the right tools, characters can destroy any destructible object. Use common sense when determining a character's success at damaging an object. Can a fighter cut through a section of a stone wall with a sword? No, the sword is likely to break before the wall does.  
+
+For the purpose of these rules, an object is a discrete, inanimate item like a window, door, sword, book, table, chair, or stone, not a building or a vehicle that is composed of many other objects.  
+
+## Statistics for Objects  
+
+When time is a factor, you can assign an Armor Class and hit points to a destructible object. You can also give it immunities, resistances, and vulnerabilities to specific types of damage.  
+
+***Armor Class***. An object's Armor Class is a measure of how difficult it is to deal damage to the object when striking it (because the object has no chance of dodging out of the way). The Object Armor Class table provides suggested AC values for various substances.  
+
+##### Table – Substance's HP Multipliers
+
+| Substance                           | HP Multiplier |
+| ----------------------------------- | ------------- |
+| Cloth, paper, rope                  | x 0.1         |
+| Crystal, glass, ice / Very delicate | x 0.25        |
+| Leather / Delicate                  | x 0.5         |
+| Wood, bone                          | 1             |
+| Sturdy                              | x 1.5         |
+| Stone                               | x 2           |
+| Iron, steel                         | x 3           |
+| Adamantine                          | x 5           |
+
+***Hit Points***. An object's hit points measure how much damage it can take before losing its structural integrity. Large objects also tend to have more hit points than small ones, unless breaking a small part of the object is just as effective as breaking the whole thing.  
+
+Objects are immune to poison, psychic and necrotic damage. Will attacks against them automatically fail.   
+
+##### Table – Object's Defenses and Hit Points
+
+| Size                                          | AC / Reflex | Fortitude | HP   |
+| --------------------------------------------- | ----------- | --------- | ---- |
+| Tiny (bottle, lock)                           | 10          | 5         | 5    |
+| Small (chest, lute)                           | 8           | 8         | 10   |
+| Medium (barrel, chandelier)                   | 5           | 10        | 20   |
+| Large (cart, 10-ft-by-10-ft window)           | 4           | 12        | 40   |
+| Huge (tapestry)                               | 3           | 15        | 100  |
+| Gargantuan (colossal statue, column of stone) | 2           | 20        | 200  |
+
+# Magic Item Rules
+
+## Purchasing Magic Items
+
+What follows are the standard prices for magic items by level. Of course, magic items may be dearer or cheaper in particular markets, or not available for purchase at all. Magic items typically fetch one-fifth their cost when sold in a market.  
+
+##### Table – Magic Item Prices
+
+|      | Permanent Magic Item (gp) | Consumable Item (gp) |
+| ---- | ------------------------- | -------------------- |
+| 1    | 360                       | 14                   |
+| 2    | 520                       | 21                   |
+| 3    | 680                       | 27                   |
+| 4    | 840                       | 34                   |
+| 5    | 1,000                     | 40                   |
+| 6    | 1,800                     | 72                   |
+| 7    | 2,600                     | 104                  |
+| 8    | 3,400                     | 136                  |
+| 9    | 4,200                     | 168                  |
+| 10   | 5,000                     | 200                  |
+| 11   | 9,000                     | 360                  |
+| 12   | 13,000                    | 520                  |
+| 13   | 17,000                    | 680                  |
+| 14   | 21,000                    | 840                  |
+| 15   | 25,000                    | 1,000                |
+| 16   | 45,000                    | 1,800                |
+| 17   | 65,000                    | 2,600                |
+| 18   | 85,000                    | 3,400                |
+| 19   | 105,000                   | 4,200                |
+| 20   | 125,000                   | 5,000                |
+| 21   | 225,000                   | 9,000                |
+| 22   | 325,000                   | 13,000               |
+| 23   | 425,000                   | 17,000               |
+| 24   | 525,000                   | 21,000               |
+| 25   | 625,000                   | 25,000               |
+| 26   | 1,125,000                 | 45,000               |
+| 27   | 1,625,000                 | 65,000               |
+| 28   | 2,125,000                 | 85,000               |
+| 29   | 2,625,000                 | 105,000              |
+| 30   | 3,125,000                 | 125,000              |
+
+## Magic Items on the Body  
+
+Many magic items need to be donned by a character who wants to employ them or benefit from their abilities. It’s possible for a creature with a humanoid-shaped body to wear as many as 10 magic items at the same time. However, each of those items must be worn on (or over) a particular part of the body.  
+
+A humanoid-shaped body can be decked out in magic gear consisting of one item from each of the following groups (two items from the ring group), keyed to which place on the body the item is worn.  
+
+-   One headband, hat, helmet, or phylactery on the **head**  
+-   One amulet, brooch, medallion, necklace, periapt, or scarab around the **neck**, or one cloak, cape, or mantle around the shoulders (over a robe or suit of armor)   
+-   One robe or suit of **armor** on the body (over a vest, vestment, or shirt)  
+-   One belt around the **waist** (over a robe or suit of armor)  
+-   One shield, pair of bracers or set of bracelets on the **arms** or wrists  
+-   One glove, pair of gloves, or pair of gauntlets on the **hands**  
+-   One **ring** on each hand (or two rings on one hand)  
+-   One pair of boots or shoes on the **feet**  
+
+Of course, a character may carry or possess as many items of the same type as he wishes. However, additional items beyond those listed above have no effect.  
+
+Wondrous items can be worn or carried without taking up space on a character’s body.  
+
+## Distributing Magic Items  
+
+GMs can decide for themselves how to distribute magic items in their games, but here are four options to consider.  
+
+### 1. Steady Progression  
+
+A player character should get a new permanent magic item every 12 encounters or so, and that item should be of a level equal to their own level +1 to +4 (roughly 25% chance of each). Since there are roughly 10 encounters to a level, other ways of thinking about this are that:  
+
+1. each level a player character should get 0.8 of a permanent item *or*   
+2. each level, a five-adventurer team should get four permanent items *or*  
+3. over the course of five levels, a player character should get four permanent magic items.   
+
+In addition, a player character should get gold pieces, trade goods, precious items, consumable magic items and so on equivalent in value to a permanent magic item of their level roughly every 25 encounters or so. Another way of saying that is that every level a player character should get 0.4 of a permanent item in gold pieces, etc.  
+
+Keep in mind that a consumable magic item costs 1/25th as much as a permanent magic item of the same level.   
+
+Assuming a rate of 10 encounters per level, that results in the following average treasure per player character per level (not including permanent magic items).   
+
+##### Table – Treasure per Encounter
+
+|      | Treasure per Player per 10 Encounters (gp) |
+| ---- | ------------------------------------------ |
+| 1    | 144                                        |
+| 2    | 208                                        |
+| 3    | 272                                        |
+| 4    | 336                                        |
+| 5    | 400                                        |
+| 6    | 720                                        |
+| 7    | 1,040                                      |
+| 8    | 1,360                                      |
+| 9    | 1,680                                      |
+| 10   | 2,000                                      |
+| 11   | 3,600                                      |
+| 12   | 5,200                                      |
+| 13   | 6,800                                      |
+| 14   | 8,400                                      |
+| 15   | 10,000                                     |
+| 16   | 18,000                                     |
+| 17   | 26,000                                     |
+| 18   | 34,000                                     |
+| 19   | 42,000                                     |
+| 20   | 50,000                                     |
+| 21   | 90,000                                     |
+| 22   | 130,000                                    |
+| 23   | 170,000                                    |
+| 24   | 210,000                                    |
+| 25   | 250,000                                    |
+| 26   | 450,000                                    |
+| 27   | 650,000                                    |
+| 28   | 850,000                                    |
+| 29   | 1,050,000                                  |
+| 30   | 1,250,000                                  |
+
+### 2. Magic Item Only  
+
+Each level, each character receives one magic item of level +2 or two magic items of level +0. They do not receive any other treasure.   
+
+### 3. Treasure Troves  
+
+Each level, the party should discover about 10 treasure troves of their level. Each treasure trove is randomly generated by rolling 1d4, 1d6, 1d8, 1d10, 1d12 and 1d20, with each result helping to determine the contents of the treasure trove.   
+
+**1d4:** This is the magic item level bonus, see 1d12 below.   
+
+**1d6:** This is the coin multiplier, see 1d20 below.   
+
+**1d8:** On a 5, 6 or 7, the trove contains a number of art objects, see 1d10 below. On an 8, it contains a gemstone. On any other result, it contains nothing. See the table below for the value of the art objects or gemstone by level.   
+
+**1d10:** If the trove contains art objects, this is how many it contains.   
+
+Add 1 to the d10 roll for every additional player character in the party beyond 5, and subtract 1 for every player character that the party is missing below 5 PCs (minimum 0).   
+
+**1d12:** On a 6 or less, the trove contains a personal item or something of significance to the story or adventure but not of monetary value. For example, it could be a note with the evil faction's watchword scribbled on it, a key to a door deeper in the dungeon, the mayor's missing spectacles, a clue to the disappearances by the docks, or just a kobold's pet toad.   
+
+On a 5, 6 or 7, the trove contains a consumable item roughly of the party's level.   
+
+On an 8 or higher, the trove contains a permanent magic item of the party's level plus the 1d4 result.   
+
+Add 1 to the d12 roll for every additional player character in the party beyond 5, and subtract 1 for every player character that the party is missing below 5 PCs (minimum 0).   
+
+**1d20:** On an 11 or more, the trove contains coins. Multiply the 1d6 result by the number of coins shown in the table below for the total number of coins in the trove.   
+
+Add 2 to the d20 roll for every additional player character in the party beyond 5, and subtract 2 for every player character that the party is missing below 5 PCs.   
+
+##### Table – Treasure Troves by Level
+
+| Average Party Level | Coin Multiplier | Gem Value  | Art Object Value |
+| ------------------- | --------------- | ---------- | ---------------- |
+| 1                   | 10 gp           | 100 gp     | 20 gp            |
+| 2                   | 25 gp           | 100 gp     | 20 gp            |
+| 3                   | 25 gp           | 200 gp     | 30 gp            |
+| 4                   | 40 gp           | 200 gp     | 30 gp            |
+| 5                   | 40 gp           | 300 gp     | 40 gp            |
+| 6                   | 125 gp          | 300 gp     | 40 gp            |
+| 7                   | 125 gp          | 750 gp     | 90 gp            |
+| 8                   | 210 gp          | 750 gp     | 90 gp            |
+| 9                   | 210 gp          | 1,500 gp   | 120 gp           |
+| 10                  | 300 gp          | 1,500 gp   | 120 gp           |
+| 11                  | 300 gp          | 5,500 gp   | 240 gp           |
+| 12                  | 750 gp          | 5,500 gp   | 240 gp           |
+| 13                  | 750 gp          | 10,000 gp  | 325 gp           |
+| 14                  | 12 pp           | 10,000 gp  | 325 gp           |
+| 15                  | 12 pp           | 12,500 gp  | 525 gp           |
+| 16                  | 34 pp           | 12,500 gp  | 525 gp           |
+| 17                  | 34 pp           | 25,000 gp  | 1,500 gp         |
+| 18                  | 56 pp           | 25,000 gp  | 1,500 gp         |
+| 19                  | 56 pp           | 50,000 gp  | 1,900 gp         |
+| 20                  | 78 pp           | 50,000 gp  | 1,900 gp         |
+| 21                  | 78 pp           | 100,000 gp | 8,000 gp         |
+| 22                  | 185 pp          | 100,000 gp | 8,000 gp         |
+| 23                  | 185 pp          | 125,000 gp | 16,000 gp        |
+| 24                  | 290 pp          | 125,000 gp | 16,000 gp        |
+| 25                  | 290 pp          | 200,000 gp | 21,000 gp        |
+| 26                  | 830 pp          | 200,000 gp | 21,000 gp        |
+| 27                  | 830 pp          | 300,000 gp | 60,000 gp        |
+| 28                  | 1,400 pp        | 300,000 gp | 60,000 gp        |
+| 29                  | 1,400 pp        | 600,000 gp | 86,000 gp        |
+| 30                  | 1,950 pp        | 600,000 gp | 86,000 gp        |
+
+##### Table – Art Objects
+
+| Art Object Value | Examples                                                     |
+| ---------------- | ------------------------------------------------------------ |
+| 20 gp            | Silver ewer; carved bone or ivory statuette; finely wrought small gold bracelet; glass beads; dried rose petals |
+| 30 gp            | Cloth of gold vestments; black velvet mask with numerous citrines; silver chalice with lapis lazuli gems |
+| 40 gp            | Large well-done wool tapestry; brass mug with jade inlays; crystal rod filled with phosphorus |
+| 90 gp            | Silver comb with moonstones; silver-plated steel longsword with jet jewel in hilt; darkwood dining table and chair set |
+| 120 gp           | Carved harp of exotic wood with ivory inlay and zircon gems; gilt gold idol (10 lb.); perfect model of an onyx ziggurat |
+| 240 gp           | Gold dragon comb with red garnet eye; gold and topaz bottle stopper cork; ceremonial electrum dagger with a star ruby in the pommel |
+| 325 gp           | Eyepatch with mock eye of sapphire and moonstone; fire opal pendant on a fine gold chain; old masterpiece painting; a petrified hummingbird |
+| 525 gp           | Embroidered silk and velvet mantle with numerous moonstones; sapphire pendant on gold chain; chess set made of adamantine and mithril |
+| 1,500 gp         | Embroidered and bejeweled glove; jeweled anklet; gold music box; a dis-animated iron golem; a rare history book autographed by the author |
+| 1,900 gp         | Golden circlet with four aquamarines; a string of small pink pearls (necklace); bottomless cup of coffee |
+| 8,000 gp         | Jeweled gold crown; jeweled electrum ring; one-ton temple guardian statue |
+| 16,000 gp        | Gold and ruby ring; gold cup set with emeralds; self-playing harp |
+| 21,000 gp        | Adamantine crown set with soul gems; tapestry woven from phase spider silk |
+| 60,000 gp        | Dragon's skull filled in with gold; the lamp once occupied by a djinn prince |
+| 86,000 gp        | Throne carved from treant-wood; deceased lich's mithril phylactery set with diamonds |
+
+##### Table – Random Consumable Items
+
+| 1d6  | Result                                                       |
+| ---- | ------------------------------------------------------------ |
+| 1–2  | Healing potion (potion of healing in heroic tier, potion of healing and rescue in prestige tier, potion of healing and rescue (advanced) or salve of resurrection in epic tier). |
+| 3    | A non-healing consumable potion or oil (oil of sharpness, potion of heroism, potion of vitality, etc.) |
+| 4    | Another consumable item (skeleton key, etc.).                |
+| 5    | A poison.                                                    |
+| 6    | An incantation scroll or practice manual.                    |
+
+### 4. Narrative Play
+
+The PCs get treasure when they earn it; depending on the skill, strategy and daring they show, they might accumulate more *+1 swords* than they know what to do with, or they might be penniless and fighting off owlbears with a rusty breadknife. 
+
+The game mechanics behind Orcus assume that PCs, at least once they have a few levels under their belts, will have at least three magic items of roughly their level or a few levels higher: a magic weapon or focus, magic armor (or magic clothes for those who don't wear armor) and a magic cloak (or amulet). That's because the game math depends on PCs picking up +6 in bonuses from magic items over the 30 levels of their adventuring careers. 
+
+Some character concepts may require more magic items. For example, a warrior-mage might need a magic weapon and a magic focus, and a skirmisher who fights at range and melee will need two magic weapons – as will a fighter who dual-wields. Characters may also need healing potions, especially if they do not have a dedicated healer, and without the boost other magic items give they will find themselves a little behind when facing challenges of their level. 
+
+Now you, as the Game Master, know the mathematical assumptions, you can decide whether to break them, and how. 
+
+## Enchanted Items  
+
+There are four core types of magic item, called enchanted items:   
+
+* Cloaks or amulets worn about the neck, which increase Fortitude, Reflex and Will defenses.  
+* Weapons  
+* Focuses  
+* Armor (or “cloth armor”, i.e. robes and other clothing, for those who do not wear armor)  
+
+A character may need both an enchanted focus and an enchanted weapon, if they are for example a cleric that casts spells using a holy symbol and makes attacks with a mace. A character may need two weapons, if they dual-wield or mix it up between ranged and melee. Otherwise, a character only needs either an enchanted weapon or an enchanted focus, not both.   
+
+Enchanted items give an enhancement bonus – so a +1 enchanted cloak gives a +1 enhancement bonus to Fortitude, Reflex and Will defenses, while a +3 enchanted sword gives a +3 enhancement bonus to weapon attack and damage rolls, and +3d6 damage on a weapon critical hit. +2 enchanted armor gives a +2 enhancement bonus to Armor Class, and a +6 enchanted focus gives a +6 enhancement bonus to spell attack and damage rolls, and +6d6 damage on a spell critical hit.   
+
+### Boosted Enchanted Items  
+
+Some enchanted items do nothing extra. However, others have been boosted. There are four tiers of boost: I through IV, which increase the level of the enchanted item by that amount. So, for example, a +1 sword is level 1, but a +1 sword (boost II) is level 3. A +3 sword is level 11, but a +3 sword (boost II) is level 13.   
+
+##### Table – Enchanted Item Progression by Level
+
+| Level | Item                        |
+| ----- | --------------------------- |
+| 1     | Enchanted Item +1           |
+| 2     | Enchanted Item +1 Boost I   |
+| 3     | Enchanted Item +1 Boost II  |
+| 4     | Enchanted Item +1 Boost III |
+| 5     | Enchanted Item +1 Boost IV  |
+| 6     | Enchanted Item +2           |
+| 7     | Enchanted Item +2 Boost I   |
+| 8     | Enchanted Item +2 Boost II  |
+| 9     | Enchanted Item +2 Boost III |
+| 10    | Enchanted Item +2 Boost IV  |
+| 11    | Enchanted Item +3           |
+| 12    | Enchanted Item +3 Boost I   |
+| 13    | Enchanted Item +3 Boost II  |
+| 14    | Enchanted Item +3 Boost III |
+| 15    | Enchanted Item +3 Boost IV  |
+| 16    | Enchanted Item +4           |
+| 17    | Enchanted Item +4 Boost I   |
+| 18    | Enchanted Item +4 Boost II  |
+| 19    | Enchanted Item +4 Boost III |
+| 20    | Enchanted Item +4 Boost IV  |
+| 21    | Enchanted Item +5           |
+| 22    | Enchanted Item +5 Boost I   |
+| 23    | Enchanted Item +5 Boost II  |
+| 24    | Enchanted Item +5 Boost III |
+| 25    | Enchanted Item +5 Boost IV  |
+| 26    | Enchanted Item +6           |
+| 27    | Enchanted Item +6 Boost I   |
+| 28    | Enchanted Item +6 Boost II  |
+| 29    | Enchanted Item +6 Boost III |
+| 30    | Enchanted Item +6 Boost IV  |
+
+
+### Enchanted Weapon +X  
+
++X enhancement bonus to attack rolls and damage rolls with that weapon. On a critical hit, do +Xd6 extra damage.   
+
+**Bindings:** Arm and leg bindings can be enchanted. They act just like an enchanted weapon, except they apply to unarmed attacks. 
+
+### Enchanted Focus +X  
+
++X enhancement bonus to attack rolls and damage rolls with that focus. On a critical hit, do +Xd6 extra damage.   
+
+### Enchanted Armor +X (Armor Slot)  
+
+At least a +X enhancement bonus to Armor Class while wearing that armor.   
+
+*Light Armor:* Enchanted light armor gives an additional +1 in the prestige tier and an additional +1 again in the epic tier, so *+3 hide armor* worn by a level 11 character gives a +4 enhancement bonus to Armor Class.   
+
+*Heavy Armor:* Enchanted heavy armor offers double the enhancement bonus to Armor Class, so *+1 plate armor* gives a +2 enhancement bonus to Armor Class.   
+
+### Enchanted Cloak +X (Neck Slot)  
+
++X enhancement bonus to Fortitude, Reflex and Will saves while wearing that cloak.   
+
+# Vehicles
+
+Airships, wagons and ships are all vehicles. 
+
+Once a vehicle is in motion, it needs attention. If the driver fails to use a Drive, Turn or Brake action on their turn, the vehicle careens (with special rules for each vehicle). 
+
+**Driver:** Regardless of the number of occupants, only one person can drive a vehicle. The vehicle operates only on that character's turn. Even if careening, the vehicle only slides or stops on the driver's turn. 
+
+**Speed:** The speed given for a vehicle is the number of squares it can move if its driver takes the Drive action. A vehicle can move up to double its speed in one round, for example if its driver takes the Drive action twice.  
+
+**Careening:** If a vehicle moved in the last round, then its driver must either use the Accelerate, Turn or Brake action on it this round, or at the end of its driver's turn the vehicle is careening. See each vehicle's description for what happens. Characters in a careening vehicle are dazed. Once a vehicle stops moving, it is no longer careening. 
+
+References to the vehicle's driver's place in the initiative count refer to the vehicle's most recent driver. Even if the driver is incapacitated, dead or has abandoned the vehicle, use what the (former) driver's initiative count was.
+
+**Escape:** As an immediate (counter) action when a vehicle begins to careen, or a move action at any time, a character can attempt to escape a vehicle. The character must make a DC 15 Acrobatics check (+5 if the creature is strapped in; DC 20 for the driver). A driver who attempts to escape no longer has any control over the vehicle. Any target failing the escape roll by 5 or less still escapes but takes damage as if it were a crash at the vehicle's current speed (see below).
+
+**Total Move Entitlement:** A vehicle's total move entitlement is the maximum distance it could have moved this turn, even if its driver moved it less than that or it crashed before it made it that far. For example, if a speed 6 vehicle has had the Drive action taken twice, its movement for the round is 12. 
+
+**Crash:** If a vehicle moves (either deliberately or because it is careening) into an obstruction or difficult terrain it cannot cross, it stops immediately. The vehicle and all occupants inside take damage according to the vehicle's total movement entitlement for the round. 
+
+##### Table – Crash Damage
+
+| **Movement** | **Damage** |
+| ------------ | ---------- |
+| Less than 5  | No damage  |
+| 5-6          | 1d8        |
+| 7-9          | 2d8        |
+| 10-13        | 3d8        |
+| 14-18        | 4d8        |
+| 19-24        | 5d8        |
+| 25-31        | 6d8        |
+| 32-39        | 7d8        |
+| 40-48        | 8d8        |
+| 49-58        | 9d8        |
+| 59-69        | 10d8       |
+
+**Vehicle Size:** Certain (ground) vehicles are large enough to withstand difficult terrain and/or the effects of a crash. Depending on the topography (marsh or debris, for example), Gargantuan or larger vehicles can ignore difficult terrain for the purposes of movement penalties and crashing. The severity of the terrain may impede even these vehicles. Most vehicles Huge or smaller cannot enter squares labeled as difficult terrain. Depending on the situation, they may get stuck or hit an obstruction. Both situations are considered a crash.
+
+A vehicle cannot squeeze or adjust its occupying squares. It also cannot go prone. 
+
+**Character Actions:** Most character actions don't apply to the vehicles they control or ride inside. Certain other actions are limited while inside or on a vehicle.
+
+*Flanking:* Vehicles cannot flank, though occupants can.
+
+*Movement:* Creatures inside a vehicle can move freely inside of it. Disembarking is a move action: the creature moves to any square adjacent to the vehicle. This is not a shift and provokes an opportunity attack.
+
+Movement made as part of a power can be used to disembark a vehicle. 
+
+*Using Skills:* Any skill that could be negatively impacted by the motion of a vehicle (such as Heal or Sleight of Hand) suffers a penalty of -2 to -6, at the GM's discretion.
+
+*Reach:* Creatures inside/on a vehicle have reach 1 beyond the vehicle.
+
+**Destroying Vehicles:** Reducing a vehicle to zero hit points renders it non-functional. A vehicle reduced to its negative hit point value may burst into flame, immediately inflicting 3d6 damage to every creature that moves through or enters a square the vehicle occupied or adjacent to it until the end of the encounter.
+
+**Capacity:** The standard person capacity or crew. In most cases, only one person is needed to operate the vehicle (the “driver”); other crewmembers serve as gunners or co-pilots. Each unused passenger slot allows the vehicle to carry an additional 100 pounds of cargo.
+
+**Cargo Capacity:** The amount of cargo the vehicle is designed to carry in pounds. You cannot replace cargo for people comfortably.
+
+**Hardness:** The vehicle’s resistance to all damage.
+
+## New Actions
+
+### Drive (move action)
+
+The vehicle you are driving moves a number of squares in the direction it is facing, up to its speed. 
+
+### Turn (move action)
+
+The vehicle you are driving moves a number of squares in the direction it is facing, up to half its speed. At some point during its move, rotate it 45 or 90 degrees. It can then move straight ahead in the new direction it is facing if it has movement remaining. 
+
+### Brake (move action)
+
+The vehicle you are driving moves a number of squares in the direction it is facing, up to its speed. 
+
+### Take Control (move action)
+
+You become the driver of a vehicle you are riding in, provided the vehicle does not currently have a driver.
+
+### Ram (standard action)
+
+The vehicle you are driving moves a number of squares in the direction it is facing, up to its speed. If it ends its movement adjacent to a creature, vehicle or object no more than one size larger than your vehicle, the ram occurs. 
+
+**Attack:** Dexterity or Intelligence vs. the target's Fortitude defense.
+
+*Hit:* The effect of the ram is determined by the size of the target.
+
+*One Size Larger:* All occupants of your vehicle are dazed until the start of your next turn. Your vehicle and the target take damage according to your total move entitlement. The damage die for your vehicle is d8; for the target it is d4. You push the target 1 square and shift into the vacated square. Your vehicle comes to a stop. 
+
+*Same Size:* All occupants of your vehicle and the target (or occupants of the target vehicle) are dazed until the start of your next turn. Your vehicle and the target take damage according to your total move entitlement. The damage die for both your vehicle and the target is d6. You push the target a number of squares equal to 1/4 your remaining (not current) speed and follow it, then come to a stop. 
+
+*One Size Smaller:* The target (or occupants of the target vehicle) is dazed until the start of your next turn. Your vehicle and the target take damage according to your current speed. The damage die for your vehicle is d4; for the target it is d8. You push the target a number of squares equal to 1/2 your remaining (not current) speed, then come to a stop.
+
+*Two or More Sizes Smaller:* The target (or occupants of the target vehicle) is stunned until the start of your next turn. Your vehicle and the target take damage according to your current speed. The damage die for the target is d10; your vehicle takes only 1 damage per die. You push the target a number of squares equal to your remaining (not current) speed -1 and follow it, then come to a stop. 
+
+##### Table – Ramming Speed and Damage
+
+| **Speed**   | **Damage** |
+| ----------- | ---------- |
+| Less than 5 | No damage  |
+| 5-6         | 1 die      |
+| 7-9         | 2 dice     |
+| 10-13       | 3 dice     |
+| 14-18       | 4 dice     |
+| 19-24       | 5 dice     |
+| 25-31       | 6 dice     |
+| 32-39       | 7 dice     |
+| 40-48       | 8 dice     |
+| 49-58       | 9 dice     |
+| 59-69       | 10 dice    |
+
+*Miss:* The target avoids you, and you continue moving your remaining speed.
+
+**Colliding:** If the target moved in your direction in the last round, add the distance moved to your total movement entitlement before calculating damage.
+
+**Impossible Push:** If the target is not pushed or cannot be pushed, you crash instead.  The target takes damage as indicated above: resolve the effects of the crash on your vehicle as normal.
+
+### Scrape Vehicles (standard action)
+
+> **At-Will** **Attack**  (**Standard Action**) ● **Focus, Martial, Mount**  
+> **Near** burst 1, one mount or vehicle  
+> **Attack** Dexterity vs Reflex  
+> **Hit** Damage equals 1d6 + your Dexterity modifier damage + your vehicle’s hardness. If the target vehicle is staggered by this hit, you and the driver make opposed Driver Skill checks. The driver who fails their check cannot take any actions relating to their vehicle on their next turn, guaranteeing it will careen.  
+> *Level 21:* Damage is 2d6 + Dexterity modifier damage + your vehicle's hardness. 
+
 # Glossary of New Terms  
 
 What follows are terms that might be unfamiliar even to experienced gamers.  
@@ -1908,6 +3617,47 @@ What follows are terms that might be unfamiliar even to experienced gamers.
 **Refresh:** If a monster uses a refresh power, it is not available to use again right away. Each time the monster takes a turn, a die is rolled and if a certain number appears (as specified in the power) then the power is available again.   
 
 **Incorporeal:** A creature that is incorporeal takes half damage on all attacks.   
+
+# Appendix A: Powers Available by Level  
+
+The following table shows how many powers and of which levels a character is entitled to, based on the character's level. A character can always choose a lower-level power (of the same frequency, e.g. a level 3 encounter attack power instead of a level 7 encounter attack power) in place of a higher-level one.  
+
+“(P)” indicates that the power comes from a prestige path. “(E)” indicates that the power comes from an epic path.   
+
+##### Table – Powers Available by Level
+
+| Level | At-will Attack | Encounter Attack   | Daily Attack       | Utility                          |
+| ----- | -------------- | ------------------ | ------------------ | -------------------------------- |
+| 1     | 1, 1           | 1                  | 1                  |                                  |
+| 2     | 1, 1           | 1                  | 1                  | 2                                |
+| 3     | 1, 1           | 1, 3               | 1                  | 2                                |
+| 4     | 1, 1           | 1, 3               | 1                  | 2                                |
+| 5     | 1, 1           | 1, 3               | 1, 5               | 2                                |
+| 6     | 1, 1           | 1, 3               | 1, 5               | 2, 6                             |
+| 7     | 1, 1           | 1, 3, 7            | 1, 5               | 2, 6                             |
+| 8     | 1, 1           | 1, 3, 7            | 1, 5               | 2, 6                             |
+| 9     | 1, 1           | 1, 3, 7            | 1, 5, 9            | 2, 6                             |
+| 10    | 1, 1           | 1, 3, 7            | 1, 5, 9            | 2, 6, 10                         |
+| 11    | 1, 1           | 1, 3, 7, 11 (P)    | 1, 5, 9            | 2, 6, 10                         |
+| 12    | 1, 1           | 1, 3, 7, 11 (P)    | 1, 5, 9            | 2, 6, 10, 12 (P)                 |
+| 13    | 1, 1           | 3, 7, 11 (P), 13   | 1, 5, 9            | 2, 6, 10, 12 (P)                 |
+| 14    | 1, 1           | 3, 7, 11 (P), 13   | 1, 5, 9            | 2, 6, 10, 12 (P)                 |
+| 15    | 1, 1           | 3, 7, 11 (P), 13   | 5, 9, 15           | 2, 6, 10, 12 (P)                 |
+| 16    | 1, 1           | 3, 7, 11 (P), 13   | 5, 9, 15           | 2, 6, 10, 12 (P), 16             |
+| 17    | 1, 1           | 7, 11 (P), 13, 17  | 5, 9, 15           | 2, 6, 10, 12 (P), 16             |
+| 18    | 1, 1           | 7, 11 (P), 13, 17  | 5, 9, 15           | 2, 6, 10, 12 (P), 16             |
+| 19    | 1, 1           | 7, 11 (P), 13, 17  | 9, 15, 19          | 2, 6, 10, 12 (P), 16             |
+| 20    | 1, 1           | 7, 11 (P), 13, 17  | 9, 15, 19, 20 (P)  | 2, 6, 10, 12 (P), 16             |
+| 21    | 1, 1           | 7, 11 (P), 13, 17  | 9, 15, 19, 20 (P)  | 2, 6, 10, 12 (P), 16             |
+| 22    | 1, 1           | 7, 11 (P), 13, 17  | 9, 15, 19, 20 (P)  | 2, 6, 10, 12 (P), 16, 22         |
+| 23    | 1, 1           | 11 (P), 13, 17, 23 | 9, 15, 19, 20 (P)  | 2, 6, 10, 12 (P), 16, 22         |
+| 24    | 1, 1           | 11 (P), 13, 17, 23 | 9, 15, 19, 20 (P)  | 2, 6, 10, 12 (P), 16, 22         |
+| 25    | 1, 1           | 11 (P), 13, 17, 23 | 15, 19, 20 (P), 25 | 2, 6, 10, 12 (P), 16, 22         |
+| 26    | 1, 1           | 11 (P), 13, 17, 23 | 15, 19, 20 (P), 25 | 2, 6, 10, 12 (P), 16, 22, 26 (E) |
+| 27    | 1, 1           | 11 (P), 17, 23, 27 | 15, 19, 20 (P), 25 | 2, 6, 10, 12 (P), 16, 22, 26 (E) |
+| 28    | 1, 1           | 11 (P), 17, 23, 27 | 15, 19, 20 (P), 25 | 2, 6, 10, 12 (P), 16, 22, 26 (E) |
+| 29    | 1, 1           | 11 (P), 17, 23, 27 | 19, 20 (P), 25, 29 | 2, 6, 10, 12 (P), 16, 22, 26 (E) |
+| 30    | 1, 1           | 11 (P), 17, 23, 27 | 19, 20 (P), 25, 29 | 2, 6, 10, 12 (P), 16, 22, 26 (E) |
 
 # Legal  
 
