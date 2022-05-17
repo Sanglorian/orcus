@@ -30,7 +30,7 @@ If you create a character at a higher level than 1, the process is similar, exce
 
 Here are some example archetypes, and how you might model them in *Orcus*.
 
-**Assassin/Ninja:** A mystical rogue can be created with the Mageblade, perhaps coupled with the Brews Poisons kit. Exemplifies Speed is another good choice for a kit. 
+**Assassin/Ninja:** A mystical slayer can be created with the Mageblade, perhaps coupled with the Brews Poisons kit. Exemplifies Speed is another good choice for a kit. A non-magical assassin or ninja is best done through the Harlequin class. 
 
 **Barbarian/Berserker:** With its focus on Constitution, the Sylvan class is a good start. Any Wild Gift could work for a berserker. For kits, Exemplifies Strength is a safe choice and even includes some powers that resemble raging. Otherwise a berserker might Eat Monster Hearts, Dabble in Guarding or Worship the God of War, or even Channel Godmind to reflect the influence of a clan spirit or ancestor. 
 
@@ -56,7 +56,7 @@ Here are some example archetypes, and how you might model them in *Orcus*.
 
 **Magic Dabbler:** Any character could get a strong dose of non-combat magic with the Cantrip Master feat and an investment in incantations. 
 
-**Monk/Martial Artist:** The Martial Training feats, especially the Unarmed Combat feat chain, could turn any weapon-focused character into a martial artist – consider Mageblade for a mystic martial artist, Harlequin for a taunting drunken boxer, Exemplar for an agile combatant or even Guardian for a sturdy defender. The Channels Godmind kit would add a psychic, meditative element to the build. 
+**Monk/Martial Artist:** The Martial Training feats, especially the Unarmed Combat feat chain, could turn any weapon-focused character into a martial artist – consider Mageblade for a mystic martial artist, Harlequin for a taunting drunken boxer, Exemplar for an agile combatant or even Guardian for a sturdy defender. The Channels Godmind kit would add a psychic, meditative element to the build. See the feat path section for ideas for modelling different types of martial artist through feats.
 
 **Mounted Knight:** A Guardian who Charms Animal can pick a horse, giving themselves a powerful and obedient mount and powers that take full advantage of it. 
 
@@ -66,11 +66,13 @@ Here are some example archetypes, and how you might model them in *Orcus*.
 
 **Poisoner:** The Brews Poisons kit is enough to turn any weapons-based character into a poisoner. 
 
-**Psion/Psychic:** A Magician (Enchanter) who Channels Godmind would make a good psion or other psychic. The Psi Focus and Shard feats are a good investment as well. 
+**Psion/Psychic/Ardent:** A Magician (Enchanter) who Channels Godmind would make a good psion, ardent or other psychic. The Psi Focus and Shard feats are a good investment as well. 
+
+You can make a soulknife or psychic warrior with Weapon and Shield Shard feats, or a kineticist with the Blast Shard feats. 
 
 **Ranger:** Sylvan or Reaper are  the obvious places to start for a ranger build, depending on whether your focus is melee or ranged combat. For kits, Dabbles in Reaping or Dabbles in Sylvanry would round out the character, as would Charms Animal or (for a smaller animal companion) Binds Familiar. A scout might prefer Exemplifies Speed. 
 
-**Rogue:** The Exemplar has the stealthy Blades in the Dark discipline. 
+**Rogue:** Either a Harlequin or an Exemplar that focuses on the stealthy Blades in the Dark discipline would make a good rogue. 
 
 **Tactician/“Lazylord”:** The brilliant tactician who hangs back from the fray themselves is a classic archetype rarely supported in RPGs. The Golden Trumpet, High Cunning and Born Leader disciplines cater to this style of play, as does the Last Laugh discipline (associated with the Harlequin). A Commander who Exemplifies Intelligence or Exemplifies Charisma should be able to contribute while rarely making an attack themselves. 
 
@@ -591,7 +593,7 @@ If a character takes the Dualclass Recruit feat and selects the Mageblade, it ha
 
 <figure><img src='pics\WarriorBIG (1).jpg' alt='Warrior by Sarah Carney' style='zoom: 20.0%;' /><figcaption>Warrior by Sarah Carney</figcaption></figure>  
 
-Magician  
+# Magician  
 
 **Arcane Controller**  
 
