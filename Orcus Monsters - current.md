@@ -3256,11 +3256,11 @@ The mega-chariot gives no XP. The ostovite swarm must be defeated for the heroes
 > †	**Slam** (standard, at-will)   
 > +9 vs AC; 1d12+5 damage, and the target takes persistent 5 necrotic damage (save ends).  
 > †	**Constrict** (standard, at-will)   
-> +9must be grappling the target; 1d12+5 damage, and the target is dazed until the end of the ghoul worm's next turn.  
+> Must be grappling the target; 1d12+5 damage, and the target is dazed until the end of the ghoul worm's next turn.  
 > ∢	**Horror** (opportunity, legendary) ● **Fear, Psychic**  
 > Near burst 10, one creature; +9 vs Will (a creature sees the ghoul worm for the first time); The target is stunned until the end of their next turn.  
 > **Speed Burst** (free, legendary)   
-> +9The ghoul worm takes a move action.  
+> The ghoul worm takes a move action.  
 > **Legendary Action**   
 > Each round, the ghoul worm can take one legendary action. The action interrupts another creature's turn (if it is an opportunity action, like *horror*) or comes after another creature's turn (if it is a free action, like *speed burst*). Alternatively, it can spend its legendary action just before its turn begins to immediately make a saving throw against one condition it is affected by. The ghoul worm cannot take legendary actions on its turn.  
 
