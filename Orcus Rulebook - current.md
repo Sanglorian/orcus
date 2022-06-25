@@ -7,7 +7,7 @@ footer: ${pageNo}
 
 # Rulebook
 
-0.6
+0.6.2
 
 * TOC  
 {:toc}
@@ -1145,6 +1145,7 @@ Certain weapons get an additional property or benefit based on their Group (if [
 * **Light Blades; Heavy Blades:** Proficiency bonus increases by +1.  
 * **Axes:** Execution 1.  
 * **Picks and Hammers; Flails and Chains:** Improved Critical.   
+* **Polearm:** Reach 1.
 
 You can design an exotic melee weapon by taking a martial weapon and adding another Group to it, along with the Group-based benefit or property listed above. 
 
@@ -1163,13 +1164,19 @@ You can design an exotic ranged weapon by taking a martial weapon and increasing
 
 **Example Weapons:**
 
-* Simple side weapon: Knife (light blade), dart (spear)
-* Simple one-handed weapon: Light mace (mace), sickle (light blade), shortspear (spear), club (mace)
-* Simple two-handed weapon: Greatclub (mace), morningstar (mace), quarterstaff (staff), scythe (heavy blade)
-* Martial side weapon: Throwing hammer (hammer), handaxe (axe), hatchet (axe), shortsword (light blade), juggling club (mace), combat grapnel (flail), fork (spear), light pick (pick)
-* Martial one-handed weapon: Rapier (light blade), scimitar (light blade), heavy mace (mace), longsword (heavy blade), warhammer (hammer), adze (axe), war pick (pick), battleaxe (axe), bladed scarf (flail), fighting fan (light blade)
-* Martial two-handed weapon: Greataxe (axe), greatsword (heavy blade), maul (hammer), heavy flail (flail), falchion (heavy blade), greatpick (pick), hooked hammer (pick)
-* Martial reach weapon: Longspear (polearm, spear), halberd (axe, polearm), glaive (heavy blade, polearm), bo staff (staff, polearm), pike (spear, polearm)
+**Simple side weapon:** Knife (light blade), dart (spear)
+
+**Simple one-handed weapon:** Light mace (mace), sickle (light blade), shortspear (spear), club (mace)
+
+**Simple two-handed weapon:** Greatclub (mace), morningstar (mace), quarterstaff (staff), scythe (heavy blade)
+
+**Martial side weapon:** Throwing hammer (hammer), handaxe (axe), hatchet (axe), shortsword (light blade), juggling club (mace), combat grapnel (flail), fork (spear), light pick (pick)
+
+**Martial one-handed weapon:** Rapier (light blade), scimitar (light blade), heavy mace (mace), longsword (heavy blade), warhammer (hammer), adze (axe), war pick (pick), battleaxe (axe), bladed scarf (flail), fighting fan (light blade)
+
+**Martial two-handed weapon:** Greataxe (axe), greatsword (heavy blade), maul (hammer), heavy flail (flail), falchion (heavy blade), greatpick (pick), hooked hammer (pick)
+
+**Martial reach weapon:** Longspear (polearm, spear), halberd (axe, polearm), glaive (heavy blade, polearm), bo staff (polearm, staff), pike (polearm, spear)
 
 ##### Table – Weapon Templates
 
@@ -1181,7 +1188,7 @@ You can design an exotic ranged weapon by taking a martial weapon and increasing
 | Martial side weapon       | Melee | Martial | 1    | +2                | 1d6         | 5         | 1           | 5/10  | Side Weapon, Thrown (Heavy), [group] |
 | Martial one-handed weapon | Melee | Martial | 1    | +2                | 1d8         | 10        | 4           |       | [group]                              |
 | Martial two-handed weapon | Melee | Martial | 2    | +2                | 1d10        | 25        | 8           |       | [group]                              |
-| Martial reach weapon      | Melee | Martial | 2    | +2                | 1d8         | 25        | 8           |       | Reach 1, [group]                     |
+| Martial reach weapon      | Melee | Martial | 2    | +2                | 1d8         | 25        | 8           |       | Polearm (Reach 1), [group]           |
 
 ##### Table – Simple Ranged Weapons
 
@@ -1539,9 +1546,11 @@ If the user of a Consistent power misses on all attacks made with that power, th
 
 ### Form
 
-A Form power changes the shape of the user. Except as described in the power description, the user keeps all other statistics, HP, etc. Use their regular weapon attacks for the attacks of the new form (for example, if you wield a battleaxe and turned into a brown bear, you can use your battleaxe basic attack for the bear’s bite.)
+A Form power changes the shape of the user. Except as described in the power description, the user keeps all other statistics, HP, etc. 
 
-However, a character that has changed form cannot make any attacks that do not make sense in their new form. For example, a brown bear cannot make ranged attacks. 
+A character in a new form cannot do anything that their new form is incapable of doing (for example, in the form of an animal you cannot talk or make weapon attacks). 
+
+A character can usually only be under the effect of one Form power at a time. 
 
 ### Stance  
 
@@ -1578,9 +1587,7 @@ Because a teleport requires line of sight, blindfolding creatures that are capab
 
 ### Wild Shape
 
-Unless otherwise mentioned, you cannot use Wild Shape powers unless you are currently under the effect of a power with the Form tag (*wild shape* is the classic example). 
-
-If you cease to be under the effect of a power with the Form tag, all Wild Shape powers end as well. 
+A humanoid creature can only use and/or continue to benefit from a Wild Shape power when under the effects of a Form power, unless they already have a physical feature that would allow them to use that power.  
 
 ### Zones  
 
@@ -2413,7 +2420,7 @@ However, note that slowed affects your speed, not your movement. For example, if
 
 ### Stunned  
 
-- You are incapacitated (see the condition), can’t move, and can speak only falteringly.  
+- You can’t move and can speak only falteringly.  
 - Attack rolls against you have combat advantage.  
 - You can’t take actions or reactions.  
 - Cannot flank.  

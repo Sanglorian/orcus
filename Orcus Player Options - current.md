@@ -7,7 +7,7 @@ footer: ${pageNo}
 
 # Player Options
 
-0.6
+0.6.2
 
 * TOC  
 {:toc}  
@@ -48,6 +48,15 @@ You betrayed someone or something you once held dear, and it forever left its ma
 * **Hold Breath:** +5 ancestry bonus to Endure checks to hold your breath.  
 * **Poisonous Nip:** You have the *poisonous nip* power.  
 
+> #### Poisonous Nip  
+>
+> **Encounter** **Attack** **Feature** (**Swift Action**) ● **Poison**  
+> **Melee** 1, one target  
+> **Attack** Dexterity or Constitution +2 vs AC  
+> **Hit** 1d8 + your Dexterity or Constitution modifier poison damage.
+> *Level 11:* Attack bonus increases to +4. 2d8 + modifier damage.
+> *Level 21:* Attack bonus increases to +6. 3d8 + modifier damage.  
+
 ### Cut Off  
 
 Someone destroyed everyone and everything you loved.   
@@ -55,6 +64,15 @@ Someone destroyed everyone and everything you loved.
 * +2 Heal  
 * **Go for the Jugular:** +1 ancestry bonus on attacks against staggered enemies.   
 * **Vengeance of the Pits:** You have the *vengeance of the pits* power.   
+
+> #### Vengeance of the Pits  
+>
+> **Encounter** **Attack** **Feature** (**Free Action**) ● **Fire**  
+> **Near** burst 10, one enemy  
+> **Trigger** An attack by that enemy hits you.  
+> **Effect** The target takes 1d6 + Intelligence OR Charisma modifier fire damage. 
+> *Level 11:* 2d6 + Intelligence OR Charisma modifier. 
+> *Level 21:* 3d6 + Intelligence OR Charisma modifier.   
 
 ### Destined  
 
@@ -73,6 +91,13 @@ You were imprisoned, trapped, in check or otherwise in a situation that seemed t
 * **Web Stride:** Webs, like those from a spider, are not difficult terrain for you.  
 * **Disappearing Act:** You have the *disappearing act* power.  
 
+> #### Disappearing Act  
+>
+> **Encounter** **Utility** **Feature** (**Reaction Action**)   
+> **Self**   
+> **Trigger** You take damage.  
+> **Effect** Become invisible until the end of your next turn, or until you make an attack (whichever comes sooner).  
+
 ### Heir  
 
 You discovered that perched in your family tree is a dragon, and its greatness courses in your veins.   
@@ -80,6 +105,15 @@ You discovered that perched in your family tree is a dragon, and its greatness c
 * +2 Insight  
 * **Minor Magics:** You know one power from the Cantrips discipline.   
 * **Breath Weapon:** You have the *breath weapon* power.   
+
+> #### Breath Weapon  
+>
+> **Encounter** **Attack** **Feature** (**Swift Action**) ● **[Energy]**  
+> **Near** arc 3, targets all  
+> **Attack** (Highest of Strength, Constitution, Dexterity) +2 vs Reflex  
+> **Hit** 1d6 + Constitution modifier. 
+> *Level 11:* 2d6 + Constitution modifier. 
+> *Level 21:* 3d6 + Constitution modifier.  
 
 ### Hero  
 
@@ -89,6 +123,13 @@ You risked your own life to defend something precious: perhaps a loved one, a vi
 * **Unmoved:** Reduce any unwilling movement you are subject to by 1 square. When you would fall prone as the result of an attack, make a saving throw-on a success, you do not fall.   
 * **Violent Rush:** You have the *violent rush* power.  
 
+> #### Violent Rush  
+>
+> **Encounter** **Utility** **Feature** (**Free Action**)   
+> **Self**   
+> **Trigger** You hit with an attack.  
+> **Effect** Attack does +1dW. If attack was not with a weapon, +1d8 instead.  
+
 ### Ninth Life  
 
 Through sheer chutzpah and unbelievable luck, you have survived ordeals that would have left anyone else dead eight times over.   
@@ -97,6 +138,13 @@ Through sheer chutzpah and unbelievable luck, you have survived ordeals that wou
 * **Eager Charge:** Your speed increases by +2 when you charge.   
 * **Lucky:** You have the *lucky* power.  
 
+> #### Lucky  
+>
+> **Encounter** **Utility** **Feature** (**Counter Action**)   
+> **Self**   
+> **Trigger** An attack hits you.  
+> **Effect** Reroll the attack roll and take the second result.  
+
 ### Otherworldly  
 
 You come from another place or time, or are destined to leave this one in time.   
@@ -104,6 +152,12 @@ You come from another place or time, or are destined to leave this one in time.
 * +2 Stealth  
 * **Nimbleness:** +2 ancestry bonus to AC against attacks of opportunity.   
 * **Highblood Teleport:** You have the *highblood teleport* power.  
+
+> #### Highblood Teleport  
+>
+> **Encounter** **Utility** **Feature** (**Move Action**) ● **Teleport**  
+> **Self**   
+> **Effect** Teleport up to 5.  
 
 ### Returned  
 
@@ -114,6 +168,12 @@ You survived impossible peril, physical harm or terror, and came back of your ow
 * **Shake Off Fear:** +5 ancestry bonus on saving throws against powers and effects with the Fear tag.   
 * **Tough as Nails:** You have the *tough as nails* power.  
 
+> #### Tough as Nails  
+>
+> **Encounter** **Utility** **Feature** (**Swift Action**)   
+> **Self**   
+> **Effect** You rally.  
+
 ### Sage  
 
 Through knowledge, practice and experience, you provided sage advice that prevented the unthinkable.   
@@ -121,6 +181,12 @@ Through knowledge, practice and experience, you provided sage advice that preven
 * +2 Perception  
 * **Skill Training:** You are trained in an extra skill of your choice.  
 * **Ingenuity:** You have the *ingenuity* power.  
+
+> #### Ingenuity  
+>
+> **Encounter** **Utility** **Feature** (**Swift Action**)   
+> **Near** burst 5, self or one ally  
+> **Effect** Choose one: target shifts up to 2 as a free action, target makes a saving throw, target gets +2 power bonus to next attack roll or target gets +4 power bonus to next skill check. Power bonuses expire at the end of your next turn if not already used.  
 
 ### Third Eyed  
 
@@ -131,6 +197,13 @@ You experienced something that opened your mind to something beyond this physica
 * **Shake Off Fear:** +5 ancestry bonus on saving throws against powers and effects with the Illusion tag.   
 * **Careful Focus:** You have the *careful focus* power.  
 
+> #### Careful Focus  
+>
+> **Encounter** **Utility** **Feature** (**Free Action**)   
+> **Self**   
+> **Trigger** You just made an attack roll.  
+> **Effect** Reroll the attack roll and take the new result.  
+
 ### Wild Child  
 
 You were abandoned to the wilderness.   
@@ -139,6 +212,13 @@ You were abandoned to the wilderness.
 * **Versatile Stride:** You ignore difficult terrain.   
 * **Low-Light Vision:** You can see in dim light as if it were bright light.  
 * **Barrel Along:** You have the *barrel along* power.   
+
+> #### Barrel Along  
+>
+> **Encounter** **Utility** **Feature** (**Swift Action**)   
+> **Self**   
+> **Trigger** You are staggered.  
+> **Effect** You have a +2 bonus to speed and to damage rolls until the end of the encounter.  
 
 ## Heritage
 
@@ -834,7 +914,7 @@ You gain the *cold shard* at-will power.
 > **Ranged** weapon (blast shard), one target  
 > **Attack** Dexterity vs Fortitude  
 > **Hit** 1d8 + Dexterity cold damage, and the target is slowed until the end of your next turn. 
-> *Level 21:* 2d8 + Dexterity acid damage, and 10 persistent acid damage (save ends).  
+> *Level 21:* 2d8 + Dexterity cold damage, and the target is slowed until the end of your next turn.  
 
 ### Empowered Blast Shard
 Experience has taught you how to apply your discipline and emotions in the best way, allowing you to extract more energy from your phrenic well than before.
@@ -1025,6 +1105,26 @@ You focus your energies into your weapon, splitting it into two identical weapon
 
 **Benefit:** When you manifest your weapon shard, you can choose to manifest one for each hand instead. When making an attack that requires two melee weapons, you gain a +1 feat bonus to your attack rolls.
 
+## Wild Shape Feats
+
+### Hardy Shift
+
+**Prerequisite:** You know at least one *shape of the X* power.
+
+**Benefit:** When you use a *shape of the X* power, you may spend a recovery to heal damage up to your recovery value. 
+
+### Hybrid Form
+
+**Prerequisite:** You know at least one power with the Form keyword. 
+
+**Benefit:** When you use a Form power, you can choose to take a hybrid, humanoid form instead of a pure animal form. In this case, you can keep your current size. Because your hybrid form is humanoid, you can talk, use weapon powers and otherwise make use of having arms and hands. 
+
+### Versatile Shifting
+
+**Prerequisite:** You know at least one *shape of the X* power. 
+
+**Benefit:** Once per day, you can expend a *shape of the X* power to use any other *shape of the X* power of the same level or lower.
+
 ## Dualclassing  
 
 You can also take feats to take some of the class features and powers of other classes. Once you take any Dualclassing feat, you count as that class (your “secondary class”) as well as your base class for the purpose of prerequisites.   
@@ -1111,7 +1211,7 @@ Even devout worshippers rarely speak of Enoran except at funerals and in the wak
 
 The Defending Blade  
  **Symbol:** A well-notched short sword  
- **Portfolio:** Defensive tactics, protection, vigilance, Halfling soldiers  
+ **Portfolio:** Defensive tactics, protection, vigilance, halflings   
  **Favored Weapon:** Short sword  
 
 A serious-minded deity, Korven (KOR-ven) protects all common folk and inspires them to defend their homes and families when beset by hostile creatures. He and his followers take a more reactive than proactive stance; if people are not threatened, he seems content to remain quiet and fortify, but when people are in danger he is ready to lead them to victory. His followers study traps and fortifications as well as applications of direct force. Under their tutelage even a simple caravan wagon can become a mobile fortress.  

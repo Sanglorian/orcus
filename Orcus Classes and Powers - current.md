@@ -7,7 +7,7 @@ footer: ${pageNo}
 
 # Classes and Powers
 
-0.6
+0.6.2
 
 * TOC  
 {:toc}  
@@ -44,7 +44,7 @@ Here are some example archetypes, and how you might model them in *Orcus*.
 
 **Demonologist:** Either the Magician (Conjurer) class or the Conjures Fiends kit would be enough to turn a character into a demonologist; taken together they would represent a very strong demonologist archetype. Consider as an alternative taking the Conjures Fiends kit with a different class for a different take on the demonologist: the hellish knight (with the Guardian class), the Harlequin whose fiddle comes from the Devil, or the Mageblade who fights alongside the fiends they conjure. 
 
-**Druid:** The Sylvan has both *wild shape* and an animal companion covered, so it is a good pick for druids. You may want to pick the Skinchanger Wild Gift and then the Charms Animal kit to have an animal companion that you can still make full use of while *wild shaped* yourself (normally, you cannot use most powers – including those that involve your companion – while in *wild shape* form). 
+**Druid:** The Sylvan has both *wild shape* and an animal companion covered, so it is a good pick for druids.
 
 **Elementalist:** A Mageblade with many powers from the Elemental Flux discipline is a natural elementalist. The Dabbles in Wizardry kit for the Spells of Ice and Fire discipline would add further elemental options, if needed – as would choosing an elemental familiar from Binds Familiar. 
 
@@ -239,7 +239,7 @@ If a character takes the Dualclass Recruit feat and selects the Commander, it ha
 
 **Benefit:** You belong to the Commander class (along with any other classes that you belong to), and gain the following benefits:
 
-* You can use *lifting words* once per encounter.  
+* You can use *lift spirits* once per encounter.  
 
 <figure><img src='pics\rook.jpg' alt='Rook by Jared von Hindman' style='zoom: 100.0%;' /><figcaption>Rook by Jared von Hindman</figcaption></figure>  
 
@@ -665,7 +665,7 @@ If a character takes the Dualclass Recruit feat and selects the Magician, it has
 * You are proficient with one of the following: orb, staff, wand, rod or book.
 * Choose one at-will 1st-level attack power from a Magician class discipline. It is an encounter power for you.  
 
-<figure><img src='pics\Vera.png' alt='Vera by Justin Nichols' style='zoom: 25.0%;' /><figcaption>Vera by Justin Nichols</figcaption></figure>  
+<figure><img src='pics\Vera.png' alt='Vera by Justin Nichol' style='zoom: 25.0%;' /><figcaption>Vera by Justin Nichol</figcaption></figure>  
 
 # Reaper  
 
@@ -748,6 +748,8 @@ If a character takes the Dualclass Recruit feat and selects the Reaper, it has t
 
 * Once per day, you can use a Spirit Entreaty power.  
 
+<figure><img src='pics\Ranger.png' alt='Ranger by Justin Nichol' style='zoom: 25.0%;' /><figcaption>Ranger by Justin Nichols</figcaption></figure>  
+
 # Sylvan  
 
 **Spirit Striker**  
@@ -773,7 +775,9 @@ If a character takes the Dualclass Recruit feat and selects the Reaper, it has t
 
 Choose one of the following.
 
-**Skinchanger:** When you wear light or no armor, you can add your Constitution modifier to your AC instead of Dexterity or Intelligence. You can use Wild Shape powers even while not in *wild shape* form, and can use any power while in *wild shape* form.
+**Skinchanger:** When you wear light or no armor, you can add your Constitution modifier to your AC instead of Dexterity or Intelligence. 
+
+While under the effects of a *shape of the X* power, you can spend any other *shape of the X* power you have yet to use in order to make the Form Attack of either the shape you are currently in or the shape you have expended. This does not count towards your one use of the Form Attack from using the original *shape of the X* power.
 
 **Hunter:** When no ally is closer to a target than you are, you get a +1 bonus on attack rolls against that target. In addition, all one-handed melee weapons have the side weapon property for you. You also get a bonus feat: Toughness, Two-Weapon Defense, Shield Proficiency or Melee Finesse. 
 
@@ -1112,6 +1116,59 @@ Reach 2; your level +3 vs AC; 1d8 + your level and pull 1.
 
 A web-throwing spider. Could also be used for a chameleon or a giant frog.  
 
+# Warrior  
+
+**Martial Striker/Defender**  
+
+## Stats  
+
+**Hit Points at 1st Level:** 15.  
+**Hit Points at Higher Levels:** 6.  
+**Recoveries per Long Rest:** 8.  
+**Defenses:** +2 Fortitude.  
+
+## Proficiency and Training  
+
+**Armor Proficiencies:** Cloth, leather, hide, chainmail, scale; light shield.  
+**Weapon Proficiencies:** Simple melee, martial melee, simple ranged, martial ranged.  
+**Focus Proficiencies:** Staff, druidic focus, martial focus.  
+**Trained Skills:** You are trained in 4 skills from your class skills.  
+**Class Skills:**  Acrobatics, Athletics, Diplomacy, Dungeoneering, Endure, Heal, Insight, Intimidate, Nature, Perception, Stealth.  
+
+## Features  
+
+### Bonus Feat  
+
+You gain one of the following feats of your choice: Armor Proficiency, Shield Proficiency, Two-Weapon Defense, Unarmed Combat or Weapon Proficiency.  
+
+### Bear and Wolf Styles  
+
+When your hit points are high enough that you are not staggered, you have the Bear Style feature. While you are staggered, you lose Bear Style and gain the Wolf Style feature until you are healed enough that you are no longer Staggered.
+
+*Bear Style:* Adjacent enemies suffer a -2 penalty to attacks that do not include you as a target, unless they have the marked condition.
+
+*Wolf Style:* Once per round, you can do additional damage when you hit with an attack. *Level 1:* +1d8. *Level 11:* +2d8. *Level 21:* +3d8.  
+
+### Warrior Powers  
+
+As a warrior, you learn and use powers differently to other classes. You know all at-will powers in the Weapon Drill discipline, and can use them as normal at-will powers. These replace the two level 1 at-will attack powers that other heroes gain at level 1. 
+
+From level 1, you also know two level 1 attack powers (encounter or daily, or one of each) from any martial discipline. At levels 3, 5, 7, 9, 13, 15, 19, 23, 25 and 29, you learn an additional attack power (encounter or daily) of your level or lower from any martial discipline. These are your class attack powers. However, you cannot use these powers without spending Fatigue Points (see below). 
+
+You learn utility powers as normal.  
+
+### Fatigue Points  
+
+At level 1, you have 1 Fatigue Point. You gain an additional Fatigue Point at levels 3, 7 and 9. You can spend one Fatigue Point to use any encounter attack power you have learned via Warrior Power. After a short rest, you recover all spent Fatigue Points. 
+
+You can also use any daily attack power that you know, but it takes time to set these powers up. You must declare that you are using the daily power on your turn, and spend a Fatigue Point. On your next turn, you must use that power. If you are no longer able to do so or no longer want to use the power, for that turn you lose whatever action that power would have taken and the Fatigue Point remains spent.
+
+The normal limit that an encounter power can only be used once between short rests and a daily power once between long rests do not apply to your class attack powers. However, you cannot use any daily attack power more than once an encounter.  
+
+### Multiclassing, Kits and Other Power Swaps  
+
+Characters in *Orcus* often replace class powers with other powers. The warrior can do so under the same circumstances, but they lose one Focus Point for every power that they do so with. For example, a Warrior with the Dabbles in Wizardry kit could take *cut the strings* as a level 3 encounter power. If so, they would lose one Fatigue Point, but could use *cut the strings* once an encounter (not requiring them to spend any Fatigue Points).  
+
 # Kits  
 
 Kits are another way of customizing your character at first level, if permitted by the Game Master (see “Playing with Kits”, below). They represent another facet to your character that isn’t captured by their race or their class.   
@@ -1262,7 +1319,7 @@ You can focus your mind to unlock your psychic potential.
 > *You tap into the mental connection between yourself and your Godmind, allowing you to refresh the phrenic energies of either yourself or an ally.*  
 > **Mantle** **Utility** **Feature** (**Swift Action**) ● **Phrenic**  
 > **Near** burst 5 (10 at level 11, 15 at level 21), you or an ally  
-> **Effect** The target can spend one focus surge and recharge their *psi focus*.  
+> **Effect** The target can spend a recovery to recharge their *psi focus*.  
 
 > #### Intensity  
 > *You focus on your connection with your Godmind and you become more intensely focused on your next action.*  
@@ -1270,19 +1327,17 @@ You can focus your mind to unlock your psychic potential.
 > **Self**   
 > **Effect** You gain a +1 bonus to your next attack and damage roll.  
 
-**Focused (Level 10):** You have a number of focus surges equal to your Charisma modifier.  Your focus surges are replenished after a long rest.
-
-You can also perform the meditate action. 
+**Focused (Level 10):** You can perform the meditate action. 
 
 > **MEDITATE: STANDARD ACTION**
 >
 > You meditate for a short while, regaining your inner focus and becoming in tune with both your inner well of power and the world around you.
 >
-> **Spend a Focus Surge:** You may spend a focus surge to regain your psi focus.
+> **Focus Surge:** You may spend a recovery to regain your psi focus.
 >
 > **+2 bonus to Will Defense:** You gain a +2 bonus to your Will Defense until the start of your next turn.
 >
-> **Once per Encounter:** You can meditate once per encounter and can use this action again after you take a short or long rest. Some powers (either yours or another character’s) allow you to spend focus surges without meditating.
+> **Once per Encounter:** You can meditate once per encounter and can use this action again after you take a short or long rest.
 
 **Associated Discipline (Level 1):** Third Mind. 
 
@@ -1304,11 +1359,9 @@ You summon fiends from the depths of Hell.
 
 **Enduring Summons (Level 1):** When you use a daily Summon power, the summoned creature immediately gets to take an action of the same type as the type you used to summon them (for example, if you use *prestige binding*, a standard action, the big burner you summon can immediately use a standard action).   
 
-**Far Call (Level 5):** Increase the range of Cup of Brimstone powers that you use by 9. For most Cup of Brimstone powers, this means they are now Ranged 10.  
+**Far Call (Level 5):** Increase the range of powers with the Summon tag that you use by 9. For most Cup of Brimstone Summon powers, this means they are now Ranged 10.  
 
 **Careful Contract (Level 10):** You do not lose a recovery when your summoned creature is reduced to 0 HP. 
-
-*For example, if a hopping imp does not receive a command it attacks the nearest slowed creature. With this feature, you can have it attack the nearest slowed enemy instead.*  
 
 **Associated Discipline (Level 1):** Cup of Brimstone.  
 
@@ -1510,7 +1563,7 @@ After each long rest, roll 1d6 for each monster power you used that day. On a 1,
 
 **Level 10:** After an encounter in which you defeated a monster of your level or lower, you can gain an aura of the monster. You can only have one such aura active at any one time. 
 
-In addition, you do not need to defeat a monster to use your Level 1, 5 or 10 powers. The monster can willingly grant you the power(s) instead. 
+In addition, you do not need to defeat a monster to use your Level 1, 5 or 10 features. The monster can willingly grant you the power(s) instead. 
 
 **Associated Discipline:** Red in Tooth and Claw.
 
@@ -1591,7 +1644,7 @@ You also get a +2 feat bonus to Bluff.
 
 You can take the shape of a fearsome animal, or half-person half-beast.  
 
-**Wild Shape (Level 1):** Once a day, you can use *hybrid shape*, even though this is normally a level 6 power.   
+**Wild Shape (Level 1):** You gain the Hybrid Form feat as a bonus feat.   
 
 You have the shapechanger tag.  
 
@@ -2463,7 +2516,7 @@ The Cantrips “discipline” is a collection of powers that can be selected by 
 > **At-Will** **Utility** **Feature** (**Standard Action**) ● **Arcane, Cold**  
 > **Self**   
 > **Effect** Use this power to accomplish one of the effects given below, or an equivalent with the GM’s approval.
-● * Extinguish a flame no larger than one square or cool up to one square of a hot surface so that it can be safely touched.
+● Extinguish a flame no larger than one square or cool up to one square of a hot surface so that it can be safely touched.
 ● Freeze a gallon of water (other liquids may be affected at different volumes, at the GM’s discretion). This effect can be maintained on successive turns to affect larger bodies of water: it requires two turns to freeze one full square, and each subsequent turn increases the size of the affected area by burst 1.
 ● Create an ice cube in your hand (size dependent on ambient moisture), or give an enemy an uncomfortable and distracting freezer burn if used in combat. 
 ● Chill food to a desired temperature.  
@@ -4664,37 +4717,42 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 **Secondary Ability:** Charisma  
 
 > #### Neural Spear  
+>
 > *You scour the target’s mind.*  
-> **At-Will** **Attack** **1** (**Standard Action**) ● **Arcane, Psychic, Focus**  
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Arcane, Focus, Psychic**  
 > **Near** burst 5, one living creature  
 > **Attack** Wisdom vs Will  
 > **Hit** 1d8 + Wisdom modifier psychic damage. At 21st level, increase damage to 2d8 + Wisdom modifier damage.  
 
 > #### Puppetmaster  
+>
 > *You start pulling strings, and the target begins to act according to your wishes.*  
-> **At-Will** **Attack** **1** (**Move Action**) ● **Arcane, Psychic, Focus**  
+> **At-Will** **Attack** **1** (**Move Action**) ● **Arcane, Focus, Psychic**  
 > **Near** burst 3, one creature  
 > **Attack** Wisdom vs Will  
 > **Hit** The target is dazed until the start of your next turn.  
 
 > #### Instant Friends  
+>
 > *Don’t you remember me? We’re old pals.*  
-> **Encounter** **Attack** **1** (**Standard Action**) ● **Arcane, Charm, Psychic, Focus**  
+> **Encounter** **Attack** **1** (**Standard Action**) ● **Arcane, Charm, Focus, Psychic**  
 > **Near** burst 5, one creature  
 > **Attack** Wisdom vs Will  
 > **Hit** The target treats you as a friend and cannot attack you until the end of your next turn. You can use your Bluff skill to convince the target to do something for you, as per normal rules for Bluff.  
 > **Maintain Swift** Repeat the attack against the same target. On a hit the duration is extended until the end of your next turn.  
 
 > #### Recall Probe  
+>
 > *You sift through the target’s memories, searching for the needed one.*  
-> **Daily** **Attack** **1** (**Standard Action**) ● **Arcane, Psychic**  
+> **Daily** **Attack** **1** (**Standard Action**) ● **Arcane, Focus, Psychic**  
 > **Melee** touch, one creature  
 > **Attack** Wisdom vs Will  
-> **Hit** The target is dazed until the end of your next turn and takes 2d4 + your Wisdom modifier psychic damage. You search the target’s mind for a specific memory. Make an Arcana check: DC 20 for a memory 24 hours old or less, DC 25 for a week old and DC 30 for up to a month old (GM’s discretion for older memories).  
+> **Hit** 2d4 + your Wisdom modifier psychic damage and the target is dazed until the end of your next turn. You search the target’s mind for a specific memory. Make an Arcana check: DC 20 for a memory 24 hours old or less, DC 25 for a week old and DC 30 for up to a month old (GM’s discretion for older memories).  
 > **Miss** The power is not expended, but you cannot use it on the same target until after your next long rest.  
-> **Maintain Standard** Make another attack.  
+> **Maintain Standard** Repeat the attack against an eligible target.  
 
 > #### Dreamtrancer  
+>
 > *You move through the netherscape of untapped subconscious to communicate with someone else.*  
 > **At-Will** **Utility** **2** (**Standard and Move Action**) ● **Arcane, Psychic**  
 > **Unlimited** one unconscious creature you have met  
@@ -4702,164 +4760,184 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Maintain Free** The effect persists. You can maintain indefinitely until the target wakes up.  
 
 > #### Imprint  
+>
 > *You wave your hand and suddenly a piece of paper looks like a letter from the king, a copper coin looks like a gold coin, or a rock looks like a diamond. Surely there are other applications, but you can’t think of any.*  
 > **At-Will** **Utility** **2** (**Standard Action**) ● **Arcane, Illusion**  
 > **Melee** touch, one tiny object  
 > **Effect** You make one object look like something else of the same approximate size and shape. The illusion only affects the object’s visual qualities. Observers can make a Perception check opposed by your Bluff check to identify the illusion. The effect lasts until you dismiss it as a free action, or until you stop touching the object.  
 
 > #### Long Range Communication  
+>
 > *You concentrate and transmit a simple message over a vast distance.*  
 > **At-Will** **Utility** **2** (**Standard Action**) ● **Arcane, Psychic**  
 > **Near** burst 1 mile, one creature you can envision  
 > **Effect** You transmit a message of 25 words or less that only the target will hear.  
 
 > #### Indirect Camouflage  
+>
 > *The best disguise is the one established in the mind.*  
-> **Daily** **Utility** **2** (**Move Action**) ● **Arcane, Illusion, Psychic, Focus, Consistent**  
+> **Daily** **Utility** **2** (**Move Action**) ● **Arcane, Consistent, Focus, Illusion, Psychic**  
 > **Self**   
 > **Hit** You disguise your appearance, making you look like someone else. The details of your appearance are up to you. You gain a +5 bonus to Bluff checks related to the disguise.  
-> **Maintain Move** The effect persists. You can maintain until the end of the encounter or five minutes.  
+> **Maintain Move** The effect persists. You can maintain until the end of the encounter or five minutes (whichever is longer).  
 
 > #### All a Jumble  
+>
 > *The target mixes up their target and ends attacking their best friend. That won’t go over well.*  
-> **Encounter** **Attack** **3** (**Counter Action**) ● **Arcane, Psychic, Consistent, Focus**  
+> **Encounter** **Attack** **3** (**Counter Action**) ● **Arcane, Consistent, Focus, Psychic**  
 > **Near** burst 10, the triggering creature  
 > **Trigger** A creature makes a ranged attack against you or an adjacent ally.  
 > **Attack** Wisdom vs Will  
 > **Hit** The target attacks a different creature of your choice within its attack’s range.  
 
 > #### Cut the Strings  
+>
 > *The target’s eyes roll back and they take a nice long nap.*  
-> **Encounter** **Attack** **3** (**Standard Action**) ● **Arcane, Psychic, Consistent, Focus**  
+> **Encounter** **Attack** **3** (**Standard Action**) ● **Arcane, Consistent, Focus, Psychic**  
 > **Near** burst 5, one creature  
 > **Attack** Wisdom vs Will  
 > **Hit** The target falls unconscious until the end of your next turn. If it suffers any damage, it immediately wakes up.  
-> **Maintain Swift** Repeat the attack against the same target.  
+> **Maintain Swift** Repeat the attack against the same target. You can maintain until the end of the encounter, after which you only need to maintain once an hour.  
 
 > #### Reverberation  
+>
 > *You create a sound everyone thinks they hear.*  
-> **Encounter** **Attack** **3** (**Move Action**) ● **Arcane, Psychic, Consistent, Focus**  
+> **Encounter** **Attack** **3** (**Move Action**) ● **Arcane, Consistent, Focus, Psychic**  
 > **Far** burst 5 (range 20), all enemies  
 > **Attack** Wisdom vs Will  
 > **Hit** The target is distracted and grants combat advantage to all creatures until the end of your next turn.  
 
 > #### Direct Manipulation  
+>
 > *You push the target’s brain aside and take direct control of the target.*  
-> **Daily** **Attack** **5** (**Standard Action**) ● **Arcane, Charm, Psychic, Focus, Consistent**  
+> **Daily** **Attack** **5** (**Standard Action**) ● **Arcane, Charm, Consistent, Focus, Psychic**  
 > **Near** burst 5, one creature  
 > **Attack** Wisdom vs Will  
-> **Hit** The target is controlled (save ends).  
-> **Maintain Swift** Repeat the attack against the same target. On a hit, the target fails its next save against this effect.  
+> **Hit** The target is controlled until the end of your next turn.  
+> **Maintain Standard** Repeat the attack against the same target. You can maintain until the end of the encounter, after which you only need to maintain once an hour.  
 
 > #### Making Matters Worse  
+>
 > *You’re already wiggling around their mind. Might as well cut a few nerves.*  
-> **Daily** **Attack** **5** (**Free Action**) ● **Arcane, Psychic, Focus**  
+> **Daily** **Attack** **5** (**Free Action**) ● **Arcane, Focus, Psychic**  
 > **Unlimited** range, one creature that has just taken damage from a Psychic power you used  
 > **Effect** The target takes an additional 2d8 + Wisdom modifier damage and is weakened until the end of your next turn.
 > *Level 15:* 3d8 + Wisdom modifier damage.
 > *Level 25:* 4d8 + Wisdom modifier damage.  
 
 > #### Deep Scan  
+>
 > *You attempt to scan the thoughts of someone you cannot see.*  
-> **Daily** **Utility** **6** (**Standard and Move Action**) ● **Arcane, Psychic, Consistent, Focus**  
+> **Daily** **Utility** **6** (**Standard and Move Action**) ● **Arcane, Consistent, Focus, Psychic**  
 > **Near** burst 1 mile, one creature you can envision  
 > **Attack** Wisdom vs Will  
 > **Hit** You are able to scan the surface thoughts of the target, revealing its current location and what it is doing.  
-> **Miss** The power is not expended but you cannot use it against the same target for one hour.  
 > **Special** No attack necessary against a willing target.  
 
 > #### Instill Confidence  
+>
 > *You make someone feel just awesome.*  
 > **Daily** **Utility** **6** (**Swift Action**) ● **Arcane, Psychic**  
 > **Near** burst 5, one ally  
 > **Effect** The target gains a +5 bonus to all skill checks until the end of the encounter or five minutes.  
 
 > #### Psychic Refresh  
+>
 > *You are not like other people, limited in their uses of things.*  
 > **Daily** **Utility** **6** (**Move Action**) ● **Arcane, Psychic**  
 > **Self**   
 > **Effect** Recover the use of one of your encounter powers.  
 
 > #### Visual Deletion  
+>
 > *Although you can still make a noise, your opponents have no other ways to locate you.*  
-> **Encounter** **Attack** **7** (**Standard Action**) ● **Arcane, Illusion, Psychic, Focus**  
+> **Encounter** **Attack** **7** (**Standard Action**) ● **Arcane, Focus, Illusion, Psychic**  
 > **Near** burst 5, all enemies  
 > **Attack** Wisdom vs Will  
 > **Hit** You are invisible to the target until the end of your next turn.  
-> **Maintain Move** Repeat the attack.  
+> **Maintain Move** Repeat the attack against any targets you hit last turn.  
 
 > #### Act Casual  
+>
 > *No one suspects a thing.*  
-> **Daily** **Attack** **9** (**Standard Action**) ● **Arcane, Charm, Psychic, Focus**  
+> **Daily** **Attack** **9** (**Standard Action**) ● **Arcane, Charm, Focus, Psychic**  
 > **Near** burst 5, one creature  
 > **Attack** Wisdom vs Will  
 > **Hit** The target is controlled (save ends), but not dazed (enabling you to use more than one of its actions) and the target doesn’t grant combat advantage unless you wish them to.  
-> **Miss** The power is not expended but you cannot use it on the same target for five minutes.  
 
 > #### Neural Slice  
+>
 > *You send out a cascade of psychic energy to affect all those around.*  
-> **Daily** **Attack** **9** (**Standard Action**) ● **Arcane, Psychic, Focus**  
+> **Daily** **Attack** **9** (**Standard Action**) ● **Arcane, Focus, Psychic**  
 > **Far** burst 3 (range 10), all enemies  
 > **Attack** Wisdom vs Will  
 > **Hit** The target is dazed, immobile, and weakened (save ends all).  
 > **Miss** The target is dazed, immobile, and weakened until the start of your next turn.  
 
 > #### Telepathic Blocker  
+>
 > *You go on the defense to ensure you don’t suffer from any effects you yourself are known for.*  
 > **Daily** **Utility** **10** (**Free Action**) ● **Arcane, Psychic**  
 > **Self**   
 > **Effect** You gain a +4 bonus to Will defense until the end of the encounter or 5 minutes.  
 
 > #### Blackout  
+>
 > *You cut off every sense in your opponent. You suppose they could still smell you.*  
-> **Daily** **Attack** **15** (**Standard Action**) ● **Arcane, Psychic, Focus**  
+> **Daily** **Attack** **15** (**Standard Action**) ● **Arcane, Focus, Psychic**  
 > **Near** burst 5, all enemies  
 > **Attack** Wisdom vs Will  
 > **Hit** The target is blinded and deafened (save ends).  
 > **Miss** The target is blinded and deafened until the start of your next turn.  
 
 > #### Transplant Senses  
+>
 > *You can either look through someone else’s eyes or force their vision through your own.*  
-> **Encounter** **Attack** **17** (**Standard Action**) ● **Arcane, Psychic, Consistent, Focus**  
+> **Encounter** **Attack** **17** (**Standard Action**) ● **Arcane, Consistent, Focus, Psychic**  
 > **Ranged** 20, one creature  
 > **Attack** Wisdom vs Will  
 > **Hit** Until the start of your next turn, you either look through the targets eyes or you force the target to see what you see. While looking through the target’s eyes, the target is unaware of your use of this power and you grant combat advantage to all creatures: while looking through yours, the target grants combat advantage to all creatures and may not be able to see certain targets in order to attack them. If the target takes damage, the effect ends.  
-> **Maintain Standard** Repeat the attack against the same target.  
+> **Maintain Standard** Repeat the attack against the same target. You can maintain until the end of the encounter, after which you only need to maintain once an hour.  
 
 > #### Field Control  
+>
 > *This feels more like a tabletop wargame and these are your troops.*  
-> **Daily** **Attack** **19** (**Standard Action**) ● **Arcane, Psychic, Charm**  
+> **Daily** **Attack** **19** (**Standard Action**) ● **Arcane, Charm, Focus, Psychic**  
 > **Near** burst 5, all enemies  
 > **Attack** Wisdom vs Will  
-> **Hit** The target is controlled (save ends).  
-> **Maintain Standard** Repeat the attack against the same target. On a hit, the target fails its next save against this effect.  
+> **Hit** The target is controlled until the end of your next turn.  
+> **Maintain Standard** Repeat the attack against any targets you hit last turn.  
 
 > #### Phrenic Cascade  
+>
 > *You simply cause havoc in the target’s brain.*  
-> **Encounter** **Attack** **23** (**Standard Action**) ● **Arcane, Psychic, Consistent, Focus**  
+> **Encounter** **Attack** **23** (**Standard Action**) ● **Arcane, Consistent, Focus, Psychic**  
 > **Near** burst 10, one creature  
 > **Attack** Wisdom vs Will  
 > **Hit** 5d10 + Wisdom modifier damage, and the target is stunned until the end of your next turn.
-*Level 27:* 7d10 + Wisdom modifier damage  
+> *Level 27:* 7d10 + Wisdom modifier damage  
 
 > #### Godly String  
+>
 > *No matter where they go, no matter where they hide, you can get at them.*  
-> **Daily** **Attack** **25** (**Standard and Move Action**) ● **Arcane, Psychic, Focus**  
+> **Daily** **Attack** **25** (**Standard and Move Action**) ● **Arcane, Focus, Psychic**  
 > **Near** burst 1 mile, one creature you can envision  
 > **Attack** Wisdom vs Will  
 > **Hit** The target is controlled (save ends).  
 
 > #### Pure Puppeteer  
+>
 > *You convince the target that what you wish is all that matters. You are nothing less than a god and they will do anything and everything in your name.*  
-> **Daily** **Attack** **25** (**Standard Action**) ● **Arcane, Psychic, Consistent, Focus**  
+> **Daily** **Attack** **25** (**Standard Action**) ● **Arcane, Consistent, Focus, Psychic**  
 > **Near** burst 5, one creature  
 > **Attack** Wisdom vs Will  
 > **Hit** The target is under your control until the end of your next turn. This is identical to being controlled, except you can activate rechargeable, encounter, and daily powers. You can command the target to attack allies or itself (if possible).  
 > **Maintain Move** Repeat the attack against the same target. You can maintain until the end of the encounter, after which you only need to maintain once every hour.  
 
 > #### Personality Manipulation  
+>
 > *Until now, everything you have done has been temporary. People would wake up and feel the fool. Now, there is nothing holding you back … this is that moment where you need to decide which side you’re really on.*  
-> **Daily** **Attack** **29** (**Standard Action**) ● **Arcane, Charm, Psychic, Consistent, Focus**  
+> **Daily** **Attack** **29** (**Standard Action**) ● **Arcane, Charm, Consistent, Focus, Psychic**  
 > **Near** burst 5, one creature  
 > **Attack** Wisdom vs Will  
 > **Hit** You rewrite the target’s personality so that it is convinced you and your allies are its allies until the end of your next turn. You have no direct control over the target but are able to give it instructions which it will try to follow to the best of its abilities.  
@@ -5267,362 +5345,588 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 > **Miss** Your attack does half damage.  
 
 ## Red in Tooth and Claw  
+
 **Key Ability:** Constitution  
 **Secondary Ability:** Wisdom  
 
 See the Rulebook for details on how the Form and Wild Shape tags work.  
 
-> #### Bat Aspect  
-> **At-Will** **Attack** **1** (**Swift Action**) ● **Spirit, Wild Shape, Stance**  
-> **Self**   
-> **Effect** You gain darkvision and blindsight 10.  
-> **Special** If you take one minute to use this power, you take the form of a Tiny or Small bat or flying fox, with darkvision and blindsight 10, and speed 2 and fly 6 (maximum altitude 4). You can talk in this form. While in this form you cannot use powers unless they have the Wild Shape tag, and you cannot make attacks or use attack powers. Otherwise, you can do all the things that a bat can do, and you are a convincing bat from the perspective of others.  
+> #### Blood Lust  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
+> **Melee** 1, one enemy  
+> **Attack** Constitution vs AC  
+> **Hit** 1d8 + Constitution modiifer damage, and you gain temporary hit points equal to your Wisdom modifier.  
+> *Level 21:* 2d8 + Constitution modifier damage, and you gain temporary hit points equal to double your Wisdom modifier.  
+> **Special** Can be used as a basic melee attack.  
 
-> #### Bear Aspect  
-> **At-Will** **Attack** **1** (**Swift Action**) ● **Spirit, Wild Shape, Stance**  
-> **Self**   
-> **Effect** Your attacks also push the target 1 on a hit.  
-> **Special** If you take one minute to use this power, you take the form of a Large bear, with low-light vision and speed 8. You can talk in this form. While in this form you cannot use powers unless they have the Wild Shape tag, and you cannot make attacks or use attack powers. Otherwise, you can do all the things that a bear can do, and you are a convincing bear from the perspective of others.  
-
-> #### Behemoth Aspect  
-> **At-Will** **Attack** **1** (**Swift Action**) ● **Spirit, Wild Shape, Stance**  
-> **Self**   
-> **Effect** While you are staggered, you score a critical hit on a natural 19 as well as on a natural 20.  
-> **Special** If you take one minute to use this power, you take the form of a Small velociraptor or Large deinonychus, with low-light vision, and speed 8. You can talk in this form. While in this form you cannot use powers unless they have the Wild Shape tag, and you cannot make attacks or use attack powers. Otherwise, you can do all the things that a raptor can do, and you are a convincing raptor from the perspective of others.  
-
-> #### Boar Aspect  
-> **At-Will** **Attack** **1** (**Swift Action**) ● **Spirit, Wild Shape, Stance**  
-> **Self**   
-> **Effect** Each time you hit on an attack, you gain temporary hit points equal to your Constitution modifier. Note that temporary hit points do not stack.  
-> **Special** If you take one minute to use this power, you take the form of a Medium boar or domesticated pig, with low-light vision, and speed 8. You can talk in this form. While in this form you cannot use powers unless they have the Wild Shape tag, and you cannot make attacks or use attack powers. Otherwise, you can do all the things that a swine can do, and you are a convincing swine from the perspective of others.  
-
-> #### Bull Aspect  
-> **At-Will** **Attack** **1** (**Swift Action**) ● **Spirit, Wild Shape, Stance**  
-> **Self**   
-> **Effect** You gain +2 speed when you charge, and do additional damage equal to your Constitution modifier on a charge.  
-> **Special** If you take one minute to use this power, you take the form of a Large bull or cow, with low-light vision, and speed 8. You can talk in this form. While in this form you cannot use powers unless they have the Wild Shape tag, and you cannot make attacks or use attack powers. Otherwise, you can do all the things that cattle can do, and you are a convincing cow from the perspective of others.  
-
-> #### Dire Rat Aspect  
-> **At-Will** **Attack** **1** (**Swift Action**) ● **Spirit, Wild Shape, Stance**  
-> **Self**   
-> **Effect** If you attack a creature against which you have combat advantage, you do persistent damage equal to your Wisdom modifier (save ends).  
-> **Special** If you take one minute to use this power, you take the form of a Tiny rat or Small dire rat, with low-light vision, speed 6 and climb 4.  You can talk in this form. While in this form you cannot use powers unless they have the Wild Shape tag, and you cannot make attacks or use attack powers. Otherwise, you can do all the things that a rat can do, and you are a convincing rat from the perspective of others.  
-
-> #### Leopard Aspect  
-> **At-Will** **Attack** **1** (**Swift Action**) ● **Spirit, Wild Shape, Stance**  
-> **Self**   
-> **Effect** Each time an adjacent enemy misses you with an attack, you may shift 1.  
-> **Special** If you take one minute to use this power, you take the form of a Tiny cat or Medium cougar, cheetah, leopard or jaguar, with low-light vision, and speed 8. You can talk in this form. While in this form you cannot use powers unless they have the Wild Shape tag, and you cannot make attacks or use attack powers. Otherwise, you can do all the things that a cat can do, and you are a convincing cat from the perspective of others.  
-
-> #### Monster Mash  
+> #### Bob and Weave  
+>
 > *You bob and weave through combat with the grace of a cat.*  
-> **At-Will** **Attack** **1** (**Standard Action**) ● **Spirit, Wild Shape, Focus**  
-> **Melee** touch, one target  
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
+> **Melee** 1, one enemy  
 > **Attack** Constitution vs AC  
 > **Hit** 1d6 + Constitution modifier damage, and you shift 1 square.
-*Level 21:* 2d6 + Constitution modifier damage.  
+> *Level 21:* 2d6 + Constitution modifier damage.  
+> **Special** Can be used as a basic melee attack.  
 
-> #### Untrimmed  
-> *Your fiercer side begins to show and you bare your claws.*  
-> **At-Will** **Attack** **1** (**Standard Action**) ● **Spirit, Wild Shape, Focus**  
-> **Melee** touch, one target  
+> #### Hunker Down  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
+> **Melee** 1, one enemy  
 > **Attack** Constitution vs AC  
-> **Hit** 1d10 + Constitution modifier damage.
-*Level 21:* 2d10 + Constitution modifier damage.  
+> **Hit** 1d8 + Constitution modiifer damage, and the target is rattled until the end of your next turn. 
+> *Level 21:* 2d8 + Constitution modifier damage.  
+> **Special** Can be used as a basic melee attack.  
 
-> #### Wild Shape  
-> **At-Will** **Attack** **1** (**Swift Action**) ● **Spirit, Form**  
-> **Self**   
-> **Effect** You take the form of a four-legged beast, like a lion, ram or owlbear, of your size or one size large or smaller than you. The first time per encounter that you do so, you can also spend one recovery to heal your recovery value. While in this form you cannot use powers unless they have the Wild Shape tag. You can leave this form as a swift action, and you do so automatically if you are reduced to 0 HP or below. You can use this power once per round.  
+> #### Knockback  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
+> **Melee** 1, one enemy  
+> **Attack** Constitution vs AC  
+> **Hit** 1d8 + Constitution modifier damage and the target is pushed 1.  
+> *Level 21:* 2d8 + Constitution modifier damage and the target is pushed a number of squares equal to your Wisdom modifier.  
+> **Special** Can be used as a basic melee attack.  
+
+> #### Mad Rush  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
+> **Melee** 1, one enemy  
+> **Attack** Constitution vs AC  
+> **Hit** 1d8 + Constitution modifier damage.  
+> *Level 21:* 2d8 + Constitution modifier damage.  
+> **Special** If used as part of a charge, increase your speed by 2 for the charge and do additional damage equal to your Wisdom modifier.  
+> Can be used as a basic melee attack.  
+
+> #### Powerful Swipe  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
+> **Melee** 1, one enemy  
+> **Attack** Constitution vs AC  
+> **Hit** 1d12 + Constitution modifier damage. 
+> *Level 21:* 2d12 + Constitution modifier damage.  
+> **Special** Can be used as a basic melee attack.  
+
+> #### Sic 'Em  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
+> **Melee** 1, one enemy  
+> **Attack** Constitution vs AC  
+> **Hit** 1d8 + Constitution modiifer damage, and the target is marked. 
+> *Level 21:* 2d8 + Constitution modifier damage.  
+> **Special** Can be used as a basic melee attack.  
+
+> #### Sneaky Strike  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
+> **Melee** 1, one enemy  
+> **Attack** Constitution vs AC  
+> **Hit** 1d8 + Constitution modifier damage. If you have combat advantage against the target, do additional damage equal to your Wisdom modifier. 
+> *Level 21:* 2d8 + Constitution modifier damage, and if you have combat advantage against the target, do additional damage equal to double your Wisdom modifier.  
+> **Special** Can be used as a basic melee attack.  
+
+> #### Tongue Lash  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
+> **Melee** 2, one enemy  
+> **Attack** Constitution vs AC  
+> **Hit** 1d8 + Constitution modifier damage and the target is pulled 1.
+> *Level 21:* Reach 2; 2d8 + Constitution modifier damage and the target is pulled 2.  
+> **Special** Can be used as a basic melee attack.  
+
+> #### Venomous Sting  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Poison, Spirit, Wild Shape**  
+> **Melee** 1, one enemy  
+> **Attack** Constitution vs AC  
+> **Hit** 1d8 + Constitution modifier poison damage. If the creature moves before the end of its next turn, it takes additional poison damage equal to your Wisdom modifier.
+> *Level 21:* 2d8 + Constitution modifier damage, and if the creature moves before the end of its next turn, it takes additional poison damage equal to double your Wisdom modifier.  
+> **Special** Can be used as a basic melee attack.  
+
+> #### Worrying Bite  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
+> **Melee** 1, one enemy  
+> **Attack** Constitution vs AC  
+> **Hit** 1d8 + Constitution modifier damage, and the target falls prone. 
+> *Level 21:* 2d8 + Constitution modifier damage.  
+> **Special** Can be used as a basic melee attack.  
 
 > #### Choppers  
+>
 > *Your opponent wasn’t expecting you to use your teeth.*  
-> **Encounter** **Attack** **1** (**Swift Action**) ● **Spirit, Wild Shape, Focus, Consistent**  
+> **Encounter** **Attack** **1** (**Swift Action**) ● **Consistent, Focus, Spirit**  
 > **Melee** touch, one target  
 > **Attack** Constitution vs AC  
 > **Hit** 2d6 + Constitution modifier damage, and the target is weakened until the start of your next turn.  
 > **Boost** **Level 13:** 4d6 + Strength modifier damage.
-**Level 27:** 6d6 + Strength modifier damage.  
+> **Level 27:** 6d6 + Strength modifier damage.  
 
 > #### Flailing Attacks  
-> **Encounter** **Attack** **1** (**Standard Action**) ● **Spirit, Wild Shape, Focus**  
+>
+> **Encounter** **Attack** **1** (**Standard Action**) ● **Focus, Spirit**  
 > **Melee** touch, one target  
 > **Attack** Constitution vs AC  
 > **Hit** 1d8 + Constitution modifier damage.  
 > **Miss** Make a secondary attack against the same or a different target.
-*Secondary Attack:* Constitution vs AC; 1d8 + Constitution modifier damage.  
+> *Secondary Attack:* Constitution vs AC; 1d8 + Constitution modifier damage.  
 
 > #### Rake  
-> **Encounter** **Attack** **1** (**Free Action**) ● **Spirit, Wild Shape, Focus**  
+>
+> **Encounter** **Attack** **1** (**Free Action**) ● **Focus, Spirit**  
 > **Melee** touch, one target  
 > **Trigger** You hit on an attack.  
 > **Attack** Same target; Constitution vs AC  
 > **Hit** 1d8 + Constitution modifier damage and 5 persistent damage (save ends).  
 
 > #### Wild Swings  
-> **Encounter** **Attack** **1** (**Standard Action**) ● **Spirit, Wild Shape, Focus**  
+>
+> **Encounter** **Attack** **1** (**Standard Action**) ● **Focus, Spirit**  
 > **Near** burst 1, all enemies  
 > **Hit** 1d6 + Constitution modifier damage.  
 
-> #### Worrying Bite  
-> **Encounter** **Attack** **1** (**Standard Action**) ● **Spirit, Wild Shape, Focus**  
-> **Melee** touch, one target  
-> **Hit** 1d10 + Constitution modifier damage, and the target falls prone.  
-
-> #### Pestilent Bite  
-> **Daily** **Attack** **1** (**Standard Action**) ● **Spirit, Wild Shape, Focus, Poison**  
-> **Melee** touch, one target  
-> **Attack** Constitution vs Fortitude  
-> **Hit** 3d8 + Constitution modifier damage, and persistent 10 poison damage (save ends).  
-> **Miss** 3d8 + Constitution modifier damage.  
-
-> #### Wolverine Aspect  
-> **Daily** **Attack** **1** (**Swift Action**) ● **Spirit, Wild Shape, Stance**  
+> #### Shape of the Badger  
+>
+> **Daily** **Attack** **1** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
-> **Effect** Your attacks do additional damage equal to your Wisdom modifier, and mark the target.  
-> **Special** If you take one minute to use this power, you take the form of a Tiny ferret or weasel or Small badger or wolverine, with low-light vision and speed 8. You can talk in this form. While in this form you cannot use powers unless they have the Wild Shape tag, and you cannot make attacks or use attack powers. Otherwise, you can do all the things that a mustelid can do, and you are a convincing mustelid from the perspective of others.  
+> **Effect** You take the form of a Small badger, wolverine or dire weasel, with a burrow speed of 2 and blindsense. As an immediate reaction after you are hit by an attack, you can shift 1 square. While in this form, you gain the *sic 'em* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> Once during your time in this form, you can make the following attack:     
+> **Form Attack** (standard action) ● Focus  
+> Melee 1; Con vs AC; 3d8 + Constitution modifier damage, or 4d8 + Constitution modifier if you are staggered; on a miss, the target takes half damage.  
+
+> #### Shape of the Bear  
+>
+> **Daily** **Attack** **1** (**Swift Action**) ● **Form, Polymorph, Spirit**  
+> **Self**   
+> **Effect** You take the form of a Large bear, with low-light vision and climb 2. While in this form, you gain the *blood lust* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> Once during your time in this form, you can make the following attack:     
+> **Form Attack** (standard action) ● Focus  
+> Melee 1; Con vs AC; 2d8 + Constitution modifier damage and the target is grappled; half damage on a miss.  
+
+> #### Shape of the Cat  
+>
+> **Daily** **Attack** **1** (**Swift Action**) ● **Form, Polymorph, Spirit**  
+> **Self**   
+> **Effect** You take the form of a Tiny cat or Medium big cat, with low-light vision and a +2 bonus to your speed. Each time an adjacent enemy misses you with an attack, you can shift 1 square. Treat any fall as if it were 6 squares shorter, and you land on your feet even if you take damage. While in this form, you gain the *bob and weave* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> Once during your time in this form, you can make the following attack:     
+> **Form Attack** (standard action) ● Focus  
+> Melee 1; Con vs AC; 3d8 + Constitution modifier damage, and you can make a Stealth check to hide as a free action; on a miss, the target takes half damage.  
+
+> #### Shape of the Dire Rat  
+>
+> **Daily** **Attack** **1** (**Swift Action**) ● **Form, Polymorph, Spirit**  
+> **Self**   
+> **Effect** You take the form of a Small dire rat, with climb speed 4 and swim speed 2. While in this form, you gain the *sneaky strike* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> Once during your time in this form, you can make the following attack:     
+> **Form Attack** (standard action) ● Focus  
+> Melee 1; Con vs AC; 1d8 + Constitution modifier damage and the target is blinded until the end of your next turn.  
+
+> #### Shape of the Elk  
+>
+> **Daily** **Attack** **1** (**Swift Action**) ● **Form, Polymorph, Spirit**  
+> **Self**   
+> **Effect** You take the form of a Large elk, with a +2 bonus to speed and the woodland stride feature. While in this form, you gain the *mad rush* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> Once during your time in this form, you can make the following attack:     
+> **Form Attack** (standard action) ● Focus  
+> Melee 1; Con vs AC; you may shift 2 before this attack; Constitution modifier damage and the target takes 10 persistent damage (save ends); the target takes 5 persistent damage on a miss.  
+
+> #### Shape of the Giant Tortoise  
+>
+> **Daily** **Attack** **1** (**Swift Action**) ● **Form, Polymorph, Spirit**  
+> **Self**   
+> **Effect** You take the form of a Small tortoise, with resistance to untyped damage 3 (5 at level 11, 7 at level 21). You also reduce any unwilling movement you are subject to by 1 square. While in this form, you gain the *hunker down* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> Once during your time in this form, you can make the following attack:     
+> **Form Attack** (standard action) ● Focus, Healing  
+> Melee 1; Con vs AC; 2d8 + Constitution modifier damage and you may spend a recovery to heal your recovery value in hit points; half damage on a miss.  
+
+> #### Shape of the Wolf  
+>
+> **Daily** **Attack** **1** (**Swift Action**) ● **Form, Polymorph, Spirit**  
+> **Self**   
+> **Effect** You take the form of a Medium wolf, with a +2 bonus to speed. You gain a +2 power bonus to attacks against prone targets. While in this form, you gain the *worrying bite* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> Once during your time in this form, you can make the following attack:     
+> **Form Attack** (standard action) ● Focus  
+> Melee 1; Con vs AC; 2d8 + Constitution modifier damage, and if the target is prone you grapple them; on a miss, the target takes half damage. *Effect:* After the attack, move up to half your speed. You may pull one adjacent enemy of size Large or smaller behind you.  
 
 > #### All Fours  
+>
 > *Your spine makes a slight adjustment and you become a much faster runner.*  
 > **At-Will** **Utility** **2** (**Standard Action**) ● **Spirit, Wild Shape**  
 > **Self**   
 > **Effect** You gain a +1 bonus to speed and Reflex defense, and you gain a +2 bonus to Acrobatics and Athletics checks. You also suffer a -4 penalty to ranged attacks. The effect lasts until you end it with a move action.  
 
 > #### Bramble Step  
-> **Encounter** **Utility** **2** (**Swift Action**) ● **Spirit, Focus, Wild Shape**  
+>
+> **Encounter** **Utility** **2** (**Swift Action**) ● **Focus, Spirit**  
 > **Self**   
 > **Effect** Until the end of your next turn, you get the woodland stride feature (ignore difficult terrain from shrubbery, trees or plants).  
 
+> #### Quick Change Artist  
+>
+> **Encounter** **Utility** **2** (**Counter Action**) ● **Spirit**  
+> **Self**   
+> **Effect** Use a *shape of the X* power that you know, if you have one that is not expended.  
+
 > #### Wild Empathy  
-> **Encounter** **Utility** **2** (**Swift Action**) ● **Spirit, Wild Shape**  
+>
+> **Encounter** **Utility** **2** (**Swift Action**) ● **Spirit**  
 > **Self**   
 > **Effect** Until the end of the encounter, you get a +4 bonus on Diplomacy, Bluff, Intimidate and Insight checks against creatures with the beast type.  
-> **Special** Ignore this power’s Wild Shape tag if you are not in another form.  
 
 > #### Agile Animus  
+>
 > *The line between human and beast begins to blur.*  
-> **Daily** **Utility** **2** (**Swift Action**) ● **Spirit, Wild Shape**  
+> **Daily** **Utility** **2** (**Swift Action**) ● **Spirit**  
 > **Self**   
 > **Effect** Until the end of your next turn, you channel your inner beast.  You gain a +1 power bonus to speed, a +2 power bonus to AC and Reflex defense, and a +3 power bonus to Acrobatics and Stealth checks.  
 > **Maintain Special** At the end of each of your turns during which this power is in effect, make a saving throw. If you succeed, the effect persists until the end of your next turn. You may not voluntarily fail the save.  
 
 > #### Forceful Animus  
+>
 > *The line between human and beast begins to blur.*  
-> **Daily** **Utility** **2** (**Swift Action**) ● **Spirit, Wild Shape**  
+> **Daily** **Utility** **2** (**Swift Action**) ● **Spirit**  
 > **Self**   
 > **Effect** Until the end of your next turn, you channel your inner beast.  You gain a +2 power bonus to all damage rolls and to AC and Fortitude defense, and a +3 power bonus to Athletics and Endurance checks.  
 > **Maintain Special** At the end of each of your turns during which this power is in effect, make a saving throw. If you succeed, the effect persists until the end of your next turn. You may not voluntarily fail the save.  
 
 > #### Full Moon Stance  
-> **Daily** **Utility** **2** (**Swift Action**) ● **Spirit, Wild Shape, Stance**  
+>
+> **Daily** **Utility** **2** (**Swift Action**) ● **Spirit, Stance**  
 > **Self**   
 > **Effect** At the end of each of your turns, if you are staggered you regenerate damage equal to your Wisdom modifier. This lasts until the end of the encounter.  
 
 > #### Scout Form  
-> **Daily** **Utility** **2** (**Swift Action**) ● **Spirit, Form**  
+>
+> **Daily** **Utility** **2** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
-> **Effect** You take the form of a Tiny land or aquatic animal, like a cat, salmon or ferret. Your equipment and anything you are wearing merges into your body, but you keep the same statistics and benefit from any bonuses that, for example, magic items give you. You cannot talk in this form. While in this form you cannot use powers unless they have the Wild Shape tag, and you cannot make attacks or use attack powers. You can leave this form as a swift action. Pick one:
-● Your speed becomes 8
-● Your speed becomes 2, and you get a swim speed of 8
-● Your speed becomes 6 and you get darkvision
-● Your speed becomes 4 and you get blindsight range 6
-● Your speed becomes 4 and you can squeeze through gaps as if you were a Diminutive creature  
+> **Effect** You take the form of a Tiny land or aquatic animal, like a cat, salmon or ferret. Your equipment and anything you are wearing merges into your body, but you keep the same statistics and benefit from any bonuses that, for example, magic items give you. You cannot talk in this form. While in this form you cannot use powers unless they have the Wild Shape tag, and you cannot make attacks or use attack powers. You can leave this form as a swift action. Pick one:  
+> ● Your speed becomes 8  
+> ● Your speed becomes 2, and you get a swim speed of 8  
+> ● Your speed becomes 6 and you get darkvision  
+> ● Your speed becomes 4 and you get blindsight range 6  
+> ● Your speed becomes 4 and you can squeeze through gaps as if you were a Diminutive creature  
 > **Maintain Standard**   
 
 > #### Bear Hug  
-> **Encounter** **Attack** **3** (**Standard Action**) ● **Spirit, Wild Shape, Focus**  
+>
+> **Encounter** **Attack** **3** (**Standard Action**) ● **Focus, Spirit**  
 > **Melee** touch, one target  
 > **Attack** Constitution vs AC  
 > **Hit** 1d8 + Constitution modifier damage and the target is grappled.  
 
 > #### Fearsome Roar  
-> **Encounter** **Attack** **3** (**Standard Action**) ● **Spirit, Wild Shape, Focus, Psychic**  
+>
+> **Encounter** **Attack** **3** (**Standard Action**) ● **Focus, Psychic, Spirit**  
 > **Near** burst 2  
 > **Attack** Constitution vs Will  
-> **Effect** 1d8 + Constitution modifier psychic damage, and the target suffers a -4 penalty on attacks against you until the end of your next turn.  
+> **Hit** 1d8 + Constitution modifier psychic damage, and the target suffers a -4 penalty on attacks against you until the end of your next turn.  
 
 > #### Kinda Hard to Miss  
+>
 > *Of all the opponents to target, you’re the one that somewhat stands out.*  
-> **Encounter** **Attack** **3** (**Move Action**) ● **Spirit, Wild Shape**  
+> **Encounter** **Attack** **3** (**Move Action**) ● **Spirit**  
 > **Near** burst 5, all enemies  
 > **Effect** The target is marked until they inflict damage on you. You gain combat advantage against each marked target until the end of your next turn. If you take damage from a target while it is marked, shift up to 5 squares and make a basic attack against the target as a reaction.  
 > **Maintain Move** The effect persists against marked targets until the end of your next turn.  
 
 > #### Illogical Rage  
+>
 > *You’ve stopped listening to reason. The best thing your allies can do is give you a direction a step back.*  
-> **Daily** **Attack** **5** (**Reaction Action**) ● **Spirit, Wild Shape**  
+> **Daily** **Attack** **5** (**Reaction Action**) ● **Spirit**  
 > **Self**   
 > **Trigger** You are staggered.  
 > **Effect** Until you are no longer staggered or until you fall unconscious, you gain a +4 power bonus to all damage rolls. If you don’t hit with an attack on your turn, you gain a +2 bonus to damage on your next hit. This bonus is cumulative every round until you hit. If you do not hit an enemy before the bonus reaches +14, you must make a melee basic attack against the nearest creature on your turn.  
 
 > #### Panicked Switch  
+>
 > *You turn the target into a small, defenseless animal.*  
-> **Daily** **Attack** **5** (**Standard Action**) ● **Spirit, Transmutation**  
+> **Daily** **Attack** **5** (**Standard Action**) ● **Polymorph, Focus, Form, Spirit**  
 > **Near** burst 5, one enemy  
 > **Attack** Constitution vs Will  
 > **Hit** 3d10 + your Intelligence modifier damage and shunt the target 2. They are helpless and size Small (save ends both). Until they make their saving throw, you can use a move action to shunt them 2.  
 
-> #### Hybrid Shape  
-> **Encounter** **Utility** **6** (**Swift Action**) ● **Spirit, Form**  
+> #### Shape of the Giant Frog  
+>
+> **Daily** **Attack** **5** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
-> **Effect** You take the form of a half-humanoid, half-beast, like a werewolf or centaur, of your size or one size large or smaller than you. The first time per encounter that you use this power OR *wild shape*, you can also spend one recovery to heal your recovery value. You can leave this form as a swift action, and you do so automatically if you are reduced to 0 HP or below. You can use this power OR *wild shape* at most once per round.  
-> **Special** This power is effectively identical to *wild shape* except it is only usable once per encounter, and it does not limit you to using Wild Shape powers only. Because it is a hybrid form, you can also justify making ranged attacks and doing other actions (like climbing) that it might not be possible to justify in the form of a quadruped.  
+> **Effect** You take the form of a Large frog, with a swim speed of 4. While in this form, you gain the *tongue lash* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> Once during your time in this form, you can make the following attack:     
+> **Form Attack** (swift action) ● Focus  
+> Melee 1; Con vs Reflex; the target is grappled. Make a secondary attack against the target.    
+> *Secondary Attack:* Melee 1; Con vs Fortitude, must be grappling the target, the target must be Medium or smaller; the target is swallowed. While the target is swallowed, it is restrained and takes 5 damage plus 5 acid damage at the start of each of its turns. The swallowed creature can make basic melee attacks with one-handed or natural weapons. You may release the creature as a swift action. If the creature succeeds at an escape a grapple action with a -4 penalty, it escapes your stomach and appears in an unoccupied space of its choice adjacent to you.  
+
+> #### Shape of the Giant Toad  
+>
+> **Daily** **Attack** **5** (**Swift Action**) ● **Form, Polymorph, Spirit**  
+> **Self**   
+> **Effect** You take the form of a Medium toad, with a swim speed of 4 and resistance to poison 5 (10 at level 11, 15 at level 21). While in this form, you gain the *knockback* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> Once during your time in this form, you can make the following attack:     
+> **Form Attack** (swift action) ● Focus, Poison  
+> Near arc 3; Con vs Fortitude; 2d6 + Constitution modifier poison damage and the target grants combat advantage until the end of your next turn.  
+
+> #### Shape of the Serpent  
+>
+> **Daily** **Attack** **5** (**Swift Action**) ● **Form, Polymorph, Spirit**  
+> **Self**   
+> **Effect** You take the form of a Small, Medium or Large snake, with a swim speed of 4 and the ability to squeeze through gaps as if you were one size smaller. While in this form, you gain the *powerful swipe* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> Once during your time in this form, you can make the following attack:     
+> **Form Attack** (swift action) ● Focus, Poison  
+> Melee 2; Con vs Fortitude; 2d6 + Constitution modifier poison damage, and the target takes persistent 10 poison damage (save ends); on a miss, the target takes half damage and persistent 5 poison damage (save ends).  
+
+> #### Shape of the Weaver  
+>
+> **Daily** **Attack** **5** (**Swift Action**) ● **Form, Polymorph, Spirit**  
+> **Self**   
+> **Effect** You take the form of a Small spider, with a climb speed of 4 and the web stride feature. While in this form, you gain the *venomous sting* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> Once during your time in this form, you can make the following attack:     
+> **Form Attack** (swift action) ● Focus  
+> Ranged 5; Con vs Reflex; the target is restrained (save ends); on a miss, the target is slowed (save ends).  
 
 > #### Animal Instincts  
-> **Daily** **Utility** **6** (**Swift Action**) ● **Spirit, Wild Shape**  
+>
+> **Daily** **Utility** **6** (**Swift Action**) ● **Spirit**  
 > **Self**   
-> **Effect** Until the end of the encounter, you get a +2 bonus on Athletics, Acrobatics, Endure, Stealth and Nature checks. End this power early to reroll an Athletics, Acrobatics, Stealth or Nature check and take the second result.  
+> **Effect** Until the end of the encounter, you get a +2 bonus on Athletics, Acrobatics, Endure, Stealth and Nature checks. End this power early to reroll an Athletics, Acrobatics, Endure, Stealth or Nature check and take the second result.  
 
 > #### Regenesis  
+>
 > *Your injuries knit in seconds to the shock of those around. You assure them it still hurts like hell.*  
-> **Daily** **Utility** **6** (**Move Action**) ● **Spirit, Wild Shape, Healing**  
+> **Daily** **Utility** **6** (**Move Action**) ● **Healing, Spirit**  
 > **Self**   
 > **Effect** You gain regeneration 3 until the end of the encounter.  
 
 > #### Rhinohide  
+>
 > *Your skin becomes thick and leathery, able to withstand considerable punishment.*  
-> **Daily** **Utility** **6** (**Move Action**) ● **Spirit, Wild Shape**  
+> **Daily** **Utility** **6** (**Move Action**) ● **Spirit**  
 > **Self**   
 > **Effect** You gain resistance 3 to all damage until the end of the encounter.  
 
-> #### Righting Reflex  
-> *You land like a cat.*  
-> **Daily** **Utility** **6** (**No Action**) ● **Spirit, Wild Shape**  
-> **Self**   
-> **Trigger** You are falling.  
-> **Effect** Treat the fall as if it were 6 squares shorter, and you land on your feet.  
-> **Special** If you are not currently in a different form, you can *wild shape* as a counter before using this power.  
-
 > #### Scent  
-> **Daily** **Utility** **6** (**Swift Action**) ● **Spirit, Wild Shape**  
+>
+> **Daily** **Utility** **6** (**Swift Action**) ● **Spirit**  
 > **Self**   
 > **Effect** You have truesight 6.  
 
 > #### Frenzy  
+>
 > *Your opponent scores a hit; you growl back.*  
-> **Encounter** **Attack** **7** (**Reaction Action**) ● **Spirit, Wild Shape, Consistent**  
+> **Encounter** **Attack** **7** (**Reaction Action**) ● **Consistent, Spirit**  
 > **Self**   
 > **Trigger** You are hit by an attack.  
 > **Effect** Shift your speed toward the triggering creature and make a melee basic attack against it.  
 
+> #### Shape of the Giant Bat  
+>
+> **Daily** **Attack** **9** (**Swift Action**) ● **Form, Polymorph, Spirit**  
+> **Self**   
+> **Effect** You take the form of a Small bat, with a fly speed of 6, darkvision and blindsense. While in this form, you gain the *blood lust* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> Once during your time in this form, you can make the following attack:    
+> **Form Attack** (standard action) ● Focus  
+> Melee 1; Con vs AC; you may shift 2 before this attack and after this attack; 1d8 + Constitution modifier damage and the target takes 10 persistent damage (save ends); the target takes 5 persistent damage on a miss. *Effect:* Each time the target takes persistent damage from this attack, you heal 5 damage.  
+
+> #### Shape of the Giant Eagle  
+>
+> **Daily** **Attack** **9** (**Swift Action**) ● **Form, Polymorph, Spirit**  
+> **Self**   
+> **Effect** You take the form of a Large eagle, hawk or other raptor, with a fly speed of 8. While in this form, you gain the *mad rush* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> Once during your time in this form, you can make the following attack:     
+> **Form Attack** (standard action) ● Focus  
+> Melee 1; Con vs AC; you may shift 2 before this attack and after this attack; 2d8 + Constitution modifier damage.  
+
+> #### Shape of the Shark  
+>
+> **Daily** **Attack** **9** (**Swift Action**) ● **Form, Polymorph, Spirit**  
+> **Self**   
+> **Effect** You take the form of a Medium or Large shark, with a swim speed of 10. While in this form, you gain the *blood lust* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> Once during your time in this form, you can make the following attack:     
+> **Form Attack** (swift action) ● Focus  
+> Melee 1; Con vs AC; 3d8 + Constitution modifier damage; on a miss, the target takes half damage. *Effect:* Shift a number of squares up to your Wisdom modifier. Drag the target behind you.  
+
+> #### Shape of the Wyrmling  
+>
+> **Daily** **Attack** **9** (**Swift Action**) ● **Form, Polymorph, Spirit**  
+> **Self**   
+> **Effect** You take the form of a Medium dragon, with darkvision. Choose a damage type (acid, cold, fire, lightning, poison or thunder). You gain resistance 5 to that damage type (10 at level 11, 15 at level 21). While in this form, you gain the *knockback* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> Once during your time in this form, you can make the following attack:     
+> **Form Attack** (swift action) ● Focus, [energy type]  
+> Near arc 3; Con vs Fortitude; 2d8 + Constitution modifier damage of the energy type you chose.  
+
 > #### You, Afraid?  
+>
 > *The bigger they are…*  
-> **Daily** **Attack** **9** (**Swift Action**) ● **Spirit, Wild Shape**  
+> **Daily** **Attack** **9** (**Swift Action**) ● **Spirit**  
 > **Near** burst 10, one creature  
 > **Effect** The target is marked until the end of the encounter and you gain a +1 bonus to attack and a +2 bonus to damage against the target until it is dead or five minutes. You are also immune to any fear effects from the target.  
 
-> #### Quick Change Artist  
-> **Encounter** **Utility** **10** (**Counter Action**) ● **Spirit**  
-> **Self**   
-> **Trigger** You are hit by an attack.  
-> **Effect** Use the *wild shape* power, even if it is expended.  
-
 > #### Active Camouflage  
+>
 > *Whether it be a natural ability of your skin or an acute sense of your surroundings, hiding has never been difficult for you.*  
-> **Daily** **Utility** **10** (**Free Action**) ● **Spirit, Wild Shape**  
+> **Daily** **Utility** **10** (**Free Action**) ● **Spirit,**  
 > **Self**   
 > **Effect** You gain a +15 bonus to your next Stealth check and until you leave cover, if you make a melee or ranged attack from hiding, you are still considered to be hiding.  
 
 > #### Bloodhound  
+>
 > *They don’t call it a detective’s nose for nothing.*  
-> **Daily** **Utility** **10** (**Free Action**) ● **Spirit, Wild Shape**  
+> **Daily** **Utility** **10** (**Free Action**) ● **Spirit**  
 > **Self**   
 > **Effect** Gain a +10 power bonus to your next Insight or Perception check.  
 
 > #### Flittering Form  
-> **Daily** **Utility** **10** (**Swift Action**) ● **Spirit, Form**  
+>
+> **Daily** **Utility** **10** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
 > **Effect** You take the form of a Tiny flying animal, like a bird or a bat. You cannot talk in this form. While in this form you cannot use powers unless they have the Wild Shape tag, and you cannot make attacks or use attack powers. You can leave this form as a swift action. Your speed becomes 4 but you get a fly speed of 8.  
 > **Maintain Standard**   
 
 > #### Survivor  
-> **Daily** **Utility** **10** (**Swift Action**) ● **Spirit, Wild Shape**  
+>
+> **Daily** **Utility** **10** (**Swift Action**) ● **Spirit**  
 > **Self**   
 > **Effect** You spend a recovery, regain additional hit points equal to your level, and you gain a +10 bonus to Endurance checks for one hour.  
 
 > #### Tenacity  
-> **Daily** **Utility** **10** (**Counter Action**) ● **Spirit, Wild Shape**  
+>
+> **Daily** **Utility** **10** (**Counter Action**) ● **Spirit**  
 > **Self**   
 > **Trigger** You fall to 0 HP or below.  
 > **Effect** Until the end of the encounter, you do not fall unconscious from being at 0 HP or below, or make death saves. At the end of the encounter, if you are still at 0 HP or below, you immediately fall unconscious and start making death saves.  
 
 > #### Through New Eyes  
-> **Daily** **Utility** **10** (**Free Action**) ● **Spirit, Wild Shape, Focus**  
+>
+> **Daily** **Utility** **10** (**Free Action**) ● **Focus, Spirit**  
 > **Self**   
-> **Trigger** You use *wild shape*  
+> **Trigger** You change form or return to your original form.  
 > **Effect** Reroll your initiative with a +4 bonus. You use that initiative from next round onwards.  
 
 > #### Deimatic Display  
-> **Encounter** **Attack** **13** (**Standard Action**) ● **Spirit, Wild Shape, Focus**  
+>
+> **Encounter** **Attack** **13** (**Standard Action**) ● **Focus, Spirit**  
 > **Near** burst 10, one creature  
 > **Attack** Constitution vs Will  
 > **Hit** 2d10 + Constitution modifier psychic damage, and the creature cannot willingly move closer to you until the end of your next turn.  
 > **Boost** **Level 27:** Range becomes Near burst 10, all enemies  
 
 > #### Ferocious Feline  
+>
 > *You jump all limbs forward toward the enemy with such speed, no one can prepare for a defense.*  
-> **Daily** **Attack** **15** (**Swift Action**) ● **Spirit, Wild Shape**  
+> **Daily** **Attack** **15** (**Swift Action**) ● **Spirit**  
 > **Self**   
 > **Effect** Until the end of the encounter you gain a +2 power bonus to Dexterity-based checks and to AC and Reflex defense, and a +1 bonus to speed.  
 > **Boost** **Level 29:** Make a basic melee attack when you use this power. Also, you receive a +4 power bonus to Dexterity-based checks and to AC and Reflex defense, and a +2 bonus to speed, instead of the bonuses listed under Effect.  
 
+> #### Shape of the Manticore  
+>
+> **Daily** **Attack** **15** (**Swift Action**) ● **Form, Polymorph, Spirit**  
+> **Self**   
+> **Effect** You take the form of a Large manticore, with darkvision and a fly speed of 6 squares. Each time you are hit by a melee attack, do damage equal to your Wisdom modifier to the attacker. While in this form, you gain the *worrying bite* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> Once during your time in this form, you can make the following attack:     
+> **Form Attack** (swift action) ● Focus  
+> Near arc 3; Con vs Reflex; 2d8 + Constitution modifier damage and the target is immobile (save ends).  
+
+> #### Shape of the Raptor Behemoth  
+>
+> **Daily** **Attack** **15** (**Swift Action**) ● **Form, Polymorph, Spirit**  
+> **Self**   
+> **Effect** You take the form of a Small velociraptor or Large deinonychus, with a +2 bonus to your speed. While in this form, you score critical hits on a roll of 19 as well as 20. While in this form, you gain the *worrying bite* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> Once during your time in this form, you can make the following attack:     
+> **Form Attack** (swift action) ● Focus  
+> Melee 1; Con vs Reflex, two attacks; 2d8 + Constitution modifier damage. If both attacks hit, the target is knocked prone.  
+
 > #### Perfect Form  
+>
 > *It’s not a pleasant process to watch, and you may require a new set of clothes if you didn’t think ahead.*  
-> **Daily** **Utility** **16** (**Standard Action**) ● **Spirit, Form, Stance**  
+> **Daily** **Utility** **16** (**Standard Action**) ● **Form, Spirit, Stance**  
 > **Self**   
 > **Effect** You can alter your physical form to take on the appearance of any natural beast of your level or lower. You gain the beast’s attacks and special abilities, but you use your attack bonuses for the attacks. You retain your statistics, including current HP. The effect persists until you end it with a swift action or until you fall unconscious. While in this form you cannot use powers unless they have the Wild Shape tag.  
 
 > #### Threat Discouragement  
+>
 > *You actually appear to get a little bigger. It’s probably an illusion.*  
-> **Daily** **Utility** **16** (**Swift Action**) ● **Spirit, Wild Shape, Healing**  
+> **Daily** **Utility** **16** (**Swift Action**) ● **Healing, Spirit**  
 > **Self**   
 > **Effect** You gain temporary hit points equal to the sum of your Strength, Constitution, and Dexterity bonuses + your level. All adjacent enemies are dazed until the start of your next turn.  
 
 > #### Into the Fray  
+>
 > *You would look like someone flying if your legs and arms weren’t all pointing forward.*  
-> **Encounter** **Attack** **17** (**Standard Action**) ● **Spirit, Wild Shape, Focus**  
+> **Encounter** **Attack** **17** (**Standard Action**) ● **Focus, Spirit**  
 > **Melee** touch, one target  
 > **Attack** Constitution vs AC  
 > **Hit** 2d10 + Constitution modifier damage.  
 > **Effect** Before your attack, teleport double your speed to a square in line of sight.  
 
 > #### Bad Bear  
+>
 > *As you let go of your emotional control, your body begins to take on a shape reflective of your mood.*  
-> **Daily** **Attack** **19** (**Swift Action**) ● **Spirit, Wild Shape**  
+> **Daily** **Attack** **19** (**Swift Action**) ● **Spirit**  
 > **Self**   
 > **Effect** Until the end of the encounter you gain a +2 power bonus to your Strength and Constitution-based checks, attack and damage rolls and Fortitude defense, and 2 temporary hit points per level.  
 
+> #### Shape of the Dragon  
+>
+> **Daily** **Attack** **19** (**Swift Action**) ● **Form, Polymorph, Spirit**  
+> **Self**   
+> **Effect** You take the form of a Large dragon, with darkvision and a fly speed of 8 squares. Choose a damage type (acid, cold, fire, lightning, poison or thunder). You gain resistance 10 to that damage type (15 at level 21). While in this form, you gain the *knockback* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> Once during your time in this form, you can make the following attack:     
+> **Form Attack** (swift action) ● Focus, [energy type]  
+> Near arc 5; Con vs Fortitude; 4d8 + Constitution modifier damage of the energy type you chose.  
+
 > #### Feline-Like Grace  
+>
 > *No one knows how you got from there to here without a scratch.*  
-> **Encounter** **Utility** **22** (**Free Action**) ● **Spirit, Wild Shape**  
+> **Encounter** **Utility** **22** (**Free Action**) ● **Spirit**  
 > **Self**   
 > **Effect** Until the end of your turn, all movement is considered a shift, regardless of the distance or the abilities used.  
 
 > #### Instant Regeneration  
+>
 > *Wounds knit it in seconds, almost as if someone had cast a spell on you.*  
-> **Daily** **Utility** **22** (**Swift Action**) ● **Spirit, Wild Shape, Healing**  
+> **Daily** **Utility** **22** (**Swift Action**) ● **Healing, Spirit**  
 > **Self**   
 > **Effect** Until the start of your next turn, you take no damage of any kind.  
 > **Maintain Swift** The effect persists until the start of your next turn.  
 
 > #### Shake It Off  
+>
 > **Daily** **Utility** **22** (**Counter Action**) ● **Spirit, Wild Shape**  
 > **Self**   
 > **Trigger** You are hit by an attack.  
 > **Effect** You immediately return to your original form. Instead of the normal damage done by the attack, you take 3d6 damage. However, other conditions and effects of the attack (including persistent damage) still apply.  
 
 > #### Stampede  
-> **Encounter** **Attack** **23** (**Standard Action**) ● **Spirit, Wild Shape, Focus**  
+>
+> **Encounter** **Attack** **23** (**Standard Action**) ● **Focus, Spirit**  
 > **Near** arc 5, all enemies  
 > **Attack** Constitution vs AC  
 > **Hit** 2d10 + Constitution modifier thunder damage, and the target falls prone.  
 
 > #### Scratching Tempest  
-> **Daily** **Attack** **25** (**Standard Action**) ● **Spirit, Wild Shape, Focus**  
+>
+> **Daily** **Attack** **25** (**Standard Action**) ● **Focus, Spirit**  
 > **Near** burst 2, all enemies  
 > **Attack** Constitution vs AC  
 > **Hit** 4d6 + Constitution modifier damage.  
 > **Effect** Until the end of the encounter, your reach increases by 1.  
+
+> #### Shape of the Chimera  
+>
+> **Daily** **Attack** **25** (**Swift Action**) ● **Form, Polymorph, Spirit**  
+> **Self**   
+> **Effect** You take the form of a Large chimera, with darkvision and a fly speed of 6 squares. If you spend a swift action on your turn, you can take a second immediate action between that turn and your next. While in this form, you gain the *mad rush* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> Once during your time in this form, you can make the following attack:     
+> **Form Attack** (swift action) ● Fire, Focus  
+> Near arc 5; Con vs Fortitude; 5d8 + Constitution modifier fire damage.  
+
+> #### Shape of the Great Wyrm  
+>
+> **Daily** **Attack** **29** (**Swift Action**) ● **Form, Polymorph, Spirit**  
+> **Self**   
+> **Effect** You take the form of a Huge dragon, with darkvision, truesight 12 and a fly speed of 8 squares. Choose a damage type (acid, cold, fire, lightning, poison or thunder). You are immune to that damage type. While in this form, you gain the *knockback* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> Once during your time in this form, you can make the following attack:   
+> **Form Attack** (swift action) ● Focus, [energy type]
+> Near arc 7 or Ranged 7; Con vs Fortitude; 6d8 + Constitution modifier damage of the energy type you chose.  
 
 ## Seershot
 
@@ -6701,6 +7005,138 @@ Each secondary attack must be against a different target to the other secondary 
 > **Attack** Intelligence vs Reflex  
 > **Hit** 2dW + Intelligence modifier damage.  
 > **Effect** After all attacks had been made, choose a space adjacent to an enemy within range. You teleport to that space. 
+
+## Weapon Drill  
+
+**Key Ability:** Strength/Dexterity  
+**Secondary Ability:** Constutution  
+
+> #### Arrow Flight  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Bows, Martial, Weapon**  
+> **Ranged** weapon, one target  
+> **Requirements** Make the attack with a bow.  
+> **Attack** Dexterity vs AC  
+> **Hit** 1dW + Strength modifier + Dexterity modifier damage. 
+> *Level 21:* 2dW + Strength modifier + Dexterity modifier damage.  
+
+> #### Axe Grind  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Axes, Martial, Weapon**  
+> **Melee** weapon, one target  
+> **Requirements** Make the attack with an axe.  
+> **Attack** Strength vs AC  
+> **Hit** 1dW + Strength modifier damage. Push target 1.
+> *Level 21:* 2dW + Strength modifier damage. Push target 1.  
+
+> #### Bolt from the Blue  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Crossbows, Martial, Weapon**  
+> **Ranged** weapon, one target  
+> **Requirements** Make the attack with a crossbow.  
+> **Attack** Dexterity vs AC  
+> **Hit** 1dW + Dexterity modifier damage. 
+> *Level 21:* 2dW + Dexterity modifier damage.  
+
+> #### Careful Slice  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Light Blades, Martial, Weapon**  
+> **Melee** weapon, one target  
+> **Requirements** Make the attack with a light blade.  
+> **Attack** Dexterity vs Reflex  
+> **Hit** 1dW damage.
+> *Level 21:* 2dW damage.  
+
+> #### Cleaving Slice  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Heavy Blades, Martial, Weapon**  
+> **Melee** weapon, one target  
+> **Requirements** Make the attack with a heavy blade.  
+> **Attack** Strength vs AC  
+> **Hit** 1dW + Strength modifier damage. An enemy adjacent to the target takes Strength modifier damage. 
+> *Level 21:* 2dW + Strength modifier damage. An enemy adjacent to the target takes Strength modifier damage.  
+
+> #### Double Attack  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
+> **Melee** weapon, two targets  
+> **Requirements** Must be wielding a melee weapon in each hand. Use each weapon to make one attack.  
+> **Attack** Strength vs AC  
+> **Hit** 1dW damage.
+> *Level 21:* 2dW damage.  
+
+> #### Flail About  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Flails and Chains, Martial, Weapon**  
+> **Melee** weapon, one target  
+> **Requirements** Make the attack with a flail or chain.  
+> **Attack** Strength vs AC  
+> **Hit** 1dW + Strength modifier damage. Then shift 1.
+> *Level 21:* 2dW + Strength modifier damage. Then shift 1.  
+
+> #### Hammerfall  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Picks and Hammers, Weapon,**  
+> **Melee** weapon, one target  
+> **Requirements** Make the attack with a pick or hammer.  
+> **Attack** Strength vs AC  
+> **Hit** 1dW + Strength modifier damage. 
+> *Level 21:* 2dW + Strength modifier damage.  
+> **Miss** Target takes Strength modifier damage.  
+
+> #### Poleaxe  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Polearms, Weapon**  
+> **Melee** weapon, one target  
+> **Requirements** Make the attack with a polearm.  
+> **Attack** Strength vs AC  
+> **Hit** 1dW + Strength modifier damage. Target takes -2 to attack rolls until the end of your next turn.
+> *Level 21:* 2dW + Strength modifier damage. Target takes -2 to attack rolls until the end of your next turn.  
+
+> #### Shillelagh  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Maces and Clubs, Martial, Weapon**  
+> **Melee** weapon, one target  
+> **Requirements** Make the attack with a club or mace.  
+> **Attack** Strength vs AC  
+> **Hit** 1dW + Strength modifier damage and the target is dazed until the end of your next turn. 
+> *Level 21:* 2dW + Strength modifier damage.  
+
+> #### Sling of Misfortune  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Slings, Weapon**  
+> **Ranged** weapon, one target  
+> **Requirements** Make the attack with a sling.  
+> **Attack** Dexterity vs AC  
+> **Hit** 1dW. Target's speed is reduced by 2 (save ends).
+> *Level 21:* 2dW. Target's speed is reduced by 2 (save ends).  
+
+> #### Spear Discipline  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Spears and Lances, Weapon**  
+> **Melee** weapon, one target  
+> **Requirements** Make the attack with a spear or lance.  
+> **Attack** Strength vs AC  
+> **Hit** 1dW + Strength modifier damage. Any ally adjacent to the target can shift 1.
+> *Level 21:* 2dW + Strength modifier damage. Any ally adjacent to the target can shift 1.  
+> **Miss** *Level 21:* 1dW + Strength or Dexterity modifier damage.  
+
+> #### Staff Sweep  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Staffs, Weapon**  
+> **Melee** weapon, one target  
+> **Requirements** Make the attack with a staff.  
+> **Attack** Strength vs AC  
+> **Hit** 1dW. Target must save or fall prone. 
+> *Level 21:* 2dW. Target must save or fall prone.  
+
+> #### Unarmed Flurry  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Unarmed, Weapon**  
+> **Near** burst 1, all enemies  
+> **Requirements** Make the attack with an unarmed strike.  
+> **Attack** Strength or Dexterity vs AC  
+> **Hit** Strength or Dexterity modifier damage.  
 
 # Prestige Paths  
 

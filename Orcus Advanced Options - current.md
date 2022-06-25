@@ -255,39 +255,7 @@ By default, each ancestry gets two.
 
 ## Power  
 
-Each ancestry also gets one power.    
-
-**Dabbler:** Choose a level 1 at-will attack power from any class. It is an encounter power for you.  
-
-> #### Barrel Along  
->
-> **Encounter** **Utility** **Feature** (**Swift Action**)   
-> **Self**   
-> **Trigger** You are staggered.  
-> **Effect** You have a +2 bonus to speed and to damage rolls until the end of the encounter.  
-
-> #### Breath Weapon  
->
-> **Encounter** **Attack** **Feature** (**Swift Action**) ● **[Energy]**  
-> **Near** arc 3, targets all  
-> **Attack** (Highest of Strength, Constitution, Dexterity) +2 vs Reflex  
-> **Hit** 1d6 + Constitution modifier. 
-> *Level 11:* 2d6 + Constitution modifier. 
-> *Level 21:* 3d6 + Constitution modifier.  
-
-> #### Careful Focus  
->
-> **Encounter** **Utility** **Feature** (**Free Action**)   
-> **Self**   
-> **Trigger** You just made an attack roll.  
-> **Effect** Reroll the attack roll and take the new result.  
-
-> #### Disappearing Act  
->
-> **Encounter** **Utility** **Feature** (**Reaction Action**)   
-> **Self**   
-> **Trigger** You take damage.  
-> **Effect** Become invisible until the end of your next turn, or until you make an attack (whichever comes sooner).  
+Each ancestry also gets one power. Choose one from the options below or from an existing ancestry, or design your own. 
 
 > #### Farstrider  
 >
@@ -295,62 +263,12 @@ Each ancestry also gets one power.
 > **Self**   
 > **Effect** Shift up to your speed.  
 
-> #### Half-Elven Ingenuity  
->
-> **Encounter** **Utility** **Feature** (**Swift Action**)   
-> **Near** burst 5, self or one ally  
-> **Effect** Choose one: target shifts up to 2 as a free action, target makes a saving throw, target gets +2 power bonus to next attack roll or target gets +4 power bonus to next skill check. Power bonuses expire at the end of your next turn if not already used.  
-
-> #### Highblood Teleport  
->
-> **Encounter** **Utility** **Feature** (**Move Action**) ● **Teleport**  
-> **Self**   
-> **Effect** Teleport up to 5.  
-
-> #### Lucky  
->
-> **Encounter** **Utility** **Feature** (**Counter Action**)   
-> **Self**   
-> **Trigger** An attack hits you.  
-> **Effect** Reroll the attack roll and take the second result.  
-
-> #### Orcish Rush  
->
-> **Encounter** **Utility** **Feature** (**Free Action**)   
-> **Self**   
-> **Trigger** You hit with an attack.  
-> **Effect** Attack does +1dW. If attack was not with a weapon, +1d8 instead.  
-
-> #### Poisonous Nip  
->
-> **Encounter** **Attack** **Feature** (**Swift Action**) ● **Poison**  
-> **Melee** 1, one target  
-> **Attack** Dexterity or Constitution +2 vs AC  
-> **Hit** 1d8 + your Dexterity or Constitution modifier poison damage.
-> *Level 11:* Attack bonus increases to +4. 2d8 + modifier damage.
-> *Level 21:* Attack bonus increases to +6. 3d8 + modifier damage.  
-
-> #### Tough as Nails  
->
-> **Encounter** **Utility** **Feature** (**Swift Action**)   
-> **Self**   
-> **Effect** You rally.  
-
 > #### True Grit  
 >
 > **Encounter** **Utility** **Feature** (**No Action**)   
 > **Self**   
 > **Trigger** You fail a saving throw or miss with an attack roll  
 > **Effect** Add a +4 ancestry bonus to the roll/throw.  
-
-> #### Vengeance of the Pits  
->
-> **Encounter** **Attack** **Feature** (**Free Action**) ● **Fire**  
-> **Near** burst 10, one enemy  
-> **Trigger** An attack by that enemy hits you.  
-> **Effect** The target takes 1d6 + Intelligence OR Charisma modifier fire damage. 
-> *Level 11:* 2d6 + Intelligence OR Charisma modifier. 
-> *Level 21:* 3d6 + Intelligence OR Charisma modifier.   
 
 # Combat Maneuvers
 
