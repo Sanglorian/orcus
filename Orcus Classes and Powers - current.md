@@ -82,6 +82,8 @@ You can make a soulknife or psychic warrior with Weapon and Shield Shard feats, 
 
 **Wizard/Sorcerer:** The Magician class allows for Evokers, Conjurers and Enchanters. Some sorcerers might work better as Mageblades. 
 
+<figure><img src="pics\JoyceMaureira_CGRACELINEUP.png" alt="Line Up by Joyce Maureira" style="zoom: 33%;" /><figcaption>Line Up by Joyce Maureira</figcaption></figure>
+
 ### Missing Archetypes
 
 Currently, *Orcus* does not have many resources for bards, nature spellcasters, wizards of the other schools of magic, or rogues who focus on striking for massive damage instead of distracting or dueling foes. 
@@ -986,6 +988,8 @@ Your level +4 vs AC; 1d8 + your level
 
 A bull, buffalo, cow or yak. Could also be used for a boar.  
 
+<figure><img src="pics\LuigiCastellani_IMPALEDHUNTER.png" alt="Impaled Hunter by Luigi Castellani" style="zoom: 33%;" /><figcaption>Impaled Hunter by Luigi Castellani</figcaption></figure>
+
 
 ### Giant Bat  
 
@@ -1057,6 +1061,8 @@ Your level +3 vs AC; 1d8 + your level
 The animal companion’s opportunity attacks also do 2 persistent poison damage (save ends). *Level 11:* 4 persistent poison damage. *Level 21:* 6 persistent poison damage.  
 
 A venomous snake. Could also be a poisonous spider, toad or gila monster.  
+
+<figure><img src="pics\IanMacLean_COILEDSNAKE.png" alt="Coiled Snake by Ian MacLean" style="zoom: 33%;" /><figcaption>Coiled Snake by Ian MacLean</figcaption></figure>
 
 
 ### Horse  
@@ -1402,6 +1408,8 @@ Crusader multiclass.
 
 **Associated Disciplines (Level 1):** Angel’s Trumpet.   
 
+<figure><img src="pics\MiguelSantos_SYSTURN.png" alt="Turn Undead by Miguel Santos" style="zoom: 33%;" /><figcaption>Turn Undead by Miguel Santos</figcaption></figure>
+
 ## Dabbles in Guarding  
 
 Guardian multiclass.  
@@ -1654,6 +1662,8 @@ You have the shapechanger tag.
 
 **Associated Discipline (Level 1):** Red in Tooth and Claw.  
 
+<figure><img src="pics\Ratman.png" alt="Ratman by Justin Nichol" style="zoom: 25%;" /><figcaption>Ratman by Justin Nichol</figcaption></figure>
+
 ## Worships the God of Life  
 
 **Channel Divinity – Guidance (Level 1):** You can Channel Divinity once per encounter, choosing any Channel Divinity power that you know. From this kit, you know one Channel Divinity power: *guidance*.   
@@ -1784,6 +1794,8 @@ Some classes specify that powers selected from class disciplines use different a
 ## Angel’s Trumpet  
 **Key Ability:** Charisma  
 **Secondary Ability:** Wisdom  
+
+<figure><img src="pics\MiguelSantos_MAGCLERICEND.png" alt="Cleric by Miguel Santos" style="zoom: 33%;" /><figcaption>Cleric by Miguel Santos</figcaption></figure>
 
 > #### Identify Target  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Focus**  
@@ -2590,6 +2602,8 @@ The Cantrips “discipline” is a collection of powers that can be selected by 
 **Key Ability:** Charisma  
 **Secondary Ability:** Constitution  
 
+<figure><img src="pics\JoyceMaureira_CGSPLASH.png" alt="Summoning by Joyce Maureira" style="zoom: 100%;" /><figcaption>Summoning by Joyce Maureira</figcaption></figure>
+
 > #### Burn It Off  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Arcane, Fire**  
 > **Ranged** 10, one enemy  
@@ -3142,6 +3156,8 @@ You’re able to modify your body in ways not reflective of any animal. This inc
 When you first gain a power with the Flux tag, choose an element: lightning, acid, cold, fire or thunder. All powers with the Flux tag have that energy as a tag, and replace any reference to [flux] in the power text with that energy. There are some powers that allow you to change your Flux energy, if you take them. You can also change your Flux energy when you retrain at a new level. Some classes interact with Flux powers in other ways. 
 
 When a power refers to [flux], it always means your current flux energy, even if you used the power when your flux energy was different. For example, if you conjured a vortex devil, it does damage of your current flux energy not the flux energy you had when you conjured it.  
+
+<figure><img src="pics\JoyceMaureira_SORCLIST3.png" alt="Sorcerer by Joyce Maureira" style="zoom: 100%;" /><figcaption>Sorcerer by Joyce Maureira</figcaption></figure>
 
 > #### Energy Jolt  
 > *You fill the opponent with harmful elemental energy, dealing damage and causing them to suffer debilitating effects.*  
@@ -4716,6 +4732,8 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 **Key Ability:** Wisdom  
 **Secondary Ability:** Charisma  
 
+<figure><img src="pics\LuigiCastellani_CONVERSIONSLOT.png" alt="Conversion by Luigi Castellani" style="zoom: 33%;" /><figcaption>Conversion by Luigi Castellani</figcaption></figure>
+
 > #### Neural Spear  
 >
 > *You scour the target’s mind.*  
@@ -5349,7 +5367,7 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 **Key Ability:** Constitution  
 **Secondary Ability:** Wisdom  
 
-See the Rulebook for details on how the Form and Wild Shape tags work.  
+See the Tags rules for details on how Form and Wild Shape tagged powers work.  
 
 > #### Blood Lust  
 >
@@ -5511,6 +5529,8 @@ See the Rulebook for details on how the Form and Wild Shape tags work.
 > Once during your time in this form, you can make the following attack:     
 > **Form Attack** (standard action) ● Focus  
 > Melee 1; Con vs AC; 3d8 + Constitution modifier damage, and you can make a Stealth check to hide as a free action; on a miss, the target takes half damage.  
+
+<figure><img src="pics\LuigiCastellani_WERELEOPARD.png" alt="Wereleopard by Luigi Castellani" style="zoom: 33%;" /><figcaption>Wereleopard by Luigi Castellani</figcaption></figure>
 
 > #### Shape of the Dire Rat  
 >
@@ -7168,6 +7188,8 @@ At level 11, each player character gets a prestige path. This path is in additio
 You exist for the betterment of others. You specialize in impromptu medical care, in the field, under the pressures of combat. You’re still armed and protect your team with blades and bandages.  
 
 **Requirements:** Trained in Heal.  
+
+<figure><img src="pics\MiguelSantos_CALLINGBACK.png" alt="Calling Back by Miguel Santos" style="zoom: 33%;" /><figcaption>Calling Back by Miguel Santos</figcaption></figure>
 
 ### Class Features  
 

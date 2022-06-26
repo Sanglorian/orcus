@@ -554,6 +554,8 @@ Athletics covers difficult situations you encounter while climbing, jumping, or 
 - You try to jump an unusually long distance or pull off a stunt midjump.  
 - You struggle to swim or stay afloat in treacherous currents, storm-tossed waves, or areas of thick seaweed. Or another creature tries to push or pull you underwater or otherwise interfere with your swimming.  
 
+<figure><img src="pics\RyzomSwim.jpg" alt="Ryzom MMORPG Concept Art (Swim)" style="zoom: 50%;" /><figcaption>Ryzom MMORPG Concept Art (Swim)</figcaption></figure>
+
 ### Climb  
 
 With a successful Athletics check, you can advance up, down, or across a slope, a wall, or some other steep incline (or even a ceiling with handholds) at half your normal speed.   
@@ -734,6 +736,8 @@ An opponent who succeeds on this check notices the attempt, regardless of whethe
 
 Make a Stealth check when you attempt to conceal yourself from enemies, slink past guards, slip away without being noticed, or sneak up on someone without being seen or heard.  
 
+<figure><img src="pics\LuigiCastellani_CGTHIEF.png" alt="Thief by Luigi Castellani" style="zoom: 33%;" /><figcaption>Thief by Luigi Castellani</figcaption></figure>
+
 ### Hiding  
 
 You can hide at the end of any action where you moved.   
@@ -797,6 +801,8 @@ Some special rules may apply to a particular challenge, e.g.:
 * the challenge takes place during a combat (only 4-6 successes should be required in this case, replacing 1-2 standard monsters)  
 
 In the example extended challenges, you will find some that work with the basic rules described above, and others that extend the medium. 
+
+<figure><img src="pics\MiguelSantos_AFOOTER.png" alt="Footer by Miguel Santos" style="zoom: 100%;" /><figcaption>Footer by Miguel Santos</figcaption></figure>
 
 # Personalization  
 
@@ -981,6 +987,8 @@ Opportunities abound to find treasure, equipment, weapons, armor, and more in th
 **Gems, Jewelry, and Art Objects:** These items retain their full value in the marketplace, and you can either trade them in for coin or use them as currency for other transactions. For exceptionally valuable treasures, the GM might require you to find a buyer in a large town or larger community first.  
 
 **Trade Goods:** On the borderlands, many people conduct transactions through barter. Like gems and art objects, trade goods – bars of iron, bags of salt, livestock, and so on – retain their full value in the market and can be used as currency.  
+
+<figure><img src="pics\LuigiCastellani_MERCHANT.png" alt="Merchant by Luigi Castellani" style="zoom: 33%;" /><figcaption>Merchant by Luigi Castellani</figcaption></figure>
 
 ## Armor  
 
@@ -1753,9 +1761,10 @@ Whether you’re striking with a melee weapon, firing a weapon at range, or maki
 - **Choose a target**. Pick a target within your attack’s range: a creature, an object, or a location. Some attacks will let you choose multiple targets, or choose the targets for you.  
 - **Determine modifiers**. The GM determines whether the target has cover and whether you have combat advantage against the target. In addition, powers, class features, and other effects can apply penalties or bonuses to your attack roll.  
 - **Resolve the attack**. You make the attack roll. On a hit, you roll damage, unless the particular attack has rules that specify otherwise. Some attacks cause special effects in addition to or instead of damage.  
-  
 
 If there’s ever any question whether something you’re doing counts as an attack, the rule is simple: if you’re making an attack roll, you’re making an attack.  
+
+<figure><img src="pics\DavidLewisJohnson_SYSCOMBAT.png" alt="Combat by David Lewis Johnson" style="zoom: 33%;" /><figcaption>Combat by David Lewis Johnson</figcaption></figure>
 
 ## Attack Rolls  
 
@@ -1810,6 +1819,8 @@ If your target has a space greater than one, it’s enough to reach one of the s
 If a ranged attack, such as one made with a spell, has a single range, you can’t attack a target beyond this range.  
 
 Some ranged attacks, such as those made with a longbow or a shortbow, have two ranges. The smaller number is the normal range, and the larger number is the long range. Your attack roll has a -2 penalty when your target is beyond normal range, and you can’t attack a target beyond the long range.  
+
+<figure><img src="pics\Female_Drow_and_Iced_Bow_by_David_Revoy.jpg" alt="Drow by David Revoy" style="zoom: 100%;" /><figcaption>Drow by David Revoy</figcaption></figure>
 
 ### Ranged and Far Attacks in Close Combat  
 
@@ -1931,6 +1942,8 @@ Every character and monster has a speed, which is the number of five-foot square
 If you have more than one speed, such as your walking speed and a fly speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you’ve already moved from the new speed. The result determines how much farther you can move. If the result is 0 or less, you can’t use the new speed during the current move.  
 
 For example, if you have a speed of 6 and a fly speed of 12 because a wizard cast the *fly* spell on you, you could fly 4 squares, then walk 2 squares, and then leap into the air to fly 6 squares more.  
+
+<figure><img src="pics\zerolevel.png" alt="Zero Level by Michael Wight" style="zoom: 100%;" /><figcaption>Zero Level by Michael Wight</figcaption></figure>
 
 ## Additional Movement Modes
 
@@ -2474,6 +2487,8 @@ An independent mount retains its place in the initiative order. Bearing a rider 
 
 In either case, if the mount provokes an opportunity attack while you're on it, the attacker can target you or the mount.  
 
+<figure><img src="pics\LuigiCastellani_ZEBRARIDER.png" alt="Zebra Rider by Luigi Castellani" style="zoom: 33%;" /><figcaption>Zebra Rider by Luigi Castellani</figcaption></figure>
+
 ## Underwater Combat  
 
 When adventurers pursue sahuagin back to their undersea homes, fight off sharks in an ancient shipwreck, or find themselves in a flooded dungeon room, they must fight in a challenging environment. Underwater the following rules apply.  
@@ -2774,6 +2789,8 @@ You can equip monsters with additional gear and trinkets however you like, and y
 # Creating New Monsters  
 
 This guide will step you through the process of creating a new monster.  
+
+<figure><img src="pics\odd-fauna.jpg" alt="Ryzom MMORPG Concept Art (Odd Fauna)" style="zoom: 100%;" /><figcaption>Ryzom MMORPG Concept Art (Odd Fauna)</figcaption></figure>
 
 ## Level and Rank  
 

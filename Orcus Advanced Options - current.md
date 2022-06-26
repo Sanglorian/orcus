@@ -359,6 +359,8 @@ The maneuvers introduced here are available to all characters, but they are only
 
 # Magic Items
 
+<figure><img src="pics\DavidLewisJohnson_TINTRO.png" alt="Treasure by David Lewis Johnson" style="zoom: 100%;" /><figcaption>Treasure by David Lewis Johnson</figcaption></figure>
+
 ## Focus Boosts  
 
 ### Brilliant (II)  
@@ -982,6 +984,8 @@ As a swift action, you can drink the potion or administer it to a creature withi
 
 As a swift action, you can drink the potion or administer it to a creature within reach. The user spends a recovery and chooses an expended encounter power (attack or utility) of the potion's level or lower. That power is no longer expended. 
 
+<figure><img src="pics\RyzomPotions.jpg" alt="Ryzom MMORPG Concept Art (Potions)" style="zoom: 33%;" /><figcaption>Ryzom MMORPG Concept Art (Potions)</figcaption></figure>
+
 ### Practice Manual
 
 A practice manual allows anyone to perform the practice written on it, whether they know the practice already or not. They still need to provide the component cost, if any. A practice manual is of the level of the practice written on it.  
@@ -1324,6 +1328,8 @@ Incantations have drawbacks: They’re time-consuming to cast, and success is no
 Sometimes, an incantation that is incorrectly cast reverses itself on the caster, explodes with a cascade of magical energy, or weakens the barrier between worlds, enabling hostile outsiders to emerge onto the Material Plane.  
 
 Incantations provide a useful way to introduce powerful magical effects in a lower-level game under controlled conditions. PCs will still use spells rather than expensive, risky incantations whenever they can. Incantations are also more specific than spells, so the GM can introduce them into the game without worrying that they’ll spread beyond the immediate situation.  
+
+<figure><img src="pics\JoyceMaureira_SORCSPELL.png" alt="Ritual by Joyce Maureira" style="zoom: 100%;" /><figcaption>Ritual by Joyce Maureira</figcaption></figure>
 
 ### Discovering Incantations
 
@@ -1772,6 +1778,8 @@ Because the bonfire is large and the hut is small, the atmosphere inside quickly
 
 Just as the tale of Hrothgar approaches its conclusion (near the end of the casting time), the bonfire’s flames light the hut on fire, which creates a great deal of smoke but no additional heat or damage. The flames consume the hut’s roof and walls, revealing Valhalla on the plane of Asgard.  
 
+<figure><img src="pics\LuigiCastellani_LOKOSSAPALACE.png" alt="Palace by Luigi Castellani" style="zoom: 33%;" /><figcaption>Palace by Luigi Castellani</figcaption></figure>
+
 ### Summon Item  
 
 Level 11 Conjuration Incantation (Arcana)  
@@ -2059,6 +2067,8 @@ Level 15 Treatment Practice (Heal)
 
 The target of the experimental resurrection is brought back to life. The subject must have died within the last 24 hours, and their body must be intact.  
 
+<figure><img src="pics\JoyceMaureira_MAGSPELL1.png" alt="Magic Spell 1 by Joyce Maureira" style="zoom: 33%;" /><figcaption>Magic Spell 1 by Joyce Maureira</figcaption></figure>
+
 ## History  
 
 ### Delve into Collective Memory  
@@ -2294,6 +2304,8 @@ Level 1 Schema Practice (None)
 Each potion and alchemical item has its own schema, which a character can learn after studying another of the same variety for 1 hour, or from scratch with 8 hours. The cost to learn equals the cost of a consumable item of the level of the potion or alchemical item. The component cost to make one of those items equals the cost to buy the item.
 
 You cannot learn the schema of an item of a level higher than your own.  
+
+<figure><img src="pics\JoyceMaureira_MAGSPELL3.png" alt="Magic Spell 3 by Joyce Maureira" style="zoom: 33%;" /><figcaption>Magic Spell 3 by Joyce Maureira</figcaption></figure>
 
 ### Poisoncraft  
 
@@ -2848,6 +2860,8 @@ If a character fails on an Intimidate check, the difficulty of Diplomacy checks 
 
 **Failure:** The majordomo does not permit the PCs an audience with the king. 
 
+<figure><img src="pics\LuigiCastellani_SEATEDNOBLE.png" alt="Seated Noble by Luigi Castellani" style="zoom: 33%;" /><figcaption>Seated Noble by Luigi Castellani</figcaption></figure>
+
 ### Staying the Course
 
 **Setup:** The PCs must fight to keep their ship on-course during a deadly storm.
@@ -2965,6 +2979,8 @@ Dyne is clearly favoring one leg – he fell from his horse on his way to the we
 **Thresholds:** Unless the PCs (or at least some of the PCs) intercept and defeat the assassins before one hour (the end of the 6th interval), they burst into the main chamber. They try to kill Kyr'shin. Even if the assassins are defeated, the wedding is over and the PCs fail with any players that they had not already achieved 3 successes with. 
 
 The assassins consist of one insidious assassin and one martial artist. 
+
+<figure><img src="pics\EarlGeier_BPORCELAIN.bmp" alt="Porcelain by Earl Geier" style="zoom: 33%;" /><figcaption>Porcelain by Earl Geier</figcaption></figure>
 
 ### Crushing Ceiling
 
@@ -3128,6 +3144,8 @@ The Forest Watcher may be entreated for directions to anything within or on the 
 *Nature (easy DCs):* You recognize the best part of the forest to make your entreaty from, to be most easily heard by the Forest Watcher.   
 
 **Failure:** All participants are exhausted, losing a recovery. A particularly poor effort may anger the Forest Watcher, leading it to direct creatures of the forest against the PCs.   
+
+<figure><img src="pics\spirit-consult.jpg" alt="Ryzom MMORPG Concept Art (Spirit Consult)" style="zoom: 100%;" /><figcaption>Ryzom MMORPG Concept Art (Spirit Consult)</figcaption></figure>
 
 # Bonds  
 

@@ -7,10 +7,12 @@ footer: ${pageNo}
 
 # Monsters  
 
-0.6
+0.6.2
 
 * TOC  
 {:toc}  
+<figure><img src="pics\LuigiCastellani_SYSTEMSPLASH.png" alt="Battle by Luigi Castellani" style="zoom: 100%;" /><figcaption>Battle by Luigi Castellani</figcaption></figure>
+
 # Monster Templates  
 
 Certain creatures are created by adding a template to an existing creature. A templated creature can represent a unique creature, the individual creation of a single experimenter, or the first generation of offspring from parents of different species. Other templates represent a thing that can happen to a creature, like becoming a ghost.   
@@ -71,6 +73,8 @@ Ranged 5, 1 target; Level +2 vs Will; target is controlled (save ends). The ghos
 
 **Blasphemous Word** (standard, refresh 5, 6)  
 Near burst 5, enemies only; Level +2 vs Will; the target is dazed (save ends) or, if the target is staggered, the target is stunned instead (save ends).   
+
+<figure><img src="pics\LordofViolence.png" alt="Lord of Violence by Justin Nichol" style="zoom: 25%;" /><figcaption>Lord of Violence by Justin Nichol</figcaption></figure>
 
 ## Forlorn Shade  
 
@@ -251,6 +255,8 @@ Animals are mundane beasts, like those found in the real world.
 > +7 vs AC; 1d10+4 damage.  
 > ∢	**Bristle Burst** (standard, encounter)   
 > Near burst 3; +4 vs Reflex; 1d4+2 damage, and the target is blinded until the end of the giant tarantula’s next turn.  
+
+<figure><img src="pics\JoyceMaureira_SLAO.png" alt="Spider by Joyce Maureira" style="zoom: 25%;" /><figcaption>Spider by Joyce Maureira</figcaption></figure>
 
 
 > #### Rattlesnake Swarm  
@@ -536,6 +542,8 @@ Animals are mundane beasts, like those found in the real world.
 # Apefolk  
 
 Apefolk are humanoids reminiscent of humankind’s closest relatives: gorillas, orang utans and chimpanzees. Apefolk tend to form city-states, populated by philosophers, soldiers and merchants.  
+
+<figure><img src="pics\RyzomApefolk.jpg" alt="Ryzom MMORPG Concept Art (Apefolk)" style="zoom: 100%;" /><figcaption>Ryzom MMORPG Concept Art (Apefolk)</figcaption></figure>
 
 
 > #### Apefolk Legionnaire  
@@ -861,6 +869,8 @@ Couatl, also known as feathered dragons, are dragons sent from the heavens to do
 
 In cliffside caves and sunken ruins dwell strange beings, servants of the mysterious aboleth.  
 
+<figure><img src="pics\MiguelSantos_BSIYOKOY.png" alt="Siyokoy by Miguel Santos" style="zoom: 33%;" /><figcaption>Siyokoy by Miguel Santos</figcaption></figure>
+
 
 > #### Deepfolk  
 >
@@ -1032,6 +1042,8 @@ In cliffside caves and sunken ruins dwell strange beings, servants of the myster
 > A jinushigami can identify a 5-mile square as its ward. Within its ward, enemies receive no attack bonus for having combat advantage against the jinushigami.  
 > **Ward Jump** (move, daily)   
 > The jinushigami teleports up to 10 miles, provided the destination is the center of its ward.  
+
+<figure><img src="pics\kami.jpg" alt="Ryzom MMORPG Concept Art (Kami)" style="zoom: 100%;" /><figcaption>Ryzom MMORPG Concept Art (Kami)</figcaption></figure>
 
 # Fiends  
 
@@ -1237,6 +1249,8 @@ In cliffside caves and sunken ruins dwell strange beings, servants of the myster
 > +24 vs AC; 3d12+12 damage.  
 > †	**Raking Claws** (standard, at-will)   
 > +24 vs AC; 4d12+8 damage.  
+
+<figure><img src="pics\bighorn.png" alt="Bighorn Demon by Justin Nichol" style="zoom: 25%;" /><figcaption>Bighorn Demon by Justin Nichol</figcaption></figure>
 
 
 > #### Pincer Demon (Glabrezu)  
@@ -2406,6 +2420,8 @@ Heroes can either encounter a bloody bones after it emerges from a dessicated hu
 
 The Infected come about because of a disease, which creates lesions, warts, and boils on the skin as well as causing inflammation within the brain. Those infected think only of eating and destroying. The disease is extremely infectious and can render the target violently ill for days or weeks, bringing them near the point of death, but most of those infected make a full recovery - if they are given time.  
 
+<figure><img src="pics\IanMacLean_BCREEPER.png" alt="Creeper by Ian MacLean" style="zoom: 50%;" /><figcaption>Creeper by Ian MacLean</figcaption></figure>
+
 
 > #### Infected Animal  
 >
@@ -2685,7 +2701,9 @@ Also known as a conversion unit, the beast is a mobile command node that expands
 > **Uplink** (swift, at-will) ● **Stance**  
 > When the widow enters this stance it chooses a skinner. On its turn, that skinner can (as a swift action) shift one square and make a basic attack. The widow can select a new skinner as the target of this stance as a swift action.  
 
-The widow is an advanced skinner that has the capacity to influence if not outright control the skinners around it. The widow has very few organic components, sometimes as little as 2%. It also doesn’t always completely follow the humanoid form. Some have synthetic tentacles while others have multiple legs. Individual units have been nicknamed “scorpion,” ”centaur, ” “tarantula,” and “octopus".  
+The widow is an advanced skinner that has the capacity to influence if not outright control the skinners around it. The widow has very few organic components, sometimes as little as 2%. It also doesn’t always completely follow the humanoid form. Some have synthetic tentacles while others have multiple legs. Individual units have been nicknamed “scorpion,” ”centaur, ” “tarantula,” and “octopus”.  
+
+<figure><img src="pics\kami-noir.jpg" alt="Ryzom MMORPG Concept Art (Kami Noir)" style="zoom: 100%;" /><figcaption>Ryzom MMORPG Concept Art (Kami Noir)</figcaption></figure>
 
 
 > #### The Tri-Pod  
@@ -2739,6 +2757,8 @@ Spirit, the Invader commander, is locked in a three-legged mobile command robot 
 # Jiang-Shi  
 
 Jiang-shi are hopping vampires.
+
+<figure><img src="pics\LuigiCastellani_CGFIGHTER.png" alt="Fighter by Luigi Castellani" style="zoom: 33%;" /><figcaption>Fighter by Luigi Castellani</figcaption></figure>
 
 ##### In the World
 
@@ -3441,6 +3461,8 @@ The shapeshifter slime begins in human form. Once sufficiently damaged, it trans
 > Any time the shapeshifter slime takes cold damage, it is slowed (save ends), unless it is already slowed.  
 
 # Specter  
+
+<figure><img src="pics\EarlGeier_JIANGSHI.bmp" alt="Jiang-Shi by Earl Geier" style="zoom: 33%;" /><figcaption>Jiang-Shi by Earl Geier</figcaption></figure>
 
 
 > #### Specter of Chivalry  
