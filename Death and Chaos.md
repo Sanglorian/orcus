@@ -4,7 +4,7 @@ An Orcus adventure for four level 3 heroes.
 
 Hundreds of years ago, a secret organization in pursuit of power made the mistake of combining two powerful magical items: an *orb of chaos* and the mysterious *necrosis cube*. The result was the creation of the terrifying undead ichor-ghouls. The site was sealed with a powerful incantation, but over the years its power has faded. Recently, a band of goblins broke into the complex.  Unable to find anything of value or overcome the undead guardians which remained, they eventually abandoned the complex again… but left the entrance gaping open to the wider world.
 
-![](\pics\Cannibal dungeons.png)
+![](pics\Cannibal dungeons.png)
 
 "Cannibal Dungeons" map by [Miska Fredman](https://www.miskasmaps.com/public-domain-maps/), released under a [Creative Commons Attribution 4.0 license](http://creativecommons.org/licenses/by/4.0/). 
 
@@ -156,16 +156,6 @@ The party may improvise a way to cross safely, perhaps by jumping onto the colum
 
 # New Rules
 
-### Necrosis Cube
-
-*Level 7*
-
-**Regenesis:** When you spend a recovery, you heal additional hit points equal to your Wisdom modifier. *Level 11:* Your Wisdom modifier +2. *Level 21:* Your Wisdom modifier +5.  
-
-**Sustenance**: You do not need to eat or drink while carrying the cube. You only need two hours sleep for a long rest. 
-
-**Healing Light**: The *necrosis cube* can transform residual arcane energy into a regenerative burst. Once per encounter, as an immediate (react) action, triggered when a creature within 6 squares uses an arcane power, you can spend a recovery to heal up to your recovery value.  
-
 ## Pools of Chaos
 
 Pools of chaos are composed of raw, seething primal chaos. Proximity to a pool of chaos may bring about strange changes over time, while direct contact with the raw chaos is even quicker. 
@@ -273,54 +263,3 @@ Generally these alterations cannot be reversed or repaired except through the us
 | 51-70 | Damage-inflicting spells heal instead of harm. Penalties become bonuses and vice versa. Effects become their opposites, if applicable. |
 | 71-85 | Spell energy goes wild, becoming a random spell of the same level, keeping target the same if possible. |
 | 86-00 | Spell energy surges uncontrollably, exploding in a Near burst 10. +7 attack vs Reflex; 1d12+3 force damage. |
-
-## Ichor-Ghouls
-
-### Desiccated Husk
-**Level 3 Wrecker** (150 XP)
-Medium Elemental Humanoid (Undead )
-**Senses:** Perception +1; darkvision
-**Str** 14 (+2), **Con** 10 (+0), **Dex** 8 (-1), **Int** 14 (+2), **Wis** 10 (+0), **Cha** 17 (+3)
-**Alignment:** Evil
-
-___
-
-**Initiative:** +0
-**AC:** 15; **Fort:** 16, **Ref:** 14, **Will** 15
-**HP:** 44, **Staggered:** 22
-**Resistance to:** necrotic 5, **Vulnerability to:** radiant 5
-*Blood Sweats aura 4:* A living creature that ends its turn in the aura suffers 3 damage.
-
-___
-
-**Speed** 4
-<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Claw** (standard, at-will)  
-+6 vs AC; 1d12+4 damage. 
- **Reformation**  
-Keep track of all damage the desiccated husk does, including through its aura. If damage done ever exceeds 22, that desiccated husk is replaced by a bloody bones as an immediate (react) action. Add 44 to the desiccated husk's current HP to determine the bloody bones' current HP. A bloody bones created in this way still only gives 150 XP for being defeated. 
-
-### Bloody Bones
-This creature appears as a skeletal humanoid with bits of muscle and sinew hanging from its body. Four long, sinewy tendrils writhe from its midsection. The entire creature constantly oozes a mixture of blood and mucus. Its eye sockets are hollow and show no pupils.
-
-**Level 3 Elite Wrecker** (300 XP)
-Medium Elemental Humanoid (Undead )
-**Senses:** Perception +2; darkvision
-**Str** 14 (+2), **Con** 10 (+0), **Dex** 12 (+1), **Int** 14 (+2), **Wis** 13 (+1), **Cha** 17 (+3)
-**Alignment:** Evil
-
-___
-
-**Initiative:** +2
-**AC:** 15; **Fort:** 16, **Ref:** 14, **Will** 15+2
-**HP:** 88, **Staggered:** 44
-**Resistance to:** necrotic 5, **Vulnerability to:** radiant 5
-*Blood Sweats aura 4:* A living creature that ends its turn in the aura suffers 3 damage.
-
-___
-
-**Speed** 6
-<span style='height: 25px;  width: 25px; background-color: #fff; border: 1.25px solid #000; border-radius: 50%; display:   inline-block;'>⚔️</span> **Wicked Claw** (standard, at-will)  
-+6 vs AC; 1d12+4 damage and 5 persistent damage (save ends). 
- **Slide Away** (immediate (counter), encounter)  
-Shift 6.
-

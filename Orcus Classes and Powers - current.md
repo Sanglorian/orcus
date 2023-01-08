@@ -16,11 +16,11 @@ footer: ${pageNo}
 To create an *Orcus* character, take the following steps:
 
 1. Choose your class. Your character’s class will have a greater effect on their powers and capabilities than any other choice you make, so it makes sense to make it first. Some classes require you to make other choices once you select them, such as choosing a talent (a sub-class). 
-2. Choose your ancestry. Your character’s ancestry is their background, cultural origin and/or race, depending on the setting. Different settings may have different rules for ancestries. The Outlaw Kingdoms setting splits ancestry into two choices: crux and background. 
-2. Choose a feat or a kit. By default, characters can either choose six feats over the course of their first 10 levels (one at level 1), or choose one kit that provides a package of features over the same 10 levels. 
-3. Calculate your ability scores. You have six ability scores: Strength, Constitution, Dexterity, Intelligence, Wisdom and Charisma. Different campaigns will calculate ability scores in different ways, but the default is called “point buy". 
-4. Choose your trained skills. Your class will say how many trained skills you have, and provide the list from which you can choose your trained skills. 
-5. Choose your powers. By default, a first-level character chooses two at-will attack powers, one encounter attack power and one daily attack power. Your class and kit will say which “disciplines” (lists of powers) you can choose your powers from. 
+2. Choose your ancestry. Your character’s ancestry is their background, cultural origin, and/or species, depending on the setting. Different settings may have different rules for ancestries. The Outlaw Kingdoms setting splits ancestry into two choices: crux and heritage. 
+2. Choose a feat or a kit. By default, characters can either choose six feats over the course of their first 10 levels (one at level 1), or choose one kit that provides a package of features over the same 10 levels. Feat paths are provided in the Kits chapter as a guide to feats you may take over your first 10 levels. 
+3. Calculate your ability scores. You have six ability scores: Strength, Constitution, Dexterity, Intelligence, Wisdom, and Charisma. Different campaigns will calculate ability scores in different ways, but the default is called “point buy.” 
+4. Choose your trained skills. Your class will say how many trained skills you have, and provide the list from which you can choose your trained skills. You gain a +5 bonus on all checks for a skill in which you are trained. See the Skills chapter for a full description of skills. 
+5. Choose your powers. By default, a first-level character chooses two at-will attack powers, one encounter attack power, and one daily attack power. Your class and kit will say which “disciplines” (lists of powers) you can choose your powers from. 
 7. Purchase equipment. You begin with 100 gold pieces with which to purchase equipment. Characters beginning at later levels start with more gold, and with magic items. 
 8. Calculate all other stats. You should now have made all the choices you need to make in order to calculate your character’s defenses, attack bonuses, damage bonuses, skill bonuses, hit points, staggered value, recoveries and recovery value, and so on. 
 
@@ -30,9 +30,9 @@ If you create a character at a higher level than 1, the process is similar, exce
 
 Here are some example archetypes, and how you might model them in *Orcus*.
 
-**Assassin/Ninja:** A mystical slayer can be created with the Mageblade, perhaps coupled with the Brews Poisons kit. Exemplifies Speed is another good choice for a kit. A non-magical assassin or ninja is best done through the Harlequin class. 
+**Assassin/Ninja:** A mystical slayer can be created with the Mageblade, perhaps coupled with the Brews Poisons kit. Embodies Speed is another good choice for a kit. A non-magical assassin or ninja is best done through the Harlequin class. 
 
-**Barbarian/Berserker:** With its focus on Constitution, the Sylvan class is a good start. Any Wild Gift could work for a berserker. For kits, Exemplifies Strength is a safe choice and even includes some powers that resemble raging. Otherwise a berserker might Eat Monster Hearts, Dabble in Guarding or Worship the God of War, or even Channel Godmind to reflect the influence of a clan spirit or ancestor. 
+**Barbarian/Berserker:** With its focus on Constitution, the Sylvan class is a good start. Any Wild Gift could work for a berserker. For kits, Embodies Strength is a safe choice and even includes some powers that resemble raging. Otherwise a berserker might Eat Monster Hearts, Dabble in Guarding or Worship the God of War, or even Channel Godmind to reflect the influence of a clan spirit or ancestor. 
 
 **Beastmaster:** A Sylvan with the Animal Companion Wild Gift and the Binds Familiar kit can have two animal friends, and turn into a third. 
 
@@ -52,35 +52,35 @@ Here are some example archetypes, and how you might model them in *Orcus*.
 
 **Fighter (Heavily Armored):** The Guardian or Commander. 
 
-**Jack of All Trades/Savant/Red Mage:** A Mageblade who takes a lot of Veiled Moon powers is already stealthy, skilled with weapons and able to cast magic spells. Taking Worships the God of Life or Dabbles in Crusading on top of that would provide divine power to round out an already versatile character. 
+**Jack of All Trades/Savant/Red Mage:** A Mageblade who takes a lot of Veiled Moon powers is already stealthy, skilled with weapons, and able to cast magic spells. Taking Worships the God of Life or Dabbles in Crusading on top of that would provide divine power to round out an already versatile character. 
 
 **Magic Dabbler:** Any character could get a strong dose of non-combat magic with the Cantrip Master feat and an investment in incantations. 
 
-**Monk/Martial Artist:** The Martial Training feats, especially the Unarmed Combat feat chain, could turn any weapon-focused character into a martial artist – consider Mageblade for a mystic martial artist, Harlequin for a taunting drunken boxer, Exemplar for an agile combatant or even Guardian for a sturdy defender. The Channels Godmind kit would add a psychic, meditative element to the build. See the feat path section for ideas for modelling different types of martial artist through feats.
+**Monk/Martial Artist:** The Martial Training feats, especially the Unarmed Combat feat chain, could turn any weapon-focused character into a martial artist – consider Mageblade for a mystic martial artist, Harlequin for a taunting drunken boxer, Exemplar for an agile combatant, or even Guardian for a sturdy defender. The Channels Godmind kit would add a psychic, meditative element to the build. See the feat path section for ideas for modelling different types of martial artist through feats.
 
 **Mounted Knight:** A Guardian who Charms Animal can pick a horse, giving themselves a powerful and obedient mount and powers that take full advantage of it. 
 
-**Paladin:** The Crusader class serves perfectly well for a paladin focused on healing and inspiring their allies. Otherwise, try a Guardian who Dabbles in Commanding or Worships the God of Life, Peace or War. 
+**Paladin:** The Crusader class serves perfectly well for a paladin focused on healing and inspiring their allies. Otherwise, try a Guardian who Dabbles in Commanding or Worships the God of Life, Peace, or War. 
 
 **Pirate:** Exemplar is a safe choice for a pirate, perhaps one who Dabbles in Reaping with a pistol. 
 
 **Poisoner:** The Brews Poisons kit is enough to turn any weapons-based character into a poisoner. 
 
-**Psion/Psychic/Ardent:** A Magician (Enchanter) who Channels Godmind would make a good psion, ardent or other psychic. The Psi Focus and Shard feats are a good investment as well. 
+**Psion/Psychic/Ardent:** A Magician (Enchanter) who Channels Godmind would make a good psion, ardent, or other psychic. The Psi Focus and Shard feats are a good investment as well. 
 
 You can make a soulknife or psychic warrior with Weapon and Shield Shard feats, or a kineticist with the Blast Shard feats. 
 
-**Ranger:** Sylvan or Reaper are  the obvious places to start for a ranger build, depending on whether your focus is melee or ranged combat. For kits, Dabbles in Reaping or Dabbles in Sylvanry would round out the character, as would Charms Animal or (for a smaller animal companion) Binds Familiar. A scout might prefer Exemplifies Speed. 
+**Ranger:** Sylvan or Reaper are  the obvious places to start for a ranger build, depending on whether your focus is melee or ranged combat. For kits, Dabbles in Reaping or Dabbles in Sylvanry would round out the character, as would Charms Animal or (for a smaller animal companion) Binds Familiar. A scout might prefer Embodies Speed. 
 
 **Rogue:** Either a Harlequin or an Exemplar that focuses on the stealthy Blades in the Dark discipline would make a good rogue. 
 
-**Tactician/“Lazylord”:** The brilliant tactician who hangs back from the fray themselves is a classic archetype rarely supported in RPGs. The Golden Trumpet, High Cunning and Born Leader disciplines cater to this style of play, as does the Last Laugh discipline (associated with the Harlequin). A Commander who Exemplifies Intelligence or Exemplifies Charisma should be able to contribute while rarely making an attack themselves. 
+**Tactician/“Lazylord”:** The brilliant tactician who hangs back from the fray themselves is a classic archetype rarely supported in RPGs. The Angel’s Trumpet and High Cunning disciplines cater to this style of play, as does the Last Laugh discipline (associated with the Harlequin). A Commander who Embodies Intelligence or Embodies Charisma should be able to contribute while rarely making an attack themselves. 
 
-**Warlord:** The Commander is a classic warlord. Alternatively, couple Dabbles in Commanding or Exemplifies Charisma with another martial class for a different take on the battlefield leader. 
+**Warlord:** The Commander is a classic warlord. Alternatively, couple Dabbles in Commanding or Embodies Charisma with another martial class for a different take on the battlefield leader. 
 
-**Were-Creature:** The Takes Bestial Form kit allows for werewolves, werebears and even werevelociraptors. 
+**Were-Creature:** The Takes Bestial Form kit allows for werewolves, werebears, and even werevelociraptors. 
 
-**Wizard/Sorcerer:** The Magician class allows for Evokers, Conjurers and Enchanters. Some sorcerers might work better as Mageblades. 
+**Wizard/Sorcerer:** The Magician class allows for Evokers, Conjurers, and Enchanters. Some sorcerers might work better as Mageblades. 
 
 <figure><img src="pics\JoyceMaureira_CGRACELINEUP.png" alt="Line Up by Joyce Maureira" style="zoom: 33%;" /><figcaption>Line Up by Joyce Maureira</figcaption></figure>
 
@@ -94,25 +94,29 @@ Every character belongs to a class, which they choose at first level. They will 
 
 Since there are ways to get some of the perks of other classes, such as multiclass feats and kits, the original class you chose is sometimes referred to as your “base class”. If you do pick up other classes, you count as a member of those classes, but they will never affect your character as much as your base class does.     
 
-## Tradition  
+## Reading Class Descriptions
+
+### Tradition  
 
 Each class has one or more traditions, which summarize where that class draws most of its power from.   
 
 **Arcane:** The practitioners of the arcane tradition seek to understand the unexplainable, categorize the bizarre, and otherwise access the ephemeral in a systematic way. If your power comes from arcane magic, it is studied or learned.   
 
-**Divine:** The power of the divine is steeped in faith, the unseen, and belief in a power source from beyond the Material Plane. If your power comes from divine magic, it is granted by the gods or other higher powers.   
+**Divine:** The power of the divine is steeped in faith, the unseen, and belief in a power source from beyond the Material Plane. If your power comes from divine magic, it is granted by the gods, saints, or other higher powers.   
 
-**Martial:** Your power comes from strength at arms, experience in battle and training. Martial adventurers have extraordinary abilities, but they are grounded in what is humanly possible.   
+**Martial:** Your power comes from skill at arms, experience in battle, force of will, and training. Martial adventurers have extraordinary abilities, but they are grounded in what is humanly possible.   
+
+**Phrenic:** The strength of psyche and emotions. The phrenic tradition represents the power inherent in all sentient beings, the ability to draw forth the spark of life, that inner fire which gives strength to convictions. In some, it takes the form of extreme dedication, unusual courage, or an unbreakable discipline. But in others, it takes on physical form. Their font of power is so great that they can manipulate the world around them by using it. There are currently no classes of the phrenic tradition, but there are kits and feats that give phrenic powers.
 
 **Spirit:** An instinctual connection to  and faith in the world, the cycle of day and night, the turning of the seasons, and the natural selection of predator and prey drive the spirit tradition. If your power comes from the spirit tradition, it is drawn from the natural world or the spirits of the world.   
 
-**Phrenic:** The strength of psyche and emotions. The phrenic power source represents the power inherent in all sentient beings, the ability to draw forth the spark of life, that inner fire which gives strength to convictions. In some, it takes the form of extreme dedication, unusual courage, or an unbreakable discipline. But in others, it takes on physical form. Their font of power is so great that they can manipulate the world around them by using it. There are currently no classes of the phrenic tradition, but there are kits and feats that give phrenic powers.
-
-## Role
+### Role
 
 Each class has one or two roles, which summarize how the class most often contributes in combat.  
 
 **Defender:** A defender soaks up attacks and damage from enemies, punishes enemies for attacking their allies *and* punishes enemies for attacking the defender. The defender forces enemies to make difficult decisions or puts them in a “catch-22”.  
+
+Often, defenders control enemies by “marking” them. See the marked condition in the Conditions chapter for more details. 
 
 **Striker:** A striker does the most damage or otherwise puts enemies out of action, particularly if they are supported by their allies – but they can be vulnerable if they are left exposed.   
 
@@ -122,28 +126,56 @@ Each class has one or two roles, which summarize how the class most often contri
 
 ##### Table – Roles and Traditions
 
-|             | Controller | Defender  | Leader    | Striker  |
-| ----------- | ---------- | --------- | --------- | -------- |
-| **Arcane**  | Magician   | Mageblade |           |          |
-| **Divine**  |            |           | Crusader  |          |
-| **Martial** | Harlequin  | Guardian  | Commander | Exemplar |
-| **Spirit**  | Reaper     |           |           | Sylvan   |
+|             | Controller | Defender           | Leader    | Striker            |
+| ----------- | ---------- | ------------------ | --------- | ------------------ |
+| **Arcane**  | Magician   | Mageblade          |           |                    |
+| **Divine**  |            |                    | Crusader  |                    |
+| **Martial** | Harlequin  | Guardian, Warrior* | Commander | Exemplar, Warrior* |
+| **Spirit**  | Reaper     |                    |           | Sylvan             |
 
-## Powers  
+\* The warrior can shift between defender and striker roles.
 
-Classes follow the default power progression, shown below, unless otherwise mentioned.  
+### Stats
 
-The numbers indicate powers from your class (although note that sometimes you will have the opportunity to select a power not of your class, but filling a class slot).   
+**Hit Points:** A character's hit point maximum is based on their class, level and Constitution score. A character becomes staggered when their current hit points fall to half or less of their maximum. A character's "recovery value" is equal to one quarter of their hit points.   
+**Recoveries:** After each long rest, a character has a number of recoveries based on their class and Constitution modifier. When a character has an opportunity to spend a recovery, it is usually in order to heal hit points equal to their recovery value.    
+**Defenses:** Each class gives a bonus to one or two defenses. 
+
+See the Combat chapter more details on hit points, recoveries and defenses.
+
+### Proficiency and Training  
+
+**Proficiencies:** A character will gain some combination of armor (including shields), weapon and focus proficiencies from their class. 
+
+A character suffers a -2 penalty to Reflex defense and attack rolls if they wear armor or use a shield they are not proficient with. A character cannot add the proficiency bonus of a weapon to their attack rolls unless they are proficient in that weapon. A character gets no benefit from using a focus unless they are proficient with it.  
+
+See the Equipment chapter for more details. 
+
+**Trained Skills:** A character gains a +5 bonus on skill checks using skills that they are trained in. A character's class gives them training in a certain number of skills; these must be selected from the list of class skills. 
+
+See the Skills chapter for more details. 
+
+### Features
+
+Features are typically unique to each class, and - along with powers - they provide the majority of the class's capabilities. 
+
+Some classes have features that provide additional feats or kits, or which interact with the action points mechanic. You can find more information about these topics in the Feats and Kits chapters, and in the Combat chapter under “Your Turn” (for action points). 
+
+### Powers  
+
+Powers are unique things that characters can do, as an action. Some are limited use; others can be used any number of times. See the Powers chapter for more details. 
+
+**Abilities:** Each class has a primary ability associated with it. That ability is used for most attacks with that class's powers. Each talent (see below) has a secondary ability associated with it. That ability is used whenever a class power uses an ability that is not the primary ability.  
+
+**Power progression:** Classes follow the default power progression, shown below, unless otherwise mentioned. In this book, only the Warrior deviates from the default progression.  
+
+The numbers of powers listed below apply only to your “class powers”: those granted through the Powers entry within your chosen class, or powers from other sources that required you to swap a power from your class for that power. Extra powers from other sources such as cruxes, kits, feats are not counted toward these limits. Powers granted by class features other than the Powers entry are also not counted toward these limits.
 
 “P” indicates a power from your prestige path, so for example at level 11 you will typically gain an encounter attack power from your prestige path. “E” indicates a power from your epic path.   
 
 The appendix has a table that shows which level powers a character of a particular level (following the default progression) can have. This is useful if you are creating a character at higher than 1st level, or if you get confused about which powers can be replaced when.   
 
-When you reach a level that allows you to replace a power, you choose a class attack power you know of that frequency (encounter or daily) and give it up, exchanging it for a power of the level you’re gaining. For example, at level 13 you can give up one of your existing encounter attack powers (e.g., the one you got at level 1) in exchange for a level 13 encounter attack power.   
-
-## Dualclass  
-
-Each class has a “Dualclass” option listed. This is the benefit that a character receives when they take the Dualclass Recruit feat and select that class.   
+When you reach a level that allows you to replace a power, you choose a class attack power you know of that frequency (encounter or daily) and give it up, exchanging it for a power of the level you’re gaining. For example, at level 13 you can give up one of your existing encounter attack powers (for example  the one you got at level 1) in exchange for a level 13 encounter attack power.   
 
 ##### Table – Default Power Progression
 
@@ -180,15 +212,32 @@ Each class has a “Dualclass” option listed. This is the benefit that a chara
 | 29    | 2              | 3 + P            | 3 + P        | 5 + P + E | Replace 1 daily attack power     |  
 | 30    | 2              | 3 + P            | 3 + P        | 5 + P + E |                                  |  
 
+### Talents
+
+Most classes have subclasses called talents. These give an additional feature and set the character's secondary ability (see above).
+
+### Dualclassing and multiclassing  
+
+Dualclassing and multiclassing are two ways for characters of one class to get features and powers from another. 
+
+Each class has a “Dualclass” option listed. This is the benefit that a character receives when they take the Dualclass Recruit feat and select that class. For example, a level 1 Exemplar might take the Dualclass Recruit (Sylvan) feat. They would get the features described under the Sylvan's Dualclass option.   
+
+Some kits are multiclasses. Multiclassing is like dualclassing except you get access to more features and powers. For example, the Dabbles in Reaping class gives you access to the same Reaper features as the Dualclass Recruit (Reaper) feat, plus access to a discipline of powers and more Reaper features at later levels. 
+
 # Commander  
 
 **Martial Leader**  
 
+**Key Ability:** Charisma. When you choose powers from your class disciplines, you can replace any reference to the discipline’s key ability with Charisma instead.  
+**Talents and Secondary Abilities:** Stormtrooper Tactics (Dexterity), Siege Tactics (Wisdom), Resilience Tactics (Intelligence), Inspiring Tactics (Strength). 
+
+When you choose powers from your class disciplines, you can replace any reference to the discipline’s secondary ability with your talent’s secondary ability instead.  
+
 ## Stats  
 
-**Hit Points at 1st Level:** 12.  
-**Hit Points at Higher Levels:** 5.  
-**Recoveries per Long Rest:** 7.  
+**Hit Points at 1st Level:** 12 plus your Constitution score.  
+**Additional Hit Points at Higher Levels:** 5 per level above first level.  
+**Recoveries per Long Rest:** 7 plus your Constitution modifier.  
 **Defenses:** +2 Fortitude.  
 
 ## Proficiency and Training  
@@ -200,6 +249,21 @@ Each class has a “Dualclass” option listed. This is the benefit that a chara
 **Class Skills:**  Athletics, Diplomacy, Endure, Heal, History, Intimidate, Religion.  
 
 ## Features  
+
+### Powers  
+
+You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline's key ability with Charisma instead. You can replace any reference to the discipline's secondary ability with the secondary ability linked to your talent (see below).  
+
+**Class Disciplines:** Angel’s Trumpet, Golden Lion.  
+
+### Talents  
+
+Choose one at character creation. 
+
+* **Stormtrooper Tactics:** Once per turn, an ally that is the target of one of your powers can shift 1 as a free action. Your secondary ability is Dexterity. 
+* **Siege Tactics:** Once per turn, an ally that is the target of one of your powers receives temporary hit points equal to your Wisdom modifier (double at level 11, triple at level 21). Your secondary ability is Wisdom. 
+* **Resilience Tactics:** Once per turn, an ally that is the target of one of your powers immediately makes a saving throw against one save ends condition they are subject to. Your secondary ability is Intelligence. 
+* **Inspiring Tactics:** Once per turn, an ally that is the target of one of your powers receives a +2 power bonus to their next attack roll. Your secondary ability is Strength.  
 
 ### Lift Spirits  
 
@@ -214,26 +278,11 @@ You can use the *lift spirits* power two times each encounter.
 
 ### Armament  
 
-Choose one of the following: 
+Choose one at character creation.   
 
 * Proficiency with martial ranged weapons. You may use Strength instead of Dexterity for attack and damage rolls on basic ranged attacks.
 * Proficiency with heavy shields and plate armor. 
 * Proficiency with two exotic melee weapons of your choice.  
-
-### Talents  
-
-Choose one at character creation. 
-
-* **Stormtrooper Tactics:** Once per turn, an ally that is the target of one of your powers can shift 1 as a free action. Your secondary ability is Dexterity. 
-* **Siege Tactics:** Once per turn, an ally that is the target of one of your powers receives temporary hit points equal to your Wisdom modifier (double at level 11, triple at level 21). Your secondary ability is Wisdom. 
-* **Resilience Tactics:** Once per turn, an ally that is the target of one of your powers immediately makes a saving throw against one save ends condition they are subject to. Your secondary ability is Intelligence. 
-* **Inspiring Tactics:** Once per turn, an ally that is the target of one of your powers receives a +2 power bonus to their next attack roll. Your secondary ability is Strength.  
-
-### Powers  
-
-You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline’s key ability with Charisma instead. You can replace any reference to the discipline’s secondary ability with the secondary ability linked to your talent.  
-
-**Class Disciplines:** Angel’s Trumpet, Golden Lion.  
 
 ### Dualclass  
 
@@ -245,16 +294,20 @@ If a character takes the Dualclass Recruit feat and selects the Commander, it ha
 
 <figure><img src='pics\rook.jpg' alt='Rook by Jared von Hindman' style='zoom: 100.0%;' /><figcaption>Rook by Jared von Hindman</figcaption></figure>  
 
-
 # Crusader  
 
 **Divine Leader**  
 
+**Key Ability:** Wisdom. When you choose powers from your class disciplines, you can replace any reference to the discipline’s key ability with Wisdom instead.  
+**Talents and Secondary Abilities:** Worships the God of Life (Charisma), Worships the God of Peace (Charisma), Worships the God of Tyranny (Strength), Worships the God of War (Strength). 
+
+When you choose powers from your class disciplines, you can replace any reference to the discipline’s secondary ability with your talent’s secondary ability instead.  
+
 ## Stats  
 
-**Hit Points at 1st Level:** 12.  
-**Hit Points at Higher Levels:** 5.  
-**Recoveries per Long Rest:** 7.  
+**Hit Points at 1st Level:** 12 plus your Constitution score.  
+**Additional Hit Points at Higher Levels:** 5 per level above first level.  
+**Recoveries per Long Rest:** 7 plus your Constitution modifier.  
 **Defenses:** +2 Will.  
 
 ## Proficiency and Training  
@@ -267,13 +320,31 @@ If a character takes the Dualclass Recruit feat and selects the Commander, it ha
 
 ## Features  
 
+### Powers  
+
+You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline's key ability with Wisdom instead. You can replace any reference to the discipline's secondary ability with the secondary ability linked to your talent (see below).  
+
+**Class Disciplines:** Angel’s Trumpet.  
+
+### Talents  
+
+Choose one kit that begins with "Worships …". You gain the benefits of that kit at the appropriate levels, including the associated discipline. This is in addition to any other kits you may have. 
+
+* **Worships the God of Life:** Your secondary ability is Charisma.
+* **Worships the God of Peace:** Your secondary ability is Charisma. 
+* **Worships the God of Tyranny:** Your secondary ability is Strength.
+* **Worships the God of War:** Your secondary ability is Strength. 
+
+If you acquire Worships ... kits through other ways, you get their benefits as usual but they do not change your secondary ability.  
+
 ### Channel Divinity  
 
-You gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with two such effects: *censure undead* and an effect associated with your talent.
+You gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with access to two such effects: *censure undead* and an effect associated with your talent.
 
-When you use your Channel Divinity, you choose which effect to create. You can use Channel Divinity once per encounter, however many powers you learn that are usable through Channel Divinity (although see Action Recharge).  
+When you use your Channel Divinity, you choose which effect to create. By default, you can use Channel Divinity once per encounter (although see Action Recharge).  
 
 > #### Censure Undead  
+>
 > *You present your holy symbol and speak a prayer censuring the undead.*  
 > **Encounter** **Attack** **Feature** (**Standard Action**) ● **Divine, Focus, Radiant**  
 > **Near** burst 2 (Level 11: 5; Level 21: 8), all undead  
@@ -287,35 +358,19 @@ When you use your Channel Divinity, you choose which effect to create. You can u
 You can use the *infuse with life* power twice per encounter.  
 
 > #### Infuse with Life  
+>
 > **Encounter** **Utility** **Feature** (**Swift Action**) ● **Divine**  
 > **Near** burst 5 (Level 11: 10; Level 21: 15), self or one ally  
 > **Effect** Target spends a recovery and heals their recovery value +1d6.
 > *Level 6:* 2d6; *Level 11:* 3d6; *Level 16:* 4d6; *Level 21:* 5d6; *Level 26:* 6d6.  
 
-### Magical Training  
+### Crusader Training  
 
-You gain the Athame, Cantrip Master or Incantation Caster feat (your choice).  
+You gain the Shield Proficiency, Athame or Cantrip Master feat or a feat from the Art Feats section (your choice).  
 
 ### Action Recharge  
 
 When you spend an action point, you recover the use of Channel Divinity for the encounter.  
-
-### Talents  
-
-Choose one kit that begins with "Worships …". You gain the benefits of that kit at the appropriate levels, including the associated discipline. This is in addition to any other kits you may have. 
-
-* **Worships the God of Life:** Your secondary ability is Charisma.
-* **Worships the God of Peace:** Your secondary ability is Charisma. 
-* **Worships the God of Tyranny:** Your secondary ability is Strength.
-* **Worships the God of War:** Your secondary ability is Strength. 
-
-If you acquire Worships ... kits through other ways, you get their benefits as usual but they do not change your secondary ability.  
-
-### Powers  
-
-You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline’s key ability with Wisdom instead. You can replace any reference to the discipline’s secondary ability with the secondary ability linked to your talent.  
-
-**Class Disciplines:** Angel’s Trumpet.  
 
 ### Dualclass  
 
@@ -327,58 +382,87 @@ If a character takes the Dualclass Recruit feat and selects the Crusader, it has
 
 <figure><img src='pics\Charlene.png' alt='Charlene by Justin Nichol' style='zoom: 25.0%;' /><figcaption>Charlene by Justin Nichol</figcaption></figure>  
 
-
 # Exemplar  
+
 **Martial Striker**  
+
+**Key Ability:** Dexterity. When you choose powers from your class disciplines, you can replace any reference to the discipline’s key ability with Dexterity instead.  
+**Talents and Secondary Abilities:** Strength, Charisma. 
+
+When you choose powers from your class disciplines, you can replace any reference to the discipline’s secondary ability with your talent’s secondary ability instead.  
+
 ## Stats  
-**Hit Points at 1st Level:** 12.  
-**Hit Points at Higher Levels:** 5.  
-**Recoveries per Long Rest:** 6.  
+
+**Hit Points at 1st Level:** 12 plus your Constitution score.  
+**Additional Hit Points at Higher Levels:** 5 per level above first level.  
+**Recoveries per Long Rest:** 6 plus your Constitution modifier.  
 **Defenses:** +2 Reflex.  
+
 ## Proficiency and Training  
+
 **Armor Proficiencies:** Cloth, leather; light shield.  
 **Weapon Proficiencies:** Simple melee, martial melee, simple ranged.  
 **Trained Skills:** You are trained in 4 skills from your class skills.  
 **Class Skills:**  Acrobatics, Athletics, Bluff, Diplomacy, Insight, Intimidate, Perception, Stealth, Streetsmarts, Sleight of Hand.  
+
 ## Features  
-### Gain Momentum  
-When you hit an enemy with a melee attack, you gain momentum. When you are hit by any kind of attack, you lose momentum.  
+
+### Powers  
+
+You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline's key ability with Dexterity instead. You can replace any reference to the discipline's secondary ability with the secondary ability linked to your talent (see below).  
+
+**Class Disciplines:** Rapier’s Point, Blades in the Dark.  
+
+### Talents  
+
+Choose one at character creation. 
+
+* **Gladiator:** Once per turn, when you shift, you can shunt an adjacent enemy 1 at one point during your movement. Your secondary ability is Strength. 
+* **Swashbuckler:** Your Triumphant Strike does additional damage equal to your Charisma modifier when you attack a marked enemy. Your secondary ability is Charisma.  
+
+### Momentum  
+
+When you hit an enemy with a melee attack, and do not already have momentum, you gain momentum. When you are hit by any kind of attack, you lose momentum. Momentum has no effect on its own, but it is required for your Triumphant Strike and Bide Your Time features and is referenced by some powers.  
+
 ### Triumphant Strike  
+
 While you have momentum, once per turn you can add +1dW damage to any kind of attack. 
 *Level 11:* +2dW damage. 
 *Level 21:* +3dW damage.  
 
 ### Bide Your Time  
+
 If you use an encounter attack power and do not hit any targets, you can lose your momentum to keep the encounter power (it is not expended). You can only use this feature if you have momentum.  
+
 ### Nick of Time  
-You get a +2 bonus on attack rolls you make outside of your turn (e.g. opportunity attacks and immediate actions).  
-### Talents  
-Choose one at character creation. 
 
-* **Gladiator:** Your secondary ability is Strength. Once per turn, when you shift, you can shunt an adjacent enemy 1 at one point during your movement. 
-* **Swashbuckler:** Your secondary ability is Charisma. Your triumphant strike does additional damage equal to your Charisma modifier when you attack a marked enemy.  
-### Powers  
-You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline’s key ability with Dexterity instead. You can replace any reference to the discipline’s secondary ability with the secondary ability linked to your talent.  
+You get a +2 bonus on attack rolls you make outside of your turn (for example, opportunity attacks and immediate actions).  
 
-**Class Disciplines:** Rapier’s Point, Blades in the Dark.  
 ### Dualclass  
+
 If a character takes the Dualclass Recruit feat and selects the Exemplar, it has the following benefit:  
 
 **Benefit:** You belong to the Exemplar class (along with any other classes that you belong to), and gain the following benefits:
 
-* When you hit an enemy with a melee attack, you gain momentum. When you are hit by any kind of attack, you lose momentum. Momentum has no effect on its own, but it is required for your Triumphant Strike feature and is referenced by some powers.
+* When you hit an enemy with a melee attack, and do not already have momentum, you gain momentum. When you are hit by any kind of attack, you lose momentum. Momentum has no effect on its own, but it is required for your Triumphant Strike and Bide Your Time features and is referenced by some powers.
 * Once per encounter, you can use the Exemplar’s Triumphant Strike feature (noting that it requires momentum to use).  
+
 <figure><img src='pics\Flashing Ray Color.png' alt='Flashing Ray by Crystal Frasier' style='zoom: 20.0%;' /><figcaption>Flashing Ray by Crystal Frasier</figcaption></figure>  
 
 # Guardian  
 
 **Martial Defender**  
 
+**Key Ability:** Strength. When you choose powers from your class disciplines, you can replace any reference to the discipline’s key ability with Strength instead.  
+**Talents and Secondary Abilities:** Constitution, Dexterity, Wisdom. 
+
+When you choose powers from your class disciplines, you can replace any reference to the discipline’s secondary ability with your talent’s secondary ability instead.  
+
 ## Stats  
 
-**Hit Points at 1st Level:** 15.  
-**Hit Points at Higher Levels:** 6.  
-**Recoveries per Long Rest:** 9.  
+**Hit Points at 1st Level:** 15 plus your Constitution score.  
+**Additional Hit Points at Higher Levels:** 6 per level above first level.  
+**Recoveries per Long Rest:** 9 plus your Constitution modifier.  
 **Defenses:** +2 Fortitude.  
 
 ## Proficiency and Training  
@@ -389,6 +473,19 @@ If a character takes the Dualclass Recruit feat and selects the Exemplar, it has
 **Class Skills:**  Athletics, Endure, Heal, Intimidate, Streetsmarts.  
 
 ## Features  
+
+### Powers  
+
+You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline's key ability with Strength instead. You can replace any reference to the discipline's secondary ability with the secondary ability linked to your talent (see below).  
+
+**Class Disciplines:** Art of War, Juggernautical.  
+
+### Talents  
+
+Choose one at character creation. 
+
+* **Great Weapon Style:** You get a +1 bonus on attack rolls with two-handed weapons. Your secondary ability is Constitution. 
+* **Protection:** You get a +1 bonus on attack rolls with one-handed weapons. Your secondary ability is Dexterity OR Wisdom (your choice).  
 
 ### Combat Dominance  
 
@@ -403,6 +500,7 @@ Add your Wisdom modifier to your attack rolls when making opportunity attacks.
 You gain the *punish cowardice* and *block retreat* powers.  
 
 > #### Block Retreat  
+>
 > **At-Will** **Utility** **Feature** (**Free Action**) ● **Martial**  
 > **Trigger** A creature is hit by your opportunity attack, and the opportunity attack was provoked by movement.  
 > **Effect** Their movement stops for this action. They may attempt to move again using another action, if applicable.  
@@ -411,19 +509,7 @@ You gain the *punish cowardice* and *block retreat* powers.
 > **At-Will** **Utility** **Feature** (**Counter Action**) ● **Martial**  
 > **Trigger** An adjacent creature you have marked shifts or makes an attack that does not include you.  
 > **Effect** Make a basic melee attack against the triggering creature.  
-
-### Talents  
-
-Choose one at character creation. 
-
-* **Great Weapon Style:** Your secondary ability is Constitution. You get a +1 bonus on attack rolls with two-handed weapons.
-* **Protection:** Your secondary ability is Dexterity OR Wisdom (your choice). You get a +1 bonus on attack rolls with one-handed weapons.  
-
-### Powers  
-
-You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline’s key ability with Strength instead. You can replace any reference to the discipline’s secondary ability with the secondary ability linked to your talent.  
-
-**Class Disciplines:** Art of War, Juggernautical.  
+> **Special** This is not an opportunity attack.  
 
 ### Dualclass  
 
@@ -431,17 +517,22 @@ If a character takes the Dualclass Recruit feat and selects the Guardian, it has
 
 **Benefit:** You belong to the Guardian class (along with any other classes that you belong to), and gain the following benefits:
 
-* Once per encounter, as a free action, you gain the Combat Dominance feature until the end of your next turn.  
+* Once per encounter, as a free action, you gain the Combat Dominance feature for a number of rounds equal to your Strength modifier.  
 
 # Harlequin  
 
 **Martial Controller**  
 
+**Key Ability:** Charisma. When you choose powers from your class disciplines, you can replace any reference to the discipline’s key ability with Charisma instead.  
+**Talents and Secondary Abilities:** Constitution, Dexterity, Intelligence, Wisdom. 
+
+When you choose powers from your class disciplines, you can replace any reference to the discipline’s secondary ability with your talent’s secondary ability instead.  
+
 ## Stats  
 
-**Hit Points at 1st Level:** 10.  
-**Hit Points at Higher Levels:** 4.  
-**Recoveries per Long Rest:** 6.  
+**Hit Points at 1st Level:** 10 plus your Constitution score.  
+**Additional Hit Points at Higher Levels:** 4 per level above first level.  
+**Recoveries per Long Rest:** 6 plus your Constitution modifier.  
 **Defenses:** +2 Will.  
 
 ## Proficiency and Training  
@@ -453,6 +544,21 @@ If a character takes the Dualclass Recruit feat and selects the Guardian, it has
 **Class Skills:**  Bluff, Diplomacy, Heal, History, Insight, Intimidate, Perception, Religion, Streetsmarts, Thievery.  
 
 ## Features  
+
+### Powers  
+
+You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline's key ability with Charisma instead. You can replace any reference to the discipline's secondary ability with the secondary ability linked to your talent (see below).  
+
+**Class Disciplines:** Last Laugh, Mastermind’s Gambit.  
+
+### Talents  
+
+Choose one of the following auras at character creation. You can activate an aura as a swift action, which lasts until you end it as a swift action or until you fall unconscious. Unlike stances, multiple auras can be in effect at once.
+
+* **Fixer:** *Demoralizing Presence aura 2;* enemies in the aura suffer a -2 penalty to all saving throws. Your secondary ability is Dexterity.  
+* **Jester:** *Attention Grabber aura 2;* you can mark an enemy in this aura as a swift action. Enemies you have marked inside the aura suffer an additional -1 penalty to attacks that don’t include you. Your secondary ability is Wisdom.   
+* **Saboteur:** *Threatened Footfalls aura 2;* enemies treat the area within the aura as difficult terrain. Your secondary ability is Intelligence.  
+* **Scout:** *Watchful aura 2;* you do not grant combat advantage to enemies inside the aura. Your secondary ability is Constitution.  
 
 ### Impudent Flourish  
 
@@ -474,21 +580,6 @@ You gain the *hasty retreat* and *general confusion* powers.
 > **Self**   
 > **Effect** Shift 1.  
 
-### Talents  
-
-Choose one of the following auras at character creation. You can activate an aura as a swift action, which lasts until you end it as a swift action or until you fall unconscious. Unlike stances, multiple auras can be in effect at once.
-
-* **Fixer:** *Demoralizing Presence aura 2;* enemies in the aura suffer a -2 penalty to all saving throws. Your secondary ability is Dexterity.
-* **Jester:** *Attention Grabber aura 2;* enemies you have marked inside the aura suffer an additional -1 penalty to attacks that don’t include you. Your secondary ability is Charisma.  
-* **Saboteur:** *Threatened Footfalls aura 2;* enemies treat the area within the aura as difficult terrain. Your secondary ability is Intelligence.
-* **Scout:** *Watchful aura 2;* you do not grant combat advantage to enemies inside the aura. Your secondary ability is Constitution. 
-
-### Powers  
-
-You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline’s key ability with Charisma instead. You can replace any reference to the discipline’s secondary ability with the secondary ability linked to your talent.  
-
-**Class Disciplines:** Last Laugh, Mastermind’s Gambit.  
-
 ### Dualclass  
 
 If a character takes the Dualclass Recruit feat and selects the Harlequin, it has the following benefit:  
@@ -498,16 +589,20 @@ If a character takes the Dualclass Recruit feat and selects the Harlequin, it ha
 * Once per encounter, you can use the *hasty retreat* power. 
 * Once per encounter, you can use the *general confusion* power.  
 
-
 # Mageblade  
 
 **Arcane Defender**  
 
+**Key Ability:** Intelligence. When you choose powers from your class disciplines, you can replace any reference to the discipline’s key ability with Intelligence instead.  
+**Talents and Secondary Abilities:** Strength, Constitution, Dexterity, Charisma. 
+
+When you choose powers from your class disciplines, you can replace any reference to the discipline’s secondary ability with your talent’s secondary ability instead.  
+
 ## Stats  
 
-**Hit Points at 1st Level:** 15.  
-**Hit Points at Higher Levels:** 6.  
-**Recoveries per Long Rest:** 8.  
+**Hit Points at 1st Level:** 15 plus your Constitution score.  
+**Additional Hit Points at Higher Levels:** 6 per level above first level.  
+**Recoveries per Long Rest:** 8 plus your Constitution modifier.  
 **Defenses:** +1 AC, +2 Will.  
 
 ## Proficiency and Training  
@@ -520,13 +615,53 @@ If a character takes the Dualclass Recruit feat and selects the Harlequin, it ha
 
 ## Features  
 
+### Powers  
+
+You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline's key ability with Intelligence instead. You can replace any reference to the discipline's secondary ability with the secondary ability linked to your talent (see below).  
+
+**Class Disciplines:** Elemental Flux, Veiled Moon.  
+
+### Talents  
+
+Choose one at character creation. 
+
+* **Illusion Specialist:** You can use the *blurring sigil* power. Your secondary ability is Dexterity. 
+* **Martyr Specialist:** You can use the *vortex sigil* power. Your secondary ability is Constitution. 
+* **Punishment Specialist:** You can use the *fiery sigil* power. Your secondary ability is Charisma. 
+* **Rush Specialist:** You can use the *beacon sigil* power. Your secondary ability is Strength.  
+
+> #### Beacon Sigil  
+> **At-Will** **Utility** **Feature** (**Reaction Action**) ● **Arcane, Teleport, Weapon**  
+> **Near** burst 5, the triggering enemy  
+> **Trigger** A creature marked by your *sigil* makes an attack that does not include you as a target  
+> **Effect** Teleport to an unoccupied square adjacent to the target and make a basic melee attack against them.  
+
+> #### Blurring Sigil  
+> **At-Will** **Utility** **Feature** (**Counter Action**) ● **Arcane, Weapon**  
+> **Near** burst 10, the triggering enemy  
+> **Trigger** A creature marked by your *sigil* makes an attack that does not include you as a target  
+> **Effect** Any one target of the triggering creature’s attack gains resistance to all damage equal to your level + your Dexterity modifier, until the end of the current turn.  
+
+> #### Fiery Sigil  
+> **At-Will** **Utility** **Feature** (**Reaction Action**) ● **Arcane, Fire, Weapon**  
+> **Near** burst 10, the triggering enemy  
+> **Trigger** A creature marked by your *sigil* makes an attack that does not include you as a target  
+> **Effect** The triggering creature takes 1d6 + your Charisma modifier fire damage. *Level 11:* 2d6 + your Charisma modifier damage. *Level 21:* 3d6 + your Charisma modifier damage.  
+
+> #### Vortex Sigil  
+> **At-Will** **Utility** **Feature** (**Counter Action**) ● **Arcane, Teleport, Weapon**  
+> **Near** burst 5, the triggering enemy  
+> **Trigger** A creature marked by your *sigil* attempts to make an attack that does not include you as a target  
+> **Effect** The triggering creature teleports to an unoccupied square of your choice adjacent to you. If it now arranges the attack so that it includes you as a target, the attack goes ahead. Otherwise it misses all targets.    
+
 ### Mageblade’s Sigil  
 
 You can use the *mageblade’s sigil* power.  
 
 > #### Mageblade’s Sigil  
+>
 > **At-Will** **Utility** **Feature** (**Swift Action**) ● **Arcane**  
-> **Near burst** 2, one target  
+> **Near** burst 2, one target  
 > **Effect** The target is marked until you use this power again.  
 
 ### Key Weapon  
@@ -539,50 +674,11 @@ As a standard action, if you have a free hand you can summon your key weapon. If
 
 ### Athame  
 
-You have the Athame feat for the weapon type that your key weapon belongs to. For example, if your key weapon is a *+1 longsword*, you have the Athame (longsword) feat. This changes if your Special Bond changes.  
+You have the Athame feat for the weapon type that your key weapon belongs to. For example, if your key weapon is a *+1 longsword*, you have the Athame (longsword) feat. This changes if your Key Weapon changes.  
 
 ### Shimmering Shield  
 
 If you have a spare hand (not carrying a shield, wielding a two-handed weapon, holding a focus, etc.), you receive a +2 shield bonus to AC.  
-
-### Talents  
-
-Choose one at character creation. 
-
-* **Illusion Specialist:** Your secondary ability is Constitution. You can use the *blurring sigil* power.
-* **Martyr Specialist:** Your secondary ability is Dexterity. You can use the *vortex sigil* power.
-* **Punishment Specialist:** Your secondary ability is Charisma. You can use the *fiery sigil* power.
-* **Rush Specialist:** Your secondary ability is Strength. You can use the *beacon sigil* power.  
-
-> #### Beacon Sigil  
-> **At-Will** **Utility** **Feature** (**Reaction Action**) ● **Arcane, Weapon, Teleport**  
-> **Near burst** 5, the triggering enemy  
-> **Trigger** A creature marked by your *sigil* makes an attack that does not include you as a target  
-> **Effect** Teleport to an unoccupied square adjacent to the target and make a basic melee attack against them.  
-
-> #### Blurring Sigil  
-> **At-Will** **Utility** **Feature** (**Counter Action**) ● **Arcane, Weapon**  
-> **Near burst** 10, the triggering enemy  
-> **Trigger** A creature marked by your *sigil* makes an attack that does not include you as a target  
-> **Effect** Any one target of the triggering creature’s attack gains resistance to all damage equal to your level + your Constitution modifier, until the end of the current turn.  
-
-> #### Fiery Sigil  
-> **At-Will** **Utility** **Feature** (**Reaction Action**) ● **Arcane, Weapon, Fire**  
-> **Near burst** 10, the triggering enemy  
-> **Trigger** A creature marked by your *sigil* makes an attack that does not include you as a target  
-> **Effect** The triggering creature takes 1d6 + your Charisma modifier fire damage. *Level 11:* 2d6 + your Charisma modifier damage. *Level 21:* 3d6 + your Charisma modifier damage.  
-
-> #### Vortex Sigil  
-> **At-Will** **Utility** **Feature** (**Counter Action**) ● **Arcane, Weapon, Teleport**  
-> **Near burst** 5, the triggering enemy  
-> **Trigger** A creature marked by your *sigil* attempts to make an attack that does not include you as a target  
-> **Effect** The triggering creature teleports to an unoccupied square adjacent to you. If it now arranges the attack so that it includes you as a target, the attack goes ahead. Otherwise it misses all targets.  
-
-### Powers  
-
-You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline’s key ability with Intelligence instead. You can replace any reference to the discipline’s secondary ability with the secondary ability linked to your talent.  
-
-**Class Disciplines:** Elemental Flux, Veiled Moon.  
 
 ### Dualclass  
 
@@ -599,11 +695,16 @@ If a character takes the Dualclass Recruit feat and selects the Mageblade, it ha
 
 **Arcane Controller**  
 
+**Key Ability:** Intelligence. When you choose powers from your class disciplines, you can replace any reference to the discipline’s key ability with Intelligence instead.  
+**Talents and Secondary Abilities:** Constitution, Dexterity, Charisma. 
+
+When you choose powers from your class disciplines, you can replace any reference to the discipline’s secondary ability with your talent’s secondary ability instead.  
+
 ## Stats  
 
-**Hit Points at 1st Level:** 10.  
-**Hit Points at Higher Levels:** 4.  
-**Recoveries per Long Rest:** 6.  
+**Hit Points at 1st Level:** 10 plus your Constitution score.  
+**Additional Hit Points at Higher Levels:** 4 per level above first level.  
+**Recoveries per Long Rest:** 6 plus your Constitution modifier.  
 **Defenses:** +2 Will.  
 
 ## Proficiency and Training  
@@ -615,6 +716,20 @@ If a character takes the Dualclass Recruit feat and selects the Mageblade, it ha
 **Class Skills:**  Arcana, Diplomacy, Dungeoneering, History, Insight, Nature, Religion.  
 
 ## Features  
+
+### Powers  
+
+You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline's key ability with Intelligence instead. You can replace any reference to the discipline's secondary ability with the secondary ability linked to your talent (see below).  
+
+**Class Disciplines:** Spells of Ice and Fire, Cup of Brimstone, Puppeteer’s Pull.  
+
+### Talents  
+
+You belong to a particular school of magic. Choose one at character creation. 
+
+* **Conjurer:** When an encounter ends and you have one or more daily powers with the Summon keyword still active, those daily powers are not expended. However, if you use them again, the summoned creatures appear in the exact state they were when their last summoning ended (current HP, conditions, etc.) except that they can use their encounter powers again even if already used before. If you complete a long rest, all your daily powers reset and if you use them from then on a “fresh” creature will be summoned. Your secondary ability is Constitution.
+* **Enchanter:** When you use a power with the Psychic tag that does damage on a hit, you can choose for the power to do no damage to any enemies you target. If so, you gain a +2 bonus on the attack roll. Your secondary ability is Charisma. 
+* **Evoker:** If you wish, a Near or Far power you use with the Acid, Cold, Fire, Flux, Lightning or Thunder tags has its area increased by 1 (from Near arc 2 to Near arc 3, for example). Also, you can change your flux energy as a swift action (see the Elemental Flux discipline for a description of flux energy). Your secondary ability is Dexterity.  
 
 ### Arcane Strength  
 
@@ -632,31 +747,17 @@ Choose either Arcane Overflow or Arcane Sustenance.
 * *Weakened:* The target suffers a -4 penalty to damage.
 * *Unwilling movement 3 or more:* Unwilling movement of the same variety 1.
 
-**Arcane Sustenance:** At the start of each of your turns, choose one power you have active that requires an action to Maintain or choose a companion of yours (a summon, familiar, etc).
+**Arcane Sustenance:** At the start of each of your turns, choose one power you have active that requires an action to Maintain or choose a companion of yours (a summon, familiar, etc.).
 
 If you choose the Maintain power, the power is Maintained as if you spent the relevant action on it. If you choose the creature, it can take an action of your choice without you spending an action on it. This does not allow it to exceed its total actions, so for example if you choose for it to take a standard action, you cannot also spend your standard action to have it take another standard action.  
 
-### Magical Training  
+### Arcane Training  
 
-You gain the Athame, Cantrip Master or Incantation Caster feat (your choice).  
+You gain the Athame feat or a feat from the Art Feats section (your choice).  
 
 ### Cantrips  
 
 You gain the Cantrip Master feat.  
-
-### Talents  
-
-You belong to a particular school of magic. Choose one at character creation. 
-
-* **Conjurer:** When an encounter ends and you have one or more daily powers with the Summon keyword still active, those daily powers are not expended. However, if you use them again, the summoned creatures appear in the exact state they were when their last summoning ended (current HP, conditions, etc) except that they can use their encounter powers again even if already used before. If you complete a long rest, all your daily powers reset and if you use them from then on a "fresh" creature will be summoned. Your secondary ability is Constitution.
-* **Enchanter:** When you use a power with the Psychic tag that does damage on a hit, you can choose for the power to do no damage to any enemies you target. If so, you gain a +2 bonus on the attack roll. Your secondary ability is Charisma. 
-* **Evoker:** If you wish, a Near or Far power you use with the Acid, Cold, Fire, Flux, Lightning or Thunder tags has its area increased by 1 (from Near arc 2 to Near arc 3, for example). Also, you can change your flux energy as a swift action. Your secondary ability is Dexterity.  
-
-### Powers  
-
-You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline’s key ability with Intelligence instead. You can replace any reference to the discipline’s secondary ability with the secondary ability linked to your talent.  
-
-**Class Disciplines:** Spells of Ice and Fire, Cup of Brimstone, Puppeteer’s Pull.  
 
 ### Dualclass  
 
@@ -673,11 +774,16 @@ If a character takes the Dualclass Recruit feat and selects the Magician, it has
 
 **Spirit Controller**  
 
+**Key Ability:** Dexterity. When you choose powers from your class disciplines, you can replace any reference to the discipline’s key ability with Dexterity instead.  
+**Talents and Secondary Abilities:** Strength, Constitution, Intelligence. 
+
+When you choose powers from your class disciplines, you can replace any reference to the discipline’s secondary ability with your talent’s secondary ability instead.  
+
 ## Stats  
 
-**Hit Points at 1st Level:** 12.  
-**Hit Points at Higher Levels:** 5.  
-**Recoveries per Long Rest:** 7.  
+**Hit Points at 1st Level:** 12 plus your Constitution score.  
+**Additional Hit Points at Higher Levels:** 5 per level above first level.  
+**Recoveries per Long Rest:** 7 plus your Constitution modifier.  
 **Defenses:** +1 Reflex, +1 Will.  
 
 ## Proficiency and Training  
@@ -689,23 +795,39 @@ If a character takes the Dualclass Recruit feat and selects the Magician, it has
 
 ## Features  
 
+### Powers  
+
+You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline's key ability with Dexterity instead. You can replace any reference to the discipline's secondary ability with the secondary ability linked to your talent (see below).  
+
+**Class Disciplines:** Seershot, Starfall.  
+
+### Talents  
+
+Choose one at character creation. 
+
+* **Paviser:** If you don’t move on your turn, you reduce all unwilling movement you experience by 1 square, and get a +1 bonus to AC until the start of your next turn. You are proficient in hide and chainmail armor. Your secondary ability is Constitution. 
+* **Peltast:** You get a +1 bonus to attacks with weapons with the thrown (light) or thrown (heavy) property. Weapons that you throw are transported back into your hand by the spirits immediately after you make the attack. While wearing light or no armor, add your Strength to Armor Class instead of Dexterity/Intelligence if it is higher. Your secondary ability is Strength. 
+* **Sharpshooter:** You get a +1 bonus to attack rolls against targets that are 6 or more squares away. Your secondary ability is Intelligence.  
+
 ### Sprouting Overwatch  
 
 You have the *sprouting overwatch* power.  
 
 > #### Sprouting Overwatch  
+>
 > *You cover a person or area and attack anything that gets too close.*  
 > **At-Will** **Attack** **Feature** (**Move Action**) ● **Spirit, Weapon, Zone**  
-> **Far** burst 1 (ranged 10)  
+> **Far** burst 1 within range 10  
 > **Effect** You can make a regular ranged basic attack against one creature that enters any square of the target area as an immediate interrupt until the start of your next turn. After you make this attack, all enemies treat the area as difficult terrain until the start of your next turn.  
 
 ### Spirit Entreaty  
 
-You gain the ability to entreat the spirits for a favour. You start with three such effects: *grasping vines*, *spirit’s prank* and *unleashed spirit*.
+You gain the ability to entreat the spirits for a favor. You start with access to three such effects: *grasping vines*, *spirit’s prank* and *unleashed spirit*.
 
-When you use your Spirit Entreaty, you choose which effect to create. You can use Spirit Entreaty once per encounter, however many powers you learn that are usable through Spirit Entreaty (although see Action Recharge).  
+When you use your Spirit Entreaty, you choose which effect to create. By default, you can use Spirit Entreaty once per encounter (although see Action Recharge).  
 
 > #### Grasping Vines  
+>
 > **Encounter** **Attack** **Feature** (**Swift Action**) ● **Spirit**  
 > **Near** burst 1, all enemies  
 > **Effect** The target is pushed 1 and slowed until the end of your next turn.  
@@ -713,12 +835,14 @@ When you use your Spirit Entreaty, you choose which effect to create. You can us
 > *Level 21:* Range is now burst 3.  
 
 > #### Spirit’s Prank  
+>
 > **Encounter** **Attack** **Feature** (**Free Action**) ● **Spirit**  
 > **Self**   
 > **Trigger** Your ranged attack misses a target  
 > **Effect** Make a ranged basic attack against a creature within 5 of the triggering target.  
 
 > #### Unleashed Spirit  
+>
 > **Encounter** **Attack** **Feature** (**Reaction Action**) ● **Spirit, Weapon**  
 > **Melee** weapon, the triggering enemy  
 > **Trigger** A melee attack misses you.  
@@ -728,27 +852,13 @@ When you use your Spirit Entreaty, you choose which effect to create. You can us
 
 When you spend an action point, you recover the use of Spirit Entreaty for the encounter.  
 
-### Talents  
-
-Choose one at character creation. 
-
-* **Arbalest:** Your secondary ability is Constitution. If you don’t move on your turn, you reduce all unwilling movement you experience by 1 square, and get a +1 bonus to AC until the start of your next turn. You are proficient in hide and chainmail armor. 
-* **Peltast:** Your secondary ability is Strength. You get a +1 bonus to attacks with weapons with the thrown (light) or thrown (heavy) property. Weapons that you throw are transported back into your hand by the spirits immediately after you make the attack. While wearing light or no armor, add your Strength to Armor Class instead of Dexterity/Intelligence if it is higher.
-* **Sharpshooter:** Your secondary ability is Intelligence. You get a +1 bonus to attack rolls against targets that are 6 or more squares away. 
-
-### Powers  
-
-You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline’s key ability with Dexterity instead. You can replace any reference to the discipline’s secondary ability with the secondary ability linked to your talent.  
-
-**Class Disciplines:** Seershot, Starfall.  
-
 ### Dualclass  
 
 If a character takes the Dualclass Recruit feat and selects the Reaper, it has the following benefit:  
 
 **Benefit:** You belong to the Reaper class (along with any other classes that you belong to), and gain the following benefit:
 
-* Once per day, you can use a Spirit Entreaty power.  
+* Once per day, you can use a Spirit Entreaty power. You start with access to three such effects: *grasping vines*, *spirit’s prank* and *unleashed spirit*.  
 
 <figure><img src='pics\Ranger.png' alt='Ranger by Justin Nichol' style='zoom: 25.0%;' /><figcaption>Ranger by Justin Nichols</figcaption></figure>  
 
@@ -756,11 +866,16 @@ If a character takes the Dualclass Recruit feat and selects the Reaper, it has t
 
 **Spirit Striker**  
 
+**Key Ability:** Constitution. When you choose powers from your class disciplines, you can replace any reference to the discipline’s key ability with Constitution instead.  
+**Talents and Secondary Abilities:** Dexterity, Wisdom, Charisma. 
+
+When you choose powers from your class disciplines, you can replace any reference to the discipline’s secondary ability with your talent’s secondary ability instead.  
+
 ## Stats  
 
-**Hit Points at 1st Level:** 12.  
-**Hit Points at Higher Levels:** 5.  
-**Recoveries per Long Rest:** 6.  
+**Hit Points at 1st Level:** 12 plus your Constitution score.  
+**Additional Hit Points at Higher Levels:** 5 per level above first level.  
+**Recoveries per Long Rest:** 6 plus your Constitution modifier.  
 **Defenses:** +1 Fortitude, +1 Reflex.  
 
 ## Proficiency and Training  
@@ -773,15 +888,63 @@ If a character takes the Dualclass Recruit feat and selects the Reaper, it has t
 
 ## Features  
 
+### Powers  
+
+You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline's key ability with Constitution instead. You can replace any reference to the discipline's secondary ability with the secondary ability linked to your talent (see below).  
+
+**Class Disciplines:** Red in Tooth and Claw, Strong Bidding, Frontline Fighting.  
+
+### Talents  
+
+Choose one at character creation. Note that rampage powers do not necessarily have to target the creature that you hit with the attack that triggered the rampage power. 
+
+* **Watchful:** You gain the *fearful rampage* power. Your secondary ability is Wisdom.
+* **Companionable:** You gain the *companion rampage* power. Your secondary ability is Charisma. 
+* **Swift:** You gain the *swift rampage* power. Your secondary ability is Dexterity.  
+
+> #### Companion Rampage  
+>
+> **At-Will** **Attack** **Feature** (**No Action**) ● **Spirit, Weapon or Focus**  
+> **Special** range, one creature  
+> **Trigger** You hit with an attack  
+> **Effect** The target must be within Melee reach of you, or of your animal companion. The target takes damage equal to 2 + your Charisma modifier.  
+> **Special** You can use this power once per round. 
+> *Level 11:* Special range, one or two creatures.
+> *Level 21:* Special range, all enemies.  
+
+> #### Fearful Rampage  
+>
+> **At-Will** **Attack** **Feature** (**No Action**) ● **Spirit, Weapon or Focus, Psychic, Fear**  
+> **Melee** touch, one creature  
+> **Trigger** You hit with an attack  
+> **Effect** The target takes damage equal to 2 + your Wisdom modifier and is shunted 1.  
+> **Special** You can use this power once per round. 
+> *Level 11:* Melee touch, one or two creatures.
+> *Level 21:* Melee touch, all enemies.  
+
+> #### Swift Rampage  
+>
+> **At-Will** **Attack** **Feature** (**No Action**) ● **Spirit, Weapon or Focus**  
+> **Melee** touch, one creature  
+> **Trigger** You hit with an attack  
+> **Effect** The target takes damage equal to 2 + your Dexterity modifier. You shift 1.  
+> **Special** You can use this power once per round. 
+> *Level 11:* Melee touch, one or two creatures.
+> *Level 21:* Melee touch, all enemies.  
+
 ### Wild Gift  
 
 Choose one of the following.
 
 **Skinchanger:** When you wear light or no armor, you can add your Constitution modifier to your AC instead of Dexterity or Intelligence. 
 
-While under the effects of a *shape of the X* power, you can spend any other *shape of the X* power you have yet to use in order to make the Form Attack of either the shape you are currently in or the shape you have expended. This does not count towards your one use of the Form Attack from using the original *shape of the X* power.
+While under the effects of a *shape of the X* power, you can spend any other *shape of the X* power you have yet to use in order to make an additional Form Attack, over and above the one granted by the using the original *shape of the X* power.  This additional Form Attack may be of either the shape you are currently in or the additional shape you have expended. You may use this option once for each *shape of the X* power you have yet to use.
 
-**Hunter:** When no ally is closer to a target than you are, you get a +1 bonus on attack rolls against that target. In addition, all one-handed melee weapons have the side weapon property for you. You also get a bonus feat: Toughness, Two-Weapon Defense, Shield Proficiency or Melee Finesse. 
+**Hunter:**  You treat all one-handed melee weapons as having the side weapon property. 
+
+When no ally is closer to an enemy than you are, you get a +1 bonus on attack rolls against that enemy.  You gain this bonus against all enemies who meet these criteria. 
+
+In addition, you also get a bonus feat: Toughness, Two-Weapon Defense, Shield Proficiency or Melee Finesse.  
 
 **Animal Companion:** You gain the service of an animal companion (from the list below). When you use a Red in Tooth and Claw power, you can choose for your animal companion to use the power in your place (it is assumed to always be in *wild shape* form), using your attack bonus and damage die. 
 
@@ -805,7 +968,7 @@ The animal companion obeys the following rules:
 *Other*
 
 * Your animal companion always obeys your commands.
-* If you retrain this kit, you can select a different animal companion. 
+* If you retrain, you can select a different animal companion. 
 * The animal companion is an ally of you, and of your allies.
 * The animal companion is a bright, sensitive animal, but nonetheless has animal-level intelligence.  
 
@@ -821,56 +984,19 @@ After spending a week or more in a particular terrain, you can set it as your Fa
 
 **Underground or Mountains:** You gain the stone stride feature and a +2 bonus to Dungeoneering.  
 
-### Talents  
-
-Choose one at character creation. Note that rampage powers do not necessarily have to target the creature that you hit with the attack that triggered the rampage power. 
-
-* **Watchful:** Your secondary ability is Wisdom. You gain the *fearful rampage* power. 
-* **Companionable:** Your secondary ability is Charisma. You gain the *companion rampage* power. 
-* **Swift:** Your secondary ability is Dexterity. You gain the *swift rampage* power.  
-
-> #### Companion Rampage  
-> **At-Will** **Attack** **Feature** (**No Action**) ● **Spirit, Weapon or Focus**  
-> **Special** range, one creature  
-> **Trigger** You hit with an attack  
-> **Effect** The target must be within Melee reach of you, or of your animal companion. The target takes damage equal to 2 + your Charisma modifier.  
-> **Special** You can use this power once per round. 
-*Level 11:* Special range, one or two creatures.
-*Level 21:* Special range, all enemies.  
-
-> #### Fearful Rampage  
-> **At-Will** **Attack** **Feature** (**No Action**) ● **Spirit, Weapon or Focus, Psychic, Fear**  
-> **Melee** touch, one creature  
-> **Trigger** You hit with an attack  
-> **Effect** The target takes damage equal to 2 + your Wisdom modifier and is shunted 1.  
-> **Special** You can use this power once per round. 
-*Level 11:* Melee touch, one or two creatures.
-*Level 21:* Melee touch, all enemies.  
-
-> #### Swift Rampage  
-> **At-Will** **Attack** **Feature** (**No Action**) ● **Spirit, Weapon or Focus**  
-> **Melee** touch, one creature  
-> **Trigger** You hit with an attack  
-> **Effect** The target takes damage equal to 2 + your Dexterity modifier. You shift 1.  
-> **Special** You can use this power once per round. 
-*Level 11:* Melee touch, one or two creatures.
-*Level 21:* Melee touch, all enemies.  
-
-### Powers  
-
-You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline’s key ability with Constitution instead. You can replace any reference to the discipline’s secondary ability with the secondary ability linked to your talent.  
-
-**Class Disciplines:** Red in Tooth and Claw, Strong Bidding, Frontline Fighting.  
-
 ### Dualclass  
 
 If a character takes the Dualclass Recruit feat and selects the Sylvan, it has the following benefit:  
 
 **Benefit:** You belong to the Sylvan class (along with any other classes that you belong to), and gain the following benefit:
 
-* Choose a rampage power. Once per encounter, you can use that power.    
+* Choose a rampage power. Once per encounter, you can use that power.  
+
+<figure><img src='pics\Falling_Cinder.png' alt='Falling Cinder by Justin Nichol' style='zoom: 25.0%;' /><figcaption>Falling Cinder by Justin Nichol</figcaption></figure>  
 
 ## Animal Companions  
+
+Animal companions are described according to the monster rules. See the *Game Master’s Guide* for rules on reading monster stat blocks. 
 
 
 ### Ape  
@@ -1060,7 +1186,7 @@ Your level +3 vs AC; 1d8 + your level
 **Venomous Snap**   
 The animal companion’s opportunity attacks also do 2 persistent poison damage (save ends). *Level 11:* 4 persistent poison damage. *Level 21:* 6 persistent poison damage.  
 
-A venomous snake. Could also be a poisonous spider, toad or gila monster.  
+A venomous snake. Could also be a poisonous spider, toad or Gila monster.  
 
 <figure><img src="pics\IanMacLean_COILEDSNAKE.png" alt="Coiled Snake by Ian MacLean" style="zoom: 33%;" /><figcaption>Coiled Snake by Ian MacLean</figcaption></figure>
 
@@ -1122,82 +1248,27 @@ Reach 2; your level +3 vs AC; 1d8 + your level and pull 1.
 
 A web-throwing spider. Could also be used for a chameleon or a giant frog.  
 
-# Warrior  
-
-**Martial Striker/Defender**  
-
-## Stats  
-
-**Hit Points at 1st Level:** 15.  
-**Hit Points at Higher Levels:** 6.  
-**Recoveries per Long Rest:** 8.  
-**Defenses:** +2 Fortitude.  
-
-## Proficiency and Training  
-
-**Armor Proficiencies:** Cloth, leather, hide, chainmail, scale; light shield.  
-**Weapon Proficiencies:** Simple melee, martial melee, simple ranged, martial ranged.  
-**Focus Proficiencies:** Staff, druidic focus, martial focus.  
-**Trained Skills:** You are trained in 4 skills from your class skills.  
-**Class Skills:**  Acrobatics, Athletics, Diplomacy, Dungeoneering, Endure, Heal, Insight, Intimidate, Nature, Perception, Stealth.  
-
-## Features  
-
-### Bonus Feat  
-
-You gain one of the following feats of your choice: Armor Proficiency, Shield Proficiency, Two-Weapon Defense, Unarmed Combat or Weapon Proficiency.  
-
-### Bear and Wolf Styles  
-
-When your hit points are high enough that you are not staggered, you have the Bear Style feature. While you are staggered, you lose Bear Style and gain the Wolf Style feature until you are healed enough that you are no longer Staggered.
-
-*Bear Style:* Adjacent enemies suffer a -2 penalty to attacks that do not include you as a target, unless they have the marked condition.
-
-*Wolf Style:* Once per round, you can do additional damage when you hit with an attack. *Level 1:* +1d8. *Level 11:* +2d8. *Level 21:* +3d8.  
-
-### Warrior Powers  
-
-As a warrior, you learn and use powers differently to other classes. You know all at-will powers in the Weapon Drill discipline, and can use them as normal at-will powers. These replace the two level 1 at-will attack powers that other heroes gain at level 1. 
-
-From level 1, you also know two level 1 attack powers (encounter or daily, or one of each) from any martial discipline. At levels 3, 5, 7, 9, 13, 15, 19, 23, 25 and 29, you learn an additional attack power (encounter or daily) of your level or lower from any martial discipline. These are your class attack powers. However, you cannot use these powers without spending Fatigue Points (see below). 
-
-You learn utility powers as normal.  
-
-### Fatigue Points  
-
-At level 1, you have 1 Fatigue Point. You gain an additional Fatigue Point at levels 3, 7 and 9. You can spend one Fatigue Point to use any encounter attack power you have learned via Warrior Power. After a short rest, you recover all spent Fatigue Points. 
-
-You can also use any daily attack power that you know, but it takes time to set these powers up. You must declare that you are using the daily power on your turn, and spend a Fatigue Point. On your next turn, you must use that power. If you are no longer able to do so or no longer want to use the power, for that turn you lose whatever action that power would have taken and the Fatigue Point remains spent.
-
-The normal limit that an encounter power can only be used once between short rests and a daily power once between long rests do not apply to your class attack powers. However, you cannot use any daily attack power more than once an encounter.  
-
-### Multiclassing, Kits and Other Power Swaps  
-
-Characters in *Orcus* often replace class powers with other powers. The warrior can do so under the same circumstances, but they lose one Focus Point for every power that they do so with. For example, a Warrior with the Dabbles in Wizardry kit could take *cut the strings* as a level 3 encounter power. If so, they would lose one Fatigue Point, but could use *cut the strings* once an encounter (not requiring them to spend any Fatigue Points).  
-
 # Kits  
 
-Kits are another way of customizing your character at first level, if permitted by the Game Master (see “Playing with Kits”, below). They represent another facet to your character that isn’t captured by their race or their class.   
+Kits are another way of customizing your character at first level, if permitted by the Game Master (see “Playing with Kits”, below). They represent another facet to your character that isn’t captured by their ancestry, class or talent.   
 
 Kits will typically give features a few times during the adventurer tier, usually starting with a feature or two at level 1.   
 
 ### Playing with Kits  
 
-Game Masters can approach kits in a few different ways:  
+By default, characters can choose a kit by giving up the six feats they would normally acquire over the 10 levels of the adventurer tier (levels 1, 2, 4, 6, 8 and 10). 
 
-1. Each character gets a kit at first level.   
-2. No character gets a kit.   
-3. Characters can choose a kit, but they have to give up their feats to do so.   
-
-The third option is the default. 
-
-If you play with the third option, characters must give up all six of their adventurer-tier feats (levels 1, 2, 4, 6, 8 and 10) to access one kit’s features and the discipline associated with that kit. Of course, you can always allow player characters to pick up a kit at a later time, as long as they give up the same number of feats.   
+Some Game Masters do not permit characters to take kits at all, and others give all characters a free kit, without them having to give up feats.   
 
 ### About Kits  
 
 Kits are usually named starting with a verb, like “Dabbles in Wizardry”, “Takes Bestial Form” or “Binds Familiar”.  
 
 “Dabbles in ...” kits are ways to multiclass. “Worships the ...” kits are for worshippers of different gods (what might be called domains).   
+
+### Redundant Features
+
+If a kit grants you a feat you already possess, or training in a skill in which you are already trained, you may re-train the existing feat or skill using the normal retraining rules. This does not count toward your normal limit of one retraining per level.
 
 **Table – List of Kits**  
 
@@ -1210,18 +1281,18 @@ Kits are usually named starting with a verb, like “Dabbles in Wizardry”, “
 | Conjures Fiends             | You can summon and control infernal beings.                  |
 | Dabbles in Commanding       | Commander multiclass.                                        |
 | Dabbles in Crusading        | Crusader multiclass.                                         |
+| Dabbles in Exemplary Combat | Exemplar multiclass.                                     |
 | Dabbles in Harlequinry | Harlequin multiclass.                                        |
 | Dabbles in Guarding         | Guardian multiclass.                                         |
 | Dabbles in Mageblading      | Mageblade multiclass.                                        |
 | Dabbles in Reaping          | Reaper multiclass.                                           |
-| Dabbles in Exemplary Combat | Exemplar multiclass.                                     |
 | Dabbles in Sylvanry         | Sylvan multiclass.                                           |
 | Dabbles in Wizardry         | Magician multiclass.                                |
 | Eats Monster Hearts | You can replace your powers with those of monsters you defeat. |
-| Exemplifies Charisma        | You are a natural leader.                                    |
-| Exemplifies Intelligence    | You are instinctively clever, able to appraise a situation quickly. |
-| Exemplifies Speed           | You are quick and agile, mobile whatever the terrain.        |
-| Exemplifies Strength        | You are a pillar of strength, tough and powerful.            |
+| Embodies Charisma        | You are a natural leader.                                    |
+| Embodies Intelligence    | You are instinctively clever, able to appraise a situation quickly. |
+| Embodies Speed           | You are quick and agile, mobile whatever the terrain.        |
+| Embodies Strength        | You are a pillar of strength, tough and powerful.            |
 | Sculpts Their Body | You can manipulate your own form – stretching, shaping and warping it as you need. |
 | Takes Bestial Form          | You can turn into a fearsome animal, and fight in that form. |
 | Worships the God of Life    | You worship a god devoted to life and healing, and gain their blessings. |
@@ -1229,17 +1300,11 @@ Kits are usually named starting with a verb, like “Dabbles in Wizardry”, “
 | Worships the God of Tyranny | You worship a god devoted to domination and pain, and gain their blessings. |
 | Worships the God of War     | You worship a god devoted to conflict and combat, and gain their blessings. |
 
-## Brews Poisons
+### Powers and Associated Disciplines
 
-**Poison Kit (Level 1):** You have a poisonmaker’s kit, which you can use to brew poisons. You know the Craft Poison craft, and its completion time is only 1 minute for you
+When a kit has an associated discipline, it means characters can select powers from that discipline as if it were one of their class disciplines. Powers selected in this manner count as class powers. 
 
-After each long rest, you can give up any number of daily attack powers for the day. For each power that you give up, choose a poison of that level or lower. You prepare that poison without paying the component cost. If you do not use the poison before your next long rest, it goes stale and has no effect if used.
-
-**Rapid Poison (Level 5):** Once per day, you can give up a daily attack power or a poison as a swift action. If you do so, choose a poison of that level or lower. You prepare that poison. lf you do not use the poison before your next long rest, it goes stale and has no effect if used.
-
-**Vicious Poison (Level 10):** Creatures that are affected by one or more of your poisons suffer a -1 penalty to saving throws.    
-
-**Associated Discipline:** Blades in the Dark.  
+Any other powers granted by kits are in addition to the standard allotment of powers (see the Classes chapter) and do not count toward those limits.
 
 ## Binds Familiar  
 
@@ -1261,7 +1326,7 @@ The familiar follows the Companion rules, as well as the following special rules
 
 *Hidden Away/Called*  
 
-* As a swift action, your familiar can hide away on your person, which may involve disappearing in a puff of smoke until you call them again, or turning into a tattoo on your arm or a statuette in your pocket, or simply slipping into your pocket. While hidden away, it provides you with no benefits, but it also cannot be targeted by any effect, does not take damage, etc.   
+* As a swift action, your familiar can hide away on your person, which may involve disappearing in a puff of smoke until you call them again, or turning into a tattoo on your arm or a statuette in your pocket, or simply slipping into your pocket. While hidden away, it cannot act, but it also cannot be targeted by any effect, does not take damage, etc.   
 * You can call a hidden away familiar as a swift action. It appears in a square adjacent to you.   
 * While called, the familiar gives you the benefit listed in the “While Called” column.
 
@@ -1291,7 +1356,7 @@ Your familiar reappears after your next short rest if it drops to 0 hit points.
 | Crawler Octopus    | darkvision       | 2, swim 6                 | +2 feat bonus to Acrobatics checks. You can use Acrobatics to swim instead of Athletics. | *Ink Cloud:* Once per encounter, as a swift action, allies adjacent to the familiar gain concealment until the end of your next turn. |
 | Faerie Dragon      | low-light vision | 2, fly 6                  | +2 feat bonus to Acrobatics.                                 | *Euphoria Breath:* Once per encounter, as a standard action, an adjacent creature becomes immune to fear and grants combat advantage (save ends both). |
 | Faerie Sea Horse   | darkvision       | 0, fly 4 (hover), swim 4  | +2 feat bonus to Arcana checks.                              | *Nudge Enchantment:* Once per encounter, as a swift action, suppress the effects of a zone or conjuration that the familiar is adjacent to until the beginning of your next turn. |
-| Ferret             | low-light vision | 6                         | +2 feat bonus to Sleight of Hand checks.                     | *Stow Item:* As a swift action, the familiar can conceal a small item (5 lb or less) somewhere that no one can find it until you retrieve it from the adjacent familiar as a swift action. If the familiar is reduced to 0 HP or below, it drops the stowed item. |
+| Ferret             | low-light vision | 6                         | +2 feat bonus to Sleight of Hand checks.                     | *Stow Item:* As a swift action, the familiar can conceal a small item (5 lb. or less) somewhere that no one can find it until you retrieve it from the adjacent familiar as a swift action. If the familiar is reduced to 0 HP or below, it drops the stowed item. |
 | Fire Salamander    | low-light vision | 4, swim 4                 | +2 feat bonus to Endure.                                     | *Messy Death:* When the fire salamander is reduced to 0 HP or below, adjacent creatures take poison damage equal to your level. |
 | Frog               | darkvision       | 4, swim 4, jump 2         | +4 feat bonus to Stealth when you do not move before hiding. | *Noxious Odor:* Once per encounter, one of your attacks does poison damage instead of its usual damage type. |
 | Gray Parrot        | low-light vision | 2, fly 10                 | +2 feat bonus to Diplomacy checks.                           | *Mimicry:* The gray parrot can mimic simple sounds it has heard, such as a person whispering, a baby crying, or an animal chittering. |
@@ -1306,30 +1371,31 @@ Your familiar reappears after your next short rest if it drops to 0 hit points.
 | Weaver Spider      | darkvision       | 4, climb 4 (wall-climber) | +2 feat bonus to Athletics checks.                           | *Ensnaring Web:* At will, as a swift action, the square the weaver spider is in becomes difficult terrain until the end of the encounter. |
 | Wolpertinger       | low-light vision | 8, fly 4                  | +2 feat bonus to Nature.                                     | *Secondary Gore:* Enemies adjacent to the wolpertinger gain vulnerability to basic melee attacks 5 (10 at level 11, 15 at level 21). |
 
+## Brews Poisons
+
+**Poison Kit (Level 1):** You have a poisonmaker’s kit, which you can use to brew poisons. You know the Craft Poison craft, and its completion time is only 1 minute for you
+
+After each long rest, you can give up any number of daily attack powers for the day. For each power that you give up, choose a poison of that level or lower. You prepare that poison without paying the component cost. If you do not use the poison before your next long rest, it goes stale and has no effect if used.
+
+**Rapid Poison (Level 5):** Once per day, you can give up a daily attack power or a poison as a swift action. If you do so, choose a poison of that level or lower. You prepare that poison. If you do not use the poison before your next long rest, it goes stale and has no effect if used.
+
+**Vicious Poison (Level 10):** Creatures that are affected by one or more of your poisons suffer a -1 penalty to saving throws.    
+
+**Associated Discipline:** Blades in the Dark.  
+
 ## Channels Godmind
 
 You can focus your mind to unlock your psychic potential. 
 
-**Psi Focus (Level 1):** You have access to psi focus, a heightened state of mental and emotional clarity, that you can utilize to augment powers with the Augmentable keyword. This psi focus, once used, must refresh, much like how certain monsters have powers that refresh at the beginning of their turn on a successful roll. Psi focus works in the exact same way, but the roll needed to refresh it depends on what kind of power it was last used to augment.  
+**Psi Focus (Level 1):** You gain the Wild Talent feat.
 
-> #### Psi Focus  
-> *Utilizing your phrenic power, you heighten a power or ability beyond what others could fathom.*  
-> **At-Will** **Utility** **Feature** (**Free Action**) ● **Phrenic**  
-> **Self**   
-> **Effect** When using an Augmentable power, you activate the effect noted under the Augment: line.  
-> **Special** *Psi focus* refreshes on a 4, 5 and 6 after using it to augment an at-will power, on a 5 and 6 after using it to augment an encounter power, and on a 6 after using it to augment a daily power. You cannot use *psi focus* unless it is recharged.  
+**Mantle (Level 5):** You gain the Phrenic Talent feat. 
 
-**Mantle (Level 5):** Once per encounter you can draw strength from your Mantle. With this powerful connection to your godmind, you can activate *focus surge* or *intensity*.
-
-> #### Focus Surge  
-> *You tap into the mental connection between yourself and your Godmind, allowing you to refresh the phrenic energies of either yourself or an ally.*  
-> **Mantle** **Utility** **Feature** (**Swift Action**) ● **Phrenic**  
-> **Near** burst 5 (10 at level 11, 15 at level 21), you or an ally  
-> **Effect** The target can spend a recovery to recharge their *psi focus*.  
+You can give up your *focus surge* for an encounter to use the *intensity* power instead.
 
 > #### Intensity  
 > *You focus on your connection with your Godmind and you become more intensely focused on your next action.*  
-> **Mantle** **Utility** **Feature** (**Swift Action**) ● **Phrenic**  
+> **Encounter** **Utility** **Feature** (**Swift Action**) ● **Phrenic**  
 > **Self**   
 > **Effect** You gain a +1 bonus to your next attack and damage roll.  
 
@@ -1345,19 +1411,19 @@ You can focus your mind to unlock your psychic potential.
 >
 > **Once per Encounter:** You can meditate once per encounter and can use this action again after you take a short or long rest.
 
-**Associated Discipline (Level 1):** Third Mind. 
+**Associated Discipline:** Third Mind. 
 
 ## Charms Animal  
 
 You have a devoted animal companion who fights alongside you like a member of your adventuring party.  
 
-**Animal Companion (Level 1):** You gain the service of an animal companion, as described in the Sylvan class.   
+**Animal Companion (Level 1):** You gain the service of an animal companion, as described in the Sylvan class. If you already have an animal companion, you cannot gain another one.  
 
 **Combat Ally (Level 5):** You get combat advantage against enemies adjacent to your animal companion.   
 
-**Call of the Wild (Level 10):** You can communicate with your animal companion and others like it.   
+**Call of the Wild (Level 10):** You can understand and speak a language that your animal companion, and other creatures like it, can comprehend.  These creatures may or may not choose to converse with you, depending on their attitude toward you.  They still have only animal intelligence, and express themselves and understand concepts accordingly.   
 
-**Associated Discipline (Level 1):** You can take powers from the Strong Bidding discipline.  
+**Associated Discipline:** You can take powers from the Strong Bidding discipline.  
 
 ## Conjures Fiends  
 
@@ -1369,7 +1435,7 @@ You summon fiends from the depths of Hell.
 
 **Careful Contract (Level 10):** You do not lose a recovery when your summoned creature is reduced to 0 HP. 
 
-**Associated Discipline (Level 1):** Cup of Brimstone.  
+**Associated Discipline:** Cup of Brimstone.  
 
 ## Dabbles in Commanding   
 
@@ -1386,7 +1452,7 @@ Commander multiclass.
 
 **Stratagem Research (Level 10):** Choose a talent from the Commander class. Once per day, as a swift action, you gain that talent until the end of the encounter.    
 
-**Associated Disciplines (Level 1):** One of the following disciplines:   
+**Associated Discipline:** One of the following disciplines:   
 
 * Angel’s Trumpet.  
 * Golden Lion.   
@@ -1406,9 +1472,30 @@ Crusader multiclass.
 
 **Divine Blessing (Level 10):** You learn the *censure undead* Channel Divinity power. You can Channel Divinity once per encounter.    
 
-**Associated Disciplines (Level 1):** Angel’s Trumpet.   
+**Associated Discipline:** Angel’s Trumpet.   
 
 <figure><img src="pics\MiguelSantos_SYSTURN.png" alt="Turn Undead by Miguel Santos" style="zoom: 33%;" /><figcaption>Turn Undead by Miguel Santos</figcaption></figure>
+
+## Dabbles in Exemplary Combat 
+
+Exemplar multiclass.  
+
+**Requirements:** You cannot take this kit if you belong to the Exemplar class, or if you already have a secondary class.  
+
+**Buckle Your Swashes (Level 1):** You belong to the Exemplar class (along with any other classes that you belong to), with Exemplar becoming your “secondary class”. You gain the following benefits:  
+
+* When you hit an enemy with a melee attack, and do not already have momentum, you gain momentum. When you are hit by any kind of attack, you lose momentum. Momentum has no effect on its own, but it is required for your Triumphant Strike and Bide Your Time features and is referenced by some powers.  
+
+* Once per encounter, you can use the Exemplar’s Triumphant Strike feature (noting that it requires momentum to use).  
+
+**Exemplary Skills (Level 5):** You become trained in a skill of your choice from the Exemplar class skills.   
+
+**Bide Your Time (Level 10):** Once per day, you can use the Exemplar’s Bide Your Time feature.   
+
+**Associated Discipline:** One of the following disciplines:   
+
+* Rapier’s Point.  
+* Blades in the Dark.   
 
 ## Dabbles in Guarding  
 
@@ -1418,13 +1505,13 @@ Guardian multiclass.
 
 **Protective (Level 1):** You belong to the Guardian class (along with any other classes that you belong to), with Guardian becoming your “secondary class”. You gain the following benefits:  
 
-* Once per encounter, as a free action, you gain the Combat Dominance feature until the end of your next turn.
+* Once per encounter, as a free action, you gain the Combat Dominance feature for a number of rounds equal to your Strength modifier.
 
 **Guardian Skills (Level 5):** You become trained in a skill of your choice from the Guardian class skills.   
 
 **Blocker (Level 10):** Once per encounter, you can use the *punish cowardice* power.   
 
-**Associated Disciplines (Level 1):** One of the following disciplines:   
+**Associated Discipline:** One of the following disciplines:   
 
 * Art of War.  
 * Juggernautical.  
@@ -1444,7 +1531,7 @@ Harlequin multiclass.
 
 **All About the Timing (Level 10):** Once per encounter, as a swift action, you benefit from the Impudent Flourish feature until the end of your next turn.   
 
-**Associated Disciplines (Level 1):** Last Laugh.   
+**Associated Discipline:** Last Laugh.   
 
 ## Dabbles in Mageblading   
 
@@ -1462,7 +1549,7 @@ Mageblade multiclass.
 
 **Brief Shield (Level 10):** Once per day, as a swift action, you can gain the benefits of the Shimmering Sword feature. This lasts until the end of the encounter.    
 
-**Associated Disciplines (Level 1):** One of the following disciplines:   
+**Associated Discipline:** One of the following disciplines:   
 
 * Elemental Flux.  
 * Veiled Moon.   
@@ -1475,37 +1562,15 @@ Reaper multiclass.
 
 **Spirit’s Mantle (Level 1):** You belong to the Reaper class (along with any other classes that you belong to), with Reaper becoming your “secondary class”. You gain the following benefits:  
 
-* Once per day, you can use a Spirit Entreaty power.   
+* Once per day, you can use a Spirit Entreaty power. You start with access to three such effects: *grasping vines*, *spirit’s prank* and *unleashed spirit*.  
   
 
 **Reaper Skills (Level 5):** You become trained in a skill of your choice from the Reaper class skills.   
 
 **Cultivator (Level 10):** Once per encounter, you can use the *sprouting overwatch* power.   
 
-**Associated Disciplines (Level 1):** Starfall.  
+**Associated Discipline:** Starfall.  
 
-## Dabbles in Exemplary Combat 
-
-Exemplar multiclass.  
-
-**Requirements:** You cannot take this kit if you belong to the Exemplar class, or if you already have a secondary class.  
-
-**Buckle Your Swashes (Level 1):** You belong to the Exemplar class (along with any other classes that you belong to), with Exemplar becoming your “secondary class”. You gain the following benefits:  
-
-* When you hit an enemy with a melee attack, you gain momentum. When you are hit by any kind of attack, you lose momentum. Momentum has no effect on its own, but it is required for your Triumphant Strike feature and is referenced by some powers.  
-  
-* Once per encounter, you can use the Exemplar’s Triumphant Strike feature (noting that it requires momentum to use).  
-  
-
-**Exemplary Skills (Level 5):** You become trained in a skill of your choice from the Exemplar class skills.   
-
-**Bide Your Time (Level 10):** Once per day, you can use the Exemplar’s Bide Your Time feature.   
-
-**Associated Disciplines (Level 1):** One of the following disciplines:   
-
-* Rapier’s Point.  
-* Blades in the Dark.   
-  
 ## Dabbles in Sylvanry  
 
 Sylvan multiclass.  
@@ -1519,9 +1584,9 @@ Sylvan multiclass.
 
 **Sylvan Skills (Level 5):** You become trained in a skill of your choice from the Sylvan class skills.   
 
-**Favored Terrain (Level 10):** Permanently choose one Favored Terrain. You get its benefits.   
+**Favored Terrain (Level 10):** You gain the Sylvan's Favored Terrain feature. However, upon gaining this feature you must choose one of the terrain options. This is set as your Favored Terrain. You cannot change it by spending time in different terrain. However, you can retrain to change your selection.    
 
-**Associated Disciplines (Level 1):** One of the following disciplines:   
+**Associated Discipline:** One of the following disciplines:   
 
 * Red in Tooth and Claw.  
 * Strong Bidding.  
@@ -1543,7 +1608,7 @@ Magician multiclass.
 
 **Magical Tricks (Level 10):** You gain the Cantrip Master feat.   
 
-**Associated Disciplines (Level 1):** One of the following disciplines:   
+**Associated Discipline:** One of the following disciplines:   
 
 * Spells of Ice and Fire.  
 * Cup of Brimstone.  
@@ -1554,20 +1619,22 @@ Magician multiclass.
 
 You have a mystical connection to monsters, and can steal a measure of their supernatural power from their bodies. 
 
-**Consume Strength (Level 1):** After an encounter in which you defeated a monster, you can replace one encounter attack power of the monster’s level or lower with an at-will attack power of the monster’s. The power has the Focus tag and uses the ability score of your choice for the attack. 
+**Consume Strength (Level 1):** After an encounter in which you defeated a monster, you can replace one of your encounter attack powers with an at-will attack power of the monster’s. The power is an encounter power for you.  The encounter power you replace must be of a level equal to or greater than the monster’s level.
 
-You can instead or also replace one daily attack power of the monster’s level or lower with an encounter or refresh attack power of the monster’s. The power has the Focus tag and uses the ability score of your choice for the attack. 
+You can instead or also replace one of your daily attack powers with an encounter or refresh attack power of the monster’s. The power is a daily power for you.  The daily power you replace must be of a level equal to or greater than the monster’s level.
 
 If the daily power you replaced had already been expended, you must wait until after your next long rest before using the new power acquired from the monster.
 
-After each long rest, roll 1d6 for each monster power you used that day. On a 1, you lose that monster power. Alternatively, you can choose to lose a monster power after any short or long rest and replace it with the encounter or daily attack power you originally replaced it with. 
+Powers you gain through this feature have the Focus tag and use the ability score of your choice for the attack. 
 
-**Level 5:** After an encounter in which you defeated a monster, you can replace one utility power of the monster’s level or lower with a non-attack power, movement speed, resistance, immunity or sense of the monster’s. 
+After each long rest, roll 1d6 for each monster power you used that day. On a 1, you lose that monster power. Alternatively, you can choose to lose a monster power after any short or long rest. However you lose the power, it is replaced with the encounter or daily attack power you originally replaced it with. 
+
+**Level 5:** After an encounter in which you defeated a monster, you can replace one of your utility powers with a non-attack power, movement speed, resistance, immunity or sense of the monster’s. The utility power you replace must be of a level equal to or greater than the monster’s level.
 
 If the monster could use the power at-will or it was always active, your utility power is an encounter power that lasts until the end of your next round or a daily power
-that lasts until the end of the encounter (your choice). If the monster  could use the power once per encounter or on a refresh basis, your utility power is a daily power. 
+that lasts until the end of the encounter (your choice). If the monster could use the power once per encounter or on a refresh basis, your utility power is a daily power. 
 
-After each long rest, roll 1d6 for each monster power you used that day. On a 1, you lose that monster power. Alternatively, you can choose to lose a monster power after any short or long rest and replace it with the encounter or daily attack power you originally replaced it with. 
+After each long rest, roll 1d6 for each monster power you used that day. On a 1, you lose that monster power. Alternatively, you can choose to lose a monster power after any short or long rest. However you lose the power, it is replaced with the utility power you originally replaced it with.  
 
 **Level 10:** After an encounter in which you defeated a monster of your level or lower, you can gain an aura of the monster. You can only have one such aura active at any one time. 
 
@@ -1575,7 +1642,7 @@ In addition, you do not need to defeat a monster to use your Level 1, 5 or 10 fe
 
 **Associated Discipline:** Red in Tooth and Claw.
 
-## Exemplifies Charisma  
+## Embodies Charisma  
 
 You have always displayed confidence in the way you talk and present yourself. You’re also clever enough to know what to say at the right times to have the greatest effect. You know that how you speak means more than the words themselves.  
 
@@ -1594,13 +1661,13 @@ You have always displayed confidence in the way you talk and present yourself. Y
 
 **Presence of Leadership (Level 10):** When you use the Rally action, one ally in your aura can spend a recovery to heal damage equal to their recovery value.  
 
-**Associated Discipline:** Born Leadership.  
+**Associated Discipline:** Angel’s Trumpet.  
 
-## Exemplifies Intelligence  
+## Embodies Intelligence  
 
 Your strengths are not in your endurance, speed, or ability to strike something with pinpoint accuracy. You use a part of the body most of your comrades seem to let rot, your brain. You understand that you may be on the border between genius and madness, but all the great minds of the world balance that knife-edge.
 
-**Priority Target (Level 1):** You gain a +1 feat bonus to AC and Reflex. In addition, if you don’t use any attack powers on your turn, until the start of your next turn, you gain a +2 feat bonus to AC and Reflex defense.  
+**Priority Target (Level 1):** You gain a +1 feat bonus to AC and Reflex. If you don’t use any attack powers on your turn, your feat bonus increases to +2 until the start of your next turn. 
 
 **Focused Expertise (Level 5):** Select one Intelligence- or Wisdom-based skill. Apply both your Intelligence and Wisdom modifiers to that skill.  
 
@@ -1608,11 +1675,11 @@ Your strengths are not in your endurance, speed, or ability to strike something 
 
 **Associated Discipline:** High Cunning.  
 
-## Exemplifies Speed  
+## Embodies Speed  
 
 With unmatched physical discipline, you have perfected a body designed for raw speed and agility. It’s not enough just to be athletic: you have to keep your eyes and mind sharp, to gauge distances, crawlspaces, and the shortest possible route even if it involves some death-defying feat of acrobatic skill. You can keep an entire landscape in mind, analyzing paths and routes of escape, even when everyone else just sees walls.
 
-**Power To Weight Ratio (Level 1):**  You can use Dexterity in place of Strength for Athletics checks when performing a climb or a jump. You can also use Dexterity in place of Strength for attack or damage rolls with unarmed attacks or one-handed melee weapons, as well as grapples.  
+**Power To Weight Ratio (Level 1):**  You can use Dexterity in place of Strength for Athletics checks when performing a climb or a jump. You can also use Dexterity in place of Strength for attack and damage rolls with unarmed attacks, one-handed melee weapons, and grapples.  
 
 You do not grant combat advantage while balancing.  
 
@@ -1622,11 +1689,13 @@ You do not grant combat advantage while balancing.
 
 **Associated Discipline:** Born to Run.  
 
-## Exemplifies Strength  
+## Embodies Strength  
 
-You are a beast.You might have earned a name in a ring or on the combat field. You could be an imposing behemoth or a gentle giant, only raising your hand when necessary.    
+You are a beast. You might have earned a name in a ring or on the combat field. You could be an imposing behemoth or a gentle giant, only raising your hand when necessary.    
 
-**Full Torque (Level 1):** You can use Strength in place of Dexterity for all attack and damage rolls with weapons with the thrown (light) or thrown (heavy) properties and with weapons from the slings and bows weapon groups.   
+**Full Torque (Level 1):** You can use Strength in place of Dexterity for all attack and damage rolls with weapons with the thrown (light) property and with weapons from the slings and bows weapon groups. 
+
+You can use Strength in place of Charisma when making Intimidate checks.  
 
 **No Time for Pain (Level 5):** If you are staggered, add your Strength modifier to your recovery value.  
 
@@ -1646,7 +1715,7 @@ You also get a +2 feat bonus to Bluff.
 
 **Reflexive Shaper (Level 10):** You gain the *instinctive shift* daily utility power from the Deep, Dark Truthful Mirror discipline.   
 
-**Associated Discipline (Level 1):** Deep, Dark, Truthful Mirror.  
+**Associated Discipline:** Deep, Dark, Truthful Mirror.  
 
 ## Takes Bestial Form  
 
@@ -1660,18 +1729,15 @@ You have the shapechanger tag.
 
 **Writhing Transformation (Level 10):** Each time you change form (using or ending a Form power), shift a number of squares equal to your Wisdom modifier.   
 
-**Associated Discipline (Level 1):** Red in Tooth and Claw.  
+**Associated Discipline:** Red in Tooth and Claw.  
 
 <figure><img src="pics\Ratman.png" alt="Ratman by Justin Nichol" style="zoom: 25%;" /><figcaption>Ratman by Justin Nichol</figcaption></figure>
 
 ## Worships the God of Life  
 
-**Channel Divinity – Guidance (Level 1):** You can Channel Divinity once per encounter, choosing any Channel Divinity power that you know. From this kit, you know one Channel Divinity power: *guidance*.   
+**Channel Divinity – Guidance (Level 1):** If you do not already have the ability to Channel Divinity, you gain the ability to Channel Divinity once per encounter, choosing any Channel Divinity power that you know. 
 
-> #### Guidance  
-> **Encounter** **Utility** **Feature** (**Swift Action**) ● **Divine**  
-> **Near** burst 3, self or one ally  
-> **Effect** You receive a +1 bonus to your next attack roll or saving throw. If you do not use this bonus by the end of your next turn, you lose it.  
+You also gain the Blessing of the God (Life) feat. 
 
 **Disciple of Life (Level 5):** Add your Wisdom modifier to the amount you heal with powers with the Healing tag.  
 
@@ -1681,28 +1747,24 @@ You have the shapechanger tag.
 
 ## Worships the God of Peace  
 
-**Channel Divinity – Light Ward (Level 1):** You can Channel Divinity once per encounter, choosing any Channel Divinity power that you know. From this kit, you know one Channel Divinity power: *light ward*.   
+**Channel Divinity – Light Ward (Level 1):** If you do not already have the ability to Channel Divinity, you gain the ability to Channel Divinity once per encounter, choosing any Channel Divinity power that you know. 
 
-> #### Light Ward  
-> **Encounter** **Utility** **Feature** (**Standard Action**) ● **Divine**  
-> **Near** burst 10, one ally  
-> **Effect** The target receives a +2 bonus to all defences until the end of your next turn. The first time it is hit by an attack during this period, the attacker takes your Wisdom modifier in damage.  
+You also gain the Blessing of the God (Peace) feat. 
 
 **Disciple of Peace (Level 5):** Enemies you are adjacent to suffer a -1 penalty on attack rolls.   
 
 **Calming Presence (Level 10):** Allies adjacent to you can rally as a swift action.  
 
-**Associated Discipline:** Born Leadership.  
+**Associated Discipline:** One of the following disciplines:   
+
+* Angel’s Trumpet. 
+* High Cunning.
 
 ## Worships the God of Tyranny  
 
-**Channel Divinity – Spur On (Level 1):** You can Channel Divinity once per encounter, choosing any Channel Divinity power that you know. From this kit, you know one Channel Divinity power: *spur on*.   
+**Channel Divinity – Spur On (Level 1):** If you do not already have the ability to Channel Divinity, you gain the ability to Channel Divinity once per encounter, choosing any Channel Divinity power that you know.
 
-> #### Spur On  
-> **Encounter** **Utility** **Feature** (**Counter Action**) ● **Divine, Psychic**  
-> **Near** burst 5, self or one ally  
-> **Trigger** The target is making an attack roll or saving throw.  
-> **Effect** The target takes 1d6 psychic damage, but can reroll the roll once if it misses/fails. 
+You also gain the Blessing of the God (Tyranny) feat. 
 
 **Disciple of Tyranny (Level 5):** You are trained in Intimidate.  
 
@@ -1712,17 +1774,11 @@ You have the shapechanger tag.
 
 ## Worships the God of War  
 
-**Channel Divinity – Shielded Soul (Level 1):** You can Channel Divinity once per encounter, choosing any Channel Divinity power that you know. From this kit, you know one Channel Divinity power: *shielded soul*.   
+**Channel Divinity – Shielded Soul (Level 1):** If you do not already have the ability to Channel Divinity, you gain the ability to Channel Divinity once per encounter, choosing any Channel Divinity power that you know.
 
-> #### Shielded Soul  
-> **Encounter** **Utility** **Feature** (**Counter Action**) ● **Divine**  
-> **Near** burst 3, self or one ally  
-> **Trigger** The target takes damage.  
-> **Effect** The target gets resistance to all damage 5.  
-> *Level 11:* 10.  
-> *Level 21:* 15.  
+You also gain the Blessing of the God (War) feat. 
 
-**Disciple of War (Level 5):** You gain one additional recovery.   
+**Disciple of War (Level 5):** You gain one additional recovery per long rest.   
 
 **Brothers in Arms (Level 10):** When you are a target of a Near or Far attack, you and all allies that are targets get a bonus to defense against that attack equal to the number of allies that are targets.   
 
@@ -1734,19 +1790,19 @@ You are not an ally of yourself, so for example you would get a +1 bonus to defe
 
 One of the benefits of kits is that they replace six feat choices over the heroic tier with a single kit choice, reducing the decision-making load for players in what is already a complex and detailed game. The following feat paths are suggestions for players who have trouble thinking of what feats to take, providing all six feat choices over the heroic tier. 
 
-**Channels Their Body:** *Level 1:* Wild Talent, *Level 2:* Adaptation, *Level 4:* Immovable Dominion, *Level 6:* Surging Mind, *Level 8:* Phrenic Talent, *Level 10:* Phrenic Meditation. 
-
 **Channels Aura:** *Level 1:* Aura Shard, *Level 2:* Forceful Aura, *Level 4:* Healing Aura, *Level 6:* Shifting Aura, *Level 8:* Restorative Aura, *Level 10:* Surging Aura. 
-
-**Channels Shield:** *Level 1:* Shield Shard, *Level 2:* Greater Shield, *Level 4:* Bashing Shield, *Level 6:* Toughened Shield, *Level 8:* Shield Focus, *Level 10:* Refreshing Shard.
-
-**Channels Soulknife:** *Level 1:* Weapon Shard, *Level 2:* Slayer’s Weapon, *Level 4:* Stormshard, *Level 6:* Extended Weapon, *Level 8:* Malleable Weapon, *Level 10:* Assassin’s Weapon. 
 
 **Channels Mindfire:** *Level 1:* Blast Shard, *Level 2:* Mind Blast, *Level 4:* Far Blast, *Level 6:* Cold Blast, *Level 8:* Lightning Blast, *Level 10:* Fire Blast.
 
-**Fights with Fists:** *Level 1*: Unarmed Combat, *Level 2:* Unarmed Combat (Improved), *Level 4:* Way of the Turn, *Level 6:* True Enlightenment of the Art, *Level 8:* Balance and Direction, *Level 10:* Unarmed Expanded Profile.
+**Conjures Shield:** *Level 1:* Shield Shard, *Level 2:* Greater Shield, *Level 4:* Bashing Shield, *Level 6:* Toughened Shield, *Level 8:* Shield Focus, *Level 10:* Refreshing Shard.
 
-**Wrestles:** *Level 1:* Unarmed Combat, *Level 2:* Evolution of Pankration, *Level 4:* Superior Position, *Level 6:* Kayfabe Maneuver, *Level 8:* Best on the Mat, *Level 10:* Deep in a Clinch.
+**Fights with Fists:** *Level 1*: Unarmed Combat, *Level 2:* Unarmed Combat (Improved), *Level 4:* Way of the Turn, *Level 6:* Hunker Down, *Level 8:* Balance and Direction, *Level 10:* Unarmed Expanded Profile.
+
+**Mind and Body as One:** *Level 1:* Wild Talent, *Level 2:* Adaptation, *Level 4:* Immovable Dominion, *Level 6:* Surging Mind, *Level 8:* Phrenic Talent, *Level 10:* Phrenic Meditation. 
+
+**Wields Soulknife:** *Level 1:* Weapon Shard, *Level 2:* Slayer’s Weapon, *Level 4:* Stormshard, *Level 6:* Extended Weapon, *Level 8:* Malleable Weapon, *Level 10:* Assassin’s Weapon. 
+
+**Wrestles:** *Level 1:* Unarmed Combat, *Level 2:* Evolution of Pankration, *Level 4:* Superior Position, *Level 6:* Kayfabe Maneuver, *Level 8:* Best on the Mat, *Level 10:* Unarmed Combat (Improved).
 
 # Disciplines  
 
@@ -1754,9 +1810,9 @@ A discipline is a set of powers that are thematically related. Characters get ac
 
 ### Key and Secondary Abilities  
 
-Some classes specify that powers selected from class disciplines use different abilities to those specified. If you gain access to the powers of a discipline from another source, this rule does not apply.   
+Some classes specify that powers selected from class disciplines may use different abilities to those specified. If you gain access to the powers of a discipline from another source, this rule does not apply.   
 
-*For example, Arty is an Exemplar (Swashbuckler), which lets him replace a power’s secondary ability with Charisma. He selects the power* deadly thrust *from Blades in the Dark, which identifies Strength as its secondary ability. He uses Charisma in place of Strength when using that ability.*  
+*For example, Arty is an Exemplar (Swashbuckler), which lets him replace a power’s secondary ability with Charisma. He selects the power* deadly thrust *from Blades in the Dark, which identifies Strength as its secondary ability. He may use Strength or Charisma when using that ability.*  
 
 *Porthy is a Guardian with the kit “Dabbles in Exemplary Combat”, which gives him access to the Blades in the Dark discipline. However, since his access to the discipline comes from his kit, not his class, he cannot use Charisma in place of Strength when using Blades in the Dark powers.*  
 
@@ -1767,7 +1823,6 @@ Some classes specify that powers selected from class disciplines use different a
 | Angel’s Trumpet        | Charisma        | Wisdom            | Martial   |
 | Art of War             | Strength        | Dexterity         | Martial   |
 | Blades in the Dark     | Dexterity       | Strength          | Martial   |
-| Born Leadership        | Charisma        | Wisdom            | Martial   |
 | Born to Run            | Dexterity       | Constitution      | Martial   |
 | Cantrips               |                 |                   | Arcane    |
 | Cup of Brimstone       | Charisma        | Constitution      | Arcane    |
@@ -1795,157 +1850,365 @@ Some classes specify that powers selected from class disciplines use different a
 **Key Ability:** Charisma  
 **Secondary Ability:** Wisdom  
 
+Your words and example inspire allies to stay in the fight, and cooperate to take down the enemy.
+
 <figure><img src="pics\MiguelSantos_MAGCLERICEND.png" alt="Cleric by Miguel Santos" style="zoom: 33%;" /><figcaption>Cleric by Miguel Santos</figcaption></figure>
 
 > #### Identify Target  
-> **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Focus**  
+>
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Martial**  
 > **Ranged** 10, one enemy  
 > **Attack** Charisma vs Will  
 > **Hit** The target grants combat advantage until the end of your next turn. The first ally to hit the target with an attack heals 1d6 + your Charisma modifier HP.  
 
+> #### Make Room  
+>
+> *There are others in a better position.  You give them the opening they need.*  
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Martial**  
+> **Near** earshot, one ally  
+> **Effect** The target makes a basic attack against an enemy of your choice, and gains a bonus to damage rolls for the attack equal to your Charisma modifier.  
+> *Level 21:* Use as a move action instead of a standard action.  
+
+> #### Sound Advice  
+>
+> *“Do that again and try to get it right this time.”*  
+> **At-Will** **Attack** **1** (**Reaction Action**) ● **Martial**  
+> **Near** earshot, the triggering ally  
+> **Trigger** One ally in range misses on a basic attack.  
+> **Effect** The target rerolls the attack, retaining all original attack bonuses.  
+
+> #### Quick Save  
+>
+> *A quick word or push allows an ally a momentary improvement to their accuracy.*  
+> **Encounter** **Attack** **1** (**Counter Action**) ● **Martial**  
+> **Near** earshot, the triggering ally  
+> **Trigger** One ally misses with an attack roll against a creature you can see.  
+> **Effect** The triggering miss becomes a hit.  
+
 > #### Targeted Call  
+>
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Martial**  
 > **Near** burst 10, one ally  
 > **Effect** Choose one ally. They make a basic melee or ranged attack. In addition, until the end of the encounter, each time they hit with an attack they gain temporary HP equal to your Wisdom modifier.  
 
 > #### Break Will  
-> **Daily** **Attack** **1** (**Standard Action**) ● **Martial, Focus, Psychic**  
+>
+> **Daily** **Attack** **1** (**Standard Action**) ● **Focus, Martial, Psychic**  
 > **Near** burst 3, all enemies  
 > **Attack** Charisma vs Will  
 > **Hit** The target is weakened (save ends).  
 
+> #### Geometric Strategy  
+>
+> *There’s a whole machine that works because everyone does what they are supposed to.*  
+> **Daily** **Attack** **1** (**Reaction Action**) ● **Martial**  
+> **Near** earshot, the triggering ally  
+> **Trigger** One ally hits with an attack.  
+> **Effect** The target’s attack deals +2dW damage.  
+
+> #### No One Hits The Chief  
+>
+> *You’re hit and your comrades don’t take kindly to that.*  
+> **Daily** **Attack** **1** (**Move Action**) ● **Martial**  
+> **Near** earshot, two allies  
+> **Effect** The target makes a basic attack against one creature that hit you since the start of your last turn.  
+
 > #### Rescuing Angel  
-> **Daily** **Attack** **1** (**Reaction Action**) ● **Martial, Focus**  
+>
+> **Daily** **Attack** **1** (**Reaction Action**) ● **Focus, Martial**  
 > **Near** burst 10, one ally  
 > **Trigger** An ally in range is reduced to 0 HP or below  
 > **Effect** Choose one ally. They make a basic melee or ranged attack against the creature that made the attack, and can add your Charisma modifier to their attack and damage. You move your speed. If you end your move adjacent to the original ally, they can spend a recovery to heal their recovery value plus your Wisdom modifier.  
 
-> #### Teaspoon of Cement  
+> #### Hold Fast  
+>
+> *You push the heads down of those around you, keeping them from the line of fire.*  
+> **Encounter** **Utility** **2** (**Move Action**) ● **Martial**  
+> **Near** burst 1, two allies or you and one ally  
+> **Effect** The target gains resistance to all damage equal to your Charisma modifier until the start of your next turn.  
+> **Maintain Move** The effect persists until the end of your next turn. If either target leaves its current square, the effect ends.
+
+> #### An Ounce of Prevention   
+>
 > **Encounter** **Utility** **2** (**Counter Action**) ● **Martial**  
 > **Near** burst 10, one ally  
 > **Trigger** An ally in range is hit by an attack.  
 > **Effect** The ally can spend a recovery to gain temporary hit points equal to their recovery value.  
 
 > #### Encouraging Peal  
+>
 > *You let out shouts of encouragement to bolster your allies in battle.*  
 > **Daily** **Utility** **2** (**Swift Action**) ● **Martial**  
 > **Near** burst 5, all allies  
 > **Effect** Targets receive a +2 power bonus on attack rolls and add your Charisma modifier to damage until the end of the encounter.  
 
+> #### Inspire the Troops  
+>
+> *“Come on, say a few words …”*  
+> **Daily** **Utility** **2** (**Standard Action**) ● **Martial**  
+> **Near** burst 5, all allies  
+> **Effect** The target gains a +2 power bonus to all attack rolls until the start of your next turn. The target gains an additional move action on their next turn, and can trade two move actions for one standard action.  
+
 > #### Pride Leader’s Stance  
+>
 > *By adopting the mannerisms of commanding lions of the great savannahs, you inspire heroics by your presence.*  
 > **Daily** **Utility** **2** (**Swift Action**) ● **Martial, Stance**  
 > **Self**   
-> **Effect** Allies within 10 squares (including yourself) have a +2 power bonus to Will defence and on saving throws.  
+> **Effect** Allies within 10 squares (including yourself) have a +2 power bonus to Will defense and on saving throws.  
 
 > #### The Strength Within  
+>
 > **Daily** **Utility** **2** (**Swift Action**) ● **Martial**  
 > **Near** burst 10, one ally or yourself  
 > **Effect** The target can spend a recovery to heal their recovery value, and add your Charisma modifier to damage rolls until the end of your next turn.  
 
 > #### Call to Action  
+>
 > *By having a watchful eye on the flow of combat, you know when to spur an ally into a better position.*  
 > **Encounter** **Attack** **3** (**Standard Action**) ● **Martial, Weapon**  
 > **Near** burst 10, one enemy  
 > **Effect** Choose two allies. Each ally chooses one: they may charge the target or make a basic melee or ranged attack against them.  
 
 > #### Rallying Instruction  
+>
 > **Daily** **Attack** **5** (**Standard Action**) ● **Martial**  
 > **Near** burst 10, one ally  
 > **Effect** The target can make a basic melee or ranged attack. They also regain one recovery.  
 
 > #### Golden Commander Stance  
+>
 > *Through the use of your superior tactical ability, you are able to direct your allies in combat for maximum effectiveness.*  
 > **Encounter** **Utility** **6** (**Swift Action**) ● **Martial, Stance**  
 > **Self**   
 > **Effect** Any enemies within 10 that are flanked by any allies (including yourself) count as flanked by all of your allies.  
 
 > #### Inherit Toughness  
+>
 > *With a cry to defend themselves from incoming attacks, your inspirational words aid your allies in their defense.*  
-> **Encounter** **Utility** **6** (**Swift Action**) ● **Martial, Healing**  
+> **Encounter** **Utility** **6** (**Swift Action**) ● **Healing, Martial**  
 > **Near** burst 5, all allies and yourself  
 > **Effect** Each target heals 10 + your Charisma modifier HP.  
 
+> #### No One Left Behind  
+>
+> *You grab an ally by the shoulder and drag them to safety.*  
+> **Encounter** **Utility** **6** (**Move Action**) ● **Healing, Martial**  
+> **Melee** touch, one staggered ally  
+> **Effect** Spend a recovery, but do not regain hit points; instead, the target regains hit points as if they had spent a recovery. You and the target shift a number of squares equal to 1+ your Charisma modifier. You and the target must be adjacent at the end of the shift.  
+> **Maintain Move** You and the target shift a number of squares equal to 1 + your Charisma modifier squares. You and the target must be in adjacent squares at the end of the shift.  
+
+> #### When A Plan Comes Together  
+>
+> *You congratulate the group for a job well done.*  
+> **Daily** **Utility** **6** (**No Action**) ● **Martial**  
+> **Self**   
+> **Requirements** An encounter ends with no allies dying, unconscious, or staggered.  
+> **Effect** Each ally gains one additional action point.  
+
 > #### Milestone Foe  
+>
 > **Encounter** **Attack** **7** (**Standard Action**) ● **Martial**  
 > **Near** burst 10, one enemy  
 > **Effect** Until the end of your next turn, attacks against the target add your Charisma modifier to the attack and damage roll. If the enemy is reduced to 0 HP or below in that time, all allies within range can spend a recovery to heal their recovery value plus your Wisdom modifier.  
 
 > #### Identify Weak Point  
-> **Daily** **Attack** **9** (**Standard Action**) ● **Martial, Focus**  
+>
+> **Daily** **Attack** **9** (**Standard Action**) ● **Focus, Martial**  
 > **Near** burst 10, one enemy  
 > **Attack** Charisma vs Will  
 > **Hit** The target is vulnerable to all damage 5 until the end of the encounter.  
 > **Effect** The target is dazed (save ends).  
 
+> #### Line of Resolution  
+>
+> *You and an ally mark a line and refuse to let any opponents past.*  
+> **Daily** **Attack** **9** (**Move Action**) ● **Martial, Weapon**  
+> **Near** wall 10  
+> **Effect** The endpoint of the wall must be adjacent to one ally, and must cover the shortest path between you. You or the ally can make a basic attack as an opportunity action against any creature that enters the wall until the start of your next turn. A creature hit by this attack is immobile until the start of your next turn.  The wall persists until the end of your next turn.  
+> **Maintain Move** The wall persists until the start of your next turn; if you or the ally has moved, you can also move the wall. This effect ends if the distance between you and the ally is greater than 10 squares or if line of sight is broken with the ally.  
+
+> #### Bolster the Line  
+>
+> *You shout a few inspiring words and quote the soldier’s creed.  The spines of those around you stiffen.*  
+> **Encounter** **Utility** **10** (**Standard Action**) ● **Healing, Martial**  
+> **Near** burst 2, all allies  
+> **Effect** The target gains temporary hit points equal to twice your Charisma modifier.  
+
+> #### Control The Battle Theatre  
+>
+> *You bark out orders and change the pattern of attack.*  
+> **Encounter** **Utility** **10** (**Move Action**) ● **Martial**  
+> **Near** burst 3, you and four allies  
+> **Effect** The target shifts its speed.  
+
 > #### Golden General’s Victory  
+>
 > *You are a beacon of command on the field of battle, inspiring your troops by your mere presence.*  
-> **Daily** **Utility** **10** (**Swift Action**) ● **Martial, Healing**  
+> **Daily** **Utility** **10** (**Swift Action**) ● **Healing, Martial**  
 > **Near** burst 5, all allies  
 > **Effect** Each target can spend a recovery to heal their recovery value. They also make a saving throw against one effect of their choice. They get a +2 power bonus to attack rolls until the end of your next turn.  
 
+> #### Now What Did We Learn?  
+>
+> *You talk it over with the others and you show how, even in the direst circumstances, something can be learned.*  
+> **Daily** **Utility** **10** (**No Action**) ● **Martial**  
+> **Self**   
+> **Requirements** An encounter ends.  At least two allies were staggered at some point during the encounter.  
+> **Effect** Each ally regains 2 recoveries and 1 daily power.  
+> **Special** This power can only be recovered during a long rest.  
+
 > #### Restraint  
-> **Encounter** **Attack** **13** (**Standard Action**) ● **Martial, Focus**  
+>
+> **Encounter** **Attack** **13** (**Standard Action**) ● **Focus, Martial**  
 > **Near** burst 10, one enemy  
 > **Attack** Charisma vs Will  
 > **Hit** The target cannot make attacks until the end of your next turn.  
 
+> #### Lead the Group  
+>
+> *You stand in front as a proud example.  Where you point, others will follow.*  
+> **Daily** **Attack** **15** (**Swift Action**) ● **Martial, Weapon**  
+> **Near** earshot, all allies  
+> **Effect** Until the end of the encounter, on the target’s turn, you can either shunt the target one square or the target gains a +2 bonus to all attack rolls until the end of the turn. You can also use a reaction to grant the target a basic attack.  
+
 > #### To Arms  
+>
 > **Daily** **Attack** **15** (**Standard Action**) ● **Martial**  
 > **Near** burst 10, three allies  
-> **Effect** Each ally gets a free action to do one: charge, make a basic melee or ranged attack or spend a recovery to heal their recovery value.  
+> **Effect** Each ally may immediately choose to perform any one of the following: charge, make a basic melee or ranged attack or spend a recovery to heal their recovery value.  
 
-> #### Discipline of the Pride  
+> #### Discipline of the Holy Host  
+>
 > *Through training with your allies, you have taught them the basics of your military skill that they may call upon in times of duress.*  
 > **Encounter** **Utility** **16** (**Free Action**) ● **Martial**  
 > **Near** burst 10, one ally  
 > **Trigger** Use when you have just used a utility power with the range of Self.  
-> **Effect** The utility power you just used has a range of “Self and one ally within range of *discipline of the pride*”  
+> **Effect** The utility power you just used has a range of “Self and one ally within range of *discipline of the holy host*”  
+
+> #### Look Alive!  
+>
+> *You grab an ally by the shoulder, help them up, and reassure them of the triviality of their wound.*  
+> **Encounter** **Utility** **16** (**Standard Action**) ● **Healing, Martial**  
+> **Melee** touch, one staggered ally  
+> **Requirements** The target can spend a recovery and heal their recovery value. If the target is prone, they can stand up.  
+
+> #### Maintain Formation  
+>
+> *A team stays together.*  
+> **Encounter** **Utility** **16** (**Free Action**) ● **Martial**  
+> **Near** earshot, three allies more than 3 squares away  
+> **Effect** The target shifts its speed -2.  Each target must end the shift closer or adjacent to an ally.  
+
+> #### Hang Together  
+>
+> *Your presence inspires others to act with a similar strength of personality.*  
+> **Daily** **Utility** **16** (**Move Action**) ● **Martial**  
+> **Near** burst 5, you and all allies  
+> **Effect** Until the end of the encounter, the target gains a +2 bonus to Fortitude and Will defense, a +4 bonus to all defenses against fear attacks, and a +2 bonus to all saving throws. The target also receives temporary hit points equal to twice your Charisma modifier.  
 
 > #### Martyr  
+>
 > **Encounter** **Attack** **17** (**Reaction Action**) ● **Martial**  
 > **Near** burst 10, one ally  
 > **Trigger** You are hit by an attack  
 > **Effect** An ally within range can make a basic melee or ranged attack or charge against the creature that made the attack. The attack has combat advantage, and adds your Wisdom modifier to attack and damage rolls.  
 
 > #### Blitzing Yell  
-> **Daily** **Attack** **19** (**Standard Action**) ● **Martial**  
+>
+> **Daily** **Attack** **19** (**Standard Action**) ● **Focus, Martial**  
 > **Near** burst 5, all enemies  
 > **Attack** Charisma vs Will  
 > **Hit** The target is stunned (save ends).  
 > **Effect** Allies within range can spend a recovery to heal their recovery value plus your Wisdom modifier.  
 
-> #### Alpha’s Roar  
+> #### Critical Moment  
+>
+> *One word of encouragement at the right moments can make all the difference.*  
+> **Daily** **Attack** **19** (**Reaction Action**) ● **Martial**  
+> **Near** earshot, the triggering ally  
+> **Trigger** An ally hits with an attack  
+> **Effect** The triggering hit becomes a critical hit.  
+
+> #### Pull It Together  
+>
+> *You resort to anger, encouraging support, or violence to get an ally to shrug it off.*  
+> **Encounter** **Utility** **22** (**Move Action**) ● **Healing, Martial**  
+> **Melee** touch, one ally suffering from any of the following conditions: blinded, dazed, deafened, slowed, stunned, or weakened.  
+> **Effect** You suppress one of the listed conditions until the start of your next turn.  
+> **Maintain Swift** The effect persists until the start of your next turn. The target must still be in range.  
+
+> #### Peal of Hope  
+>
 > *With an awesome cry for victory and bravery from your allies, you bolster allies’ defenses and attacks for a moment as your allies cannot help themselves but to win.*  
 > **Daily** **Utility** **22** (**Swift Action**) ● **Martial**  
 > **Near** burst 5, all allies  
 > **Effect** Until the end of your next turn, any ally that misses with an encounter or daily attack power can choose to keep the power unexpended instead of its usual miss effect (if any).  
 
-> #### Lion’s Feast  
-> *As the thrill of a successful hunt invigorates a pride of lions on the plains, so does the thrill of victory over foes invigorate your allies.*  
-> **Daily** **Utility** **22** (**Swift Action**) ● **Martial, Stance, Healing**  
+> #### On Your Feet  
+>
+> *Your inspiring words reach even the fallen.*
+> **Daily** **Utility** **22** (**Swift Action**) ● **Healing, Martial**  
+> **Melee** touch, one unconscious ally  
+> **Effect** The target is no longer unconscious and can spend a recovery. If the target was unconscious from being reduced to fewer than 0 hit points, they regain 1 hit point if they do not spend a recovery.  
+
+> #### Just Stop …  
+>
+> *“We need to take a moment to focus … just focus. Take a deep breath and let us deal with this threat like the team we are.”*  
+> **Daily** **Utility** **22** (**Standard Action**) ● **Martial**  
+> **Near** earshot, you and all allies  
+> **Effect** The target recovers one expended encounter power and gains one action point which must be used before the end of the encounter. Additionally, until the end of the target’s next turn, they can spend any number of recoveries as a free action.  
+
+> #### Blessed Feast  
+>
+> *Victory over each foe invigorate your allies like the courses at a great banquet.* 
+> **Daily** **Utility** **22** (**Swift Action**) ● **Healing, Martial, Stance**  
 > **Self**   
 > **Effect** Whenever an enemy within 10 is reduced to 0 HP or below, choose an ally within 10. That ally can spend a recovery and heal their recovery value plus your Charisma modifier.  
 
 > #### Take Me  
-> **Encounter** **Attack** **23** (**Standard Action**) ● **Martial, Focus**  
+>
+> **Encounter** **Attack** **23** (**Standard Action**) ● **Focus, Martial**  
 > **Near** burst 10, one enemy  
 > **Attack** Charisma vs Will  
 > **Hit** The target is stunned and marked until the end of your next turn.  
 > **Miss** The target is marked until the end of your next turn.  
 
+> #### Encouraging Reaction  
+>
+> *You risk everything, even personal injury, towards the success of the mission.*  
+> **Daily** **Attack** **25** (**Standard Action**) ● **Healing, Martial**  
+> **Near** earshot, you and four allies  
+> **Effect** The target can spend a recovery. They can either regain hit points or gain their recovery value as a power bonus to the damage roll on their next hit. The target can make a basic attack.  
+
 > #### Full Suite  
+>
 > **Daily** **Attack** **25** (**Standard Action**) ● **Martial**  
 > **Near** burst 10, one ally  
 > **Effect** One ally regains all expended encounter powers. You regain one expended encounter power.  
 
+> #### Boost Performance  
+>
+> *You offer your expertise to others.  Your talents are appreciated.*  
+> **Encounter** **Attack** **27** (**Move Action**) ● **Martial**  
+> **Near** earshot, four allies  
+> **Effect** The target gains a 2dW damage bonus to her next hit.  
+
 > #### Gripped with Fear  
-> **Encounter** **Attack** **27** (**Standard Action**) ● **Martial, Focus, Fear**  
+>
+> **Encounter** **Attack** **27** (**Standard Action**) ● **Fear, Focus, Martial**  
 > **Near** burst 5, all enemies  
 > **Attack** Charisma vs Will  
-> **Hit** Shunt the target squares equal to your Charisma modifier. Each ally in range selects a target. If the target passes within reach, they may make an opportunity attack against that creature during the shunt.  
+> **Hit** Shunt the target a number of squares equal to your Charisma modifier. Each ally in range selects one target. If that target passes within reach, they may make an opportunity attack against that creature during the shunt.  
+
+> #### Battle Symphony  
+>
+> *Allies target where you want. You perform a magnum opus of combat--your concert of indomitable defense, devastating attacks, and the silence of your fallen foes.*  
+> **Daily** **Attack** **29** (**Standard Action**) ● **Martial**  
+> **Near** earshot, four allies  
+> **Effect** The target can shift a number of squares equal to 1 + your Charisma modifier. The target can make a basic attack before or after the move, dealing +2dW extra damage on a hit. If the target misses, they can make a second basic attack, dealing +1dW extra damage on a hit.  
 
 > #### Remember Me?  
+>
 > **Daily** **Attack** **29** (**Reaction Action**) ● **Martial**  
 > **Near** burst 10, one ally  
 > **Trigger** An ally has just finished an action.  
@@ -1955,8 +2218,10 @@ Some classes specify that powers selected from class disciplines use different a
 **Key Ability:** Strength  
 **Secondary Ability:** Dexterity  
 
+You are a highly effective fighter who takes advantage of any weakness left by your enemy.
+
 > #### Passing Kill  
-> *A mere low-level thug blocks your path.  You don’t even give him the luxury of losing momentum.*  
+> *A mere low-level thug blocks your path.  You don’t even give them the luxury of losing momentum.*  
 > **At-Will** **Attack** **1** (**Swift Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, one creature  
 > **Attack** Dexterity (Ranged) or Strength (melee) vs AC  
@@ -2011,11 +2276,11 @@ Some classes specify that powers selected from class disciplines use different a
 > **Effect** You gain an additional standard action on this turn and on your next turn.  
 
 > #### Reflex Shot  
-> *Your training creates an instinctual reaction if an ally is struck down.*  
+> *Your training creates an instinctual reaction if an ally is at risk of being struck down.*  
 > **Encounter** **Attack** **13** (**Counter Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, the triggering creature  
-> **Trigger** An ally becomes staggered.  
-> **Effect** Make a basic attack against the target, and the target misses with its attack.  
+> **Trigger** A creature’s attack does damage to an ally that would cause the ally to become staggered.  
+> **Effect** Make a basic attack against the target. If the attack hits, the triggering creature’s attack misses.  
 
 > #### All or Nothing  
 > *You strike so fast, both attacks are literally too close to distinguish them.*  
@@ -2047,8 +2312,8 @@ Some classes specify that powers selected from class disciplines use different a
 > **Effect** The target drops any weapons it is holding, and you make a basic attack against it.  
 > **Special** You can choose to grab any weapon a target drops and use it for subsequent basic attack/s. You can drop a weapon you pick up as part of this power as a free action.  
 
-> #### Mission Objective  
-> *While everyone attacks, you make a move to the goal.*  
+> #### Strike and Slip Away  
+> *After your attack, you move into your target's blind spot.*  
 > **Encounter** **Attack** **23** (**Free Action**) ● **Martial, Weapon**  
 > **Self**   
 > **Trigger** You hit an enemy.  
@@ -2067,13 +2332,15 @@ Some classes specify that powers selected from class disciplines use different a
 > **Daily** **Attack** **29** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You score a critical hit.  
-> **Effect** The target makes a saving throw at the end of each turn; when it fails, it takes 7d10 points of damage.  
+> **Effect** The target makes a saving throw at the end of each turn. The first time the saving throw fails, the target takes 7d10 points of damage.  
 
 ## Blades in the Dark  
 **Key Ability:** Dexterity  
 **Secondary Ability:** Strength  
 
-Many of these powers use momentum. Other than these powers, the main way to gain momentum are the features of the Exemplar class. Powers that involve momentum may be of limited use to non-Exemplars. 
+Your attacks are tricky and punishing, taking advantage of any signs of weakness.
+
+**Note:** Many of these powers use momentum. Other than these powers, the main way to gain momentum are the features of the Exemplar class. Powers that involve momentum may be of limited use to non-Exemplars. 
 
 If you do gain momentum from a power, the same rule for losing momentum applies as for the Exemplar: you lose it if you are hit by any attack.  
 
@@ -2143,7 +2410,7 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 
 > #### Double Down  
 > **Encounter** **Utility** **6** (**Counter Action**) ● **Martial**  
-> **Trigger** You make an attack roll or skill check.  
+> **Trigger** You miss with an attack roll or fail on a skill check.  
 > **Effect** Reroll the attack roll or check. If the attack still misses or the check still fails, you are dazed until the end of your next turn.  
 
 > #### Sloppy Strike  
@@ -2152,13 +2419,13 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 > **Attack** Dexterity vs AC  
 > **Hit** 1dW + Dexterity modifier damage. The next time the target attacks you, you can make a secondary attack against them as an immediate (counter) action. If they do not attack you before the start of your next turn, the effect ends. 
 *Secondary Attack:* Dexterity vs AC; 2dW + Dexterity modifier damage and the target is slowed until the end of your next turn.  
-> **Boost** *Level 17:* If your secondary attack hits, the triggering attack automatically misses.  
+> **Boost** **Level 17** If your secondary attack hits, the triggering attack automatically misses.  
 
 > #### Bleeding Strike  
 > **Daily** **Attack** **9** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Attack** Dexterity vs AC  
-> **Hit** 2dW + Dexterity modifier damage and the target takes persistent 5 damage and is slowed (both save ends).  
+> **Hit** 2dW + Dexterity modifier damage and the target takes persistent 5 damage and is slowed (save ends both).  
 > **Miss** Half damage (no persistent damage).  
 
 > #### Kip-Up  
@@ -2170,7 +2437,7 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 > **Encounter** **Utility** **10** (**Reaction Action**) ● **Martial, Weapon**  
 > **Self**   
 > **Trigger** You are missed by a Melee or Ranged attack while you have momentum.  
-> **Effect** Choose an enemy in range of the missed attack. The attacker makes the attack that missed you against that target.  
+> **Effect** Choose an enemy in range of the missed attack. The attacker makes the attack that missed you again, but this time against that target.   
 
 > #### Slick Feint  
 > **Encounter** **Attack** **13** (**Standard Action**) ● **Martial, Weapon**  
@@ -2199,13 +2466,13 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 > **Trigger** An enemy misses you with an attack.  
 > **Attack** Dexterity vs AC  
 > **Hit** 3dW + Dexterity damage.  
-> **Effect** While you maintain this power, each time an enemy misses you with an attack you can make a basic melee attack against them as a reaction.  
+> **Effect** Until the end of your next turn, each time an enemy misses you with an attack you can make a basic melee attack against them as a reaction.  
 > **Maintain Swift** The effect persists until the end of your next turn.  
 
 > #### I’ll Take It  
 > **Daily** **Utility** **22** (**Counter Action**) ● **Martial**  
 > **Self**   
-> **Trigger** You roll a natural 19 on an attack.  
+> **Trigger** You roll a natural 18 or 19 on an attack.  
 > **Effect** The attack counts as a critical hit.  
 
 > #### True Targeting  
@@ -2233,169 +2500,11 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 > **Miss** Half damage.  
 > **Effect** Until the end of the encounter, you can score a critical hit on a 19 as well as on a 20.  
 
-## Born Leadership  
-**Key Ability:** Charisma  
-**Secondary Ability:** Wisdom  
-
-> #### Make Room  
-> *There are others in a better position.  You give them the opening they need.*  
-> **At-Will** **Attack** **1** (**Standard Action**) ● **Martial**  
-> **Near** earshot, one ally  
-> **Effect** The target makes a basic attack against an enemy of your choice, and gains a bonus to damage rolls for the attack equal to your Charisma modifier.  
-*Level 21:* Use as a move action instead of a standard action.  
-
-> #### Sound Advice  
-> *“Do that again and try to get it right this time.”*  
-> **At-Will** **Attack** **1** (**Reaction Action**) ● **Martial**  
-> **Near** earshot, the triggering ally  
-> **Trigger** One ally in range misses on a basic attack.  
-> **Effect** The target rerolls the attack, retaining all original attack bonuses.  
-
-> #### Quick Save  
-> *A quick word or push allows an ally a momentary improvement to their accuracy.*  
-> **Encounter** **Attack** **1** (**Counter Action**) ● **Martial**  
-> **Near** earshot, the triggering ally  
-> **Trigger** One ally misses with an attack roll against a creature you can see.  
-> **Effect** The target automatically hits.  
-
-> #### Geometric Strategy  
-> *There’s a whole machine that works because everyone does what they are supposed to.*  
-> **Daily** **Attack** **1** (**Reaction Action**) ● **Martial**  
-> **Near** earshot, the triggering ally  
-> **Trigger** One ally hits with an attack.  
-> **Effect** The target’s attack deals +2dW damage.  
-
-> #### No One Hits The Chief  
-> *You’re hit and your comrades don’t take kindly to that.*  
-> **Daily** **Attack** **1** (**Move Action**) ● **Martial**  
-> **Near** earshot, two allies  
-> **Effect** The target makes a basic attack against one creature that hit you since the start of your last turn.  
-
-> #### Hold Fast  
-> *You push the heads down of those around you, keeping them from the line of fire.*  
-> **Encounter** **Utility** **2** (**Move Action**) ● **Martial**  
-> **Near** burst 1, two allies or you and one ally  
-> **Effect** The target gains resistance to all damage equal to you Charisma modifier until the start of your next turn.  
-> **Maintain Move** The effect persists until the end of your next turn. If either target leaves its current square, the effect ends.  
-
-> #### Inspire the Troops  
-> *“Come on, say a few words …”*  
-> **Daily** **Utility** **2** (**Standard Action**) ● **Martial**  
-> **Near** burst 5, all allies  
-> **Effect** The target gains a +2 power bonus to all attack rolls until the start of your next turn. The target gains an additional move action on their next turn, and can trade two move actions for one standard action.  
-
-> #### Leave No Man Behind  
-> *You grab an ally by the shoulder and drag him to safety.*  
-> **Encounter** **Utility** **6** (**Move Action**) ● **Healing, Martial**  
-> **Melee** touch, one staggered ally  
-> **Effect** Spend a recovery, but do not regain hit points; instead, the target regains hit points as if they had spent a recovery. You and the target shift a number of squares equal to 1+ your Charisma modifier. You and the target must be adjacent at the end of the shift.  
-> **Maintain Move** You and the target shift a number of squares equal to 1 + your Charisma modifier squares. You and the target must be in adjacent squares at the end of the shift.  
-
-> #### When A Plan Comes Together  
-> *You congratulate the group for a job well done.*  
-> **Daily** **Utility** **6** (**No Action**) ● **Martial**  
-> **Self**   
-> **Requirements** An encounter ends with no allies dying, unconscious, or staggered.  
-> **Effect** Each ally gains one additional action point.  The encounter gains a +5% experience bonus.  
-
-> #### Line of Resolution  
-> *You and an ally mark a line and refuse to let any opponents past.*  
-> **Daily** **Attack** **9** (**Move Action**) ● **Martial, Weapon**  
-> **Near** wall 10  
-> **Effect** The endpoint of the wall must be adjacent to one ally, and must cover the shortest path between you. You or the ally can make a basic attack as an opportunity action against any creature that enters the wall until the start of your next turn. A creature hit by this attack is immobile until the start of your next turn.  
-> **Maintain Move** The effect persists; if you or the ally has moved, you can also move the wall. This effect ends if the distance between you and the ally is greater than 10 squares or if line of sight is broken with the ally.  
-
-> #### Bolster the Line  
-> *You shout a few inspiring words and quote the soldier’s creed.  The spines of those around you stiffen.*  
-> **Encounter** **Utility** **10** (**Standard Action**) ● **Healing, Martial**  
-> **Near** burst 2, all allies  
-> **Effect** The target gains temporary hit points equal to twice your Charisma modifier.  
-
-> #### Control The Battle Theatre  
-> *You bark out orders and change the pattern of attack.*  
-> **Encounter** **Utility** **10** (**Move Action**) ● **Martial**  
-> **Near** burst 3, you and four allies  
-> **Effect** The target shifts its speed.  
-
-> #### Now What Did We Learn?  
-> *You talk it over with the others and you show how, even in the direst circumstances, something can be learned.*  
-> **Daily** **Utility** **10** (**No Action**) ● **Martial**  
-> **Self**   
-> **Requirements** An encounter ends.  At least two allies were staggered at some point during the encounter.  
-> **Effect** Each ally regains 2 recoveries and 1 daily power.  
-> **Special** This power can only be recovered during a long rest.  
-
-> #### Lead the Group  
-> *You stand in front as a proud example.  Where you point, others will follow.*  
-> **Daily** **Attack** **15** (**Swift Action**) ● **Martial, Weapon**  
-> **Near** earshot, all allies  
-> **Effect** Until the end of the encounter, on the target’s turn, you can either shunt the target one square or the target gains a +2 bonus to all attack rolls until the end of the turn. You can also use a reaction to grant the target a basic attack.  
-
-> #### Look Alive!  
-> *You grab an ally by the shoulder, help her up, and reassure her of the triviality of her wound.*  
-> **Encounter** **Utility** **16** (**Standard Action**) ● **Healing, Martial**  
-> **Melee** touch, one staggered ally  
-> **Requirements** The target can spend a recovery and heal their recovery value. If the target is prone, they can stand up.  
-
-> #### Maintain Formation  
-> *A team stays together.*  
-> **Encounter** **Utility** **16** (**Free Action**) ● **Martial**  
-> **Near** earshot, three allies more than 3 squares away  
-> **Effect** The target shifts its speed -2.  Each target must end the shift closer or adjacent to an ally.  
-
-> #### Corral the Group  
-> *Your presence inspires others to act with a similar strength of personality.*  
-> **Daily** **Utility** **16** (**Move Action**) ● **Martial**  
-> **Near** burst 5, you and all allies  
-> **Effect** Until the end of the encounter, the target gains a +2 bonus to Fortitude and Will defense, a +4 bonus to all defenses against fear attacks, and a +2 bonus to all saving throws. The target also receives temporary hit points equal to twice your Charisma modifier.  
-
-> #### Critical Moment  
-> *One word of encouragement at the right moments can make all the difference.*  
-> **Daily** **Attack** **19** (**Reaction Action**) ● **Martial**  
-> **Near** earshot, the triggering ally  
-> **Trigger** An ally hits with an attack  
-> **Effect** The triggering hit becomes a critical hit.  
-
-> #### Pull It Together  
-> *You resort to anger, encouraging support, or violence to get an ally to shrug it off.*  
-> **Encounter** **Utility** **22** (**Move Action**) ● **Healing, Martial**  
-> **Melee** touch, one ally suffering from any of the following conditions: blinded, dazed, deafened, slowed, stunned, or weakened.  
-> **Effect** You suppress one of the listed conditions until the start of your next turn.  
-> **Maintain Swift** The effect persists.  The target must still be in range.  
-
-> #### Face Slap  
-> *Sometimes a stricken comrade only needs a good smack to wake up.*  
-> **Daily** **Utility** **22** (**Swift Action**) ● **Healing, Martial**  
-> **Melee** touch, one unconscious ally  
-> **Effect** The target is no longer unconscious and can spend a recovery. If the target was unconscious from being reduced to fewer than 0 hit points, they regain 1 hit point if they do not spend a recovery.  
-
-> #### Just Stop …  
-> *“We need to take a moment to focus … just focus. Take a deep breath and let us deal with this threat like the team we are.”*  
-> **Daily** **Utility** **22** (**Standard Action**) ● **Martial**  
-> **Near** earshot, you and all allies  
-> **Effect** The target recovers one expended encounter power and gains one action point which must be used before the end of the encounter. Additionally, until the end of the target’s next turn, they can spend any number of recoveries as a free action.  
-
-> #### Encouraging Reaction  
-> *You risk everything, even personal injury, towards the success of the mission.*  
-> **Daily** **Attack** **25** (**Standard Action**) ● **Healing, Martial**  
-> **Near** earshot, you and four allies  
-> **Effect** The target can spend a recovery. They can either regain hit points or gain their recovery value as a power bonus to the damage roll on their next hit. The target can make a basic attack.  
-
-> #### Boost Performance  
-> *You offer your expertise to others.  Your talents are appreciated.*  
-> **Encounter** **Attack** **27** (**Move Action**) ● **Martial**  
-> **Near** earshot, four allies  
-> **Effect** The target gains a 2dW damage bonus to her next hit.  
-
-> #### Battle Symphony  
-> *Allies target where you want. You perform a magnum opus of combat--your concert of sharp gunfire, thunderous explosions, and the silence of your fallen foes.*  
-> **Daily** **Attack** **29** (**Standard Action**) ● **Martial**  
-> **Near** earshot, four allies  
-> **Effect** The target can shift a number of squares equal to 1 + your Charisma modifier. The target can make a basic attack before or after the move, dealing +2dW extra damage on a hit. If the target misses, they can make a second basic attack, dealing +1dW extra damage on a hit.  
-
 ## Born to Run  
 **Key Ability:** Dexterity  
 **Secondary Ability:** Constitution  
+
+You are a master of agile, fast and unconventional movement. 
 
 > #### Kinesics  
 > *You study an enemy’s movements and countermove to best avoid them.*  
@@ -2431,7 +2540,7 @@ All enemies in squares you pass through and adjacent to squares you pass through
 > **Encounter** **Utility** **2** (**Counter Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You are hit by an attack.  
-> **Effect** You gain a +2 power bonus to AC and Reflex defense against the attack. If the attack misses, shift 1 square. If it hits, you recover the use of this power.  
+> **Effect** You gain a +2 power bonus to AC and Reflex defense against the attack. If this causes the attack to miss, shift 1 square. If it still hits, you recover the use of this power.  
 
 > #### Head Down  
 > *You keep your profile low and move defensively.*  
@@ -2444,7 +2553,7 @@ All enemies in squares you pass through and adjacent to squares you pass through
 > **Daily** **Attack** **5** (**Swift Action**) ● **Martial, Teleportation**  
 > **Near** burst 10, one creature you can see  
 > **Effect** Until the end of your next turn, the target can only hit you with a natural 20. You teleport up to 8 squares. You must have line of sight and line of effect to the destination square.  
-> **Maintain Move** The effect persists.  You can only maintain once.  
+> **Maintain Move** The effect persists until the end of your next turn.  You can only maintain once.  
 
 > #### Only Way Out Is Through  
 > *The only way to escape is through the enemy line.  You analyze the position of every opponent and plan a dash to avoid them.*  
@@ -2467,7 +2576,7 @@ All enemies in squares you pass through and adjacent to squares you pass through
 > **Effect** You gain a +2 power bonus to attack rolls and a +4 power bonus to damage rolls until the end of your first turn or until you hit, whichever comes last.  
 
 > #### Mad Dash  
-> *Papers fly off shelves and bystanders are blown down as you rocket past them all.*  
+> *Papers fly off shelves and bystanders are blown down as you race past them all.*  
 > **Encounter** **Utility** **10** (**Swift Action**) ● **Martial**  
 > **Self**   
 > **Effect** Double your speed until the end of your next turn.  
@@ -2522,21 +2631,24 @@ All enemies in squares you pass through and adjacent to squares you pass through
 
 ## Cantrips  
 
-The Cantrips “discipline” is a collection of powers that can be selected by characters with the Cantrips feat. As such, it does not have a key or secondary ability.  
+You have mastered minor magics.
+
+**Note:** The Cantrips “discipline” is a collection of powers that can be selected by characters with the Cantrips feat. As such, it does not have a key or secondary ability.  
 
 > #### Chill Spirit  
 > **At-Will** **Utility** **Feature** (**Standard Action**) ● **Arcane, Cold**  
 > **Self**   
-> **Effect** Use this power to accomplish one of the effects given below, or an equivalent with the GM’s approval.
-● Extinguish a flame no larger than one square or cool up to one square of a hot surface so that it can be safely touched.
-● Freeze a gallon of water (other liquids may be affected at different volumes, at the GM’s discretion). This effect can be maintained on successive turns to affect larger bodies of water: it requires two turns to freeze one full square, and each subsequent turn increases the size of the affected area by burst 1.
-● Create an ice cube in your hand (size dependent on ambient moisture), or give an enemy an uncomfortable and distracting freezer burn if used in combat. 
-● Chill food to a desired temperature.  
+> **Effect** Use this power to accomplish one of the effects given below, or an equivalent with the GM’s approval. Continuing effects persist until the end of your next turn.
+> ● Extinguish a flame no larger than one square or cool up to one square of a hot surface so that it can be safely touched.
+> ● Freeze a gallon of water (other liquids may be affected at different volumes, at the GM’s discretion). This effect can be maintained on successive turns to affect larger bodies of water: it requires two turns to freeze one full square, and each subsequent turn increases the size of the affected area by burst 1.
+> ● Create an ice cube in your hand (size dependent on ambient moisture), or give an enemy an uncomfortable and distracting freezer burn if used in combat. 
+> ● Chill food to a desired temperature.  
+> **Maintain Swift** The effect persists  until the end of your next turn. After you stop maintaining this power,  things warm and ice melts out over time according to ambient conditions. 
 
 > #### Fiery Spirit  
 > **At-Will** **Utility** **Feature** (**Standard Action**) ● **Arcane, Fire**  
 > **Self**   
-> **Effect** Use this power to accomplish one of the effects given below, or an equivalent with the GM’s approval.
+> **Effect** Use this power to accomplish one of the effects given below, or an equivalent with the GM’s approval. Continuing effects persist until the end of your next turn.
 ● You can cajole, bully and bribe fire as if it were a person.
 ● You can heat things by concentrating on them.
 ● You can start a fire by clicking your fingers.
@@ -2545,21 +2657,22 @@ The Cantrips “discipline” is a collection of powers that can be selected by 
 ● Boil a gallon of water (other liquids may be affected at different volumes, at the GM’s discretion). This effect can be maintained on successive turns to affect larger bodies of water: it requires two turns to boil one full square, and each subsequent turn increases the size of the affected area by burst 1.
 ● Create a flame in your hand. It can produce uncomfortable and distracting burns if used in combat but does not inflict any damage. 
 ● Cook food to a desired temperature.  
-> **Maintain Swift** The effect persists until the end of your next turn.  
+> **Maintain Swift** The effect persists until the end of your next turn. After you stop maintaining this power, heat dissipates and fires burn out over time according to ambient conditions.  
 
 > #### Friendly Zephyr  
 > **At-Will** **Utility** **Feature** (**Standard Action**) ● **Arcane, Air**  
 > **Ranged** 20  
-> **Effect** Each round you may do to one target in the area one of the following:  
+> **Effect** You may do to one target in the area one of the following:  
 ● Shunt a Tiny object 10 squares, a Small object 5 squares, a Medium object 2 squares or a Large object 1.
 ● Hear what a creature says this round as if you were standing right beside them.
 ● Moisten a creature, giving it resistance to fire 5 until the end of your next turn.  
-> **Maintain Swift** The effect persists until the end of your next turn.  
+> **Maintain Swift** Repeat the effect. 
 
 > #### Ghost Sound  
 > **At-Will** **Utility** **Feature** (**Standard Action**) ● **Illusion**  
 > **Ranged** 10, one object or empty square  
-> **Effect** Ghost sound allows you to create a volume of sound that rises, recedes, approaches, or remains at a fixed place. You choose what type of sound ghost sound creates when casting it and cannot thereafter change the sound’s basic character. You can produce as much noise as a person. The noise a ghost sound spell produces can be virtually any type of sound within the volume limit.  
+> **Effect** Create a sound that rises, recedes, approaches, or remains at a fixed place. You choose what type of sound when spending the standard action to create it. You must use another standard action to change the sound’s basic character. You can produce as much noise as a person. The noise can be virtually any type of sound within the volume limit. The noise persists until the end of your next turn.  
+> **Maintain Swift** The effect persists until the end of your next turn.
 
 > #### Create Item  
 > **Encounter** **Utility** **Feature** (**Standard Action**) ● **Arcane, Conjuration**  
@@ -2578,29 +2691,31 @@ The Cantrips “discipline” is a collection of powers that can be selected by 
 
 > #### Buoyancy  
 > **Daily** **Utility** **Feature** (**Standard Action**) ● **Arcane**  
-> **Melee** touch, one item  
+> **Melee** touch, one creature  
 > **Effect** Target ignores encumbrance until your next long rest.  
 
 > #### Double Dimension  
 > **Daily** **Utility** **Feature** (**Standard Action**) ● **Arcane**  
 > **Melee** touch, one item  
-> **Effect** You make an item two times longer, two times wider and two times deeper on the inside than it is on the outside, until your next long rest.  
+> **Effect** You make an item two times longer, two times wider and two times deeper on the inside than it is on the outside, until your next long rest.  At that point, if the contents of the item are too large to be contained by it, all the contents are emptied out of the item just beside it. 
 
 > #### Sheltering Lamp  
-> **Daily** **Utility** **Feature** (**Counter Action**) ● **Arcane, Transformation**  
+> **Daily** **Utility** **Feature** (**Counter Action**) ● **Arcane, Transmutation**  
 > **Self**   
 > **Requirements** You are hit by an attack, or as a standard action at any time.  
-> **Effect** Spend a recovery. You take the form of a lamp, bottle or other small container. In this form you have your defences, but cannot take any actions other than a swift action to end this power. The bottle has HP equal to your recovery value - minus whatever damage is done by the triggering attack, if any.  
+> **Effect** Spend a recovery. You take the form of a lamp, bottle or other small container. In this form you have your defenses, but cannot take any actions other than a swift action to end this power. The bottle has HP equal to your recovery value - minus whatever damage is done by the triggering attack, if any. If the bottle is destroyed, you take any excess damage yourself and appear in the space the bottle occupied.   
 > **Special** You can take a long rest while in lamp form.  
 
 > #### Stow  
 > **Daily** **Utility** **Feature** (**Swift Action**) ● **Arcane**  
-> **Melee** touch, one item  
-> **Effect** An item you are holding disappears. It reappears in your hands the next time that you take a long rest. If you are reduced to 0 HP or below, it appears immediately in an unoccupied square adjacent to you.  
+> **Melee** touch, one item of your size or smaller  
+> **Effect** An item you are holding disappears. It reappears in your hands the next time that you take a long rest. If you are reduced to 0 HP or below, it appears immediately in an unoccupied square adjacent to you. The item does not weigh anything while stowed.  
 
 ## Cup of Brimstone  
 **Key Ability:** Charisma  
 **Secondary Ability:** Constitution  
+
+You call on demonic forces for your attacks, and summon fiends to fight for you.
 
 <figure><img src="pics\JoyceMaureira_CGSPLASH.png" alt="Summoning by Joyce Maureira" style="zoom: 100%;" /><figcaption>Summoning by Joyce Maureira</figcaption></figure>
 
@@ -2609,15 +2724,8 @@ The Cantrips “discipline” is a collection of powers that can be selected by 
 > **Ranged** 10, one enemy  
 > **Attack** Charisma vs Fortitude  
 > **Hit** 1d8 + Charisma modifier fire damage.  
-> **Effect** You suffer a cumulative -1 penalty on attack rolls using this power for every time you have used it this encounter.  
+> **Effect** You suffer a cumulative -1 penalty on attack rolls using this power for every previous time you have used it this encounter.  
 > **Special** You can use this power as a basic ranged attack.  
-
-> #### Contagion  
-> **At-Will** **Attack** **1** (**Reaction Action**) ● **Focus, Arcane, Poison**  
-> **Ranged** 10, the closest enemy to the triggering creature within range  
-> **Trigger** A creature you have Claimed is reduced to 0 HP or below.  
-> **Attack** Charisma vs Fortitude  
-> **Hit** 1d6 + Charisma modifier poison damage and you have a Dark Claim on the target.  
 
 > #### Stab in the Soul  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Arcane, Necrotic**  
@@ -2648,7 +2756,7 @@ The Cantrips “discipline” is a collection of powers that can be selected by 
 > #### Perverse Blessing  
 > **Daily** **Utility** **2** (**Swift Action**) ● **Arcane, Stance**  
 > **Self**   
-> **Effect** You gain a +2 power bonus to defenses. If you are hit by an attack, you lose this bonus and instead get a -1 penalty to defenses. Until this power ends, you keep switching between bonus and penalty each time you are hit.  
+> **Effect** You gain a +2 power bonus to defenses. If you are hit by an attack, you lose this bonus and instead get a -1 penalty to defenses. Until you leave this stance, you keep switching between bonus and penalty each time you are hit.  
 
 > #### Curse of the Odd  
 > **Encounter** **Attack** **3** (**Standard Action**) ● **Focus, Arcane**  
@@ -2672,12 +2780,6 @@ The Cantrips “discipline” is a collection of powers that can be selected by 
 > **Self**   
 > **Effect** When an enemy enters a square adjacent to you, it takes damage equal to your Intelligence modifier.  
 
-> #### Diseased Blood  
-> **Encounter** **Attack** **7** (**Standard Action**) ● **Focus, Arcane, Acid**  
-> **Far** blast 2, all enemies  
-> **Attack** Charisma vs Fortitude  
-> **Hit** 1d8 + Charisma modifier acid damage and you have a Dark Claim on the target.  
-
 > #### Mocking Curse  
 > **Encounter** **Attack** **7** (**Reaction Action**) ● **Focus, Arcane, Psychic**  
 > **Ranged** 10, one enemy  
@@ -2697,11 +2799,11 @@ The Cantrips “discipline” is a collection of powers that can be selected by 
 
 > #### Demonic Explosion  
 > **Encounter** **Attack** **13** (**Reaction Action**) ● **Focus, Arcane, Fire**  
-> **Far** burst 1 (range special), all creatures  
+> **Far** burst 1 within special range, all creatures  
 > **Trigger** One of your summoned monsters is reduced to 0 HP or below.  
 > **Attack** Charisma vs Fortitude  
 > **Hit** 1d10 + Charisma modifier fire damage.  
-> **Special** The burst is centred on the triggering monster.  
+> **Special** The burst is centered on the triggering monster.  
 
 > #### Sadistic Shot  
 > **Encounter** **Attack** **13** (**Standard Action**) ● **Focus, Arcane, Fire**  
@@ -2733,7 +2835,7 @@ The Cantrips “discipline” is a collection of powers that can be selected by 
 
 > #### Rabble Babble  
 > **Encounter** **Attack** **17** (**Standard Action**) ● **Focus, Arcane, Psychic**  
-> **Far** burst 1, all enemies  
+> **Far** burst 1 within range 10, all enemies  
 > **Attack** Charisma vs Fortitude  
 > **Hit** The target is dazed until the end of your next turn.  
 *Aftereffect:* The target takes damage equal to your Charisma modifier.  
@@ -2755,13 +2857,6 @@ The Cantrips “discipline” is a collection of powers that can be selected by 
 > **Attack** Charisma vs Fortitude  
 > **Hit** 4d8 + Charisma modifier necrotic damage and the target gains vulnerability to all damage 10 (save ends).  
 
-> #### Spreading the Rot  
-> **Encounter** **Attack** **23** (**Standard Action**) ● **Focus, Arcane, Necrotic**  
-> **Ranged** 10, one enemy  
-> **Attack** Charisma vs Fortitude  
-> **Hit** 4d8 + Charisma modifier necrotic damage and the target takes 10 persistent necrotic damage (save ends).  
-*Aftereffect:* The Claimed enemy of yours nearest the target takes 10 persistent necrotic damage (save ends).  
-
 > #### Greater Binding  
 > **Daily** **Attack** **25** (**Standard Action**) ● **Focus, Arcane, Summons**  
 > **Ranged** 1, unoccupied square  
@@ -2779,6 +2874,8 @@ The Cantrips “discipline” is a collection of powers that can be selected by 
 > **Effect** You summon a Large balor or Large marilith until the end of the encounter.
 
 ## Cup of Brimstone Summons
+
+Summons are described according to the monster rules. See the Game Master’s Guide for rules on  reading monster stat blocks. 
 
 ### Demon Toad  
 
@@ -2939,7 +3036,7 @@ Reach 2; your level +4 vs Reflex; 3d6 + Charisma modifier fire damage. *Miss:* A
 ⋇	**Quick Flicking Fire** (standard, at-will) ● **Fire**  
 Far burst 1 within 5; your level +4 vs Reflex (one random target in range); 2d6 + Charisma modifier fire damage.  
 **Instinct**   
-At the end of your turn, if the big burner has not received a command that turn, it makes a *fast flicking fire* attack against the nearest square occupied by a creature.  
+At the end of your turn, if the big burner has not received a command that turn, it makes a *quick flicking fire* attack against the nearest square occupied by a creature.  
 
 
 ### Boar Demon (Nalfeshnee)  
@@ -2997,7 +3094,7 @@ Huge Outsider Humanoid ● Demon (Chaotic Evil)
 ‡	**Pincer** (standard, at-will)   
 Your level +6 vs AC; 2d8 + Charisma modifier damage.  
 ⋇	**Chaos Hammer** (standard, at-will) ● **Force**  
-Your level +4 vs Fortitude; 1d10 + Charisma modifier force damage, and the target falls prone.  
+Far burst 1 within 5; your level +4 vs Fortitude; 1d10 + Charisma modifier force damage, and the target falls prone.  
 **Instinct**   
 At the end of your turn, if the pincer demon has not received a command that turn, it uses *chaos hammer* centered on you, if possible. Otherwise, it moves towards the nearest creature and uses *pincer*.  
 
@@ -3064,7 +3161,7 @@ Reach 2; your level +6 vs AC; 2d8 + Charisma modifier damage.
 †	**Three Whirling Swords** (standard, at-will) ● **Weapon**  
 The marilith makes up to three *sword* attacks, each against a different target. The marilith may shift 1 after each attack.  
 **Terrible Swift Swords** (free, encounter)   
-For the rest of this turn, all attacks you make score a critical hit on a natural 15-20.  
+For the rest of this turn, all attacks the marilith makes score a critical hit on a natural 15-20.  
 **Beguiling Gaze** (standard, at-will) ● **Psychic, Charm**  
 Ranged 10; your level +4 vs Will; the target is pulled 6 squares.  
 **Instinct**   
@@ -3104,10 +3201,10 @@ You’re able to modify your body in ways not reflective of any animal. This inc
 > *You are able to change your basic biological makeup to make yourself extremely resistant to damage.*  
 > **Daily** **Utility** **2** (**Standard Action**) ● **Arcane, Transmutation**  
 > **Self**   
-> **Effect** You gain a number of temporary hit points equal to twice your Constitution modifier + your level. Until you lose all these temporary hit points, your weight is doubled and you gain a +2 bonus to Fortitude defense against forced movement attempts.  
+> **Effect** Add double your Constitution modifier to your level. You gain that number of temporary hit points. Until you lose all these temporary hit points, your weight is doubled and you gain a +2 bonus to Fortitude defense against forced movement attempts.  
 
 > #### Bone Shield  
-> *You expand one of your arms bones to emerge as a shield to defend against attack. It doesn’t look pretty. It only has to work.*  
+> *You expand one of your arm’s bones to emerge as a shield to defend against attack. It doesn’t look pretty. It only has to work.*  
 > **Daily** **Utility** **2** (**Standard Action**) ● **Arcane, Transmutation, Focus**  
 > **Self**   
 > **Effect** You create a light or heavy shield attached to your arm. You can dismiss the shield as a swift action. The shield is an enchanted shield of the same bonus as the focus used for this power (if any).  
@@ -3131,11 +3228,11 @@ You’re able to modify your body in ways not reflective of any animal. This inc
 > **Self**   
 > **Effect** You gain resistance 5 to all damage.  
 
-> #### Growth Hormone  
-> *Your cells go through a massive transformation, allowing you to increase your size.*  
-> **Daily** **Utility** **10** (**Standard Action**) ● **Arcane, Transmutation, Stance**  
+> #### Enlarge  
+> *You increase in  size.*  
+> **Daily** **Utility** **10** (**Swift Action**) ● **Arcane, Transmutation, Stance**  
 > **Self**   
-> **Effect** You become a Large creature until the end of your next rest. You get a +2 bonus on attack rolls.  
+> **Effect** You become a Large creature until you leave this stance. You get a +2 bonus on attack rolls.  
 
 > #### Instinctive Shift  
 > *You change form without conscious thought.*  
@@ -3143,17 +3240,19 @@ You’re able to modify your body in ways not reflective of any animal. This inc
 > **Self**   
 > **Effect** You can use a power with the Transmutation tag that normally takes a swift, move or standard action. This still counts as a use of the power for those that are limited in how often they can be used.  
 
-> #### Molecular Compression  
-> *You change your atomic density, decreasing your size.*  
-> **Daily** **Utility** **10** (**Standard Action**) ● **Arcane, Transmutation, Stance**  
+> #### Reduce 
+> *You shrink in size.*  
+> **Daily** **Utility** **10** (**Swift Action**) ● **Arcane, Transmutation, Stance**  
 > **Self**   
-> **Effect** You become a Small creature. You get a +2 bonus to AC and Reflex defense.  
+> **Effect** You become a Small creature until you leave this stance. You get a +2 bonus to AC and Reflex defense.  
 
 ## Elemental Flux  
 **Key Ability:** Intelligence  
 **Secondary Ability:** Constitution  
 
-When you first gain a power with the Flux tag, choose an element: lightning, acid, cold, fire or thunder. All powers with the Flux tag have that energy as a tag, and replace any reference to [flux] in the power text with that energy. There are some powers that allow you to change your Flux energy, if you take them. You can also change your Flux energy when you retrain at a new level. Some classes interact with Flux powers in other ways. 
+You supplement your attacks with powerful elemental energies. 
+
+**Note:** When you first gain a power with the Flux tag, choose an element: lightning, acid, cold, fire or thunder. All powers with the Flux tag have that energy as a tag, and replace any reference to [flux] in the power text with that energy. There are some powers that allow you to change your Flux energy, if you take them. You can also change your Flux energy when you retrain at a new level. Some classes interact with Flux powers in other ways. 
 
 When a power refers to [flux], it always means your current flux energy, even if you used the power when your flux energy was different. For example, if you conjured a vortex devil, it does damage of your current flux energy not the flux energy you had when you conjured it.  
 
@@ -3161,7 +3260,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 
 > #### Energy Jolt  
 > *You fill the opponent with harmful elemental energy, dealing damage and causing them to suffer debilitating effects.*  
-> **At-Will** **Attack** **1** (**Standard Action**) ● **Flux, Arcane, Weapon**  
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Near** burst 3, one target  
 > **Attack** Intelligence vs Reflex  
 > **Hit** 1dW + Intelligence modifier [flux] damage, and the target:
@@ -3173,14 +3272,14 @@ When a power refers to [flux], it always means your current flux energy, even if
 
 > #### Spark Strike  
 > *By letting the power of the elements flow through you and into your attack, you’re able to strike true with raw primal energies at your unlucky foe.*  
-> **Encounter** **Attack** **1** (**Standard Action**) ● **Flux, Arcane, Weapon**  
+> **Encounter** **Attack** **1** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Melee or Ranged** weapon, one target  
 > **Attack** Intelligence vs AC  
 > **Hit** 2dW + Intelligence modifier [flux] damage.  
 
 > #### Variable Flux  
 > *Filling your weapon with the power of the elements, you lash out with barely-contained eldritch power.*  
-> **Daily** **Attack** **1** (**Standard Action**) ● **Flux, Arcane, Weapon**  
+> **Daily** **Attack** **1** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Melee or Ranged** weapon, one target  
 > **Attack** Intelligence vs AC  
 > **Hit** 1dW + Intelligence modifier [flux] damage, and the target is subject to one of the following until the end of your next turn.
@@ -3189,7 +3288,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 ● Fire: Persistent fire damage equal to your Constitution modifier.
 ● Lightning: Rattled.
 ● Thunder: Dazed.  
-> **Miss** Half damage.  
+> **Miss** Half damage, and no additional effect.  
 
 > #### Eldritch Shield  
 > *By drawing upon the elements, you are capable of defending against energy effects.*  
@@ -3218,14 +3317,14 @@ When a power refers to [flux], it always means your current flux energy, even if
 > #### Degrade Resistance  
 > *As a disciple of the Elemental Flux, you understand how to use elements to assault those normally resistant to them.*  
 > **Daily** **Utility** **2** (**Swift Action**) ● **Arcane**  
-> **Effect** Your attacks ignore the first 5 points of energy resistance.  
+> **Effect** Until the end of your next turn, your attacks ignore the first 5 points of energy resistance.  
 > **Maintain Swift** The effect persists until the end of your next turn.  
 
 > #### Elemental Nimbus  
 > *Channeling the strength of the elements lends your attacks strength and fury.*  
 > **Daily** **Utility** **2** (**Swift Action**) ● **Arcane, Flux**  
 > **Self**   
-> **Effect** Each attack that hits does +1d6 [flux] damage. You can choose to daze a target that you hit until the end of your next turn, but then this power ends.  
+> **Effect** Each attack you make until the end of your next turn inflicts +1d6 [flux] damage on a hit. You can choose to daze a target that you hit until the end of your next turn, but then this power ends.  
 > **Maintain Swift** The effect persists until the end of your next turn.  
 
 > #### Elemental Realignment  
@@ -3242,7 +3341,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 
 > #### Elemental Strike  
 > *You channel the fluctuating power of the elements to land an empowered blow.*  
-> **Daily** **Attack** **5** (**Standard Action**) ● **Flux, Arcane, Weapon**  
+> **Daily** **Attack** **5** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Melee or Ranged** weapon, one target  
 > **Attack** Intelligence vs Fortitude  
 > **Hit** 2dW + Intelligence modifier [flux] damage, and the target is subject to one of the following based on your flux energy.
@@ -3251,18 +3350,18 @@ When a power refers to [flux], it always means your current flux energy, even if
 ● Fire: Blinded (end of your next turn).
 ● Cold: Knocked prone.
 ● Lightning: Dazed (end of your next turn).  
-> **Miss** Half damage.  
+> **Miss** Half damage, and no additional effect.  
 
 > #### Energy Spark  
 > *You fill the air with elemental energy, which explodes as you strike your target.*  
-> **Daily** **Attack** **5** (**Standard Action**) ● **Flux, Arcane, Focus**  
+> **Daily** **Attack** **5** (**Standard Action**) ● **Arcane, Flux, Focus**  
 > **Ranged** 10  
 > **Attack** Intelligence vs Reflex  
 > **Hit** 3dW + Intelligence modifier [flux] damage  
 
 > #### Elemental Flux Stance  
 > *Filling both your body and soul with the power of the elements, you open yourself up to new powers.*  
-> **Daily** **Utility** **6** (**Swift Action**) ● **Flux, Arcane, Stance**  
+> **Daily** **Utility** **6** (**Swift Action**) ● **Arcane, Flux, Stance**  
 > **Near** burst 3, all allies  
 > **Effect** Yourself and allies within range get one based on your [flux], until the end of your next turn:
 ● Acid: Ignore the first 1 square of unwilling movement.
@@ -3273,7 +3372,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 
 > #### Lance of Power  
 > *With a swing of your blade, you release a rippling line of elemental energy.*  
-> **Encounter** **Attack** **7** (**Standard Action**) ● **Flux, Arcane, Weapon**  
+> **Encounter** **Attack** **7** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Near** arc 3, all creatures  
 > **Attack** Intelligence vs Fortitude  
 > **Hit** 1dW + Intelligence modifier [flux] damage and one option based on your flux energy:
@@ -3285,29 +3384,29 @@ When a power refers to [flux], it always means your current flux energy, even if
 
 > #### Raging Flux  
 > *You know how to strike with such eldritch force that it drives your foes backwards.*  
-> **Daily** **Attack** **9** (**Standard Action**) ● **Flux, Arcane, Weapon**  
-> **Far** burst 3, all creatures (range 10)  
+> **Daily** **Attack** **9** (**Standard Action**) ● **Arcane, Flux, Weapon, Zone**  
+> **Far** burst 3 within range 10, all creatures  
 > **Attack** Intelligence vs Fortitude  
 > **Hit** 3dW + Intelligence modifier [flux] damage.  
 > **Effect** Creates a zone in the area of effect, until the end of the encounter. Creatures that enter the zone take 1d6 + Intelligence modifier [flux] damage. At the beginning of each of your turns, creatures in the zone take 1d6 + your Intelligence modifier [flux] damage. While the zone persists, you can change your flux energy once each time a creature is damaged by your *raging flux*.  
 
 > #### Assay Resistance  
 > *By directly targeting the elemental essence that suffuses all creatures, you overcome an opponent’s defenses with a powerful attack.*  
-> **Encounter** **Utility** **10** (**Swift Action**) ● **Flux, Arcane**  
+> **Encounter** **Utility** **10** (**Swift Action**) ● **Arcane, Flux**  
 > **Near** burst 5, one creature  
 > **Effect** You learn the target’s resistances, immunities and vulnerabilities. Until the end of your next turn, the target becomes vulnerable to [flux] 5 + your Constitution modifier.  
-> **Boost** **Level 22:** Targets all creatures in area of effect; the target becomes vulnerable to [flux] 10 + your Constitution modifier.  
+> **Boost** **Level 22** Targets all creatures in area of effect; the target becomes vulnerable to [flux] 10 + your Constitution modifier.  
 
 > #### Arcane Torrent  
 > *You unleash a sudden burst of eldritch energy that surges towards a distant foe.*  
-> **Encounter** **Attack** **13** (**Standard Action**) ● **Flux, Arcane, Weapon**  
+> **Encounter** **Attack** **13** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Near** arc 3, all creatures  
 > **Attack** Intelligence vs Fortitude  
 > **Hit** 2dW + Intelligence modifier [flux] damage and push 3.  
 
 > #### Energy Hammer  
 > *As you advance your training, you learn to unleash ever more powerful bursts of energy.*  
-> **Daily** **Attack** **15** (**Standard Action**) ● **Flux, Arcane, Weapon**  
+> **Daily** **Attack** **15** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Near** arc 3, all creatures  
 > **Attack** Intelligence vs AC  
 > **Hit** 2dW + Intelligence modifier [flux] damage and one of the following based on your [flux]: 
@@ -3316,54 +3415,55 @@ When a power refers to [flux], it always means your current flux energy, even if
 ● Fire: Target is blinded (save ends). 
 ● Lightning: Target is stunned until the end of your next turn.  
 ● Thunder: Target is deafened and dazed (save ends both).  
-> **Miss** Half damage, no persistent damage.  
+> **Miss** Half damage, and no additional effect.  
 
 > #### Eldritch Consumption  
 > *You have such an intimate understanding of the underlying nature of magic that you can capture its essence and feast on it to rejuvenate yourself.*  
-> **Encounter** **Utility** **16** (**Counter Action**) ● **Flux, Arcane**  
+> **Encounter** **Utility** **16** (**Counter Action**) ● **Arcane, Flux**  
 > **Self**   
 > **Trigger** You take damage from an energy source.  
 > **Effect** Spend a recovery to heal your recovery value + your Constitution modifier. You may change your flux energy if you like.  
 
 > #### Chaotic Blow  
-> **Encounter** **Attack** **17** (**Standard Action**) ● **Flux, Arcane, Weapon**  
+> **Encounter** **Attack** **17** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Melee or Ranged** weapon, one target  
 > **Attack** Intelligence vs AC  
 > **Hit** 3dW + Intelligence modifier [flux] damage.  
 
 > #### Elemental Drive  
 > *You charge your weapon with kinetic and elemental energy, driving them back with a wave of elemental power.*  
-> **Daily** **Attack** **19** (**Free Action**) ● **Flux, Arcane, Weapon**  
+> **Daily** **Attack** **19** (**Free Action**) ● **Arcane, Flux, Weapon**  
 > **Self**   
 > **Trigger** You make an attack after a charge.  
 > **Effect** Whether or not you hit, you do an additional 2dW + Intelligence modifier [flux] damage and push them squares equal to your Constitution modifier.  
 
 > #### Redirecting Flux  
 > *You can read and alter the flow of magical energy.*  
-> **Encounter** **Utility** **22** (**Counter Action**) ● **Flux, Arcane**  
+> **Encounter** **Utility** **22** (**Counter Action**) ● **Arcane, Flux**  
 > **Near** burst 10, one power  
 > **Trigger** A creature uses a Near or Far power that targets you and/or an ally.  
 > **Effect** Choose a number of creatures within the area of effect up to your Constitution modifier. Those creatures are no longer targets of the attack. Choose a number of enemies within Near burst 10. Those creatures are targets of the attack, even if they are not within the area of effect.  
 
 > #### Elemental Absorption  
 > *You learn to suffuse your being with an element to such a degree that its presence heals you instead of harming you.*  
-> **Daily** **Utility** **22** (**Counter Action**) ● **Flux, Arcane**  
+> **Daily** **Utility** **22** (**Counter Action**) ● **Arcane, Flux**  
 > **Self**   
 > **Trigger** You are about to take energy damage.  
 > **Effect** Set your flux energy to the energy of your choice. Until the end of the encounter, you are immune to [flux] damage, and heal your level + your Constitution modifier each time you are subject to [flux] damage.  
 
 > #### Nexus of Elemental Retribution  
 > *You can absorb and redirect the flow of elemental power, syphoning away energies that would harm you and making them your own.*  
-> **Daily** **Utility** **22** (**Swift Action**) ● **Flux, Arcane, Stance**  
+> **Daily** **Utility** **22** (**Swift Action**) ● **Arcane, Flux, Stance**  
 > **Self**   
 > **Hit** You gain resistance 15 to acid, cold, fire, lightning and thunder. Each time you are the target of an attack that does acid, cold, fire, lightning or thunder damage, you can make a basic melee or ranged attack that does additional [flux] damage equal to your Constitution modifier.  
 
 > #### Enter the Vortex  
 > *Riding on the currents of elemental energy, you gain the benefit of a new form of movement.*  
-> **Encounter** **Attack** **23** (**Standard Action**) ● **Flux, Arcane, Weapon**  
+> **Encounter** **Attack** **23** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Melee or Ranged** weapon, one target  
 > **Attack** Intelligence vs AC  
-> **Hit** 2dW + Intelligence modifier [flux] damage, and you get a benefit until the end of the encounter based on your [flux]:
+> **Hit** 2dW + Intelligence modifier [flux] damage.
+> **Effect** You get a benefit until the end of the encounter based on your [flux]:
 ● Acid: You get a burrow speed of 4 and tremorsense 6.  
 ● Cold: You get a swim speed of 12. Any time you are subject to unwilling movement, you can instead shift that distance. 
 ● Fire: Your speed increases by 4, and your initiative score for this encounter increases by +4.
@@ -3372,22 +3472,22 @@ When a power refers to [flux], it always means your current flux energy, even if
 
 > #### Cascade of Elemental Wrath  
 > *Each slash of your blade releases more and more eldritch power, overwhelming your enemies with the power of your strikes.*  
-> **Daily** **Attack** **25** (**Standard Action**) ● **Flux, Arcane, Weapon**  
+> **Daily** **Attack** **25** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Melee or Ranged** weapon, one to three targets  
 > **Attack** Intelligence vs AC  
 > **Hit** Three attacks. 2dW + Intelligence modifier damage. You can change your flux energy before each attack.  
 
 > #### Elemental Vortex  
 > *A whirling vortex of elemental energy engulfs your foe just as your blade lands.*  
-> **Daily** **Attack** **25** (**Standard Action**) ● **Flux, Arcane, Weapon, Conjuration**  
+> **Daily** **Attack** **25** (**Standard Action**) ● **Arcane, Conjuration, Flux, Weapon**  
 > **Near** burst 1, all creatures  
 > **Attack** Intelligence vs AC  
 > **Hit** 3dW + Intelligence modifier damage.  
-> **Effect** You conjure a Medium vortex devil in an adjacent square, which lasts till the end of the encounter. You can shunt the vortex devil up to 6 as a swift action, once per turn. At the end of your turn, enemies adjacent to the vortex demon take 3d10 [flux] damage.  
+> **Effect** You conjure a Medium flux vortex in an adjacent square, which lasts till the end of the encounter. Once per turn, you can shunt the vortex up to 6 squares as a swift action. At the end of each of your turns, including the turn in which the vortex was created, enemies adjacent to the vortex demon take 3d10 [flux] damage.
 
 > #### Zephyr Flux  
 > *You may transmute your entire being into elemental energy and travel in the blink of an eye across the battlefield, leaving a wake of devastation behind you.*  
-> **Daily** **Attack** **25** (**Standard Action**) ● **Flux, Arcane, Weapon**  
+> **Daily** **Attack** **25** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Melee or Ranged** weapon, multiple targets  
 > **Attack** Intelligence vs AC  
 > **Hit** 2dW + Intelligence modifier [flux] damage.  
@@ -3395,7 +3495,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 
 > #### Eldritch Energy Hammer  
 > *You know how to destroy the bonds that hold magic together just as easily as you can forge them.*  
-> **Encounter** **Attack** **27** (**Standard Action**) ● **Flux, Arcane, Weapon**  
+> **Encounter** **Attack** **27** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Melee or Ranged** weapon, one zone, summon or conjuration in range  
 > **Attack** Intelligence vs Will (power’s user)  
 > **Hit** The conjuration or zone is destroyed, or the summon takes 5dW + Intelligence modifier [flux] damage. Enemies within the zone, or enemies within Near burst 3 of the summon (if destroyed) or conjuration are subject to a secondary attack.
@@ -3403,29 +3503,31 @@ When a power refers to [flux], it always means your current flux energy, even if
 
 > #### Elemental Destruction Ring  
 > *You whip the elements around you into a fury, then unleash the energy at all the foes who surround you.*  
-> **Daily** **Attack** **29** (**Standard Action**) ● **Flux, Arcane, Zone, Weapon**  
+> **Daily** **Attack** **29** (**Standard Action**) ● **Arcane, Flux, Zone, Weapon**  
 > **Near** burst 3, all enemies  
 > **Attack** Intelligence vs Fortitude  
 > **Hit** 4dW + Intelligence modifier [flux] damage.  
-> **Effect** You have an aura 1. At the end of your turn, enemies within the aura experience an effect based on your flux: 
+> **Effect** You have an aura 1, which persists until the end of your next turn. At the end of your turn, enemies within the aura experience an effect based on your flux: 
 ● Lightning: *Secondary Attack:* Intelligence vs Fortitude; the target is blinded until the end of your next turn.
 ● Acid: 10 acid damage, and the target is rattled until the end of your next turn. 
 ● Thunder: The target is knocked prone.
 ● Cold: The target is slowed until the end of your next turn.
 ● Fire: The target is dazed until the end of your next turn.  
-> **Maintain Swift** The effect persists until the end of your next turn.  
+> **Maintain Swift** The aura persists until the end of your next turn.  
 
-> #### Strike of Elemental Devestation  
+> #### Strike of Elemental Devastation  
 > *You crush your opponents under a fierce magical assault.*  
-> **Daily** **Attack** **29** (**Standard Action**) ● **Flux, Arcane, Weapon**  
+> **Daily** **Attack** **29** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Melee or Ranged** weapon, one target  
 > **Attack** Intelligence vs AC  
-> **Hit** 7dW + Intelligence modifier damage.  
+> **Hit** 7dW + Intelligence modifier [flux] damage.  
 > **Effect** All enemies within a number of squares of the target equal to your Constitution modifier gain vulnerability to [flux] 15.  
 
 ## Frontline Fighting  
 **Key Ability:** Strength  
 **Secondary Ability:** Constitution  
+
+You are a knock-down, drag-out battler, happy to mix haymakers with weapon blows.  
 
 > #### All-Out Strike  
 > *You lean in and give it all you’ve got.*  
@@ -3462,11 +3564,22 @@ When a power refers to [flux], it always means your current flux energy, even if
 > #### Sudden Leap  
 > *You vault in the air and deliver a crippling blow from up high.*  
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
-> **Ranged** 4 (minimum 3), one creature  
+> **Near** burst 4 (minimum 3), one creature  
 > **Attack** Strength vs AC  
 > **Hit** 1dW + Strength modifier damage, and you push the target one square.  You shift into the square the target previously occupied.
 If the target cannot be pushed, the target is knocked prone and you shift into the occupied square.  
 > **Miss** You shift to a square adjacent to the target.  
+
+> #### Best Defense is Good Offense  
+>
+> *You strike when the enemy least suspects it, through an assumed impenetrable defense.*  
+> **Daily** **Attack** **1** (**Counter Action**) ● **Martial, Weapon**  
+> **Melee** weapon, the triggering enemy  
+> **Trigger** One enemy makes a melee attack against you.  
+> **Attack** Strength vs AC  
+> **Hit** 1dW + Strength modifier damage.  
+> **Miss** Half damage.  
+> **Effect** You gain a +3 power bonus to AC until the end of your next turn.  
 
 > #### Insult to Injury  
 > *A noble warrior doesn’t kick someone when they’re down. You’re not that noble.*  
@@ -3478,22 +3591,12 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Miss** Half damage, and the target is not pushed.  
 > **Special** You can use this power as a swift action or a reaction.  
 
-> #### Through the Crack  
-> *You strike when the enemy least suspects it, through an assumed impenetrable defense.*  
-> **Daily** **Attack** **1** (**Counter Action**) ● **Martial, Weapon**  
-> **Melee** weapon, the triggering enemy  
-> **Trigger** One enemy makes a melee attack against you.  
-> **Attack** Strength vs AC  
-> **Hit** 1dW + Strength modifier damage.  
-> **Miss** Half damage.  
-> **Effect** You gain a +3 power bonus to Ac until the end of your next turn.  
-
 > #### Redirection of Energy  
 > *You utilize the direction of your enemy’s attack injury into a counter-maneuver.*  
 > **Encounter** **Utility** **2** (**Counter Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You are hit by a melee or ranged attack by an adjacent enemy.  
-> **Effect** You gain a +4 power bonus to AC and Reflex defense against the attack. Shift to any other square adjacent to the target and gain combat advantage until the end of your next turn.  
+> **Effect** You gain a +4 power bonus to AC and Reflex defense against the attack. Shift to any other square adjacent to the target and gain combat advantage against the target until the end of your next turn.  
 
 > #### Roll With It  
 > *You take an injury and fall back, hoping to diminish the severity of the impact.*  
@@ -3508,7 +3611,6 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Melee** weapon, one or two creatures  
 > **Attack** Strength +1 vs AC (2 attacks) or Strength +4 vs AC (1 attack)  
 > **Hit** 1dW + Strength modifier damage.  
-> **Special** You can use this power again if you spend an action point to use it.  
 
 > #### Mistaken Aggravation  
 > *You might have misjudged this opponent.  Time for a strategic withdrawal.*  
@@ -3564,10 +3666,9 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Melee** weapon, one creature  
 > **Attack** Strength vs AC  
 > **Hit** 1dW + Strength modifier damage, and the target is pushed 1 square, knocked prone, and dazed until the start of your next turn.  
-> **Special** You can use this power again with an action point (replacing the action).  
 
-> #### Free Hand  
-> *You see a split-second opening to take a passing strike, given a free appendage to do so.*  
+> #### Any Opportunity  
+> *You see a split-second opening to take a passing strike.*  
 > **Daily** **Attack** **9** (**Free Action**) ● **Martial, Consistent, Weapon**  
 > **Melee** weapon, one creature  
 > **Attack** Strength vs AC  
@@ -3579,14 +3680,13 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Melee** weapon, one creature  
 > **Attack** Strength vs AC  
 > **Hit** 1dW + Strength modifier damage, and the target is knocked prone and stunned (save ends).  
-> **Miss** Your next attack roll with this power suffers a -1 penalty.  After three misses, this power is no longer consistent.  
 
 > #### Last Second Recovery  
 > *You jump back, shake your head, clear your mind, and ready yourself to push back into the fight.*  
 > **Encounter** **Utility** **10** (**Move Action**) ● **Healing, Martial**  
 > **Self**   
 > **Requirements** You must be staggered.  
-> **Effect** Shift to the nearest square not in reach of an enemy and spend a recovery to heal equal to your recovery value.  
+> **Effect** Shift to the nearest square not in reach of an enemy and spend a recovery to heal hit points equal to your recovery value.  
 
 > #### Pound for Pound  
 > *All things being equal . . . you have no equal.*  
@@ -3600,7 +3700,7 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Melee** weapon, one creature  
 > **Attack** Strength vs AC  
 > **Hit** 2dW + Strength modifier damage, and the target is knocked prone.  
-> **Miss** Half damage.  
+> **Miss** Half damage, and the target is not knocked prone.  
 
 > #### Vicious Hook  
 > *You bend your arm and shift your weight.  Your throw everything into a solid strike with knockout power.*  
@@ -3608,7 +3708,6 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Melee** weapon, one creature  
 > **Attack** Strength vs AC  
 > **Hit** 1dW + Strength modifier damage, and the target is stunned until the start of your next turn.  
-> **Special** You can use this power again with an action point (replacing the action).  
 
 > #### Battle Stride  
 > *Whether you barrel in or elegantly weave through, you fight your way past enemy lines.*  
@@ -3617,7 +3716,8 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Attack** Strength vs AC  
 > **Hit** 2dW + Strength modifier damage, and the target is dazed (save ends).  
 > **Miss** Half damage.  
-> **Effect** Before your attack, shift up to 3 squares. After your attack, shift 3 squares and repeat the attack against a different target.  Then shift 3 squares and repeat the attack against a third target. Then shift 1 square.  
+> **Effect** Before your attack, shift up to 3 squares. After your attack, shift 3 squares and repeat the attack against a different target.  Then shift 3 squares and repeat the attack against a third target. Then shift 1 square.   
+> **Special** The target of each attack must be different. If there is not a target close to enough to shift to, the power ends.
 
 > #### Roundhouse Attack  
 > *In the air, with a circular sweep, you cut all your enemies down.  Yeah, it works.*  
@@ -3625,7 +3725,7 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Near** burst 1, all creatures  
 > **Attack** Strength vs AC  
 > **Hit** 3dW + Strength modifier damage, and the target is pushed 1 square. If the target cannot be pushed due to an obstruction, the target takes additional damage equal to twice your Constitution modifier.  
-> **Miss** Half damage, and the target is pushed 1 square.  
+> **Miss** Half damage, and the target is pushed 1 square. They do not take additional damage if they cannot be pushed. 
 
 > #### Gambit Recovery  
 > *You give your opponent the impression you’re not in your game. An uncharacteristic miss is instantly followed up with another attempt.*  
@@ -3638,10 +3738,10 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > *You’ve been working out.*  
 > **Daily** **Utility** **16** (**Free Action**) ● **Martial**  
 > **Self**   
-> **Effect** Until the end of the encounter (or five minutes), the damage die of your unarmed attacks increases by one step (1d4 > 1d6 > 1d8 > 1d10 > 1d12 > 2d6 > 2d8 > 2d10).  
+> **Effect** Until the end of the encounter (or five minutes), the damage die of your unarmed attacks increases by one step ( 1d4 > 1d6 > 1d8 > 1d10 > 2d6).
 
 > #### String-Combo  
-> *You mount attack upon attack so rapidly, your enemy is unable to defend himself.*  
+> *You mount attack upon attack so rapidly, your enemies are unable to defend themselves.*  
 > **Encounter** **Attack** **17** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
 > **Attack** Strength vs AC, three attacks. Resolve each attack before making the next.  
@@ -3652,7 +3752,7 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Encounter** **Attack** **17** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
 > **Attack** Strength vs AC, two attacks  
-> **Hit** 2dW + Strength modifier damage, and the target is weakened and dazed until the end of your next turn. If you hit the target with both attacks, the target is weakened and dazed (save ends) and cannot save until the end of your next turn.  
+> **Hit** 2dW + Strength modifier damage, and the target is weakened and dazed until the end of your next turn. If you hit the target with both attacks, the target is weakened and dazed (save ends both) and cannot save until the end of your next turn.  
 
 > #### Lights Out  
 > *You strike your opponent at a tender spot, just behind the head or under the jaw. Your enemy falls limp before you.*  
@@ -3675,16 +3775,15 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Encounter** **Utility** **22** (**Move Action**) ● **Healing, Martial**  
 > **Self**   
 > **Effect** Take half damage from all melee attacks until the start of your next turn.  
-> **Maintain Move** The effect persists. You cannot maintain if you move from your square or an enemy scores a critical hit against you.  
+> **Maintain Move** The effect persists until the start of your next turn. You cannot maintain if you move from your square or an enemy scores a critical hit against you.  
 
 > #### Calculated Strike  
-> *You make a quick determination upon the best course of action, sacrificing accuracy for power.*  
+> *You make a quick determination upon the best course of action, choosing either accuracy or power.*  
 > **Encounter** **Attack** **23** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
 > **Attack** Strength +6 vs AC  
 > **Hit** 2dW + Strength modifier damage.  
 > **Effect** For every -2 penalty you accept on this attack (maximum -6) the attack deals +1dW damage.  
-> **Special** You can use this power again with an action point (replacing the action).  
 
 > #### Spherical Discipline  
 > *You lash at opponents all around, striking behind, in front, and in blind spots.*  
@@ -3692,7 +3791,7 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Melee** weapon, all enemies in reach  
 > **Attack** Strength vs AC  
 > **Hit** 2dW + Strength modifier damage, and the target is dazed and weakened until the end of your next turn.  
-> **Effect** You gain a +2 power bonus to Ac until the end of your next turn.  
+> **Effect** You gain a +2 power bonus to AC until the end of your next turn.  
 
 > #### Master Combo  
 > *Your opponents have never seen talent like this. Your resolve is absolute. There could be ten times more men against you and it still wouldn’t matter.*  
@@ -3726,11 +3825,13 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Melee** weapon, one creature  
 > **Attack** Strength -2 vs AC  
 > **Hit** 6dW + Strength modifier damage, and all enemies in a burst 5 of the target are stunned until the end of your next turn.  
-> **Miss** Half damage.  
+> **Miss** Half damage, and enemies are not stunned.  
 
 ## Golden Lion  
 **Key Ability:** Strength  
 **Secondary Ability:** Charisma  
+
+You are an inspiring leader who throws themselves into the thick of battle. 
 
 > #### Pack Pounce  
 > *By capitalizing on the opportunities granted by the presence of your allies who are attacking your foe, your lethality increases dramatically due to your knowledge of pack tactics.*  
@@ -3753,12 +3854,12 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Near** burst 2, all enemies  
 > **Attack** Strength vs Will  
 > **Hit** Target is dazed (save ends)  
-> **Miss** Target is dazed until the end of your next turn  
+> **Miss** Target is dazed until the end of their next turn  
 
 > #### Hunting Party  
 > *When two or more soldiers converge on a single target, the odds of victory increase and with the knowledge of this strike you can assist your comrade’s potential lethality.*  
 > **Encounter** **Utility** **2** (**Reaction Action**) ● **Martial**  
-> **Near burst** 5, one ally  
+> **Near** burst 5, one ally  
 > **Trigger** An ally hits an enemy  
 > **Effect** Another ally within range of the enemy (including yourself) makes a basic attack (melee or ranged) against the enemy.  
 
@@ -3802,8 +3903,8 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Melee** weapon, one target  
 > **Attack** Strength vs AC  
 > **Hit** 1dW + Strength modifier damage and push the target 2. Each ally that is in reach of the target at some point during its move may make a melee basic attack against it.  
-> **Boost** **Level 17:** 2dW + Strength modifier damage, and shunt the target 4 squares.  
-**Level 27:** 3dW + Strength modifier damage, and shunt the target 8 squares.  
+> **Boost** **Level 17** 2dW + Strength modifier damage, and shunt the target 4 squares.  
+**Boost Level 27** 3dW + Strength modifier damage, and shunt the target 8 squares.  
 
 > #### Kill the Wounded  
 > *You make a ferocious assault on your foe, opening the enemy’s defenses to the attacks of your allies.*  
@@ -3817,13 +3918,13 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > *Cooperation and teamwork form the backbone of tactical warfare, and through your knowledge of all of these things, you may help direct the actions of your ally to greater effectiveness.*  
 > **Encounter** **Utility** **10** (**Swift Action**) ● **Martial**  
 > **Near** burst 5, one ally that has not yet acted this turn  
-> **Effect** The ally moves up in the inititative order to act just after your turn ends.  
+> **Effect** The ally moves up in the initiative order to act just after your turn ends.  
 
 > #### Golden Lion Charger  
 > *A student of the art of war, you know that sometimes a powerful opening charge can be the edge the warrior needs.*  
 > **Encounter** **Utility** **10** (**Swift Action**) ● **Martial, Stance**  
 > **Near** burst 5, all allies and yourself  
-> **Effect** Allies in range, including yourself, add your Charisma modifier to damage when attacking during the Charge action.  
+> **Effect** While you are in this stance, allies in range, including yourself, add your Charisma modifier to damage when attacking during the Charge action.  
 
 > #### Charge of the Battle Cat  
 > *Like the charge of the mighty lion as he takes his prey to the ground, you charge into battle, heedless of your enemies, to crash into your chosen foe with a mighty strike, knocking them to the ground at your feet.*  
@@ -3912,6 +4013,8 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 **Key Ability:** Intelligence  
 **Secondary Ability:** Wisdom  
 
+You are a clever fighter who can size up your opponents. 
+
 > #### Outthink & Outwit  
 > *You quickly ascertain your enemy’s eye movements and body language and determine the best course of action.*  
 > **At-Will** **Attack** **1** (**Move Action**) ● **Martial**  
@@ -3925,7 +4028,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Ranged** 20, one creature  
 > **Attack** Intelligence +2 vs Will  
 > **Hit** You learn the target’s attack modifiers, all defense values, and the damage capacities of its attacks. The target is rattled until the end of your next turn.  
-> **Maintain Move** The attack penalty persists until the end of your next turn.  
+> **Maintain Move** The rattled condition persists until the end of your next turn.  
 
 > #### No Sweat  
 > *You take everything in stride.*  
@@ -3933,7 +4036,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Self**   
 > **Effect** You gain a +2 power bonus to your next Intelligence- or Wisdom-based skill check.  
 
-> #### Archetypal Maneuver  
+> #### Evasive Action  
 > *Your talent to avoid attacks is legendary.*  
 > **Encounter** **Attack** **3** (**Move Action**) ● **Martial, Consistent**  
 > **Near** burst 10, one creature  
@@ -3961,13 +4064,15 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Daily** **Attack** **9** (**Move Action**) ● **Martial, Consistent, Weapon**  
 > **Near** burst 10, one creature you can see  
 > **Attack** Intelligence +2 vs Reflex  
-> **Hit** Until the end of the encounter, you either gain a +2 power bonus to all attack rolls and a +4 power bonus to all damage rolls against the target, or you gain a +4 power bonus to all defenses against the target’s attacks.  
+> **Hit** Choose one  of the following benefits to apply until the end of the encounter:      
+> ● You gain a +2 power bonus to all attack rolls and a +4 power bonus to all  damage rolls against the target; or        
+> ● You gain a +4 power bonus to all defenses against the target’s  attacks 
 
 > #### Improvisational Desperation  
 > *Well, it should work … in theory.*  
 > **Daily** **Attack** **9** (**Move Action**) ● **Martial**  
 > **Self**   
-> **Effect** Use one of your daily or encounter powers. This power is not expended.  
+> **Effect** Use one of your daily or encounter powers. You may choose a power that is already expended. If you choose a power that is not expended, this use of the power does not expend it.  
 
 > #### Two Steps Ahead  
 > *You remember the fundamentals of strategy from playing games of chance. You apply what you know in the combat field.*  
@@ -3994,7 +4099,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Ranged** 20, one enemy  
 > **Attack** Intelligence +2 vs Will  
 > **Hit** You gain the target’s defense values (if higher than yours) and basic attack bonus (if higher than yours) until the end of your next turn. If the target’s values are lower than yours, you gain a +2 bonus to yours.  
-> **Maintain Move** The effect persists. You cannot maintain if you are staggered or the target scores a critical hit on you.  
+> **Maintain Move** The effect persists until the end of your next turn. You cannot maintain if you are staggered or the target scores a critical hit on you.  
 
 > #### Focus Weakness  
 > *You know this enemy well and know what to do to inflict the most harm.*  
@@ -4020,11 +4125,13 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > *You are a natural predator.*  
 > **Encounter** **Attack** **27** (**Free Action**) ● **Martial**  
 > **Self**   
-> **Effect** Use any unused encounter power you know.  The power is not expended.  
+> **Effect** Use any encounter  power you know that you have not yet expended. This use of the power does not  expend it. 
 
 ## Juggernautical  
 **Key Ability:** Strength  
 **Secondary Ability:** Constitution  
+
+You are sturdy and powerful, and it is almost impossible to take you down or hold you back.
 
 > #### Devastating Body Attack  
 > *You make the target think it just got struck by a gorilla … riding a horse.*  
@@ -4032,7 +4139,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Melee** weapon, one creature two squares away  
 > **Attack** Strength vs AC  
 > **Hit** 1dW + Strength modifier damage, and you push the target 1 square. When rolling damage, reroll all 1s until they come up as something other than a 1. If the target cannot be pushed because of an obstruction, you inflict maximum damage.
-*Level 21:* Increase to 2dW damage.  
+*Level 21:* 2dW + Strength modifier damage.  
 > **Effect** Before your attack, shift into a square adjacent to the target.  
 
 > #### Inconsequential Injury  
@@ -4080,7 +4187,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > *You slowly approach your enemies, pushing your advancing line and claiming more of the battlefield.*  
 > **Daily** **Utility** **6** (**Swift Action**) ● **Martial, Stance**  
 > **Self**   
-> **Effect** You have resistance 5 to all damage. You can shift 1 as a swift action, but you must shift towards the nearest enemy.  
+> **Effect** While you are in this stance, you have resistance 5 to all damage. You can shift 1 as a swift action, but you must shift towards the nearest enemy.  
 
 > #### He Ain’t Heavy  
 > *You grab a fallen ally and throw them over your shoulder as you withdraw.*  
@@ -4100,8 +4207,8 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 
 > #### Like An Elephant  
 > *You offer your shoulder to enemies you plow through, slamming them back and clearing a way.*  
-> **Encounter** **Attack** **13** (**Melee Action**) ● **Martial, Weapon**  
-> **weapon, each enemy in reach during your shift**   
+> **Encounter** **Attack** **13** (**Standard Action**) ● **Martial, Weapon**  
+> **Melee** weapon, each enemy in reach during your shift  
 > **Attack** Strength vs AC  
 > **Hit** 2dW + Strength modifier damage, and the target is pushed 3 squares and knocked prone.  
 > **Effect** Before your attacks, shift your speed. You can pass through enemy occupied squares.  
@@ -4111,16 +4218,16 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Daily** **Attack** **15** (**Reaction Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You are reduced to 0 or fewer hit points  
-> **Effect** Until the start of your next turn, you are dazed, but do not fall unconscious, make death saves, or die from reaching your negative staggered value in hit points; you also gain a +4 power bonus to all attack & damage rolls.  
+> **Effect** Until the start of your next turn, you are dazed, but do not fall unconscious, make death saves, or die from reaching your negative staggered value in hit points; you also gain a +4 power bonus to all attack and damage rolls.  
 > **Special** If you are still alive at the end of the encounter, you automatically stabilize at 0 hit points.  
-> **Maintain Free** The effect persists. If you do not hit with an attack before the start of your next turn, you are considered to have failed a death save.  
+> **Maintain Free** The effect persists until the start of your next turn. If you do not hit with an attack before the start of your next turn, you are considered to have failed a death save.  
 
 > #### The Fortress  
 > *You’re an immovable object, a rooted post for allies to rally back to.*  
 > **Daily** **Utility** **16** (**Move Action**) ● **Martial**  
 > **Self**   
 > **Effect** You gain regeneration 5 until the end of your next turn. You grant cover to all allies in adjacent squares, regardless of line of sight.  
-> **Maintain Move** The effect persists. You cannot maintain if you leave your current square.  
+> **Maintain Move** The effect persists until the end of your next turn. You cannot maintain if you leave your current square.  
 
 > #### In The Face  
 > *An enemy raises a club, sword, or any other archaic implement of barbarity and you respond with your own medieval response.*  
@@ -4156,7 +4263,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Miss** Half damage.  
 > **Effect** Spend a recovery and regain double your recovery value.  
 
-> #### Blatant Disregard For Personal Safety  
+> #### Blatant Disregard for Personal Safety  
 > *You walk in the open, brazenly approaching your foe without care or concern.*  
 > **Daily** **Attack** **25** (**Standard Action**) ● **Martial, Weapon**  
 > **Self**   
@@ -4172,6 +4279,8 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 **Key Ability:** Charisma  
 **Secondary Ability:** Dexterity  
 
+You are a slippery, taunting combatant who can fool even skeptical foes. 
+
 > #### Biting Taunt  
 > **At-Will** **Attack** **1** (**Swift Action**) ● **Martial, Stance**  
 > **Self**   
@@ -4182,7 +4291,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Self**   
 > **Effect** Make a basic attack.  After the attack, you can shift a square.  
-> **Special** If your target misses you with an attack before the start of your next turn, you can make a basic attack against it as a reaction.  
+> **Special** If the creature you attacked as part of this action misses you with an attack before the start of your next turn, you can make a basic attack against it as a reaction.  
 
 > #### Tricky Taunt  
 > **At-Will** **Attack** **1** (**Swift Action**) ● **Martial, Stance**  
@@ -4194,22 +4303,21 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **At-Will** **Attack** **1** (**Move Action**) ● **Martial, Psychic**  
 > **Near** burst 10, three creatures not within 3 of you  
 > **Attack** Charisma +2 vs Will  
-> **Hit** The target cannot make melee or ranged attacks against you until the start of your next turn. If you mark or inflict damage on the target, the effect ends and the target is immune to this power until thread of the encounter.  
+> **Hit** The target cannot make melee or ranged attacks against you until the start of your next turn. If you mark or inflict damage on the target, the effect ends and the target is immune to this power until the end of the encounter.  
 
 > #### Exploit Weakness  
 > *Your enemy is not angry as much as confused by what you just said.*  
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Martial, Psychic, Consistent**  
 > **Near** burst 10, one creature you can see  
 > **Attack** Charisma +2 vs Will  
-> **Hit** The target is immobile until the end of your next turn. If the target takes any damage from you or your allies, it immediately recovers from this effect.  
-> **Effect** You can use this power again with an action point (replacing the action). You cannot target the same creature.  
+> **Hit** The target is immobile until the end of your next turn. If the target takes any damage from you or your allies, it immediately recovers from this effect.   
 
 > #### Personal Betrayal  
-> *The enemy wasn’t expecting your attack.  It wasn’t even sure you were an enemy.  Well, now it does.*  
+> *The enemy wasn’t expecting your attack. It wasn’t even sure you were an enemy. Well, now it knows.*  
 > **Encounter** **Attack** **1** (**Swift Action**) ● **Martial**  
 > **Near** burst 10, one creature you can see that you have not damaged this encounter  
 > **Effect** Until the start of your next turn, whenever you make a damage roll against the target, you gain a power bonus to the roll equal to your Charisma modifier.  
-> **Maintain Swift** The effect persists.  
+> **Maintain Swift** The effect persists until the start of your next turn.  
 
 > #### Forked Tongue  
 > *The target is swayed by your magnetic charisma, the tone of your voice, and your general attitude.*  
@@ -4230,8 +4338,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > #### Grace Under Pressure  
 > *You are suave and as cool as ice.  Even when the arrows fly, you act calmly.*  
 > **Encounter** **Utility** **2** (**Swift Action**) ● **Martial**  
-> **Effect** Until the start of your next turn, you gain a +2 power bonus to all defenses (AC, Fortitude, Reflex and Will) against the target’s attacks.  
-> **Special** If you are hit by an attack before the start of your next turn, this power is not expended.  
+> **Effect** Until the start of your next turn, you gain a +2 power bonus to all defenses (AC, Fortitude, Reflex and Will).  
 
 > #### Winning Smile  
 > **Daily** **Utility** **2** (**No Action**) ● **Martial**  
@@ -4243,7 +4350,6 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Near** burst 10, one creature you can see  
 > **Attack** Charisma +2 vs Will  
 > **Hit** The target is dazed until the end of your next turn.  
-> **Special** You can use this power again with an action point (replacing the action). You cannot target the same opponent.  
 
 > #### Perfect Masquerade  
 > *Your accent and mannerisms are flawless. No matter the task or test, you can fake it.*  
@@ -4281,7 +4387,6 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Daily** **Utility** **6** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Effect** You gain a +10 power bonus to your next Bluff, Diplomacy, or Intimidate check, and you gain a +3 power bonus to all other skill checks with those skills until the end of the encounter (or five minutes).  
-> **Special** Spend an action point if you use this power during a skill challenge to gain another +10 power bonus.  
 
 > #### Empathic Response  
 > *“I know what you’re going through. This is not the solution. We can make a deal. Just me … just talk to me. You know you can trust me.”*  
@@ -4289,7 +4394,6 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Near** burst 10, one creature you can see  
 > **Attack** Charisma +2 vs Will  
 > **Hit** The target is marked and cannot make any attack that only includes you until the end of your next turn.  
-> **Special** You can use this power again with an action point (replacing the action). You cannot target the same creature.  
 
 > #### Instant Infatuation  
 > *You say and do exactly what they want you to say or do, instantly enticing your target.*  
@@ -4299,7 +4403,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Attack** Charisma +2 vs Will  
 > **Hit** Until the end of your next turn, the target suffers a -4 penalty to Will defense and a -4 penalty to attack rolls with attacks that include you.  
 > **Miss** Until the end of your next turn, you gain a +4 power bonus to Will defense against the target’s attacks and a +4 power bonus to Bluff and Diplomacy checks against the target.  
-> **Maintain Swift** The effects persist. You can maintain until you inflict damage on the target or until the target inflicts damage on you.  
+> **Maintain Swift** The effects persist until the end of your next turn. You can maintain until you inflict damage on the target or until the target inflicts damage on you.  
 
 > #### Read Body Language  
 > *You read your opponent’s movements and their next course of action. You throw a diversion to prevent concentration.*  
@@ -4334,7 +4438,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Daily** **Attack** **15** (**Free Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, one creature  
 > **Trigger** You make a Bluff, Diplomacy or Intimidate check and dislike the result.  
-> **Effect** Make a basic attack against the target. On a hit, it takes 3dW extra damage from the attack and is dazed (save ends). On a miss, half damage, and the target is dazed until the start of your next turn.  
+> **Effect** Make a basic attack against the target. On a hit, the target takes 3dW extra damage from the attack and is dazed (save ends). On a miss, the target is dazed until the start of your next turn. 
 
 > #### Stunning Good Looks  
 > **Daily** **Attack** **15** (**Standard Action**) ● **Martial, Psychic**  
@@ -4344,13 +4448,13 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Hit** Until the end of your next turn, the target is dazed and helpless, and your allies gain concealment against it. You gain a +10 power bonus to your next Diplomacy or Bluff check against the target and a +5 bonus to all other Diplomacy and Bluff checks until the end of your next turn.  
 > **Miss** The target is dazed until the end of your next turn and you gain a +3 bonus to all Diplomacy and Bluff checks until the end of your next turn.  
 > **Special** If the target takes any damage, they are no longer helpless, though they are still dazed.  
-> **Maintain Standard** The effect persists until the target takes damage or until you take damage.  
+> **Maintain Standard** The effect persists until the end of your next turn. If either the target or you take damage, the effect ends immediately and cannot be maintained. 
 
 > #### Method Acting  
 > *You become the part. You take on the role so flawlessly, the old you is pushed away.*  
 > **Daily** **Utility** **16** (**Swift Action**) ● **Martial**  
 > **Self**   
-> **Effect** Until the end of the encounter (or five minutes), you gain a +5 power bonus to all Bluff and Intimidate checks and can use Bluff in place of any Intelligence- or Wisdom-based skill.  
+> **Effect** Until the end of the encounter, you gain a +5 power bonus to all Bluff and Intimidate checks and can use Bluff in place of any Intelligence- or Wisdom-based skill.  
 
 > #### Unshakable Persona  
 > *You can recover in an instant, changing course fast enough that listeners didn’t even notice.*  
@@ -4365,7 +4469,6 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Near** burst 10, one creature you can see  
 > **Attack** Charisma +2 vs Will  
 > **Hit** The target is controlled until the start of your next turn.  
-> **Special** You can use this power again with an action point (replacing the action). You cannot target the same creature.  
 
 > #### Intimate Assassin  
 > **Daily** **Attack** **19** (**Move Action**) ● **Martial, Psychic, Consistent**  
@@ -4378,7 +4481,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > *The time for talking is over.  You give your ally the sign to end the conversation.*  
 > **Daily** **Attack** **19** (**Free Action**) ● **Martial**  
 > **Near** earshot, one ally  
-> **Effect** The target can take any action available to it as an immediate interrupt until the start of your next turn. The target gains a +4 power bonus to attack rolls made as part of that action. Before or after your ally acts, you can take a move action.  
+> **Effect** Until the start of your next turn, as an immediate counter action, the target may make any single action available to it. The target gains a +4 power bonus to attack rolls made as part of that action. Before or after your ally acts, you can take a move action.  
 
 > #### Butt In  
 > *You step forward an instant before things go sour and you attempt to cool the situation or at least stall while others prepare.*  
@@ -4395,16 +4498,14 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Attack** Charisma +2 vs Will  
 > **Hit** The target is marked and cannot make attacks that do not include you until the end of your next turn. Each ally in burst can shift a number of squares up to their speed.  
 > **Effect** You gain a +4 power bonus to all defenses until the start of your next turn.  
-> **Special** You can use this power again with an action point (replacing the action). You cannot target the same creatures.  
 
 > #### Feign Mortality  
 > *You lure your opponent with an award-winning performance faking injury, death, or vulnerability. When your enemy least suspects it, you strike.*  
 > **Daily** **Attack** **25** (**Free Action**) ● **Martial, Psychic, Weapon**  
 > **Melee or Ranged** weapon, the creature that staggered you  
 > **Requirements** You are staggered  
-> **Effect** You appear to suffer from any condition. You can drop prone as part of this action. You gain a +10 bonus to Bluff checks to maintain the illusion. This effect lasts until you make the following attack.
+> **Effect** Choose a condition, like helpless or unconscious, or an affliction, like cyanide poisoning or a witch’s curse. You appear to suffer from that condition or affliction. You can drop prone as part of this action. You gain a +10 bonus to Bluff checks to maintain the illusion. This effect lasts until the end of the encounter or until you make the following attack.  
 *Attack:* As an immediate interrupt or as a swift action on your turn, make a basic attack against the target. You automatically score a critical hit, and deal 1dW extra damage.  
-> **Special** Spend a recovery as part of this power, but regain no hit points; instead, the power is not expended. It cannot be used more than once per encounter.  
 
 > #### Touched a Nerve  
 > *You must have really said something to upset them.*  
@@ -4418,8 +4519,9 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Encounter** **Attack** **27** (**Move Action**) ● **Martial, Psychic, Consistent**  
 > **Near** burst 10, one creature  
 > **Attack** Charisma +2 vs Will  
-> **Hit** The target fails its next saving throw or one condition with a finite duration lasts an additional round.  
-> **Special** You can use this power again with an action point (replacing the action).  
+> **Hit** Choose one of the following:  
+> ● The target fails its next saving throw  
+> ● One condition with a finite duration that the target is suffering lasts an additional round.  
 > **Maintain Move** Repeat the attack. You can maintain until you miss.  
 
 > #### Commanding Presence  
@@ -4433,14 +4535,16 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 **Key Ability:** Intelligence  
 **Secondary Ability:** Charisma  
 
+A tactical master, you direct your allies to seize victory. 
+
 > #### Instinctual Reaction  
-> *Your intuition tells you where your enemy is most likely to be, where his weaknesses lie, and where to direct your attention to counteract his plan.*  
+> *Your intuition tells you where your enemy is most likely to be, where their weaknesses lie, and where to direct your attention to counteract their plan.*  
 > **At-Will** **Attack** **1** (**Move Action**) ● **Focus, Martial**  
 > **Ranged** 10, one creature  
 > **Attack** Intelligence +2 vs Will  
 > **Hit** Until the start of your next turn, the target loses all benefits of cover or concealment; superior cover and total concealment is reduced to -2. The target grants combat advantage to one ally in range until the start of your next turn.  
 
-> #### Mark Of The Puppeteer  
+> #### Mark of the Puppeteer  
 > *You lead the target into another’s threat range.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Self**   
@@ -4459,21 +4563,22 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Self**   
 > **Trigger** You hit a creature that has cover against you.  
 > **Effect** The target grants combat advantage to all allies in eyesight until the start of your next turn.  
-> **Maintain Standard** The effect persists until the target moves from cover.  
+> **Maintain Standard** The effect persists until the start of your next turn. You cannot maintain if the target moves from cover.  
 
-> #### Into The Fire  
+> #### Into the Fire  
 > *You rescue an ally from impending doom.*  
 > **Encounter** **Attack** **1** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You hit a creature.  
-> **Effect** The target is marked until the end of your next turn.  Two allies in eyesight shift their speed.  
+> **Effect** The creature you hit is marked until the end of your next turn. Two allies in eyesight shift their speed.  
 
-> #### Stick To The Plan  
+> #### Stick to the Plan  
 > *Your brilliant maneuver forces enemies into an unwise counter-maneuver.*  
 > **Encounter** **Attack** **1** (**Move Action**) ● **Focus, Martial**  
 > **Near** eyesight, all creatures  
 > **Attack** Intelligence +2 vs Will  
-> **Hit** Shunt the target 2 squares.  
+> **Hit** Shunt the target 2 squares.   
+> **Special** Allies must be  willing to be targeted. 
 
 > #### Force It Back  
 > *Converge all attacks on the target and drive it back.*  
@@ -4500,7 +4605,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Encounter** **Attack** **3** (**Free Action**) ● **Martial, Weapon**  
 > **Self**   
 > **Trigger** You hit a creature.  
-> **Effect** The target takes 1dW extra damage from the triggering attack. Until the end of your next turn, the target cannot make opportunity attacks or benefit from combat advantage. All allies adjacent to the target can shift their speed -4.  
+> **Effect** The creature you hit takes 1dW extra damage from the triggering attack and, until the end of your next turn, that creature cannot make opportunity attacks or benefit from combat advantage. All allies adjacent to the creature can shift their speed −4.  
 
 > #### Encouraging Advice  
 > *You stand with your allies and support their actions.*  
@@ -4510,26 +4615,27 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Attack** Intelligence +2 vs Reflex  
 > **Hit** The target is hit by the triggering attack.  
 
-> #### Back To Back  
-> *They have your back--you have theirs.*  
+> #### Back-To-Back  
+> *They have your back; you have theirs.*  
 > **Daily** **Attack** **5** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** touch, you and one adjacent ally  
 > **Effect** The target makes a basic attack.  Until the start of your next turn, the target gains a +2 power bonus to AC and Reflex defense.  
-> **Maintain Standard** You can sustain as long as you and the targeted ally remain in adjacent squares at the end of your turn.  
+> **Maintain Standard** The target repeats the attack and the effect persists. You cannot maintain if you and the targeted ally are no longer in adjacent squares.  
 
 > #### Cover Opportunity  
 > *You take the full force of your enemy’s attack to offer your allies a chance to recover.*  
 > **Daily** **Attack** **5** (**Move Action**) ● **Healing, Martial, Consistent**  
 > **Near** burst 5, two creatures you can see  
 > **Attack** Intelligence +2 vs Reflex  
-> **Hit** The target is marked until the end of the encounter.  All allies in eyesight can spend a recovery and heal their recovery value in hit points.  
+> **Hit** The target is marked until the end of the encounter.  
+> **Effect** All allies in eyesight can spend a recovery and heal their recovery value in hit points.  
 
 > #### Attract Attention  
 > *You’ve got to do something stupid in order to save the team.*  
 > **Daily** **Utility** **6** (**Move Action**) ● **Martial**  
 > **Self**   
 > **Effect** All creatures you have marked suffer an additional -2 penalty to attacks that don’t include you until the end of your next turn. All targets you have marked gain a +2 bonus to attack you until the end of your next turn.  
-> **Maintain Move** The effect persists.  
+> **Maintain Move** The effect persists  until the end of your next turn.  
 
 > #### Blind Spot  
 > *An enemy comes out of nowhere.  You make a quick attack before it can assault a comrade.*  
@@ -4538,30 +4644,28 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Trigger** An enemy makes its first attack of the encounter.  
 > **Effect** Make a basic attack against the target. If you hit, the target takes 1dW extra damage from the attack. The target suffers a -4 penalty to attack rolls until the end of your next turn.  
 
-> #### Right Into The Trap  
+> #### Right into the Trap  
 > *Your opponent falls perfectly for your taunt.  It doesn’t realize its mistake until it’s too late.*  
 > **Encounter** **Attack** **7** (**Counter Action**) ● **Focus, Martial**  
 > **Near** eyesight, the triggering ally  
 > **Trigger** One ally hits a creature.  
 > **Attack** Intelligence +2 vs Reflex  
 > **Hit** Your ally’s hit becomes a critical hit.  
-> **Miss** Spend a recovery, but regain no hit points; instead, you recover the use of this power.  
 
-> #### Take The Lead  
+> #### Take the Lead  
 > *In the absence of proper leadership, you stand up to lead the charge.*  
 > **Encounter** **Attack** **7** (**Free Action**) ● **Martial, Weapon**  
 > **Self**   
-> **Requirements** You must be the closest enemy to the target.  
-> **Trigger** You hit one creature.  
-> **Effect** The target is marked until the end of your next turn. Until the start of your next turn, if the target moves in any direction that does not bring it closer to you, you can make a basic attack against it as a counter.  
-> **Maintain Swift** The effect persists.  
+> **Trigger** You hit one creature, and there are no allies closer to this creature than you are.  
+> **Effect** The creature is  marked until the end of your next turn. While it is marked, if  the creature moves in any direction that does not bring it closer to you, you  can make a basic attack against it as a counter.  
+> **Maintain Swift** The effect persists until the end of your next turn.  
 
-> #### Aggravate The Wound  
+> #### Aggravate the Wound  
 > *Your attack struck a previous wound the enemy had already sustained, causing further damage.*  
 > **Daily** **Attack** **9** (**Free Action**) ● **Martial, Weapon**  
 > **Self**   
 > **Trigger** You hit a creature.  
-> **Effect** The target takes 2dW extra damage from the triggering attack, and it fails its next saving throw.  
+> **Effect** The creature you hit takes 2dW extra damage from the triggering attack, and it fails its next saving throw.  
 
 > #### Proud Target  
 > *Yup, you’re the leader.  They know it, even if it isn’t true.*  
@@ -4569,29 +4673,29 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Near** burst 10, all enemies you can see  
 > **Attack** Intelligence +2 vs Reflex  
 > **Hit** The target is marked until the end of your next turn. An enemy marked by you that does not include you as a target on its next attack suffers a -3 penalty to all defenses until the end of your next turn.  
-> **Effect** You gain a +2 power bonus to all defenses until the start of your next turn.  
-> **Maintain Move** Repeat the attack and the effect persists.  
+> **Effect** You gain a +2 power bonus to all defenses until the end of your next turn.  
+> **Maintain Move** Repeat the attack and the bonus to defenses persists until the end of your next turn. 
 
 > #### Boar’s Head  
-> *You and your allies move in a pincher formation towards the enemy.*  
+> *You and your allies move in formation.*  
 > **Encounter** **Utility** **10** (**Move Action**) ● **Martial**  
-> **Special** you and up to four allies adjacent to each another  
-> **Effect** The target moves your speed.  All targets must remain adjacent to one another at the end of this movement.  
+> **Near** burst 3, you and all allies  
+> **Effect** The target moves your speed. Each target must end their move adjacent to at least one other target. 
 
 > #### Taunting Mockery  
 > *You scream obscenities and hurl rocks to anger an opponent.*  
 > **Encounter** **Utility** **10** (**Swift Action**) ● **Martial**  
 > **Ranged** 20, one creature  
-> **Effect** You mark the target until the beginning of your next turn.  
-> **Maintain Swift** The effect persists.  
+> **Effect** You mark the target until the start of your next turn.  
+> **Maintain Swift** The effect persists until the start of your next turn.  
 
 > #### Diverting Attack  
 > *Your attack causes your enemy to rear its head, allowing others to take the kill shot.*  
 > **Encounter** **Attack** **13** (**Free Action**) ● **Focus, Martial, Consistent**  
-> **Self** the creature you hit  
+> **Self**   
 > **Trigger** You hit a creature.  
-> **Hit** You and all allies in open range can score a critical hit against the target on a natural roll of 18, 19, or 20 until the start of your next turn.  
-> **Maintain Move** The effect persists.  You cannot sustain if you or any ally scored a critical hit the previous round.  
+> **Hit** You and all allies in open range can score a critical hit against the creature you hit on a natural roll of 18, 19, or 20 until the start of your next turn.  
+> **Maintain Move** The effect persists until the start of your next turn. You cannot maintain if you or any ally scored a critical hit the previous round.  
 
 > #### Positive Reinforcement  
 > *You ally’s attack was far more deadly than even they thought it was.*  
@@ -4606,20 +4710,18 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Near** burst 10, one creature  
 > **Hit** Shunt the target a number of squares equal to your Charisma modifier, and it grants you and all allies combat advantage until the end of your next turn. One ally in eyesight automatically hits with their next at-will or encounter power against the target.  
 
-> #### Hearten The Squad  
+> #### Hearten the Squad  
 > *There stands the enemy and your group must destroy it.*  
-> **Daily** **Attack** **15** (**Move Action**) ● **Focus, Martial**  
+> **Daily** **Attack** **15** (**Standard Action**) ● **Focus, Martial**  
 > **Near** burst 10, one creature you can see  
-> **Attack** Intelligence +2 vs Reflex  
-> **Hit** All allies in open range and in line of effect to the target automatically hit the target with basic attacks until the start of your next turn.  
-> **Miss** Spend a recovery, but regain no hit points; instead, you recover the use of this power.  
+> **Effect** All allies in open range and in line of effect to the target automatically hit the target with basic attacks until the start of your next turn.  
 
-> #### No Time To Bleed  
+> #### No Time to Bleed  
 > *You’re hit but the others can’t see you squirm.*  
 > **Daily** **Attack** **15** (**Free Action**) ● **Healing, Martial, Weapon**  
 > **Near** eyesight, the triggering creature  
 > **Trigger** You hit one creature that hit you since the start of your last turn.  
-> **Effect** The target takes 3[W] extra damage from the triggering attack, and you can spend a recovery and heal your recovery value.  
+> **Effect** The target takes 3dW extra damage from the triggering attack, and you can spend a recovery and heal your recovery value.  
 
 > #### Direct Strike  
 > *You relay important information to allies about approaching threats.*  
@@ -4637,7 +4739,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > *You create a diversion and a precious opportunity for a wounded ally to break off and retreat.*  
 > **Encounter** **Attack** **17** (**Move Action**) ● **Martial**  
 > **Ranged** eyesight, all enemies  
-> **Effect** Until the end of your next turn, the targets are marked and slowed. Allies in range shift a number of squares equal to 1+ your Charisma modifier, but must end their movement further away from their nearest enemy.  
+> **Effect** Until the end of your next turn, the targets are marked and slowed. Allies in range shift a number of squares equal to 1 + your Charisma modifier, but must not end their movement adjacent to an enemy.
 
 > #### Direct Threat  
 > *You stand against the most dangerous opponent on the field.*  
@@ -4645,24 +4747,24 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Near** burst 5, one creature you can see  
 > **Attack** Intelligence +2 vs Reflex  
 > **Hit** Until the end of your next turn, the target can make no attacks that do not include you, you gain a +2 bonus to all defenses against the target’s attacks, and if the target hits you, you can make a basic attack against it as an immediate reaction.  
-> **Maintain Swift** The effect persists. You can only sustain if you are not staggered.  
+> **Maintain Swift** The effect persists until the end of your next turn. You can only sustain if you are not staggered.  
 
 > #### Target Priority  
 > *One ally is injured.  You goad enemies into shifting their attention.*  
 > **Encounter** **Attack** **17** (**Move Action**) ● **Martial**  
 > **Near** eyesight, one ally  
 > **Effect** Until the start of your next turn, all enemies suffer a -4 penalty to attack rolls against the target, and if any enemy hits the target, one ally in eyesight gains a basic attack against that enemy as a counter.  
-> **Maintain Move** The effect persists. You cannot sustain if the target scores a critical hit on an enemy.  
+> **Maintain Move** The effect persists until the start of your next turn. You cannot sustain if the target scores a critical hit on an enemy.  
 
 > #### Secure Perimeter  
 > *You form a circle with your comrades when surrounded by enemies.  You make a final stand against the onslaught.*  
 > **Daily** **Attack** **19** (**Standard Action**) ● **Martial, Weapon**  
 > **Near** burst 3, you and up to four allies  
-> **Effect** The target can make a basic attack as an opportunity action against any enemy that approaches within 5 squares of him but is not adjacent. Creatures hit are immobile until the start of the target’s next turn.  
-> **Maintain Standard** The effect persists. You cannot sustain if a target moves 3 squares or further from another target.  
+> **Effect** The target can make a basic attack as an opportunity action against any enemy that approaches within 5 squares of them but is not adjacent. Creatures hit are immobile until the start of the target’s next turn.  
+> **Maintain Standard** You and allies repeat the attack. You cannot sustain if a target moves 3 squares or further from another target.  
 
 > #### Focus Target  
-> *You order an ally to focus her attention and ignore all distractions.*  
+> *You order an ally to focus and ignore all distractions.*  
 > **Encounter** **Utility** **22** (**Move Action**) ● **Martial**  
 > **Near** eyesight, one ally  
 > **Effect** Until the start of your next turn, the target gains a +4 power bonus to attack rolls and can score a critical hit on a natural roll of 18-20.  
@@ -4671,7 +4773,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > *You scream for an ally to get down, making their foe vulnerable to attack.*  
 > **Encounter** **Attack** **23** (**Move Action**) ● **Focus, Martial, Consistent**  
 > **Near** eyesight, one enemy  
-> **Effect** Shunt one ally adjacent to the target his speed -4.  Make the following attack against the target.  
+> **Effect** Shunt one ally adjacent to the target their speed -4.  Make the following attack against the target.  
 > *Attack:* Intelligence +2 vs. Reflex  
 > *Hit:* The target gains vulnerability to all weapon damage 5 until the end of your next turn.  
 > **Maintain Move** The target gains vulnerability to all weapon damage 5 until the end of your next turn. You cannot sustain if the target is staggered.  
@@ -4695,15 +4797,15 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Near** burst 10, one creature you can see  
 > **Attack** Intelligence +2 vs Reflex  
 > **Hit** Until the start of your next turn, all allies in open range gain a +2 bonus to attack and a +5 bonus to damage against the target.  
-> **Maintain Move** Until the start of your next turn, each time an ally hits the target, it takes +5 damage.  
+> **Maintain Move** Until the start of your next turn, each time an ally hits the target, the target takes +5 damage.  
 
 > #### Brilliant Opportunity  
 > *Your tactical planning has created an opening.*  
 > **Encounter** **Attack** **27** (**Move Action**) ● **Focus, Martial, Consistent**  
 > **Ranged** eyesight, one creature  
 > **Attack** Intelligence +2 vs Reflex  
-> **Hit** Until the start of your next turn, when the target hits with an attack, one ally in eyesight makes a basic attack as a reaction.  
-> **Maintain Move** The effect persists.  You can only sustain once.  
+> **Hit** Until the start of your next turn, when the target hits with an attack, one ally in eyesight makes a basic attack against a target of their choice as a reaction.  
+> **Maintain Move** The effect persists until the start of your next turn.  You can only sustain once.  
 
 > #### Perfect Timing  
 > *You‘ve planned ahead for this moment. You knew where your enemy would be, where they would strike, and when their weaknesses would be revealed. You give your allies the word and they act according to the plan.*  
@@ -4724,7 +4826,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > *Your allies are moved by your bravado.*  
 > **Daily** **Attack** **29** (**Move Action**) ● **Martial**  
 > **Near** burst 10, all enemies  
-> **Effect** You mark the target. Until the end of your next turn, you take no damage from the target’s attacks; instead, grant temporary hit points to one ally in range equal to the damage dealt. An ally cannot receive more temporary hit points than their recovery value. Any target that is out of range by the end of your turn is no longer marked.  
+> **Effect** You mark the target. Until the end of your next turn, you take no damage from the target’s attacks provided it remains marked by you; instead, grant temporary hit points to one ally in range equal to the damage dealt. An ally cannot receive more temporary hit points than their recovery value. Any target that is out of range by the end of your turn is no longer marked.  
 > **Maintain Move** The effect persists until the start of your next turn.  You cannot sustain if you are staggered.  
 
 ## Puppeteer’s String  
@@ -4732,7 +4834,17 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 **Key Ability:** Wisdom  
 **Secondary Ability:** Charisma  
 
+You can enchant, influence and dominate the weaker willed.
+
 <figure><img src="pics\LuigiCastellani_CONVERSIONSLOT.png" alt="Conversion by Luigi Castellani" style="zoom: 33%;" /><figcaption>Conversion by Luigi Castellani</figcaption></figure>
+
+> #### Befuddle  
+>
+> *Your mental influence clouds your opponent’s concentration.*  
+> **At-Will** **Attack** **1** (**Move Action**) ● **Arcane, Focus, Psychic**  
+> **Near** burst 3, one creature  
+> **Attack** Wisdom vs Will  
+> **Hit** The target is dazed until the start of your next turn.  
 
 > #### Neural Spear  
 >
@@ -4740,15 +4852,8 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Arcane, Focus, Psychic**  
 > **Near** burst 5, one living creature  
 > **Attack** Wisdom vs Will  
-> **Hit** 1d8 + Wisdom modifier psychic damage. At 21st level, increase damage to 2d8 + Wisdom modifier damage.  
-
-> #### Puppetmaster  
->
-> *You start pulling strings, and the target begins to act according to your wishes.*  
-> **At-Will** **Attack** **1** (**Move Action**) ● **Arcane, Focus, Psychic**  
-> **Near** burst 3, one creature  
-> **Attack** Wisdom vs Will  
-> **Hit** The target is dazed until the start of your next turn.  
+> **Hit** 1d8 + Wisdom modifier psychic damage. 
+> *Level 21:* 2d8 + Wisdom modifier damage.  
 
 > #### Instant Friends  
 >
@@ -4756,7 +4861,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Arcane, Charm, Focus, Psychic**  
 > **Near** burst 5, one creature  
 > **Attack** Wisdom vs Will  
-> **Hit** The target treats you as a friend and cannot attack you until the end of your next turn. You can use your Bluff skill to convince the target to do something for you, as per normal rules for Bluff.  
+> **Hit** The target treats you as a friend and cannot attack you until the end of your next turn. You can use your Bluff skill to convince the target to do something for you, as per normal rules for Bluff. The effect ends immediately if you make an attack that damages the target.   
 > **Maintain Swift** Repeat the attack against the same target. On a hit the duration is extended until the end of your next turn.  
 
 > #### Recall Probe  
@@ -4775,7 +4880,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **At-Will** **Utility** **2** (**Standard and Move Action**) ● **Arcane, Psychic**  
 > **Unlimited** one unconscious creature you have met  
 > **Effect** You enter the target’s dream until the start of your next turn. You can communicate with the target, convince it you are real or not. Once on your turn, make a Wisdom vs Will attack if you wish to take control of the dream: otherwise, you can only control your dream body and anything you can directly affect with it. If you take control of the dream, the target can attempt a Wisdom or Charisma vs Will attack at the start of its next turn to regain control. If you inflict harm on the target or the target inflicts harm on itself, it wakes up: however, if you are in control of the dream, the target can only harm itself if you wish it. While you are in the dream, you can take no actions outside of it. If you suffer damage in reality, the effect ends.  
-> **Maintain Free** The effect persists. You can maintain indefinitely until the target wakes up.  
+> **Maintain Free** The effect persists until the start of your next turn. You cannot maintain if the target wakes up.  
 
 > #### Imprint  
 >
@@ -4796,8 +4901,8 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > *The best disguise is the one established in the mind.*  
 > **Daily** **Utility** **2** (**Move Action**) ● **Arcane, Consistent, Focus, Illusion, Psychic**  
 > **Self**   
-> **Hit** You disguise your appearance, making you look like someone else. The details of your appearance are up to you. You gain a +5 bonus to Bluff checks related to the disguise.  
-> **Maintain Move** The effect persists. You can maintain until the end of the encounter or five minutes (whichever is longer).  
+> **Hit** You disguise your appearance until the end of your next turn, making you look like someone else. The details of your appearance are up to you. You gain a +5 bonus to Bluff checks related to the disguise.  
+> **Maintain Move** The effect persists until the end of your next turn. You cannot maintain for longer than five minutes. 
 
 > #### All a Jumble  
 >
@@ -4815,13 +4920,13 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Near** burst 5, one creature  
 > **Attack** Wisdom vs Will  
 > **Hit** The target falls unconscious until the end of your next turn. If it suffers any damage, it immediately wakes up.  
-> **Maintain Swift** Repeat the attack against the same target. You can maintain until the end of the encounter, after which you only need to maintain once an hour.  
+> **Maintain Swift** Repeat the attack against the same target. You can continue to maintain even after the encounter ends. While you are not in an encounter, each time you maintain this power, the target  is unconscious for one hour or until it suffers damage. 
 
 > #### Reverberation  
 >
 > *You create a sound everyone thinks they hear.*  
 > **Encounter** **Attack** **3** (**Move Action**) ● **Arcane, Consistent, Focus, Psychic**  
-> **Far** burst 5 (range 20), all enemies  
+> **Far** burst 5 within range 20, all enemies  
 > **Attack** Wisdom vs Will  
 > **Hit** The target is distracted and grants combat advantage to all creatures until the end of your next turn.  
 
@@ -4832,7 +4937,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Near** burst 5, one creature  
 > **Attack** Wisdom vs Will  
 > **Hit** The target is controlled until the end of your next turn.  
-> **Maintain Standard** Repeat the attack against the same target. You can maintain until the end of the encounter, after which you only need to maintain once an hour.  
+> **Maintain Standard** Repeat the attack against the same target. You can continue to maintain even after the encounter ends. While you are not in an encounter, each time you maintain this power, the target is controlled for one hour. 
 
 > #### Making Matters Worse  
 >
@@ -4857,7 +4962,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > *You make someone feel just awesome.*  
 > **Daily** **Utility** **6** (**Swift Action**) ● **Arcane, Psychic**  
 > **Near** burst 5, one ally  
-> **Effect** The target gains a +5 bonus to all skill checks until the end of the encounter or five minutes.  
+> **Effect** The target gains a +5 bonus to all skill checks for five minutes.  
 
 > #### Psychic Refresh  
 >
@@ -4887,7 +4992,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 >
 > *You send out a cascade of psychic energy to affect all those around.*  
 > **Daily** **Attack** **9** (**Standard Action**) ● **Arcane, Focus, Psychic**  
-> **Far** burst 3 (range 10), all enemies  
+> **Far** burst 3 within range 10, all enemies  
 > **Attack** Wisdom vs Will  
 > **Hit** The target is dazed, immobile, and weakened (save ends all).  
 > **Miss** The target is dazed, immobile, and weakened until the start of your next turn.  
@@ -4897,7 +5002,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > *You go on the defense to ensure you don’t suffer from any effects you yourself are known for.*  
 > **Daily** **Utility** **10** (**Free Action**) ● **Arcane, Psychic**  
 > **Self**   
-> **Effect** You gain a +4 bonus to Will defense until the end of the encounter or 5 minutes.  
+> **Effect** You gain a +4 bonus to Will defense for 5 minutes.  
 
 > #### Blackout  
 >
@@ -4914,8 +5019,8 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Encounter** **Attack** **17** (**Standard Action**) ● **Arcane, Consistent, Focus, Psychic**  
 > **Ranged** 20, one creature  
 > **Attack** Wisdom vs Will  
-> **Hit** Until the start of your next turn, you either look through the targets eyes or you force the target to see what you see. While looking through the target’s eyes, the target is unaware of your use of this power and you grant combat advantage to all creatures: while looking through yours, the target grants combat advantage to all creatures and may not be able to see certain targets in order to attack them. If the target takes damage, the effect ends.  
-> **Maintain Standard** Repeat the attack against the same target. You can maintain until the end of the encounter, after which you only need to maintain once an hour.  
+> **Hit** Until the start of your next turn, you either look through the targets eyes or you force the target to see what you see. While looking through the target’s eyes, you may choose whether or not the target is aware of your use of this power. While looking through the target’s eyes, you grant combat advantage to all creatures: while looking through yours, the target grants combat advantage to all creatures and may not be able to see certain targets in order to attack them. If the target takes damage, the effect ends.  
+> **Maintain Standard** Repeat the attack against the same target. You can continue to maintain even after the encounter ends. While you are not in an encounter, each time you maintain this power, the effect remains for one hour or until you end it as a swift action.  
 
 > #### Field Control  
 >
@@ -4950,7 +5055,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Near** burst 5, one creature  
 > **Attack** Wisdom vs Will  
 > **Hit** The target is under your control until the end of your next turn. This is identical to being controlled, except you can activate rechargeable, encounter, and daily powers. You can command the target to attack allies or itself (if possible).  
-> **Maintain Move** Repeat the attack against the same target. You can maintain until the end of the encounter, after which you only need to maintain once every hour.  
+> **Maintain Move** Repeat the attack against the same target. You can continue to maintain even after the encounter ends. While you are not in an encounter, each time you maintain this power, the effect remains for one hour.  
 
 > #### Personality Manipulation  
 >
@@ -4959,20 +5064,22 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Near** burst 5, one creature  
 > **Attack** Wisdom vs Will  
 > **Hit** You rewrite the target’s personality so that it is convinced you and your allies are its allies until the end of your next turn. You have no direct control over the target but are able to give it instructions which it will try to follow to the best of its abilities.  
-> **Maintain Move** Repeat the attack against the same target. You can maintain until the end of the encounter, after which you only need to maintain once every day.  
+> **Maintain Move** Repeat the attack against the same target. You can continue to maintain even after the encounter ends. While you are not in an encounter, each time you maintain this power, the effect remains for one day.   
 
 ## Radiant Dawn  
 **Key Ability:** Wisdom  
 **Secondary Ability:** Charisma  
+
+You use the divine power of the sun to blast and dazzle your enemies and heal your allies.
 
 > #### Dismiss  
 > *This attack ‘softly’ removes an enemy from your presence.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Divine, Weapon, Radiant**  
 > **Melee** weapon, one creature  
 > **Attack** Wisdom vs AC  
-> **Hit** 1dW + Wisdom modifier radiant damage and push 2. 
-*Level 21:* 2dW + Wisdom modifier radiant damage.  
-> **Special** If the target is undead, push 4 on a hit.  
+> **Hit** 1dW + Wisdom modifier radiant damage and the target is pushed 2 squares.   
+*Level 21:* 2dW + Wisdom modifier radiant damage and the target is pushed 2 squares.   
+> **Special** If the target is undead, they are pushed 4 squares on a hit instead. 
 
 > #### Expose Weakness  
 > *You strike with a weak, but swift, attack that hampers an opponent.*  
@@ -5029,7 +5136,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Effect** The target makes a saving throw against persistent damage or a condition with a save ends duration.  
 
 > #### Healer’s Bane  
-> *You hijacks healing for your own purpose.*  
+> *You hijack healing for your own purpose.*  
 > **Encounter** **Utility** **6** (**Counter Action**) ● **Divine, Healing**  
 > **Near** burst 10, one creature  
 > **Trigger** The creature is about to heal.  
@@ -5047,12 +5154,13 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Encounter** **Attack** **7** (**Standard Action**) ● **Divine, Weapon, Radiant**  
 > **Melee** weapon, one creature  
 > **Attack** Wisdom vs AC  
-> **Hit** 3dW + Wisdom modifier damage. Until the end of your next turn, all allies within 5 gain a +2 power bonus on attack rolls.  
+> **Hit** 2dW + Wisdom modifier damage.  
+> **Effect** Until the end of your next turn, all allies within 5 squares gain a +2 power bonus on attack rolls.  
 
 > #### Decree of Death  
 > *You single out targets for execution.*  
 > **Encounter** **Attack** **7** (**Standard Action**) ● **Divine, Radiant, Focus**  
-> **Far** burst 1 (range 5), all enemies  
+> **Far** burst 1 within range 5, all enemies  
 > **Attack** Wisdom vs Will  
 > **Hit** 1d8 + Wisdom modifier radiant damage and the target grants combat advantage until the end of your next turn.  
 
@@ -5065,12 +5173,12 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 
 > #### Lifeburst Strike  
 > *You strike out with a simple blow with an uncanny power to heal and harm.*  
-> **Daily** **Attack** **9** (**Standard Action**) ● **Divine, Radiant, Focus**  
+> **Daily** **Attack** **9** (**Standard Action**) ● **Divine, Healing, Radiant, Focus**  
 > **Near** burst 1, all enemies  
 > **Attack** Wisdom vs Fortitude  
 > **Hit** 2d8 + Wisdom modifier radiant damage. Until the end of your next turn, if an ally of yours hits the target, the ally heals 10 damage.  
-> **Miss** Half damage.  
-> **Maintain Swift** The healing opportunity remains.  
+> **Miss** Half damage, and no healing effect.  
+> **Maintain Swift** The healing effect persists until the end of your next turn. 
 
 > #### Decree of Silence  
 > *Your presence demands silence.*  
@@ -5088,10 +5196,10 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > #### Sunstroke  
 > *Your akasha shapes an attack into a powerful solar flare.*  
 > **Daily** **Attack** **15** (**Standard Action**) ● **Divine, Fire, Radiant, Focus**  
-> **Far** burst 2 (range 10), all enemies  
+> **Far** burst 2 within range 10, all enemies  
 > **Attack** Wisdom vs Reflex  
 > **Hit** 2d10 + Wisdom modifier radiant and fire damage and persistent fire damage 10 (save ends).  
-> **Miss** Half damage.  
+> **Miss** Half damage, and no persistent damage.  
 > **Effect** One ally in the burst can spend a recovery to heal their recovery value.  
 
 > #### Shatter Spell  
@@ -5104,9 +5212,9 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > #### Sunlight Shields  
 > *Your stance sits halfway between martial form and magic prowess, conjuring shields of light to defend yourself and others.*  
 > **Daily** **Utility** **16** (**Swift Action**) ● **Divine, Radiant, Conjuration**  
-> **Far** wall 1 (range 10)  
+> **Far** wall 1 within range 10  
 > **Effect** Allies in or adjacent to the wall get a +2 power bonus to AC. An enemy that moves into the wall stops moving immediately and cannot move for the rest of the turn. Walls created last until the end of your next turn.  
-> **Maintain Swift** Conjure a new wall within range. This does not prolong the duration of existing walls you conjured with this power, which disappear at the end of your turn.  
+> **Maintain Swift** Conjure a new wall within range, which lasts until the end of your next turn. This does not prolong the duration of any existing walls you conjured with this power. You cannot conjure the new wall in the same location as an existing wall.
 
 > #### Divide and Conquer  
 > *This strike pulls essence from the target, creating an effigy of the creature.*  
@@ -5117,11 +5225,11 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 
 > #### Battle Against the Sun  
 > *To challenge you is to challenge the sun itself: An exercise in futility.*  
-> **Daily** **Attack** **19** (**Standard Action**) ● **Divine, Conjuration, Fire, Focus**  
+> **Daily** **Attack** **19** (**Standard Action**) ● **Conjuration, Divine, Fire, Focus**  
 > **Ranged** 10, an unoccupied square  
-> **Effect** You conjure a miniature sun, which occupies one square. The sun casts bright light in a 2-square radius. It makes a ranged attack during each of your turns, including the turn it was conjured. If you spend a move action, the sun moves up to 4 squares. 
-*Attack:* Ranged 5, one enemy; your Wisdom vs Reflex; 2d10 + Wisdom modifier radiant damage.  
-> **Maintain Swift** The sun remains another round and makes another attack.  
+> **Effect** You conjure a miniature sun, which occupies one square. The sun casts bright light in a 2-square radius. The sun remains until the end of your next turn. It makes a ranged attack in each of your turns where it exists,  including this turn. On your turns, you may spend a move action to move the sun up to 4 squares.
+> *Attack:* Ranged 5, one enemy; your Wisdom vs Reflex; 2d10 + Wisdom modifier radiant damage.  
+> **Maintain Swift** The sun remains until the end of your next turn.  
 
 > #### Noblesse Oblige  
 > *When all else fails, your allies turn to you to save them.*  
@@ -5144,15 +5252,6 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Near** burst 10, one ally  
 > **Effect** Select one of your unexpended encounter or daily powers that takes a standard, move, swift or free action. Your ally can use that power. They also gain temporary HP equal to your recovery value.  
 
-> #### Karmic Strike  
-> *This blow marks an enemy with a simple brand that burrows into their essence. As they do harm, the brand sees to it that they are harmed as well.*  
-> **Encounter** **Attack** **23** (**Standard Action**) ● **Divine, Weapon, Radiant**  
-> **Melee** weapon, one creature  
-> **Attack** Wisdom vs AC  
-> **Hit** 3dW + Wisdom modifier radiant damage.  
-> **Effect** Until the end of your next turn, any ally of yours targeted by the target’s attack can spend a recovery to heal up to their recovery value.  
-> **Maintain Swift** Maintain the effect.  
-
 > #### King’s Castle  
 > *Your faithful respond to your call for help.*  
 > **Encounter** **Attack** **23** (**Counter Action**) ● **Divine, Focus, Radiant**  
@@ -5162,15 +5261,23 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Hit** 4d10 + Wisdom radiant damage.  
 > **Effect** You or a willing ally within range teleports to the triggering ally’s space, and the triggering ally teleports to the space you/the other ally just left. The one teleported to the space takes the hit instead of the triggering ally.  
 
+> #### Swords to Ploughshares  
+> *This blow marks an enemy with a simple brand that burrows into their essence. Their strikes heal and harm in equal measure.*  
+> **Encounter** **Attack** **23** (**Standard Action**) ● **Divine, Weapon, Radiant**  
+> **Melee** weapon, one creature  
+> **Attack** Wisdom vs AC  
+> **Hit** 3dW + Wisdom modifier radiant damage.  
+> **Effect** Until the end of your next turn, any ally of yours targeted by the target’s attack can spend a recovery to heal up to their recovery value.  
+> **Maintain Swift** Maintain the effect.  
+
 > #### Path of the Sun  
 > *Coalesce the power of the sun into a powerful beam that washes over enemies and allies alike, leaving behind thousands of motes of light.*  
 > **Daily** **Attack** **25** (**Standard Action**) ● **Divine, Focus, Fire, Radiant**  
 > **Near** wall 10, all enemies in the wall  
 > **Attack** Wisdom vs Fortitude  
 > **Hit** 3d8 + Wisdom modifier radiant and fire damage.  
-> **Effect** Allies that move through the wall only spend 1 movement for every 2 wall spaces moved through. 
-Make the attack against any enemy that enters a wall space or ends its turn on a wall space.  
-> **Maintain Swift** Wall remains for another round.  
+> **Effect** The wall persists until the end of your next turn. Allies that move through the wall only spend 1 movement for every 2 wall spaces moved through. Make the attack against any enemy that enters a wall space or ends its turn on a wall space. The wall persists until the end of your next turn.  
+**Maintain Swift** The wall persists until the end of your next turn.  
 
 > #### Push the Advantage  
 > *With the enemy defeated, you spur an ally towards further glory.*  
@@ -5186,7 +5293,7 @@ Make the attack against any enemy that enters a wall space or ends its turn on a
 > **Effect** Each ally in range may make a basic attack. If they do so, they heal equal to their recovery value.  
 
 > #### Harsh Light of Day  
-> *This attack brings with it a blast of light, forcing enemies to reveal their true selves.*  
+> *This attack brings with it a blast of light, making your enemies quail before the light of judgement.*  
 > **Encounter** **Attack** **27** (**Standard Action**) ● **Divine, Focus, Radiant**  
 > **Ranged** 10, one enemy or square  
 > **Attack** Wisdom vs Reflex  
@@ -5195,7 +5302,7 @@ Make the attack against any enemy that enters a wall space or ends its turn on a
 
 > #### Judgement Day  
 > **Daily** **Attack** **29** (**Standard Action**) ● **Divine, Radiant, Focus**  
-> **Far** burst 2, all enemies  
+> **Far** burst 2 within range 10, all enemies  
 > **Attack** Wisdom vs Fortitude  
 > **Hit** 3d8 + Wisdom modifier radiant damage and they are blinded (save ends).  
 > **Effect** Allies within the area heal equal to their recovery value.  
@@ -5212,7 +5319,9 @@ Make the attack against any enemy that enters a wall space or ends its turn on a
 **Key Ability:** Dexterity  
 **Secondary Ability:** Charisma  
 
-Other than the powers of the Rapier’s Point and Blades in the Dark Discipline, the main ways to gain momentum are the features of the Exemplar class. Powers that involve momentum may be of limited use to non-Exemplars. 
+You are a graceful, skilled duelist.
+
+**Note:** Other than the powers of the Rapier’s Point and Blades in the Dark Discipline, the main ways to gain momentum are the features of the Exemplar class. Powers that involve momentum may be of limited use to non-Exemplars. 
 
 If you do gain momentum from a power, the same rule for losing momentum applies as for the Exemplar: you lose it if you are hit by any attack.  
 
@@ -5262,8 +5371,8 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 > **Melee** weapon, one target  
 > **Attack** Dexterity vs AC  
 > **Hit** 2dW + Dexterity modifier damage.  
-> **Effect** Your allies get a +2 bonus on attack rolls against the target while you maintain this effect.  
-> **Maintain Swift**   
+> **Effect** Until the end of your next turn, your allies get a +2 bonus on attack rolls against the target.  
+> **Maintain Swift** The effect persists until the end of your next turn.    
 
 > #### Throw Off  
 > **Daily** **Utility** **6** (**Swift Action**) ● **Martial**  
@@ -5293,7 +5402,7 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 > **Near** burst 1, all enemies  
 > **Attack** Dexterity vs AC  
 > **Hit** 2dW + Dexterity modifier damage and push a number of squares equal to your Charisma modifier.  
-> **Boost** *Level 23:* 3dW + Dexterity modifier damage, and the target is also knocked prone.  
+> **Boost** **Level 23** 3dW + Dexterity modifier damage, and the target is also knocked prone.  
 
 > #### Blur of Cloaks  
 > **Daily** **Attack** **15** (**Standard Action**) ● **Martial, Weapon**  
@@ -5316,7 +5425,7 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 > **Hit** 1dW + Dexterity modifier damage and push 1. You shift 1.  
 > **Effect** Make a secondary attack against the same target. 
 *Secondary Attack:* Dexterity vs AC; 1dW + Dexterity modifier damage and push 1. You shift 1.  
-> **Boost** *Level 27:* Do 2dW + Dexterity modifier damage with each attack, and you push and shift a number of squares equal to your Charisma modifier.  
+> **Boost** **Level 27** Do 2dW + Dexterity modifier damage with each attack, and you push and shift a number of squares equal to your Charisma modifier.  
 
 > #### Call Bid  
 > **Daily** **Attack** **19** (**Standard Action**) ● **Martial, Weapon**  
@@ -5343,16 +5452,16 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 > #### Swift Riposte  
 > **Daily** **Utility** **22** (**Swift Action**) ● **Martial**  
 > **Self**   
-> **Effect** Each time you are the target of an attack, you can make a basic melee or ranged attack against the attacker as an immediate (counter) action.  
-> **Maintain Swift**   
+> **Effect** Each time you are the target of an attack, you can make a basic melee or ranged attack against the attacker as an immediate (counter) action. This effect lasts until the end of your next turn.  
+> **Maintain Swift** The effect persists until the end of your next turn.  
 
 > #### Lethal Misdirection  
 > **Daily** **Attack** **25** (**Counter Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
-> **Trigger** An enemy targets you with an attack, and a different enemy is adjacent to you.  
-> **Attack** Dexterity vs AC, against the enemy adjacent to you  
+> **Trigger** An enemy makes an attack that includes you as a target, and at least one creature, not including that enemy, is adjacent to you and is not currently a target of the attack.  
+> **Attack** Dexterity vs AC, against the adjacent creature  
 > **Hit** 3dW + Dexterity modifier damage.  
-> **Effect** The attack targets the enemy adjacent to you instead of you.  
+> **Effect** The enemy’s attack is resolved against the creature adjacent to you instead of you.  
 
 > #### Deflect Attack  
 > **Daily** **Attack** **29** (**Counter Action**) ● **Martial, Weapon**  
@@ -5360,21 +5469,23 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 > **Trigger** An enemy in reach targets you with an attack.  
 > **Attack** Dexterity vs AC  
 > **Hit** 3dW + Dexterity modifier damage and the attack misses.  
-> **Miss** Your attack does half damage.  
+> **Miss** Your attack does half damage. Resolve the enemy’s attack normally. 
 
 ## Red in Tooth and Claw  
 
 **Key Ability:** Constitution  
 **Secondary Ability:** Wisdom  
 
-See the Tags rules for details on how Form and Wild Shape tagged powers work.  
+You can take the form of wild beasts, or take on their characteristics while keeping your own form.
+
+**Note:** See the Tags rules for details on how Form and Wild Shape tagged powers work.  
 
 > #### Blood Lust  
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
 > **Melee** 1, one enemy  
 > **Attack** Constitution vs AC  
-> **Hit** 1d8 + Constitution modiifer damage, and you gain temporary hit points equal to your Wisdom modifier.  
+> **Hit** 1d8 + Constitution modifier damage, and you gain temporary hit points equal to your Wisdom modifier.  
 > *Level 21:* 2d8 + Constitution modifier damage, and you gain temporary hit points equal to double your Wisdom modifier.  
 > **Special** Can be used as a basic melee attack.  
 
@@ -5388,12 +5499,12 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > *Level 21:* 2d6 + Constitution modifier damage.  
 > **Special** Can be used as a basic melee attack.  
 
-> #### Hunker Down  
+> #### Stout Rebuff  
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
 > **Melee** 1, one enemy  
 > **Attack** Constitution vs AC  
-> **Hit** 1d8 + Constitution modiifer damage, and the target is rattled until the end of your next turn. 
+> **Hit** 1d8 + Constitution modifier damage, and the target is rattled until the end of your next turn. 
 > *Level 21:* 2d8 + Constitution modifier damage.  
 > **Special** Can be used as a basic melee attack.  
 
@@ -5425,12 +5536,12 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > *Level 21:* 2d12 + Constitution modifier damage.  
 > **Special** Can be used as a basic melee attack.  
 
-> #### Sic 'Em  
+> #### Sic ’Em  
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
 > **Melee** 1, one enemy  
 > **Attack** Constitution vs AC  
-> **Hit** 1d8 + Constitution modiifer damage, and the target is marked. 
+> **Hit** 1d8 + Constitution modifier damage, and the target is marked. 
 > *Level 21:* 2d8 + Constitution modifier damage.  
 > **Special** Can be used as a basic melee attack.  
 
@@ -5452,7 +5563,7 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > *Level 21:* Reach 2; 2d8 + Constitution modifier damage and the target is pulled 2.  
 > **Special** Can be used as a basic melee attack.  
 
-> #### Venomous Sting  
+> #### Venomous Strike  
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Poison, Spirit, Wild Shape**  
 > **Melee** 1, one enemy  
@@ -5461,7 +5572,7 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > *Level 21:* 2d8 + Constitution modifier damage, and if the creature moves before the end of its next turn, it takes additional poison damage equal to double your Wisdom modifier.  
 > **Special** Can be used as a basic melee attack.  
 
-> #### Worrying Bite  
+> #### Drag Down 
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
 > **Melee** 1, one enemy  
@@ -5477,8 +5588,8 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > **Melee** touch, one target  
 > **Attack** Constitution vs AC  
 > **Hit** 2d6 + Constitution modifier damage, and the target is weakened until the start of your next turn.  
-> **Boost** **Level 13:** 4d6 + Strength modifier damage.
-> **Level 27:** 6d6 + Strength modifier damage.  
+> **Boost** **Level 13** 4d6 + Strength modifier damage.
+> **Boost Level 27** 6d6 + Strength modifier damage.  
 
 > #### Flailing Attacks  
 >
@@ -5507,10 +5618,10 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 >
 > **Daily** **Attack** **1** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
-> **Effect** You take the form of a Small badger, wolverine or dire weasel, with a burrow speed of 2 and blindsense. As an immediate reaction after you are hit by an attack, you can shift 1 square. While in this form, you gain the *sic 'em* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> **Effect** You take the form of a Small badger, wolverine or dire weasel, with a burrow speed of 2 and blindsense. As an immediate reaction after you are hit by an attack, you can shift 1 square. While in this form, you gain the *sic ’em* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
 > Once during your time in this form, you can make the following attack:     
 > **Form Attack** (standard action) ● Focus  
-> Melee 1; Con vs AC; 3d8 + Constitution modifier damage, or 4d8 + Constitution modifier if you are staggered; on a miss, the target takes half damage.  
+> Melee 1; Con vs AC; 2d8 + Constitution modifier damage, or 3d8 + Constitution modifier if you are staggered; on a miss, the target takes half damage.  
 
 > #### Shape of the Bear  
 >
@@ -5550,11 +5661,11 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > **Form Attack** (standard action) ● Focus  
 > Melee 1; Con vs AC; you may shift 2 before this attack; Constitution modifier damage and the target takes 10 persistent damage (save ends); the target takes 5 persistent damage on a miss.  
 
-> #### Shape of the Giant Tortoise  
+> #### Shape of the Tortoise  
 >
 > **Daily** **Attack** **1** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
-> **Effect** You take the form of a Small tortoise, with resistance to untyped damage 3 (5 at level 11, 7 at level 21). You also reduce any unwilling movement you are subject to by 1 square. While in this form, you gain the *hunker down* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> **Effect** You take the form of a Small or Medium tortoise, with resistance to untyped damage 3 (5 at level 11, 7 at level 21). You also reduce any unwilling movement you are subject to by 1 square. While in this form, you gain the *stout rebuff* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
 > Once during your time in this form, you can make the following attack:     
 > **Form Attack** (standard action) ● Focus, Healing  
 > Melee 1; Con vs AC; 2d8 + Constitution modifier damage and you may spend a recovery to heal your recovery value in hit points; half damage on a miss.  
@@ -5563,7 +5674,7 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 >
 > **Daily** **Attack** **1** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
-> **Effect** You take the form of a Medium wolf, with a +2 bonus to speed. You gain a +2 power bonus to attacks against prone targets. While in this form, you gain the *worrying bite* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> **Effect** You take the form of a Medium wolf, with a +2 bonus to speed. You gain a +2 power bonus to attacks against prone targets. While in this form, you gain the *drag down* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
 > Once during your time in this form, you can make the following attack:     
 > **Form Attack** (standard action) ● Focus  
 > Melee 1; Con vs AC; 2d8 + Constitution modifier damage, and if the target is prone you grapple them; on a miss, the target takes half damage. *Effect:* After the attack, move up to half your speed. You may pull one adjacent enemy of size Large or smaller behind you.  
@@ -5599,7 +5710,7 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > **Daily** **Utility** **2** (**Swift Action**) ● **Spirit**  
 > **Self**   
 > **Effect** Until the end of your next turn, you channel your inner beast.  You gain a +1 power bonus to speed, a +2 power bonus to AC and Reflex defense, and a +3 power bonus to Acrobatics and Stealth checks.  
-> **Maintain Special** At the end of each of your turns during which this power is in effect, make a saving throw. If you succeed, the effect persists until the end of your next turn. You may not voluntarily fail the save.  
+> **Maintain Special** At the end of each of your turns during which this power is in effect, make a saving throw. If you succeed, the effect persists until the end of your next turn. 
 
 > #### Forceful Animus  
 >
@@ -5607,7 +5718,7 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > **Daily** **Utility** **2** (**Swift Action**) ● **Spirit**  
 > **Self**   
 > **Effect** Until the end of your next turn, you channel your inner beast.  You gain a +2 power bonus to all damage rolls and to AC and Fortitude defense, and a +3 power bonus to Athletics and Endurance checks.  
-> **Maintain Special** At the end of each of your turns during which this power is in effect, make a saving throw. If you succeed, the effect persists until the end of your next turn. You may not voluntarily fail the save.  
+> **Maintain Special** At the end of each of your turns during which this power is in effect, make a saving throw. If you succeed, the effect persists until the end of your next turn. 
 
 > #### Full Moon Stance  
 >
@@ -5619,13 +5730,13 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 >
 > **Daily** **Utility** **2** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
-> **Effect** You take the form of a Tiny land or aquatic animal, like a cat, salmon or ferret. Your equipment and anything you are wearing merges into your body, but you keep the same statistics and benefit from any bonuses that, for example, magic items give you. You cannot talk in this form. While in this form you cannot use powers unless they have the Wild Shape tag, and you cannot make attacks or use attack powers. You can leave this form as a swift action. Pick one:  
+> **Effect** You take the form of a Tiny land or aquatic animal, like a cat, salmon or ferret. Your equipment and anything you are wearing merges into your body, but you keep the same statistics and benefit from any bonuses that, for example, magic items give you. You cannot talk in this form. While in this form you cannot use powers unless they have the Wild Shape tag, and you cannot make attacks or use attack powers. You remain in this form until the end of your next turn. Pick one:  
 > ● Your speed becomes 8  
 > ● Your speed becomes 2, and you get a swim speed of 8  
 > ● Your speed becomes 6 and you get darkvision  
 > ● Your speed becomes 4 and you get blindsight range 6  
 > ● Your speed becomes 4 and you can squeeze through gaps as if you were a Diminutive creature  
-> **Maintain Standard**   
+> **Maintain Swift** You remain in this form until the end of your next turn.  
 
 > #### Bear Hug  
 >
@@ -5641,12 +5752,12 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > **Attack** Constitution vs Will  
 > **Hit** 1d8 + Constitution modifier psychic damage, and the target suffers a -4 penalty on attacks against you until the end of your next turn.  
 
-> #### Kinda Hard to Miss  
+> #### Hard to Miss  
 >
-> *Of all the opponents to target, you’re the one that somewhat stands out.*  
+> *Of all the opponents to target, you’re the one that stands out.*  
 > **Encounter** **Attack** **3** (**Move Action**) ● **Spirit**  
 > **Near** burst 5, all enemies  
-> **Effect** The target is marked until they inflict damage on you. You gain combat advantage against each marked target until the end of your next turn. If you take damage from a target while it is marked, shift up to 5 squares and make a basic attack against the target as a reaction.  
+> **Effect** The target is marked until they inflict damage on you. You gain combat advantage against each marked target until the end of your next turn. If you take damage from a target while it is marked, as a reaction you may shift up to 5 squares and then make a basic attack against the target.  
 > **Maintain Move** The effect persists against marked targets until the end of your next turn.  
 
 > #### Illogical Rage  
@@ -5655,7 +5766,7 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > **Daily** **Attack** **5** (**Reaction Action**) ● **Spirit**  
 > **Self**   
 > **Trigger** You are staggered.  
-> **Effect** Until you are no longer staggered or until you fall unconscious, you gain a +4 power bonus to all damage rolls. If you don’t hit with an attack on your turn, you gain a +2 bonus to damage on your next hit. This bonus is cumulative every round until you hit. If you do not hit an enemy before the bonus reaches +14, you must make a melee basic attack against the nearest creature on your turn.  
+> **Effect** Until you are no longer staggered or until you fall unconscious, you gain a +4 power bonus to all damage rolls. If you don’t hit with any attack on your turn, you gain a +2 bonus to damage on your next hit. This bonus is cumulative every round until you hit. If you do not hit an enemy before the bonus reaches +14, you must make a melee basic attack against the nearest creature on your turn.  
 
 > #### Panicked Switch  
 >
@@ -5665,7 +5776,7 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > **Attack** Constitution vs Will  
 > **Hit** 3d10 + your Intelligence modifier damage and shunt the target 2. They are helpless and size Small (save ends both). Until they make their saving throw, you can use a move action to shunt them 2.  
 
-> #### Shape of the Giant Frog  
+> #### Shape of the Frog  
 >
 > **Daily** **Attack** **5** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
@@ -5673,9 +5784,9 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > Once during your time in this form, you can make the following attack:     
 > **Form Attack** (swift action) ● Focus  
 > Melee 1; Con vs Reflex; the target is grappled. Make a secondary attack against the target.    
-> *Secondary Attack:* Melee 1; Con vs Fortitude, must be grappling the target, the target must be Medium or smaller; the target is swallowed. While the target is swallowed, it is restrained and takes 5 damage plus 5 acid damage at the start of each of its turns. The swallowed creature can make basic melee attacks with one-handed or natural weapons. You may release the creature as a swift action. If the creature succeeds at an escape a grapple action with a -4 penalty, it escapes your stomach and appears in an unoccupied space of its choice adjacent to you.  
+> *Secondary Attack:* Melee 1; Con vs Fortitude, must be grappling the target, the target must be Medium or smaller; the target is swallowed. While the target is swallowed, it is restrained and takes 5 damage plus 5 acid damage at the start of each of its turns. The swallowed creature can make basic melee attacks against you with one-handed or natural weapons. You may release the creature as a swift action. If the creature succeeds at an escape a grapple action with a -4 penalty, it escapes your stomach and appears in an unoccupied space of its choice adjacent to you.  
 
-> #### Shape of the Giant Toad  
+> #### Shape of the Toad  
 >
 > **Daily** **Attack** **5** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
@@ -5697,7 +5808,7 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 >
 > **Daily** **Attack** **5** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
-> **Effect** You take the form of a Small spider, with a climb speed of 4 and the web stride feature. While in this form, you gain the *venomous sting* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> **Effect** You take the form of a Small spider, with a climb speed of 4 and the web stride feature. While in this form, you gain the *venomous strike* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
 > Once during your time in this form, you can make the following attack:     
 > **Form Attack** (swift action) ● Focus  
 > Ranged 5; Con vs Reflex; the target is restrained (save ends); on a miss, the target is slowed (save ends).  
@@ -5736,20 +5847,20 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > **Trigger** You are hit by an attack.  
 > **Effect** Shift your speed toward the triggering creature and make a melee basic attack against it.  
 
-> #### Shape of the Giant Bat  
+> #### Shape of the Bat  
 >
 > **Daily** **Attack** **9** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
-> **Effect** You take the form of a Small bat, with a fly speed of 6, darkvision and blindsense. While in this form, you gain the *blood lust* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> **Effect** You take the form of a Small bat, with a land speed of 2, a fly speed of 6, darkvision and blindsense. While in this form, you gain the *blood lust* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
 > Once during your time in this form, you can make the following attack:    
 > **Form Attack** (standard action) ● Focus  
 > Melee 1; Con vs AC; you may shift 2 before this attack and after this attack; 1d8 + Constitution modifier damage and the target takes 10 persistent damage (save ends); the target takes 5 persistent damage on a miss. *Effect:* Each time the target takes persistent damage from this attack, you heal 5 damage.  
 
-> #### Shape of the Giant Eagle  
+> #### Shape of the Eagle  
 >
 > **Daily** **Attack** **9** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
-> **Effect** You take the form of a Large eagle, hawk or other raptor, with a fly speed of 8. While in this form, you gain the *mad rush* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> **Effect** You take the form of a Large eagle, hawk or other raptor, with a land speed of 2 and a fly speed of 8. While in this form, you gain the *mad rush* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
 > Once during your time in this form, you can make the following attack:     
 > **Form Attack** (standard action) ● Focus  
 > Melee 1; Con vs AC; you may shift 2 before this attack and after this attack; 2d8 + Constitution modifier damage.  
@@ -5758,7 +5869,7 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 >
 > **Daily** **Attack** **9** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
-> **Effect** You take the form of a Medium or Large shark, with a swim speed of 10. While in this form, you gain the *blood lust* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> **Effect** You take the form of a Medium or Large shark, with a swim speed of 10 and no land speed. You can breathe underwater while in this form. While in this form, you gain the *blood lust* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
 > Once during your time in this form, you can make the following attack:     
 > **Form Attack** (swift action) ● Focus  
 > Melee 1; Con vs AC; 3d8 + Constitution modifier damage; on a miss, the target takes half damage. *Effect:* Shift a number of squares up to your Wisdom modifier. Drag the target behind you.  
@@ -5777,7 +5888,7 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > *The bigger they are…*  
 > **Daily** **Attack** **9** (**Swift Action**) ● **Spirit**  
 > **Near** burst 10, one creature  
-> **Effect** The target is marked until the end of the encounter and you gain a +1 bonus to attack and a +2 bonus to damage against the target until it is dead or five minutes. You are also immune to any fear effects from the target.  
+> **Effect** The target is marked and you gain a +1 bonus to attack and a +2 bonus to damage against the target. You are also immune to any fear effects from the target. This effect persists until the end of the encounter.
 
 > #### Active Camouflage  
 >
@@ -5797,14 +5908,14 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 >
 > **Daily** **Utility** **10** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
-> **Effect** You take the form of a Tiny flying animal, like a bird or a bat. You cannot talk in this form. While in this form you cannot use powers unless they have the Wild Shape tag, and you cannot make attacks or use attack powers. You can leave this form as a swift action. Your speed becomes 4 but you get a fly speed of 8.  
-> **Maintain Standard**   
+> **Effect** You take the form of a Tiny flying animal, like a bird or a bat. You cannot talk in this form. While in this form you cannot use powers unless they have the Wild Shape tag, and you cannot make attacks or use attack powers. Your speed becomes 4 but you get a fly speed of 8. You remain in this  form until the end of your next turn.  
+> **Maintain Swift** You remain in this  form until the end of your next turn.  
 
 > #### Survivor  
 >
 > **Daily** **Utility** **10** (**Swift Action**) ● **Spirit**  
 > **Self**   
-> **Effect** You spend a recovery, regain additional hit points equal to your level, and you gain a +10 bonus to Endurance checks for one hour.  
+> **Effect** You may spend a recovery. If you do so, you heal your recovery value plus additional hit points and gain a +10 bonus to Endurance checks for one hour. 
 
 > #### Tenacity  
 >
@@ -5826,7 +5937,7 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > **Near** burst 10, one creature  
 > **Attack** Constitution vs Will  
 > **Hit** 2d10 + Constitution modifier psychic damage, and the creature cannot willingly move closer to you until the end of your next turn.  
-> **Boost** **Level 27:** Range becomes Near burst 10, all enemies  
+> **Boost** **Level 27** Range becomes Near burst 10, all enemies  
 
 > #### Ferocious Feline  
 >
@@ -5834,22 +5945,22 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > **Daily** **Attack** **15** (**Swift Action**) ● **Spirit**  
 > **Self**   
 > **Effect** Until the end of the encounter you gain a +2 power bonus to Dexterity-based checks and to AC and Reflex defense, and a +1 bonus to speed.  
-> **Boost** **Level 29:** Make a basic melee attack when you use this power. Also, you receive a +4 power bonus to Dexterity-based checks and to AC and Reflex defense, and a +2 bonus to speed, instead of the bonuses listed under Effect.  
+> **Boost** **Level 29** Make a basic melee attack when you use this power. Also, you receive a +4 power bonus to Dexterity-based checks and to AC and Reflex defense, and a +2 bonus to speed, instead of the bonuses listed under Effect.  
 
 > #### Shape of the Manticore  
 >
 > **Daily** **Attack** **15** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
-> **Effect** You take the form of a Large manticore, with darkvision and a fly speed of 6 squares. Each time you are hit by a melee attack, do damage equal to your Wisdom modifier to the attacker. While in this form, you gain the *worrying bite* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> **Effect** You take the form of a Large manticore, with darkvision and a fly speed of 6 squares. Each time you are hit by a melee attack, do damage equal to your Wisdom modifier to the attacker. While in this form, you gain the *drag down* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
 > Once during your time in this form, you can make the following attack:     
 > **Form Attack** (swift action) ● Focus  
 > Near arc 3; Con vs Reflex; 2d8 + Constitution modifier damage and the target is immobile (save ends).  
 
-> #### Shape of the Raptor Behemoth  
+> #### Shape of the Raptor 
 >
 > **Daily** **Attack** **15** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
-> **Effect** You take the form of a Small velociraptor or Large deinonychus, with a +2 bonus to your speed. While in this form, you score critical hits on a roll of 19 as well as 20. While in this form, you gain the *worrying bite* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> **Effect** You take the form of a Small velociraptor or Large deinonychus, with a +2 bonus to your speed. While in this form, you score critical hits on a roll of 19 as well as 20. While in this form, you gain the *drag down* at-will power. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
 > Once during your time in this form, you can make the following attack:     
 > **Form Attack** (swift action) ● Focus  
 > Melee 1; Con vs Reflex, two attacks; 2d8 + Constitution modifier damage. If both attacks hit, the target is knocked prone.  
@@ -5906,7 +6017,7 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > **Daily** **Utility** **22** (**Swift Action**) ● **Healing, Spirit**  
 > **Self**   
 > **Effect** Until the start of your next turn, you take no damage of any kind.  
-> **Maintain Swift** The effect persists until the start of your next turn.  
+> **Maintain Swift** You gain resistance to all damage 15 until the start of your next turn. 
 
 > #### Shake It Off  
 >
@@ -5953,10 +6064,113 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 **Key Ability:** Dexterity  
 **Secondary Ability:** Wisdom  
 
+You are a keen, measured sharpshooter. 
+
+> #### Aimed Shot  
+>
+> *You take a moment to aim before firing.*  
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
+> **Ranged** weapon, one creature  
+> **Attack** Dexterity vs Reflex  
+> **Hit** 1dW damage, and the target is shunted 1 square.  
+> *Level 21:* Increases to 2dW damage.  
+
+> #### Sharpshooter  
+>
+> *You check for range and shoot a perfect shot.*  
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
+> **Ranged** weapon, one creature  
+> **Attack** Dexterity vs AC  
+> **Hit** 1dW + Dexterity modifier damage and choose one:  
+> ● The target is slowed until the end of your next turn. 
+> ● The target suffers a -2 penalty to defenses until the end of your next turn.  
+> *Level 21:* Increases to 2dW damage.  
+
+> #### Snap-Shot  
+>
+> *You bring up your weapon quickly and shoot a vital location.*  
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
+> **Ranged** weapon, one creature  
+> **Attack** Dexterity vs AC  
+> **Hit** 1dW + Dexterity modifier damage, and choose one:
+> ● The target is marked until the end of your next turn.  
+> ● The target is knocked prone.  
+> *Level 21:* Increases to 2dW damage.  
+> **Special** If a target you have marked with *snap-shot* makes an attack that does not include you as a target, you can make a *snap-shot* attack against them as a counter.  
+
+> #### Beyond The Call  
+>
+> *You stop aiming as enemy numbers begin to mass.*  
+> **Encounter** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
+> **Ranged** weapon, three creatures  
+> **Attack** Dexterity vs AC  
+> **Hit** 1dW + Dexterity modifier damage.  
+
+> #### Swift, Silent, Deadly  
+>
+> *From across the field of battle, your arrow finds its mark.*  
+> **Encounter** **Attack** **1** (**Standard Action**) ● **Consistent, Martial, Weapon**  
 > **Ranged** weapon, one creature  
 > **Attack** Dexterity vs AC  
 > **Hit** 2dW + Dexterity modifier damage.  
-> **Effect** You gain a +2 power bonus to attack rolls against the target until the end of your next turn.  
+> **Effect** Gain a +2 power bonus to attack rolls against the target until the end of your next turn.  
+> **Boost Level 7** This power gains the Consistent tag. 
+
+> #### Keyhole Attack  
+>
+> *The target is dead before the twang of the bowstring is heard.*  
+> **Daily** **Attack** **1** (**Standard Action**) ● **Consistent, Martial, Weapon**  
+> **Ranged** weapon, one creature  
+> **Attack** Dexterity vs AC  
+> **Hit** 3dW + Dexterity modifier damage.  
+
+> #### Fake Echo  
+>
+> *Enemies have trouble finding where your shots come from.*  
+> **Encounter** **Utility** **2** (**Free Action**) ● **Martial**  
+> **Self**   
+> **Requirements** You make a ranged attack while hidden.  
+> **Effect** You remain hidden after the attack.  
+
+> #### Hold The Breath, Skip A Beat  
+>
+> *You pause for a split second before loosing your arrow.*  
+> **Daily** **Utility** **2** (**Free Action**) ● **Martial**  
+> **Self**   
+> **Effect** Gain +4 power bonus to your next attack roll. If you miss, this power is not expended.  
+
+> #### Batter The Target  
+>
+> *Your opponent struggles to move after your last hit.  You fire again to keep them down.*  
+> **Encounter** **Attack** **3** (**Swift Action**) ● **Martial, Weapon**  
+> **Ranged** weapon, one creature  
+> **Trigger** You hit a creature.  
+> **Effect** The target takes 1dW extra damage from the triggering attack, and you can make a basic attack against the same target.  
+
+> #### Expose Target  
+>
+> *Your attack is less meant to kill but more to force the target into the firing line of your allies.*  
+> **Encounter** **Attack** **3** (**Standard Action**) ● **Martial, Weapon**  
+> **Ranged** weapon, one creature  
+> **Attack** Dexterity vs AC  
+> **Hit** 2dW + Dexterity modifier damage and the target grants combat advantage until the end of your next turn.  
+> **Effect** Shunt the target 2.  
+
+> #### Organ Shot  
+>
+> *The arrow pierced a vital organ and the subject struggles to breathe.*  
+> **Daily** **Attack** **5** (**Free Action**) ● **Consistent, Martial, Weapon**  
+> **Self**   
+> **Trigger** You hit a creature.  
+> **Attack** Dexterity vs Fortitude  
+> **Hit** The target takes 10 damage, and a further 10 persistent damage (save ends).  
+
+> #### Check the Wind  
+>
+> *You take advantage of the prevailing weather conditions.*  
+> **Encounter** **Utility** **6** (**Swift Action**) ● **Martial, Weapon**  
+> **Self**   
+> **Effect** Your weapon’s long range doubles for your next ranged attack and you gain a +2 bonus to the attack roll.  
 
 > #### Pinpoint Accuracy  
 > *You find a tiny gap in the enemy’s cover and exploit it*  
@@ -5984,14 +6198,14 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > **Miss** Half damage.  
 > **Special** The first attack gains a +3 power bonus to attack, the second gains a +2 power bonus and the third gains a +1 power bonus.  
 
-> #### Failure Is Not An Option  
+> #### Failure Is Not an Option  
 > *You can’t afford to miss this shot.*  
 > **Encounter** **Utility** **10** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You make a ranged attack roll and do not like the result.  
 > **Effect** Reroll the attack roll and use the second result.  
 
-> #### Act Of God  
+> #### Act of God  
 > *Your attack was sudden and violent. It sends your enemies diving for cover.*  
 > **Encounter** **Attack** **13** (**Free Action**) ● **Fear, Martial, Weapon**  
 > **Self**   
@@ -6005,7 +6219,6 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > **Ranged** weapon, one creature  
 > **Attack** Dexterity vs AC  
 > **Hit** 3dW + Dexterity modifier + Wisdom modifier damage.  
-> **Special** You can use this power again with an action point (replacing the action).  
 
 > #### Eye Shot  
 > *You see your rival aiming back at you.  Your reflexes are better than theirs.*  
@@ -6027,7 +6240,7 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > *You balance every aspect of your weapon, including compensating for range, gravity and wind.*  
 > **Encounter** **Utility** **16** (**Move Action**) ● **Martial, Weapon**  
 > **Self**   
-> **Effect** Double both the normal and the long range of your weapon. You can score a critical hit on a natural roll of 18, 19, or 20 until the end of your next turn.  
+> **Effect** Double both the normal and the long range of your weapon. Until the end of your next turn, any attacks you make with this weapon can score a critical hit on a natural roll of 18, 19, or 20.  
 
 > #### Deep Cover  
 > *Drenched in mud and leaves, layered in war paint, you can’t be distinguished from the surrounding terrain.*  
@@ -6037,14 +6250,14 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > **Hit** 3dW + Dexterity modifier damage.  
 > **Effect** You drop prone. Shift your speed. You lose any marks placed on you. You gain concealment until you move from your new square.  
 
-> #### Found The Sweet Spot  
+> #### Found the Sweet Spot  
 > *The target screams in pain and thrashes about from your attack. You must have struck a nerve.*  
 > **Encounter** **Attack** **17** (**Standard Action**) ● **Martial, Weapon**  
 > **Ranged** weapon, one creature  
 > **Attack** Dexterity vs AC  
 > **Hit** 2dW + Dexterity modifier damage, and the target is stunned until the end of your next turn. *Aftereffect:* The target is weakened and slowed (save ends both).  
 
-> #### Go For The Kill  
+> #### Go for the Kill  
 > *It’s wounded.  Move in and finish it off.*  
 > **Daily** **Attack** **19** (**Free Action**) ● **Martial, Weapon**  
 > **Self**   
@@ -6058,7 +6271,7 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > **Trigger** You hit a creature.  
 > **Effect** The target takes 1dW extra damage from the triggering attack, and one adjacent creature takes 2dW + Dexterity modifier damage.  
 
-> #### Ghost Step  
+> #### Ghostly Form  
 > *You move like a spirit.*  
 > **Daily** **Utility** **22** (**Free Action**) ● **Martial**  
 > **Self**   
@@ -6086,7 +6299,7 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > **Attack** Dexterity vs AC  
 > **Hit** 5dW + Dexterity modifier damage.  
 > **Miss** Half damage.  
-> **Special** Your normal and long range are doubled for this attack. You can use this power again if you spend an action point to use it.  
+> **Special** Your normal and long range are doubled for this attack.  
 
 > #### Clean Kill  
 > *The first shot wasn’t intended to kill the target, just to bring its head around for the final shot.*  
@@ -6094,13 +6307,15 @@ See the Tags rules for details on how Form and Wild Shape tagged powers work.
 > **Ranged** weapon, one creature  
 > **Attack** Dexterity +2 vs AC  
 > **Hit** 1dW + Dexterity modifier damage, and make a secondary attack against the same target.  
-> *Secondary Attack:* Dexterity vs AC; on a hit, 3dW + Dexterity modifier damage. This is a critical hit. If you deal damage greater than or equal to the creature’s staggered value, it dies. On a miss, do half damage.  
+> *Secondary Attack:* Dexterity vs AC; on a hit, 3dW + Dexterity modifier damage. This is a critical hit. If you deal damage greater than or equal to the creature’s staggered value, it dies. On a miss, do half damage (the attack is not a critical hit).  
 
 ## Spells of Ice and Fire  
 **Key Ability:** Dexterity  
 **Secondary Ability:** Intelligence  
 
-When you first gain a power with the Flux tag, choose an element: lightning, acid, cold, fire or thunder. All powers with the Flux tag have that energy as a tag, and replace any reference to [flux] in the power text with that energy. There are some powers that allow you to change your flux energy, if you take them. You can also change your flux energy when you retrain at a new level. Some classes interact with Flux powers in other ways. 
+You control elemental ice and fire.
+
+**Note:** When you first gain a power with the Flux tag, choose an element: lightning, acid, cold, fire or thunder. All powers with the Flux tag have that energy as a tag, and replace any reference to [flux] in the power text with that energy. There are some powers that allow you to change your flux energy, if you take them. You can also change your flux energy when you retrain at a new level. Some classes interact with Flux powers in other ways. 
 
 When a power refers to [flux], it always means your current flux energy, even if you used the power when your flux energy was different. For example, if you conjured a vortex devil, it does damage of your current flux energy not the flux energy you had when you conjured it. 
 
@@ -6120,7 +6335,8 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Arcane, Flux, Focus**  
 > **Ranged** 10, one creature  
 > **Attack** Dexterity vs Reflex  
-> **Hit** 1d6 + Dexterity modifier [flux] damage. Increase damage to 2d6 + Dexterity modifier [flux] damage at 21st level.  
+> **Hit** 1d6 + Dexterity modifier [flux] damage.  
+> *Level 21:* 2d6 + Dexterity modifier [flux] damage.  
 
 > #### Bottled Thermodynamic Transfer  
 > *You bind a localized severe temperature change to your hand and hurl it to your foes.*  
@@ -6130,8 +6346,8 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Hit** 2d8 + Dexterity modifier [flux] damage.  
 > **Effect** You can make either a second attack against the target or attack each enemy adjacent to the target. 
 *Secondary Hit:* 1d8 + Dexterity modifier damage.  
-> **Boost** **Level 13:** Primary damage 3d8 + Dexterity modifier, secondary damage 2d8 + Dexterity modifier.
-**Level 27:** Primary damage 4d8 + Dexterity modifier, secondary damage 3d8 + Dexterity modifier.  
+> **Boost** **Level 13** Primary damage 3d8 + Dexterity modifier, secondary damage 2d8 + Dexterity modifier.
+**Boost Level 27** Primary damage 4d8 + Dexterity modifier, secondary damage 3d8 + Dexterity modifier.  
 
 > #### Entropic Burst  
 > *You shift the air density, creating a vortex to knock away your enemies.*  
@@ -6140,8 +6356,8 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Attack** Dexterity vs Reflex  
 > **Hit** 1d6 + Dexterity modifier [flux] damage, and the target is pushed to the nearest adjacent square outside the burst. If the target hits an obstruction, it is knocked prone.  
 > **Miss** Half damage, but the target is still pushed.  
-> **Boost** **Level 13:** Near burst 4; 2d6 + Dexterity modifier [flux] damage.
-**Level 27:** Near burst 6; 4d6 + Dexterity modifier [flux] damage.  
+> **Boost** **Level 13** Near burst 4; 2d6 + Dexterity modifier [flux] damage.
+**Boost Level 27** Near burst 6; 4d6 + Dexterity modifier [flux] damage.  
 
 > #### Resonant Ray  
 > *You hold your hand to the ground and a line of fire or jagged ice spreads across the surface to strike your foes.*  
@@ -6151,15 +6367,15 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Hit** 2d8 + Dexterity modifier [flux] damage, and until the end of your next turn the target is immobile (if cold) or weakened (if fire).  
 > **Miss** Half damage.  
 > **Special** The wall must be a straight line.  
-> **Boost** **Level 15:** Two rays; 3d8 + Dexterity modifier [flux] damage each.
-**Level 29:** Three rays; 4d8 + Dexterity modifier [flux] damage each, and the condition duration is save ends.  
+> **Boost** **Level 15** Two walls; 3d8 + Dexterity modifier [flux] damage each.
+**Boost Level 29** Three walls; 4d8 + Dexterity modifier [flux] damage each, and the condition duration is save ends.  
 
 > #### Thermal Absorption  
 > *Regardless of the temperature, it’s all just levels of entropy which you can absorb.*  
 > **Encounter** **Utility** **2** (**Counter Action**) ● **Arcane, Flux**  
 > **Self**   
 > **Trigger** You are about to take damage matching your flux energy.  
-> **Effect** Instead of taking damage, you recover hit points up to your recovery value. The excess damage is ignored.  
+> **Effect** You take no damage. You recover hit points up to your recovery value or the damage of the attack (whichever is less).  
 
 > #### Elemental Restraint  
 > *You employ your element to grab your target. You can either hold them in place or fling them across a room.*  
@@ -6169,7 +6385,7 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Hit** 1d6 + Dexterity modifier [flux] damage, and you inflict additional effects based on your flux energy.
 ● Cold: The target is immobile in an ice cage, blocking line of sight, and cannot break free until it inflicts damage on the ice equal to twice your level plus your Dexterity modifier.
 ● Fire: You inflict additional damage equal to your level and can shunt the target as many squares as your Dexterity modifier.  
-> **Boost** **Level 17:** 3d6 + Dexterity modifier damage.  
+> **Boost** **Level 17** 3d6 + Dexterity modifier damage.  
 
 > #### Thermal Isolation  
 > *You pick one location and radically affect its entropic state. This could freeze a target in its spot or light it on fire.*  
@@ -6177,59 +6393,60 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Ranged** 20, one creature  
 > **Attack** Dexterity vs Reflex  
 > **Hit** 2d8 + Dexterity modifier [flux] damage, and you inflict additional effects based on your flux energy: the target is restrained until the end of your next turn (cold) or if the target does not drop prone on its next turn, it suffers an additional 10 fire damage (fire).  
-> **Boost** **Level 17:** 4d8 + Dexterity modifier damage.  
+> **Boost** **Level 17** 4d8 + Dexterity modifier damage.  
 
 > #### Expanding Phase Transition  
 > *With feet firmly planted, your send out a radiating expanse of altered terrain, either coated in ice or setting it ablaze; either result should impede your enemies.*  
 > **Daily** **Attack** **5** (**Standard Action**) ● **Arcane, Flux, Focus, Zone**  
 > **Near** burst 3  
 > **Effect** The effect is determined by your flux energy.
-● Cold: You can create either a sheet of smooth ice or a sheet of ice spikes. If smooth, targets which enter an affected square are knocked prone. If spiked, the field is difficult terrain and creatures which enter an affected square suffer 1d4 + Dexterity modifier damage (this ends the effect for that square). A cold expanse lasts until the end of the encounter or five minutes.
-● Fire: The field is difficult terrain and targets which enter an affected square suffer 1d6 + Dexterity modifier damage. A fire expanse lasts until the end of your next turn.  
+> ● Cold: You can create either a sheet of smooth ice or a sheet of ice spikes. If smooth, targets which enter an affected square are knocked prone. If spiked, the field is difficult terrain and creatures which enter an affected square suffer 1d4 + Dexterity modifier damage (this ends the effect for that square). A cold expanse lasts until the end of the encounter or five minutes.
+> ● Fire: The zone is difficult terrain and targets which enter an affected square suffer 1d6 + Dexterity modifier damage. A fire zone lasts until the end of your next turn.  
+> **Special** A creature can take damage multiple times in a turn from this effect, if they move through multiple squares.  
 > **Maintain Move** The fire expanse persists until the end of your next turn.  
-> **Boost** **Level 19:** Near burst 8.  
+> **Boost** **Level 19** Near burst 8.  
 
 > #### Frozen Creation  
 > *You use ambient water to quickly create something useful.*  
 > **At-Will** **Utility** **6** (**Standard Action**) ● **Arcane, Cold**  
 > **Near** wall 4  
-> **Effect** You can create simple objects made of ice, such as bridges, walls, pillars, or furniture. The objects can sustain weight but are not durable, and will shatter if they suffer more than 10 points of damage.  
-> **Maintain Swift** If you do not maintain the power, its effect ends at the end of your next turn.  
+> **Effect** You can create simple objects made of ice, such as bridges, walls, pillars, or furniture. The objects can support 500 lbs of weight per square but are not durable, and will shatter if they suffer more than 10 points of damage. The objects persist until the end of your next turn.   
+> **Maintain Swift** The objects persist until the end of your next turn.  
 
 > #### Thermal Wall  
 > *You throw up a wall of ice or a sheet of fire to discourage attack.*  
 > **Daily** **Utility** **6** (**Move Action**) ● **Arcane, Flux**  
-> **Far** wall 5 (range 3)  
-> **Effect** You erect a ten foot high wall which blocks line of sight. You gain additional effects based on your elemental focus.
+> **Far** wall 5 within range 3  
+> **Effect** You erect a ten-foot-high (2 squares high) wall which blocks line of sight. You gain additional effects based on your elemental focus.
 ● Cold: The ice wall is solid and can grant cover. The wall can withstand 50 points of damage before shattering. The wall remains until destroyed or until you cancel the effect.
-● Fire: The wall grants resistance 3 to all damage to anyone behind it. Creatures can attempt to pass through the wall but suffer 3d6 fire damage. The wall lasts until the end of your next turn.  
+● Fire: The wall grants resistance 3 to all damage to anyone behind it. Creatures that enter or begin their turn in the wall suffer 3d6 fire damage. The wall lasts until the end of your next turn.  
 > **Maintain Swift** The fire wall persists until the end of your next turn.  
 
 > #### Broken Equilibrium  
 > *You release a pellet sized thermodynamic catalyst which upon impact creates an instant shift in the surrounding energy levels.*  
 > **Encounter** **Attack** **7** (**Standard Action**) ● **Arcane, Flux, Focus**  
-> **Far** burst 2 (range 20), all creatures  
+> **Far** burst 2 within range 20, all creatures  
 > **Attack** Dexterity vs Reflex  
 > **Hit** 3d6 + Dexterity modifier [flux] damage. You gain additional effects based on your flux energy: 
 ● Cold: The target is slowed until the end of your next turn.
 ● Fire: If the target moves more than two squares on its next turn, it suffers 5 fire damage.  
-> **Boost** **Level 23:** Far burst 4 within 20 squares; 4d6 + Dexterity modifier [flux] damage.  
+> **Boost** **Level 23** Far burst 4 within 20 squares; 4d6 + Dexterity modifier [flux] damage.  
 
 > #### Dynamic Tempest  
 > *You can control the weather.*  
 > **Daily** **Attack** **9** (**Standard Action**) ● **Arcane, Focus, Cold**  
 > **Near** burst 5, all creatures  
 > **Attack** Dexterity vs Reflex  
-> **Effect** You create a localized storm in the area of effect which lasts until the end of your next turn. It grants concealment and any creature that starts its turn in the tempest takes cold damage equal to your level and is slowed. If you move, the storm moves with you.  
+> **Effect** You create a localized storm in the area of effect which lasts until the end of your next turn. It grants concealment and any creature other than you that starts its turn in the tempest takes cold damage equal to your level and is slowed. If you move, the storm moves with you.  
 > **Maintain Standard** The effect persists until the end of your next turn.  
 
 > #### Halo of Fire  
 > *You surround targets in a circle of flame and then close the circle around them.*  
 > **Daily** **Attack** **9** (**Standard Action**) ● **Arcane, Focus, Fire**  
-> **Far** burst 3 (range 20), all creatures  
+> **Far** burst 3 within range 20, all creatures  
 > **Attack** Dexterity vs Reflex  
-> **Hit** 4d6 + Dexterity modifier fire damage, and the target is pulled 1 square towards the center, starting with the nearest target. The last target moved suffers additional 2d6 + Dexterity modifier fire damage.  
-> **Miss** Half damage and pulled 1 square.  
+> **Hit** 3d6 + Dexterity modifier fire damage. The target is either pulled 2 squares towards the center of the burst or takes an additional 3d6 fire damage (their choice). If there is not room for them to move at least one square closer, they must take the additional damage.  
+> **Miss** 3d6 + Dexterity modifier fire damage. 
 
 > #### Thermal Shield  
 > *You protect yourself and all those around you with your power.*  
@@ -6237,7 +6454,7 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Near** burst 3  
 > **Effect** You erect a 2-square radius dome which blocks line of sight. You gain additional effects based on your elemental focus.
 ● Cold: The dome is solid and can withstand 100 points of damage before shattering. Creatures within cannot leave until the dome is shattered or dismissed, but cannot be targeted from outside. The dome lasts until destroyed or until you cancel the effect.
-● Fire: The burst creates a wall of fire in the outermost squares that grants resistance 3 to all damage to those inside it. Creatures can attempt to pass through the wall but suffer 4d6 fire damage. The wall lasts until the end of your next turn.  
+● Fire: The burst creates a wall of fire in the outermost squares that grants resistance 3 to all damage to those inside it. Creatures that enter or begin their turn in the wall suffer 4d6 fire damage. The wall lasts until the end of your next turn.  
 
 > #### Rocket Propulsion  
 > *With enough influence over the transfer of energy, you’re able to create a sustainable thermal reaction you can use to enable flight.*  
@@ -6251,14 +6468,14 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Daily** **Attack** **19** (**Standard Action**) ● **Arcane, Flux, Focus**  
 > **Ranged** 5, one living creature  
 > **Attack** Dexterity vs Reflex  
-> **Hit** 4d10 + Dexterity modifier [flux] damage, and the target is weakened and dazed (save ends). If the target dies, it explodes.  
+> **Hit** 4d10 + Dexterity modifier [flux] damage, and the target is weakened and dazed (save ends). If the target dies, it explodes (which may make raising it from the dead more difficult).  
 > **Miss** Half damage and the target can still explode.  
 
 > #### Ice Castle  
 > *They say when you become an adult, you put away childish things; but when you can make a fort out of ice, some things will never change.*  
 > **Daily** **Utility** **22** (**Standard and Move Action**) ● **Arcane, Ice**  
 > **Self**   
-> **Effect** You create a single room (no more than sixteen squares) structure out of ice, including furnishings if desired. If the structure is constructed in an area below freezing, it will persist indefinitely: otherwise, it will persist for 24 hours before melting.  
+> **Effect** You create a single room structure out of ice, including furnishings if desired. The structure may be no more than sixteen squares in area and up to four squares tall. It can have as many entrances and exits as you desire. If the structure is constructed in an area below freezing, it will persist indefinitely: otherwise, it will persist for 24 hours before melting. A single square of ice or its contents can withstand 50 points of damage before shattering.  
 > **Maintain Standard and Move** Create another room, or expand the size of an existing one.  
 
 ## Starfall  
@@ -6266,18 +6483,21 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 **Key Ability:** Dexterity  
 **Secondary Ability:** Intelligence  
 
+You are a one-person siege weapon, firing down rains of arrows that force your foes to duck for cover.
+
 > #### Attack of Necessity  
 > *Out of options, become a hero.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Near** arc 3, all creatures  
 > **Attack** Dexterity vs Reflex  
-> **Hit** 1dW damage, and the target is pushed to the nearest empty square outside of the blast. If the target cannot move to the nearest empty square, the target takes additional damage equal to your Dexterity modifier. Increase to 2dW damage at 21st level.  
+> **Hit** 1dW damage, and the target is pushed to the nearest empty square outside of the blast. If the target cannot move to the nearest empty square, the target takes additional damage equal to your Dexterity modifier.
+> *Level 21*  2dW damage.  
 > **Special** If you do not move this turn, arc 4 instead.  
 
 > #### Micro Burst  
 > *Your shots are more to impede enemies than kill them.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
-> **Far** burst 1 (weapon range), all creatures you can see  
+> **Far** burst 1 within weapon range, all creatures you can see  
 > **Attack** Dexterity vs Reflex  
 > **Hit** 1 damage and the target is slowed until the start of your next turn.  
 > **Special** If you do not move this turn, your Dexterity modifier in damage instead.  
@@ -6287,15 +6507,17 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Ranged** weapon, one creature  
 > **Attack** Dexterity vs AC  
-> **Hit** 1dW + Dexterity modifier damage, and the target is pushed 1 square. If the target cannot be pushed because of an obstruction or difficult terrain, it takes additional damage equal to your Intelligence modifier. Increase damage to 2dW + Dexterity modifier at 21st level.  
+> **Hit** 1dW + Dexterity modifier damage, and the target is pushed 1 square. If the target cannot be pushed because of an obstruction or difficult terrain, it takes additional damage equal to your Intelligence modifier.  
+> *Level 21:* 2dW + Dexterity modifier damage.  
 > **Special** If you do not move this turn, the target is pushed 2 squares instead of 1 (and suffers the indicated damage if it cannot be pushed at least 2 squares).  
 
 > #### Rapid Shots  
 > *You shoot towards an area.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
-> **Far** wall 3 (weapon range), all creatures in wall you can see  
+> **Far** wall 3 within weapon range, all creatures in wall you can see  
 > **Attack** Dexterity vs Reflex  
-> **Hit** 1dW damage.  Increase damage to 2dW at 21st level.  
+> **Hit** 1dW damage.  
+> *Level 21:* 2dW damage.  
 > **Special** If you do not move this turn, wall 4 instead of a wall 3.  
 
 > #### Focused Shot  
@@ -6318,7 +6540,7 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > #### Shot on the Run  
 > *You lay down a line of shots as you make a dash across the enemy’s flank.*  
 > **Daily** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
-> **Far** wall 5 (weapon range), all creatures in wall you can see  
+> **Far** wall 5 within weapon range, all creatures in wall you can see  
 > **Attack** Dexterity vs AC  
 > **Hit** 1dW + Dexterity modifier damage.  
 > **Miss** Half damage.  
@@ -6335,7 +6557,7 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Special** If you do not move this turn, arc 7.  
 
 > #### Barbed Arrows  
-> *Conserve arrows?  Why?*  
+> *You may have loosed a storm of arrows, but each one cuts as deeply as if it were carefully aimed.*  
 > **Daily** **Utility** **2** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You hit with an arc, burst, or wall attack.  
@@ -6348,15 +6570,14 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Attack** Dexterity vs Reflex  
 > **Hit** 1dW + Dexterity modifier damage, and the target is immobile and cannot make opportunity attacks until the start of your next turn.  
 > **Effect** If you do not move this turn, the target is rattled until the start of your next turn (this does not require a hit).  
-> **Special** You can use this power again with an action point (replacing the action).  
 
 > #### Eye the Enemy  
-> *You quickly ascertain your enemy’s tactics and motives.  You taunt him to reveal a weakness.*  
+> *You quickly ascertain your enemy’s tactics and motives.  You taunt them to reveal a weakness.*  
 > **Encounter** **Attack** **3** (**Free Action**) ● **Martial, Weapon**  
 > **Self**   
 > **Trigger** You hit an enemy with a ranged weapon.  
 > **Effect** Add your Intelligence modifier to the damage roll of all hits against the target (including the triggering hit) until the start of your next turn.  
-> **Maintain Swift** The effect persists. You can maintain until the target is staggered.  
+> **Maintain Swift** The effect persists until the start of your next turn. You cannot maintain if the target is staggered.
 
 > #### Black Sky  
 > *You unleash a hail of arrows so intense, enemies are sent flat on their backs.*  
@@ -6370,7 +6591,7 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > #### Standing Barrage  
 > *You lay down a rain of arrows against entrenched or approaching foes.*  
 > **Daily** **Attack** **5** (**Move and Standard Action**) ● **Martial, Weapon**  
-> **Far** burst 1 (weapon range), all creatures you can see  
+> **Far** burst 1 within weapon range, all creatures you can see  
 > **Attack** Dexterity vs Reflex  
 > **Hit** 1dW + Dexterity modifier damage, and the target is immobile until the start of your next turn.  
 > **Miss** Half damage.  
@@ -6383,22 +6604,22 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Self**   
 > **Effect** Until the end of your next turn, roll twice for every attack roll (using ammunition with each roll) and take the higher result.  
 
-> #### Man Down!  
+> #### To the Rescue!  
 > *You drop to a knee by a fallen ally and ensure that ally is safe until help arrives.*  
 > **Encounter** **Utility** **6** (**Standard Action**) ● **Martial**  
 > **Near** burst 6, one dead, prone, or unconscious ally in burst.  
-> **Effect** Shift into the target’s square. The target cannot be the target of any ranged or melee attack and gains a +3 power bonus to all defenses against area attacks until the start of your next turn. The effect ends if the target stands or you leave the target’s square.  
-> **Maintain Swift** The effect persists until the start of your next turn.  
+> **Effect** You shift into the target’s square. Enemies cannot make any ranged or melee attack against the target, and the target gains a +3 power bonus to all defenses against area attacks. The effect ends at the end of your next turn, when the target stands, or when you leave the target’s square, whichever happens first.   
+> **Maintain Swift** The effect persists until the end of your next turn, or until the target stands, or until you leave the target’s square, whichever happens first.  
 
 > #### The Killing Field  
 > *You hold your weapon back and wait for the advancing enemy. You have the entire battlefield in your view.*  
 > **Encounter** **Attack** **7** (**Standard Action**) ● **Martial, Weapon, Zone**  
-> **Far** burst 5 (range 20)  
-> **Effect** You create a zone in the affected area. The zone lasts until the start of your next turn. It is considered difficult terrain. You can make the following attack against any creature that enters any square of the zone as an opportunity action: 
+> **Far** burst 5 within range 20  
+> **Effect** You create a zone in the affected area. The zone lasts until the end of your next turn. It is considered difficult terrain, except for you. You can make the following attack against any creature that enters any square of the zone as an opportunity action:  
 *Attack:* Dexterity vs AC
 *Hit:*  1dW + Dexterity modifier damage  
-> **Special** This power cannot be targeted by dispel magic.  
-> **Maintain Standard** The zone persists until the start of your next turn. You can move the zone to a new area within range as part of this action.  
+> **Special** Note that most characters only receive one opportunity action per turn.
+> **Maintain Standard** The zone persists until the end of your next turn. You can move the zone to a new area within range as part of this action.  
 
 > #### Tri-Shot  
 > *To conserve arrows, you control your shots to specific targets rather than shooting chaotically at your foes.*  
@@ -6417,7 +6638,7 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > #### Force Back  
 > *A nonstop rain of arrows tracks an assaulting or flanking enemy.*  
 > **Daily** **Attack** **9** (**Standard Action**) ● **Martial, Weapon**  
-> **Far** burst 2 (weapon range), all creatures you can see  
+> **Far** burst 2 within weapon range, all creatures you can see  
 > **Attack** Dexterity vs Reflex  
 > **Hit** 1dW + Dexterity modifier damage, and the target is immobile until the end of your next turn.  
 > **Special** If you do not move this turn, the target is rattled until the start of your next turn whether or not you hit.  
@@ -6445,13 +6666,13 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > #### Stacked Volleys  
 > *You launch two identical volleys of arrows, nearly on top of each other. Opponents don’t expect the second one as quickly.*  
 > **Encounter** **Attack** **13** (**Standard Action**) ● **Martial, Weapon**  
-> **Far** burst 2 (weapon range), all creatures  
+> **Far** burst 2 within weapon range, all creatures  
 > **Attack** Dexterity vs Reflex, two attacks per target  
-> **Hit** 1dW + Dexterity modifier, and the target is dazed until the end of your next turn.  If hit twice, the target is dazed (save ends).  
+> **Hit** 1dW + Dexterity modifier, and the target is dazed until the end of its next turn.  If hit twice, the target is dazed (save ends).  
 > **Special** If you do not move this turn, gain a +1 bonus to each second attack.  
 
 > #### Tracking Shots  
-> *As your first shot impacts, you gain vital information about wind direction and the agility of the target. Your second shot finds its place even easier.*  
+> *Your first shot guides your second.*  
 > **Daily** **Attack** **15** (**Standard Action**) ● **Martial, Consistent, Weapon**  
 > **Ranged** weapon, one creature  
 > **Attack** Dexterity vs AC  
@@ -6463,9 +6684,9 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 *Hit:*  2dW + Dexterity modifier damage.  
 
 > #### Wildfire Blitz  
-> *You spray arrows across a massive area, holding back whole armies against your single defiant will.*  
+> *You spray arrows across a massive area.*  
 > **Daily** **Attack** **15** (**Move and Standard Action**) ● **Martial, Weapon**  
-> **Far** burst 4 (weapon range), all creatures you can see  
+> **Far** burst 4 within weapon range, all creatures you can see  
 > **Attack** Dexterity vs Reflex  
 > **Hit** 2dW + Dexterity modifier damage.  
 > **Miss** Half damage.  
@@ -6489,14 +6710,13 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Attack** Dexterity vs AC, two attacks  
 > **Hit** 2dW + Dexterity modifier damage  
 > **Special** If you do not move this turn, increase damage to 3dW + Dexterity modifier.  
-You can use this power again with an action point (replacing the action).  
 
 > #### Mosquito’s Nip  
 > *It is hard for your enemies to think of anything but you as you continue to rain steel from the sky.*  
 > **Encounter** **Attack** **17** (**Move Action**) ● **Martial, Weapon**  
 > **Self**   
 > **Effect** Each enemy you hit with a ranged attack until the end of your next turn is marked until the end of your next turn.  If your marked target makes an attack that does not include you as a target, you gain a +2 bonus to attack rolls and a +4 bonus to damage rolls against the target until the end of your next turn.  
-> **Maintain Move** The effect persists.  
+> **Maintain Move**  The effect persists until the end of your next turn. 
 
 > #### Mindless Mayhem  
 > *You send a tsunami of arrows into the enemy.*  
@@ -6506,17 +6726,16 @@ You can use this power again with an action point (replacing the action).
 > **Hit** 2dW + Dexterity modifier damage, and the target is pushed a number of squares equal to your Intelligence modifier and is weakened until the start of your next turn.  
 > **Miss** Half damage and the target is weakened until the start of your next turn.  
 > **Special** If you do not move this turn, you can target up to 4 enemies instead of 3 and make 4 attacks instead of 3; you must target at least two separate creatures.  
-You can use this power again with an action point (replacing the action).  
 
 > #### Suppressing Shots  
 > *You cover an area with arrows to keep enemies from moving.*  
 > **Daily** **Attack** **19** (**Standard and Move Action**) ● **Martial, Weapon, Zone**  
-> **Far** burst 2 (weapoon range), all creatures you can see  
+> **Far** burst 2 within weapon range, all creatures you can see  
 > **Attack** Dexterity vs Reflex  
 > **Hit** 2dW + Dexterity modifier damage, and the target is slowed (save ends).  
 > **Effect** You create a zone in the burst that persists until the start of your next turn. Creatures that enter the zone or start their turns in it take 1dW damage and are slowed (save ends). You use ammunition each time you inflict damage.  
 > **Special** If you do not move this turn, burst 3.  
-> **Maintain Move** The effect persists.  
+> **Maintain Move** The zone persists until the start of your next turn. 
 
 > #### New Position  
 > *The effectiveness of your current location is in question.  You quickly move to better ground.*  
@@ -6527,7 +6746,7 @@ You can use this power again with an action point (replacing the action).
 > #### Behemoth-Killer  
 > *You relax as you loose the arrow.  It’s not like you can miss.*  
 > **Encounter** **Attack** **23** (**Standard Action**) ● **Martial, Weapon**  
-> **Near** burst 5 (weapon range), one Large or larger creature you can see  
+> **Far** burst 5 within weapon range, one Large or larger creature you can see  
 > **Attack** Dexterity +2 vs AC  
 > **Hit** 3dW + Dexterity modifier damage.  
 > **Special** If you do not move this turn, increase to 4dW + Dexterity modifier damage.  
@@ -6535,7 +6754,7 @@ You can use this power again with an action point (replacing the action).
 > #### Clear the Ground  
 > *You cut down trees, walls, bushes, and people--anything that gets in your way.*  
 > **Encounter** **Attack** **23** (**Standard Action**) ● **Martial, Weapon**  
-> **Far** burst 5 (weapon range), all creatures you can see  
+> **Far** burst 5 within weapon range, all creatures you can see  
 > **Attack** Dexterity vs Reflex  
 > **Hit** 2dW + Dexterity modifier damage  
 > **Effect** Until the end of the encounter, all difficult terrain in the area is no longer difficult terrain.  
@@ -6544,12 +6763,12 @@ You can use this power again with an action point (replacing the action).
 > #### Cloud of Hellfire  
 > *Your shots pepper the ground, sending up debris, hampering vision and movement.*  
 > **Encounter** **Attack** **23** (**Move and Standard Action**) ● **Martial, Weapon**  
-> **Far** burst 4 (weapon range), all creatures you can see  
+> **Far** burst 4 within weapon range, all creatures you can see  
 > **Attack** Dexterity vs Reflex  
 > **Hit** 2dW + Dexterity modifier damage  
-> **Effect** Until the start of your next turn, the area becomes difficult terrain and targets in the area grant combat advantage to anyone outside the area.  
+> **Effect** Until the end of your next turn, the area becomes difficult terrain, except for you, and targets in the area grant combat advantage to anyone outside the area.  
 > **Special** If you do not move this turn, burst 5.  
-> **Maintain Move** The effect persists.  You use additional ammunition each time you maintain equal to one attack roll.  
+> **Maintain Move** The zone persists until the end of your next turn.  
 
 > #### Cone of Barbs  
 > *You sweep your weapon wide, attacking everything in front of you.*  
@@ -6572,7 +6791,7 @@ You can use this power again with an action point (replacing the action).
 > #### Overwatch  
 > *You keep a careful eye on an ally or allies from an advantageous position, and wait for enemies to poke out their heads.*  
 > **Daily** **Attack** **25** (**Standard Action**) ● **Martial, Weapon**  
-> **Far** burst 3 (weapon range, minimum 10), all creatures you can see  
+> **Far** burst 3 within weapon range, all creatures you can see  
 > **Attack** Dexterity vs Reflex  
 > **Hit** 3dW + Dexterity modifier damage, and the target is stunned until the end of your next turn.  
 > **Special** If you do not move this turn, burst 4  
@@ -6607,22 +6826,24 @@ You can use this power again with an action point (replacing the action).
 > #### Measured Response  
 > *You respond to an attack with a proportionate level of aggression.*  
 > **Daily** **Attack** **29** (**Standard Action**) ● **Martial, Weapon**  
-> **Far** burst 1 (weapon range), all creatures you can see  
+> **Far** burst 1 within weapon range, all creatures you can see  
 > **Attack** Dexterity vs Reflex  
 > **Hit** 4dW + Dexterity modifier damage.  
-> **Miss** Half damage and if the target is staggered before or after the initial damage, it takes an additional 1dW damage (not halved).  
+> **Miss** Half damage.  
 > **Effect** If the target is staggered before or after the initial damage, it takes an additional 2dW damage.  
 
 ## Strong Bidding  
 **Key Ability:** Charisma  
 **Secondary Ability:** Wisdom  
 
-“Companion” refers to a familiar, animal companion or summoned creature. Unless otherwise mentioned, your companion must be within line of sight or 20 squares for a Strong Bidding power that uses your companion.  
+You share a special bond with your companion that allows you to fight as one.
+
+**Note:** “Companion” refers to a familiar, animal companion or summoned creature. Unless otherwise mentioned, your companion must be within line of sight or 20 squares for a Strong Bidding power that uses your companion.  
 
 > #### Companion Strike  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Spirit, Companion**  
 > **Special**   
-> **Hit** Your companion makes a basic melee attack and adds your Charisma modifier to the damage.  
+> **Effect** Your companion makes a basic melee attack and adds your Charisma modifier to the damage.  
 
 > #### Side by Side  
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Spirit, Companion**  
@@ -6638,9 +6859,9 @@ You can use this power again with an action point (replacing the action).
 
 > #### Share Senses  
 > **Daily** **Utility** **2** (**Swift Action**) ● **Spirit, Companion**  
-> **Effect** You can use any or all of your companion’s senses as your own, gaining the benefits of any special senses that it has. During this time, you lose any of the senses that you take from your companion. For example, you could share your companion’s sight, but keep your hearing.  
-> **Maintain Swift**   
-> **Boost** **Level 16:** This becomes an encounter power.  
+> **Effect** Until the end of your next turn, you can use any or all of your companion’s senses as your own, gaining the benefits of any special senses that it has. During this time, you lose any of the senses that you take from your companion, but retain your other senses as normal. For example, you could share your companion’s sight, but keep your hearing.  
+> **Maintain Swift** The effect persists until the end of your next turn.   
+> **Boost** **Level 16** This becomes an encounter power.  
 
 > #### Familiar Guidance  
 > **Encounter** **Utility** **6** (**Counter Action**) ● **Spirit, Companion**  
@@ -6653,12 +6874,12 @@ You can use this power again with an action point (replacing the action).
 > **Effect** Your companion can flank, if it couldn’t already, until the end of the encounter.  
 *Level 11:* You get combat advantage against enemies adjacent to your companion.  
 *Level 21:* Enemies adjacent to your companion cannot shift. You get combat advantage against enemies adjacent to your companion.  
-> **Special** Animal companions and summoned monsters can contribute to a flank by default, so this power is typically only useful for familiars.  
 
 > #### Leap to Companion  
 > **Encounter** **Utility** **6** (**Move Action**) ● **Spirit, Teleport, Companion**  
 > **Self**   
-> **Effect** Teleport to the space occupied by your companion. If they are a familiar, they are hidden away. If they are a different type of companion, they shift 1 into an unoccupied space.  
+> **Requirements** There must be room for you in the space your companion occupies.  
+> **Effect** Teleport to the space occupied by your companion. If they are a familiar, they are hidden away. If they are a different type of companion, they shift 1 into an unoccupied space.  If there is no eligible space, the companion falls prone in your space. 
 
 > #### Leaping Intercept  
 > **Encounter** **Utility** **6** (**Counter Action**) ● **Spirit, Companion**  
@@ -6671,7 +6892,7 @@ You can use this power again with an action point (replacing the action).
 > **Attack** Charisma vs Will  
 > **Hit** 1d8 + Charisma modifier + Intelligence modifier and push the target 2.  
 
-> #### Call Back Familiar  
+> #### Recall Familiar  
 > **Daily** **Utility** **10** (**Counter Action**) ● **Spirit, Companion**  
 > **Trigger** Your familiar is hit by an attack.  
 > **Effect** Your familiar teleports to your space and is hidden away.  
@@ -6679,31 +6900,33 @@ You can use this power again with an action point (replacing the action).
 > #### Companion Form  
 > **Daily** **Utility** **10** (**Swift Action**) ● **Spirit, Form**  
 > **Self**   
-> **Effect** You take the form of your companion, including size, source and type, senses and speed. The first time per encounter that you do so, you can also spend one recovery to heal your recovery value. While in this form you cannot use powers unless they have the Wild Shape tag. You can leave this form as a swift action, and you do so automatically if you are reduced to 0 HP or below. Otherwise, it lasts until you take a long rest.  
+> **Effect** You take the form of your companion, including size, source and type, senses and speed. You can also spend one recovery to heal your recovery value. While in this form you cannot use powers unless they have the Wild Shape tag. You can leave this form as a swift action, and you do so automatically if you are reduced to 0 HP or below. Otherwise, it lasts until you take a long rest.  
 
 > #### Master’s Form  
 > **Daily** **Utility** **10** (**Swift Action**) ● **Spirit, Transmutation, Companion**  
 > **Ranged** 10, one companion  
-> **Effect** Your companion transforms into a humanoid of your race with the same age, gender, and build of its true form, though it always maintains a clearly unnatural remnant of its nature, such as a cat’s eyes or a serpent’s tongue.  
-> **Maintain Swift**   
+> **Effect** Until the end of your next turn, your companion transforms into a humanoid of your race with the same age, gender, and build of its true form, though it always maintains a clearly unnatural remnant of its nature, such as a cat’s eyes or a serpent’s tongue.  
+> **Maintain Swift** The effect persists until the end of your next turn.   
 
 > #### Companion Swarm  
 > **Daily** **Attack** **19** (**Standard Action**) ● **Spirit, Focus, Companion**  
-> **Far** burst 1, range 20 (must be your companion’s space)  
+> **Far** burst 1 within range 20 (centered on your companion), all enemies  
 > **Attack** Charisma vs Fortitude  
 > **Hit** 4d8 + Charisma modifier damage  
-> **Effect** Creates a zone. *Swarm Zone:* Enemies that enter the zone or begin their turn in it take 10 damage and are slowed until the start of their next turn. Spend a move action to move the zone up to 2.  
+> **Effect** Creates a zone that persists until the end of your next turn. *Swarm Zone:* Enemies that enter the zone or begin their turn in it take 10 damage and are slowed until the start of their next turn. Spend a move action to move the zone up to 2.  
 > **Special** Your companion is removed from play while the zone remains in effect.  
-> **Maintain Swift**   
+> **Maintain Swift** The zone persists until the end of your next turn.   
 
 > #### Enlarge Companion  
 > **Daily** **Utility** **19** (**Swift Action**) ● **Spirit, Transmutation, Companion**  
 > **Ranged** 10, one companion  
-> **Effect** If your companion is smaller than Medium size, it grows to Medium size. If your companion is Medium size or larger, it increases by one size category. Its maximum and current HP are increased by your recovery value. The companion can flank if it could not already. Once per round, as a swift action, the companion can knock an adjacent enemy prone or push it 1.  
+> **Effect** If your companion is smaller than Medium size, it grows to Medium size. If your companion is Medium size or larger, it increases by one size category. Its maximum and current HP are increased by your recovery value. The companion can flank if it could not already. Once per round, as a swift action, the companion can knock an adjacent enemy prone or push it 1 square. You may use a swift action to end the effect; otherwise it lasts until your next long rest.  
 
 ## Third Mind  
 **Key Ability:** Wisdom  
 **Secondary Ability:** Charisma  
+
+Your psychic powers allow you to waylay your enemies and clear the minds of your allies. 
 
 > #### Blazing Mantle  
 > *Your channel the awesome energies of your Godmind and you literally come ablaze with phrenic power.*  
@@ -6749,7 +6972,7 @@ You can use this power again with an action point (replacing the action).
 > **Encounter** **Attack** **3** (**Standard Action**) ● **Augmentable, Phrenic, Weapon**  
 > **Melee** weapon, one creature  
 > **Attack** Wisdom vs AC  
-> **Hit** 2dW + Wisdom modifier damage. The target also looses any psi focus they had (refresh as if spent on a daily) and takes a -2 penalty to their Will defense until the end of their next turn.  
+> **Hit** 2dW + Wisdom modifier damage. The target also loses any psi focus they had (refresh as if spent on a daily) and takes a -2 penalty to their Will defense until the end of their next turn.  
 > **Special** **Augment:** Before making the attack roll, this power gains the Consistent tag.  
 
 > #### Siphon the Soul  
@@ -6784,7 +7007,7 @@ You can use this power again with an action point (replacing the action).
 > **Hit** 2d10 + Wisdom modifier psychic damage.  
 > **Effect** You conjure a vile manifestation of your enemy’s darkest sins in a square adjacent to the target. The manifestation exists until the end of your next turn. You can move the manifestation as a move action, using the same speed as the target. If the manifestation is adjacent to the target, the target grants combat advantage and gains vulnerability 5 against all attacks.  
 > **Special** **Augment:** The target receives a penalty equal to your Charisma modifier to attack rolls (save ends).  
-> **Maintain Swift** The manifestation persists.  
+> **Maintain Swift** The manifestation exists until the end of your next turn. 
 
 > #### Aura of Psychic Vengeance  
 > *You meditate for a short while before your aura blooms out around you, allowing your mind to become as one with your allies, aiding their attacks.*  
@@ -6796,6 +7019,8 @@ You can use this power again with an action point (replacing the action).
 ## Veiled Moon  
 **Key Ability:** Intelligence  
 **Secondary Ability:** Dexterity  
+
+You pass through worlds, delivering attacks from impossible vantage points.
 
 > #### Dimensional Strike  
 > *By shifting slightly between two worlds, you confuse the senses of your foe so you may land your attack more easily.*  
@@ -6849,7 +7074,7 @@ You can use this power again with an action point (replacing the action).
 > #### Resonance Strike  
 > *By funneling your spiritual power into your attack, you may strike an opponent with glowing silvery light.*  
 > **Daily** **Attack** **5** (**Standard Action**) ● **Arcane, Weapon**  
-> **Near burst** 10, one enemy in range  
+> **Near** burst 10, one enemy in range  
 > **Attack** Intelligence vs Reflex  
 > **Hit** 3dW + Intelligence modifier force damage  
 > **Miss** Half damage.  
@@ -6872,9 +7097,9 @@ You can use this power again with an action point (replacing the action).
 > **Daily** **Utility** **6** (**Counter Action**) ● **Arcane, Conjuration, Teleport**  
 > **Self**   
 > **Trigger** You are the target of an attack.  
-> **Effect** Teleport 2. In your space is conjured an immovable illusion of yourself. The conjuration disappears once it is hit by a Melee or Ranged attack (potentially including the attack that triggered the use of this power).  
-> **Special** If the teleportation does not move you outside the range of a Near or Far attack, you are still subject to that attack.  
-> **Maintain Move**   
+> **Effect** You teleport up to 2 squares. In your space is conjured an immovable illusion of yourself. The conjuration disappears at the end of your next turn, or once it is hit by a melee or ranged attack (potentially including the attack that triggered the use of this power).  
+> **Special** If the teleportation does not move you outside the range of a near or far attack, you are still subject to that attack.  
+> **Maintain Move** Repeat the effect.  
 
 > #### Brilliant Moon  
 > *By partially phasing a portion of your attack out of this reality, you may ignore certain obstacles, such as armor, when striking at an opponent.*  
@@ -6886,7 +7111,7 @@ You can use this power again with an action point (replacing the action).
 > #### Breath of the Moon  
 > *You use the principles of lunar cycles on the psyche of mortals.*  
 > **Daily** **Attack** **9** (**Standard Action**) ● **Arcane, Weapon**  
-> **Near arc** 3  
+> **Near** arc 3  
 > **Attack** Intelligence vs Will  
 > **Hit** 2dW + Intelligence modifier psychic damage, and the target cannot target you with attacks (save ends).  
 > **Miss** Target cannot target you with attacks until the end of your next turn.  
@@ -6933,7 +7158,7 @@ You can use this power again with an action point (replacing the action).
 > #### Twisting Ether  
 > *With a nod to your ally, you sink through the world with your ally and switch places for better effect in combat.*  
 > **Encounter** **Utility** **16** (**Swift Action**) ● **Arcane, Teleport**  
-> **Near burst 5** one ally  
+> **Near** burst 5, one ally  
 > **Effect** You and your ally simultaneously swap spaces via teleportation.  
 
 > #### Stance of the Ether Gate  
@@ -6945,7 +7170,7 @@ You can use this power again with an action point (replacing the action).
 > #### Ether Wave  
 > *You concentrate your spiritual energies to your hand, tear into the barrier between the Astral and the Material, and release the energies that form from this in a wracking wave of silvery-blue energy.*  
 > **Daily** **Attack** **19** (**Standard Action**) ● **Arcane, Weapon**  
-> **Near arc** 4  
+> **Near** arc 4  
 > **Attack** Intelligence vs Reflex  
 > **Hit** 3dW + Intelligence modifier force damage, and persistent 5 force damage (save ends).  
 > **Miss** Half damage (no persistent damage).  
@@ -6968,7 +7193,7 @@ Each secondary attack must be against a different target to the other secondary 
 > **Effect** You become incorporeal. Enemies within 12 cannot choose to teleport. Allies within 12 can always choose not to teleport if they would be subject to an effect that would teleport them.  
 
 > #### Fade Through  
-> *You fold two points in space around you to appear at another location within the span of a heart beat.*  
+> *You fold two points in space around you to appear at another location within the span of a heartbeat.*  
 > **Daily** **Utility** **22** (**Standard Action**) ● **Arcane, Teleport**  
 > **Self**   
 > **Effect** Move up to your speed, with phasing. Make a basic melee attack against each enemy that you move through.  
@@ -6984,8 +7209,7 @@ Each secondary attack must be against a different target to the other secondary 
 > *To slip through the worlds is a simple matter for you, and using this to deceive and evade an attacker is effortlessly done.*  
 > **Daily** **Utility** **22** (**Swift Action**) ● **Arcane, Illusion**  
 > **Self**   
-> **Effect** A number of times equal to the number of recoveries you have spent so far since your last long rest, you can force enemies within 6 to reroll an attack roll. You can only force each attack roll to be rerolled once.  
-> **Maintain Swift**   
+> **Effect** A number of times equal to the number of recoveries you have spent so far since your last long rest, you can force enemies within 6 squares to reroll an attack roll. You can only force each attack roll to be rerolled once. Any remaining uses are lost when the encounter ends.   
 
 > #### Spiritual Weapon Stance  
 > *By channeling ethereal energies along your weapons and body, you become immersed in both worlds, being as solid on the Ethereal Plane as you are on the Material.*  
@@ -7021,151 +7245,20 @@ Each secondary attack must be against a different target to the other secondary 
 > #### Eclipsing Moon  
 > *Folding space around your form effortlessly, you leap through the ether and attack through the barrier between the worlds in a series of staccato bursts of silvery-blue light, your image blinking as you strike.*  
 > **Daily** **Attack** **29** (**Standard Action**) ● **Arcane, Weapon, Teleport**  
-> **Near burst** 12, all enemies  
+> **Near** burst 12, all enemies  
 > **Attack** Intelligence vs Reflex  
 > **Hit** 2dW + Intelligence modifier damage.  
 > **Effect** After all attacks had been made, choose a space adjacent to an enemy within range. You teleport to that space. 
 
-## Weapon Drill  
-
-**Key Ability:** Strength/Dexterity  
-**Secondary Ability:** Constutution  
-
-> #### Arrow Flight  
->
-> **At-Will** **Attack** **1** (**Standard Action**) ● **Bows, Martial, Weapon**  
-> **Ranged** weapon, one target  
-> **Requirements** Make the attack with a bow.  
-> **Attack** Dexterity vs AC  
-> **Hit** 1dW + Strength modifier + Dexterity modifier damage. 
-> *Level 21:* 2dW + Strength modifier + Dexterity modifier damage.  
-
-> #### Axe Grind  
->
-> **At-Will** **Attack** **1** (**Standard Action**) ● **Axes, Martial, Weapon**  
-> **Melee** weapon, one target  
-> **Requirements** Make the attack with an axe.  
-> **Attack** Strength vs AC  
-> **Hit** 1dW + Strength modifier damage. Push target 1.
-> *Level 21:* 2dW + Strength modifier damage. Push target 1.  
-
-> #### Bolt from the Blue  
->
-> **At-Will** **Attack** **1** (**Standard Action**) ● **Crossbows, Martial, Weapon**  
-> **Ranged** weapon, one target  
-> **Requirements** Make the attack with a crossbow.  
-> **Attack** Dexterity vs AC  
-> **Hit** 1dW + Dexterity modifier damage. 
-> *Level 21:* 2dW + Dexterity modifier damage.  
-
-> #### Careful Slice  
->
-> **At-Will** **Attack** **1** (**Standard Action**) ● **Light Blades, Martial, Weapon**  
-> **Melee** weapon, one target  
-> **Requirements** Make the attack with a light blade.  
-> **Attack** Dexterity vs Reflex  
-> **Hit** 1dW damage.
-> *Level 21:* 2dW damage.  
-
-> #### Cleaving Slice  
->
-> **At-Will** **Attack** **1** (**Standard Action**) ● **Heavy Blades, Martial, Weapon**  
-> **Melee** weapon, one target  
-> **Requirements** Make the attack with a heavy blade.  
-> **Attack** Strength vs AC  
-> **Hit** 1dW + Strength modifier damage. An enemy adjacent to the target takes Strength modifier damage. 
-> *Level 21:* 2dW + Strength modifier damage. An enemy adjacent to the target takes Strength modifier damage.  
-
-> #### Double Attack  
->
-> **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
-> **Melee** weapon, two targets  
-> **Requirements** Must be wielding a melee weapon in each hand. Use each weapon to make one attack.  
-> **Attack** Strength vs AC  
-> **Hit** 1dW damage.
-> *Level 21:* 2dW damage.  
-
-> #### Flail About  
->
-> **At-Will** **Attack** **1** (**Standard Action**) ● **Flails and Chains, Martial, Weapon**  
-> **Melee** weapon, one target  
-> **Requirements** Make the attack with a flail or chain.  
-> **Attack** Strength vs AC  
-> **Hit** 1dW + Strength modifier damage. Then shift 1.
-> *Level 21:* 2dW + Strength modifier damage. Then shift 1.  
-
-> #### Hammerfall  
->
-> **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Picks and Hammers, Weapon,**  
-> **Melee** weapon, one target  
-> **Requirements** Make the attack with a pick or hammer.  
-> **Attack** Strength vs AC  
-> **Hit** 1dW + Strength modifier damage. 
-> *Level 21:* 2dW + Strength modifier damage.  
-> **Miss** Target takes Strength modifier damage.  
-
-> #### Poleaxe  
->
-> **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Polearms, Weapon**  
-> **Melee** weapon, one target  
-> **Requirements** Make the attack with a polearm.  
-> **Attack** Strength vs AC  
-> **Hit** 1dW + Strength modifier damage. Target takes -2 to attack rolls until the end of your next turn.
-> *Level 21:* 2dW + Strength modifier damage. Target takes -2 to attack rolls until the end of your next turn.  
-
-> #### Shillelagh  
->
-> **At-Will** **Attack** **1** (**Standard Action**) ● **Maces and Clubs, Martial, Weapon**  
-> **Melee** weapon, one target  
-> **Requirements** Make the attack with a club or mace.  
-> **Attack** Strength vs AC  
-> **Hit** 1dW + Strength modifier damage and the target is dazed until the end of your next turn. 
-> *Level 21:* 2dW + Strength modifier damage.  
-
-> #### Sling of Misfortune  
->
-> **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Slings, Weapon**  
-> **Ranged** weapon, one target  
-> **Requirements** Make the attack with a sling.  
-> **Attack** Dexterity vs AC  
-> **Hit** 1dW. Target's speed is reduced by 2 (save ends).
-> *Level 21:* 2dW. Target's speed is reduced by 2 (save ends).  
-
-> #### Spear Discipline  
->
-> **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Spears and Lances, Weapon**  
-> **Melee** weapon, one target  
-> **Requirements** Make the attack with a spear or lance.  
-> **Attack** Strength vs AC  
-> **Hit** 1dW + Strength modifier damage. Any ally adjacent to the target can shift 1.
-> *Level 21:* 2dW + Strength modifier damage. Any ally adjacent to the target can shift 1.  
-> **Miss** *Level 21:* 1dW + Strength or Dexterity modifier damage.  
-
-> #### Staff Sweep  
->
-> **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Staffs, Weapon**  
-> **Melee** weapon, one target  
-> **Requirements** Make the attack with a staff.  
-> **Attack** Strength vs AC  
-> **Hit** 1dW. Target must save or fall prone. 
-> *Level 21:* 2dW. Target must save or fall prone.  
-
-> #### Unarmed Flurry  
->
-> **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Unarmed, Weapon**  
-> **Near** burst 1, all enemies  
-> **Requirements** Make the attack with an unarmed strike.  
-> **Attack** Strength or Dexterity vs AC  
-> **Hit** Strength or Dexterity modifier damage.  
-
 # Prestige Paths  
 
-At level 11, each player character gets a prestige path. This path is in addition to their main class, which still gives them some powers.   
+At level 11, each player character gets a prestige path. This path is in addition to their main class, which still gives them some powers. Prestige path powers do not count towards total class powers available. 
 
 **Table – Prestige Paths and Their Requirements**  
 
 | Name                  | Requirements                                      |  
 | --------------------- | ------------------------------------------------- |  
+| Assassin             | Proficiency with simple melee and ranged weapons. |  
 | Battlefield Healer    | Trained in Heal.                                  |  
 | Bounty Hunter         |                                                   |  
 | Breathstealer         | Proficiency with garrote.                         |  
@@ -7173,15 +7266,56 @@ At level 11, each player character gets a prestige path. This path is in additio
 | Deadeye Arbalester    | Proficiency with simple ranged weapons.           |  
 | Devotee               |                                                   |  
 | Ironsides             |                                                   |  
-| Manslayer             | Proficiency with simple melee and ranged weapons. |  
 | Martial Arts Champion | Unarmed Combat feat.                              |  
-| Prince of Shadows     | Your class has the Striker role.                  |  
 | Ring Fighter          | Unarmed Combat feat.                              |  
+| Ruler of Shadows     | Your class or secondary class has the Striker role.                  |  
 | Selfless Protector    |                                                   |  
 | Shadowsneak           | Trained in Stealth.                               |  
 | Silver Tongue         | Trained in Diplomacy.                             |  
 | Tactician             |                                                   |  
 | Weapon Master         | One or more of your powers has the Martial tag.   |  
+
+## Assassin
+
+Someone hands you an image, an address, or just a name. You move in quickly and quietly, eliminating defenses that lay in your path. You dispatch the enemy efficiently and vanish into the shadows, leaving onlookers wondering who ordered the hit and why.  
+
+**Requirements:** Proficiency with simple melee and ranged weapons.  
+
+### Class Features  
+
+**Twice in the Chest (11th level):** Spend an action point to add 2dW damage to your last hit with any one-handed weapon, instead of taking an extra action.  
+
+**Once in the Head (11th level):** You can score a critical hit with any one-handed weapon on a natural roll of 19 or 20.  
+
+**Quick Succession (16th level):** Each time you stagger a target with a one-handed weapon, you gain a basic attack you must use by the end of your turn as a free action. You must use a one-handed weapon for the basic attack.  
+
+### Powers  
+
+> #### Make Sure They’re Dead  
+>
+> *Otherwise you don’t get paid …*  
+> **Encounter** **Attack** **11** (**Free Action**) ● **Martial, Consistent, Weapon**  
+> **Near** burst 5, the triggering creature  
+> **Trigger** You stagger a creature with a one-handed weapon.  
+> **Attack** Strength or Dexterity (your choice) vs AC  
+> **Hit** 2dW + Strength or Dexterity (your choice) modifier damage.  
+
+> #### The Professional  
+>
+> *No emotions.  No investments.  No hesitation.*  
+> **Daily** **Utility** **12** (**Swift Action**) ● **Martial**  
+> **Self**   
+> **Effect** Until the end of the encounter, when you are granted a basic attack outside of your turn (from an opportunity action, ally power, etc.), you can make two basic attacks. You must use a one-handed weapon for these attacks.  
+
+> #### Like a Ghost  
+>
+> *You strike.  Your enemy is sure of your position, but they assume wrong.*  
+> **Daily** **Attack** **20** (**Standard Action**) ● **Martial, Weapon**  
+> **Melee or Ranged** weapon, one creature granting you combat advantage  
+> **Attack** Strength or Dexterity (your choice) vs AC  
+> **Hit** 4dW + Strength or Dexterity (your choice) modifier damage.  
+> **Miss** Half damage.  
+> **Effect** Shift up to 10 squares.  
 
 ## Battlefield Healer  
 
@@ -7197,7 +7331,7 @@ You exist for the betterment of others. You specialize in impromptu medical care
 
 **Heal Thy Self (11th level):** The Rally action only takes a move action for you.  
 
-**Profound Medical Advice (16th level):** When you spend an action point to take an extra action, all allies in open range can make a saving throw. Gain a +1 bonus to Heal.  
+**Profound Medical Advice (16th level):** Gain a further +1 bonus to Heal. When you spend an action point to take an extra action, all allies in open range can make a saving throw.  
 
 ### Powers  
 
@@ -7218,9 +7352,9 @@ You exist for the betterment of others. You specialize in impromptu medical care
 > *An ally succumbs to their injuries.  You can no longer be a healer.  You must be a protector.*  
 > **Daily** **Attack** **20** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, one creature that has reduced an ally in line of sight to 0 hit points or below.  
-> **Hit** Wisdom  
-> **Effect** 4dW + Wisdom modifier damage, and the target is pushed a number of squares equal to your Wisdom modifier.  
-> **Special** Repeat the attack against the same target. The second attack suffers a -2 to the attack roll but deals +1dW damage on a hit. If you still miss, the target takes half damage and is pushed one square.  
+> **Attack** Wisdom vs AC  
+> **Hit** 4dW + Wisdom modifier damage, and the target is pushed a number of squares equal to your Wisdom modifier.  
+> **Miss** Repeat the attack against the same target. The second attack suffers a -2 to the attack roll but deals +1dW damage on a hit. If you still miss, the target takes half damage and is pushed one square.  
 
 ## Bounty Hunter  
 
@@ -7242,14 +7376,13 @@ You don’t analyze the patterns of combat but the actions and motivations of in
 > **Near** burst 10, your focus  
 > **Attack** Intelligence +2 vs Will  
 > **Hit** The target is rattled and grants combat advantage to all allies in open range until the end of your next turn.  
-> **Special** You can use this power again with an action point (replacing the action).  
 
 > #### Mental Prediction  
 > *Your knowledge of the enemy runs deep, beyond what your allies or even enemies know.*  
 > **Encounter** **Utility** **12** (**Move Action**) ● **Martial**  
 > **Near** earshot, you and up to four allies  
 > **Effect** The target gains a +2 power bonus to AC and Reflex defense against your focus until the start of your next turn.  
-> **Maintain The effect persists.  You can maintain only once.**   
+> **Maintain Swift** The effect persists  until the start of your next turn. You can maintain only once. 
 
 > #### This One Especially  
 > *Of all the targets, this is the one that must be taken down immediately.*  
@@ -7267,9 +7400,9 @@ You are a silent, cold, calculating assassin. Your skills involve intimate kills
 
 **Out of Nowhere (11th level):** You can spend an action point on a surprise round if you are granted one. If you spend an action point on your first turn in an encounter, you gain two actions.  
 
-**Complete Control (11th level):** If you have grappled a target with a garrote, you can slide the target 1 square or render the target prone without having to roll to sustain the grapple.  
+**Complete Control (11th level):** If you have grappled a target with a garrote, you can shunt the target 1 square or render the target prone without having to roll to sustain the grapple.  
 
-**Special Technique (16th level):** Your proficiency bonus with the garrote increases by +2. The damage die increases by +4 (from 1d4 to 1d8).  
+**Special Technique (16th level):** Your proficiency bonus with the garrote increases by +2. The damage die increases by two steps (from 1d4 to 1d8).  
 
 ### Powers  
 
@@ -7279,7 +7412,6 @@ You are a silent, cold, calculating assassin. Your skills involve intimate kills
 > **Self**   
 > **Trigger** You hit a creature with a garrote.  
 > **Effect** The target takes 1dW extra damage from the triggering attack, and is stunned until the start of your next turn.  
-> **Special** You can use this power again with an action point (replacing the action).  
 
 > #### Compliant Target  
 > *Your opponent doesn’t appear capable of struggling when you have a cord wrapped tight around their neck.*  
@@ -7288,7 +7420,7 @@ You are a silent, cold, calculating assassin. Your skills involve intimate kills
 > **Requirements** You are grappling a creature using a garrote.  
 > **Effect** Shift your speed and pull the creature you are grappling with you.  You gain a +2 bonus to sustain the grapple until the grapple ends.  
 
-> #### Defenseless Target  
+> #### Go to Sleep  
 > *You feel the breath leave the target as you apply pressure.*  
 > **Daily** **Attack** **20** (**Swift Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature you are grappling with a garotte  
@@ -7302,7 +7434,7 @@ You are a silent, cold, calculating assassin. Your skills involve intimate kills
 
 **Automatic Reflexes (11th level):** You can spend an action point as a free action. You can use two at-will powers as a standard action with this action point.  
 
-**Waste of Skill (11th level):** If you score a critical hit with a ranged weapon, you can instead deal damage equal to your Dexterity modifier and make a regular basic attack. If you scored the critical with a daily power and the creature you hit was the only target, the power is not expended.  
+**Waste of Skill (11th level):** If you score a critical hit with a daily attack power, and the creature you hit was the only target, the power is not expended.  
 
 **They Thought You Missed (16th level):** If you miss with any attack roll without a miss effect with a ranged weapon, you still inflict damage equal to your Dexterity modifier.  
 
@@ -7319,12 +7451,12 @@ You are a silent, cold, calculating assassin. Your skills involve intimate kills
 > *Your enemy is certain of your location. They’re wrong.*  
 > **Daily** **Utility** **12** (**Move Action**) ● **Martial, Teleportation**  
 > **Near** burst 10, square you can see  
-> **Effect** Select a square in range that you can see that grants granting superior cover or total concealment.  Teleport to that square.  
+> **Effect** Select a square in range that you can see that grants superior cover or total concealment.  Teleport to that square.  
 
 > #### Perfect Shot Placement  
 > *Thanks to your skill with your weapon, you’re able to make multiple shots without a significant drop in accuracy.*  
 > **Daily** **Attack** **20** (**Standard Action**) ● **Martial, Weapon**  
-> **Far** burst 3 (weapon range), all creatures  
+> **Far** burst 3 within weapon range, all creatures  
 > **Attack** Dexterity vs AC  
 > **Hit** 2dW + Dexterity modifier damage.  
 > **Miss** Half damage.  
@@ -7341,7 +7473,7 @@ You keep your weapon down until the last second. You prefer to stare down oppone
 
 **Improved Reaction Time (11th level):** You gain a +2 bonus to initiative.  
 
-**12 O’Clock (16th level):** If you ready an action with an attack power, you gain a +2 power bonus to your next attack roll.  
+**12 O’Clock (16th level):** If you ready an action with an attack power, you gain a +2 power bonus to your next attack roll.  p
 
 ### Powers  
 
@@ -7402,7 +7534,7 @@ You’re the one they make statues of. You’re the one that stands above the ot
 > **Trigger** An enemy you have marked attacks an ally.  
 > **Attack** Strength vs AC  
 > **Hit** 3dW + Strength modifier damage.  
-> **Miss** 3dW damage.  
+> **Miss** Half damage.  
 > **Effect** The target’s attack misses.  
 
 > #### Encouraging Stance  
@@ -7421,54 +7553,23 @@ You’re the one they make statues of. You’re the one that stands above the ot
 > **Miss** You can repeat the attack once against each target.  
 > **Maintain Standard** Shift three squares and repeat the attack. You cannot attack prone targets and you cannot maintain if you have no targets.  
 
-## Manslayer  
-
-Someone hands you an image, an address, or just a name. You move in quickly and quietly, eliminating defenses that lay in your path. You dispatch the enemy efficiently and vanish into the shadows, leaving onlookers wondering who ordered the hit and why.  
-
-**Requirements:** Proficiency with simple melee and ranged weapons.  
-
-### Class Features  
-
-**Twice in the Chest (11th level):** Spend an action point to add 2dW damage to your last hit with any one-handed weapon, instead of taking an extra action.  
-
-**Once in the Head (11th level):** You can score a critical hit with any one-handed weapon on a natural roll of 19 or 20.  
-
-**Quick Succession (16th level):** Each time you stagger a target with a one-handed weapon, you gain a basic attack you must use by the end of your turn as a free action. You must use a one-handed weapon for the basic attack.  
-
-### Powers  
-
-> #### Make Sure They’re Dead  
-> *Otherwise you don’t get paid …*  
-> **Encounter** **Attack** **11** (**Free Action**) ● **Martial, Consistent, Weapon**  
-> **Near** burst 5, the triggering creature  
-> **Trigger** You stagger a creature with a one-handed weapon.  
-> **Attack** Strength or Dexterity (your choice) vs AC  
-> **Hit** 2dW + Strength or Dexterity (your choice) modifier damage.  
-
-> #### The Professional  
-> *No emotions.  No investments.  No hesitation.*  
-> **Daily** **Utility** **12** (**Swift Action**) ● **Martial**  
-> **Self**   
-> **Effect** Until the end of the encounter, when you are granted a basic attack outside of your turn (from an opportunity action, ally power, etc), you can make two basic attacks. You must use a one-handed weapon for these attacks.  
-
-> #### Like a Ghost  
-> *You strike.  Your enemy is sure of your position, but they assume wrong.*  
-> **Daily** **Attack** **20** (**Standard Action**) ● **Martial, Weapon**  
-> **Melee or Ranged** weapon, one creature granting you combat advantage  
-> **Attack** Strength or Dexterity (your choice) vs AC  
-> **Hit** 4dW + Strength or Dexterity (your choice) modifier damage.  
-> **Miss** Half damage.  
-> **Effect** Shift up to 10 squares.  
-
 ## Martial Arts Champion  
 
-Surrounded on all sides, armed with little more than your iron will, you’ve stood your ground and defeat whatever lies ahead. They can have knives, crossbows, or broadswords; it’s all meaningless to you.  
+Surrounded on all sides, armed with little more than your iron will, you’ve stood your ground and defeated whatever lies ahead. They can have knives, crossbows, or broadswords; it’s all meaningless to you.  
 
 **Prerequisite:** Unarmed Combat feat.  
 
 ### Class Features  
 
-**Carry Through (11th level):** Once per round, if you roll a critical hit, roll maximum damage on any of your dice, or drop a target with a melee attack, you immediately deal damage equal to your Strength or Dexterity modifier to one target in reach.  
+**Carry Through (11th level):** Once per round, after your melee attack: 
+
+* Scores a critical hit; or 
+
+* Staggers a target; or 
+
+* Drops a target 
+
+You immediately deal damage equal to your Strength or Dexterity modifier (whichever is higher) to one target in reach.
 
 **Bad Idea (11th level):** You can spend an action point to make a melee basic attack against each adjacent target, instead of taking an extra action.  
 
@@ -7482,7 +7583,7 @@ Surrounded on all sides, armed with little more than your iron will, you’ve st
 > **Self**   
 > **Trigger** You hit a creature with a melee weapon.  
 > **Effect** Until the end of your next turn, each time you hit the triggering creature with a melee attack, you push it 2 squares and knock it prone. If the creature cannot be pushed 2 squares, it takes additional damage equal to twice your Dexterity modifier and is dazed until the start of your next turn. If the target is pushed, you can immediately shift into an adjacent square.  
-> **Maintain Swift** The effect persists against the same target. You can maintain until it is dazed.  
+> **Maintain Swift** The effect persists  against the same target until the end of your next turn. You cannot maintain  if the target is dazed.  
 
 > #### Battlefield Dance  
 > *You flip, jump, and dance your way past your enemies.*  
@@ -7496,51 +7597,6 @@ Surrounded on all sides, armed with little more than your iron will, you’ve st
 > **Self**   
 > **Trigger** You hit a creature.  
 > **Effect** The triggering creature takes persistent 20 damage (save ends).  
-
-## Prince of Shadows  
-
-**Requirements:** Your class has the Striker role.  
-
-You are recognized by every brigand and cutpurse, every sneakthief and bandit. Cat burglars are your courtiers; extortionists your earls. The darkness is your cloak and crown.  
-
-### Class Features  
-
-**Trusty Action (11th level):** You perform … not quite reliably, but always with spectacular results.  
-
-When you use an action point to take an extra action, the action always succeeds (you pass your skill check or at least one attack roll in an attack no matter your roll, for example). If you would fail, you succeed but there’s a side-effect or “sting in the tail” – like a tremendous success drawing unwanted attention or a desperate lunge slaying your enemy but leaving you open to their allies.   
-
-**Do As I Do (11th level):** You are used to leading teams along corridors on tip-toes or up walls without rope or crampon. No one can afford to fail.  
-
-When you make a skill check, allies gain a +2 power bonus to the same skill until the beginning of your next turn.   
-
-**The Cloak is My Shadow, I Shall Not Want (16th level):** Your cloak billows as you move, hiding you away until it seems to be all cloak and no man.  
-
-You do not grant combat advantage from being flanked.   
-
-### Powers  
-
-> #### Just Desserts  
-> *You show a foe that two can play at that game.*  
-> **Encounter** **Attack** **11** (**Reaction Action**) ● **Shadow, Weapon**  
-> **Melee or Ranged** weapon, one target  
-> **Trigger** The target imposes a condition or persistent damage on you or an ally.  
-> **Attack** Dexterity vs AC  
-> **Hit** 2dW + Dexterity modifier and the target suffers the condition or persistent damage that they imposed.  
-
-> #### Out of Mind  
-> *You slip out of view and appear somewhere totally different.*  
-> **Daily** **Utility** **16** (**Swift Action**) ● **Shadow, Teleport**  
-> **Self**   
-> **Effect** You teleport 20, but must choose a square that no other creature can see (you need not be able to see it). You are incorporeal and have phasing until the end of your next turn.  
-
-> #### Cloak Abduction  
-> *You sweep someone up in your cloak.*  
-> **Daily** **Attack** **20** (**Standard Action**) ● **Shadow, Teleport**  
-> **Near** burst 1, one target  
-> **Attack** Dexterity vs AC  
-> **Hit** The creature is transported to an extradimensional space and cannot act (save ends). On a successful save, it appears in an unoccupied space adjacent to you. 
-*Optional:* The creature takes 2dW + Dexterity modifier damage at the start of each turn it spends in the extradimensional space.  
-> **Miss** The creature is transported to the extradimensional space only till the end of your next turn, and it takes no damage.  
 
 ## Ring Fighter  
 
@@ -7575,15 +7631,63 @@ You have the belt, claimed the trophy. Few others boast the record you have. You
 > **Daily** **Attack** **20** (**Standard Action**) ● **Martial**  
 > **Melee** touch, one creature you are grappling  
 > **Effect** Strength modifier + Dexterity modifier damage, and the target is stunned (save ends).  
-> **Maintain Move** Strength modifier + Dexterity modifier damage and the target suffers a -3 penalty to their saving throw against the stunned effect. If the target saves, you can still maintain this power to do damage until the target escapes.  
+> **Maintain Move** The target takes  Strength modifier + Dexterity modifier damage. You cannot maintain if the  target escapes your grapple.
+
+## Ruler of Shadows  
+
+You are recognized by every brigand and cutpurse, every sneakthief and bandit. Cat burglars are your courtiers; extortionists your earls. The darkness is your cloak and crown.  
+
+**Prerequisite:** Your class or secondary class has the Striker role.  
+
+### Class Features  
+
+**Trusty Action (11th level):** You perform … not quite reliably, but always with spectacular results.  
+
+When you use an action point to take an extra action, the action always succeeds (you pass your skill check or at least one attack roll in an attack no matter your roll, for example). If you would fail, you succeed but there’s a side-effect or “sting in the tail” – like a tremendous success drawing unwanted attention or a desperate lunge slaying your enemy but leaving you open to their allies.   
+
+**Do As I Do (11th level):** You are used to leading teams along corridors on tip-toes or up walls without rope or crampon. No one can afford to fail.  
+
+When you make a skill check, allies gain a +2 power bonus to the same skill until the beginning of your next turn.   
+
+**The Cloak is My Shadow, I Shall Not Want (16th level):** Your cloak billows as you move, hiding you away until it seems to be all cloak and no flesh.  
+
+You do not grant combat advantage from being flanked.   
+
+### Powers  
+
+> #### Just Desserts  
 >
-> ## Selfless Protector  
+> *You show a foe that two can play at that game.*  
+> **Encounter** **Attack** **11** (**Reaction Action**) ● **Shadow, Weapon**  
+> **Melee or Ranged** weapon, one target  
+> **Trigger** The target imposes a condition or persistent damage on you or an ally.  
+> **Attack** Dexterity vs AC  
+> **Hit** 2dW + Dexterity modifier and the target suffers the condition or persistent damage that they imposed.  
+
+> #### Out of Mind  
+>
+> *You slip out of view and appear somewhere totally different.*  
+> **Daily** **Utility** **16** (**Swift Action**) ● **Shadow, Teleport**  
+> **Self**   
+> **Effect** You teleport 20, but must choose a square that no other creature can see (you need not be able to see it). You are incorporeal and have phasing until the end of your next turn.  
+
+> #### Cloak Abduction  
+>
+> *You sweep someone up in your cloak.*  
+> **Daily** **Attack** **20** (**Standard Action**) ● **Shadow, Teleport**  
+> **Near** burst 1, one target  
+> **Attack** Dexterity vs AC  
+> **Hit** The creature is transported to an extradimensional space and cannot act (save ends). On a successful save, it appears in an unoccupied space adjacent to you. 
+> *Optional:* The creature takes 2dW + Dexterity modifier damage at the start of each turn it spends in the extradimensional space.  
+> **Miss** The creature is transported to the extradimensional space only till the end of your next turn, and it takes no damage.  
+
+## Selfless Protector  
 
 You possess a natural instinct to protect whoever is assigned to you. You may never have taken an arrow but likely neither has your target. You can spot threats from miles away and can act to move your ward to a better position if that threat gets too close.  
 
 ### Class Features  
 
-**Take a Bullet (11th level):** As a swift action, select one adjacent creature to be your focus. You can only have one focus at a time. Until the end of the encounter, as long as your focus does not attack and remains adjacent to you, they can use your AC and Reflex defense if it is higher than theirs. If your focus is hit by an attack against AC or Reflex, you take the damage instead. When you move, you slide your focus with you.  
+**Take a Hit (11th level):** As a swift action, select one adjacent creature to be your focus. You can only have one focus at a time. Until the end of the encounter or until you change focus, as long as your focus does not attack and remains adjacent to you, they can use your AC and Reflex defense if it is higher than theirs. If your focus is hit by an attack against AC or Reflex, you take the damage instead. When you move, you shunt your focus with you.  
 
 **Total Cover (11th level):** When you spend an action point, both you and your focus gain a +4 bonus to AC and Reflex defense until the end of your next turn and you can shift together 4 squares, instead of taking an extra action.  
 
@@ -7623,7 +7727,7 @@ You move in darkness behind enemy lines. You sneak under heavy cover into prohib
 
 **Impossible Maneuver (11th level):** Use a move action and spend a recovery to shift your speed. You can move vertically up to two squares during this shift.  
 
-**Like a Hawk (11th level):** You can spend a standard action and gain a +5 bonus to Stealth against one opponent up to 10 squares away as long as the target does not detect you.  
+**Like a Hawk (11th level):** You can spend a standard action and gain a +5 bonus to Stealth against one opponent up to 10 squares away. This bonus lasts until the target successfully detects you.  
 
 **Under any Shadow (16th level):** While in superior cover or total concealment, you can spend an action point; instead of taking an extra action, you can maintain superior cover or total concealment until the end of your next turn, regardless of where you move.  
 
@@ -7635,7 +7739,6 @@ You move in darkness behind enemy lines. You sneak under heavy cover into prohib
 > **Ranged** 10, one creature granting you combat advantage  
 > **Attack** Dexterity +2 vs Will  
 > **Hit** Until the end of your next turn, you are invisible to the target, you can pass through its square, and you can make Stealth checks against it with no penalties for movement and without requiring any cover or concealment.  
-> **Special** You can use this power again with an action point (replacing the action).  
 
 > #### Back of Your Head  
 > *Nothing gets past you.*  
@@ -7663,7 +7766,7 @@ You’re the one brought in when weapons cannot be used, when even the brandishi
 
 **Confidence Comes with the Position (11th level):** Gain a +2 bonus to Will defense.  
 
-**I Think We Got Off On The Wrong Foot (16th level):** You can spend an action point to add a +10 bonus to any failed Diplomacy or Intimidate check this turn, instead of taking an extra action. If you use an action point this way, at your next streak, you gain two action points.  
+**I Think We Got Off On The Wrong Foot (16th level):** When you fail a Diplomacy or Intimidate check, you can spend an action point to add a +10 bonus to your check and reassess the outcome with this new total.  You do not gain an extra action when you use an action point this way.
 
 ### Powers  
 
@@ -7694,7 +7797,7 @@ You have probably graduated from a command school or officer college. You emerge
 
 ### Class Features  
 
-**Coordination (11th level):** Anytime an ally in open range rolls a natural 1, 2, or 3 on an attack roll, you one other ally in open range can shift 2 squares.  
+**Coordination (11th level):** Anytime an ally in open range rolls a natural 1, 2, or 3 on an attack roll, you and one other ally in open range can shift 2 squares.  
 
 **Tide of War (11th level):** Whenever an ally in open range is staggered, you gain an action point. This can only occur once per ally per encounter. You can spend a swift action to transfer an action point from you to any ally in open range.  
 
@@ -7750,12 +7853,12 @@ You have probably graduated from a command school or officer college. You emerge
 > **Near** burst 1, all enemies  
 > **Attack** Strength vs AC  
 > **Hit** 3dW + Strength modifier damage if the target is below maximum HP.
-5dW + Strength modifier damage if the target is above maximum HP.  
+5dW + Strength modifier damage if the target is at or above maximum HP.  
 > **Miss** Half damage.  
 
 # Epic Paths  
 
-At level 21, each player character gets an epic path. This path is on top of their main class, which still gives them some powers, and their prestige path (which stops giving them powers after level 20).   
+At level 21, each player character gets an epic path. This path is on top of their main class, which still gives them some powers, and their prestige path (which stops giving them powers after level 20). Like prestige path powers, powers granted by epic paths are in addition to those granted you a character’s class and do not count towards total class powers available.  
 
 Traditionally, each epic path has given the player character a way to cheat death, and a way to achieve to immortality. Some of the epic paths included below are more understated, and do not necessarily include these options. Of course, just because a path does not describe a way to achieve immortality, does not mean immortality is out of reach for that character.   
 
@@ -7788,7 +7891,7 @@ When your adventuring days come to an end, a number of different fates may await
 
 The magic item is not created, it is summoned. The GM may want to identify which creature’s possession the magic item was summoned from, and whether there are any hints to your identity when it arrives back in their possession the following day.   
 
-**Interplanar Contingencies (Level 24):** Once per day, when you die, you appear the following round on your initiative count with half your maximum HP and under the slowed condition, in an unoccupied space of your choice at least 6 squares from your dead body. You cannot use any attack powers or recoveries, but you have all the equipment and magic items that were on your person when you died. The equipment and magic items that are actually on your body become shimmering and insubstantial, and cannot be used or picked up.    
+**Interplanar Contingencies (Level 24):** Once per day, when you die, you appear the following round on your initiative count with half your maximum HP and under the slowed condition, in an unoccupied space of your choice at least 6 squares from your dead body. You cannot use any attack powers or recoveries, but you can make basic attacks and you have all the equipment and magic items that were on your person when you died. The equipment and magic items that are actually on your body become shimmering and insubstantial, and cannot be used or picked up.    
 
 When you are adjacent to your corpse, you can use a swift action to merge the old and new bodies. You can now use attack powers and recoveries, although you do not recover any powers or recoveries that were already spent. You lose the slowed condition, but otherwise keep the HP and any conditions, persistent damage, etc., of your new body. Choose which square your merged body appears in.   
 
@@ -7799,8 +7902,8 @@ When you are adjacent to your corpse, you can use a swift action to merge the ol
 > #### Force Sphere  
 > **Daily** **Utility** **26** (**Counter Action**) ● **Arcane, Force, Zone**  
 > **Near** burst X  
-> **Effect** Create a sphere of force in a near burst between 1 and 5 squares in radius (your choice). The sphere is impenetrable by any means.  
-> **Maintain Swift**   
+> **Effect** Create a sphere of force in a near burst between 1 and 5 squares in radius (your choice). The sphere is impenetrable by any means. The zone persists until the end of your next turn.  
+> **Maintain Swift** The zone persists until the end of your next turn.  
 
 ## Master  
 
@@ -7853,7 +7956,7 @@ Your uniform weighs you down with the number of medals and honors bestowed. You 
 
 **“Try Again and Aim This Time” (21st level):** As an immediate (counter) action, you can allow one ally in line of sight to reroll a missed attack roll.  
 
-**Chess Play (24th level):** When an ally is staggered or reduced to below 0 hit points, as an immediate (react) action, you can grant any other ally in line of sight a standard, a move, and a swift action.  
+**Sacrifice Play (24th level):** When an ally is staggered or reduced to below 0 hit points, as an immediate (react) action, you can grant any other ally in line of sight a standard, a move, and a swift action.  
 
 **Master Tactician (30th level):** As a standard action, you can give one swift action, one move action, and one standard action to be split among up to three allies of your choice in line of sight.  
 

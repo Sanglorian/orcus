@@ -8,7 +8,7 @@ footer: ${pageNo}
 
 # Advanced Options
 
-0.6
+0.6.2
 
 * TOC  
 {:toc}  
@@ -38,6 +38,8 @@ By virtue of your ancestry, your character can speak, read, and write certain la
 
 ## Human  
 
+**Medium natural humanoid**
+
 It's hard to make generalizations about humans.  
 
 Humans reach adulthood in their late teens and live less than a century. Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall.   
@@ -47,19 +49,12 @@ Humans typically learn the languages of other peoples they deal with, including 
 ### Human Traits  
 
 **Ability Score Increases:** +2 to one ability score of your choice  
-
-**Size:** Your size is Medium.  
-
 **Speed:** Your base walking speed is 6 squares.  
-
 **Languages:** You can speak, read, and write Common and one extra language of your choice.   
 
 **Bonus Feat:** Choose one feat. You gain that feat.   
-
 **Bonus Skill:** Choose one class skill. You become trained in that skill.   
-
 **Hardy Stock:** +1 ancestry bonus to Fortitude, Reflex and Will defenses.   
-
 **Dabbler:** You have a third level 1 at-will attack power from your class.   
 
 ### Variant: True Grit  
@@ -76,78 +71,566 @@ Instead of giving humans a third level 1 at-will attack power from their class, 
 > **Trigger:**  You fail a saving throw or miss with an attack roll  
 > **Effect:** Add a +4 ancestry bonus to the roll/throw.  
 
-## Vishyas  
+## Apefolk  
 
-Vishyas are graceful humanoids with venomous fangs and serpentine eyes. Their supple skin is covered with tiny scales, often of a light green, which are sometimes arrayed in patterns not unlike those of a serpent.   
+**Medium natural humanoid**  
+
+### Apefolk Traits  
+
+**Ability Score Increases:** Pick two of +2 Strength, +2 Constitution and +2 Charisma.  
+**Speed:** Your base walking speed is 6 squares.  
+**Languages:** You can speak, read, and write Common and one extra language of your choice..  
+**Skill Bonuses:** +2 Diplomacy, +2 Religion.  
+
+**Heart of the Legion:** When adjacent to at least two allies, you receive a +1 power bonus to all defenses.  
+**Apefolk Power:** Each apefolk has one of the following powers: *cull the weak* or *rally point*.  
+
+> #### Cull the Weak  
+> **Encounter** **Attack** **Feature** (**Standard Action**)   
+> **Self**   
+> **Effect** Make two basic attacks against a staggered target.  
+
+> #### Rally the Troops  
+> **Encounter** **Utility**  (**Swift Action**)   
+> **Near** burst 5, one ally  
+> **Effect** The target can take the rally action as a free action, if they are eligible to do so.  
+> **Special** This power does not affect the normal limitation that a character can only take the rally action once per combat.  
+
+
+## Automaton  
+
+**Medium natural automaton (construct)**  
+
+### Automaton Traits  
+
+**Ability Score Increases:** Pick two of +2 Constitution, +2 Intelligence and +2 Wisdom.  
+**Speed:** Your base walking speed is 6 squares.  
+**Languages:** You can speak, read, and write Common and one extra language of your choice..  
+**Skill Bonuses:** +2 Endure, +2 History.  
+
+**Relentless Endurance:** The first time in an encounter that you are staggered, you gain temporary HP equal to your level.  
+**Made of Metal:** You do not make death saving throws. You still die if reduced to negative hit points equal to your maximum hit points.  
+
+You do not sleep, breathe, eat or drink.  
+**Ingenuity:** You have the *ingenuity* power.  
+
+> #### Ingenuity  
+> **Encounter** **Utility** **Feature** (**Swift Action**)   
+> **Near** burst 5, self or one ally  
+> **Effect** Choose one: target shifts up to 2 as a free action, target makes a saving throw, target gets +2 power bonus to next attack roll or target gets +4 power bonus to next skill check. Power bonuses expire at the end of your next turn if not already used.  
+
+
+## Azer  
+
+**Medium elemental humanoid (fire)**  
+
+### Azer Traits  
+
+**Ability Score Increases:** Pick two of +2 Strength, +2 Constitution and +2 Wisdom.  
+**Speed:** Your base walking speed is 5, but your speed is not reduced by wearing heavy armor or carrying a heavy load. squares.  
+**Languages:** You can speak, read, and write Common, Primordial.  
+**Skill Bonuses:** +2 Arcana, +2 Endure.  
+**Low-Light Vision:** You can see in dim light as if it were bright light.  
+
+**Resistance to Fire:** You gain resistance to fire equal to 5 + half your level.  
+**Minor Magics:** You know the *fiery spirit* power from the Cantrips discipline.  
+**Vengeance of the Pit:** You have the *vengeance of the pit* power.  
+
+> #### Vengeance of the Pits  
+> **Encounter** **Attack** **Feature** (**Free Action**) ● **Fire**  
+> **Near** burst 10, one enemy  
+> **Trigger** An attack by that enemy hits you.  
+> **Effect** The target takes 1d6 + Intelligence OR Charisma modifier fire damage. 
+> *Level 11:* 2d6 + Intelligence OR Charisma modifier. 
+> *Level 21:* 3d6 + Intelligence OR Charisma modifier.  
+
+
+## Baldanar  
+
+**Medium shadow humanoid (shapechanger)**  
+
+### Baldanar Traits  
+
+**Ability Score Increases:** Pick two of +2 Dexterity, +2 Intelligence and +2 Charisma.  
+**Speed:** Your base walking speed is 6 squares.  
+**Languages:** You can speak, read, and write Common and one extra language of your choice..  
+**Skill Bonuses:** +2 Bluff, +2 Stealth.  
+
+**Shared Mind:** You gain telepathy 5, which means you can communicate mentally with creatures you can see that are within 5 squares of you. The creature must be able to speak at least one language; once you have begun the communication they can “speak” back to you.  
+**Brief Mimicry:** You have the *brief mimicry* power from the Deep, Dark, Truthful Mirror discipline.  
+**Dabbler:** You have a third level 1 at-will attack power from your class.  
+
+
+## Catfolk  
+
+**Medium natural humanoid**  
+
+### Catfolk Traits  
+
+**Ability Score Increases:** Pick two of +2 Dexterity, +2 Wisdom and +2 Charisma.  
+**Speed:** Your base walking speed is 6 squares.  
+**Languages:** You can speak, read, and write Common and one extra language of your choice..  
+**Skill Bonuses:** +2 Acrobatics, +2 Streetsmarts.  
+**Low-Light Vision:** You can see in dim light as if it were bright light.  
+
+**Natural Weapon – Claws:** You are proficient with a martial weapon, your claws. Each claw is a martial side weapon in the light blades category.  
+**Balance Guidance:** Allies within 10 receive a +1 ancestry bonus to Acrobatics.  
+**Nimbleness:** +2 ancestry bonus to AC against opportunity attacks.  
+**Farstrider:** You have the *farstrider* power.  
+
+> #### Farstrider  
+> **Encounter** **Utility** **Feature** (**Move Action**)   
+> **Self**   
+> **Effect** Shift up to your speed.  
+
+
+## Cervitaur  
+
+**Medium fey humanoid**  
+
+### Cervitaur Traits  
+
+**Ability Score Increases:** Pick two of +2 Dexterity, +2 Wisdom and +2 Charisma.  
+**Speed:** Your base walking speed is 7 squares.  
+**Languages:** You can speak, read, and write Common, Elven.  
+**Skill Bonuses:** +2 Nature, +2 Perception.  
+**Low-Light Vision:** You can see in dim light as if it were bright light.  
+
+**Woodland Stride:** Shrubbery, trees or plants are not difficult terrain for you.  
+**Sleep Dart:** You have the *sleep dart* power.  
+
+> #### Sleep Dart  
+> **Encounter** **Utility** **Feature** (**Standard Action**) ● **Focus**  
+> **Ranged** 10, one creature  
+> **Attack** Dex, Wis or Cha (your choice) vs Will  
+> **Hit** The target is dazed until the end of your next turn or until it takes damage or a creature within reach uses a standard action to shake it awake. If it is still dazed at the end of your next turn, it falls unconscious for an hour or until it takes damage or is shaken awake (whichever happens sooner).  
+
+
+## Deepfolk  
+
+**Medium cosmic humanoid**  
+
+### Deepfolk Traits  
+
+**Ability Score Increases:** Pick two of +2 Dexterity, +2 Wisdom and +2 Charisma.  
+**Speed:** Your base walking speed is 6, swim 4 squares.  
+**Languages:** You can speak, read, and write Common, Deep Speech.  
+**Skill Bonuses:** +2 Dungeoneering, +2 Streetsmarts.  
+**Darkvision:** You can see in darkness or dim light as if it were bright light.  
+**Blinding Mucus:** You have the *blinding mucus* power.  
+
+> #### Blinding Mucus  
+> **Encounter** **Attack** **Feature** (**Standard Action**) ● **Focus**  
+> **Ranged** 5, one creature  
+> **Attack** Dex, Wis or Cha (your choice) vs Reflex  
+> **Hit** The target is blinded until the end of your next turn.  
+
+
+## Dromite  
+
+**Small cosmic humanoid**  
+
+### Dromite Traits  
+
+**Ability Score Increases:** Pick two of +2 Dexterity, +2 Intelligence and +2 Charisma.  
+**Speed:** Your base walking speed is 5 squares.  
+**Languages:** You can speak, read, and write Common, Deep Speech.  
+**Skill Bonuses:** +2 Arcana, +2 Insight.  
+**Darkvision:** You can see in darkness or dim light as if it were bright light.  
+
+**Blast Shard:** You gain Blast Shard as a bonus feat.  
+**Psychic Leap:** You have the *psychic leap* power.  
+
+> #### Psychic Leap  
+> **Encounter** **Attack** **Feature** (**Move Action**) ● **Psychic**  
+> **Near** burst 5, self or one ally  
+> **Effect** The target jumps up to 3 squares. This does not provoke opportunity attacks.  
+
+
+## Fetchling  
+
+**Medium shadow humanoid**  
+
+### Fetchling Traits  
+
+**Ability Score Increases:** Pick two of +2 Strength, +2 Intelligence and +2 Charisma.  
+**Speed:** Your base walking speed is 6 squares.  
+**Languages:** You can speak, read, and write Common and one extra language of your choice..  
+**Skill Bonuses:** +2 History, +2 Sleight of Hand.  
+**Low-Light Vision:** You can see in dim light as if it were bright light.  
+
+**Hold Breath:** +5 ancestry bonus to Endure checks to hold your breath.  
+**Stealth Guidance:** Allies within 10 receive a +1 ancestry bonus to Stealth.  
+**Disappearing Act:** You have the *disappearing act* power.  
+
+> #### Disappearing Act  
+> **Encounter** **Utility** **Feature** (**Reaction Action**)   
+> **Self**   
+> **Trigger** You take damage.  
+> **Effect** Become invisible until the end of your next turn, or until you make an attack (whichever comes sooner).  
+
+
+## Frogfolk  
+
+**Small natural humanoid**  
+
+### Frogfolk Traits  
+
+**Ability Score Increases:** Pick two of +2 Constitution, +2 Dexterity and +2 Charisma.  
+**Speed:** Your base walking speed is 6 squares.  
+**Languages:** You can speak, read, and write Common and one extra language of your choice..  
+**Skill Bonuses:** +2 Nature, +2 Stealth.  
+
+**Hide in a Flash:** When you make an initiative check, if you are in cover or concealment, you can make a Stealth check to hide (takes no action).  
+**Nimbleness:** +2 ancestry bonus to AC against opportunity attacks.  
+**Lucky:** You have the *lucky* power.  
+
+> #### Lucky  
+> **Encounter** **Utility** **Feature** (**Counter Action**)   
+> **Self**   
+> **Trigger** An attack hits you.  
+> **Effect** Reroll the attack roll and take the second result.  
+
+
+## Gnoll  
+
+**Medium natural humanoid**  
+
+### Gnoll Traits  
+
+**Ability Score Increases:** Pick two of +2 Strength, +2 Dexterity and +2 Charisma.  
+**Speed:** Your base walking speed is 6 squares.  
+**Languages:** You can speak, read, and write Common, Abyssal.  
+**Skill Bonuses:** +2 Athletics, +2 Perception.  
+**Low-Light Vision:** You can see in dim light as if it were bright light.  
+
+**Vigor:** Add your Constitution modifier to your recovery value.  
+**Natural Weapon – Bite:** You are proficient with a martial weapon, your claws. Your bite is a martial one-handed weapon in the heavy blades category, although it requires no hands to use.  
+**Violent Rush:** You have the *violent rush* power.  
+
+> #### Violent Rush  
+> **Encounter** **Utility** **Feature** (**Free Action**)   
+> **Self**   
+> **Trigger** You hit with an attack.  
+> **Effect** Attack does +1dW. If attack was not with a weapon, +1d8 instead.  
+
+
+## Grynloc  
+
+**Medium natural humanoid**  
+
+### Grynloc Traits  
+
+**Ability Score Increases:** Pick two of +2 Dexterity, +2 Intelligence and +2 Wisdom.  
+**Speed:** Your base walking speed is 6 squares.  
+**Languages:** You can speak, read, and write Common, Primordial.  
+**Skill Bonuses:** +2 Arcana, +2 Perception.  
+
+**Magic Sight:** The grynloc has truesight 12 when it comes to seeing magical effects and magic items and those subject to magical effects or carrying magic items.  
+**Grynloc Gifts:** Once per encounter, you can use *shape magic* or *distraction*.  
+
+> #### Shape Magic  
+> **Encounter** **Utility** **Feature** (**Swift Action**) ● **Zone**  
+> **Far** burst 3, one conjuration, summon or zone  
+> **Effect** If the target is a conjuration or summon, you can move it to any unoccupied space in the burst. If the target is a zone, squares of your choice in the burst cease to be part of the zone and an equal number of squares in the burst become part of the zone.  
+
+> #### Distraction  
+> **Encounter** **Attack** **Feature** (**Swift Action**) ● **Focus, Psychic**  
+> **Ranged** 10, one creature  
+> **Attack** Dex, Int or Wis (your choice) vs Will  
+> **Hit** The target is dazed until the end of their next turn.  
+
+
+## Half-Giant  
+
+**Medium natural humanoid (giant)**  
+
+### Half-Giant Traits  
+
+**Ability Score Increases:** Pick two of +2 Strength, +2 Constitution and +2 Wisdom.  
+**Speed:** Your base walking speed is 6 squares.  
+**Languages:** You can speak, read, and write Common, Giant.  
+**Skill Bonuses:** +2 Athletics, +2 Diplomacy.  
+
+**Powerful Build:** You have a +2 ancestry bonus to checks to escape a grapple. You count as size Large for determining whether creatures can grapple or swallow you, or other attacks that are limited to Medium and smaller creatures.  
+**Unmoved:** Reduce any unwilling movement you are subject to by 1 square. When you would fall prone as the result of an attack, make a saving throw – on a success, you do not fall.  
+**Stomp:** You have the *stomp* power.  
+
+> #### Stomp  
+> **Encounter** **Attack** **Feature** (**Standard Action**) ● **Focus**  
+> **Near** burst 1, all creatures  
+> **Attack** Str, Con or Wis (your choice) vs Fortitude  
+> **Hit** The target falls prone.  
+
+
+## Hobgoblin  
+
+**Medium natural humanoid (goblinoid)**  
+
+### Hobgoblin Traits  
+
+**Ability Score Increases:** Pick two of +2 Strength, +2 Constitution and +2 Dexterity.  
+**Speed:** Your base walking speed is 6 squares.  
+**Languages:** You can speak, read, and write Common, Goblin.  
+**Skill Bonuses:** +2 History, +2 Intimidate.  
+
+**Go for the Jugular:** +1 ancestry bonus on attacks against staggered enemies.  
+**Heavy Blade Weapon Proficiency:** You have proficiency with martial weapons in the heavy.  
+**Careful Focus:** You have the *careful focus* power.  
+
+> #### Careful Focus  
+> **Encounter** **Utility** **Feature** (**Free Action**)   
+> **Self**   
+> **Trigger** You just made an attack roll.  
+> **Effect** Reroll the attack roll and take the new result.  
+
+
+## Hoddydod (Snailfolk)  
+
+**Small natural humanoid**  
+
+### Hoddydod (Snailfolk) Traits  
+
+**Ability Score Increases:** Pick two of +2 Constitution, +2 Intelligence and +2 Wisdom.  
+**Speed:** Your base walking speed is 5, climb 5 squares.  
+**Languages:** You can speak, read, and write Common and one extra language of your choice..  
+**Skill Bonuses:** +2 Heal, +2 Nature.  
+
+**Slimy Coating:** After each short rest you gain temporary hit points equal to your Constitution modifier (2 + Con at level 11, 5 + Con at level 21). This does not stack.  
+**Travel Bug:** You have the *travel bug* power.  
+
+> #### Travel Bug  
+> **Encounter** **Attack** **Feature** (**Swift Action**) ● **Focus**  
+> **Ranged** 10, one creature  
+> **Attack** Con, Int or Wis (your choice) vs   
+> **Hit** The target is slowed until the end of their next turn.  
+
+
+## Mephit  
+
+**Small elemental humanoid (fire, water, earth or air)**  
+
+Choose one: fire (resist fire), water (resist cold), earth (resist acid) or air (resist lightning and thunder)  
+
+### Mephit Traits  
+
+**Ability Score Increases:** Pick two of +2 Dexterity, +2 Intelligence and +2 Charisma.  
+**Speed:** Your base walking speed is 6 squares.  
+**Languages:** You can speak, read, and write Common, Primordial.  
+**Skill Bonuses:** +2 Arcana, +2 Religion.  
+**Darkvision:** You can see in darkness or dim light as if it were bright light.  
+
+**Under-Developed Wings:** You have a fly speed of 6, but you fall at the end of your turn and your maximum altitude is 1.  
+**Resistance to X:** Resistance to the specified damage type(s) 5 + half your level.  
+**Breath Weapon:** You have the *breath weapon* power.  
+
+> #### Breath Weapon  
+> **Encounter** **Attack** **Feature** (**Swift Action**) ● **Focus, [Energy]**  
+> **Near** arc 3, targets all  
+> **Attack** (Highest of Strength, Constitution, Dexterity) +2 vs Reflex  
+> **Hit** 1d6 + Constitution modifier. 
+> *Level 11:* 2d6 + Constitution modifier. 
+> *Level 21:* 3d6 + Constitution modifier.  
+
+
+## Minotaur  
+
+**Medium natural humanoid**  
+
+### Minotaur Traits  
+
+**Ability Score Increases:** Pick two of +2 Strength, +2 Intelligence and +2 Wisdom.  
+**Speed:** Your base walking speed is 6 squares.  
+**Languages:** You can speak, read, and write Common and one extra language of your choice..  
+**Skill Bonuses:** +2 Dungeoneering, +2 Religion.  
+**Darkvision:** You can see in darkness or dim light as if it were bright light.  
+
+**Maze Mind:** When you are the target of an attack with the Psychic tag, the attacker is rattled (save ends).  
+**Wandering Charge:** When you charge, you do not need to move in a straight line.  
+**Momentum Blow:** You have the *momentum blow* power.  
+
+> #### Momentum Blow  
+> **Encounter** **Attack** **Feature** (**Free Action**)   
+> **Self**   
+> **Requirements** You have made an attack after moving at least two spaces this turn.  
+> **Effect** If your attack hits, the target also falls prone.  
+
+
+## Quickling  
+
+**Medium fey humanoid**  
+
+### Quickling Traits  
+
+**Ability Score Increases:** Pick two of +2 Dexterity, +2 Intelligence and +2 Charisma.  
+**Speed:** Your base walking speed is 7 squares.  
+**Languages:** You can speak, read, and write Common, Elven.  
+**Skill Bonuses:** +2 Nature, +2 Stealth.  
+**Low-Light Vision:** You can see in dim light as if it were bright light.  
+
+**Hide in a Flash:** When you make an initiative check, if you are in cover or concealment, you can make a Stealth check to hide (takes no action).  
+**Deceptive Motion:** You have the *deceptive motion* power.  
+
+> #### Deceptive Motion  
+> **Encounter** **Utility** **Feature** (**Free Action**)   
+> **Self**   
+> **Effect** Until the end of your next turn, attacks you make that target AC can target Reflex instead.  
+
+
+## Rook  
+
+**Medium elemental humanoid (earth)**  
+
+### Rook Traits  
+
+**Ability Score Increases:** Pick two of +2 Strength, +2 Constitution and +2 Intelligence.  
+**Speed:** Your base walking speed is 6 squares.  
+**Languages:** You can speak, read, and write Common, Giant.  
+**Skill Bonuses:** +2 Diplomacy, +2 Endure.  
+
+**Heart of Stone:** You do not make death saving throws. You still die if reduced to negative hit points equal to your maximum hit points.  
+While unconscious, you do not need to breathe nor do you get hungrier or thirstier.  
+**Will Defense:** +1 ancestry bonus to Will defense.  
+**Rook Power:** Each rook has one of the following powers: *soften* or *gargoyle's rest*.  
+
+> #### Soften  
+> **Encounter** **Attack** **Feature** (**Swift Action**) ● **Focus**  
+> **Melee** touch, one creature  
+> **Attack** Str, Con or Int (your choice) vs Fortitude  
+> **Hit** The target loses its resistances and one immunity of your choice (save ends). If the creature has no resistances or immunities, it instead gains vulnerability 5 to untyped damage (save ends). If the target is an object, the effect lasts for five minutes (no save) and its break DC is also reduced by 5.  
+
+> #### Gargoyle’s Rest  
+> **Encounter** **Utility** **Feature** (**Move Action**)   
+> **Self**   
+> **Effect** Your turn ends. You gain resistance to all damage 5 (10 at level 11, 15 at level 21). You must use this power at the end of your turn.  
+> At the beginning of your next turn, you may use your standard action to make a charge attack. If you do, increase your speed by 2 for the charge.  
+
+
+## Selkmay  
+
+**Medium natural humanoid (shapechanger)**  
+
+### Selkmay Traits  
+
+**Ability Score Increases:** Pick two of +2 Dexterity, +2 Wisdom and +2 Charisma.  
+**Speed:** Your base walking speed is 6 squares.  
+**Languages:** You can speak, read, and write Common and one extra language of your choice..  
+**Skill Bonuses:** +2 Acrobatics, +2 Heal.  
+
+**Tongue of Salt and Spray:** You can speak with riverine and ocean-going mammals and water birds.  
+**Animal Form:** You can use *animal form* once a day.  
+
+> #### Animal Form  
+> **Daily** **Utility** **Feature** (**Swift Action**)   
+> **Self**   
+> **Effect** You take one of the following forms. You cannot make attacks in this form. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
+> • Tiny, Small or Medium amphibian or riverine or ocean-going mammal. Swim speed equal to your land speed.  
+> • Tiny or Small water bird. You gain a flight speed of 4 if you choose a water bird (maximum altitude 2).  
+
+**Supernatural Beauty:** You have the *supernatural beauty* power.  
+
+> #### Supernatural Beauty  
+> **Encounter** **Attack** **Feature** (**Swift Action**) ● **Focus, Illusion, Psychic**  
+> **Near** burst 5, all enemies  
+> **Effect** The target grants you combat advantage until the end of your next turn.  
+
+
+## Shadow Elf  
+
+**Medium shadow humanoid (fey)**  
+
+### Shadow Elf Traits  
+
+**Ability Score Increases:** Pick two of +2 Dexterity, +2 Intelligence and +2 Wisdom.  
+**Speed:** Your base walking speed is 6 squares.  
+**Languages:** You can speak, read, and write Common, Elven.  
+**Skill Bonuses:** +2 Bluff, +2 Insight.  
+**Low-Light Vision:** You can see in dim light as if it were bright light.  
+
+**Minor Magics:** You know the *ghost sound* power from the Cantrips discipline.  
+**Trance:** You don’t need to sleep. Instead, you meditate deeply, remaining semiconscious, for 4 hours a day. While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. Your 4-hour trance has the same effect as a 6-hour long rest.  
+**Highblood Teleport:** You have the *highblood teleport* power.  
+
+> #### Highblood Teleport  
+> **Encounter** **Utility** **Feature** (**Move Action**) ● **Teleport**  
+> **Self**   
+> **Effect** Teleport up to 5.  
+
+
+## Spriggan  
+
+**Small fey humanoid**  
+
+### Spriggan Traits  
+
+**Ability Score Increases:** Pick two of +2 Strength, +2 Constitution and +2 Wisdom.  
+**Speed:** Your base walking speed is 5 squares.  
+**Languages:** You can speak, read, and write Common, Elven.  
+**Skill Bonuses:** +2 Athletics, +2 Intimidate.  
+**Low-Light Vision:** You can see in dim light as if it were bright light.  
+
+**Injured Rage:** +1 ancestry bonus on attack rolls while staggered.  
+**Giant Form:** You have the *giant form* power.  
+
+> #### Giant Form  
+> **Encounter** **Utility** **Feature** (**Swift Action**) ● **Form, Transmutation**  
+> **Self**   
+> **Effect** You become Large. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action. Upon using this power, you can spend a recovery to gain temporary hit points equal to your recovery value. While in this form, you receive a +2 power bonus on basic melee attack rolls.  
+
+
+## Vishya  
+
+**Medium natural humanoid (reptile)**  
+
+Vishyas are graceful humanoids with venomous fangs and serpentine eyes. Their supple skin is covered with tiny scales, often of a light green, which are sometimes arrayed in patterns not unlike those of a serpent.  
 
 ### Vishya Traits  
 
-**Ability Score Increases:** Pick two of +2 Constitution, +2 Dexterity and +2 Charisma.
-
-**Size:** Your size is Medium.  
-
+**Ability Score Increases:** Pick two of +2 Constitution, +2 Dexterity and +2 Charisma.  
 **Speed:** Your base walking speed is 6 squares.  
-
-**Languages:** You can speak, read, and write Common and Draconic.  
-
+**Languages:** You can speak, read, and write Common, Draconic.  
+**Skill Bonuses:** +2 Acrobatics, +2 Bluff.  
 **Low-Light Vision:** You can see in dim light as if it were bright light.  
 
-**Skill Bonuses:** +2 Acrobatics, +2 Bluff.
-
-**Reptile Ancestry:** You have the reptile tag.  
-
 **Hold Breath:** +5 ancestry bonus to Endure checks to hold your breath.  
-
 **Swamp Stride:** Mud, marsh and shallows are not difficult terrain for you.  
-
 **Whistle:** Vishya can communicate using high-pitch whistles that adults cannot hear but dogs and children can.  
-
 **Poisonous Nip:** You have the *poisonous nip* power.  
 
 > #### Poisonous Nip  
->
 > *Your fangs excrete a mild poison.*  
-> **Encounter Swift Action**  
-> **Vishya Attack Ancestry** ● **Poison**  
+> **Encounter** **Attack** **Feature** (**Swift Action**) ● **Focus, Poison**  
 > **Melee** 1, one target  
-> **Attack:**  Dexterity or Constitution +2 vs AC  
-> **Hit:**  1d8 + your Dexterity or Constitution modifier poison damage.  
-> *Level 11:* Attack bonus increases to +4. 2d8 + modifier damage.  
+> **Attack** Dexterity or Constitution +2 vs AC  
+> **Hit** 1d8 + your Dexterity or Constitution modifier poison damage.
+> *Level 11:* Attack bonus increases to +4. 2d8 + modifier damage.
 > *Level 21:* Attack bonus increases to +6. 3d8 + modifier damage.  
 
-## Whoms  
 
-Whoms are humanoid wombats who live in burrows underground.   
+## Whom  
+
+**Small natural humanoid**  
+
+Whoms are humanoid wombats who live in burrows underground.  
 
 ### Whom Traits  
 
-**Ability Score Increases:** Pick two of +2 Strength, +2 Constitution and +2 Wisdom.
-
-**Size:** Your size is Small.  
-
+**Ability Score Increases:** Pick two of +2 Strength, +2 Constitution and +2 Wisdom.  
 **Speed:** Your base walking speed is 5 squares.  
-
-**Burrow:** You have a burrow speed of 1 square. Your burrow cannot extend too far or it risks caving in; you must double back to the surface after burrowing for 5 squares.   
-
-**Languages:** You can speak, read, and write Common and Dwarvish.  
-
+**Languages:** You can speak, read, and write Common, Dwarvish.  
+**Skill Bonuses:** +2 Dungeoneering, +2 Insight.  
 **Low-Light Vision:** You can see in dim light as if it were bright light.  
 
-**Skill Bonuses:** +2 Dungeoneering, +2 Insight.
-
 **Whom Weapon Proficiencies:** You have proficiency with martial weapons of the Pick group.  
-
-**Just Keep Digging:** When you make Endure checks as part of a group check or extended challenge, or to Aid Another, roll twice and take the higher result.   
-
+**Just Keep Digging:** When you make Endure checks as part of a group check or extended challenge, or to Aid Another, roll twice and take the higher result.  
+**Burrow:** You have a burrow speed of 1 square. Your burrow cannot extend too far or it risks caving in; you must double back to the surface after burrowing for 5 squares.  
 **Barrel Along:** You have the *barrel along* power.  
 
 > #### Barrel Along  
->
-> **Encounter** **Swift Action**  
-> **Whom Utility Ancestry**     
+> **Encounter** **Utility** **Feature** (**Swift Action**)   
 > **Self**   
-> **Trigger:**  You are staggered.  
-> **Effect:** You have a +2 bonus to speed and to damage rolls until the end of the encounter.  
+> **Trigger** You are staggered.  
+> **Effect** You have a +2 bonus to speed and to damage rolls until the end of the encounter.  
 
 # Designing Your Own Ancestries  
 
@@ -211,6 +694,8 @@ By default, each ancestry gets two.
 
 **Combined Heritage:** For the purpose of taking feats, you count as two ancestries of your choice.   
 
+**Darkvision:** You can see in darkness or dim light as if it were bright light.
+
 **Eager Charge:** Your speed increases by +2 when you charge.   
 
 **Focus Proficiency:** You have proficiency with orbs, staffs and wands.   
@@ -233,7 +718,7 @@ By default, each ancestry gets two.
 
 **Resistance to X:** Resistance to one or two types of damage 5 + half your level.  
 
-**Shared Mind:** Telepathy 5.  
+**Shared Mind:** You gain telepathy 5, which means you can communicate mentally with creatures you can see that are within 5 squares of you. The creature must be able to speak at least one language; once you have begun the communication they can “speak” back to you.  
 
 **Skill Training:** You are trained in an extra skill of your choice.  
 
@@ -361,7 +846,69 @@ The maneuvers introduced here are available to all characters, but they are only
 
 <figure><img src="pics\DavidLewisJohnson_TINTRO.png" alt="Treasure by David Lewis Johnson" style="zoom: 100%;" /><figcaption>Treasure by David Lewis Johnson</figcaption></figure>
 
+## Randomly Generating a Magic Item
+
+Subtract 1 from the level of the encounter and multiply by 4. Then add that to a d20 roll. 
+
+If the result exceeds 20, subtract 20 and increase the bonus by 1. For example, if you roll 21 on the weapon table, it's a +2 weapon. If you roll 75, it's a +4 flame tongue weapon. 
+
+##### Table – Random Enchanted Magic Items
+
+| d20  | Weapon                    | Focus                     | Armor                    | Cloak                                             |
+| ---- | ------------------------- | ------------------------- | ------------------------ | ------------------------------------------------- |
+| 1    | +1 weapon                 | +1 focus                  | +1 armor                 | +1 cloak                                          |
+| 2    | +1 weapon                 | +1 focus                  | +1 armor                 | +1 cloak                                          |
+| 3    | +1 weapon                 | +1 focus                  | +1 armor                 | +1 cloak                                          |
+| 4    | +1 weapon                 | +1 focus                  | +1 armor                 | +1 cloak                                          |
+| 5    | +1 slayer weapon          | +1 elemental ally focus   | +1 armor of resistance   | +1 cloak of the manta ray                         |
+| 6    | +1 infectious mark weapon | +1 reshaping focus        | +1 glamored armor        | +1 cloak of the skillful                          |
+| 7    | +1 bleeding weapon        | +1 grounded focus         | +1 skillful armor        | +1 cloak of shelter                               |
+| 8    | +1 swift weapon           | +1 versatile focus        | +1 armor of toughness    | +1 necklace of adaptation                         |
+| 9    | +1 venom weapon           | +1 brilliant focus        | +1 demon armor           | +1 amulet of proof against detection and location |
+| 10   | +1 ravening weapon        | +1 draining focus         | +1 dwarf worked armor    | +1 amulet of shielding                            |
+| 11   | +1 warded weapon          | +1 mana battery focus     | +1 ophiduan armor        | +1 cape of the mountebank                         |
+| 12   | +1 dancing weapon         | +1 courageous weapon      | +1 stubborn armor        | +1 cloak of elvenkind                             |
+| 13   | +1 defender weapon        | +1 energy absorbing focus | +1 dragon scale armor    | +1 cloak of displacement                          |
+| 14   | +1 dwarven thrower        | +1 keen focus             | +1 armor of etherealness | +1 soulkeeper amulet                              |
+| 15   | +1 flame tongue weapon    | +1 finisher focus         | +1 emergency armor       | +1 cloak of the eel                               |
+| 16   | +1 javelin of lightning   | +1 forceful focus         | +1 indomitable armor     | +1 amulet of rescue                               |
+| 17   | +1 frost brand weapon     | +1 runic focus            | +1 lifegiving armor      | +1 cloak of arachnida                             |
+| 18   | +1 luck blade             | +1 sapping focus          | +1 gnome worked          | +1 amulet of up-and-down                          |
+| 19   | +1 disruption weapon      | +1 warlike focus          | +1 adamantine armor      | +1 cloak of the artist                            |
+| 20   | +1 hammer of thunderbolts | +1 blessed focus          | +1 adaptive armor        | +1 medallion of thoughts                          |
+
+##### Table – Random Miscellaneous Magic Items
+
+| d20  | Levels 1–5                           | Levels 6–10                        |
+| ---- | ------------------------------------ | ---------------------------------- |
+| 1    | Gauntlets of ogre power              | Arrow-catching shield (adventurer) |
+| 2    | Stone of alarm                       | Ring of resistance (adventurer)    |
+| 3    | Ring of warmth                       | Script of faithfulness             |
+| 4    | Goggles of night                     | Eversmoking bottle                 |
+| 5    | Helm of comprehending languages      | Necrosis cube                      |
+| 6    | Sustaining spoon                     | Satchel of useful items            |
+| 7    | Rope of climbing                     | Ring of water walking              |
+| 8    | Boots of the winterlands             | Deck of illusions                  |
+| 9    | Headband of intellect                | Bag of ogres                       |
+| 10   | Spiritlink charm                     | Immovable rod                      |
+| 11   | Hand of the mage                     | Ring of x-ray vision               |
+| 12   | Efficient quiver                     | Eyes of the eagle                  |
+| 13   | Belt of dwarvenkind                  | Horseshoes of a zephyr             |
+| 14   | Belt of giant strength               | Portable hole                      |
+| 15   | Pipes of the sewers                  | Decanter of endless water          |
+| 16   | Eyes of minute seeing                | Boots of speed                     |
+| 17   | Belt of the archer (adventurer)      | Horseshoes of speed                |
+| 18   | Belt of the man-at-arms (adventurer) | Lantern of revealling              |
+| 19   | Gloves of swimming and climbing      | Robe of eyes                       |
+| 20   | Boots of feather falling             | Boots of levitation                |
+
+There are not currently enough miscellaneous magic items of levels higher than 11 to extend this table. 
+
 ## Focus Boosts  
+
+### Blessed (IV)
+
+Each *blessed focus* is associated with a Channel Divinity power. When you wield the focus, you can use that Channel Divinity power once per day. 
 
 ### Brilliant (II)  
 
@@ -369,8 +916,6 @@ The maneuvers introduced here are available to all characters, but they are only
 When you hit a target: The target is stunned (save ends).   
 
 ### Courageous (II)  
-
-*Minimum Enchantment:* +3  
 
 **Item Power** (swift, encounter)
 Choose an ally. They receive a +4 bonus to their next attack roll.   
@@ -400,22 +945,97 @@ Near burst 5, one target; the creature gains vulnerability 5 to your choice of a
 **Item Power** (counter, daily) ● **Focus**
 When an enemy within 10 squares is about to recharge a power; Charisma vs Will; their power does not recharge and you regain the use of an encounter power.  
 
+### Finisher (III)
+
+Do an additional +X damage to staggered creatures. 
+
+### Forceful (III)
+
+When you make a creature perform unwilling movement, increase the squares moved by 1.
+
+### Grounded (I)
+
+Each *grounded focus* is associated with one or more tags. While wielding the focus, you receive a +2 enhancement bonus on saving throws against effects with those tags. The GM chooses the tags or determines them randomly from the options below.  
+
+##### Table – Grounded Focus
+
+| d6  | Tags |
+| ---- | ----------- |
+| 1    | Acid, Necrotic, Poison        |
+| 2    | Cold, Fire        |
+| 3    | Lightning, Radiant, Thunder        |
+| 4    | Fear, Psychic   |
+| 5    | Charm, Illusion    |
+| 6    | Force, Teleportation     |
+
+### Keen (III)
+
+Score critical hits on a roll of 19 or 20.
+
 ### Mana Battery (II)
 
 **Item Power** (swift, daily)
 You recover an arcane encounter power you have already expended, of the item's level or lower. 
 
+### Reshaping (I)
+
+Each *reshaping focus* is associated with a type of damage. The GM chooses the type or determines it randomly from the options below.  
+
+##### Table – Reshaping Focus
+
+| d10  | Damage Type |
+| ---- | ----------- |
+| 1    | Acid        |
+| 2    | Cold        |
+| 3    | Fire        |
+| 4    | Force       |
+| 5    | Lightning   |
+| 6    | Necrotic    |
+| 7    | Poison      |
+| 8    | Psychic     |
+| 9    | Radiant     |
+| 10   | Thunder     |
+
+**Item Power** (free, encounter)  
+When you use a power that does damage, the damage is instead of the type associated with this focus. 
+
 ### Runic (IV)
 
 Once per day you can perform an incantation of the focus's level or lower, even if you do not know the incantation. The incantation cannot be of a level higher than your own. You must still pay the incantation's component cost.  
+
+### Sapping (IV)
+
+**Item Power** (free, encounter)  
+Use when you hit with a power. One target you hit suffers a -2 penalty to saving throws until the end of their next turn.
+
+### Versatile (I)
+
+This focus counts as all varieties of focus. For example, a *+1 versatile holy symbol* can also be used as an arcane focus, druidic focus and martial focus. Because holy symbols and martial focuses do not require a hand to use (while arcane and druidic focuses do), they are a popular choice for this enchantment. 
+
+### Warlike (IV)
+
+This focus has a weapon boost. The GM chooses the type or determines it randomly from the options below.  
+
+##### Table – Warlike Focus
+
+| d10  | Weapon Boost |
+| ---- | ----------- |
+| 1    | Slayer        |
+| 2    | Infectious Mark        |
+| 3    | Bleeding        |
+| 4    | Swift       |
+| 5    | Venom   |
+| 6    | Ravening    |
+| 7    | Warded      |
+| 8    | Dancing     |
+| 9    | Defender     |
+| 10   | Flame Tongue     |
 
 ## Weapon Boosts  
 
 ### Bleeding (I)
 
-*Minimum Enchantment:* +3  
-
-You can store blood in this weapon, represented by blood points. A *bleeding weapon* can store blood points equal to its level. 
+You can store blood in this weapon, represented by blood points. A *bleeding weapon* can store blood points equal to its enhancement bonus times 5. 
 
 **Absorb Blood** (free, encounter)
 When you do damage with an attack with this weapon: This weapon gains blood points equal to the amount of damage done. 
@@ -423,9 +1043,7 @@ When you do damage with an attack with this weapon: This weapon gains blood poin
 **Unleash Blood** (free, encounter)
 When you hit with this weapon: Do additional damage equal to the number of blood points in this weapon. Then set the blood points in this weapon to zero. 
 
-### Dancing (III)  
-
-*Minimum Enchantment:* +3  
+### Dancing (II)  
 
 **Item Power** (swift, daily)
 This weapon's reach becomes 6 until the end of your next turn. 
@@ -433,6 +1051,12 @@ This weapon's reach becomes 6 until the end of your next turn.
 ### Defender (III)  
 
 You receive a +1 shield bonus to AC and Reflex defenses. 
+
+### Disruption (IV)
+
+Your attacks with this weapon do +Xd6 extra damage against creatures with the demon, devil or undead tags. If your attack causes them to become staggered, they are rattled until the end of their next turn. 
+
+While you hold this weapon, it sheds bright light in a 4-square radius and dim light for an additional 4 squares.  
 
 ### Dwarven Thrower (III)  
 
@@ -450,7 +1074,7 @@ You cast bright light in an 8-square radius and dim light for an additional 8 sq
 
 ### Frost Brand (IV)  
 
-When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage. In addition, while you hold the sword, you have resistance to fire damage equal to double the enhancement bonus (e.g. resistance to fire 6 for +3 red dragon scale armor).  
+When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage. In addition, while you hold the sword, you have resistance to fire damage equal to double the enhancement bonus (for example resistance to fire 6 for +3 red dragon scale armor).  
 
 In freezing temperatures, the blade sheds bright light in a 2-square radius and dim light for an additional 2 squares.  
 
@@ -458,15 +1082,13 @@ Once per encounter, when you draw this weapon, you can extinguish all nonmagical
 
 ### Hammer of Thunderbolts (IV)  
 
-*Hammers only*; *Minimum Enchantment:* +4  
+*Hammers only*
 
 **Item Power** (free, daily) ● **Thunder, Weapon**
 When you make an attack: This weapon's reach becomes 12 for the attack. If the attack hits, the hammer unleashes a thunderclap audible out to 60 squares.   
-*Secondary Attack:* Near burst 3 centered on the target; Strength vs Fortitude (the target and all creatures in burst); the target is stunned until the end of your next turn.  
+*Secondary Attack:* Near burst 3 centered on the target; Strength vs Fortitude (the target and all creatures in burst); the target is dazed until the end of your next turn.  
 
 ### Infectious Mark (I)  
-
-*Minimum Enchantment:* +2  
 
 **Item Power** (free, encounter)
 An enemy you have marked falls to 0 HP or below: choose a target within 5 squares of the marked enemy. That target is now marked by you.   
@@ -477,6 +1099,15 @@ An enemy you have marked falls to 0 HP or below: choose a target within 5 square
 
 **Item Power** (standard, daily) ● **Lightning, Weapon**
 Near wall 24 (must be a straight line); Dexterity vs Reflex (all creatures); Xd6 lightning damage, where X equals the enhancement bonus; on a miss, half damage.   
+
+### Luck Blade (IV)
+
+*Light and Heavy Blades only*
+
+You receive a +1 item bonus on saving throws.
+
+**Item Power** (free, daily)  
+Reroll one attack roll, ability check, or saving throw you dislike. You must use the second roll.
 
 ### Oathbow (IV)  
 
@@ -493,6 +1124,10 @@ If you score a critical hit, do +Xd12 damage instead of the normal amount of bon
 
 While your sworn enemy lives, you suffer a -2 penalty on attack rolls with all other weapons.  
 
+### Ravening (II)
+
+Roll d12s for bonus damage on a critical hit, instead of d6s as usual. 
+
 ### Slayer (I)  
 
 Each *slayer* weapon is attuned to a different variety of creature, chosen or picked randomly from the list below. For example, there are *giant-slayer* and *dragon-slayer* weapons.   
@@ -500,7 +1135,6 @@ Each *slayer* weapon is attuned to a different variety of creature, chosen or pi
 Your attacks with this weapon do +Xd6 extra damage against creatures with that tag.  
 
 1. Air  
-
 2. Aquatic  
 3. Celestial  
 4. Cold  
@@ -521,10 +1155,20 @@ Your attacks with this weapon do +Xd6 extra damage against creatures with that t
 19. Undead  
 20. Water  
 
+### Swift (I)
+
+Add the enhancement bonus to initiative checks. 
+
 ### Venom (II)  
 
 **Item Power** (swift, daily) ● **Poison**
-You cause thick, black poison to coat the blade. The poison remains until the end of the encounter or until you hit with this weapon. The target takes persistent poison damage (save ends) equal to double the enhancement bonus of this weapon.   
+You cause thick, black poison to coat the blade. The poison remains until the end of the encounter or until you hit with this weapon. The target takes persistent poison damage (save ends) equal to double the enhancement bonus of this weapon.  
+
+### Warded (II)
+
+*Ranged weapons only*
+
+Ranged and far attacks made with this weapon do not provoke opportunity attacks. 
 
 ## Cloak Boosts  
 
@@ -536,12 +1180,21 @@ While wearing this amulet, you are hidden from incantations of the scrying categ
 
 *Minimum Enchantment:* +5  
 
-**Item Power** (standard, at-will) ● **Teleportation**
+**Item Power** (standard, at-will) ● **Teleportation**  
 Name a location that you are familiar with on another plane of existence. Make a DC 15 Arcana check. On a successful check, it is as if you successfully performed the *plane walk* incantation. On a failure, you and each creature and object within 15 feet of you travel to a random destination. Roll a d100. On a 1-60, you travel to a random location on the plane you named. On a 61-100, you travel to a randomly determined plane of existence.  
+
+### Amulet of Rescue (III)
+
+**Item Power** (counter, daily) ● **Healing**  
+When you are reduced to 0 HP or below; spend a recovery and heal your recovery value. You are stunned (save ends). 
 
 ### Amulet of Shielding (II)  
 
-While wearing this amulet, you have resistance to force damage, equal to double the enhancement bonus (e.g. resistance to force 6 for a *+3 amulet*).   
+While wearing this amulet, you have resistance to force damage, equal to double the enhancement bonus (for example resistance to force 6 for a *+3 amulet*).   
+
+### Amulet of Up-and-Down (IV)
+
+Each time you would fail a death save, if you have recoveries remaining, you lose a recovery instead. 
 
 ### Cape of the Mountebank (II)  
 
@@ -565,6 +1218,11 @@ The cloak projects an illusion that makes you appear to be standing in a place n
 
 While you wear this cloak with its hood up, Perception checks made to see you are at a -2 penalty and you have a +2 item bonus on Stealth checks made to hide, as the cloak's color shifts to camouflage you. Pulling the hood up or down requires a swift action.  
 
+### Cloak of the Artist (IV)
+
+**Item Power** (swift, daily)  
+Until the end of the encounter, you can be under the effect of two powers with the Stance keyword. 
+
 ### Cloak of the Bat (IV)  
 
 *Minimum Enchantment:* +3
@@ -573,17 +1231,69 @@ While wearing this cloak, you have a +2 item bonus on Stealth checks.
 
 In an area of dim light or darkness, you can grip the edges of the cloak with both hands and use it to fly at a speed of 8 squares. If you ever fail to grip the cloak's edges while flying in this way, or if you are no longer in dim light or darkness, you lose this flying speed.  
 
+### Cloak of the Eel (III)
+
+When an attack misses you, you can shift 1. 
+
 ### Cloak of the Manta Ray (I)  
 
 While wearing this cloak with its hood up, you can breathe underwater, and you have a swim speed of 12 squares. Pulling the hood up or down requires a swift action.  
 
+### Cloak of the Skillful (I)
+
+You add the cloak’s enhancement bonus to skill checks with a particular skill. The GM chooses the skill or determines it randomly from the options below.  
+
+##### Table – Cloak of the Skillful
+
+| d10   | Skill |
+| ---- | ----------- |
+| 1    | Acrobatics        |
+| 2    | Arcana        |
+| 3 | Bluff |
+| 4    | Dungeoneering        |
+| 5    | Heal       |
+| 6    | Insight   |
+| 7    | Perception    |
+| 8 | Sleight of Hand |
+| 9 | Stealth |
+| 10 | Streetsmarts |
+
+### Cloak of Shelter (I)
+
+You receive a +1 item bonus on saving throws.
+
+### Medallion of Thoughts (IV)
+
+**Item Power** (standard, daily)  
+Wisdom vs Will; on a hit, you gain insight into the target's its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). 
+
+### Necklace of Adaptation (I)
+
+While wearing this necklace, you can breathe normally in any environment, and you have a +2 bonus to defenses against attacks made by harmful gases and vapors (such as *cloudkill* and *stinking cloud* effects, inhaled poisons, and the breath weapons of some dragons).
+
+### Soulkeeper Amulet 
+
+While wearing this amulet, you gain one additional recovery to spend each day. 
+
 ## Armor Boosts  
 
-### Adamantine Armor (IV)  
+### Adamantine (IV)  
 
-*Heavy armor only*; *Minimum Enchantment:* +4  
+*Heavy armor only*
 
-This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.  
+**Item Power** (counter, daily)  
+When you are hit by a critical hit; it becomes a normal hit instead.   
+
+### Adaptive (IV)
+
+After you take acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant or thunder damage, you gain resistance to that type of damage, equal to double the enhancement bonus of this armor (resistance 6 for *+3 adaptive armor*) until you take a different type of damage.
+
+The resistance does not apply to the attack that caused you to gain that resistance.  
+
+### Armor of Etherealness (III)
+
+**Item Power** (swift, daily)  
+You are incorporeal until the end of your next turn.  
 
 ### Armor of Invulnerability (IV)  
 
@@ -591,7 +1301,7 @@ This suit of armor is reinforced with adamantine, one of the hardest substances 
 
 You have resistance to untyped damage while you wear this armor, equal to double the enhancement bonus (resistance to untyped damage 6 for +3 armor).   
 
-**Item Power** (counter or swift, daily)
+**Item Power** (counter or swift, daily)  
 You are immune to untyped damage until the end of your next turn.  
 
 ### Armor of Resistance (I)  
@@ -613,7 +1323,7 @@ You have resistance to one type of damage while you wear this armor, equal to do
 | 9    | Radiant     |
 | 10   | Thunder     |
 
-### Demon Armor (II)  
+### Demon (II)  
 
 While wearing this armor, you can understand and speak Abyssal.  
 
@@ -622,6 +1332,10 @@ This armor's enhancement bonus also applies to your attack and damage rolls, and
 Remember, enhancement bonuses do not stack, so this replaces your existing *enchanted weapon* if this bonus is higher.   
 
 **Curse:** Once you don this cursed armor, you can't doff it unless you are targeted by the *remove curse* incantation or similar magic. While wearing the armor, demons have combat advantage against you.
+
+### Armor of Toughness (I)
+
+Add +X to your recovery value.
 
 ### Dragon Scale (III)  
 
@@ -656,15 +1370,65 @@ Additionally, once a day you can focus your senses as a swift action to magicall
 
 If you are subject to unwilling movement, you can reduce that unwilling movement by up to 2 squares.   
 
+### Emergency (III)
+
+While staggered, you get a +1 bonus to Fortitude, Reflex and Will defenses. 
+
 ### Glamored (I)  
 
 As a swift action, speak the armor's command word. It assumes the appearance of a normal set of clothing or some other kind of armor. You decide what it looks like, including color, style, and accessories, but the armor retains its normal bulk and weight. The illusory appearance lasts until you use this property again or remove the armor.  
+
+### Gnome Worked (IV)
+
+This armor has a cloak boost. The GM chooses the type or determines it randomly from the options below.  
+
+##### Table – Gnome Worked Armor
+
+| d10  | Cloak Boost |
+| ---- | ----------- |
+| 1    | Manta Ray        |
+| 2    | Shelter        |
+| 3    | Adaptation        |
+| 4    | Proof Against Detection and Location       |
+| 5    | Mountebank   |
+| 6    | Elvenkind    |
+| 7    | Displacement      |
+| 8    | Soulkeeper     |
+| 9    | Eel     |
+| 10   | Rescue     |
+
+### Indomitable (IV)
+
+When you would be stunned, you are dazed instead.  When you would be immobile, you are slowed instead. When you would be restrained, you are immobile instead.
+
+### Lifegiving (IV)
+
+Any time you spend a recovery to heal, you can spend an additional recovery to heal additional hit points equal to your recovery value. 
 
 ### Ophiduan (II)  
 
 *Hide Armor, Chainmail, Scale Armor and Plate Armor only*  
 
 Ignore armor check penalties and speed penalties from this armor.   
+
+### Skillful (I)
+
+You add the armor’s enhancement bonus to skill checks with a particular skill. The GM chooses the skill or determines it randomly from the options below.  
+
+##### Table – Skillful Armor
+
+| d6   | Skill |
+| ---- | ----------- |
+| 1    | Athletics        |
+| 2    | Diplomacy        |
+| 3    | Endure        |
+| 4    | History       |
+| 5    | Intimidate   |
+| 6    | Religion    |
+
+### Stubborn (II)
+
+When you make a successful save against persistent damage, gain temporary hit points equal to the value of the persistent damage. 
 
 ## Head Items  
 
@@ -827,6 +1591,24 @@ You have resistance 5 to one damage type while wearing this ring. The gem in the
 | 9    | Radiant     | Topaz      |
 | 10   | Thunder     | Spinel     |
 
+### Ring of Warmth
+
+*Level 1*
+
+While wearing this ring, you have resistance to fire damage 2. In addition, you and everything you wear and carry are unharmed by temperatures as low as -50 degrees Fahrenheit.
+
+### Ring of Water Walking
+
+*Level 7*
+
+While wearing this ring, you can stand on and move across any liquid surface as if it were solid ground.
+
+### Ring of X-ray Vision
+
+*Level 7*
+
+While wearing this ring, you can use a swift action to speak its command word. When you do so, you can see into and through solid matter for 1 minute. This vision has a radius of 6 squares. To you, solid objects within that radius appear transparent and don't prevent light from passing through them. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances block the vision, as does a thin sheet of lead.
+
 ## Feet Items  
 
 ### Boots of Feather Falling  
@@ -842,6 +1624,30 @@ When you fall while wearing these boots, you descend 12 squares per round and ta
 **Item Power** (move, encounter)
 You jump a number of squares up to your speed, without provoking opportunity attacks. 
 
+### Boots of Levitation
+
+*Level 10*
+
+While you wear these boots, you gain a fly speed of 4 (maximum altitude 2).
+
+### Boots of Speed
+
+*Level 9*
+
+While you wear these boots, your speed increases by 2. 
+
+### Boots of the Winterlands
+
+*Level 2*
+
+These furred boots are snug and feel quite warm. While you wear them, you have ice stride and can tolerate temperatures as low as -50 degrees Fahrenheit without any additional protection. If you wear heavy clothes, you can tolerate temperatures as low as -100 degrees Fahrenheit.
+
+### Winged Boots
+
+*Level 17*
+
+While you wear these boots, you have a flying speed equal to your walking speed. You can use the boots to fly for up to 4 hours each day, all at once or in several shorter flights. If you are flying when the duration expires, you descend at a rate of 6 squares per round until you land.
+
 ## Wondrous Items  
 
 ### Bag of Ogres
@@ -856,6 +1662,100 @@ At the end of your turn, if the ogre wretch has not received a command that turn
 
 **Special:** Other bags may exist for other mooks – the level of the bag equals the level of the mook.
 
+### Bracelet of Friends
+
+*Level 14*
+
+This silver charm bracelet has four charms upon it when created. The  owner may designate one person known to him to be keyed to one charm.  (This designation takes a standard action, but once done it lasts forever or until changed.) When a charm is  grasped and the name of the keyed individual is spoken, that person is  called to the spot (a standard action) along with his or her gear, as  long as the owner and the called person are on the same plane. The keyed individual knows who is calling, and the *bracelet of friends* only  functions on willing travelers. Once a charm is activated, it  disappears. Charms separated from the bracelet are worthless. 
+
+### Decanter of Endless Water
+
+*Level 9*
+
+If the stopper is removed from this ordinary-looking flask (a swift action) and a command word spoken, an amount of fresh or salt water pours out. Separate command words determine the type as well as the volume and velocity.
+
+* "Stream" pours out 1 gallon per round.
+* "Fountain" produces a 5-foot-long stream at 5 gallons per round.
+
+### Deck of Illusions
+
+*Level 7*
+
+This box contains a set of parchment cards. A full deck has 34 cards. A deck found as treasure is usually missing 1d20-1 cards.
+
+The magic of the deck functions only if cards are drawn at random (you can use an altered deck of playing cards to simulate the deck). You can use a standard action to draw a card at random from the deck and throw it to the ground at a point within 6 squares.
+
+An illusion of one or more creatures forms over the thrown card and remains until dispelled. An illusory creature appears real, of the appropriate size, and behaves as if it were a real creature except that it can do no harm. While you are within 24 squares of the illusory creature and can see it, you can use an action to move it magically anywhere within 6 squares of its card. Any physical interaction with the illusory creature reveals it to be an illusion, because objects pass through it. Someone who visually inspects the creature (a standard action) identifies it as illusory with a successful DC 15 Perception check. The creature then appears translucent.
+
+The illusion lasts until its card is moved or the illusion is dispelled. When the illusion ends, the image on its card disappears, and that card can't be used again.
+
+##### Table – Deck of Illusions
+
+| Playing Card      | Illusion                         |
+| ----------------- | -------------------------------- |
+| Ace of hearts     | Red dragon                       |
+| King of hearts    | Knight and four guards           |
+| Queen of hearts   | Succubus or incubus              |
+| Jack of hearts    | Druid                            |
+| Ten of hearts     | Cloud giant                      |
+| Nine of hearts    | Ettin                            |
+| Eight of hearts   | Bugbear                          |
+| Two of hearts     | Goblin                           |
+| Ace of diamonds   | Beholder                         |
+| King of diamonds  | Archmage and mage apprentice     |
+| Queen of diamonds | Night hag                        |
+| Jack of diamonds  | Assassin                         |
+| Ten of diamonds   | Fire giant                       |
+| Nine of diamonds  | Ogre mage                        |
+| Eight of diamonds | Gnoll                            |
+| Two of diamonds   | Kobold                           |
+| Ace of spades     | Lich                             |
+| King of spades    | Priest and two acolytes          |
+| Queen of spades   | Medusa                           |
+| Jack of spades    | Veteran                          |
+| Ten of spades     | Frost giant                      |
+| Nine of spades    | Troll                            |
+| Eight of spades   | Hobgoblin                        |
+| Two of spades     | Goblin                           |
+| Ace of clubs      | Iron golem                       |
+| King of clubs     | Bandit captain and three bandits |
+| Queen of clubs    | Erinyes                          |
+| Jack of clubs     | Berserker                        |
+| Ten of clubs      | Hill giant                       |
+| Nine of clubs     | Ogre                             |
+| Eight of clubs    | Orc                              |
+| Two of clubs      | Kobold                           |
+| Jokers (2)        | You (the deck's owner)           |
+
+### Efficient Quiver
+
+*Level 3*
+
+Each of the quiver's three compartments connects to an extradimensional space that allows the quiver to hold numerous items while never weighing more than 2 pounds. The shortest compartment can hold up to sixty arrows, bolts, or similar objects. The midsize compartment holds up to eighteen javelins or similar objects. The longest compartment holds up to six long objects, such as bows, quarterstaffs, or spears.
+
+You can draw any item the quiver contains as if doing so from a regular quiver or scabbard.
+
+### Eyes of Minute Seeing
+
+*Level 4*
+
+These crystal lenses fit over the eyes. While wearing them, you can see much better than normal out to a range of 1 foot. You have a +2 enhancement bonus to checks that rely on sight while searching an area or studying an object within that range.
+
+### Eyes of the Eagle
+
+*Level 8*
+
+These crystal lenses fit over the eyes. While wearing them, you have a +2 enhancement bonus on Perception checks that rely on sight. In conditions of clear visibility, you can make out details of even extremely distant creatures and objects as small as 2 feet across.
+
+### Eversmoking Bottle
+
+*Level 6*
+
+Smoke leaks from the lead-stoppered mouth of this brass bottle.
+
+**Item Power** (standard, daily) ● **Fire, Zone**   
+Near burst 6; thick smoke makes everything in the zone heavily obscured until five minutes have passed or as soon as there is strong wind.  
+
 ### Folding Boat  
 
 *Level 16*  
@@ -869,6 +1769,18 @@ The second command word causes the box to unfold into a ship  (see the Vehicles 
 When the box becomes a vessel, its weight becomes that of a normal vessel its size, and anything that was stored in the box remains in the boat.  
 
 The third command word causes the *folding boat* to fold back into a box, provided that no creatures are aboard. Any objects in the vessel that can't fit inside the box remain outside the box as it folds. Any objects in the vessel that can fit inside the box do so.  
+
+### Goggles of Night
+
+*Level 1*
+
+While wearing these dark lenses, you have darkvision out to a range of 12 squares. If you already have darkvision, wearing the goggles increases its range by 12 squares.
+
+### Hand of the Mage
+
+*Level 3*
+
+This mummified elf hand allows you to use a cantrip (chosen by the GM from the Cantrips discipline).
 
 ### Horseshoes of a Zephyr  
 
@@ -902,6 +1814,26 @@ Each creature in the area where the fortress appears is pushed to an unoccupied 
 
 The tower is made of adamantine, and its magic prevents it from being tipped over. The roof, the door, and the walls each have 100 hit points, immunity to damage from nonmagical weapons excluding siege weapons, and resistance 15 to all other damage.   
 
+### Lantern of Revealing
+
+*Level 10*
+
+While lit, this hooded lantern burns for 6 hours on 1 pint of oil, shedding bright light in a 6-square radius and dim light for an additional 6 squares. Invisible creatures and objects are visible as long as they are in the lantern's bright light. You can use a swift action to lower the hood, reducing the light to dim light in a 1-square radius.
+
+### Marvelous Pigments
+
+*Level 17*
+
+These pigments allow you to create three-dimensional objects by painting them in two dimensions. The paint flows from the brush to form the desired object as you concentrate on its image.
+
+Each pot of paint is sufficient to cover 100 squares, which lets you create inanimate objects or terrain features – such as a door, a pit, flowers, trees, cells, rooms, or weapons up to 2 squares high. It takes 10 minutes to cover 4 squares.
+
+When you complete the painting, the object or terrain feature depicted becomes a real, nonmagical object. Thus, painting a door on a wall creates an actual door that can be opened to whatever is beyond. Painting a pit on a floor creates a real pit.
+
+Nothing created by the pigments can have a value greater than 25 gp. If you paint an object of greater value (such as a diamond or a pile of gold), the object looks authentic, but close inspection reveals it is made from paste, bone, or some other worthless material.
+
+If you paint a form of energy such as fire or lightning, the energy appears but dissipates as soon as you complete the painting, doing no harm to anything.
+
 ### Necrosis Cube
 
 *Level 7*
@@ -914,6 +1846,34 @@ The tower is made of adamantine, and its magic prevents it from being tipped ove
 
 **Healing Light** (reaction, encounter) ● **Healing**
 A creature within 6 squares uses an arcane power: You can spend a recovery to heal up to your recovery value.  
+
+### Pipes of the Sewers
+
+*Level 4*
+
+While you play these pipes, you can communicate with rats (including giant rats) and they will not attack you unless you threaten or harm them.
+
+### Robe of Eyes
+
+*Level 10*
+
+This robe is adorned with eyelike patterns. While you wear the robe, you gain the following benefits:
+
+- The robe lets you see in all directions.
+- You have darkvision out to a range of 24 squares.
+- You can see invisible creatures and objects, as well as see into the Ethereal Plane, out to a range of 24 squares.
+
+The eyes on the robe can't be closed or averted. Although you can close or avert your own eyes, you are never considered to be doing so while wearing this robe.
+
+If you are hit by an attack with the radiant tag, you are dazed (save ends). 
+
+### Rope of Climbing
+
+*Level 2*
+
+A 60-foot-long *rope of climbing* is no thicker than a wand, but it is strong enough to support 3,000 pounds. Upon command, the rope snakes forward, upward, downward, or in any other direction at 2 squares (10 feet) per round, attaching itself securely wherever its owner desires. It can unfasten itself and return in the same manner.
+
+A *rope of climbing* can be commanded to knot or unknot itself. This causes large knots to appear at 1-foot intervals along the rope. Knotting shortens the rope to a 50-foot length until the knots are untied but lowers the DC of Athletics checks to climb with it by 5. A creature must hold one end of the rope when its magic is invoked. 
 
 ### Portable Hole  
 
@@ -929,11 +1889,64 @@ If the hole is folded up, a creature within the hole's extradimensional space ca
 
 Placing a *portable hole* inside an extradimensional space created by a *bag of holding*, *handy haversack*, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 2 squares of the gate is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.  
 
+### Satchel of Useful Items
+
+*Level 7*
+
+This appears to be an unremarkable satchel, but a character who dons it  notes that it is adorned with small cloth patches of various shapes.  Only the wearer of the robe can recognize these patches for  what items they become, and detach them. One patch can be detached as a swift action. Detaching a patch causes it to become an actual item, as  indicated below. 
+
+A newly created robe of useful items always has two  each of the following patches:
+
+- Dagger
+- Bullseye lantern (filled and lit)
+- Mirror (a highly polished 2-foot-by-4-foot steel mirror)
+- Pole (10-foot length)
+- Hempen rope (50-foot coil)
+- Sack
+
+In addition, the robe has several other patches. Roll 4d4 for the  number of other patches and then roll for each patch on the table below  to determine its nature.
+
+| d%     | Result                                                       |
+| ------ | ------------------------------------------------------------ |
+| 01-08  | Bag of 100 gold pieces                                       |
+| 09-15  | Coffer, silver (6 in. by 6 in. by 1 ft.), 500 gp value       |
+| 16-22  | Door, iron (up to 10 ft. wide and 10 ft. high and barred on one side—must be placed upright, attaches and hinges itself) |
+| 23-30  | Gems, 10 (100 gp value each)                                 |
+| 31-44  | Ladder, wooden (24 ft. long)                                 |
+| 45-51  | Mule (with saddle bags)                                      |
+| 52-59  | Pit, open (10 ft. by 10 ft. by 10 ft.)                       |
+| 60-68  | Potion of healing                                            |
+| 69-75  | Rowboat (12 ft. long)                                        |
+| 76-83  | Incantation scroll (roll 1d6 to determine level)             |
+| 84-90  | A dog                                                        |
+| 91-96  | Window (2 ft. by 4 ft., up to 2 ft. deep)                    |
+| 97-100 | Portable ram                                                 |
+
+Multiple items of the same kind are permissible. Once removed, a patch cannot be replaced.
+
+### Script of Faithfulness
+
+*Level 6*
+
+This item is a small box containing religious scripture. Anyone who holds the item is aware of any action or  item that could adversely affect their alignment and their standing with their deity, including magical effects. The holder acquires this information prior to performing such an action or becoming  associated with such an item if they take a moment to contemplate the  act.
+
 ### Spiritlink Charm
 
 *Level 3*
 
 On a critical hit, your companion does additional damage equal to 1d6 times by the bonus of an enchanted weapon or focus that you wield. For example, if you wield a *+3 longsword*, your companion does +3d6 damage on a critical hit. 
+
+### Stone of Alarm
+
+*Level 1*
+
+This stone cube, when given the command word, affixes itself to any object. If that object is touched thereafter by  anyone who does not first speak that same command word, the stone emits a piercing screech for 1 hour that can be heard up to a quarter-mile away (assuming no intervening barriers).
+
+### Sustaining Spoon
+
+*Level 2*
+
+This unremarkable eating utensil is typically fashioned from horn. If  the spoon is placed in an empty container the vessel fills with a thick, pasty gruel. Although this substance has a flavor similar to that of  warm, wet cardboard, it is highly nourishing and contains everything  necessary to sustain any herbivorous, omnivorous, or carnivorous  creature. The spoon can produce sufficient gruel each day to feed up to  four humans.
 
 ## Consumable Items
 
@@ -1150,7 +2163,7 @@ Poisons can either be used in combat as powers, or if the poisoner gets an oppor
 > #### Mindfog Mist  
 >
 > **Consumable** **Attack** **15** (**Standard Action**) ● **Poison**  
-> **Far** burst 1 within 5  
+> **Far** burst 1 within range 5, all creatures  
 > **Attack** Dexterity vs Fortitude  
 > **Hit** 2d6 + Dexterity modifier poison damage, and the target cannot use encounter, refresh or daily powers (save ends).  
 > **Special** Mindfog Mist can be stored in a tight container for up to 24 hours. When the container is opened, the attack is targeted on the container.  
@@ -1177,7 +2190,7 @@ Poisons can either be used in combat as powers, or if the poisoner gets an oppor
 > #### Brimstone Fumes  
 >
 > **Consumable** **Attack** **25** (**Standard Action**) ● **Poison**  
-> **Far** burst 1 within 5  
+> **Far** burst 1 within range 5, all creatures  
 > **Attack** Dexterity vs Fortitude  
 > **Hit** 3d6 + Dexterity modifier poison damage, and the target is weakened (save ends).  
 > **Miss** The target is weakened until the end of your next turn.  
@@ -1203,7 +2216,7 @@ Poisons can either be used in combat as powers, or if the poisoner gets an oppor
 > #### Gorgon’s Breath  
 >
 > **Consumable** **Attack** **29** (**Standard Action**) ● **Poison**  
-> **Far** burst 1 within 5  
+> **Far** burst 1 within range 5, all creatures  
 > **Attack** Dexterity vs Fortitude  
 > **Hit** 3d6 + Dexterity modifier poison damage, and the target is slowed (save ends).  
 > *Aftereffect:* The target is petrified (save ends).  
@@ -1399,11 +2412,10 @@ Arts allow for additional participants, unless otherwise mentioned. They must be
 
 ## Rules Variant: Gated Arts
 
-In this rules variant, you must have a relevant feat before you can learn arts.
+In this rules variant, you must have a relevant feat before you can learn arts. Add these feats to the list of feats that characters can learn through Arcane Training or Magical Training. 
 
 ### Incantation Caster
 
-**Prerequisite:** Training in Arcana or Religion.   
 **Benefit:** You can learn and use Arcana, Religion, Heal and Nature incantations. You can use these incantations even if you are not trained in the relevant skill. 
 
 ### Practical Arts
@@ -2553,7 +3565,7 @@ Level 1 Schema Practice (Sleight of Hand)
 **Components:** *  
 **Duration:** Instantaneous  
 
-Each trap has its own schema, which a character can learn after studying a trap for 1 hour, or from scratch with 8 hours. The cost to learn equals the cost of a consumable item of the trap's level. The component cost to make one of those traps equal the cost of a consumable item of the trap's level.  
+Each trap has its own schema, which a character can learn after studying a trap for 1 hour, or from scratch with 8 hours. The cost to learn equals the cost of a consumable item of the trap's level. The component cost to make one of those traps depends on the type of trap: start with the cost of a consumable item of the trap's level and halve it for a one-off trap and double it for a recurring trap. Hazards use the cost of a consumable item of the trap’s level. 
 
 ## Stealth  
 
@@ -2719,22 +3731,6 @@ Characters that fall into the chasm must use Athletics (DC 10) to climb up the s
 
 **Special:** This is a good challenge to pair with a battle, perhaps with ranged attackers on the other side of the bridge. 
 
-### A Meal Fit for a Dragon
-
-**Setup:** The PCs must successfully cook a succulent meal for a dragon in order to gain his assistance and avoid being eaten.
-
-**Level:** 5.
-
-**Successes Required:** 3 before 3 failures. 
-
-**Distance:** The bridge is 100 feet long.  
-
-**Primary Skills:** Nature (moderate, DC 14), Perception (moderate, DC 14)
-
-**Success:** The dragon is delighted with the quality of his meal, improving his attitude towards the PCs to helpful.
-
-**Failure:** The dragon is disgusted and insulted by his meal, making him hostile and unwilling to help the PCs.
-
 ### Escape the Guard
 
 **Setup:** The PCs have been accused of treason, and must flee the city before they are apprehended by the king’s guard.
@@ -2809,19 +3805,19 @@ They act on initiative 15, and take two increments to complete each leg of the d
 
 After the 18th hour (after three six-hour increments have passed), a massive thunderstorm rolls into the valley where the tomb is hidden. All skill checks become hard (DC 22) for the next six hours (the fourth increment). 
 
-**Success:** The PCs reach the tomb first, giving them the opportunity to raid its treasures before their rivals.
+**Success:** The PCs reach the tomb first, giving them at least six hours to explore and potentially make a get-away before their rivals appear (depending on how far behind they are).
 
-**Failure:** The PCs have reached the tomb too late, and will likely have to assault their foe’s base of operations in order to find the treasure they seek.
+**Failure:** The PCs reach the tomb second, giving their rivals at least six hours to explore and potentially make a get-away before the PCs appear (depending on how far behind they are).
 
 ### Cracking the Spellbook
 
-**Setup:** The PCs must search the library of a vanished wizard in order to learn of any wards that the spellcaster might have placed upon his spellbook before he disappeared. 
+**Setup:** The PCs must search the library of a vanished wizard in order to learn of any wards that the spellcaster might have placed upon his spellbook before he disappeared.  PCs can glean arcane knowledge from the book and catch a rare glimpse at the vanished wizard’s musings and experiments.
 
 **Level:** 6.
 
 **Frequency:** Each hero can make one check each hour.  
 
-**Successes Required:** 5 before 3 failures. 
+**Successes Required:** 4 before 3 failures. 
 
 **Primary Skills:** Arcana (easy, DC 11), History (moderate, DC 16), Religion (moderate, DC 16)
 
@@ -2832,15 +3828,13 @@ PCs that track down the wizard's associates with Streetsmarts (easy, DC 11) coul
 * The wizard’s spellbook is warded with a unique symbol spell of his own design. He wanted anyone brazen enough to try and learn from his works to suffer greatly for their arrogance.
 * After several failed experiences left his book singed and his library badly burned, the wizard decided a more subtle approach was in order. He began devising a way to make sure that anyone who read from his book without his permission would be unable to read anything ever again.
 
-* The wizard devised a nefarious spell gylph that, when activated, puts all affected to sleep. Those who fell asleep from the glyph’s influence also permanently lost the ability to read and write. Characters can now use Sleight of Hand (easy, DC 11) to progress the extended challenge by working to deactivate the symbol.
+* The wizard devised a nefarious spell gylph that, when activated, puts all affected to sleep. Those who fell asleep from the glyph’s influence also permanently lost the ability to read and write. Characters can now alternatively use Sleight of Hand (moderate, DC 16) to deactivate the symbol but if they fail it triggers.
 
 * The wizard designed a bypass mechanic for his spellbook’s trap so he wouldn’t need to be bothered with constantly disarming and rearming the trap. The glyph does not trigger for anyone who opens the spellbook while wearing a signet ring with the wizard’s insignia upon it.
 
-**Success:** The PCs are able to bypass the spellbook’s wards and defenses, allowing them to glean arcane knowledge from it and catch a rare glimpse at the vanished wizard’s musings and experiments.
+**Success:** The PCs know that they can reliably bypass the spellbook’s wards and defenses with the signet ring, which they may have already or know where to find, or they can try their luck with a Sleight of Hand check. 
 
-**Failure:** If the PCs achieved four successes, then they know they can bypass the spellbook's trap with the signet ring. Otherwise, they must either find a way to remove the wards or risk opening the book and facing the wrath of whatever spells he placed upon his most private of treasures.
-
-If the book is opened, creatures in a 12-square burst are subject to the following attack: +11 vs Will; the target falls asleep (save ends). *Aftereffect:* The target is cursed to be unable to read or write (until the curse is broken). 
+**Failure:** Each time a creature opens the book, unless they are wearing the signet ring, make the following attack: Near burst 12, all creatures; +11 vs Will; the target falls asleep (save ends). *Aftereffect:* The target is cursed to be unable to read or write (until the curse is broken). 
 
 ### An Audience with the King
 
@@ -2852,13 +3846,13 @@ If the book is opened, creatures in a 12-square burst are subject to the followi
 
 **Successes Required:** 3 before 3 failures. 
 
-**Primary Skills:** Bluff (moderate, DC 16), Diplomacy (easy, DC 11), History (moderate, DC 16), Intimidate (moderate, DC 16), Insight (hard, DC 23). 
+**Primary Skills:** Bluff (moderate, DC 16), Diplomacy (easy, DC 11), History (moderate, DC 16), Insight (hard, DC 23). 
 
-If a character fails on an Intimidate check, the difficulty of Diplomacy checks increases to moderate (DC 16). 
+One time, when a character fails a check, any character can attempt an Intimidate check (moderate, DC 16). On a success, the failed check does not increase the number of failures by one (the Intimidate check does not count as a success itself, however). On a failure, future Diplomacy checks are hard (DC 23). 
 
-**Success:** If the PCs succeed, the majordomo permits them an audience with the king immediately, and the king’s starting attitude with the PCs is friendly.
+**Success:** The majordomo permits the PCs an audience with the king immediately.
 
-**Failure:** The majordomo does not permit the PCs an audience with the king. 
+**Failure:** The PCs do not receive an audience. 
 
 <figure><img src="pics\LuigiCastellani_SEATEDNOBLE.png" alt="Seated Noble by Luigi Castellani" style="zoom: 33%;" /><figcaption>Seated Noble by Luigi Castellani</figcaption></figure>
 
@@ -3593,7 +4587,7 @@ If a creature could deliver a killing blow to the player character but shows the
 
 ### Cart
 
-**Level 3 Large vehicle**  
+**Level 1 Large vehicle**  
 **Capacity:** 1+1; **Cargo:** 2,000 pounds  
 **HP:** 39; **AC:** 15, **Fortitude:** 17; **Reflex:** 11; **Will:** N/A; **Resistance** hardness 5  
 **Speed:** The speed of the creature pulling it -4, or -2 if two creatures are pulling  
@@ -3601,11 +4595,63 @@ If a creature could deliver a killing blow to the player character but shows the
 
 A cart, pulled by one or two beasts of burden.
 
-**Careen:** Just after its driver's place in the initiative count, the cart moves the same distance it moved last round then comes to a stop. If the creature(s) pulling the cart are startled (e.g. under the effects of a power with the Fear tag), they may keep or start moving, and turn in a random direction.  
+**Careen:** Just after its driver's place in the initiative count, the cart moves the same distance it moved last round then comes to a stop. If the creature(s) pulling the cart are startled (for example under the effects of a power with the Fear tag), they may keep or start moving, and turn in a random direction.  
+
+### Dirigible
+
+**Level 18 Gargantuan vehicle**  
+**Capacity:** 2+8; **Cargo:** 2,500 pounds  
+**HP:** 114; **AC:** 30, **Fortitude:** 32; **Reflex:** 26; **Will:** N/A; **Resistance** hardness 10  
+**Speed:** 12  
+**Driver Skill:** Perception
+
+The dirigible is a form of hot air ship.
+
+**Careen:** Just after its driver's place in the initiative count, the dirigible drops 1d6 squares. It then moves 18 squares, in the direction the wind is blowing. 
+
+### Elemental Carriage
+
+**Level 18 Large vehicle**  
+**Capacity:** 1+4; **Cargo:** 100 pounds  
+**HP:** 114; **AC:** 30, **Fortitude:** 32; **Reflex:** 26; **Will:** N/A; **Resistance** hardness 10  
+**Speed:** 8  
+**Driver Skill:** Arcana
+
+This device is a handy carriage powered by nothing other than the motive force of an elemental engine.
+
+**Careen:** Just after its driver's place in the initiative count, the elemental carriage moves the same distance it moved last round -1. It may also start to turn to one side or the other. 
+
+### Elemental Flying Ship
+
+**Level 23 Gargantuan vehicle ** 
+**Capacity:** 2+16; **Cargo:** 5,000 pounds  
+**HP:** 139; **AC:** 35, **Fortitude:** 37; **Reflex:** 31; **Will:** N/A; **Resistance** hardness 15  
+**Speed:** 15  
+**Driver Skill:** Arcana
+
+The flying ship is powered by an elemental engine, and is seaworthy. It can also withstand the rigors of the vacuum of space.
+
+**Careen:** Just after its driver's place in the initiative count, the flying ship travels a number of squares equal to the distance it traveled last round, and drops the same distance during that movement. It may also start to turn to one side or the other.
+
+<figure><img src="pics\Revoy_Ship.jpg" alt="Ship by David Revoy" style="zoom: 100%;" /><figcaption>Ship by David Revoy</figcaption></figure>
+
+### Hot-Air Balloon 
+
+**Level 13 Huge vehicle**  
+**Capacity:** 1+5; **Cargo:** 200 pounds  
+**HP:** 89; **AC:** 25, **Fortitude:** 27; **Reflex:** 21; **Will:** N/A; **Resistance** hardness 5  
+**Speed:** 4  
+**Driver Skill:** Nature
+
+The hot air balloon can seat up to 6 comfortably with two weeks provisions. It is not terribly reliable, and requires some effort at successful navigation. It travels at double speed when the wind is at its back and half speed when it is heading into the wind. 
+
+**Basket:** The hot-air balloon counts as a Medium vehicle for the purposes of ramming and interactions with other vehicles. 
+
+**Careen:** Just after its driver's place in the initiative count, the hot-air balloon drops 1d6 squares. It then moves 12 squares, in the direction the wind is blowing. 
 
 ### Rowboat
 
-**Level 4 Large vehicle**  
+**Level 1 Large vehicle**  
 **Capacity:** 1+2; **Cargo:** 600 pounds  
 **HP:** 44; **AC:** 16, **Fortitude:** 18; **Reflex:** 12; **Will:** N/A; **Resistance** hardness 5  
 **Speed:** swim 4 (6 if both passengers are rowing)  
@@ -3615,9 +4661,21 @@ A rowboat.
 
 **Careen:** Just after its driver's place in the initiative count, the rowboat moves the same distance it moved last round -1. It may also start to turn to one side or the other. After it comes to a stop, it moves according to the current.  
 
+### Ship
+
+**Level 12 Huge vehicle **  
+**Capacity:** 2+13; **Cargo:** 5,000 pounds  
+**HP:** 84; **AC:** 24, **Fortitude:** 26; **Reflex:** 20; **Will:** N/A; **Resistance** hardness 10  
+**Speed:** swim 8  
+**Driver Skill:** Athletics
+
+A ship, 24 feet long, 8 feet wide, and 6 feet deep. The ship has a deck, rowing seats, five sets of oars, a steering oar, an anchor, a deck cabin, and a mast with a square sail. 
+
+**Careen:** Just after its driver's place in the initiative count, the ship moves the same distance it moved last round -1. It may also start to turn to one side or the other. After it comes to a stop, it moves according to the current.  
+
 ### Skiff
 
-**Level 8 Large vehicle**  
+**Level 4 Large vehicle**  
 **Capacity:** 1+3; **Cargo:** 1,200 pounds  
 **HP:** 64; **AC:** 20, **Fortitude:** 22; **Reflex:** 16; **Will:** N/A; **Resistance** hardness 5  
 **Speed:** swim 6   
@@ -3640,68 +4698,6 @@ A gigantic arcano-mechanical vehicle made of hewn stone and baked clay, travelli
 **Roll On:** Roller juggernauts suffer no penalties for difficult terrain. Terrain behind a tank’s movement is no longer considered difficult terrain if it was difficult terrain due to obstructions (a swamp remains difficult terrain, for example).
 
 **Careen:** Just after its driver's place in the initiative count, the roller juggernaut moves the same distance it moved last round -1.  
-
-### Ship
-
-**Level 12 Huge vehicle **  
-**Capacity:** 2+13; **Cargo:** 5,000 pounds  
-**HP:** 84; **AC:** 24, **Fortitude:** 26; **Reflex:** 20; **Will:** N/A; **Resistance** hardness 10  
-**Speed:** swim 8  
-**Driver Skill:** Athletics
-
-A ship, 24 feet long, 8 feet wide, and 6 feet deep. The ship has a deck, rowing seats, five sets of oars, a steering oar, an anchor, a deck cabin, and a mast with a square sail. 
-
-**Careen:** Just after its driver's place in the initiative count, the ship moves the same distance it moved last round -1. It may also start to turn to one side or the other. After it comes to a stop, it moves according to the current.  
-
-### Elemental Carriage
-
-**Level 18 Large vehicle**  
-**Capacity:** 1+4; **Cargo:** 100 pounds  
-**HP:** 114; **AC:** 30, **Fortitude:** 32; **Reflex:** 26; **Will:** N/A; **Resistance** hardness 10  
-**Speed:** 8  
-**Driver Skill:** Arcana
-
-This device is a handy carriage powered by nothing other than the motive force of an elemental engine.
-
-**Careen:** Just after its driver's place in the initiative count, the elemental carriage moves the same distance it moved last round -1. It may also start to turn to one side or the other. 
-
-### Hot-Air Balloon 
-
-**Level 13 Huge vehicle**  
-**Capacity:** 1+5; **Cargo:** 200 pounds  
-**HP:** 89; **AC:** 25, **Fortitude:** 27; **Reflex:** 21; **Will:** N/A; **Resistance** hardness 5  
-**Speed:** 4  
-**Driver Skill:** Nature
-
-The hot air balloon can seat up to 6 comfortably with two weeks provisions. It is not terribly reliable, and requires some effort at successful navigation. It travels at double speed when the wind is at its back and half speed when it is heading into the wind. 
-
-**Basket:** The hot-air balloon counts as a Medium vehicle for the purposes of ramming and interactions with other vehicles. 
-
-**Careen:** Just after its driver's place in the initiative count, the hot-air balloon drops 1d6 squares. It then moves 12 squares, in the direction the wind is blowing. 
-
-### Dirigible
-
-**Level 18 Gargantuan vehicle**  
-**Capacity:** 2+8; **Cargo:** 2,500 pounds  
-**HP:** 114; **AC:** 30, **Fortitude:** 32; **Reflex:** 26; **Will:** N/A; **Resistance** hardness 10  
-**Speed:** 12  
-**Driver Skill:** Perception
-
-The dirigible is a form of hot air ship.
-
-**Careen:** Just after its driver's place in the initiative count, the dirigible drops 1d6 squares. It then moves 18 squares, in the direction the wind is blowing. 
-
-### Elemental Flying Ship
-
-**Level 23 Gargantuan vehicle ** 
-**Capacity:** 2+16; **Cargo:** 5,000 pounds  
-**HP:** 139; **AC:** 35, **Fortitude:** 37; **Reflex:** 31; **Will:** N/A; **Resistance** hardness 15  
-**Speed:** 15  
-**Driver Skill:** Arcana
-
-The flying ship is powered by an elemental engine, and is seaworthy. It can also withstand the rigors of the vacuum of space.
-
-**Careen:** Just after its driver's place in the initiative count, the flying ship travels a number of squares equal to the distance it traveled last round, and drops the same distance during that movement. It may also start to turn to one side or the other.
 
 # Legal  
 

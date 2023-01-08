@@ -99,7 +99,7 @@ As with other templates, the move from standard to elite also doubles a creature
 
 **Class Features:** As per the class.  
 
-**Powers:** Choose from those powers available to the class, of the creature’s level or lower. Do not choose two powers of the same frequency *and* level (e.g., do not choose two level 13 encounter powers or two level 25 daily powers).   
+**Powers:** Choose from those powers available to the class, of the creature’s level or lower. Do not choose two powers of the same frequency *and* level (do not choose two level 13 encounter powers or two level 25 daily powers, for examp).   
 
 * One at-will power.   
 * One encounter power (two from level 11).   
@@ -110,44 +110,6 @@ As with other templates, the move from standard to elite also doubles a creature
 # Monster Traits
 
 Monster traits are like templates, but they do not affect the overall challenge posed by the monster enough that their type or level changes.
-
-### Ancestries
-
-You can turn creatures in the Humans category into other ancestries by giving them one of the following traits. 
-
-High elf: 
-
-**Highblood Teleport** (move, encounter) ● **Teleportation**  
-The high elf teleports up to 5.
-
-Halfling: 
-
-**Lucky** (counter, encounter)  
-When an attack hits the halfling; reroll the attack roll and take the second result.
-
-Dragonborn: 
-
-**Breath Weapon** (standard, encounter) ● **Fire, Cold, Acid, Poison or Lightning**  
-Level +2 vs Reflex; 1d6+4 damage.  
-*Level 11:* 2d6+8 damage, *Level 21:* 3d6+12 damage.
-
-Tiefling: 
-
-**Vengeance of the Pits** (react, encounter) ● **Fire**  
-When an attack by an enemy within 10 hits the tiefling; the attacker takes 1d6+4 fire damage.  
-*Level 11:* 2d6+6 fire damage, *Level 21:* 3d6+12 fire damage.
-
-Dwarf: 
-
-**Tough as Nails** (swift, encounter) ● **Healing**  
-The dwarf spends a recovery and heals one quarter of its maximum HP. 
-
-Wood elf: 
-
-**Careful Focus** (free, creature makes an attack roll, encounter)  
-When the wood elf makes an attack roll: reroll the attack roll and take the new result. 
-
-### Other
 
 **Against the Fallen**  
 When an ally is killed, the creature gains a +1 power bonus to its next attack roll.
@@ -313,7 +275,7 @@ Animals are mundane beasts, like those found in the real world.
 > ‡	**Hoof** (standard, at-will)   
 > +7 vs AC; 1d12+6 damage.  
 > **Trample** (standard, at-will)   
-> The war horse can move up to its speed and enter an enemy’s space. This movement provokes opportunity attacks, and the war horse must end its move in an unoccupied space. When it enters an enemy’s space, the war horse makes a secondary attack  
+> The war horse can move up to its speed and enter an enemy’s space. This movement provokes opportunity attacks, and the war horse must end its move in an unoccupied space. When it enters an enemy’s space, the war horse makes a basic melee attack.  
 
 
 > #### Great Ape  
@@ -477,7 +439,7 @@ Animals are mundane beasts, like those found in the real world.
 > †	**Spiky Charge** (standard, refresh 5, 6)   
 > The hermit crab makes a charge attack with its spiny shell: +13 vs AC; 3d6+5 damage, and the target is pushed 1 square. If the target is pushed against an immovable object, such as a wall, it is immobile and takes persistent 5 damage (save ends both).  
 > †	**Spiky Shell** (reaction, at-will)   
-> +10 vs Reflex; 1d6+5 damage.  
+> When the crab is hit by a melee attack: +10 vs Reflex; 1d6+5 damage.  
 
 
 > #### Quipper Swarm  
@@ -567,7 +529,7 @@ Apefolk are humanoids reminiscent of humankind’s closest relatives: gorillas, 
 > †	**Cull the Weak** (standard, encounter)   
 > The legionnaire makes two *short sword* attacks against the same staggered opponent.  
 > **Heart of the Legion**   
-> When adjacent to at least two apefolk allies, the legionnaire receives a +1 power bonus to all defenses.  
+> When adjacent to an ally, the legionnaire receives a +1 power bonus to all defenses.  
 
 
 > #### Apefolk Infantry  
@@ -587,7 +549,7 @@ Apefolk are humanoids reminiscent of humankind’s closest relatives: gorillas, 
 > ‡	**Longspear** (standard, at-will) ● **Weapon**  
 > Reach 2; +7 vs AC; 5 damage.  
 > **Heart of the Legion**   
-> When adjacent to at least two apefolk allies, the apefolk infantry receives a +1 power bonus to all defenses.  
+> When adjacent to an ally, the apefolk infantry receives a +1 power bonus to all defenses.  
 
 
 > #### Apefolk Signifier  
@@ -615,7 +577,7 @@ Apefolk are humanoids reminiscent of humankind’s closest relatives: gorillas, 
 > ∢	**Sigil of Terror** (standard, refresh 6) ● **Psychic, Fear**  
 > Near burst 3; +5 vs Will; the target is dazed and weakened (save ends both).  
 > **Heart of the Legion**   
-> When adjacent to at least two apefolk allies, the signifier receives a +1 power bonus to all defenses.  
+> When adjacent to an ally, the signifier receives a +1 power bonus to all defenses.  
 
 
 > #### Apefolk Centurion  
@@ -639,7 +601,7 @@ Apefolk are humanoids reminiscent of humankind’s closest relatives: gorillas, 
 > ∢	**Rally Point** (standard, refresh 5, 6)   
 > Near burst 5; allies in the burst shift 3 squares. Allies that end up adjacent to the centurion gain a +1 power bonus to attack and damage rolls until the end of the centurion’s next turn.  
 > **Heart of the Legion**   
-> When adjacent to at least two apefolk allies, the centurion receives a +1 power bonus to all defenses.  
+> When adjacent to an ally, the centurion receives a +1 power bonus to all defenses.  
 
 
 > #### Apefolk Infiltrator  
@@ -664,6 +626,8 @@ Apefolk are humanoids reminiscent of humankind’s closest relatives: gorillas, 
 > The target is marked and grants the infiltrator combat advantage until the end of the infiltrator’s next turn.  
 > **Combat Advantage**   
 > The infiltrator deals an additional 2d6 damage on melee attacks against any target it has combat advantage against.  
+> **Heart of the Legion**   
+> When adjacent to an ally, the infiltrator receives a +1 power bonus to all defenses.  
 
 # Barghests  
 
@@ -691,13 +655,11 @@ Barghests are wolf-goblin demons.
 > ‡	**Bite** (standard, at-will)   
 > +11 vs AC; 1d10+4 damage, and the target is grappled.  
 > †	**Feed** (standard, at-will) ● **Healing, Necrotic**  
-> +9 vs Fortitude (must be grappling the target); 2d6+2 necrotic damage, the target loses 1 recovery, and the barghest heals 10 temporary hit points. In addition, after a successful feeding, the barghest gains a +2 power bonus on attack and damage rolls until the end of its next turn.  
+> +9 vs Fortitude (must be grappling the target); 2d6+2 necrotic damage, the target loses 1 recovery, the barghest heals 10 hit points and the barghest gains a +2 power bonus on attack and damage rolls until the end of its next turn.  
 > ∢	**Howl of the Damned** (standard, refresh 5, 6) ● **Fear, Psychic**  
 > Near arc 3; +7 vs Will; 3d6+3 psychic damage, and the target is rattled (save ends).  
 > **Shapechange** (swift, at-will) ● **Polymorph**  
-> A barghest can assume the shape of a giant black dog or a goblin-like humanoid. It loses its bite attack in goblin form.  
-> **Fey Step**   
-> A barghest may shift up to 4 squares as part of any move action it takes.  
+> A barghest can assume the shape of a giant black dog or a goblin-like humanoid, or its original barghest form. It loses its bite attack in goblin form. Each time a barghest changes shape it can shift 3 squares.  
 
 
 > #### Greater Barghest  
@@ -717,11 +679,11 @@ Barghests are wolf-goblin demons.
 > ‡	**Bite** (standard, at-will)   
 > +16 vs AC; 3d6+6 damage, and the target is grappled.  
 > †	**Feed** (standard, at-will) ● **Healing, Necrotic**  
-> +14 vs Fortitude (must be grappling the target); 4d6+3 necrotic damage, the target loses 2 recoveries, and the barghest heals 10 hit points. If a target is reduced to 0 hit points in this fashion, the barghest gains a cumulative +2 bonus to attack rolls, damage rolls, and all defenses until the end of the encounter.  
+> +14 vs Fortitude (must be grappling the target); 4d6+3 necrotic damage, the target loses 1 recovery, the barghest heals 15 hit points and the barghest gains a +2 power bonus on attack and damage rolls until the end of its next turn.  
 > ∢	**Howl of the Damned** (standard, refresh 5, 6) ● **Fear, Psychic**  
 > Near arc 5; +12 vs Will; 4d6+4 psychic damage, and the target is dazed and weakened (save ends both).  
-> **Shifting Shapechange** (swift, once a round) ● **Polymorph**  
-> A barghest can assume the shape of a giant black dog or a goblin-like humanoid. It loses its bite attack in goblin form. Each time a greater wolf-goblin changes shape it can shift 3 squares.  
+> **Shapechange** (swift, at-will) ● **Polymorph**  
+> A barghest can assume the shape of a giant black dog or a goblin-like humanoid, or its original barghest form. It loses its bite attack in goblin form. Each time a barghest changes shape it can shift 3 squares.  
 
 # Couatl  
 
@@ -992,25 +954,29 @@ In cliffside caves and sunken ruins dwell strange beings, servants of the myster
 > When the sand sentry takes fire or lightning damage, its outer layer of sand fuses into sheets of hardened glass. It loses earth glide but gains resistance to all damage 5 until it takes damage.  
 
 
-> #### Aquatic Gargoyle  
+> #### Gargoyle  
 >
 > **Level 8 Skulker** (350 XP)  
-> Medium Elemental Humanoid ● Aquatic, Earth (Evil)  
+> Medium Elemental Humanoid ● Earth (Evil)  
 > **Senses:** Perception +12, darkvision; **Skills:** Stealth +12   
 > **Languages:** Primordial  
 > **Str:** 21 (+9), **Con:** 17 (+7), **Dex:** 17 (+7)
 > **Int:** 5 (+1), **Wis:** 17 (+7), **Cha:** 17 (+7)  
 >
-> **Initiative:** +11; **Speed:** 6, swim 6  
+> **Initiative:** +11; **Speed:** 6, fly 6  
 > **AC:** 22; **Fort:** 21, **Ref:** 19, **Will:** 19   
 > **HP:** 53, **Staggered:** 26      
 >
 > ‡	**Claw** (standard, at-will)   
 > +13 vs AC; 2d6+5 damage.  
 > **Stone Form** (standard, at-will)   
-> The aquatic gargoyle gains resistance 25 to all damage, regeneration 3, and tremorsense 10 (losing all other senses). The gargoyle can leave stone form as a swift action; otherwise it cannot act.  
+> The gargoyle gains resistance 25 to all damage, regeneration 3, and tremorsense 10 (losing all other senses). The gargoyle can leave stone form as a swift action; otherwise it cannot act.  
 > **Sudden Violence** (reaction, at-will)   
 > When the gargoyle leaves stone form, it gets a basic melee attack against all adjacent enemies and shifts 3 squares.  
+
+##### Variant
+
+**Aquatic Gargoyle:** As the gargoyle, except it has a swim speed of 6 instead of a fly speed and it has the Aquatic keyword.
 
 
 > #### Jinushigami  
@@ -1269,7 +1235,7 @@ In cliffside caves and sunken ruins dwell strange beings, servants of the myster
 > ‡	**Pincer** (standard, at-will)   
 > +24 vs AC; 4d8+8 damage.  
 > ⋇	**Chaos Hammer** (standard, at-will) ● **Force**  
-> +24 vs Fortitude; 2d10+8 force damage, and the target falls prone.  
+> Far burst 1 within 5; +24 vs Fortitude; 2d10+8 force damage, and the target falls prone.  
 
 
 > #### Laughing Demon  
@@ -1336,7 +1302,7 @@ In cliffside caves and sunken ruins dwell strange beings, servants of the myster
 > †	**Three Whirling Swords** (standard, at-will) ● **Weapon**  
 > The marilith makes up to three *sword* attacks, each against a different target. The marilith may shift 1 after each attack.  
 > **Terrible Swift Swords** (free, encounter)   
-> For the rest of this turn, all attacks you make score a critical hit on a natural 15-20.  
+> For the rest of this turn, all attacks the marilith makes score a critical hit on a natural 15-20.  
 > **Beguiling Gaze** (standard, at-will) ● **Psychic, Charm**  
 > Ranged 10; +34 vs Will; the target is pulled 6 squares.  
 
@@ -2348,7 +2314,7 @@ Humans need no introduction. These profiles can be easily adapted to represent o
 > **Int:** 16 (+12), **Wis:** 14 (+11), **Cha:** 12 (+10)  
 > **Equipment:** crossbow  
 >
-> **Initiative:** +15; **Speed:**   
+> **Initiative:** +15; **Speed:** 6  
 > **AC:** 33; **Fort:** 33, **Ref:** 31, **Will:** 30   
 > **HP:** 1; a missed attack never damages a mook      
 >
@@ -2675,7 +2641,7 @@ Screamer is an umbrella term for one-manned aircraft operated by the shells. Bot
 > **Convert** (move, at-will)   
 > Target one adjacent corpse or killed creature. The target is replaced with a skinner. A skinner placed this way acts on the beast’s initiative and can act immediately after being placed.  
 > **Nano-Propagation** (swift, at-will)   
-> Select one enemy suffering from persistent damage from grey infection. Increase the persistent damage by 1.  
+> Select one enemy suffering from persistent damage from *gray infection*. Increase the persistent damage by 1.  
 
 Also known as a conversion unit, the beast is a mobile command node that expands the Invaders' influence and sphere of control. Although capable of combat, the beast prefers to remain back, while constructing more Invaders. While fixed and defended facilities produce larger units like screamers and punks, beasts expand though uncontrolled and populated areas producing ground units as fast as they can acquire raw materials. To destroy one is to cripple the enemy advancement in that area. Unfortunately, beasts are incredibly difficult to defeat. Unlike many Invaders, the beast, although cybernetic, has no visible human features.  
 
@@ -3176,6 +3142,19 @@ Ostovites are usually found sheltered in their bone chariots, which they control
 > **Empty Vessel**   
 > If the ostovite riding the bone chariot is ever incapacitated or leaves the bone chariot, the bone chariot cannot take any actions until an ostovite rides it again.  
 
+Skeletons as assembled by someone with only a passing familiarity with or interest in human anatomy.
+
+##### **Game Master tips**  
+
+The players will likely assume that the ostovite and its chariot are a single creature. Assume they are attacking the chariot unless they specify otherwise. When the ostovite is ready to attack, it lifts the chariot’s bone mask. At some point, they will tweak that the chariot’s skittering silver “tongue” is an armor-plated insect with a hundred chitinous legs gripping onto the chariot.  
+
+Since a chariot stops working when its ostovite is destroyed, the heroes may start targeting the ostovites with attacks. Some things they may choose include:  
+
+* The default is simply to attack the ostovite through the bone chariot. The ostovite has cover, and gets resistance from the chariot until the chariot is staggered.
+* They may pull the chariot’s mask off to leave the ostovite exposed. Make a Strength check vs Fortitude.
+* They may ready an action to attack when the ostovite attacks.
+* Any other creative solution will do.
+
 
 > #### Ostovite  
 >
@@ -3197,7 +3176,7 @@ Ostovites are usually found sheltered in their bone chariots, which they control
 > **Scuttle Away** (reaction, encounter)   
 > When the ostovite’s bone chariot is destroyed; Shift 5.  
 
-##### Special
+##### Variant
 
 **Ostovite Sentient:** As the ostovite, except it does not get *bone spike*. Instead, it has: 
 *Activation aura 10:* Bone chariots within the aura act on the ostovite sentient’s initiative as if they were being ridden, taking their full complement of actions.  
@@ -3277,12 +3256,10 @@ The mega-chariot gives no XP. The ostovite swarm must be defeated for the heroes
 > +9 vs AC; 1d12+5 damage, and the target takes persistent 5 necrotic damage (save ends).  
 > †	**Constrict** (standard, at-will)   
 > Must be grappling the target; 1d12+5 damage, and the target is dazed until the end of the ghoul worm's next turn.  
-> ∢	**Horror** (opportunity, legendary) ● **Fear, Psychic**  
+> ∢	**Horror** (counter, at-will) ● **Fear, Psychic**  
 > Near burst 10, one creature; +9 vs Will (a creature sees the ghoul worm for the first time); The target is stunned until the end of their next turn.  
-> **Speed Burst** (free, legendary)   
+> **Speed Burst** (counter, refresh 4, 5, 6)   
 > The ghoul worm takes a move action.  
-> **Legendary Action**   
-> Each round, the ghoul worm can take one legendary action. The action interrupts another creature's turn (if it is an opportunity action, like *horror*) or comes after another creature's turn (if it is a free action, like *speed burst*). Alternatively, it can spend its legendary action just before its turn begins to immediately make a saving throw against one condition it is affected by. The ghoul worm cannot take legendary actions on its turn.  
 
 An ostovite that grows fat and strong on freshly-dead corpses eventually sheds its carapace and emerges as a ghoul worm, which resembles the decaying corpse of a naga or large snake. Ghoul worms often wear a giant skull to complete the illusion that they are an undead serpent. The emergence of a ghoul worm often provokes a schism in ostovite hives, with some in the hive worshipping the ghoul worm and others spurning it out of fear.  
 
@@ -3412,7 +3389,7 @@ The Plane of Shadow coexists alongside the Prime Material Plane, the world. It i
 > **Multiple Images** (swift, refresh 5, 6) ● **Illusion**  
 > The greymalkin receives a +6 power bonus to AC. Each time an attack misses the greymalkin, the bonus decreases by 2.  
 
-*The creature appears to be some sort of predatory cat, resembling a smoke-gray leopard with an unusually bestial snout.The air around it seems to shimmer, not unlike a heat mirage, and without a sound a second identical creature appears to the left.*  
+*The creature appears to be some sort of predatory cat, resembling a smoke-gray leopard with an unusually bestial snout. The air around it seems to shimmer, not unlike a heat mirage, and without a sound a second identical creature appears to the left.*  
 
 # Shapeshifter Slime  
 
@@ -3480,9 +3457,9 @@ The shapeshifter slime begins in human form. Once sufficiently damaged, it trans
 > **Immune:**&nbsp;disease, poison, **Resist:**&nbsp;incorporeal   
 >
 > ‡	**Ghostly Sword** (standard, at-will) ● **Necrotic, Weapon**  
-> +11 vs Reflex; 2d8+4 necrotic damage, and the target is marked until the end of the knightly spectre’s next turn.  
+> +11 vs Reflex; 2d8+4 necrotic damage, and the target is marked until the end of the specter’s next turn.  
 > **Knightly Tactics**   
-> A knightly spectre has combat advantage against any target marked by any ghostly sword power.  
+> A specter has combat advantage against any target marked by any *ghostly sword* power.  
 
 
 > #### Specter of Sorrow  
@@ -3982,6 +3959,314 @@ The bauble beast introduces a new condition:
 | Balor | 29 | Wrecker |  
 | Marilith | 29 | Wrecker |  
 | Flying Head Swarm               | 29    | Elite Striker          |  
+
+# Threats
+
+Threats are easy to use, thematic, level-appropriate collections of hazards, traps and other challenges. 
+
+If the PCs are particularly disadvantaged by the threat relative to their opponents, count the threat as one standard monster of its level for the purposes of encounter design. 
+
+#### Sawmill
+
+*Level 1.* Wooden floorboards; wooden walls; 20-foot ceiling with beams running across the length and breadth of the mill at 10 feet.
+
+*Light:* Lanterns (bright in 4x4 area). 
+
+**✪ Brambles ● Cover **  
+Creatures who start their turn in brambles are slowed until they leave the brambles. 
+
+**△ Boggy Ground ● Difficult Terrain** 
+
+**☁ Mist ● Lightly Obscuring** 
+
+**░ Cloud of Midges ● Difficult Terrain, Lightly Obscuring, Zone**  
+
+If no creatures in zone when a creature moves within 3 of the zone, the zone moves 5 to overlap creature. If a Near or Far attack includes zone in area, those parts of zone destroyed. 
+
+**⦷ Saw ● Difficult Terrain**  
+Small. AC/Reflex 5, Fortitude 10, 30 HP
+
+If a creature enters this space, make an attack. +3 vs Reflex; 1d10+3 damage. 
+
+**║ Beams ● Difficult Terrain**  
+May treat as normal terrain if you make a DC 13 Acrobatics check; if you fail by 5 or more you fall off the beam. 
+
+**☼** **Sawdust Port** **● Hazard**  
+Swift action to activate. Creates arc 3 zone of obscuring terrain. 
+
+Deactivate DC 12 (swift action). If deactivation check fails, 2d6 fire damage in zone as a spark ignites the sawdust.
+
+◒ **Rope and Pulley**  
+Small. AC/Ref 8, Fortitude 8, 5 HP
+
+Activate as a move action. Travel up to a beam or down from a beam to the ground. 
+
+**✪** **Work Bench ● Cover**  
+Medium. AC/Ref 5, Fortitude 10, 20 HP
+
+With a swift action, find an improvised weapon on the bench. 
+
+⟍ **Conveyor Belt ● Difficult Terrain, Hazard**  
+Swift action to activate. Creatures on the conveyor belt are shunted 2 squares at the end of each round, until they leave the conveyor belt. 
+
+#### Swamp
+
+*Level 2*
+
+*Light:* Depends on the weather. *Swamp lanterns* provide illumination. 
+
+**≈ Deep Water**  
+Must swim to cross. 
+
+**✪ Brambles ● Cover**  
+Creatures who start their turn in brambles are slowed until they leave the brambles. 
+
+**△ Boggy Ground ● Difficult Terrain** 
+
+**☁ Mist ● Lightly Obscuring** 
+
+**░ Cloud of Midges ● Difficult Terrain, Lightly Obscuring, Zone**  
+If no creatures in zone when a creature moves within 3 of the zone, the zone moves 5 to overlap creature. If a Near or Far attack includes zone in area, those parts of zone destroyed. 
+
+**║ Floating Log ● Difficult Terrain**  
+May treat as normal terrain if you make a DC 13 Acrobatics check; if you fail by 5 or more you fall off the log. 
+
+**☼** **Swamp Lanterns ● Hazard, Light Source (bright in 4x4 area)**  
+Leaking plumes of gas. If exposed to flame, they explode and disappear (recharge 5–6): Near burst 1, +5 vs Reflex; 1d12+3 fire damage. 
+
+☒ **Quicksand ● Difficult Terrain, Hazard**  
+Appears as *boggy ground* (notice DC 13 reveals water is bubbling up). 
+
+Attack any creature that enters or starts its turn in quicksand: +5 vs Fortitude; the target is restrained until the end of the turn. 
+
+**Event (roll at the end of each round, on a 6):** 
+* An island turns out to be the back of a giant turtle/hermit crab
+* A swamp creature seizes a creature and pulls them into the deep water
+* A floating log turns out to be a crocodile
+*  An abandoned boat floats downstream
+*  Midges turn out to be blood midges: while in the zone, creatures have vulnerability to all damage 5. 
+
+#### Wizard’s Tower
+
+*Level 3.* Mortared stone walls; flagstone floors; 10-foot ceiling
+
+*Light: Continual flame* torches provide regular bright light. 
+
+🙾 **Chequerboard**  
+Each square is either black or white. On odd rounds, spikes attack creatures standing on a black square. On even rounds, spikes attack creatures standing on a white square.  
+ +9 vs Reflex; 1d12+4 damage. 
+
+**♕ Marble Queen ● Cover**  
+Medium. AC/Ref 5, Fortitude 10, 40 HP
+
+DC 14 Athletics to rotate. While facing chequerboard, pattern swaps: on odd rounds, spikes attack white. On even, spikes attack black.  
+
+**░ Force Wall ● Zone**  
+When a creature attempts to enter the zone, make an attack. +9 vs Fortitude; the creature is pushed back the way they came 1d6 squares. 
+
+**☼ Teleportation Circle**  
+This square is adjacent to all other teleportation circles within sight.
+
+**☒** **Summoning Stasis Circle**  
+Appears as a *teleportation circle* (notice DC 14 reveals pentagram etched lightly into the flagstones). 
+
+If a creature enters the circle, it is stunned until the end of its next turn.  
+
+**✪** **Capacious Cupboard ● Cover**  
+Medium. AC/Ref 5, Fortitude 10, 20 HP
+
+Appears as a regular cupboard (notice DC 14 reveals moving objects inside).
+
+Roll at the end of each round. On a 5 or 6, summon a small animated object in an adjacent unoccupied space. 
+
+Shutting the cupboard door stops further summons.
+
+#### Spider’s Lair
+
+*Level 4.* Open ground; tunnels have walls and floors of raw earth and are as heigh as the spiders that made them.
+
+*Light:* Dim light under tree canopy; tunnels are dark.  
+
+*Walls:* 
+
+**☼** **Web ● Difficult Terrain, Lightly Obscured, Hazard, Zone**  
+If a creature enters a web, +7 vs Reflex; the target is slowed until the end of their next turn. 
+
+If they are already slowed, they are grappled until the target escapes (DC 14), leaves the space or an adjacent creature helps them escape. If the target fails their escape roll by 5 or more, they are restrained instead. If the rescuer fails their escape roll, they are grappled too.
+
+If a web is exposed to fire, it sets alight. Creatures that enter or begin their turn in the zone take 5 fire damage. At the same initiative count the next round, the fire burns out, the web in that square is destroyed and any adjacent squares with webs are set alight. 
+
+**║ Branch Bridge ● Difficult Terrain**  
+May treat as normal terrain if you make a DC 14 Acrobatics check; if you fail by 5 or more you fall off the branch. 
+
+**✪ Tree ● Cover, Impassible**  
+Large. AC/Reflex 4, Fortitude 15, 100 HP. Climb DC 15.
+
+⌘ **Trapped Creature ● Difficult Terrain**  
+Medium. AC 14, Fortitude/Reflex/Will 12, 34 HP
+
+An adjacent creature can free a trapped creature with an escape roll (DC 14). If the rescuer fails their escape roll by 5 or more, one hand is stuck to the trapped creature until the end of their next turn. 
+
+A spider can feed from a trapped creature as a swift action. The trapped creature takes 4d8 damage and the spider heals that amount. 
+
+**△ Leaf Litter ● Difficult Terrain**  
+Small and smaller creatures have light concealment and cover while in leaf litter. 
+
+*Leaf litter* can conceal trapdoors and webs. 
+
+**☁ Canopy ● Lightly Obscuring**  
+ The canopy is too fragile for Medium or larger creatures unless they have wall-climbing. 
+
+◒ **Trapdoor**  
+As a door, but leading down into tunnels. Can open with a swift action. 
+
+**⦷ Spider Eggs ● Difficult Terrain**  
+Small. AC 14, Fortitude/Reflex/Will 12, 34 HP
+
+If a creature enters this space, make a refresh roll. On a 4 to 6, the eggs hatch. Destroy the eggs and place a vermin swarm on this space. The swarm starts with damage equal to damage taken by the eggs it hatched from. 
+
+☒ **Rotten Patch ● Difficult Terrain, Hazard**  
+Appears as one or more squares of a *branch bridge* (notice DC 14 reveals rot has set in). 
+
+Attack any creature that enters or starts its turn on the branch: +7 vs Fortitude; that square of the branch is destroyed and the target starts to fall (may make a save to catch the edge). 
+
+#### Frozen Wastes
+
+*Level 7*
+
+**≈ Ice-Cold Water ● Hazard**  
+Must swim to cross. At the end of each turn spent in ice-cold water, make an attack: +10 vs Fortitude; on a hit the target is dazed (save ends). If the target is already dazed, they lose one recovery. 
+
+**✪ Tree ● Cover**  
+Large. AC/Reflex 4, Fortitude 15, 100 HP. Climb DC 15.
+
+**△ Slush ● Difficult Terrain** 
+
+**☁ Mist ● Lightly Obscuring** 
+
+**║ Ice Bridge ● Difficult Terrain**  
+Per square: Medium. AC/Reflex 4, Fortitude 12, 10 HP.
+
+Must make a DC 16 Acrobatics check while moving across; if you fail by 5 or more you fall off the bridge. If you fail by less than that, your movement ends. 
+
+⟍ **Ice ● Hazard, Zone**  
+Each time a creature enters an ice space, they must make an Acrobatics check (DC 11). On a failure, their movement ends. If they fail by 5 or more, they fall prone and slide 2 squares in a random direction (roll 1d8 and count clockwise to determine the direction).
+
+☒ **False Layer of Snow ● Difficult Terrain, Hazard, Zone**  
+Appears as *slush* (notice DC 16 reveals gaps in the snow cover).
+
+Each time a creature enters the zone, roll 1d6, +1 for every 100 pounds the creature weighs (round down). On a 6 or higher, the layer collapses. 
+
+Creatures in the zone make a saving throw; if successful, they move to adjacent unoccupied space (if one exists). 
+
+Otherwise, they fall 20 feet (2d10 falling damage). Climb DC 20 to escape the pit. 
+
+**Events (roll at the end of each round, on a 6):**
+* A snowstorm descends for the round (lightly obscuring everywhere)
+* Chilly wind (every creature is affected by cold as if in *ice-cold water*).
+
+#### Aboleth’s Lair
+
+*Level 10.* Solid stone but mossy walls and floors; 20-foot ceiling
+
+*Light:* Darkness. 
+
+**≈ Deep Water**  
+Must swim to cross. 
+
+**△ Boggy Ground ● Difficult Terrain** 
+
+**⦷ Slime Pod ● Cover**  
+Small. AC 14, Fortitude/Reflex/Will 12, 34 HP
+
+If a creature enters the slime pod’s square, the pod makes an attack and then is destroyed: +13 vs Fortitude; the target is exposed to the aboleth slime affliction. 
+
+**☁ Phantasmal Force ● Cover**  
+An illusion. As a swift action, a creature with telepathy within 12 squares of the *phantasmal force* can change the illusion to something else. Notice DC 19 to see the illusion flicker. 
+
+**☼** **Memory Extractor** **● Disguised**  
+Appears as mechanical brass legs attached to a coil hanging from a long pole. Notice DC 19 to see traces of scalp on the toes of the legs. 
+
+If a creature moves adjacent to the memory extractor or starts their turn adjacent to it, the memory extractor attacks: +13 vs Reflex; 2d12+5 psychic damage, the target is grappled (escape DC 23) and any aboleths within 12 squares learn one memory of the target’s. 
+
+☒ **Whirlpool ● Difficult Terrain, Hazard**  
+Appears as *deep water* (notice DC 19 reveals water is shifting). 
+
+Attack any creature that enters or starts its turn in the whirlpool: +13 vs Fortitude; the target is pulled 2 squares towards the center of the whirlpool and slowed until the end of their next turn. 
+
+#### Magma Caverns
+
+*Level 12.* Solid stone walls and floors; 20-foot ceiling
+
+*Light:* Darkness. *Pools of lava* provide illumination. 
+
+**≈ Pool of Lava ● Fire, Light Source (bright in burst 2), Zone**  
+Creatures that enter or begin their turn on the pool of lava take 6d6+6 fire damage, or 42 fire damage if fully submerged. 
+
+**☼ Flame Spurt ● Fire, Hazard**  
+Appears as a crack in the ground (notice DC 20 reveals area around crack is seared).
+
+Initiative +11 (recharge 4–6); trigger: As soon as recharged. Near arc 2, +18 vs Reflex; 3d8+6 fire damage.
+
+Disable DC 20 (Dungeoneering or Sleight of Hand). 
+
+**☁ Noxious Gases ● Lightly Obscuring, Zone**  
+Attack creatures that enter or begin their turn in the zone. +15 vs Fortitude; the target is weakened until the end of their next turn. 
+
+**△ Rubble ● Difficult Terrain** 
+
+**✪ Boulders ● Cover**  
+ Medium. AC/Ref 5, Fortitude 10, 40 HP
+
+☒ **Fissure**  
+Appears as normal ground (notice DC 20 reveals spiderwebbing cracks).
+
+If the fissure event is triggered, the ground opens up. Creatures on a fissure space make a saving throw; if successful, move to adjacent unoccupied space. Otherwise, fall 60 feet (6d10 falling damage). 
+
+Athletics DC 20 to climb from the pit. 
+
+**Events (roll at the end of each round, on a 6):** 
+* An island starts rising from the lava
+* An island starts sinking into the lava
+* A fissure opens in the rock
+* All noxious gases shift 1 square in a random direction.
+
+#### Maw of Chaos
+
+Floating island-planets of earth, air, fire and water, and a hundred quasi-, para- and pseudo-elements besides, dot the void. They bump and jostle, splitting and combining, according to unknown laws or the whims of those on them. 
+
+*Level 17*
+
+*Subjective Gravity:* A creature is pulled towards whatever surface of a chaos mote they are closest to. A creature that is further from the surface of any mote than its own height can fly at its walking speed. 
+
+*Mind’s Influence:* A creature standing on a chaos mote can command it to move as a move action. Make an Arcana check, with a DC equal to 10 + the number of squares that make up the mote. On a success, the mote moves up to 6 squares, and will move half that speed next round unless commanded by the same or a different creature. 
+
+**≈ Pool**  
+Must swim to cross.
+
+**☼ Flames ● Fire, Zone**  
+Creatures that enter or begin their turn in flames take 4d8+7 fire damage.
+
+**☁ Violent Air ● Air, Lightly Obscuring, Zone**  
+Creatures in these spaces are rattled and deafened.
+
+**△ Rubble ● Difficult Terrain** 
+
+**✪ Boulders ● Cover**  
+Medium. AC/Ref 5, Fortitude 10, 40 HP
+
+☒ **Ancient Portal**  
+Appears as a stone arch (notice DC 23 reveals a flicker of the destination).
+
+If the portal event is triggered, the portal starts pulling creatures towards it if they are on the same mote. At the end of each creature’s turn, it is pulled 3 squares towards/into the portal. 
+
+A creature adjacent to the portal can use a standard action and make a DC 31 Religion check to activate or deactivate it or, if the portal is activated, to have it only target creatures of a particular alignment. 
+
+**Events (roll at the end of each round, on a 6):** 
+* A mote starts flying towards another of its own accord
+* A portal opens to the City of Brass or another planar location
+* A monster turns into a completely different monster
+* All elements on a mote swap (air becomes earth, water becomes fire, and vice versa).  
 
 # Traps  
 
@@ -4611,61 +4896,21 @@ This affliction must be delivered through a wound. Traps that cause damage from 
 
 A contact or injury poison applied to a weapon is transmitted to the target the next time an attack with that weapon hits, provided there is such a hit within 5 minutes of application. 
 
-### Curse of Lycanthropy (Curse)  
+## Aboleth Slime (Disease)
 
-*Level X (this disease is of the same level as the creature that inflicted it).*  
+*Level 10*
 
-Lycanthropes are humanoids who can transform themselves into animals. In its natural form, a lycanthrope looks like any other members of its kind, though natural lycanthropes and those who have been afflicted for a long time tend to have or acquire features reminiscent of their animal forms. In animal form, a lycanthrope resembles a powerful version of the normal animal, but on close inspection, its eyes (which often glow red in the dark) show a faint spark of unnatural intelligence.  
+Aboleths excrete slime, which makes those exposed to it better suited to the aboleth's underwater caverns.
 
-Lycanthropy can be spread like a disease, typically from the bites of lycanthropes.    
+**Infection:** Immediately upon being exposed to aboleth slime, the creature is infected. 
 
-**Infection:** One day after a humanoid creature is bitten by a lycanthrope, the creature must succeed on a saving throw or become infected. The creature begins on stage 1.
+**Progression:** Each additional exposure to aboleth slime causes an infected creature to get one step worse. Each hour, the infected creature makes a saving throw. On a success, they get one step better. If the infected creature reaches stage 3, they only make a saving throw every day. 
 
-**Progression:** It takes until the next full moon for lycanthropy's symptoms to manifest in an infected creature. Symptoms include heavy hair growth, irritability and a taste for raw meat.  
+* *Stage 1:* The victim loses the ability to breathe air and gains the ability to breathe underwater. 
+* *Stage 2:* The victim’s skin softens, giving them resistance to fire 5 and vulnerability to everything else 5. 
+* *Stage 3:* The victim’s skin transforms into a clear, slimy membrane. Every hour this membrane remains dry, the creature loses a recovery. However, the victim does recover the ability to breathe air, if it previously had it. 
 
-Each time there is a full moon, an infected creature must make an Endure check (DC 14 + the level of the disease). If they fail, they get one stage worse. If they beat the DC by 5 or more, they get one stage better. Otherwise, they remain at the same stage. If the infected creature reaches stage 3, they remain at that stage until specially treated.  
-
-* *Stage 1:* If the infected creature is adjacent to an enemy, the creature cannot willingly move away from that enemy.   
-* *Stage 2:* If the infected creature is adjacent to an enemy, the creature cannot willingly move away from that enemy. The infected creature cannot use powers that target allies.   
-* *Stage 3:* The infected creature becomes a lycanthrope. They can use the *hybrid shape* power. When under the light of the full moon, they must use *hybrid shape*, and can do so even if it is expended. 
-
-### Sewer Plague (Disease)  
-
-*Level 3*  
-
-Sewer plague is a generic term for a broad category of illnesses that incubate in sewers, refuse heaps, and stagnant swamps, and which are sometimes transmitted by creatures that dwell in those areas, such as rats and otyughs.  
-
-**Infection:** Five minutes after a humanoid creature is bitten by a creature that carries the disease, or comes into contact with filth or offal contaminated by the disease, the creature must succeed on a saving throw or become infected. The creature begins at stage 1.
-
-**Progression:** It takes 1d4 days for sewer plague's symptoms to manifest in an infected creature. Symptoms include fatigue and cramps. The creature begins on stage 1.   
-
-At the end of each long rest, an infected creature must make an Endure check (DC 16). If they fail, they get one stage worse. If they beat the DC by 5 or more, they get one stage better. Otherwise, they remain at the same stage. If the infected creature reaches stage 3, they remain at that stage until specially treated.  
-
-* *Stage 1:* The infected creature does not recover spent recoveries.  
-* *Stage 2:* The infected creature does not recover spent recoveries, cannot heal above its Staggered threshold.   
-* *Stage 3:* The infected creature does not recover spent recoveries and cannot heal by any means.   
-
-### Shadowstuff Toxin (Poison)  
-
-*Level 7*   
-
-**Infection:** A creature that makes contact with or is hit with a weapon coated with shadowstuff toxin is subject to a +10 attack vs Fortitude. If hit, they are afflicted. The creature begins on stage 1.
-
-**Progression:** Each hour the target must make a saving throw.  If they fail, they get one stage worse. If they succeed, they make no further saving throws but stay at their current stage until an antidote is administered.  
-
-* *Stage 1:* Victim's skin and eyes turn grey.  
-
-* *Stage 2:* Shadows cling to the victim; +2 to Stealth.  
-
-* *Stage 3:* Victim can no longer be healed beyond staggered.   
-
-* *Stage 4:* Victim begins to flicker from existence; +2 bonus to AC.   
-
-* *Stage 5:* The character ceases to exist and can only be returned to life by powerful magic.   
-
-**Cost:** 104 gp per dose  
-
-### Cackle Fever (Disease)  
+## Cackle Fever (Disease)  
 
 *Level 12*  
 
@@ -4681,7 +4926,61 @@ At the end of each long rest, an infected creature must make an Endure check (DC
 * *Stage 2:* Any event that causes the infected creature great stress – including entering combat, taking damage, experiencing fear, or having a nightmare – forces the creature to make a saving throw. On a failed save, the creature takes 2d10 psychic damage and becomes incapacitated with hysterical laughter (save ends).   
 * *Stage 3:* As stage 2, but the infected creature no longer makes Endure checks that might improve the affliction.  
 
-### Sight Rot (Disease)  
+## Curse of Lycanthropy (Curse)  
+
+*Level X (this disease is of the same level as the creature that inflicted it).*  
+
+Lycanthropes are humanoids who can transform themselves into animals. In its natural form, a lycanthrope looks like any other members of its kind, though natural lycanthropes and those who have been afflicted for a long time tend to have or acquire features reminiscent of their animal forms. In animal form, a lycanthrope resembles a powerful version of the normal animal, but on close inspection, its eyes (which often glow red in the dark) show a faint spark of unnatural intelligence.  
+
+Lycanthropy can be spread like a disease, typically from the bites of lycanthropes.    
+
+**Infection:** One day after a humanoid creature is bitten by a lycanthrope, the creature must succeed on a saving throw or become infected. The creature begins on stage 1.
+
+**Progression:** It takes until the next full moon for lycanthropy's symptoms to manifest in an infected creature. Symptoms include heavy hair growth, irritability and a taste for raw meat.  
+
+Each time there is a full moon, an infected creature must make an Endure check (DC 14 + the level of the disease). If they fail, they get one stage worse. If they beat the DC by 5 or more, they get one stage better. Otherwise, they remain at the same stage. If the infected creature reaches stage 3, they remain at that stage until specially treated.  
+
+* *Stage 1:* If the infected creature is adjacent to an enemy, the creature cannot willingly move away from that enemy.   
+* *Stage 2:* If the infected creature is adjacent to an enemy, the creature cannot willingly move away from that enemy. The infected creature cannot use powers that target allies.   
+* *Stage 3:* The infected creature becomes a lycanthrope. They gain the relevant *form of the X* power. When under the light of the full moon, they must use the *form of the X* power, and can do so even if it is expended. 
+
+## Sewer Plague (Disease)  
+
+*Level 3*  
+
+Sewer plague is a generic term for a broad category of illnesses that incubate in sewers, refuse heaps, and stagnant swamps, and which are sometimes transmitted by creatures that dwell in those areas, such as rats and otyughs.  
+
+**Infection:** Five minutes after a humanoid creature is bitten by a creature that carries the disease, or comes into contact with filth or offal contaminated by the disease, the creature must succeed on a saving throw or become infected. The creature begins at stage 1.
+
+**Progression:** It takes 1d4 days for sewer plague's symptoms to manifest in an infected creature. Symptoms include fatigue and cramps. The creature begins on stage 1.   
+
+At the end of each long rest, an infected creature must make an Endure check (DC 16). If they fail, they get one stage worse. If they beat the DC by 5 or more, they get one stage better. Otherwise, they remain at the same stage. If the infected creature reaches stage 3, they remain at that stage until specially treated.  
+
+* *Stage 1:* The infected creature does not recover spent recoveries.  
+* *Stage 2:* The infected creature does not recover spent recoveries, cannot heal above its Staggered threshold.   
+* *Stage 3:* The infected creature does not recover spent recoveries and cannot heal by any means.   
+
+## Shadowstuff Toxin (Poison)  
+
+*Level 7*   
+
+**Infection:** A creature that makes contact with or is hit with a weapon coated with shadowstuff toxin is subject to a +10 attack vs Fortitude. If hit, they are afflicted. The creature begins on stage 1.
+
+**Progression:** Each hour the target must make a saving throw.  If they fail, they get one stage worse. If they succeed, they make no further saving throws but stay at their current stage until an antidote is administered.  
+
+* *Stage 1:* Victim's skin and eyes turn gray.  
+
+* *Stage 2:* Shadows cling to the victim; +2 to Stealth.  
+
+* *Stage 3:* Victim can no longer be healed beyond staggered.   
+
+* *Stage 4:* Victim begins to flicker from existence; +2 bonus to AC.   
+
+* *Stage 5:* The character ceases to exist and can only be returned to life by powerful magic.   
+
+**Cost:** 104 gp per dose  
+
+## Sight Rot (Disease)  
 
 *Level 9*  
 
@@ -4827,4 +5126,4 @@ No items are declared as Product Identity.
 
 The terms of the Open Game License Version 1.0a and the relevant Section 15 entries are provided in a separate file.    
 
-Artworks are not Open Game Content unless otherwise mentioned. Full attribution and license for each artwork is available in the Artworks file.   
+Artworks are not Open Game Content unless otherwise mentioned. Full attribution and license for each artwork is available in the Artworks file.   w

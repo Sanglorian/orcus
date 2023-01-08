@@ -112,11 +112,13 @@ The Book of Experimental Might. © 2008, Monte J. Cook. All rights reserved.
 
 Tome of Horrors. © 2002, Necromancer Games, Inc.; Authors: Scott Greene, with Clark Peterson, Erica Balsley, Kevin Baase, Casey Christofferson, Lance Hawvermale, Travis Hawvermale, Patrick Lawinger, and Bill Webb; Based on original content from TSR.
 
-**Other**
+**Rest of Core**
 
 All entries under the Rulebook heading, plus 
 
 Pathfinder Bestiary 2 (Second Edition) © 2020, Paizo Inc.; Authors: Alexander Augunas, Dennis Baker, Jesse Benner, Joseph Blomquist, Logan Bonner, Paris Crenshaw, Adam Daigle, Jesse Decker, Darrin Drader, Brian Duckwitz, Robert N. Emerson, Scott Fernandez, Keith Garrett, Scott Gladstein, Matthew Goodall, T.H. Gulliver, BJ Hensley, Tim Hitchcock, Vanessa Hoskins, James Jacobs, Brian R. James, Jason Keeley, John Laffan, Lyz Liddell, Colm Lundberg, Ron Lundeen, Jason Nelson, Randy Price, Jessica Redekop, Patrick Renie, Alistair Rigg, Alex Riggs, David N. Ross, David Schwartz, Mark Seifter, Amber Stewart, Jeffrey Swank, Russ Taylor, and Jason Tondro.
+
+Pathfinder Bestiary 3 (Second Edition) © 2021, Paizo Inc.; Authors: Logan Bonner, James Case, Jessica Catalan, John Compton, Paris Crenshaw, Adam Daigle, Katina Davis, Erik Scott de Bie, Jesse Decker, Brian Duckwitz, Hexe Fey, Keith Garrett, Matthew Goodall, Violet Gray, Alice Grizzle, Steven Hammond, Sasha Laranoa Harving, Joan Hong, James Jacobs, Michelle Jones, Virginia Jordan, TJ Kahn, Mikko Kallio, Jason Keeley, Joshua Kim, Avi Kool, Jeff Lee, Lyz Liddell, Luis Loza, Ron Lundeen, Philippe-Antoine Menard, Patchen Mortimer, Dennis Muldoon, Andrew Mullen, Quinn Murphy, Dave Nelson, Jason Nelson, Samantha Phelan, Stephen Radney-MacFarland, Danita Rambo, Shiv Ramdas, BJ Recio, Jessica Redekop, Mikhail Rekun, Patrick Renie, Alex Riggs, David N. Ross, Simone D. Sallé, Michael Sayre, Mark Seifter, Sen.H.H.S, Abigail Slater, Rodney Sloan, Shay Snow, Pidj Sorensen, Kendra Leigh Speedling, Tan Shao Han, William Thompson, Jason Tondro, Clark Valentine, Ruvaid Virk, Skylar Wall, Andrew White, and Landon Winkler.
 
 Monte Cook’s Arcana Evolved Copyright 2005 Monte J. Cook. All rights reserved.
 
@@ -360,8 +362,6 @@ Pathfinder Roleplaying Game Bestiary 2. © 2010, Paizo Publishing, LLC; Authors 
 
 Pathfinder Roleplaying Game Bestiary 3, © 2011, Paizo Publishing, LLC; Authors Jesse Benner, Jason Bulmahn, Adam Daigle, James Jacobs, Michael Kenway, Rob McCreary, Patrick Renie, Chris Sims, F. Wesley Schneider, James L. Sutter, and Russ Taylor, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
 
-Pathfinder Roleplaying Game Bestiary 3. © 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Bulmahn, Adam Daigle, James Jacobs, Michael Kenway, Rob McCreary, Patrick Renie, Chris Sims, F. Wesley Schneider, James L. Sutter, and Russ Taylor, based on material by Jonathan Tweet, Monte Cook, and Skip Williams.
-
 Pathfinder Roleplaying Game Bestiary 4. © 2013, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Savannah Broadway, Ross Byers, Adam Daigle, Tim Hitchcock, Tracy Hurley, James Jacobs, Matt James, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney- MacFarland, Sean K Reynolds, F. Wesley Schneider, Tork Shaw, and Russ Taylor.
 
 Pathfinder Roleplaying Game Bestiary 5. © 2015, Paizo Inc.; AUthors: Dennis Baker, Jesse Benner, John Bennett, Logan Bonner, Creighton Broadhurst, Robert Brookes, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Thurston Hillman, Eric Hindley, Joe Homes, James Jacobs, Amanda Hamon Kunz, Ben McFarland, Jason Nelson, Thom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, Wes Schneider, David Schwwartz, Mark Seifter, Mike SHel, James L. Sutter, and Linda Zayas-Palmer.
@@ -483,5 +483,17 @@ Vlad the Impailer Copyright 2002, Avalanche Press
 War Copyright 2001, Alderac Entertainment Group 
 
 Way of the Witch Copyright 2002, Citizen Games; Authors Janet Pack, Jean Rabe, Megan Robertson, and Christina Stiles 
+
+Orcus from the Tome of Horrors, Copyright 2002, Necromancer Games, Inc.; Authors Scott Greene and Clark Peterson, based on original material by Gary Gygax.
+
+The Tome of Horrors Complete, Copyright 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author Scott Green.
+
+Tome of Horrors © 2018, Frog God Games, LLC; Authors: Kevin Baase, Erica Balsley, John “Pexx” Barnhouse, Christopher Bishop, Casey Christofferson, Jim Collura, Andrea Costantini, Jayson ‘Rocky’ Gardner, Zach Glazar, Meghan Greene, Scott Greene, Lance Hawvermale, Travis Hawvermale, Ian S. Johnston, Bill Kenower, Patrick Lawinger, Rhiannon Louve, Ian McGarty, Edwin Nagy, James Patterson, Nathan Paul, Patrick N. Pilgrim, Clark Peterson, Anthony Pryor, Greg Ragland, Robert Schwalb, G. Scott Swift, Greg A. Vaughan, and Bill Webb
+
+Rappan Athuk © 2018, Frog God Games, LLC; Authors Bill Webb, Clark Peterson, Skeeter Green, Tom Knauss, Lance Hawvermale, WDB Kenower, Casey Christofferson, and Greg Raglund; based on the original creation of Bill Webb.
+
+Mite from  the Tome of Horrors, © 2002, Necromancer Games, Inc.; Author Scott Greene,  based on original material by Ian Livingstone and Mark Barnes.      
+
+Purple Mountain – Level One © 2011, Mark Gedak; Published by Purple Duck  Games. 
 
 END OF LICENSE

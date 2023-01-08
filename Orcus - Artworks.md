@@ -34,6 +34,8 @@ Rook by Jared von Hindman from the Prismatic Art Collection is released under th
 
 [Lord of Violence and Ratman](https://opengameart.org/content/the-free-monsters) by Justin Nichol are released under the Creative Commons Attribution-ShareAlike 3.0 license. 
 
+Orcus Cover Art by Justin Nichol is released under the Creative Commons Attribution-ShareAlike 4.0 license. 
+
 ### Beth Trott
 
 The Phrenic Scourge, Tunnel Brute and Ophiduan by Beth Trott are released under the Open Game License. See the entry for *The Iconic Bestiary: Classics of Fantasy* and [this exchange with the author](https://www.enworld.org/threads/lions-den-press-the-iconic-bestiary-classics-of-fantasy.126842/#post-2165834) for more details. 
@@ -50,7 +52,9 @@ The artworks by David Lewis Johnson, Earl Geier, Ian MacLean, Joyce Maureira, Lu
 
 ### David Revoy
 
-[Drow](https://commons.wikimedia.org/wiki/File:Female_Drow_and_Iced_Bow_by_David_Revoy.jpg) by David Revoy  is released under the Creative Commons Attribution 4.0 license. 
+[Drow](https://commons.wikimedia.org/wiki/File:Female_Drow_and_Iced_Bow_by_David_Revoy.jpg) by David Revoy is released under the Creative Commons Attribution 4.0 license. 
+
+[Ship](https://commons.wikimedia.org/wiki/File:David_Revoy_-_Pepper%26Carrot_-_October_Ink_Artworks_2017_(week_4)_-_Ship.jpg) by David Revoy is released under the Creative Commons Attribution 4.0 license. 
 
 ### Ryzom MMORPG
 
@@ -59,3 +63,7 @@ The artworks by David Lewis Johnson, Earl Geier, Ian MacLean, Joyce Maureira, Lu
 ### Michael Wight
 
 [Zero Level](https://opengameart.org/content/fish-man-squid-thing-and-four-young-adventurers-retreating-from-a-goblin-from-grim-portents) by Michael Wight is released under the Creative Commons Attribution 4.0 license.
+
+### Babeskull
+
+[A good bounty](https://opengameart.org/content/a-good-bounty) by Babeskull is released under the Creative Commons Attribution 4.0 license. 

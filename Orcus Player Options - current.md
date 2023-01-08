@@ -13,9 +13,9 @@ footer: ${pageNo}
 {:toc}  
 # Ancestries  
 
-A character's ancestry reflects their upbringing before becoming an adventurer. This can be “nature” or “nurture”, or both. For example, one game of Orcus might have characters choose a species origin for their ancestry: dwarf, human, elf, and so on. See the Advanced Options section for more details on ancestries as species. 
+A character's ancestry reflects their upbringing before becoming an adventurer. This can be “nature” or “nurture,” or both. For example, one game of Orcus might have characters choose a species origin for their ancestry: dwarf, human, elf, and so on. See the Advanced Options section for more details on ancestries as species. 
 
-The default ancestry rules presented here assume that all characters are human, or that their genetic makeup matters less than other details about them. A player chooses two details for their character: their “crux” and their “heritage”. 
+The default ancestry rules presented here assume that all characters are human, or that their genetic makeup matters less than other details about them. A player chooses two details for their character: their “crux” and their “heritage.” 
 
 If the two halves of your ancestry give a bonus to the same skill, choose any other skill for the second bonus. 
 
@@ -33,7 +33,7 @@ Not all heroes in the Outlaw Kingdoms are human, but the differences between spe
 
 ## The implied setting of Orcus
 
-On the outskirts of the Empire hang the hundred and eight Outlaw Kingdoms, a motley collection of clans, city-states, marks, principalities, vassaldoms and - yes - even a few kingdoms. The formidable mountains and deep river valleys frustrate invaders, giving the people here a hard-won independence - but the Empire casts a long shadow.   
+On the outskirts of the Empire hang the hundred and eight Outlaw Kingdoms, a motley collection of clans, city-states, marks, principalities, vassaldoms and – yes – even a few kingdoms. The formidable mountains and deep river valleys frustrate invaders, giving the people here a hard-won independence – but the Empire casts a long shadow.   
 
 ## Cruxes  
 
@@ -193,7 +193,7 @@ Through knowledge, practice and experience, you provided sage advice that preven
 You experienced something that opened your mind to something beyond this physical world.   
 
 * +2 Arcana  
-* **Shared Mind:** Telepathy 5.  
+* **Shared Mind:** You gain telepathy 5, which means you can communicate mentally with creatures you can see that are within 5 squares of you. The creature must be able to speak at least one language; once you have begun the communication they can “speak” back to you.   
 * **Shake Off Fear:** +5 ancestry bonus on saving throws against powers and effects with the Illusion tag.   
 * **Careful Focus:** You have the *careful focus* power.  
 
@@ -224,13 +224,6 @@ You were abandoned to the wilderness.
 
 A heritage is the culture and upbringing that a hero came from. 
 
-### Mountainfolk  
-
-You come from an isolated town in the mountains.   
-
-* +2 Dungeoneering  
-* **Relentless Endurance (1/encounter):** When you are staggered, gain temporary HP equal to your level.   
-
 ### Aristocrat  
 
 You are a blueblood, one of the finer class of people.   
@@ -238,19 +231,19 @@ You are a blueblood, one of the finer class of people.
 * +2 Intimidate  
 * **Will Defense:** +1 ancestry bonus to Will defense.   
 
-### Urchin  
+### Heretic  
 
-You grew up on the streets, without parents – or without parents worth speaking of.   
+Your family belonged to a forbidden religion, which exposed you to the constant threat of persecution.   
 
-* +2 Streetsmarts  
-* **Light Blade Weapon Proficiency:** You have proficiency with martial weapons in the light blade weapon group.   
+* +2 Religion  
+* **Focus Proficiency:** You have proficiency with orbs, staffs and wands.   
 
-### Traveler  
+### Mountainfolk  
 
-Your family moved about a lot, whether out of wanderlust or necessity.  
+You come from an isolated town in the mountains.   
 
-* +2 Diplomacy  
-* **Speedy:** +1 to your base walking speed.  
+* +2 Dungeoneering  
+* **Relentless Endurance (1/encounter):** When you are staggered, gain temporary HP equal to your level.   
 
 ### Seafarer  
 
@@ -259,12 +252,19 @@ You grew up on boats or ships.
 * +2 Athletics  
 * **Reflex Defense:** +1 ancestry bonus to Reflex defense.   
 
-### Heretic  
+### Traveler  
 
-Your family belonged to a forbidden religion, which exposed you to the constant threat of persecution.   
+Your family moved about a lot, whether out of wanderlust or necessity.  
 
-* +2 Religion  
-* **Focus Proficiency:** You have proficiency with orbs, staffs and wands.   
+* +2 Diplomacy  
+* **Speedy:** +1 to your base walking speed.  
+
+### Urchin  
+
+You grew up on the streets, without parents – or without parents worth speaking of.   
+
+* +2 Streetsmarts  
+* **Light Blade Weapon Proficiency:** You have proficiency with martial weapons in the light blade weapon group.   
 
 # Feats  
 
@@ -295,6 +295,8 @@ You must meet any prerequisite specified in a feat to take that feat. If you eve
 
 ### Armor Proficiency  
 **Prerequisite:** Depends on the armor you wish to gain proficiency with:   
+
+*Leather:* No prerequisites.   
 _Chainmail:_ Str 13, Con 13, proficiency with leather or hide armor    
 _Hide:_ Str 13, Con 13, proficiency with leather armor   
 _Full plate:_ Str 15, Con 15, proficiency with scale armor    
@@ -308,7 +310,7 @@ _Scale mail:_ Str 13, Con 13, proficiency with chainmail
 
 **Prerequisite:** Proficiency with one or more focuses.  
 
-**Benefit:** Choose one weapon type (longsword, longbow, etc). You can use a weapon of that type, including a magic weapon, as your focus. Add its enhancement bonus, if any, to attack and damage rolls with powers with the Focus tag. If you score a critical hit, you do additional damage equal to 1d6 times by the enhancement bonus of the weapon. 
+**Benefit:** Choose one weapon type (longsword, longbow, etc.) that you are proficient with. You can use a weapon of that type, including a magic weapon, as your focus. Add its enhancement bonus, if any, to attack and damage rolls with powers with the Focus tag. If you score a critical hit, you do additional damage equal to 1d6 times by the enhancement bonus of the weapon. 
 
 Any properties of the enchanted weapon apply to powers to powers you use with the weapon as your focus. 
 
@@ -328,15 +330,16 @@ You can push back enemies when the situation becomes dire.
 
 **Prerequisite:**  Proficiency with light shields
 
-**Benefit:** Once per encounter, as an immediate (react) action after someone has missed a melee attack against you, you can push that enemy 1d4 squares away from you. You must be equipped with a shield to receive this benefit. 
+**Benefit:** Once per encounter, as an immediate (react) action after someone has missed a melee attack against you, you can push that enemy 1d4 squares away from you. You must be equipped with a shield with which you are proficient to receive this benefit.
+
+### Blind-Fighting
+
+**Benefit:** Ignore attack penalties because your target is in concealment or total concealment.   
 
 ### Cantrip Master  
 
 **Benefit:** You learn three powers from the Cantrips discipline.   
-
-### Crossbow Discipline
-
-**Benefit:** You can treat a one-handed ranged weapon you are wielding as a melee weapon with a reach of 1 for the purpose of using powers and making attacks, including opportunity attacks.  
+**Special:** You can gain Cantrip Master multiple times. Each time you take the feat,  you learn three new powers from the Cantrips discipline. 
 
 ### Crossfire  
 
@@ -348,10 +351,6 @@ You can push back enemies when the situation becomes dire.
 
 **Benefit:** While you wield a ranged weapon, you can flank from three squares away from an enemy as long as you would be flanking the target if you moved into the nearest adjacent square.  
 
-### Deck Fire  
-
-**Benefit:** You do not suffer the attack penalty to ranged attacks for being prone.  
-
 ### Deflecting Shot  
 
 **Benefit:** Ignore attack penalties because your target is in cover.   
@@ -361,7 +360,7 @@ You can push back enemies when the situation becomes dire.
 **Benefit:** When targeting a Large or larger creature with an arc, burst, or wall attack, you gain a +2 bonus to damage rolls against the target for every square beyond the first that it occupies.  
 
 ### Energy Resistance  
-**Benefit:** You gains resistance to a damage type equal to your level. Choose from one of the following damage types: acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant or thunder.
+**Benefit:** You gain resistance to a damage type equal to your level. Choose from one of the following damage types: acid, cold, fire, force, lightning, necrotic, poison, psychic, radiant or thunder.
 
 **Special:** You can gain Energy Resistance multiple times. Each time you take the feat, it applies to a new type of energy.   
 
@@ -371,11 +370,26 @@ You can push back enemies when the situation becomes dire.
 
 **Benefit:** When you call your familiar, it appears in an unoccupied space within 12 squares of you.
 
+### From the Deck
+
+**Benefit:** You do not suffer the penalty to attack rolls for being prone. 
+
+### Game Of Sticks  
+
+You are trained in a stick-based martial art.   
+
+**Benefit:** When wielding a quarterstaff, it gains the reach property.  
+
+*Critical:* If you score a critical hit with a quarterstaff, the target drops one held item and is dazed until the start of your next turn.  
+
 ### Great Fortitude  
 **Benefit:** You get a +2 feat bonus to Fortitude defense. At level 11, this bonus increases to +3. At level 21, this bonus increases to +4.   
 
-### Improved Blind-Fight  
-**Benefit:** Ignore attack penalties because your target is in concealment or total concealment.   
+### Hunker Down
+
+**Benefit:** As a swift action, you can spend a recovery to gain resistance to all damage 5 until the end of your next turn.  
+
+*Critical:* If you score a critical hit and you have spent a recovery on this feat since the start of your last turn, you gain a bonus equal to half your recovery value to your next melee damage roll.  
 
 ### Improved Initiative  
 **Benefit:** You get a +4 feat bonus on initiative checks.   
@@ -408,9 +422,18 @@ You are talented at learning languages.
 **Benefit:** You can take 10 on knowledge and monster knowledge checks with skills you are trained in, and you can take 10 with these skills during an encounter as a standard action.  
 
 ### Night Sight  
-**Benefit:** You gain low-light vision. If you already had low-light vision, you gain darkvision up to 2 squares distance.   
+**Prerequisites:** Low-light vision. 
 
-**Special:** You can gain this feat twice, once for low-light vision and once for darkvision.   
+**Benefit:** You gain darkvision up to 2 squares distance. 
+ *Level 11:* You gain darkvision (to the same distance as your regular sight). 
+
+### Non-Lethal Intent  
+
+**Benefit:** If you inflict damage with a melee attack equal to half the target's staggered value in a single turn, you can elect to inflict no damage for that entire turn and instead stun the target until the start of your next turn. In addition, if the damage equals or exceeds the target's staggered value, you can elect to inflict no damage for that entire turn and instead knock the target prone and render it unconscious for five minutes. Any further damage wakes the target up.  
+
+### Ranged Discipline
+
+**Benefit:** You can treat a one-handed ranged weapon you are wielding as a melee weapon with a reach of 1 for the purpose of using powers and making attacks, including opportunity attacks.  
 
 ### Rapid Reload  
 **Benefit:** Weapons you wield with the Loading (swift) property only take a free action to reload.   
@@ -429,7 +452,7 @@ You are talented at learning languages.
 
 ### Sign of Weakness  
 
-**Benefit:** The first time a creature is staggered in an encounter, your next hit against that creature gains a bonus to the damage roll equal to you Wisdom modifier. This may only occur once per target per encounter.  
+**Benefit:** The first time a creature is staggered in an encounter, your next hit against that creature gains a bonus to the damage roll equal to your Wisdom modifier. This may only occur once per target per encounter.  
 
 ### Sharp Opportunist
 
@@ -449,7 +472,7 @@ _Heavy:_ Str 15, proficient with light shields
 
 ### Skill Critical  
 
-**Benefit:** If you roll a natural 20 with any check, you gain a +3 bonus to the final result.  
+**Benefit:** If you roll a natural 20 with any skill or ability check, you gain a +3 bonus to the final result.  
 
 ### Skill Focus  
 **Prerequisite:** You must have at least one rank in the chosen skill
@@ -461,9 +484,23 @@ _Heavy:_ Str 15, proficient with light shields
 ### Skill Training   
 **Benefit:** Each time you take this feat, you gain training in an additional skill.   
 
+### Swords of Grace  
+
+You are trained in a defensive weapon-based martial arts.   
+
+**Benefit:** When wielding a one-handed light blade, you do not grant combat advantage when flanked.  
+
+*Critical:* Once per round, if you score a critical hit while wielding a one-handed light blade, you can immediately make a melee basic attack against the same target.  
+
 ### Tactical Rearrangement  
 
 **Benefit:** When you would push or pull a target, you can shunt them instead.  
+
+### Tag Team  
+
+**Prerequisite:** 11th level
+
+**Benefit:** If an ally hits an enemy adjacent to you with a melee attack, you can deal damage to that enemy equal to your Strength or Dexterity modifier as an immediate reaction.  
 
 ### Talented Healer  
 **Benefit:** You can provide first aid as a swift action. You also get a +2 bonus on all Heal checks.   
@@ -495,13 +532,25 @@ Your shield shares your pain and bears the brunt of a powerful attack.
 ### Two-Weapon Defense  
 **Prerequisite:** Dex 13, Two-Weapon Fighting   
 
-**Benefit:** When wielding a double weapon or two melee weapons, you gain a +1 shield bonus to your AC and Reflex saves.  
+**Benefit:** When wielding a double weapon or two melee weapons, you gain a +1 shield bonus to your AC and Reflex defenses.  
+
+### Twilight Sight 
+
+**Benefit:** You gain low-light vision. 
+
+### Way of the Turn  
+
+You specialize in a martial art specializing in redirecting an opponent's momentum or throwing them to the ground.   
+
+**Benefit:** When you hit with a melee attack that inflicts at least 1dW damage, you can choose to inflict half damage and knock your opponent prone.  
+
+*Critical:* If you score a critical and choose to use this feat, the target is stunned until the start of your next turn.  
 
 ### Weapon Focus
 
 **Prerequisite:** Level 2
 
-**Benefit:** Choose one weapon group, like “axes” or “spears and lances”.  You gain a +1 feat bonus on all attack rolls you make using the selected weapons. At level 11, this bonus increases to +2. At level 21, this bonus increases to +3.   
+**Benefit:** Choose one weapon group, like “axes” or “spears and lances”.  You gain a +1 feat bonus on all attack rolls you make using the selected weapons, provided you are proficient with them. At level 11, this bonus increases to +2. At level 21, this bonus increases to +3.   
 
 **Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new group of weapons.  
 
@@ -520,7 +569,9 @@ Your shield shares your pain and bears the brunt of a powerful attack.
 
 ## Martial Training Feats  
 
-These feats represent expanded possibilities for unarmed combat. Many of these feats employ a special critical effect, which is in addition to the normal effects of a critical hit but cannot be combined with any other special critical effects from martial training feats. If you have several critical effects at your disposal via martial training feats, you must decide which one will be applied. You can decide the critical effect after the attack roll. These critical effects cannot be inflicted upon vehicles or opponents larger than you.  
+These feats represent expanded possibilities for unarmed combat.
+
+Many of these feats employ a special critical effect, which is in addition to the normal effects of a critical hit but cannot be combined with any other special critical effects from martial training feats. If you have several critical effects at your disposal via martial training feats, you must decide which one will be applied. You can decide the critical effect after the attack roll.  
 
 ### Balance and Direction  
 
@@ -544,12 +595,6 @@ You are trained in a martial art focused on pure foot and fist fighting.
 
 **Benefit:** If you stagger or drop an enemy with an unarmed attack, you can take a move action that must be used before the end of your turn. You can only gain one move action this way per round, and you can only use it to walk, run, or shift.  
 
-### Deep in a Clinch  
-
-**Prerequisite:** Evolution of Pankration, Unarmed Combat  
-
-**Benefit:** You do not release an opponent from a grapple if you are dazed.  
-
 ### Earned the Belt  
 
 **Prerequisite:** 11th level, Evolution of Pankration, Unarmed Combat  
@@ -562,19 +607,9 @@ You are trained in a martial art involving pinning or submission.
 
 **Prerequisite:** Unarmed Combat  
 
-**Benefit:** You do not grant combat advantage if prone. If you grapple a prone opponent, they are restrained instead of immobile (you are still capable of forcing movement on the target) and cannot stand until he escapes.  
+**Benefit:** You do not grant combat advantage if prone. If you grapple a prone opponent, they are restrained instead of immobile (you are still capable of forcing movement on the target) and cannot stand until they escape.  
 
 *Critical:* If you roll a natural 20 on a grapple attempt or attack power that involves a grapple, the target cannot attempt to escape from the grapple on its next turn.  
-
-### Game Of Sticks  
-
-You are trained in a stick-based martial art.   
-
-**Prerequisite**: Unarmed Combat  
-
-**Benefit:** When wielding a quarterstaff, it gains the reach property.  
-
-*Critical:* If you score a critical hit with a quarterstaff, the target drops one held item and is dazed until the start of your next turn.  
 
 ### Ham Hands  
 
@@ -596,33 +631,15 @@ You are trained in a stick-based martial art.
 
 ### Master Degree Martial Artist  
 
-**Prerequisite:** 21st level, Unarmed Combat, at least one other martial training feat  
+**Prerequisite:** 21st level, Unarmed Combat  
 
 **Benefit:** With unarmed attacks, you score a critical hit on a natural roll of 19 or 20.  
-
-### Non-Lethal Intent  
-
-**Benefit:** If you inflict damage with a melee attack equal to half the target's staggered value in a single turn, you can elect to inflict no damage for that entire turn and instead stun the target until the start of your next turn. In addition, if the damage equals or exceeds the target's staggered value, you can elect to inflict no damage for that entire turn and instead knock the target prone and render it unconscious for five minutes. Any further damage wakes the target up.  
-
-### Swords of Grace  
-
-You are trained in a defensive weapon-based martial arts.   
-
-**Prerequisite:** Unarmed Combat  
-
-**Benefit:** When wielding a one-handed light blade, you do not grant combat advantage when flanked.  
-
-*Critical:* Once per round, if you score a critical hit while wielding a one-handed light blade, you can immediately make a melee basic attack against the same target.  
 
 ### Superior Position  
 
 **Benefit:** When an enemy attempts to escape from a grapple you are sustaining, regardless if the target uses Acrobatics or Athletics, it rolls against the higher of your Fortitude or Reflex defenses.  
 
-### Tag Team  
-
-**Prerequisite:** 11th level, Unarmed Combat  
-
-**Benefit:** If an ally hits an enemy adjacent to you with a melee attack, you can deal damage to that enemy equal to your Strength or Dexterity modifier as an immediate reaction.  
+In addition, you do not release an opponent from a grapple if you are dazed.
 
 ### The Ritual of Dance and Damage  
 
@@ -634,35 +651,21 @@ Your combat style has become flamboyant and entertaining when not directly invol
 
 *Critical:* If you score a critical hit with an unarmed attack, you can shift up to your speed as free action and gain combat advantage against all adjacent enemies until the end of your next turn.  
 
-### Think Big  
+### Unarmed Combat 
 
-**Prerequisite:** 11th level  
+**Benefit:** You are proficient with your fists in combat. Your unarmed strikes gain a +3 proficiency bonus. Your one-handed unarmed strikes do 1d6 damage and have the side weapon property. Your two-handed unarmed strikes do 1d10 damage. 
 
-**Benefit:** You can gain the benefits of martial combat feat critical effects against targets one size larger than you.  
+### Unarmed Combat (Improved) 
 
-### True Enlightenment of the Art  
+**Prerequisite:** Unarmed Combat 
 
-**Prerequisite:** Unarmed Combat  
-
-**Benefit:** As a minor action, you can spend a recovery to gain resistance to all damage 5 until the end of your next turn.  
-
-*Critical:* If you score a critical hit and you have spent a recovery on this feat since the start of your last turn, you gain a bonus equal to half your recovery value to your next melee damage roll.  
-
-### Unarmed Combat  
-
-**Benefit:** You are proficient with your fists in combat. Your unarmed attack gains a +3 proficiency bonus and the off-hand property. The base damage die of your unarmed attack improves by one step (1d4 > 1d6 > 1d8 > 1d10 > 1d12 > 2d6 > 2d10).
-
-### Unarmed Combat (Improved)  
-
-**Prerequisite:** Unarmed Combat  
-
-**Benefit:** Your damage die with all unarmed attacks improves by one step (1d4 > 1d6 > 1d8 > 1d10 > 1d12 > 2d6 > 2d8 > 2d10).  
+**Benefit:** Your one-handed unarmed strikes do 1d8 damage. Your two-handed unarmed strikes do 1d12 damage.  
 
 ### Unarmed Combat (Master)
 
-**Prerequisite:** 11th level, Unarmed Combat, Unarmed Combat (Improved)  
+**Prerequisite:** 11th level, Unarmed Combat, Unarmed Combat (Improved) 
 
-**Benefit:** Your damage die with all unarmed attacks improves by one step (1d4 > 1d6 > 1d8 > 1d10 > 1d12 > 2d6 > 2d8 > 2d10).  
+**Benefit:** Your one-handed unarmed strikes do 1d10 damage. Your two-handed unarmed strikes do 2d8 damage.  
 
 ### Unarmed Expanded Profile  
 
@@ -672,23 +675,15 @@ Your legs become part of your unarmed attack profile.
 
 **Benefit:** You can spend a move action before making an unarmed melee attack to gain a +2 bonus to all damage rolls with that attack. At 11th level, this bonus increases to +3 and at 21st level, it increases to +4.  
 
-### Way Of The Turn  
+## Art Feats
 
-You specialize in a martial art specializing in redirecting an opponent's momentum or throwing them to the ground.   
-
-**Prerequisite:** Unarmed Combat  
-
-**Benefit:** When you hit with a melee attack that inflicts at least 1dW damage, you can choose to inflict half damage and knock your opponent prone.  
-
-*Critical:* If you score a critical and choose to use this feat, the target is stunned until the start of your next turn.  
-
-## Incantation Feats
+Arts are special, time-consuming practices that achieve remarkable effects. They are described in more detail in the Game Master’s Guide. 
 
 ### Beyond Ken
 
-**Benefit:** Choose one category of practice or incantation (schema, treatment, practical, curative, etc). Treat your level as 4 higher for the purposes of learning and performing the arts of that category.  
+**Benefit:** Choose one category of practice or incantation (schema, treatment, practical, curative, etc.). Treat your level as 4 higher for the purposes of learning and performing the arts of that category.  
 
-### Practiced Arts
+### Practical Artisan
 
 **Benefit:** You learn one art of  each level, up to your current level, without spending the time or money  normally required. Each time you increase in level, you learn one additional  art of your current level or lower.
 
@@ -696,7 +691,173 @@ You specialize in a martial art specializing in redirecting an opponent's moment
 
 **Benefit:** You can learn arts that belong to a skill you are not trained in.
 
+## Channel Divinity Feats
+
+### Blessing of the God
+
+**Prerequisite:** You have the Channel Divinity feature.
+
+**Benefit:** Choose one Channel Divinity power from the list below, based on a theme associated with the god(s) you worship. When you Channel Divinity, you can choose that power. 
+
+**Special:** You can take this feat multiple times, choosing a different power each time. 
+
+| Domain      | Outlaw Kingdoms god | Channel Divinity power |
+| ----------- | ------------------- | ---------------------- |
+| Destruction | Valkon, Vogg        | *Explosive item*       |
+| Family      | Yaheine | *Wrath of the she-bear*  |
+| Feasting    | Chalavar            | *Shared bite*            |
+| Greed       | Chalavar, Thoin     | *I'll have that*         |
+| Life        | Yaheine    | *Guidance*               |
+| Light       | Shehaan          | *Light shadow*           |
+| Love        | Thalander           | *Easy charm*             |
+| Mischief    | Vaath               | *Death defying*          |
+| Murder      | Larhoon, Vogg       | *Blood tracer*           |
+| Mystery     | Larhoon, Shehaan    | *Slip between worlds*    |
+| Peace       | Thalander           | *Light ward*             |
+| Protection  | Korven, Kain        | *Negate critical*        |
+| Revenge     | Enoran              | *Biteback*               |
+| Sky         | Vaath, Valkon       | *Skyfall*                |
+| Spiders     | Kurzana             | *Throw web*              |
+| Stone       | Kurzana, Thoin      | *Stoneblood*             |
+| Time        | Enoran              | *The weight of time*     |
+| Tyranny     | Kain                | *Spur on*                |
+| War         | Korven              | *Shielded soul*          |
+
+> #### Biteback  
+>
+> **Encounter** **Attack** **Feature** (**Reaction Action**) ● **Divine**  
+> **Self**   
+> **Trigger** You are hit by an attack, and you have not made an attack so far in this encounter.  
+> **Effect** Make a basic attack.  
+
+> #### Blood Tracer  
+>
+> **Encounter** **Utility** **Feature** (**Reaction Action**) ● **Divine**  
+> **Near** burst 10, one ally  
+> **Trigger** The target's attack just reduced an enemy to 0 HP or below.  
+> **Effect** The ally's next attack does +1d8 damage. *Level 11:* +2d8 damage instead. *Level 21:* +3d8 damage instead.  
+
+> #### Death Defying  
+>
+> **Encounter** **Attack** **Feature** (**Counter Action**) ● **Divine**  
+> **Self**   
+> **Trigger** You fail an Acrobatics, Athletics, Endure, Sleight of Hand or Stealth check.  
+> **Effect** Reroll the skill check and use the new result instead. After the action associated with the skill check, you fall prone.  
+
+> #### Easy Charm  
+>
+> **Encounter** **Attack** **Feature** (**Swift Action**) ● **Charm, Divine, Focus**  
+> **Near** burst 10, one enemy  
+> **Attack** Wisdom vs Will  
+> **Hit** The target cannot target you with attacks (save ends). This effect ends immediately if the target takes damage from any source.  
+
+> #### Explosive Item  
+>
+> **Encounter** **Attack** **Feature** (**Standard Action**) ● **Divine, Fire, Focus**  
+> **Near** burst 10, one object  
+> **Attack** Wisdom vs AC  
+> **Hit** The object takes 2d8 fire damage. If the object is destroyed, creatures in the same and adjacent spaces take fire damage equal to the amount of damage that was needed to reduce the object to 0 HP. *Level 11:* 3d8 damage instead. *Level 21:* 4d8 damage instead.  
+
+> #### Guidance  
+>
+> **Encounter** **Utility** **Feature** (**Swift Action**) ● **Divine**  
+> **Near** burst 3, self or one ally  
+> **Effect** The target receives a +1 bonus to their next attack roll or saving throw. If they do not use this bonus by the end of their next turn, they lose it.  
+
+> #### I'll Have That  
+>
+> **Encounter** **Attack** **Feature** (**Reaction Action**) ● **Divine, Focus**  
+> **Near** burst 5, one enemy  
+> **Trigger** The target is the target of a beneficial power.  
+> **Attack** Wisdom vs Will  
+> **Effect** You become the target of the beneficial power instead.  
+
+> #### Light Shadow  
+>
+> **Encounter** **Utility** **Feature** (**Move Action**) ● **Conjuration, Divine**  
+> **Self**   
+> **Effect** Shift 1 square. Conjure a light shadow of your size in the space you left. Attacks against a target adjacent to your light shadow suffer a -2 penalty. The light shadow persists until the end of your next turn.  
+> **Maintain Swift** The light shadow persists until the end of your next turn.  
+
+> #### Light Ward  
+>
+> **Encounter** **Utility** **Feature** (**Standard Action**) ● **Divine**  
+> **Near** burst 10, one ally  
+> **Effect** The target receives a +2 bonus to all defenses until the end of your next turn. The first time it is hit by an attack during this period, the attacker takes your Wisdom modifier in damage.  
+
+> #### Negate Critical  
+>
+> **Encounter** **Utility** **Feature** (**Counter Action**) ● **Divine**  
+> **Near** burst 10, yourself or one ally  
+> **Trigger** The target is hit by a critical hit.  
+> **Effect** The attack becomes a normal hit instead.  
+
+> #### Shared Bite  
+>
+> **Encounter** **Utility** **Feature** (**Free Action**) ● **Divine**  
+> **Near** burst 5, one ally  
+> **Requirements** You *rally*.  
+> **Effect** Your ally can *rally* on their turn as a swift action.  
+
+> #### Shielded Soul  
+>
+> **Encounter** **Utility** **Feature** (**Counter Action**) ● **Divine**  
+> **Near** burst 3, self or one ally  
+> **Trigger** The target takes damage.  
+> **Effect** The target gets resistance to all damage 5.  
+> *Level 11:* 10.  
+> *Level 21:* 15.  
+
+> #### Skyfall  
+>
+> **Encounter** **Utility** **Feature** (**Free Action**) ● **Divine**  
+> **Self**   
+> **Trigger** You use a ranged or far power or make a ranged or far attack.  
+> **Effect** Double the range of the ranged or far power or attack.  
+
+> #### Slip Between Worlds  
+>
+> **Encounter** **Utility** **Feature** (**Swift Action**) ● **Divine, Teleportation**  
+> **Self**   
+> **Effect** You teleport up to 5 squares, and are lightly concealed until the end of your next turn.  
+
+> #### Spur On  
+>
+> **Encounter** **Utility** **Feature** (**Counter Action**) ● **Divine, Psychic**  
+> **Near** burst 5, self or one ally  
+> **Trigger** The target is making an attack roll or saving throw.  
+> **Effect** The target takes 1d6 psychic damage, but can reroll the roll once if it misses/fails.  
+
+> #### Stoneblood  
+>
+> **Encounter** **Utility** **Feature** (**Swift Action**) ● **Divine**  
+> **Near** burst 1, yourself or an ally  
+> **Effect** The target gains resistance to all damage 3 until the end of your next turn. *Level 11:* Resistance 5. *Level 15:* Resistance 10.  
+
+> #### The Weight of Time  
+>
+> **Encounter** **Attack** **Feature** (**Standard Action**) ● **Divine, Focus**  
+> **Near** burst 10, one enemy  
+> **Attack** Wisdom vs Will  
+> **Hit** The target is slowed until the end of their next turn. At the end of their next turn, make a secondary attack. *Secondary Attack:* Wisdom vs Will; on a hit, the target is immobile until the end of their next turn.  
+
+> #### Throw Web  
+>
+> **Encounter** **Utility** **Feature** (**Standard Action**) ● **Divine, Zone**  
+> **Far** burst 1 within range 5  
+> **Effect** The area of effect becomes a zone of difficult terrain. You can end the effect as a swift action, in which case a creature of your choice within the zone (if any) is slowed until the end of your next turn. Otherwise, the zone persists until the end of your next turn.  
+> **Maintain Swift** The zone persists until the end of your next turn.  
+
+> #### Wrath of the She-Bear  
+>
+> **Encounter** **Attack** **Feature** (**Reaction Action**) ● **Divine**  
+> **Self**   
+> **Trigger** An ally within 10 squares is reduced to 0 HP or below by an attack.  
+> **Effect** You may move your speed towards the ally and make a basic attack against the enemy who made the attack.  
+
 ## Psi Focus Feats
+
+Feats from this section expand the power of your mind. They require the *psi focus* feat to use, except for Wild Talent (which grants the *psi focus* feat). The kit Channels Godmind is currently the only other source of the *psi focus* power.
 
 ### Adaptation
 **Prerequisite:**  *Psi focus* power
@@ -706,10 +867,10 @@ You specialize in a martial art specializing in redirecting an opponent's moment
 ### Immovable Dominion
 **Prerequisite:**  *Psi focus* power
 
-**Benefit:** Expend your *psi focus* as a free action when being pushed, pulled or slided. Reduce the distanced moved by your Charisma modifier. This counts as using the *psi focus* for an encounter power.
+**Benefit:** Expend your *psi focus* as a free action when being pushed, pulled or shunted. Reduce the distanced moved by your Charisma modifier. This counts as using the *psi focus* for an encounter power.
 
 ### Mind and Body
-**Prerequisite:**  *Psi focus* power
+**Prerequisite:**  *Psi focus* power, focus surge
 
 **Benefit:** When you spend a focus surge, regain hit points equal to your Charisma modifier.
 
@@ -729,7 +890,7 @@ You specialize in a martial art specializing in redirecting an opponent's moment
 **Benefit:** When using your *lucky* ancestry power, and the enemy misses you on their re-roll, you may expend your *psi focus* instead of your ancestry power. This counts as using the *psi focus* for an encounter power.
 
 ### Phrenic Meditation
-**Prerequisite:**  *Psi focus* power
+**Prerequisite:**  *Psi focus* power, you can perform the Meditate action
 
 **Benefit:** You can perform the Meditate action as a swift action once per encounter.
 
@@ -742,7 +903,14 @@ You specialize in a martial art specializing in redirecting an opponent's moment
 ### Phrenic Talent
 **Prerequisite:**  *Psi focus* power
 
-**Benefit:** Increase your number of focus surges by one.
+**Benefit:** You gain the *focus surge* power.
+
+> #### Focus Surge  
+>
+> *You tap into the mental connection between yourself and your Godmind, allowing you to refresh the phrenic energies of either yourself or an ally.*  
+> **Encounter** **Utility** **Feature** (**Swift Action**) ● **Phrenic**  
+> **Near** burst 5 (10 at level 11, 15 at level 21), you or an ally  
+> **Effect** The target can spend a recovery to recharge their *psi focus*.  
 
 ### Phrenic Teleport
 
@@ -761,10 +929,23 @@ You specialize in a martial art specializing in redirecting an opponent's moment
 **Benefit:** When you use your *psi focus*, you immediately gain temporary hit points equal to your level.
 
 ### Wild Talent
-**Benefit:** You gain access to the *psi focus* power. You do not have any focus surges.
+**Benefit:** You have access to the *psi focus* power, a heightened state of mental and emotional clarity, that you can utilize to augment powers with the Augmentable keyword. 
+
+*Psi focus*, once used, must refresh, much like how certain monsters have powers that refresh at the beginning of their turn on a successful roll. *Psi focus* works in the exact same way, but the roll needed to refresh it depends on what kind of power it was last used to augment. 
+
+> #### Psi Focus  
+>
+> *Utilizing your phrenic power, you heighten a power or ability beyond what others could fathom.*  
+> **At-Will** **Utility** **Feature** (**Free Action**) ● **Phrenic**  
+> **Self**   
+> **Effect** When using an Augmentable power, you activate the effect noted under the Augment: line.  
+> **Special** *Psi focus* refreshes on a 4, 5 and 6 after using it to augment an at-will power, on a 5 and 6 after using it to augment an encounter power, and on a 6 after using it to augment a daily power. You cannot use *psi focus* unless it is recharged.  
 
 ## Shard Feats
-All base shard effects remains in effect until you cancel them, are knocked unconscious, take an long rest, sleep, or are reduced to 0 or fewer hit points.
+
+These feats allow you to manifest your phrenic energies in a variety of ways. The four feats below give the basic capability, with each having a family of feats that further develop the manifestation.
+
+A shard effect you have manifested ends when you cancel it, are knocked unconscious, take a long rest, sleep, or are reduced to 0 or fewer hit points.
 
 ### Aura Shard
 
@@ -780,7 +961,7 @@ You have learned how to weave together all of your emotions, directed and contro
 
 You have taught yourself how to focus all of your emotions – anger, hate, spite, rage, wrath – and to wrap them in willpower and discipline, turning it all into a fearsome ranged weapon. Because you use your emotions as weapons, you might often seem somewhat apathetic and cold to others.
 
-**Benefit:** As a standard action, you can fire a phrenic blast of energy (see stats below). Blast shards are supernatural weapons, and thus do not belong to any weapon group, and can take almost any form, colour and shape, all according to the wishes of the user. The user is always proficient with his blast shard. For all intents and purposes, the blast shard can be used to make all forms of ranged attacks, as well as in conjunction with powers, or for the purpose of opportunity attacks. 
+**Benefit:** As a standard action, you can fire a phrenic blast of energy (see stats below). Blast shards are supernatural weapons, and thus do not belong to any weapon group, and can take almost any form, color and shape, all according to the wishes of the user. The user is always proficient with his blast shard. For all intents and purposes, the blast shard can be used to make all forms of ranged attacks, as well as in conjunction with powers, or for the purpose of opportunity attacks. 
 
 Your blast shard has a +1 enhancement bonus to attack and damage rolls. This increases by +1 for every 5th level after the 1st (6th, 11th, 16th, 21st, 26th).
 
@@ -919,7 +1100,7 @@ You gain the *cold shard* at-will power.
 ### Empowered Blast Shard
 Experience has taught you how to apply your discipline and emotions in the best way, allowing you to extract more energy from your phrenic well than before.
 
-**Prerequisite:**  Blast Shard, 11th level
+**Prerequisite:**  Blast Shard
 
 **Benefit:** Your blast shard damage increases by one die size (for example, from 1d6 to 1d8).
 
@@ -950,7 +1131,7 @@ You gain the *fire shard* at-will power.
 ### Improved Blast Shard
 You have seen so much of what the world offers, and you can channel that experience into even stronger emotions and a tightened discipline, allowing you to become even more dangerous.
 
-**Prerequisite:**  Blast Shard, 11th level
+**Prerequisite:**  Empowered Blast Shard, 11th level
 
 **Benefit:** Your blast shard damage increases by one die (for example, from 1d6 to 2d6).
 
@@ -991,7 +1172,7 @@ You gain the *mind shard* at-will power.
 ### Force Shield
 Your long experience and strong emotions allow you to call upon them for a short moment. For a short time your phrenic energies surge, creating a powerful shielding effect around all nearby allies.
 
-**Prerequisite:**  Shield Shard, 21st level
+**Prerequisite:**  Shield Shard, 11th level
 
 **Benefit:** Once per encounter as a swift action, you can extend the protection of your shield of force to yourself and all allies within 5 squares until the end of your next round.
 
@@ -1011,18 +1192,19 @@ You count as having proficiency in heavy shields for the purpose of meeting feat
 ### Grounding Shard
 Your shield’s phrenic powers extend deep into the earth, grounding you against enemy attacks that threaten to move you from your position without your approval.
 
-**Prerequisite:**  Shield Shard, 11th level
+**Prerequisite:**  Shield Shard
 
-**Benefit:** Any time someone performs a push against you, lower the number of squares you are pushed by 1 (minimum 0).
+**Benefit:** Any time you would be pushed, pulled or shunted, reduce the number of squares you are moved by 1 (minimum 0).  
+*Level 11:* Reduce the number of squares by 2 (minimum 0). 
 
 ### Immovable Shield
 Your shield shard now bonds, almost permanently, with the ground if you don’t move, redirecting much of the force in enemy attacks into the earth below you.
 
-**Prerequisite:**  Grounding Shard, Shield Shard, 11th level
+**Prerequisite:**  Grounding Shard, Shield Shard
 
-**Benefit:** If you do not move at all during your round, you gain resistance 5 until the beginning of your next turn. This stacks with any other forms of resistance you might have.
-
-**Special:** *Level 11:* Resistance 10. *Level 21:* Resistance 15. 
+**Benefit:** If you do not move at all during your round, you gain resistance 5 until the beginning of your next turn. This stacks with any other forms of resistance you might have.  
+*Level 11:* Resistance 10.  
+*Level 21:* Resistance 15. 
 
 ### Offensive Shield
 Even as you protect yourself, your shard has learned that at times a good offense is the best defense, allowing you to use the shield shard as a weapon against enemies not expecting it.
@@ -1073,7 +1255,7 @@ You are a legend that walks amongst men, your myth has already begun to spread a
 ### Improved Weapon Shard
 Your experience of the world has only deepened your wellspring of willpower, discipline and emotion and this spills into your weapon shard that is now even more lethal.
 
-**Prerequisite:**  Weapon Shard, 11th level
+**Prerequisite:**  Weapon Shard
 
 **Benefit:** Your weapon shard damage increases to 1d10.
 
@@ -1101,7 +1283,7 @@ In the blink of an eye and by focusing your phrenic energies, your shard shatter
 ### Twin Weapon
 You focus your energies into your weapon, splitting it into two identical weapons that you use as if they were nothing but extensions of your body and will – flawlessly.
 
-**Prerequisite:**  Weapon Shard
+**Prerequisite:** Weapon Shard
 
 **Benefit:** When you manifest your weapon shard, you can choose to manifest one for each hand instead. When making an attack that requires two melee weapons, you gain a +1 feat bonus to your attack rolls.
 
@@ -1109,15 +1291,15 @@ You focus your energies into your weapon, splitting it into two identical weapon
 
 ### Hardy Shift
 
-**Prerequisite:** You know at least one *shape of the X* power.
+**Prerequisite:** You know a Form power
 
-**Benefit:** When you use a *shape of the X* power, you may spend a recovery to heal damage up to your recovery value. 
+**Benefit:** When you use a Form power, you may spend a recovery to heal damage up to your recovery value. 
 
 ### Hybrid Form
 
 **Prerequisite:** You know at least one power with the Form keyword. 
 
-**Benefit:** When you use a Form power, you can choose to take a hybrid, humanoid form instead of a pure animal form. In this case, you can keep your current size. Because your hybrid form is humanoid, you can talk, use weapon powers and otherwise make use of having arms and hands. 
+**Benefit:** When you use a Form power, you can choose to take a hybrid, humanoid form instead of a pure animal form. In this case, you can keep your current size, and your current speeds wherever they are better than your new form’s speeds. Because your hybrid form is humanoid, you can talk, use weapon powers and otherwise make use of having arms and hands. 
 
 ### Versatile Shifting
 
@@ -1134,6 +1316,8 @@ You can also take feats to take some of the class features and powers of other c
 ### Dualclass Recruit (Dualclass)  
 
 As you take this feat, choose a class of which you are not already a member.  
+
+**Prerequisite:** You cannot take this kit if you already have a secondary class. 
 
 **Benefit:** You count as the chosen class (sometimes called your “secondary class”) in addition to any classes of which you are already a member. In addition, you gain the benefits described in the chosen class's “Dualclass” section.  
 
@@ -1190,7 +1374,7 @@ A happy and boastful god, Chalavar (CHAL-uh-var) is a welcome visitor to any mea
 
 He also knows the medicinal and culinary use for every plant. His rare temples are popular among adventurers, as Chalavar’s priests love examining the carcasses of strange monsters to see what good can be made of them— for they study the art of cooking with as much ardor as their god.  
 
-Chalavar’s worshippers have many holidays, including the birthdays of famous priests or local nobles, seasonal occurrences, and historical events. These holidays always involve feasting.Worshippers even throw feasts on the holy days of other faiths, knowing that Chalavar gets his thanks whenever someone enjoys a good meal. It is considered bad form to not throw a feast on your own birthday, and wealthier followers of Chalavar show off their prosperity and generosity by holding great birth-feasts with hundreds of guests. Common folk praise Chalavar’s name whenever a meal is extra good or a business deal turns out particularly well.  
+Chalavar’s worshippers have many holidays, including the birthdays of famous priests or local nobles, seasonal occurrences, and historical events. These holidays always involve feasting. Worshippers even throw feasts on the holy days of other faiths, knowing that Chalavar gets his thanks whenever someone enjoys a good meal. It is considered bad form to not throw a feast on your own birthday, and wealthier followers of Chalavar show off their prosperity and generosity by holding great birth-feasts with hundreds of guests. Common folk praise Chalavar’s name whenever a meal is extra good or a business deal turns out particularly well.  
 
 ### Enoran  
 
@@ -1253,40 +1437,32 @@ The Black Lord
  **Portfolio:** Tyranny, rulership  
  **Favored Weapon:** Spear  
 
-Kain (KAYN) is a megalomaniacal deity who believes that only the strong are fit to rule, and that he is destined to rule the world and all of the other gods. He makes elaborate plans and spends years watching them unfold, becoming frustrated when the actions of chaotic beings and other meddlers interfere with his plots. His brother is Vogg, a deity of random destruction and one of his frequent opponents, although the two cannot perceive each other directly or be affected by each others’ direct actions. While he hates the forces of good that interfere with his works, he saves his greatest wrath for chaotic fiends, who give no regard to his orders and (in his words) “give evil a bad name.” He is shown as a man with midnight-black skin and glowing eyes, wearing a noble’s clothing of simple cut and dark colors. His left arm is encased in black metallic armor, from which he can pull an iron spear as often as he likes.  
+Kain (KAYN) is a megalomaniacal deity who believes that only the strong are fit to rule, and that he is destined to rule the world and all of the other gods. He makes elaborate plans and spends years watching them unfold, becoming frustrated when the actions of chaotic beings and other meddlers interfere with his plots. His brother is Vogg, a deity of random destruction and one of his frequent opponents, although the two cannot perceive each other directly or be affected by each other’s direct actions. While he hates the forces of good that interfere with his works, he saves his greatest wrath for chaotic fiends, who give no regard to his orders and (in his words) “give evil a bad name.” He is shown as a man with midnight-black skin and glowing eyes, wearing a noble’s clothing of simple cut and dark colors. His left arm is encased in black metallic armor, from which he can pull an iron spear as often as he likes.  
 
 Kain’s church celebrates the anniversaries of great priests’ and tyrants’ birthdays, the first day of every month, and every new moon. These celebrations are more an affirmation of faith in and loyalty to the Black Lord than episodes of revelry. The sacrifice of dissidents or enemies of the church accompanies the rites whenever possible. Few common folk worship Kain, although in places where he holds much political power he is respected for his ability to keep bandits and raiding monsters away. His rule is otherwise harsh.  
 
-### Luna  
-
- **Symbol:** Three crescent moons arranged in a line  
- **Portfolio:** The moon, feminine power, non-evil lycanthropes  
- **Favored Weapon:** Chakram  
-
-A very old goddess, Luna predates current civilizations. A powerful force for the protection and power of women, her strength has waxed and waned over the centuries. Where the sun is hot and aggressive in its light, the moon remains cool and gentle. She prefers peace to war, and kind words to loud speech, but when someone threatens her charges, she can tear apart her foes with the ferocity of a she-bear defending her cubs. She is also the patron goddess of lycanthropes, and her faith teaches that her light blesses good lycanthropes. Conversely, Luna teaches that evil lycanthropes are corruptions of her gifts to mortals; her followers hunt them down to either cure or kill. She is always shown as a woman with white eyes, dark hair, and a crescent symbol on her forehead, although other details vary. Dogs, wolves, and owls are her sacred animals.  
-
-Luna’s church holds a small ceremony on the first day of each new, full, and quarter moon. Lunar eclipses always call for prayer vigils until the moon appears again, while solar eclipses are sacred events to be celebrated publicly, enjoying the night during the day. Women hold most positions of power in her church, and a disproportionate number of her crusaders are female, but her church neither shuns nor marginalizes men. Common folk invoke Luna’s name at weddings to bless the bride and keep her safe in her husband’s house, at childbirth to guard the expectant mother’s health, and at any time when journeys must be made at night.  
-
 ### Shehaan  
 
-Goddess of the Mists, the Mist Goddess  
+Goddess of the Mists, the Moon Goddess  
  **Symbol:** A moon (crescent or full) behind a cloud of mist  
- **Portfolio:** Mist, isolation, concealment  
- **Favored Weapon:** Quarterstaff  
+ **Portfolio:** The moon, mist, isolation, concealment, family, non-evil lycanthropes  
+ **Favored Weapon:** Chakram
 
-Shehaan (shay-HON) is a reclusive goddess, almost forgotten. Although this should mean her power is dwindling, she draws strength from her great solitude and uses it to protect her faithful. She avoids direct confrontation, preferring to redirect an opponent’s attention, confuse the minds of her enemies, and retreat when victory is not certain. She is shown as an elven woman with wet hair and pale skin, dressed in a gossamer robe or a concealing cloak.  
+A very old goddess, Shehaan (shay-HON) predates current civilizations. Reclusive, almost forgotten, her strength has waxed and waned over the centuries.  Like the moon, Shehaan changes. On nights when the moon is new she becomes rather wild, willing to take risks and even reveal her presence when she normally would remain hidden. 
 
-Like the moon, Shehaan changes. On nights when the moon is new she becomes rather wild, willing to take risks and even reveal her presence when she normally would remain hidden. This change does not affect the abilities of her worshippers, although they, too, seem more willing to take risks on these days.  
+Shehaan draws strength from her great solitude and uses it to protect her faithful. She avoids direct confrontation, preferring to redirect an opponent’s attention, confuse the minds of her enemies, and retreat when victory is not certain. But when someone threatens her charges, especially on nights of the new moon, Shehaan can tear apart her foes with the ferocity of a she-bear defending her cubs. 
 
-Solar eclipses are holy days to the faithful, when her followers given up to the goddess unusual plants and fruits as sacrifices. They go into hiding whenever a lunar eclipse occurs; during these times, which they call the “Night of Madness,” they lose all spellcasting ability, as their goddess goes truly mad and forgets her worshippers entirely. Shehaan always regrets these lapses and apologetically pays closer attention to her followers in the weeks following such an event.  
+Shehaan is shown as a woman with white eyes, dark hair, and a crescent symbol on her forehead, dressed in a gossamer robe or a concealing cloak.  Dogs, wolves, and owls are her sacred animals.  She is also the patron goddess of lycanthropes, and her faith teaches that her light blesses good lycanthropes. Conversely, Shehaan teaches that evil lycanthropes are corruptions of her gifts to mortals; her followers hunt them down to either cure or kill. 
 
-Where she is worshipped, the common folk pray to her to keep them hidden from the eyes of their enemies and to bring needed rain.  
+Solar eclipses are holy days to the faithful, when her followers given up to the goddess unusual plants and fruits as sacrifices. They go into hiding whenever a lunar eclipse occurs; during these times, which they call the “Night of Madness,” their goddess goes truly mad and forgets her worshippers entirely. Shehaan always regrets these lapses and apologetically pays closer attention to her followers in the weeks following such an event. Church legend has it that Shehaan's period of madness once lasted for decades or centuries, and there are still heterodox cults that worship this dark aspect of Shehaan. 
+
+Common folk invoke Shehaan's name at weddings to bless the bride and keep her safe in her husband’s house, at childbirth to guard the expectant mother’s health, and at any time when journeys must be made at night. They might also pray to her to keep them hidden from the eyes of their enemies and to bring needed rain.  
 
 ### Thalander  
 
-Quickheart, Many-Father  
+Quickheart, Many-Father, the Sun God  
  **Symbol:** White cat surrounded by a red glow  
- **Portfolio:** Vitality, fertility, strength  
+ **Portfolio:** Vitality, fertility, strength, the sun  
  **Favored Weapon:** Longsword  
 
 The boisterous and extroverted Thalander (tha-LANder) embodies the principles of life, survival, and perpetuation of life. Where he walks, plants sprout and animals spring up out of nothing. When he laughs, the air is filled with beautiful birds and insects. Thalander, the greatest foe of the undead, is often depicted blasting them out of existence with great beams of life energy from his hands. Like the cat of his symbol, Thalander has a roving eye and woos many people, whether deity, celestial, or mortal. He has many offspring, some of whom carry his divine blood more strongly than others. Thalander himself is a fair-skinned, redheaded man with a lean but strong build; he is usually shown barefoot, wearing cloth breeches and little else. In some of the more decadent cities his temples double as palaces devoted to the flesh, for his faith teaches that passion and childbirth are needed to remain vital and alive.  
@@ -1300,7 +1476,7 @@ The Keeper, the Silent Pick
  **Portfolio:** Mines, secrets under the earth  
  **Favored Weapon:** Pick  
 
-Thoin (THOH-in) the Keeper is a silent deity of the rewards waiting underground. Not content to dig and sift for treasures, Thoin feels that his followers have a birthright to the Underdeep that authorises them to eliminate all heretics underground so their lesser hands will not profane the treasures with unskilled workmanship. Thoin’s particular hatred is for metal- and gem-eating monsters such as rust monsters, xorn, and metal-addicted delvers.  
+Thoin (THOH-in) the Keeper is a silent deity of the rewards waiting underground. Not content to dig and sift for treasures, Thoin feels that his followers have a birthright to the Underdeep that authorizes them to eliminate all heretics underground so their lesser hands will not profane the treasures with unskilled workmanship. Thoin’s particular hatred is for metal- and gem-eating monsters such as rust monsters, xorn, and metal-addicted delvers.  
 
 Thoin is shown as a long-bearded dwarf made of stone, bearing a great pick or pickaxe, eyes and mouth glowing like sparkling gems or fresh lava. He never speaks, but seems amenable to the company of other earth deities who respect his dogma. His faithful take particular vengeance against thieves, burning them to death with molten rock.  
 
@@ -1348,9 +1524,9 @@ The Sword Maiden
  **Portfolio:** Protection, valor, honor  
  **Favored Weapon:** Bastard sword  
 
-Daughter of the sun god, Yaheine (ya-HEEN) is the faithful guardian, protector of the innocent, and champion of good. Channeling the power of her father, Yaheine strikes out at all evil in her path, making places safe for decent folk. She cannot abide fiends or the undead, and hunts necromancers and demonologists without mercy. She is shown as a tall woman bearing a flashing bastard sword and clad in shining metal armor, her gold hair unbound in a storm about her face like solar flames. When age catches up with her crusaders, they usually take up a leadership role in a community, administering fair law and keeping the peace, ready to bear arms whenever evil raises its head. Her followers respect those who worship the sun god, and the two closely allied churches often share space in the same temple.  
+Daughter of the sun god Thalander, Yaheine (ya-HEEN) is the faithful guardian, protector of the innocent, and champion of good. Channeling the power of her father, Yaheine strikes out at all evil in her path, making places safe for decent folk. She cannot abide fiends or the undead, and hunts necromancers and demonologists without mercy. She is shown as a tall woman bearing a flashing bastard sword and clad in shining metal armor, her gold hair unbound in a storm about her face like solar flames. When age catches up with her crusaders, they usually take up a leadership role in a community, administering fair law and keeping the peace, ready to bear arms whenever evil raises its head. Her followers respect those who worship Thalander, and the two closely allied churches often share space in the same temple—a sometimes awkward alliance given Yaheine’s dutifulness and faithfulness can clash with her father's mischief and appetites.  
 
-Yaheine’s crusaders pray for their spells at dawn when the leading edge of the sun first becomes visible. Their holy days are the summer solstice and midwinter— said to be the time of year when the sun god’s priests received word that his daughter had been born and would become a champion for all good in the world. Common folk pray to her for fairness in all things, as well as protection in unsafe places. Her name is used to seal oaths as a promise of good intent. 
+Yaheine’s crusaders pray for their spells at dawn when the leading edge of the sun first becomes visible. Their holy days are the summer solstice and midwinter—said to be the time of year when the sun god’s priests received word that his daughter had been born and would become a champion for all good in the world. Common folk pray to her for fairness in all things, as well as protection in unsafe places. Her name is used to seal oaths as a promise of good intent. 
 
 # Legal  
 

@@ -135,13 +135,13 @@ Athletics skill checks add your Strength modifier.
 
 ### Attack Rolls and Damage  
 
-You add your Strength modifier to your attack roll and your damage roll when making a basic attack with a melee weapon such as a mace, a battleaxe, or a javelin. You use melee weapons to make melee attacks in hand-to-hand combat, and some of them can be thrown to make a ranged attack.  
+You add your Strength modifier to your attack roll and your damage roll when making a basic attack with a melee weapon such as a mace or battleaxe, or a heavy thrown weapon like a javelin. 
 
 Certain powers use a Strength attack roll and/or add Strength modifier to damage.   
 
 ### Fortitude Defense  
 
-Add the higher of your Strength modifier and your Constitution modifier to your Fortitude defense.   
+Add either your Strength modifier or your Constitution modifier (whichever is higher) to your Fortitude defense.   
 
 ### Lifting and Carrying
 
@@ -159,7 +159,7 @@ Constitution measures health, stamina, and vital force.
 
 ### Constitution Checks  
 
-The GM might call for a Constitution check when you try to accomplish tasks that require hardiness and good health, that do not fall under the Endure skill. The Endure skill is broad enough that it would cover most situations that you might otherwise use a Constitution check for, but for example testing to see if you can quaff an entire stein of ale in one go might use a Constitution check since it is not really something you “endure”.   
+The GM might call for a Constitution check when you try to accomplish tasks that require hardiness and good health, that do not fall under the Endure skill. The Endure skill is broad enough that it would cover most situations that you might otherwise use a Constitution check for, but for example testing to see if you can quaff an entire stein of ale in one go might use a Constitution check since it is not really something you “endure.”   
 
 ### Skill Checks  
 
@@ -171,7 +171,7 @@ Certain powers use a Constitution attack roll and/or add Constitution modifier t
 
 ### Fortitude Defense  
 
-Add the higher of your Strength modifier and your Constitution modifier to your Fortitude defense.   
+Add either your Strength modifier or your Constitution modifier (whichever is higher) to your Fortitude defense.  
 
 ### Hit Points and Recoveries  
 
@@ -187,7 +187,7 @@ Dexterity measures agility, reflexes, and balance.
 
 ### Dexterity Checks  
 
-The GM might call for a Dexterity check when you try to accomplish tasks that require finesse or agility, that do not fall under the Acrobatics, Stealth or Sleight of Hand skills. Examples might include:  
+The GM might call for a Dexterity check when you try to accomplish tasks that require finesse or agility, that do not fall under the Acrobatics, Stealth, or Sleight of Hand skills. Examples might include:  
 
 - Steering a chariot around a tight turn  
 - Playing a stringed instrument  
@@ -199,7 +199,7 @@ An initiative check is a special Dexterity check that you make at the beginning 
 
 ### Skill Checks  
 
-Acrobatics, Stealth and Sleight of Hand skill checks add your Dexterity modifier.   
+Acrobatics, Stealth, and Sleight of Hand skill checks add your Dexterity modifier.   
 
 ### Attack Rolls and Damage  
 
@@ -209,7 +209,9 @@ Certain powers use a Dexterity attack roll and/or add Dexterity modifier to dama
 
 ### Armor Class and Reflex Defense  
 
-If you wear light or no armor, add the higher of your Dexterity modifier and your Intelligence modifier to your Armor Class and your Reflex defense.   
+Add either your Dexterity modifier or your Intelligence modifier (whichever is higher) to your Reflex defense. 
+
+If you wear light or no armor, add either your Dexterity modifier or your Intelligence modifier (whichever is higher) to your Armor Class. If you wear heavy armor, do not add any ability modifier to your Armor Class.
 
 ## Intelligence  
 
@@ -217,14 +219,14 @@ Intelligence measures mental acuity, accuracy of recall, and the ability to reas
 
 ### Intelligence Checks  
 
-The GM might call for an Intelligence check when you try to accomplish tasks that require quick-wittedness and rationality, that do not fall under the Arcane, History and Religion skills. Examples might include:  
+The GM might call for an Intelligence check when you try to accomplish tasks that require quick-wittedness and rationality, that do not fall under the Arcana, History, and Religion skills. Examples might include:  
 
 - Estimating the value of a precious item  
 - Recalling lore about a craft or trade  
   
 ### Skill Checks  
 
-Arcana, History and Religion skill checks add your Intelligence modifier.   
+Arcana, History, and Religion skill checks add your Intelligence modifier.   
 
 ### Attack Rolls and Damage  
 
@@ -232,7 +234,9 @@ Certain powers use an Intelligence attack roll and/or add Intelligence modifier 
 
 ### Armor Class and Reflex Defense  
 
-If you wear light or no armor, add the higher of your Dexterity modifier and your Intelligence modifier to your Armor Class and your Reflex defense.   
+Add either your Dexterity modifier or your Intelligence modifier (whichever is higher) to your Reflex defense. 
+
+If you wear light or no armor, add either your Dexterity modifier or your Intelligence modifier (whichever is higher) to your Armor Class. If you wear heavy armor, do not add any ability modifier to your Armor Class.
 
 ## Wisdom  
 
@@ -240,11 +244,11 @@ Wisdom reflects how attuned you are to the world around you and represents perce
 
 ### Wisdom Checks  
 
-The GM might call for a Wisdom check when you try to accomplish tasks that require perceptiveness and intuition, that do not fall under the Dungeoneering, Heal, Insight and Perception skills. An example could be getting a gut feeling about what course of action to follow.  
+The GM might call for a Wisdom check when you try to accomplish tasks that require perceptiveness and intuition, that do not fall under the Dungeoneering, Heal, Insight, and Perception skills. An example could be getting a gut feeling about what course of action to follow.  
 
 ### Skill Checks  
 
-Dungeoneering, Heal, Insight and Perception skill checks add your Wisdom modifier.   
+Dungeoneering, Heal, Insight, and Perception skill checks add your Wisdom modifier.   
 
 ### Attack Rolls and Damage  
 
@@ -252,7 +256,7 @@ Certain powers use a Wisdom attack roll and/or add Wisdom modifier to damage.
 
 ### Will Defense  
 
-Add the higher of your Wisdom modifier and your Charisma modifier to your Reflex defense.   
+Add either your Wisdom modifier or your Charisma modifier (whichever is higher) to your Will defense.  
 
 ## Charisma  
 
@@ -260,11 +264,11 @@ Charisma measures your ability to interact effectively with others. It includes 
 
 ### Charisma Checks  
 
-The GM might call for a Charisma check when you try to accomplish tasks that require charm and personability, that do not fall under the Bluff, Diplomacy, Intimidate and Streetsmarts skills. An example could be communicating with a creature when you do not share a common language.   
+The GM might call for a Charisma check when you try to accomplish tasks that require charm and personability, that do not fall under the Bluff, Diplomacy, Intimidate, and Streetsmarts skills. An example could be communicating with a creature when you do not share a common language.   
 
 ### Skill Checks  
 
-Bluff, Diplomacy, Intimidate and Streetsmarts skill checks add your Charisma modifier.  
+Bluff, Diplomacy, Intimidate, and Streetsmarts skill checks add your Charisma modifier.  
 
 ### Attack Rolls and Damage  
 
@@ -272,7 +276,7 @@ Certain powers use a Charisma attack roll and/or add Charisma modifier to damage
 
 ### Will Defense  
 
-Add the higher of your Wisdom modifier and your Charisma modifier to your Reflex defense.   
+Add either your Wisdom modifier or your Charisma modifier (whichever is higher) to your Will defense. 
 
 ## Generating Abilities  
 
@@ -302,7 +306,7 @@ You cannot have more than one ability score below 10.
 | 9       | 1    |  
 | 8       | 0    |  
 
-### Roll ’em  
+### Roll ‘em  
 
 Roll 4d6 for each of the six ability scores (Strength, Constitution, Dexterity, Intelligence, Wisdom, and Charisma). Drop the low die in each roll. Put the scores into any order to best fit the character you want to play.  
 
@@ -523,7 +527,7 @@ See the Escape action.
 
 ### Fall with Style (Trained Only)  
 
-Make an Acrobatics check while falling to reduce damage. You take less damage equal to half the Acrobatics check result (for example, if your result is 23, you take 11 less damage). If you take no damage, you land on your feet (i.e., not prone).  
+Reduce the damage by an amount equal to half the Acrobatics check result (for  example, if your result is 23, you take 11 less damage). If this reduces the damage to zero, you land on your feet (not prone).  
 
 ## Arcana (Int)  
 
@@ -580,7 +584,7 @@ Your Strength determines how far you can jump.
 
 Either way, each square you clear on the jump costs a square of movement.  
 
-This rule assumes that the height of your jump doesn't matter, such as a jump across a stream or chasm. If you clear at least one square, the vertical height of your jump is 2 feet + the number of squares you could clear. E.g. if your jump could clear a 4-square gap, the vertical height is 6 feet.   
+This rule assumes that the height of your jump doesn't matter, such as a jump across a stream or chasm. If you clear at least one square, the vertical height of your jump is 2 feet + the number of squares you could clear. For example, if your jump could clear a 4-square gap, the vertical height is 6 feet.   
 
 **High Jump:** When you make a high jump, you leap into the air a number of *feet* equal to the check result divided by 10 (standing high jump) or divided by 5 (if you move at least 2 squares immediately before the jump). Either way, every five feet costs a square of movement.   
 
@@ -590,11 +594,13 @@ You can extend your arms a third of your height above yourself during the jump. 
 
 Make an Athletics check once per round while you are in the water. Success means you may swim at up to one-half your speed. If you fail by 4 or less, you make no progress through the water. If you fail by 5 or more, you sink 1 square.  
 
-The DC for the Swim check depends on the water (calm, rough or stormy).   
+The DC for the swim check depends on the water: calm (DC 10), rough (DC 15) or stormy (DC 20).   
 
 ## Bluff (Cha)  
 
 Your Bluff check determines whether you can convincingly hide the truth, either verbally or through your actions. This deception can encompass everything from misleading others through ambiguity to telling outright lies. Typical situations include trying to fast-talk a guard, con a merchant, earn money through gambling, pass yourself off in a disguise, dull someone's suspicions with false assurances, or maintain a straight face while telling a blatant lie.  
+
+Compare the results of the check to the target’s passive Insight or their Insight check (the latter if they are actively questioning the deception).
 
 ### Feint
 
@@ -606,7 +612,12 @@ See the Create Diversion action.
 
 ## Diplomacy (Cha)  
 
-When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Diplomacy check. Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring nations, or inspiring a crowd of townsfolk.  
+When you attempt to influence someone or a group of people with tact, social graces, or good nature, the GM might ask you to make a Diplomacy check. 
+Typically, you use persuasion when acting in good faith, to foster friendships, make cordial requests, or exhibit proper etiquette. Examples of persuading others include convincing a chamberlain to let your party see the king, negotiating peace between warring nations, or inspiring a crowd of townsfolk. 
+
+Generally, the DC should be based on the Recommended Difficult Classes by Level table at the start of this chapter, using the level of the target of the Diplomacy check. 
+
+Choose an Easy, Moderate or Hard DC depending on the target’s attitude, and adjust for the circumstances (for example, what the character is requesting). 
 
 ## Dungeoneering (Wis)  
 
@@ -656,6 +667,8 @@ Your Insight check decides whether you can determine the true intentions of a cr
 
 When you attempt to influence someone through overt threats, hostile actions, and physical violence, the GM might ask you to make an Intimidate check. Examples include trying to pry information out of a prisoner, convincing street thugs to back down from a confrontation, or using the edge of a broken bottle to convince a sneering vizier to reconsider a decision.  
 
+The special Deter and Unnerve actions have their own rules. Otherwise, the DC should be based on the Recommended Difficult Classes by Level table at the start of this chapter, using the level of the target of the Intimidate check. 
+
 ### Deter
 
 See the Deter action. 
@@ -700,7 +713,7 @@ When you spend a minute or more searching an area, you can cover a 3 square by 3
 
 ### Notice Hiding Creature  
 
-Make an opposed Perception vs Stealth check. On a success, you know where they are and, unless they are hidden from you for some other reason (e.g. they are invisible), you can see them.   
+Make an opposed Perception vs Stealth check. On a success, you know where they are and, unless they are hidden from you for some other reason (for example, they are invisible), you can see them.   
 
 ## Religion (Int)  
 
@@ -760,6 +773,12 @@ While hidden, if you move 3 squares or more, you must make another Stealth check
 
 You know about life on the streets and feel the pulse of your local settlement.  
 
+### Gather Information
+
+An hour’s time, a few gold pieces for buying drinks and making friends, and a Streetwise check get you a general idea of a city’s major news items, assuming there are no obvious reasons why the information would be withheld. The higher your check result, the better the information. 
+
+The DC is higher in unfamiliar settlements and where the information sought is secret or protected.
+
 # Extended Challenges  
 
 With most skill checks, a single die roll immediately determines whether or not a character succeeds. If a character wants to jump across a chasm or recall a specific piece of information, his success or failure is apparent after a single check.  
@@ -786,7 +805,7 @@ All PCs should participate, but not necessarily by making skill checks. They can
 
 ### Expanding extended challenges
 
-Some special rules may apply to a particular challenge, e.g.:   
+Some special rules may apply to a particular challenge, for example:   
 
 * on a failed challenge, each PC loses a recovery   
 * certain skills can only be attempted once or twice   
@@ -864,46 +883,53 @@ Choose your languages from the Standard Languages table. If you learn a language
 | Abyssal     | Demons              | Abyssal |  
 | Celestial   | Celestials, devils          | Celestial |  
 
+### Telepathy
+
+Some creatures have the ability to communicate telepathically. Unless otherwise specified, the target must be within line of sight. If a range is specified (for example, telepathy 5) the target must also be within that number of squares. The creature must be able to speak at least one language. Once the telepathic creature has begun communication, the target can “speak” back to them. 
+
 # Levels, Tiers and Bonuses  
 
-A character’s level, from 1 to 30, describes roughly how powerful they are. Player characters have levels, but so do monsters, traps, items, rituals, diseases, poisons, powers and incantations. Everything with a level also belongs to a tier, which is a rough way of identifying the genre of play.   
+A character’s level, from 1 to 30, describes roughly how powerful they are. Player characters have levels, but so do monsters, traps, items, rituals, diseases, poisons, powers, and incantations. Everything with a level also belongs to a tier, which is a rough way of identifying the genre of play.   
 
-The table below shows how many experience points (XP) are required to reach a particular level, and what benefits (ability score increases, feats and features) you get upon doing so.   
+The table below shows how many experience points (XP) are required to reach a particular level, and what benefits (ability score increases, feats, and features) you get upon doing so.   
 
 ##### Table – Levels and Their Benefits
 
-| Level | XP to Reach Next Level | Cumulative XP | Ability Scores     | Feats | Features                        |  
-| ----- | ---------------------- | ------------- | ------------------ | ----- | ------------------------------- |  
-| 1     | 1,000                  | -             |                    | 1     | Class features, ancestry traits |  
-| 2     | 1,250                  | 1,000         |                    | +1    |                                 |  
-| 3     | 1,500                  | 2,250         |                    |       |                                 |  
-| 4     | 1,750                  | 3,750         | Increase two by +1 | +1    |                                 |  
-| 5     | 2,000                  | 5,500         |                    |       |                                 |  
-| 6     | 2,500                  | 7,500         |                    | +1    |                                 |  
-| 7     | 3,000                  | 10,000        |                    |       |                                 |  
-| 8     | 3,500                  | 13,000        | Increase two by +1 | +1    |                                 |  
-| 9     | 4,000                  | 16,500        |                    |       |                                 |  
-| 10    | 5,000                  | 20,500        |                    | +1    |                                 |  
-| 11    | 6,000                  | 25,500        | Increase all by +1 |       | Select a prestige class         |  
-| 12    | 7,000                  | 31,500        |                    | +1    |                                 |  
-| 13    | 8,000                  | 38,500        |                    |       |                                 |  
-| 14    | 10,000                 | 46,500        | Increase two by +1 | +1    |                                 |  
-| 15    | 12,000                 | 56,500        |                    |       |                                 |  
-| 16    | 14,000                 | 68,500        |                    | +1    |                                 |  
-| 17    | 16,000                 | 82,500        |                    |       |                                 |  
-| 18    | 20,000                 | 98,500        | Increase two by +1 | +1    |                                 |  
-| 19    | 24,000                 | 118,500       |                    |       |                                 |  
-| 20    | 28,000                 | 142,500       |                    | +1    |                                 |  
-| 21    | 32,000                 | 170,500       | Increase all by +1 |       | Select an epic class            |  
-| 22    | 40,000                 | 202,500       |                    | +1    |                                 |  
-| 23    | 48,000                 | 242,500       |                    |       |                                 |  
-| 24    | 56,000                 | 290,500       | Increase two by +1 | +1    |                                 |  
-| 25    | 64,000                 | 346,500       |                    |       |                                 |  
-| 26    | 80,000                 | 410,500       |                    | +1    |                                 |  
-| 27    | 96,000                 | 490,500       |                    |       |                                 |  
-| 28    | 112,000                | 586,500       | Increase two by +1 | +1    |                                 |  
-| 29    | 128,000                | 698,500       |                    |       |                                 |  
-| 30    | N/A                    | 826,500       |                    | +1    |                                 |  
+| Level | Level Bonus | XP to Reach Next Level | Cumulative XP | Ability Scores     | Feats | Features                        |
+| ----- | ------- | --------------- | ------------- | ------------------ | ----- | ------------------------------- |
+| *Adventurer tier* |||||||
+| 1     | +0 | 1,000                  | -             |                    | 1     | Class features, ancestry traits |
+| 2     | +1 |1,250                  | 1,000         |                    | +1    |                                 |
+| 3     | +1 |1,500                  | 2,250         |                    |       |                                 |
+| 4     | +2 |1,750                  | 3,750         | Increase two by +1 | +1    |                                 |
+| 5     | +2 |2,000                  | 5,500         |                    |       |                                 |
+| 6     | +3 |2,500                  | 7,500         |                    | +1    |                                 |
+| 7     | +3 |3,000                  | 10,000        |                    |       |                                 |
+| 8     | +4 |3,500                  | 13,000        | Increase two by +1 | +1    |                                 |
+| 9     | +4 |4,000                  | 16,500        |                    |       |                                 |
+| 10    | +5 |5,000                  | 20,500        |                    | +1    |                                 |
+| *Prestige tier* | | | | | ||
+| 11    | +5 |6,000                  | 25,500        | Increase all by +1 |       | Select a prestige path          |
+| 12    | +6 |7,000                  | 31,500        |                    | +1    |                                 |
+| 13    | +6 |8,000                  | 38,500        |                    |       |                                 |
+| 14    | +7 |10,000                 | 46,500        | Increase two by +1 | +1    |                                 |
+| 15    | +7 |12,000                 | 56,500        |                    |       |                                 |
+| 16    | +8 |14,000                 | 68,500        |                    | +1    |                                 |
+| 17    | +8 |16,000                 | 82,500        |                    |       |                                 |
+| 18    | +9 |20,000                 | 98,500        | Increase two by +1 | +1    |                                 |
+| 19    | +9 |24,000                 | 118,500       |                    |       |                                 |
+| 20    | +10 |28,000                 | 142,500       |                    | +1    |                                 |
+| *Epic tier* | | | | | |  |
+| 21    | +10 |32,000                 | 170,500       | Increase all by +1 |       | Select an epic path             |
+| 22    | +11 |40,000                 | 202,500       |                    | +1    |                                 |
+| 23    | +11 |48,000                 | 242,500       |                    |       |                                 |
+| 24    | +12 |56,000                 | 290,500       | Increase two by +1 | +1    |                                 |
+| 25    | +12 |64,000                 | 346,500       |                    |       |                                 |
+| 26    | +13 |80,000                 | 410,500       |                    | +1    |                                 |
+| 27    | +13 |96,000                 | 490,500       |                    |       |                                 |
+| 28    | +14 |112,000                | 586,500       | Increase two by +1 | +1    |                                 |
+| 29    | +14 |128,000                | 698,500       |                    |       |                                 |
+| 30    | +15 |N/A                    | 826,500       |                    | +1    |                                 |
 
 ## Level Bonus  
 
@@ -917,30 +943,36 @@ Characters have a level bonus equal to half their level, rounded down, which app
   
 ## Retraining  
 
-If you are unsatisfied with a feat, kit, power or skill you chose, you may trade one old option for a new one each time you gain a level. One retraining per level, only.   
+If you are unsatisfied with a feat, kit, power, or skill you chose, you may trade one old option for a new one each time you gain a level. One retraining per level, only.   
 
-You cannot retrain a feat, skill or power that serves as a requirement for any other character option you have.   
+You cannot retrain a feat, power, or skill that serves as a requirement for any other character option you have.   
 
 While some details are given below, the key is that retraining is meant to allow the player character to make a different decision, but not a better one. 
 
 The one exception to this rule is feats; because you can meet the requirements for more powerful feats over time, it is acceptable to trade out a weaker feat for a more powerful one once you meet the requirements of the more powerful one.   
 
-**Feat:** The new feat can be any that you meet the requirements of. If you gained the original feat in a special way (e.g. through a class feature), the new selection must have been available to you at the time.   
+**Feat:** The new feat can be any that you meet the requirements of. If you gained the original feat in a special way (for example, through a class feature), the new selection must have been available to you at the time.   
 
-**Kit:** You can select any kit. You must also retrain any powers that you only had access to thanks to your old kit. 
+**Kit:** You can select any kit. You must also retrain any powers that you only had access to thanks to your old kit (these do not count against your one retraining per level). 
 
-**Power:** The new power can be any that you meet the requirements of, that is of the same type, level and class as the power you are replacing.  
+**Power:** The new power can be any that you meet the requirements of, that is of the same type (attack or utility) and same or lower level as the power you are replacing.  
 
-**Skill:** The new trained skill must have been available to you at the time you selected the old skill.   
+**Skill:** The new trained skill must be one you are eligible to take (typically, because it is a class skill). 
+
+### Replacing powers
+
+At certain levels, you can replace an existing power of a lower level with a power of your current level. This is separate to, and in addition to, retraining. 
+
+Retraining only allows you to replace a power with another of the same or lower level. Replacing allows you to replace a lower-level power with a higher-level one. 
 
 ## Tiers  
 
-Adventures that take place with Adventurer tier monsters, traps and player characters (i.e. those between levels 1 and 10) will likely be focused on more local issues, like rescuing a village or defeating a clan of orcs. Prestige tier adventures might involve more dramatic concerns, like the fate of kingdoms. You might end up fighting a dragon or rooting out an extraplanar plot to control an entire city. In Epic tier, you may fight the devils that run Hell or save the entire world from devastation.   
+Adventures that take place with Adventurer tier monsters, traps, and player characters (in other words, those between levels 1 and 10) will likely be focused on more local issues, like rescuing a village or defeating a clan of orcs. Prestige tier adventures might involve more dramatic concerns, like the fate of kingdoms. You might end up fighting a dragon or rooting out an extraplanar plot to control an entire city. In Epic tier, you may fight the devils that run Hell or save the entire world from devastation.   
 
 The levels correspond to the tiers as follows:   
 
 *Level 1-10:* Adventurer tier  
-*Level 11:-20* Prestige tier  
+*Level 11-20* Prestige tier  
 *Level 21-30:* Epic tier  
 
 Tiers do not have a mechanical effect in and of themselves, but they represent a new stage in the player characters’ journeys. An epic character is much more capable than an adventurer character.   
@@ -1008,7 +1040,7 @@ The Armor table shows the cost, weight, and other properties of the common types
 
 You can benefit from only one shield at a time.  
 
-Light shields are strapped to your arm, you can still use your hand (e.g. to hold things or climb, but not to wield a weapon). Heavy shields are strapped to your arm and held in your hand, so you cannot use your hand for anything else.   
+Light shields are strapped to your arm, you can still use your hand (for example, to hold things or climb, but not to wield a weapon). Heavy shields are strapped to your arm and held in your hand, so you cannot use your hand for anything else.   
 
 A shield's bonus applies to Armor Class and Reflex defenses.   
 
@@ -1186,6 +1218,14 @@ You can design an exotic ranged weapon by taking a martial weapon and increasing
 
 **Martial reach weapon:** Longspear (polearm, spear), halberd (axe, polearm), glaive (heavy blade, polearm), bo staff (polearm, staff), pike (polearm, spear)
 
+**Exotic side weapon:** Kukri (light blade, heavy blade), nunchaku (flail, mace)
+
+**Exotic one-handed weapon:** Khopesh (axe, heavy blade)
+
+**Exotic two-handed weapon:** Dwarven urgrosh (axe, spear), gnome hooked hammer (mace, pick), orc double-axe (axe, heavy blade), two-bladed sword (light blade, heavy blade)
+
+**Exotic reach weapon:** Spiked chain (light blade, flail)
+
 ##### Table – Weapon Templates
 
 | Type                      | Range | Type    | Hand | Proficiency Bonus | Damage (dW) | Cost (gp) | Weight (lb) | Range | Properties                           |
@@ -1222,6 +1262,8 @@ You can design an exotic ranged weapon by taking a martial weapon and increasing
 ## Focuses  
 
 Most arcane, divine and natural powers, and some martial powers, have the Focus tag, meaning that they benefit from a magic focus if you use one while you use the power. Each power can only benefit from one magic focus at most.  
+
+You get no benefit from using a focus unless you are proficient with it. 
 
 **Arcane Focus:** An arcane focus is a special item – typically an orb, rod, staff, wand or book, although a crystal or a pouch of spell components would also be thematically appropriate – designed to channel the power of arcane spells.  
 
@@ -1346,11 +1388,13 @@ More rules for mounts and vehicles appear in the Advanced Options chapter.
 
 A power is something that your character can do, typically quickly (fast enough to be useful in battle) and with clear rules and effects.  
 
+## Roleplaying Your Powers
+
 Since this is a role-playing game, you are not limited by your powers. Anything your character could do, they can attempt to do – even if there are no rules for it. And even if you have a power that says you can do something, the GM may rule that you cannot because it does not fit the fiction.  
 
 Overall, however, powers work the way the rules say they should work almost all of the time.   
 
-## Power Category and Frequency  
+## Power Category 
 There are two categories of power:  
 
 - Attack  
@@ -1361,18 +1405,18 @@ An attack power is directed against one or more targets, typically enemies (alth
 
 A utility power may affect you, an ally, the environment, etc., but typically not an enemy. They can still serve a function in combat, however.   
 
+## Power Frequency
+
 There are three frequencies of power:   
 
 - **At-will:** You can use this power as many times as you like.   
 - **Encounter:** After using this power, you have to take a short rest before using it again.   
 - **Daily:** After using this power, you have to take a long rest before using it again.   
   
-## Power Sources  
-- **Arcane:** Arcane characters draw their power from their study of magic, pacts with or control over magical beings, or their innate magical talent.   
-- **Divine:** Divine characters draw their power from the gods, saints, or devotion to other higher powers.   
-- **Natural:** Natural characters draw their power from their connection to the natural, primordial world.   
-- **Martial:** Martial characters draw their power from skill at arms, force of will and warcraft.   
-  
+## Traditions
+
+Most powers belong to a tradition. There are currently five traditions: Arcane, Divine, Martial, Spirit and Phrenic. See the Classes chapter for a description of each tradition.    
+
 ## Power Description  
 
 When a character uses a power, the same basic rules are followed, regardless of the character’s class or the power’s effects.  
@@ -1385,7 +1429,10 @@ The rest of a power entry describes the power’s effects.
 
 Most powers require a standard action to use, but some powers require a move action, swift action, immediate action, or other. Some only require a free action.   
 
-Some powers have a “Trigger” listed. You can only use the power if the trigger is satisfied, although you do not have to use the power just because you are able to do so.   
+Most powers require a standard action to use, but some powers require a move action, swift action, immediate action, or other. Some only require a free action. 
+Some powers have a “Trigger” listed. You can only use the power if the trigger is satisfied, although you do not have to use the power just because you are able to do so. If the power is a counter, the effects of a power that requires a trigger commence before the trigger is resolved, and may prevent the trigger from taking place. If the power is a reaction or free action, the effects of the power that requires a trigger commence after the trigger is fully resolved. 
+
+For example, if you have a counter power with the Trigger “You take damage” or “You would take damage,” the effects of the power take place before the damage, and may prevent the damage from taking place (if the power gives you resistance or allows you to move away, for example). If you have a reaction power with the same Trigger and effect, the effects of the power take place after you take damage; they cannot stop you from taking that damage. 
 
 ## Tags  
 
@@ -1397,7 +1444,7 @@ A power with the Focus tag may use the focus you are currently wielding to deter
 
 ## Targeting  
 
-There are four elements to targeting: origin of effect, area of effect, range and targets.   
+There are four elements to targeting: origin of effect, area of effect, range, and targets.   
 
 ### Origin of effect  
 
@@ -1412,7 +1459,7 @@ The five origins of effect for powers are:
 
 You can see here that the first four origins can be sorted two different ways: whether the power affects those near the user (Melee, Near) or far from them (Ranged, Far); or whether the power targets creatures directly (Melee, Ranged) or targets an area of effect (Near, Far).   
 
-Ranged and Far powers provoke opportunity attacks. Melee, Close and Self powers do not.   
+Ranged and Far powers provoke opportunity attacks. Melee, Near, and Self powers do not.   
 
 ### Areas of effect  
 
@@ -1437,7 +1484,7 @@ Special sizes for area of effect are “eyesight” and “earshot”. Eyesight 
 
 ### Range  
 
-For Weapon powers (Melee and Ranged), this is simple: the reach of the melee weapon (usually 1, i.e. adjacent squares only) or the range of the ranged weapon.   
+For Weapon powers (Melee and Ranged), this is simple: the reach of the melee weapon (usually 1, in other words adjacent squares only) or the range of the ranged weapon.   
 
 For Ranged powers that are not Weapon powers, the range is usually specified in squares.   
 
@@ -1453,9 +1500,10 @@ To calculate range, count how many squares are between the user and the target. 
 
 Melee and Ranged powers will specify whether they have one or more targets.   
 
-Area of effect powers may target, for example:   
+Unless otherwise mentioned, area of effect powers target all creatures in the area of effect. 
 
-* **all creatures:** every creature in the area of effect  
+Other example targets are: 
+
 * **nearest ally:** the nearest ally in the area of effect  
 * **nearest enemy:** the nearest enemy in the area of effect  
 * **all enemies:** only enemies in the area of effect  
@@ -1475,9 +1523,9 @@ If you place an area of effect at a point that you can’t see and an obstructio
 
 **Line of Effect:** A line of effect is similar to a line of sight, except it is only blocked by solid obstacles. Note that an obstacle can be solid but transparent, meaning it blocks line of effect but not line of sight.  
 
-**Targeting Yourself:** If a power targets a creature of your choice or ally of your choice, you can choose yourself, unless the creature must be hostile or specifically a creature other than you. If you are in the area of effect of a power you use, you can target yourself.  
+**Targeting Yourself:** If a power targets a creature or creatures of your choice, you can choose yourself. If it targets enemies, you cannot choose yourself.  
 
-If a power simply targets “allies in range”, it does not include you.   
+A power that targets an ally or allies does not target you; you are not your own ally.  
 
 **Nearest:** To determine the nearest target, determine the range to each possible target and then pick the one at the shortest range. If the range to two or more targets is equal you can choose which is the nearest.  
 
@@ -1487,7 +1535,15 @@ Some powers require the user to make an attack roll to determine whether the pow
 
 Your attack bonus with an attack power equals the ability modifier specified in the power + half your level + any other relevant modifiers.  
 
-All attacks target one of the four defenses: Armor Class, Fortitude, Reflex or Will.   
+All attacks target one of the four defenses: Armor Class, Fortitude, Reflex, or Will.   
+
+Unless otherwise specified, you can choose to be hit by an attack instead of requiring the attacker to make an attack roll. For example, *transplant senses* allows the attacker to see out of your eyes. If the attacker is an ally, you may allow them to do this without making an attack roll against your Will defense first. 
+
+### Attacks with ammunition
+
+When you use a power that allows you to make multiple attacks, with a weapon that consumes ammunition, you use one piece of ammunition per attack unless the description of the power suggests otherwise.
+
+Reloading a weapon between these attacks is free, even if the weapon normally requires a swift action to reload. However, after the attack is complete the normal reload action is then required before another attack can be made with the weapon. 
 
 ## Power Effects  
 
@@ -1498,7 +1554,13 @@ A power can have three kinds of effects:
 * **Effect:** This applies regardless of the attack roll result, or if there is no attack roll.   
   
 
-A creature always knows the effect of a power that has affected it.   
+Unless otherwise specified, a creature knows the effect of a power that has affected it.   
+
+### Secondary Attacks
+
+If a power has a “Secondary Attack” listed, the user of the power can make an attack, contingent on that effect occurring. For example, if Secondary Attack is listed under the Hit entry, it only takes place on a hit. 
+
+Secondary attacks use the same keywords, attack, defense and range as the original attack, unless otherwise specified. 
 
 ## “dW”  
 The term “dW” refers to weapon dice. Every weapon has a given damage die. Roll that die as many times as specified, and add up the results. For example, if you use a power with a longsword (weapon die: 1d10), and the Hit effect is “3dW damage” that means you do 3d10 damage. If it is “3dW + Strength modifier damage” and your Strength modifier is +2, you roll three d10s, add them up and then add 2.   
@@ -1506,7 +1568,7 @@ The term “dW” refers to weapon dice. Every weapon has a given damage die. Ro
 Rarely, a weapon will have multiple damage dice, for example 2d4 or 2d6. Multiply these by the number of dW to get the final dice total. For example, a 3dW attack used with a weapon that does 2d6 damage does 6d6 damage. 
 
 ## Duration  
-The following are common effects:   
+The following are common durations:   
 
 * Until the end of the target’s next turn  
 * Until the end of the user’s next turn  
@@ -1518,7 +1580,7 @@ The following are common effects:
 Save ends means you make a saving throw at the end of your turn for every effect that is affecting you. If you roll 10 or higher, you are no longer affected by that effect.   
 
 ### Persistent damage  
-If a power’s effect includes persistent damage, the target does not take that damage right away. Instead, they take it at the start of their next turn. Usually the duration of persistent damage is “save ends”.   
+If a power’s effect includes persistent damage, the target does not take that damage right away. Instead, they take it at the start of their next turn. Usually the duration of persistent damage is “save ends.”   
 
 ### Maintain  
 
@@ -1527,6 +1589,8 @@ Some powers require you to maintain concentration in order to keep functioning. 
 If a power must be maintained with concentration, that fact appears in a Maintain entry, and the power specifies what action is required from you each turn to maintain it. You can end concentration at any time (no action required).  
 
 You can maintain any number of powers, provided you have the actions to do so.  
+
+You cannot maintain a power that has ended. The one exception is a power that naturally ended at the start of your turn. If a power like this has a Maintain option, it represents restarting the power. 
 
 ## Boost  
 
@@ -1540,7 +1604,7 @@ You can use the “Augment:” section of the power that is used. To be able to 
 
 ### Aura
 
-An aura is always a close burst effect, a lingering effect that extends over an area. An aura moves with the character who manifested it and lasts until the end of the encounter, for 5 minutes, or until you use another aura power.
+An aura is always a Near burst effect, a lingering effect that extends over an area. An aura moves with the character who manifested it and lasts for five minutes or until the character dismisses it as a swift action (whichever happens first).
 
 ### Conjuration  
 
@@ -1575,8 +1639,8 @@ A Summons power creates one or more summoned monsters. The summoned monster foll
 * The summoned monster’s level is equal to the level of the power that summoned it.  
   
 * The summoned monster’s maximum HP (and starting HP each time it is summoned) will be specified.   
-* Your summoned monster uses your Armor Class, Fortitude, Reflex and Will defenses.   
-* A summoner can dismiss their summon with a swift action. Otherwise it disappears after five minutes or at the end of the encounter.   
+* Your summoned monster uses your Armor Class, Fortitude, Reflex, and Will defenses.   
+* A summoner can dismiss their summon with a swift action. Otherwise it disappears after five minutes.   
 * When your summoned monster drops to 0 hit points, it disappears, leaving behind no physical form. You lose one recovery or, if not able to lose a recovery, take damage equal to your recovery value.   
 
 ### Teleportation  
@@ -1645,11 +1709,10 @@ At the start of your turn, take any persistent damage you are subject to.
 
 On your turn, you can take four types of action, in any order you like, but unless otherwise noted you have to finish one action before you can take another.   
 
-* **One standard action:** E.g., a basic attack. Alternatively, use your standard action to take another move or a swift action.   
-* **One move action:** E.g., walking. Alternatively, use your move action to take another swift action.   
-* **One swift action:** E.g., drawing or sheathing a weapon.  
-* **Any number of free actions (within reason):** E.g., talking.  
-  
+* **One standard action:** For example, a basic attack. Alternatively, use your standard action to take another move or a swift action.   
+* **One move action:** For example, walking. Alternatively, use your move action to take another swift action.   
+* **One swift action:** For example, drawing or sheathing a weapon.  
+* **Any number of free actions (within reason):** For example, talking.  
 
 The most common actions you can take are described in the “Actions in Combat” section later in this chapter. Many class features and powers provide additional options for your action.  
 
@@ -1728,7 +1791,21 @@ Other effects may also resolve at the end of your turn as noted in their descrip
 
 A saving throw – also called a save – represents an attempt to shake off an effect. You don’t normally decide to make a saving throw; you are forced to make one because your character or monster is at risk of harm or trying to shake off a condition, persistent damage or other negative effect.  
 
-To make a saving throw, roll a d20. If specified, add other bonuses. If the result is 10 or higher, the save succeeds. Typically, if the save is successful it means the effect ends.   
+To make a saving throw, roll a d20. If specified, add other bonuses. If the result is 10 or higher, the save succeeds. Typically, if the save is successful it means the effect ends.  
+
+##### Special saving throw riders
+
+*Aftereffect:* An aftereffect takes place after the target succeeds on its saving throw against the initial effect. 
+
+For example, “blinded (save ends); *Aftereffect:* dazed (save ends)" means the target is blinded until it succeeds on a saving throw. Then it is dazed until it succeeds on a saving throw. 
+
+For another example, “The target is dazed until the end of your next turn; *Aftereffect:* The target takes damage equal to your Charisma modifier” means that the target is dazed until the end of your next turn, then they stop being dazed but they take damage. 
+
+*First Failed Save:* This effect applies to the target the first time they fail a saving throw. 
+
+For example, “rattled (save ends); *First Failed Save:* The target is instead blinded (save ends)” means the target is rattled until it succeeds on a saving throw. If it fails a saving throw, it becomes blinded instead of rattled. 
+
+*Grappled (save ends):* Most grapples last until the target breaks the grapple or the grappler chooses to end the grapple. When a power says the target is “grappled (save ends)", as well as those methods to end the grapple the target also makes a saving throw each turn and breaks the grapple on a success.  
 
 ## Outside of Your Turn  
 
@@ -1738,9 +1815,11 @@ There are two types of action you can take outside of your turn: immediate actio
 
 Certain special abilities, powers, and situations allow you to take a special action called an immediate action. It must occur on someone else’s turn, and you can only take one immediate action between each of your turns.   
 
-Some immediate actions interrupt the other creature’s action. When your immediate action is a **counter** to another creature’s action, their action pauses while your immediate action is resolved. Then that creature can continue its action right after the immediate action ends.  
+Immediate actions come in two varieties: 
 
-Other immediate actions are **reactions** to the other creature’s action, and occur after the creature completes their action. That creature can continue its turn right after the immediate action.  
+* **Counter action:** These immediate actions interrupt the other creature’s action. When your immediate action is a counter action to another creature’s action, their action pauses while your immediate action is resolved. Then that creature can continue its action right after the immediate action ends. 
+
+* **Reaction:** These immediate actions are reactions to the other creature’s action, and occur after the creature completes their action. That creature can continue its turn right after the immediate action. 
 
 ### Opportunity Attacks  
 
@@ -1748,7 +1827,7 @@ In a fight, everyone is constantly watching for a chance to strike an enemy who 
 
 You can make an opportunity attack when a hostile creature that you can see moves out of your reach or otherwise provokes an opportunity attack. To make the opportunity attack, you use your immediate action to make one melee attack against the provoking creature. The attack occurs right before the creature leaves your reach.  
 
-You can avoid provoking an opportunity attack by **shifting**, e.g. by taking the Five-Foot Step action. You also don’t provoke an opportunity attack when you teleport or when subject to unwilling movement. For example, you don’t provoke an opportunity attack if an explosion hurls you out of a foe’s reach or if gravity causes you to fall past an enemy.  
+You can avoid provoking an opportunity attack by **shifting**, for example by taking the Five-Foot Step action. You also don’t provoke an opportunity attack when you teleport or when subject to unwilling movement. For example, you don’t provoke an opportunity attack if an explosion hurls you out of a foe’s reach or if gravity causes you to fall past an enemy.  
 
 You can only take one opportunity attack against a creature on their turn, even if they provoke an attack multiple times.   
 
@@ -2016,7 +2095,7 @@ You can move through an allied creature’s space. In contrast, you can move thr
 
 Whether a creature is a friend or an enemy, you can’t willingly end your move in its space.  
 
-If you leave a square adjacent to an enemy, e.g. by moving into their space, you provoke an opportunity attack.  
+If you leave a square adjacent to an enemy, for example by moving into their space, you provoke an opportunity attack.  
 
 ## Flanking  
 
@@ -2171,7 +2250,7 @@ You cannot maintain powers if you Delay. Beneficial effects that end at the end 
 > **Melee** touch, one enemy no more than one size larger than you  
 > **Requirements** You must have a hand free.  
 > **Attack** Strength vs Reflex  
-> **Effect** The target is grappled. You can release the target whenever you like (as a free action). If either of you ceases to be adjacent to the other (e.g. through unwilling movement affecting one or the other of you), the grapple ends.  
+> **Effect** The target is grappled. You can release the target whenever you like (as a free action). If either of you ceases to be adjacent to the other (for example through unwilling movement affecting either of you), the grapple ends.  
 > **Special** You succeed automatically if the target is incapacitated.  
 
 **Escape a Grapple (standard action):** A grappled creature can use its standard action to escape. To do so, it must succeed on an Athletics check vs the grappler’s Fortitude or Acrobatics check vs the grappler’s Reflex defense.   
@@ -2292,7 +2371,7 @@ For example, if you are on -10 HP and you heal 7 HP, your HP become 7, *not* -3.
 
 ### Instant Death  
 
-Massive damage can kill you instantly. When damage reduces you to negative hit points equivalent to your staggered value or worse (e.g. -22 HP if your HP is 44), you die.   
+Massive damage can kill you instantly. When damage reduces you to negative hit points equivalent to your staggered value or worse (for example -22 HP if your HP is 44), you die.   
 
 ### Falling Unconscious  
 
@@ -2570,7 +2649,7 @@ A monster’s source describes where its species or type has come from. Certain 
 
 **Shadow** creatures are tied to the Plane of Shadow.   
 
-**Natural** creatures are native to the Prime Material Plane, i.e. the world.   
+**Natural** creatures are native to the Prime Material Plane, the world.   
 
 **Outsider** creatures are at least partially composed of the essence (but not necessarily the material) of some Outer Plane. Some creatures start out as some other source and become outsiders when they attain a higher (or lower) state of spiritual existence.  
 
@@ -2764,12 +2843,6 @@ Special symbols are used to indicate whether an attack is a basic attack, and wh
 
 Unless otherwise mentioned, melee and ranged attacks have one target. Near and far attacks target all creatures within their area of effect, unless otherwise mentioned. 
 
-### Power riders
-
-*Aftereffect:* An aftereffect takes place after the target succeeds on its saving throw against the initial effect. For example, “blinded (save ends); *Aftereffect:* dazed (save ends)” means the target is blinded until it succeeds on a saving throw. Then it is dazed until it succeeds on a saving throw. 
-
-*Grappled (save ends):* Most grapples last until the target breaks the grapple or the grappler chooses to end the grapple. When a power says the target is “grappled (save ends)”, as well as those methods to end the grapple the target also makes a saving throw each turn and breaks the grapple on a success. 
-
 ### Limited Usage  
 
 Some special abilities have restrictions on the number of times they can be used.  
@@ -2915,8 +2988,8 @@ The role is the function that the monster plays in combat. It determines defense
 
 * The monster can see in the dark: Darkvision.   
 * The monster can see well in poor lighting: Low-light vision.   
-* The monster can accurately sense the presence of creatures without seeing, e.g. through echolocation: Blindsight 10.   
-* The monster can accurately sense the presence of creatures in contact with the ground, e.g. through vibrations: Tremorsense 10.   
+* The monster can accurately sense the presence of creatures without seeing, for example through echolocation: Blindsight 10.   
+* The monster can accurately sense the presence of creatures in contact with the ground, for example through vibrations: Tremorsense 10.   
 * The monster can see through shapechanging magic, illusions, invisibility, etc.: Truesight 10.   
 
 ## Movement  
@@ -3021,7 +3094,7 @@ Each type of companion has some special rules, as well as following these standa
 
 * Your companion’s initiative equals your own.
 * You can give up actions to command the companion, in which case it gets to take the same actions. For example, you can give up your standard action in order for the summoned monster to take a standard action. You can also use an immediate action in order for the animal companion to make an opportunity attack or use a counter or reaction (in all three cases, only if eligible to do so). 
-* Some companions have an “Instinct“ listed. This is how the monster behaves when you do not command it. It has the normal standard, move and swift action when following its instinct, and acts at the end of your turn.    
+* Some companions have an “Instinct” listed. This is how the monster behaves when you do not command it. It has the normal standard, move and swift action when following its instinct, and acts at the end of your turn.    
 
 *Stats and Combat*  
 
@@ -3273,90 +3346,99 @@ Each level, each character receives one magic item of level +2 or two magic item
 
 Each level, the party should discover about 10 treasure troves of their level. Each treasure trove is randomly generated by rolling 1d4, 1d6, 1d8, 1d10, 1d12 and 1d20, with each result helping to determine the contents of the treasure trove.   
 
-**1d4:** This is the magic item level bonus, see 1d12 below.   
+##### Coins
 
-**1d6:** This is the coin multiplier, see 1d20 below.   
-
-**1d8:** On a 5, 6 or 7, the trove contains a number of art objects, see 1d10 below. On an 8, it contains a gemstone. On any other result, it contains nothing. See the table below for the value of the art objects or gemstone by level.   
-
-**1d10:** If the trove contains art objects, this is how many it contains.   
+**1d10:** On a 6 or more, the trove contains coins. Multiply the 1d6 result by the number of coins shown in the table below for the total number of coins in the trove.   
 
 Add 1 to the d10 roll for every additional player character in the party beyond 5, and subtract 1 for every player character that the party is missing below 5 PCs (minimum 0).   
 
-**1d12:** On a 6 or less, the trove contains a personal item or something of significance to the story or adventure but not of monetary value. For example, it could be a note with the evil faction's watchword scribbled on it, a key to a door deeper in the dungeon, the mayor's missing spectacles, a clue to the disappearances by the docks, or just a kobold's pet toad.   
+**1d6:** The coin multiplier.   
 
-On a 5, 6 or 7, the trove contains a consumable item roughly of the party's level.   
+##### Art Objects and Gems
 
-On an 8 or higher, the trove contains a permanent magic item of the party's level plus the 1d4 result.   
+**1d8:** On a 5, 6 or 7, the trove contains an art object. On an 8, it contains a gemstone. On any other result, it contains nothing. 
+
+Add 1 to the d8 roll for every additional player character in the party beyond 5, and subtract 1 for every player character that the party is missing below 5 PCs (minimum 0).   
+
+See the table below for the value of the art objects or gemstone by level.   
+
+##### Magic Items and Miscellaneous
+
+**1d12:** On a 4 or less, the trove contains a personal item or something of significance to the story or adventure but not of monetary value. For example, it could be a note with the evil faction's watchword scribbled on it, a key to a door deeper in the dungeon, the mayor's missing spectacles, a clue to the disappearances by the docks, or just a kobold's pet toad. See the "random personal items" table below.   
+
+On a 5, 6 or 7, the trove contains a consumable item roughly of the party's level. See the "random consumable items" table below.   
+
+On an 8, the trove contains a miscellaneous permanent magic item (not a weapon, focus, suit of armor or cloak). See the "random miscellaneous item" table in the Magic Items chapter. 
+
+On a 9 or higher, the trove contains an enchanted magic item. See the "random enchanted magic items" table in the Magic Items chapter.   
 
 Add 1 to the d12 roll for every additional player character in the party beyond 5, and subtract 1 for every player character that the party is missing below 5 PCs (minimum 0).   
 
-**1d20:** On an 11 or more, the trove contains coins. Multiply the 1d6 result by the number of coins shown in the table below for the total number of coins in the trove.   
+**1d4:** If there is an enchanted magic item, this determines whether it is a weapon (1), focus (2), suit of armor (3) or cloak (4).
 
-Add 2 to the d20 roll for every additional player character in the party beyond 5, and subtract 2 for every player character that the party is missing below 5 PCs.   
+**1d20:** Reference the tables below and in the Magic Items chapter to determine what item the 1d12 result indicates. 
 
 ##### Table – Treasure Troves by Level
 
-| Average Party Level | Coin Multiplier | Gem Value  | Art Object Value |
-| ------------------- | --------------- | ---------- | ---------------- |
-| 1                   | 10 gp           | 100 gp     | 20 gp            |
-| 2                   | 25 gp           | 100 gp     | 20 gp            |
-| 3                   | 25 gp           | 200 gp     | 30 gp            |
-| 4                   | 40 gp           | 200 gp     | 30 gp            |
-| 5                   | 40 gp           | 300 gp     | 40 gp            |
-| 6                   | 125 gp          | 300 gp     | 40 gp            |
-| 7                   | 125 gp          | 750 gp     | 90 gp            |
-| 8                   | 210 gp          | 750 gp     | 90 gp            |
-| 9                   | 210 gp          | 1,500 gp   | 120 gp           |
-| 10                  | 300 gp          | 1,500 gp   | 120 gp           |
-| 11                  | 300 gp          | 5,500 gp   | 240 gp           |
-| 12                  | 750 gp          | 5,500 gp   | 240 gp           |
-| 13                  | 750 gp          | 10,000 gp  | 325 gp           |
-| 14                  | 12 pp           | 10,000 gp  | 325 gp           |
-| 15                  | 12 pp           | 12,500 gp  | 525 gp           |
-| 16                  | 34 pp           | 12,500 gp  | 525 gp           |
-| 17                  | 34 pp           | 25,000 gp  | 1,500 gp         |
-| 18                  | 56 pp           | 25,000 gp  | 1,500 gp         |
-| 19                  | 56 pp           | 50,000 gp  | 1,900 gp         |
-| 20                  | 78 pp           | 50,000 gp  | 1,900 gp         |
-| 21                  | 78 pp           | 100,000 gp | 8,000 gp         |
-| 22                  | 185 pp          | 100,000 gp | 8,000 gp         |
-| 23                  | 185 pp          | 125,000 gp | 16,000 gp        |
-| 24                  | 290 pp          | 125,000 gp | 16,000 gp        |
-| 25                  | 290 pp          | 200,000 gp | 21,000 gp        |
-| 26                  | 830 pp          | 200,000 gp | 21,000 gp        |
-| 27                  | 830 pp          | 300,000 gp | 60,000 gp        |
-| 28                  | 1,400 pp        | 300,000 gp | 60,000 gp        |
-| 29                  | 1,400 pp        | 600,000 gp | 86,000 gp        |
-| 30                  | 1,950 pp        | 600,000 gp | 86,000 gp        |
+| Average Party Level | Coin Multiplier | Gemstone Value | Art Object Value |
+| ------------------- | --------------- | -------------- | ---------------- |
+| 1                   | 10 gp           | 100 gp         | 100 gp           |
+| 2                   | 25 gp           | 100 gp         | 100 gp           |
+| 3                   | 25 gp           | 200 gp         | 150 gp           |
+| 4                   | 40 gp           | 200 gp         | 150 gp           |
+| 5                   | 40 gp           | 300 gp         | 200 gp           |
+| 6                   | 125 gp          | 300 gp         | 200 gp           |
+| 7                   | 125 gp          | 750 gp         | 450 gp           |
+| 8                   | 210 gp          | 750 gp         | 450 gp           |
+| 9                   | 210 gp          | 1,500 gp       | 600 gp           |
+| 10                  | 300 gp          | 1,500 gp       | 600 gp           |
+| 11                  | 300 gp          | 5,500 gp       | 1,200 gp         |
+| 12                  | 750 gp          | 5,500 gp       | 1,200 gp         |
+| 13                  | 750 gp          | 10,000 gp      | 1,625 gp         |
+| 14                  | 12 pp           | 10,000 gp      | 1,625 gp         |
+| 15                  | 12 pp           | 12,500 gp      | 2,625 gp         |
+| 16                  | 34 pp           | 12,500 gp      | 2,625 gp         |
+| 17                  | 34 pp           | 25,000 gp      | 7,500 gp         |
+| 18                  | 56 pp           | 25,000 gp      | 7,500 gp         |
+| 19                  | 56 pp           | 50,000 gp      | 9,500 gp         |
+| 20                  | 78 pp           | 50,000 gp      | 9,500 gp         |
+| 21                  | 78 pp           | 100,000 gp     | 40,000 gp        |
+| 22                  | 185 pp          | 100,000 gp     | 40,000 gp        |
+| 23                  | 185 pp          | 125,000 gp     | 80,000 gp        |
+| 24                  | 290 pp          | 125,000 gp     | 80,000 gp        |
+| 25                  | 290 pp          | 200,000 gp     | 105,000 gp       |
+| 26                  | 830 pp          | 200,000 gp     | 105,000 gp       |
+| 27                  | 830 pp          | 300,000 gp     | 300,000 gp       |
+| 28                  | 1,400 pp        | 300,000 gp     | 300,000 gp       |
+| 29                  | 1,400 pp        | 600,000 gp     | 430,000 gp       |
+| 30                  | 1,950 pp        | 600,000 gp     | 430,000 gp       |
 
 ##### Table – Art Objects
 
 | Art Object Value | Examples                                                     |
 | ---------------- | ------------------------------------------------------------ |
-| 20 gp            | Silver ewer; carved bone or ivory statuette; finely wrought small gold bracelet; glass beads; dried rose petals |
-| 30 gp            | Cloth of gold vestments; black velvet mask with numerous citrines; silver chalice with lapis lazuli gems |
-| 40 gp            | Large well-done wool tapestry; brass mug with jade inlays; crystal rod filled with phosphorus |
-| 90 gp            | Silver comb with moonstones; silver-plated steel longsword with jet jewel in hilt; darkwood dining table and chair set |
-| 120 gp           | Carved harp of exotic wood with ivory inlay and zircon gems; gilt gold idol (10 lb.); perfect model of an onyx ziggurat |
-| 240 gp           | Gold dragon comb with red garnet eye; gold and topaz bottle stopper cork; ceremonial electrum dagger with a star ruby in the pommel |
-| 325 gp           | Eyepatch with mock eye of sapphire and moonstone; fire opal pendant on a fine gold chain; old masterpiece painting; a petrified hummingbird |
-| 525 gp           | Embroidered silk and velvet mantle with numerous moonstones; sapphire pendant on gold chain; chess set made of adamantine and mithril |
-| 1,500 gp         | Embroidered and bejeweled glove; jeweled anklet; gold music box; a dis-animated iron golem; a rare history book autographed by the author |
-| 1,900 gp         | Golden circlet with four aquamarines; a string of small pink pearls (necklace); bottomless cup of coffee |
-| 8,000 gp         | Jeweled gold crown; jeweled electrum ring; one-ton temple guardian statue |
-| 16,000 gp        | Gold and ruby ring; gold cup set with emeralds; self-playing harp |
-| 21,000 gp        | Adamantine crown set with soul gems; tapestry woven from phase spider silk |
-| 60,000 gp        | Dragon's skull filled in with gold; the lamp once occupied by a djinn prince |
-| 86,000 gp        | Throne carved from treant-wood; deceased lich's mithril phylactery set with diamonds |
+| 100 gp           | Silver ewer; carved bone or ivory statuette; finely wrought small gold bracelet; glass beads; dried rose petals |
+| 150 gp           | Cloth of gold vestments; black velvet mask with numerous citrines; silver chalice with lapis lazuli gems |
+| 200 gp           | Large well-done wool tapestry; brass mug with jade inlays; crystal rod filled with phosphorus |
+| 450 gp           | Silver comb with moonstones; silver-plated steel longsword with jet jewel in hilt; darkwood dining table and chair set |
+| 600 gp           | Carved harp of exotic wood with ivory inlay and zircon gems; gilt gold idol (10 lb.); perfect model of an onyx ziggurat |
+| 1,200 gp         | Gold dragon comb with red garnet eye; gold and topaz bottle stopper cork; ceremonial electrum dagger with a star ruby in the pommel |
+| 1,625 gp         | Eyepatch with mock eye of sapphire and moonstone; fire opal pendant on a fine gold chain; old masterpiece painting; a petrified hummingbird |
+| 2,625 gp         | Embroidered silk and velvet mantle with numerous moonstones; sapphire pendant on gold chain; chess set made of adamantine and mithril |
+| 7,500 gp         | Embroidered and bejeweled glove; jeweled anklet; gold music box; a dis-animated iron golem; a rare history book autographed by the author |
+| 9,500 gp         | Golden circlet with four aquamarines; a string of small pink pearls (necklace); bottomless cup of coffee |
+| 40,000 gp        | Jeweled gold crown; jeweled electrum ring; one-ton temple guardian statue |
+| 80,000 gp        | Gold and ruby ring; gold cup set with emeralds; self-playing harp |
+| 105,000 gp       | Adamantine crown set with soul gems; tapestry woven from phase spider silk |
+| 300,000 gp       | Dragon's skull filled in with gold; the lamp once occupied by a djinn prince |
+| 430,000 gp       | Throne carved from treant-wood; deceased lich's mithril phylactery set with diamonds |
 
 ##### Table – Random Consumable Items
 
 | 1d6  | Result                                                       |
 | ---- | ------------------------------------------------------------ |
-| 1–2  | Healing potion (potion of healing in heroic tier, potion of healing and rescue in prestige tier, potion of healing and rescue (advanced) or salve of resurrection in epic tier). |
-| 3    | A non-healing consumable potion or oil (oil of sharpness, potion of heroism, potion of vitality, etc.) |
-| 4    | Another consumable item (skeleton key, etc.).                |
+| 1–3  | Healing potion (*potion of healing* in heroic tier, *potion of healing and rescue* in prestige tier, *potion of healing and rescue (advanced)* or *salve of resurrection* in epic tier). |
+| 4    | Another consumable item (*oil of sharpness, potion of heroism, potion of vitality, skeleton key,* etc). |
 | 5    | A poison.                                                    |
 | 6    | An incantation scroll or practice manual.                    |
 
@@ -3377,7 +3459,7 @@ There are four core types of magic item, called enchanted items:
 * Cloaks or amulets worn about the neck, which increase Fortitude, Reflex and Will defenses.  
 * Weapons  
 * Focuses  
-* Armor (or “cloth armor”, i.e. robes and other clothing, for those who do not wear armor)  
+* Armor (or “cloth armor”, robes and other clothing, for those who do not wear armor)  
 
 A character may need both an enchanted focus and an enchanted weapon, if they are for example a cleric that casts spells using a holy symbol and makes attacks with a mace. A character may need two weapons, if they dual-wield or mix it up between ranged and melee. Otherwise, a character only needs either an enchanted weapon or an enchanted focus, not both.   
 
@@ -3576,7 +3658,7 @@ What follows are terms that might be unfamiliar even to experienced gamers.
 ### General terms  
 **Ancestry:** Ancestries are the racial, cultural and other origins of characters. Only racial ancestries are presented in Orcus so far.   
 **Epic path:** Each player character chooses an epic path at level 21, which gives new powers and features through to level 30.  
-**Kit:** A kit is an set of powers and features chosen at first level, and providing another facet of a character beyond their ancestry and class.  
+**Kit:** A kit is a set of powers and features chosen at first level, and providing another facet of a character beyond their ancestry and class.  
 **Prestige path:** Each player character chooses a prestige path at level 11, which gives new powers and features through to level 20.  
 **Tags:** Descriptive words or phrases attached to powers, monsters and other game components.   
 **Tradition:** A source of power, like Arcane, Divine, Martial, Natural and Shadow.   
@@ -3635,7 +3717,7 @@ What follows are terms that might be unfamiliar even to experienced gamers.
 **Spoiler (monster role):** Spoilers create zones and other battlefield conditions, use area attacks and debuff enemies.   
 **Wrecker (monster role):** Wreckers do large amounts of damage, usually in melee range.  
 
-**Monstrosity (type):** Monstrosities are magical beasts or other creatures that have complicated or clearly magical physionomy.   
+**Monstrosity (type):** Monstrosities are magical beasts or other creatures that have complicated or clearly magical physiognomy.   
 **Automaton (type):** Automatons are creatures made of animated matter, whether that is animated elements (elementals), corpses (undead) or plant matter (plants).  
 
 **Refresh:** If a monster uses a refresh power, it is not available to use again right away. Each time the monster takes a turn, a die is rolled and if a certain number appears (as specified in the power) then the power is available again.   
@@ -3644,7 +3726,7 @@ What follows are terms that might be unfamiliar even to experienced gamers.
 
 # Appendix A: Powers Available by Level  
 
-The following table shows how many powers and of which levels a character is entitled to, based on the character's level. A character can always choose a lower-level power (of the same frequency, e.g. a level 3 encounter attack power instead of a level 7 encounter attack power) in place of a higher-level one.  
+The following table shows how many powers and of which levels a character is entitled to, based on the character's level. A character can always choose a lower-level power (of the same frequency, for example a level 3 encounter attack power instead of a level 7 encounter attack power) in place of a higher-level one.  
 
 “(P)” indicates that the power comes from a prestige path. “(E)” indicates that the power comes from an epic path.   
 
