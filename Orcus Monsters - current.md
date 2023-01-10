@@ -652,6 +652,12 @@ Ranged 10; +9 vs Reflex; 1d8+3 poison damage, and the target is blinded until th
 > **Worry**   
 > If the dog's target is prone, attacks do +1d6 damage on a hit.  
 
+##### Variants
+
+##### Grim
+
+Add crusader class template. 
+
 
 > #### Wolf  
 >
@@ -692,6 +698,18 @@ Represents a wolf or hyena.
 
 Represents a dire wolf or dire hyena.  
 
+##### Variants
+
+##### Yeth Hound
+
+**Bay (encounter, standard):** Near burst 5; +12 vs Will; the target is dazed.
+
+##### Shadow Mastiff
+
+**Bay (encounter, standard):** Near burst 5; +12 vs Will; the target is dazed.
+
+**Shadow Blend:** While the shadow mastiff is in dim light, it is invisible. 
+
 
 > #### Worg  
 >
@@ -710,23 +728,9 @@ Represents a dire wolf or dire hyena.
 > **Worry**   
 > If the worg's target is prone, attacks do +3d6 damage on a hit.  
 
-### Variants
+##### Variants
 
-##### Grim (Dog)
-
-Add crusader class template. 
-
-##### Yeth hound (Dire Wolf)
-
-**Bay (encounter, standard):** Near burst 5; +12 vs Will; the target is dazed.
-
-##### Shadow mastiff (Dire Wolf)
-
-**Bay (encounter, standard):** Near burst 5; +12 vs Will; the target is dazed.
-
-**Shadow Blend:** While the shadow mastiff is in dim light, it is invisible. 
-
-##### Winter wolf (Worg)
+##### Winter Wolf
 
 **Resistance** cold 5; **Vulnerability** fire 5.
 
