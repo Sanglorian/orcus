@@ -613,7 +613,7 @@ Ranged 10; +9 vs Reflex; 1d8+3 poison damage, and the target is blinded until th
 > +11.0 vs AC; 1d8+4 damage, and the target takes persistent 5 damage (save ends).  
 
 
-> #### Pleisiosaur  
+> #### Plesiosaur  
 >
 > **Level 10 Wrecker** (500 XP)  
 > Huge Natural Beast ● Aquatic, Reptile (Unaligned)  
@@ -1459,32 +1459,6 @@ Lamias recruit unwanted children, turning them into lycanthropes - their janissa
 
 ## Air Elementals  
 
-
-> #### Small Earth Eleemntal  
->
-> **Level 3 Skulker** (150 XP)  
-> Small Elemental Automaton ● Earth (Unaligned)  
-> **Senses:** Perception +2, tremorsense 12; **Skills:** Endure +8   
-> **Languages:** Primordial  
-> **Str:** 17 (+4), **Con:** 13 (+2), **Dex:** 8 (+0)
-> **Int:** 4 (-2), **Wis:** 11 (+1), **Cha:** 11 (+1)  
->
-> **Initiative:** +1; **Speed:** 4, burrow 4 (earth glide)  
-> **AC:** 15; **Fort:** 16, **Ref:** 14, **Will:** 15   
-> **HP:** 45, **Staggered:** 22      
->
-> ‡	**Slam** (standard, at-will) ● **Air**  
-> +8.0 vs AC; 1d12+4 damage.  
-> **Hardened Skin** (swift, at-will) ● **Stance**  
-> While in this stance, the earth elemental can halve the damage it takes from attack as an immediate counter. It then leaves this stance.  
-
-##### Variants
-
-##### Small Xorn
-
-**All-Around Vision** The xorn cannot be flanked.  
-
-
 > #### Small Air Elemental  
 >
 > **Level 5 Spoiler** (200 XP)  
@@ -1506,40 +1480,6 @@ Lamias recruit unwanted children, turning them into lycanthropes - their janissa
 > The air elemental becomes invisible. After it completes a move or attack, or after it is hit by an attack, it becomes visible.  
 > ↗	**Control Wind** (standard, at-will) ● **Air**  
 > +8 vs Fortitude; The target is shunted 2 squares.  
-
-
-> #### Medium Earth Eleemntal  
->
-> **Level 7 Skulker** (300 XP)  
-> Medium Elemental Automaton ● Earth (Unaligned)  
-> **Senses:** Perception +6, tremorsense 12; **Skills:** Endure +14   
-> **Languages:** Primordial  
-> **Str:** 21 (+8), **Con:** 17 (+6), **Dex:** 8 (+2)
-> **Int:** 4 (+0), **Wis:** 11 (+3), **Cha:** 11 (+3)  
->
-> **Initiative:** +5; **Speed:** 4, burrow 4 (earth glide)  
-> **AC:** 19; **Fort:** 20, **Ref:** 18, **Will:** 19   
-> **HP:** 69, **Staggered:** 34      
->
-> ‡	**Slam** (standard, at-will) ● **Air**  
-> +12.0 vs AC; 2d10+4 damage.  
-> **Hardened Skin** (swift, at-will) ● **Stance**  
-> While in this stance, the earth elemental can halve the damage it takes from attack as an immediate counter. It then leaves this stance.  
-
-##### Variants
-
-##### Medium Xorn
-
-**All-Around Vision** The xorn cannot be flanked.  
-
-#### Sand Sentry
-
-**Medium elemental humanoid (earth)**
-**Skills** Acrobatics +7, Stealth +7  
-**Speed** 5, burrow 10 (earth glide)  
-∢ **Blinding Sand (standard, encounter)** Near arc 2; +12 vs Reflex; 2d10+4 damage, and the target is blinded (save ends).   
-**Glass Armor** When the sand sentry takes fire or lightning damage, its outer layer of sand fuses into sheets of hardened glass. It loses earth glide but gains resistance to all damage 5 until it takes damage.  
-
 
 > #### Medium Air Elemental  
 >
@@ -1579,6 +1519,88 @@ Replace *buffet* and *control wind* with
 **Raise Up (free, at-will): If *control wind* hits: +14 vs Will; the target is levitated 1 square and restrained (save ends both).  
 
 
+> #### Large Air Elemental  
+>
+> **Level 13 Spoiler** (800 XP)  
+> Large Elemental Automaton ● Air (Unaligned)  
+> **Senses:** Perception +12, darkvision; **Skills:** Acrobatics +24   
+> **Languages:** Primordial  
+> **Str:** 14 (+8), **Con:** 16 (+9), **Dex:** 25 (+13)
+> **Int:** 6 (+4), **Wis:** 11 (+6), **Cha:** 11 (+6)  
+>
+> **Initiative:** +19; **Speed:** fly 10  
+> **AC:** 27; **Fort:** 25, **Ref:** 24, **Will:** 26   
+> **HP:** 89, **Staggered:** 44      
+> *Clattering din aura 2* Creatures that begin their turn within the aura are rattled and deafened until they leave the aura.  
+>
+> ‡	**Buffet** (standard, at-will) ● **Air**  
+> +16.0 vs Fortitude; The target is pushed 4 squares and falls prone.  
+> **Pass Through** (standard, at-will)   
+> The air elemental is invisible: The air elemental moves up to its speed, with phasing. Make a basic melee attack against all creatures moved through.  
+> **Lesser Air** (standard, at-will) ● **Illusion**  
+> The air elemental becomes invisible. After it completes a move or attack, or after it is hit by an attack, it becomes visible.  
+> ↗	**Control Wind** (standard, at-will) ● **Air**  
+> +16 vs Fortitude; The target is shunted 3 squares.  
+
+## Earth Elementals
+
+> #### Small Earth Elemental  
+>
+> **Level 3 Skulker** (150 XP)  
+> Small Elemental Automaton ● Earth (Unaligned)  
+> **Senses:** Perception +2, tremorsense 12; **Skills:** Endure +8   
+> **Languages:** Primordial  
+> **Str:** 17 (+4), **Con:** 13 (+2), **Dex:** 8 (+0)
+> **Int:** 4 (-2), **Wis:** 11 (+1), **Cha:** 11 (+1)  
+>
+> **Initiative:** +1; **Speed:** 4, burrow 4 (earth glide)  
+> **AC:** 15; **Fort:** 16, **Ref:** 14, **Will:** 15   
+> **HP:** 45, **Staggered:** 22      
+>
+> ‡	**Slam** (standard, at-will) ● **Air**  
+> +8.0 vs AC; 1d12+4 damage.  
+> **Hardened Skin** (swift, at-will) ● **Stance**  
+> While in this stance, the earth elemental can halve the damage it takes from attack as an immediate counter. It then leaves this stance.  
+
+##### Variants
+
+##### Small Xorn
+
+**All-Around Vision** The xorn cannot be flanked.  
+
+
+> #### Medium Earth Eleemntal  
+>
+> **Level 7 Skulker** (300 XP)  
+> Medium Elemental Automaton ● Earth (Unaligned)  
+> **Senses:** Perception +6, tremorsense 12; **Skills:** Endure +14   
+> **Languages:** Primordial  
+> **Str:** 21 (+8), **Con:** 17 (+6), **Dex:** 8 (+2)
+> **Int:** 4 (+0), **Wis:** 11 (+3), **Cha:** 11 (+3)  
+>
+> **Initiative:** +5; **Speed:** 4, burrow 4 (earth glide)  
+> **AC:** 19; **Fort:** 20, **Ref:** 18, **Will:** 19   
+> **HP:** 69, **Staggered:** 34      
+>
+> ‡	**Slam** (standard, at-will) ● **Air**  
+> +12.0 vs AC; 2d10+4 damage.  
+> **Hardened Skin** (swift, at-will) ● **Stance**  
+> While in this stance, the earth elemental can halve the damage it takes from attack as an immediate counter. It then leaves this stance.  
+
+##### Variants
+
+##### Medium Xorn
+
+**All-Around Vision** The xorn cannot be flanked.  
+
+#### Sand Sentry
+
+**Medium elemental humanoid (earth)**
+**Skills** Acrobatics +7, Stealth +7  
+**Speed** 5, burrow 10 (earth glide)  
+∢ **Blinding Sand (standard, encounter)** Near arc 2; +12 vs Reflex; 2d10+4 damage, and the target is blinded (save ends).   
+**Glass Armor** When the sand sentry takes fire or lightning damage, its outer layer of sand fuses into sheets of hardened glass. It loses earth glide but gains resistance to all damage 5 until it takes damage.  
+
 > #### Large Earth Elemental  
 >
 > **Level 11 Skulker** (600 XP)  
@@ -1603,31 +1625,6 @@ Replace *buffet* and *control wind* with
 
 **All-Around Vision** The xorn cannot be flanked.  
 
-
-> #### Large Air Elemental  
->
-> **Level 13 Spoiler** (800 XP)  
-> Large Elemental Automaton ● Air (Unaligned)  
-> **Senses:** Perception +12, darkvision; **Skills:** Acrobatics +24   
-> **Languages:** Primordial  
-> **Str:** 14 (+8), **Con:** 16 (+9), **Dex:** 25 (+13)
-> **Int:** 6 (+4), **Wis:** 11 (+6), **Cha:** 11 (+6)  
->
-> **Initiative:** +19; **Speed:** fly 10  
-> **AC:** 27; **Fort:** 25, **Ref:** 24, **Will:** 26   
-> **HP:** 89, **Staggered:** 44      
-> *Clattering din aura 2* Creatures that begin their turn within the aura are rattled and deafened until they leave the aura.  
->
-> ‡	**Buffet** (standard, at-will) ● **Air**  
-> +16.0 vs Fortitude; The target is pushed 4 squares and falls prone.  
-> **Pass Through** (standard, at-will)   
-> The air elemental is invisible: The air elemental moves up to its speed, with phasing. Make a basic melee attack against all creatures moved through.  
-> **Lesser Air** (standard, at-will) ● **Illusion**  
-> The air elemental becomes invisible. After it completes a move or attack, or after it is hit by an attack, it becomes visible.  
-> ↗	**Control Wind** (standard, at-will) ● **Air**  
-> +16 vs Fortitude; The target is shunted 3 squares.  
-
-## Earth Elementals  
 
 ## Fire Elementals  
 
@@ -2398,63 +2395,6 @@ When not warring against rival demon princes, Orcus likes to travel the planes, 
 > ∢	**Cacophony of Doom** (standard, refresh 5, 6) ● **Fear, Psychic**  
 > Near arc 5; +20 vs Will; 3d8+7 psychic damage, and the target is immobile (save ends). *First Failed Save:* The target is stunned (save ends).  
 
-## Ichor-Ghouls  
-
-Hundreds of years ago, a secret organization in pursuit of power made the mistake of combining two powerful magical items: an *orb of chaos* and the mysterious *necrosis cube*. The result was the creation of the terrifying undead ichor-ghouls.
-
-Ichor-ghouls that go too long without feeding shrivel and become moribund. Their blood-drenched flesh dries, and they become desiccated husks. The husks' desperate and unquenched need for living energy drives them first to madness and then to near-mindlessness.
-
-Living creatures too near an ichor-ghoul start sweating blood and their skin becomes coated with a scarlet sheen. Blood flows towards the ichor-ghouls, which grow in strength as they absorb it.
-
-When one of the desiccated husks transforms into bloody bones, the husk’s dry skin cracks open and the bloody bones literally tear themselves out of their own body. The thing which emerges is a glistening mass of raw muscle, pulsing with thick veins of crimson-black blood. Its fang-like teeth glitter as its mouth parts in a ghastly, hissing smile.  
-
-
-> #### Desiccated Husk  
->
-> **Level 3 Wrecker** (150 XP)  
-> Medium Elemental Humanoid ● Undead (Evil)  
-> **Senses:** Perception +1, darkvision   
-> **Str:** 14 (+3), **Con:** 10 (+1), **Dex:** 8 (+0)
-> **Int:** 14 (+3), **Wis:** 10 (+1), **Cha:** 17 (+4)  
->
-> **Initiative:** +0; **Speed:** 4  
-> **AC:** 15; **Fort:** 16, **Ref:** 14, **Will:** 15   
-> **HP:** 45, **Staggered:** 22   
-> **Resist:**&nbsp;necrotic 5, **Vulnerable:**&nbsp;radiant 5   
-> *Blood Sweats Aura 4:* A living creature that ends its turn in the aura suffers 3 damage.  
->
-> ‡	**Claw** (standard, at-will)   
-> +8.0 vs AC; 1d12+4 damage.  
-> **Reformation**   
-> Keep track of all damage the desiccated husk does, including through its aura. If damage done ever exceeds 22, that desiccated husk is replaced by a bloody bones as an reaction action. Add 44 to the desiccated husk’s current HP to determine the bloody bones' current HP. A bloody bones created in this way only gives 150 XP total for being defeated.  
-
-
-> #### Bloody Bones  
->
-> **Level 3 Elite Wrecker** (300 XP)  
-> Medium Elemental Humanoid ● Undead (Evil)  
-> **Senses:** Perception +2, darkvision   
-> **Str:** 14 (+3), **Con:** 10 (+1), **Dex:** 12 (+2)
-> **Int:** 14 (+3), **Wis:** 13 (+2), **Cha:** 17 (+4)  
->
-> **Initiative:** +2; **Speed:** 6  
-> **Action Points:** 1  
-> **AC:** 15; **Fort:** 16, **Ref:** 14, **Will:** 15; **Saving Throws:** +2   
-> **HP:** 90, **Staggered:** 44   
-> **Resist:**&nbsp;necrotic 5, **Vulnerable:**&nbsp;radiant 5   
-> *Blood Sweats Aura 4:* A living creature that ends its turn in the aura suffers 3 damage.  
->
-> ‡	**Wicked Claw** (standard, at-will)   
-> +8.0 vs AC; 1d12+4 damage, and the target takes persistent 5 damage (save ends).  
-> **Slide Away** (counter, encounter)   
-> Shift 6.  
-
-*This creature appears as a skeletal humanoid with bits of muscle and sinew hanging from its body. Four long, sinewy tendrils writhe from its midsection. The entire creature constantly oozes a mixture of blood and mucus. Its eye sockets are hollow and show no pupils.*
-
-##### Special
-
-Heroes can either encounter a bloody bones after it emerges from a dessicated husk, or encounter the bloody bones in that form - if it has already achieved its reformation through feeding on the blood of other creatures before the heroes arrived on the scene.  
-
 # Ghouls  
 
 
@@ -2513,6 +2453,63 @@ Medium natural humanoid (aquatic, undead)
 
 Medium natural humanoid (aquatic, undead)
 **Speed** 6, swim 6  
+
+## Ichor-Ghouls  
+
+Hundreds of years ago, a secret organization in pursuit of power made the mistake of combining two powerful magical items: an *orb of chaos* and the mysterious *necrosis cube*. The result was the creation of the terrifying undead ichor-ghouls.
+
+Ichor-ghouls that go too long without feeding shrivel and become moribund. Their blood-drenched flesh dries, and they become desiccated husks. The husks' desperate and unquenched need for living energy drives them first to madness and then to near-mindlessness.
+
+Living creatures too near an ichor-ghoul start sweating blood and their skin becomes coated with a scarlet sheen. Blood flows towards the ichor-ghouls, which grow in strength as they absorb it.
+
+When one of the desiccated husks transforms into bloody bones, the husk’s dry skin cracks open and the bloody bones literally tear themselves out of their own body. The thing which emerges is a glistening mass of raw muscle, pulsing with thick veins of crimson-black blood. Its fang-like teeth glitter as its mouth parts in a ghastly, hissing smile.  
+
+
+> #### Desiccated Husk  
+>
+> **Level 3 Wrecker** (150 XP)  
+> Medium Elemental Humanoid ● Undead (Evil)  
+> **Senses:** Perception +1, darkvision   
+> **Str:** 14 (+3), **Con:** 10 (+1), **Dex:** 8 (+0)
+> **Int:** 14 (+3), **Wis:** 10 (+1), **Cha:** 17 (+4)  
+>
+> **Initiative:** +0; **Speed:** 4  
+> **AC:** 15; **Fort:** 16, **Ref:** 14, **Will:** 15   
+> **HP:** 45, **Staggered:** 22   
+> **Resist:**&nbsp;necrotic 5, **Vulnerable:**&nbsp;radiant 5   
+> *Blood Sweats Aura 4:* A living creature that ends its turn in the aura suffers 3 damage.  
+>
+> ‡	**Claw** (standard, at-will)   
+> +8.0 vs AC; 1d12+4 damage.  
+> **Reformation**   
+> Keep track of all damage the desiccated husk does, including through its aura. If damage done ever exceeds 22, that desiccated husk is replaced by a bloody bones as an reaction action. Add 44 to the desiccated husk’s current HP to determine the bloody bones' current HP. A bloody bones created in this way only gives 150 XP total for being defeated.  
+
+
+> #### Bloody Bones  
+>
+> **Level 3 Elite Wrecker** (300 XP)  
+> Medium Elemental Humanoid ● Undead (Evil)  
+> **Senses:** Perception +2, darkvision   
+> **Str:** 14 (+3), **Con:** 10 (+1), **Dex:** 12 (+2)
+> **Int:** 14 (+3), **Wis:** 13 (+2), **Cha:** 17 (+4)  
+>
+> **Initiative:** +2; **Speed:** 6  
+> **Action Points:** 1  
+> **AC:** 15; **Fort:** 16, **Ref:** 14, **Will:** 15; **Saving Throws:** +2   
+> **HP:** 90, **Staggered:** 44   
+> **Resist:**&nbsp;necrotic 5, **Vulnerable:**&nbsp;radiant 5   
+> *Blood Sweats Aura 4:* A living creature that ends its turn in the aura suffers 3 damage.  
+>
+> ‡	**Wicked Claw** (standard, at-will)   
+> +8.0 vs AC; 1d12+4 damage, and the target takes persistent 5 damage (save ends).  
+> **Slide Away** (counter, encounter)   
+> Shift 6.  
+
+*This creature appears as a skeletal humanoid with bits of muscle and sinew hanging from its body. Four long, sinewy tendrils writhe from its midsection. The entire creature constantly oozes a mixture of blood and mucus. Its eye sockets are hollow and show no pupils.*
+
+##### Special
+
+Heroes can either encounter a bloody bones after it emerges from a dessicated husk, or encounter the bloody bones in that form - if it has already achieved its reformation through feeding on the blood of other creatures before the heroes arrived on the scene.  
 
 # Giants  
 
@@ -6083,149 +6080,231 @@ Remove the *slow* feature.
 
 # Appendix: Monsters by Level  
 
-| Name                            | Level | Role                   |  
-| ------------------------------- | ----- | ---------------------- |  
-| Ill-Equipped Combatant          | 1     | Mook Striker           |  
-| Apefolk Legionnaire             | 1     | Blocker                |  
-| Bodyguard                       | 1     | Blocker                |  
-| Chain Brawler                   | 1     | Striker                |  
-| Demon Toad | 1 | Wrecker |  
-| Eagle                           | 1     | Striker                |  
-| Hopping Imp | 1 | Wrecker |  
-| Raven of Doom                   | 1     | Skulker               |  
-| Squirming Mound                 | 1     | Striker                |  
-| Warden                          | 1     | Striker                |  
-| Wicker Golem                    | 1     | Striker                |  
-| Apefolk Infantry                | 2     | Mook                   |  
-| Clubman                         | 2     | Mook Striker           |  
-| Apefolk Signifier               | 2     | Spoiler (Leader)       |  
-| Bone Chariot | 2 | Blocker |
-| Giant Tarantula                 | 2     | Wrecker                |  
-| Grenadier                       | 2     | Archer                 |  
-| Ostovite | 2 | Skulker |  
-| Rattlesnake Swarm               | 2     | Striker                |  
-| Siege Engineer                  | 2     | Archer                 |  
-| Smoldering Skeleton             | 2     | Archer                 |  
-| Sticky-Tongue Toad              | 2     | Wrecker                |  
-| Knifer                          | 3     | Mook Striker           |  
-| Apefolk Centurion               | 3     | Blocker (Leader)       |  
-| Daggermaster                    | 3     | Blocker                |  
-| Great Ape                       | 3     | Wrecker                |  
-| Infected Drone                  | 3     | Wrecker                |  
-| Scurvy Pirate                   | 3     | Blocker                |  
-| Shadow Bat Swarm                | 3     | Skulker               |  
-| Shadowblast Warlock             | 3     | Skulker               |  
-| Infected Animal                 | 3     | Wrecker                |  
-| Desiccated Husk | 3 | Wrecker |
-| Mega-Chariot | 3 | Blocker |  
-| Bloody Bones | 3 | Elite Wrecker |  
-| Blood-Drinker Hag               | 3     | Boss Spoiler           |  
-| Ostovite Swarm | 3 | Boss Spoiler |  
-| Shadow Drake                    | 3     | Boss Skulker          |  
-| Young Couatl                    | 3     | Boss Striker           |  
-| Gang Member                     | 4     | Mook Striker           |  
-| Snake Bearer                    | 4     | Mook                   |  
-| Infected Guard                  | 4     | Wrecker                |  
-| Phantom Cat                     | 4     | Striker                |  
-| Poison-Tongue Toad              | 4     | Archer                 |  
-| Ragged Tooth Shark              | 4     | Striker                |  
-| Wisent Bison                    | 4     | Wrecker                |  
-| Gang Leader                     | 4     | Elite Spoiler (Leader) |  
-| Umbral Mass                     | 4     | Elite Skulker         |  
-| Infected Grub                   | 5     | Striker Mook           |  
-| Repeater Crossbowman            | 5     | Mook Archer            |  
-| Apefolk Infiltrator             | 5     | Skulker               |  
-| Burner Demon | 5 | Wrecker |  
-| Cowled Assassin                 | 5     | Skulker               |  
-| Flying Head                     | 5     | Striker                |  
-| Hellhound | 5 | Wrecker |  
-| Repeater Crossbow Master        | 5     | Archer                 |  
-| Witchcrawler                    | 5     | Spoiler                |  
-| Dog-faced Baboon                | 5     | Elite Wrecker          |  
-| Scintillating Boa               | 5     | Elite Blocker          |  
-| Shadow Prince                   | 5     | Elite Spoiler          |  
-| The Minotaur                    | 5     | Elite Wrecker          |  
-| Ancient Hermit Crab             | 5     | Boss Blocker           |  
-| Wolfshead Bandit                | 6     | Mook Archer            |  
-| Deepfolk                        | 6     | Wrecker                |  
-| Enthralled Servant              | 6     | Blocker                |  
-| Failed Sacrifice                | 6     | Wrecker                |  
-| Hulk                            | 6     | Wrecker                |  
-| Quipper Swarm                   | 6     | Striker                |  
-| Sand Sentry | 6 | Skulker |  
-| Shapeshifter Slime - Human Form | 6     | Archer                 |  
-| Shapeshifter Slime - Slime Form | 6     | Skulker               |  
-| Specter of Chivalry             | 6     | Blocker                |  
-| Specter of Sorrow               | 6     | Spoiler                |  
-| Slaugh (Skeletal Revenant)      | 6     | Elite Wrecker          |  
-| Wolf-Goblin                     | 6     | Elite Striker          |  
-| Half-Aboleth                    | 6     | Boss Wrecker           |  
-| Vigilant Statue                 | 6     | Boss Blocker           |  
-| Sniper Bandit                   | 7     | Mook Striker           |  
-| Zombified Wyvern                | 7     | Wrecker                |  
-| King of Thieves                 | 7     | Elite Blocker (Leader) |  
-| Stygira | 7 | Elite Spoiler |
-| Longbowman                      | 8     | Mook Archer            |  
-| Aquatic Gargoyle                | 8     | Skulker               |  
-| Fire Magician                   | 8     | Archer                 |  
-| Infected Behemoth               | 8     | Wrecker                |  
-| Transformed Servant             | 8     | Blocker                |  
-| Greymalkin | 8 | Elite Striker |  
-| Adult Couatl                    | 8     | Boss Striker           |  
-| Jiang-Shi Scholar | 8 | Boss Striker |
-| Hezrou | 9 | Wrecker |  
-| Hungry Maw | 9 | Wrecker |  
-| Vulture Demon | 9 | Wrecker |  
-| Ogre Wretch                     | 9     | Mook                   |  
-| Insidious Assassin              | 9     | Skulker               |  
-| Bauble Beast | 9 | Elite Blocker |
-| The Emperor                     | 9     | Elite Archer           |  
-| Martial Artist                  | 10    | Mook Striker           |  
-| Pleisiosaur                     | 10    | Wrecker                |  
-| Burrower Wurm                   | 10    | Elite Striker          |  
-| Mercenary Lord                  | 10    | Elite Spoiler (Leader) |  
-| Tyrannosaur                     | 10    | Elite Striker          |  
-| Greater Wolf-Goblin             | 11    | Elite Striker          |  
-| Dark Knight                     | 11    | Boss Wrecker           |  
-| Jiang-Shi Magistrate | 11 | Boss Striker |
-| Armored Warmage                 | 12    | Wrecker                |  
-| Ice Hag                         | 12    | Elite Striker          |  
-| Master Assassin                 | 12    | Elite Skulker         |  
-| Skinner                         | 13    | Archer Mook            |  
-| Punk                            | 13    | Elite Wrecker          |  
-| Martial Arts Master             | 13    | Boss Blocker           |  
-| Ophiduan - Hominis Caste | 13 | Elite Spoiler (Leader) |  
-| Ophiduan - Semiferum Caste | 13 | Striker |  
-| Ophiduan - Anguineum Caste | 13 | Boss Spoiler |  
-| Blademaster                     | 14    | Mook Striker           |  
-| Chank                           | 14    | Archer                 |  
-| Greater Failed Sacrifice        | 14    | Wrecker                |  
-| Mother Screamer                 | 14    | Skulker (Leader)      |  
-| Berserker                       | 14    | Elite Striker          |  
-| Beast                           | 14    | Boss Striker           |  
-| Big Burner | 15 | Wrecker |  
-| Formidable Archer               | 15    | Archer                 |  
-| Widow                           | 15    | Spoiler (Leader)       |  
-| The Scorpion                    | 15    | Elite Archer           |  
-| Elder Couatl                    | 15    | Boss Striker           |  
-| The Awoken                      | 15    | Boss Striker           |  
-| The Tri-Pod                     | 15    | Boss Striker           |  
-| Scavenger Worm | 16 | Mook Blocker |  
-| Baby Screamer                   | 16    | Mook Archer            |  
-| Veteran Crossbowman             | 16    | Mook Archer            |  
-| Tunnel Brute | 16 | Wrecker |  
-| Archvillain                     | 16    | Elite Wrecker (Leader) |  
-| Phrenic Scourge | 16 | Elite Spoiler |  
-| Evil Eye | 16 | Boss Wrecker |  
-| Boar Demon | 19 | Wrecker |  
-| Frenzy Demon | 19 | Wrecker |  
-| Pincer Demon | 19 | Wrecker |  
-| Longshot Berserker              | 19    | Mook Striker           |  
-| Ancient Couatl                  | 22    | Boss Striker           |  
-| Laughing Demon | 25 | Wrecker |  
-| Balor | 29 | Wrecker |  
-| Marilith | 29 | Wrecker |  
-| Flying Head Swarm               | 29    | Elite Striker          |  
+| Name                            | Level | Role          |
+| ------------------------------- | ----- | ------------- |
+| Mitflit                         | 1     | Mook Striker  |
+| Ill-Equipped Combatant          | 1     | Mook Striker  |
+| Eagle                           | 1     | Striker       |
+| Raven of Doom                   | 1     | Skulker       |
+| Dog                             | 1     | Striker       |
+| Riding Horse                    | 1     | Wrecker       |
+| Wicker Golem                    | 1     | Striker       |
+| Squirming Mound                 | 1     | Striker       |
+| Scorpion Knight                 | 1     | Blocker       |
+| Demon Toad                      | 1     | Wrecker       |
+| Hopping Imp                     | 1     | Wrecker       |
+| Bodyguard                       | 1     | Blocker       |
+| Chain Brawler                   | 1     | Striker       |
+| Mancatcher                      | 1     | Striker       |
+| Legionary                       | 1     | Blocker       |
+| Skeleton Warrior                | 1     | Blocker       |
+| Flash Beetle                    | 1     | Spoiler       |
+| Iridescent Scorpion             | 1     | Striker       |
+| Small Fishing Spider            | 1     | Skulker       |
+| Small Hunting Spider            | 1     | Striker       |
+| Small Webbing Spider            | 1     | Skulker       |
+| Zombie                          | 1     | Blocker       |
+| Giant Amoeba                    | 1     | Elite Blocker |
+| Infantry                        | 2     | Mook Striker  |
+| Throach Hatchling               | 2     | Mook Striker  |
+| War Horse                       | 2     | Wrecker       |
+| Grenadier                       | 2     | Archer        |
+| Siege Engineer                  | 2     | Archer        |
+| Signifier                       | 2     | Spoiler       |
+| Grynloc Nomad                   | 2     | Spoiler       |
+| Bone Chariot                    | 2     | Blocker       |
+| Ostovite                        | 2     | Skulker       |
+| Smoldering Skeleton             | 2     | Archer        |
+| Giant Tarantula                 | 2     | Wrecker       |
+| Vermin Swarm                    | 2     | Striker       |
+| Throach                         | 2     | Elite Blocker |
+| Worm That Walks                 | 2     | Boss Spoiler  |
+| Mega-Chariot                    | 3     | Boss Blocker  |
+| Great Ape                       | 3     | Wrecker       |
+| Wolf                            | 3     | Striker       |
+| Small Earth Eleemntal           | 3     | Skulker       |
+| Small Water Elemental           | 3     | Spoiler       |
+| Desiccated Husk                 | 3     | Wrecker       |
+| Scurvy Pirate                   | 3     | Blocker       |
+| Shadowblast Warlock             | 3     | Skulker       |
+| Centurion                       | 3     | Blocker       |
+| Infected Animal                 | 3     | Wrecker       |
+| Infected Drone                  | 3     | Wrecker       |
+| Shadow Bat Swarm                | 3     | Skulker       |
+| Hate Reaper                     | 3     | Spoiler       |
+| Bloody Bones                    | 3     | Elite Wrecker |
+| Young Couatl                    | 3     | Boss Striker  |
+| Blood-Drinker Hag               | 3     | Boss Spoiler  |
+| Ostovite Swarm                  | 3     | Boss Spoiler  |
+| Shadow Drake                    | 3     | Boss Skulker  |
+| Gang Initiate                   | 4     | Mook Striker  |
+| Infected Guard                  | 4     | Wrecker       |
+| Bison                           | 4     | Wrecker       |
+| Giant Frog                      | 4     | Wrecker       |
+| Phantom Cat                     | 4     | Striker       |
+| Ragged Tooth Shark              | 4     | Striker       |
+| Boar                            | 4     | Wrecker       |
+| Small Fire Elemental            | 4     | Striker       |
+| Ettercap                        | 4     | Skulker       |
+| Medium Fishing Spider           | 4     | Skulker       |
+| Medium Hunting Spider           | 4     | Striker       |
+| Medium Webbing Spider           | 4     | Skulker       |
+| Gang Leader                     | 4     | Elite Spoiler |
+| Ghoul Worm                      | 4     | Elite Striker |
+| Umbral Mass                     | 4     | Elite Skulker |
+| Repeater Crossbowman            | 5     | Mook Archer   |
+| Infected Grub                   | 5     | Mook Striker  |
+| Small Air Elemental             | 5     | Spoiler       |
+| Burner Demon                    | 5     | Wrecker       |
+| Hellhound                       | 5     | Wrecker       |
+| Flying Head                     | 5     | Striker       |
+| Ghoul                           | 5     | Striker       |
+| Infiltrator                     | 5     | Skulker       |
+| Cowled Assassin                 | 5     | Skulker       |
+| Repeater Crossbow Master        | 5     | Archer        |
+| Peaceful Specter                | 5     | Skulker       |
+| Witchcrawler                    | 5     | Spoiler       |
+| Dog-faced Baboon                | 5     | Elite Wrecker |
+| Scintillating Boa               | 5     | Elite Blocker |
+| The Minotaur                    | 5     | Elite Wrecker |
+| Shadow Prince                   | 5     | Elite Spoiler |
+| Ancient Hermit Crab             | 5     | Boss Blocker  |
+| Wolfshead Bandit                | 6     | Mook Archer   |
+| Enthralled Servant              | 6     | Blocker       |
+| Quipper Swarm                   | 6     | Striker       |
+| Deepfolk Warrior                | 6     | Wrecker       |
+| Flay Devil                      | 6     | Striker       |
+| Fir Bolg Hunter                 | 6     | Striker       |
+| Hulk                            | 6     | Wrecker       |
+| Wolf Shifter                    | 6     | Striker       |
+| Shapeshifter Slime (Human Form) | 6     | Archer        |
+| Shapeshifter Slime (Slime Form) | 6     | Skulker       |
+| Failed Sacrifice                | 6     | Wrecker       |
+| Specter of Chivalry             | 6     | Blocker       |
+| Specter of Sorrow               | 6     | Spoiler       |
+| Large Vermin Swarm              | 6     | Striker       |
+| Barghest                        | 6     | Elite Striker |
+| Revenant Skeleton               | 6     | Elite Wrecker |
+| Half-Aboleth                    | 6     | Boss Wrecker  |
+| Vigilant Statue                 | 6     | Boss Blocker  |
+| Sniper Bandit                   | 7     | Mook Striker  |
+| Dire Wolf                       | 7     | Striker       |
+| Medium Earth Eleemntal          | 7     | Skulker       |
+| Medium Water Elemental          | 7     | Spoiler       |
+| Fir Bolg Archer                 | 7     | Archer        |
+| Zombified Wyvern                | 7     | Wrecker       |
+| King of Thieves                 | 7     | Elite Blocker |
+| Stygira                         | 7     | Elite Spoiler |
+| Longbowman                      | 8     | Mook Archer   |
+| Transformed Servant             | 8     | Blocker       |
+| Veteran Thrall                  | 8     | Wrecker       |
+| Devil Ape                       | 8     | Wrecker       |
+| Pegasus                         | 8     | Striker       |
+| Unicorn                         | 8     | Striker       |
+| Animate Collector               | 8     | Spoiler       |
+| Deepfolk Berserker              | 8     | Wrecker       |
+| Gargoyle                        | 8     | Skulker       |
+| Medium Fire Elemental           | 8     | Striker       |
+| Fir Bolg Shaman                 | 8     | Spoiler       |
+| Fire Magician                   | 8     | Archer        |
+| Infected Behemoth               | 8     | Wrecker       |
+| Bear Shifter                    | 8     | Wrecker       |
+| Raven Scout                     | 8     | Skulker       |
+| Large Fishing Spider            | 8     | Skulker       |
+| Large Hunting Spider            | 8     | Striker       |
+| Large Webbing Spider            | 8     | Skulker       |
+| Scavenger Worm                  | 8     | Blocker       |
+| Greymalkin                      | 8     | Elite Striker |
+| Adult Couatl                    | 8     | Boss Striker  |
+| Jiang-Shi Scholar               | 8     | Boss Striker  |
+| Medium Air Elemental            | 9     | Spoiler       |
+| Hezrou                          | 9     | Wrecker       |
+| Hungry Maw                      | 9     | Wrecker       |
+| Vulture Demon                   | 9     | Wrecker       |
+| Ghast                           | 9     | Striker       |
+| Insidious Assassin              | 9     | Skulker       |
+| The Emperor                     | 9     | Elite Archer  |
+| Bauble Beast                    | 9     | Elite Blocker |
+| Thrall Commander                | 10    | Blocker       |
+| Plesiosaur                     | 10    | Wrecker       |
+| Deepfolk Hydromancer            | 10    | Spoiler       |
+| Ogre                            | 10    | Wrecker       |
+| Elohim Sky Guardian             | 10    | Archer        |
+| Deathgaunt                      | 10    | Skulker       |
+| Tyrannosaur                     | 10    | Elite Striker |
+| Mercenary Lord                  | 10    | Elite Spoiler |
+| Burrower Worm                   | 10    | Elite Striker |
+| Worg                            | 11    | Striker       |
+| Large Earth Elemental           | 11    | Skulker       |
+| Large Water Elemental           | 11    | Spoiler       |
+| Rabbit Shaman                   | 11    | Spoiler       |
+| Greater Barghest                | 11    | Elite Striker |
+| Dark Knight                     | 11    | Boss Wrecker  |
+| Jiang-Shi Magistrate            | 11    | Boss Striker  |
+| Nightmare                       | 12    | Striker       |
+| Animate Guardian                | 12    | Blocker       |
+| Large Fire Elemental            | 12    | Striker       |
+| Hill Giant                      | 12    | Wrecker       |
+| Armored Warmage                 | 12    | Wrecker       |
+| Gloomwarden                     | 12    | Spoiler       |
+| Otyugh                          | 12    | Striker       |
+| Huge Fishing Spider             | 12    | Skulker       |
+| Huge Hunting Spider             | 12    | Striker       |
+| Huge Webbing Spider             | 12    | Skulker       |
+| Ice Hag                         | 12    | Elite Striker |
+| Master Assassin                 | 12    | Elite Skulker |
+| Skinner                         | 13    | Mook Archer   |
+| Elephant                        | 13    | Blocker       |
+| Large Air Elemental             | 13    | Spoiler       |
+| Semiferum Caste Ophiduan        | 13    | Striker       |
+| Jinushigami                     | 13    | Elite Spoiler |
+| Punk                            | 13    | Elite Wrecker |
+| Hominis Caste Ophiduan          | 13    | Elite Spoiler |
+| Anguineum Caste Ophiduan        | 13    | Boss Spoiler  |
+| Martial Arts Master             | 13    | Boss Blocker  |
+| Veteran Crossbowman             | 14    | Mook Archer   |
+| Veteran Swordsman               | 14    | Mook Striker  |
+| Chuul                           | 14    | Wrecker       |
+| Fire Giant                      | 14    | Spoiler       |
+| Fir Bolg Chieftain              | 14    | Blocker       |
+| Chank                           | 14    | Archer        |
+| Mother Screamer                 | 14    | Skulker       |
+| Greater Failed Sacrifice        | 14    | Wrecker       |
+| Cruel Lieutenant                | 14    | Elite Striker |
+| Beast                           | 14    | Boss Striker  |
+| Lamia                           | 15    | Spoiler       |
+| Big Burner                      | 15    | Wrecker       |
+| Mountain Demon                  | 15    | Skulker       |
+| Formidable Archer               | 15    | Archer        |
+| Widow                           | 15    | Spoiler       |
+| The Scorpion                    | 15    | Elite Archer  |
+| Elder Couatl                    | 15    | Boss Striker  |
+| The Tri-Pod                     | 15    | Boss Striker  |
+| The Awoken                      | 15    | Boss Striker  |
+| Baby Screamer                   | 16    | Mook Archer   |
+| Animate Battleform              | 16    | Blocker       |
+| Frost Giant                     | 16    | Wrecker       |
+| Tunnel Brute                    | 16    | Wrecker       |
+| Archvillain                     | 16    | Elite Wrecker |
+| Phrenic Scourge                 | 16    | Elite Spoiler |
+| Evil Eye                        | 16    | Boss Wrecker  |
+| Mammoth                         | 17    | Blocker       |
+| Flying Head Swarm               | 17    | Elite Striker |
+| Aboleth                         | 18    | Spoiler       |
+| Stone Giant                     | 18    | Wrecker       |
+| Lamia Superior                  | 19    | Spoiler       |
+| Boar Demon (Nalfeshnee)         | 19    | Wrecker       |
+| Frenzy Demon                    | 19    | Wrecker       |
+| Pincer Demon (Glabrezu)         | 19    | Wrecker       |
+| Storm Giant                     | 20    | Spoiler       |
+| Undying                         | 20    | Skulker       |
+| Marut                           | 21    | Blocker       |
+| Ancient Couatl                  | 22    | Boss Striker  |
+| Laughing Demon                  | 25    | Wrecker       |
+| Balor                           | 29    | Wrecker       |
+| Marilith                        | 29    | Wrecker       |
+| Abyssal Mummy                   | 35    | Mook Blocker  |
+| Orcus                           | 35    | Boss Spoiler  |
 
 # Threats
 
@@ -7393,4 +7472,4 @@ No items are declared as Product Identity.
 
 The terms of the Open Game License Version 1.0a and the relevant Section 15 entries are provided in a separate file.    
 
-Artworks are not Open Game Content unless otherwise mentioned. Full attribution and license for each artwork is available in the Artworks file.   w
+Artworks are not Open Game Content unless otherwise mentioned. Full attribution and license for each artwork is available in the Artworks file.
