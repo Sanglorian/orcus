@@ -7,10 +7,10 @@ navigation_weight: 0
 Version 0.6 (Beta)
 
 * [Rulebook](Orcus Rulebook - current.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Rulebook%20-%20current.pdf))
-* [Player Options](Orcus Player Options - current.md) (ancestries, skills, feats, equipment) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Player%20Options%20-%20current.pdf))
-* [Classes and Powers](Orcus Classes and Powers - current.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Classes%20and%20Powers%20-%20current.pdf))
-* [Monsters](Orcus Monsters - current.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Monsters%20-%20current.pdf))
-* [Advanced Options](Orcus Advanced Options - current.md) (poisons, diseases, bonds, incantations, magic items) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Advanced%20Options%20-%20current.pdf)))
+* [Player Options](Orcus Player Options - current.md) (ancestries, feats, deities) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Player%20Options%20-%20current.pdf))
+* [Classes and Powers](Orcus Classes and Powers - current.md) (classes, kits, disciplines, powers) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Classes%20and%20Powers%20-%20current.pdf)) 
+* [Monsters](Orcus Monsters - current.md) (templates, monster traits, monsters, threats, traps, afflictions and terrain) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Monsters%20-%20current.pdf))
+* [Advanced Options](Orcus Advanced Options - current.md) (advanced options, species, combat maneuvers, magic items, backgrounds, arts, extended challenges, bonds) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Advanced%20Options%20-%20current.pdf)))
 * Character sheet ([XLSX](https://github.com/Sanglorian/orcus/raw/main/Character%20Sheet.xlsx))
 * [Open Game License](Orcus - Open Game License.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20-%20Open%20Game%20License.pdf)) and [Artwork Credits](Orcus - Artworks.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20-%20Artworks.pdf))
 
