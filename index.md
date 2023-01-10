@@ -45,7 +45,7 @@ Orcus is a work in progress. All feedback is welcome.
 
 ## How to contribute
 
-Join the discussion on [RPGnet](https://forum.rpg.net/index.php?threads/4e-introducing-orcus-a-fourth-edition-retro-clone.878174/), [The Piazza](https://www.thepiazza.org.uk/bb/viewtopic.php?f=36&t=26561) or [GiantITP](https://forums.giantitp.com/showthread.php?628077-Introducing-Orcus-a-Fourth-Edition-retro-clone).
+Join the discussion on [RPGnet](https://forum.rpg.net/index.php?threads/4e-introducing-orcus-a-fourth-edition-retro-clone.878174/) (most active), [The Piazza](https://www.thepiazza.org.uk/bb/viewtopic.php?f=36&t=26561), [EN World](https://www.enworld.org/threads/introducing-orcus-a-4e-retroclone.685145/) or [GiantITP](https://forums.giantitp.com/showthread.php?628077-Introducing-Orcus-a-Fourth-Edition-retro-clone).
 
 Here's some of the things that would help Orcus grow: 
 
