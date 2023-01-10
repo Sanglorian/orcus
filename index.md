@@ -49,7 +49,6 @@ Join the discussion on [RPGnet](https://forum.rpg.net/index.php?threads/4e-intro
 
 Here's some of the things that would help Orcus grow: 
 
-* A way to generate Markdown or HTML from the Excel spreadsheets where most of the game information is held. Currently I use Mail Merge in Word, which is actually not too bad except that it truncates any entry over 256 characters, which I then have to manually paste in afterwards.
 * With a better way of outputting the material, there could also be better stylesheets for the Markdown/HTML - including columns, page numbers, better handling of images as priorities.
 * People contributing homebrew material - either stuff they've already written for other games or stuff that they write especially for Orcus.
 * Experienced players going through monsters, powers, etc., and tweaking the balance, even removing and replacing underwhelming powers.
