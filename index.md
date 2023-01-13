@@ -55,3 +55,10 @@ Here's some of the things that would help Orcus grow:
 * An En5ider-style ongoing crowdfunding campaign, creating new material every month that would get added back in to the Orcus database.
 * An Orcus character generator, perhaps using PCGen.
 * An Orcus online reference database.
+
+
+
+**Lulu:** 
+
+* https://www.lulu.com/shop/chris-sakkas/orcus-game-masters-guide/paperback/product-ezm4zw.html?page=1&pageSize=4 
+* https://www.lulu.com/shop/chris-sakkas/orcus-heroes-handbook/paperback/product-wdjdr4.html

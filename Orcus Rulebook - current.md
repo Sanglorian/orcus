@@ -2945,14 +2945,14 @@ The role is the function that the monster plays in combat. It determines defense
 *AC:* 12 + level.  
 *Fort:* 11 + level; *Ref:* 12 + level; *Will:* 12 + level.  
 *HP:* 21 + (4 * level) (double for Elite, quadruple for Boss)  
-*Attack:* +5 + level  
+*Attack:* +5 + level vs AC; +3 + level vs Fortitude, Reflex or Will 
 
 ### Blocker  
 
 *AC:* 16 + level.  
 *Fort:* 13 + level; *Ref:* 12 + level; *Will:* 12 + level.  
 *HP:* 24 + (5 * level) (double for Elite, quadruple for Boss)  
-*Attack:* +5 + level  
+*Attack:* +5 + level vs AC; +3 + level vs Fortitude, Reflex or Will   
 
 ### Skulker
 
@@ -2966,21 +2966,21 @@ The role is the function that the monster plays in combat. It determines defense
 *AC:* 14 + level.  
 *Fort:* 12 + level; *Ref:* 11 + level; *Will:* 13 + level.  
 *HP:* 24 + (5 * level) (double for Elite, quadruple for Boss)  
-*Attack:* +5 + level  
+*Attack:* +5 + level vs AC; +3 + level vs Fortitude, Reflex or Will   
 
 ### Striker  
 
 *AC:* 14 + level.  
 *Fort:* 11 + level; *Ref:* 13 + level; *Will:* 12 + level.  
 *HP:* 24 + (5 * level) (double for Elite, quadruple for Boss)  
-*Attack:* +5 + level  
+*Attack:* +5 + level vs AC; +3 + level vs Fortitude, Reflex or Will   
 
 ### Wrecker  
 
 *AC:* 12 + level.  
 *Fort:* 13 + level; *Ref:* 11 + level; *Will:* 12 + level.  
 *HP:* 27 + (6 * level) (double for Elite, quadruple for Boss)  
-*Attack:* +5 + level  
+*Attack:* +5 + level vs AC; +3 + level vs Fortitude, Reflex or Will   
 
 ## Senses  
 
