@@ -602,7 +602,7 @@ Ranged 10; +9 vs Reflex; 1d8+3 poison damage, and the target is blinded until th
 > **Str:** 12 (+4), **Con:** 16 (+6), **Dex:** 19 (+7)
 > **Int:** 1 (-2), **Wis:** 10 (+3), **Cha:** 12 (+4)  
 >
-> **Initiative:** +9; **Speed:** swim 6  
+> **Initiative:** +9; **Speed:** swim 6 (compress Tiny)  
 > **AC:** 20; **Fort:** 18, **Ref:** 20, **Will:** 16   
 > **HP:** 54, **Staggered:** 27   
 > **Resist:**&nbsp;Melee and Ranged attacks (half damage), **Vulnerable:**&nbsp;Near and Far attacks 10   
@@ -1256,7 +1256,7 @@ A squirming mound is made of worms, newts, frogs, millipedes and all manner of o
 > The worm that walks can move each spider-infested zone up to 3 squares.  
 > **Declaration Powers**   
 > At the end of its turn, the worm that walks can choose one of the following:  
-> *Collapse into swarm* (counter) The worm that walks is the target of Melee or Ranged attack: The worm that walks becomes a swarm. It gains the swarm tag and resistance 5 to damage from Melee and Ranged attacks. However, it gains weakness 5 to damage from Near and Far attacks. The worm that walks can leave swarm form as a swift action.   
+> *Collapse into swarm* (counter) The worm that walks is the target of Melee or Ranged attack: The worm that walks becomes a swarm. It gains the swarm tag, the compress Tiny special movement mode and resistance 5 to damage from Melee and Ranged attacks. However, it gains weakness 5 to damage from Near and Far attacks. The worm that walks can leave swarm form as a swift action.   
 > *Fast healing* (reaction) The worm that walks does not take fire or thunder damage before the start of its next turn: The worm that walks heals 5.  
 
 
@@ -1286,7 +1286,7 @@ A squirming mound is made of worms, newts, frogs, millipedes and all manner of o
 > +20 vs Fortitude; 2d10+6 necrotic damage and the target ages one year. The aging wears off at a rate of one year per month.  
 > **Declaration Powers**   
 > At the end of its turn, the lamia can choose one of the following:  
-> *Collapse into swarm* (counter) The lamia is the target of Melee or Ranged attack, or as a free action during its turn: The lamia becomes a swarm. It gains the swarm tag and resistance 10 to damage from Melee and Ranged attacks. However, it gains weakness 10 to damage from Near and Far attacks. A swarm can occupy the same space as other creatures. It can move through spaces as if it were a Tiny creature. The lamia can leave swarm form as a swift action.   
+> *Collapse into swarm* (counter) The lamia is the target of Melee or Ranged attack, or as a free action during its turn: The lamia becomes a swarm. It gains the swarm tag, the compress Tiny special movement mode and resistance 10 to damage from Melee and Ranged attacks. However, it gains weakness 10 to damage from Near and Far attacks. A swarm can occupy the same space as other creatures. The lamia can leave swarm form as a swift action.   
 > *Fast healing* (reaction) The lamia does not take fire or thunder damage before the start of its next turn: The lamia heals 10.  
 
 Lamias are scorpion, snake or lion-bodied centaurs with human upper bodies. They were once lycanthropes, but after they took control of a kingdom and ruled it with an iron fist Shehaan fixed them in hybrid form. Jealous of the shapeshifting they had lost, they used dark rituals to give themselves back the ability to transform - but the transformation is incomplete, and only allows them to turn into swarms of insects.  
@@ -1322,7 +1322,7 @@ Lamias recruit unwanted children, turning them into lycanthropes - their janissa
 > The lamia superior turns invisible until the end of its next turn.  
 > **Declaration Powers**   
 > At the end of its turn, the lamia can choose one of the following:  
-> *Collapse into swarm* (counter) The lamia is the target of Melee or Ranged attack, or as a free action during its turn: The lamia becomes a swarm. It gains the swarm tag and resistance 10 to damage from Melee and Ranged attacks. However, it gains weakness 10 to damage from Near and Far attacks. A swarm can occupy the same space as other creatures. It can move through spaces as if it were a Tiny creature. The lamia can leave swarm form as a swift action.   
+> *Collapse into swarm* (counter) The lamia is the target of Melee or Ranged attack, or as a free action during its turn: The lamia becomes a swarm. It gains the swarm tag, the compress Tiny special movement mode and resistance 10 to damage from Melee and Ranged attacks. However, it gains weakness 10 to damage from Near and Far attacks. A swarm can occupy the same space as other creatures. The lamia can leave swarm form as a swift action.   
 > *Fast healing* (reaction) The lamia does not take fire or thunder damage before the start of its next turn: The lamia heals 10.  
 
 # Deepfolk  
@@ -2380,7 +2380,7 @@ When not warring against rival demon princes, Orcus likes to travel the planes, 
 > **Str:** 26 (+16), **Con:** 22 (+14), **Dex:** 34 (+20)
 > **Int:** 7 (+6), **Wis:** 21 (+13), **Cha:** 18 (+12)  
 >
-> **Initiative:** +16; **Speed:** fly 10 (hover)  
+> **Initiative:** +16; **Speed:** fly 10 (compress Tiny, hover)  
 > **Action Points:** 1  
 > **AC:** 29; **Fort:** 26, **Ref:** 25, **Will:** 25; **Saving Throws:** +2   
 > **HP:** 178, **Staggered:** 89   
@@ -4728,7 +4728,7 @@ The mega-chariot gives no XP. The ostovite swarm must be defeated for the heroes
 > **Str:** 12 (+2), **Con:** 14 (+3), **Dex:** 16 (+4)
 > **Int:** 2 (-3), **Wis:** 12 (+2), **Cha:** 8 (+0)  
 >
-> **Initiative:** +4; **Speed:** 5  
+> **Initiative:** +4; **Speed:** 5 (compress Tiny)  
 > **AC:** 15; **Fort:** 13, **Ref:** 12, **Will:** 14   
 > **HP:** 78, **Staggered:** 39   
 > **Resist:**&nbsp;radiant 5   
@@ -4785,7 +4785,7 @@ The Plane of Shadow coexists alongside the Prime Material Plane, the world. It i
 > **Str:** 13 (+2), **Con:** 14 (+3), **Dex:** 18 (+5)
 > **Int:** 2 (-3), **Wis:** 13 (+2), **Cha:** 11 (+1)  
 >
-> **Initiative:** +9; **Speed:** 2, fly 8; clumsy in air  
+> **Initiative:** +9; **Speed:** 2, fly 8 (clumsy in air, compress Tiny)  
 > **AC:** 17; **Fort:** 15, **Ref:** 17, **Will:** 14   
 > **HP:** 33, **Staggered:** 16; see also *umbra healing*   
 > **Resist:**&nbsp;cold 5, necrotic 5, Melee and Ranged attacks (half damage), **Vulnerable:**&nbsp;radiant 5, Near and Far attacks 5   
@@ -5795,7 +5795,7 @@ No spider has access to all powers. Instead, they each get a selection, describe
 > **Str:** 11 (+1), **Con:** 12 (+2), **Dex:** 18 (+5)
 > **Int:** 2 (-3), **Wis:** 12 (+2), **Cha:** 10 (+1)  
 >
-> **Initiative:** +7; **Speed:** 6, climb 6  
+> **Initiative:** +7; **Speed:** 6, climb 6 (compress Tiny)  
 > **AC:** 16; **Fort:** 13, **Ref:** 16, **Will:** 13   
 > **HP:** 34, **Staggered:** 17   
 > **Resist:**&nbsp;Melee and Ranged attacks (half damage), **Vulnerable:**&nbsp;Near and Far attacks 5   
@@ -5805,7 +5805,7 @@ No spider has access to all powers. Instead, they each get a selection, describe
 > +7.0 vs AC; 1d10+2 damage, and the vermin swarm makes a secondary attack on the same target.  
 > *Secondary Attack:* +5 vs Fortitude; 1d10 poison damage.  
 > **Swarm**   
-> A swarm can occupy the same space as other creatures. It can move through spaces as if it were a Tiny creature.  
+> A swarm can occupy the same space as other creatures.   
 
 
 > #### Large Vermin Swarm  
@@ -5816,7 +5816,7 @@ No spider has access to all powers. Instead, they each get a selection, describe
 > **Str:** 11 (+3), **Con:** 12 (+4), **Dex:** 18 (+7)
 > **Int:** 2 (-1), **Wis:** 12 (+4), **Cha:** 10 (+3)  
 >
-> **Initiative:** +9; **Speed:** 6, climb 6  
+> **Initiative:** +9; **Speed:** 6, climb 6 (compress Tiny)  
 > **AC:** 20; **Fort:** 17, **Ref:** 20, **Will:** 17   
 > **HP:** 54, **Staggered:** 27   
 > **Resist:**&nbsp;Melee and Ranged attacks (half damage), **Vulnerable:**&nbsp;Near and Far attacks 5   
@@ -5826,7 +5826,7 @@ No spider has access to all powers. Instead, they each get a selection, describe
 > +11.0 vs AC; 2d10+2 damage, and the vermin swarm makes a secondary attack on the same target.  
 > *Secondary Attack:* +9 vs Fortitude; 1d10 poison damage.  
 > **Swarm**   
-> A swarm can occupy the same space as other creatures. It can move through spaces as if it were a Tiny creature.  
+> A swarm can occupy the same space as other creatures.  
 
 ## Webbing Spiders  
 

@@ -15,7 +15,7 @@ footer: ${pageNo}
 
 A character's ancestry reflects their upbringing before becoming an adventurer. This can be “nature” or “nurture,” or both. For example, one game of Orcus might have characters choose a species origin for their ancestry: dwarf, human, elf, and so on. See the Advanced Options section for more details on ancestries as species. 
 
-The default ancestry rules presented here assume that all characters are human, or that their genetic makeup matters less than other details about them. A player chooses two details for their character: their “crux” and their “heritage.” 
+The default ancestry rules presented here assume that all characters are human, or that their genetic makeup matters less than other details about them. A player chooses two details for their character: their **“crux”** and their **“heritage.”** 
 
 If the two halves of your ancestry give a bonus to the same skill, choose any other skill for the second bonus. 
 
@@ -226,7 +226,7 @@ A heritage is the culture and upbringing that a hero came from.
 
 ### Aristocrat  
 
-You are a blueblood, one of the finer class of people.   
+You are a patrician, and believe yourself to be one of a finer class of people.   
 
 * +2 Intimidate  
 * **Will Defense:** +1 ancestry bonus to Will defense.   
@@ -273,6 +273,12 @@ A feat represents a talent or an area of expertise that gives a character specia
 You can take each feat only once, unless the feat's description says otherwise.  
 
 You must meet any prerequisite specified in a feat to take that feat. If you ever lose a feat's prerequisite, you can't use that feat until you regain the prerequisite.   
+
+## Variant: Bonus Feats
+
+Some Game Masters give all characters the Keen Defenses feat and either the Weapon Focus or Focus Caster feats for free, because they are almost default choices from level 11 onwards. 
+
+## General Feats
 
 ### Alertness  
 **Benefit:** You get a +2 bonus on all Perception checks and you cannot be caught surprised.   
@@ -369,6 +375,14 @@ You can push back enemies when the situation becomes dire.
 **Prerequisite:** You have a familiar
 
 **Benefit:** When you call your familiar, it appears in an unoccupied space within 12 squares of you.
+
+### Focused Caster
+
+**Prerequisite:** Level 2
+
+**Benefit:** Choose one type of focus, like “wands” or “orbs”.  You gain a +1 feat bonus on all attack rolls you make using the selected focus, provided you are proficient with them. At level 11, this bonus increases to +2. At level 21, this bonus increases to +3.   
+
+**Special:** You can gain this feat multiple times. Its effects do not stack. Each time you take the feat, it applies to a new type of focus.  
 
 ### From the Deck
 
@@ -469,10 +483,6 @@ _Heavy:_ Str 15, proficient with light shields
 **Benefit:** Choose a type of shield you meet the prerequisites for (light or heavy). You are proficient with that type of shield.   
 
 **Special:** You can gain Shield Proficiency a second time to gain proficiency with heavy shields.  
-
-### Skill Critical  
-
-**Benefit:** If you roll a natural 20 with any skill or ability check, you gain a +3 bonus to the final result.  
 
 ### Skill Focus  
 **Prerequisite:** You must have at least one rank in the chosen skill

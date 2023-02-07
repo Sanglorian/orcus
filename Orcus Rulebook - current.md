@@ -23,13 +23,18 @@ Whenever you attempt an action that has some chance of failure, you roll a twent
 
 If the result equals or exceeds the target number, your character succeeds. If the result is lower than the target number, you fail.  
 
+This is typically called a roll or a check. Examples are:
+
+*  A roll to see if you hit an enemy (an attack roll).
+* A roll to see if you successfully jump a gap, trick a guard, survive in harsh conditions or tame an animal (all examples of skill checks).
+* A roll to see if you shake off a negative condition that is affecting you, like being dazed or slowed (a saving throw).
+* A roll to see if your brute strength prevails (an ability check).
+
 ## Dice  
 
 Dice rolls are described with expressions such as “3d4+3,” which means “roll three four-sided dice and add 3” (resulting in a number between 6 and 15). The first number tells you how many dice to roll (adding the results together). The number immediately after the “d” tells you the type of die to use. Any number after that indicates a quantity that is added or subtracted from the result.  
 
-### d%  
-
-Percentile dice work a little differently. You generate a number between 1 and 100 by rolling two different ten-sided dice. One (designated before you roll) is the tens digit. The other is the ones digit. Two 0s represent 100.  
+Orcus uses the following dice: d4s, d6s, d8s, d10s, d12s and d20s.
 
 ## Modifiers  
 
@@ -59,11 +64,11 @@ Note there are also “untyped” modifiers, which do not have a type specified.
 
 **Shield Bonus:** A shield bonus improves Armor Class and is granted by a shield or by a power or effect that mimics a shield.   
 
+**Trained Bonus:** A +5 bonus to skill checks, when you are proficient with the skill.
+
 ## Rounding Fractions  
 
-In general, if you wind up with a fraction, round down, even if the fraction is one-half or larger.  
-
-*Exception:* Certain rolls, such as damage, have a minimum of 1.  
+In general, if you wind up with a fraction, round down, even if the fraction is one-half or larger. Certain rolls, such as damage, have a minimum of 1.  
 
 # Abilities  
 
@@ -282,7 +287,7 @@ Add either your Wisdom modifier or your Charisma modifier (whichever is higher) 
 
 Your character can be assigned ability scores in various ways. Here are three ways.  
 
-These methods are done *before* ancestry bonuses are applied.   
+These methods are done **before** ancestry bonuses are applied.   
 
 ### Point Buy  
 
@@ -891,7 +896,9 @@ Some creatures have the ability to communicate telepathically. Unless otherwise 
 
 A character’s level, from 1 to 30, describes roughly how powerful they are. Player characters have levels, but so do monsters, traps, items, rituals, diseases, poisons, powers, and incantations. Everything with a level also belongs to a tier, which is a rough way of identifying the genre of play.   
 
-The table below shows how many experience points (XP) are required to reach a particular level, and what benefits (ability score increases, feats, and features) you get upon doing so.   
+The table below shows how many experience points (XP) are required to reach a particular level, and what benefits (ability score increases, feats, and features) you get upon doing so.  
+
+Characters double in power about every four levels.  
 
 ##### Table – Levels and Their Benefits
 
@@ -943,7 +950,7 @@ Characters have a level bonus equal to half their level, rounded down, which app
   
 ## Retraining  
 
-If you are unsatisfied with a feat, kit, power, or skill you chose, you may trade one old option for a new one each time you gain a level. One retraining per level, only.   
+If you are unsatisfied with a feat, kit, power, or skill you chose, **you may trade one old option for a new one** each time you gain a level. One retraining per level, only.   
 
 You cannot retrain a feat, power, or skill that serves as a requirement for any other character option you have.   
 
@@ -959,7 +966,7 @@ The one exception to this rule is feats; because you can meet the requirements f
 
 **Skill:** The new trained skill must be one you are eligible to take (typically, because it is a class skill). 
 
-### Replacing powers
+## Replacing powers
 
 At certain levels, you can replace an existing power of a lower level with a power of your current level. This is separate to, and in addition to, retraining. 
 
@@ -972,7 +979,7 @@ Adventures that take place with Adventurer tier monsters, traps, and player char
 The levels correspond to the tiers as follows:   
 
 *Level 1-10:* Adventurer tier  
-*Level 11-20* Prestige tier  
+*Level 11-20:* Prestige tier  
 *Level 21-30:* Epic tier  
 
 Tiers do not have a mechanical effect in and of themselves, but they represent a new stage in the player characters’ journeys. An epic character is much more capable than an adventurer character.   
@@ -1012,13 +1019,13 @@ A standard coin weighs about a third of an ounce, so fifty coins weigh a pound.
 
 Opportunities abound to find treasure, equipment, weapons, armor, and more in the dungeons you explore. Normally, you can sell your treasures and trinkets when you return to a town or other settlement, provided that you can find buyers and merchants interested in your loot.  
 
-**Arms, Armor, and Other Equipment:** As a general rule, undamaged weapons, armor, and other equipment fetch one-fifth their cost when sold in a market.  
+**Arms, armor, and other equipment:** As a general rule, undamaged weapons, armor, and other equipment fetch one-fifth their cost when sold in a market.  
 
-**Magic Items:** As a general rule, magic items fetch one-fifth their cost when sold in a market.  
+**Magic items:** As a general rule, magic items fetch one-fifth their cost when sold in a market.  
 
-**Gems, Jewelry, and Art Objects:** These items retain their full value in the marketplace, and you can either trade them in for coin or use them as currency for other transactions. For exceptionally valuable treasures, the GM might require you to find a buyer in a large town or larger community first.  
+**Gems, jewelry, and art objects:** These items retain their full value in the marketplace, and you can either trade them in for coin or use them as currency for other transactions. For exceptionally valuable treasures, the GM might require you to find a buyer in a large town or larger community first.  
 
-**Trade Goods:** On the borderlands, many people conduct transactions through barter. Like gems and art objects, trade goods – bars of iron, bags of salt, livestock, and so on – retain their full value in the market and can be used as currency.  
+**Trade goods:** On the borderlands, many people conduct transactions through barter. Like gems and art objects, trade goods – bars of iron, bags of salt, livestock, and so on – retain their full value in the market and can be used as currency.  
 
 <figure><img src="pics\LuigiCastellani_MERCHANT.png" alt="Merchant by Luigi Castellani" style="zoom: 33%;" /><figcaption>Merchant by Luigi Castellani</figcaption></figure>
 
@@ -1028,13 +1035,11 @@ Fantasy gaming worlds are a vast tapestry made up of many different cultures, ea
 
 The Armor table shows the cost, weight, and other properties of the common types of armor worn in fantasy gaming worlds.  
 
-**Armor Proficiency:** Anyone can put on a suit of armor or strap a shield to an arm. Only those proficient in the armor's use know how to wear it effectively, however. Your class gives you proficiency with certain types of armor. If you wear armor that you lack proficiency with, you suffer a -2 penalty to attack rolls and Reflex defense.   
+**Armor Proficiency:** Anyone can put on a suit of armor or strap a shield to an arm. Only those proficient in the armor's use know how to wear it effectively, however. Your class gives you proficiency with certain types of armor. If you wear armor you are not proficient with, you suffer a -2 penalty to attack rolls and Reflex defense.   
 
 **Armor Class (AC):** Armor protects its wearer from attacks. The armor (and shield) you wear determines your base Armor Class.  
 
-**Heavy Armor:** Heavier armor interferes with the wearer's ability to move quickly, stealthily, and freely. Do not add an ability modifier to your Armor Class while wearing heavy armor.   
-
-**Armor Check Penalty:** If the Armor table shows “ACP”, the wearer suffers that penalty to skills that identify that they come with an Armor Check Penalty.  
+**Armor Check Penalty:** The wearer suffers the listed penalty to skills that identify that they come with an Armor Check Penalty. 
 
 **Shields:** A shield is made from wood or metal and is carried in one hand.   
 
@@ -1043,6 +1048,8 @@ You can benefit from only one shield at a time.
 Light shields are strapped to your arm, you can still use your hand (for example, to hold things or climb, but not to wield a weapon). Heavy shields are strapped to your arm and held in your hand, so you cannot use your hand for anything else.   
 
 A shield's bonus applies to Armor Class and Reflex defenses.   
+
+**Speed Penalty:** The wearer's speed is reduced by the listed amount. If the wearer has multiple movement modes (for example, walk, swim and fly speeds), the penalty applies to each movement mode. 
 
 ### Light Armor  
 
@@ -1058,7 +1065,7 @@ Made from supple and thin materials, light armor favors agile adventurers since 
 
 Of all the armor categories, heavy armor offers the best protection. These suits of armor cover the entire body and are designed to stop a wide range of attacks. Only proficient warriors can manage their weight and bulk.  
 
-Heavy armor doesn't let you add your Intelligence or Dexterity modifier to your Armor Class.  
+Heavy armor does **not** let you add your Intelligence or Dexterity modifier to your Armor Class.  
 
 **Chain Mail:** Made of interlocking metal rings, chain mail includes a layer of quilted fabric worn underneath the mail to prevent chafing and to cushion the impact of blows.   
 
@@ -1068,19 +1075,19 @@ Heavy armor doesn't let you add your Intelligence or Dexterity modifier to your 
 
 ##### Table – Armor and Shields
 
-| Name          | Type  | Base AC | ACP  | Speed Penalty | Cost | Weight |
-| ------------- | ----- | ------- | ---- | ------------- | ---- | ------ |
-| Cloth armor   | Light | 10      |      |               | 1    | 4 lb.  |
-| Leather armor | Light | 12      |      |               | 25   | 15 lb. |
-| Hide armor    | Light | 13      | -1   |               | 30   | 25 lb. |
-| Chainmail     | Heavy | 16      | -1   | -1            | 40   | 40 lb. |
-| Scale armor   | Heavy | 17      |      | -1            | 45   | 45 lb. |
-| Plate armor   | Heavy | 18      | -2   | -1            | 50   | 50 lb. |
+| Name          | Type  | Base AC | Armor Check Penalty | Speed Penalty | Cost | Weight |
+| ------------- | ----- | ------- | ------------------- | ------------- | ---- | ------ |
+| Cloth armor   | Light | 10      |                     |               | 1    | 4 lb.  |
+| Leather armor | Light | 12      |                     |               | 25   | 15 lb. |
+| Hide armor    | Light | 13      | -1                  |               | 30   | 25 lb. |
+| Chainmail     | Heavy | 16      | -1                  | -1            | 40   | 40 lb. |
+| Scale armor   | Heavy | 17      |                     | -1            | 45   | 45 lb. |
+| Plate armor   | Heavy | 18      | -2                  | -1            | 50   | 50 lb. |
 
-| Name         | Type   | Shield Bonus | ACP  | Speed Penalty | Cost  | Weight |
-| ------------ | ------ | ------------ | ---- | ------------- | ----- | ------ |
-| Light shield | Shield | +1           |      |               | 5 gp  | 6 lb.  |
-| Heavy shield | Shield | +2           | -2   |               | 10 gp | 15 lb. |
+| Name         | Type   | Shield Bonus | Armor Check Penalty | Speed Penalty | Cost  | Weight |
+| ------------ | ------ | ------------ | ------------------- | ------------- | ----- | ------ |
+| Light shield | Shield | +1           |                     |               | 5 gp  | 6 lb.  |
+| Heavy shield | Shield | +2           | -2                  |               | 10 gp | 15 lb. |
 
 ## Weapons  
 
@@ -1089,6 +1096,8 @@ Your class grants proficiency in certain weapons, reflecting both the class's ap
 The Weapons table shows the most common weapons used in the fantasy gaming worlds, their price and weight, the damage they deal when they hit, and any special properties they possess.   
 
 Every weapon is classified as either melee or ranged. A **melee weapon** is typically used to attack a target in an adjacent square to you, whereas a **ranged weapon** is used to attack a target at a distance. Some melee weapons, called **thrown weapons**, can be used at a range. Other melee weapons, called **reach weapons**, are still held in the hands for an attack but can attack creatures further away than just adjacent squares.   
+
+By default, Strength is added to attack and damage rolls for melee weapon attacks and Dexterity to attack and damage rolls for ranged weapons.
 
 ### Weapon Proficiency  
 
@@ -1102,7 +1111,7 @@ Small characters have trouble wielding two-handed weapons. Small characters cann
 
 Medium characters who wield a one-handed weapon in two hands (other than one-handed weapons with the Side Weapon property) get a +1 bonus to damage.   
 
-### Variant: No Weapon Limitations for Small Characters  
+##### Variant: No Weapon Limitations for Small Characters  
 
 While officially Small characters are limited in which weapons they can use, this can be frustrating for players and is not very important for game balance. GMs may prefer to let Small characters use any weapon they like.   
 
@@ -1128,8 +1137,6 @@ Weapon group has no rules of its own, but other powers and features might depend
 ### Weapon Properties  
 
 Many weapons have special properties related to their use, as shown in the Weapons table.  
-
-**Execution #:** Reroll damage die results of # or lower. For example, if you roll 2d6 with an execution 1 weapon, reroll any d6s that come up 1 until they come up a different number.   
 
 **Improved Critical:** *Level 1:* +1dW damage on a critical hit. *Level 11:* +2dW damage on a critical hit. *Level 21:* +3dW damage on a critical hit.   
 
@@ -1163,16 +1170,6 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 An improvised weapon, including an unarmed strike, does 1d4 damage (one-handed) or 1d8 damage (two-handed), with no proficiency bonus on the attack.   
 
-### Exotic Weapons  
-
-Only a small number of special exotic weapons are presented here.   
-
-**Garrote:** A simple wire, when used properly, can disable or kill an opponent in seconds.   
-
-*Requirement:* You can only use a garrote against a target granting you combat advantage which is not aware of you. You can only use the garrote with a melee basic attack or specific powers which utilize the garrote.  
-
-*Property:* When you hit with a garrote, you grapple the target. The target cannot speak while grappled. The target is dazed while the grapple is in effect. The target also suffers a -2 penalty to escape attempts.  
-
 ### Designing Your Own Weapons  
 
 Only a small selection of weapons are presented.    
@@ -1181,15 +1178,14 @@ However, you can design your own melee weapons by selecting one of the generic o
 
 Certain weapons get an additional property or benefit based on their Group (if [group] is written under Properties):   
 
-* **Maces and Clubs; Spears and Lances; Staffs:** Weapon die increases by one (see Increased Weapon Die table below).   
+* **Axes; Maces and Clubs; Spears and Lances; Staffs:** Weapon die increases by one (see Increased Weapon Die table below).   
 * **Light Blades; Heavy Blades:** Proficiency bonus increases by +1.  
-* **Axes:** Execution 1.  
 * **Picks and Hammers; Flails and Chains:** Improved Critical.   
 * **Polearm:** Reach 1.
 
 You can design an exotic melee weapon by taking a martial weapon and adding another Group to it, along with the Group-based benefit or property listed above. 
 
-For example, a khopesh could be a one-handed weapon in the Heavy Blades and Axes Groups, making it a proficiency +3, damage 1d8, Execution 1 weapon. A kukri could be a side weapon in the Light Blades and Heavy Blades Groups, making it a proficiency +4, damage 1d6 weapon.   
+For example, a khopesh could be a one-handed weapon in the Heavy Blades and Axes Groups, making it a proficiency +3, damage 1d10 weapon. A kukri could be a side weapon in the Light Blades and Heavy Blades Groups, making it a proficiency +4, damage 1d6 weapon.   
 
 You can design an exotic ranged weapon by taking a martial weapon and increasing either its proficiency bonus by +1 or its damage die by one step.   
 
@@ -1199,7 +1195,7 @@ You can design an exotic ranged weapon by taking a martial weapon and increasing
 | ----------- | ------------ |
 | 1d4         | 1d6          |
 | 1d6         | 1d8          |
-| 1d8         | 2d4 or 1d10  |
+| 1d8         | 1d10         |
 | 2d4 or 1d10 | 2d6 or 1d12  |
 
 **Example Weapons:**
@@ -1225,6 +1221,16 @@ You can design an exotic ranged weapon by taking a martial weapon and increasing
 **Exotic two-handed weapon:** Dwarven urgrosh (axe, spear), gnome hooked hammer (mace, pick), orc double-axe (axe, heavy blade), two-bladed sword (light blade, heavy blade)
 
 **Exotic reach weapon:** Spiked chain (light blade, flail)
+
+### Special Weapons  
+
+The exotic weapon category is a good place for weapons that do not follow the normal weapon creation rules. The garrote is given as an example.  
+
+**Garrote:** A simple wire, when used properly, can disable or kill an opponent in seconds.   
+
+*Requirement:* You can only use a garrote against a target granting you combat advantage which is not aware of you. You can only use the garrote with a melee basic attack or specific powers which utilize the garrote.  
+
+*Property:* When you hit with a garrote, you grapple the target. The target cannot speak while grappled. The target is dazed while the grapple is in effect. The target also suffers a -2 penalty to escape attempts.  
 
 ##### Table – Weapon Templates
 
@@ -1255,9 +1261,13 @@ You can design an exotic ranged weapon by taking a martial weapon and increasing
 
 ##### Table – Exotic Weapons
 
-| Name    | Range | Type   | Hand | Proficiency Bonus | Damage (dW) | Range | Cost (gp) | Weight (lb) | Buffs             | Group   |
-| ------- | ----- | ------ | ---- | ----------------- | ----------- | ----- | --------- | ----------- | ----------------- | ------- |
-| Garrote | Melee | Exotic | 1    | +2                | 1d4         |       | 1         | 0           | Special (Garrote) | Special |
+| Name    | Range | Type   | Hand | Proficiency Bonus | Damage (dW) |  Cost (gp) | Weight (lb) | Buffs             | Group   |
+| ------- | ----- | ------ | ---- | -----------------  | ----- | --------- | ----------- | ----------------- | ------- |
+| Exotic side weapon       | Melee | Exotic | 1    | +2                | 1d6         | 25         | 1           | 5/10  | Side Weapon, Thrown (Heavy), [two groups] |
+| Exotic one-handed weapon | Melee | Exotic | 1    | +2                | 1d8         | 50        | 4           |       | [two groups]                     |
+| Exotic two-handed weapon | Melee | Exotic | 2    | +2                | 1d10        | 125        | 8           |       | [two groups]                         |
+| Exotic reach weapon | Melee | Exotic | 2    | +2                | 1d8         | 125        | 8           |       | Polearm (Reach 1), [two groups] |
+| Garrote | Melee | Exotic | 2    | +3                | 1d4           | 1         | 0           | Special (Garrote) | Special |
 
 ## Focuses  
 
@@ -1269,11 +1279,11 @@ You get no benefit from using a focus unless you are proficient with it.
 
 A quarterstaff can be used as both an arcane focus and a weapon. A quarterstaff can be held in one hand when being used as a focus. A quarterstaff can either be enchanted as a focus or as a weapon, or separately as a weapon and as a focus -- in which case it costs as much as each item would separately, put together.   
 
-Unless otherwise mentioned, arcane focuses require a hand to use.  
+Unless otherwise mentioned, an arcane focus requires a hand to use.  
 
 **Druidic Focus:** A druidic focus might be a sprig of mistletoe or holly, a wand or scepter made of yew or another special wood, a staff drawn whole out of a living tree, or an object incorporating feathers, fur, bones, and teeth from sacred animals.  
 
-Unless otherwise mentioned, druidic focuses require a hand to use.  
+Unless otherwise mentioned, a druidic focus requires a hand to use.  
 
 **Holy Symbol:** A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic.  
 
@@ -1287,11 +1297,13 @@ Unless otherwise mentioned, a martial focus does not require a hand to use. It i
 
 This section describes items that have special rules or require further explanation.  
 
-**Climber's Kit:** A climber's kit includes a grappling hook, a small hammer and 10 pitons. Gain a +2 bonus on Athletics checks to climb when you use a climber's kit.   
+**Climber's kit:** A climber's kit includes a grappling hook, a small hammer and 10 pitons. Gain a +2 bonus on Athletics checks to climb when you use a climber's kit.   
 
 **Candle:** Illuminates a 2-square radius with dim light. Burns for one hour.   
 
-**Dungeoneer's Pack (15 gp):** Includes a backpack, a bedroll, a flint and steel, a belt pouch, 10 days of rations, a waterskin and two sunrods. The pack also has 50 feet of hempen rope strapped to the side of it. The total weight of the pack is 30.5 lbs.
+**Dungeoneer's pack (15 gp):** Includes a backpack, a bedroll, a flint and steel, a belt pouch, 10 days of rations, a waterskin and two sunrods. The pack also has 50 feet of hempen rope strapped to the side of it. The total weight of the pack is 30.5 lbs.
+
+**Everburning torch:** This otherwise normal torch has a *continual flame* incantation cast upon it. Casts bright light in a 5-square radius.   
 
 **Lantern:** Burns for 8 hours per pint of oil and casts bright light in a 10-square radius.   
 
@@ -1305,8 +1317,6 @@ This section describes items that have special rules or require further explanat
 
 **Torch:** A torch burns for 1 hour, providing bright light in a 5-square radius.  
 
-**Torch, Everburning:** This otherwise normal torch has a *continual flame* incantation cast upon it. Casts bright light in a 5-square radius.   
-
 **Thieves' tools:** This kit contains the tools you need to disable traps and open locks, and gives you a +2 bonus on Thievery checks to do so.   
 
 **Waybread:** 10 days' worth of food in a light but expensive form. Impractically wrapped in flaky leaves.   
@@ -1319,18 +1329,22 @@ This section describes items that have special rules or require further explanat
 | Crossbow bolts (20) | 1 gp | 2 lb.  |
 | Sling bullets (20)  | 1 gp | 5 lb.  |
 
+
+
 ##### Table – Focuses
 
-| Item                 | Cost  | Weight |
-| -------------------- | ----- | ------ |
-| Holy symbol          | 10 gp | 1 lb.  |
-| Druidic focus        | 5 gp  | 2 lb.  |
-| Orb (arcane focus)   | 15 gp | 2 lb.  |
-| Rod (arcane focus)   | 12 gp | 2 lb.  |
-| Staff (arcane focus) | 5 gp  | 4 lb.  |
-| Wand (arcane focus)  | 7 gp  | -      |
-| Book (arcane focus)  | 7 gp  | 1 lb.  |
-| Martial focus        | 5 gp  | 1 lb.  |
+| Item                | Cost  | Weight |
+| ------------------- | ----- | ------ |
+| Arcane focus: Book  | 10 gp | 1 lb.  |
+| Arcane focus: Orb   | 10 gp | 1 lb.  |
+| Arcane focus: Rod   | 10 gp | 1 lb.  |
+| Arcane focus: Staff | 5 gp  | 4 lb.  |
+| Arcane focus: Wand  | 10 gp | 1 lb.  |
+| Druidic focus       | 5 gp  | 1 lb.  |
+| Holy symbol         | 10 gp | 1 lb.  |
+| Martial focus       | 10 gp | 1 lb.  |
+
+
 
 ##### Table – Adventuring Gear
 
@@ -1338,30 +1352,30 @@ This section describes items that have special rules or require further explanat
 | ---------------------- | ----- | ------------ |
 | Backpack               | 2 gp  | 2 lb.        |
 | Bedroll                | 1 sp  | 5 lb.        |
-| Flint and steel        | 1 gp  | -            |
 | Candle                 | 1 cp  | -            |
 | Chain (10 feet)        | 30 gp | 2 lb.        |
 | Chest                  | 2 gp  | 25 lb.       |
-| Climber's kit          | 2 gp  | 11 lb.       |
+| Climber’s kit          | 2 gp  | 11 lb.       |
+| Everburning torch      | 50 gp | 1 lb.        |
 | Flask                  | 3 cp  | 1 lb.        |
+| Flint and steel        | 1 gp  | -            |
+| Good clothes           | 30 gp | 6 lb.        |
 | Grappling hook         | 1 gp  | 4 lb.        |
 | Hammer                 | 5 sp  | 2 lb.        |
 | Lantern                | 10 gp | 2 lb.        |
 | Oil (flask)            | 1 sp  | 1 lb.        |
-| Piton                  | 1 sp  | 1/2 lb.      |
+| Piton                  | 1 sp  | 0.5 lb.      |
 | Pole (10-foot)         | 5 cp  | 7 lb.        |
-| Pouch                  | 1 gp  | 1/2 lb.      |
+| Pouch                  | 1 gp  | 0.5 lb.      |
 | Rations (10 days)      | 5 gp  | 10 lb.       |
-| Good clothes           | 30 gp | 6 lb.        |
 | Rope, hempen (50 feet) | 1 gp  | 10 lb.       |
 | Rope, silk (50 feet)   | 10 gp | 5 lb.        |
 | Spellbook              | 50 gp | 3 lb.        |
+| Sunrod                 | 4 gp  | 2 lb.        |
 | Tent, two-person       | 10 gp | 20 lb.       |
+| Thieves’ tools         | 20 gp | 1 lb.        |
 | Torch                  | 1 cp  | 1 lb.        |
 | Waterskin              | 1 gp  | 4 lb. (full) |
-| Sunrod                 | 4 gp  | 2 lb.        |
-| Everburning torch      | 50 gp | 1 lb.        |
-| Thieves' tools         | 20 gp | 1 lb.        |
 | Waybread (10 days)     | 50 gp | 1 lb.        |
 
 ## Mounts and Vehicles  
@@ -1377,6 +1391,8 @@ More rules for mounts and vehicles appear in the Advanced Options chapter.
 | Riding horse | 360 gp |
 | War horse    | 520 gp |
 
+
+
 ##### Table – Vehicles
 
 | Item    | Cost   | Carrying Capacity |
@@ -1388,11 +1404,13 @@ More rules for mounts and vehicles appear in the Advanced Options chapter.
 
 A power is something that your character can do, typically quickly (fast enough to be useful in battle) and with clear rules and effects.  
 
-## Roleplaying Your Powers
+## Power Description  
 
-Since this is a role-playing game, you are not limited by your powers. Anything your character could do, they can attempt to do – even if there are no rules for it. And even if you have a power that says you can do something, the GM may rule that you cannot because it does not fit the fiction.  
+When a character uses a power, the same basic rules are followed, regardless of the character’s class or the power’s effects.  
 
-Overall, however, powers work the way the rules say they should work almost all of the time.   
+Each power description begins with a block of information, including the power’s name, category, source, level, tags, frequency, action required, attack range and targets, and duration.   
+
+The rest of a power entry describes the power’s effects.  
 
 ## Power Category 
 There are two categories of power:  
@@ -1401,9 +1419,9 @@ There are two categories of power:
 - Utility  
   
 
-An attack power is directed against one or more targets, typically enemies (although you can catch allies in friendly fire in some cases). It usually involves an attack roll which, if it hits, has some kind of negative effect on the target. Some powers also have effects when they miss, or regardless of whether they hit or miss.   
+An **attack power** is directed against one or more targets, typically enemies (although you can catch allies in friendly fire in some cases). It usually involves an attack roll which, if it hits, has some kind of negative effect on the target. Some powers also have effects when they miss, or regardless of whether they hit or miss.   
 
-A utility power may affect you, an ally, the environment, etc., but typically not an enemy. They can still serve a function in combat, however.   
+A **utility power** may affect you, an ally, the environment, etc., but typically not an enemy. They can still serve a function in combat, however.   
 
 ## Power Frequency
 
@@ -1417,20 +1435,12 @@ There are three frequencies of power:
 
 Most powers belong to a tradition. There are currently five traditions: Arcane, Divine, Martial, Spirit and Phrenic. See the Classes chapter for a description of each tradition.    
 
-## Power Description  
-
-When a character uses a power, the same basic rules are followed, regardless of the character’s class or the power’s effects.  
-
-Each power description begins with a block of information, including the power’s name, category, source, level, tags, frequency, action required, attack range and targets, and duration.   
-
-The rest of a power entry describes the power’s effects.  
-
 ## Action Required  
 
 Most powers require a standard action to use, but some powers require a move action, swift action, immediate action, or other. Some only require a free action.   
 
 Most powers require a standard action to use, but some powers require a move action, swift action, immediate action, or other. Some only require a free action. 
-Some powers have a “Trigger” listed. You can only use the power if the trigger is satisfied, although you do not have to use the power just because you are able to do so. If the power is a counter, the effects of a power that requires a trigger commence before the trigger is resolved, and may prevent the trigger from taking place. If the power is a reaction or free action, the effects of the power that requires a trigger commence after the trigger is fully resolved. 
+Some powers have a “**Trigger**” listed. You can only use such powers if the trigger is satisfied, although you do not have to use the power just because you are able to do so. If the power is a counter, the effects of a power that requires a trigger commence before the trigger is resolved, and may prevent the trigger from taking place. If the power is a reaction or free action, the effects of the power that requires a trigger commence after the trigger is fully resolved. 
 
 For example, if you have a counter power with the Trigger “You take damage” or “You would take damage,” the effects of the power take place before the damage, and may prevent the damage from taking place (if the power gives you resistance or allows you to move away, for example). If you have a reaction power with the same Trigger and effect, the effects of the power take place after you take damage; they cannot stop you from taking that damage. 
 
@@ -1504,14 +1514,13 @@ Unless otherwise mentioned, area of effect powers target all creatures in the ar
 
 Other example targets are: 
 
-* **nearest ally:** the nearest ally in the area of effect  
-* **nearest enemy:** the nearest enemy in the area of effect  
-* **all enemies:** only enemies in the area of effect  
-* **all allies:** only allies in the area of effect  
-* **one ally:** one ally in the area of effect of the user's choice
-* **one enemy:** one enemy in the area of effect of the user's choice
-* **any:** one or more targets of the user’s choice in the area of effect.   
-  
+* **Nearest ally:** the nearest ally in the area of effect  
+* **Nearest enemy:** the nearest enemy in the area of effect  
+* **All enemies:** only enemies in the area of effect  
+* **All allies:** only allies in the area of effect  
+* **One ally:** one ally in the area of effect of the user's choice
+* **One enemy:** one enemy in the area of effect of the user's choice
+* **Any:** one or more targets of the user’s choice in the area of effect.   
 
 **Allies and Enemies:** You choose who your allies are when you use a power. Your enemies are any creatures you do not choose as your allies. A creature can choose to not count as your ally for the purposes of a power.   
 
@@ -1562,7 +1571,7 @@ If a power has a “Secondary Attack” listed, the user of the power can make a
 
 Secondary attacks use the same keywords, attack, defense and range as the original attack, unless otherwise specified. 
 
-## “dW”  
+## Weapon Dice (“dW”)  
 The term “dW” refers to weapon dice. Every weapon has a given damage die. Roll that die as many times as specified, and add up the results. For example, if you use a power with a longsword (weapon die: 1d10), and the Hit effect is “3dW damage” that means you do 3d10 damage. If it is “3dW + Strength modifier damage” and your Strength modifier is +2, you roll three d10s, add them up and then add 2.   
 
 Rarely, a weapon will have multiple damage dice, for example 2d4 or 2d6. Multiply these by the number of dW to get the final dice total. For example, a 3dW attack used with a weapon that does 2d6 damage does 6d6 damage. 
@@ -1591,10 +1600,6 @@ If a power must be maintained with concentration, that fact appears in a Maintai
 You can maintain any number of powers, provided you have the actions to do so.  
 
 You cannot maintain a power that has ended. The one exception is a power that naturally ended at the start of your turn. If a power like this has a Maintain option, it represents restarting the power. 
-
-## Boost  
-
-If a power has a “Boost” entry, then the power can be chosen as a higher-level power. If so, it has the improved effect. Treat it as a power of a higher level for all purposes. 
 
 ## Keywords  
 
@@ -1667,9 +1672,21 @@ A zone is an area of effect that remains for a while, created by a power with th
 
 A zone disappears if its creator is killed.   
 
+## Boost  
+
+If a power has a “Boost” entry, then the power can be chosen as a higher-level power. If so, it has the improved effect. Treat it as a power of a higher level for all purposes. 
+
+## Roleplaying Your Powers
+
+Since this is a role-playing game, you are not limited by your powers. Anything your character could do, they can attempt to do – even if there are no rules for it. And even if you have a power that says you can do something, the GM may rule that you cannot because it does not fit the fiction.  
+
+Overall, however, powers work the way the rules say they should work almost all of the time.   
+
 # Combat  
 
-A typical combat encounter is a clash between two sides, a flurry of weapon swings, feints, parries, footwork, and spellcasting. The game organizes the chaos of combat into a cycle of rounds and turns. A **round** represents about 6 seconds in the game world. During a round, each participant in a battle takes a **turn**. The order of turns is determined at the beginning of a combat encounter, when everyone rolls initiative. Once everyone has taken a turn, the fight continues to the next round if neither side has defeated the other.  
+A typical combat encounter is a clash between two sides, a flurry of weapon swings, feints, parries, footwork, and spellcasting. The game organizes the chaos of combat into a cycle of rounds and turns. 
+
+A **round** represents about 6 seconds in the game world. During a round, each participant takes a **turn**. The order of turns is determined at the beginning of a combat encounter, when everyone rolls initiative. Once everyone has taken a turn, the fight continues to the next round if neither side has defeated the other.  
 
 ## Combat Step by Step  
 1. **Determine surprise.** The GM determines whether anyone involved in the combat encounter is surprised.  
@@ -1913,15 +1930,13 @@ When you have a weapon in each hand, you choose which one to use for each attack
 
 See Introduction to Powers for more.   
 
-## Unseen Attackers and Targets  
+## Cover and Concealment 
 
-Combatants often try to escape their foes’ notice by hiding, turning invisible, or lurking in darkness.  
-
-When you attack a target that you can’t fully see, they have cover or concealment.  
+Either sheltering behind a physical barrier (cover) or hiding from view (concealment) can protect a creature from attack. Cover and concealment stack; a creature can benefit from both.  
 
 ### Cover  
 
-Walls, trees, creatures, and other obstacles can provide cover during combat, making a target more difficult to harm. A target can benefit from cover only when an attack or other effect originates on the opposite side of the cover.  
+A target has cover when they are partly protected by a barrier. Commonly this is caused by walls, trees, creatures, and other obstacles. 
 
 There are two degrees of cover. If a target is behind multiple sources of cover, only the most protective degree of cover applies; the degrees aren’t added together. For example, if a target is behind a creature that gives half cover and a tree trunk that gives three-quarters cover, the target has three-quarters cover.  
 
@@ -1931,7 +1946,7 @@ A target with **three-quarters cover** gives a -5 penalty to attack rolls. A tar
 
 ### Concealment  
 
-A target has concealment when some kind of terrain or other effect prevents you from seeing or otherwise perceiving your target clearly. Commonly this is caused by lighting conditions or soft cover such as leaves or fog.   
+A target has concealment when you are prevented from seeing or otherwise perceiving them clearly. Commonly this is caused by dim light or darkness, or soft barriers like leaves or fog. 
 
 Like cover, concealment comes in two levels: **Concealment** (-2 penalty to attack rolls) and **total concealment** (-5 penalty to attack rolls).  
 
@@ -1953,7 +1968,7 @@ Injury and the risk of death are constant companions of those who explore fantas
 
 Hit points represent a combination of physical and mental durability, the will to live, and luck. Creatures with more hit points are more difficult to kill. Those with fewer hit points are more fragile.  
 
-A creature’s **current hit points** (usually just called **hit points**) can be any number from the creature’s hit point maximum down to 0. This number changes frequently as a creature takes damage or receives healing.  
+A creature’s **current hit points** (usually just called **hit points**) can be any number from the creature’s hit point maximum down to 0, or even negative values. This number changes frequently as a creature takes damage or receives healing.  
 
 Whenever a creature takes damage, that damage is subtracted from its hit points. The loss of hit points has no effect on a creature’s capabilities until the creature drops to 0 hit points or below. You can have negative hit points if damage would take you below 0 HP.   
 
@@ -2028,7 +2043,7 @@ For example, if you have a speed of 6 and a fly speed of 12 because a wizard cas
 
 Some creatures have one or more of the following additional movement modes.  
 
-**Compress** means that the monster can travel through spaces as if it were one size smaller without squeezing, or as if it were two sizes smaller while squeezing.  
+**Compress X** means that the monster can travel through spaces as if it were a creature of that size. For example, a Large creature with compress Medium can pass through a five-foot passageway without needing to take the Squeeze action.
 
 ### Burrow  
 
@@ -2062,7 +2077,7 @@ A monster that has a swim speed doesn’t need to spend extra movement to swim.
 
 A monster with phasing can move through difficult terrain, obstacles (like walls) and creatures (including enemies) without penalty.   
 
-### Terrain stride  
+### Terrain Stride  
 
 Terrain stride describes a set of traits, each of which allows the monster to ignore difficult terrain in some conditions:   
 
@@ -2085,9 +2100,7 @@ Low furniture, rubble, undergrowth, steep stairs, snow, and shallow bogs are exa
 
 Combatants often find themselves lying on the ground, either because they are knocked down or because they throw themselves down. In the game, they are prone, as described in the conditions section.  
 
-You can **Drop Prone** as a free action. **Stand Up from Prone** is a move action.  
-
-To move while prone, you must **Crawl** or use magic such as teleportation (you remain prone after teleporting, but at least you move). Every foot of movement while crawling costs 1 extra square, and you provoke opportunity attacks while crawling.   
+You can Drop Prone as a free action. Stand Up from Prone is a move action.  
 
 ## Moving Around Other Creatures  
 
@@ -2306,6 +2319,8 @@ You provoke opportunity attacks as you would with normal movement.
 
 While squeezing, you grant combat advantage and suffer a -5 penalty to attacks.   
 
+A creature with the compress special movement behaves as a smaller size for the purpose of squeezing (and whether it needs to squeeze in the first place).
+
 ### Total Defense (standard action)  
 
 You can defend yourself as a standard action. When you take the Total Defense standard action, you focus entirely on avoiding attacks.   
@@ -2381,13 +2396,11 @@ If damage reduces you to 0 hit points or below and fails to kill you, you fall u
 
 Whenever you start your turn with 0 hit points or below, you must make a special saving throw, called a death saving throw, to determine whether you creep closer to death or hang onto life. You are in the hands of fate now, aided only by powers and features that improve your chances of succeeding on a saving throw.  
 
-Roll a d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success or failure has no effect by itself. On your third failure, you die. The successes and failures don’t need to be consecutive; keep track of both until you collect three of a kind. The number of failures is reset to zero when you take a short or long rest.   
+Roll a d20. If the roll is 10 or higher, you succeed. Otherwise, you fail. A success indicates no change (unless you roll 20 or higher; see below). A failure has no effect until your third failure, whereupon you die. The failures don’t need to be consecutive. The number of failures is reset to zero when you take a short or long rest.   
 
-**Rolling 20 or higher:** When you make a death saving throw and roll 20 or higher, you can spend a recovery. Your HP are set to equal to your recovery value, and therefore you stop dying and become conscious, although you are still prone. If you have no recoveries to spend, treat this result as a 19.   
+**Rolling 20 or higher:** When you make a death saving throw and roll 20 or higher, you can spend a recovery. Your HP are set to equal to your recovery value, and therefore you stop dying and become conscious, although you are still prone.
 
-### Stabilizing a Creature  
-
-If a dying creature gets the opportunity to spend a recovery to heal but it has no recoveries left, its HP is set to 1 only.   
+**Healing with no recoveries:** If a dying creature gets the opportunity to spend a recovery to heal but it has no recoveries left, its HP is set to 1 instead.   
 
 ### Monsters and Death  
 
@@ -2464,7 +2477,11 @@ The following definitions specify what happens to a creature while it is subject
   
 ### Helpless  
 - Attack rolls against you have combat advantage.  
-  
+- Your stance ends, if you are in one. 
+- You can be the target of the Coup de Grace action.
+
+The helpless condition usually comes about as a result of being unconscious. 
+
 ### Immobile  
 
 - You cannot willingly move into another square.   
@@ -2485,12 +2502,12 @@ The following definitions specify what happens to a creature while it is subject
   
 ### Prone  
 
-- Your only movement option is to Crawl, unless you stand up and thereby end the condition. If you are climbing or flying when you become prone, you fall to the ground.   
+- Your only movement options are to Crawl or teleport, unless you stand up and thereby end the condition. If you are climbing or flying when you become prone, you fall to the ground.   
   - A flying creature that falls prone descends squares up to its fly speed and then falls the rest of the way.  
+  - You remain prone after teleporting.
 - -2 to attack rolls.  
 - Melee attack rolls against you have combat advantage.  
 - +2 to AC, Fortitude, Reflex and Will defense against ranged attacks (unless attacker is adjacent to you).  
-  
 
 ### Rattled
 
@@ -2847,11 +2864,11 @@ Unless otherwise mentioned, melee and ranged attacks have one target. Near and f
 
 Some special abilities have restrictions on the number of times they can be used.  
 
-***Refresh X, Y:*** The notation “refresh X, Y” means a monster can use a special ability once and that the ability then has a random chance of refreshing during each subsequent round of combat. At the start of each of the monster’s turns, roll a d6. If the roll is one of the numbers in the refresh notation, the monster regains the use of the special ability. The ability also refreshes when the monster finishes a short or long rest.  
+**Refresh X, Y:** The notation “refresh X, Y” means a monster can use a special ability once and that the ability then has a random chance of refreshing during each subsequent round of combat. At the start of each of the monster’s turns, roll a d6. If the roll is one of the numbers in the refresh notation, the monster regains the use of the special ability. The ability also refreshes when the monster finishes a short or long rest.  
 
 For example, “refresh 5, 6” means a monster can use the special ability once. Then, at the start of the monster’s turn, it regains the use of that ability if it rolls a 5 or 6 on a d6.  
 
-***Encounter:*** This notation means that a monster can use a special ability once and then must finish a short or long rest to use it again.  
+**Encounter:** This notation means that a monster can use a special ability once and then must finish a short or long rest to use it again.  
 
 ## Equipment  
 
@@ -3093,7 +3110,7 @@ Each type of companion has some special rules, as well as following these standa
 *Actions*  
 
 * Your companion’s initiative equals your own.
-* You can give up actions to command the companion, in which case it gets to take the same actions. For example, you can give up your standard action in order for the summoned monster to take a standard action. You can also use an immediate action in order for the animal companion to make an opportunity attack or use a counter or reaction (in all three cases, only if eligible to do so). 
+* You can give up actions to command the companion, in which case it gets to take the same actions. For example, you can give up your standard action in order for the summoned monster to take a standard action, at your direction. You can also use an immediate action in order for the animal companion to make an opportunity attack or use a counter or reaction (in all three cases, only if eligible to do so). 
 * Some companions have an “Instinct” listed. This is how the monster behaves when you do not command it. It has the normal standard, move and swift action when following its instinct, and acts at the end of your turn.    
 
 *Stats and Combat*  
@@ -3195,7 +3212,7 @@ For the purpose of these rules, an object is a discrete, inanimate item like a w
 
 When time is a factor, you can assign an Armor Class and hit points to a destructible object. You can also give it immunities, resistances, and vulnerabilities to specific types of damage.  
 
-***Armor Class***. An object's Armor Class is a measure of how difficult it is to deal damage to the object when striking it (because the object has no chance of dodging out of the way). The Object Armor Class table provides suggested AC values for various substances.  
+**Armor Class:** An object's Armor Class is a measure of how difficult it is to deal damage to the object when striking it (because the object has no chance of dodging out of the way). The Object Armor Class table provides suggested AC values for various substances.  
 
 ##### Table – Substance's HP Multipliers
 
@@ -3210,7 +3227,7 @@ When time is a factor, you can assign an Armor Class and hit points to a destruc
 | Iron, steel                         | x 3           |
 | Adamantine                          | x 5           |
 
-***Hit Points***. An object's hit points measure how much damage it can take before losing its structural integrity. Large objects also tend to have more hit points than small ones, unless breaking a small part of the object is just as effective as breaking the whole thing.  
+**Hit Points:** An object's hit points measure how much damage it can take before losing its structural integrity. Large objects also tend to have more hit points than small ones, unless breaking a small part of the object is just as effective as breaking the whole thing.  
 
 Objects are immune to poison, psychic and necrotic damage. Will attacks against them automatically fail.   
 
@@ -3655,7 +3672,10 @@ The vehicle you are driving moves a number of squares in the direction it is fac
 
 What follows are terms that might be unfamiliar even to experienced gamers.  
 
-### General terms  
+## General terms  
+
+### Characters 
+
 **Ancestry:** Ancestries are the racial, cultural and other origins of characters. Only racial ancestries are presented in Orcus so far.   
 **Epic path:** Each player character chooses an epic path at level 21, which gives new powers and features through to level 30.  
 **Kit:** A kit is a set of powers and features chosen at first level, and providing another facet of a character beyond their ancestry and class.  
@@ -3663,6 +3683,21 @@ What follows are terms that might be unfamiliar even to experienced gamers.
 **Tags:** Descriptive words or phrases attached to powers, monsters and other game components.   
 **Tradition:** A source of power, like Arcane, Divine, Martial, Natural and Shadow.   
 
+### Skills
+
+**Sleight of Hand:** A skill used for picking pockets and disabling traps.   
+**Streetsmarts:** A skill used for operating in urban environments, gathering information and blending into crowds.  
+**Endure:** A skill used for enduring heat and cold and shaking off poison and disease.   
+
+### Tiers of play
+
+**Adventurer:** Characters, creatures, items, powers, etc. that are between levels 1 and 10 are in the adventurer tier.   
+**Prestige:** Characters, creatures, items, powers, etc. that are between levels 11 and 20 are in the prestige tier.   
+**Mythic:** Characters, creatures, items, powers, etc. that are between levels 21 and 30 are in the epic tier.
+
+### Health, healing and the adventuring day
+
+**Extended challenge:** A challenge that requires multiple skill checks to overcome, not just one. An extended challenge will identify how many successes are required to succeed at the overall task; typically, these must be achieved before three failures.   
 **Long rest:** A rest that takes six hours to complete. Daily powers that have been expended are usable again after a long rest, and characters heal to maximum HP and have their recoveries restored to maximum.  
 **Persistent damage:** Persistent damage is experienced at the start of each of your turns until you succeed on a saving throw to shake it off.  
 **Rally:** Once per encounter, a creature can rally, which costs a recovery but heals them equal to their recovery value and gives them a temporary +2 bonus to all defenses.   
@@ -3671,27 +3706,25 @@ What follows are terms that might be unfamiliar even to experienced gamers.
 **Staggered:** A creature is staggered when its current HP are half or fewer its maximum HP.  
 **Streak:** The player characters complete a streak every two encounters they face without stopping for a long rest.   
 
-**Adventurer (tier):** Characters, creatures, items, powers, etc. that are between levels 1 and 10 are in the adventurer tier.   
-**Prestige (tier):** Characters, creatures, items, powers, etc. that are between levels 11 and 20 are in the prestige tier.   
+### Powers
 
-**Sleight of Hand (skill):** A skill used for picking pockets and disabling traps.   
-**Streetsmarts (skill):** A skill used for operating in urban environments, gathering information and blending into crowds.  
-**Endure (skill):** A skill used for enduring heat and cold and shaking off poison and disease.   
-
-**Near (range):** A power with a Near range originates from the user of the power.  
-**Far (range):** A power with a Far range originates from a square some number of squares from the user of the power.  
 **Arc (area of effect):** An arc originates from a particular square and goes outwards the same number of squares on either side.   
+**Far (range):** A power with a Far range originates from a square some number of squares from the user of the power.  
+**Near (range):** A power with a Near range originates from the user of the power.  
+**Refresh:** If a monster uses a refresh power, it is not available to use again right away. Each time the monster takes a turn, a die is rolled and if a certain number appears (as specified in the power) then the power is available again.   
+**Shunt (unwilling movement):** A shunt moves the creature in any direction, unlike a pull which must bring them closer or a push which must take them further away.   
+**Unwilling movement:** Unwilling movement is any of three forms of movement forced on a creature: pushes, pulls and shunts.   
+
+### Actions
 
 **Immediate actions:** These are actions that must be performed in other creatures’ turns, not your own, once a trigger is satisfied. They come in two forms: **counters,** which happen during the action that triggered them, and **reacts,** which happen after.  
 **Dash (action):** A move action in which you move up to your speed +2, but you provoke opportunity attacks, grant combat advantage and suffer an attack penalty.   
 
+### Conditions and statuses
+
 **Controlled (condition):** The creature is under the control of another.  
 **Immobile (condition):** The creature cannot willingly leave its current space.  
-
-**Unwilling movement:** Unwilling movement is one of three forms of movement forced on a creature: pushes, pulls and shunts.   
-**Shunt (unwilling movement):** A shunt moves the creature in any direction, unlike a pull which must bring them closer or a push which must take them further away.   
-
-**Extended challenge:** A challenge that requires multiple skill checks to overcome, not just one. An extended challenge will identify how many successes are required to succeed at the overall task; typically, these must be achieved before three failures.  
+**Incorporeal:** A creature that is incorporeal takes half damage on all attacks.   
 
 ### Incantations  
 **Incantation:** A kind of spell that takes time and material components to cast.   
@@ -3705,24 +3738,24 @@ What follows are terms that might be unfamiliar even to experienced gamers.
 **Conjuration (incantation):** Conjuration incantations summon and bind creatures from other planes of existence.   
 
 ### Monsters  
-**Source (monster):** Which category of planes of existence the monster comes from.   
+#### Sources and types
+**Automaton (type):** Automatons are creatures made of animated matter, whether that is animated elements (elementals), corpses (undead) or plant matter (plants).  
 **Cosmic (source):** Creatures from the cosmic source are aberrations from outside this universe.   
 **Immortal (source):** Creatures from the Outer Planes, like Heaven and Hell.   
+**Monstrosity (type):** Monstrosities are magical beasts or other creatures that have complicated or clearly magical physiognomy.   
+**Source (monster):** Which category of planes of existence the monster comes from.   
 
+#### Ranks
 **Boss (monster rank):** The strongest type of monster, equivalent to five standard monsters of the same level.   
+**Elite (monster rank):** A monster equivalent to two standard monsters of the same level.  
+**Standard (monster rank):** The basic monster of a given level; in a normal encounter, one of these challenges one player character of the same level.  
 **Mook (monster rank):** Weak monsters with just 1 HP.   
 
+#### Roles
 **Archer (monster role):** Archers make ranged attacks, sometimes ranged area attacks.   
 **Blocker (monster role):** Blockers are harder to hit than other monsters, and can defend their weaker allies from attacks.   
 **Spoiler (monster role):** Spoilers create zones and other battlefield conditions, use area attacks and debuff enemies.   
 **Wrecker (monster role):** Wreckers do large amounts of damage, usually in melee range.  
-
-**Monstrosity (type):** Monstrosities are magical beasts or other creatures that have complicated or clearly magical physiognomy.   
-**Automaton (type):** Automatons are creatures made of animated matter, whether that is animated elements (elementals), corpses (undead) or plant matter (plants).  
-
-**Refresh:** If a monster uses a refresh power, it is not available to use again right away. Each time the monster takes a turn, a die is rolled and if a certain number appears (as specified in the power) then the power is available again.   
-
-**Incorporeal:** A creature that is incorporeal takes half damage on all attacks.   
 
 # Appendix A: Powers Available by Level  
 

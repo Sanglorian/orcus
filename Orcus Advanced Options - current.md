@@ -497,7 +497,7 @@ While unconscious, you do not need to breathe nor do you get hungrier or thirsti
 > **Encounter** **Attack** **Feature** (**Swift Action**) ● **Focus**  
 > **Melee** touch, one creature  
 > **Attack** Str, Con or Int (your choice) vs Fortitude  
-> **Hit** The target loses its resistances and one immunity of your choice (save ends). If the creature has no resistances or immunities, it instead gains vulnerability 5 to untyped damage (save ends). If the target is an object, the effect lasts for five minutes (no save) and its break DC is also reduced by 5.  
+> **Hit** The target loses its resistances and one immunity of your choice (save ends). If the creature has no resistances or immunities, it instead gains vulnerability to untyped damage 5 (save ends). If the target is an object, the effect lasts for five minutes (no save) and its break DC is also reduced by 5.  
 
 > #### Gargoyle’s Rest  
 > **Encounter** **Utility** **Feature** (**Move Action**)   
@@ -797,7 +797,7 @@ The maneuvers introduced here are available to all characters, but they are only
 >
 > **At-Will** **Attack**  (**Move Action**) ● **Martial, Weapon**  
 > **Effect** Move up to your speed. Make a secondary attack each time you attempt to enter an enemy’s space. 
-> *Secondary Attack:* Strength vs Fortitude; on a hite, push the target 1 square and you successfully enter their space; on a miss, you provoke an opportunity attack from the target and fail to enter their space.  
+> *Secondary Attack:* Strength vs Fortitude; on a hit, push the target 1 square and you successfully enter their space; on a miss, you provoke an opportunity attack from the target and fail to enter their space.  
 
 > #### Repel  
 >
@@ -2084,7 +2084,7 @@ Poisons can either be used in combat as powers, or if the poisoner gets an oppor
 >
 > **Consumable** **Attack** **1** (**Swift Action**) ● **Poison**  
 > **Effect** Until your next short rest, any target you hit with a weapon takes 2 persistent poison damage (save ends). If they fail their first save, they instead take 5 persistent poison damage (save ends).  
-> **Special** If Assassin’s Blood is ingested, for 12 hours the target gains vulnerable to poison 5 and loses any poison resistances or immunities it had.  
+> **Special** If Assassin’s Blood is ingested, for 12 hours the target gains vulnerability to poison 5 and loses any poison resistances or immunities it had.  
 
 > #### Pale Tincture  
 >
