@@ -287,7 +287,7 @@ Some Game Masters give all characters the Keen Defenses feat and either the Weap
 
 **Prerequisite:** Athame (ranged or thrown weapon).
 
-**Benefit:** When you use a ranged or thrown weapon as your focus, you can use its range instead of the power's range for Ranged or Far attack powers.
+**Benefit:** When you use a ranged or thrown weapon as your focus, you can use its range instead of the power's range for ranged or far attack powers.
 
 ### Armor Focus  
 
@@ -1380,7 +1380,7 @@ The Glutton
  **Portfolio:** Food, feasting, prosperity  
  **Favored Weapon:** Dagger  
 
-A happy and boastful god, Chalavar (CHAL-uh-var) is a welcome visitor to any meal or business gathering, as he makes the food safe and incredibly tasty and the dealings profitable for all involved. Worshipped by people who work with food or conduct trade, Chalavar is a popular deity despite having few actual crusaders. He is shown as a round, pleasant-faced man wearing expensive rings, necklaces, and a jeweled cylindrical hat. He knows the best use for any animal, from the work it is suited for to the other food it complements.  
+A happy and boastful god, Chalavar (CHAL-uh-var) is a welcome visitor to any meal or business gathering, as he makes the food safe and incredibly tasty and the dealings profitable for all involved. Worshipped by people who work with food or conduct trade, Chalavar is a popular deity despite having few actual priests. He is shown as a round, pleasant-faced man wearing expensive rings, necklaces, and a jeweled cylindrical hat. He knows the best use for any animal, from the work it is suited for to the other food it complements.  
 
 He also knows the medicinal and culinary use for every plant. His rare temples are popular among adventurers, as Chalavar’s priests love examining the carcasses of strange monsters to see what good can be made of them— for they study the art of cooking with as much ardor as their god.  
 
@@ -1534,9 +1534,9 @@ The Sword Maiden
  **Portfolio:** Protection, valor, honor  
  **Favored Weapon:** Bastard sword  
 
-Daughter of the sun god Thalander, Yaheine (ya-HEEN) is the faithful guardian, protector of the innocent, and champion of good. Channeling the power of her father, Yaheine strikes out at all evil in her path, making places safe for decent folk. She cannot abide fiends or the undead, and hunts necromancers and demonologists without mercy. She is shown as a tall woman bearing a flashing bastard sword and clad in shining metal armor, her gold hair unbound in a storm about her face like solar flames. When age catches up with her crusaders, they usually take up a leadership role in a community, administering fair law and keeping the peace, ready to bear arms whenever evil raises its head. Her followers respect those who worship Thalander, and the two closely allied churches often share space in the same temple—a sometimes awkward alliance given Yaheine’s dutifulness and faithfulness can clash with her father's mischief and appetites.  
+Daughter of the sun god Thalander, Yaheine (ya-HEEN) is the faithful guardian, protector of the innocent, and champion of good. Channeling the power of her father, Yaheine strikes out at all evil in her path, making places safe for decent folk. She cannot abide fiends or the undead, and hunts necromancers and demonologists without mercy. She is shown as a tall woman bearing a flashing bastard sword and clad in shining metal armor, her gold hair unbound in a storm about her face like solar flames. When age catches up with her priests, they usually take up a leadership role in a community, administering fair law and keeping the peace, ready to bear arms whenever evil raises its head. Her followers respect those who worship Thalander, and the two closely allied churches often share space in the same temple—a sometimes awkward alliance given Yaheine’s dutifulness and faithfulness can clash with her father's mischief and appetites.  
 
-Yaheine’s crusaders pray for their spells at dawn when the leading edge of the sun first becomes visible. Their holy days are the summer solstice and midwinter—said to be the time of year when the sun god’s priests received word that his daughter had been born and would become a champion for all good in the world. Common folk pray to her for fairness in all things, as well as protection in unsafe places. Her name is used to seal oaths as a promise of good intent. 
+Yaheine’s priests pray for their spells at dawn when the leading edge of the sun first becomes visible. Their holy days are the summer solstice and midwinter—said to be the time of year when the sun god’s priests received word that his daughter had been born and would become a champion for all good in the world. Common folk pray to her for fairness in all things, as well as protection in unsafe places. Her name is used to seal oaths as a promise of good intent. 
 
 # Legal  
 

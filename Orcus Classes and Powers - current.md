@@ -36,11 +36,11 @@ Here are some example archetypes, and how you might model them in Orcus.
 
 **Beastmaster:** A Sylvan with the Animal Companion Wild Gift and the Binds Familiar kit can have two animal friends, and turn into a third. 
 
-**Blackguard:** A Guardian who Worships the God of Tyranny or a Crusader are good choices. 
+**Blackguard:** A Guardian who Worships the God of Tyranny or a Priest are good choices. 
 
 **Blue Mage:** A Magician who Eats Monster Hearts is a good model for a blue mage. 
 
-**Cleric:** The Crusader is a classic cleric. 
+**Cleric:** The Priest is a classic cleric. 
 
 **Demonologist:** Either the Magician (Conjurer) class or the Conjures Fiends kit would be enough to turn a character into a demonologist; taken together they would represent a very strong demonologist archetype. Consider as an alternative taking the Conjures Fiends kit with a different class for a different take on the demonologist: the hellish knight (with the Guardian class), the Harlequin whose fiddle comes from the Devil, or the Mageblade who fights alongside the fiends they conjure. 
 
@@ -52,7 +52,7 @@ Here are some example archetypes, and how you might model them in Orcus.
 
 **Fighter (Heavily Armored):** The Guardian or Commander. 
 
-**Jack of All Trades/Savant/Red Mage:** A Mageblade who takes a lot of Veiled Moon powers is already stealthy, skilled with weapons, and able to cast magic spells. Taking Worships the God of Life or Dabbles in Crusading on top of that would provide divine power to round out an already versatile character. 
+**Jack of All Trades/Savant/Red Mage:** A Mageblade who takes a lot of Veiled Moon powers is already stealthy, skilled with weapons, and able to cast magic spells. Taking Worships the God of Life or Dabbles in Priesthood on top of that would provide divine power to round out an already versatile character. 
 
 **Magic Dabbler:** Any character could get a strong dose of non-combat magic with the Cantrip Master feat and an investment in incantations. 
 
@@ -60,7 +60,7 @@ Here are some example archetypes, and how you might model them in Orcus.
 
 **Mounted Knight:** A Guardian who Charms Animal can pick a horse, giving themselves a powerful and obedient mount and powers that take full advantage of it. 
 
-**Paladin:** The Crusader class serves perfectly well for a paladin focused on healing and inspiring their allies. Otherwise, try a Guardian who Dabbles in Commanding or Worships the God of Life, Peace, or War. 
+**Paladin:** The Priest class serves perfectly well for a paladin focused on healing and inspiring their allies. Otherwise, try a Guardian who Dabbles in Commanding or Worships the God of Life, Peace, or War. 
 
 **Pirate:** Exemplar is a safe choice for a pirate, perhaps one who Dabbles in Reaping with a pistol. 
 
@@ -129,7 +129,7 @@ Often, defenders control enemies by “marking” them. See the marked condition
 |             | Controller | Defender           | Leader    | Striker            |
 | ----------- | ---------- | ------------------ | --------- | ------------------ |
 | **Arcane**  | Magician   | Mageblade          |           |                    |
-| **Divine**  |            |                    | Crusader  |                    |
+| **Divine**  |            |                    | Priest    |                    |
 | **Martial** | Harlequin  | Guardian, Warrior* | Commander | Exemplar, Warrior* |
 | **Spirit**  | Reaper     |                    |           | Sylvan             |
 
@@ -293,94 +293,6 @@ If a character takes the Dualclass Recruit feat and selects the Commander, it ha
 * You can use *lift spirits* once per encounter.  
 
 <figure><img src='pics\rook.jpg' alt='Rook by Jared von Hindman' style='zoom: 100.0%;' /><figcaption>Rook by Jared von Hindman</figcaption></figure>  
-
-# Crusader  
-
-**Divine Leader**  
-
-**Key Ability:** Wisdom. When you choose powers from your class disciplines, you can replace any reference to the discipline’s key ability with Wisdom instead.  
-**Talents and Secondary Abilities:** Worships the God of Life (Charisma), Worships the God of Peace (Charisma), Worships the God of Tyranny (Strength), Worships the God of War (Strength). 
-
-When you choose powers from your class disciplines, you can replace any reference to the discipline’s secondary ability with your talent’s secondary ability instead.  
-
-## Stats  
-
-**Hit Points at 1st Level:** 12 plus your Constitution score.  
-**Additional Hit Points at Higher Levels:** 5 per level above first level.  
-**Recoveries per Long Rest:** 7 plus your Constitution modifier.  
-**Defenses:** +2 Will.  
-
-## Proficiency and Training  
-
-**Armor Proficiencies:** Cloth, leather, hide, chainmail.  
-**Weapon Proficiencies:** Simple melee, simple ranged.  
-**Focus Proficiencies:** Holy symbol.  
-**Trained Skills:** You are trained in Religion and 3 other skills from your class skills.  
-**Class Skills:**  Arcana, Diplomacy, Heal, History, Insight, Religion.  
-
-## Features  
-
-### Powers  
-
-You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline's key ability with Wisdom instead. You can replace any reference to the discipline's secondary ability with the secondary ability linked to your talent (see below).  
-
-**Class Disciplines:** Angel’s Trumpet.  
-
-### Talents  
-
-Choose one kit that begins with "Worships …". You gain the benefits of that kit at the appropriate levels, including the associated discipline. This is in addition to any other kits you may have. 
-
-* **Worships the God of Life:** Your secondary ability is Charisma.
-* **Worships the God of Peace:** Your secondary ability is Charisma. 
-* **Worships the God of Tyranny:** Your secondary ability is Strength.
-* **Worships the God of War:** Your secondary ability is Strength. 
-
-If you acquire Worships ... kits through other ways, you get their benefits as usual but they do not change your secondary ability.  
-
-### Channel Divinity  
-
-You gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with access to two such effects: *censure undead* and an effect associated with your talent.
-
-When you use your Channel Divinity, you choose which effect to create. By default, you can use Channel Divinity once per encounter (although see Action Recharge).  
-
-> #### Censure Undead  
->
-> *You present your holy symbol and speak a prayer censuring the undead.*  
-> **Encounter** **Attack** **Feature** (**Standard Action**) ● **Divine, Focus, Radiant**  
-> **Near** burst 2 (Level 11: 5; Level 21: 8), all undead  
-> **Attack** Wisdom vs Will  
-> **Hit** 1d8 + Wisdom modifier radiant damage. Target is pushed 3 + your Charisma modifier and immobile until the end of your next turn.
-> *Level 5:* 2d8 + Wisdom modifier damage; *Level 11:* 3d8 + Wisdom modifier damage; *Level 15:* 4d8 + Wisdom modifier damage; *Level 21:* 5d8 + Wisdom modifier damage; *Level 25:* 6d8 + Wisdom modifier damage.  
-> **Miss** Half damage. Target is pushed squares equal to your Charisma modifier.  
-
-### Infuse with Life  
-
-You can use the *infuse with life* power twice per encounter.  
-
-> #### Infuse with Life  
->
-> **Encounter** **Utility** **Feature** (**Swift Action**) ● **Divine**  
-> **Near** burst 5 (Level 11: 10; Level 21: 15), self or one ally  
-> **Effect** Target spends a recovery and heals their recovery value +1d6.
-> *Level 6:* 2d6; *Level 11:* 3d6; *Level 16:* 4d6; *Level 21:* 5d6; *Level 26:* 6d6.  
-
-### Crusader Training  
-
-You gain the Shield Proficiency, Athame or Cantrip Master feat or a feat from the Art Feats section (your choice).  
-
-### Action Recharge  
-
-When you spend an action point, you recover the use of Channel Divinity for the encounter.  
-
-### Dualclass  
-
-If a character takes the Dualclass Recruit feat and selects the Crusader, it has the following benefit:  
-
-**Benefit:** You belong to the Crusader class (along with any other classes that you belong to), and gain the following benefits:
-
-* You can use *infuse with life* once per encounter.  
-
-<figure><img src='pics\Charlene.png' alt='Charlene by Justin Nichol' style='zoom: 25.0%;' /><figcaption>Charlene by Justin Nichol</figcaption></figure>  
 
 # Exemplar  
 
@@ -729,7 +641,7 @@ You belong to a particular school of magic. Choose one at character creation.
 
 * **Conjurer:** When an encounter ends and you have one or more daily powers with the Summon keyword still active, those daily powers are not expended. However, if you use them again, the summoned creatures appear in the exact state they were when their last summoning ended (current HP, conditions, etc.) except that they can use their encounter powers again even if already used before. If you complete a long rest, all your daily powers reset and if you use them from then on a “fresh” creature will be summoned. Your secondary ability is Constitution.
 * **Enchanter:** When you use a power with the Psychic tag that does damage on a hit, you can choose for the power to do no damage to any enemies you target. If so, you gain a +2 bonus on the attack roll. Your secondary ability is Charisma. 
-* **Evoker:** If you wish, a Near or Far power you use with the Acid, Cold, Fire, Flux, Lightning or Thunder tags has its area increased by 1 (from Near arc 2 to Near arc 3, for example). Also, you can change your flux energy as a swift action (see the Elemental Flux discipline for a description of flux energy). Your secondary ability is Dexterity.  
+* **Evoker:** If you wish, a near or far power you use with the Acid, Cold, Fire, Flux, Lightning or Thunder tags has its area increased by 1 (from Near arc 2 to Near arc 3, for example). Also, you can change your flux energy as a swift action (see the Elemental Flux discipline for a description of flux energy). Your secondary ability is Dexterity.  
 
 ### Arcane Strength  
 
@@ -769,6 +681,95 @@ If a character takes the Dualclass Recruit feat and selects the Magician, it has
 * Choose one at-will 1st-level attack power from a Magician class discipline. It is an encounter power for you.  
 
 <figure><img src='pics\Vera.png' alt='Vera by Justin Nichol' style='zoom: 25.0%;' /><figcaption>Vera by Justin Nichol</figcaption></figure>  
+
+
+# Priest  
+
+**Divine Leader**  
+
+**Key Ability:** Wisdom. When you choose powers from your class disciplines, you can replace any reference to the discipline’s key ability with Wisdom instead.  
+**Talents and Secondary Abilities:** Worships the God of Life (Charisma), Worships the God of Peace (Charisma), Worships the God of Tyranny (Strength), Worships the God of War (Strength). 
+
+When you choose powers from your class disciplines, you can replace any reference to the discipline’s secondary ability with your talent’s secondary ability instead.  
+
+## Stats  
+
+**Hit Points at 1st Level:** 12 plus your Constitution score.  
+**Additional Hit Points at Higher Levels:** 5 per level above first level.  
+**Recoveries per Long Rest:** 7 plus your Constitution modifier.  
+**Defenses:** +2 Will.  
+
+## Proficiency and Training  
+
+**Armor Proficiencies:** Cloth, leather, hide, chainmail.  
+**Weapon Proficiencies:** Simple melee, simple ranged.  
+**Focus Proficiencies:** Holy symbol.  
+**Trained Skills:** You are trained in Religion and 3 other skills from your class skills.  
+**Class Skills:**  Arcana, Diplomacy, Heal, History, Insight, Religion.  
+
+## Features  
+
+### Powers  
+
+You can choose powers from your class disciplines. When you do so, you can replace any reference to the discipline's key ability with Wisdom instead. You can replace any reference to the discipline's secondary ability with the secondary ability linked to your talent (see below).  
+
+**Class Disciplines:** Angel’s Trumpet.  
+
+### Talents  
+
+Choose one kit that begins with "Worships …". You gain the benefits of that kit at the appropriate levels, including the associated discipline. This is in addition to any other kits you may have. 
+
+* **Worships the God of Life:** Your secondary ability is Charisma.
+* **Worships the God of Peace:** Your secondary ability is Charisma. 
+* **Worships the God of Tyranny:** Your secondary ability is Strength.
+* **Worships the God of War:** Your secondary ability is Strength. 
+
+If you acquire Worships ... kits through other ways, you get their benefits as usual but they do not change your secondary ability.  
+
+### Channel Divinity  
+
+You gain the ability to channel divine energy directly from your deity, using that energy to fuel magical effects. You start with access to two such effects: *censure undead* and an effect associated with your talent.
+
+When you use your Channel Divinity, you choose which effect to create. By default, you can use Channel Divinity once per encounter (although see Action Recharge).  
+
+> #### Censure Undead  
+>
+> *You present your holy symbol and speak a prayer censuring the undead.*  
+> **Encounter** **Attack** **Feature** (**Standard Action**) ● **Divine, Focus, Radiant**  
+> **Near** burst 2 (Level 11: 5; Level 21: 8), all undead  
+> **Attack** Wisdom vs Will  
+> **Hit** 1d8 + Wisdom modifier radiant damage. Target is pushed 3 + your Charisma modifier and immobile until the end of your next turn.
+> *Level 5:* 2d8 + Wisdom modifier damage; *Level 11:* 3d8 + Wisdom modifier damage; *Level 15:* 4d8 + Wisdom modifier damage; *Level 21:* 5d8 + Wisdom modifier damage; *Level 25:* 6d8 + Wisdom modifier damage.  
+> **Miss** Half damage. Target is pushed squares equal to your Charisma modifier.  
+
+### Infuse with Life  
+
+You can use the *infuse with life* power twice per encounter.  
+
+> #### Infuse with Life  
+>
+> **Encounter** **Utility** **Feature** (**Swift Action**) ● **Divine**  
+> **Near** burst 5 (Level 11: 10; Level 21: 15), self or one ally  
+> **Effect** Target spends a recovery and heals their recovery value +1d6.
+> *Level 6:* 2d6; *Level 11:* 3d6; *Level 16:* 4d6; *Level 21:* 5d6; *Level 26:* 6d6.  
+
+### Priest Training  
+
+You gain the Shield Proficiency, Athame or Cantrip Master feat or a feat from the Art Feats section (your choice).  
+
+### Action Recharge  
+
+When you spend an action point, you recover the use of Channel Divinity for the encounter.  
+
+### Dualclass  
+
+If a character takes the Dualclass Recruit feat and selects the Priest, it has the following benefit:  
+
+**Benefit:** You belong to the Priest class (along with any other classes that you belong to), and gain the following benefits:
+
+* You can use *infuse with life* once per encounter.  
+
+<figure><img src='pics\Charlene.png' alt='Charlene by Justin Nichol' style='zoom: 25.0%;' /><figcaption>Charlene by Justin Nichol</figcaption></figure>  
 
 # Reaper  
 
@@ -1281,11 +1282,11 @@ If a kit grants you a feat you already possess, or training in a skill in which 
 | Charms Animal               | A large, powerful animal is your companion.                  |
 | Conjures Fiends             | You can summon and control infernal beings.                  |
 | Dabbles in Commanding       | Commander multiclass.                                        |
-| Dabbles in Crusading        | Crusader multiclass.                                         |
 | Dabbles in Exemplary Combat | Exemplar multiclass.                                     |
 | Dabbles in Harlequinry | Harlequin multiclass.                                        |
 | Dabbles in Guarding         | Guardian multiclass.                                         |
 | Dabbles in Mageblading      | Mageblade multiclass.                                        |
+| Dabbles in Priesthood       | Priest multiclass.                                         |
 | Dabbles in Reaping          | Reaper multiclass.                                           |
 | Dabbles in Sylvanry         | Sylvan multiclass.                                           |
 | Dabbles in Wizardry         | Magician multiclass.                                |
@@ -1457,25 +1458,6 @@ Commander multiclass.
 
 * Angel’s Trumpet.  
 * Golden Lion.   
-  
-## Dabbles in Crusading  
-
-Crusader multiclass.  
-
-**Requirements:** You cannot take this kit if you belong to the Crusader class, or if you already have a secondary class.  
-
-**Part-Time Medic (Level 1):** You belong to the Crusader class (along with any other classes that you belong to), with Crusader becoming your “secondary class”. You gain the following benefits:  
-
-* You can use *infuse with life* once per encounter.   
-  
-
-**Crusader Skills (Level 5):** You become trained in a skill of your choice from the Crusader class skills.   
-
-**Divine Blessing (Level 10):** You learn the *censure undead* Channel Divinity power. You can Channel Divinity once per encounter.    
-
-**Associated Discipline:** Angel’s Trumpet.   
-
-<figure><img src="pics\MiguelSantos_SYSTURN.png" alt="Turn Undead by Miguel Santos" style="zoom: 33%;" /><figcaption>Turn Undead by Miguel Santos</figcaption></figure>
 
 ## Dabbles in Exemplary Combat 
 
@@ -1555,6 +1537,25 @@ Mageblade multiclass.
 * Elemental Flux.  
 * Veiled Moon.   
   
+## Dabbles in Priesthood  
+
+Priest multiclass.  
+
+**Requirements:** You cannot take this kit if you belong to the Priest class, or if you already have a secondary class.  
+
+**Part-Time Medic (Level 1):** You belong to the Priest class (along with any other classes that you belong to), with Priest becoming your “secondary class”. You gain the following benefits:  
+
+* You can use *infuse with life* once per encounter.   
+  
+
+**Priest Skills (Level 5):** You become trained in a skill of your choice from the Priest class skills.   
+
+**Divine Blessing (Level 10):** You learn the *censure undead* Channel Divinity power. You can Channel Divinity once per encounter.    
+
+**Associated Discipline:** Angel’s Trumpet.   
+
+<figure><img src="pics\MiguelSantos_SYSTURN.png" alt="Turn Undead by Miguel Santos" style="zoom: 33%;" /><figcaption>Turn Undead by Miguel Santos</figcaption></figure>
+
 ## Dabbles in Reaping  
 
 Reaper multiclass.  
@@ -1850,7 +1851,7 @@ Some classes specify that powers selected from class disciplines may use differe
 ## Angel’s Trumpet  
 **Key Ability:** Charisma  
 **Secondary Ability:** Wisdom  
-**Sources:** Commander, Crusader (classes), Embodies Charisma, Worships the God of Peace (kits)
+**Sources:** Commander, Priest (classes), Embodies Charisma, Worships the God of Peace (kits)
 
 Your words and example inspire allies to stay in the fight, and cooperate to take down the enemy.
 
@@ -2591,7 +2592,7 @@ All enemies in squares you pass through and adjacent to squares you pass through
 > *You feint and slip under your opponent’s arm to position yourself behind them.*  
 > **Daily** **Utility** **16** (**Counter Action**) ● **Martial**  
 > **Near** burst 5, the triggering enemy  
-> **Trigger** One enemy in range hits you with a Melee or Ranged attack.  
+> **Trigger** One enemy in range hits you with a melee or ranged attack.  
 > **Effect** Take no damage. Shift to any unoccupied square within 2 squares of the target. The target grants you combat advantage until the end of your next turn.  
 
 > #### I Can Hear Bells Ringing  
@@ -5165,7 +5166,7 @@ You use the divine power of the sun to blast and dazzle your enemies and heal yo
 > *Your presence demands silence.*  
 > **Daily** **Utility** **10** (**Counter Action**) ● **Divine**  
 > **Near** burst 1, self and all allies  
-> **Trigger** You are the target of a Near or Far attack.  
+> **Trigger** You are the target of a near or far attack.  
 > **Effect** Creatures in the area of this power cannot be targeted by the attack.  
 
 > #### Lifeburst Imbuement  
@@ -5391,7 +5392,7 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 > **Melee** weapon, one target  
 > **Attack** Dexterity vs AC  
 > **Hit** 3dW + Dexterity modifier damage.  
-> **Effect** Until the end of your next turn, the target cannot target you with attacks. Even its Near and Far attacks ignore you.  
+> **Effect** Until the end of your next turn, the target cannot target you with attacks. Even its near and far attacks ignore you.  
 
 > #### Harmless Misdirection  
 > **Encounter** **Utility** **16** (**Reaction Action**) ● **Martial**  
@@ -6834,7 +6835,7 @@ You share a special bond with your companion that allows you to fight as one.
 
 > #### Side by Side  
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Spirit, Companion**  
-> **Melee**   
+> **Melee** weapon, one creature   
 > **Attack** Charisma vs AC  
 > **Hit** 1dW + Charisma modifier damage.  
 > **Effect** Your companion can also move its speed and make a basic melee attack against the same target.  
@@ -8145,4 +8146,4 @@ No items are declared as Product Identity.
 
 The terms of the Open Game License Version 1.0a and the relevant Section 15 entries are provided in a separate file.    
 
-Artworks are not Open Game Content unless otherwise mentioned. Full attribution and license for each artwork is available in the Artworks file.   ironsi
+Artworks are not Open Game Content unless otherwise mentioned. Full attribution and license for each artwork is available in the Artworks file.   ironsiC

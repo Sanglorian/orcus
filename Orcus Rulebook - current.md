@@ -1467,15 +1467,15 @@ The five origins of effect for powers are:
 - **Self:** The power originates with you and affects only you. You are always within range of yourself.  
   
 
-You can see here that the first four origins can be sorted two different ways: whether the power affects those near the user (Melee, Near) or far from them (Ranged, Far); or whether the power targets creatures directly (Melee, Ranged) or targets an area of effect (Near, Far).   
+You can see here that the first four origins can be sorted two different ways: whether the power affects those near the user (melee, near) or far from them (ranged, far); or whether the power targets creatures directly (melee, Ranged) or targets an area of effect (near, far).   
 
-Ranged and Far powers provoke opportunity attacks. Melee, Near, and Self powers do not.   
+Ranged and far powers provoke opportunity attacks. Melee, near, and Self powers do not.   
 
 ### Areas of effect  
 
-Areas of effect only apply to Near and Far powers.   
+Areas of effect only apply to near and far powers.   
 
-Each Near or Far power describes its area of effect, usually by giving its size and one of the following area types:  
+Each near or far power describes its area of effect, usually by giving its size and one of the following area types:  
 
 - **Burst:** A burst has an area of effect reaching a number of squares in each direction from the area’s base square equal to its size. For example, a “burst 2” will affect the base square and each square within two squares of the base square.  
 - **Arc:** An arc creates a quadratic area of effect where the length of each side is a number of squares equal to the size of the arc. For example, an “arc 2” will create an area two squares on each side (four squares total). The area of effect begins adjacent to the area’s base square.  
@@ -1494,7 +1494,7 @@ Special sizes for area of effect are “eyesight” and “earshot”. Eyesight 
 
 ### Range  
 
-For Weapon powers (Melee and Ranged), this is simple: the reach of the melee weapon (usually 1, in other words adjacent squares only) or the range of the ranged weapon.   
+For Weapon powers (melee and Ranged), this is simple: the reach of the melee weapon (usually 1, in other words adjacent squares only) or the range of the ranged weapon.   
 
 For Ranged powers that are not Weapon powers, the range is usually specified in squares.   
 
@@ -1524,7 +1524,7 @@ Other example targets are:
 
 **Allies and Enemies:** You choose who your allies are when you use a power. Your enemies are any creatures you do not choose as your allies. A creature can choose to not count as your ally for the purposes of a power.   
 
-**A Clear Path to the Target:** To target something with a Ranged or Far power, you must have a clear path to it, so it can’t be behind total cover.  
+**A Clear Path to the Target:** To target something with a ranged or far power, you must have a clear path to it, so it can’t be behind total cover.  
 
 If you place an area of effect at a point that you can’t see and an obstruction, such as a wall, is between you and that point, the point of origin comes into being on the near side of that obstruction.  
 
@@ -1890,11 +1890,11 @@ If the d20 roll for an attack is a 1, the attack misses regardless of any modifi
 
 ## Types of attack  
 
-Attack types are the origins of effect of the attack. The chapter on Powers explained that power origins are Melee, Ranged, Near, Far and Self. Attacks can have any of the first four origins.   
+Attack types are the origins of effect of the attack. The chapter on Powers explained that power origins are melee, ranged, near, far and Self. Attacks can have any of the first four origins.   
 
 Ranged powers have their range given as a number or they take the range of the weapon used to make the attack. This is the maximum range from the user’s space to the target. Far powers also have a range; the maximum range from the user’s space to the area’s origin square.  
 
-Area of effect powers that use a square in your space as the area’s base square have a range of Near.  
+Area of effect powers that use a square in your space as the area’s base square have a range of near.  
 
 ### Melee   
 
@@ -1920,7 +1920,7 @@ Some ranged attacks, such as those made with a longbow or a shortbow, have two r
 
 ### Ranged and Far Attacks in Close Combat  
 
-Aiming a Ranged or Far attack is more difficult when a foe is next to you. When you make a ranged attack (whether it’s with a weapon or not) you provoke an opportunity attack.  
+Aiming a ranged or far attack is more difficult when a foe is next to you. When you make a ranged attack (whether it’s with a weapon or not) you provoke an opportunity attack.  
 
 ### Two-Weapon Fighting  
 
@@ -1950,7 +1950,7 @@ A target has concealment when you are prevented from seeing or otherwise perceiv
 
 Like cover, concealment comes in two levels: **Concealment** (-2 penalty to attack rolls) and **total concealment** (-5 penalty to attack rolls).  
 
-Concealment penalties do not apply to Near or Far attacks.   
+Concealment penalties do not apply to near or far attacks.   
 
 When lighting or other conditions cause creatures in an area to be harder to see, the squares in that area are obscured. A square can be lightly obscured, heavily obscured, or totally obscured.  
 
@@ -2145,8 +2145,8 @@ Unwilling movement can usually move you through hazardous terrain, pushed off a 
 
 The three forms of unwilling movement are:   
 
-* *Push X:* The creature is moved X squares, as the attacker chooses, but each move must be away from the attacker (or from the origin of the attack, if it is a Far attack).  
-* *Pull X:* The creature is moved X squares, as the attacker chooses, but each move must be towards the attacker (or towards the origin of the attack, if it is a Far attack)  
+* *Push X:* The creature is moved X squares, as the attacker chooses, but each move must be away from the attacker (or from the origin of the attack, if it is a far attack).  
+* *Pull X:* The creature is moved X squares, as the attacker chooses, but each move must be towards the attacker (or towards the origin of the attack, if it is a far attack)  
 * *Shunt X:* The creature is moved X squares, as the attacker chooses.   
 
 ## Overland Movement
@@ -2640,7 +2640,7 @@ Compared to standard monsters of the same level, boss monsters have:
 
 A monster’s role describes the main contribution they can make in combat. 
 
-**Archers:** Make powerful Ranged or Far attacks, or both.  
+**Archers:** Make powerful ranged or far attacks, or both.  
 
 **Blockers:** Protect their allies.  
 
@@ -3709,8 +3709,8 @@ What follows are terms that might be unfamiliar even to experienced gamers.
 ### Powers
 
 **Arc (area of effect):** An arc originates from a particular square and goes outwards the same number of squares on either side.   
-**Far (range):** A power with a Far range originates from a square some number of squares from the user of the power.  
-**Near (range):** A power with a Near range originates from the user of the power.  
+**Far (range):** A power with a far range originates from a square some number of squares from the user of the power.  
+**Near (range):** A power with a near range originates from the user of the power.  
 **Refresh:** If a monster uses a refresh power, it is not available to use again right away. Each time the monster takes a turn, a die is rolled and if a certain number appears (as specified in the power) then the power is available again.   
 **Shunt (unwilling movement):** A shunt moves the creature in any direction, unlike a pull which must bring them closer or a push which must take them further away.   
 **Unwilling movement:** Unwilling movement is any of three forms of movement forced on a creature: pushes, pulls and shunts.   
