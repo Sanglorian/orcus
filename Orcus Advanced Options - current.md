@@ -20,13 +20,15 @@ footer: ${pageNo}
 
 The description of each ancestry includes traits that are common to members of that ancestry. The following entries appear among the traits of most ancestries.  
 
-### Ability Score Increase(s)  
-
-Every ancestry increases one or more of a character's ability scores.  
-
 ### Size  
 
 Characters of most ancestries are Medium, a size category including creatures that are roughly 4 to 8 feet tall. Members of a few ancestries are Small (between 2 and 4 feet tall).   
+
+### Source and Type
+
+Each ancestry has a source, which describes whether it comes from the natural world or another plane of existence, and a type, which describes the body shape and physiology of the ancestry. These are described in more detail in the Monster Statistics chapter. 
+
+Some ancestries have a tag, which is another form of categorization. The tags have no rules of their own, but something in the game, such as a magic item, might refer to them.  
 
 ### Speed  
 
@@ -35,6 +37,10 @@ Your speed determines how far you can move.
 ### Languages  
 
 By virtue of your ancestry, your character can speak, read, and write certain languages.  
+
+### Other Features and Powers
+
+Most ancestries provide other benefits, which may include powers. Powers granted by your ancestry never count toward your total class powers available.
 
 ## Human  
 
@@ -55,11 +61,11 @@ Humans typically learn the languages of other peoples they deal with, including 
 **Bonus Feat:** Choose one feat. You gain that feat.   
 **Bonus Skill:** Choose one class skill. You become trained in that skill.   
 **Hardy Stock:** +1 ancestry bonus to Fortitude, Reflex and Will defenses.   
-**Dabbler:** You have a third level 1 at-will attack power from your class.   
+**Dabbler:** Choose a level 1 at-will attack power from your class. You gain this power in addition to the those normally granted by your class.   
 
 ### Variant: True Grit  
 
-Instead of giving humans a third level 1 at-will attack power from their class, GMs may want to offer them the *true grit* power instead – especially if they are taking a class that does not have at-will attack powers. However, GMs should note that *true grit* is unusually powerful for an ancestry power and it overlaps with the elf's *careful focus* power.  
+Instead of giving humans the Dabbler feature, GMs may want to offer them the *true grit* power instead – especially if they are taking a class that does not have at-will attack powers. However, GMs should note that *true grit* is unusually powerful for an ancestry power and it overlaps with the elf's *careful focus* power.  
 
 **Human Power:** You have the *true grit* power.  
 
@@ -156,7 +162,7 @@ You do not sleep, breathe, eat or drink.
 **Languages:** You can speak, read, and write Common and one extra language of your choice..  
 **Skill Bonuses:** +2 Bluff, +2 Stealth.  
 
-**Shared Mind:** You gain telepathy 5, which means you can communicate mentally with creatures you can see that are within 5 squares of you. The creature must be able to speak at least one language; once you have begun the communication they can “speak” back to you.  
+**Shared Mind:** You gain telepathy 5, which means you can communicate mentally with creatures you can see that are within 5 squares of you. The creature must be able to speak at least one language; once you have begun the communication they can “speak” back to you if they wish. Your telepathy does not allow you to read the creature’s thoughts or influence them other than in the same manner as ordinary verbal communication.  
 **Brief Mimicry:** You have the *brief mimicry* power from the Deep, Dark, Truthful Mirror discipline.  
 **Dabbler:** You have a third level 1 at-will attack power from your class.  
 
@@ -173,7 +179,7 @@ You do not sleep, breathe, eat or drink.
 **Skill Bonuses:** +2 Acrobatics, +2 Streetsmarts.  
 **Low-Light Vision:** You can see in dim light as if it were bright light.  
 
-**Natural Weapon – Claws:** You are proficient with a martial weapon, your claws. Each claw is a martial side weapon in the light blades category.  
+**Natural Weapon – Claws:** You are proficient with a martial weapon, your claws. Each claw is a martial side weapon in the light blades category (proficiency +3, 1d6 damage), although it cannot be thrown.  
 **Balance Guidance:** Allies within 10 receive a +1 ancestry bonus to Acrobatics.  
 **Nimbleness:** +2 ancestry bonus to AC against opportunity attacks.  
 **Farstrider:** You have the *farstrider* power.  
@@ -244,7 +250,7 @@ You do not sleep, breathe, eat or drink.
 > #### Psychic Leap  
 > **Encounter** **Attack** **Feature** (**Move Action**) ● **Psychic**  
 > **Near** burst 5, self or one ally  
-> **Effect** The target jumps up to 3 squares. This does not provoke opportunity attacks.  
+> **Effect** The target jumps up to 3 squares. This movement does not provoke opportunity attacks.  
 
 
 ## Fetchling  
@@ -305,7 +311,7 @@ You do not sleep, breathe, eat or drink.
 **Low-Light Vision:** You can see in dim light as if it were bright light.  
 
 **Vigor:** Add your Constitution modifier to your recovery value.  
-**Natural Weapon – Bite:** You are proficient with a martial weapon, your claws. Your bite is a martial one-handed weapon in the heavy blades category, although it requires no hands to use.  
+**Natural Weapon – Bite:** You are proficient with a martial weapon, your bite. Your bite is a martial one-handed weapon in the heavy blades category (proficiency +3, 1d8 damage), although it requires no hands to use.  
 **Violent Rush:** You have the *violent rush* power.  
 
 > #### Violent Rush  
@@ -326,12 +332,12 @@ You do not sleep, breathe, eat or drink.
 **Languages:** You can speak, read, and write Common, Primordial.  
 **Skill Bonuses:** +2 Arcana, +2 Perception.  
 
-**Magic Sight:** The grynloc has truesight 12 when it comes to seeing magical effects and magic items and those subject to magical effects or carrying magic items.  
+**Magic Sight:** A grynloc can, to a range of 12 squares, see invisible creatures and  objects, automatically detect visual illusions and succeed on saving  throws against them, and perceive the original form of a shapechanger or a creature that is transformed  by magic.  
 **Grynloc Gifts:** Once per encounter, you can use *shape magic* or *distraction*.  
 
 > #### Shape Magic  
 > **Encounter** **Utility** **Feature** (**Swift Action**) ● **Zone**  
-> **Far** burst 3, one conjuration, summon or zone  
+> **Far** burst 3 within range 10, one conjuration, summon or zone  
 > **Effect** If the target is a conjuration or summon, you can move it to any unoccupied space in the burst. If the target is a zone, squares of your choice in the burst cease to be part of the zone and an equal number of squares in the burst become part of the zone.  
 
 > #### Distraction  
@@ -352,8 +358,8 @@ You do not sleep, breathe, eat or drink.
 **Languages:** You can speak, read, and write Common, Giant.  
 **Skill Bonuses:** +2 Athletics, +2 Diplomacy.  
 
-**Powerful Build:** You have a +2 ancestry bonus to checks to escape a grapple. You count as size Large for determining whether creatures can grapple or swallow you, or other attacks that are limited to Medium and smaller creatures.  
-**Unmoved:** Reduce any unwilling movement you are subject to by 1 square. When you would fall prone as the result of an attack, make a saving throw – on a success, you do not fall.  
+**Powerful Build:** You have a +2 ancestry bonus to checks to escape a grapple. When you are the target of any attack or power that has a different effect based on the target’s size, you may choose to be treated as size Large instead of size Medium for the purposes of that attack.  
+**Unmoved:** You may reduce any unwilling movement you are subject to by 1 square. When you would fall prone as the result of an attack, make a saving throw – on a success, you do not fall.  
 **Stomp:** You have the *stomp* power.  
 
 > #### Stomp  
@@ -375,7 +381,7 @@ You do not sleep, breathe, eat or drink.
 **Skill Bonuses:** +2 History, +2 Intimidate.  
 
 **Go for the Jugular:** +1 ancestry bonus on attacks against staggered enemies.  
-**Heavy Blade Weapon Proficiency:** You have proficiency with martial weapons in the heavy.  
+**Heavy Blade Weapon Proficiency:** You have proficiency with martial weapons in the heavy blades category.  
 **Careful Focus:** You have the *careful focus* power.  
 
 > #### Careful Focus  
@@ -396,13 +402,13 @@ You do not sleep, breathe, eat or drink.
 **Languages:** You can speak, read, and write Common and one extra language of your choice..  
 **Skill Bonuses:** +2 Heal, +2 Nature.  
 
-**Slimy Coating:** After each short rest you gain temporary hit points equal to your Constitution modifier (2 + Con at level 11, 5 + Con at level 21). This does not stack.  
+**Slimy Coating:** After each short rest you gain temporary hit points equal to your Constitution modifier (2 + Con at level 11, 5 + Con at level 21).   
 **Travel Bug:** You have the *travel bug* power.  
 
 > #### Travel Bug  
 > **Encounter** **Attack** **Feature** (**Swift Action**) ● **Focus**  
 > **Ranged** 10, one creature  
-> **Attack** Con, Int or Wis (your choice) vs   
+> **Attack** Con, Int or Wis (your choice) vs Fortitude  
 > **Hit** The target is slowed until the end of their next turn.  
 
 
@@ -410,7 +416,7 @@ You do not sleep, breathe, eat or drink.
 
 **Small elemental humanoid (fire, water, earth or air)**  
 
-Choose one: fire (resist fire), water (resist cold), earth (resist acid) or air (resist lightning and thunder)  
+Choose one: fire (resistance to fire), water (resistance to cold), earth (resistance to acid) or air (resistance to lightning and thunder)  
 
 ### Mephit Traits  
 
@@ -431,6 +437,7 @@ Choose one: fire (resist fire), water (resist cold), earth (resist acid) or air 
 > **Hit** 1d6 + Constitution modifier. 
 > *Level 11:* 2d6 + Constitution modifier. 
 > *Level 21:* 3d6 + Constitution modifier.  
+> **Special** This power has the same damage type as your resistance. 
 
 
 ## Minotaur  
@@ -474,7 +481,7 @@ Choose one: fire (resist fire), water (resist cold), earth (resist acid) or air 
 > #### Deceptive Motion  
 > **Encounter** **Utility** **Feature** (**Free Action**)   
 > **Self**   
-> **Effect** Until the end of your next turn, attacks you make that target AC can target Reflex instead.  
+> **Effect** Until the end of your next turn, when you make any attack that normally targets AC, you can choose to target Reflex instead. 
 
 
 ## Rook  
@@ -502,7 +509,7 @@ While unconscious, you do not need to breathe nor do you get hungrier or thirsti
 > #### Gargoyle’s Rest  
 > **Encounter** **Utility** **Feature** (**Move Action**)   
 > **Self**   
-> **Effect** Your turn ends. You gain resistance to all damage 5 (10 at level 11, 15 at level 21). You must use this power at the end of your turn.  
+> **Effect** Your turn ends. You gain resistance to all damage 5 (10 at level 11, 15 at level 21) until the end of your next turn.  
 > At the beginning of your next turn, you may use your standard action to make a charge attack. If you do, increase your speed by 2 for the charge.  
 
 
@@ -634,7 +641,7 @@ Whoms are humanoid wombats who live in burrows underground.
 
 # Designing Your Own Ancestries  
 
-While Orcus only comes with a handful of ancestries by default, you can design your own by following the steps below.   
+While Orcus provides a number of ancestries by default, you can also design your own by following the steps below. 
 
 ## Ability Score Increases  
 
@@ -652,6 +659,8 @@ By default, ancestries are Medium with a speed of 6. Other options include:
 * Small, speed 6.   
 * Medium, speed 5, your speed is not reduced by wearing heavy armor or carrying a heavy load.  
 
+Some ancestries may also grant other forms of movement, such as climb or  swim, usually with a speed equal to or less than their normal speed. If you give an ancestry an additional movement type, reduce their number of minor traits (see below) to one.
+
 ## Language  
 
 Common, plus one or two others that make sense.   
@@ -659,6 +668,8 @@ Common, plus one or two others that make sense.
 ## Color Traits  
 
 Choose none, or as many as you like. Adding a couple of color traits to an ancestry can be a way to compensate for underwhelming traits in other areas, like a speed of 5 or one of the weaker minor traits.   
+
+As well as the color traits described here, feel free to come up with your own. A good color trait is interesting enough to be worth noting, but has a minor effect on the game. 
 
 **Additional Language:** Members of this ancestry know an additional language, either one of their player's choice or one shared by all members of the ancestry. 
 
@@ -718,7 +729,7 @@ By default, each ancestry gets two.
 
 **Resistance to X:** Resistance to one or two types of damage 5 + half your level.  
 
-**Shared Mind:** You gain telepathy 5, which means you can communicate mentally with creatures you can see that are within 5 squares of you. The creature must be able to speak at least one language; once you have begun the communication they can “speak” back to you.  
+**Shared Mind:** You gain telepathy 5, which means you can communicate mentally with creatures you can see that are within 5 squares of you. The creature must be able to speak at least one language; once you have begun the communication they can “speak” back to you if they wish. Your telepathy does not allow you to read the creature’s  thoughts or influence them other than in the same manner as ordinary  verbal communication.  
 
 **Skill Training:** You are trained in an extra skill of your choice.  
 
@@ -726,7 +737,7 @@ By default, each ancestry gets two.
 
 **Under-Developed Wings:** You have a fly speed of 6, but you fall at the end of your turn and your maximum altitude is 1.   
 
-**Unmoved:** Reduce any unwilling movement you are subject to by 1 square. When you would fall prone as the result of an attack, make a saving throw – on a success, you do not fall.   
+**Unmoved:** You may reduce any unwilling movement you are subject to by 1 square. When you would fall prone as the result of an attack, make a saving throw – on a success, you do not fall.   
 
 **Versatile Stride:** You ignore difficult terrain.   
 
@@ -740,20 +751,9 @@ By default, each ancestry gets two.
 
 ## Power  
 
-Each ancestry also gets one power. Choose one from the options below or from an existing ancestry, or design your own. 
+Each ancestry also gets one power. In some cases, they may choose this power from a list of two or more options. 
 
-> #### Farstrider  
->
-> **Encounter** **Utility** **Feature** (**Move Action**)   
-> **Self**   
-> **Effect** Shift up to your speed.  
-
-> #### True Grit  
->
-> **Encounter** **Utility** **Feature** (**No Action**)   
-> **Self**   
-> **Trigger** You fail a saving throw or miss with an attack roll  
-> **Effect** Add a +4 ancestry bonus to the roll/throw.  
+Choose powers from an existing ancestry, or design your own. 
 
 # Combat Maneuvers
 
@@ -772,7 +772,7 @@ The maneuvers introduced here are available to all characters, but they are only
 > **Melee** weapon, one creature  
 > **Attack** Strength or Dexterity vs Fortitude or Reflex (whichever is higher)  
 > **Hit** The target drops an item of your choice in its space.  
-> **Effect** You provoke an attack of opportunity from the target.  
+> **Effect** You provoke an opportunity attack from the target.  
 > **Special** A disarmed creature cannot use powers with the Weapon tag that are associated with that weapon. However, if disarmed of a melee weapon, they can always make an unarmed attack with the same attack bonus, doing damage equal to 4 + their level.  
 
 > #### Ignite  
@@ -797,7 +797,7 @@ The maneuvers introduced here are available to all characters, but they are only
 >
 > **At-Will** **Attack**  (**Move Action**) ● **Martial, Weapon**  
 > **Effect** Move up to your speed. Make a secondary attack each time you attempt to enter an enemy’s space. 
-> *Secondary Attack:* Strength vs Fortitude; on a hit, push the target 1 square and you successfully enter their space; on a miss, you provoke an opportunity attack from the target and fail to enter their space.  
+> *Secondary Attack:* Strength vs Fortitude; on a hit, push the target 1 square and you successfully enter their space; on a miss, you provoke an opportunity attack from the target, fail to enter their space, and your movement ends.
 
 > #### Repel  
 >
@@ -848,9 +848,9 @@ The maneuvers introduced here are available to all characters, but they are only
 
 ## Randomly Generating a Magic Item
 
-Subtract 1 from the level of the encounter and multiply by 4. Then add that to a d20 roll. 
+Roll 1d20 and add 4 for every level of the encounter above 1st.  
 
-If the result exceeds 20, subtract 20 and increase the bonus by 1. For example, if you roll 21 on the weapon table, it's a +2 weapon. If you roll 75, it's a +4 flame tongue weapon. 
+If the result exceeds 20, subtract 20 and increase the bonus by 1. For example, if you roll 21 on the weapon table, it's a +2 weapon. If you roll 75, it's a +4 flame tongue weapon. Items cannot exceed a +6 enchantment bonus, even if the result exceeds 120.
 
 ##### Table – Random Enchanted Magic Items
 
@@ -1074,11 +1074,12 @@ You cast bright light in an 8-square radius and dim light for an additional 8 sq
 
 ### Frost Brand (IV)  
 
-When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage. In addition, while you hold the sword, you have resistance to fire damage equal to double the enhancement bonus (for example resistance to fire 6 for +3 red dragon scale armor).  
+When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage. In addition, while you hold the sword, you have resistance to fire damage equal to double the enhancement bonus (for example resistance to fire 6 for a *+3 frost brand longsword*).  
 
 In freezing temperatures, the blade sheds bright light in a 2-square radius and dim light for an additional 2 squares.  
 
-Once per encounter, when you draw this weapon, you can extinguish all nonmagical flames within 6 squares.  
+**Item Power** (free, encounter) ● **Weapon**  
+When you draw this weapon: Extinguish all nonmagical flames in Near burst 6.  
 
 ### Hammer of Thunderbolts (IV)  
 
@@ -1093,9 +1094,9 @@ When you make an attack: This weapon's reach becomes 12 for the attack. If the a
 **Item Power** (free, encounter)
 An enemy you have marked falls to 0 HP or below: choose a target within 5 squares of the marked enemy. That target is now marked by you.   
 
-### Javelin of Lightning (III)  
+### Lightning (III)  
 
-*Javelins only*
+*Thrown weapons only*
 
 **Item Power** (standard, daily) ● **Lightning, Weapon**
 Near wall 24 (must be a straight line); Dexterity vs Reflex (all creatures); Xd6 lightning damage, where X equals the enhancement bonus; on a miss, half damage.   
@@ -1108,21 +1109,6 @@ You receive a +1 item bonus on saving throws.
 
 **Item Power** (free, daily)  
 Reroll one attack roll, ability check, or saving throw you dislike. You must use the second roll.
-
-### Oathbow (IV)  
-
-*Bows only*; *Minimum Enchantment:* +4  
-
-When you nock an arrow on this bow, it whispers in Elvish, “Swift defeat to my enemies.” When you loose the arrow, you can say, “Swift death to you who have wronged me” to make the arrow's target your sworn enemy.  
-
-**Item Power** (swift, daily)
-Choose one target of the next weapon attack you make. That target is your sworn enemy until it dies, or until seven days pass. You cannot use this power while you have an existing sworn enemy. 
-
-Attacks with this weapon you make against the sworn enemy have combat advantage. You suffer no range, cover or concealment penalties for attacking the sworn enemy. 
-
-If you score a critical hit, do +Xd12 damage instead of the normal amount of bonus critical damage. 
-
-While your sworn enemy lives, you suffer a -2 penalty on attack rolls with all other weapons.  
 
 ### Ravening (II)
 
@@ -1158,6 +1144,19 @@ Your attacks with this weapon do +Xd6 extra damage against creatures with that t
 ### Swift (I)
 
 Add the enhancement bonus to initiative checks. 
+
+### Sworn Vengeance (IV)  
+
+*Minimum Enchantment:* +4  
+
+**Item Power** (swift, daily)
+Choose one target of the next weapon attack you make. That target is your sworn enemy until it dies, or until seven days pass. You cannot use this power while you have an existing sworn enemy. 
+
+Attacks with this weapon you make against the sworn enemy have combat advantage. You suffer no range, cover or concealment penalties for attacking the sworn enemy. 
+
+If you score a critical hit, do +Xd12 damage instead of the normal amount of bonus critical damage. 
+
+While your sworn enemy lives, you suffer a -2 penalty on attack rolls with all other weapons.  
 
 ### Venom (II)  
 
@@ -2924,7 +2923,7 @@ You create a social identity, with its own name, alignment, and abilities. This 
 
 Changing from one identity to the other takes 1 minute and must be done out of sight from other creatures. As this process involves both physical changes such as clothing and makeup along with an altered state of mind, other effects that change your appearance don't reduce the time required to change identities.
 
-Your two identities are completely distinct. You have your current identity's alignment for effects that rely on alignment, though you are eligible for abilities that require a certain alignment (such as a cleric's deity) only if both of your identities qualify. Researching one of your identities don't reveal information about the other unless the person attempting the research knows both identities are the same person. Effects that detect you based on your identity work only if you are currently in the identity the effect is trying to detect; otherwise, the effect fails as if the target didn't exist.  
+Your two identities are completely distinct. You have your current identity's alignment for effects that rely on alignment, though you are eligible for abilities that require a certain alignment (such as an artifact that only respects good characters) only if both of your identities qualify. Researching one of your identities don't reveal information about the other unless the person attempting the research knows both identities are the same person. Effects that detect you based on your identity work only if you are currently in the identity the effect is trying to detect; otherwise, the effect fails as if the target didn't exist.  
 
 ### Nameless One  
 
