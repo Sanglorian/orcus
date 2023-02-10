@@ -1993,16 +1993,16 @@ When no damage type is specified (as is the case for most weapons, for example),
 The types are:   
 
 - **Acid:** The corrosive spray of a black dragon’s breath and the dissolving enzymes secreted by a black pudding deal acid damage.  
-- **Cold:** The infernal chill radiating from an ice devil’s spear and the frigid blast of a white dragon’s breath deal cold damage.  
+- **Cold:** The frigid blast of a white dragon’s breath deals cold damage.  
   
 - **Fire:** Red dragons breathe fire, and many spells conjure flames to deal fire damage.  
   
-- **Force:** Force is pure magical energy focused into a damaging form. Most effects that deal force damage are spells.  
+- **Force:** Force is pure magical energy focused into a damaging form. 
 - **Lightning:** A lightning bolt and a blue dragon’s breath deal lightning damage.  
-- **Necrotic:** Necrotic damage, dealt by certain undead and a spell such as *chill touch*, withers matter and even the soul.  
+- **Necrotic:** Necrotic damage, dealt by certain undead, withers matter and even the soul.  
 - **Poison:** Venomous stings and the toxic gas of a green dragon’s breath deal poison damage.  
   
-- **Psychic:** Mental abilities such as a mind flayer’s psionic blast deal psychic damage.  
+- **Psychic:** Mental abilities such as a psionic blast deal psychic damage.  
   
 - **Radiant:** Radiant damage, like that dealt by an angel’s smiting weapon, sears the flesh like fire and overloads the spirit with power.  
 - **Thunder:** A concussive burst of sound deals thunder damage.  
@@ -2011,6 +2011,8 @@ The types are:
 Some creatures and objects are exceedingly difficult or unusually easy to hurt with certain types of damage.  
 
 If a creature or an object has **resistance to X #**, damage of type X is reduced by #. If a creature or an object has **vulnerability to X #** to a damage type, whenever it takes damage of type X it takes +# damage.  
+
+Where multiple resistances or vulnerabilities apply, apply the highest resistance and the highest vulnerability. 
 
 # Movement and Position  
 

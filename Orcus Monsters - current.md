@@ -4493,7 +4493,7 @@ The wolf shifter can use *battleaxe* while in humanoid form and *bite* and *hams
 > ↗	**Animate Staff** (standard, at-will) ● **Weapon**  
 > Ranged 10; +7 vs AC; 1d12+3 damage.  
 > **Magic Sight**   
-> The grynloc has truesight 12 when it comes to seeing magical effects and magic items and those subject to magical effects or carrying magic items.  
+> The grynloc can, to a range of 12 squares, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceive the original form of a shapechanger or a creature that is transformed by magic. 
 
 Grynlocs are seven-foot tall, lanky hairless humanoids with legs that bend backwards, like a horse's. Their long, toothy mouths make them look a little like camels. They are nomadic desert-dwellers who can literally see magic instead of light when they lower a special lid across their eyes. 
 

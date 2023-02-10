@@ -332,7 +332,7 @@ You do not sleep, breathe, eat or drink.
 **Languages:** You can speak, read, and write Common, Primordial.  
 **Skill Bonuses:** +2 Arcana, +2 Perception.  
 
-**Magic Sight:** A grynloc can, to a range of 12 squares, see invisible creatures and  objects, automatically detect visual illusions and succeed on saving  throws against them, and perceive the original form of a shapechanger or a creature that is transformed  by magic.  
+**Magic Sight:** You can, to a range of 12 squares, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceive the original form of a shapechanger or a creature that is transformed by magic.  
 **Grynloc Gifts:** Once per encounter, you can use *shape magic* or *distraction*.  
 
 > #### Shape Magic  
@@ -673,13 +673,17 @@ As well as the color traits described here, feel free to come up with your own. 
 
 **Additional Language:** Members of this ancestry know an additional language, either one of their player's choice or one shared by all members of the ancestry. 
 
-**Fey Ancestry:** You have the fey tag.  
+**Cosmic Ancestry:** You have the cosmic source. 
+
+**Fey Ancestry:** You have the fey source.  
 
 **Hold Breath:** +5 ancestry bonus to Endure checks to hold your breath.  
 
 **Ice Stride:** Ice, snow or slurry are not difficult terrain for you.  
 
 **Low-Light Vision:** You can see in dim light as if it were bright light.  
+
+**Machine Ancestry:** You have the automaton type and the construct tag.  
 
 **Reptile Ancestry:** You have the reptile tag.  
 
@@ -688,6 +692,8 @@ As well as the color traits described here, feel free to come up with your own. 
 **Stone Stride:** Broken ground, uneven stone or rubble are not difficult terrain for you.  
 
 **Swamp Stride:** Mud, marsh and shallows are not difficult terrain for you.  
+
+**Tongue of Salt and Spray:** You can speak with riverine and ocean-going mammals and water birds.
 
 **Trance:** You don't need to sleep. Instead, you meditate deeply, remaining semiconscious, for 4 hours a day. While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. Your 4-hour trance has the same effect as a 6-hour long rest.  
 
@@ -713,6 +719,12 @@ By default, each ancestry gets two.
 
 **Go for the Jugular:** +1 ancestry bonus on attacks against staggered enemies.   
 
+**Heart of Stone:** You do not make death saving throws. You still die if reduced to negative hit points equal to your maximum hit points.  
+
+While unconscious, you do not need to breathe nor do you get hungrier or thirstier.
+
+**Heart of the Legion:** When adjacent to at least two allies, you receive a +1 power bonus to all defenses.
+
 **Hide in a Flash:** When you make an initiative check, if you are in cover or concealment, you can make a Stealth check to hide (takes no action).   
 
 **Injured Rage:** +1 ancestry bonus on attack rolls while staggered.   
@@ -721,7 +733,19 @@ By default, each ancestry gets two.
 
 **Light Shield Proficiency:** You have proficiency with light shields.  
 
-**Minor Magics:** You know one power from the Cantrips discipline.    
+**Made of Metal:** You do not make death saving throws. You still die if reduced to negative hit points equal to your maximum hit points. 
+
+You do not sleep, breathe, eat or drink.
+
+**Magic Sight:** You can, to a range of 12 squares, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceive the original form of a shapechanger or a creature that is transformed by magic.
+
+**Maze Mind:** When you are the target of an attack with the Psychic tag, the attacker is rattled (save ends).
+
+**Minor Magics:** You know one power from the Cantrips discipline. 
+
+**Powerful Build:** You have a +2 ancestry bonus to checks to escape a grapple. When you are the target of any attack or power that has a different effect based on the target’s size, you may choose to be treated as size Large instead of size Medium for the purposes of that attack.   
+
+**Natural Weapon – X:** You are proficient with a martial weapon, such as your claws, bite, horns or tail. The natural weapon has the statistics of a martial weapon. 
 
 **Nimbleness:** +2 ancestry bonus to AC against opportunity attacks.   
 
@@ -733,6 +757,8 @@ By default, each ancestry gets two.
 
 **Skill Training:** You are trained in an extra skill of your choice.  
 
+**Slimy Coating:** After each short rest you gain temporary hit points equal to your Constitution modifier (2 + Con at level 11, 5 + Con at level 21).
+
 **Speedy:** +1 to your base walking speed.  
 
 **Under-Developed Wings:** You have a fly speed of 6, but you fall at the end of your turn and your maximum altitude is 1.   
@@ -742,6 +768,8 @@ By default, each ancestry gets two.
 **Versatile Stride:** You ignore difficult terrain.   
 
 **Vigor:** Add your Constitution modifier to your recovery value.   
+
+**Wandering Charge:** When you charge, you do not need to move in a straight line.
 
 **X Defense:** +1 ancestry bonus to Fortitude, Reflex or Will defense.   
 
