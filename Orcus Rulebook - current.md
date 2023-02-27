@@ -3528,7 +3528,7 @@ Some enchanted items do nothing extra. However, others have been boosted. There 
 
 +X enhancement bonus to attack rolls and damage rolls with that weapon. On a critical hit, do a further +Xd6 damage.   
 
-**Bindings:** Arm and leg bindings can be enchanted. They act just like an enchanted weapon, except they apply to unarmed attacks. 
+**Bindings:** Arm and leg bindings can be enchanted. They act just like an enchanted weapon, except they apply to unarmed attacks and natural weapons. 
 
 ### Enchanted Focus +X  
 
@@ -3544,7 +3544,7 @@ At least a +X enhancement bonus to Armor Class while wearing that armor.
 
 ### Enchanted Cloak +X (Neck Slot)  
 
-+X enhancement bonus to Fortitude, Reflex and Will saves while wearing that cloak.   
++X enhancement bonus to Fortitude, Reflex and Will saves while wearing that cloak. This category includes enchanted necklaces, amulets and talismans as well as cloaks.  
 
 # Vehicles
 

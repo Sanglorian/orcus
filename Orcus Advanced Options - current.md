@@ -55,7 +55,7 @@ Humans typically learn the languages of other peoples they deal with, including 
 ### Human Traits  
 
 **Ability Score Increases:** +2 to one ability score of your choice  
-**Speed:** Your base walking speed is 6 squares.  
+**Speed:** 6 squares.  
 **Languages:** You can speak, read, and write Common and one extra language of your choice.   
 
 **Bonus Feat:** Choose one feat. You gain that feat.   
@@ -84,7 +84,7 @@ Instead of giving humans the Dabbler feature, GMs may want to offer them the *tr
 ### Apefolk Traits  
 
 **Ability Score Increases:** Pick two of +2 Strength, +2 Constitution and +2 Charisma.  
-**Speed:** Your base walking speed is 6 squares.  
+**Speed:** 6 squares.  
 **Languages:** You can speak, read, and write Common and one extra language of your choice..  
 **Skill Bonuses:** +2 Diplomacy, +2 Religion.  
 
@@ -100,7 +100,7 @@ Instead of giving humans the Dabbler feature, GMs may want to offer them the *tr
 > **Encounter** **Utility**  (**Swift Action**)   
 > **Near** burst 5, one ally  
 > **Effect** The target can take the rally action as a free action, if they are eligible to do so.  
-> **Special** This power does not affect the normal limitation that a character can only take the rally action once per combat.  
+> **Special** This does not count against the maximum number of times a character can use the rally action in an encounter.   
 
 
 ## Automaton  
@@ -110,7 +110,7 @@ Instead of giving humans the Dabbler feature, GMs may want to offer them the *tr
 ### Automaton Traits  
 
 **Ability Score Increases:** Pick two of +2 Constitution, +2 Intelligence and +2 Wisdom.  
-**Speed:** Your base walking speed is 6 squares.  
+**Speed:** 6 squares.  
 **Languages:** You can speak, read, and write Common and one extra language of your choice..  
 **Skill Bonuses:** +2 Endure, +2 History.  
 
@@ -123,7 +123,7 @@ You do not sleep, breathe, eat or drink.
 > #### Ingenuity  
 > **Encounter** **Utility** **Feature** (**Swift Action**)   
 > **Near** burst 5, self or one ally  
-> **Effect** Choose one: target shifts up to 2 as a free action, target makes a saving throw, target gets +2 power bonus to next attack roll or target gets +4 power bonus to next skill check. Power bonuses expire at the end of your next turn if not already used.  
+> **Effect** Choose one: the target shifts up to 2 as a free action, makes a saving throw, gets +2 power bonus to next attack roll or gets +4 power bonus to next skill check. Power bonuses expire at the end of your next turn if not already used.  
 
 
 ## Azer  
@@ -133,7 +133,7 @@ You do not sleep, breathe, eat or drink.
 ### Azer Traits  
 
 **Ability Score Increases:** Pick two of +2 Strength, +2 Constitution and +2 Wisdom.  
-**Speed:** Your base walking speed is 5, but your speed is not reduced by wearing heavy armor or carrying a heavy load. squares.  
+**Speed:** 5 squares, but your speed is not reduced by wearing heavy armor or carrying a heavy load. squares.  
 **Languages:** You can speak, read, and write Common, Primordial.  
 **Skill Bonuses:** +2 Arcana, +2 Endure.  
 **Low-Light Vision:** You can see in dim light as if it were bright light.  
@@ -158,13 +158,13 @@ You do not sleep, breathe, eat or drink.
 ### Baldanar Traits  
 
 **Ability Score Increases:** Pick two of +2 Dexterity, +2 Intelligence and +2 Charisma.  
-**Speed:** Your base walking speed is 6 squares.  
+**Speed:** 6 squares.  
 **Languages:** You can speak, read, and write Common and one extra language of your choice..  
 **Skill Bonuses:** +2 Bluff, +2 Stealth.  
 
 **Shared Mind:** You gain telepathy 5, which means you can communicate mentally with creatures you can see that are within 5 squares of you. The creature must be able to speak at least one language; once you have begun the communication they can “speak” back to you if they wish. Your telepathy does not allow you to read the creature’s thoughts or influence them other than in the same manner as ordinary verbal communication.  
 **Brief Mimicry:** You have the *brief mimicry* power from the Deep, Dark, Truthful Mirror discipline.  
-**Dabbler:** You have a third level 1 at-will attack power from your class.  
+**Dabbler:** Choose a level 1 at-will attack power from your class. You gain this power in addition to the those normally granted by your class.
 
 
 ## Catfolk  
@@ -174,7 +174,7 @@ You do not sleep, breathe, eat or drink.
 ### Catfolk Traits  
 
 **Ability Score Increases:** Pick two of +2 Dexterity, +2 Wisdom and +2 Charisma.  
-**Speed:** Your base walking speed is 6 squares.  
+**Speed:** 6 squares.  
 **Languages:** You can speak, read, and write Common and one extra language of your choice..  
 **Skill Bonuses:** +2 Acrobatics, +2 Streetsmarts.  
 **Low-Light Vision:** You can see in dim light as if it were bright light.  
@@ -197,7 +197,7 @@ You do not sleep, breathe, eat or drink.
 ### Cervitaur Traits  
 
 **Ability Score Increases:** Pick two of +2 Dexterity, +2 Wisdom and +2 Charisma.  
-**Speed:** Your base walking speed is 7 squares.  
+**Speed:** 7 squares.  
 **Languages:** You can speak, read, and write Common, Elven.  
 **Skill Bonuses:** +2 Nature, +2 Perception.  
 **Low-Light Vision:** You can see in dim light as if it were bright light.  
@@ -219,7 +219,7 @@ You do not sleep, breathe, eat or drink.
 ### Deepfolk Traits  
 
 **Ability Score Increases:** Pick two of +2 Dexterity, +2 Wisdom and +2 Charisma.  
-**Speed:** Your base walking speed is 6, swim 4 squares.  
+**Speed:** 6 squares, swim 4 squares.  
 **Languages:** You can speak, read, and write Common, Deep Speech.  
 **Skill Bonuses:** +2 Dungeoneering, +2 Streetsmarts.  
 **Darkvision:** You can see in darkness or dim light as if it were bright light.  
@@ -239,7 +239,7 @@ You do not sleep, breathe, eat or drink.
 ### Dromite Traits  
 
 **Ability Score Increases:** Pick two of +2 Dexterity, +2 Intelligence and +2 Charisma.  
-**Speed:** Your base walking speed is 5 squares.  
+**Speed:** 5 squares.  
 **Languages:** You can speak, read, and write Common, Deep Speech.  
 **Skill Bonuses:** +2 Arcana, +2 Insight.  
 **Darkvision:** You can see in darkness or dim light as if it were bright light.  
@@ -260,9 +260,9 @@ You do not sleep, breathe, eat or drink.
 ### Fetchling Traits  
 
 **Ability Score Increases:** Pick two of +2 Strength, +2 Intelligence and +2 Charisma.  
-**Speed:** Your base walking speed is 6 squares.  
+**Speed:** 6 squares.  
 **Languages:** You can speak, read, and write Common and one extra language of your choice..  
-**Skill Bonuses:** +2 History, +2 Sleight of Hand.  
+**Skill Bonuses:** +2 History, +2 Stealth.  
 **Low-Light Vision:** You can see in dim light as if it were bright light.  
 
 **Hold Breath:** +5 ancestry bonus to Endure checks to hold your breath.  
@@ -283,7 +283,7 @@ You do not sleep, breathe, eat or drink.
 ### Frogfolk Traits  
 
 **Ability Score Increases:** Pick two of +2 Constitution, +2 Dexterity and +2 Charisma.  
-**Speed:** Your base walking speed is 6 squares.  
+**Speed:** 5 squares, swim 5 squares.  
 **Languages:** You can speak, read, and write Common and one extra language of your choice..  
 **Skill Bonuses:** +2 Nature, +2 Stealth.  
 
@@ -304,8 +304,8 @@ You do not sleep, breathe, eat or drink.
 
 ### Gnoll Traits  
 
-**Ability Score Increases:** Pick two of +2 Strength, +2 Dexterity and +2 Charisma.  
-**Speed:** Your base walking speed is 6 squares.  
+**Ability Score Increases:** Pick two of +2 Strength, +2 Constitution and +2 Charisma.  
+**Speed:** 6 squares.  
 **Languages:** You can speak, read, and write Common, Abyssal.  
 **Skill Bonuses:** +2 Athletics, +2 Perception.  
 **Low-Light Vision:** You can see in dim light as if it were bright light.  
@@ -328,7 +328,7 @@ You do not sleep, breathe, eat or drink.
 ### Grynloc Traits  
 
 **Ability Score Increases:** Pick two of +2 Dexterity, +2 Intelligence and +2 Wisdom.  
-**Speed:** Your base walking speed is 6 squares.  
+**Speed:** 6 squares.  
 **Languages:** You can speak, read, and write Common, Primordial.  
 **Skill Bonuses:** +2 Arcana, +2 Perception.  
 
@@ -354,7 +354,7 @@ You do not sleep, breathe, eat or drink.
 ### Half-Giant Traits  
 
 **Ability Score Increases:** Pick two of +2 Strength, +2 Constitution and +2 Wisdom.  
-**Speed:** Your base walking speed is 6 squares.  
+**Speed:** 6 squares.  
 **Languages:** You can speak, read, and write Common, Giant.  
 **Skill Bonuses:** +2 Athletics, +2 Diplomacy.  
 
@@ -376,7 +376,7 @@ You do not sleep, breathe, eat or drink.
 ### Hobgoblin Traits  
 
 **Ability Score Increases:** Pick two of +2 Strength, +2 Constitution and +2 Dexterity.  
-**Speed:** Your base walking speed is 6 squares.  
+**Speed:** 6 squares.  
 **Languages:** You can speak, read, and write Common, Goblin.  
 **Skill Bonuses:** +2 History, +2 Intimidate.  
 
@@ -395,10 +395,10 @@ You do not sleep, breathe, eat or drink.
 
 **Small natural humanoid**  
 
-### Hoddydod (Snailfolk) Traits  
+### Hoddydod Traits  
 
 **Ability Score Increases:** Pick two of +2 Constitution, +2 Intelligence and +2 Wisdom.  
-**Speed:** Your base walking speed is 5, climb 5 squares.  
+**Speed:** 5 squares, climb 5 squares.  
 **Languages:** You can speak, read, and write Common and one extra language of your choice..  
 **Skill Bonuses:** +2 Heal, +2 Nature.  
 
@@ -409,7 +409,7 @@ You do not sleep, breathe, eat or drink.
 > **Encounter** **Attack** **Feature** (**Swift Action**) ● **Focus**  
 > **Ranged** 10, one creature  
 > **Attack** Con, Int or Wis (your choice) vs Fortitude  
-> **Hit** The target is slowed until the end of their next turn.  
+> **Hit** The target is dazed until the end of their next turn.  
 
 
 ## Mephit  
@@ -421,7 +421,7 @@ Choose one: fire (resistance to fire), water (resistance to cold), earth (resist
 ### Mephit Traits  
 
 **Ability Score Increases:** Pick two of +2 Dexterity, +2 Intelligence and +2 Charisma.  
-**Speed:** Your base walking speed is 6 squares.  
+**Speed:** 6 squares.  
 **Languages:** You can speak, read, and write Common, Primordial.  
 **Skill Bonuses:** +2 Arcana, +2 Religion.  
 **Darkvision:** You can see in darkness or dim light as if it were bright light.  
@@ -433,7 +433,7 @@ Choose one: fire (resistance to fire), water (resistance to cold), earth (resist
 > #### Breath Weapon  
 > **Encounter** **Attack** **Feature** (**Swift Action**) ● **Focus, [Energy]**  
 > **Near** arc 3, targets all  
-> **Attack** (Highest of Strength, Constitution, Dexterity) +2 vs Reflex  
+> **Attack** (Highest of Strength, Constitution, Dexterity) vs Reflex  
 > **Hit** 1d6 + Constitution modifier. 
 > *Level 11:* 2d6 + Constitution modifier. 
 > *Level 21:* 3d6 + Constitution modifier.  
@@ -447,7 +447,7 @@ Choose one: fire (resistance to fire), water (resistance to cold), earth (resist
 ### Minotaur Traits  
 
 **Ability Score Increases:** Pick two of +2 Strength, +2 Intelligence and +2 Wisdom.  
-**Speed:** Your base walking speed is 6 squares.  
+**Speed:** 6 squares.  
 **Languages:** You can speak, read, and write Common and one extra language of your choice..  
 **Skill Bonuses:** +2 Dungeoneering, +2 Religion.  
 **Darkvision:** You can see in darkness or dim light as if it were bright light.  
@@ -470,9 +470,9 @@ Choose one: fire (resistance to fire), water (resistance to cold), earth (resist
 ### Quickling Traits  
 
 **Ability Score Increases:** Pick two of +2 Dexterity, +2 Intelligence and +2 Charisma.  
-**Speed:** Your base walking speed is 7 squares.  
+**Speed:** 7 squares.  
 **Languages:** You can speak, read, and write Common, Elven.  
-**Skill Bonuses:** +2 Nature, +2 Stealth.  
+**Skill Bonuses:** +2 Acrobatics, +2 Stealth.  
 **Low-Light Vision:** You can see in dim light as if it were bright light.  
 
 **Hide in a Flash:** When you make an initiative check, if you are in cover or concealment, you can make a Stealth check to hide (takes no action).  
@@ -491,7 +491,7 @@ Choose one: fire (resistance to fire), water (resistance to cold), earth (resist
 ### Rook Traits  
 
 **Ability Score Increases:** Pick two of +2 Strength, +2 Constitution and +2 Intelligence.  
-**Speed:** Your base walking speed is 6 squares.  
+**Speed:** 6 squares.  
 **Languages:** You can speak, read, and write Common, Giant.  
 **Skill Bonuses:** +2 Diplomacy, +2 Endure.  
 
@@ -520,7 +520,7 @@ While unconscious, you do not need to breathe nor do you get hungrier or thirsti
 ### Selkmay Traits  
 
 **Ability Score Increases:** Pick two of +2 Dexterity, +2 Wisdom and +2 Charisma.  
-**Speed:** Your base walking speed is 6 squares.  
+**Speed:** 6 squares.  
 **Languages:** You can speak, read, and write Common and one extra language of your choice..  
 **Skill Bonuses:** +2 Acrobatics, +2 Heal.  
 
@@ -549,7 +549,7 @@ While unconscious, you do not need to breathe nor do you get hungrier or thirsti
 ### Shadow Elf Traits  
 
 **Ability Score Increases:** Pick two of +2 Dexterity, +2 Intelligence and +2 Wisdom.  
-**Speed:** Your base walking speed is 6 squares.  
+**Speed:** 6 squares.  
 **Languages:** You can speak, read, and write Common, Elven.  
 **Skill Bonuses:** +2 Bluff, +2 Insight.  
 **Low-Light Vision:** You can see in dim light as if it were bright light.  
@@ -571,7 +571,7 @@ While unconscious, you do not need to breathe nor do you get hungrier or thirsti
 ### Spriggan Traits  
 
 **Ability Score Increases:** Pick two of +2 Strength, +2 Constitution and +2 Wisdom.  
-**Speed:** Your base walking speed is 5 squares.  
+**Speed:** 5 squares.  
 **Languages:** You can speak, read, and write Common, Elven.  
 **Skill Bonuses:** +2 Athletics, +2 Intimidate.  
 **Low-Light Vision:** You can see in dim light as if it were bright light.  
@@ -594,7 +594,7 @@ Vishyas are graceful humanoids with venomous fangs and serpentine eyes. Their su
 ### Vishya Traits  
 
 **Ability Score Increases:** Pick two of +2 Constitution, +2 Dexterity and +2 Charisma.  
-**Speed:** Your base walking speed is 6 squares.  
+**Speed:** 6 squares.  
 **Languages:** You can speak, read, and write Common, Draconic.  
 **Skill Bonuses:** +2 Acrobatics, +2 Bluff.  
 **Low-Light Vision:** You can see in dim light as if it were bright light.  
@@ -608,7 +608,7 @@ Vishyas are graceful humanoids with venomous fangs and serpentine eyes. Their su
 > *Your fangs excrete a mild poison.*  
 > **Encounter** **Attack** **Feature** (**Swift Action**) ● **Focus, Poison**  
 > **Melee** 1, one target  
-> **Attack** Dexterity or Constitution +2 vs AC  
+> **Attack** Dexterity or Constitution vs AC  
 > **Hit** 1d8 + your Dexterity or Constitution modifier poison damage.
 > *Level 11:* Attack bonus increases to +4. 2d8 + modifier damage.
 > *Level 21:* Attack bonus increases to +6. 3d8 + modifier damage.  
@@ -623,7 +623,7 @@ Whoms are humanoid wombats who live in burrows underground.
 ### Whom Traits  
 
 **Ability Score Increases:** Pick two of +2 Strength, +2 Constitution and +2 Wisdom.  
-**Speed:** Your base walking speed is 5 squares.  
+**Speed:** 5 squares.  
 **Languages:** You can speak, read, and write Common, Dwarvish.  
 **Skill Bonuses:** +2 Dungeoneering, +2 Insight.  
 **Low-Light Vision:** You can see in dim light as if it were bright light.  
@@ -638,6 +638,8 @@ Whoms are humanoid wombats who live in burrows underground.
 > **Self**   
 > **Trigger** You are staggered.  
 > **Effect** You have a +2 bonus to speed and to damage rolls until the end of the encounter.  
+> *Level 11:* You have a +2 bonus to speed and a +5 bonus to damage rolls until the end of the encounter.   
+> *Level 21:* You have a +2 bonus to speed and a +7 bonus to damage rolls until the end of the encounter.
 
 # Designing Your Own Ancestries  
 
@@ -1009,6 +1011,9 @@ You recover an arcane encounter power you have already expended, of the item's l
 
 Each *reshaping focus* is associated with a type of damage. The GM chooses the type or determines it randomly from the options below.  
 
+**Item Power** (free, encounter)  
+When you use a power that does damage, the damage is instead of the type associated with this focus. 
+
 ##### Table – Reshaping Focus
 
 | d10  | Damage Type |
@@ -1023,9 +1028,6 @@ Each *reshaping focus* is associated with a type of damage. The GM chooses the t
 | 8    | Psychic     |
 | 9    | Radiant     |
 | 10   | Thunder     |
-
-**Item Power** (free, encounter)  
-When you use a power that does damage, the damage is instead of the type associated with this focus. 
 
 ### Runic (IV)
 
@@ -2265,9 +2267,9 @@ Poisons can either be used in combat as powers, or if the poisoner gets an oppor
 > **Special** If Repulsion Resin is consumed, the target has the following aura for 1 hour.
 > *Repulsion aura 1:* If a creature moves into an adjacent square, as an opportunity action the subject of the aura makes an attack: Dexterity vs Fortitude; the target is pushed 1 and their move ends.  
 
-## Hirelings, Animals and Companions
+## Hirelings and Companions
 
-You can typically purchase an animal or other creature for two times the cost of an enchanted item of the same level. If the creature gives special utility, for example it can fly at a low level, it typically costs four times the cost of an enchanted item. 
+You can typically purchase an animal or other creature for two times the cost of an enchanted item of the same level, if it is a standard monster. The multiplier is four for an elite monster and eight for a boss monster. If the creature gives special utility, for example it can fly at a low level, it typically costs twice again what it would normally cost. 
 
 # Backgrounds  
 
