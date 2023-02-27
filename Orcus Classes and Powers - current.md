@@ -2216,6 +2216,20 @@ You are a highly effective fighter who takes advantage of any weakness left by y
 > **Attack** Dexterity (ranged) or Strength (melee) vs AC  
 > **Hit** Dexterity (ranged) or Strength (melee) modifier damage, and the target is dazed until the start of your next turn.  
 
+> #### In Their Face
+> *Your darting attack puts your enemy off guard.*  
+> **Encounter Attack 1 (Standard Action)** ● **Martial, Weapon**  
+> **Melee or Ranged** weapon, one creature  
+> **Attack** Dexterity (ranged) or Strength (melee) vs AC  
+> **Hit** 2dW + Dexterity (ranged) or Strength (melee) modifier damage and the target grants combat advantage until the end of your next turn.   
+
+> #### The Finisher
+> *You hit hard. That’s it. That’s enough.*  
+> **Daily Attack 1 (Standard Action)** ● **Consistent, Martial, Weapon**  
+> **Melee or Ranged** weapon, one creature  
+> **Attack** Dexterity (ranged) or Strength (melee) vs AC  
+> **Hit** 3dW + Dexterity (ranged) or Strength (melee) modifier damage.   
+
 > #### Heron Defense  
 > *Your enemy tries to find a weakness.  It finds none.*  
 > **At-Will** **Utility** **2** (**Move Action**) ● **Martial**  
@@ -2235,6 +2249,14 @@ You are a highly effective fighter who takes advantage of any weakness left by y
 > **Melee or Ranged** weapon, the triggering creature  
 > **Trigger** A creature makes an  attack against you.  
 > **Effect** Make a basic attack against the target.  The target suffers a -4 penalty to the triggering attack roll.  
+
+> #### All or Nothing  
+> *You strike so fast, both attacks are literally too close to distinguish them.*  
+> **Daily** **Attack** **5** (**Free Action**) ● **Martial**  
+> **Self**   
+> **Trigger** You hit an enemy.  
+> **Effect** The target takes 2dW extra damage from the triggering attack and is knocked prone.  
+> **Boost Level 15** The target takes 3dW extra damage from the triggering attack and is knocked prone.  
 
 > #### Flow or Crash  
 > *Become what you need to survive. Adapt, flow, slide, and prove yourself.*  
@@ -2263,13 +2285,6 @@ You are a highly effective fighter who takes advantage of any weakness left by y
 > **Trigger** A creature’s attack does damage to an ally that would cause the ally to become staggered.  
 > **Effect** Make a basic attack against the target. If the attack hits, the triggering creature’s attack misses.  
 
-> #### All or Nothing  
-> *You strike so fast, both attacks are literally too close to distinguish them.*  
-> **Daily** **Attack** **15** (**Free Action**) ● **Martial**  
-> **Self**   
-> **Trigger** You hit an enemy.  
-> **Effect** The target takes 2dW extra damage from the triggering attack and is knocked prone.  
-
 > #### Swell of Discipline  
 > *Your body moves faster than others can blink and without warning, you have either vanished or your enemies around have fallen at your feet.*  
 > **Daily** **Utility** **16** (**Free Action**) ● **Martial**  
@@ -2281,9 +2296,10 @@ You are a highly effective fighter who takes advantage of any weakness left by y
 > **Encounter** **Attack** **17** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature marked by you  
 > **Attack** Strength vs AC  
-> **Hit** 2dW + Strength modifier damage, and the target is dazed, weakened, and is rattled until the end of your next turn.  
+> **Hit** 1dW + Strength modifier damage, and the target is dazed, weakened, and is rattled until the end of your next turn.  
 > **Miss** Half damage, and the target is dazed until the end of your next turn.  
 > **Maintain Standard** Repeat the attack against the same target. You cannot maintain if you miss.  
+> **Boost Level 27** 2dW + Strength modifier damage, and the target is dazed, weakened, and is rattled until the end of your next turn.
 
 > #### An Unwise Action  
 > *Enemies train their weapons.  You advise your opponents of the wisdom of such a risk, and then show them why.*  
@@ -4113,12 +4129,18 @@ You are sturdy and powerful, and it is almost impossible to take you down or hol
 
 > #### Devastating Body Attack  
 > *You make the target think it just got struck by a gorilla … riding a horse.*  
-> **At-Will** **Attack** **1** (**Move and Standard Action**) ● **Martial, Weapon**  
-> **Melee** weapon, one creature two squares away  
+> **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
+> **Melee** weapon, one creature up to one square out of reach  
 > **Attack** Strength vs AC  
-> **Hit** 1dW + Strength modifier damage, and you push the target 1 square. When rolling damage, reroll all 1s until they come up as something other than a 1. If the target cannot be pushed because of an obstruction, you inflict maximum damage.
+> **Hit** 1dW + Strength modifier damage, and you push the target 1 square. If the target cannot be pushed because of an obstruction, you inflict maximum damage.
 *Level 21:* 2dW + Strength modifier damage.  
-> **Effect** Before your attack, shift into a square adjacent to the target.  
+> **Effect** Before your attack, shift up to one square towards the target. This must bring the target within reach.  
+
+> #### Knock-About Strike   
+> *You leave your opponent reeling.*  
+> **Encounter Attack 1 (Standard Action)** ● **Martial**  
+> **Self**  
+> **Effect** Make a basic melee attack. If you hit, the target is also rattled until the end of your next turn.  
 
 > #### Inconsequential Injury  
 > *Nothing clears the head like hurting something else.*  
@@ -4154,6 +4176,14 @@ You are sturdy and powerful, and it is almost impossible to take you down or hol
 > **Effect** The target takes 1dW extra damage from the triggering attack.
 *Secondary Effect:* You and one adjacent ally can shift a number of squares equal to 1+ your Strength modifier. You and the ally must be adjacent at the end of the shift.  
 
+> #### Wade In
+> *A powerful blow tells your foes to bring it on. You are ready.* 
+> **Daily Attack 5 (Standard Action)** ● **Martial, Weapon**
+> **Melee** weapon, one creature 
+> **Attack** Strength vs AC
+> **Hit** 3dW + Strength modifier damage and the target is dazed until the end of your next turn. 
+> **Effect** You gain resistance to all damage 5 until the end of your next turn.
+
 > #### Once More Into the Breach  
 > *Despite injuries and your brain telling you you’re done, your body refuses to fall.*  
 > **Encounter** **Utility** **6** (**Move Action**) ● **Healing, Martial**  
@@ -4166,6 +4196,15 @@ You are sturdy and powerful, and it is almost impossible to take you down or hol
 > **Daily** **Utility** **6** (**Swift Action**) ● **Martial, Stance**  
 > **Self**   
 > **Effect** While you are in this stance, you have resistance 5 to all damage. You can shift 1 as a swift action, but you must shift towards the nearest enemy.  
+
+> #### In The Face  
+> *An enemy raises a club, sword, or any other archaic implement of barbarity and you respond with your own medieval response.*  
+> **Encounter** **Attack** **7** (**No Action**) ● **Martial, Weapon**  
+> **Melee** weapon, the triggering enemy  
+> **Trigger** One enemy hits you with an opportunity attack.  
+> **Attack** Strength vs AC  
+> **Hit** 1dW + Strength modifier damage, and the attack misses.  
+> **Boost Level 17** 3dW + Strength modifier damage, and the attack misses. 
 
 > #### He Ain’t Heavy  
 > *You grab a fallen ally and throw them over your shoulder as you withdraw.*  
@@ -4207,22 +4246,13 @@ You are sturdy and powerful, and it is almost impossible to take you down or hol
 > **Effect** You gain regeneration 5 until the end of your next turn. You grant cover to all allies in adjacent squares, regardless of line of sight.  
 > **Maintain Move** The effect persists until the end of your next turn. You cannot maintain if you leave your current square.  
 
-> #### In The Face  
-> *An enemy raises a club, sword, or any other archaic implement of barbarity and you respond with your own medieval response.*  
-> **Encounter** **Attack** **17** (**No Action**) ● **Martial, Consistent, Weapon**  
-> **Melee** weapon, the triggering enemy  
-> **Trigger** One enemy hits you with an opportunity attack.  
-> **Attack** Strength vs AC  
-> **Hit** 3dW + Strength modifier damage, and the attack misses.  
-> **Special** Spend a recovery, but regain no hit points; instead, you recover the use of this power.  
-
 > #### Nosebleed  
 > *You sniff up the blood, bark loudly, and assault the newly frightened enemy.*  
 > **Daily** **Attack** **19** (**Reaction Action**) ● **Martial, Weapon**  
 > **Melee** weapon, the triggering enemy  
-> **Trigger** One enemy scores a critical hit on you.  
-> **Effect** The hit only inflicts normal damage.  Make a basic attack: one hit creature takes 1dW extra damage
-*Secondary Effect:*  Gain a +2 bonus to all attack rolls and damage rolls until the end of the encounter against the triggering enemy.  
+> **Trigger** One enemy hits you with an attack.  
+> **Effect** The hit inflicts no damage. Make a basic attack: one hit creature takes 1dW extra damage.  
+> **Boost Level 29** After you make your basic attack, you gain a +2 bonus to all attack rolls and damage rolls until the end of the encounter against the triggering enemy. 
 
 > #### Just Got the Wind Knocked  
 > *What? Nah, nah, I’m doing just fine.*  
