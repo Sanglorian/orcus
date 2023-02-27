@@ -23,10 +23,10 @@ Campaign resources:
 
 Experiments:
 
-* [3-by-4 Sublime Classes](3-by-4 Sublime Classes) ([PDF](https://github.com/Sanglorian/orcus/raw/main/3-by-4%20Sublime%20Classes.pdf))
+* [3-by-4 Sublime Classes](3-by-4 Sublime Classes.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/3-by-4%20Sublime%20Classes.pdf))
 * Tiles ([PDF only](https://github.com/Sanglorian/orcus/blob/main/tiles/tiles-merged.pdf))
 * Monster sheet ([PDF only](https://github.com/Sanglorian/orcus/raw/main/Monster%20Sheet%20%5BFinal%5D.pdf))
-* [Warrior](Warrior)
+* [Warrior](Warrior.md)
 
 Older versions: 
 
