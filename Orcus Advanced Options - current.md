@@ -444,6 +444,8 @@ Choose one: fire (resistance to fire), water (resistance to cold), earth (resist
 
 **Medium natural humanoid**  
 
+<figure><img  src="pics\DnD_Minotaur.png" alt="Minotaur by LadyofHats"  style="zoom: 100%;" /><figcaption>Minotaur by  LadyofHats</figcaption></figure>
+
 ### Minotaur Traits  
 
 **Ability Score Increases:** Pick two of +2 Strength, +2 Intelligence and +2 Wisdom.  
@@ -516,6 +518,8 @@ While unconscious, you do not need to breathe nor do you get hungrier or thirsti
 ## Selkmay  
 
 **Medium natural humanoid (shapechanger)**  
+
+<figure><img  src="pics\DnD_Nixie.png" alt="Nixie by LadyofHats"  style="zoom: 100%;" /><figcaption>Nixie by  LadyofHats</figcaption></figure>
 
 ### Selkmay Traits  
 
@@ -1223,12 +1227,12 @@ While wearing this amulet, you have resistance to force damage, equal to double 
 
 ### Amulet of Up-and-Down (IV)
 
-Each time you would fail a death save, if you have recoveries remaining, you lose a recovery instead. 
+Each time you would fail a death save, if you have recoveries remaining, you may choose to lose a recovery instead. 
 
 ### Cape of the Mountebank (II)  
 
 **Disappear in a Cloud of Smoke** (standard, daily) ● **Illusion, Teleportation**
-Teleport up to 20 squares. You have concealment until the end of your next turn, or until wind disperses the smoke.  
+Teleport up to 20 squares. You have concealment until the end of your next turn or until wind disperses the smoke (whichever comes first).  
 
 ### Cloak of Arachnida (IV)  
 
@@ -1258,11 +1262,11 @@ Until the end of the encounter, you can be under the effect of two powers with t
 
 While wearing this cloak, you have a +2 item bonus on Stealth checks.   
 
-In an area of dim light or darkness, you can grip the edges of the cloak with both hands and use it to fly at a speed of 8 squares. If you ever fail to grip the cloak's edges while flying in this way, or if you are no longer in dim light or darkness, you lose this flying speed.  
+In an area of dim light or darkness, you can grip the edges of the cloak with both hands and use it to fly at a speed of 8 squares. If you ever fail to grip the cloak's edges while flying in this way, or if you are no longer in dim light or darkness, you lose this flying speed. If you are in the air when this happens, you fall. 
 
 ### Cloak of the Eel (III)
 
-When an attack misses you, you can shift 1. 
+Each time an attack misses you, you can shift 1. 
 
 ### Cloak of the Manta Ray (I)  
 
@@ -1294,7 +1298,7 @@ You receive a +1 item bonus on saving throws.
 ### Medallion of Thoughts (IV)
 
 **Item Power** (standard, daily)  
-Wisdom vs Will; on a hit, you gain insight into the target's its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). 
+Wisdom vs Will; on a hit, you gain insight into the target’s reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). 
 
 ### Necklace of Adaptation (I)
 
@@ -1364,7 +1368,7 @@ Remember, enhancement bonuses do not stack, so this replaces your existing *ench
 
 ### Armor of Toughness (I)
 
-Add +X to your recovery value.
+Add +X to your recovery value while wearing this armor.
 
 ### Dragon Scale (III)  
 
@@ -1432,7 +1436,7 @@ When you would be stunned, you are dazed instead.  When you would be immobile, y
 
 ### Lifegiving (IV)
 
-Any time you spend a recovery to heal, you can spend an additional recovery to heal additional hit points equal to your recovery value. 
+Any time you spend a recovery to heal, you can spend one additional recovery to heal additional hit points equal to your recovery value. 
 
 ### Ophiduan (II)  
 
@@ -1465,7 +1469,8 @@ When you make a successful save against persistent damage, gain temporary hit po
 
 *Level 3*  
 
-Once per encounter, reroll a failed Intelligence attack or an Intelligence-based skill check.   
+**Item Power** (free, encounter)   
+ You miss on an Intelligence attack or fail an Intelligence-based skill check: Reroll the attack roll or skill check.  
 
 ### Helm of Brilliance  
 
@@ -1508,7 +1513,8 @@ You can speak, read, and write Dwarvish.
 
 *Level 4*  
 
-Once per encounter, reroll a failed Strength attack or a Strength-based skill check.   
+**Item Power** (free, encounter) 
+ You miss on a Strength attack or fail a Strength-based skill check: Reroll the attack roll or skill check.  
 
 ### Belt of the Archer
 
@@ -1575,13 +1581,13 @@ You have the terrain stride feature.
 *Level 21*  
 
 **Item Power** (standard, daily) ● **Illusion**
-You turn invisible until the encounter ends, you attack or you use a swift action to end the effect. 
+You turn invisible until the encounter ends, you attack or you use a swift action to end the effect (whichever comes first). 
 
 ### Ring of Mind Shielding  
 
 *Level 20*  
 
-While wearing this ring, other creatures cannot to read your thoughts, determine whether you are lying, know your alignment, or know your creature ancestry or tags. Creatures can telepathically communicate with you only if you allow it.  
+While you are wearing this ring, other creatures cannot read your  thoughts, determine whether you are lying or know your alignment. They also cannot discern your creature ancestry or tags except as may be possible by visual examination. Creatures can telepathically communicate with you only if you allow it.  
 
 You can use a swift action to cause the ring to become invisible until you use another swift action to make it visible, until you remove the ring, or until you die.  
 
@@ -1663,7 +1669,7 @@ While you wear these boots, you gain a fly speed of 4 (maximum altitude 2).
 
 *Level 9*
 
-While you wear these boots, your speed increases by 2. 
+While you wear these boots, your walking speed increases by 2. 
 
 ### Boots of the Winterlands
 
@@ -1684,7 +1690,9 @@ While you wear these boots, you have a flying speed equal to your walking speed.
 *Level 8*
 
 **Pull Out an Ogre** (standard, daily) ● **Summons**
-Place an ogre wretch in an unoccupied space adjacent to you. At the end of the encounter, the ogre wretch disappears. The ogre wretch has the following feature: 
+Place an ogre wretch in an unoccupied space adjacent to you. The ogre wretch is a companion, and follows the companion rules (including obeying your commands). At the end of the encounter or if reduced to 0 hit points or below, the ogre wretch disappears. 
+
+The ogre wretch has the following feature: 
 
 *Instinct*
 At the end of your turn, if the ogre wretch has not received a command that turn, it moves to the nearest enemy and uses *maul*. 
@@ -1823,7 +1831,7 @@ In addition, the creature can move at normal speed for up to 12 hours a day with
 
 *Level 10*  
 
-When these four iron horseshoes are affixed to the hooves of a horse or similar creature, they increase the creature's speed by 6.  
+When these four iron horseshoes are affixed to the hooves of a horse or similar creature, they increase the creature’s walking speed by 6.  
 
 ### Immovable Rod  
 
@@ -1880,7 +1888,21 @@ A creature within 6 squares uses an arcane power: You can spend a recovery to he
 
 *Level 4*
 
-While you play these pipes, you can communicate with rats (including giant rats) and they will not attack you unless you threaten or harm them.
+In addition to playing these pipes as a normal musical instrument, you can use them to produce rodent-like sounds. While doing so, you can communicate with rats (including giant rats) and they will not attack you unless you threaten or harm them.
+
+### Portable Hole  
+
+*Level 9*  
+
+This fine black cloth, soft as silk, is folded up to the dimensions of a handkerchief. It unfolds into a circular sheet 6 feet in diameter.  
+
+You can use a standard action to unfold a *portable hole* and place it on or against a solid surface, whereupon the *portable hole* creates an extradimensional hole 2 squares deep. The cylindrical space within the hole exists on a different plane, so it can't be used to create open passages. Any creature inside an open *portable hole* can exit the hole by climbing out of it.  
+
+You can use a standard action to close a *portable hole* by taking hold of the edges of the cloth and folding it up. Folding the cloth closes the hole, and any creatures or objects within remain in the extradimensional space. No matter what's in it, the hole weighs next to nothing.  
+
+If the hole is folded up, a creature within the hole's extradimensional space can use an action to make a DC 10 Athletics check. On a successful check, the creature forces its way out and appears within 1 square of the *portable hole* or the creature carrying it. A breathing creature within a closed *portable hole* can survive for up to 10 minutes, after which time it begins to suffocate.  
+
+Placing a *portable hole* inside another *portable hole*, or an extradimensional space created by another item, instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 2 squares of the gate is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.  
 
 ### Robe of Eyes
 
@@ -1903,20 +1925,6 @@ If you are hit by an attack with the radiant tag, you are dazed (save ends).
 A 60-foot-long *rope of climbing* is no thicker than a wand, but it is strong enough to support 3,000 pounds. Upon command, the rope snakes forward, upward, downward, or in any other direction at 2 squares (10 feet) per round, attaching itself securely wherever its owner desires. It can unfasten itself and return in the same manner.
 
 A *rope of climbing* can be commanded to knot or unknot itself. This causes large knots to appear at 1-foot intervals along the rope. Knotting shortens the rope to a 50-foot length until the knots are untied but lowers the DC of Athletics checks to climb with it by 5. A creature must hold one end of the rope when its magic is invoked. 
-
-### Portable Hole  
-
-*Level 9*  
-
-This fine black cloth, soft as silk, is folded up to the dimensions of a handkerchief. It unfolds into a circular sheet 6 feet in diameter.  
-
-You can use a standard action to unfold a *portable hole* and place it on or against a solid surface, whereupon the *portable hole* creates an extradimensional hole 2 squares deep. The cylindrical space within the hole exists on a different plane, so it can't be used to create open passages. Any creature inside an open *portable hole* can exit the hole by climbing out of it.  
-
-You can use a standard action to close a *portable hole* by taking hold of the edges of the cloth and folding it up. Folding the cloth closes the hole, and any creatures or objects within remain in the extradimensional space. No matter what's in it, the hole weighs next to nothing.  
-
-If the hole is folded up, a creature within the hole's extradimensional space can use an action to make a DC 10 Athletics check. On a successful check, the creature forces its way out and appears within 1 square of the *portable hole* or the creature carrying it. A breathing creature within a closed *portable hole* can survive for up to 10 minutes, after which time it begins to suffocate.  
-
-Placing a *portable hole* inside an extradimensional space created by a *bag of holding*, *handy haversack*, or similar item instantly destroys both items and opens a gate to the Astral Plane. The gate originates where the one item was placed inside the other. Any creature within 2 squares of the gate is sucked through it and deposited in a random location on the Astral Plane. The gate then closes. The gate is one-way only and can't be reopened.  
 
 ### Satchel of Useful Items
 
@@ -2042,7 +2050,7 @@ As a standard action, you can apply the salve to an adjacent creature that died 
 
 *Level 15*
 
-As a swift action, you can insert the skeleton key into any lock. If the lock would open with a Sleight of Hand result of 30, the lock opens. Then the skeleton key turns to dust. 
+As a swift action, you can insert the skeleton key into any lock. If the lock would open with a Sleight of Hand result of 30, the lock opens and the skeleton key turns to dust. Otherwise the lock remains closed, but the skeleton key is unharmed. 
 
 ### Tonic of Agility
 
@@ -2081,7 +2089,7 @@ Gain the listed item bonus to Fortitude defense and Endure checks.
 
 You gain resistance to poison 5 (10 at level 11, 15 at level 21).
 
-You gain spend a recovery to heal your recovery value, but this immediately ends the effects of the tonic. 
+You may spend a recovery to heal your recovery value, but this immediately ends the effects of the tonic. 
 
 ### Tonic of Regeneration
 
@@ -2212,7 +2220,7 @@ Poisons can either be used in combat as powers, or if the poisoner gets an oppor
 > #### Cerulean Scourge  
 >
 > **Consumable** **Attack** **19** (**Swift Action**) ● **Poison, Transmutation**  
-> **Effect** The next target you hit with a weapon casts light with the brightness of a sunroad (save ends).  
+> **Effect** The next target you hit with a weapon casts light with the brightness of a sunrod (save ends).  
 > *Aftereffect:* The target takes 4d6 + Dexterity modifier poison damage.  
 > **Special** If Cerulean Scourge is ingested, the target casts light like a sunrod for 24 hours, and then takes 6d6 poison damage.  
 

@@ -847,6 +847,8 @@ The pegasus is a magnificent winged horse that sometimes serves the cause of goo
 
 A unicorn has deep sea-blue, violet, brown, or fiery gold eyes. Males sport a white beard. A typical adult unicorn grows to 8 feet in length, stands 5 feet high at the shoulder, and weighs 1,200 pounds. Females are slightly smaller and slimmer than males. 
 
+<figure><img src="pics\DnD_Unicorn.png" alt="Unicorn by LadyofHats" style="zoom: 100%;" /><figcaption>Unicorn by LadyofHats</figcaption></figure>
+
 ##### Variant
 
 ##### Winged Unicorn
@@ -1510,13 +1512,13 @@ Lamias recruit unwanted children, turning them into lycanthropes - their janissa
 
 Replace *buffet* and *control wind* with  
 **Claw (standard, at-will)** +14 vs Reflex; 2d12+4 damage and make a secondary attack against the target. *Secondary Attack* +14 vs Fortitude; the target is grappled.   
-**Constrictor (swift, at-will) * Stance** At the start of the invisible stalker's turn, it makes a *claw* attack against a creature it is grappling. While in this stance, the invisible stalker cannot make opportunity attacks.  
-**Human Shield (swift, at-will) * Stance** As a an immediate counter, if the invisible stalker is grappling a creature and is the target of an attack targeting AC or Reflex, it can make the creature it is grappling the target of the attack instead. The invisible stalker cannot do this if the creature it is grappling is the one attacking. While in this stance, the invisible stalker grants combat advantage and cannot make opportunity attacks. 
+**Constrictor (swift, at-will) ● Stance** At the start of the invisible stalker's turn, it makes a *claw* attack against a creature it is grappling. While in this stance, the invisible stalker cannot make opportunity attacks.  
+**Human Shield (swift, at-will) ● Stance** As a an immediate counter, if the invisible stalker is grappling a creature and is the target of an attack targeting AC or Reflex, it can make the creature it is grappling the target of the attack instead. The invisible stalker cannot do this if the creature it is grappling is the one attacking. While in this stance, the invisible stalker grants combat advantage and cannot make opportunity attacks. 
 
 ##### Poltergeist
 
 **Medium shadow humanoid (undead)**  
-**Raise Up (free, at-will): If *control wind* hits: +14 vs Will; the target is levitated 1 square and restrained (save ends both).  
+**Raise Up (free, at-will)** If *control wind* hits: +14 vs Will; the target is levitated 1 square and restrained (save ends both).  
 
 
 > #### Large Air Elemental  
@@ -1543,6 +1545,8 @@ Replace *buffet* and *control wind* with
 > +16 vs Fortitude; The target is shunted 3 squares.  
 
 ## Earth Elementals
+
+<figure><img src="pics\DnD_Stone_Elemental.png" alt="Earth Elemental by LadyofHats" style="zoom: 100%;" /><figcaption>Earth Elemental by LadyofHats</figcaption></figure>
 
 > #### Small Earth Elemental  
 >
@@ -1713,7 +1717,7 @@ Replace *burn* with:
 Medium elemental humanoid (fire)  
 **Humanoid** The salamander can wield weapons. Any time the salamander hits a creature with a metal melee weapon, it can make a *burn* attack against that target as a free action.   
 **Grab (standard, at-will)** +13 vs AC; 2d10+5 damage and the target is grappled.  
-**Constrictor (swift, at-will) * Stance** At the start of your turn, make a *burn* attack against a grappled target as a free action. While in this stance, the salamander cannot make opportunity attacks.   
+**Constrictor (swift, at-will) ● Stance** At the start of your turn, make a *burn* attack against a grappled target as a free action. While in this stance, the salamander cannot make opportunity attacks.   
 
 ##### Ifrit
 
@@ -1751,8 +1755,8 @@ Medium elemental humanoid (fire)
 Large cosmic monstrosity (fire)  
 **Speed** fly 8  
 **Bite (standard, at-will)** +17 vs AC; 3d8+6 fire damage and make a secondary attack against the target. *Secondary Attack:* +17 vs Fortitude; the target is grappled.  
-**Immolation (swift, at-will) * Stance** At the start of the hell moth's turn, it makes a *burn* attack against a creature it is grappling. While in this stance, the hell moth cannot make opportunity attacks.  
-**Human Shield (swift, at-will) * Stance** As a an immediate counter, if the hell moth is grappling a creature and is the target of an attack targeting AC or Reflex, it can make the creature it is grappling the target of the attack instead. The hell moth cannot do this if the creature it is grappling is the one attacking. While in this stance, the hell moth grants combat advantage and cannot make opportunity attacks.  
+**Immolation (swift, at-will) ● Stance** At the start of the hell moth's turn, it makes a *burn* attack against a creature it is grappling. While in this stance, the hell moth cannot make opportunity attacks.  
+**Human Shield (swift, at-will) ● Stance** As a an immediate counter, if the hell moth is grappling a creature and is the target of an attack targeting AC or Reflex, it can make the creature it is grappling the target of the attack instead. The hell moth cannot do this if the creature it is grappling is the one attacking. While in this stance, the hell moth grants combat advantage and cannot make opportunity attacks.  
 
 ## Water Elementals  
 
@@ -2277,6 +2281,8 @@ Mitflits mounted on scorpions, spiders and other giant vermin.
 
 ## Orcus  
 
+<figure><img src="pics\DnD_Mummy.png" alt="Mummy by LadyofHats" style="zoom: 100%;" /><figcaption>Mummy by LadyofHats</figcaption></figure>
+
 
 > #### Abyssal Mummy  
 >
@@ -2567,6 +2573,8 @@ Heroes can either encounter a bloody bones after it emerges from a dessicated hu
 > Far arc 2 within 10; +17 vs AC (There must be a suitable rock within reach); 3d8+11 damage and the target is pushed 2 squares and knocked prone.  
 > **Punisher** (swift, at-will) ● **Club, Stance**  
 > If the giant starts its turn in this stance, and it is wielding a club, it does 6 damage to an enemy in reach. While in this stance, the giant cannot make opportunity attacks.  
+
+<figure><img src="pics\DnD_Ogre.png" alt="Ogre by LadyofHats" style="zoom: 100%;" /><figcaption>Ogre by LadyofHats</figcaption></figure>
 
 
 > #### Fire Giant  
@@ -4361,6 +4369,8 @@ The Awoken is the only juggernaut in recorded history to become self-aware, and 
 
 # Lycanthropes  
 
+<figure><img src="pics\DnD_Lycantrop.png" alt="Lycanthrope by LadyofHats" style="zoom: 100%;" /><figcaption>Lycanthrope by LadyofHats</figcaption></figure>
+
 
 > #### Wolf Shifter  
 >
@@ -4903,6 +4913,8 @@ The Plane of Shadow coexists alongside the Prime Material Plane, the world. It i
 # Shapeshifter Slime  
 
 The shapeshifter slime begins in human form. Once sufficiently damaged, it transforms into its original slime form. You get separate XP for defeating each form.  
+
+<figure><img src="pics\DnD_Ochre_Jelly.png" alt="Ochre Jelly by LadyofHats" style="zoom: 100%;" /><figcaption>Ochre Jelly by LadyofHats</figcaption></figure>
 
 
 > #### Shapeshifter Slime (Human Form)  
@@ -5979,6 +5991,8 @@ No spider has access to all powers. Instead, they each get a selection, describe
 
 # Worms  
 
+<figure><img  src="pics\DnD_PurpleWorm.png" alt="Purple Worm by  LadyofHats" style="zoom: 100%;" /><figcaption>Purple  Worm by LadyofHats</figcaption></figure>
+
 
 > #### Scavenger Worm  
 >
@@ -6123,7 +6137,7 @@ Remove the *slow* feature.
 | Mega-Chariot                    | 3     | Boss Blocker  |
 | Great Ape                       | 3     | Wrecker       |
 | Wolf                            | 3     | Striker       |
-| Small Earth Eleemntal           | 3     | Skulker       |
+| Small Earth Elemental          | 3     | Skulker       |
 | Small Water Elemental           | 3     | Spoiler       |
 | Desiccated Husk                 | 3     | Wrecker       |
 | Scurvy Pirate                   | 3     | Blocker       |
@@ -7159,6 +7173,8 @@ An adjacent character can disable the trap with a DC 18 Sleight of Hand check.
 A character making a DC 18 Athletics check can pry open the maw, or hold it open so that it cannot slam shut.  
 
 ### Acid Slime Patch  
+
+<figure><img src="pics\DnD_Green_slime.png" alt="Green Slime by LadyofHats" style="zoom: 100%;" /><figcaption>Green Slime by LadyofHats</figcaption></figure>
 
 *A patch of green slime runs along the ceiling above several squares.*  
 

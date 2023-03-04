@@ -67,3 +67,7 @@ The artworks by David Lewis Johnson, Earl Geier, Ian MacLean, Joyce Maureira, Lu
 ### Babeskull
 
 [A good bounty](https://opengameart.org/content/a-good-bounty) by Babeskull is released under the Creative Commons Attribution 4.0 license. 
+
+### LadyofHats
+
+[Many monster artworks](https://commons.m.wikimedia.org/wiki/User:LadyofHats) by LadyofHats are released under the Creative Commons CC0 1.0 license.
