@@ -1989,7 +1989,7 @@ This unremarkable eating utensil is typically fashioned from horn. If  the spoon
 
 ### Incantation Scroll
 
-An incantation scroll allows anyone to perform the incantation written on it, whether they know the incantation already or not. They still need to provide the component cost, if any. An incantation scroll is of the level of the incantation written on it.  
+An incantation scroll allows anyone to perform the incantation written on it, whether they know the incantation already or not. An incantation scroll is of the level of the incantation written on it, and its cost is equal to that of a consumable item of the same level or the component cost of the incantation (whichever is higher). 
 
 ### Oil of Dullness
 
@@ -2038,7 +2038,7 @@ As a swift action, you can drink the potion or administer it to a creature withi
 
 ### Practice Manual
 
-A practice manual allows anyone to perform the practice written on it, whether they know the practice already or not. They still need to provide the component cost, if any. A practice manual is of the level of the practice written on it.  
+A practice manual allows anyone to perform the practice written on it, whether they know the practice already or not. A practice manual is of the level of the practice written on it, and its cost is equal to that of a consumable item of the same level or the component cost of the practice (whichever is higher).  
 
 ### Salve of Resurrection
 
@@ -2366,7 +2366,7 @@ Practices typically take 8 to 24 hours to learn (8 for heroic-tier arts, 16 for 
 * Lesson: Lessons allow you to teach an ability to another. 
 * Treatment: Treatments are curative practices. 
 * Information: Information practices tell you something about yourself or the world. 
-* Trick: Tricks are are a miscellaneous category. 
+* Trick: Tricks are a miscellaneous category. 
 * Interaction: Interaction practices involve talking to or otherwise engaging with other creatures. 
 
 ## Incantations  
@@ -2385,11 +2385,7 @@ Incantations provide a useful way to introduce powerful magical effects in a low
 
 Obscure tomes and spellbooks filled with mystical ramblings, descriptions of magic theory, ordinary arcane spells, and utterly useless or incomprehensible magical writing often hide the instructions for performing incantations. In those dusty volumes, diligent readers can find incantations with real power—magical recipes that provide step-by-step instructions for achieving a powerful effect.  
 
-Incantations can be recorded in a spellbook, even if the user does not normally use a spellbook. A spellbook fits one level of incantation per page (so a level 9 incantation takes up 9 pages). Copying an incantation from one book to another costs the same amount as buying the incantation, and takes eight to 24 hours (for adventurer-tier, prestige-tier and epic-tier incantations respectively).  
-
-### Incantation Scrolls  
-
-For the same cost as acquiring an incantation, a character can purchase a scroll that contains an abbreviated version of the incantation. It can be cast in half the time, and does not require the Incantation Caster feat to cast. You still need to pay any of the costs involved, including the components, and make the check. Secondary casters can still participate.   
+Incantations can be recorded in a spellbook, even if the user does not normally use a spellbook. A spellbook fits one level of incantation per page (so a level 9 incantation takes up 9 pages). Copying an incantation from one book to another costs the same amount as buying the incantation, and takes eight, 16 or 24 hours (for adventurer-tier, prestige-tier and epic-tier incantations respectively).  
 
 ### Variant: Failed Incantations  
 
@@ -2468,7 +2464,6 @@ Arts are sorted by skill.
 | Name                      | Level | Category    | Skill    |
 | ------------------------- | ----- | ----------- | -------- |
 | Alarm                     | 1     | Incantation | Arcana   |
-| Detect Magic              | 1     | Incantation | Arcana   |
 | Detect Poison and Disease | 1     | Incantation | Heal     |
 | Floating Disk             | 1     | Incantation | Arcana   |
 | Identify                  | 1     | Incantation | Arcana   |
@@ -2517,6 +2512,7 @@ Arts are sorted by skill.
 | Craft Trap                | 1     | Practice | Sleight of Hand |
 | Embalm Corpse             | 1     | Practice | Heal            |
 | Foil Senses               | 1     | Practice | Stealth         |
+| Forensic Examination      | 1     | Practice | Heal            |
 | Intuit Direction          | 1     | Practice | Nature          |
 | Signs                     | 1     | Practice | Diplomacy       |
 | Swear an Oath             | 1     | Practice | Diplomacy       |
@@ -2533,7 +2529,6 @@ Arts are sorted by skill.
 | Biographical Eye          | 5     | Practice | Insight         |
 | Brilliant Planner         | 5     | Practice | None            |
 | Dealmaker                 | 5     | Practice | Diplomacy       |
-| Forensic Examination      | 5     | Practice | Heal            |
 | Express Rider             | 6     | Practice | Nature          |
 | Hidden Magic              | 6     | Practice | Arcana          |
 | Social Identity           | 6     | Practice | Bluff           |
@@ -2556,43 +2551,30 @@ Arts are sorted by skill.
 Level 1 Abjuration Incantation (Arcana)  
 
 **Cost to Learn:** 14 gp  
-**Completion Time:** 1 hour  
+**Completion Time:** 10 minutes  
 **Components:** A tiny bell and a piece of fine silver wire (14 gp)  
 **Duration:** 8 hours  
 
-You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 4-square cube. Until the incantation ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. When you cast the incantation, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible.  
+You ward an area in a two-square burst to alert you when creatures enter without your permission. When you cast *alarm*, select a password. Whenever a Small or larger corporeal creature enters the incantation’s area without speaking the password, alarm sends your choice of a mental alert or an audible alarm with the sound and volume of a hand bell. Either option automatically awakens you, and the bell allows each creature in the area to attempt a DC 15 Perception check to wake up. A creature aware of the alarm must succeed at a Stealth check against your Arcana modifier +10 or trigger the incantation when moving into the area.
 
-A mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping.  
-
-An audible alarm produces the sound of a hand bell for 10 seconds within 12 squares.  
-
-### Detect Magic  
-
-Level 1 Divination Incantation (Arcana)  
-
-**Cost to Learn:** 14 gp  
-**Completion Time:** 10 minutes  
-**Components:** 14 gp  
-**Duration:** 10 minutes  
-
-For the duration, you sense the presence of magic within 6 squares of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.  
-
-The incantation can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.  
+*Arcana check:* With a successful Arcana check (DC 12) at the time of casting, you can specify criteria for which creatures sound the *alarm* - for instance, orcs or masked people.  
 
 ### Floating Disk  
 
 Level 1 Crafting Incantation (Arcana)  
 
 **Cost to Learn:** 14 gp  
-**Completion Time:** 1 hour  
+**Completion Time:** 10 minutes  
 **Components:** A drop of mercury (14 gp)  
-**Duration:** 1 hour  
+**Duration:** 8 hours  
 
-This incantation creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied square of your choice that you can see within range. The disk remains for the duration, and can hold up to 500 pounds. If more weight is placed on it, the incantation ends, and everything on the disk falls to the ground.  
+This incantation creates a circular, horizontal plane of force, 3 feet in diameter and 1 inch thick, that floats 3 feet above the ground in an unoccupied square of your choice that you can see. The disk remains for the duration, and can hold up to 500 pounds. If more weight is placed on it, the incantation ends, and everything on the disk falls to the ground.  
 
-The disk is immobile while you are within 4 squares of it. If you move more than 4 squares away from it, the disk follows you so that it remains within 4 squares of you. It can move across uneven terrain, up or down stairs, slopes and the like, but it can't cross an elevation change of 2 squares or more. For example, the disk can't move across a 2-square deep pit, nor could it leave such a pit if it was created at the bottom.  
+The disk is immobile while you are within 4 squares of it. If you move more than 4 squares away from it, the disk follows you so that it remains within 4 squares of you. It can move across uneven terrain, up or down stairs, slopes and the like, but it can’t cross an elevation change of 2 squares or more. For example, the disk can’t move across a 2-square deep pit, nor could it leave such a pit if it was created at the bottom.  
 
-If you move more than 100 feet from the disk (typically because it can't move around an obstacle to follow you), the incantation ends.  
+If you move more than 20 squares from the disk (typically because it can’t move around an obstacle to follow you), the incantation ends.  
+
+*Arcana check:* With a successful Arcana check (DC 12) at the time of casting, you can give the floating disk a simple instruction. It can be further than 20 squares away from you while fulfilling the instruction.  
 
 ### Identify  
 
@@ -2605,24 +2587,28 @@ Level 1 Divination Incantation (Arcana)
 
 You choose one object that you must touch throughout the casting of the incantation. If it is a magic item or some other magic-imbued object, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any magical effects are affecting the item and what they are. If the item was created by an art or power, you learn which art or power created it.  
 
-If you instead touch a creature throughout the casting, you learn what magical effects, if any, are currently affecting it.  
+If you instead touch a creature throughout the casting, you learn what magical effects, if any, are currently affecting it. 
+
+*Arcana check:* With a successful Arcana check (DC 12) at the time of casting, you have one additional question about the item or creature answered - like its age, provenance or creator.  
 
 ### Illusory Script  
 
 Level 1 Illusion Incantation (Arcana)  
 
 **Cost to Learn:** 14 gp  
-**Completion Time:** 1 hour  
+**Completion Time:** 1 minute  
 **Components:** A lead-based ink (14 gp)  
 **Duration:** 10 days  
 
 You hide a message on parchment, paper, or some other suitable writing material.  
 
-To you and any creatures familiar with your technique, the writing appears normal, written in your hand, and conveys whatever meaning you intended when you wrote the text. To all others, the writing appears as if it were written in an unknown script that is unintelligible. Alternatively, you can cause the writing to appear to be an entirely different message, written in a different hand and language, though the language must be one you know.  
+To you and any creatures familiar with your technique, the writing appears normal, written in your hand, and conveys whatever meaning you intended when you wrote the text. To all others, the writing appears as if it were written in an unknown script that is unintelligible. 
 
 A creature with truesight can read the hidden message.  
 
-### Mage's Mark  
+*Arcana check:* With a successful Arcana check (DC 12) at the time of casting, you can instead can cause the writing to appear to be an entirely different message, written in a different hand and language, though the language must be one you know.  
+
+### Mage’s Mark  
 
 Level 1 Transmutation Incantation (Arcana)  
 
@@ -2631,37 +2617,39 @@ Level 1 Transmutation Incantation (Arcana)
 **Components:** Fresh candle and silver stylus (14 gp)  
 **Duration:** Permanent  
 
-Every mage has their own mark, usually an elaborate and unique rune. This ritual allows a mage to inscribe their mark on any non-magical substance, including stone and metal. The rune remains permanently upon the surface, only disappearing if the item or surface itself is destroyed. The mage may choose to make this mark visible to all, or only to those with the sight (meaning that most folk will not be able to see it at all, but anyone with Arcana training will see it).
-
-In order to make their mark, a mage must light a fresh candle and stand it upon the surface to be marked in its own wax. They then prick their finger with a silver stylus and draw their rune upon the surface, very slowly and deliberately, with their own blood, seven times. Upon the seventh and final drawing, the blood fades, the candle falls away, the stylus cracks, and the mark is finished.  
+Every mage has their own mark, usually an elaborate and unique rune. This ritual allows a mage to inscribe their mark on any non-magical substance, including stone and metal. The rune remains permanently upon the surface, only disappearing if the item or surface itself is destroyed. The mage may choose to make this mark visible to all, or only to those with the sight (meaning that most folk will not be able to see it at all, but anyone with Arcana training will see it).  
 
 ### Understand Languages  
 
 Level 1 Divination Incantation (Arcana)  
 
 **Cost to Learn:** 14 gp  
-**Completion Time:** 1 hour  
+**Completion Time:** 10 minutes  
 **Components:** A pinch of soot and salt and an amethyst (14 gp)  
 **Duration:** 1 hour  
 
 For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.  
 
-This incantation doesn't decode secret messages in a text or a glyph, such as an arcane sigil, that isn't part of a written language.  
+This incantation doesn’t decode secret messages in a text or a glyph, such as an arcane sigil, that isn’t part of a written language.  
+
+*Arcana check:* With a successful Arcana check (DC 12) at the time of casting, you can also speak any spoken language you have heard during the duration.  
 
 ### Unseen Servant  
 
 Level 1 Conjuration Incantation (Arcana)  
 
 **Cost to Learn:** 14 gp  
-**Completion Time:** 1 hour  
+**Completion Time:** 10 minutes  
 **Components:** A piece of string, a bit of wood and a glass bauble (14 gp)  
 **Duration:** 8 hours  
 
-This incantation creates an invisible, mindless, shapeless, Medium force that performs simple tasks at your command until the incantation ends. The servant springs into existence in an unoccupied space on the ground within range. It has AC 10, 1 hit point, and a Strength of 2, and it can't attack. If it drops to 0 hit points, the incantation ends.  
+This incantation creates an invisible, mindless, shapeless, Medium force that performs simple tasks at your command until the incantation ends. The servant springs into existence in an unoccupied space on the ground within 6 squares. It has AC 10, 1 hit point, and a Strength of 2, and it can’t attack. If it drops to 0 hit points, the incantation ends.  
 
 Once on each of your turns as a swift action, you can mentally command the servant to move up to 3 squares and interact with an object. The servant can perform simple tasks that a human servant could do, such as fetching things, cleaning, mending, folding clothes, lighting fires, serving food, and pouring wine. Once you give the command, the servant performs the task to the best of its ability until it completes the task, then waits for your next command.  
 
 If you command the servant to perform a task that would move it more than 12 squares away from you, the incantation ends.  
+
+*Arcana check:* With a successful Arcana check (DC 12) at the time of casting, the duration extends to 24 hours and the incantation does not end if the servant moves more than 12 squares away from you.  
 
 ### Perpetual Message  
 
@@ -2672,22 +2660,26 @@ Level 3 Illusion Incantation (Arcana)
 **Components:** A small bit of honeycomb and jade dust (54 gp)  
 **Duration:** Permanent  
 
-You implant a message within an object within 6 squares, a message that is uttered when a trigger condition is met. Choose an object that you can see and that isn't being worn or carried by another creature. Then speak the message, which must be 25 words or less, though it can be delivered over as long as 10 minutes. Finally, determine the circumstance that will trigger the incantation to deliver your message.  
+You implant a message within an object within 6 squares, a message that is uttered when a trigger condition is met. Choose an object that you can see and that isn’t being worn or carried by another creature. Then speak the message, which must be 25 words or less, though it can be delivered over as long as 10 minutes. Finally, determine the circumstance that will trigger the incantation to deliver your message.  
 
-When that circumstance occurs, a magical mouth appears on the object and recites the message in your voice and at the same volume you spoke. If the object you chose has a mouth or something that looks like a mouth (for example, the mouth of a statue), the magical mouth appears there so that the words appear to come from the object's mouth. When you cast this incantation, you can have the incantation end after it delivers its message, or it can remain and repeat its message whenever the trigger occurs.  
+When that circumstance occurs, a magical mouth appears on the object and recites the message in your voice and at the same volume you spoke. If the object you chose has a mouth or something that looks like a mouth (for example, the mouth of a statue), the magical mouth appears there so that the words appear to come from the object’s mouth. After it delivers the message, the *magic mouth* incantation ends.  
 
 The triggering circumstance can be as general or as detailed as you like, though it must be based on visual or audible conditions that occur within 6 squares of the object. For example, you could instruct the mouth to speak when any creature moves within 6 squares of the object or when a silver bell rings within 6 squares of it.  
+
+*Arcana check:* With a successful Arcana check (DC 14) at the time of casting, you can choose for the incantation to not end after it delivers its message, but instead for it to remain and repeat its message whenever the trigger occurs.  
 
 ### Sphere of Silence  
 
 Level 3 Illusion Incantation (Arcana)  
 
 **Cost to Learn:** 27 gp  
-**Completion Time:** 1 hour  
-**Components:** 27 gp  
+**Completion Time:** 10 minutes  
+**Components:** A bell cast from gold (27 gp)  
 **Duration:** 8 hours  
 
-For the duration, no sound can be created within or pass through a 4-square burst centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a incantation that includes a verbal component is impossible there.  
+For the duration, no sound can be created within or pass through a 4-square burst centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting incantations is impossible there.  
+
+*Arcana check:* With a successful Arcana check (DC 14) at the time of casting, the target can be an object or creature instead of a point. The burst of silence moves with the object or creature.  
 
 ### Continual Flame  
 
@@ -2706,62 +2698,76 @@ Level 5 Practical Incantation (Arcana)
 
 **Cost to Learn:** 72 gp  
 **Completion Time:** 1 minute  
-**Components:** 72 gp  
+**Components:** A bone from a dead spellcaster (72 gp)  
 **Duration:** Instantaneous  
 
-Choose one creature, object, or magical effect within 24 squares. Any incantation or non-martial power of 5th level or lower on the target ends. For each incantation or non-martial power of 6th level or higher (or no level) on the target, make an Arcana check. The DC equals 10 + the incantation or power's level. On a successful check, the effect ends.  
+Choose one creature, object, or magical effect within 24 squares. Any incantation or non-martial power of 5th level or lower on the target ends. For each incantation or non-martial power of 6th level or higher (or no level) on the target, make an Arcana check. The DC equals 10 + the incantation or power’s level. On a successful check, the effect ends.
+
+Alternatively, a magic item you touch becomes non-magical for the next 10 minutes.
+
+*Arcana check:* You can instead choose a magic item within 24 squares to become non-magical for 10 minutes, but you must succeed on an Arcana check vs the wielder’s Will (if it has a wielder).  
 
 ### Liquid Tread  
 
 Level 5 Transportation Incantation (Arcana)  
 
 **Cost to Learn:** 40 gp  
-**Completion Time:** 1 hour  
-**Components:** A piece of cork and 40 gp  
+**Completion Time:** 10 minutes  
+**Components:** A piece of a famous shipwreck (40 gp)  
 **Duration:** 8 hours  
 
-This incantation grants the ability to move across any liquid surface-such as water, acid, mud, snow, quicksand, or lava-as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heat). Up to ten willing creatures you can see within range gain this ability for the duration.  
+This incantation grants one target the ability to move across any liquid surface - such as water, acid, mud, snow, quicksand, or lava - as if it were harmless solid ground (creatures crossing molten lava can still take damage from the heat). 
 
 If you target a creature submerged in a liquid, the incantation carries the target to the surface of the liquid at a rate of 12 squares per round.  
+
+*Arcana check:* With a DC 15 Arcana check, you can choose up to 10 targets for this incantation.  
 
 ### Meld into Stone  
 
 Level 5 Practical Incantation (Arcana)  
 
 **Cost to Learn:** 40 gp  
-**Completion Time:** 1 hour  
-**Components:** 40 gp  
+**Completion Time:** 10 minutes  
+**Components:** Incense (40 gp)  
 **Duration:** 8 hours  
 
 You step into a stone object or surface large enough to fully contain your body, melding yourself and all the equipment you carry with the stone for the duration. Using your movement, you step into the stone at a point you can touch. Nothing of your presence remains visible or otherwise detectable by nonmagical senses.  
 
-While merged with the stone, you can't see what occurs outside it, and any Perception checks you make to hear sounds outside it are made with a -4 penalty. You remain aware of the passage of time and can cast incantations on yourself while merged in the stone. You can use your movement to leave the stone where you entered it, which ends the incantation. You otherwise can't move.  
+State a trigger. When that trigger is satisfied you are expelled from the stone and the incantation ends. Otherwise, you must wait for the 8 hour duration to end. 
 
-Minor physical damage to the stone doesn't harm you, but its partial destruction or a change in its shape (to the extent that you no longer fit within it) expels you and deals 6d6 bludgeoning damage to you. The stone's complete destruction (or transmutation into a different substance) expels you and deals 50 bludgeoning damage to you. If expelled, you fall prone in an unoccupied space closest to where you first entered.  
+While merged with the stone, you can hear but not see what occurs outside it. You remain aware of the passage of time while merged in the stone. 
+
+Minor physical damage to the stone doesn’t harm you, but its partial destruction or a change in its shape (to the extent that you no longer fit within it) expels you and deals 6d6 bludgeoning damage to you. If expelled, you fall prone in an unoccupied space closest to where you first entered.  
+
+*Arcana check:* If you succeed on a DC 15 Arcana check at the time of casting, while melded in stone you can use your movement to leave the stone whenever you want, instead of waiting for the trigger. You leave the stone from where you entered it, and doing so ends the incantation.  
 
 ### Sorcerous Gills  
 
 Level 5 Practical Incantation (Arcana)  
 
 **Cost to Learn:** 40 gp  
-**Completion Time:** 1 hour  
+**Completion Time:** 10 minutes  
 **Components:** A short reed or piece of straw, and 40 gp  
 **Duration:** 24 hours  
 
-This incantation grants up to ten willing creatures you can see within range the ability to breathe underwater until the incantation ends. Affected creatures also retain their normal mode of respiration.  
+This incantation grants a willing creature the ability to breathe underwater until the incantation ends. Affected creatures also retain their normal mode of respiration.   
+
+*Arcana check:* With a DC 15 Arcana check, you can choose up to 10 targets for this incantation.  
 
 ### Spectral Steed  
 
 Level 5 Crafting Incantation (Arcana)  
 
 **Cost to Learn:** 40 gp  
-**Completion Time:** 1 hour  
-**Components:** 40 gp  
+**Completion Time:** 10 minutes  
+**Components:** Incense (40 gp)  
 **Duration:** 8 hours  
 
-A Large quasi-real, horselike creature appears on the ground in an unoccupied space of your choice within range. You decide the creature's appearance, but it is equipped with a saddle, bit, and bridle. Any of the equipment created by the incantation vanishes in a puff of smoke if it is carried more than 2 squares away from the steed.  
+A Large quasi-real, horselike creature appears on the ground in an unoccupied space of your choice within range. You decide the creature’s appearance, but it is equipped with a saddle, bit, and bridle. Any of the equipment created by the incantation vanishes in a puff of smoke if it is carried more than 2 squares away from the steed.  
 
-For the duration, you or a creature you choose can ride the steed. The creature uses the statistics for a riding horse, except it has a speed of 20 squares and can travel 10 miles in an hour, or 13 miles at a fast pace. When the incantation ends, the steed gradually fades, giving the rider 1 minute to dismount. The incantation ends if you use a swift action to dismiss it or if the steed takes any damage.  
+For the duration, you or a creature you choose can ride the steed. The creature uses the statistics for a riding horse, except it has a speed of 20 squares and can travel 10 miles in an hour. When the incantation ends, the steed gradually fades, giving the rider 1 minute to dismount. The incantation ends if you use a swift action to dismiss it or if the steed takes any damage. 
+
+*Arcana check:* With a DC 15 Arcana check, the steed can also walk on water as if the *liquid tread* incantation had been used on it. With higher Arcana check DCs, the steed may have other movement abilities like the ability to phase through objects or to fly (with a maximum altitude, or without a maximum altitude with an even higher DC).  
 
 ### Tiny Hut  
 
@@ -2778,18 +2784,20 @@ The incantation fails if its edge intersects a creature. Creatures and objects w
 
 Until the incantation ends, you can command the interior to become dimly lit or dark. The dome is opaque from the outside, of any color you choose, but it is transparent from the inside.  
 
+*Arcana check:* With a DC 15 Arcana check, the dome’s burst radius is 4 squares instead of 2.  
+
 ### Contact Other Plane  
 
 Level 9 Divination Incantation (Arcana)  
 
 **Cost to Learn:** 168 gp  
 **Completion Time:** 1 hour  
-**Components:** 168 gp  
-**Duration:** 1 minute  
+**Components:** Incense (168 gp)  
+**Duration:** 5 minutes  
 
-You mentally contact a demigod, the spirit of a long-dead sage, or some other mysterious entity from another plane. Contacting this extraplanar intelligence can strain or even break your mind. When you cast this incantation, make a DC 25 Arcana check. On a failure, you take 6d6 psychic damage and are overawed until you finish a long rest. While overawed, you can't understand what other creatures say, can't read, and speak only in gibberish. A *restoration* art used on you ends this effect.  
+You mentally contact a demigod, the spirit of a long-dead sage, or some other mysterious entity from another plane. Contacting this extraplanar intelligence can strain or even break your mind. When you cast this incantation, make a DC 19 Arcana check. On a failure, you take 6d6 psychic damage and are overawed until you finish a long rest. While overawed, you can’t understand what other creatures say, can’t read, and speak only in gibberish. A *restoration* art used on you ends this effect.  
 
-On a successful check, you can ask the entity up to five questions. You must ask your questions before the incantation ends. The GM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “irrelevant,” or “unclear” (if the entity doesn't know the answer to the question). If a one-word answer would be misleading, the GM might instead offer a short phrase as an answer.  
+On a successful check, you can ask the entity up to five questions. You must ask your questions before the incantation ends. The GM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “irrelevant,” or “unclear” (if the entity doesn’t know the answer to the question). If a one-word answer would be misleading, the GM might instead offer a short phrase as an answer.  
 
 ### Call Forth the Dweller  
 
@@ -2798,7 +2806,7 @@ Level 11 Divination Incantation (Arcana)
 **Cost to Learn:** 360 gp  
 **Completion Time:** 1 hour  
 **Components:** Forty-two mystic symbols inscribed around the perimeter of the target doorway (requiring materials costing 360 gp)  
-**Duration:** 8 hours  
+**Duration:** See below  
 
 This incantation contacts the enigmatic, extradimensional being known as the Dweller on the Threshold, an entity that imparts knowledge about its specific obsession: doors and other entrances.  
 
@@ -2810,7 +2818,7 @@ If the caster asks the Dweller on the Threshold a question that doesn’t involv
 
 The exact nature of the Dweller on the Threshold is shrouded in mystery.  
 
-### Hrothgar's Journey  
+### Hrothgar’s Journey  
 
 Level 11 Transportation Incantation (Arcana)  
 
@@ -2825,9 +2833,9 @@ To cast the incantation, the caster must construct a small, windowless hut in th
 
 Because the bonfire is large and the hut is small, the atmosphere inside quickly gets stiflingly hot. Any creature inside the hut must make an Endure check (DC 20) every 10 minutes or suffer the effects of severe heat (lose a recovery).  
 
-Just as the tale of Hrothgar approaches its conclusion (near the end of the casting time), the bonfire’s flames light the hut on fire, which creates a great deal of smoke but no additional heat or damage. The flames consume the hut’s roof and walls, revealing Valhalla on the plane of Asgard.  
+Just as the tale of Hrothgar approaches its conclusion (near the end of the casting time), the bonfire’s flames light the hut on fire, which creates a great deal of smoke but no additional heat or damage. The flames consume the hut’s roof and walls, revealing Valhalla. If the caster succeeds on a DC 19 Arcana check, they can choose the exact location in Valhalla that the party appears.  
 
-<figure><img src="pics\LuigiCastellani_LOKOSSAPALACE.png" alt="Palace by Luigi Castellani" style="zoom: 33%;" /><figcaption>Palace by Luigi Castellani</figcaption></figure>
+<figure><img src="pics\LuigiCastellani_LOKOSSAPALACE.png" alt="Palace by Luigi Castellani" style="zoom: 100%;" /><figcaption>Palace by Luigi Castellani</figcaption></figure>  
 
 ### Summon Item  
 
@@ -2840,24 +2848,28 @@ Level 11 Conjuration Incantation (Arcana)
 
 You touch an object weighing 10 pounds or less whose longest dimension is 6 feet or less. The incantation leaves an invisible mark on its surface and invisibly inscribes the name of the item on the sapphire you use as the material component. Each time you cast this incantation, you must use a different sapphire.  
 
-At any time thereafter, you can use your standard action to speak the item's name and crush the sapphire. The item instantly appears in your hand regardless of physical or planar distances, and the incantation ends.  
+At any time thereafter, you can use a standard action to speak the item’s name and crush the sapphire. The item instantly appears in your hand regardless of physical or planar distances, and the incantation ends.  
 
-If another creature is holding or carrying the item, crushing the sapphire doesn't transport the item to you, but instead you learn who the creature possessing the object is and roughly where that creature is located at that moment.  
+If another creature is holding or carrying the item, crushing the sapphire doesn’t transport the item to you, but instead you learn who the creature possessing the object is and roughly where that creature is located at that moment.  
 
-*Dismiss magic* or a similar effect successfully applied to the sapphire ends this incantation's effect.  
+*Dismiss magic* or a similar effect successfully applied to the sapphire ends this incantation’s effect. 
+
+*Arcana check:* With an Arcana check, the object can weigh more than 10 pounds (the number of pounds is the DC of the Arcana check).  
 
 ### Telepathic Bond  
 
 Level 11 Divination Incantation (Arcana)  
 
 **Cost to Learn:** 360 gp  
-**Completion Time:** 1 hour  
+**Completion Time:** 10 minutes  
 **Components:** Pieces of eggshell from two different kinds of creatures, one rare (360 gp)  
 **Duration:** 8 hours  
 
-You forge a telepathic link among up to eight willing creatures of your choice in the area, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren't affected by this incantation.  
+You forge a telepathic link among up to eight willing creatures of your choice in the area, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren’t affected by this incantation.  
 
-Until the incantation ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can't extend to other planes of existence.  
+Until the incantation ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can’t extend to other planes of existence.  
+
+*Arcana check:* With a DC 19 Arcana check, the duration is 1 week.  
 
 ### Plane Walk  
 
@@ -2872,13 +2884,15 @@ You and up to eight willing creatures who link hands in a circle are transported
 
 Alternatively, if you know the sigil sequence of a teleportation circle on another plane of existence, this incantation can take you to that circle. If the teleportation circle is too small to hold all the creatures you transported, they appear in the closest unoccupied spaces next to the circle.  
 
+*Arcana check:* With a DC 28 Arcana check, you appear in the exact place you specify on the plane.  
+
 ### Moving Castle  
 
 Level 21 Practical Incantation (Arcana)  
 
 **Cost to Learn:** 9,000 gp  
 **Completion Time:** 24 hours  
-**Components:** 18,000 gp  
+**Components:** Chevron amethyst (18,000 gp)  
 **Duration:** Permanent  
 
 Select a dwelling somewhere between a hut and a small castle in size. The dwelling lifts itself off the ground and grows one of the following means of transport:   
@@ -2887,7 +2901,9 @@ Select a dwelling somewhere between a hut and a small castle in size. The dwelli
 * **Chicken Legs:** The dwelling runs along the ground, giving it speed 12.    
 * **Rollers:** The dwelling moves on treads on the ground, giving it speed 8 - but it ignores difficult, obstructing and other terrain.   
 
-The dwelling follows your spoken instructions if they are given from within or just outside the dwelling, about as faithfully as a dim but well-meaning dog might.  
+The dwelling follows your spoken instructions if they are given from within or just outside the dwelling, about as faithfully as a dim but well-meaning dog might.   
+
+You can instruct the dwelling to ‘settle’. When given this command, the dwelling lowers to the ground beneath it, concealing its means of locomotion, and appears to be a regular building.  
 
 ## Athletics  
 
@@ -2908,7 +2924,7 @@ Count your load as if it were one step lighter than it actually is (light load i
 
 Level 1 Lesson Practice (Bluff)  
 
-**Cost to Learn:** 14 gp  
+**Cost to Learn:** 28 gp  
 **Completion Time:** 1 week  
 **Components:** 28 gp  
 **Duration:** Instantaneous  
@@ -2931,11 +2947,11 @@ You prepare a specific disguise that you keep at the ready, worn underneath your
 Level 2 Trick Practice (Bluff)  
 
 **Cost to Learn:** 21 gp  
-**Completion Time:** *  
+**Completion Time:** See below  
 **Components:** 1 recovery  
 **Duration:** Instantaneous  
 
-You use a magic item or other magical device even if you do not meet the prerequisites to do so. You must succeed on a Bluff check (DC 15 + half the level of the magic item or device) in order to do so. If you fail, there may be negative consequences depending on the item or device. The completion time is double the normal time it takes to activate the item.  
+You use a magic item or other magical device even if you do not meet the prerequisites to do so. You must succeed on a Bluff check (easy DC based on the level of the magic item or device) in order to do so. If you fail, there may be negative consequences depending on the item or device. The completion time is double the normal time it takes to activate the item.  
 
 ### Hidden Magic  
 
@@ -2943,7 +2959,7 @@ Level 6 Trick Practice (Bluff)
 
 **Cost to Learn:** 72 gp  
 **Completion Time:** 10 minutes  
-**Components:** 72 gp  
+**Components:** Alchemical reagents (72 gp)  
 **Duration:** 1 year  
 
 You carefully tweak a magic item to appear non-magical according to incantations, powers and skills that observe magical auras.  
@@ -2954,14 +2970,14 @@ Level 6 Trick Practice (Bluff)
 
 **Cost to Learn:** 72 gp  
 **Completion Time:** 1 week  
-**Components:** 144 gp of bribes, materials, etc.  
+**Components:** Bribes, materials, etc. (144 gp)  
 **Duration:** Instantaneous  
 
 You create a social identity, with its own name, alignment, and abilities. This identity is not a false front; you really are your social identity as well as your original identity, and as such, your two identities can be at most one alignment step from each other. 
 
-Changing from one identity to the other takes 1 minute and must be done out of sight from other creatures. As this process involves both physical changes such as clothing and makeup along with an altered state of mind, other effects that change your appearance don't reduce the time required to change identities.
+Changing from one identity to the other takes 1 minute and must be done out of sight from other creatures. As this process involves both physical changes such as clothing and makeup along with an altered state of mind, other effects that change your appearance don’t reduce the time required to change identities.
 
-Your two identities are completely distinct. You have your current identity's alignment for effects that rely on alignment, though you are eligible for abilities that require a certain alignment (such as an artifact that only respects good characters) only if both of your identities qualify. Researching one of your identities don't reveal information about the other unless the person attempting the research knows both identities are the same person. Effects that detect you based on your identity work only if you are currently in the identity the effect is trying to detect; otherwise, the effect fails as if the target didn't exist.  
+Your two identities are completely distinct. You have your current identity’s alignment for effects that rely on alignment, though you are eligible for abilities that require a certain alignment (such as an artifact that only respects good characters) only if both of your identities qualify. Researching one of your identities don’t reveal information about the other unless the person attempting the research knows both identities are the same person. Effects that detect you based on your identity work only if you are currently in the identity the effect is trying to detect; otherwise, the effect fails as if the target didn’t exist.  
 
 ### Nameless One  
 
@@ -2969,12 +2985,12 @@ Level 15 Trick Practice (Bluff)
 
 **Cost to Learn:** 1,000 gp  
 **Completion Time:** 1 week  
-**Components:** 1,000 gp  
+**Components:** Bribes, disguises or the like (1,000 gp)  
 **Duration:** Instantaneous  
 
 You eschew all of your former identities, going as far as to render your former name completely inaccessible to discover by mortal means. After this practice, you forever lose all names and identities previously associated with you. You adopt a brief descriptive title in place of a new name. 
 
-At the art's conclusion, you must don the mask created for the art, the appearance of which is evocative of your title. While you’re wearing this mask, any attempts to scry or otherwise locate any of your eschewed identities or connect you to those identities do not work, revealing nothing but darkness, as if you were an invalid target or did not exist.  
+At the art’s conclusion, you must don the mask created for the art, the appearance of which is evocative of your title. While you’re wearing this mask, any attempts to scry or otherwise locate any of your eschewed identities or connect you to those identities do not work, revealing nothing but darkness, as if you were an invalid target or did not exist.  
 
 ## Diplomacy  
 
@@ -2982,7 +2998,7 @@ At the art's conclusion, you must don the mask created for the art, the appearan
 
 Level 1 Lesson Practice (Diplomacy)  
 
-**Cost to Learn:** 14 gp  
+**Cost to Learn:** 28 gp  
 **Completion Time:** 1 week  
 **Components:** 28 gp  
 **Duration:** Instantaneous  
@@ -3006,7 +3022,7 @@ Level 7 Interaction Practice (Diplomacy)
 
 **Cost to Learn:** 104 gp  
 **Completion Time:** 1 week  
-**Components:** 208 gp  
+**Components:** Gifts, treats and rewards (208 gp)  
 **Duration:** Instantaneous  
 
 You have a small group of admirers who tend to follow you around while you’re in civilized settlements. Your admirers are helpful to you, allowing you to make simple requests of them such as purchasing basic equipment with your funds or finding a room at an inn. These admirers do not travel with you to places that are obviously dangerous, including most adventure locations, but they’ll wait for you at the nearest settlement.  
@@ -3055,7 +3071,7 @@ Level 14 Trick Practice (Endure)
 **Components:** 1 recovery  
 **Duration:** Instantaneous  
 
-You no longer need to sleep. You can stay awake at all times without penalties, and can have the benefits of a long rest once a day by spending an hour in quiet meditation. You can end this craft at any time. Until you do so, you cannot regain the recovery you spent on this craft.  
+You no longer need to sleep. You can stay awake at all times without penalties, and can have the benefits of a long rest once a day by spending an hour in quiet meditation. You can still fall asleep, either by choice or because you are affected by something that makes you sleep. You can end this craft at any time. Until you do so, you cannot regain the recovery you spent on this craft.  
 
 ### Eschew Aging  
 
@@ -3076,23 +3092,29 @@ Level 1 Treatment Practice (Heal)
 
 **Cost to Learn:** 14 gp  
 **Completion Time:** 1 hour  
-**Components:** embalming fluids (14 gp)  
+**Components:** Embalming fluids (14 gp)  
 **Duration:** 10 days  
 
 You treat a corpse or other remains. For the duration, the target is protected from decay and can’t become undead.
 
-The craft also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this incantation don’t count against the time limit of crafts and incantations such as *raise dead*.  
+The craft also effectively extends the time limit on raising the target from the dead, since days spent under the influence of this incantation don’t count against the time limit of crafts and incantations such as *raise dead*.
+
+A corpse can be embalmed more than once. The duration is not cumulative: the benefit ends 10 days after the most recent embalming.
+
+*Heal check:* With a successful DC 12 Heal check, the duration is 100 days.  
 
 ### Forensic Examination  
 
-Level 5 Treatment Practice (Heal)  
+Level 1 Treatment Practice (Heal)  
 
-**Cost to Learn:** 40 gp  
+**Cost to Learn:** 14 gp  
 **Completion Time:** 1 hour  
-**Components:** 40 gp  
+**Components:** Special reagents and chemicals (14 gp)  
 **Duration:** Instantaneous  
 
-You check for evidence such as wound patterns, learning how a body was injured or killed.  
+You check for evidence such as wound patterns, learning how a body was injured or killed. 
+
+*Heal check:* With a successful Heal check (variable DC), you learn important clues about events surrounding the death.  
 
 ### Restoration  
 
@@ -3103,7 +3125,9 @@ Level 7 Treatment Practice (Heal)
 **Components:** Healing herbs (208 gp)  
 **Duration:** Instantaneous  
 
-The target of the restoration treatment is cured of poison, disease, fatigue, petrification or similar maladies. Scars begin to fade and stubborn wounds close. This craft cannot restore missing limbs.  
+The target of the restoration treatment is cured of poison, disease, fatigue, petrification or similar maladies of your level or lower (or no level). Scars begin to fade and stubborn wounds close. This craft cannot restore missing limbs. 
+
+*Heal check:* With a successful Heal check (moderate DC based on the malady’s level), you can treat maladies of a level higher than your own.  
 
 ### Experimental Resurrection  
 
@@ -3114,9 +3138,9 @@ Level 15 Treatment Practice (Heal)
 **Components:** Reagents and a generator (2,000 gp)  
 **Duration:** Instantaneous  
 
-The target of the experimental resurrection is brought back to life. The subject must have died within the last 24 hours, and their body must be intact.  
+The target of the experimental resurrection is brought back to life. The subject must have died within the last 24 hours, and their body must be intact. 
 
-<figure><img src="pics\JoyceMaureira_MAGSPELL1.png" alt="Magic Spell 1 by Joyce Maureira" style="zoom: 33%;" /><figcaption>Magic Spell 1 by Joyce Maureira</figcaption></figure>
+<figure><img src="pics\JoyceMaureira_MAGSPELL1.png" alt="Magic Spell 1 by Joyce Maureira" style="zoom: 33%;" /><figcaption>Magic Spell 1 by Joyce Maureira</figcaption></figure>  
 
 ## History  
 
@@ -3126,7 +3150,7 @@ Level 3 Divination Incantation (History)
 
 **Cost to Learn:** 27 gp  
 **Completion Time:** 10 minutes  
-**Components:** 27 gp  
+**Components:** Lapis lazuli (27 gp)  
 **Duration:** Instantaneous  
 
 You can learn information from the memories of others, even those long dead. This practice allows you to find out information that you could not possibly know yourself. Make the relevant knowledge skill check, adjusted as follows:  
@@ -3146,15 +3170,15 @@ Level 5 Information Practice (Insight)
 **Components:** 1 recovery  
 **Duration:** Instantaneous  
 
-In even a brief conversation or social interaction, you pick up on subtle social and visual cues to learn a great deal about a person's origin and history. You might notice bits of green under the person's fingernails and determine they're an herbalist, a pin indicating their membership in a secret society, or something similar. You pick up on only details that have to do with their societal role, so you might learn the city district where a vampire lives, but wouldn't learn any of their weaknesses, nor necessarily even that they are a vampire.
+In even a brief conversation or social interaction, you pick up on subtle social and visual cues to learn a great deal about a person’s origin and history. You might notice bits of green under the person’s fingernails and determine they’re an herbalist, a pin indicating their membership in a secret society, or something similar. You pick up on only details that have to do with their societal role, so you might learn the city district where a vampire lives, but wouldn’t learn any of their weaknesses, nor necessarily even that they are a vampire.
 
 Spend 1 minute, then attempt an Insight check. You gain a +2 circumstance bonus to the check if you engaged the person in conversation during this time. If the person is deliberately trying to conceal their nature or present a false identity, you learn about their false biography rather than their true one unless the result of your Insight check exceeds their Bluff check. 
 
-*Success (DC 10):* You learn the creature's profession and the region of the world they hail from, but no more.  
-If you beat the DC by 10 or more, you learn the creature's profession and specialty within that profession. You learn the nation or settlement where they normally live.  
-If you beat the DC by 20 or more, you learn learn the creature's profession, their specialty within that profession, and a major accomplishment or controversy from their career. You also learn the nation and settlement where they live, as well as the district in a city large enough to have districts. In addition, you learn the nation or settlement where they spent their formative years.
+*Insight check:* On a DC 10 Insight check, you learn the creature’s profession and the region of the world they hail from, but no more.  
+If you beat the DC by 10 or more, you learn the creature’s profession and specialty within that profession. You learn the nation or settlement where they normally live.  
+If you beat the DC by 20 or more, you learn the creature’s profession, their specialty within that profession, and a major accomplishment or controversy from their career. You also learn the nation and settlement where they live, as well as the district in a city large enough to have districts. In addition, you learn the nation or settlement where they spent their formative years.
 
-*Failure:* You learn a piece of erroneous information about the creature.  
+On a failure, you come to a false conclusion about the creature’s profession and the region of the world they hail from.  
 
 ## Nature  
 
@@ -3180,7 +3204,9 @@ Level 1 Information Practice (Nature)
 **Components:** 1 recovery  
 **Duration:** Instantaneous  
 
-You learn which way is north, and how many miles you are from your destination.  
+You learn which way is north.
+
+*Nature check:* On a DC 12 Nature check, you also learn how many miles you are from your destination.  
 
 ### Purify Food and Drink  
 
@@ -3188,7 +3214,7 @@ Level 1 Practical Incantation (Nature)
 
 **Cost to Learn:** 14 gp  
 **Completion Time:** 1 hour  
-**Components:** 14 gp  
+**Components:** Salts and powders (14 gp)  
 **Duration:** Instantaneous  
 
 Select a square within 12 squares of you. All nonmagical food and drink within the square is purified and rendered free of poison and disease.  
@@ -3199,10 +3225,10 @@ Level 1 Divination Incantation (Nature)
 
 **Cost to Learn:** 14 gp  
 **Completion Time:** 1 hour  
-**Components:** 14 gp  
+**Components:** Incense (14 gp)  
 **Duration:** 1 hour  
 
-You gain the ability to comprehend and verbally communicate with beasts for the duration. The knowledge and awareness of many beasts is limited by their intelligence, but at minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a beast to perform a small favor for you, at the GM's discretion.  
+You gain the ability to comprehend and verbally communicate with beasts for the duration. The knowledge and awareness of many beasts is limited by their intelligence, but at minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a beast to perform a small favor for you, at the GM’s discretion.  
 
 ### Teach Trick  
 
@@ -3210,12 +3236,12 @@ Level 1 Lesson Practice (Nature)
 
 **Cost to Learn:** 14 gp  
 **Completion Time:** 1 week  
-**Components:** *  
+**Components:** See below  
 **Duration:** Instantaneous  
 
-Animals and other unintelligent creatures can be taught a trick using this method. The component cost equals the cost of a consumable item of the creature's level. An animal can be taught multiple tricks over the week, but multiply the component cost by the number of tricks taught. 
+Animals and other unintelligent creatures can be taught a trick using this method. The component cost equals the cost of a consumable item of the creature’s level. An animal can be taught multiple tricks over the week, but multiply the component cost by the number of tricks taught. 
 
-* Attack: The animal attacks apparent enemies. You may point to a particular creature that you wish the animal to attack, and it will comply if able. Normally, an animal will attack only humanoids, monstrous humanoids, giants, or other animals. Teaching an animal to attack all creatures (including such unnatural creatures as undead and aberrations) takes twice as long.
+* Attack: The animal attacks apparent enemies. You may point to a particular creature that you wish the animal to attack, and it will comply if able.
 * Come: The animal comes to you, even if it normally would not do so.
 * Defend: The animal defends you (or is ready to defend you if no threat is present), even without any command being given. Alternatively, you can command the animal to defend a specific other character.
 * Down: The animal breaks off from combat or otherwise backs down. An animal that doesn’t know this trick continues to fight until it must flee (due to injury, a fear effect, or the like) or its opponent is defeated.
@@ -3237,11 +3263,13 @@ Level 2 Divination Incantation (Nature)
 **Components:** Incense (21 gp)  
 **Duration:** 1 minute  
 
-When an animal dies, its spirit lingers briefly before moving on. Using low chants, body language that shows respect, and special movements that demonstrate to the spirit that you are an ally, you glean information from a spirit before it departs. You ask one simple question of the spirit. Attempt a Nature check at a DC determined by the GM (normally, this is the appropriate DC for the level of the animal or beast when it was alive). Regardless of the result of your check, the spirit immediately departs and can't be used for Spirit Speaker again. 
+When an animal dies, its spirit lingers briefly before moving on. Using low chants, body language that shows respect, and special movements that demonstrate to the spirit that you are an ally, you glean information from the spirit of an animal that has been dead no longer than 1 day.   
 
-If you succeed, the spirit answers you truthfully. The spirit's answer is likely to be terse or cryptic compared to normal communication with an animal, and it can pertain only to things the creature directly experienced or considered important. The spirit doesn't remember anything that happened more than 1 day ago.
+Attempt a Nature check at a DC determined by the GM (normally, this is the appropriate DC for the level of the animal or beast when it was alive). Regardless of the result of your check, the spirit immediately departs and can’t be used for *spirit speaker* again. 
 
-If you fail, the spirit doesn't answer you. If you fail by 10 or more, the spirit is wracked with misery or bewilderment and gives you an erroneous answer.  
+If you succeed, the spirit answers you truthfully. The spirit’s answer is likely to be terse or cryptic compared to normal communication with an animal, and it can pertain only to things the creature directly experienced or considered important. The spirit doesn’t remember anything that happened more than 1 day ago.
+
+If you fail, the spirit doesn’t answer you. If you fail by 10 or more, the spirit is wracked with misery or bewilderment and gives you an erroneous answer.  
 
 ### Animal Message  
 
@@ -3252,22 +3280,26 @@ Level 3 Conjuration Incantation (Nature)
 **Components:** A morsel of food and a fossil (27 gp)  
 **Duration:** Special  
 
-By means of this incantation, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue jay, or a bat. You specify a location, which you must have visited, and a recipient who matches a general description, such as “a man or woman dressed in the uniform of the town guard” or “a red-haired gnome wearing a pointed hat.” You also speak a message of up to twenty-five words. The target beast travels for the duration of the incantation toward the specified location, covering about 50 miles per 24 hours for a flying messenger, or 25 miles for other animals.  
+By means of this incantation, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue jay, or a bat. You specify a location, which you must have visited, and a recipient who matches a general description, such as “a man or woman dressed in the uniform of the town guard” or “a red-haired gnome wearing a pointed hat.” You also speak a message of up to twenty-five words.  
 
-When the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesn't reach its destination before the incantation ends, the message is lost, and the beast makes its way back to where you cast this incantation.  
+The target beast travels for the duration of the incantation toward the specified location, covering about 2 miles per hour for a flying messenger, or 1 mile per hour for other animals.   
 
-The duration of the incantation is your Nature check result in hours.  
+When the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesn’t reach its destination before the incantation ends, the message is lost, and the beast makes its way back to where you cast this incantation.  
+
+*Nature check:* The duration of the incantation is your Nature check result in hours.  
 
 ### Locate Animals or Plants  
 
 Level 3 Scrying Incantation (Nature)  
 
 **Cost to Learn:** 27 gp  
-**Completion Time:** 1 hour  
+**Completion Time:** 10 minutes  
 **Components:** A bit of fur from a bloodhound and a silver dowsing rod (27 gp)  
 **Duration:** Instantaneous  
 
 Describe or name a specific kind of beast or plant. Concentrating on the voice of nature in your surroundings, you learn the direction and distance to the closest creature or plant of that kind within 5 miles, if any are present.  
+
+*Nature check:* With a DC 14 Nature check, you learn a further detail about the beast or plant you described, or the range extends to 10 miles.  
 
 ### Bonded Companion  
 
@@ -3275,19 +3307,19 @@ Level 5 Practical Incantation (Nature)
 
 **Cost to Learn:** 40 gp  
 **Completion Time:** 8 hours  
-**Components:** An item with special significance to both participants  
+**Components:** An item with special significance to both participants (of any monetary value)  
 **Duration:** Instantaneous  
 
-You perform this incantation over two participants: the master and the bonded companion. You may include yourself in the incancation as the master, if desired.   
+You perform this incantation over two participants: the master and the bonded companion. You may include yourself in the incantation as the master, if desired. The item with special significance is placed between them, and at the completion of the incantation it turns to smoke.   
 
 The bonded companion follows the Companion rules, as well as the following special rules: 
 
 * If the master takes a move action, the companion can take a move action as well.  
 * If the master is incapacitated or not present, the companion gets its full complement of actions without needing to be “commanded”.    
-* The companion's level is equal to the master's, unless it was already higher.  
-* The companion's maximum HP are equal to the master's staggered value, unless it was already higher.   
-* The companion uses the master's defenses, except where the companion's defense is higher.
-* The companion has no recoveries of its own, but can use its master's.   
+* The companion’s level is equal to the master’s, unless it was already higher.  
+* The companion’s maximum HP are equal to the master’s staggered value, unless it was already higher.   
+* The companion uses the master’s defenses, except where the companion’s defense is higher.
+* The companion has no recoveries of its own, but can use its master’s.   
 * Either participant in the incantation can end its effects as a swift action.  
 
 ### Speak with Plants  
@@ -3295,15 +3327,15 @@ The bonded companion follows the Companion rules, as well as the following speci
 Level 5 Divination Incantation (Nature)  
 
 **Cost to Learn:** 40 gp  
-**Completion Time:** 1 hour  
-**Components:** 40 gp  
+**Completion Time:** 10 minutes  
+**Components:** The heart or core of a plant over 100 years old (40 gp)  
 **Duration:** 8 hours  
 
 You imbue plants within 6 squares of you with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands. You can question plants about events within 6 squares within the past day, gaining information about creatures that have passed, weather, and other circumstances.  
 
 You can also turn difficult terrain caused by plant growth (such as thickets and undergrowth) into ordinary terrain that lasts for the duration. Or you can turn ordinary terrain where plants are present into difficult terrain that lasts for the duration, causing vines and branches to hinder pursuers, for example.  
 
-Plants might be able to perform other tasks on your behalf, at the GM's discretion. The incantation doesn't enable plants to uproot themselves and move about, but they can freely move branches, tendrils, and stalks.  
+Plants might be able to perform other tasks on your behalf, at the GM’s discretion. The incantation doesn’t enable plants to uproot themselves and move about, but they can freely move branches, tendrils, and stalks.  
 
 If a plant creature is in the area, you can communicate with it as if you shared a common language, but you gain no magical ability to influence it.  
 
@@ -3316,7 +3348,7 @@ Level 6 Interaction Practice (Nature)
 **Components:** 1 recovery  
 **Duration:** One day  
 
-You know how to encourage your mount to cover ground quickly. When calculating your travel speed for the day while mounted, you can attempt a Nature check increase your mount's travel speed. The DC is determined by the GM, but is typically based on the mount's level or the difficulty of the environment, whichever is harder. On a success, increase your mount's travel speed by half. This has no effect on your mount's movement in encounters.  
+You know how to encourage your mount to cover ground quickly. When calculating your travel speed for the day while mounted, you can attempt a Nature check increase your mount’s travel speed. The DC is determined by the GM, but is typically based on the mount’s level or the difficulty of the environment, whichever is harder. On a success, increase your mount’s travel speed by half. This has no effect on your mount’s movement in encounters.  
 
 ### Consult Nature  
 
@@ -3324,12 +3356,12 @@ Level 9 Divination Incantation (Nature)
 
 **Cost to Learn:** 168 gp  
 **Completion Time:** 1 hour  
-**Components:** 168 gp  
+**Components:** An emerald (168 gp)  
 **Duration:** Instantaneous  
 
-You briefly become one with nature and gain knowledge of the surrounding territory. In the outdoors, the incantation gives you knowledge of the land within 3 miles of you. In caves and other natural underground settings, the radius is limited to 60 squares. The incantation doesn't function where nature has been replaced by construction, such as in dungeons and towns.  
+You become one with nature and gain knowledge of the surrounding territory. In the outdoors, the incantation gives you knowledge of the land within 3 miles of you. In caves and other natural underground settings, the radius is limited to 60 squares. The incantation doesn’t function where nature has been replaced by construction, such as in dungeons and towns.  
 
-You instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area:  
+You instantly gain knowledge of one fact of your choice about any of the following subjects as they relate to the area:  
 
 - terrain and bodies of water  
 - prevalent plants, minerals, animals, or peoples  
@@ -3339,35 +3371,41 @@ You instantly gain knowledge of up to three facts of your choice about any of th
 
 For example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns.  
 
+*Nature check:* With a DC 18 Nature check, you gain knowledge of three facts of your choice, or one fact from outside the subject areas specified.  
+
 ## None  
 
 ### Alchemy  
 
 Level 1 Schema Practice (None)  
 
-**Cost to Learn:** *  
+**Cost to Learn:** See below  
 **Completion Time:** 1 hour  
-**Components:** *  
+**Components:** See below  
 **Duration:** Instantaneous  
 
-Each potion and alchemical item has its own schema, which a character can learn after studying another of the same variety for 1 hour, or from scratch with 8 hours. The cost to learn equals the cost of a consumable item of the level of the potion or alchemical item. The component cost to make one of those items equals the cost to buy the item.
+Rather than a single practice, alchemy is a category of practices. Each potion and alchemical item has its own practice (*alchemy: potion of healing, alchemy: salve of resurrection,* and so on), which a character can learn after studying another of the same variety for 1 hour, or from scratch with 8 hours. The cost to learn equals the cost of a consumable item of the level of the potion or alchemical item.  
 
-You cannot learn the schema of an item of a level higher than your own.  
+The component cost to make one of those items equals the cost to buy the item.  
 
-<figure><img src="pics\JoyceMaureira_MAGSPELL3.png" alt="Magic Spell 3 by Joyce Maureira" style="zoom: 33%;" /><figcaption>Magic Spell 3 by Joyce Maureira</figcaption></figure>
+You cannot learn the practice of an item of a level higher than your own. 
+
+<figure><img src="pics\JoyceMaureira_MAGSPELL3.png" alt="Magic Spell 3 by Joyce Maureira" style="zoom: 33%;" /><figcaption>Magic Spell 3 by Joyce Maureira</figcaption></figure>  
 
 ### Poisoncraft  
 
 Level 1 Schema Practice (None)  
 
-**Cost to Learn:** *  
+**Cost to Learn:** See below  
 **Completion Time:** 1 hour  
-**Components:** *  
+**Components:** See below  
 **Duration:** Instantaneous  
 
-Each poison has its own schema, which a character can learn after studying another of the same variety for 1 hour, or from scratch with 8 hours. The cost to learn equals the cost of a masterwork consumable item of the level of the poison. The component cost to make one of those items equals the cost to buy the item.
+Rather than a single practice, poisoncraft is a category of practices. Each poison has its own practice (*poisoncraft: pale tincture, poisoncraft: repulsion resin,* and so on), which a character can learn after studying another of the same variety for 1 hour, or from scratch with 8 hours. The cost to learn equals the cost of a consumable item of the level of the poison.  
 
-You cannot learn the schema of an item of a level higher than your own.  
+The component cost to make one of those items equals the cost to buy the item.  
+
+You cannot learn the practice of an item of a level higher than your own.  
 
 ### Cobble Together  
 
@@ -3380,31 +3418,35 @@ Level 2 Schema Practice (None)
 
 You improvise any item that costs 50 gp or less. After one day, the item falls apart.  
 
-### Craft Enchanted Items  
+### Enchant Item  
 
 Level 2 Schema Practice (None)  
 
-**Cost to Learn:** *  
+**Cost to Learn:** See below  
 **Completion Time:** 1 week  
-**Components:** *  
+**Components:** See below  
 **Duration:** Instantaneous  
 
-Each enchanted item boost (*dragonbane* weapon, *dismissal* focus, *amulet of shielding*, etc.) has its own schema, which a character can learn after studying another of the same variety for 1 hour, or from scratch with 8 hours. The cost to learn equals the cost of a consumable item of the level of a +1 item with that boost. The component cost to make one of those magic items equal the cost to buy the item. If an existing enchanted item is consumed during the crafting process, deduct its cost from the component cost. 
+Rather than a single practice, enchant item is a category of practices. Each enchanted item boost has its own practice (*enchant item: dragonbane weapon, enchant item: dismissal focus,* and so on), which a character can learn after studying another of the same variety for 1 hour, or from scratch with 8 hours. The cost to learn equals the cost of a consumable item of the level of a +1 item with that boost.  
 
-You cannot learn the schema of an item of a level higher than your own.  
+The component cost to make one of those magic items equal the cost to buy the item. If an existing enchanted item is consumed during the crafting process, deduct its cost from the component cost.  
+
+You cannot learn the practice of an item of a level higher than your own.  
 
 ### Craft Wondrous Items  
 
 Level 2 Schema Practice (None)  
 
-**Cost to Learn:** *  
+**Cost to Learn:** See below  
 **Completion Time:** 1 week  
-**Components:** *  
+**Components:** See below  
 **Duration:** Instantaneous  
 
-Each wondrous item has its own schema, which a character can learn after studying another of the same variety for 1 hour, or from scratch with 8 hours. The cost to learn equals the cost of a consumable item of the level of the wondrous item. The component cost to make one of those wondrous items equal the cost to buy the item. If an existing wondrous item is consumed during the crafting process, deduct its cost from the component cost. 
+Rather than a single practice, craft wondrous item is a category of practices. Each wondrous item has its own practice (*craft wondrous item: bag of ogres, craft wondrous item: decanter of endless water,* and so on), which a character can learn after studying another of the same variety for 1 hour, or from scratch with 8 hours. The cost to learn equals the cost of a consumable item of the level of a +1 item with that boost.   
 
-You cannot learn the schema of an item of a level higher than your own.  
+The component cost to make one of those magic items equal the cost to buy the item. If an existing wondrous item is consumed during the crafting process, deduct its cost from the component cost.   
+
+You cannot learn the practice of an item of a level higher than your own.  
 
 ### Brilliant Planner  
 
@@ -3412,8 +3454,8 @@ Level 5 Schema Practice (None)
 
 **Cost to Learn:** 40 gp  
 **Completion Time:** 8 hours  
-**Components:** *  
-**Duration:** Permanent  
+**Components:** See below  
+**Duration:** See below  
 
 You can prepare for future contingencies without defining what those preparations are until they are relevant. This practice requires you to be in a settlement. Spend up to 50 gp per character level, which becomes your brilliant plan fund. While you have a brilliant plan pending, you are always treated as carrying 20 additional pounds of weight, even before you define your brilliant plan.
 
@@ -3429,7 +3471,7 @@ Level 1 Divination Incantation (Religion)
 
 **Cost to Learn:** 14 gp  
 **Completion Time:** 10 minutes  
-**Components:** 14 gp  
+**Components:** Incense (14 gp)  
 **Duration:** 10 minutes  
 
 For the duration, you know if there is a creature of the cosmic, elemental, fey, outsider or shadow source or with the celestial, demon, devil or undead tags within 6 squares of you, as well as where the creature is located. Similarly, you know if there is a place or object within 6 squares of you that has been magically consecrated or desecrated.
@@ -3453,6 +3495,8 @@ The oath-swearer cannot be tricked into thinking an oath is fulfilled when it is
 
 Oaths can be singular tasks (destroy the Dark Tower) or ongoing (keep King Dari alive). Ongoing oaths can be renewed at the end of each year. An oath must be something measurable, so the character knows whether it has been fulfilled. 
 
+One day after the oath is fulfilled or one month after it is broken, you regain the recovery you spent on this craft.
+
 The oath-swearer receive a +2 power bonus on skill checks while working towards their oath, and a +2 power bonus to defenses against attacks that would directly stop them from working towards their oath.  
 
 ### Augury  
@@ -3461,7 +3505,7 @@ Level 3 Divination Incantation (Religion)
 
 **Cost to Learn:** 27 gp  
 **Completion Time:** 1 hour  
-**Components:** Specially marked sticks (27 gp)  
+**Components:** Incense (27 gp)  
 **Duration:** Instantaneous  
 
 By casting gem-inlaid sticks, rolling dragon bones, laying out ornate cards, or employing some other divining tool, you receive an omen from an otherworldly entity about the results of a specific course of action that you plan to take within the next 30 minutes. The GM chooses from the following possible omens:  
@@ -3469,9 +3513,9 @@ By casting gem-inlaid sticks, rolling dragon bones, laying out ornate cards, or 
 - *Weal*, for good results  
 - *Woe*, for bad results  
 - *Weal and woe*, for both good and bad results  
-- *Nothing*, for results that aren't especially good or bad  
+- *Nothing*, for results that aren’t especially good or bad  
 
-The incantation doesn't take into account any possible circumstances that might change the outcome.  
+The incantation doesn’t take into account any possible circumstances that might change the outcome.  
 
 If you cast the incantation two or more times before completing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The GM makes this roll in secret.  
 
@@ -3481,10 +3525,12 @@ Level 5 Curative Incantation (Religion)
 
 **Cost to Learn:** 40 gp  
 **Completion Time:** 1 hour  
-**Components:** 80 gp  
+**Components:** Incense (80 gp)  
 **Duration:** Instantaneous  
 
-At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the incantation breaks its owner’s attunement to the object so it can be removed or discarded.  
+At your touch, all curses of your level or lower (or no level) affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the incantation breaks its owner’s attunement to the object so it can be removed or discarded.  
+
+*Religion check:* With a successful Religion check (moderate DC based on the curse’s level), you can remove curses of a level higher than your own.  
 
 ### Speak with the Departed  
 
@@ -3492,12 +3538,14 @@ Level 5 Divination Incantation (Religion)
 
 **Cost to Learn:** 40 gp  
 **Completion Time:** 1 hour  
-**Components:** Burning incense (40 gp)  
+**Components:** Incense (40 gp)  
 **Duration:** 10 minutes  
 
-You grant the semblance of life and intelligence to a corpse of your choice within range, allowing it to answer the questions you pose. The corpse must still have a mouth and can't be undead. The incantation fails if the corpse was the target of this incantation within the last 10 days.  
+You grant the semblance of life and intelligence to a corpse of your choice within range, allowing it to answer the questions you pose. The corpse must still have a mouth and can’t be undead. The incantation fails if the corpse was the target of this incantation within the last 10 days.  
 
-Until the incantation ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This incantation doesn't return the creature's soul to its body, only its animating spirit. Thus, the corpse can't learn new information, doesn't comprehend anything that has happened since it died, and can't speculate about future events.  
+Until the incantation ends, you can ask the corpse a question. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This incantation doesn’t return the creature’s soul to its body, only its animating spirit. Thus, the corpse can’t learn new information, doesn’t comprehend anything that has happened since it died, and can’t speculate about future events.  
+
+*Religion check:* With a DC 15 Religion check, you can ask up to five questions.  
 
 ### Commune  
 
@@ -3508,11 +3556,11 @@ Level 9 Divination Incantation (Religion)
 **Components:** Incense and a vial of holy or unholy water (168 gp)  
 **Duration:** 1 hour  
 
-You contact your deity or a divine proxy and ask up to three questions that can be answered with a yes or no. You must ask your questions before the incantation ends. You receive a correct answer for each question.  
+You contact a divine proxy and ask up to three questions that can be answered with a yes or no. You must ask your questions before the incantation ends. You receive a correct answer for each question.  
 
-Divine beings aren't necessarily omniscient, so you might receive “unclear” as an answer if a question pertains to information that lies beyond the deity's knowledge. In a case where a one-word answer could be misleading or contrary to the deity's interests, the GM might offer a short phrase as an answer instead.  
+Divine beings aren’t necessarily omniscient, so you might receive “unclear” as an answer if a question pertains to information that lies beyond the deity’s knowledge.
 
-If you cast the incantation two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer. The GM makes this roll in secret.  
+*Religion check:* With a DC 18 Religion check, you contact a more powerful entity aligned strongly with your interests, possibly even your deity. The entity won’t attempt to deceive you, though it still might not know the answers. When it’s important to provide clarity, the entity will answer your questions with up to five words, such as “If you leave immediately” or “That was true once.”  
 
 ### Prescient Divination  
 
@@ -3523,11 +3571,11 @@ Level 9 Divination Incantation (Religion)
 **Components:** Incense and a sacrificial offering appropriate to your religion (168 gp)  
 **Duration:** Instantaneous  
 
-Your magic and an offering put you in contact with a god or a god's servants. You ask a single question concerning a specific goal, event, or activity to occur within 7 days. The GM offers a truthful reply. The reply might be a short phrase, a cryptic rhyme, or an omen.  
+Your magic and an offering put you in contact with a god or a god’s servants. You ask a single question concerning a specific goal, event, or activity to occur within 7 days. The GM offers a truthful reply. The reply might be a short phrase, a cryptic rhyme, or an omen.  
 
-The incantation doesn't take into account any possible circumstances that might change the outcome.  
+The incantation doesn’t take into account any possible circumstances that might change the outcome.  
 
-If you cast the incantation two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The GM makes this roll in secret.  
+*Religion check:* With a DC 18 Religion check, the answer is less cryptic than it otherwise would have been.  
 
 ### Forbid Intrusion  
 
@@ -3538,13 +3586,13 @@ Level 11 Abjuration Incantation (Religion)
 **Components:** A sprinkling of holy water, rare incense, and powdered ruby (360 gp)  
 **Duration:** 1 day  
 
-You create a ward against magical travel that protects up to 1,600 squares of floor space to a height of 6 squares above the floor. For the duration, creatures can't teleport into the area or use portals to enter the area. The incantation proofs the area against planar travel, and therefore prevents creatures from accessing the area by way of the Astral Plane, Ethereal Plane, Plane of Faerie, Plane of Shadow, or the *plane walk* incantation.  
+You create a ward against magical travel that protects up to 1,600 squares of floor space to a height of 6 squares above the floor. For the duration, creatures can’t teleport into the area or use portals to enter the area. The incantation proofs the area against planar travel, and therefore prevents creatures from accessing the area by way of the Astral Plane, Ethereal Plane, Plane of Faerie, Plane of Shadow, or the *plane walk* incantation.  
 
-In addition, the incantation damages types of creatures that you choose when you cast it. Choose one or more of the following tags: air, celestial, cold, demon, devil, earth, fire, water or undead. When a creature with that tag enters the incantation's area for the first time on a turn or starts its turn there, the creature takes 5d10 radiant or necrotic damage (your choice when you cast this incantation).  
+In addition, the incantation damages types of creatures that you choose when you cast it. Choose one or more of the following tags: air, celestial, cold, demon, devil, earth, fire, water or undead. When a creature with that tag enters the incantation’s area for the first time on a turn or starts its turn there, the creature takes 5d10 radiant or necrotic damage (your choice when you cast this incantation).  
 
 When you cast this incantation, you can designate a password. A creature that speaks the password as it enters the area takes no damage from the incantation.  
 
-The incantation's area can't overlap with the area of another *forbid intrusion* incantation. If you cast *forbid intrusion* every day for 7 days in the same location, the incantation lasts until it is dispelled.  
+The incantation’s area can’t overlap with the area of another *forbid intrusion* incantation. If you cast *forbid intrusion* every day for 7 days in the same location, the incantation lasts until it is dispelled.  
 
 ### Geas  
 
@@ -3557,11 +3605,13 @@ Level 11 Practical Incantation (Religion)
 
 A *geas* places a command on a creature to carry out some service or to refrain from some action or course of activity, as desired by you. The creature must be of your level or lower and be able to understand you. While a geas cannot compel a creature to kill itself or perform acts that would result in certain death, it can cause almost any other course of activity.
 
-The geased creature must follow the given instructions until the geas is completed, no matter how long it takes.
+If the instructions are to complete a specific, achievable goal, the geased creature must follow the given instructions until the *geas* is completed, no matter how long it takes.  
 
-If the instructions involve some open-ended task that the recipient cannot complete through his own actions the craft remains in effect for a maximum of one day per level you have. A clever recipient can subvert some instructions.
+If the instructions involve some open-ended task that the recipient cannot complete through their own actions the craft remains in effect for a maximum of one day per level you have. A clever recipient can subvert some instructions.
 
-If the subject is prevented from obeying the *geas* for 24 hours, it loses one recovery. It cannot regain this recovery while the geas remains.  
+If the subject is prevented from obeying the *geas* for 24 hours, it loses one recovery. It cannot regain this recovery while the geas remains.
+
+*Religion check:* With a moderate DC Religion check (based on the level of the target), you can target a creature of level higher than your own.  
 
 ### Restore Revenant  
 
@@ -3585,7 +3635,7 @@ Level 21 Conjuration Incantation (Religion)
 
 This incantation, dreamed up by cultists, opens a fell rift between the current location and a fiery layer of the Abyss. This rift brings about a massive conflagration that destroys almost everything in the immediate area, then releases a powerful demon who capers over the smoldering ruins and begins to rampage across the countryside. The *fires of the Abyss* ignite everything they touch—except for the caster, who is knocked unconscious and transported to a layer of the Abyss.  
 
-When the incantation is complete, the *fires of the Abyss* erupt from the caster's former location.
+When the incantation is complete, the *fires of the Abyss* erupt from the caster’s former location.
 
 *Attack:* Near burst 16; +26 vs Reflex; on a hit, the target takes 18d6 fire damage. On a miss, the target takes half damage. Either way, everything flammable in the burst is lit on fire.  
 
@@ -3597,12 +3647,16 @@ When the incantation is complete, the *fires of the Abyss* erupt from the caster
 
 Level 1 Schema Practice (Sleight of Hand)  
 
-**Cost to Learn:** *  
+**Cost to Learn:** See below  
 **Completion Time:** 1 hour  
-**Components:** *  
+**Components:** See below  
 **Duration:** Instantaneous  
 
-Each trap has its own schema, which a character can learn after studying a trap for 1 hour, or from scratch with 8 hours. The cost to learn equals the cost of a consumable item of the trap's level. The component cost to make one of those traps depends on the type of trap: start with the cost of a consumable item of the trap's level and halve it for a one-off trap and double it for a recurring trap. Hazards use the cost of a consumable item of the trap’s level. 
+Rather than a single practice, craft trap is a category of practices. Each trap has its own practice (*craft trap: snare trap, craft trap: scythe trap,* and so on), which a character can learn after studying another of the same variety for 1 hour, or from scratch with 8 hours. The cost to learn equals the cost of a consumable item of the trap's level.  
+
+The component cost to make one of those traps depends on the type of trap: start with the cost of a consumable item of the trap's level and halve it for a one-off trap and double it for a recurring trap. Hazards use the cost of a consumable item of the trap’s level.  
+
+You cannot learn the practice of a trap of a level higher than your own.  
 
 ## Stealth  
 
@@ -3612,10 +3666,10 @@ Level 1 Trick Practice (Stealth)
 
 **Cost to Learn:** 14 gp  
 **Completion Time:** 10 minutes  
-**Components:** 14 gp  
-**Duration:** 10 minutes  
+**Components:** Special materials suitable for thwarting the specified special sense (14 gp)  
+**Duration:** 8 hours  
 
-You make it impossible for a creature that is tracking you or searching for you to use one of its special senses, like scent or tremorsense, for 8 hours.  
+You make it impossible for a creature that is tracking you or searching for you to use one of its special senses, like scent or tremorsense, to assist it in doing so.  
 
 ## Streetsmarts  
 
@@ -3625,12 +3679,12 @@ Level 1 Interaction Practice (Streetsmarts)
 
 **Cost to Learn:** 14 gp  
 **Completion Time:** 4 hours  
-**Components:** 14 gp in shouted drinks  
+**Components:** Shouted drinks (14 gp)  
 **Duration:** Instantaneous  
 
-You cope through drink and revelry, and have mastered both. You can gain the benefits of a long rest by spending 4 hours drinking, carousing, and taking the occasional blackout nap. You can carouse in this way so long as you consume at least 4 pints' worth of ale (or equivalent drink), and you are alert and aware of your surroundings while doing so. 
+You cope through drink and revelry, and have mastered both. You can gain the benefits of a long rest by spending 4 hours drinking, carousing, and taking the occasional blackout nap. You can carouse in this way so long as you consume at least 4 pints’ worth of ale (or equivalent drink), and you are alert and aware of your surroundings while doing so. 
 
-If you carouse with another creature in this way, you can attempt to learn secrets from it by drinking it under the table. Each hour you spend carousing with a willing creature, make an Endure check vs the target's Fortitude. On a success, that creature answers a question truthfully (even questions it would not normally answer).  
+If you carouse with another creature in this way, you can attempt to learn secrets from it by drinking it under the table. Each hour you spend carousing with a willing creature, make an Endure check vs the target’s Fortitude. On a success, that creature answers a question truthfully (even questions it would not normally answer).  
 
 ### Shady Connections  
 
@@ -3638,10 +3692,10 @@ Level 2 Interaction Practice (Streetsmarts)
 
 **Cost to Learn:** 21 gp  
 **Completion Time:** 1 hour  
-**Components:** 21 gp  
+**Components:** Bribes or gifts (21 gp)  
 **Duration:** Instantaneous  
 
-You have dealings with a variety of unsavory characters, which you can leverage to trade favors or meet powerful people. When you're in an area where you have connections (typically a settlement where you've spent downtime building connections or possibly another area in the same nation), you can arrange a meeting with an important criminal, such as a thieves' guild leader, or ask for a favor in exchange for a later favor of your contact's choice.  
+You have dealings with a variety of unsavory characters, which you can leverage to trade favors or meet powerful people. When you’re in an area where you have connections (typically a settlement where you’ve spent downtime building connections or possibly another area in the same nation), you can arrange a meeting with an important criminal, such as a thieves’ guild leader, or ask for a favor in exchange for a later favor of your contact’s choice.  
 
 ### Sow Rumor  
 
@@ -3649,7 +3703,7 @@ Level 2 Interaction Practice (Streetsmarts)
 
 **Cost to Learn:** 21 gp  
 **Completion Time:** 2 hours  
-**Components:** 42 gp in shouted drinks, bribed journalists or the like  
+**Components:** Shouted drinks, bribed journalists or the like (42 gp)  
 **Duration:** Instantaneous  
 
 You spread rumors, which may or may not be true, about a specific subject. If the subject of your rumor is not currently the subject of any contradictory rumors, this typically takes 2 hours, at the end of which you make a Streetsmarts check to see how well you spread the rumor. If your rumor matches any current rumors about the subject, it takes less time to spread the rumor, and if you are attempting to overtake a particularly popular and contradictory rumor, it takes much longer or may be impossible. The DC similarly increases or decreases depending on how plausible your rumor is. If you succeed, you successfully spread the rumor. If you fail, your rumor dies off. If you fail by 10 or more, a rumor spreads about someone trying to spread false rumors about the subject.  
@@ -3660,10 +3714,10 @@ Level 7 Interaction Practice (Streetsmarts)
 
 **Cost to Learn:** 104 gp  
 **Completion Time:** 2 hours  
-**Components:** 104 gp  
+**Components:** Bribes, disguises or distractions (104 gp)  
 **Duration:** Instantaneous  
 
-Any time you encounter a social event you would ordinarily be denied access to, such as a coronation, royal gala, or other society function, you can secure entry without the need for a skill check. You find invitations, invitees looking for fashionable dates, temporary jobs with the caterers, event staff willing to look the other way, or some other mode of access for yourself and your allies. This ability doesn't apply to secret events or other small private gatherings with no staff, dates, or outsiders involved.  
+Any time you encounter a social event you would ordinarily be denied access to, such as a coronation, royal gala, or other society function, you can secure entry without the need for a skill check. You find invitations, invitees looking for fashionable dates, temporary jobs with the caterers, event staff willing to look the other way, or some other mode of access for yourself and your allies. This ability doesn’t apply to secret events or other small private gatherings with no staff, dates, or outsiders involved.  
 
 ### Safe House  
 
@@ -3671,10 +3725,10 @@ Level 11 Trick Practice (Streetsmarts)
 
 **Cost to Learn:** 360 gp  
 **Completion Time:** 1 week  
-**Components:** 720 gp  
+**Components:** Bribes, development applications and construction costs (720 gp)  
 **Duration:** Instantaneous  
 
-You establish a safe house—a secure space in which to hide your secrets from the outside world. This safe house is roughly the size of a 10-foot cube. It's in a location you have access to, and it can be part of a larger building or structure, like a hidden room or an underground cave. The safe house protects objects and people inside it from magical detection. Setting up or moving your safe house takes a week of downtime. The size of the safe house expands by one 10-foot cube each time you use this craft.    
+You establish a safe house—a secure space in which to hide your secrets from the outside world. This safe house is roughly the size of a 10-foot cube. It’s in a location you have access to, and it can be part of a larger building or structure, like a hidden room or an underground cave. The safe house protects objects and people inside it from magical detection. Setting up or moving your safe house takes a week of downtime. The size of the safe house expands by one 10-foot cube each time you use this craft.     
 
 # Extended Challenges  
 
@@ -4182,7 +4236,7 @@ The Forest Watcher may be entreated for directions to anything within or on the 
 
 Over time, player characters will ingratiate themselves with and derive power from different patrons, powerful magical artifacts, secret societies, and so on. These relationships are often ephemeral, lasting over two or three adventures. In some cases they last longer, particularly if the player character is prepared to keep investing in them.   
 
-When a character forms one of these bonds, they start with a Favor of 5, which corresponds to a “Neutral” attitude.   
+Unless otherwise stated, when a character forms one of these bonds, they start with a Favor of 5, which corresponds to a “Neutral” attitude.   
 
 ##### Table – Favor and Attitude
 
@@ -4571,7 +4625,7 @@ Example ways a character may gain or lose Tyrfing Favor:
 
 **Devastating Coup:** You can perform a coup de grace as a swift action (still choosing a standard action for the attack).   
 
-**The True Death:** A creature killed by an attack from Tyrfing cannot be brought back from the dead by any means, or become an undead creature.   
+**The True Death:** A creature killed by an attack from Tyrfing cannot be brought back from the dead by any means, nor become an undead creature.   
 
 ### Hostile
 
@@ -4644,7 +4698,7 @@ A cart, pulled by one or two beasts of burden.
 
 The dirigible is a form of hot air ship.
 
-**Careen:** Just after its driver's place in the initiative count, the dirigible drops 1d6 squares. It then moves 18 squares, in the direction the wind is blowing. 
+**Careen:** Just after its driver's place in the initiative count, the dirigible drops 1d6 squares. It then moves a number of squares, in the direction the wind is blowing, based on the current wind strength: light wind 6 squares, strong wind 12 squares and a storm 18 squares.
 
 ### Elemental Carriage
 
@@ -4656,7 +4710,7 @@ The dirigible is a form of hot air ship.
 
 This device is a handy carriage powered by nothing other than the motive force of an elemental engine.
 
-**Careen:** Just after its driver's place in the initiative count, the elemental carriage moves the same distance it moved last round -1. It may also start to turn to one side or the other. 
+**Careen:** Just after its driver's place in the initiative count, the elemental carriage moves the same distance it moved last round -1. Additionally, roll 1d6; on a 1 the carriage turns 45 degrees to the left at the halfway point of its movement.  On a 6 it turns 45 degrees to the right.  On any other result, the movement is in a straight line
 
 ### Elemental Flying Ship
 
@@ -4668,7 +4722,7 @@ This device is a handy carriage powered by nothing other than the motive force o
 
 The flying ship is powered by an elemental engine, and is seaworthy. It can also withstand the rigors of the vacuum of space.
 
-**Careen:** Just after its driver's place in the initiative count, the flying ship travels a number of squares equal to the distance it traveled last round, and drops the same distance during that movement. It may also start to turn to one side or the other.
+**Careen:** Just after its driver's place in the initiative count, the flying ship travels a number of squares equal to the distance it traveled last round, and drops the same distance during that movement. Additionally, roll 1d6; on a 1 the ship turns 45 degrees to the left at the halfway point of its movement.  On a 6 it turns 45 degrees to the right.  On any other result, the movement is in a straight line.  
 
 <figure><img src="pics\Revoy_Ship.jpg" alt="Ship by David Revoy" style="zoom: 100%;" /><figcaption>Ship by David Revoy</figcaption></figure>
 
@@ -4684,7 +4738,7 @@ The hot air balloon can seat up to 6 comfortably with two weeks provisions. It i
 
 **Basket:** The hot-air balloon counts as a Medium vehicle for the purposes of ramming and interactions with other vehicles. 
 
-**Careen:** Just after its driver's place in the initiative count, the hot-air balloon drops 1d6 squares. It then moves 12 squares, in the direction the wind is blowing. 
+**Careen:** Just after its driver's place in the initiative count, the hot-air balloon drops 1d6 squares. It then moves a number of squares, in the direction the wind is blowing, based on the current wind strength: light wind 4 squares, strong wind 9 squares and a storm 12 squares. 
 
 ### Rowboat
 
@@ -4696,7 +4750,7 @@ The hot air balloon can seat up to 6 comfortably with two weeks provisions. It i
 
 A rowboat. 
 
-**Careen:** Just after its driver's place in the initiative count, the rowboat moves the same distance it moved last round -1. It may also start to turn to one side or the other. After it comes to a stop, it moves according to the current.  
+**Careen:** Just after its driver's place in the initiative count, the rowboat moves the same distance it moved last round -1. Additionally, roll 1d6; on a 1 the rowboat turns 45 degrees to the left at the halfway point of its movement. On a 6 it turns 45 degrees to the right. On any other result, the movement is in a straight line. After it comes to a stop, it moves according to the current. 
 
 ### Ship
 
@@ -4708,7 +4762,7 @@ A rowboat.
 
 A ship, 24 feet long, 8 feet wide, and 6 feet deep. The ship has a deck, rowing seats, five sets of oars, a steering oar, an anchor, a deck cabin, and a mast with a square sail. 
 
-**Careen:** Just after its driver's place in the initiative count, the ship moves the same distance it moved last round -1. It may also start to turn to one side or the other. After it comes to a stop, it moves according to the current.  
+**Careen:** Just after its driver's place in the initiative count, the ship moves the same distance it moved last round -1. Additionally, roll 1d6; on a 1 the ship turns 45 degrees to the left at the halfway point of its movement. On a 6 it turns 45 degrees to the right. On any other result, the movement is in a straight line. After it comes to a stop, it moves according to the current. 
 
 ### Skiff
 
@@ -4720,7 +4774,7 @@ A ship, 24 feet long, 8 feet wide, and 6 feet deep. The ship has a deck, rowing 
 
 A skiff, 10 feet long, 4 feet wide, and 2 feet deep. The boat has one pair of oars, an anchor, a mast, and a lateen sail. The boat can hold up to four Medium creatures comfortably.  
 
-**Careen:** Just after its driver's place in the initiative count, the skiff moves the same distance it moved last round -1. It may also start to turn to one side or the other. After it comes to a stop, it moves according to the current.
+**Careen:** Just after its driver's place in the initiative count, the skiff moves the same distance it moved last round -1. Additionally, roll 1d6; on a 1 the skiff turns 45 degrees to the left at the halfway point of its movement. On a 6 it turns 45 degrees to the right. On any other result, the movement is in a straight line. After it comes to a stop, it moves according to the current. 
 
 ### Roller Juggernaut
 
@@ -4732,7 +4786,7 @@ A skiff, 10 feet long, 4 feet wide, and 2 feet deep. The boat has one pair of oa
 
 A gigantic arcano-mechanical vehicle made of hewn stone and baked clay, travelling forward on log rollers.
 
-**Roll On:** Roller juggernauts suffer no penalties for difficult terrain. Terrain behind a tank’s movement is no longer considered difficult terrain if it was difficult terrain due to obstructions (a swamp remains difficult terrain, for example).
+**Roll On:** Roller juggernauts suffer no penalties for difficult terrain. Terrain behind a juggernaut’s movement is no longer considered difficult terrain if it was difficult terrain due to obstructions (a swamp remains difficult terrain, for example).
 
 **Careen:** Just after its driver's place in the initiative count, the roller juggernaut moves the same distance it moved last round -1.  
 

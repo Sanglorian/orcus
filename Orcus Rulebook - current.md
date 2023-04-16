@@ -3552,7 +3552,7 @@ Airships, wagons and ships are all vehicles.
 
 Once a vehicle is in motion, it needs attention. If the driver fails to use a Drive, Turn or Brake action on their turn, the vehicle careens (with special rules for each vehicle). 
 
-**Driver:** Regardless of the number of occupants, only one person can drive a vehicle. The vehicle operates only on that character's turn. Even if careening, the vehicle only slides or stops on the driver's turn. 
+**Driver:** Regardless of the number of occupants, or the number of characters required to fully operate a vehicle, one and only one character can be designated as the driver at any one time. The vehicle operates only on that character's turn. Even if careening, the vehicle only slides or stops on the driver's turn. 
 
 **Speed:** The speed given for a vehicle is the number of squares it can move if its driver takes the Drive action. A vehicle can move up to double its speed in one round, for example if its driver takes the Drive action twice.  
 
@@ -3598,7 +3598,7 @@ Movement made as part of a power can be used to disembark a vehicle.
 
 *Reach:* Creatures inside/on a vehicle have reach 1 beyond the vehicle.
 
-**Destroying Vehicles:** Reducing a vehicle to zero hit points renders it non-functional. A vehicle reduced to its negative hit point value may burst into flame, immediately inflicting 3d6 damage to every creature that moves through or enters a square the vehicle occupied or adjacent to it until the end of the encounter.
+**Destroying Vehicles:** Reducing a vehicle to zero hit points renders it non-functional.
 
 **Capacity:** The standard person capacity or crew. In most cases, only one person is needed to operate the vehicle (the “driver”); other crewmembers serve as gunners or co-pilots. Each unused passenger slot allows the vehicle to carry an additional 100 pounds of cargo.
 
@@ -3634,11 +3634,11 @@ The vehicle you are driving moves a number of squares in the direction it is fac
 
 *One Size Larger:* All occupants of your vehicle are dazed until the start of your next turn. Your vehicle and the target take damage according to your total move entitlement. The damage die for your vehicle is d8; for the target it is d4. You push the target 1 square and shift into the vacated square. Your vehicle comes to a stop. 
 
-*Same Size:* All occupants of your vehicle and the target (or occupants of the target vehicle) are dazed until the start of your next turn. Your vehicle and the target take damage according to your total move entitlement. The damage die for both your vehicle and the target is d6. You push the target a number of squares equal to 1/4 your remaining (not current) speed and follow it, then come to a stop. 
+*Same Size:* All occupants of your vehicle and the target (or occupants of the target vehicle) are dazed until the start of your next turn. Your vehicle and the target take damage according to your total move entitlement. The damage die for both your vehicle and the target is d6. You push the target a number of squares equal to 1/4 your remaining (not current) speed (minimum 1 square) and follow it, then come to a stop. 
 
-*One Size Smaller:* The target (or occupants of the target vehicle) is dazed until the start of your next turn. Your vehicle and the target take damage according to your current speed. The damage die for your vehicle is d4; for the target it is d8. You push the target a number of squares equal to 1/2 your remaining (not current) speed, then come to a stop.
+*One Size Smaller:* The target (or occupants of the target vehicle) is dazed until the start of your next turn. Your vehicle and the target take damage according to your current speed. The damage die for your vehicle is d4; for the target it is d8. You push the target a number of squares equal to 1/2 your remaining (not current) speed (minimum 1 square), then come to a stop.
 
-*Two or More Sizes Smaller:* The target (or occupants of the target vehicle) is stunned until the start of your next turn. Your vehicle and the target take damage according to your current speed. The damage die for the target is d10; your vehicle takes only 1 damage per die. You push the target a number of squares equal to your remaining (not current) speed -1 and follow it, then come to a stop. 
+*Two or More Sizes Smaller:* The target (or occupants of the target vehicle) is stunned until the start of your next turn. Your vehicle and the target take damage according to your current speed. The damage die for the target is d10; your vehicle takes only 1 damage per die. You push the target a number of squares equal to your remaining (not current) speed -1 (minimum 1 square) and follow it, then come to a stop. 
 
 ##### Table – Ramming Speed and Damage
 
