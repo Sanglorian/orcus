@@ -84,6 +84,9 @@ Near burst 5, enemies only; Level +2 vs Will; the target is dazed (save ends) or
 **Shadow Walk** (swift, encounter) ● **Illusion, Teleportation**  
 The shade shifts 3 and is invisible until the end of its next turn.  
 
+**Grasping Shadow** (reaction, at-will)
+ A creature marked by the shade makes an attack that does not include the shade as a target: Ranged 20, the marked creature; Charisma vs Will; psychic damage equal to the shade’s level.
+
 **Dark Challenge**  
 When a shade strikes a target in melee, the target is marked until the end of the shade’s next turn.  
 
@@ -109,7 +112,7 @@ As with other templates, the move from standard to elite also doubles a creature
 
 # Monster Traits
 
-Monster traits are like templates, but they do not affect the overall challenge posed by the monster enough that their type or level changes.
+Monster traits are abilities that can be added to any monster. Adding traits does not sufficiently affect the overall challenge posed by a monster as to alter its role or level.
 
 **Against the Fallen**  
 When an ally is killed, the creature gains a +1 power bonus to its next attack roll.
@@ -237,7 +240,7 @@ In cliffside caves and sunken ruins dwell strange beings, servants of the myster
 > **Initiative:** +11; **Speed:** 6, swim 4  
 > **AC:** 20; **Fort:** 21, **Ref:** 19, **Will:** 20   
 > **HP:** 75, **Staggered:** 37   
-> **Resist:**&nbsp;radiant 5, **Vulnerable:**&nbsp;psychic 5   
+> **Immune:**&nbsp;charm, **Resist:**&nbsp;radiant 5, **Vulnerable:**&nbsp;psychic 5   
 >
 > ‡	**Scimitar** (standard, at-will) ● **Weapon**  
 > +13 vs AC; 2d10+5 damage (+1d10 damage if the target is staggered).  
@@ -264,7 +267,7 @@ In cliffside caves and sunken ruins dwell strange beings, servants of the myster
 > **Initiative:** +14; **Speed:** 6, swim 4  
 > **AC:** 26; **Fort:** 23, **Ref:** 22, **Will:** 22   
 > **HP:** 74, **Staggered:** 37   
-> **Resist:**&nbsp;radiant 5, **Vulnerable:**&nbsp;psychic 5   
+> **Immune:**&nbsp;charm, **Resist:**&nbsp;radiant 5, **Vulnerable:**&nbsp;psychic 5   
 >
 > ‡	**Scimitar** (standard, at-will) ● **Weapon**  
 > +15 vs AC; 2d12+5 damage.  
@@ -314,10 +317,10 @@ A horrible mix of crustacean, insect, and serpent, the chuul is an abomination t
 > **AC:** 32; **Fort:** 30, **Ref:** 29, **Will:** 31   
 > **HP:** 114, **Staggered:** 57   
 > **Resist:**&nbsp;radiant 10, **Vulnerable:**&nbsp;psychic 10   
-> Mucus Cloud aura 1: Make a secondary attack against any creature that begins its turn adjacent to the aboleth while underwater. *Secondary Attack:* +21 vs Fortitude; the creature is exposed to the aboleth slime affliction.  
+> Mucus Cloud aura 1: Make a secondary attack against any creature that begins its turn adjacent to the aboleth while underwater. *Secondary Attack:* +21 vs Fortitude; the creature is exposed to the aboleth slime affliction (see the Afflictions chapter).  
 >
 > ‡	**Tentacle** (standard, at-will)   
-> Reach 3; +23 vs AC; 4d8+8 damage and make a secondary attack. *Secondary Attack:* +21 vs Fortitude; the target is exposed to the aboleth slime afflication.  
+> Reach 3; +23 vs AC; 4d8+8 damage and make a secondary attack. *Secondary Attack:* +21 vs Fortitude; the target is exposed to the aboleth slime affliction.  
 > ↗	**Domination Gaze** (standard, at-will)   
 > Ranged 10, a creature afflicted with aboleth slime; +23 vs Will; The target is dominated (save ends). The aboleth can only dominate one creature in this way at a time. If the encounter ends and the target is still dominated, the effect lasts indefinitely, and the dominated creature does not count towards the number of creatures the aboleth can dominate.  
 > ⋇	**Hypnotic Pattern** (standard, recharge 4, 5, 6)   
@@ -327,13 +330,13 @@ A horrible mix of crustacean, insect, and serpent, the chuul is an abomination t
 > ∢	**Mucus Cloud** (swift, at-will)   
 > Near burst 1; +23 vs Fortitude; The target is exposed to the aboleth slime affliction.  
 > ∢	**Roil** (standard, at-will)   
-> Near burst 10, creatures in water without a swim speeed; +23 vs Fortitude; The target falls prone.  
+> Near burst 10, creatures in water without a swim speed; +23 vs Fortitude; The target falls prone.  
 
 The aboleth is a revolting fishlike amphibian found primarily in subterranean lakes and rivers. An aboleth has a pink belly. Four pulsating blue-black orifices line the bottom of its body and secrete gray slime that smells like rancid grease. It uses its tail for propulsion in the water and drags itself along with its tentacles on land. An aboleth weighs about 6,500 pounds.  
 
 # Animals  
 
-Animals are mundane beasts, like those found in the real world.  
+Many animals are mundane beasts, like those found in the real world.  
 
 
 > #### Eagle  
@@ -344,7 +347,7 @@ Animals are mundane beasts, like those found in the real world.
 > **Str:** 12 (+1), **Con:** 14 (+2), **Dex:** 17 (+3)
 > **Int:** 3 (-4), **Wis:** 14 (+2), **Cha:** 13 (+1)  
 >
-> **Initiative:** +5; **Speed:** 2, fly 8 (hover)  
+> **Initiative:** +5; **Speed:** 2, fly 8  
 > **AC:** 15; **Fort:** 12, **Ref:** 14, **Will:** 12   
 > **HP:** 29, **Staggered:** 14      
 >
@@ -376,7 +379,7 @@ Animals are mundane beasts, like those found in the real world.
 >
 > **Level 3 Wrecker** (150 XP)  
 > Large Natural Beast (Unaligned)  
-> **Senses:** Perception +7, low-light vision; **Skills:** Athletics   
+> **Senses:** Perception +7, low-light vision; **Skills:** Athletics +10   
 > **Str:** 19 (+5), **Con:** 14 (+3), **Dex:** 15 (+3)
 > **Int:** 2 (-3), **Wis:** 12 (+2), **Cha:** 10 (+1)  
 >
@@ -428,7 +431,7 @@ Could also be used for a bull.
 > ‡	**Bite** (standard, at-will)   
 > +9 vs AC; 1d8+4 damage, or 1d8+8 against a grappled or blinded target.  
 > ⤢	**Tongue Lash** (swift, at-will)   
-> Ranged 3; +7 vs Reflex; the target is grappled and pulled adjacent to the giant frog.  
+> Ranged 3; +7 vs Reflex; the target is grappled. If it is Large size or smaller, it is also pulled adjacent to the giant frog.  
 > **Leap** (move, at-will)   
 > The giant frog jumps 4 squares, without provoking opportunity attacks.  
 
@@ -456,7 +459,7 @@ Ranged 10; +9 vs Reflex; 1d8+3 poison damage, and the target is blinded until th
 > ‡	**Bite** (standard, at-will)   
 > +9 vs AC; 1d6+4 damage, and the phantom cat shifts 1.  
 > **Shadow Pounce** (move, encounter)   
-> The shadow cat teleports 5 squares, and then makes a *bite* attack, dealing an additional 2d6 damage and knocking the target prone.  
+> The phantom cat teleports 5 squares, and then makes a *bite* attack. On a hit, it does an additional 2d6 damage and knocks the target prone.  
 
 
 > #### Dog-faced Baboon  
@@ -507,7 +510,7 @@ Ranged 10; +9 vs Reflex; 1d8+3 poison damage, and the target is blinded until th
 >
 > **Level 5 Boss Blocker** (1000 XP)  
 > Large Natural Monstrosity ● Aquatic (Unaligned)  
-> **Senses:** Perception +10, low-light vision; **Skills:** History +9, Religion +9   
+> **Senses:** Perception +10, low-light vision; **Skills:** History +10, Religion +10   
 > **Languages:** Common  
 > **Str:** 20 (+7), **Con:** 18 (+6), **Dex:** 12 (+3)
 > **Int:** 16 (+5), **Wis:** 16 (+5), **Cha:** 15 (+4)  
@@ -526,6 +529,8 @@ Ranged 10; +9 vs Reflex; 1d8+3 poison damage, and the target is blinded until th
 > The hermit crab makes a charge attack with its spiny shell: +13 vs AC; 3d6+5 damage, and the target is pushed 1 square. If the target is pushed against an immovable object, such as a wall, it is immobile and takes persistent 5 damage (save ends both).  
 > †	**Spiky Shell** (reaction, at-will)   
 > +8 vs Reflex (When the crab is hit by a melee attack); 1d6+5 damage.  
+
+Ancient hermit crabs are sought out for their wisdom and knowledge, particularly of the deep past. Sometimes, they are revered as estuarine gods by villages and towns.
 
 
 > #### Devil Ape  
@@ -607,7 +612,7 @@ Ranged 10; +9 vs Reflex; 1d8+3 poison damage, and the target is blinded until th
 > **HP:** 54, **Staggered:** 27   
 > **Resist:**&nbsp;Melee and Ranged attacks (half damage), **Vulnerable:**&nbsp;Near and Far attacks 10   
 > *Swarm Violence aura 1:* If an enemy begins their turn in this aura, makes a basic melee attack against them as a free action.
-> *Frenzied Aura aura 2:* The quipper swarm’s swarm attack aura increase to 2 squares the first time an adjacent enemy becomes staggered.  
+> *Frenzied Aura aura 2:* The quipper swarm’s swarm attack aura increases to 2 squares the first time an adjacent enemy becomes staggered.  
 >
 > ‡	**Razor Storm** (standard, at-will)   
 > +11 vs AC; 1d8+4 damage, and the target takes persistent 5 damage (save ends).  
@@ -648,7 +653,7 @@ Ranged 10; +9 vs Reflex; 1d8+3 poison damage, and the target is blinded until th
 > **HP:** 29, **Staggered:** 14      
 >
 > ‡	**Bite** (standard, at-will)   
-> +6 vs AC; 1d10+3 damage. *Secondary Attack:* +6 vs AC; the target falls prone.  
+> +6 vs AC; 1d10+3 damage. *Secondary Attack:* +6 vs Reflex; the target falls prone.  
 > **Worry**   
 > If the dog's target is prone, attacks do +1d6 damage on a hit.  
 
@@ -656,7 +661,7 @@ Ranged 10; +9 vs Reflex; 1d8+3 poison damage, and the target is blinded until th
 
 ##### Grim
 
-Add crusader class template. 
+Add the Adventurer template (Priest class). 
 
 
 > #### Wolf  
@@ -672,7 +677,7 @@ Add crusader class template.
 > **HP:** 39, **Staggered:** 19      
 >
 > ‡	**Bite** (standard, at-will)   
-> +8 vs AC; 1d12+4 damage. *Secondary Attack:* +8 vs AC; the target falls prone.  
+> +8 vs AC; 1d12+4 damage. *Secondary Attack:* +8 vs Reflex; the target falls prone.  
 > **Worry**   
 > If the wolf's target is prone, attacks do +1d6 damage on a hit.  
 
@@ -692,7 +697,7 @@ Represents a wolf or hyena.
 > **HP:** 59, **Staggered:** 29      
 >
 > ‡	**Bite** (standard, at-will)   
-> +12 vs AC; 2d10+4 damage. *Secondary Attack:* +12 vs AC; the target falls prone.  
+> +12 vs AC; 2d10+4 damage. *Secondary Attack:* +12 vs Reflex; the target falls prone.  
 > **Worry**   
 > If the dire wolf's target is prone, attacks do +2d6 damage on a hit.  
 
@@ -724,7 +729,7 @@ Represents a dire wolf or dire hyena.
 > **HP:** 79, **Staggered:** 39      
 >
 > ‡	**Bite** (standard, at-will)   
-> +16 vs AC; 3d8+5 damage. *Secondary Attack:* +16 vs AC; the target falls prone.  
+> +16 vs AC; 3d8+5 damage. *Secondary Attack:* +16 vs Reflex; the target falls prone.  
 > **Worry**   
 > If the worg's target is prone, attacks do +3d6 damage on a hit.  
 
@@ -755,6 +760,8 @@ Represents a dire wolf or dire hyena.
 >
 > ‡	**Hoof** (standard, at-will)   
 > +6 vs AC; 1d10+5 damage.  
+> **Trample** (standard, at-will)   
+> The riding horse can move up to its speed, including through the spaces of enemies that are smaller than it. This movement provokes opportunity attacks, and the riding horse must end its move in an unoccupied space. Each time it enters a creature's space, the riding horse makes a basic melee attack against that creature. On a hit, the target is also knocked prone.  
 > **Ride Down** ● **Mount**  
 > When the riding horse *tramples*, the rider can make a basic melee attack in place of one of the riding horse's basic melee attacks.  
 
@@ -823,7 +830,7 @@ The pegasus is a magnificent winged horse that sometimes serves the cause of goo
 > #### Unicorn  
 >
 > **Level 8 Striker** (350 XP)  
-> Large Natural Beast (Good)  
+> Large Natural Beast ● Mount (Good)  
 > **Senses:** Perception +13, low-light vision; **Skills:** Athletics +18, Religion +13   
 > **Languages:** Common, Sylvan  
 > **Str:** 20 (+9), **Con:** 21 (+9), **Dex:** 17 (+7)
@@ -867,7 +874,7 @@ A unicorn has deep sea-blue, violet, brown, or fiery gold eyes. Males sport a wh
 > **Initiative:** +14; **Speed:** 8, fly 18  
 > **AC:** 26; **Fort:** 23, **Ref:** 25, **Will:** 24   
 > **HP:** 84, **Staggered:** 42      
-> *Sulfurous Smoke aura 3* Lightly obscured. Creatures that begin their turn in the aura are rattled until they leave the aura. The nightmare can see through its own aura.  
+> *Sulfurous Smoke aura 3* Lightly obscured. Enemies that begin their turn in the aura are rattled until they leave the aura. The nightmare and its rider can see through its aura.  
 >
 > ‡	**Hoof** (standard, at-will)   
 > +17 vs AC; 3d8+6 fire damage.  
@@ -3587,7 +3594,7 @@ Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable fa
 > +21 vs AC; 4d8+11 damage, and the target is knocked prone.  
 > ⤢	**Acid Splash** (standard, at-will) ● **Acid**  
 > Ranged 30/60; +19 vs AC (two adjacent creatures); 3d6+8 damage.  
-> **Unblooded Regeneration**   
+> **Unstaggered Regeneration**   
 > At the start of its turn, if the archvillain is not staggered, it heals 5 hit points.  
 > **Weak Point**   
 > When an enemy scores a critical hit on the archvillain, the archvillain suffers an additional 20 damage.  
@@ -5021,7 +5028,7 @@ The shapeshifter slime begins in human form. Once sufficiently damaged, it trans
 > +11 vs AC; 1d8+5 damage, and the target is weakened (save ends).  
 > †	**Flesh Ripper** (standard, refresh 5, 6) ● **Healing**  
 > The failed sacrifice makes two *claw* attacks against a single target. If both attacks hit, the target takes an additional 5 damage and the failed sacrifice heals 5 hit points.  
-> **Blooded Frenzy**   
+> **Staggered Frenzy**   
 > While staggered, the failed sacrifice has a +2 power bonus to attack rolls.  
 
 
@@ -5068,7 +5075,7 @@ The shapeshifter slime begins in human form. Once sufficiently damaged, it trans
 > +19 vs AC; 2d8+10 damage, and the target is weakened (save ends) and grappled.  
 > †	**Heart Ripper** (standard, refresh 5, 6) ● **Healing**  
 > +17 vs Fortitude (must be grappling the target); 4d8+7 damage, and the greater failed sacrifice heals 10 hit points. If this power reduces a target to 0 hit points or below, the greater failed sacrifice rips out the target’s heart, killing it instantly.  
-> **Blooded Frenzy**   
+> **Staggered Frenzy**   
 > While staggered, the greater failed sacrifice gains a +2 bonus to attack rolls and can take an additional standard action each round.  
 
 # Specters  
@@ -6444,7 +6451,7 @@ Shutting the cupboard door stops further summons.
 
 #### Spider’s Lair
 
-*Level 4.* Open ground; tunnels have walls and floors of raw earth and are as heigh as the spiders that made them.
+*Level 4.* Open ground; tunnels have walls and floors of raw earth and are as high as the spiders that made them.
 
 *Light:* Dim light under tree canopy; tunnels are dark.  
 
@@ -6678,9 +6685,10 @@ Traps are often designed with mechanisms that allow them to be disarmed or bypas
 
 There are several varieties of type:
 
-* **One-Off:** These traps trigger once, and must be reset before they will trigger again (or in some cases cannot be reset at all). It would be rare, though not impossible, for a one-off trap to be reset during combat. These traps are usually worth one-quarter the XP of a standard trap of their level. 
-* **Hazard:** These traps remain on the battlefield, affecting any creature that comes into contact with them. These traps are usually worth one-half the XP of a standard trap of their level. 
+* **One-Off:** These traps trigger once, and must be reset before they will trigger again (or in some cases cannot be reset at all). It would be rare, though not impossible, for a one-off trap to be reset during combat. These traps are usually worth one-quarter the XP of a standard monster of their level. 
+* **Hazard:** These traps remain on the battlefield, affecting any creature that comes into contact with them. These traps are usually worth one-half the XP of a standard monster of their level. These traps are usually worth XP equal to that of a standard monster of their level.  
 * **Recurring:** These traps activate or at least can be activated once per round, once they are triggered. 
+* **Elite:** These are particularly powerful examples of one of the above types of trap. They are usually worth double the XP of a trap of their type. For example, an elite hazard is usually worth XP equal to that of a standard monster of their level. 
 
 ## Trap Roles
 
@@ -7245,9 +7253,11 @@ Afflictions like poisons and diseases are usually transmitted in one of the four
 
 Merely touching this type of affliction exposes the creature. 
 
+A chest or other object can be smeared with contact poison as part of a trap. 
+
 ### Ingested
 
-Ingested afflictions are virtually impossible to utilize in a combat situation. A poisoner could administer a potion to an unconscious creature or attempt to dupe someone into drinking or eating something poisoned. A chest or other object can be smeared with contact poison as part of a trap. 
+Ingested afflictions are virtually impossible to utilize in a combat situation. A poisoner could administer a potion to an unconscious creature or attempt to dupe someone into drinking or eating something poisoned. 
 
 ### Inhaled
 
@@ -7359,127 +7369,7 @@ At the end of each long rest, an infected creature must make an Endure check (DC
 * *Stage 2:* The creature suffers a -4 penalty to attack rolls and Perception checks.   
 * *Stage 3:* The creature is blinded until treated.  
 
-**Treatment:** Sight rot can be cured using a rare flower called Eyebright, which grows in some swamps. Given an hour, a character trained in Nature can turn the flower into one dose of ointment. Applied to the eyes before a long rest, one dose of it prevents the disease from worsening after that rest. After three doses, the ointment cures the disease entirely.  
-
-# Terrain
-
-## Pools of Chaos
-
-*Level 3*
-
-Pools of chaos are composed of raw, seething primal chaos. Proximity to a pool of chaos may bring about strange changes over time, while direct contact with the raw chaos is even quicker. 
-
-**Changes to inanimate matter:** While immediate contact with a pit of chaos is instantly transformative, even near proximity to a pit will slowly transform objects and creatures. Objects (or portions of objects) within 20 squares of a pit of chaos have a chance of alteration as follows:
-
-* 50 percent chance on contact, and each round after
-* 10 percent chance after the first hour
-* 5 percent chance after the first 24 hours
-* 5 percent chance after the first month
-* 5 percent chance after the first year
-* 5 percent chance each year thereafter
-
-These percentage chances are not cumulative.
-
-When something is changed, half the time its material changes and the other half of the time its shape or texture changes. Use the Material Changes and Shape/Texture Changes tables to determine the specific type of change.
-
-Generally these alterations cannot be reversed or repaired except through the use of an art. 
-
-##### Table – Material Changes
-
-| d%    | Material                            |
-| ----- | ----------------------------------- |
-| 01-05 | Wood                                |
-| 06-10 | Iron                                |
-| 11-13 | Gold                                |
-| 14-16 | Silver                              |
-| 17-19 | Brass                               |
-| 20-22 | Copper                              |
-| 23-25 | Lead                                |
-| 26-30 | Leather                             |
-| 31-35 | Cloth                               |
-| 36-40 | Paper                               |
-| 41-50 | Hard stone                          |
-| 51-55 | Brittle stone                       |
-| 56-60 | Glass                               |
-| 61-62 | Ice (10% chance of being unmelting) |
-| 63-64 | Ooze/paste                          |
-| 65    | Wax                                 |
-| 66-70 | Water                               |
-| 71-73 | Oil                                 |
-| 74    | Blood                               |
-| 75    | Bone                                |
-| 76-78 | Acid                                |
-| 79    | Poisonous liquid                    |
-| 80-86 | Inert vapor                         |
-| 87-90 | Poisonous vapor                     |
-| 91    | Lava                                |
-| 92-93 | Food (bread, meat, soup, etc.)      |
-| 94-00 | Roll again twice                    |
-
-##### Table – Shape/Texture Changes
-
-| d%    | Shape/Texture                                            |
-| ----- | -------------------------------------------------------- |
-| 01-15 | Surface becomes smooth as glass                          |
-| 16-30 | Surface becomes rough and jagged                         |
-| 31-35 | Surface becomes spiky                                    |
-| 36-45 | Enlarges (x2d10 in size)                                 |
-| 46-55 | Shrinks (d% of original)                                 |
-| 56-70 | Warps                                                    |
-| 71-80 | Grows appendage/extension/addition (d% of original size) |
-| 81-85 | Liquifies                                                |
-| 86-89 | Shape changes entirely                                   |
-| 90-00 | Roll again twice                                         |
-
-**Changes to creatures:** Living creatures suffer a +7 attack vs Fortitude each time the following occurs:
-
-*Contact:*
-
-* On contact, and each round after
-
-*After spending time within 20 squares of a pit of chaos:*
-
-* After the first hour
-* After the first 24 hours
-* After the first month
-* After the first year
-* After each year thereafter
-
-On a hit, use the *Physical Changes* table to determine the specific type of change.
-
-Generally these alterations cannot be reversed or repaired except through the use of an incantation. 
-
-##### Table – Physical Changes
-
-| d%    | Physical Change                                              |
-| ----- | ------------------------------------------------------------ |
-| 01-15 | Skin changes color                                           |
-| 16-25 | Hair changes color                                           |
-| 26-30 | Skin changes texture                                         |
-| 31-35 | One or two limbs are twisted and useless                     |
-| 36-40 | One or two limbs are enlarged                                |
-| 41-50 | Enlarges (increase one size)                                 |
-| 51-60 | Shrinks (decrease one size)                                  |
-| 61-65 | Grows one or two additional, useless limbs                   |
-| 66-70 | Grows one or two additional, usable limbs                    |
-| 71-73 | Loses one or more eyes                                       |
-| 74-76 | Gains one or more eyes                                       |
-| 77-80 | Portion of creature turns to inanimate matter (roll for material; suffers 1d12+3 points of damage) |
-| 81-85 | Portion of creature liquifies, vaporizes, or alters into untenable shape (suffers 1d12+3 points of damage) |
-| 85-90 | Creature polymorphs into an entirely different, random, creature |
-| 91-00 | Roll again twice                                             |
-
-**Spellcasting near a pool of chaos:** Using incantations or arcane powers within 20 squares of a pit of chaos is a risky proposition. To successfully cast the spell the caster must attempt an Arcana check (DC 10 plus half the level of the power or incantation). If this check fails, roll on the Spellcasting Changes table to determine how the spell’s effect is changed. Some results have multiple entries – choose the first one which applies.
-
-##### Table – Spellcasting Changes
-
-| d%    | Change to the Spell Effect                                   |
-| ----- | ------------------------------------------------------------ |
-| 01-20 | Spell target(s) or those within the area of effect are affected as if they made contact with a pool of chaos. |
-| 21-50 | Near and Far spells have a random area within range (and random targets within that area where relevant). Melee and ranged spells choose targets randomly from those within range. Spells with a range of self instead target a random creature within 6 squares. |
-| 51-70 | Damage-inflicting spells heal instead of harm. Penalties become bonuses and vice versa. Effects become their opposites, if applicable. |
-| 71-85 | Spell energy goes wild, becoming a random spell of the same level, keeping target the same if possible. |
-| 86-00 | Spell energy surges uncontrollably, exploding in a Near burst 10. +7 attack vs Reflex; on a hit, 1d12+3 force damage. |
+**Treatment:** Sight rot can be cured using a rare flower called Eyebright, which grows in some swamps. Given an hour, a character trained in Nature can turn the flower into one dose of ointment. Applied to the eyes before a long rest, one dose of it prevents the disease from worsening after that rest. After three doses, the ointment cures the disease entirely. 
 
 # Legal  
 

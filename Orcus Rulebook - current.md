@@ -786,7 +786,7 @@ The DC is higher in unfamiliar settlements and where the information sought is s
 
 # Extended Challenges  
 
-With most skill checks, a single die roll immediately determines whether or not a character succeeds. If a character wants to jump across a chasm or recall a specific piece of information, his success or failure is apparent after a single check.  
+With most skill checks, a single die roll immediately determines whether or not a character succeeds. If a character wants to jump across a chasm or recall a specific piece of information, their success or failure is apparent after a single check.  
 
 For complicated and time-consuming tasks (such as disabling a very complex trap, crafting a powerful artifact or researching an obscure bit of knowledge), or at times when the Game Master wants to build tension and suspense, an extended challenge might be called for. 
 
@@ -794,7 +794,7 @@ For complicated and time-consuming tasks (such as disabling a very complex trap,
 
 At their simplest, you can design an extended challenge using the following rules: 
 
-An extended challenge is a series of interconnected skill checks, in which the player characters try to succeed on some number of checks before failing three checks, in order to achieve an objective.   
+An extended challenge is a series of interconnected skill checks, in which the player characters try to succeed on some number of checks before failing a certain number of checks, in order to achieve an objective.    
 
 In such a case, a specific number of successful skill checks must be achieved to complete the task. The complexity of the task is reflected in the number of successful rolls required to complete the task, and the maximum number of failed rolls that can occur before the attempt fails. In most cases, one or two failed rolls does not mean that an extended challenge has failed, but if three failed rolls occur before the character makes the required number of successful rolls, the attempt fails. Although three failures is a common baseline, Game Masters are encouraged to change the number if the situation warrants it.  
 
@@ -2603,7 +2603,7 @@ Creatures with the Aquatic tag get a +2 bonus on attack rolls against creatures 
 
 # Monster Statistics  
 
-A monster has a rank, a role, a source, a type, tags and a level. For example, a giant frog might be a Standard Lurker (rank and role), Natural Beast (source and type), with the Aquatic tag, and be level 4.  
+A monster has a rank, a role, a size, a source, a type, tags and a level. For example, a giant frog might be a Standard Lurker (rank and role), Medium Natural Beast (size, source and type), with the Aquatic tag, and be level 4.  
 
 ## Rank  
 
@@ -2675,6 +2675,10 @@ A monster’s source describes where its species or type has come from. Certain 
 **Natural** creatures are native to the Prime Material Plane, the world.   
 
 **Outsider** creatures are at least partially composed of the essence (but not necessarily the material) of some Outer Plane. Some creatures start out as some other source and become outsiders when they attain a higher (or lower) state of spiritual existence.  
+
+## Size
+
+Creature size is discussed in the Movement and Position chapter. Monsters belong to the same size categories as player characters.
 
 ## Type  
 
@@ -2750,9 +2754,9 @@ A monster usually dies or is destroyed when it drops to 0 hit points, or is rend
 
 **Regeneration #:** The creature heals # hit points at the start of its turn, unless it is dead. 
 
-**Blooded Regeneration #:** The creature has regeneration while it is staggered only.
+**Staggered Regeneration #:** The creature has regeneration while it is staggered only.
 
-**Unblooded Regeneration #:** The creature has regeneration while it is not staggered. 
+**Unstaggered Regeneration #:** The creature has regeneration while it is not staggered. 
 
 ## Speed  
 
@@ -2762,13 +2766,13 @@ Other movement types, like fly or swim, may also be listed.
 
 ## Ability Scores  
 
-Every monster has six ability scores (Strength, Constitution, Dexterity, Intelligence, Wisdom, and Charisma) and corresponding modifiers.   
+Every monster has six ability scores (Strength, Constitution, Dexterity, Intelligence, Wisdom, and Charisma) and corresponding modifiers. These modifiers include the monster’s half-level bonus.  
 
 ## Skills  
 
 The Skills entry is reserved for monsters that are trained in one or more skills. For example, a monster that is very perceptive and stealthy might have bonuses to Perception and Stealth checks.  
 
-Monsters can make skill checks with skills that are not listed. In those cases, calculate the skill bonus as: the sum of a monster’s relevant ability modifier and half its level (round down). 
+Monsters can make skill checks with skills that are not listed. In those cases, use the monster's relevant ability modifier, as provided in the ability scores section.  
 
 ## Vulnerabilities, Resistances, and Immunities  
 
@@ -3216,22 +3220,7 @@ For the purpose of these rules, an object is a discrete, inanimate item like a w
 
 ## Statistics for Objects  
 
-When time is a factor, you can assign an Armor Class and hit points to a destructible object. You can also give it immunities, resistances, and vulnerabilities to specific types of damage.  
-
-**Armor Class:** An object's Armor Class is a measure of how difficult it is to deal damage to the object when striking it (because the object has no chance of dodging out of the way). The Object Armor Class table provides suggested AC values for various substances.  
-
-##### Table – Substance's HP Multipliers
-
-| Substance                           | HP Multiplier |
-| ----------------------------------- | ------------- |
-| Cloth, paper, rope                  | x 0.1         |
-| Crystal, glass, ice / Very delicate | x 0.25        |
-| Leather / Delicate                  | x 0.5         |
-| Wood, bone                          | 1             |
-| Sturdy                              | x 1.5         |
-| Stone                               | x 2           |
-| Iron, steel                         | x 3           |
-| Adamantine                          | x 5           |
+When time is a factor, you can assign a defenses and hit points to a destructible object. You can also give it immunities, resistances, and vulnerabilities to specific types of damage.   
 
 **Hit Points:** An object's hit points measure how much damage it can take before losing its structural integrity. Large objects also tend to have more hit points than small ones, unless breaking a small part of the object is just as effective as breaking the whole thing.  
 
@@ -3247,6 +3236,19 @@ Objects are immune to poison, psychic and necrotic damage. Will attacks against 
 | Large (cart, 10-ft-by-10-ft window)           | 4           | 12        | 40   |
 | Huge (tapestry)                               | 3           | 15        | 100  |
 | Gargantuan (colossal statue, column of stone) | 2           | 20        | 200  |
+
+##### Table – Substance's HP Multipliers
+
+| Substance                           | HP Multiplier |
+| ----------------------------------- | ------------- |
+| Cloth, paper, rope                  | x 0.1         |
+| Crystal, glass, ice / Very delicate | x 0.25        |
+| Leather / Delicate                  | x 0.5         |
+| Wood, bone                          | 1             |
+| Sturdy                              | x 1.5         |
+| Stone                               | x 2           |
+| Iron, steel                         | x 3           |
+| Adamantine                          | x 5           |
 
 # Magic Item Rules
 

@@ -3866,7 +3866,7 @@ The West Tower guards act on initiative 15, from round 6.
 
 **Success:** The PCs manage to slip away from the king’s guards.
 
-**Failure:** The PCs fail to escape the king’s guards. They must the guards or surrender, in which case they are brought back to the castle and tossed into the dungeon to await their fate.
+**Failure:** The PCs fail to escape the king’s guards. They must fight the guards or surrender, in which case they are brought back to the castle and tossed into the dungeon to await their fate.
 
 ### Race to the Tomb
 
@@ -3975,11 +3975,11 @@ One success at each of three locations: the main mast, the quarterdeck and the b
 
 *At the start of the second minute,* the wind speeds increase to strong (30 mph and the rain picks up into a full thunderstorm. At the start of each of their turns, characters suffer an attack: +13 vs Reflex; the target falls prone. If the target is already prone, they are swept overboard and take 4d6 damage. 
 
-Standing up from prone takes a minute, and a successful Acrobatics or Athletics check (DC 12).
+A prone character cannot move around the vessel or generally make checks to resolve the challenge. They may attempt to stand up, which takes one minute and requires a successful Acrobatics or Athletics check (DC 12).  
 
 A character that is overboard takes 4d6 damage at the end of each turn that they remain overboard.  
 
-Climbing back from overboard takes a minute, and a successful Acrobatics or Athletics check (DC 17). A character on the main deck can forfeit their check to instead throw a rope overboard, which gives the character a +5 bonus on their check. A character who climbs back from overboard arrives at the main deck. 
+A character swept overboard cannot move around the vessel or make checks to resolve the challenge. They may only attempt to climb back aboard. This takes a minute and requires a successful Acrobatics or Athletics check (DC 17). A character on the main deck can forfeit their check to instead throw a rope overboard, which gives the character a +5 bonus on their check. A character who climbs back from overboard arrives at the main deck. 
 
 *At the start of the third minute,* lightning crashes in the sky above the PCs’ vessel. Each minute, there is a 25% chance that a lightning bolt will strike the ship and do 10d6 electricity damage to it (this counts as one additional failure). 
 
@@ -4549,7 +4549,7 @@ Example ways a character may gain or lose Revenant Favor:
 
 **One Foot in the Grave:** Your speed is reduced by 2. 
 
-**Blooded Frenzy:** While staggered, you have a +2 power bonus to attack rolls.
+**Staggered Frenzy:** While staggered, you have a +2 power bonus to attack rolls.
 
 **Creeping Death:** If you remain at the Hostile attitude for a month, you become a Revenant permanently and always at the Hostile attitude. 
 

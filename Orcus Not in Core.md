@@ -1,72 +1,119 @@
-# Orcus
+# Terrain
 
+## Pools of Chaos
 
-> #### Orcus  
->
-> **Level 35 Boss Spoiler** (0 XP)  
-> Huge Outsider Humanoid ● Demon (Chaotic Evil)  
-> **Senses:** Perception +47, Truesight 24; **Skills:** History +47, Perception +47, Religion +47   
-> **Languages:** All, telepathy 72  
-> **Str:** 30 (+27), **Con:** 21 (+22), **Dex:** 30 (+27)
-> **Int:** 27 (+25), **Wis:** 27 (+25), **Cha:** 30 (+27)  
-> **Equipment:** wand of Orcus  
->
-> **Initiative:** +44; **Speed:** 8, fly 12  
-> **Action Points:** 2  
-> **AC:** 49; **Fort:** 47, **Ref:** 46, **Will:** 48; **Saving Throws:** +5   
-> **HP:** 796, **Staggered:** 398   
-> **Resist:**&nbsp;acid, cold, fire, lightning, necrotic, poison 15   
-> *Aura of rot 4:* Each enemy that starts its turn in the aura takes 32 necrotic damage.  
->
-> ‡	**Wand of Orcus** (standard, at-will) ● **Necrotic, Weapon**  
-> 0; +40 vs AC; 7d8+11 damage. On Orcus' next turn, make a secondary attack against the target. 
-> *Secondary Attack:* +40 vs Will; the target takes 7d8+11 necrotic damage; on a miss, the target takes half damage.  
-> ∢	**Wave of Enfeeblement** (swift, refresh 5, 6)   
-> Near burst 4; +40 vs Fortitude; The target is weakened (save ends).  
-> **Teleport** (swift, refresh 5, 6) ● **Teleport**  
-> Orcus teleports up to 24 squares.  
-> †	**Tail** (swift, at-will) ● **Poison**  
-> +40 vs Fortitude; 6d6+11 poison damage.  
-> ↗	**Hand of Bone** (swift, refresh 5, 6)   
-> Ranged 20; +40 vs Will; The target is restrained (save ends).  
-> ⋇	**Acid Fountain** (swift, refresh 5, 6) ● **Acid**  
-> Far burst 2 within 20; 7d8+11 acid damage. *Miss:* Half damage.  
-> ⋇	**Consuming Darkness** (swift, refresh 5, 6) ● **Necrotic, Summons, Zone**  
-> Far burst 2 within 20; 7d8+11 necrotic damage. The area of effect becomes a zone of darkness (totally obscured, blocks line of sight) until the end of Orcus's next turn. When the zone ends, place an abyssal mummy in an unoccupied space in the zone.  
-> ⋇	**Stench of Death** (swift, encounter) ● **Necrotic, Zone**  
-> Far burst 2 within 20; The area of effect becomes a zone until the end of the encounter. Creatures in the zone cannot heal damage. Orcus can move the zone up to 10 squares as a swift action.  
+*Level 3*
 
-*This demonic humanoid is squat and bloated, standing nearly three times as tall as a normal human. It goat-like head sports large, spiraling ram-like horns. Its legs are covered in thick brown fur and end in hooves.*  
+Pools of chaos are composed of raw, seething primal chaos. Proximity to a pool of chaos may bring about strange changes over time, while direct contact with the raw chaos is even quicker. 
 
-*Large powerful arms wield a wicked skull-tipped wand. Two large, black, bat-like wings protrude from its back and a long, snake-like tail, tipped with a sharpened barb, trails behind it.*  
+**Changes to inanimate matter:** While immediate contact with a pit of chaos is instantly transformative, even near proximity to a pit will slowly transform objects and creatures. Objects (or portions of objects) within 20 squares of a pit of chaos have a chance of alteration as follows:
 
-Orcus is one of the strongest (if not the strongest) and most powerful of all demon lords. He fights a never-ending war against rival demon princes that spans several Abyssal layers. From his great bone palace he commands his troops as they wage war across the smoldering and stinking planes of the Abyss. Orcus spends most of his days in his palace, rarely leaving its confines unless he decides to leads his troops into battle (which has happened on more than one occasion). Most of the time though, he is content to let his generals and commanders lead the battles.  
+* 50 percent chance on contact, and each round after
+* 10 percent chance after the first hour
+* 5 percent chance after the first 24 hours
+* 5 percent chance after the first month
+* 5 percent chance after the first year
+* 5 percent chance each year thereafter
 
-When not warring against rival demon princes, Orcus likes to travel the planes, particularly the Material Plane. Should a foolish spellcaster open a gate and speak his name, he is more than likely going to hear the call and step through to the Material Plane. What happens to the spellcaster that called him usually depends on the reason for the summons and the power of the spellcaster. Extremely powerful spellcasters are usually slain after a while and turned into undead soldiers or generals in his armies. 
+These percentage chances are not cumulative.
 
+When something is changed, half the time its material changes and the other half of the time its shape or texture changes. Use the Material Changes and Shape/Texture Changes tables to determine the specific type of change.
 
-> #### Abyssal Mummy  
->
-> **Level 35 Mook Blocker** (0 XP)  
-> Medium Outsider Humanoid ● Demon, Undead (Chaotic Evil)  
-> **Senses:** Perception +40, Truesight 24; **Skills:** Arcana +39, History +39, Religion +39   
-> **Languages:** Common  
-> **Str:** 25 (+24), **Con:** 12 (+18), **Dex:** 15 (+19)
-> **Int:** 10 (+17), **Wis:** 23 (+23), **Cha:** 18 (+21)  
->
-> **Initiative:** +36; **Speed:** 4  
-> **AC:** 51; **Fort:** 48, **Ref:** 47, **Will:** 47   
-> **HP:** 1   
-> **Resist:**&nbsp;necrotic, poison 15   
->
-> †	**Mummy Touch** (standard, at-will) ● **Necrotic, Weapon**  
-> 0; +40 vs AC; 22 necrotic damage, and the target is subject to a secondary attack. *Secondary Attack:* +40 vs Fortitude; the target contracts mummy rot.  
-> ↗	**Look of Horror** (standard, at-will) ● **Fear**  
-> Ranged 10; +40 vs Will; The target is rattled until the end of their next turn. If the target is already rattled, they are dazed instead.  
-> ∢	**Insect Plague** (standard, at-will) ● **Zone**  
-> Near burst 1; +40The mummy is removed from play. The area of effect becomes a zone of lightly obscured difficult terrain. Creatures that end their turn in the zone take 22 damage.  
-> **Soul Harvest**   
-> +40If the abyssal mummy reduces a creature to 0 HP or below, it gains one ward.  
-> **Protected by Death** (counter, at-will)   
-> Spend a ward. The attack misses. If the mummy has no wards, it cannot use this power.  
+Generally these alterations cannot be reversed or repaired except through the use of an art. 
 
+##### Table – Material Changes
+
+| d%    | Material                            |
+| ----- | ----------------------------------- |
+| 01-05 | Wood                                |
+| 06-10 | Iron                                |
+| 11-13 | Gold                                |
+| 14-16 | Silver                              |
+| 17-19 | Brass                               |
+| 20-22 | Copper                              |
+| 23-25 | Lead                                |
+| 26-30 | Leather                             |
+| 31-35 | Cloth                               |
+| 36-40 | Paper                               |
+| 41-50 | Hard stone                          |
+| 51-55 | Brittle stone                       |
+| 56-60 | Glass                               |
+| 61-62 | Ice (10% chance of being unmelting) |
+| 63-64 | Ooze/paste                          |
+| 65    | Wax                                 |
+| 66-70 | Water                               |
+| 71-73 | Oil                                 |
+| 74    | Blood                               |
+| 75    | Bone                                |
+| 76-78 | Acid                                |
+| 79    | Poisonous liquid                    |
+| 80-86 | Inert vapor                         |
+| 87-90 | Poisonous vapor                     |
+| 91    | Lava                                |
+| 92-93 | Food (bread, meat, soup, etc.)      |
+| 94-00 | Roll again twice                    |
+
+##### Table – Shape/Texture Changes
+
+| d%    | Shape/Texture                                            |
+| ----- | -------------------------------------------------------- |
+| 01-15 | Surface becomes smooth as glass                          |
+| 16-30 | Surface becomes rough and jagged                         |
+| 31-35 | Surface becomes spiky                                    |
+| 36-45 | Enlarges (x2d10 in size)                                 |
+| 46-55 | Shrinks (d% of original)                                 |
+| 56-70 | Warps                                                    |
+| 71-80 | Grows appendage/extension/addition (d% of original size) |
+| 81-85 | Liquifies                                                |
+| 86-89 | Shape changes entirely                                   |
+| 90-00 | Roll again twice                                         |
+
+**Changes to creatures:** Living creatures suffer a +7 attack vs Fortitude each time the following occurs:
+
+*Contact:*
+
+* On contact, and each round after
+
+*After spending time within 20 squares of a pit of chaos:*
+
+* After the first hour
+* After the first 24 hours
+* After the first month
+* After the first year
+* After each year thereafter
+
+On a hit, use the *Physical Changes* table to determine the specific type of change.
+
+Generally these alterations cannot be reversed or repaired except through the use of an incantation. 
+
+##### Table – Physical Changes
+
+| d%    | Physical Change                                              |
+| ----- | ------------------------------------------------------------ |
+| 01-15 | Skin changes color                                           |
+| 16-25 | Hair changes color                                           |
+| 26-30 | Skin changes texture                                         |
+| 31-35 | One or two limbs are twisted and useless                     |
+| 36-40 | One or two limbs are enlarged                                |
+| 41-50 | Enlarges (increase one size)                                 |
+| 51-60 | Shrinks (decrease one size)                                  |
+| 61-65 | Grows one or two additional, useless limbs                   |
+| 66-70 | Grows one or two additional, usable limbs                    |
+| 71-73 | Loses one or more eyes                                       |
+| 74-76 | Gains one or more eyes                                       |
+| 77-80 | Portion of creature turns to inanimate matter (roll for material; suffers 1d12+3 points of damage) |
+| 81-85 | Portion of creature liquifies, vaporizes, or alters into untenable shape (suffers 1d12+3 points of damage) |
+| 85-90 | Creature polymorphs into an entirely different, random, creature |
+| 91-00 | Roll again twice                                             |
+
+**Spellcasting near a pool of chaos:** Using incantations or arcane powers within 20 squares of a pit of chaos is a risky proposition. To successfully cast the spell the caster must attempt an Arcana check (DC 10 plus half the level of the power or incantation). If this check fails, roll on the Spellcasting Changes table to determine how the spell’s effect is changed. Some results have multiple entries – choose the first one which applies.
+
+##### Table – Spellcasting Changes
+
+| d%    | Change to the Spell Effect                                   |
+| ----- | ------------------------------------------------------------ |
+| 01-20 | Spell target(s) or those within the area of effect are affected as if they made contact with a pool of chaos. |
+| 21-50 | Near and Far spells have a random area within range (and random targets within that area where relevant). Melee and ranged spells choose targets randomly from those within range. Spells with a range of self instead target a random creature within 6 squares. |
+| 51-70 | Damage-inflicting spells heal instead of harm. Penalties become bonuses and vice versa. Effects become their opposites, if applicable. |
+| 71-85 | Spell energy goes wild, becoming a random spell of the same level, keeping target the same if possible. |
+| 86-00 | Spell energy surges uncontrollably, exploding in a Near burst 10. +7 attack vs Reflex; on a hit, 1d12+3 force damage. |
