@@ -502,7 +502,7 @@ To test what you know about a monster, make a skill check against a Moderate DC 
 
 If you also beat the Hard DC, you also learn its powers, its resistances and immunities and its vulnerabilities.
 
-Use Arcana for elemental, fey and shadow creatures, and creatures with the construct tag. Use Dungeoneering for aberration creatures. Use Religion for outsider creatures, and creatures with the undead tag. Use Nature for natural creatures.  
+Use Arcana for elemental, fey and shadow creatures, and creatures with the Construct tag. Use Dungeoneering for aberration creatures. Use Religion for outsider creatures, and creatures with the Undead tag. Use Nature for natural creatures.  
 
 ### Variant: Skills with Different Abilities  
 
@@ -1569,7 +1569,7 @@ Unless otherwise specified, a creature knows the effect of a power that has affe
 
 If a power has a “Secondary Attack” listed, the user of the power can make an attack, contingent on that effect occurring. For example, if Secondary Attack is listed under the Hit entry, it only takes place on a hit. 
 
-Secondary attacks use the same keywords, attack, defense and range as the original attack, unless otherwise specified. 
+Secondary attacks use the same tags, attack, defense and range as the original attack, unless otherwise specified. 
 
 ## Weapon Dice (“dW”)  
 The term “dW” refers to weapon dice. Every weapon has a given damage die. Roll that die as many times as specified, and add up the results. For example, if you use a power with a longsword (weapon die: 1d10), and the Hit effect is “3dW damage” that means you do 3d10 damage. If it is “3dW + Strength modifier damage” and your Strength modifier is +2, you roll three d10s, add them up and then add 2.   
@@ -1601,7 +1601,7 @@ You can maintain any number of powers, provided you have the actions to do so.
 
 You cannot maintain a power that has ended. The one exception is a power that naturally ended at the start of your turn. If a power like this has a Maintain option, it represents restarting the power. 
 
-## Keywords  
+## Tags  
 
 ### Augmentable
 
@@ -2696,7 +2696,7 @@ The game includes the following monster types, which have no rules of their own.
 
 ## Tags  
 
-A monster might have one or more tags appended to its type. For example, a couatl is listed as Monstrosity ● Dragon, Celestial. The tags provide additional categorization for certain creatures. The tags have no rules of their own, but something in the game, such as a magic item, might refer to them. For instance, a spear that is especially effective at fighting demons would work against any monster that has the demon tag.  
+A monster might have one or more tags appended to its type. For example, a couatl is listed as Monstrosity ● Dragon, Celestial. The tags provide additional categorization for certain creatures. The tags have no rules of their own, but something in the game, such as a magic item, might refer to them. For instance, a spear that is especially effective at fighting demons would work against any monster that has the Demon tag.  
 
 The most common tags are:
 
@@ -2884,7 +2884,11 @@ For example, “refresh 5, 6” means a monster can use the special ability once
 
 A stat block rarely refers to equipment, other than armor or weapons used by a monster. A creature that customarily wears clothes, such as a humanoid, is assumed to be dressed appropriately.  
 
-You can equip monsters with additional gear and trinkets however you like, and you decide how much of a monster’s equipment is recoverable after the creature is slain and whether any of that equipment is still usable. A battered suit of armor made for a monster is rarely usable by someone else, for instance.  
+You can equip monsters with additional gear and trinkets however you like, and you decide how much of a monster’s equipment is recoverable after the creature is slain and whether any of that equipment is still usable. A battered suit of armor made for a monster is rarely usable by someone else, for instance. 
+
+## Variants
+
+Variants are alternative forms or varieties of the monster. They might have different types, movement speeds, powers or other statistics. Unless otherwise mentioned, the features listed under the Variants section are in addition to those of the standard form. 
 
 # Creating New Monsters  
 

@@ -1237,7 +1237,7 @@ Your intense physical training regimes have combined with your powerful phrenic 
 
 **Prerequisite:**  Weapon Shard, at least one power from the martial power source
 
-**Benefit:** When using a power with the martial tag with your weapon shard, you gain a +2 feat bonus to damage rolls. This increases to +3 at 11th level and to +4 at 21st level. 
+**Benefit:** When using a power with the Martial tag with your weapon shard, you gain a +2 feat bonus to damage rolls. This increases to +3 at 11th level and to +4 at 21st level. 
 
 ### Assassin’s Weapon
 You have now used your weapon shard to slay so many in such an underhanded way that your internalized feelings and behaviors have stained your shard. It too excels in underhanded combat.

@@ -689,9 +689,9 @@ As well as the color traits described here, feel free to come up with your own. 
 
 **Low-Light Vision:** You can see in dim light as if it were bright light.  
 
-**Machine Ancestry:** You have the automaton type and the construct tag.  
+**Machine Ancestry:** You have the automaton type and the Construct tag.  
 
-**Reptile Ancestry:** You have the reptile tag.  
+**Reptile Ancestry:** You have the Reptile tag.  
 
 **Shake Off X:** +5 ancestry bonus on saving throws against powers and effects with the Poison, Psychic, Fear, Illusion or Charm tag.   
 
@@ -703,7 +703,7 @@ As well as the color traits described here, feel free to come up with your own. 
 
 **Trance:** You don't need to sleep. Instead, you meditate deeply, remaining semiconscious, for 4 hours a day. While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. Your 4-hour trance has the same effect as a 6-hour long rest.  
 
-**Undead Ancestry:** You have the undead tag.  
+**Undead Ancestry:** You have the Undead tag.  
 
 **Web Stride:** Webs, like those from a spider, are not difficult terrain for you.  
 
@@ -1088,7 +1088,7 @@ You receive a +1 shield bonus to AC and Reflex defenses.
 
 ### Disruption (IV)
 
-Your attacks with this weapon do +Xd6 extra damage against creatures with the demon, devil or undead tags. If your attack causes them to become staggered, they are rattled until the end of their next turn. 
+Your attacks with this weapon do +Xd6 extra damage against creatures with the Demon, Devil or Undead tags. If your attack causes them to become staggered, they are rattled until the end of their next turn. 
 
 While you hold this weapon, it sheds bright light in a 4-square radius and dim light for an additional 4 squares.  
 
@@ -1096,7 +1096,7 @@ While you hold this weapon, it sheds bright light in a 4-square radius and dim l
 
 *Thrown (Heavy) weapon only*  
 
-Do +Xd6 extra damage against creatures with the giant tag.   
+Do +Xd6 extra damage against creatures with the Giant tag.   
 
 **Item Power** (free, daily)
 When you hit with this weapon: The target falls prone.   
@@ -1254,7 +1254,7 @@ While you wear this cloak with its hood up, Perception checks made to see you ar
 ### Cloak of the Artist (IV)
 
 **Item Power** (swift, daily)  
-Until the end of the encounter, you can be under the effect of two powers with the Stance keyword. 
+Until the end of the encounter, you can be under the effect of two powers with the Stance tag. 
 
 ### Cloak of the Bat (IV)  
 
@@ -1916,7 +1916,7 @@ This robe is adorned with eyelike patterns. While you wear the robe, you gain th
 
 The eyes on the robe can't be closed or averted. Although you can close or avert your own eyes, you are never considered to be doing so while wearing this robe.
 
-If you are hit by an attack with the radiant tag, you are dazed (save ends). 
+If you are hit by an attack with the Radiant tag, you are dazed (save ends). 
 
 ### Rope of Climbing
 
@@ -3474,7 +3474,7 @@ Level 1 Divination Incantation (Religion)
 **Components:** Incense (14 gp)  
 **Duration:** 10 minutes  
 
-For the duration, you know if there is a creature of the cosmic, elemental, fey, outsider or shadow source or with the celestial, demon, devil or undead tags within 6 squares of you, as well as where the creature is located. Similarly, you know if there is a place or object within 6 squares of you that has been magically consecrated or desecrated.
+For the duration, you know if there is a creature of the cosmic, elemental, fey, outsider or shadow source or with the Celestial, Demon, Devil or Undead tags within 6 squares of you, as well as where the creature is located. Similarly, you know if there is a place or object within 6 squares of you that has been magically consecrated or desecrated.
 
 The incantation can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.  
 
@@ -3588,7 +3588,7 @@ Level 11 Abjuration Incantation (Religion)
 
 You create a ward against magical travel that protects up to 1,600 squares of floor space to a height of 6 squares above the floor. For the duration, creatures can’t teleport into the area or use portals to enter the area. The incantation proofs the area against planar travel, and therefore prevents creatures from accessing the area by way of the Astral Plane, Ethereal Plane, Plane of Faerie, Plane of Shadow, or the *plane walk* incantation.  
 
-In addition, the incantation damages types of creatures that you choose when you cast it. Choose one or more of the following tags: air, celestial, cold, demon, devil, earth, fire, water or undead. When a creature with that tag enters the incantation’s area for the first time on a turn or starts its turn there, the creature takes 5d10 radiant or necrotic damage (your choice when you cast this incantation).  
+In addition, the incantation damages types of creatures that you choose when you cast it. Choose one or more of the following tags: Air, Celestial, Cold, Demon, Devil, Earth, Fire, Water or Undead. When a creature with that tag enters the incantation’s area for the first time on a turn or starts its turn there, the creature takes 5d10 radiant or necrotic damage (your choice when you cast this incantation).  
 
 When you cast this incantation, you can designate a password. A creature that speaks the password as it enters the area takes no damage from the incantation.  
 
@@ -4284,7 +4284,7 @@ Example ways a character may gain or lose Ancient Priesthood Favor:
 
 **Spiritual Duties:** You must make a blood sacrifice alongside every incantation you perform or the incantation does not work.   
 
-**Obsessed with the Unnatural:** You suffer a -2 penalty on any attack that does not include a creature with the undead or construct tags or the cosmic source.  
+**Obsessed with the Unnatural:** You suffer a -2 penalty on any attack that does not include a creature with the Undead or Construct tags or the cosmic source.  
 
 ### Unfriendly  
 
@@ -4372,7 +4372,7 @@ Example ways a character might gain or lose Golemrider: Atlas Favor:
 
 **Tricky controls:** You cannot shift while riding Atlas. 
 
-**Defiant:** If you are hit by an attack with the Psychic keyword, make a save. If the save fails, you must spend your next standard action attacking a random creature within range. 
+**Defiant:** If you are hit by an attack with the Psychic tag, make a save. If the save fails, you must spend your next standard action attacking a random creature within range. 
 
 ### Unfriendly
 

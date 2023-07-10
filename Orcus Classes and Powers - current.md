@@ -639,7 +639,7 @@ You can choose powers from your class disciplines. When you do so, you can repla
 
 You belong to a particular school of magic. Choose one at character creation. 
 
-* **Conjurer:** When an encounter ends and you have one or more daily powers with the Summon keyword still active, those daily powers are not expended. However, if you use them again, the summoned creatures appear in the exact state they were when their last summoning ended (current HP, conditions, etc.) except that they can use their encounter powers again even if already used before. If you complete a long rest, all your daily powers reset and if you use them from then on a “fresh” creature will be summoned. Your secondary ability is Constitution.
+* **Conjurer:** When an encounter ends and you have one or more daily powers with the Summon tag still active, those daily powers are not expended. However, if you use them again, the summoned creatures appear in the exact state they were when their last summoning ended (current HP, conditions, etc.) except that they can use their encounter powers again even if already used before. If you complete a long rest, all your daily powers reset and if you use them from then on a “fresh” creature will be summoned. Your secondary ability is Constitution.
 * **Enchanter:** When you use a power with the Psychic tag that does damage on a hit, you can choose for the power to do no damage to any enemies you target. If so, you gain a +2 bonus on the attack roll. Your secondary ability is Charisma. 
 * **Evoker:** If you wish, a near or far power you use with the Acid, Cold, Fire, Flux, Lightning or Thunder tags has its area increased by 1 (from Near arc 2 to Near arc 3, for example). Also, you can change your flux energy as a swift action (see the Elemental Flux discipline for a description of flux energy). Your secondary ability is Dexterity.  
 
@@ -1713,7 +1713,7 @@ You can manipulate your own form – stretching, shaping and warping it as you n
 
 You also get a +2 feat bonus to Bluff.   
 
-**Adaptable Body (Level 5):** While the target of a power with the Transmutation keyword, you get a +1 bonus to all defenses and a +1 bonus to speed.   
+**Adaptable Body (Level 5):** While the target of a power with the Transmutation tag, you get a +1 bonus to all defenses and a +1 bonus to speed.   
 
 **Reflexive Shaper (Level 10):** You gain the *instinctive shift* daily utility power from the Deep, Dark Truthful Mirror discipline.   
 
@@ -7923,7 +7923,7 @@ You have dedicated yourself to mastering the arcane arts through dedicated study
 
 **Practiced Casting (11th level):** When you use an arcane encounter attack power with the action you gain from spending an action point, roll 1d6. On a 6, the power is not expended.
 
-**Instinctive Counterspell (16th level):** Choose one keyword from Acid, Charm, Cold, Fear, Fire, Illusion, Lightning, Psychic and Thunder. You gain a permanent +2 bonus to defenses against powers with that keyword. Your allies also benefit from this bonus whenever they are within 10 squares of you.
+**Instinctive Counterspell (16th level):** Choose one tag from Acid, Charm, Cold, Fear, Fire, Illusion, Lightning, Psychic and Thunder. You gain a permanent +2 bonus to defenses against powers with that tag. Your allies also benefit from this bonus whenever they are within 10 squares of you.
 
 ### Powers 
 
