@@ -1148,7 +1148,7 @@ Many weapons have special properties related to their use, as shown in the Weapo
 
 **Range:** A weapon that can be used to make a ranged attack has a range. The range lists two numbers. The first is the weapon's normal range in feet, and the second indicates the weapon's long range. When attacking a target beyond normal range, you have a -2 penalty on the attack roll. You can't attack a target beyond the weapon's long range.  
 
-**Reach:** This weapon adds 1 square to your reach when you attack with it. You can only flank or opportunity attack adjacent enemies, however.  
+**Reach:** This weapon adds 1 square to your reach when you attack with it (for a total reach of 2 for most characters, since the default reach is 1). You can only flank or opportunity attack adjacent enemies, however.  
 
 **Thrown:** You can throw the weapon to make a ranged attack.  
 
@@ -1181,7 +1181,7 @@ Certain weapons get an additional property or benefit based on their Group (if [
 * **Axes; Maces and Clubs; Spears and Lances; Staffs:** Weapon die increases by one (see Increased Weapon Die table below).   
 * **Light Blades; Heavy Blades:** Proficiency bonus increases by +1.  
 * **Picks and Hammers; Flails and Chains:** Improved Critical.   
-* **Polearm:** Reach 1.
+* **Polearm:** Reach.
 
 You can design an exotic melee weapon by taking a martial weapon and adding another Group to it, along with the Group-based benefit or property listed above. 
 
@@ -1242,7 +1242,7 @@ The exotic weapon category is a good place for weapons that do not follow the no
 | Martial side weapon       | Melee | Martial | 1    | +2                | 1d6         | 5         | 1           | 5/10  | Side Weapon, Thrown (Heavy), [group] |
 | Martial one-handed weapon | Melee | Martial | 1    | +2                | 1d8         | 10        | 4           |       | [group]                              |
 | Martial two-handed weapon | Melee | Martial | 2    | +2                | 1d10        | 25        | 8           |       | [group]                              |
-| Martial reach weapon      | Melee | Martial | 2    | +2                | 1d8         | 25        | 8           |       | Polearm (Reach 1), [group]           |
+| Martial reach weapon      | Melee | Martial | 2    | +2                | 1d8         | 25        | 8           |       | Polearm (Reach), [group]             |
 
 ##### Table – Simple Ranged Weapons
 
@@ -1266,7 +1266,7 @@ The exotic weapon category is a good place for weapons that do not follow the no
 | Exotic side weapon       | Melee | Exotic | 1    | +2                | 1d6         | 25         | 1           | 5/10  | Side Weapon, Thrown (Heavy), [two groups] |
 | Exotic one-handed weapon | Melee | Exotic | 1    | +2                | 1d8         | 50        | 4           |       | [two groups]                     |
 | Exotic two-handed weapon | Melee | Exotic | 2    | +2                | 1d10        | 125        | 8           |       | [two groups]                         |
-| Exotic reach weapon | Melee | Exotic | 2    | +2                | 1d8         | 125        | 8           |       | Polearm (Reach 1), [two groups] |
+| Exotic reach weapon | Melee | Exotic | 2    | +2                | 1d8         | 125        | 8           |       | Polearm (Reach), [two groups] |
 | Garrote | Melee | Exotic | 2    | +3                | 1d4           | 1         | 0           | Special (Garrote) | Special |
 
 ## Focuses  
@@ -2494,7 +2494,7 @@ The helpless condition usually comes about as a result of being unconscious.
 * -2 penalty to attack rolls on attacks that do not include the creature that marked you as a target.  
 * If the creature that marked you dies or falls unconscious, you lose the marked condition.   
 * If you are marked by another creature while already marked, the new mark supersedes the old one (in other words, you cannot be marked by two different creatures at the same time).  
-  
+* Unless otherwise specified, the marked condition lasts until the end of the encounter.
 ### Petrified  
 
 - You are transformed into a solid inanimate substance (usually stone).   
@@ -2688,7 +2688,7 @@ The game includes the following monster types, which have no rules of their own.
 
 **Beasts** are nonhumanoid creatures that are a natural part of the fantasy ecology. Some of them have magical powers, but most are unintelligent and lack any society or language. Beasts include all varieties of ordinary animals, dinosaurs, and giant versions of animals, as well as fantastical animals like winged cats or elf hounds.  
 
-**Automatons** do not have organs or coherent bodily systems. They may be very simple creatures, like a gelatinous cube, or masses of a material that is magically animated, like a fire elemental or bronze golem. Undead that have been reanimated from a body or body parts, like skeletons and zombies, are automatons, whereas undead that have been transformed from their living form, like vampires, or undead that are a separate soul, like specters, are humanoids.   
+**Automatons** do not have organs or coherent bodily systems. They may be very simple creatures, like a gelatinous cube, or masses of a material that is magically animated, like a fire elemental or a golem. Undead that have been reanimated from a body or body parts, like skeletons and zombies, are automatons, whereas undead that have been transformed from their living form, like vampires, or undead that are a separate soul, like specters, are humanoids.   
 
 **Humanoids** have bipedal forms, and typically are sapient and sentient, and capable of language and culture. Humanoid races include those commonly found as player characters - humans, dwarves, elves, halflings, goblinoids (goblins, hobgoblins, and bugbears), orcs, gnolls, lizardfolk, and kobolds - as well as fey like nymphs and dryads and outsiders with with humanoid forms like many devils.  
 
@@ -2708,13 +2708,13 @@ The most common tags are:
 
 **Cold** creatures are particularly linked to cold energy. 
 
-**Constructs** are made, not born. Some are programmed by their creators to follow a simple set of instructions, while others are imbued with sentience and capable of independent thought. Golems are the iconic constructs. 
+**Constructs** are made, not born. Some are programmed by their creators to follow a simple set of instructions, while others are imbued with sentience and capable of independent thought. 
 
 **Demons** are chaotic evil creatures of wickedness that are native to the Lower Planes. Along with devils, they are classified as fiends. A few are the servants of deities, but many more labor under the leadership of demon princes. Evil priests and mages sometimes summon demons to the material world to do their bidding. 
 
 **Devils** are evil creatures of wickedness that are native to the Lower Planes. Along with demons, they are classified as fiends. A few are the servants of deities, but many more labor under the leadership of archdevils. Evil priests and mages sometimes summon devils to the material world to do their bidding. 
 
-**Dragons** are reptilian creatures of ancient origin and tremendous power. True dragons, including the good metallic dragons and the evil chromatic dragons, are highly intelligent and have innate magic. Also in this category are creatures distantly related to true dragons, but less powerful, less intelligent, and less magical, such as wyverns and pseudodragons. 
+**Dragons** are reptilian creatures of ancient origin and tremendous power. True dragons, including metallic dragons and chromatic dragons, are highly intelligent and have innate magic. Also in this category are creatures distantly related to true dragons, but less powerful, less intelligent, and less magical, such as wyverns and pseudodragons. 
 
 **Earth** creatures are particularly linked to the element of earth. 
 
@@ -2851,7 +2851,7 @@ XP is calculated based on a monster’s rank and level, as shown below.
 
 ## Auras  
 
-A creature’s aura affects creatures within a burst X equal to the aura X listed in the monster description.   
+A creature’s aura affects creatures within a burst X equal to the aura X listed in the monster description. Unless otherwise mentioned, it does not affect the user. If an aura has any tags, they are listed in brackets.  
 
 ## Actions and powers
 
@@ -2863,8 +2863,8 @@ Special symbols are used to indicate whether an attack is a basic attack, and wh
 
 * ‡ Basic Melee Attack  
 * † Melee Attack  
-* ⇻ Basic Ranged Attack  
-* ⇸ Ranged Attack  
+* ⤢ Basic Ranged Attack  
+* ↗ Ranged Attack  
 * ∢ Near Attack  
 * ⋇ Far Attack  
 
@@ -2882,7 +2882,7 @@ For example, “refresh 5, 6” means a monster can use the special ability once
 
 ## Equipment  
 
-A stat block rarely refers to equipment, other than armor or weapons used by a monster. A creature that customarily wears clothes, such as a humanoid, is assumed to be dressed appropriately.  
+A monster’s stat block lists any key equipment they might be carrying, other than clothes and armor (for creatures that customarily wear clothes or armor) and the weapons already identified by their powers. 
 
 You can equip monsters with additional gear and trinkets however you like, and you decide how much of a monster’s equipment is recoverable after the creature is slain and whether any of that equipment is still usable. A battered suit of armor made for a monster is rarely usable by someone else, for instance. 
 
@@ -3045,11 +3045,13 @@ There are a number of special movement properties:
 
 Assign the monster ability scores based on what seems appropriate. In general, a monster’s highest ability score should equal about 16 + half its level.  
 
+A monster’s modifier for each ability is equal to the base ability modifier, plus half its level (rounded down).”
+
 ## Skills
 
 Choose any number of skills for the monster to be trained in. These skills have a bonus of 5 + half level + the relevant ability modifier. 
 
-Always list the monster’s Perception modifier. If they are not trained in Perception, the modifier is half the monster’s level + its Wisdom modifier. 
+List the monster’s Perception modifier under “Senses”, whether or not they are trained in that skill. If they are not trained in Perception, the modifier is half the monster's level + its Wisdom modifier. 
 
 ## Initiative
 

@@ -3180,7 +3180,7 @@ You’re able to modify your body in ways not reflective of any animal. This inc
 > *It’s like you’re made out of plastic, rubber, or some other kind of other flexible material.*  
 > **At-Will** **Utility** **2** (**Move Action**) ● **Arcane, Transmutation**  
 > **Self**   
-> **Effect** You gain reach 1 until the start of your next turn.  
+> **Effect** Your reach increases by 1 until the start of your next turn.  
 
 > #### Squeeeeze  
 > *Your muscles can extend; your bones can slip from their sockets. You find yourself moving through places even a rodent would find difficult.*  

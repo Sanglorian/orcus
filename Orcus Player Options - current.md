@@ -1253,7 +1253,7 @@ Your willpower and intense emotions allow you to extend your weapon, allowing it
 
 **Prerequisite:**  Weapon Shard
 
-**Benefit:** Your weapon shard becomes a reach weapon.
+**Benefit:** Your weapon shard is a reach weapon.
 
 ### Greater Weapon Shard
 You are a legend that walks amongst men, your myth has already begun to spread around the world. Now the wellspring of a thousand powers your weapon, giving you an equally legendary weapon shard.

@@ -8,7 +8,7 @@ footer: ${pageNo}
 
 # Advanced Options
 
-0.6.2
+1.0
 
 * TOC  
 {:toc}  
@@ -81,6 +81,10 @@ Instead of giving humans the Dabbler feature, GMs may want to offer them the *tr
 
 **Medium natural humanoid**  
 
+Apefolk are humanoids reminiscent of humankind’s closest relatives: gorillas, orang utans and chimpanzees. Most apefolk take a particular pride in legacy and enduring might: memorizing their genealogy, celebrating the history of their centuries-old city-states and seeking personal glory.
+
+<figure><img src="pics\RyzomApefolk.jpg" alt="Ryzom MMORPG Concept Art (Apefolk)" style="zoom: 33%;" /><figcaption>Ryzom MMORPG Concept Art (Apefolk)</figcaption></figure>
+
 ### Apefolk Traits  
 
 **Ability Score Increases:** Pick two of +2 Strength, +2 Constitution and +2 Charisma.  
@@ -89,7 +93,7 @@ Instead of giving humans the Dabbler feature, GMs may want to offer them the *tr
 **Skill Bonuses:** +2 Diplomacy, +2 Religion.  
 
 **Heart of the Legion:** When adjacent to at least two allies, you receive a +1 power bonus to all defenses.  
-**Apefolk Power:** Each apefolk has one of the following powers: *cull the weak* or *rally point*.  
+**Apefolk Power:** Each apefolk has one of the following powers: *cull the weak* or *rally the troops*.  
 
 > #### Cull the Weak  
 > **Encounter** **Attack** **Feature** (**Standard Action**)   
@@ -106,6 +110,8 @@ Instead of giving humans the Dabbler feature, GMs may want to offer them the *tr
 ## Automaton  
 
 **Medium natural automaton (construct)**  
+
+Created beings of brass, clockwork and a pinch of sorcery, the automatons are a relatively new people, one still finding their place in the world. 
 
 ### Automaton Traits  
 
@@ -129,6 +135,8 @@ You do not sleep, breathe, eat or drink.
 ## Azer  
 
 **Medium elemental humanoid (fire)**  
+
+Stout beings who resemble dwarves with hair of fire, azer are often skilled artisans. Their clans are organized on quasi-military lines.
 
 ### Azer Traits  
 
@@ -155,6 +163,8 @@ You do not sleep, breathe, eat or drink.
 
 **Medium shadow humanoid (shapechanger)**  
 
+The baldanar are shapeshifters from the Plane of Shadow. In their true form, a baldanar is a grey-skinned humanoid with shallow features and all-black eyes. Planar gossip suggests that the baldanar are the exiled remnants of a mighty terrestrial empire, stripped of their identities as punishment for their hubris. Some baldanar share this belief, and are trying to recover their memories – and their past glory. Others use their ability to shift forms to make something new of their mysterious lives.
+
 ### Baldanar Traits  
 
 **Ability Score Increases:** Pick two of +2 Dexterity, +2 Intelligence and +2 Charisma.  
@@ -170,6 +180,8 @@ You do not sleep, breathe, eat or drink.
 ## Catfolk  
 
 **Medium natural humanoid**  
+
+Catfolk are playful humanoids with short fur all over their lithe bodies. They have feline heads, with different clans tending to resemble different breeds of big cat.
 
 ### Catfolk Traits  
 
@@ -194,6 +206,8 @@ You do not sleep, breathe, eat or drink.
 
 **Medium fey humanoid**  
 
+Cervitaurs are fey with the upper body of a small elf and the lower body of a deer. They have branching antlers, the tips of which can be snapped off and thrown for a soporific effect on those they strike. 
+
 ### Cervitaur Traits  
 
 **Ability Score Increases:** Pick two of +2 Dexterity, +2 Wisdom and +2 Charisma.  
@@ -216,6 +230,8 @@ You do not sleep, breathe, eat or drink.
 
 **Medium cosmic humanoid**  
 
+Deepfolk are amphibious humanoids with fish-like features, skilled in underwater combat and wielding weapons crafted from coral and obsidian.
+
 ### Deepfolk Traits  
 
 **Ability Score Increases:** Pick two of +2 Dexterity, +2 Wisdom and +2 Charisma.  
@@ -235,6 +251,8 @@ You do not sleep, breathe, eat or drink.
 ## Dromite  
 
 **Small cosmic humanoid**  
+
+Dromite are small insect-like humanoids that form cooperative colonies in gigantic mounds of heaped earth. Their powerful legs allow them to leap great distances, and they can shoot beams of energy from their multi-faceted eyes.
 
 ### Dromite Traits  
 
@@ -256,6 +274,8 @@ You do not sleep, breathe, eat or drink.
 ## Fetchling  
 
 **Medium shadow humanoid**  
+
+Fetchlings are spectral beings, hovering between life and death. They tend to be dolorous, with deep, sad voices. Their skin and hair is wispy and insubstantial.
 
 ### Fetchling Traits  
 
@@ -280,6 +300,8 @@ You do not sleep, breathe, eat or drink.
 
 **Small natural humanoid**  
 
+Frogfolk are amphibious humanoids, with webbed feet and hands and long, sticky tongues. Frogfolk tend to be cheery and adventurous, although their mood quickly turns if their skin dries out. 
+
 ### Frogfolk Traits  
 
 **Ability Score Increases:** Pick two of +2 Constitution, +2 Dexterity and +2 Charisma.  
@@ -301,6 +323,8 @@ You do not sleep, breathe, eat or drink.
 ## Gnoll  
 
 **Medium natural humanoid**  
+
+Gnolls are humanoid hyenas with a reputation for wildness and cunning. Gnolls often exhibit a strong sense of loyalty to their pack (including their "chosen pack", which can include non-gnolls), valuing camaraderie but with little patience for fools and the naive. 
 
 ### Gnoll Traits  
 
@@ -324,6 +348,10 @@ You do not sleep, breathe, eat or drink.
 ## Grynloc  
 
 **Medium natural humanoid**  
+
+Grynlocs are seven-foot tall, lanky hairless humanoids with legs that bend backwards, like a horse's. Their long, toothy mouths make them look a little like camels. They are nomadic desert-dwellers who can literally see magic instead of light when they lower a special lid across their eyes. 
+
+Their ability to shape magic allows them to write messages invisible to the naked eye and craft beautiful raiments of pure magic that require special sight or a *detect magic* invocation to see.  
 
 ### Grynloc Traits  
 
@@ -351,6 +379,8 @@ You do not sleep, breathe, eat or drink.
 
 **Medium natural humanoid (giant)**  
 
+Half-giants typically stand from 7 feet to nearly 8 feet tall. Despite their name, they are their own people and not the product of relations between giants and other humanoids. Half-giants tend to be proud, and see themselves as natural leaders. 
+
 ### Half-Giant Traits  
 
 **Ability Score Increases:** Pick two of +2 Strength, +2 Constitution and +2 Wisdom.  
@@ -373,6 +403,8 @@ You do not sleep, breathe, eat or drink.
 
 **Medium natural humanoid (goblinoid)**  
 
+Hobgoblins are bright-skinned (often red or blue) humanoids with pointed ears and heavy brows. They are known for their discipline, honor and rigid hierarchical societies. 
+
 ### Hobgoblin Traits  
 
 **Ability Score Increases:** Pick two of +2 Strength, +2 Constitution and +2 Dexterity.  
@@ -391,9 +423,11 @@ You do not sleep, breathe, eat or drink.
 > **Effect** Reroll the attack roll and take the new result.  
 
 
-## Hoddydod (Snailfolk)  
+## Hoddydod  
 
 **Small natural humanoid**  
+
+Hoddydod, also known as snailfolk, are a small folk with humanoid upper bodies and the lower bodies of snails, slugs or other molluscs. They tend to be reclusive and scholarly, and obedient to the demands of horoscopes and the pull of ley lines. 
 
 ### Hoddydod Traits  
 
@@ -414,9 +448,11 @@ You do not sleep, breathe, eat or drink.
 
 ## Mephit  
 
-**Small elemental humanoid (fire, water, earth or air)**  
+**Small elemental humanoid (air, cold, earth, fire)**    
 
-Choose one: fire (resistance to fire), water (resistance to cold), earth (resistance to acid) or air (resistance to lightning and thunder)  
+Mephits are small, winged imps from the elemental planes. They are mischevious and clever, and often talkative to a fault among strangers and friends alike. Mephits delight in wallowing in the element with which they are associated. 
+
+Air mephits are resistant to lightning and thunder. Ice mephits are resistant to cold. Earth mephits are resistant to acid. Fire mephits are resistant to fire. 
 
 ### Mephit Traits  
 
@@ -444,6 +480,8 @@ Choose one: fire (resistance to fire), water (resistance to cold), earth (resist
 
 **Medium natural humanoid**  
 
+Strong and imposing half-bull, half-humans, minotaurs are often characterized by their courage, determination, and sometimes a struggle to reconcile their fierce instincts with their human-like emotions.
+
 <figure><img  src="pics\DnD_Minotaur.png" alt="Minotaur by LadyofHats"  style="zoom: 100%;" /><figcaption>Minotaur by  LadyofHats</figcaption></figure>
 
 ### Minotaur Traits  
@@ -469,6 +507,8 @@ Choose one: fire (resistance to fire), water (resistance to cold), earth (resist
 
 **Medium fey humanoid**  
 
+Quicklings are are nimble and hyperactive fey, with their speed making them adept scouts and messengers. However, their frenetic nature can lead to impulsive decisions and a tendency to be easily distracted.
+
 ### Quickling Traits  
 
 **Ability Score Increases:** Pick two of +2 Dexterity, +2 Intelligence and +2 Charisma.  
@@ -489,6 +529,8 @@ Choose one: fire (resistance to fire), water (resistance to cold), earth (resist
 ## Rook  
 
 **Medium elemental humanoid (earth)**  
+
+Tall humanoids with stony skin, rooks have a reputation for moodiness and solemnity - but they are respected for their knowledge and determination. Rooks usually build their homes in high places, perched on cliffs or mountaintops.
 
 ### Rook Traits  
 
@@ -519,6 +561,8 @@ While unconscious, you do not need to breathe nor do you get hungrier or thirsti
 
 **Medium natural humanoid (shapechanger)**  
 
+Selkmays are those who have been claimed by nature spirits, or otherwise bound to wild places. They can take the forms of animals of the water, and each is blessed with a fearsome beauty. Selkmays often feel a duty to serve the community and fight evil. 
+
 <figure><img  src="pics\DnD_Nixie.png" alt="Nixie by LadyofHats"  style="zoom: 100%;" /><figcaption>Nixie by  LadyofHats</figcaption></figure>
 
 ### Selkmay Traits  
@@ -548,7 +592,9 @@ While unconscious, you do not need to breathe nor do you get hungrier or thirsti
 
 ## Shadow Elf  
 
-**Medium shadow humanoid (fey)**  
+**Medium shadow humanoid**  
+
+Shadow elves are enigmatic beings from the Plane of Shadow, the descendents of refugees from the Seelie–Unseelie wars on the Plane of Faerie. They are known for their haunting beauty and inclination towards secrecy and intrigue. 
 
 ### Shadow Elf Traits  
 
@@ -571,6 +617,8 @@ While unconscious, you do not need to breathe nor do you get hungrier or thirsti
 ## Spriggan  
 
 **Small fey humanoid**  
+
+Spriggans are mischievous and diminutive fey creatures, at home in forests and more wild places. Spriggans are short-tempered, and when gripped by powerful emotions can swell to gigantic size.
 
 ### Spriggan Traits  
 
@@ -922,8 +970,8 @@ If the result exceeds 20, subtract 20 and increase the bonus by 1. For example, 
 | 5    | Helm of comprehending languages      | Necrosis cube                      |
 | 6    | Sustaining spoon                     | Satchel of useful items            |
 | 7    | Rope of climbing                     | Ring of water walking              |
-| 8    | Boots of the winterlands             | Deck of illusions                  |
-| 9    | Headband of intellect                | Bag of ogres                       |
+| 8    | Boots of the winterlands             | Bag of tricks (sniper bandit)      |
+| 9    | Headband of intellect                | Bag of tricks (ogre wretch)        |
 | 10   | Spiritlink charm                     | Immovable rod                      |
 | 11   | Hand of the mage                     | Ring of x-ray vision               |
 | 12   | Efficient quiver                     | Eyes of the eagle                  |
@@ -1685,19 +1733,19 @@ While you wear these boots, you have a flying speed equal to your walking speed.
 
 ## Wondrous Items  
 
-### Bag of Ogres
+### Bag of Tricks
 
-*Level 8*
+*Level X*
 
-**Pull Out an Ogre** (standard, daily) ● **Summons**
-Place an ogre wretch in an unoccupied space adjacent to you. The ogre wretch is a companion, and follows the companion rules (including obeying your commands). At the end of the encounter or if reduced to 0 hit points or below, the ogre wretch disappears. 
+Each bag of tricks is associated with a different mook. The level of the bag is equal to the level of the mook it summons.
 
-The ogre wretch has the following feature: 
+**Pull Out a Mook** (standard, daily) ● **Summons**
+Place the associated mook in an unoccupied space adjacent to you. The mook is a companion, and follows the companion rules (including obeying your commands). At the end of the encounter or if reduced to 0 hit points or below, the mook disappears. 
+
+The mook has the following feature: 
 
 *Instinct*
-At the end of your turn, if the ogre wretch has not received a command that turn, it moves to the nearest enemy and uses *maul*. 
-
-**Special:** Other bags may exist for other mooks – the level of the bag equals the level of the mook.
+At the end of your turn, if the mook has not received a command that turn, it moves to the nearest enemy and makes a basic melee attack. If it has multiple basic melee attacks, you choose which it uses.  
 
 ### Bracelet of Friends
 
@@ -1713,56 +1761,6 @@ If the stopper is removed from this ordinary-looking flask (a swift action) and 
 
 * "Stream" pours out 1 gallon per round.
 * "Fountain" produces a 5-foot-long stream at 5 gallons per round.
-
-### Deck of Illusions
-
-*Level 7*
-
-This box contains a set of parchment cards. A full deck has 34 cards. A deck found as treasure is usually missing 1d20-1 cards.
-
-The magic of the deck functions only if cards are drawn at random (you can use an altered deck of playing cards to simulate the deck). You can use a standard action to draw a card at random from the deck and throw it to the ground at a point within 6 squares.
-
-An illusion of one or more creatures forms over the thrown card and remains until dispelled. An illusory creature appears real, of the appropriate size, and behaves as if it were a real creature except that it can do no harm. While you are within 24 squares of the illusory creature and can see it, you can use an action to move it magically anywhere within 6 squares of its card. Any physical interaction with the illusory creature reveals it to be an illusion, because objects pass through it. Someone who visually inspects the creature (a standard action) identifies it as illusory with a successful DC 15 Perception check. The creature then appears translucent.
-
-The illusion lasts until its card is moved or the illusion is dispelled. When the illusion ends, the image on its card disappears, and that card can't be used again.
-
-##### Table – Deck of Illusions
-
-| Playing Card      | Illusion                         |
-| ----------------- | -------------------------------- |
-| Ace of hearts     | Red dragon                       |
-| King of hearts    | Knight and four guards           |
-| Queen of hearts   | Succubus or incubus              |
-| Jack of hearts    | Druid                            |
-| Ten of hearts     | Cloud giant                      |
-| Nine of hearts    | Ettin                            |
-| Eight of hearts   | Bugbear                          |
-| Two of hearts     | Goblin                           |
-| Ace of diamonds   | Beholder                         |
-| King of diamonds  | Archmage and mage apprentice     |
-| Queen of diamonds | Night hag                        |
-| Jack of diamonds  | Assassin                         |
-| Ten of diamonds   | Fire giant                       |
-| Nine of diamonds  | Ogre mage                        |
-| Eight of diamonds | Gnoll                            |
-| Two of diamonds   | Kobold                           |
-| Ace of spades     | Lich                             |
-| King of spades    | Priest and two acolytes          |
-| Queen of spades   | Medusa                           |
-| Jack of spades    | Veteran                          |
-| Ten of spades     | Frost giant                      |
-| Nine of spades    | Troll                            |
-| Eight of spades   | Hobgoblin                        |
-| Two of spades     | Goblin                           |
-| Ace of clubs      | Iron golem                       |
-| King of clubs     | Bandit captain and three bandits |
-| Queen of clubs    | Erinyes                          |
-| Jack of clubs     | Berserker                        |
-| Ten of clubs      | Hill giant                       |
-| Nine of clubs     | Ogre                             |
-| Eight of clubs    | Orc                              |
-| Two of clubs      | Kobold                           |
-| Jokers (2)        | You (the deck's owner)           |
 
 ### Efficient Quiver
 
@@ -2145,7 +2143,7 @@ Poisons can either be used in combat as powers, or if the poisoner gets an oppor
 >
 > **Consumable** **Attack** **5** (**Swift Action**) ● **Poison**  
 > **Effect** The next target you hit with a weapon takes 5 persistent poison damage and is slowed (save ends both).  
-> **Special** If a creature is in prolonged contact with Phase Spider Venom (e.g. it wears clothes on which it has been placed), it is weakened and gains insubstantial (both for 4 hours).  
+> **Special** If a creature is in prolonged contact with Phase Spider Venom (e.g. it wears clothes on which it has been placed), it is weakened and gains incorporeal (both for 4 hours).  
 
 > #### Torpor  
 >
@@ -3442,7 +3440,7 @@ Level 2 Schema Practice (None)
 **Components:** See below  
 **Duration:** Instantaneous  
 
-Rather than a single practice, craft wondrous item is a category of practices. Each wondrous item has its own practice (*craft wondrous item: bag of ogres, craft wondrous item: decanter of endless water,* and so on), which a character can learn after studying another of the same variety for 1 hour, or from scratch with 8 hours. The cost to learn equals the cost of a consumable item of the level of a +1 item with that boost.   
+Rather than a single practice, craft wondrous item is a category of practices. Each wondrous item has its own practice (*craft wondrous item: bag of tricks, craft wondrous item: decanter of endless water,* and so on), which a character can learn after studying another of the same variety for 1 hour, or from scratch with 8 hours. The cost to learn equals the cost of a consumable item of the level of a +1 item with that boost.   
 
 The component cost to make one of those magic items equal the cost to buy the item. If an existing wondrous item is consumed during the crafting process, deduct its cost from the component cost.   
 
@@ -3876,7 +3874,7 @@ The West Tower guards act on initiative 15, from round 6.
 
 **Frequency:** Each hero can make one check every six hours.  
 
-**Opposition:** A rival group of adventurers: one repeater crossbowman, one cowled assassin, one hulk and one shadowblast warlock. 
+**Opposition:** A rival group of adventurers: one crossbow skirmisher, one cowled assassin, one hulk and one shadowblast warlock. 
 
 They act on initiative 15, and take two increments to complete each leg of the distance. 
 
@@ -4798,4 +4796,4 @@ No items are declared as Product Identity.
 
 The terms of the Open Game License Version 1.0a and the relevant Section 15 entries are provided in a separate file.    
 
-Artworks are not Open Game Content unless otherwise mentioned. Full attribution and license for each artwork is available in the Artworks file.   
+Artworks are not Open Game Content unless otherwise mentioned. Full attribution and license for each artwork is available in the Artworks file.   d

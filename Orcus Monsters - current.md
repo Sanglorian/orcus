@@ -55,7 +55,7 @@ If you apply a template to a monster, it gets the following standard bonuses dep
 **Vulnerable:** radiant damage 10, force damage 10. If it takes radiant or force damage, the ghost loses incorporeal until the start of its next turn.   
 
 **Drain Lifeforce**  
-While adjacent to a creature that is staggered or dying, the ghost gains regeneration 5 (10 at Level 11, 15 at Level 21).   
+While adjacent to a creature that is staggered or dying, the ghost has regeneration 5 (10 at Level 11, 15 at Level 21).   
 
 🏹 **Malevolence** (standard, refresh 5, 6) ● Psychic  
 Ranged 5, 1 target; Level +2 vs Will; target is controlled (save ends). The ghost is removed from play until the target succeeds on their save, then the ghost is placed in an unoccupied space adjacent to the target. While removed from play, the ghost does not take turns, suffer persistent damage or make saving throws.   
@@ -237,7 +237,6 @@ A transformed servant is a mind-controlled servant of the aboleth that has been 
 > **Languages:** Common, Deep Speech  
 > **Str:** 20 (+9), **Con:** 17 (+7), **Dex:** 17 (+7)
 > **Int:** 12 (+5), **Wis:** 10 (+4), **Cha:** 11 (+4)  
-> **Equipment:** scimitar, net  
 > 
 > **Initiative:** +11; **Speed:** 6, swim 4  
 > **AC:** 20; **Fort:** 21, **Ref:** 19, **Will:** 20   
@@ -265,7 +264,6 @@ Those that have been kept as thralls of the aboleths for longer periods – the 
 > **Languages:** Common, Deep Speech  
 > **Str:** 21 (+10), **Con:** 18 (+9), **Dex:** 18 (+9)
 > **Int:** 13 (+6), **Wis:** 11 (+5), **Cha:** 12 (+6)  
-> **Equipment:** scimitar, net  
 > 
 > **Initiative:** +14; **Speed:** 6, swim 4  
 > **AC:** 26; **Fort:** 23, **Ref:** 22, **Will:** 22   
@@ -445,23 +443,23 @@ Replace *tongue lash* with:
 Ranged 10; +9 vs Reflex; 1d8+3 poison damage, and the target is blinded until the end of the giant frog’s next turn.  
 
 
-> #### Phantom Cat  
+> #### Panther 
 > **Level 4 Striker** (175 XP)  
-> Medium Fey Beast (Unaligned)  
+> Medium Natural Beast (Unaligned)  
 > **Senses:** Perception +8, low-light vision; **Skills:** Stealth +11   
 > **Str:** 14 (+4), **Con:** 14 (+4), **Dex:** 18 (+6)
 > **Int:** 2 (-2), **Wis:** 13 (+3), **Cha:** 11 (+2)  
 > 
-> **Initiative:** +8; **Speed:** 8, climb 6; see also *shadow pounce*  
+> **Initiative:** +8; **Speed:** 8, climb 6; see also *pounce*  
 > **AC:** 18; **Fort:** 16, **Ref:** 18, **Will:** 15   
 > **HP:** 44, **Staggered:** 22      
 > 
 > ‡	**Bite** (standard, at-will)   
-> +9 vs AC; 1d6+4 damage, and the phantom cat shifts 1.  
-> **Shadow Pounce** (move, encounter)   
-> The phantom cat teleports 5 squares, and then makes a *bite* attack. On a hit, it does an additional 2d6 damage and knocks the target prone.  
+> +9 vs AC; 1d6+4 damage, and the panther shifts 1 square.  
+> **Pounce** (move, encounter)   
+> The panther shifts 5 squares, and then makes a *bite* attack. On a hit, it does an additional 2d6 damage and knocks the target prone.  
 
-A ghostly panther that can pass through solid objects.  
+A leopard or jaguar.  
 
 
 > #### Dog-faced Baboon  
@@ -1090,6 +1088,128 @@ A powerful construct purpose-built for combat, the animate battleform is powered
 | 9    | Radiant     | Topaz      |
 | 10   | Thunder     | Spinel     |  
 
+## Juggernauts  
+Juggernauts are the constructs created by a long-ago empire. Unlike some other constructs, Juggernauts are not capable of independent action.  Each juggernaut has room in its torso for a humanoid rider, who controls the juggernaut.
+
+> #### The Minotaur  
+> **Level 5 Elite Wrecker** (400 XP)  
+> Large Natural Automaton ● Construct (Unaligned)  
+> **Senses:** Perception +12, darkvision; **Skills:** Athletics +15, Endure +16, Intimidate +9   
+> **Str:** 26 (+10), **Con:** 28 (+11), **Dex:** 10 (+2)
+> **Int:** 12 (+3), **Wis:** 14 (+4), **Cha:** 12 (+3)  
+> 
+> **Initiative:** +2; **Speed:** 7  
+> **Action Points:** 1  
+> **AC:** 17; **Fort:** 17, **Ref:** 17, **Will:** 17; **Saving Throws:** +2   
+> **HP:** 114, **Staggered:** 57   
+> **Resist:**&nbsp;all 10   
+> 
+> ‡	**Slam** (standard, at-will)   
+> Reach 2; +10 vs AC; 2d6+6 damage.  
+> ⤢	**Lightning Shot** (standard, at-will) ● **Lightning**  
+> Ranged 30/60; +10 vs AC; 2d8+6 lightning damage.  
+> **Minotaur Rush**   
+> The minotaur’s movement does not provoke opportunity attacks. When the Minotaur moves, it ignores difficult terrain and can freely enter squares occupied by enemies of Large size or smaller. Shunt Large and smaller enemies in squares the Minotaur enters by 1 square. The Minotaur cannot be knocked prone.  
+> **Iron Onslaught** (standard, refresh 6)   
+> The Minotaur shifts up to 9 squares in a straight line. The Minotaur makes a *slam* attack against each enemy in reach during this movement. On a hit, the target is knocked prone. The Minotaur can only attack each target once.  
+> **Eruption** (reaction, encounter)   
+> When the Minotaur is staggered: The Minotaur immediately stands up if prone and recovers from all conditions it suffers from. The Minotaur makes an *iron onslaught* attack. This use of *iron onslaught* does not exhaust that power, and can be used even if that power is currently exhausted.   
+
+The original use of the Minotaur was to breach walls and other defenses during siege warfare.  
+
+
+> #### The Emperor  
+> **Level 9 Elite Archer** (800 XP)  
+> Large Natural Automaton ● Construct (Unaligned)  
+> **Senses:** Perception +11, darkvision; **Skills:** Acrobatics +14, Athletics +13, Endure +16   
+> **Str:** 20 (+9), **Con:** 24 (+11), **Dex:** 20 (+9)
+> **Int:** 14 (+6), **Wis:** 14 (+6), **Cha:** 13 (+5)  
+> 
+> **Initiative:** +9; **Speed:** 6, fly 8  
+> **Action Points:** 1  
+> **AC:** 21; **Fort:** 21, **Ref:** 21, **Will:** 19; **Saving Throws:** +2   
+> **HP:** 114, **Staggered:** 57   
+> **Resist:**&nbsp;all 10   
+> 
+> ‡	**Slam** (standard, at-will)   
+> +14 vs AC; 1d8+6 damage, and the target is knocked prone.  
+> ⤢	**Lightning Shot** (standard, at-will) ● **Lightning**  
+> Ranged 40/80; +14 vs AC; 2d8+8 lightning damage.  
+> **Alpha Strike** (standard, refresh 5, 6)   
+> The Emperor flies 7 squares and makes 3 *lightning shot* attacks.  
+> ↗	**Floating Orbs** (swift, at-will) ● **Lightning**  
+> Ranged 15/30; +14 vs AC; 2d6+6 lightning damage.  
+> **Armored Shell** (free, encounter)   
+> When the Emperor is staggered: The Emperor’s ground and fly speeds increase by 1, the Emperor is healed to its maximum hit point total and it loses all resistances.  
+
+The Emperor is built in the shape of a gigantic, powerful human. The exposed copper and bronze wires that make up its artificial musculature give it the appearance of a skinless, gleaming gold giant floating through the air.  
+
+
+> #### The Scorpion  
+> **Level 15 Elite Archer** (2400 XP)  
+> Large Natural Automaton ● Construct (Unaligned)  
+> **Senses:** Perception +13, darkvision; **Skills:** Acrobatics +16, Athletics +24, Endure +24   
+> **Str:** 30 (+17), **Con:** 30 (+17), **Dex:** 18 (+11)
+> **Int:** 14 (+9), **Wis:** 12 (+8), **Cha:** 13 (+8)  
+> 
+> **Initiative:** +9; **Speed:** 6  
+> **Action Points:** 1  
+> **AC:** 27; **Fort:** 29, **Ref:** 26, **Will:** 25; **Saving Throws:** +2   
+> **HP:** 162, **Staggered:** 81   
+> **Resist:**&nbsp;all 10   
+> 
+> ‡	**Heavy Piton Leg** (standard, at-will)   
+> Reach 2; +20 vs AC; 3d6+13 damage, and the target is pushed 3 squares and knocked prone.  
+> ⤢	**Lightning Shot** (standard, at-will) ● **Lightning**  
+> Ranged 30/60; +20 vs AC; 3d6+13 lightning damage, and the target is knocked prone.  
+> ∢	**Lightning Field** (standard, at-will) ● **Lightning**  
+> Near burst 2; +18 vs Reflex; 2d8+8 lightning damage, and the target is pushed 3 squares and knocked prone.  
+> ↗	**Second Arc** (standard, at-will) ● **Lightning**  
+> The Scorpion makes a *lightning shot* attack. If it hits, it makes a *lightning shot* attack against another enemy within 6 squares of the original target.   
+> ⋇	**Thunder Fall** (standard and move, at-will) ● **Thunder**  
+> Far burst 1 within 30; +18 vs Reflex; 3d6+10 damage, and the target is knocked prone.  
+> **Deployment** (move, at-will) ● **Stance**  
+> The Scorpion cannot move or be moved until it deactivates deployment. Its AC increases to 29 but its Reflex defense decreases to 24. The Scorpion cannot make *heavy piton leg* or *thunder fall* attacks while in this stance.  
+> **Fortified Platform**   
+> The Scorpion cannot be knocked prone or subject to unwilling movement.  
+
+The Scorpion is in the shape of a many-legged insect, but with the animated stone and bronze of the other juggernauts. The rider must lie supine in the "body" of the Scorpion, in a small dark room called the "coffin".  
+
+
+> #### The Awoken  
+> **Level 15 Boss Striker** (6000 XP)  
+> Large Natural Automaton ● Construct (Good)  
+> **Senses:** Perception +19, darkvision, blindsight 10   
+> **Languages:** Common  
+> **Str:** 30 (+17), **Con:** 26 (+15), **Dex:** 12 (+8)
+> **Int:** 14 (+9), **Wis:** 21 (+12), **Cha:** 19 (+11)  
+> 
+> **Initiative:** +9; **Speed:** 6  
+> **Action Points:** 2  
+> **AC:** 29; **Fort:** 28, **Ref:** 26, **Will:** 26; **Saving Throws:** +5   
+> **HP:** 396, **Staggered:** 198   
+> **Immune:**&nbsp;poison, disease, **Resist:**&nbsp;all 10   
+> 
+> ‡	**Slam** (standard, at-will)   
+> Reach 2; +20 vs AC; 3d8+13 damage, and the target is pushed 3 squares or grappled.  
+> ⤢	**Force Boom** (standard, at-will) ● **Force**  
+> Ranged 20/40; +20 vs AC; 3d6+13 force damage, and the target takes persistent 10 force damage (save ends).  
+> ⋇	**Firebomb** (standard, refresh 5, 6) ● **Fire**  
+> Far burst 3 within 20; +18 vs Reflex; 2d8+8 fire damage, and the target takes persistent 10 fire damage (save ends).  
+> †	**Direct Kill** (move, at-will) ● **Force, Weapon**  
+> Reach 2; +18 vs Fortitude (must be grappling the target); 3d6+13 damage, and the target takes persistent 10 damage (save ends).  
+> **Self-Repair** (swift, at-will) ● **Healing**  
+> The Awoken heals 10 hit points.  
+> **Scan the Area** (swift, at-will)   
+> The Awoken gains a +2 power bonus to attack rolls and can ignore difficult terrain until the start of the Awoken’s next turn.  
+> **Force Shield** (swift, at-will)   
+> The Awoken gains a +1 power bonus to all defenses until the start of the Awoken’s next turn, and can shift 1 square.  
+> **Unfeeling**   
+> The Awoken cannot be marked, dominated, or surprised.  
+
+The Awoken is the only juggernaut in recorded history to become self-aware, and able to direct itself without a rider in its torso. It might still be convinced to take a rider, or forced to do so if someone managed to break into its torso cavity. While it has a rider, it loses the *unfeeling* feature.  
+
+
 # Couatl  
 Couatl, also known as feathered dragons, are dragons sent from the heavens to do good on earth. Despite their holy mission, they remain carnivores - and they hunger for the meat of those intellectually beneath them.  
 
@@ -1291,7 +1411,6 @@ Vermin feeding on the corpse of a dead spellcaster sometimes capture a sliver of
 > **Languages:** Common  
 > **Str:** 18 (+11), **Con:** 12 (+8), **Dex:** 15 (+9)
 > **Int:** 13 (+8), **Wis:** 15 (+9), **Cha:** 12 (+8)  
-> **Equipment:** spear, javelin  
 > 
 > **Initiative:** +16; **Speed:** 8  
 > **AC:** 29; **Fort:** 27, **Ref:** 26, **Will:** 28   
@@ -1309,7 +1428,7 @@ Vermin feeding on the corpse of a dead spellcaster sometimes capture a sliver of
 > +20 vs Fortitude; 2d10+6 necrotic damage and the target ages one year. The aging wears off at a rate of one year per month.  
 > **Declaration Powers**   
 > At the end of its turn, the lamia can choose one of the following:  
-*Collapse into swarm* (counter) The lamia is the target of Melee or Ranged attack, or as a free action during its turn: The lamia becomes a swarm. It gains the Swarm tag, the compress Tiny special movement mode and resistance 10 to damage from Melee and Ranged attacks. However, it gains weakness 10 to damage from Near and Far attacks. A swarm can occupy the same space as other creatures. The lamia can leave swarm form as a swift action.   
+> *Collapse into swarm* (counter) The lamia is the target of Melee or Ranged attack, or as a free action during its turn: The lamia becomes a swarm. It gains the Swarm tag, the compress Tiny special movement mode and resistance 10 to damage from Melee and Ranged attacks. However, it gains weakness 10 to damage from Near and Far attacks. A swarm can occupy the same space as other creatures. The lamia can leave swarm form as a swift action.   
 *Fast healing* (reaction) The lamia does not take fire or thunder damage before the start of its next turn: The lamia heals 10.  
 
 Lamias are scorpion, snake or lion-bodied centaurs with human upper bodies. They were once lycanthropes, but after they took control of a kingdom and ruled it with an iron fist Shehaan fixed them in hybrid form. Jealous of the shapeshifting they had lost, they used dark rituals to give themselves back the ability to transform - but the transformation is incomplete, and only allows them to turn into swarms of insects.  
@@ -1324,7 +1443,6 @@ Lamias recruit unwanted children, turning them into lycanthropes - their janissa
 > **Languages:** Common  
 > **Str:** 20 (+14), **Con:** 12 (+10), **Dex:** 15 (+11)
 > **Int:** 18 (+13), **Wis:** 17 (+12), **Cha:** 20 (+14)  
-> **Equipment:** spear, javelin  
 > 
 > **Initiative:** +20; **Speed:** 8, climb 6, swim 6  
 > **AC:** 33; **Fort:** 31, **Ref:** 30, **Will:** 32   
@@ -1344,7 +1462,7 @@ Lamias recruit unwanted children, turning them into lycanthropes - their janissa
 > The lamia superior turns invisible until the end of its next turn.  
 > **Declaration Powers**   
 > At the end of its turn, the lamia can choose one of the following:  
-*Collapse into swarm* (counter) The lamia is the target of Melee or Ranged attack, or as a free action during its turn: The lamia becomes a swarm. It gains the Swarm tag, the compress Tiny special movement mode and resistance 10 to damage from Melee and Ranged attacks. However, it gains weakness 10 to damage from Near and Far attacks. A swarm can occupy the same space as other creatures. The lamia can leave swarm form as a swift action.   
+> *Collapse into swarm* (counter) The lamia is the target of Melee or Ranged attack, or as a free action during its turn: The lamia becomes a swarm. It gains the Swarm tag, the compress Tiny special movement mode and resistance 10 to damage from Melee and Ranged attacks. However, it gains weakness 10 to damage from Near and Far attacks. A swarm can occupy the same space as other creatures. The lamia can leave swarm form as a swift action.   
 *Fast healing* (reaction) The lamia does not take fire or thunder damage before the start of its next turn: The lamia heals 10.  
 
 # Deepfolk  
@@ -1381,7 +1499,6 @@ Deepfolk are amphibious humanoids with fish-like features, skilled in underwater
 > **Languages:** Deep Speech  
 > **Str:** 18 (+8), **Con:** 12 (+5), **Dex:** 15 (+6)
 > **Int:** 11 (+4), **Wis:** 8 (+3), **Cha:** 10 (+4)  
-> **Equipment:** longsword, small shield, javelins  
 > 
 > **Initiative:** +10; **Speed:** 6, swim 8  
 > **AC:** 20; **Fort:** 21, **Ref:** 19, **Will:** 20   
@@ -1402,7 +1519,6 @@ Deepfolk are amphibious humanoids with fish-like features, skilled in underwater
 > **Languages:** Deep Speech  
 > **Str:** 14 (+7), **Con:** 9 (+4), **Dex:** 13 (+6)
 > **Int:** 19 (+9), **Wis:** 14 (+7), **Cha:** 13 (+6)  
-> **Equipment:** short sword, arcane focus  
 > 
 > **Initiative:** +11; **Speed:** 6, swim 8  
 > **AC:** 24; **Fort:** 22, **Ref:** 21, **Will:** 23   
@@ -1453,7 +1569,6 @@ Add the Aquatic tag. Replace the fly speed with swim speed 6.
 > **Languages:** Common, Primordial  
 > **Str:** 28 (+15), **Con:** 28 (+15), **Dex:** 25 (+13)
 > **Int:** 23 (+12), **Wis:** 24 (+13), **Cha:** 31 (+16)  
-> **Equipment:** Gargantuan quarterstaff  
 > 
 > **Initiative:** +13; **Speed:** 10, burrow 8 (earth glide)  
 > **Action Points:** 1  
@@ -1807,7 +1922,7 @@ Water elementals are fluid entities shaped from water.
 # Fey  
 
 ## Barghests  
-Barghests are wolf-goblin demons. 
+Barghests are wicked, shape-changing wolf-goblin monsters. 
 
 ##### Special
 **Transformation:** If a barghest has fed on 10 or more humanoids, then the next full moon it reforms as a greater barghest. This is a good opportunity for the heroes to face the barghest in a weaker form, get a sense of its powers and tactics before it flees, and then a few days later face a more challenging greater barghest.  
@@ -1868,7 +1983,6 @@ Barghests are wolf-goblin demons.
 > **Languages:** Deep Speech  
 > **Str:** 8 (-1), **Con:** 11 (+0), **Dex:** 13 (+1)
 > **Int:** 8 (-1), **Wis:** 13 (+1), **Cha:** 8 (-1)  
-> **Equipment:** shortsword, 10 darts  
 > 
 > **Initiative:** +1; **Speed:** 4, climb 4  
 > **AC:** 15; **Fort:** 12, **Ref:** 14, **Will:** 13   
@@ -1893,7 +2007,7 @@ Small, cowardly and self-pitying fey, mitflits have an empathetic connection wit
 > **Languages:** Deep Speech  
 > **Str:** 12 (+1), **Con:** 15 (+2), **Dex:** 15 (+2)
 > **Int:** 6 (-2), **Wis:** 13 (+1), **Cha:** 10 (+0)  
-> **Equipment:** flail, shortbow, a whistle only audible to creatures with blindsense or blindsight  
+> **Equipment:** a whistle only audible to creatures with blindsense or blindsight  
 > 
 > **Initiative:** +2; **Speed:** 4, climb 4  
 > **AC:** 17; **Fort:** 14, **Ref:** 13, **Will:** 13   
@@ -1940,7 +2054,7 @@ A fiendish toad that can belch toxic gas.
 
 > #### Hopping Imp  
 > **Level 1 Wrecker** (100 XP)  
-> Small Outsider Humanoid ● Demon (Evil)  
+> Small Outsider Humanoid ● Devil (Evil)  
 > **Senses:** Perception +2, darkvision   
 > **Languages:** Common, Abyssal  
 > **Str:** 10 (+0), **Con:** 14 (+2), **Dex:** 17 (+3)
@@ -2004,7 +2118,7 @@ A demonic canine with red eyes, razor-sharp fangs, and the ability to breathe fi
 
 > #### Flay Devil  
 > **Level 6 Striker** (250 XP)  
-> Medium Outsider Humanoid ● Shapechanger (Evil)  
+> Medium Outsider Humanoid ● Devil, Shapechanger (Evil)  
 > **Senses:** Perception +7, darkvision; **Skills:** Athletics +12, Bluff +13, Stealth +13   
 > **Languages:** Common, Celestial  
 > **Str:** 12 (+4), **Con:** 13 (+4), **Dex:** 14 (+5)
@@ -2118,7 +2232,6 @@ A winged scavenger with a fearful keening screech and claws matted with the rott
 > **Languages:** Common, Primordial  
 > **Str:** 20 (+12), **Con:** 17 (+10), **Dex:** 17 (+10)
 > **Int:** 24 (+14), **Wis:** 20 (+12), **Cha:** 17 (+10)  
-> **Equipment:** club  
 > 
 > **Initiative:** +17; **Speed:** 8  
 > **AC:** 27; **Fort:** 28, **Ref:** 26, **Will:** 27   
@@ -2170,7 +2283,7 @@ A demonic fusion of boar and humanoid, their powerful tusks channel havoc magic.
 > **Initiative:** +22; **Speed:** 8  
 > **AC:** 31; **Fort:** 32, **Ref:** 30, **Will:** 31   
 > **HP:** 141, **Staggered:** 70      
-> *Aura of Frustration (Psychic) aura 3:* Each time a creature within the aura misses on an attack roll, the frenzy demon gets a +2 power bonus to its next attack roll.  
+> *Aura of Frustration (Psychic) aura 3:* If any creature  within the aura, including the frenzy demon itself, misses on an attack  roll, the frenzy demon gets a +2 power bonus on attack rolls until the  end of its next turn.  
 > 
 > ‡	**Claw** (standard, at-will)   
 > +24 vs AC; 3d12+12 damage.  
@@ -2209,16 +2322,18 @@ A wolf-headed, crab-clawed demon, with a sweet tongue belied by its monstrous ap
 > **Languages:** Common, Abyssal  
 > **Str:** 26 (+20), **Con:** 20 (+17), **Dex:** 26 (+20)
 > **Int:** 16 (+15), **Wis:** 14 (+14), **Cha:** 29 (+21)  
-> 
+>
 > **Initiative:** +33; **Speed:** 8  
 > **AC:** 37; **Fort:** 38, **Ref:** 36, **Will:** 37   
 > **HP:** 177, **Staggered:** 88      
 > *Aura of Mockery (Psychic) aura 3:* A creature within the aura that fails a saving throw takes 15 damage.  
-> 
+>
 > ‡	**Tooth and Claw** (standard, at-will)   
 > +30 vs AC; 2d10+8 damage, and a creature adjacent to the target takes 1d8+4 damage.  
 > †	**Tooth and Claw and Stomp** (standard, at-will)   
 > The laughing demon makes two *tooth and claw* attacks.  
+> ∢	**Mocking Laugh** (swift, encounter)   
+> Near burst 3; +28 vs Will; the target is marked (save ends).  
 
 A deranged and sadistic demon that derives pleasure from the failure of others. Those who provoke its haunting laughter suffer physical harm.  
 
@@ -2289,12 +2404,12 @@ A demon with multiple arms and the lower body of a massive snake, able to wield 
 > **HP:** 1   
 > **Resist:**&nbsp;necrotic, poison 15   
 > 
-> †	**Mummy Touch** (standard, at-will) ● **Necrotic, Weapon**  
+> ‡	**Mummy Touch** (standard, at-will) ● **Necrotic, Weapon**  
 > +40 vs AC; 22 necrotic damage, and the target is subject to a secondary attack. *Secondary Attack:* +40 vs Fortitude; the target contracts mummy rot.  
 > ↗	**Look of Horror** (standard, at-will) ● **Fear**  
 > Ranged 10; +38 vs Will; The target is rattled until the end of their next turn. If the target is already rattled, they are dazed instead.  
 > ∢	**Insect Plague** (standard, at-will) ● **Zone**  
-> The mummy is removed from play. A near burst 1 area centered on where the mummy was becomes a zone of lightly obscured difficult terrain. Creatures that end their turn in the zone take 22 damage.  
+> The mummy is removed from play. A near burst 1 area centered on where the mummy was becomes a zone of lightly obscured difficult terrain until the end of the encounter. Creatures that end their turn in the zone take 22 poison damage.  
 > **Soul Harvest**   
 > If the abyssal mummy reduces a creature to 0 HP or below, it gains one ward.  
 > **Protected by Death** (counter, at-will)   
@@ -2339,13 +2454,42 @@ Over the millennia, kings, emperors and high priests who sold their souls to Orc
 > ⋇	**Stench of Death** (swift, encounter) ● **Necrotic, Zone**  
 > Far burst 2 within 20; The area of effect becomes a zone until the end of the encounter. Creatures in the zone cannot heal damage. Orcus can move the zone up to 10 squares as a swift action.  
 
-*This demonic humanoid is squat and bloated, standing nearly three times as tall as a normal human. It goat-like head sports large, spiraling ram-like horns. Its legs are covered in thick brown fur and end in hooves.*  
+*This squat, bloated demonic humanoid stands three times as tall as a human. Its goat head sports large, spiraling ram’s horns. Its legs, covered in thick brown fur, end in hooves.* 
 
-*Large powerful arms wield a wicked skull-tipped wand. Two large, black, bat-like wings protrude from its back and a long, snake-like tail, tipped with a sharpened barb, trails behind it.*  
+*Powerful arms wield a skull-tipped wand. Two black, bat-like wings protrude from its back and a long, snake-like tail with a sharpened barb trails behind it.* 
 
-Orcus is one of the strongest (if not the strongest) and most powerful of all demon lords. He fights a never-ending war against rival demon princes that spans several Abyssal layers. From his great bone palace he commands his troops as they wage war across the smoldering and stinking planes of the Abyss. Orcus spends most of his days in his palace, rarely leaving its confines unless he decides to leads his troops into battle (which has happened on more than one occasion). Most of the time though, he is content to let his generals and commanders lead the battles.  
+Orcus is one of the most powerful demon lords. He fights a never-ending war against rival princes, commanding his troops from his bone palace. 
 
-When not warring against rival demon princes, Orcus likes to travel the planes, particularly the Material Plane. Should a foolish spellcaster open a gate and speak his name, he is more than likely going to hear the call and step through to the Material Plane. What happens to the spellcaster that called him usually depends on the reason for the summons and the power of the spellcaster. Extremely powerful spellcasters are usually slain after a while and turned into undead soldiers or generals in his armies.  
+Orcus likes to travel the planes, particularly the Material Plane. 
+
+# Elohim  
+
+> #### Elohim Sky Guardian  
+> **Level 10 Archer** (500 XP)  
+> Medium Outsider Humanoid ● Celestial (Good)  
+> **Senses:** Perception +20, low-light vision; **Skills:** Arcana +19   
+> **Languages:** Common, Celestial  
+> **Str:** 14 (+7), **Con:** 13 (+6), **Dex:** 22 (+11)
+> **Int:** 18 (+9), **Wis:** 20 (+10), **Cha:** 21 (+10)  
+> 
+> **Initiative:** +16; **Speed:** 6, fly 8  
+> **AC:** 22; **Fort:** 21, **Ref:** 22, **Will:** 22   
+> **HP:** 61, **Staggered:** 30      
+> 
+> ‡	**Short Sword** (standard, at-will) ● **Weapon**  
+> +15 vs AC; 2d12+5 damage.  
+> ⤢	**Longbow** (standard, at-will) ● **Weapon**  
+> Ranged 20/40; +15 vs AC; 2d12+5 damage.  
+> †	**Disarming Swoop** (standard, encounter)   
+> +15 vs Reflex; The target is disarmed of one weapon. The elohim may move up to its speed before or after making this attack.  
+> **Dive Attack** (swift, at-will) ● **Stance**  
+> While in this stance, the elohim may make a basic melee attack against each enemy it moves adjacent to during its movement.  
+> **Aerial Acrobat** (swift, at-will) ● **Stance**  
+> While in this stance, the elohim receives a +4 bonus to AC and Reflex while airborne.  
+> **Volley of Arrows** (swift, at-will) ● **Stance**  
+> While in this stance, the elohim can make three *longbow* attacks as a standard action. Each attack must be against a different target.  
+
+Winged, angelic warriors in golden armor, the elohim sky guardians are sworn to protect those under divine guidance. 
 
 # Flying Heads  
 
@@ -2368,7 +2512,7 @@ When not warring against rival demon princes, Orcus likes to travel the planes, 
 > **Flyby Attack** (standard, refresh 5, 6)   
 > The flying head flies up to 7 squares. At one point during the movement, they can make one basic melee attack. Moving away from the target of the attack does not provoke opportunity attacks.  
 > ∢	**Horrifying Screech** (standard, encounter) ● **Fear**  
-> Near arc 3; +8 vs Will; The target is immobile (save ends). *First Failed Save:* The target is stunned (save ends).  
+> Near arc 3; +8 vs Will; The target is immobile (save ends). *First Failed Save:* The target is stunned instead (save ends).  
 
 A winged head, about 18 inches high, with a wingspan of 4 feet. It weighs about 10 pounds.  
 
@@ -2393,7 +2537,7 @@ A winged head, about 18 inches high, with a wingspan of 4 feet. It weighs about 
 > †	**Engulfing Swarm** (standard, refresh 5, 6) ● **Necrotic**  
 > The swarm attacks up to three Medium or smaller targets; +20 vs Reflex (automatically hits an immobile or stunned creature); the target is grappled and pulled into the swarm’s space. The target is dazed and takes persistent 10 necrotic damage and cannot heal hit points until it escapes the grapple. A creature that escapes the grapple shifts to a square of its choice adjacent to the swarm. The swarm can move normally while creatures are engulfed within it.  
 > ∢	**Cacophony of Doom** (standard, refresh 5, 6) ● **Fear, Psychic**  
-> Near arc 5; +20 vs Will; 3d8+7 psychic damage, and the target is immobile (save ends). *First Failed Save:* The target is stunned (save ends).  
+> Near arc 5; +20 vs Will; 3d8+7 psychic damage, and the target is immobile (save ends). *First Failed Save:* The target is stunned instead (save ends).  
 
 # Ghouls  
 
@@ -2436,7 +2580,7 @@ Medium natural humanoid (aquatic, undead)
 > **AC:** 23; **Fort:** 20, **Ref:** 22, **Will:** 21   
 > **HP:** 69, **Staggered:** 34   
 > **Immune:**&nbsp;disease, **Resist:**&nbsp;necrotic 5, **Vulnerable:**&nbsp;radiant 5   
-> *Stench aura 1* Creatures that begin their turn in the aura grant combat advantage until the end of their next turn.  
+> *Stench aura 1* Living creatures that begin their turn in the aura grant combat advantage until the end of their next turn.  
 > 
 > ‡	**Claw** (standard, at-will)   
 > +14 vs AC; 2d12+4 damage and the target is immobile until the end of its next turn. If the target is already immobile, it loses 1 recovery. If the target loses all their recoveries, they turn into a ghast after their next long rest.  
@@ -2471,12 +2615,12 @@ When one of the desiccated husks transforms into bloody bones, the husk’s dry 
 > **AC:** 15; **Fort:** 16, **Ref:** 14, **Will:** 15   
 > **HP:** 45, **Staggered:** 22   
 > **Resist:**&nbsp;necrotic 5, **Vulnerable:**&nbsp;radiant 5   
-> *Blood Sweats Aura 4:* A living creature that ends its turn in the aura suffers 3 damage.  
+> *Blood Sweats Aura 4:* A living creature that ends its turn in the aura suffers 3 necrotic damage.  
 > 
 > ‡	**Claw** (standard, at-will)   
 > +8 vs AC; 1d12+4 damage.  
 > **Reformation**   
-> Keep track of all damage the desiccated husk does, including through its aura. If damage done ever exceeds 22, that desiccated husk is replaced by a bloody bones as an reaction action. Add 44 to the desiccated husk’s current HP to determine the bloody bones' current HP. A bloody bones created in this way only gives 150 XP total for being defeated.  
+> Keep track of all damage the desiccated husk does, including through its aura. If damage done ever exceeds 22, that desiccated husk is replaced by a bloody bones as a reaction. Add 44 to the desiccated husk’s current HP to determine the bloody bones' current HP. A bloody bones created in this way only gives 150 XP total for being defeated.  
 
 
 > #### Bloody Bones  
@@ -2491,7 +2635,7 @@ When one of the desiccated husks transforms into bloody bones, the husk’s dry 
 > **AC:** 15; **Fort:** 16, **Ref:** 14, **Will:** 15; **Saving Throws:** +2   
 > **HP:** 90, **Staggered:** 44   
 > **Resist:**&nbsp;necrotic 5, **Vulnerable:**&nbsp;radiant 5   
-> *Blood Sweats Aura 4:* A living creature that ends its turn in the aura suffers 3 damage.  
+> *Blood Sweats Aura 4:* A living creature that ends its turn in the aura suffers 3 necrotic damage.  
 > 
 > ‡	**Wicked Claw** (standard, at-will)   
 > +8 vs AC; 1d12+4 damage, and the target takes persistent 5 damage (save ends).  
@@ -2514,14 +2658,13 @@ Heroes can either encounter a bloody bones after it emerges from a dessicated hu
 > **Languages:** Common, Giantish  
 > **Str:** 21 (+10), **Con:** 8 (+4), **Dex:** 15 (+7)
 > **Int:** 6 (+3), **Wis:** 10 (+5), **Cha:** 7 (+3)  
-> **Equipment:** greatclub, 3 javelins  
 > 
 > **Initiative:** +12; **Speed:** 6  
 > **AC:** 22; **Fort:** 23, **Ref:** 21, **Will:** 22   
 > **HP:** 87, **Staggered:** 43      
 > 
 > ‡	**Greatclub** (standard, at-will) ● **Club, Weapon**  
-> Reach 1; +15 vs AC; 2d12+10 damage. *Secondary Attack:* +15 vs Fortitude; the target is dazed.  
+> Reach 2; +15 vs AC; 2d12+10 damage. *Secondary Attack:* +15 vs Fortitude; the target is dazed.  
 > ⤢	**Javelin** (standard, at-will) ● **Thrown Weapon, Weapon**  
 > Ranged 5/10; +15 vs AC; 2d12+5 damage and the target suffers a -2 penalty to AC until they spend a swift action pulling the javelin from where it has lodged.  
 > **Wild Swing** (standard, encounter)   
@@ -2546,14 +2689,13 @@ Adult ogres stand 9 to 10 feet tall and weigh 600 to 650 pounds. Their skin colo
 > **Languages:** Common, Giantish  
 > **Str:** 25 (+13), **Con:** 19 (+10), **Dex:** 8 (+5)
 > **Int:** 6 (+4), **Wis:** 10 (+6), **Cha:** 7 (+4)  
-> **Equipment:** greatclub  
 > 
 > **Initiative:** +11; **Speed:** 6  
 > **AC:** 24; **Fort:** 25, **Ref:** 23, **Will:** 24   
 > **HP:** 99, **Staggered:** 49      
 > 
 > ‡	**Greatclub** (standard, at-will) ● **Club, Weapon**  
-> Reach 1; +17 vs AC; 3d8+11 damage. *Secondary Attack:* +17 vs Fortitude; the target is dazed.  
+> Reach 2; +17 vs AC; 3d8+11 damage. *Secondary Attack:* +17 vs Fortitude; the target is dazed.  
 > ⤢	**Rock** (standard, at-will) ● **Weapon**  
 > Far arc 2 within 10; +17 vs AC (There must be a suitable rock within reach); 3d8+11 damage and the target is pushed 2 squares and knocked prone.  
 > **Punisher** (swift, at-will) ● **Club, Stance**  
@@ -2573,7 +2715,6 @@ Adults are about 10½ feet tall and weigh about 1,100 pounds. Hill giants can li
 > **Languages:** Common, Giantish, Primordial  
 > **Str:** 31 (+17), **Con:** 21 (+12), **Dex:** 9 (+6)
 > **Int:** 10 (+7), **Wis:** 14 (+9), **Cha:** 11 (+7)  
-> **Equipment:** greatsword  
 > 
 > **Initiative:** +13; **Speed:** 6  
 > **AC:** 26; **Fort:** 27, **Ref:** 25, **Will:** 26   
@@ -2581,7 +2722,7 @@ Adults are about 10½ feet tall and weigh about 1,100 pounds. Hill giants can li
 > Burning aura 2: Creatures take 7 fire damage if they begin their turns in the aura.  
 > 
 > ‡	**Greatsword** (standard, at-will) ● **Heavy Blade, Weapon**  
-> Reach 1; +19 vs AC; 3d10+5 damage, and do 8 damage to a creature adjacent to you or the target.  
+> Reach 2; +19 vs AC; 3d10+5 damage, and do 8 damage to a creature adjacent to the giant or the target.  
 > ⤢	**Rock** (standard, at-will) ● **Weapon**  
 > Far arc 2 within 10; +19 vs AC (There must be a suitable rock within reach); 3d10+5 damage and the target is pushed 2 squares and knocked prone.  
 > ↗	**Provoke the Earth** (swift, once per round) ● **Fire**  
@@ -2599,20 +2740,19 @@ Fire giants wear sturdy cloth or leather garments colored red, orange, yellow, o
 > **Languages:** Common, Giantish, Primordial  
 > **Str:** 29 (+17), **Con:** 21 (+13), **Dex:** 9 (+7)
 > **Int:** 10 (+8), **Wis:** 14 (+10), **Cha:** 11 (+8)  
-> **Equipment:** greataxe  
 > 
 > **Initiative:** +15; **Speed:** 6  
 > **AC:** 28; **Fort:** 29, **Ref:** 27, **Will:** 28   
 > **HP:** 123, **Staggered:** 61      
 > 
 > ‡	**Greataxe** (standard, at-will) ● **Axe, Weapon**  
-> Reach 1; +21 vs AC; 3d10+13 damage; on a miss, do 9 damage.  
+> Reach 2; +21 vs AC; 3d10+13 damage; on a miss, do 9 damage.  
 > ⤢	**Throw Ice** (standard, at-will) ● **Weapon**  
 > Far arc 2 within 10; +21 vs AC (There must be a suitable chunk of ice within reach); 3d10+7 cold damage and the target is pushed 2 squares and knocked prone.  
 > **Slip** (swift, at-will) ● **Stance**  
 > While in this stance, when the giant moves (willingly or unwillingly), at the end of the move the giant can shift 2 squares.  
 > **Blood Lust** (swift, at-will) ● **Axe, Stance**  
-> While in this stance, if an attack causes you to become staggered, as a reaction you can make a basic melee attack against the creature that attacked you. While in this stance, you cannot make opportunity attacks.  
+> While in this stance, if an attack causes you to become staggered, as a reaction you can make a basic melee attack against the creature that attacked you. 
 
 A frost giant’s hair can be light blue or dirty yellow, and its eyes usually match its hair color. Frost giants dress in skins and pelts, along with any jewelry they own. Frost giant warriors add chain shirts and metal helmets decorated with horns or feathers.
 
@@ -2626,20 +2766,19 @@ An adult male is about 15 feet tall and weighs about 2,800 pounds. Females are s
 > **Languages:** Common, Giantish, Primordial  
 > **Str:** 27 (+17), **Con:** 19 (+13), **Dex:** 15 (+11)
 > **Int:** 10 (+9), **Wis:** 12 (+10), **Cha:** 11 (+9)  
-> **Equipment:** greatclub  
 > 
 > **Initiative:** +20; **Speed:** 8  
 > **AC:** 30; **Fort:** 31, **Ref:** 29, **Will:** 30   
 > **HP:** 135, **Staggered:** 67      
 > 
 > ‡	**Greatclub** (standard, at-will) ● **Club, Weapon**  
-> Reach 1; +23 vs AC; 4d8+15 damage and make a secondary attack. *Secondary Attack:* +23 vs Fortitude; the target is dazed until the end of its next turn.  
+> Reach 2; +23 vs AC; 4d8+15 damage and make a secondary attack. *Secondary Attack:* +23 vs Fortitude; the target is dazed until the end of its next turn.  
 > ⤢	**Rock** (standard, at-will) ● **Weapon**  
 > Far arc 2 within 10; +23 vs AC (There must be a suitable rock within reach); 4d8+8 damage and the target is pushed 2 squares and knocked prone.  
 > **Meld with Stone** (swift, encounter) ● **Stance**  
 > While in this stance, the giant gains burrow 8 (earth glide). This stance ends when the giant next emerges from the earth/stone.  
 > **Hardened Skin** (swift, at-will) ● **Stance**  
-> While in this stance, the giant can halve the damage it takes from attack as an immediate counter. It then leaves this stance.  
+> While in this stance, the giant can halve the damage it takes from one attack as an immediate counter. It then leaves this stance.  
 > **Punisher** (swift, at-will) ● **Stance**  
 > If the giant starts its turn in this stance, and it is wielding a club, it does 6 damage to an enemy in reach. While in this stance, the giant cannot make opportunity attacks.  
 
@@ -2655,14 +2794,13 @@ Stone giants prefer robes or loose-fitting tunics and trousers, dyed in shades o
 > **Languages:** Common, Giantish, Primordial  
 > **Str:** 39 (+24), **Con:** 23 (+16), **Dex:** 14 (+12)
 > **Int:** 16 (+13), **Wis:** 20 (+15), **Cha:** 15 (+12)  
-> **Equipment:** greatsword  
 > 
 > **Initiative:** +22; **Speed:** 8  
 > **AC:** 34; **Fort:** 32, **Ref:** 31, **Will:** 33   
 > **HP:** 124, **Staggered:** 62      
 > 
 > ‡	**Greatsword** (standard, at-will) ● **Heavy Blade, Weapon**  
-> Reach 1; +25 vs AC; 6d6+7 damage, and do 11 damage to a creature adjacent to you or the target.  
+> Reach 2; +25 vs AC; 6d6+7 damage, and do 11 damage to a creature adjacent to the giant or the target.  
 > ⤢	**Rock** (standard, at-will) ● **Weapon**  
 > Far arc 2 within 10; +25 vs AC (There must be a suitable rock within reach); 6d6+7 damage and the target is pushed 2 squares and knocked prone.  
 > ↗	**Lightning Bolt** (standard, encounter) ● **Lightning**  
@@ -2683,15 +2821,14 @@ Proud and noble warriors of giant size, the fir bolg live in tight-knit clans in
 > **Languages:** Common, Giant  
 > **Str:** 21 (+8), **Con:** 18 (+7), **Dex:** 15 (+5)
 > **Int:** 10 (+3), **Wis:** 14 (+5), **Cha:** 16 (+6)  
-> **Equipment:** longbow, greataxe, Large leather armor  
 > 
 > **Initiative:** +8; **Speed:** 6  
 > **AC:** 20; **Fort:** 17, **Ref:** 19, **Will:** 18   
 > **HP:** 54, **Staggered:** 27      
 > 
-> †	**Greataxe** (standard, at-will) ● **Weapon**  
+> ‡	**Greataxe** (standard, at-will) ● **Weapon**  
 > +11 vs AC; 2d10+3 damage.  
-> ↗	**Longbow** (standard, at-will) ● **Weapon**  
+> ⤢	**Longbow** (standard, at-will) ● **Weapon**  
 > Ranged 20/40; +11 vs AC; 2d10+3 damage.  
 > ↗	**Hurl Boulder** (standard, encounter) ● **Weapon**  
 > Ranged 10; +11 vs AC; 1d10+3 damage and the target is knocked prone.  
@@ -2699,7 +2836,7 @@ Proud and noble warriors of giant size, the fir bolg live in tight-knit clans in
 > Near burst 1; +11 vs AC; 2d10+3 damage.  
 > **Recover Boulder** (move, at-will)   
 > *Hurl boulder* recharges.  
-> **Natural Woodsman** (move, at-will)   
+> **Stalwart Defense** (move, at-will)   
 > The fir bolg has a +2 bonus to defenses until it moves from its current space.  
 
 
@@ -2710,23 +2847,22 @@ Proud and noble warriors of giant size, the fir bolg live in tight-knit clans in
 > **Languages:** Common, Giant  
 > **Str:** 18 (+7), **Con:** 20 (+8), **Dex:** 18 (+7)
 > **Int:** 11 (+3), **Wis:** 14 (+5), **Cha:** 16 (+6)  
-> **Equipment:** longbow, dagger, Large leather armor  
 > 
 > **Initiative:** +10; **Speed:** 6  
 > **AC:** 19; **Fort:** 18, **Ref:** 19, **Will:** 19   
 > **HP:** 49, **Staggered:** 24      
 > 
-> †	**Dagger** (standard, at-will) ● **Weapon**  
+> ‡	**Dagger** (standard, at-will) ● **Weapon**  
 > +12 vs AC; 2d10+4 damage.  
-> ↗	**Longbow** (standard, at-will) ● **Weapon**  
+> ⤢	**Longbow** (standard, at-will) ● **Weapon**  
 > Ranged 20/40; +12 vs AC; 2d10+4 damage.  
 > ↗	**Hurl Boulder** (standard, encounter) ● **Weapon**  
 > Ranged 10; +12 vs AC; 1d10+4 damage and the target is knocked prone.  
 > ↗	**Surprise Shot** (standard, encounter) ● **Weapon**  
-> Ranged 20/40; +12 vs AC (the fir bolg has combat advantage against the target); 3d10+3 damage and the target is stunned until the end of their next turn.  
+> Ranged 20/40; +12 vs AC (the fir bolg must have combat advantage against the target); 3d10+3 damage and the target is stunned until the end of their next turn.  
 > **Recover Boulder** (move, at-will)   
 > *Hurl boulder* recharges.  
-> **Natural Woodsman** (move, at-will)   
+> **Stalwart Defense** (move, at-will)   
 > The fir bolg has a +2 bonus to defenses until it moves from its current space.  
 
 
@@ -2737,13 +2873,12 @@ Proud and noble warriors of giant size, the fir bolg live in tight-knit clans in
 > **Languages:** Common, Giant  
 > **Str:** 19 (+8), **Con:** 14 (+6), **Dex:** 14 (+6)
 > **Int:** 20 (+9), **Wis:** 18 (+8), **Cha:** 17 (+7)  
-> **Equipment:** longbow, dagger, druidic focus  
 > 
 > **Initiative:** +10; **Speed:** 6  
 > **AC:** 22; **Fort:** 20, **Ref:** 19, **Will:** 21   
 > **HP:** 64, **Staggered:** 32      
 > 
-> †	**Dagger** (standard, at-will) ● **Weapon**  
+> ‡	**Dagger** (standard, at-will) ● **Weapon**  
 > +13 vs AC; 2d10+5 damage.  
 > ↗	**Hurl Boulder** (standard, encounter) ● **Weapon**  
 > Ranged 10; +13 vs AC; 1d10+5 damage and the target is knocked prone.  
@@ -2753,7 +2888,7 @@ Proud and noble warriors of giant size, the fir bolg live in tight-knit clans in
 > Ranged 10; +13 vs Will; 1d10+5 damage and the target is stunned until the end of their next turn.  
 > **Recover Boulder** (move, at-will)   
 > *Hurl boulder* recharges.  
-> **Natural Woodsman** (move, at-will)   
+> **Stalwart Defense** (move, at-will)   
 > The fir bolg has a +2 bonus to defenses until it moves from its current space.  
 > **Wooden Skin** (standard, encounter)   
 > The fir bolg gains 21 temporary hit points.  
@@ -2766,15 +2901,14 @@ Proud and noble warriors of giant size, the fir bolg live in tight-knit clans in
 > **Languages:** Common, Giant  
 > **Str:** 22 (+13), **Con:** 20 (+12), **Dex:** 17 (+10)
 > **Int:** 16 (+10), **Wis:** 16 (+10), **Cha:** 22 (+13)  
-> **Equipment:** longbow, great axe, Large leather armor, druidic focus  
 > 
 > **Initiative:** +17; **Speed:** 6  
 > **AC:** 30; **Fort:** 27, **Ref:** 26, **Will:** 26   
 > **HP:** 94, **Staggered:** 47      
 > 
-> †	**Great Axe** (standard, at-will) ● **Weapon**  
+> ‡	**Great Axe** (standard, at-will) ● **Weapon**  
 > +19 vs AC; 3d10+5 damage.  
-> ↗	**Longbow** (standard, at-will) ● **Weapon**  
+> ⤢	**Longbow** (standard, at-will) ● **Weapon**  
 > Ranged 20/40; +19 vs AC; 3d10+5 damage.  
 > ↗	**Hurl Boulder** (standard, encounter) ● **Weapon**  
 > Ranged 10; +19 vs AC; 2d10 damage and the target is knocked prone.  
@@ -2784,16 +2918,16 @@ Proud and noble warriors of giant size, the fir bolg live in tight-knit clans in
 > +19 vs AC; 5d8+6 damage. If the target is staggered (either by this attack, or already staggered), the target is also stunned until the end of its next turn.  
 > **Recover Boulder** (move, at-will)   
 > *Hurl boulder* recharges.  
-> **Natural Woodsman** (move, at-will)   
+> **Stalwart Defense** (move, at-will)   
 > The fir bolg has a +2 bonus to defenses until it moves from its current space.  
 
 # Hags  
-Hags are cruel witches from the Plane of Faerie.  
+Hags are witches from the Plane of Faerie.  
 
 
-> #### Blood-Drinker Hag  
+> #### Tear-Drinker Hag  
 > **Level 3 Boss Spoiler** (750 XP)  
-> Medium Fey Humanoid ● Undead (Any)  
+> Medium Fey Humanoid (Any)  
 > **Senses:** Perception +5, darkvision; **Skills:** Bluff +8   
 > **Languages:** Common  
 > **Str:** 19 (+5), **Con:** 14 (+3), **Dex:** 14 (+3)
@@ -2822,7 +2956,7 @@ Hags are cruel witches from the Plane of Faerie.
 > #### Ice Hag  
 > **Level 12 Elite Striker** (1400 XP)  
 > Medium Fey Humanoid ● Cold (Any)  
-> **Senses:** Perception +10, low-light vision, can see through concealment from precipitation; **Skills:** Intimidate +13, Nature +11, Stealth +15   
+> **Senses:** Perception +10, low-light vision, can see through concealment from precipitation, including the hag's *unceasing sleet* aura; **Skills:** Intimidate +13, Nature +11, Stealth +15   
 > **Languages:** Common, Giant  
 > **Str:** 23 (+12), **Con:** 19 (+10), **Dex:** 18 (+10)
 > **Int:** 11 (+6), **Wis:** 18 (+10), **Cha:** 14 (+8)  
@@ -2846,64 +2980,7 @@ Hags are cruel witches from the Plane of Faerie.
 > An ice hag can alter their physical form to appear as an old wolf or an old woman of any Medium humanoid race.  
 
 # Humanoids  
-Humans need no introduction. These profiles can be easily adapted to represent other humanoids by choosing from the following traits. 
-
-In exchange, subtract 1 from their Fortitude, Reflex and Will defenses. 
-
-##### Apefolk
-
-Apefolk are humanoids reminiscent of humankind’s closest relatives: gorillas, orang utans and chimpanzees. Apefolk tend to form city-states, populated by philosophers, soldiers and merchants.  
-
-<figure><img src="pics\RyzomApefolk.jpg" alt="Ryzom MMORPG Concept Art (Apefolk)" style="zoom: 33%;" /><figcaption>Ryzom MMORPG Concept Art (Apefolk)</figcaption></figure>
-
-**Medium natural humanoid (apefolk)**  
-
-**Cull the Weak** (standard, encounter)  
-The apefolk makes two basic melee attacks against the same staggered opponent.
-
-##### High elf
-
-**Medium fey humanoid (high elf)**  
-
-**Highblood Teleport** (move, encounter) ● **Teleportation**  
-The high elf teleports up to 5.
-
-##### Halfling
-
-**Medium natural humanoid (halfling)**  
-
-**Lucky** (counter, encounter)  
-When an attack hits the halfling; reroll the attack roll and take the second result.
-
-##### Dragonborn
-
-**Medium natural humanoid (dragon, reptile)**  
-
-**Breath Weapon** (standard, encounter) ● **Fire, Cold, Acid, Poison or Lightning**  
-Level +2 vs Reflex; 1d6+4 damage.  
-*Level 11:* 2d6+8 damage, *Level 21:* 3d6+12 damage.
-
-##### Tiefling
-
-**Medium natural humanoid (fiend)**  
-
-**Vengeance of the Pits** (react, encounter) ● **Fire**  
-When an attack by an enemy within 10 squares hits the tiefling; the attacker takes 1d6+4 fire damage.  
-*Level 11:* 2d6+6 fire damage, *Level 21:* 3d6+12 fire damage.
-
-##### Dwarf
-
-**Medium natural humanoid (dwarf)**  
-
-**Tough as Nails** (swift, encounter) ● **Healing**  
-The dwarf spends a recovery and heals one quarter of its maximum HP. 
-
-##### Wood elf
-
-**Medium natural humanoid (wood elf)**  
-
-**Careful Focus** (free, creature makes an attack roll, encounter)  
-When the wood elf makes an attack roll: reroll the attack roll and take the new result.  
+By default, these profiles represent humans. Any stat block can be easily adapted to represent other humanoids in the Species chapter. Use the size, source, type and tags of the new species. Give them the relevant power for that species, and any other traits that are particularly distinctive. In exchange, subtract 1 from their Fortitude, Reflex and Will defenses.   
 
 ## Gang of Ruffians  
 Thieves, bandits and other violent thugs can be represented by the statistics below.  
@@ -2916,7 +2993,6 @@ Thieves, bandits and other violent thugs can be represented by the statistics be
 > **Languages:** Common  
 > **Str:** 12 (+1), **Con:** 10 (+0), **Dex:** 13 (+1)
 > **Int:** 10 (+0), **Wis:** 8 (-1), **Cha:** 10 (+0)  
-> **Equipment:** hatchet, bow  
 > 
 > **Initiative:** +3; **Speed:** 6  
 > **AC:** 15; **Fort:** 14, **Ref:** 13, **Will:** 13   
@@ -2931,11 +3007,10 @@ Thieves, bandits and other violent thugs can be represented by the statistics be
 > #### Bodyguard  
 > **Level 1 Blocker** (100 XP)  
 > Medium Natural Humanoid ● Human (Any)  
-> **Senses:** Perception +1; **Skills:** Acrobatics +7, Athletics +8   
+> **Senses:** Perception +6; **Skills:** Acrobatics +7, Athletics +8   
 > **Languages:** Common  
 > **Str:** 16 (+3), **Con:** 13 (+1), **Dex:** 14 (+2)
 > **Int:** 11 (+0), **Wis:** 12 (+1), **Cha:** 10 (+0)  
-> **Equipment:** spiked chain  
 > 
 > **Initiative:** +4; **Speed:** 6  
 > **AC:** 17; **Fort:** 14, **Ref:** 13, **Will:** 12   
@@ -2954,7 +3029,6 @@ Thieves, bandits and other violent thugs can be represented by the statistics be
 > **Languages:** Common  
 > **Str:** 12 (+1), **Con:** 10 (+0), **Dex:** 14 (+2)
 > **Int:** 10 (+0), **Wis:** 9 (-1), **Cha:** 10 (+0)  
-> **Equipment:** length of chain  
 > 
 > **Initiative:** +4; **Speed:** 6  
 > **AC:** 15; **Fort:** 13, **Ref:** 14, **Will:** 13   
@@ -2971,7 +3045,6 @@ Thieves, bandits and other violent thugs can be represented by the statistics be
 > **Languages:** Common  
 > **Str:** 12 (+1), **Con:** 13 (+1), **Dex:** 16 (+3)
 > **Int:** 10 (+0), **Wis:** 11 (+0), **Cha:** 12 (+1)  
-> **Equipment:** longspear, short sword, net  
 > 
 > **Initiative:** +5; **Speed:** 6  
 > **AC:** 15; **Fort:** 12, **Ref:** 14, **Will:** 12   
@@ -2983,9 +3056,9 @@ Thieves, bandits and other violent thugs can be represented by the statistics be
 > Reach 3; 1d4+1 damage.  
 > *Secondary Attack:* +5 vs Reflex; the target is immobile (save ends).  
 > †	**Sliding Strike** (standard, encounter) ● **Weapon**  
-> +4 vs Will; 1d6+3 damage, and the warden shunts the target 1 square.  
+> +4 vs Will; 1d6+3 damage, and the mancatcher shunts the target 1 square.  
 > **Combat Advantage**   
-> The warden deals an additional 1d6 damage against any target it has combat advantage against.  
+> The mancatcher deals an additional 1d6 damage against any target it has combat advantage against.  
 
 
 > #### Scurvy Pirate  
@@ -2995,7 +3068,6 @@ Thieves, bandits and other violent thugs can be represented by the statistics be
 > **Languages:** Common  
 > **Str:** 16 (+4), **Con:** 15 (+3), **Dex:** 14 (+3)
 > **Int:** 10 (+1), **Wis:** 11 (+1), **Cha:** 12 (+2)  
-> **Equipment:** leather armor, boat hook, crossbow  
 > 
 > **Initiative:** +5; **Speed:** 6  
 > **AC:** 19; **Fort:** 16, **Ref:** 15, **Will:** 14   
@@ -3018,7 +3090,6 @@ Thieves, bandits and other violent thugs can be represented by the statistics be
 > **Languages:** Common  
 > **Str:** 14 (+3), **Con:** 12 (+2), **Dex:** 13 (+2)
 > **Int:** 11 (+1), **Wis:** 18 (+5), **Cha:** 10 (+1)  
-> **Equipment:** knife  
 > 
 > **Initiative:** +6; **Speed:** 6  
 > **AC:** 17; **Fort:** 14, **Ref:** 15, **Will:** 16   
@@ -3039,7 +3110,6 @@ Thieves, bandits and other violent thugs can be represented by the statistics be
 > **Languages:** Common  
 > **Str:** 12 (+3), **Con:** 11 (+2), **Dex:** 16 (+5)
 > **Int:** 11 (+2), **Wis:** 11 (+2), **Cha:** 10 (+2)  
-> **Equipment:** iron knuckles, bow  
 > 
 > **Initiative:** +7; **Speed:** 6  
 > **AC:** 18; **Fort:** 17, **Ref:** 17, **Will:** 14   
@@ -3058,7 +3128,6 @@ Thieves, bandits and other violent thugs can be represented by the statistics be
 > **Languages:** Common  
 > **Str:** 11 (+2), **Con:** 13 (+3), **Dex:** 14 (+4)
 > **Int:** 14 (+4), **Wis:** 12 (+3), **Cha:** 16 (+5)  
-> **Equipment:** arbalest  
 > 
 > **Initiative:** +4; **Speed:** 6  
 > **Action Points:** 1  
@@ -3079,15 +3148,30 @@ Thieves, bandits and other violent thugs can be represented by the statistics be
 ## Legion  
 Soldiers and other organized, well-equipped armed forces can be represented by the statistics below.  
 
+> #### Legion Recruit  
+> **Level 1 Mook Striker** (25 XP)  
+> Medium Natural Humanoid ● Human (Any)  
+> **Senses:** Perception +1; **Skills:** Athletics +5, Endure +3   
+> **Languages:** Common  
+> **Str:** 19 (+4), **Con:** 15 (+2), **Dex:** 14 (+2)
+> **Int:** 10 (+0), **Wis:** 13 (+1), **Cha:** 9 (-1)  
+> 
+> **Initiative:** +2; **Speed:** 6  
+> **AC:** 15; **Fort:** 15, **Ref:** 13, **Will:** 12   
+> **HP:** 1; a missed attack never damages a mook      
+> 
+> ‡	**Longspear** (standard, at-will) ● **Weapon**  
+> Reach 2; +6 vs AC; 4 damage.  
+> **Heart of the Legion**   
+> When adjacent to an ally, the legion recruit receives a +1 power bonus to all defenses.  
 
 > #### Legionary  
 > **Level 1 Blocker** (100 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +2; **Skills:** Athletics +10, Endure +7   
-> **Languages:** Common, Giant  
+> **Languages:** Common  
 > **Str:** 20 (+5), **Con:** 15 (+2), **Dex:** 14 (+2)
 > **Int:** 10 (+0), **Wis:** 14 (+2), **Cha:** 10 (+0)  
-> **Equipment:** scale armor, heavy shield, short sword, three javelins  
 > 
 > **Initiative:** +4; **Speed:** 6  
 > **AC:** 17; **Fort:** 15, **Ref:** 12, **Will:** 12   
@@ -3100,26 +3184,6 @@ Soldiers and other organized, well-equipped armed forces can be represented by t
 > **Heart of the Legion**   
 > When adjacent to an ally, the legionary receives a +1 power bonus to all defenses.  
 
-
-> #### Infantry  
-> **Level 2 Mook Striker** (31 XP)  
-> Medium Natural Humanoid ● Human (Any)  
-> **Senses:** Perception +2; **Skills:** Athletics +6, Endure +4   
-> **Languages:** Common, Giant  
-> **Str:** 19 (+5), **Con:** 15 (+3), **Dex:** 14 (+3)
-> **Int:** 10 (+1), **Wis:** 13 (+2), **Cha:** 9 (+0)  
-> **Equipment:** leather armor, longspear  
-> 
-> **Initiative:** +3; **Speed:** 7  
-> **AC:** 16; **Fort:** 16, **Ref:** 14, **Will:** 13   
-> **HP:** 1; a missed attack never damages a mook      
-> 
-> ‡	**Longspear** (standard, at-will) ● **Weapon**  
-> Reach 2; +7 vs AC; 5 damage.  
-> **Heart of the Legion**   
-> When adjacent to an ally, the infantry receives a +1 power bonus to all defenses.  
-
-
 > #### Grenadier  
 > **Level 2 Archer** (125 XP)  
 > Medium Natural Humanoid ● Human (Any)  
@@ -3127,7 +3191,6 @@ Soldiers and other organized, well-equipped armed forces can be represented by t
 > **Languages:** Common  
 > **Str:** 12 (+2), **Con:** 14 (+3), **Dex:** 12 (+2)
 > **Int:** 10 (+1), **Wis:** 9 (+0), **Cha:** 10 (+1)  
-> **Equipment:** crossbow, grenades  
 > 
 > **Initiative:** +2; **Speed:** 6  
 > **AC:** 14; **Fort:** 14, **Ref:** 14, **Will:** 13   
@@ -3152,7 +3215,6 @@ Soldiers and other organized, well-equipped armed forces can be represented by t
 > **Languages:** Common  
 > **Str:** 12 (+2), **Con:** 13 (+2), **Dex:** 17 (+4)
 > **Int:** 10 (+1), **Wis:** 11 (+1), **Cha:** 12 (+2)  
-> **Equipment:** leather armor, dagger, crossbow  
 > 
 > **Initiative:** +4; **Speed:** 6  
 > **AC:** 14; **Fort:** 13, **Ref:** 15, **Will:** 13   
@@ -3172,10 +3234,9 @@ Soldiers and other organized, well-equipped armed forces can be represented by t
 > **Level 2 Spoiler** (Leader) (125 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +5; **Skills:** Athletics +10, Endure +5, Religion +7   
-> **Languages:** Common, Giant  
+> **Languages:** Common  
 > **Str:** 16 (+4), **Con:** 15 (+3), **Dex:** 14 (+3)
 > **Int:** 12 (+2), **Wis:** 18 (+5), **Cha:** 16 (+4)  
-> **Equipment:** scale armor, signum spear  
 > 
 > **Initiative:** +3; **Speed:** 6  
 > **AC:** 16; **Fort:** 14, **Ref:** 13, **Will:** 15   
@@ -3199,10 +3260,9 @@ Soldiers and other organized, well-equipped armed forces can be represented by t
 > **Level 3 Blocker** (Leader) (150 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +4; **Skills:** Athletics +13, Endure +11   
-> **Languages:** Common, Giant  
+> **Languages:** Common  
 > **Str:** 21 (+6), **Con:** 16 (+4), **Dex:** 14 (+3)
 > **Int:** 12 (+2), **Wis:** 16 (+4), **Cha:** 13 (+2)  
-> **Equipment:** chainmail, heavy shield, longsword  
 > 
 > **Initiative:** +5; **Speed:** 6  
 > **AC:** 19; **Fort:** 18, **Ref:** 14, **Will:** 15   
@@ -3220,10 +3280,9 @@ Soldiers and other organized, well-equipped armed forces can be represented by t
 > **Level 5 Skulker** (200 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +9; **Skills:** Athletics +12, Endure +6, Stealth +11   
-> **Languages:** Common, Giant  
+> **Languages:** Common  
 > **Str:** 16 (+5), **Con:** 15 (+4), **Dex:** 19 (+6)
 > **Int:** 14 (+4), **Wis:** 14 (+4), **Cha:** 10 (+2)  
-> **Equipment:** leather armor, short sword  
 > 
 > **Initiative:** +10; **Speed:** 7  
 > **AC:** 19; **Fort:** 17, **Ref:** 18, **Will:** 16   
@@ -3242,14 +3301,13 @@ Soldiers and other organized, well-equipped armed forces can be represented by t
 A powerful and well-established mercenary group or rival adventuring party.  
 
 
-> #### Longbowman  
+> #### Mercenary Archer  
 > **Level 8 Mook Archer** (88 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +11; **Skills:** Intimidate +9, Stealth +13   
 > **Languages:** Common  
 > **Str:** 14 (+6), **Con:** 15 (+6), **Dex:** 18 (+8)
 > **Int:** 12 (+5), **Wis:** 14 (+6), **Cha:** 13 (+5)  
-> **Equipment:** longbow  
 > 
 > **Initiative:** +8; **Speed:** 6  
 > **AC:** 20; **Fort:** 20, **Ref:** 20, **Will:** 18   
@@ -3260,7 +3318,7 @@ A powerful and well-established mercenary group or rival adventuring party.
 > ⤢	**Longbow** (standard, at-will) ● **Weapon**  
 > Ranged 20/40; +13 vs AC; 8 damage.  
 > **Snapshot** (move, at-will) ● **Weapon**  
-> The longbowman makes a *longbow* attack.  
+> The mercenary archer makes a *longbow* attack.  
 
 
 > #### Fire Magician  
@@ -3270,12 +3328,11 @@ A powerful and well-established mercenary group or rival adventuring party.
 > **Languages:** Common  
 > **Str:** 16 (+7), **Con:** 17 (+7), **Dex:** 14 (+6)
 > **Int:** 12 (+5), **Wis:** 14 (+6), **Cha:** 12 (+5)  
-> **Equipment:** wand  
 > 
 > **Initiative:** +6; **Speed:** 6  
 > **AC:** 20; **Fort:** 21, **Ref:** 19, **Will:** 20   
 > **HP:** 53, **Staggered:** 26      
-> *Smoke 'Em if You've Got 'Em (Fire) aura 1:* Enemies in the aura when the fire magician uses their *scorching ray* or *fire wall* attacks suffers 5 fire damage.  
+> *Smoke 'Em if You've Got 'Em (Fire) aura 1:* Enemies in the aura when the fire magician uses their *scorching ray* or *fire wall* attacks suffer 5 fire damage.  
 > 
 > ‡	**Fist** (standard, at-will)   
 > +13 vs AC; 2d6+5 damage.  
@@ -3292,7 +3349,6 @@ A powerful and well-established mercenary group or rival adventuring party.
 > **Languages:** Common  
 > **Str:** 16 (+7), **Con:** 14 (+6), **Dex:** 18 (+8)
 > **Int:** 16 (+7), **Wis:** 18 (+8), **Cha:** 16 (+7)  
-> **Equipment:** knife  
 > 
 > **Initiative:** +12; **Speed:** 6  
 > **AC:** 23; **Fort:** 20, **Ref:** 22, **Will:** 20   
@@ -3303,7 +3359,7 @@ A powerful and well-established mercenary group or rival adventuring party.
 > **Combat Advantage**   
 > The insidious assassin deals an additional 8 damage against targets that grant the insidious assassin combat advantage.  
 > **Prime Position** (move, at-will)   
-> The insidious assassin may shift to any square adjacent to an adjacent enemy. All adjacent enemies grant the insidious assassin combat advantage until the end of the current turn.  
+> Choose one enemy adjacent to the insidious assassin. The insidious assassin moves to any unoccupied square that is still to that enemy.  All enemies adjacent to the insidious assassin’s new square grant the insidious assassin combat advantage until the end of the insidious assassin’s current turn.  
 > **Pervasive Wound** (free, encounter)   
 > When the insidious assassin hits a target granting combat advantage to the insidious assassin: The target takes persistent 5 damage until the end of the encounter or until the target is reduced to 0 hit points or below.  
 
@@ -3315,7 +3371,6 @@ A powerful and well-established mercenary group or rival adventuring party.
 > **Languages:** Common  
 > **Str:** 16 (+8), **Con:** 16 (+8), **Dex:** 16 (+8)
 > **Int:** 18 (+9), **Wis:** 16 (+8), **Cha:** 14 (+7)  
-> **Equipment:** crossbow  
 > 
 > **Initiative:** +8; **Speed:** 6  
 > **Action Points:** 1  
@@ -3331,9 +3386,9 @@ A powerful and well-established mercenary group or rival adventuring party.
 > **Double Shot** (standard, at-will) ● **Weapon**  
 > The mercenary lord makes two *crossbow* attacks.  
 > **Get Up!** (standard, refresh 5, 6) ● **Healing**  
-> One standard (not an elite or boss) ally spends a recovery and heals hit points equal to their recovery value.  
+> One standard (not a mook, elite or boss) ally spends a recovery and heals hit points equal to their recovery value.  
 > **Relay Command** (swift, once per round)   
-> One ally makes a basic attack. If that ally misses, select another ally to make a basic attack.  
+> One ally may make a basic attack. If that ally does so and misses, another ally may make a basic attack.  
 > **Loyalty** (counter, at-will)   
 > When the mercenary lord is hit by a ranged attack: One ally within 4 squares swaps location with the mercenary lord and suffers the hit instead.  
 
@@ -3348,7 +3403,6 @@ Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable fa
 > **Languages:** Common  
 > **Str:** 28 (+14), **Con:** 28 (+14), **Dex:** 16 (+8)
 > **Int:** 10 (+5), **Wis:** 8 (+4), **Cha:** 8 (+4)  
-> **Equipment:** mancatcher, blowgun  
 > 
 > **Initiative:** +11; **Speed:** 5  
 > **Action Points:** 2  
@@ -3364,7 +3418,7 @@ Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable fa
 > The dark knight makes two *mancatcher* attacks.  
 > †	**Rend** (standard, refresh 4, 5, 6) ● **Weapon**  
 > A creature the dark knight has grappled takes 3d6+11 damage.  
-> **Regeneration**   
+> **Staggered Regeneration**   
 > At the start of its turn, if the dark knight is staggered, it heals 5 hit points.  
 > **Indomitable**   
 > The dark knight cannot be dazed, marked, or weakened.  
@@ -3377,7 +3431,6 @@ Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable fa
 > **Languages:** Common  
 > **Str:** 18 (+10), **Con:** 18 (+10), **Dex:** 12 (+7)
 > **Int:** 12 (+7), **Wis:** 14 (+8), **Cha:** 12 (+7)  
-> **Equipment:** rod  
 > 
 > **Initiative:** +7; **Speed:** 3  
 > **AC:** 24; **Fort:** 26, **Ref:** 22, **Will:** 24   
@@ -3400,7 +3453,6 @@ Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable fa
 > **Languages:** Common  
 > **Str:** 16 (+9), **Con:** 16 (+9), **Dex:** 22 (+12)
 > **Int:** 20 (+11), **Wis:** 16 (+9), **Cha:** 15 (+8)  
-> **Equipment:** knife, hand crossbow  
 > 
 > **Initiative:** +16; **Speed:** 6  
 > **Action Points:** 1  
@@ -3412,7 +3464,7 @@ Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable fa
 > ⤢	**Hand Crossbow** (standard, at-will) ● **Weapon**  
 > Ranged 10/20; +17 vs AC; 3d6+10 damage, and the target takes persistent 1 damage until the end of the encounter or until the target is reduced to 0 hit points or below. This damage is cumulative with successive hits with hand crossbow (maximum persistent 10 damage).  
 > **Instinctual Camouflage**   
-> When the master assassin benefits from cover or concealment, enemies suffer an additional -2 penalty to attack him.  
+> When the master assassin benefits from cover or concealment, enemies suffer an additional -2 penalty to attack them.  
 > **Love Your Work**   
 > When the master assassin scores a critical hit, they gain an action point.  
 > ∢	**Rain of Knives** (standard, at-will) ● **Weapon**  
@@ -3447,14 +3499,13 @@ Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable fa
 > +16 vs Fortitude; 3d6+12 damage, and the target is dazed, slowed, and weakened (save ends each).  
 
 
-> #### Veteran Crossbowman  
+> #### Crossbow Master  
 > **Level 14 Mook Archer** (250 XP)  
 > Medium Natural Humanoid ● Human (Unaligned)  
 > **Senses:** Perception +12   
 > **Languages:** Common  
 > **Str:** 14 (+9), **Con:** 14 (+9), **Dex:** 20 (+12)
 > **Int:** 16 (+10), **Wis:** 14 (+9), **Cha:** 12 (+8)  
-> **Equipment:** crossbow  
 > 
 > **Initiative:** +11; **Speed:** 6  
 > **AC:** 26; **Fort:** 26, **Ref:** 28, **Will:** 24   
@@ -3465,17 +3516,16 @@ Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable fa
 > ⤢	**Crossbow** (standard, at-will) ● **Weapon**  
 > Ranged 15/30; +19 vs AC; 12 damage.  
 > **Quick Shift**   
-> The veteran crossbowman can shift a square as a swift action.  
+> The crossbow master can shift a square as a swift action.  
 
 
-> #### Veteran Swordsman  
+> #### Blademaster  
 > **Level 14 Mook Striker** (250 XP)  
 > Medium Natural Humanoid ● Human (Unaligned)  
 > **Senses:** Perception +14   
 > **Languages:** Common  
 > **Str:** 18 (+11), **Con:** 18 (+11), **Dex:** 18 (+11)
 > **Int:** 12 (+8), **Wis:** 14 (+9), **Cha:** 12 (+8)  
-> **Equipment:** longsword  
 > 
 > **Initiative:** +13; **Speed:** 6  
 > **AC:** 28; **Fort:** 26, **Ref:** 28, **Will:** 24   
@@ -3506,7 +3556,7 @@ Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable fa
 > **One-Handed Choke** (standard, refresh 5, 6)   
 > +19 vs AC; 3d8+12 damage, and the target is grappled.  
 > **Rage** (standard, at-will)   
-> The berserker shifts 4 squares and gains 10 temporary hit points.  
+> The cruel lieutenant  shifts 4 squares and gains 10 temporary hit points.  
 > †	**Menacing Lift** (standard and move, at-will)   
 > +17 vs AC (must be grappling the target); 3d8+12 damage and the target is dazed and takes persistent 5 damage (save ends both).  
 
@@ -3518,7 +3568,6 @@ Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable fa
 > **Languages:** Common  
 > **Str:** 16 (+10), **Con:** 16 (+10), **Dex:** 18 (+11)
 > **Int:** 15 (+9), **Wis:** 14 (+9), **Cha:** 14 (+9)  
-> **Equipment:** knife, composite longbow  
 > 
 > **Initiative:** +11; **Speed:** 6  
 > **AC:** 27; **Fort:** 26, **Ref:** 27, **Will:** 26   
@@ -3531,7 +3580,7 @@ Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable fa
 > **Called Shot** (move, refresh 5, 6)   
 > The formidable archer hits with their next *composite longbow* attack this turn.  
 > **Head Shot** (free, encounter)   
-> When the formidable archer hits with a *composite longbow* attack: The triggering attack is a critical hit.  
+> When the formidable archer hits with a *composite longbow* attack: The triggering attack becomes a critical hit.  
 
 
 > #### Archvillain  
@@ -3541,7 +3590,6 @@ Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable fa
 > **Languages:** Common  
 > **Str:** 18 (+12), **Con:** 20 (+13), **Dex:** 16 (+11)
 > **Int:** 16 (+11), **Wis:** 14 (+10), **Cha:** 10 (+8)  
-> **Equipment:** gauntlet, tome  
 > 
 > **Initiative:** +11; **Speed:** 6  
 > **Action Points:** 1  
@@ -3558,7 +3606,7 @@ Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable fa
 > **Weak Point**   
 > When an enemy scores a critical hit on the archvillain, the archvillain suffers an additional 20 damage.  
 > ⋇	**Thunderball** (standard, refresh 5, 6) ● **Thunder**  
-> Far burst 1 within 10; +19 vs Reflex; 3d6+8 thunder damage, and the target is knocked prone and dazed stunned until the start of the archvillain’s next turn.  
+> Far burst 1 within 10; +19 vs Reflex; 3d6+8 thunder damage, and the target is knocked prone and stunned until the start of the archvillain’s next turn.  
 > **Second Phase** (reaction, encounter)   
 > When the archvillain is reduced to 0 hit points or lower: The archvillain heals 190 hit points and any of their powers that originally required a standard action now require a move action.  
 
@@ -3566,14 +3614,13 @@ Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable fa
 A thieves' guild, powerful and united bandit clan or other group of well-established, stealthy combatants can be represented by the statistics below.  
 
 
-> #### Repeater Crossbowman  
+> #### Crossbow Skirmisher  
 > **Level 5 Mook Archer** (50 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +7; **Skills:** Intimidate +7, Stealth +9   
 > **Languages:** Common  
 > **Str:** 13 (+3), **Con:** 12 (+3), **Dex:** 14 (+4)
 > **Int:** 12 (+3), **Wis:** 12 (+3), **Cha:** 11 (+2)  
-> **Equipment:** repeater crossbow  
 > 
 > **Initiative:** +4; **Speed:** 6  
 > **AC:** 17; **Fort:** 17, **Ref:** 18, **Will:** 16   
@@ -3584,7 +3631,7 @@ A thieves' guild, powerful and united bandit clan or other group of well-establi
 > ⤢	**Repeater Crossbow** (standard, at-will) ● **Weapon**  
 > Ranged 10/20; +10 vs AC; 7 damage.  
 > **Wild Spray** (move, at-will) ● **Weapon**  
-> The repeater crossbowman hit with a *repeater crossbow* attack this turn; the repeater crossbowman makes one *repeater crossbow* attack against an enemy within 2 squares of the original target.  
+> The crossbow skirmisher hit with a *repeater crossbow* attack this turn; the crossbow skirmisher  makes one *repeater crossbow* attack against another enemy within 2 squares of the original target.  
 
 
 > #### Cowled Assassin  
@@ -3594,7 +3641,6 @@ A thieves' guild, powerful and united bandit clan or other group of well-establi
 > **Languages:** Common  
 > **Str:** 10 (+2), **Con:** 12 (+3), **Dex:** 18 (+6)
 > **Int:** 16 (+5), **Wis:** 16 (+5), **Cha:** 18 (+6)  
-> **Equipment:** knife  
 > 
 > **Initiative:** +10; **Speed:** 6  
 > **AC:** 19; **Fort:** 16, **Ref:** 18, **Will:** 18   
@@ -3605,9 +3651,9 @@ A thieves' guild, powerful and united bandit clan or other group of well-establi
 > **A Looker**   
 > Until the cowled assassin hits with *concealed knife*, he gains a +3 power bonus to all defenses and a +3 power bonus to Bluff and Intimidate skill checks.  
 > **Slip-Out** (move, at-will)   
-> The cowled assassin shifts 4 squares and gains a +1 power bonus to AC until the start of his next turn.  
+> The cowled assassin shifts 4 squares and gains a +1 power bonus to AC until the start of their next turn.  
 > **Relay Information** (move, at-will)   
-> Ranged 20; +8 vs Will; The target grants combat advantage to all allied adversaries of the same type as the cowled assassin until the start of the cowled assassin’s next turn.  
+> Ranged 20; +8 vs Will; the target grants combat advantage to the cowled  assassin until the start of the cowled assassin’s next turn. For the  same duration, the target also grants combat advantage to all allies of the cowled assassin who share a language with the cowled assassin. 
 
 
 > #### Repeater Crossbow Master  
@@ -3617,7 +3663,6 @@ A thieves' guild, powerful and united bandit clan or other group of well-establi
 > **Languages:** Common  
 > **Str:** 13 (+3), **Con:** 16 (+5), **Dex:** 13 (+3)
 > **Int:** 12 (+3), **Wis:** 14 (+4), **Cha:** 11 (+2)  
-> **Equipment:** repeater crossbow  
 > 
 > **Initiative:** +3; **Speed:** 5  
 > **AC:** 17; **Fort:** 17, **Ref:** 16, **Will:** 16   
@@ -3638,7 +3683,6 @@ A thieves' guild, powerful and united bandit clan or other group of well-establi
 > **Languages:** Common  
 > **Str:** 14 (+5), **Con:** 14 (+5), **Dex:** 16 (+6)
 > **Int:** 13 (+4), **Wis:** 14 (+5), **Cha:** 12 (+4)  
-> **Equipment:** bow  
 > 
 > **Initiative:** +6; **Speed:** 6  
 > **AC:** 18; **Fort:** 18, **Ref:** 17, **Will:** 17   
@@ -3657,7 +3701,6 @@ A thieves' guild, powerful and united bandit clan or other group of well-establi
 > **Languages:** Common  
 > **Str:** 18 (+7), **Con:** 16 (+6), **Dex:** 14 (+5)
 > **Int:** 12 (+4), **Wis:** 14 (+5), **Cha:** 12 (+4)  
-> **Equipment:** club, bow  
 > 
 > **Initiative:** +5; **Speed:** 6  
 > **AC:** 18; **Fort:** 19, **Ref:** 18, **Will:** 18   
@@ -3679,7 +3722,6 @@ A thieves' guild, powerful and united bandit clan or other group of well-establi
 > **Languages:** Common  
 > **Str:** 13 (+4), **Con:** 15 (+5), **Dex:** 17 (+6)
 > **Int:** 12 (+4), **Wis:** 14 (+5), **Cha:** 12 (+4)  
-> **Equipment:** repeater arbalest  
 > 
 > **Initiative:** +8; **Speed:** 6  
 > **AC:** 21; **Fort:** 19, **Ref:** 20, **Will:** 19   
@@ -3689,7 +3731,7 @@ A thieves' guild, powerful and united bandit clan or other group of well-establi
 > +12 vs AC; 6 damage.  
 > ⤢	**Repeater Arbalest** (standard, at-will) ● **Weapon**  
 > Ranged 10/20; +12 vs AC; 6 damage, and the target is knocked prone.  
-> **Sprint Shot** (standard, at-will) ● **Weapon**  
+> ↗ **Sprint Shot** (standard, at-will) ● **Weapon**  
 > Shift 4 squares then: Ranged 10/20; +12 vs AC; 6 damage, and the target is knocked prone.  
 
 
@@ -3700,20 +3742,19 @@ A thieves' guild, powerful and united bandit clan or other group of well-establi
 > **Languages:** Common  
 > **Str:** 14 (+5), **Con:** 16 (+6), **Dex:** 18 (+7)
 > **Int:** 15 (+5), **Wis:** 14 (+5), **Cha:** 12 (+4)  
-> **Equipment:** crossbow  
 > 
 > **Initiative:** +9; **Speed:** 6  
 > **Action Points:** 1  
 > **AC:** 23; **Fort:** 18, **Ref:** 20, **Will:** 20; **Saving Throws:** +2   
 > **HP:** 118, **Staggered:** 59      
-> *Sleep When You’re Dead aura 5:* Each time an ally in the aura is staggered or reduced to 0 hit points or below, the ally can make a basic attack. If the ally is at 0 hit points or below, it falls unconscious after making the attack.  
+> *Sleep When You’re Dead aura 5:* Each time an ally in the aura suffers damage that  causes them to become staggered or be reduced to 0 hit points or below,  the ally may immediately make a basic attack. If the ally is at 0 hit points or below, it falls unconscious after making the attack. 
 > 
 > ‡	**Dagger** (standard, at-will) ● **Weapon**  
 > +12 vs AC; 1d8+4 damage.  
 > ⤢	**Crossbow** (standard, at-will) ● **Weapon**  
 > Ranged 10/20; +12 vs AC; 2d8+6 damage.  
-> **Empty The Quirrel** (standard, refresh 6)   
-> The king of thieves makes a *crossbow* attack. If it hits, he makes another *crossbow* attack. This continues until the king of thieves misses or has made four *crossbow* attacks.  
+> **Empty The Quiver** (standard, refresh 6)   
+> The king of thieves makes a *crossbow* attack. If it hits, the king makes another *crossbow* attack. This continues until the king of thieves misses or has made four *crossbow* attacks.  
 > **Intimidating** (counter, at-will)   
 > When the king of thieves is hit: The attacker re-rolls their attack roll and takes the lower result.  
 
@@ -3738,7 +3779,7 @@ Inevitables are epic threats that punish those who defy the laws of the universe
 > +25 vs AC; 6d6+7 necrotic damage and the target grants combat advantage until the end of its next turn.  
 > ⤢	**Blight** (standard, refresh 5, 6) ● **Necrotic**  
 > Ranged 10; +25 vs Fortitude; 6d6+7 necrotic damage and the target is placed under lifewatch until the end of the encounter. If a creature under lifewatch heals or receives healing, it is weakened (save ends).  
-> †	**Mesmerising Touch** (swift, refresh 5, 6) ● **Charm, Psychic**  
+> †	**Mesmerizing Touch** (swift, refresh 5, 6) ● **Charm, Psychic**  
 > +25 vs Will; The target is dazed until the end of its next turn, and placed under lifewatch until the end of the encounter. If the target is already under lifewatch, they are stunned instead of dazed.  
 > **Provisional Healing** (swift, encounter) ● **Healing**  
 > An adjacent creature not under lifewatch heals equal to its recovery value. It is then under lifewatch until the end of the encounter.  
@@ -3761,9 +3802,9 @@ The Undying are elves and fey who attempted to extend their lifespans by unnatur
 > **HP:** 129, **Staggered:** 64      
 > 
 > ‡	**Fist of Thunder** (standard, at-will) ● **Thunder**  
-> Reach 1; +26 vs AC; 6d6+8 thunder damage and the target is deafened (save ends) and pushed 2 squares.  
+> Reach 2; +26 vs AC; 6d6+8 thunder damage and the target is deafened (save ends) and pushed 2 squares.  
 > ‡	**Fist of Lightning** (standard, at-will) ● **Lightning**  
-> Reach 1; +26 vs AC; 6d6+8 lightning damage and the target is blinded until the end of their next turn.  
+> Reach 2; +26 vs AC; 6d6+8 lightning damage and the target is blinded until the end of their next turn.  
 > ↗	**Word of Command** (swift, at-will) ● **Charm, Psychic**  
 > Ranged 10; +26 vs Will; The marut chooses one: the target falls prone, the target is immobile until the end of their next turn, the target drops what they are holding, the target is pulled 6 squares or the target is pushed 6 squares.  
 > ↗	**Mark of Justice** (swift, at-will) ● **Charm, Psychic**  
@@ -3830,7 +3871,7 @@ Infected animals are mostly dogs with the occasional bear thrown in. They prefer
 > **Inhuman Burst** (free, encounter)   
 > The speed of the Infected drone increases to 6 until the end of its turn.  
 
-The infected drone was a normal human but has become physically larger due to the mutation.  
+Humanoids who are infected by the virus become Infected drones.  
 
 
 > #### Infected Guard  
@@ -3850,7 +3891,7 @@ The infected drone was a normal human but has become physically larger due to th
 > †	**Infected Grab** (counter, at-will)   
 > When an enemy leaves an adjacent square; +7 vs Reflex; The target is unable to move from the square.  
 > **Shreds of Armor** (counter, encounter)   
-> When the guard is hit: The guard takes no damage and is dazed until the end of its next turn.  
+> When the guard is hit, including by a critical hit: The guard takes no damage and is dazed until the end of its next turn.  
 > **Nerve Shot**   
 > Any critical hit to the Infected guard reduces it to 0 hit points instantly.  
 > **Force of Attack**   
@@ -3874,7 +3915,7 @@ Infected guards were soldiers or guards who were infected while they were still 
 > ‡	**Slam** (standard, at-will)   
 > +10 vs AC; 5 damage.  
 
-Infected grubs are normal humans infected by the virus. They prefer running towards a target and ripping it apart.  
+Infected drones that go undestroyed for long enough become Infected grubs. They prefer running towards a target and ripping it apart.  
 
 
 > #### Infected Behemoth  
@@ -3896,14 +3937,19 @@ Infected grubs are normal humans infected by the virus. They prefer running towa
 > †	**Hulk Rend** (standard, at-will) ● **Weapon**  
 > Reach 2; +11 vs AC (must be grappling the target); 2d8+7 damage, and the target is dazed and weakened (save ends both).  
 
-The behemoth has had their body and muscles expand until they reach a massive size. The behemoth will use debris throw (if no debris is readily to hand, it will rip up a chunk of tarmac or a large rock) to knock down opponents and run up to fallen targets to use hulk rend.  
+The behemoth has had their body and muscles expand until they reach a massive size. The behemoth will use debris throw (if no debris is readily to hand, it will rip up a chunk of earth or a large rock) to knock down opponents and run up to fallen targets to use hulk rend.  
 
 # Invaders  
-The Invaders represent an alien invasion. This mixing of genres will not suite all fantasy campaigns, but it has been a part of the hobby since the very beginning. The Invaders may be merely an exploratory force, or a misdirected unit intended for a fight on another planet, or the full force of an interstellar armada. In any case, the creatures outlined here represent bodies (also called "shells") cobbled together by the aliens from supplies on their spaceship and whatever materials - inorganic and otherwise - that they find. 
+The Invaders represent an alien invasion. The Invaders may be merely an exploratory force, or a misdirected unit intended for a fight on another planet, or the full force of an interstellar armada. In any case, the creatures outlined here represent bodies (also called "shells") cobbled together by the aliens from supplies on their spaceship and whatever materials - inorganic and otherwise - that they find. 
 
 The invasion force consists of “skinner” shock troops and “widows”, which provide command and control. Mobile artillery units are called “chanks” and the flying vehicles are “screamers”. There are also rarely seen larger “beast” mobile strongpoints.
 
 The Invaders have basic intelligence and, with the help of a widow, can coordinate their actions and formulate tactics. However, their overarching strategy of the entire force depends on the “Tri-Pod”—the alien commander.  
+
+##### Fantasy alternatives
+Mixing science fiction and fantasy genres has been a part of the hobby since the very beginning, but it will not suite all fantasy campaigns.  
+
+The Invaders could just as easily be insectoid horrors from another dimension seeking out warm-blooded food or ancient alchemical constructs that cannibalize the living to replenish their numbers.
 
 
 > #### Skinner  
@@ -3948,9 +3994,9 @@ Skinners are jumbled collections of cybernetic and organic parts.  They are prod
 > **Tracking** (move, at-will)   
 > Ranged 40/80 (one square of cover); The punk ignores cover provided by that source until the end of the punk’s next turn.  
 > **Anarchy Response** (swift, refresh 6)   
-> The punk must hit with its *weapon arm* using *chaos fire*: The punk makes another *weapon arm* attack.  
+> When the punk hits with its *weapon arm* using *chaos fire*: The punk makes another *weapon arm* attack.  
 
-The punk is a larger infantry support unit with four legs, capable of laying down heavy fire against single or multiple targets. What’s left of its organic head has been supplanted with considerable tracking equipment to pinpoint distant targets. The punk is also often seen an anti-aircraft weapon. It is often flanked by at least a half-dozen skinners.  
+The punk is a larger infantry support unit with four legs, capable of laying down heavy fire against single or multiple targets. What’s left of its organic head has been supplanted with considerable tracking equipment to pinpoint distant targets. The punk is also often seen as a counter to flying opponents. It is often flanked by at least a half-dozen skinners.  
 
 
 > #### Chank  
@@ -3978,6 +4024,26 @@ The punk is a larger infantry support unit with four legs, capable of laying dow
 This unfortunately nicknamed cybernetic mobile artillery unit is only seen coupled with larger units. It has few organic components in its assembly, mostly consisting of recoil absorption hardware and armament. As the chank has no close combat capacity, it depends on its guards to protect it.  
 
 
+> #### Baby Screamer  
+>
+> **Level 14 Mook Archer** (250 XP)  
+> Medium Cosmic Automaton ● Construct (Unaligned)  
+> **Senses:** Perception +11   
+> **Str:** 14 (+9), **Con:** 10 (+7), **Dex:** 18 (+11)
+> **Int:** 12 (+8), **Wis:** 10 (+7), **Cha:** 8 (+6)  
+>
+> **Initiative:** +14; **Speed:** fly 7  
+> **AC:** 26; **Fort:** 25, **Ref:** 27, **Will:** 25   
+> **HP:** 1; a missed attack never damages a mook      
+>
+> ⤢	**Pulse Rifle** (standard, at-will) ● **Weapon**  
+> Ranged 20/40; +19 vs AC; 9 damage, and the baby screamer can shift one square.  
+> **Dash** (move, at-will)   
+> The baby screamer shifts 2 squares.  
+> **Pulse Engine** (counter, encounter)   
+> When an enemy hits the baby screamer: The baby screamer shifts one square, and the attack misses.  
+
+
 > #### Mother Screamer  
 > **Level 14 Skulker** (Leader) (1000 XP)  
 > Large Cosmic Automaton ● Construct (Unaligned)  
@@ -3994,7 +4060,7 @@ This unfortunately nicknamed cybernetic mobile artillery unit is only seen coupl
 > **Repulsor Shield**   
 > The screamer does not provoke opportunity attacks when attacking. The screamer is immune to attacks made from a range of 30 squares or more.  
 > **Deploy Support Unit** (move, at-will)   
-> Place a screamer baby in an adjacent square. The mother can only have three baby units in the encounter at a time. A baby placed this way acts on the mother’s initiative and can act immediately after being placed.  
+> Place a baby screamer in an adjacent square. The mother can only have three baby units in the encounter at a time. A baby placed this way acts on the mother’s initiative and can act immediately after being placed.  
 > **Dash** (move, at-will)   
 > Shift 2 squares.  
 
@@ -4045,11 +4111,11 @@ Also known as a conversion unit, the beast is a mobile command node that expands
 > ‡	**No Other Solution** (standard, at-will)   
 > +20 vs AC; 3d6+13 damage.  
 > ⤢	**Direct Control** (standard, at-will)   
-> One skinner makes a basic attack which automatically hits its target.  
+> One skinner within 20 squares makes a basic attack which automatically hits its target.  
 > **Pulse Sequence** (move, refresh 4, 5, 6)   
 > Place one skinner in an adjacent square.  
 > **Uplink** (swift, at-will) ● **Stance**  
-> When the widow enters this stance it chooses a skinner. On its turn, that skinner can (as a swift action) shift one square and make a basic attack. The widow can select a new skinner as the target of this stance as a swift action.  
+> When the widow enters this stance it chooses a skinner within 20 squares.  On its turn, that skinner can (as a swift action) shift one square and make a basic attack. The widow can select a new skinner as the target of this stance as a swift action.  
 
 The widow is an advanced skinner that has the capacity to influence if not outright control the skinners around it. The widow has very few organic components, sometimes as little as 2%. It also doesn’t always completely follow the humanoid form. Some have synthetic tentacles while others have multiple legs. Individual units have been nicknamed “scorpion,” ”centaur, ” “tarantula,” and “octopus”.
 
@@ -4069,38 +4135,19 @@ The widow is an advanced skinner that has the capacity to influence if not outri
 > **HP:** 396, **Staggered:** 198      
 > 
 > ⤢	**Heat Ray** (standard, at-will) ● **Weapon**  
-> Ranged 50/100 (minimum Ranged 4); +20 vs AC; 24 damage. This is considered a critical hit. The Tri-Pod does not provoke opportunity attacks with its heat ray. The Tri-Pod cannot use heat ray on a creature it is grappling.  
+> Ranged 50/100 (minimum Ranged 4); +20 vs AC; 24 damage. This is considered a critical hit. The Tri-Pod does not provoke opportunity attacks with its *heat ray*. The Tri-Pod cannot use *heat ray* on a creature it is grappling.  
 > **Force Field**   
-> The Tri-Pod is immune to all damage until a single attack does 50 damage or more damage to the Tri-Pod.  
+> The Tri-Pod begins an encounter with resist 50 to all damage. If the Tri-Pod takes any damage, it loses *force field* (but see *power systems repaired*).  
 > ↗	**Dual Turrets** (standard, at-will) ● **Weapon**  
 > The Tri-Pod makes two *heat ray* attacks.  They cannot target the same creature.  
 > **Tentacle Whip** (move, at-will) ● **Weapon**  
 > Reach 4; +18 vs Reflex (two creatures); 2d8+8 damage, and the target is either grappled or pushed 6 squares. If the target hits an obstruction, it takes 2d8 additional damage.  
 > **Tentacle Crush** (move, at-will)   
 > Reach 4; +18 vs Fortitude (must be grappling the target); 3d6+13 damage.  
-> **Power System’s Repaired** (reaction, encounter)   
-> When the Tri-Pod is reduced to 0 hit points or lower: The Tri-Pod’s force field is re-activated; it stands up (if prone) and heals 300 hit points.  
+> **Power Systems Repaired** (reaction, encounter)   
+> When the Tri-Pod is reduced to 0 hit points or lower: The Tri-Pod’s *force field* is re-activated; it stands up (if prone) and heals 300 hit points.  
 
 Spirit, the Invader commander, is locked in a three-legged mobile command robot known inventively as the Tri-Pod.  
-
-
-> #### Baby Screamer  
-> **Level 16 Mook Archer** (350 XP)  
-> Medium Cosmic Automaton ● Construct (Unaligned)  
-> **Senses:** Perception +12   
-> **Str:** 14 (+10), **Con:** 10 (+8), **Dex:** 18 (+12)
-> **Int:** 12 (+9), **Wis:** 10 (+8), **Cha:** 8 (+7)  
-> 
-> **Initiative:** +15; **Speed:** fly 7  
-> **AC:** 28; **Fort:** 27, **Ref:** 29, **Will:** 27   
-> **HP:** 1; a missed attack never damages a mook      
-> 
-> ⤢	**Pulse Rifle** (standard, at-will) ● **Weapon**  
-> Ranged 20/40; +21 vs AC; 10 damage, and the baby screamer can shift one square.  
-> **Dash** (move, at-will)   
-> The baby screamer shifts 2 squares.  
-> **Pulse Engine** (counter, encounter)   
-> When an enemy hits the baby screamer: The baby screamer shifts one square, and the attack misses.  
 
 # Jiang-Shi  
 Jiang-shi are hopping vampires.
@@ -4108,9 +4155,9 @@ Jiang-shi are hopping vampires.
 <figure><img src="pics\LuigiCastellani_CGFIGHTER.png" alt="Fighter by Luigi Castellani" style="zoom: 100%;" /><figcaption>Fighter by Luigi Castellani</figcaption></figure>
 
 ##### In the World
-**Distractable:** The jiang-shi is compelled to count any heap of things it comes across, like a pile of glutinous rice or a basket of hen eggs. It must spend at least one move action per round counting until it has finished (it is a very fast counter, but there can be a lot of rice in a pile). It cannot use its *special scroll* or *drink breath* powers while distracted. 
+**Distractable:** The jiang-shi is compelled to count any heap of things it comes across, like a pile of glutinous rice or a basket of hen eggs. It must spend at least one move action per round counting until it has finished. A jiang-shi is a very fast counter and can count most piles of items in one move action, but very large piles may take as many as three move actions. It cannot use its *special scroll* or *drink breath* powers while there is a pile yet to count or on a turn that it has spent some time counting.  
 
-**One More Breath:** When a jiang-shi is reduced to 0 HP or below, they fall unconscious and awaken in 1 hour with full hit points. The jiang-shi must then focus for 1 minute to fully return from the Beyond. If it fails to do so (for example, because it is counting hen eggs), it is destroyed. 
+**One More Breath:** When a jiang-shi is reduced to 0 HP or below, they fall unconscious and awaken in 1 hour with full hit points. The jiang-shi must then immediately focus for 1 minute to fully return from the Beyond. If it fails to do so (for example, because it is was distracted counting for part of the minute), it is destroyed. 
 
 **Weaknesses:** Creatures can use a mirror or ringing bell to *repel* a jiang-shi, or an altar heaped with edible offerings to the spirits to *lure* a jiang-shi (see Advanced Combat). 
 
@@ -4140,11 +4187,11 @@ Jiang-shi are hopping vampires.
 > **Special Scroll** ● **Healing**  
 > While the jiang-shi is not staggered, it has regeneration 5 and a +4 power bonus to defenses against Arcane attacks.  
 > †	**Drink Breath** (swift, at-will)   
-> +11 vs Fortitude (must be grappling the target); 3d10+5 necrotic damage, and the target is weakened (save ends), though no longer grappled. *Sudden leap* refreshes.  
+> +11 vs Fortitude (must be grappling the target); 3d10+5 necrotic damage, and the target is weakened (save ends), though no longer grappled. *Sudden leap* refreshes. Also see Transformation, above.  
 > **Sudden Leap** (counter, refresh special)   
 > Triggered when the jiang-shi is the target of a melee attack; the jiang-shi grapples the attacker and jumps 6 squares. The attacker can then make their attack if able to do so.  
 > **Breathsense**   
-> As truesight, except that a living creature who holds their breath is invisible to the jiang-shi for as long as they hold their breath. To hold their breath in this way, a creature must have one hand free to fully plug their nose or cover their mouth.  
+> As truesight, except that a living creature who holds their breath and covers their mouth and nose is invisible to the jiang-shi for as long as they hold their breath. Covering the nose and mouth can be done with a free hand, or through another contrivance.  
 
 
 > #### Jiang-Shi Magistrate  
@@ -4164,7 +4211,7 @@ Jiang-shi are hopping vampires.
 > ‡	**Bite** (standard, at-will)   
 > +16 vs AC; 3d8+5 damage.  
 > †	**Claw** (standard, at-will)   
-> Reach 1; +16 vs AC; 2d8+5 damage, and the target is grappled.  
+> Reach 2; +16 vs AC; 2d8+5 damage, and the target is grappled.  
 > **Multiattack** (standard, at-will)   
 > Make a *claw* and a *bite* attack.  
 > **Special Scroll** ● **Healing**  
@@ -4174,131 +4221,10 @@ Jiang-shi are hopping vampires.
 > **Sudden Leap** (counter, refresh special)   
 > Triggered when the jiang-shi is the target of a melee attack; the jiang-shi grapples the attacker and jumps 8 squares. The attacker’s attack fails.  
 > **Breathsense**   
-> As truesight, except that a living creature who holds their breath is invisible to the jiang-shi for as long as they hold their breath. To hold their breath in this way, a creature must have one hand free to fully plug their nose or cover their mouth.  
+> As truesight, except that a living creature who holds their breath and covers their mouth and nose is invisible to the jiang-shi for as long as they hold their breath. Covering the nose and mouth can be done with a free hand, or through another contrivance.   
 > **Water Walk**   
 > The jiang-shi can walk across the surface of water as if it were solid ground.  
 
-# Juggernauts  
-Juggernauts are the golem-like constructs created by a long-ago empire. Each juggernaut has room in its torso for a humanoid rider, who can direct the juggernaut.  
-
-
-> #### The Minotaur  
-> **Level 5 Elite Wrecker** (400 XP)  
-> Large Natural Automaton ● Construct (Unaligned)  
-> **Senses:** Perception +12, darkvision; **Skills:** Athletics +15, Endure +16, Intimidate +9   
-> **Str:** 26 (+10), **Con:** 28 (+11), **Dex:** 10 (+2)
-> **Int:** 12 (+3), **Wis:** 14 (+4), **Cha:** 12 (+3)  
-> 
-> **Initiative:** +2; **Speed:** 7  
-> **Action Points:** 1  
-> **AC:** 17; **Fort:** 17, **Ref:** 17, **Will:** 17; **Saving Throws:** +2   
-> **HP:** 114, **Staggered:** 57   
-> **Resist:**&nbsp;all 10   
-> 
-> ‡	**Slam** (standard, at-will)   
-> Reach 2; +10 vs AC; 2d6+6 damage.  
-> ⤢	**Lightning Shot** (standard, at-will) ● **Lightning**  
-> Ranged 30/60; +10 vs AC; 2d8+6 lightning damage.  
-> **Minotaur Rush**   
-> The Minotaur is immune to opportunity attacks. When the Minotaur moves, it ignores difficult terrain and squares occupied by enemies. Shunt enemies in squares the Minotaur enters 1 square. The Minotaur cannot be knocked prone.  
-> **Iron Onslaught** (standard, refresh 6)   
-> The Minotaur shifts up to 9 squares in a straight line. The Minotaur makes a *slam* attack against each enemy in reach during this movement. On a hit, the target is knocked prone. The Minotaur can only attack each target once.  
-> **Eruption** (reaction, encounter)   
-> When the Minotaur is staggered: The Minotaur immediately stands up if prone and recovers from all conditions it suffers from. The Minotaur makes an *iron onslaught* attack.  
-
-The original use of the Minotaur was to breach walls and other defenses during siege warfare.  
-
-
-> #### The Emperor  
-> **Level 9 Elite Archer** (800 XP)  
-> Large Natural Automaton ● Construct (Unaligned)  
-> **Senses:** Perception +11, darkvision; **Skills:** Acrobatics +14, Athletics +13, Endure +16   
-> **Str:** 20 (+9), **Con:** 24 (+11), **Dex:** 20 (+9)
-> **Int:** 14 (+6), **Wis:** 14 (+6), **Cha:** 13 (+5)  
-> 
-> **Initiative:** +9; **Speed:** 6, fly 8  
-> **Action Points:** 1  
-> **AC:** 21; **Fort:** 21, **Ref:** 21, **Will:** 19; **Saving Throws:** +2   
-> **HP:** 114, **Staggered:** 57   
-> **Resist:**&nbsp;all 10   
-> 
-> ‡	**Slam** (standard, at-will)   
-> +14 vs AC; 1d8+6 damage, and the target is knocked prone.  
-> ⤢	**Lightning Shot** (standard, at-will) ● **Lightning**  
-> Ranged 40/80; +14 vs AC; 2d8+8 lightning damage.  
-> **Alpha Strike** (standard, refresh 5, 6)   
-> The Emperor flies 7 squares and makes 3 *lightning shot* attacks.  
-> ↗	**Floating Orbs** (swift, at-will) ● **Lightning**  
-> Ranged 15/30; +14 vs AC; 2d6+6 lightning damage.  
-> **Armored Shell** (free, encounter)   
-> When the Emperor is staggered: The Emperor’s ground and fly speeds increase by 1, the Emperor is healed to its maximum hit point total and it loses all resistances.  
-
-The Emperor is built in the shape of a gigantic, powerful human. The exposed copper and bronze wires that make up its artificial musculature give it the appearance of a skinless, gleaming gold giant floating through the air.  
-
-
-> #### The Scorpion  
-> **Level 15 Elite Archer** (2400 XP)  
-> Large Natural Automaton ● Construct (Unaligned)  
-> **Senses:** Perception +13, darkvision; **Skills:** Acrobatics +16, Athletics +24, Endure +24   
-> **Str:** 30 (+17), **Con:** 30 (+17), **Dex:** 18 (+11)
-> **Int:** 14 (+9), **Wis:** 12 (+8), **Cha:** 13 (+8)  
-> 
-> **Initiative:** +9; **Speed:** 6  
-> **Action Points:** 1  
-> **AC:** 27; **Fort:** 29, **Ref:** 26, **Will:** 25; **Saving Throws:** +2   
-> **HP:** 162, **Staggered:** 81   
-> **Resist:**&nbsp;all 10   
-> 
-> ‡	**Heavy Piton Leg** (standard, at-will)   
-> Reach 2; +20 vs AC; 3d6+13 damage, and the target is pushed 3 squares and knocked prone.  
-> ⤢	**Lightning Shot** (standard, at-will) ● **Lightning**  
-> Ranged 30/60; +20 vs AC; 3d6+13 lightning damage, and the target is knocked prone.  
-> ∢	**Lightning Field** (standard, at-will) ● **Lightning**  
-> Near burst 2; +18 vs Reflex; 2d8+8 lightning damage, and the target is pushed 3 squares and knocked prone.  
-> ↗	**Second Arc** (standard, at-will) ● **Lightning**  
-> The Scorpion makes a *lightning shot* attack.  If it hits, it makes a second attack against the same target.  
-> ⋇	**Thunder Fall** (standard and move, at-will) ● **Thunder**  
-> Far burst 1 within 30; +18 vs Reflex; 3d6+10 damage, and the target is knocked prone.  
-> **Deployment** (move, at-will) ● **Stance**  
-> The Scorpion cannot move or be moved until it deactivates deployment. Its AC increases to 29 but its Reflex defense decreases to 24. The Scorpion cannot make *heavy piton leg* or *thunder fall* attacks while in this stance.  
-> **Fortified Platform**   
-> The Scorpion cannot be knocked prone or subject to unwilling movement.  
-
-The Scorpion is in the shape of a many-legged insect, but with the animated stone and bronze of the other juggernauts. The rider must lie supine in the "body" of the Scorpion, in a small dark room called the "coffin".  
-
-
-> #### The Awoken  
-> **Level 15 Boss Striker** (6000 XP)  
-> Large Natural Automaton ● Construct (Good)  
-> **Senses:** Perception +19, darkvision, blindsight 10   
-> **Languages:** Common  
-> **Str:** 30 (+17), **Con:** 26 (+15), **Dex:** 12 (+8)
-> **Int:** 14 (+9), **Wis:** 21 (+12), **Cha:** 19 (+11)  
-> 
-> **Initiative:** +9; **Speed:** 6  
-> **Action Points:** 2  
-> **AC:** 29; **Fort:** 28, **Ref:** 26, **Will:** 26; **Saving Throws:** +5   
-> **HP:** 396, **Staggered:** 198   
-> **Immune:**&nbsp;poison, disease, **Resist:**&nbsp;all 10   
-> 
-> ‡	**Slam** (standard, at-will)   
-> Reach 2; +20 vs AC; 3d8+13 damage, and the target is pushed 3 squares or grappled.  
-> ⤢	**Force Boom** (standard, at-will) ● **Force**  
-> Ranged 20/40; +20 vs AC; 3d6+13 force damage, and the target takes persistent 10 force damage (save ends).  
-> ⋇	**Firebomb** (standard, refresh 5, 6) ● **Fire**  
-> Far burst 3 within 20; +18 vs Reflex; 2d8+8 fire damage, and the target takes persistent 10 fire damage (save ends).  
-> †	**Direct Kill** (move, at-will) ● **Force, Weapon**  
-> Reach 2; +18 vs Fortitude (must be grappling the target); 3d6+13 damage, and the target takes persistent 10 damage (save ends).  
-> **Self-Repair** (swift, at-will) ● **Healing**  
-> The Awoken heals 10 hit points.  
-> **Scan the Area** (swift, at-will)   
-> The Awoken gains a +2 power bonus to attack rolls and can ignore difficult terrain until the start of the Awoken’s next turn.  
-> **Force Shield** (swift, at-will)   
-> The Awoken gains a +1 power bonus to all defenses until the start of the Awoken’s next turn, and can shift 1 square.  
-> **Unfeeling**   
-> The Awoken cannot be marked, dominated, or surprised.  
-
-The Awoken is the only juggernaut in recorded history to become self-aware, and able to direct itself without a rider in its torso.  
 
 # Lycanthropes  
 <figure><img src="pics\DnD_Lycantrop.png" alt="Lycanthrope by LadyofHats" style="zoom: 100%;" /><figcaption>Lycanthrope by LadyofHats</figcaption></figure>
@@ -4313,7 +4239,6 @@ Lycanthropes are humanoids that can take animal or hybrid form. Those bitten by 
 > **Languages:** Common  
 > **Str:** 17 (+6), **Con:** 19 (+7), **Dex:** 19 (+7)
 > **Int:** 14 (+5), **Wis:** 16 (+6), **Cha:** 16 (+6)  
-> **Equipment:** battleaxe, leather armor  
 > 
 > **Initiative:** +10; **Speed:** 6  
 > **AC:** 20; **Fort:** 17, **Ref:** 19, **Will:** 18   
@@ -4340,7 +4265,6 @@ The wolf shifter can use *battleaxe* while in humanoid form and *bite* and *hams
 > **Languages:** Common  
 > **Str:** 22 (+10), **Con:** 16 (+7), **Dex:** 20 (+9)
 > **Int:** 14 (+6), **Wis:** 10 (+4), **Cha:** 17 (+7)  
-> **Equipment:** war maul, leather armor  
 > 
 > **Initiative:** +13; **Speed:** 6  
 > **AC:** 20; **Fort:** 21, **Ref:** 19, **Will:** 20   
@@ -4365,7 +4289,6 @@ The wolf shifter can use *battleaxe* while in humanoid form and *bite* and *hams
 > **Languages:** Common  
 > **Str:** 16 (+7), **Con:** 16 (+7), **Dex:** 22 (+10)
 > **Int:** 18 (+8), **Wis:** 10 (+4), **Cha:** 17 (+7)  
-> **Equipment:** daggers, leather armor  
 > 
 > **Initiative:** +14; **Speed:** 6, fly 8  
 > **AC:** 20; **Fort:** 21, **Ref:** 19, **Will:** 20   
@@ -4392,7 +4315,6 @@ The wolf shifter can use *battleaxe* while in humanoid form and *bite* and *hams
 > **Languages:** Common  
 > **Str:** 12 (+6), **Con:** 14 (+7), **Dex:** 21 (+10)
 > **Int:** 18 (+9), **Wis:** 22 (+11), **Cha:** 20 (+10)  
-> **Equipment:** dagger, druidic focus, leather armor  
 > 
 > **Initiative:** +15; **Speed:** 6, forest stride  
 > **AC:** 25; **Fort:** 23, **Ref:** 22, **Will:** 24   
@@ -4405,67 +4327,7 @@ The wolf shifter can use *battleaxe* while in humanoid form and *bite* and *hams
 > ∢	**Spirit Assault** (standard, encounter) ● **Psychic**  
 > Near blast 5, all enemies; +16 vs Will; 3d8+5 psychic damage and the target is pushed 3 squares.  
 > **Change Form** (swift, at-will) ● **Stance**  
-> If the rabbit shifter starts its turn in this stance, it changes form (from humanoid to winter hare or vice versa). It can use all powers in either form.  
-
-# Miscellaneous  
-
-
-> #### Grynloc Nomad  
-> **Level 2 Spoiler** (125 XP)  
-> Medium Natural Humanoid ● Grynloc (Unaligned)  
-> **Senses:** Perception +8, magic sight; **Skills:** Arcana +10   
-> **Languages:** Common, Primordial  
-> **Str:** 11 (+1), **Con:** 12 (+2), **Dex:** 13 (+2)
-> **Int:** 17 (+4), **Wis:** 13 (+2), **Cha:** 12 (+2)  
-> **Equipment:** Staff  
-> 
-> **Initiative:** +3; **Speed:** 7  
-> **AC:** 16; **Fort:** 14, **Ref:** 13, **Will:** 15   
-> **HP:** 34, **Staggered:** 17      
-> 
-> ‡	**Bite** (standard, at-will)   
-> Melee; +7 vs AC; 1d12+3 damage.  
-> ↗	**Distraction** (swift, refresh 5, 6) ● **Illusion, Psychic**  
-> Ranged 10; +5 vs Will; The target is dazed until the end of their next turn.  
-> ⋇	**Shape Magic** (swift, encounter) ● **Zone**  
-> Far burst 2, one zone or conjuration; If the target is a conjuration, you can move it to any unoccupied space in the burst. If the target is a zone, squares of your choice cease to be part of the zone and an equal number of squares in the burst become part of the zone.  
-> ↗	**Animate Staff** (standard, at-will) ● **Weapon**  
-> Ranged 10; +7 vs AC; 1d12+3 damage.  
-> **Magic Sight**   
-> The grynloc can, to a range of 12 squares, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceive the original form of a shapechanger or a creature that is transformed by magic.  
-
-Grynlocs are seven-foot tall, lanky hairless humanoids with legs that bend backwards, like a horse's. Their long, toothy mouths make them look a little like camels. They are nomadic desert-dwellers who can literally see magic instead of light when they lower a special lid across their eyes. 
-
-Their ability to shape magic allows them to write messages invisible to the naked eye and craft beautiful raiments of pure magic that require special sight or a *detect magic* invocation to see.  
-
-
-> #### Elohim Sky Guardian  
-> **Level 10 Archer** (500 XP)  
-> Medium Outsider Humanoid ● Celestial (Good)  
-> **Senses:** Perception +20, low-light vision; **Skills:** Arcana +19   
-> **Languages:** Common, Celestial  
-> **Str:** 14 (+7), **Con:** 13 (+6), **Dex:** 22 (+11)
-> **Int:** 18 (+9), **Wis:** 20 (+10), **Cha:** 21 (+10)  
-> **Equipment:** short sword, longbow  
-> 
-> **Initiative:** +16; **Speed:** 6, fly 8  
-> **AC:** 22; **Fort:** 21, **Ref:** 22, **Will:** 22   
-> **HP:** 61, **Staggered:** 30      
-> 
-> ‡	**Short Sword** (standard, at-will) ● **Weapon**  
-> +15 vs AC; 2d12+5 damage.  
-> ⤢	**Longbow** (standard, at-will) ● **Weapon**  
-> Ranged 20/40; +15 vs AC; 2d12+5 damage.  
-> †	**Disarming Swoop** (standard, encounter)   
-> +15 vs Reflex; The target is disarmed of one weapon. The elohim may move up to its speed before or after making this attack.  
-> **Dive Attack** (swift, at-will) ● **Stance**  
-> While in this stance, the elohim may make a basic melee attack against each enemy it moves adjacent to during its movement.  
-> **Aerial Acrobat** (swift, at-will) ● **Stance**  
-> While in this stance, the elohim receives a +4 bonus to AC and Reflex while airborne.  
-> **Volley of Arrows** (swift, at-will) ● **Stance**  
-> While in this stance, the elohim can make three *longbow* attacks as a standard action. Each attack must be against a different target.  
-
-Winged, angelic warriors in golden armor, the elohim sky guardians are sworn to protect those under divine guidance.  
+> If the rabbit shifter starts its turn in this stance, it changes form (from humanoid to winter hare or vice versa). It can use all powers in either form.   
 
 # Ophiduans  
 The ophiduan are an ancient race of serpentine humanoids, whom legend states have walked the earth since before the rise of mammals.
@@ -4483,7 +4345,6 @@ force.
 > **Languages:** Common, Draconic  
 > **Str:** 10 (+6), **Con:** 19 (+10), **Dex:** 22 (+12)
 > **Int:** 10 (+6), **Wis:** 12 (+7), **Cha:** 19 (+10)  
-> **Equipment:** Spiked chain, longbow  
 > 
 > **Initiative:** +12; **Speed:** 6  
 > **AC:** 27; **Fort:** 24, **Ref:** 26, **Will:** 25   
@@ -4491,9 +4352,9 @@ force.
 > **Resist:**&nbsp;poison 10   
 > 
 > ‡	**Spiked Chain** (standard, at-will) ● **Weapon, Poison**  
-> +18 vs AC; 11 poison damage.  
+> +18 vs AC; 3d8+7 poison damage.  
 > ⤢	**Longbow** (standard, at-will) ● **Weapon**  
-> Ranged 20; +18 vs AC; 11 damage.  
+> Ranged 20; +18 vs AC; 3d8+7 damage.  
 > ∢	**Charm** (standard, encounter) ● **Psychic, Charm**  
 > +16 vs Will; dazed (save ends).  
 
@@ -4507,7 +4368,6 @@ This creature appears as a somehow pathetic cross of man and snake. A vaguely hu
 > **Languages:** Common, Draconic  
 > **Str:** 13 (+7), **Con:** 19 (+10), **Dex:** 15 (+8)
 > **Int:** 22 (+12), **Wis:** 19 (+10), **Cha:** 18 (+10)  
-> **Equipment:** Spiked chain, longbow  
 > 
 > **Initiative:** +8; **Speed:** 6  
 > **Action Points:** 1  
@@ -4515,7 +4375,7 @@ This creature appears as a somehow pathetic cross of man and snake. A vaguely hu
 > **HP:** 178, **Staggered:** 89   
 > **Resist:**&nbsp;poison 10   
 > 
-> ‡	**Spiked Chain** (standard, at-will) ● **Weapon**  
+> ‡	**Spear** (standard, at-will) ● **Weapon**  
 > +18 vs AC; 3d8+7 damage.  
 > ⤢	**Longbow** (standard, at-will) ● **Weapon**  
 > Ranged 20; +18 vs AC; 3d8+7 damage.  
@@ -4534,7 +4394,6 @@ The individual before you might pass for human, were it not for the supple scale
 > **Languages:** Common, Draconic  
 > **Str:** 22 (+12), **Con:** 18 (+10), **Dex:** 13 (+7)
 > **Int:** 19 (+10), **Wis:** 17 (+9), **Cha:** 19 (+10)  
-> **Equipment:** Spiked chain, longbow  
 > 
 > **Initiative:** +7; **Speed:** 6  
 > **Action Points:** 2  
@@ -4543,7 +4402,7 @@ The individual before you might pass for human, were it not for the supple scale
 > **Resist:**&nbsp;poison 10   
 > *Ophidiophobia (Psychic) aura 2:* Creatures beginning their turn in the aura take 4d10+6 psychic damage and are pushed 4.  
 > 
-> ‡	**Spiked Chain** (standard, at-will) ● **Weapon, Poison**  
+> ‡	**Spear** (standard, at-will) ● **Weapon, Poison**  
 > +18 vs AC; 3d8+7 poison damage.  
 > ⤢	**Longbow** (standard, at-will) ● **Weapon**  
 > Ranged 20; +18 vs AC; 3d8+7 damage.  
@@ -4644,9 +4503,11 @@ Since a chariot stops working when its ostovite is destroyed, the heroes may sta
 > **Breakdown**   
 > When the mega-chariot is reduced to 0 HP or below, it is replaced by an ostovite swarm.  
 
-##### Special
-The mega-chariot gives no XP. The ostovite swarm must be defeated for the heroes to gain XP.  
+##### Game Master tips
 
+The mega-chariot and ostovite swarm work differently to the bone chariot and ostovite described above. The mega-chariot and ostovite swarm together make a two-stage boss encounter.
+
+The ostovite swarm cannot be targeted until the mega-chariot is destroyed. The mega-chariot gives no XP. The ostovite swarm must be defeated for the heroes to gain XP. 
 
 > #### Ostovite Swarm  
 > **Level 3 Boss Spoiler** (750 XP)  
@@ -4683,7 +4544,7 @@ The mega-chariot gives no XP. The ostovite swarm must be defeated for the heroes
 > **AC:** 18; **Fort:** 15, **Ref:** 17, **Will:** 16; **Saving Throws:** +2   
 > **HP:** 88, **Staggered:** 44   
 > **Resist:**&nbsp;radiant 10   
-> *Stench aura 2:* A creature that enters the aura or begins its turn in it is rattled (save ends).  
+> *Stench aura 2:* A living creature, other than a ghoul worm, that enters the aura or begins its turn in it is rattled (save ends). 
 > 
 > ‡	**Bite** (standard, at-will)   
 > +9 vs AC; 1d12+5 damage, and the target is grappled.  
@@ -4713,7 +4574,7 @@ The Plane of Shadow coexists alongside the Prime Material Plane, the world. It i
 > **AC:** 17; **Fort:** 15, **Ref:** 17, **Will:** 14   
 > **HP:** 33, **Staggered:** 16; see also *umbra healing*   
 > **Resist:**&nbsp;cold 5, necrotic 5, Melee and Ranged attacks (half damage), **Vulnerable:**&nbsp;radiant 5, Near and Far attacks 5   
-> *Swarm Violence aura 1:*  If an enemy begins their turn in this aura, makes a basic melee attack against them as a free action.  
+> *Swarm Violence aura 1:*  If an enemy begins their turn in this aura, the swarm makes a basic melee attack against them as a free action.  
 > 
 > ‡	**Cloud of Teeth** (standard, at-will) ● **Cold, Necrotic**  
 > +8 vs AC; 2d6+4 cold and necrotic damage.  
@@ -4768,7 +4629,7 @@ The shadow drake resembles a clumsy, stub-nosed lizard with wings barely large e
 > **Immune:**&nbsp;disease, poison, **Resist:**&nbsp;cold 10, necrotic 10, **Vulnerable:**&nbsp;radiant 10   
 > 
 > ‡	**Tentacle** (standard, at-will) ● **Cold, Necrotic**  
-> Reach 3; +9 vs AC; 1d8+3 cold and necrotic damage, and the target is grappled. The umbral mass deals an automatic 1d8+3 damage at the beginning of its  turn each round it maintains the grapple.  
+> Reach 3; +9 vs AC; 1d8+3 cold and necrotic damage, and the target is grappled. The umbral mass deals an automatic 1d8+3 damage at the beginning of its turn each round it maintains the grapple. The umbral mass can grapple any number of targets.  
 > ↗	**Fist of Madness** (standard, refresh 5, 6) ● **Psychic**  
 > Ranged 10; +7 vs Will; 1d8+2 psychic damage, and the target is weakened and slowed (save ends both).  
 > ∢	**Flailing Burst** (standard, encounter) ● **Cold, Necrotic**  
@@ -4792,7 +4653,7 @@ A malevolent entity formed from condensed shadows, the umbral mass engulfs its p
 > **AC:** 19; **Fort:** 17, **Ref:** 15, **Will:** 20; **Saving Throws:** +2   
 > **HP:** 98, **Staggered:** 49; see also *shadow burst*   
 > **Resist:**&nbsp;cold 5, necrotic 5, **Vulnerable:**&nbsp;radiant 5   
-> *Shadow Haze (Necrotic) aura 1:* Enemies that end or start their turn in the aura take 5 points of necrotic damage.  
+> *Shadow Haze (Necrotic) aura 1:* Enemies that enter or start their turn in the aura take 5 necrotic damage.  
 > 
 > ⤢	**Shadow Bolt** (standard, at-will) ● **Cold, Necrotic**  
 > Ranged 10; +8 vs Reflex; 3d4+6 cold and necrotic damage.  
@@ -4826,12 +4687,11 @@ Shadow princes are born from the dying hopes and dreams of those in the Prime Ma
 > **Multiple Images** (swift, refresh 5, 6) ● **Illusion**  
 > The greymalkin receives a +6 power bonus to AC. Each time an attack misses the greymalkin, the bonus decreases by 2.  
 
-*The creature appears to be some sort of predatory cat, resembling a smoke-gray leopard with an unusually bestial snout. The air around it seems to shimmer, not unlike a heat mirage, and without a sound a second identical creature appears to the left.*  
+The greymalkin resembles a smoke-gray leopard with an unusually bestial snout. The air around it shimmers like a heat mirage, and it can conjure mirror images of itself to throw off attackers.   
 
 # Shapeshifter Slime  
-Shapeshifter slime are oozes of unusual intelligence, who can disguise themselves as humanoids. 
+Shapeshifter slime are oozes of unusual intelligence, who can disguise themselves as humanoids. The shapeshifter slime typically begins in human form. Once sufficiently damaged, it transforms into its slime form, with the same current HP as its previous form. Players only get XP once for defeating a shapeshifter slime. 
 
-The shapeshifter slime begins in human form. Once sufficiently damaged, it transforms into its original slime form. Players get separate XP for defeating each form. 
 <figure><img src="pics\DnD_Ochre_Jelly.png" alt="Ochre Jelly by LadyofHats" style="zoom: 100%;" /><figcaption>Ochre Jelly by LadyofHats</figcaption></figure>  
 
 
@@ -4888,7 +4748,7 @@ The shapeshifter slime begins in human form. Once sufficiently damaged, it trans
 > **Initiative:** +0; **Speed:** 6  
 > **AC:** 17; **Fort:** 14, **Ref:** 13, **Will:** 13   
 > **HP:** 29, **Staggered:** 14   
-> **Resist:**&nbsp;necrotic 5, **Vulnerable:**&nbsp;radiant 5   
+> **Immune:**&nbsp;disease, poison, **Resist:**&nbsp;necrotic 5, **Vulnerable:**&nbsp;radiant 5   
 > 
 > ‡	**Longsword** (standard, at-will) ● **Heavy Blade, Weapon**  
 > +6 vs AC; 1d10+3 damage. The skeleton warrior may also do 2 damage to a creature adjacent to the skeleton warrior or the target.  
@@ -4955,7 +4815,7 @@ A skeleton of a victim from a dark ritual gone awry, driven by hunger for reveng
 > **Action Points:** 1  
 > **AC:** 18; **Fort:** 20, **Ref:** 19, **Will:** 15; **Saving Throws:** +2   
 > **HP:** 126, **Staggered:** 63   
-> **Resist:**&nbsp;necrotic 15, **Vulnerable:**&nbsp;radiant 5   
+> **Immune:**&nbsp;disease, poison, **Resist:**&nbsp;necrotic 15, **Vulnerable:**&nbsp;radiant 5   
 > 
 > ‡	**Claw** (standard, at-will) ● **Necrotic**  
 > +11 vs AC; 1d6+5 damage, and the target takes persistent 5 necrotic damage (save ends).  
@@ -4990,7 +4850,7 @@ A skeletal figure escaped from the Plane of Shadow to seek retribution against i
 > While staggered, the greater failed sacrifice gains a +2 bonus to attack rolls and can take an additional standard action each round.  
 
 # Specters  
-<figure><img src="pics\EarlGeier_JIANGSHI.bmp" alt="Jiang-Shi by Earl Geier" style="zoom: 33%;" /><figcaption>Jiang-Shi by Earl Geier</figcaption></figure>  
+<figure><img src="pics\EarlGeier_JIANGSHI.bmp" alt="Art by Earl Geier" style="zoom: 33%;" /><figcaption>Art by Earl Geier</figcaption></figure>  
 
 
 > #### Peaceful Specter  
@@ -5000,20 +4860,39 @@ A skeletal figure escaped from the Plane of Shadow to seek retribution against i
 > **Languages:** Common  
 > **Str:** 10 (+2), **Con:** 12 (+3), **Dex:** 16 (+5)
 > **Int:** 17 (+5), **Wis:** 16 (+5), **Cha:** 19 (+6)  
-> 
-> **Initiative:** +7; **Speed:** fly 6  
+>
+> **Initiative:** +7; **Speed:** fly 6 (hover), phasing  
 > **AC:** 17; **Fort:** 18, **Ref:** 16, **Will:** 17   
 > **HP:** 28, **Staggered:** 14   
-> **Immune:**&nbsp;poison, disease, **Resist:**&nbsp;necrotic 5, insubstantial, **Vulnerable:**&nbsp;radiant 5   
+> **Immune:**&nbsp;poison, disease, **Resist:**&nbsp;necrotic 5, incorporeal, **Vulnerable:**&nbsp;radiant 5   
 > *Benign Presence aura 2* Creatures in the aura receive a +2 power bonus on saving throws.  
-> 
+>
 > ⤢	**Radiance of Calm** (standard, at-will) ● **Psychic**  
 > Ranged 10; +10 vs Will; The target is pushed 5 squares and weakened (save ends).  
 > ↗	**Sleep** (standard, at-will) ● **Psychic**  
-> Ranged 10; +10 vs Will; The target is slowed (save ends). If the target is already slowed, it falls alseep (until disturbed or save ends, whichever is sooner).  
+> Ranged 10; +10 vs Will; The target is slowed (save ends). If the target is already slowed, it falls asleep (until disturbed or save ends, whichever is sooner).  
+> **Spawn Specter**  
+> Any humanoid killed by a specter rises as a free-willed spectral spawn at the start of its creator’s next turn, appearing in the space where it died (or nearest unoccupied space).  
 
 A serene spirit, the peaceful specter offers guidance and solace to lost souls.  
 
+> #### Spectral Spawn  
+> **Level 6 Stalker Mook** (62 XP)  
+> Medium Shadow Humanoid ● Undead (Good)  
+> **Senses:** Perception +6, darkvision   
+> **Languages:** Common  
+> **Str:**6 (+1), **Con:** 12 (+4), **Dex:** 20 (+8)
+> **Int:** 11 (+3), **Wis:** 6 (+1), **Cha:** 19 (+7)  
+>
+> **Initiative:** +8; **Speed:** fly 6 (hover), phasing  
+> **AC:** 20; **Fort:** 16, **Ref:** 20, **Will:** 19   
+> **HP:** 1; a missed attack never damages a mook  
+> **Immune:**&nbsp;poison, disease, **Resist:**&nbsp;necrotic 5, incorporeal  
+>
+> ⤢	**Spectral Claws** (standard, at-will) ● **Psychic**  
+> +9 vs Reflex; 8 psychic damage.  
+
+A spectral spawn defeated in the same encounter it was created does not grant any XP.
 
 > #### Specter of Chivalry  
 > **Level 6 Blocker** (250 XP)  
@@ -5022,16 +4901,18 @@ A serene spirit, the peaceful specter offers guidance and solace to lost souls.
 > **Languages:** Common  
 > **Str:** 14 (+5), **Con:** 12 (+4), **Dex:** 12 (+4)
 > **Int:** 10 (+3), **Wis:** 11 (+3), **Cha:** 14 (+5)  
-> 
-> **Initiative:** +6; **Speed:** 6, fly 6 (hover), phasing  
+>
+> **Initiative:** +6; **Speed:** fly 6 (hover), phasing  
 > **AC:** 22; **Fort:** 19, **Ref:** 17, **Will:** 19   
 > **HP:** 54, **Staggered:** 27   
 > **Immune:**&nbsp;disease, poison, **Resist:**&nbsp;incorporeal   
-> 
+>
 > ‡	**Ghostly Sword** (standard, at-will) ● **Necrotic, Weapon**  
 > +9 vs Reflex; 2d8+4 necrotic damage, and the target is marked until the end of the specter's next turn.  
 > **Knightly Tactics**   
 > A specter has combat advantage against any target marked by any *ghostly sword* power.  
+> **Spawn Specter**  
+> Any humanoid killed by a specter rises as a free-willed spectral spawn at the start of its creator’s next turn, appearing in the space where it died (or nearest unoccupied space).  
 
 A gallant specter, born of the soul of one betrayed while upholding their sworn duty. They can be over-zealous in maintaining the codes of honor of a bygone time.  
 
@@ -5053,9 +4934,9 @@ A gallant specter, born of the soul of one betrayed while upholding their sworn 
 > ‡	**Touch of Misery** (standard, at-will) ● **Psychic**  
 > +9 vs Reflex; 1d6+5 psychic damage, and the target takes a -2 penalty to Will defense (save ends).  
 > †	**Touch of Grief** (standard, refresh 5, 6) ● **Psychic**  
-> +9 vs Reflex; 2d6+4 psychic damage, and target is weakened (save ends).  
-> **Spawn Wraith**   
-> Any humanoid killed by a specter of sorrow rises as a free-willed basic specter (use these stats, but without the *regretful whispers* power) at the start of its creator’s next turn, appearing in the space where it died (or nearest unoccupied space).  
+> +9 vs Will; 2d6+4 psychic damage, and target is weakened (save ends).  
+> **Spawn Specter**  
+> Any humanoid killed by a specter rises as a free-willed spectral spawn at the start of its creator’s next turn, appearing in the space where it died (or nearest unoccupied space).  
 
 A melancholic specter that tries to subject others to whatever tragedy took the specter's life.  
 
@@ -5067,19 +4948,21 @@ A melancholic specter that tries to subject others to whatever tragedy took the 
 > **Languages:** Common  
 > **Str:** 13 (+6), **Con:** 15 (+7), **Dex:** 19 (+9)
 > **Int:** 20 (+10), **Wis:** 19 (+9), **Cha:** 22 (+11)  
-> 
-> **Initiative:** +14; **Speed:** fly 6  
+>
+> **Initiative:** +14; **Speed:** fly 6 (hover), phasing  
 > **AC:** 22; **Fort:** 23, **Ref:** 21, **Will:** 22   
 > **HP:** 87, **Staggered:** 43   
-> **Immune:**&nbsp;poison, disease, **Resist:**&nbsp;necrotic 5, insubstantial, **Vulnerable:**&nbsp;radiant 5   
+> **Immune:**&nbsp;poison, disease, **Resist:**&nbsp;necrotic 5, incorporeal, **Vulnerable:**&nbsp;radiant 5   
 > *Vile Presence aura 2* Creatures in the aura receive a -1 penalty on saving throws.  
-> 
+>
 > ⤢	**Radiance of Fear** (standard, at-will) ● **Psychic**  
 > Ranged 10; +15 vs Will; The target is pushed 5 squares and dazed (save ends).  
 > †	**Soul Burn** (standard, at-will) ● **Psychic**  
 > +15 vs Will; 2d12+5 psychic damage and the target loses one recovery. If the target has no recoveries, they are immune to this power.  
 > **Shadowy Presence** (swift, encounter) ● **Illusion**  
 > The deathgaunt becomes invisible. This effect ends when the deathgaunt is exposed to bright light.  
+> **Spawn Specter**  
+> Any humanoid killed by a specter rises as a free-willed spectral spawn at the start of its creator’s next turn, appearing in the space where it died (or nearest unoccupied space).  
 
 Deathgaunts and gloomwardens are specters that remain on the Prime Material Plane to cause trouble and suffering, even after being given a chance to move on to the afterlife.  
 
@@ -5091,19 +4974,21 @@ Deathgaunts and gloomwardens are specters that remain on the Prime Material Plan
 > **Languages:** Common  
 > **Str:** 14 (+8), **Con:** 16 (+9), **Dex:** 20 (+11)
 > **Int:** 21 (+11), **Wis:** 20 (+11), **Cha:** 23 (+12)  
-> 
-> **Initiative:** +17; **Speed:** fly 6  
+>
+> **Initiative:** +17; **Speed:** fly 6 (hover), phasing  
 > **AC:** 26; **Fort:** 24, **Ref:** 23, **Will:** 25   
 > **HP:** 84, **Staggered:** 42   
-> **Immune:**&nbsp;poison, disease, **Resist:**&nbsp;necrotic 10, insubstantial, **Vulnerable:**&nbsp;radiant 10   
+> **Immune:**&nbsp;poison, disease, **Resist:**&nbsp;necrotic 10, incorporeal, **Vulnerable:**&nbsp;radiant 10   
 > *Dread Presence aura 2* Creatures in the aura receive a -2 penalty to Will defense.  
-> 
+>
 > ‡	**Will Drain** (standard, at-will) ● **Fear, Psychic**  
 > +17 vs Will; 3d8+6 psychic damage and the target suffers a -2 penalty to Will defense (save ends).  
 > ∢	**Radiance of Doom** (standard, encounter) ● **Fear, Psychic**  
 > Near burst 3, all non-undead creatures; +17 vs Will; 3d8+6 psychic damage and the target is weakened until the end of their next turn.  
 > ∢	**Shadow Revolt** (swift, encounter) ● **Fear, Psychic**  
 > Near blast 5, all non-undead creatures; +17 vs Will (the target must not be in bright light); 3d8+6 necrotic damage and the target is immobile (save ends).  
+> **Spawn Specter**  
+> Any humanoid killed by a specter rises as a free-willed spectral spawn at the start of its creator’s next turn, appearing in the space where it died (or nearest unoccupied space).  
 
 # Throach  
 The throach has the body and head of a roach, and six roach-like legs, but from the end of the thorax protrudes a scorpion-like tail complete with stinger. The stinger is straighter and more spear-like than the
@@ -5151,9 +5036,9 @@ Throach hatchlings created through a throach's *implant* power do not grant any 
 > ‡	**Bite** (standard, at-will)   
 > +7 vs AC; 1d12+3 damage.  
 > †	**Sting** (standard, at-will)   
-> +7 vs AC; 1d12+3 damage and the target is dazed (save ends). *First Failed Save:* The target is stunned (save ends).  
+> +7 vs AC; 1d12+3 damage and the target is dazed (save ends). *First Failed Save:* The target is stunned instead (save ends).  
 > †	**Implant** (standard, at-will)   
-> +7 vs AC (The target is stunned); 2d10+2 damage and the target has 2d4 throach eggs implanted in them. At the end of each of their turns, make a saving throw. On a success, one throach egg is expelled. On a failure, one throach egg hatches. Place a throach hatchling in an adjacent unoccupied space. The throach hatchling acts on the initiative count just after the throach's.  
+> +7 vs AC (can only be used on a target that is stunned); 2d10+2 damage and the target has 2d4 throach eggs implanted in them. At the end of each of the target's turns, make a saving throw. On a success, one throach egg is expelled. On a failure, one throach egg hatches. Place a throach hatchling in an adjacent unoccupied space. The throach hatchling acts on the initiative count just after the throach's.  
 > **Light Sensitivity**   
 > Any time the throach is exposed to bright light, it is rattled (save ends).  
 
@@ -5251,7 +5136,7 @@ An ettercap is about 6 feet tall and weighs about 200 pounds. Ettercaps are not 
 > **Squish Small**   
 > A witchcrawler can compress its body enough to squeeze through a 1-inch-wide crack. Cracks and other openings that are more than 1 inch wide do not slow the witchcrawler at all.  
 
-The witchcrawler is a nightmarish blend of arachnid and serpent, possessing fangs with sophorific venom and the ability to crawl along walls and ceilings with unnatural agility.  
+The witchcrawler is a nightmarish blend of arachnid and serpent, possessing the power to suffocate foes without touching them and the ability to crawl along walls and ceilings with unnatural agility. 
 
 
 > #### Stygira  
@@ -5317,7 +5202,7 @@ Those stygira with particularly precious gemstones may have different gaze attac
 *A four-legged creature with two small and graceful arms and a blocky head, the beast’s mustard-yellow hide is spotted with what appears to be precious stones.*
 
 ##### Tactics
-The bauble beast attacks until it has been given enough valuable items, then it runs away. 
+The bauble beast attacks until it has been given as many valuable items as it thinks it can get away with, then it runs away. 
 
 ##### In the World
 **Forge Jewelry:** The bauble beast creates imitation jewelry within its digestive system. Anyone who dons the imitation jewelry is attacked:
@@ -5326,8 +5211,12 @@ The bauble beast attacks until it has been given enough valuable items, then it 
 ##### Special
 The bauble beast introduces a new condition: 
 
-**Overly-generous:** The creature spends up to one move action per round trying to give away an item of value. Unless a particular creature requests a gift and/or requests a particular gift, the gift is chosen randomly and the target is chosen randomly among those that can be reached with a single move.  
+**Overly-generous:** The affected creature spends up to one move action per round trying to give away items. 
+The target recipient is any creature to request a gift. If multiple creatures have requested a gift, choose randomly between them. If a particular gift was requested, the affected creature gives that. Otherwise, choose randomly between the affected creature’s items of value.   
 
+If no creature requested a gift, the affected creature attempts to give a random item of value to the nearest creature. If multiple creatures are the same distance from the affected creature, the recipient is selected randomly among them.   
+
+The bauble beast usually requests gems or jewelry. 
 
 > #### Otyugh  
 > **Level 12 Striker** (700 XP)  
@@ -5341,7 +5230,7 @@ The bauble beast introduces a new condition:
 > **AC:** 26; **Fort:** 23, **Ref:** 25, **Will:** 24   
 > **HP:** 84, **Staggered:** 42   
 > **Immune:**&nbsp;disease   
-> *Stench aura 1* Creatures that enter or begin their turn within the aura grant combat advantage.  
+> *Stench aura 1* Living creatures that are not otyughs that enter or begin their turn within the aura grant combat advantage.  
 > 
 > ‡	**Tentacle** (standard, at-will)   
 > Reach 3; +17 vs AC; 3d8+6 damage and the target is grappled. The otyugh can grapple up to three creatures.  
@@ -5363,12 +5252,12 @@ A scavenger with an orb-like body, three legs, three tentacles and a gigantic mo
 > **Initiative:** +13; **Speed:** 4, burrow 4, climb 2  
 > **AC:** 28; **Fort:** 29, **Ref:** 27, **Will:** 28   
 > **HP:** 123, **Staggered:** 69      
-> *Miasma of Despair (Fear) aura 1:* While a creature is in the aura, it suffers a -2 penalty to defences, on attack rolls and on skill checks.  
+> *Miasma of Despair (Fear) aura 1:* Living creatures that are not tunnel brutes suffer a -2 penalty to defenses, on attack rolls and on skill checks while in the aura.  
 > 
-> ‡	**Sting** (standard, at-will) ● **Poison**  
-> +21 vs AC; 3d10+13 poison damage.  
-> †	**All-Out Attack** (standard, encounter)   
-> +21 vs AC; 7d6+13 damage.  
+> ‡	**Mandibles** (standard, at-will)   
+> +21 vs AC; 3d10+13 damage.  
+> †	**Sting** (standard, encounter) ● **Poison**    
+> +21 vs AC; 7d6+13 poison damage and the target is slowed (save ends).  
 
 *This is a brutal giant with insectoid features. Although humanoid in shape, it is covered in a hard chitin. Its eyes are faceted, and its mouth boasts two pairs of mandibles, the lower larger than the upper. It hunches as it walks, its knuckles nearly dragging the floor, and a large tail with a needle-like stinger curls up above its head. A horrific, oppressive stench emanates from the creature; the air around it almost seems to simmer with the fumes.*
 
@@ -5394,7 +5283,7 @@ A scavenger with an orb-like body, three legs, three tentacles and a gigantic mo
 > †	**Implant Larva** (swift, refresh 5, 6) ● **Psychic, Disease**  
 > +19 vs Will (must be grappling the target); grapple ends; 3d10+7 psychic damage, and the target is dominated (save ends).  
 > ⋇	**Sap Will** (standard, encounter) ● **Psychic**  
-> Far burst 1 within 6; +19 vs Will; the target is stunned (save ends).  
+> Far burst 1 within 6; +19 vs Will; the target is stunned and suffers a -2 penalty to Will defense (save ends both).  
 > ↗	**Suggestion** (swift, encounter) ● **Psychic, Charm**  
 > Ranged 10; +19 vs Will; 2d10+7 psychic damage and shunt target 5.  
 > ⋇	**Mandatory Slumber** (standard, at-will) ● **Psychic**  
@@ -5423,15 +5312,15 @@ A scavenger with an orb-like body, three legs, three tentacles and a gigantic mo
 > ‡	**Lash** (standard, at-will)   
 > +21 vs AC; 4d10+8 damage.  
 > ∢	**Gaze Attack** (standard, at-will) ● **Psychic, Fire**  
-> Near arc 6; +19 vs Will; the evil eye chooses one effect. It cannot choose one that it has used since the beginning of its last turn.  
-1\. *Charm:* +13 vs Will; the target is dominated (save ends).  
-2\. *Confuse:* +13 vs Will; 2d10+7 psychic damage, and the target cannot use encounter or daily powers (save ends).  
-3\. *Death:* +13 vs Fortitude; 3d10+7 damage.  
-4\. *Enervate:* +13 vs Fortitude; 2d10+7 psychic damage, and the target is weakened (save ends).  
-5\. *Immolate:* +13 vs Reflex; 2d10+7 fire damage.   
-6\. *Paralyze:* +13 vs Will; 2d10+7 psychic damage, and the target is immobile (save ends).  
-7\. *Petrify:* +13 vs Fortitude; the target is petrified (save ends).  
-8\. *Sleep:* +13 vs Will; 2d10+7 psychic damage, and the target is knocked prone (save ends).  
+> Near arc 6; the evil eye chooses one effect. It cannot choose one that it has used since the beginning of its last turn.  
+1\. *Charm:* +19 vs Will; the target is dominated (save ends).  
+2\. *Confuse:* +19 vs Will; 2d10+7 psychic damage, and the target cannot use encounter or daily powers (save ends).  
+3\. *Death:* +19 vs Fortitude; 3d10+7 damage.  
+4\. *Enervate:* +19 vs Fortitude; 2d10+7 psychic damage, and the target is weakened (save ends).  
+5\. *Immolate:* +19 vs Reflex; 2d10+7 fire damage.   
+6\. *Paralyze:* +19 vs Will; 2d10+7 psychic damage, and the target is immobile (save ends).  
+7\. *Petrify:* +19 vs Fortitude; the target is petrified (save ends).  
+8\. *Sleep:* +19 vs Will; 2d10+7 psychic damage, and the target is knocked prone (save ends).  
 > **All-Out** (standard, encounter)   
 > Use *gaze attack* twice (evil eye chooses the effect each time). This power refreshes when the evil eye is first staggered.  
 > **Lash Out** (reaction, refresh 4, 5, 6)   
@@ -5477,11 +5366,11 @@ A bioluminescent insect that can emit dazzling flashes of light when threatened.
 > ‡	**Claw** (standard, at-will)   
 > +6 vs AC; 1d10+3 damage.  
 > †	**Sting (Red Scorpion)** (standard, at-will)   
-> Reach 1; +6 vs AC; 1d10+3 poison damage and the target becomes vulnerable to poison 5 (save ends).  
+> Reach 2; +6 vs AC; 1d10+3 poison damage and the target becomes vulnerable to poison 5 (save ends).  
 > †	**Sting (Blue Scorpion)** (standard, at-will)   
-> Reach 1; +6 vs AC; 1d10+3 poison damage and the target is slowed (save ends).  
+> Reach 2; +6 vs AC; 1d10+3 poison damage and the target is slowed (save ends).  
 > †	**Multiattack** (standard, at-will)   
-> The target is flanked; The scorpion makes two *claw* attacks against the target.  
+> Can only be used on a target that is flanked; The scorpion makes two *claw* attacks against the target.  
 
 Iridescent scorpions are either blue or red. Each variety has a different poison, administered by its stinger.  
 
@@ -5577,101 +5466,99 @@ No spider has access to all powers. Instead, they each get a selection, describe
 > #### Small Hunting Spider  
 > **Level 1 Striker** (100 XP)  
 > Small Natural Beast ● Spider (Unaligned)  
-> **Senses:** Perception +0, darkvision, tremorsense (when standing on a web, for contiguous web spaces only); **Skills:** Acrobatics +8, Athletics +3, Stealth +8   
+> **Senses:** Perception +0, darkvision; **Skills:** Acrobatics +8, Athletics +3, Stealth +8   
 > **Str:** 7 (-2), **Con:** 10 (+0), **Dex:** 17 (+3)
 > **Int:** 2 (-4), **Wis:** 10 (+0), **Cha:** 2 (-4)  
 > 
-> **Initiative:** +3; **Speed:** 5 (web stride), climb 2 (wall-climber)  
+> **Initiative:** +3; **Speed:** 5, climb 2 (wall-climber)  
 > **AC:** 15; **Fort:** 12, **Ref:** 14, **Will:** 13   
 > **HP:** 29, **Staggered:** 14      
 > 
 > ‡	**Bite** (standard, at-will)   
 > +6 vs AC; 1d10+3 damage, or 2d8+3 damage against a slowed, grappled, restrained or immobile target.  
-> †	**Venomous Bite** (standard, at-will) ● **Poison**  
-> +6 vs AC; 1d10+3 poison damage and the target is slowed until the end of their next turn.  
+> **Egg Sacs** (counter, encounter)   
+> If the spider is hit by an attack: Place a spider swarm in an adjacent space (whether or not it is occupied).  
 > ∢	**Hiss** (swift, encounter) ● **Fear**  
 > Near burst 3, all creatures without the Spider tag; +6 vs Will; The target grants combat advantage until the end of their next turn.  
 > **Raise Hairs** (swift, at-will) ● **Poison, Stance**  
 > If an adjacent creature hits the spider with an attack, make an attack. +4 vs Fortitude; the target grants combat advantage until the end of their next turn.  
-> **Egg Sacs** (counter, encounter)   
-> If the spider is hit by an attack: Place a spider swarm in an adjacent space (whether or not it is occupied).  
 > ∢	**Spray Hairs** (swift, encounter) ● **Poison**  
 > Near burst 3, all creatures without the Spider tag; +6 vs Reflex; The target grants combat advantage until the end of their next turn. The spider cannot use *raise hairs* if it has used *spray hairs* this encounter.  
-
+> †	**Venomous Bite** (standard, at-will) ● **Poison**  
+> +6 vs AC; 1d10+3 poison damage and the target is slowed until the end of their next turn.  
 
 > #### Medium Hunting Spider  
 > **Level 4 Striker** (175 XP)  
 > Medium Natural Beast ● Spider (Unaligned)  
-> **Senses:** Perception +4, darkvision, tremorsense (when standing on a web, for contiguous web spaces only); **Skills:** Acrobatics +12, Athletics +9, Stealth +12   
+> **Senses:** Perception +4, darkvision; **Skills:** Acrobatics +12, Athletics +9, Stealth +12   
 > **Str:** 11 (+2), **Con:** 12 (+3), **Dex:** 17 (+5)
 > **Int:** 2 (-2), **Wis:** 10 (+2), **Cha:** 2 (-2)  
 > 
-> **Initiative:** +7; **Speed:** 6 (web stride), climb 3 (wall-climber)  
+> **Initiative:** +7; **Speed:** 6, climb 3 (wall-climber)  
 > **AC:** 18; **Fort:** 15, **Ref:** 17, **Will:** 16   
 > **HP:** 44, **Staggered:** 22      
 > 
 > ‡	**Bite** (standard, at-will)   
 > +9 vs AC; 1d12+5 damage, or 2d12+3 damage against a slowed, grappled, restrained or immobile target.  
-> †	**Venomous Bite** (standard, at-will) ● **Poison**  
-> +9 vs AC; 1d12+5 poison damage and the target is slowed until the end of their next turn.  
+> **Egg Sacs** (counter, encounter)   
+> If the spider is hit by an attack: Place a spider swarm in an adjacent space (whether or not it is occupied).  
 > ∢	**Hiss** (swift, encounter) ● **Fear**  
 > Near burst 3, all creatures without the Spider tag; +9 vs Will; The target grants combat advantage until the end of their next turn.  
 > **Raise Hairs** (swift, at-will) ● **Poison, Stance**  
 > If an adjacent creature hits the spider with an attack, make an attack. +7 vs Fortitude; the target grants combat advantage until the end of their next turn.  
-> **Egg Sacs** (counter, encounter)   
-> If the spider is hit by an attack: Place a spider swarm in an adjacent space (whether or not it is occupied).  
 > ∢	**Spray Hairs** (swift, encounter) ● **Poison**  
 > Near burst 3, all creatures without the Spider tag; +9 vs Reflex; The target grants combat advantage until the end of their next turn. The spider cannot use *raise hairs* if it has used *spray hairs* this encounter.  
+> †	**Venomous Bite** (standard, at-will) ● **Poison**  
+> +9 vs AC; 1d12+5 poison damage and the target is slowed until the end of their next turn.  
 
 
 > #### Large Hunting Spider  
 > **Level 8 Striker** (350 XP)  
 > Large Natural Beast ● Spider (Unaligned)  
-> **Senses:** Perception +8, darkvision, tremorsense (when standing on a web, for contiguous web spaces only); **Skills:** Acrobatics +16, Athletics +15, Stealth +16   
+> **Senses:** Perception +8, darkvision; **Skills:** Acrobatics +16, Athletics +15, Stealth +16   
 > **Str:** 15 (+6), **Con:** 12 (+5), **Dex:** 17 (+7)
 > **Int:** 2 (+0), **Wis:** 10 (+4), **Cha:** 2 (+0)  
 > 
-> **Initiative:** +11; **Speed:** 6 (web stride), climb 4 (wall-climber)  
+> **Initiative:** +11; **Speed:** 6, climb 4 (wall-climber)  
 > **AC:** 22; **Fort:** 19, **Ref:** 21, **Will:** 20   
 > **HP:** 64, **Staggered:** 32      
 > 
 > ‡	**Bite** (standard, at-will)   
 > +13 vs AC; 2d10+5 damage, or 3d10+5 damage against a slowed, grappled, restrained or immobile target.  
-> †	**Venomous Bite** (standard, at-will) ● **Poison**  
-> +13 vs AC; 2d10+5 poison damage and the target is slowed until the end of their next turn.  
+> **Egg Sacs** (counter, encounter)   
+> If the spider is hit by an attack: Place a spider swarm in an adjacent space (whether or not it is occupied).  
 > ∢	**Hiss** (swift, encounter) ● **Fear**  
 > Near burst 3, all creatures without the Spider tag; +13 vs Will; The target grants combat advantage until the end of their next turn.  
 > **Raise Hairs** (swift, at-will) ● **Poison, Stance**  
 > If an adjacent creature hits the spider with an attack, make an attack. +11 vs Fortitude; the target grants combat advantage until the end of their next turn.  
-> **Egg Sacs** (counter, encounter)   
-> If the spider is hit by an attack: Place a spider swarm in an adjacent space (whether or not it is occupied).  
 > ∢	**Spray Hairs** (swift, encounter) ● **Poison**  
 > Near burst 3, all creatures without the Spider tag; +13 vs Reflex; The target grants combat advantage until the end of their next turn. The spider cannot use *raise hairs* if it has used *spray hairs* this encounter.  
-
+> †	**Venomous Bite** (standard, at-will) ● **Poison**  
+> +13 vs AC; 2d10+5 poison damage and the target is slowed until the end of their next turn.  
 
 > #### Huge Hunting Spider  
 > **Level 12 Striker** (700 XP)  
 > Huge Natural Beast ● Spider (Unaligned)  
-> **Senses:** Perception +12, darkvision, tremorsense (when standing on a web, for contiguous web spaces only); **Skills:** Acrobatics +20, Athletics +21, Stealth +20   
+> **Senses:** Perception +12, darkvision; **Skills:** Acrobatics +20, Athletics +21, Stealth +20   
 > **Str:** 19 (+10), **Con:** 14 (+8), **Dex:** 17 (+9)
 > **Int:** 2 (+2), **Wis:** 10 (+6), **Cha:** 2 (+2)  
 > 
-> **Initiative:** +15; **Speed:** 8 (web stride), climb 6 (wall-climber)  
+> **Initiative:** +15; **Speed:** 8, climb 6 (wall-climber)  
 > **AC:** 26; **Fort:** 23, **Ref:** 25, **Will:** 24   
 > **HP:** 84, **Staggered:** 42      
 > 
 > ‡	**Bite** (standard, at-will)   
 > +17 vs AC; 3d8+6 damage, or 6d6+6 damage against a slowed, grappled, restrained or immobile target.  
-> †	**Venomous Bite** (standard, at-will) ● **Poison**  
-> +17 vs AC; 3d8+6 poison damage and the target is slowed until the end of their next turn.  
+> **Egg Sacs** (counter, encounter)   
+> If the spider is hit by an attack: Place a spider swarm in an adjacent space (whether or not it is occupied).  
 > ∢	**Hiss** (swift, encounter) ● **Fear**  
 > Near burst 3, all creatures without the Spider tag; +17 vs Will; The target grants combat advantage until the end of their next turn.  
 > **Raise Hairs** (swift, at-will) ● **Poison, Stance**  
 > If an adjacent creature hits the spider with an attack, make an attack. +15 vs Fortitude; the target grants combat advantage until the end of their next turn.  
-> **Egg Sacs** (counter, encounter)   
-> If the spider is hit by an attack: Place a spider swarm in an adjacent space (whether or not it is occupied).  
 > ∢	**Spray Hairs** (swift, encounter) ● **Poison**  
 > Near burst 3, all creatures without the Spider tag; +17 vs Reflex; The target grants combat advantage until the end of their next turn. The spider cannot use *raise hairs* if it has used *spray hairs* this encounter.  
+> †	**Venomous Bite** (standard, at-will) ● **Poison**  
+> +17 vs AC; 3d8+6 poison damage and the target is slowed until the end of their next turn.  
 
 ## Vermin Swarms  
 A writhing mass of countless small insects, spiders or other biting creatures.
@@ -5692,7 +5579,7 @@ A writhing mass of countless small insects, spiders or other biting creatures.
 > **AC:** 16; **Fort:** 13, **Ref:** 16, **Will:** 13   
 > **HP:** 34, **Staggered:** 17   
 > **Resist:**&nbsp;Melee and Ranged attacks (half damage), **Vulnerable:**&nbsp;Near and Far attacks 5   
-> *Swarm Violence aura 1:*  If an enemy begins their turn in this aura, makes a basic melee attack against them as a free action.  
+> *Swarm Violence aura 1:*  If an enemy begins their turn in this aura, the swarm makes a basic melee attack against them as a free action.  
 > 
 > ‡	**Plague of Fangs** (standard, at-will) ● **Poison**  
 > +7 vs AC; 1d10+2 damage, and the vermin swarm makes a secondary attack on the same target.  
@@ -5712,7 +5599,7 @@ A writhing mass of countless small insects, spiders or other biting creatures.
 > **AC:** 20; **Fort:** 17, **Ref:** 20, **Will:** 17   
 > **HP:** 54, **Staggered:** 27   
 > **Resist:**&nbsp;Melee and Ranged attacks (half damage), **Vulnerable:**&nbsp;Near and Far attacks 5   
-> *Swarm Violence aura 1:*  If an enemy begins their turn in this aura, makes a basic melee attack against them as a free action.  
+> *Swarm Violence aura 1:*  If an enemy begins their turn in this aura, the swarm makes a basic melee attack against them as a free action.  
 > 
 > ‡	**Plague of Fangs** (standard, at-will) ● **Poison**  
 > +11 vs AC; 2d10+2 damage, and the vermin swarm makes a secondary attack on the same target.  
@@ -5728,12 +5615,12 @@ The reaper spider spins webs for its lair, but is too slow at spinning to throw 
 ##### Variants
 No spider has access to all powers. Instead, they each get a selection, described below.
 
-**Reaper Spider:** *Bite*, *Recluse bite* and *play dead*.  
+**Reaper Spider:** *Bite*, *recluse bite* and *play dead*.  
 **Widow Spider:** *Bite*, *venomous bite*, *wrap in silk*, *spit juices* and *play dead*. Blind beyond 6 squares.  
 **Crab Spider:** *Bite*, *venomous bite* and *snare*. Crab spiders can also emit a smell of their choice, usually choosing the scent of a local predator or environmental hazard.  
 **Jumping Spider:** *Bite* and *tethered leap*. Jumping spiders also have all-around vision.  
 **Gladiator Spider:** *Bite* and *gladiator's strike*.  
-**Spitting spider:** *Bite*, *venomous bite*, *spray sticky venom* and *wrap in silk*.  
+**Spitting Spider:** *Bite*, *venomous bite*, *spray sticky venom* and *wrap in silk*.  
 
 
 > #### Small Webbing Spider  
@@ -5749,25 +5636,24 @@ No spider has access to all powers. Instead, they each get a selection, describe
 > 
 > ‡	**Bite** (standard, at-will)   
 > +6 vs AC; 1d10+3 damage, or 2d8+3 damage against a slowed, grappled, restrained or immobile target.  
-> †	**Recluse Bite** (standard, at-will) ● **Necrotic**  
-> +6 vs AC; 1d10+3 necrotic damage. *Secondary Attack:* +4 vs Fortitude; the target cannot heal necrotic damage from any source until the target's next long rest.  
-> †	**Venomous Bite** (standard, at-will) ● **Poison**  
-> +6 vs AC; 1d10+3 poison damage and the target is slowed until the end of their next turn.  
-> †	**Spit Juices** (standard, at-will) ● **Acid**  
-> The target must be grappled or restrained: The target takes 10 persistent acid damage (save ends).  
-> †	**Wrap in Silk** (standard, at-will)   
+> †	**Gladiator's Strike** (standard, refresh 4, 5, 6)   
 > +6 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.  
 > **Play Dead** (swift, at-will) ● **Stance**  
 > If the spider is hit by an attack, as an immediate reaction the spider makes a Bluff check against its enemies' passive Perception. On a successful check, it appears dead until it next acts.  
-> **Tethered Leap** (move, at-will)   
-> The spider jumps 4 squares, without provoking opportunity attacks, or travels directly down 4 squares. The spider leaves a tether attached to the original square. It can jump back to the original square at any time as a swift action, provided the silk line to its tether remains intact and it hasn't moved more than 8 squares from the tether.  
-> †	**Gladiator's Strike** (standard, refresh 4, 5, 6)   
-> +6 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.  
+> †	**Recluse Bite** (standard, at-will) ● **Necrotic**  
+> +6 vs AC; 1d10+3 necrotic damage. *Secondary Attack:* +4 vs Fortitude; the target cannot heal necrotic damage from any source until the target's next long rest.  
 > †	**Snare** (swift, at-will)   
 > Reach 4 (directly beneath the spider only); +6 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.  
+> †	**Spit Juices** (standard, at-will) ● **Acid**  
+> The target must be grappled or restrained: The target takes 10 persistent acid damage (save ends).  
 > ∢	**Spray Sticky Venom** (standard, encounter) ● **Poison**  
 > Near blast 3, all creatures without the Spider tag; +6 vs Fortitude; 1d10+3 poison damage and the target is immobile (save ends).  
-
+> **Tethered Leap** (move, at-will)   
+> The spider jumps 4 squares, or travels directly down 4 squares. The spider leaves a tether attached to the original square. It can jump back to the original square at any time as a swift action, provided the silk line to its tether remains intact and it hasn't moved more than 8 squares from the tether. Movement made as part of this ability never provokes opportunity attacks.  
+> †	**Venomous Bite** (standard, at-will) ● **Poison**  
+> +6 vs AC; 1d10+3 poison damage and the target is slowed until the end of their next turn.  
+> †	**Wrap in Silk** (standard, at-will)   
+> +6 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.  
 
 > #### Medium Webbing Spider  
 > **Level 4 Skulker** (175 XP)  
@@ -5782,25 +5668,24 @@ No spider has access to all powers. Instead, they each get a selection, describe
 > 
 > ‡	**Bite** (standard, at-will)   
 > +9 vs AC; 1d12+5 damage, or 2d12+3 damage against a slowed, grappled, restrained or immobile target.  
-> †	**Recluse Bite** (standard, at-will) ● **Necrotic**  
-> +9 vs AC; 1d12+5 necrotic damage. *Secondary Attack:* +7 vs Fortitude; the target cannot heal necrotic damage from any source until the target's next long rest.  
-> †	**Venomous Bite** (standard, at-will) ● **Poison**  
-> +9 vs AC; 1d12+5 poison damage and the target is slowed until the end of their next turn.  
-> †	**Spit Juices** (standard, at-will) ● **Acid**  
-> The target must be grappled or restrained: The target takes 15 persistent acid damage (save ends).  
-> †	**Wrap in Silk** (standard, at-will)   
+> †	**Gladiator's Strike** (standard, refresh 4, 5, 6)   
 > +9 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.  
 > **Play Dead** (swift, at-will) ● **Stance**  
 > If the spider is hit by an attack, as an immediate reaction the spider makes a Bluff check against its enemies' passive Perception. On a successful check, it appears dead until it next acts.  
-> **Tethered Leap** (move, at-will)   
-> The spider jumps 5 squares, without provoking opportunity attacks, or travels directly down 5 squares. The spider leaves a tether attached to the original square. It can jump back to the original square at any time as a swift action, provided the silk line to its tether remains intact and it hasn't moved more than 10 squares from the tether.  
-> †	**Gladiator's Strike** (standard, refresh 4, 5, 6)   
-> +9 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.  
+> †	**Recluse Bite** (standard, at-will) ● **Necrotic**  
+> +9 vs AC; 1d12+5 necrotic damage. *Secondary Attack:* +7 vs Fortitude; the target cannot heal necrotic damage from any source until the target's next long rest.  
 > †	**Snare** (swift, at-will)   
 > Reach 4 (directly beneath the spider only); +9 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.  
+> †	**Spit Juices** (standard, at-will) ● **Acid**  
+> The target must be grappled or restrained: The target takes 15 persistent acid damage (save ends).  
 > ∢	**Spray Sticky Venom** (standard, encounter) ● **Poison**  
-> Near blast 3, all creatures without the Spider tag; +9 vs Fortitude; 1d12+5 poison damage and the target is immobile (save ends).  
-
+> Near blast 3, all creatures without the Spider tag; +9 vs Fortitude; 1d12+5 poison damage and the target is immobile (save ends). 
+> **Tethered Leap** (move, at-will)   
+> The spider jumps 5 squares, or travels directly down 5 squares. The spider leaves a tether attached to the original square. It can jump back to the original square at any time as a swift action, provided the silk line to its tether remains intact and it hasn't moved more than 10 squares from the tether. Movement made as part of this ability never provokes opportunity attacks.      
+> †	**Venomous Bite** (standard, at-will) ● **Poison**  
+> +9 vs AC; 1d12+5 poison damage and the target is slowed until the end of their next turn.  
+> †	**Wrap in Silk** (standard, at-will)   
+> +9 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.  
 
 > #### Large Webbing Spider  
 > **Level 8 Skulker** (350 XP)  
@@ -5815,25 +5700,24 @@ No spider has access to all powers. Instead, they each get a selection, describe
 > 
 > ‡	**Bite** (standard, at-will)   
 > +13 vs AC; 2d10+5 damage, or 3d10+5 damage against a slowed, grappled, restrained or immobile target.  
+> †	**Gladiator's Strike** (standard, refresh 4, 5, 6)   
+> +13 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.  
+> **Play Dead** (swift, at-will) ● **Stance**  
+> If the spider is hit by an attack, as an immediate reaction the spider makes a Bluff check against its enemies' passive Perception. On a successful check, it appears dead until it next acts.  
+> †	**Snare** (swift, at-will)   
+> Reach 4 (directly beneath the spider only); +13 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.  
+> †	**Spit Juices** (standard, at-will) ● **Acid**  
+> The target must be grappled or restrained: The target takes 20 persistent acid damage (save ends).  
+> ∢	**Spray Sticky Venom** (standard, encounter) ● **Poison**  
+> Near blast 3, all creatures without the Spider tag; +13 vs Fortitude; 2d10+5 poison damage and the target is immobile (save ends).  
+> **Tethered Leap** (move, at-will)   
+> The spider jumps 6 squares, or travels directly down 6 squares. The spider leaves a tether attached to the original square. It can jump back to the original square at any time as a swift action, provided the silk line to its tether remains intact and it hasn't moved more than 12 squares from the tether. Movement made as part of this ability never provokes opportunity attacks.    
 > †	**Recluse Bite** (standard, at-will) ● **Necrotic**  
 > +13 vs AC; 2d10+5 necrotic damage. *Secondary Attack:* +11 vs Fortitude; the target cannot heal necrotic damage from any source until the target's next long rest.  
 > †	**Venomous Bite** (standard, at-will) ● **Poison**  
 > +13 vs AC; 2d10+5 poison damage and the target is slowed until the end of their next turn.  
-> †	**Spit Juices** (standard, at-will) ● **Acid**  
-> The target must be grappled or restrained: The target takes 20 persistent acid damage (save ends).  
 > †	**Wrap in Silk** (standard, at-will)   
 > +13 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.  
-> **Play Dead** (swift, at-will) ● **Stance**  
-> If the spider is hit by an attack, as an immediate reaction the spider makes a Bluff check against its enemies' passive Perception. On a successful check, it appears dead until it next acts.  
-> **Tethered Leap** (move, at-will)   
-> The spider jumps 6 squares, without provoking opportunity attacks, or travels directly down 6 squares. The spider leaves a tether attached to the original square. It can jump back to the original square at any time as a swift action, provided the silk line to its tether remains intact and it hasn't moved more than 12 squares from the tether.  
-> †	**Gladiator's Strike** (standard, refresh 4, 5, 6)   
-> +13 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.  
-> †	**Snare** (swift, at-will)   
-> Reach 4 (directly beneath the spider only); +13 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.  
-> ∢	**Spray Sticky Venom** (standard, encounter) ● **Poison**  
-> Near blast 3, all creatures without the Spider tag; +13 vs Fortitude; 2d10+5 poison damage and the target is immobile (save ends).  
-
 
 > #### Huge Webbing Spider  
 > **Level 12 Skulker** (700 XP)  
@@ -5848,24 +5732,24 @@ No spider has access to all powers. Instead, they each get a selection, describe
 > 
 > ‡	**Bite** (standard, at-will)   
 > +17 vs AC; 3d8+6 damage, or 6d6+6 damage against a slowed, grappled, restrained or immobile target.  
-> †	**Recluse Bite** (standard, at-will) ● **Necrotic**  
-> +17 vs AC; 3d8+6 necrotic damage. *Secondary Attack:* +15 vs Fortitude; the target cannot heal necrotic damage from any source until the target's next long rest.  
-> †	**Venomous Bite** (standard, at-will) ● **Poison**  
-> +17 vs AC; 3d8+6 poison damage and the target is slowed until the end of their next turn.  
-> †	**Spit Juices** (standard, at-will) ● **Acid**  
-> The target must be grappled or restrained: The target takes 25 persistent acid damage (save ends).  
-> †	**Wrap in Silk** (standard, at-will)   
+> †	**Gladiator's Strike** (standard, refresh 4, 5, 6)   
 > +17 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.  
 > **Play Dead** (swift, at-will) ● **Stance**  
 > If the spider is hit by an attack, as an immediate reaction the spider makes a Bluff check against its enemies' passive Perception. On a successful check, it appears dead until it next acts.  
-> **Tethered Leap** (move, at-will)   
-> The spider jumps 6 squares, without provoking opportunity attacks, or travels directly down 6 squares. The spider leaves a tether attached to the original square. It can jump back to the original square at any time as a swift action, provided the silk line to its tether remains intact and it hasn't moved more than 12 squares from the tether.  
-> †	**Gladiator's Strike** (standard, refresh 4, 5, 6)   
-> +17 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.  
+> †	**Recluse Bite** (standard, at-will) ● **Necrotic**  
+> +17 vs AC; 3d8+6 necrotic damage. *Secondary Attack:* +15 vs Fortitude; the target cannot heal necrotic damage from any source until the target's next long rest.  
 > †	**Snare** (swift, at-will)   
 > Reach 4 (directly beneath the spider only); +17 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.  
+> †	**Spit Juices** (standard, at-will) ● **Acid**  
+> The target must be grappled or restrained: The target takes 25 persistent acid damage (save ends).  
 > ∢	**Spray Sticky Venom** (standard, encounter) ● **Poison**  
 > Near blast 3, all creatures without the Spider tag; +17 vs Fortitude; 3d8+6 poison damage and the target is immobile (save ends).  
+> **Tethered Leap** (move, at-will)   
+> The spider jumps 6 squares, or travels directly down 6 squares. The spider leaves a tether attached to the original square. It can jump back to the original square at any time as a swift action, provided the silk line to its tether remains intact and it hasn't moved more than 12 squares from the tether. Movement made as part of this ability never provokes opportunity attacks.     
+> †	**Wrap in Silk** (standard, at-will)   
+> +17 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.  
+> †	**Venomous Bite** (standard, at-will) ● **Poison**  
+> +17 vs AC; 3d8+6 poison damage and the target is slowed until the end of their next turn.  
 
 # Worms  
 <figure><img src="pics\DnD_PurpleWorm.png" alt="Purple Worm by LadyofHats" style="zoom: 100%;" /><figcaption>Purple Worm by LadyofHats</figcaption></figure>  
@@ -5927,7 +5811,7 @@ A reanimated but decaying corpse, the zombie shambles aimlessly.
 > **Initiative:** -1; **Speed:** 6  
 > **AC:** 17; **Fort:** 14, **Ref:** 13, **Will:** 13   
 > **HP:** 29, **Staggered:** 14   
-> **Immune:**&nbsp;disease, **Resist:**&nbsp;necrotic 5, **Vulnerable:**&nbsp;radiant 5   
+> **Immune:**&nbsp;disease, poison, **Resist:**&nbsp;necrotic 5, **Vulnerable:**&nbsp;radiant 5   
 > 
 > ‡	**Slam** (standard, at-will)   
 > +6 vs AC; 1d10+3 damage and make a secondary attack against the target. *Secondary Attack:* +4 vs Fortitude; the target is grappled.  
@@ -5943,7 +5827,7 @@ A reanimated but decaying corpse, the zombie shambles aimlessly.
 Remove the *slow* feature.
 
 ##### Putrid Zombie
-*Stench aura 1* Creatures that begin their turn within the aura grant combat advantage.  
+*Stench aura 1* Living creatures that begin their turn within the aura grant combat advantage.  
 
 
 > #### Zombified Wyvern  
@@ -5969,6 +5853,7 @@ Remove the *slow* feature.
 
 | Name                            | Level | Role          |
 | ------------------------------- | ----- | ------------- |
+| Legion Recruit                        | 1     | Mook Striker  |
 | Mitflit                         | 1     | Mook Striker  |
 | Ill-Equipped Combatant          | 1     | Mook Striker  |
 | Eagle                           | 1     | Striker       |
@@ -5992,13 +5877,11 @@ Remove the *slow* feature.
 | Small Webbing Spider            | 1     | Skulker       |
 | Zombie                          | 1     | Blocker       |
 | Giant Amoeba                    | 1     | Elite Blocker |
-| Infantry                        | 2     | Mook Striker  |
 | Throach Hatchling               | 2     | Mook Striker  |
 | War Horse                       | 2     | Wrecker       |
 | Grenadier                       | 2     | Archer        |
 | Siege Engineer                  | 2     | Archer        |
 | Signifier                       | 2     | Spoiler       |
-| Grynloc Nomad                   | 2     | Spoiler       |
 | Bone Chariot                    | 2     | Blocker       |
 | Ostovite                        | 2     | Skulker       |
 | Smoldering Skeleton             | 2     | Archer        |
@@ -6027,7 +5910,7 @@ Remove the *slow* feature.
 | Infected Guard                  | 4     | Wrecker       |
 | Bison                           | 4     | Wrecker       |
 | Giant Frog                      | 4     | Wrecker       |
-| Phantom Cat                     | 4     | Striker       |
+| Panther              | 4     | Striker       |
 | Ragged Tooth Shark              | 4     | Striker       |
 | Boar                            | 4     | Wrecker       |
 | Small Fire Elemental            | 4     | Striker       |
@@ -6038,7 +5921,7 @@ Remove the *slow* feature.
 | Gang Leader                     | 4     | Elite Spoiler |
 | Ghoul Worm                      | 4     | Elite Striker |
 | Umbral Mass                     | 4     | Elite Skulker |
-| Repeater Crossbowman            | 5     | Mook Archer   |
+| Crossbow Skirmisher            | 5     | Mook Archer   |
 | Infected Grub                   | 5     | Mook Striker  |
 | Small Air Elemental             | 5     | Spoiler       |
 | Burner Demon                    | 5     | Wrecker       |
@@ -6055,6 +5938,7 @@ Remove the *slow* feature.
 | The Minotaur                    | 5     | Elite Wrecker |
 | Shadow Prince                   | 5     | Elite Spoiler |
 | Ancient Hermit Crab             | 5     | Boss Blocker  |
+| Spectral Spawn | 6 | Mook Striker |
 | Wolfshead Bandit                | 6     | Mook Archer   |
 | Enthralled Servant              | 6     | Blocker       |
 | Quipper Swarm                   | 6     | Striker       |
@@ -6075,13 +5959,13 @@ Remove the *slow* feature.
 | Vigilant Statue                 | 6     | Boss Blocker  |
 | Sniper Bandit                   | 7     | Mook Striker  |
 | Dire Wolf                       | 7     | Striker       |
-| Medium Earth Eleemntal          | 7     | Skulker       |
+| Medium Earth Elemental          | 7     | Skulker       |
 | Medium Water Elemental          | 7     | Spoiler       |
 | Fir Bolg Archer                 | 7     | Archer        |
 | Zombified Wyvern                | 7     | Wrecker       |
 | King of Thieves                 | 7     | Elite Blocker |
 | Stygira                         | 7     | Elite Spoiler |
-| Longbowman                      | 8     | Mook Archer   |
+| Mercenary Archer                      | 8     | Mook Archer   |
 | Transformed Servant             | 8     | Blocker       |
 | Veteran Thrall                  | 8     | Wrecker       |
 | Devil Ape                       | 8     | Wrecker       |
@@ -6148,8 +6032,9 @@ Remove the *slow* feature.
 | Hominis Caste Ophiduan          | 13    | Elite Spoiler |
 | Anguineum Caste Ophiduan        | 13    | Boss Spoiler  |
 | Martial Arts Master             | 13    | Boss Blocker  |
-| Veteran Crossbowman             | 14    | Mook Archer   |
-| Veteran Swordsman               | 14    | Mook Striker  |
+| Baby Screamer                   | 14    | Mook Archer   |
+| Blademaster             | 14    | Mook Striker   |
+| Crossbow Master               | 14    | Mook Archer  |
 | Chuul                           | 14    | Wrecker       |
 | Fire Giant                      | 14    | Spoiler       |
 | Fir Bolg Chieftain              | 14    | Blocker       |
@@ -6167,7 +6052,6 @@ Remove the *slow* feature.
 | Elder Couatl                    | 15    | Boss Striker  |
 | The Tri-Pod                     | 15    | Boss Striker  |
 | The Awoken                      | 15    | Boss Striker  |
-| Baby Screamer                   | 16    | Mook Archer   |
 | Animate Battleform              | 16    | Blocker       |
 | Frost Giant                     | 16    | Wrecker       |
 | Tunnel Brute                    | 16    | Wrecker       |
