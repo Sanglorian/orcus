@@ -7,7 +7,7 @@ footer: ${pageNo}
 
 # Monsters  
 
-0.6.2
+1.0
 
 * TOC  
 {:toc}  

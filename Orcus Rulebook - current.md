@@ -7,7 +7,7 @@ footer: ${pageNo}
 
 # Rulebook
 
-0.6.2
+1.0
 
 * TOC  
 {:toc}
@@ -3319,6 +3319,8 @@ Wondrous items can be worn or carried without taking up space on a character’s
 ## Distributing Magic Items  
 
 GMs can decide for themselves how to distribute magic items in their games, but here are four options to consider.  
+
+<figure><img src="pics\DavidLewisJohnson_TINTRO.png" alt="Treasure by David Lewis Johnson" style="zoom: 50%;" /><figcaption>Treasure by David Lewis Johnson</figcaption></figure>
 
 ### 1. Steady Progression  
 

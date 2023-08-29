@@ -7,7 +7,7 @@ footer: ${pageNo}
 
 # Classes and Powers
 
-0.6.2
+1.0
 
 * TOC  
 {:toc}  
@@ -126,14 +126,12 @@ Often, defenders control enemies by “marking” them. See the marked condition
 
 ##### Table – Roles and Traditions
 
-|             | Controller | Defender           | Leader    | Striker            |
-| ----------- | ---------- | ------------------ | --------- | ------------------ |
-| **Arcane**  | Magician   | Mageblade          |           |                    |
-| **Divine**  |            |                    | Priest    |                    |
-| **Martial** | Harlequin  | Guardian, Warrior* | Commander | Exemplar, Warrior* |
-| **Spirit**  | Reaper     |                    |           | Sylvan             |
-
-\* The warrior can shift between defender and striker roles.
+|             | Controller | Defender  | Leader    | Striker  |
+| ----------- | ---------- | --------- | --------- | -------- |
+| **Arcane**  | Magician   | Mageblade |           |          |
+| **Divine**  |            |           | Priest    |          |
+| **Martial** | Harlequin  | Guardian  | Commander | Exemplar |
+| **Spirit**  | Reaper     |           |           | Sylvan   |
 
 ### Stats
 
@@ -167,7 +165,7 @@ Powers are unique things that characters can do, as an action. Some are limited 
 
 **Abilities:** Each class has a primary ability associated with it. That ability is used for most attacks with that class's powers. Each talent (see below) has a secondary ability associated with it. That ability is used whenever a class power uses an ability that is not the primary ability.  
 
-**Power progression:** Classes follow the default power progression, shown below, unless otherwise mentioned. In this book, only the Warrior deviates from the default progression.  
+**Power progression:** Classes follow the default power progression, shown below, unless otherwise mentioned. In this book, all classes follow the default progression.  
 
 The numbers of powers listed below apply only to your “class powers”: those granted through the Powers entry within your chosen class, or powers from other sources that required you to swap a power from your class for that power. Extra powers from other sources such as cruxes, kits, feats are not counted toward these limits. Powers granted by class features other than the Powers entry are also not counted toward these limits.
 
