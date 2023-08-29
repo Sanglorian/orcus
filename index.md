@@ -4,6 +4,41 @@ title: Home
 navigation_weight: 0
 ---
 
+### 29 August 2023: Official launch of 4E-compatible, fully open-licensed Orcus 
+
+After over two years of development, today the *Orcus Hero’s Handbook* and *Orcus Game Master’s Guide* have been released on [GitHub](#The books) and [DriveThruRPG](https://www.drivethrurpg.com/browse/pub/22803/Ludos-Games) as free downloads and [print-on-demand from Lulu.com](https://www.lulu.com/search?contributor=Chris+Sakkas&page=1&pageSize=10&adult_audience_rating=00). 
+
+[(Skip the announcement and go to the downloads)](#The books)
+
+Orcus is wholly compatible with the fourth edition of the world’s most popular roleplaying game and consists entirely of open content. 
+
+Players can combine classes, kits and feats to cover a wide range of character concepts – and thanks to the power system and tactical combat, swashbucklers, tacticians, knights and beastmasters can hold their own alongside demonologists, enchanters, elemental duelists and divinely-inspired priests. 
+
+* Print-on-demand copies of the books are available at-cost.
+* The game features original and third party content, rather than paraphrasing content from 4E, but it is entirely interoperable with official 4E content. 
+* Flexible character creation is a priority, with the class, kit and feat subsystems interlocking to allow for a wide range of characters right out of the box. Martial arts, psychic powers, demanding incantations, poisons with out-of-combat functionality and familiars are all included. 
+* The novel “threats” system makes setting up tactical encounters easy, with a readily available list of level-appropriate terrain features, traps and events for each terrain type. Just add the monsters! 
+
+**Orcus by the numbers:** 
+
+* 221 monsters
+* 24 ancestries
+* 9 classes and 25 kits
+* 20 prestige paths and 6 epic paths
+* 80 skilled practices and magical rituals 
+* 138 feats
+* 848 powers, including advanced maneuvers and poisons usable by any character
+
+**Project lead Chris Sakkas says:**
+
+“Orcus would not have been possible without the Open Game License and the community of sharing and collaboration that it cultivated.
+
+“Orcus has entirely new classes, ancestries, monsters and powers, as well as many others based on Open Game Content from dozens of creators across several game lines.
+
+“Our hope is that Orcus will make it easier to publish sourcebooks and adventures compatible with 4E, as well as serving as the foundation for other clones and games.” 
+
+## The books
+
 ### Orcus Heroes' Handbook
 
 <img src="https://github.com/Sanglorian/orcus/raw/main/pics/Heroes'%20Handbook%20-%20small.png" />
@@ -14,11 +49,9 @@ Download the *Orcus Heroes' Handbook* <a href="https://github.com/Sanglorian/orc
 
 <img src="https://github.com/Sanglorian/orcus/raw/main/pics/Game%20Master's%20Guide%20-%20small.png" />
 
-**WARNING: The *Orcus Game Master's Guide* is still in beta form.**
-
 Download the *Orcus Game Master's Guide* <a href="https://raw.githubusercontent.com/Sanglorian/orcus/main/Orcus%20Game%20Master's%20Guide.pdf">PDF</a> or buy a print copy on <a href="https://www.lulu.com/shop/chris-sakkas/orcus-game-masters-guide/paperback/product-ezm4zw.html">Lulu</a>.
 
-### Orcus SRD
+## Orcus SRD
 
 * [Rulebook](Orcus Rulebook - current.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Rulebook%20-%20current.pdf))
 * [Player Options](Orcus Player Options - current.md) (ancestries, feats, deities) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Player%20Options%20-%20current.pdf))
@@ -27,6 +60,8 @@ Download the *Orcus Game Master's Guide* <a href="https://raw.githubusercontent.
 * [Advanced Options](Orcus Advanced Options - current.md) (advanced options, species, combat maneuvers, magic items, backgrounds, arts, extended challenges, bonds) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Advanced%20Options%20-%20current.pdf)))
 * Character sheet ([XLSX](https://github.com/Sanglorian/orcus/raw/main/Character%20Sheet.xlsx))
 * [Open Game License](Orcus - Open Game License.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20-%20Open%20Game%20License.pdf)) and [Artwork Credits](Orcus - Artworks.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20-%20Artworks.pdf))
+
+## Other content
 
 ### Campaign resources
 
@@ -50,7 +85,7 @@ Download the *Orcus Game Master's Guide* <a href="https://raw.githubusercontent.
 
 * [Petit 4](Petit 4.md) ([PDF](https://github.com/Sanglorian/orcus/blob/main/Petit%204.pdf))
 
----
+## Background
 
 Dedicated to the hobbyists, designers, developers and publishers who have released their work under the Open Game License.
 
@@ -58,13 +93,12 @@ Orcus is a work in progress. All feedback is welcome.
 
 ![Compatible with Fourth Edition](https://github.com/Sanglorian/orcus/raw/main/Compatible%20with%20Fourth%20Edition.png)
 
-## How to contribute
+### How to contribute
 
 Join the discussion on [RPGnet](https://forum.rpg.net/index.php?threads/4e-introducing-orcus-a-fourth-edition-retro-clone.878174/) (most active), [The Piazza](https://www.thepiazza.org.uk/bb/viewtopic.php?f=36&t=26561), [EN World](https://www.enworld.org/threads/introducing-orcus-a-4e-retroclone.685145/) or [GiantITP](https://forums.giantitp.com/showthread.php?628077-Introducing-Orcus-a-Fourth-Edition-retro-clone).
 
 Here's some of the things that would help Orcus grow: 
 
-* With a better way of outputting the material, there could also be better stylesheets for the Markdown/HTML - including columns, page numbers, better handling of images as priorities.
 * People contributing homebrew material - either stuff they've already written for other games or stuff that they write especially for Orcus.
 * Experienced players going through monsters, powers, etc., and tweaking the balance, even removing and replacing underwhelming powers.
 * An En5ider-style ongoing crowdfunding campaign, creating new material every month that would get added back in to the Orcus database.
