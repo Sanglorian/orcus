@@ -4,7 +4,7 @@ title: Home
 navigation_weight: 0
 ---
 
-### 29 August 2023: Official launch of 4E-compatible, fully open-licensed Orcus 
+### 29 August 2023: Official launch of 4E-compatible, fully open-licensed Orcus tabletop RPG
 
 After over two years of development, today the *Orcus Hero’s Handbook* and *Orcus Game Master’s Guide* have been released on [GitHub](#the-books) and [DriveThruRPG](https://www.drivethrurpg.com/browse/pub/22803/Ludos-Games) as free downloads and [print-on-demand from Lulu.com](https://www.lulu.com/search?contributor=Chris+Sakkas&page=1&pageSize=10&adult_audience_rating=00). 
 
