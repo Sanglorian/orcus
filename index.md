@@ -6,9 +6,9 @@ navigation_weight: 0
 
 ### 29 August 2023: Official launch of 4E-compatible, fully open-licensed Orcus 
 
-After over two years of development, today the *Orcus Hero’s Handbook* and *Orcus Game Master’s Guide* have been released on [GitHub](#The books) and [DriveThruRPG](https://www.drivethrurpg.com/browse/pub/22803/Ludos-Games) as free downloads and [print-on-demand from Lulu.com](https://www.lulu.com/search?contributor=Chris+Sakkas&page=1&pageSize=10&adult_audience_rating=00). 
+After over two years of development, today the *Orcus Hero’s Handbook* and *Orcus Game Master’s Guide* have been released on [GitHub](#the-books) and [DriveThruRPG](https://www.drivethrurpg.com/browse/pub/22803/Ludos-Games) as free downloads and [print-on-demand from Lulu.com](https://www.lulu.com/search?contributor=Chris+Sakkas&page=1&pageSize=10&adult_audience_rating=00). 
 
-[(Skip the announcement and go to the downloads)](#The books)
+[(Skip the announcement and go to the downloads)](#the-books)
 
 Orcus is wholly compatible with the fourth edition of the world’s most popular roleplaying game and consists entirely of open content. 
 
