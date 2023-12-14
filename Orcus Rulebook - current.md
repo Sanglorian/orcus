@@ -7,7 +7,7 @@ footer: ${pageNo}
 
 # Rulebook
 
-1.0
+1.1
 
 * TOC  
 {:toc}
@@ -1168,7 +1168,7 @@ Some monsters that have immunity or resistance to nonmagical weapons are suscept
 
 ### Improvised Weapons  
 
-An improvised weapon, including an unarmed strike, does 1d4 damage (one-handed) or 1d8 damage (two-handed), with no proficiency bonus on the attack.   
+An improvised weapon, including an unarmed strike, does 1d4 damage (one-handed) or 1d8 damage (two-handed), with no proficiency bonus on the attack. A character makes two-handed unarmed strikes if they have two hands free; otherwise they make one-handed unarmed strikes (a character can make one-handed unarmed strikes with both hands full by kicking or headbutting).   
 
 ### Designing Your Own Weapons  
 
@@ -2108,7 +2108,7 @@ You can Drop Prone as a free action. Stand Up from Prone is a move action.
 
 ## Moving Around Other Creatures  
 
-You can move through an allied creature’s space. In contrast, you can move through a hostile creature’s space only if the creature is at least two sizes larger or smaller than you.   
+You can move through an allied creature’s space. In contrast, you can move through a hostile creature’s space only if the creature is at least two sizes larger or smaller than you, or if the creature is helpless.   
 
 Whether a creature is a friend or an enemy, you can’t willingly end your move in its space.  
 
@@ -3336,7 +3336,7 @@ Keep in mind that a consumable magic item costs 1/25th as much as a permanent ma
 
 Assuming a rate of 10 encounters per level, that results in the following average treasure per player character per level (not including permanent magic items).   
 
-##### Table – Treasure per Encounter
+##### Table – Treasure per Player per 10 Encounters
 
 |      | Treasure per Player per 10 Encounters (gp) |
 | ---- | ------------------------------------------ |
@@ -3560,19 +3560,19 @@ At least a +X enhancement bonus to Armor Class while wearing that armor.
 
 Airships, wagons and ships are all vehicles. 
 
-Once a vehicle is in motion, it needs attention. If the driver fails to use a Drive, Turn or Brake action on their turn, the vehicle careens (with special rules for each vehicle). 
+Once a vehicle is in motion, it needs attention until it comes to a stop. If the driver fails to use a Drive or Turn action on their turn, the vehicle careens (with special rules for each vehicle). 
 
 **Driver:** Regardless of the number of occupants, or the number of characters required to fully operate a vehicle, one and only one character can be designated as the driver at any one time. The vehicle operates only on that character's turn. Even if careening, the vehicle only slides or stops on the driver's turn. 
 
 **Speed:** The speed given for a vehicle is the number of squares it can move if its driver takes the Drive action. A vehicle can move up to double its speed in one round, for example if its driver takes the Drive action twice.  
 
-**Careening:** If a vehicle moved in the last round, then its driver must either use the Accelerate, Turn or Brake action on it this round, or at the end of its driver's turn the vehicle is careening. See each vehicle's description for what happens. Characters in a careening vehicle are dazed. Once a vehicle stops moving, it is no longer careening. 
+**Careening:** If a vehicle moved in the last round and has not yet come to a stop, then its driver must either use the Drive or Turn action on it this round, or at the end of its driver's turn the vehicle is careening. See each vehicle's description for what happens. Characters in a careening vehicle are dazed. Once a vehicle stops moving, it is no longer careening. 
 
 References to the vehicle's driver's place in the initiative count refer to the vehicle's most recent driver. Even if the driver is incapacitated, dead or has abandoned the vehicle, use what the (former) driver's initiative count was.
 
 **Escape:** As an immediate (counter) action when a vehicle begins to careen, or a move action at any time, a character can attempt to escape a vehicle. The character must make a DC 15 Acrobatics check (+5 if the creature is strapped in; DC 20 for the driver). A driver who attempts to escape no longer has any control over the vehicle. Any target failing the escape roll by 5 or less still escapes but takes damage as if it were a crash at the vehicle's current speed (see below).
 
-**Total Move Entitlement:** A vehicle's total move entitlement is the maximum distance it could have moved this turn, even if its driver moved it less than that or it crashed before it made it that far. For example, if a speed 6 vehicle has had the Drive action taken twice, its movement for the round is 12. 
+**Total Movement Entitlement:** A vehicle's total movement entitlement is the distance it moved this turn plus any remaining distance it could have moved. For example, if a hero took the Drive action twice for a speed 6 vehicle, moving it 4 squares for the first action then 3 squares for the second action before crashing, its movement for the round is 10 (it moved 7 and could have moved a further 3 squares). 
 
 **Crash:** If a vehicle moves (either deliberately or because it is careening) into an obstruction or difficult terrain it cannot cross, it stops immediately. The vehicle and all occupants inside take damage according to the vehicle's total movement entitlement for the round. 
 
@@ -3620,15 +3620,11 @@ Movement made as part of a power can be used to disembark a vehicle.
 
 ### Drive (move action)
 
-The vehicle you are driving moves a number of squares in the direction it is facing, up to its speed. 
+The vehicle you are driving moves a number of squares in the direction it is facing, up to its speed. You can choose to move it 0 squares, in which case it comes to a stop (unless acted upon by outside forces).
 
 ### Turn (move action)
 
 The vehicle you are driving moves a number of squares in the direction it is facing, up to half its speed. At some point during its move, rotate it 45 or 90 degrees. It can then move straight ahead in the new direction it is facing if it has movement remaining. 
-
-### Brake (move action)
-
-The vehicle you are driving moves a number of squares in the direction it is facing, up to its speed. 
 
 ### Take Control (move action)
 

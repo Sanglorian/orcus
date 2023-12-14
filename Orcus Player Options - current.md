@@ -7,7 +7,7 @@ footer: ${pageNo}
 
 # Player Options
 
-1.0
+1.1
 
 * TOC  
 {:toc}  
@@ -143,7 +143,7 @@ Through sheer chutzpah and unbelievable luck, you have survived ordeals that wou
 > **Encounter** **Utility** **Feature** (**Counter Action**)   
 > **Self**   
 > **Trigger** An attack hits you.  
-> **Effect** Reroll the attack roll and take the second result.  
+> **Effect** The opponent must reroll that attack and take the second result. 
 
 ### Otherworldly  
 
@@ -236,14 +236,21 @@ You are a patrician, and believe yourself to be one of a finer class of people.
 Your family belonged to a forbidden religion, which exposed you to the constant threat of persecution.   
 
 * +2 Religion  
-* **Focus Proficiency:** You have proficiency with orbs, staffs and wands.   
+* **Focus Proficiency:** ·    You have proficiency with the following focuses: orbs, staffs and wands. 
 
 ### Mountainfolk  
 
 You come from an isolated town in the mountains.   
 
 * +2 Dungeoneering  
-* **Relentless Endurance (1/encounter):** When you are staggered, gain temporary HP equal to your level.   
+* **Relentless Endurance:** You have the *relentless endurance* power. 
+
+> #### Relentless Endurance
+>
+> **Encounter** **Utility** **Feature** (**Counter Action**)   
+> **Self**   
+> **Trigger** You become staggered.  
+> **Effect** Gain temporary hit points equal to your level.   
 
 ### Seafarer  
 

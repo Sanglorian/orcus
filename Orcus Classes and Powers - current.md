@@ -7,7 +7,7 @@ footer: ${pageNo}
 
 # Classes and Powers
 
-1.0
+1.1
 
 * TOC  
 {:toc}  
@@ -1810,7 +1810,11 @@ A discipline is a set of powers that are thematically related. Characters get ac
 
 ### Key and Secondary Abilities  
 
-Some classes specify that powers selected from class disciplines may use different abilities to those specified. If you gain access to the powers of a discipline from another source, this rule does not apply.   
+Some classes specify that powers selected from class disciplines may use different abilities to those specified. If you swap the key ability, you must also swap the secondary ability.
+
+*For example, Cuthberta is a Priest (Worships the God of Life). When using Angel's Trumpet techniques, she can swap Charisma (that discipline's key ability) for Wisdom (her class's key ability. However, if she does so, she must swap Wisdom (that discipline's secondary ability) for Charisma (her talent's secondary ability). She cannot use Wisdom as the key ability adn secondary ability.*
+
+If you gain access to the powers of a discipline through another source than your class, you cannot use the different abilities.   
 
 *For example, Arty is an Exemplar (Swashbuckler), which lets him replace a power’s secondary ability with Charisma. He selects the power* deadly thrust *from Blades in the Dark, which identifies Strength as its secondary ability. He may use Strength or Charisma when using that ability.*  
 

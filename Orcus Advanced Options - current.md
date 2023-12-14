@@ -8,13 +8,15 @@ footer: ${pageNo}
 
 # Advanced Options
 
-1.0
+1.1
 
 * TOC  
 {:toc}  
 
 
 # Species
+
+Species are an alternative to the ancestry rules presented earlier. During character creation, a player can select one species instead of a crux and a heritage. 
 
 ## Ancestry Traits  
 
@@ -317,7 +319,7 @@ Frogfolk are amphibious humanoids, with webbed feet and hands and long, sticky t
 > **Encounter** **Utility** **Feature** (**Counter Action**)   
 > **Self**   
 > **Trigger** An attack hits you.  
-> **Effect** Reroll the attack roll and take the second result.  
+> **Effect** The opponent must reroll that attack and take the second result. 
 
 
 ## Gnoll  
@@ -769,7 +771,7 @@ By default, each ancestry gets two.
 
 **Eager Charge:** Your speed increases by +2 when you charge.   
 
-**Focus Proficiency:** You have proficiency with orbs, staffs and wands.   
+**Focus Proficiency:** You have proficiency with the following focuses: orbs, staffs and wands.  
 
 **Go for the Jugular:** +1 ancestry bonus on attacks against staggered enemies.   
 
@@ -803,7 +805,14 @@ You do not sleep, breathe, eat or drink.
 
 **Nimbleness:** +2 ancestry bonus to AC against opportunity attacks.   
 
-**Relentless Endurance (1/encounter):** When you are staggered, gain temporary HP equal to your level.    
+**Relentless Endurance:** You have the *relentless endurance* power. 
+
+> #### Relentless Endurance
+>
+> **Encounter** **Utility** **Feature** (**Counter Action**)   
+> **Self**   
+> **Trigger** You become staggered.  
+> **Effect** Gain temporary hit points equal to your level.   
 
 **Resistance to X:** Resistance to one or two types of damage 5 + half your level.  
 
@@ -878,7 +887,7 @@ The maneuvers introduced here are available to all characters, but they are only
 > #### Overrun  
 >
 > **At-Will** **Attack**  (**Move Action**) ● **Martial, Weapon**  
-> **Effect** Move up to your speed. Make a secondary attack each time you attempt to enter an enemy’s space. 
+> **Effect** Move up to your speed. During this movement, you can attempt to enter enemies’ spaces. Make a secondary attack against an enemy each time you attempt to enter their space.   
 > *Secondary Attack:* Strength vs Fortitude; on a hit, push the target 1 square and you successfully enter their space; on a miss, you provoke an opportunity attack from the target, fail to enter their space, and your movement ends.
 
 > #### Repel  
@@ -2423,7 +2432,7 @@ For one reason or another, a GM may decide that an incantation has failed or bac
 
 ### Interrupting Arts  
 
-Arts take a long time to use. If the art is interrupted, you have to start again but none of the components are used up.   
+Arts take a long time to use. If the art is interrupted, you have to start again but none of the components are used up. While using an art that takes longer than a day, you can take breaks to eat, sleep, drink and so on. These do not count as interruptions.    
 
 ### Taking 10  
 
@@ -2462,7 +2471,7 @@ Arts are sorted by skill.
 | Name                      | Level | Category    | Skill    |
 | ------------------------- | ----- | ----------- | -------- |
 | Alarm                     | 1     | Incantation | Arcana   |
-| Detect Poison and Disease | 1     | Incantation | Heal     |
+| Detect Poison and Disease | 1     | Incantation | Nature   |
 | Floating Disk             | 1     | Incantation | Arcana   |
 | Identify                  | 1     | Incantation | Arcana   |
 | Illusory Script           | 1     | Incantation | Arcana   |
@@ -4276,7 +4285,7 @@ Example ways a character may gain or lose Ancient Priesthood Favor:
 
 **Sacred Grove:** You are given a grove, circle of dolmens or other sacred place to tend. Those who seek to join the priesthood will seek out a priest in their sacred place and try to kill them, so as to take their place.   
 
-**Learn Incantation:** Upon joining the ancient priesthood, you are taught an incantation. You do not get to choose the incantation. Those with a Friendly bond are taught a second, and Helpful a third. You still need the Incantation Caster feat in order to cast the incantation. 
+**Learn Incantation:** Upon joining the ancient priesthood, you are taught an incantation. You do not get to choose the incantation. 
 
 ### Hostile  
 
