@@ -2495,6 +2495,7 @@ The helpless condition usually comes about as a result of being unconscious.
 * If the creature that marked you dies or falls unconscious, you lose the marked condition.   
 * If you are marked by another creature while already marked, the new mark supersedes the old one (in other words, you cannot be marked by two different creatures at the same time).  
 * Unless otherwise specified, the marked condition lasts until the end of the encounter.
+
 ### Petrified  
 
 - You are transformed into a solid inanimate substance (usually stone).   
