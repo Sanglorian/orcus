@@ -82,7 +82,7 @@ When you **maneuver into position,** make a skill check and compare it to the DC
 | ------------------------- | ------------------------------------------------------------ |
 | Beat Hard DC by 5 or more | Success. The hero does so well, they get into position and overcome the obstacle all in one. |
 | Beat Hard DC              | In a good position. The hero is well-placed to overcome the obstacle. |
-| Beat Moderate DC          | Try a different way. The hero  failed but may attempt something different. |
+| Beat Moderate DC          | Try a different way. The hero failed but may attempt something different. |
 | Beat Easy DC              | In peril. The hero must escape the peril or suffer some kind of loss or damage. |
 | Fail                      | Peril realized. The hero suffers some kind of loss or damage. |
 
@@ -99,16 +99,16 @@ Losing your good position does not literally mean you always return to the same 
 
 When you **attempt to escape peril,** make a skill check and compare it to the hard DC for your level.
 
-| Result       | Outcome                                                 |
-| ------------ | ------------------------------------------------------- |
-| Beat Hard DC | You escape peril.                                       |
-| Fail         | The danger is realized, and you  suffer harm or damage. |
+| Result       | Outcome                                                |
+| ------------ | ------------------------------------------------------ |
+| Beat Hard DC | You escape peril.                                      |
+| Fail         | The danger is realized, and you suffer harm or damage. |
 
 Heroes will also want to help each other out. When you **help someone in a worse position than you** (they are in peril and you are not, or you are in a good position and they are not),  make a skill check and compare it to the Moderate and Hard DCs for your level.
 
 | Result           | Outcome                                                      |
 | ---------------- | ------------------------------------------------------------ |
-| Beat Hard DC     | Their position improves by one  step (in peril => neutral => good position) |
+| Beat Hard DC     | Their position improves by one step (in peril => neutral => good position) |
 | Beat Moderate DC | You cannot help them in this way.                            |
 | Fail             | Your position worsens by one step.                           |
 
