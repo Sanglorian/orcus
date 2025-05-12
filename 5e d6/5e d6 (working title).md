@@ -46,7 +46,7 @@ Figures can move through allies, but cannot end their turn with their base overl
 
 A figure can take one action per round, either a movement action in the Movement Phase or a combat action in the Combat Phase. 
 
-A figure's profile may have other actions. Any figure can take any of the movement actions listed below:  
+A figure's profile may have other actions. Any figure can take any of the movement actions listed below: 
 
 * **Dash:** The figure may move an additional distance in inches up to its Speed. 
 
@@ -116,7 +116,7 @@ On a 1–2, the shot hits that cover or model instead, or just misses in the cas
 
 **Close Combat Ranged Attacks:** An attacker that is threatened by an enemy suffers disadvantage on their ranged attack. 
 
-**Long Range Attacks:** Ranged attacks have a short and long range listed (in the form 6”/12”, where the former is the short range and the latter the long range). Treat an attacker at long range's Fight score as one lower (Fight 5 becomes 4, for example) for the purpose of calculating the target number for attacks.  
+**Long Range Attacks:** Ranged attacks have a short and long range listed (in the form 6”/12”, where the former is the short range and the latter the long range). Treat an attacker at long range's Fight score as one lower (Fight 5 becomes 4, for example) for the purpose of calculating the target number for attacks. 
 
 ### Melee attacks
 
@@ -158,7 +158,7 @@ When a value has a slash, like "1/3", it means if the attacker rolls a 1, they r
 
 # Reactions
 
-Each phase, each figure can take one reaction. A figure cannot take the same reaction in both phases. “Movement reactions” can only be taken during the movement phase; “combat reactions” can only be taken during the combat phase.  
+Each phase, each figure can take one reaction. A figure cannot take the same reaction in both phases. “Movement reactions” can only be taken during the movement phase; “combat reactions” can only be taken during the combat phase. 
 
 Opportunity attacks (described above) are a movement reaction. Masteries (described below) are a combat reaction. 
 
@@ -264,5 +264,37 @@ For example, an aboleth does 19 damage with its tentacle. So it has Strength 8.
 | 19     | 8        |
 | 24     | 9        |
 | 32     | 10       |
+
+ # Troops
+
+| **Name**          | **Spd** | **Fight** | **Armor** | **Tough** | **Health** | **Attacks** | **Str** | **Fort** | **Ref** | **Will** | **Points** | **Atts**                                                     |
+| ----------------- | ------- | --------- | --------- | --------- | ---------- | ----------- | ------- | -------- | ------- | -------- | ---------- | ------------------------------------------------------------ |
+| **Dwarf**         | 5       | 4         | 0         | 7         | 1          | 1           | 3       | 3        | 3       | 3        | 8          | *Sturdy* No Speed penalty for heavy armor "<br />"**Hand Weapon** |
+| **Elf**           | 6       | 4         | 0         | 4         | 1          | 2           | 3       | 3        | 3       | 3        | 8          | *Wilderness Stride* No penalty from difficult terrain caused by vegetation <br />**Hand Weapon** |
+| **Goblin**        | 6       | 4         | 0         | 2         | 1          | 1           | 2       | 3        | 3       | 3        | 2          | *Climb, Pack Tactics* <br />**Hand Weapon**                  |
+| **Halfling**      | 5       | 4         | 0         | 3         | 1          | 1           | 3       | 3        | 3       | 3        | 4          | *Sneak Attack* Weapon hits with advantage get +1 Str Movement reaction: *Nimble Escape* Disengage or Hide <br />**Hand Weapon** |
+| **Human Levy**    | 6       | 4         | 0         | 3         | 1          | 1           | 2       | 3        | 3       | 3        | 2          | **Hand Weapon**                                              |
+| **Human Soldier** | 6       | 4         | 0         | 4         | 1          | 1           | 3       | 3        | 3       | 3        | 4          | **Hand Weapon**                                              |
+| **Orc**           | 6       | 4         | 0         | 3         | 1          | 1           | 5       | 4        | 3       | 2        | 4          | *Pack Tactics* <br />**Hand Weapon**                         |
+
+* By default, soldiers begin with a **hand weapon** (costing no points). Choose its type: Blade, Bludgeon, Spear or Exotic. 
+
+* A soldier with two **hand weapons** **of different types** can choose between their special effects (called “masteries”). A soldier with two **hand weapons of the same type** can make an extra attack with the second. 
+
+| **Weapon**       | **Points**                     | **Strength modifier** | **Details**                      |
+| ---------------- | ------------------------------ | --------------------- | -------------------------------- |
+| **Great Weapon** | 2 (1 if replacing hand weapon) | +1                    | Blade, Bludgeon, Spear or Exotic |
+| **Hand Weapon**  | 1                              |                       | Blade, Bludgeon, Spear or Exotic |
+| **Daggers**      | 1 (0 if replacing hand weapon) | -1                    | Melee or ranged 2”/4”            |
+| **Javelin**      | 1                              |                       | Ranged 4”/8”                     |
+| **Bow**          | 3                              |                       | Ranged 12”/24”                   |
+
+ 
+
+| **Armor**       | **Points**                     | **Details**                   |
+| --------------- | ------------------------------ | ----------------------------- |
+| **Light Armor** | 1                              | +1 Armor while worn           |
+| **Heavy Armor** | 2 (1 if replacing light armor) | +2 Armor, -1 Speed while worn |
+| **Shield**      | 1                              | Shield Mastery                |
 
  
