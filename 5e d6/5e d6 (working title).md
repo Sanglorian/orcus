@@ -64,13 +64,14 @@ Figures can move through allies, but cannot end their turn with their base overl
 
 A figure can take one action per round, either a movement action in the Movement Phase or a combat action in the Combat Phase. 
 
-A figure's profile may have other actions. Any figure can take any of the movement actions listed below: 
+Any figure can take any of the movement actions listed below: 
 
 * **Dash:** The figure may move an additional distance in inches up to its Speed. 
 
-* **Disengage:** The creature’s movement this phase does not provoke opportunity attacks. 
-
 * **Dodge:** Until the end of the round, attacks against the creature are made with disadvantage and the creature has advantage on Reflex saves. 
+
+
+A figure's profile may have other actions, which are indicated in **bold**. 
 
 ## Threatened spaces and opportunity attacks
 
@@ -78,15 +79,13 @@ A figure threatens the space within 1” of the rim of its base.
 
 When one figure moves out of another figure’s threatened space, the second figure can immediately make an opportunity attack against the moving figure. This is a single melee attack, made with a melee weapon of the second figure's choice (among those they are equipped with). 
 
-This is a reaction (each figure usually only gets one reaction per phase).
-
 Forced movement and teleportation do not trigger an opportunity attack.
 
 ## Figures
 
 By default, figures are Medium size with a circular base that is 25mm in diameter (or a square base 25mm on each side). 
 
-Creatures of sizes other than Medium will have their size listed, along with a recommended base size. It is okay for a creature's base to be a bit bigger or smaller than suggested. 
+Creatures of sizes other than Medium will have their size listed. It is okay for a creature's base to be a bit bigger or smaller than suggested. 
 
 **Tiny or Small:** 20mm
 
@@ -102,17 +101,17 @@ Creatures of sizes other than Medium will have their size listed, along with a r
 
 *Slippery terrain:* A creature that moves onto slippery terrain for the first time in the phase or starts its movement on slippery terrain there must succeed on a Reflex save or fall prone.
 
-*Deep water:* While you’re swimming, each inch of movement costs 1 extra inch. Upon entering the water or starting the round in it, make a Fortitude save (Difficulty +1 if the figure is wearing heavy armor). On a failure, the figure's Speed falls to 0 for the round.
+*Deep water:* While you’re swimming, each inch of movement costs 1 extra inch. Upon entering the water or starting the round in it, make a Fortitude save (Potency +1 if the figure is wearing heavy armor). On a failure, the figure's Speed falls to 0 for the round.
 
 Shallow water is just a variety of difficult terrain. 
 
 *Barriers:* Ignore barriers that are less than half the model’s base diameter in height. Higher barriers must be vaulted (equal to or less than model’s height, like a fence) or climbed (greater than height, like a cliff). Vaulting costing no movement on the vertical, while climbing does. 
 
-Make a Fortitude save (Difficulty +1 if the figure is wearing heavy armor), on a failure the model falls prone and takes a hit (Strength equal to the number of inches fallen; when a creature was only vaulting, it falls prone but takes no falling damage). 
+Make a Fortitude save (Potency +1 if the figure is wearing heavy armor), on a failure the model falls prone and takes a hit (Strength equal to the number of inches fallen; when a creature was only vaulting, it falls prone but takes no falling damage). 
 
 A figure adjacent to a barrier of 1” or less in width that is shorter than them threatens 1” beyond the barrier. 
 
-*Gaps:* Ignore gaps that are less than half the model’s base diameter. Gaps that are no wider than the model’s base diameter can be jumped. Make a Fortitude save (Difficulty +1 if the figure is wearing heavy armor), on a failure the model falls through the gap. 
+*Gaps:* Ignore gaps that are less than half the model’s base diameter. Gaps that are no wider than the model’s base diameter can be jumped. Make a Fortitude save (Potency +1 if the figure is wearing heavy armor), on a failure the model falls through the gap. 
 
 # Combat Phase
 
@@ -196,19 +195,27 @@ A creature can forfeit its movement in the Movement Phase to delay its action in
 
 Creatures that delay do not act when their Fight value comes around. Instead, all creatures that delay act at the end of the combat phase. Delayed creatures with the lowest Fight act first, then those with higher Fight, in order. If there is a delay, the Lead Player acts with their figures *last*. 
 
-# Reactions
+## Combat Maneuvers
 
-Each phase, each figure can take one reaction. A figure cannot take the same reaction in both phases. “Movement reactions” can only be taken during the movement phase; “combat reactions” can only be taken during the combat phase. 
+As their combat action, instead of attacking, a figure can choose to perform a combat maneuver. 
 
-Opportunity attacks (described above) are a movement reaction. Masteries (described below) are a combat reaction. 
+**Disengage:** After all attacks from both sides have been resolved, the user moves 1". This movement does not provoke opportunity attacks. 
+
+**Escape:** A creature that is grappled tries to escape. Make a Fortitude or Reflex save (whichever is better). On a success, the creature escapes. 
+
+**Grapple:** A target within 1" that is smaller than the user makes a Fortitude or Reflex save (their choice). On a failure, they gain the grappled condition. A creature cannot grapple more than one target at once.
+
+**Shove:** A target within 1" that is smaller than the user makes a Fortitude save. On a failure, they are pushed 1”. 
+
+**Trip:** A target within 1" that is smaller than the user makes a Reflex save. On a failure, they fall prone. 
 
 # Spells and powers
 
 Spells and powers are special effects. These will say which phase they take place in, and whether they require an action. 
 
-**Saves:** When a spell or power says that the target makes a save or saving throw, the target rolls 1d6. The target number is the target's Fortitude, Reflex or Will save (the spell or power will specify which) minus the attacker’s Difficulty. If the die result is equal or below the target number, the save is successful.
+**Saves:** When a spell or power says that the target makes a save or saving throw, the target rolls 1d6. The target number is the target's Fortitude, Reflex or Will save (the spell or power will specify which) minus the attacker’s Potency. If the die result is equal or below the target number, the save is successful.
 
-*For example, a druid whose spells are at Difficulty 1 casts a spell on a guard with Fortitude 4.* 
+*For example, a druid whose spells are at Potency 1 casts a spell on a guard with Fortitude 4.* 
 
 *The target number is 3 (4 minus 1). If the result of the die roll is 1, 2 or 3, the guard "saves" and is not affected by the spell.* 
 
@@ -216,7 +223,7 @@ Saving throw values are listed in the order: "Fortitude, Reflex, Will".
 
 *For example, the Saves entry for orc warriors is "4/3/2". They have a Fortitude save of 4, a Reflex save of 3 and a Will save of 2.* 
 
-**Ongoing effect:** Keep track of every ongoing effect affecting a figure. At the end of each round, make a saving throw against each ongoing effect, using the original difficulty of the power that caused that ongoing effect. On a success, that ongoing effect ends. 
+**Ongoing effect:** Keep track of every ongoing effect affecting a figure. At the end of each round, make a saving throw against each ongoing effect, using the original Potency of the power that caused that ongoing effect. On a success, that ongoing effect ends. 
 
 **Areas:** Some spells and other effects have areas of effect. 
 
@@ -230,11 +237,11 @@ Where an area is listed as “within” (for example, 4” sphere within 12”),
 
 A figure is affected by a spell if any of its base is within the area of effect. 
 
-**Concentration:** Some spells require concentration. A caster can only concentrate on one spell at a time. Once they cast a spell that requires concentration, the caster does not need to do anything to maintain concentration on the spell - except that if the caster takes damage, they lose concentration and the spell ends (Fortitude save Difficulty +0 negates).
+**Concentration:** Some spells require concentration. A caster can only concentrate on one spell at a time. Once they cast a spell that requires concentration, the caster does not need to do anything to maintain concentration on the spell - except that if the caster takes damage, they lose concentration and the spell ends (Fortitude save Potency +0 negates).
 
 Generally, a caster will start the encounter with a spell requiring concentration already active. The *Spell Concentration* feature will list what spells a caster can begin the encounter concentrating on. 
 
-At the start of each round, the cleric may spend 1 spellcasting slot to shift concentration to a new spell (choosing from any of those that they could have started the encounter concentrating on), to renew concentration on the same spell (for example, to pick a new location for a wall) or to cast a new spell requiring concentration if they had lost a spell they were concentrating on. 
+During their movement in the Movement Phase, a caster may spend 1 spellcasting slot to shift concentration to a new spell (choosing from any of those that they could have started the encounter concentrating on), to renew concentration on the same spell (for example, to pick a new location for a wall) or to cast a new spell requiring concentration if they had lost a spell they were concentrating on. 
 
 # Morale
 
@@ -252,23 +259,31 @@ A figure makes a morale check:
 
 Figures that are equipped with a spear, blade, bludgeon or exotic weapon can use the Weapon Mastery associated with that weapon. Figures equipped with a shield can use Shield Mastery. Figures wielding two of the same hand weapon (two blades or two bludgeons, for example) can use Dual Wielding Mastery (as well as the mastery of their hand weapon, for example Blade Mastery if they are wielding two blades). 
 
-A figure can only use one Mastery per phase. 
+A figure can only use one Mastery per round. 
 
-Some creatures have special Masteries, other than those listed below (for example, the shield guardian's Protection Mastery). These also count against the limit of one Mastery per phase. 
+Some creatures have special Masteries, other than those listed below (for example, the shield guardian's Protection Mastery). These also count against the limit of one Mastery per round. 
 
-**Spear Mastery:** You attack first, regardless of Fight value. 
+*Four masteries are associated with the four types of hand weapon or great weapon:*
 
-**Blade Mastery:** If a melee attack you make hits, make a melee attack with the same weapon against a creature that is within 1” of you. That attack is at Strength -2. 
+**Spear Mastery:** You attack first with this weapon, regardless of Fight value. 
 
-**Bludgeon Mastery:** If an attack you make misses, you still do damage at Strength -2 (no other effects of your attack apply). 
+**Blade Mastery:** If a melee attack you make hits, make a melee attack with the same weapon against a different target that is within 1” of you (if one exists). That attack is at Strength -2 (minimum Strength 1, no other effects of your attack apply). 
 
-**Dual Wielding Mastery:** Immediately make an attack with a light weapon against a target of your choice. 
-
-**Shield Mastery:** Make an attacker reroll one hit against you. 
-
-If you have a ranged weapon, you can only use a shield against melee attacks. If you have a great weapon, you can only use a shield against ranged attacks.
+**Bludgeon Mastery:** If an attack you make misses, you still do damage at Strength -2 (minimum Strength 1, no other effects of your attack apply). 
 
 **Exotic Mastery:** If you hit a creature with this weapon, it falls prone. 
+
+
+
+*One mastery is available if you are armed with both hand weapon and light weapon:*
+
+**Dual Wielding Mastery:** After making an attack with a hand weapon, you may immediately make an attack with a light weapon against a target of your choice. 
+
+
+
+*One mastery is available if you are armed with a shield:* 
+
+**Shield Mastery:** Make an attacker reroll one successful hit against you. If you have a ranged weapon, you can only use a shield against melee attacks. If you have a great weapon, you can only use a shield against ranged attacks. If you have both, you cannot use a shield.
 
 # Objects
 
@@ -293,18 +308,6 @@ Mounted creatures are affected by any Leader abilities that their riders are aff
 ## Passengers
 
 In rare cases, usually in narrative scenarios, you will want a passenger to join the rider of a mount. They follow the same rules as the rider except that they do not get an action for any round that they are mounted for. 
-
-# Combat Maneuver
-
-As their combat action, instead of attacking a figure can choose to perform a combat maneuver on a target within 1". A combat maneuver can only target a creature smaller than the user (as measured by base size):
-
-**Escape:** A creature that is grappled tries to escape. Make a Fortitude or Reflex save (whichever is better). On a success, the creature escapes. 
-
-**Grapple:** The target makes a Fortitude or Reflex save (their choice). On a failure, they gain the grappled condition. A creature cannot grapple more than one target at once.
-
-**Shove:** The target makes a Fortitude save. On a failure, they are pushed 1”. 
-
-**Trip:** The target makes a Reflex save. On a failure, they fall prone. 
 
 # Advantage and disadvantage
 
@@ -367,15 +370,21 @@ Where the following features appear in a creature's description, they are usuall
 
 *Leader of Beasts* As Leader, but it only applies to Beasts. Equivalent features exist for Leaders of Fiends, Leaders of Undead, etc. 
 
+ *Advanced Leader* As Leader, but at a range of 12".
+
 *Siege Monster* Deal double damage to structures and siege engines. 
 
 *Magic Resistance* The figure has advantage on saving throws against spells.
 
 *Mind Blank* The figure is immune to psychic damage and the charmed and controlled conditions.
 
-*Flyby*
+*Flyby* During the movement phase, the figure can sacrifice movement equal to half its flying Speed. If it does so, at the end of the round the figure can move up to half its flying Speed. This does not provoke opportunity attacks.  
 
 *Mount* This creature can be mounted (see the "Riding mount" rules for more). While a figure is mounted, it suffers -2 to Speed. 
+
+
+
+*Legendary Resistance*
 
 ## Special Movements
 
@@ -427,7 +436,7 @@ A sub-set of features are types. By default, a type does not have any effect. Fo
 
  
 
-| AC/DC         | Armor/Difficulty       | Armor |
+| AC/DC         | Armor/Potency          | Armor |
 | ------------- | ---------------------- | ----- |
 | 6 to 10       | N/A – attacks auto-hit |       |
 | 11 to 13      | 0                      | None  |
@@ -531,7 +540,7 @@ Figures can be mounted, following the "riding mounts" rules earlier.
 
 The Speeds given below are *before* being mounted; remember to reduce Speed by 2 while the beast is mounted. 
 
-Mounts cost double when purchased for a hero.
+Mounts of 16 points or lower cost double when purchased for a hero.
 
 | **Name**                          | **Spd** | **Fight** | **Armor** | **Tough** | **Health** | **Attacks** | **Str** | **Saves** | **Features**                                                 |
 | --------------------------------- | ------- | --------- | --------- | --------- | ---------- | ----------- | ------- | --------- | ------------------------------------------------------------ |
