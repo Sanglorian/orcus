@@ -73,15 +73,15 @@ Find a friend or more to play. Regardless of how many players there are, there a
 
 Each scenario represents a different kind of encounter - a pitched battle, a hunt for resources, a sabotage mission, and so on. You can also design your own scenarios, with agreement from the other player. 
 
-There is a standard scenario called "Raid" which is recommended for your first game. The instructions below assume you are playing Raid; if you are playing a different scenario, follow the instructions on that scenario if they differ. 
+There is a standard scenario called "Sacred Objects" which is recommended for your first game. The instructions below assume you are playing Sacred Objects; if you are playing a different scenario, follow the instructions on that scenario if they differ. 
 
 ## 2. Select your team
 
-Agree on a "points value" for each team. For Raid, this is 120 points per side. 
+Agree on a "points value" for each team. For Sacred Objects, a good starting game is 150 points per side. 
 
 Each character costs a number of "points", which represents their power and usefulness as a combatant. For example, an orc warrior with a blade and a bow may cost 7 points, while an elf warrior with heavy armor, a blade and a shield may cost 11 points, and a hero or giant monster could cost tens or hundreds of points.    
 
-Skirmishes are about 80 to 240 points per side, and larger battles beyond that point. 
+Skirmishes are about 100 to 350 points per side, and larger battles beyond that point. 
 
 ## 3. Decide the "Lead Player"
 
@@ -89,33 +89,49 @@ The Lead Player lays out the terrain on the battlefield. In the first round, the
 
 Flip a coin to decide who is the Lead Player.  
 
-## 3. Lay out the battlefield
+## 4. Lay out the battlefield
 
 The scenario will describe what size the battlefield is and what terrain should be used. 
 
-Raid is played on a 2 by 2 foot battlefield. 
+Sacred Objects is played on a 2 by 2 foot battlefield. 
 
 The Lead Player should cover about one-third of the battlefield with terrain including some that slows movement (called "difficult terrain"), some that blocks movement and attacks (called "obstacles") and some that makes ranged attacks harder (called "cover").
 
 The Lead Player should also indicate the two "starting edges", which must be opposite one another. One side will start on one edge and the other side on the other. 
 
-In Raid, the Lead Player should also place three treasures, which are represented with 25mm bases. Place all three in the middle of the board, between the two starting edges. Distribute them equidistant along that central line.  
+In Sacred Objects, the Lead Player should also place three Light Objects called treasures, which are represented with 20mm bases. Place all three in the middle of the board, between the two starting edges. Distribute them equidistant along that central line.  
 
-## 4. Deployment
+## 5. Deployment
 
 Deployment means placing your characters on the battlefield. 
 
-Players who are *not* on the Lead Player's side deploy their characters first. They also get to choose which edge of the battlefield to deploy from. They can place their miniatures up to 6" from that side of the edge. 
+In the Sacred Objects scenario, the non-Lead Player gets to choose which edge of the battlefield to deploy from. Their deployment zone is between that edge and 6" from that edge.  
 
-Then those on the Lead Player's side deploy their characters up to 6" from the opposite edge.
+The Lead Player's deployment zone is up to 6" from the opposite edge.
 
-## 5. Play the Game
+### Sector Deployment 
+
+Split each deployment zone into three sectors: left, centre and right. 
+
+The non-Lead Player deploys as many characters as they like into one sector of their deployment zone. They choose which sector. 
+
+Then the Lead Player deploys as many characters as they like into one sector of their deployment zone. They choose which sector. 
+
+Then the non-Lead Player deploys into one of their two remaining sectors, then the Lead Player does the same for of their two remaining sectors. 
+
+Finally the non-Lead Player deploys into the final remaining sector and the Lead Player does the same. 
+
+A player can choose to deploy no characters into a sector. 
+
+Once a character is deployed, they cannot be re-deployed. 
+
+## 6. Play the game
 
 The rules for playing *5e d6* are given below.
 
-## 6. Ending the Game
+## 7. Ending the game
 
-The scenario indicates when the game ends. In the case of Raid, it is when one side controls two of the three treasures. Rules for controlling treasures are given below. 
+The scenario indicates when the game ends. In the case of Sacred Objects, it is when one side controls two of the three treasures. Rules for controlling treasures are given later in this book. 
 
 # Reading character profiles
 
@@ -173,11 +189,11 @@ Passive features, masteries and features that do not take an action are listed i
 
 Actions and attacks are listed in **bold**. If it has "[action]" listed after it, then it takes an action (either a combat action or a movement action, or either if not specified). If it does not have [action] after it, it is an attack (if you spend an action attacking, you can perform as many attacks as your Attacks stat). 
 
-Dwarves and elves have their own features. Dwarves are Sturdy, which means they do not take a Speed penalty when they wear heavy armor (everyone else suffers a -1" penalty to Speed). Elves have Wilderness Stride, which means they take no penalty moving through difficult terrain caused by vegetation (everyone else must spend 2 inches worth of movement to move 1 inch through difficult terrain). 
+Dwarves and elves have their own features. Dwarves are *Sturdy*, which means they do not take a Speed penalty when they wear heavy armor (everyone else suffers a -1" penalty to Speed). Elves have *Wilderness Stride*, which means they take no penalty moving through difficult terrain caused by vegetation (everyone else must spend 2 inches worth of movement to move 1 inch through difficult terrain). 
 
 ### Limited use
 
-Some features can only be used a limited number of times per encounter. These will have one checkbox for each use (""☐"). Mark them off during the encounter, and erase the boxes after the encounter is over. 
+Some features can only be used a limited number of times per encounter. These will have one checkbox for each use ("☐"). Mark them off during the encounter, and erase the boxes after the encounter is over. 
 
 ### Gear
 
@@ -205,9 +221,11 @@ Regardless of base size, all figures of a particular size have the same Height -
 
 During the Movement Phase, players move characters.
 
-**Characters move in order of their Speed** - starting with those with the lowest Speed, then the next lowest Speed, and so on until all figures have had the chance to move. 
+**Characters move in order of their Speed** - starting with those with the highest Speed, then the next highest Speed, and so on until all figures have had the chance to move. 
 
-This means that slower characters on both sides will have moved before any faster characters do so. 
+This means that faster characters on both sides will have moved before any slower characters do so. 
+
+If a creature is adjacent to an ally with a lower Speed, they can choose to act at that lower Speed instead. 
 
 **When characters from different sides have the same Speed,** those on the Lead Player's side move first.
 
@@ -227,9 +245,11 @@ Characters can move up to their Speed in inches. They do not have to move their 
 
 A character threatens the space within 1” of the rim of its base. 
 
-Any time one character moves out of another character's threatened space, the second character can immediately make an opportunity attack against the moving character. This is a single melee attack, made with a melee weapon of the second figure's choice (among those they are equipped with). 
+If there is exactly one enemy in a character's threatened space, and the enemy moves out of that space, then the character can immediately make an opportunity attack against the moving character. This is a single melee attack, made with a melee weapon of the second figure's choice (among those they are equipped with). 
 
 Forced movement and teleportation do not trigger an opportunity attack.
+
+Because opportunity attacks can only be made if there is exactly one enemy in a creature's threatened space, a player can move other characters in to allow a character already in the threatened space to leave without provoking an opportunity attack. This is called "tying up" the enemy.
 
 ## Movement actions
 
@@ -261,7 +281,7 @@ A character that wants to act later than normal in the Combat Phase must spend i
 
 ### Standing up from prone
 
-A prone character must spend half their Speed in movement standing up from prone before they can move. 
+A prone character must spend half their Speed in movement standing up from prone before they can move anywhere. 
 
 ## Riding mounts
 
@@ -281,9 +301,19 @@ Unless otherwise specified in the scenario, the mount has to be one that appears
 
 **If a rider's mount is eliminated,** the rider falls prone somewhere in the space left by the mount.
 
+**If a rider would be knocked prone,** they can choose either to be knocked off their mount or for their mount to be knocked prone. 
+
+**If a mount is knocked prone,** the rider remains riding them - they cannot move until the mount stands up from prone. 
+
 ### Passengers
 
 In rare cases, usually in narrative scenarios, a player may want a passenger to join the rider of a mount. They follow the same rules as the rider except that they do not get an action for any round that they are mounted for. 
+
+# *Experiment* Shooting
+
+Can shoot or cast spells at any point during movement phase
+
+During movement (at start, end or part way through), may make a ranged attack or cast a spell. If so, that is your action for the turn. 
 
 # Combat Phase
 
@@ -299,6 +329,31 @@ The main combat action is to make one or more attacks, but there are other optio
 
 **Characters that already took an action in the Movement Phase** do not get to take an action in the Combat Phase. 
 
+# Splitting into Melees
+
+At the start of the combat phase, the Lead Player splits characters into melees when characters are adjacent to enemy characters. 
+
+If characters are in a melee with an enemy, move their bases to touch the enemy's, and move any characters not in melee with them slightly apart. 
+
+Aim for one-versus-one match ups where possible. Where this is not possible, there should only ever be one side where numbers are greater than 1. 
+
+*For example, four dwarves are adjacent to two orcs. The Lead Player could split them into two melees, either:*
+
+1. *1 orc versus 2 dwarves and 1 orc versus 2 dwarves, or*
+2. *1 orc versus 1 dwarf and 1 orc versus 3 dwarves.*
+
+The Lead Player then chooses what order to resolve melees in. 
+
+### Following up
+
+If a character remains while all enemies in their melee have been eliminated, they can move up to 1" without provoking opportunity attacks. 
+
+If they have attacks remaining, they can then continue making attacks if that has brought them into a new melee. This is true even if it brings them into a melee that has already been resolved; they make the remaining attacks. 
+
+If the melee has not yet resolved, they must wait for their Fight value to come around before making the remaining attack(s), just as if they had been in that melee from the start. 
+
+A character can only do this follow-up once per combat phase, even if they eliminate all enemies in a second melee. 
+
 ## Attacking
 
 As their combat action, **a creature can make a number of attacks equal to their Attack stat.** 
@@ -309,11 +364,17 @@ As their combat action, **a creature can make a number of attacks equal to their
 
 Range and reach are measured from any point on the edge of attacker’s base to any point on the edge of the target's base.
 
-**To-hit roll:** Roll one die per attack. The target number is the attacker’s Fight score minus the target’s Armor. Any die result that is equal or below the target number is a hit. 
+**To-hit roll:** Roll one die per attack.
+
+Any results equal to or less than the target's Armor miss. 
+
+Any results greater than the attacker's Fight score miss. 
+
+Any remaining result is a hit. 
 
 *For example, a hobgoblin with Fight 5 makes one attack against a guard with Armor 1.* 
 
-*The target number is 4 (5 minus 1). If the result of the die roll is 1, 2, 3 or 4, the attack hits.* 
+*If the result of the die roll is 2, 3, 4 or 5, the attack hits. If the result is 1, the attack misses (bounces off the target's armor). If the result is 6, the attack misses (the hobgoblin isn't a good enough fighter).* 
 
 Each hit does one Damage, unless otherwise specified. 
 
@@ -323,17 +384,20 @@ Targets must be within range and line of sight.
 
 **To determine line of sight,** imagine the attacker is looking at the target. If any part of the target's body is visible, the attacker has line of sight. However, if any part of the target is covered (for example, by fence palings) or obscured (for example, by smoke), then there is a chance that the attack is "blocked".  
 
-**Block:** After the to-hit roll is successful, check to see if anything in between the shooter and the target might block the ranged attack from getting through. 
+**Block:** Before making the to-hit roll, count how many of the following there are:
 
-For each piece of cover, any concealment and any other character in the way of the ranged attack, make one "block roll". 
-
-If the target is in melee, assume each enemy of the target's in that melee is between the shooter and the target. If the target is mounted, assume the mount is in the way too. 
+* each piece of cover, any concealment and any other character between the target and the attacker
+* plus one if any creature is in the target's threatened space
+* plus one if the target is on a mount
+* plus one if the target has a shield (Characters with bows cannot use a shield in this way.)
 
 A shooter never considers terrain or characters in the way if they are adjacent to the shooter (the shooter is assumed to duck around this cover/the adjacent model to make their shot). 
 
-A block roll consists of rolling a die. On a 1–2, the shot hits that cover or model instead, or just misses in the case of concealment. The shot does damage just as if the cover or model was the intended target.
+Roll a die. If the result is equal to or lower than the target number, the shot hits something in the way instead. If it is a 1, it is the closest thing in the way. If it is a 2, it is the second closest thing in the way, and so on. If there are multiple creatures in the target's threatened space, and it hits something in the target's threatened space, roll a die to randomise which creature in the target's threatened space is hit. 
 
-Work from the shooter to the target. Stop if the ranged attack is blocked, otherwise the attack hits the intended target. 
+If a ranged attack hits a shield, it has no effect. 
+
+Otherwise, the attack hits the intended target. 
 
 **Close Combat Ranged Attacks:** An attacker that is threatened by an enemy suffers disadvantage on their ranged attack. 
 
@@ -413,47 +477,47 @@ Characters that are equipped with a spear, blade, bludgeon or exotic weapon can 
 
 Figures equipped with a shield can use Shield Mastery. 
 
-Figures wielding a hand weapon and a light weapon (a blade and a light weapon or a bludgeon and a light weapon, for example) can use Dual Wielding Mastery (as well as the mastery of their hand weapon, for example Blade Mastery if they are wielding a blade). 
+Figures wielding two hand weapons of the same type (two blades for example) can use Dual Wielding Mastery (as well as the mastery of their hand weapons, for example Blade Mastery if they are wielding blades). 
 
 **A figure can only use one Mastery per round.** 
 
+**A Mastery applies to a single attack, even if the user has multiple attacks.** The exception is Shield Mastery, which applies to the opponent's attacks not the user's.
+
 Some characters have special Masteries, other than those listed below. For example, the shield guardian has Protection Mastery. The use of these Masteries also counts against the limit of one Mastery per round. 
+
+**In a given melee, the Lead Player declares any Mastery uses first.** Then the other player does so. 
 
 
 
 *Four masteries are associated with the four types of hand weapon or great weapon:*
 
-**Spear Mastery:** The character attacks first, regardless of Fight value. 
+**Spear Mastery:** The character makes this attack first, regardless of Fight value, but suffers a -1 penalty to Fight during the to-hit roll. 
 
-**Blade Mastery:** If a melee attack the character makes hits, it may make a melee attack with the same weapon against a different target that is within 1” of it (if one exists). That attack is at Strength -2 (minimum Strength 1, no other effects of the original attack apply). 
+**Blade Mastery:** The character suffers a -1 penalty to Fight during the to-hit rolls for this attack, but if it hits the target is vexed.  
 
-**Bludgeon Mastery:** If an attack the character makes misses, the character still does damage at Strength -2 (minimum Strength 1, no other effects of your attack apply). 
+**Bludgeon Mastery:** The character loses the sapped condition and ignores Armor for this attack, but if it hits they do damage at Strength -2 (minimum Strength 0). 
 
-**Exotic Mastery:** If a character hits a creature with this weapon, the target falls prone. 
+**Exotic Mastery:** The character suffers a -1 penalty to Fight during the to-hit roll for this attack. If the attack hits, the target falls prone. 
 
 
 
 *One mastery is available if you are armed with both hand weapon and light weapon:*
 
-**Dual Wielding Mastery:** After making an attack with a hand weapon, the character may immediately make an attack with a light weapon against a target of their choice. 
+**Dual Wielding Mastery:** The character suffers a -1 penalty to Fight during the to-hit roll for this attack, but may make an additional attack at -1 Fight and -1 Strength using the same type of hand weapon. 
 
 
 
 *One mastery is available if you are armed with a shield:* 
 
-**Shield Mastery:** The character may make an attacker reroll one successful to-hit roll against them, before the avoid-wound roll. 
+**Shield Mastery:** The character suffers a -1 penalty to Fight on all to-hit rolls this combat phase, but may choose one adjacent enemy to be sapped. 
 
-Characters with bows can only use a shield against melee attacks. 
-
-Characters with great weapons can only use a shield against ranged attacks. 
-
-If a character has both a bow and a great weapon, they cannot use a shield.
+Characters with great weapons may not use Shield Mastery. A character must have their combat action remaining in order to use Shield Mastery (it does not use up their action).
 
 ## Combat Maneuvers
 
 As their combat action, instead of attacking, a character can choose to perform a combat maneuver. 
 
-**Disengage:** After all attacks from both sides have been resolved, the user may move 1". This movement does not provoke opportunity attacks. 
+**Disengage:** After all attacks and combat actions from both sides have been resolved, the user may move 1". This movement does not provoke opportunity attacks. 
 
 **Escape:** A creature that is grappled tries to escape. Make a Fortitude or Reflex save (whichever is better). On a success, the creature escapes. 
 
@@ -517,7 +581,9 @@ Some spells require concentration.
 
 Once they cast a spell that requires concentration, the caster does not need to do anything to maintain concentration on the spell.
 
-**If a caster takes Damage,** they may lose concentration and the spell end. They make a Fortitude save (Potency +0), and on a failure they lose concentration and the spell ends. Otherwise, they maintain concentration. 
+**If a caster takes Damage,** they may lose concentration and the spell end. At the end of the movement phase (if hit by a ranged attack or spell) or end of the melee (if hit by a melee attack), they make a Fortitude save (Potency +0), and on a failure they lose concentration and the spell ends. Otherwise, they maintain concentration. 
+
+A character that is hit by multiple ranged attacks only tests concentration once, and the same for a character hit by multiple melee attacks. But if a character is hit by both ranged attacks and melee attacks in the same round, they test twice - once at the end of the movement phase and once at the end of their melee. 
 
 Note that this save is required if the caster is hit by an attack that does Damage - even if they successfully avoid the wound. 
 
@@ -567,11 +633,13 @@ Barriers include fences, walls and natural obstacles like rocks and trees.
 
 For the purpose of movement, **characters ignore barriers that are less than half their height.** 
 
-**Barriers that are less than or equal to the character's height** (like a fence) must be vaulted. Vaulting costs no vertical movement. 
+**Barriers that are less than or equal to the character's height** (like a fence) must be vaulted. Vaulting costs an additional inch of movement, regardless of the height of the barrier.
 
 **Barriers that are greater than the character's height** (like a cliff) must be climbed. When climbing, every inch of vertical height gained costs 1 inch of movement. 
 
-**When vaulting or climbing,** make a Fortitude save (Potency +1 if the figure is wearing heavy armor). On a failure the model falls prone and takes a hit (Strength equal to the number of inches fallen; when a creature was only vaulting, it falls prone but takes no falling damage). 
+**When climbing,** make a Fortitude save (Potency +1 if the figure is wearing heavy armor). On a failure the model falls prone and takes a hit (Strength equal to the number of inches fallen). 
+
+**Dropping straight down from a height** costs no movement, but requires a climb check. 
 
 ### Gaps
 
@@ -588,6 +656,12 @@ Tight spaces include narrow alleys between buildings, ditches and cave tunnels.
 **Characters cannot move through tight spaces that narrower than half their base width.**
 
 **Characters can move through tight spaces that are at least as wide as half their base width,** but must end their turn in open space. 
+
+## Combat at height
+
+Whether two characters threaten one another, and whether they can fight in melee, is measured horizontally. In other words, two enemies at different levels of elevation can fight one another. 
+
+However, if the higher character is standing on something that is taller than the Height of the lower character, the two cannot fight in melee. For example, a Medium elf is 25mm in Height. If the ground an enemy is standing on is more than 25mm higher than the ground the elf is standing on, the two are not in melee and do not threaten one another. 
 
 # Morale
 
@@ -623,9 +697,17 @@ You could have other outcomes like a character being kidnapped or lost and needi
 
 ## Objects
 
-Some scenarios will involve the discovery or transportation of objects. A Light Object can be carried by any non-Beast figure, and picked up or passed to another creature as a combat action. It can be dropped as a free action. If the carrier is eliminated, an adjacent enemy can pick it up as a free action. 
+Some scenarios will involve the discovery or transportation of objects. 
 
-A Heavy Object, like a siege ladder, dead body or wounded ally, can be carried but it consumes the carrier's action for that round to do so. 
+A Light Object can be carried by any non-Beast figure, and picked up or passed to another creature as a combat action. While they are on the ground, Light Objects sit on 20mm bases and Heavy Objects have the dimensions that make sense (very long for a siege ladder; the character's standard base size in the case of a dead body or wounded ally).
+
+An Object can be dropped as a free action, and is dropped automatically if the carrier is eliminated. Place the Object on the ground adjacent to the carrier. 
+
+A character within 1" of a dropped Object can attempt to pick it up as a combat action. Make a Reflex save (Potency = to the number of the characters' enemies who are within 1" of the Light Object). On a success, the character picks up the Object.
+
+Carrying a Heavy Object consumes the carrier's action for that round. 
+
+Objects (Light and Heavy) do not block movement, and a character can stand on top of an Object. 
 
 # Conditions
 
@@ -637,6 +719,8 @@ A condition doesn’t stack with itself; a recipient either has a condition or d
 
 **Charmed:** The target cannot attack the charmer or target the charmer with damaging abilities or magical effects. The condition lasts until the end of the next full round. 
 
+**Dominated:** The other side gets to control this character until the end of the next full round. 
+
 **Frightened:** The target has disadvantage on to-hit rolls and saving throws while the source of fear is within line of sight. The target can’t willingly move closer to
 the source of fear. At the end of each round, test Morale. On success, lose the frightened condition. 
 
@@ -644,7 +728,7 @@ the source of fear. At the end of each round, test Morale. On success, lose the 
 
 A grappled creature can use the Escape combat maneuver to end the grapple. The grapple ends automatically if the grappler has the incapacitated condition or if the grappled creature is moved away from the grappler by forced movement. A grappler may choose to end a grapple at any time. 
 
-**Hidden:** The target counts as invisible against enemies that are more than 6" away, if there is cover obscuring at least part of them from the enemy. The condition lasts until the end of the next full round.
+**Hidden:** The target counts as invisible against enemies that are more than 6" away, if there is cover obscuring at least part of them from the enemy. The condition lasts until the end of the next full round, or until the target makes a ranged attack.
 
 **Invisible:** The target cannot be seen. Attacks against the target have disadvantage, and the target's to-hit rolls have advantage. The condition lasts until the end of the next full round. 
 
@@ -656,15 +740,94 @@ A grappled creature can use the Escape combat maneuver to end the grapple. The g
 
 **Sapped:** The target has disadvantage on its next to-hit roll, then it loses this condition.
 
-**Stunned:** Place the figure on its side, face down, to indicate that it is stunned. A creature that is stunned cannot move, take a reaction or take an action, and it loses concentration on spells. When the figure could next take a combat action, it loses stunned instead. 
+**Stunned:** Place the figure on its side, face down, to indicate that it is stunned. A creature that is stunned cannot move, use features other than passive features, make an opportunity attack or take an action, and it loses concentration on spells. When the figure could next take a combat action, it loses stunned instead. 
 
 **Vexed:** The next to-hit roll against this creature is with advantage, then it loses this condition. 
+
+ # Troops
+
+The following figures are all Humanoids. 
+
+| **Name**                                   | **Spd** | **Fight** | **Armor** | **Tough** | **Health** | **Attacks** | **Str** | **Saves** | Morale | **Features**                                                 |
+| ------------------------------------------ | ------- | --------- | --------- | --------- | ---------- | ----------- | ------- | --------- | ------ | ------------------------------------------------------------ |
+| **Dwarf Warrior** <br />[8 points]         | 5"      | 4         | 0         | 7         | 1          | 1x          | 3       | 3/3/3     | 8      | *Sturdy* No Speed penalty for heavy armor <br />**Hand Weapon** |
+| **Elf Warrior**<br />[8 points]            | 6"      | 4         | 0         | 4         | 1          | 2x          | 3       | 3/3/3     | 8      | *Wilderness Stride*<br />**Hand Weapon**                     |
+| **Goblin Warrior**<br />[2 points]         | 6"      | 4         | 0         | 2         | 1          | 1x          | 2       | 3/3/3     | 7      | *Small*<br />*Climb*<br />*Pack Tactics* <br />**Hand Weapon** |
+| **Halfling Warrior**<br />[4 points] | 5"      | 4         | 0         | 3         | 1          | 1x          | 3       | 3/3/3     | 8      | *Small*<br />*Sneak Attack* Weapon attacks with advantage or against flanked target get +1 Str <br />*Nimble Escape* The character may Disengage or Hide as a free action <br />**Hand Weapon** |
+| **Gnome Warrior**<br />[4 points] | 5"      | 4         | 0         | 3         | 1          | 1x          | 3       | 3/3/3     | 8      | *Small*<br />*Magic Resistance* <br />*Camouflage* If hidden, gains benefits even if not behind cover. <br />**Hand Weapon** |
+| **Human Levy**<br />[2 points]             | 6"      | 3         | 0         | 3         | 1          | 1x          | 2       | 3/3/3     | 7      | **Hand Weapon**                                              |
+| **Human Warrior**<br />[4 points]          | 6"      | 4         | 0         | 4         | 1          | 1x          | 3       | 3/3/3     | 8      | **Hand Weapon**                                              |
+| **Orc Warrior**<br />[4 points]            | 6"      | 4         | 0         | 3         | 1          | 1x          | 5       | 4/3/2     | 7      | *Pack Tactics* <br />**Hand Weapon**                         |
+
+* By default, warriors begin with a **hand weapon** (costing no points). Choose its type: Blade, Bludgeon, Spear or Exotic. 
+
+* A warrior with two **hand weapons** **of different types** can choose between their special effects (called “masteries”). 
+
+* A soldier with a **hand weapon** and a **light weapon** can make an extra attack with the light weapon. 
+
+* **Light weapons** and **throwing weapons** do not run out of ammunition, even if they are used for ranged attacks. A single "light weapon" or "throwing weapon" represents  having several on hand. 
+
+* Creatures of 16 or more points (called "heroes") must pay 5 times as many points for each piece of equipment. 
+
+| **Weapon**          | **Points (Warrior / Hero)**                  | **Strength modifier** | **Details**                                           |
+| ------------------- | -------------------------------------------- | --------------------- | ----------------------------------------------------- |
+| **Great Weapon**    | 2 / 5<br />If replacing a hand weapon, 1 / 5 | +1                    | Blade, Bludgeon, Spear or Exotic                      |
+| **Hand Weapon**     | 1 / 5                                        |                       | Blade, Bludgeon, Spear or Exotic                      |
+| **Throwing Weapon** | 1 / 5                                        |                       | Ranged 4”/8”<br />Can be used in melee at -1 Strength |
+| **Bow**             | 3 / 15                                       |                       | Ranged 12”/24”                                        |
+
+If a creature's hand weapon does 2 or more Damage, then light weapons, great weapons and other hand weapons that the creature adds also do that much Damage. 
+
+Bows and throwing weapons do not do more Damage unless specifically mentioned. 
+
+| **Armor**       | **Points** (Warrior / Hero)                  | **Details**                   |
+| --------------- | -------------------------------------------- | ----------------------------- |
+| **Light Armor** | 2 / 10                                       | +1 Armor while worn           |
+| **Heavy Armor** | 4 / 20 <br />If replacing light armor, 1 / 5 | +2 Armor, -1 Speed while worn |
+| **Shield**      | 1 / 5                                        | Shield Mastery                |
+
+## Captains
+
+Captain is a template that applies to any troop type (dwarf, etc.). 
+
+| **Name**    | **Spd** | **Fight** | **Armor** | **Tough** | **Health** | **Attacks** | **Str** | **Fort** | **Ref** | **Will** | **Points** | **Morale** |
+| ----------- | ------- | --------- | --------- | --------- | ---------- | ----------- | ------- | -------- | ------- | -------- | ---------- | ---------- |
+| **Captain** |         |           |           | +1        | +1         |             | +1      | +1       | +1      | +1       | x5         | +2         |
+
+☐ *Second Wind* Reroll a to-wound roll that would cause you a wound.
+☐ *Action Surge* Take an additional movement action in the Movement Phase or Combat Action in the combat phase
+
+## Mounts
+
+Figures can be mounted, following the "riding mounts" rules earlier. 
+
+The Speeds given below are *before* being mounted; remember to reduce Speed by 2 while the beast is mounted. 
+
+Mounts of 16 points or lower cost double when purchased for a hero.
+
+| **Name**                          | **Spd** | **Fight** | **Armor** | **Tough** | **Health** | **Attacks** | **Str** | **Saves** | **Features**                                                 |
+| --------------------------------- | ------- | --------- | --------- | --------- | ---------- | ----------- | ------- | --------- | ------------------------------------------------------------ |
+| **Worg**<br />[8 / 16 points]     | 10"     | 4         | 0         | 6         | 1          | 1x          | 4       | 4/3/3     | *Large Fey*<br />**Bite** On a hit, the target is also vexed |
+| **Axebeak**<br />[2 / 4 points]   | 10"     | 4         | 0         | 5         | 1          | 1x          | 3       | 3/3/3     | *Large Beast*<br />**Beak**                                  |
+| **Elk**<br />[4 / 8 points]       | 10"     | 4         | 0         | 3         | 1          | 1x          | 4       | 4/3/3     | *Large Beast*<br />*Trample* If elk moved at least 4” this turn, on a hit also knock Large or smaller target prone. <br />**Horn** |
+| **Warhorse**<br />[8 / 16 points] | 12"     | 5         | 0         | 5         | 1          | 1x          | 5       | 4/3/4     | *Large Beast*<br />*Trample* If warhorse moved at least 4” this turn, on a hit also knock Large or smaller target prone. <br />**Hooves** |
+
+Beasts can be equipped with barding, which is armor for animals. 
+
+Barding for a hero's mount costs double that of a warrior's mount (4 points for light barding, 8 points for heavy barding). Barding for a mount that cost 16 points or more in its own right costs 10 points, or 20 points for heavy barding. 
+
+| **Armor**         | **Points** (Warrior / Hero / Monstrous Mount)           | **Details**       |
+| ----------------- | ------------------------------------------------------- | ----------------- |
+| **Light Barding** | 2 / 4 / 10                                              | 1 Armor, -1 Speed |
+| **Heavy Barding** | 4 / 8 / 20 <br />If replacing light barding, 2 / 4 / 10 | 2 Armor, -2 Speed |
 
 # Common features
 
 Where the following features appear in a creature's description, they are usually not described in detail.
 
 *Flyby* During the movement phase, the figure can sacrifice movement equal to half its flying Speed. If it does so, at the end of the round the figure can move up to half its flying Speed. This does not provoke opportunity attacks.  
+
+*Frightful Prescence* Creatures without Immune Fear must make a morale check to move into the threatened space of a creature with Frightful Prescence. 
 
 *Invisibility* This creature permanently has the invisible condition
 
@@ -674,7 +837,7 @@ Where the following features appear in a creature's description, they are usuall
 
 *Mind Blank* The figure is immune to psychic damage and the charmed and controlled conditions.
 
-*Pack Tactics* Any time two allies with Pack Tactics are adjacent to an enemy, all creatures with Pack Tactics treat that enemy as flanked.  
+*Pack Tactics* Any time two allies with Pack Tactics are in melee with an enemy, all creatures with Pack Tactics treat that enemy as flanked.  
 
 *Siege Monster* Deal double the Damage on each hit to structures and siege engines. 
 
@@ -693,6 +856,8 @@ A sub-set of features are Leader and those like it. They allow allies to use the
 ## Special Movements
 
 A sub-set of features are special movements. 
+
+If the creature can use its special movement, and it has a higher Speed than its land Speed, then it acts on its special movement's Speed instead. For example, a creature with Speed 2" and Swim 12" would act on Speed 12 if it is in water or within 2" of water (in which case, it must enter the water). 
 
 *Burrow* The character can move below ground at the same speed it moves on land, including moving beneath enemy figures. The character must end its movement in an unoccupied space. 
 
@@ -744,96 +909,108 @@ By default, most types do not have any effect. For example, all elves are of the
 
 *Undead* The character is immune to necrotic damage.
 
- # Troops
-
-The following figures are all Humanoids. 
-
-| **Name**                                   | **Spd** | **Fight** | **Armor** | **Tough** | **Health** | **Attacks** | **Str** | **Saves** | Morale | **Features**                                                 |
-| ------------------------------------------ | ------- | --------- | --------- | --------- | ---------- | ----------- | ------- | --------- | ------ | ------------------------------------------------------------ |
-| **Dwarf Warrior** <br />[8 points]         | 5"      | 4         | 0         | 7         | 1          | 1x          | 3       | 3/3/3     | 8      | *Sturdy* No Speed penalty for heavy armor <br />**Hand Weapon** |
-| **Elf Warrior**<br />[8 points]            | 6"      | 4         | 0         | 4         | 1          | 2x          | 3       | 3/3/3     | 8      | *Wilderness Stride*<br />**Hand Weapon**                     |
-| **Goblin Warrior**<br />[2 points]         | 6"      | 4         | 0         | 2         | 1          | 1x          | 2       | 3/3/3     | 7      | *Small*<br />*Climb*<br />*Pack Tactics* <br />**Hand Weapon** |
-| **Gnome/Halfling Warrior**<br />[4 points] | 5"      | 4         | 0         | 3         | 1          | 1x          | 3       | 3/3/3     | 8      | *Small*<br />*Sneak Attack* Weapon attacks with advantage or against flanked target get +1 Str <br />*Nimble Escape* The character may Disengage or Hide as a free action <br />**Hand Weapon** |
-| **Human Levy**<br />[2 points]             | 6"      | 3         | 0         | 3         | 1          | 1x          | 2       | 3/3/3     | 7      | **Hand Weapon**                                              |
-| **Human Warrior**<br />[4 points]          | 6"      | 4         | 0         | 4         | 1          | 1x          | 3       | 3/3/3     | 8      | **Hand Weapon**                                              |
-| **Orc Warrior**<br />[4 points]            | 6"      | 4         | 0         | 3         | 1          | 1x          | 5       | 4/3/2     | 7      | *Pack Tactics* <br />**Hand Weapon**                         |
-
-* By default, warriors begin with a **hand weapon** (costing no points). Choose its type: Blade, Bludgeon, Spear or Exotic. 
-
-* A warrior with two **hand weapons** **of different types** can choose between their special effects (called “masteries”). 
-
-* A soldier with a **hand weapon** and a **light weapon** can make an extra attack with the light weapon. 
-
-* **Light weapons** and **throwing weapons** do not run out of ammunition, even if they are used for ranged attacks. A single "light weapon" or "throwing weapon" represents  having several on hand. 
-
-* Creatures of 16 or more points (called "heroes") must pay 5 times as many points for each piece of equipment. 
-
-| **Weapon**          | **Points (Warrior / Hero)**                   | **Strength modifier** | **Details**                      |
-| ------------------- | --------------------------------------------- | --------------------- | -------------------------------- |
-| **Great Weapon**    | 2 / 5<br />If replacing a hand weapon, 1 / 5  | +1                    | Blade, Bludgeon, Spear or Exotic |
-| **Hand Weapon**     | 1 / 5                                         |                       | Blade, Bludgeon, Spear or Exotic |
-| **Light Weapon**    | 1 / 5 <br />If replacing a hand weapon, 0 / 0 | -1                    | Melee or ranged 2”/4”            |
-| **Throwing Weapon** | 1 / 5                                         |                       | Ranged 4”/8”                     |
-| **Bow**             | 3 / 15                                        |                       | Ranged 12”/24”                   |
-
-If a creature's hand weapon does 2 or more Damage, then light weapons, great weapons and other hand weapons that the creature adds also do that much Damage. 
-
-Bows and throwing weapons do not do more Damage unless specifically mentioned. 
-
-| **Armor**       | **Points** (Warrior / Hero)                  | **Details**                   |
-| --------------- | -------------------------------------------- | ----------------------------- |
-| **Light Armor** | 1 / 5                                        | +1 Armor while worn           |
-| **Heavy Armor** | 2 / 10 <br />If replacing light armor, 1 / 5 | +2 Armor, -1 Speed while worn |
-| **Shield**      | 1 / 5                                        | Shield Mastery                |
-
-## Captains
-
-Captain is a template that applies to any troop type (dwarf, etc.). 
-
-| **Name**    | **Spd** | **Fight** | **Armor** | **Tough** | **Health** | **Attacks** | **Str** | **Fort** | **Ref** | **Will** | **Points** | **Morale** |
-| ----------- | ------- | --------- | --------- | --------- | ---------- | ----------- | ------- | -------- | ------- | -------- | ---------- | ---------- |
-| **Captain** |         |           |           | +1        | +1         |             | +1      | +1       | +1      | +1       | x5         | +2         |
-
-☐ *Second Wind* Take 1 less Damage from a Str 4 or less hit
-☐ *Action Surge* Take an additional movement action in the Movement Phase or Combat Action in the combat phase
-
-## Mounts
-
-Figures can be mounted, following the "riding mounts" rules earlier. 
-
-The Speeds given below are *before* being mounted; remember to reduce Speed by 2 while the beast is mounted. 
-
-Mounts of 16 points or lower cost double when purchased for a hero.
-
-| **Name**                          | **Spd** | **Fight** | **Armor** | **Tough** | **Health** | **Attacks** | **Str** | **Saves** | **Features**                                                 |
-| --------------------------------- | ------- | --------- | --------- | --------- | ---------- | ----------- | ------- | --------- | ------------------------------------------------------------ |
-| **Worg**<br />[8 / 16 points]     | 10"     | 4         | 0         | 6         | 1          | 1x          | 4       | 4/3/3     | *Large Fey*<br />**Bite** On a hit, the target is also vexed |
-| **Axebeak**<br />[2 / 4 points]   | 10"     | 4         | 0         | 5         | 1          | 1x          | 3       | 3/3/3     | *Large Beast*<br />**Beak**                                  |
-| **Elk**<br />[4 / 8 points]       | 10"     | 4         | 0         | 3         | 1          | 1x          | 4       | 4/3/3     | *Large Beast*<br />*Trample* If elk moved at least 4” this turn, on a hit also knock Large or smaller target prone. <br />**Horn** |
-| **Warhorse**<br />[8 / 16 points] | 12"     | 5         | 0         | 5         | 1          | 1x          | 5       | 4/3/4     | *Large Beast*<br />*Trample* If warhorse moved at least 4” this turn, on a hit also knock Large or smaller target prone. <br />**Hooves** |
-
-Beasts can be equipped with barding, which is armor for animals. 
-
-Mounts that cost 16 points or more count as "heroes", and their barding costs more. 
-
-| **Armor**         | **Points** (Warrior / Hero)                    | **Details**        |
-| ----------------- | ---------------------------------------------- | ------------------ |
-| **Light Barding** | 1 / 5                                          | +1 Armor, -1 Speed |
-| **Heavy Barding** | 2 / 10 <br />If replacing light barding, 1 / 5 | +2 Armor, -2 Speed |
-
 # Encounters
+
+## Confrontation
+
+**Points:** 100 to 350 points per side. 
+
+**Battlefield:** 2 by 2 foot. The Lead Player should cover about one-third of the battlefield with terrain.
+
+**Deployment:** The Lead Player should indicate the two "starting edges", which must be opposite one another. One side will start on one edge and the other side on the other. 
+
+The non-Lead Player's side chooses which edge of the battlefield to deploy from. They can place their miniatures up to 6" from that side of the edge. 
+
+Those on the Lead Player's side deploy up to 6" from the opposite edge.
+
+**Game end:** The game ends when one side has been reduced to one-quarter of their number or less. The other side wins the encounter. 
 
 ## Raid
 
+**Points:** 100 to 350 points per side. 
 
+**Battlefield:** 2 by 2 foot. The Lead Player should cover about one-third of the battlefield with terrain.
 
-### Treasures
+The Lead Player should also place six Supplies, which are represented with 25mm bases. Place three along the far edge of the Lead Player's deployment zone, equidistant from one another, and the remaining three on the far edge of the non-Lead Player's deployment zone, equidistant from one another. The far edge means the edge closest to the middle of the board. 
 
-A character that is adjacent to a treasure can spend a combat action to make a Will save (Potency = to the number of enemies that are adjacent to the treasure). On a success, they pick up the treasure (it is a light object).
+**Deployment:** The Lead Player should indicate the two "starting edges", which must be opposite one another. One side will start on one edge and the other side on the other. 
+
+The non-Lead Player's side chooses which edge of the battlefield to deploy from. They can place their miniatures up to 6" from that side of the edge. 
+
+Those on the Lead Player's side deploy up to 6" from the opposite edge.
+
+**Supplies:** A character within 1" of a Supply that is on their opponent's side of the table can spend a combat action to destroy the Supply. They must not be within the engagement zone of any enemy in order to do so. 
+
+**Game end:** The game ends when one side has destroyed all three Supplies on their opponent's side of the board, or has destroyed two supplies and the other has destroyed no supplies. They win the encounter.
+
+## Sacred Objects
+
+**Points:** 100 to 350 points per side.  
+
+**Battlefield:** 2 by 2 foot. The Lead Player should cover about one-third of the battlefield with terrain.
+
+The Lead Player should also place three Light Objects called treasures, which are represented with 20mm bases. Place all three in the middle of the board, between the two starting edges. Distribute them equidistant along that central line.  
+
+**Deployment:** The Lead Player should indicate the two "starting edges", which must be opposite one another. One side will start on one edge and the other side on the other. 
+
+The non-Lead Player's side chooses which edge of the battlefield to deploy from. They can place their miniatures up to 6" from that side of the edge. 
+
+Those on the Lead Player's side deploy up to 6" from the opposite edge.
+
+**Game end:** The game ends when one side controls two of the three treasures at the end of a round. They win the encounter.
 
 # Spells
 
+Spells come in three varieties: incantations, which require concentration to maintain; quick spells, which can be cast without spending an action; and standard spells, 
 
+### Incantations
+
+These spells require concentration to maintain. 
+
+| Spell                         | Range                                                        | Effect                                                       |
+| ----------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| Abjure Foes                   | Self                                                         | The caster gains Frightful Presence                          |
+| Bane                          | 3” aura (all enemies), add +1” to aura for each point of Potency | Targets suffer -1 to Fight and to saving throws.             |
+| Beacon of Hope                | 6” aura (self and all allies)                                | Targets gain +1 to Toughness and to Will saves.              |
+| Bless                         | 3” aura (self and all allies), add +1” to aura for each point of Potency | Targets gain +1 to Fight and to saving throws.               |
+| Calm Emotions                 | 12” aura (self and all allies)                               | Targets are immune to charmed and frightened.                |
+| Fly                           | Target self or 1 ally within 1”, plus 1 ally per point of Potency | The target gains the Fly 12” feature.                        |
+| Fog Cloud                     | 4” radius within 24”                                         | The target area is obscured terrain.                         |
+| Haste                         | 6” (self or 1 ally)                                          | The target gets +1 Speed, +1 Armor and +1 Attacks. When the spell ends, the target is stunned. |
+| Hold Person                   | 12” (one enemy, plus one for each point of Potency)          | The target is stunned until the end of the encounter unless it succeeds on a Will saving throw. It makes one save when first targeted and one more at the end of each round. |
+| Hunter’s Mark                 | 48” (one enemy)                                              | You get +1 Strength on attacks against the target. If the target is eliminated, you may name another target. |
+| Invisibility                  | Target self or 1 ally within 1”, plus 1 ally per point of Potency | The target gains the invisible condition until it makes an attack, deals damage or casts a spell. |
+| Protection from Energy        | Target self or 1 ally within 1”                              | The target gains resistance to one energy of your choice: acid, cold, fire, lightning or thunder. |
+| Protection from Evil and Good | Target self or 1 ally within 1”                              | Attacks from aberrations, celestials, fiends, elementals and undead are disadvantaged against the target; the target is also immune to charmed, dominated and frightened conditions imposed by those creatures. |
+| Spiritual Weapon              | Target unoccupied space within 8”                            | Summons a Medium size spiritual weapon that takes the attack action each Combat Phase and attacks with the caster’s Fight.<br />If it hits, it does 1 Damage (Strength equal to caster’s Strength + caster’s Potency).<br />The spiritual weapon moves during the caster’s turn to move, at Speed 4”. |
+
+### Quick Spells
+
+| Spell              | Range                                             | Effect                                                       |
+| ------------------ | ------------------------------------------------- | ------------------------------------------------------------ |
+| Counterspell       | Range 12” (an enemy that just cast a spell)       | The target makes a Fortitude save. On a failure, the spell fails. If that spell was cast with a spell slot, the slot isn’t expended. |
+| Healing Word       | One ally within 12” would be wounded by an attack | Reroll a to-wound roll that would cause the target a wound. For each point of Potency, add +1 to the result of the re-roll. |
+| Lesser Restoration | Target self or 1 ally within 1”                   | Target loses 1 condition of their choice                     |
+| Misty Step         | Self                                              | At the start of the movement phase, you teleport up to 6”.   |
+| Shield             | Self                                              | You gain Shield Mastery and resist force damage for a single attack. This counts as your mastery use for the round. |
+| Shining Smite      | One enemy you hit with an attack                  | Cast this spell when you hit with a melee attack. Add +1 to the Strength of the attack, change the damage to radiant, the target loses the hidden and invisible conditions and the target is vexed. |
+
+### Standard Spells
+
+Standard spells require an action to cast (a combat action, unless otherwise mentioned). 
+
+| Spell              | Range                               | Effect                                                       |
+| ------------------ | ----------------------------------- | ------------------------------------------------------------ |
+| **Cone of Cold**   | Cone 8” (closest 2d6 figures)       | 1 cold Damage at Strength 8 (on a successful Fortitude save, they take it at Strength 5 instead). A creature eliminated by this spell becomes an obstacle until the end of the encounter. Add your Potency to the Damage each target takes. |
+| **Cure Wounds**    | Target self or 1 ally within 1”     | Heal 1 Wound                                                 |
+| **Dispel Magic**   | 6” (one ongoing spell effect)       | The target spell ends.                                       |
+| **Guiding Bolt**   | 24” (one enemy)                     | Make a to-hit roll, on hit the target takes 1 radiant Damage at Strength 7 and is sapped. Add your Potency to the Strength of the hit. |
+| **Lightning Bolt** | Line 10” long (closest 2d6 figures) | 1 lightning Damage at Strength 7 (on a successful Reflex save, they take it at Strength 4 instead). Add your Potency to the Damage each target takes. |
+| **Preserve Life**  | Target self or 1 ally within 6”     | Heal 1 wound. Heal 1 additional target per point of Potency. |
+| **Revivify**       | N/A                                 | At the end of the encounter, for each spell slot you have remaining, one eliminated ally does not have to roll an injury test – they recover fully. |
+| **Sacred Weapon**  | Self                                | Your Strength increases by 1 until the end of the encounter. |
+| **Teleport**       | Radius 2” (you and all allies)      | choose a point you can see on the battlefield. Place those affected in the closest unoccupied spaces to that point. |
+| **Turn Undead**    | 6” (closest 2d6 undead)             | The targets are frightened and incapacitated for 1 minute, must move away from you (Will negates). Ends if they are hit by an attack, take damage, or if caster is incapacitated or eliminated. If your Potency is 1 or more, you also do 1 Damage per point of Potency (Strength 5) to any undead that fail their Will save. |
 
 # Converting from 5e
 
