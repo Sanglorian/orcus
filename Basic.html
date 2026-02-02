@@ -1,0 +1,4894 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Orcus</title>
+  <link rel="stylesheet" href="orcus.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Orcus</h1>
+<p class="subtitle">Basic Rules</p>
+</header>
+<p>Orcus is a tabletop roleplaying game based on the fourth edition of
+the world’s most popular roleplaying game.</p>
+<p>Orcus is a work in progress. All feedback is welcome.</p>
+<p>Version 0.1</p>
+<h2 id="proudly-free-and-open-source">Proudly free and open source</h2>
+<p>Orcus Basic Rules is licensed under the Creative Commons Attribution
+4.0 International License. License available at <a
+href="https://creativecommons.org/licenses/by/4.0/legalcode">https://creativecommons.org/licenses/by/4.0/legalcode</a>.</p>
+<p>This work includes material taken from the System Reference Document
+5.1 (“SRD 5.1”) by Wizards of the Coast LLC and available at <a
+href="https://dnd.wizards.com/resources/systems-reference-document">https://dnd.wizards.com/resources/systems-reference-document</a>
+and the A5E System Reference Document (A5ESRD) by EN Publishing and
+available at A5ESRD.com, based on Level Up: Advanced 5th Edition,
+available at www.levelup5e.com. The SRD 5.1 and A5ESRD are licensed
+under the Creative Commons Attribution 4.0 International License.</p>
+<p>Playtest Edition</p>
+<p><img src="media/media/image1.png"
+style="width:3.925in;height:0.95833in"
+alt="Compatible with Fourth Edition" /></p>
+<h2 id="table-of-contents">Table of Contents</h2>
+<p><a href="#proudly-free-and-open-source">Proudly free and open source
+<span>1</span></a></p>
+<p><a href="#table-of-contents">Table of Contents <span>2</span></a></p>
+<p><a href="#playing-orcus">Playing Orcus <span>3</span></a></p>
+<p><a href="#the-core-rule">The core rule <span>3</span></a></p>
+<p><a href="#other-general-rules">Other general rules
+<span>3</span></a></p>
+<p><a href="#character-details">Character details <span>4</span></a></p>
+<p><a href="#combat-encounters">Combat encounters <span>5</span></a></p>
+<p><a href="#surprise-round">Surprise round <span>5</span></a></p>
+<p><a href="#initiative">Initiative <span>5</span></a></p>
+<p><a href="#your-turn">Your turn <span>5</span></a></p>
+<p><a href="#free-actions">Free actions <span>6</span></a></p>
+<p><a href="#outside-of-your-turn">Outside of your turn
+<span>6</span></a></p>
+<p><a href="#actions">Actions <span>7</span></a></p>
+<p><a href="#action-descriptions">Action descriptions
+<span>7</span></a></p>
+<p><a href="#action-recharge">Action recharge <span>7</span></a></p>
+<p><a href="#action-required">Action required <span>8</span></a></p>
+<p><a href="#targeting">Targeting <span>8</span></a></p>
+<p><a href="#attack-roll">Attack roll <span>9</span></a></p>
+<p><a href="#critical-hits-and-fumbles">Critical hits and fumbles
+<span>10</span></a></p>
+<p><a href="#effects">Effects <span>10</span></a></p>
+<p><a href="#duration">Duration <span>10</span></a></p>
+<p><a href="#universal-actions">Universal actions
+<span>11</span></a></p>
+<p><a href="#conditions">Conditions <span>13</span></a></p>
+<p><a href="#combat-statuses">Combat statuses <span>14</span></a></p>
+<p><a href="#movement-and-positioning">Movement and positioning
+<span>15</span></a></p>
+<p><a href="#speed">Speed <span>15</span></a></p>
+<p><a href="#size">Size <span>15</span></a></p>
+<p><a href="#unwilling-movement">Unwilling movement
+<span>15</span></a></p>
+<p><a href="#difficult-terrain">Difficult terrain
+<span>15</span></a></p>
+<p><a href="#mounted-combat">Mounted Combat <span>16</span></a></p>
+<p><a href="#underwater-combat">Underwater Combat
+<span>16</span></a></p>
+<p><a href="#hit-points-and-healing">Hit points and healing
+<span>17</span></a></p>
+<p><a href="#hit-points">Hit points <span>17</span></a></p>
+<p><a href="#damage-types">Damage types <span>17</span></a></p>
+<p><a href="#hit-points-or-below">0 hit points or below
+<span>17</span></a></p>
+<p><a href="#healing">Healing <span>18</span></a></p>
+<p><a href="#persistent-damage">Persistent damage
+<span>18</span></a></p>
+<p><a href="#resting">Resting <span>18</span></a></p>
+<p><a href="#equipment">Equipment <span>19</span></a></p>
+<p><a href="#coinage">Coinage <span>19</span></a></p>
+<p><a href="#selling-treasure">Selling Treasure <span>19</span></a></p>
+<p><a href="#armor">Armor <span>19</span></a></p>
+<p><a href="#weapons-1">Weapons <span>20</span></a></p>
+<p><a href="#focuses">Focuses <span>23</span></a></p>
+<p><a href="#adventuring-gear">Adventuring Gear <span>23</span></a></p>
+<p><a href="#abilities-and-skills">Abilities and skills
+<span>25</span></a></p>
+<p><a href="#ability-and-skill-checks">Ability and skill checks
+<span>25</span></a></p>
+<p><a href="#abilities">Abilities <span>25</span></a></p>
+<p><a href="#using-each-ability">Using Each Ability
+<span>26</span></a></p>
+<p><a href="#strength">Strength <span>26</span></a></p>
+<p><a href="#constitution">Constitution <span>26</span></a></p>
+<p><a href="#dexterity">Dexterity <span>26</span></a></p>
+<p><a href="#intelligence">Intelligence <span>27</span></a></p>
+<p><a href="#wisdom-1">Wisdom <span>27</span></a></p>
+<p><a href="#charisma-1">Charisma <span>27</span></a></p>
+<p><a href="#the-skills">The skills <span>28</span></a></p>
+<p><a href="#monsters">Monsters <span>31</span></a></p>
+<p><a href="#creating-new-monsters">Creating new monsters
+<span>33</span></a></p>
+<h1 id="section"></h1>
+<h1 id="playing-orcus">Playing Orcus</h1>
+<p>Orcus is a collaborative tabletop role-playing game that involves
+imagination and creativity. The Game Master (GM) acts as the storyteller
+and referee for a group of players. The game works best with one GM and
+four to five players, though smaller or larger groups can also enjoy the
+experience.</p>
+<p>Each player controls a player character (PC), also called a hero.
+Each PC is a hero with special abilities and features that are defined
+by the rules of the game, as well as a personality and backstory which
+is up to the player’s imagination.</p>
+<p>The heroes will end up fighting monsters, and these combats are best
+represented on a grid of squares with miniature figures or tokens to
+represent the heroes and monsters.</p>
+<p>You will need</p>
+<ol type="1">
+<li><p><strong>Dice:</strong> At least one d4, d6, d8, d10, d12 and
+d20.</p></li>
+<li><p><strong>Character Sheets:</strong> Each player needs a character
+sheet for their hero.</p></li>
+<li><p><strong>Tokens or miniatures:</strong> Something to represent
+each hero and any enemies they will fight. A size Medium creature (like
+a human) occupies a space about 1" by 1" by 1".</p></li>
+<li><p><strong>Grid map:</strong> Every inch represents five
+feet.</p></li>
+</ol>
+<h2 id="the-core-rule">The core rule</h2>
+<p>The twenty-sided die (d20) is at the heart of the action resolution
+mechanic. To make an attack, ability check, skill check, or saving
+throw, players roll a d20 and add their relevant modifiers. Apply any
+bonuses and penalties, and compare the total to the appropriate
+difficulty rating (Armor Class, defense, Difficulty Class, and so
+on).</p>
+<p>If the total equals or exceeds the rating, the roll is a success.</p>
+<p>Otherwise, it’s a failure.</p>
+<h2 id="other-general-rules"><br />
+Other general rules</h2>
+<ol type="1">
+<li><p>Round down, unless specifically told to round up.</p></li>
+<li><p>If there is a contradiction between a specific rule and a general
+one, follow the specific rule.</p></li>
+<li><p>You will be told to roll a lot of dice, of various sizes. The
+code “xdy” means “roll x dice of y sides and add them together”. For
+example, 3d10 means “roll 3 dice of 10 sides and add them together”, for
+a final result of somewhere between 3 and 30 (inclusive).</p></li>
+</ol>
+<h1 id="character-details">Character details</h1>
+<p>“Character” and “creature” are used interchangeably to mean all
+people, animals and monsters in the game.</p>
+<p>“Hero”, “adventurer” or “player character” describe a character that
+belongs to a player, and “monster” a character controlled by the Game
+Master.</p>
+<h3 id="alignment">Alignment</h3>
+<p>Each creature has an alignment that broadly describes its moral and
+personal attitudes.</p>
+<p><strong>Lawful good</strong> creatures can be counted on to do the
+right thing as expected by society and follow a strict code.</p>
+<p><strong>Good</strong> folk do the best they can to help others.</p>
+<p><strong>Unaligned</strong> people prefer to steer clear of moral
+questions and don’t take sides.</p>
+<p><strong>Evil</strong> is the alignment of those who do whatever they
+can get away with, without compassion or qualms.</p>
+<p><strong>Chaotic evil</strong> creatures act with arbitrary violence,
+spurred by greed, hatred, or bloodlust.</p>
+<h3 id="senses">Senses</h3>
+<p>Some creatures have special senses. If none are identified, assume
+the creature can sense things about as well as a human can.</p>
+<p><strong>Low-Light Vision</strong> The creature can see in dim light
+as if it were bright light.</p>
+<p><strong>Darkvision</strong> A creature with darkvision can see in the
+dark. The creature can see in dim light as if it were bright light, and
+in darkness as if it were dim light. The creature can’t discern color in
+darkness, only shades of gray.</p>
+<h3 id="experience-levels-and-tiers">Experience, levels and tiers</h3>
+<p>The primary way that adventurers are rewarded is with experience
+points (gaining new character levels the more they accrue) and treasure
+like gold or magic items. Most heroes begin at level 1, the start of the
+“adventurer” tier.</p>
+<p>Adventures that take place with Adventurer tier monsters, traps, and
+player characters (in other words, those between levels 1 and 10) will
+likely be focused on more local issues, like rescuing a village or
+defeating a clan of orcs. Prestige tier adventures might involve more
+dramatic concerns, like the fate of kingdoms. You might end up fighting
+a dragon or rooting out an extraplanar plot to control an entire city.
+In Epic tier, you may fight the devils that run Hell or save the entire
+world from devastation.</p>
+<p>Tiers do not have a mechanical effect in and of themselves, but they
+represent a new stage in the player characters’ journeys.</p>
+<h5 id="table-levels-and-their-benefits">Table – Levels and Their
+Benefits </h5>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;">Level</th>
+<th style="text-align: center;">XP to Reach Next Level</th>
+<th style="text-align: center;">Cumulative XP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="3" style="text-align: center;">Adventurer Tier</td>
+</tr>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1,000</td>
+<td style="text-align: center;">-</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">1,250</td>
+<td style="text-align: center;">1,000</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1,500</td>
+<td style="text-align: center;">2,250</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">1,750</td>
+<td style="text-align: center;">3,750</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">2,000</td>
+<td style="text-align: center;">5,500</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">2,500</td>
+<td style="text-align: center;">7,500</td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">3,000</td>
+<td style="text-align: center;">10,000</td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">3,500</td>
+<td style="text-align: center;">13,000</td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: center;">4,000</td>
+<td style="text-align: center;">16,500</td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">5,000</td>
+<td style="text-align: center;">20,500</td>
+</tr>
+<tr>
+<td colspan="3" style="text-align: center;">Prestige Tier</td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">6,000</td>
+<td style="text-align: center;">25,500</td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">7,000</td>
+<td style="text-align: center;">31,500</td>
+</tr>
+<tr>
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">8,000</td>
+<td style="text-align: center;">38,500</td>
+</tr>
+<tr>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">10,000</td>
+<td style="text-align: center;">46,500</td>
+</tr>
+<tr>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">12,000</td>
+<td style="text-align: center;">56,500</td>
+</tr>
+<tr>
+<td style="text-align: center;">16</td>
+<td style="text-align: center;">14,000</td>
+<td style="text-align: center;">68,500</td>
+</tr>
+<tr>
+<td style="text-align: center;">17</td>
+<td style="text-align: center;">16,000</td>
+<td style="text-align: center;">82,500</td>
+</tr>
+<tr>
+<td style="text-align: center;">18</td>
+<td style="text-align: center;">20,000</td>
+<td style="text-align: center;">98,500</td>
+</tr>
+<tr>
+<td style="text-align: center;">19</td>
+<td style="text-align: center;">24,000</td>
+<td style="text-align: center;">118,500</td>
+</tr>
+<tr>
+<td style="text-align: center;">20</td>
+<td style="text-align: center;">28,000</td>
+<td style="text-align: center;">142,500</td>
+</tr>
+<tr>
+<td colspan="3" style="text-align: center;">Epic Tier</td>
+</tr>
+<tr>
+<td style="text-align: center;">21</td>
+<td style="text-align: center;">32,000</td>
+<td style="text-align: center;">170,500</td>
+</tr>
+<tr>
+<td style="text-align: center;">22</td>
+<td style="text-align: center;">40,000</td>
+<td style="text-align: center;">202,500</td>
+</tr>
+<tr>
+<td style="text-align: center;">23</td>
+<td style="text-align: center;">48,000</td>
+<td style="text-align: center;">242,500</td>
+</tr>
+<tr>
+<td style="text-align: center;">24</td>
+<td style="text-align: center;">56,000</td>
+<td style="text-align: center;">290,500</td>
+</tr>
+<tr>
+<td style="text-align: center;">25</td>
+<td style="text-align: center;">64,000</td>
+<td style="text-align: center;">346,500</td>
+</tr>
+<tr>
+<td style="text-align: center;">26</td>
+<td style="text-align: center;">80,000</td>
+<td style="text-align: center;">410,500</td>
+</tr>
+<tr>
+<td style="text-align: center;">27</td>
+<td style="text-align: center;">96,000</td>
+<td style="text-align: center;">490,500</td>
+</tr>
+<tr>
+<td style="text-align: center;">28</td>
+<td style="text-align: center;">112,000</td>
+<td style="text-align: center;">586,500</td>
+</tr>
+<tr>
+<td style="text-align: center;">29</td>
+<td style="text-align: center;">128,000</td>
+<td style="text-align: center;">698,500</td>
+</tr>
+<tr>
+<td style="text-align: center;">30</td>
+<td style="text-align: center;">N/A</td>
+<td style="text-align: center;">826,500</td>
+</tr>
+</tbody>
+</table>
+<h1 id="combat-encounters">Combat encounters</h1>
+<p>Combat is divided into “rounds”, in which each participant (each hero
+and each monster) takes their “turn”. A round represents about six
+seconds in the story.</p>
+<h3 id="combat-step-by-step">Combat step by step</h3>
+<ol type="1">
+<li><p><strong>Determine surprise.</strong> The GM determines whether
+anyone involved in the encounter is surprised.</p></li>
+<li><p><strong>Establish positions.</strong> The GM decides where all
+the creatures are located. Given the adventurers marching order or their
+stated positions in the room or other location, the GM figures out where
+the adversaries are how far away and in what direction.</p></li>
+<li><p><strong>Roll initiative.</strong> Everyone involved in the combat
+encounter rolls initiative, determining the order of combatants’
+turns.</p></li>
+<li><p><strong>Take turns.</strong> Each participant in the battle takes
+a turn in initiative order.</p></li>
+<li><p><strong>Begin the next round.</strong> When everyone involved in
+the combat has had a turn, the round ends. Repeat step 4 until the
+fighting stops.</p></li>
+</ol>
+<h2 id="surprise-round">Surprise round</h2>
+<p>Adventurers sneak up on a bandit camp, springing from the trees to
+attack. A gelatinous cube glides down a dungeon passage, unnoticed until
+the cube engulfs a hero. In these situations, one side of the battle
+gains surprise over the other.</p>
+<p>The GM determines who might be surprised.</p>
+<p>In a surprise round, those who are <em>not</em> surprised get a
+single standard action on their turn (which they can change for a move
+or swift action, as normal).</p>
+<h2 id="initiative">Initiative</h2>
+<p>Initiative determines the order of turns during combat. When combat
+starts, every participant makes an initiative check. The GM makes one
+roll for an entire group of identical creatures, so each member of the
+group acts at the same time.</p>
+<p>The GM ranks combatants in order from the one with the highest
+initiative check result to the one with the lowest. This is the order in
+which they act during each round. The initiative order remains the same
+from round to round.</p>
+<p>If a tie occurs, the GM decides the order among tied GM-controlled
+creatures, and the players decide the order among their tied characters.
+The GM decides the order if the tie is between a monster and a player
+character.</p>
+<h2 id="your-turn">Your turn</h2>
+<p>When the initiative order for the round reaches your initiative check
+result, you take your turn. At the start of your turn, take any
+persistent damage you are subject to.</p>
+<p>On your turn, you can take four types of action, in any order you
+like, but unless otherwise noted you have to finish one action before
+you can take another.</p>
+<ul>
+<li><p><strong>One standard action:</strong> For example, a basic
+attack. Alternatively, use your standard action to take another move or
+a swift action.</p></li>
+<li><p><strong>One move action:</strong> For example, walking.
+Alternatively, use your move action to take another swift
+action.</p></li>
+<li><p><strong>One swift action:</strong> For example, drawing or
+sheathing a weapon.</p></li>
+<li><p><strong>Any number of free actions (within reason):</strong> For
+example, talking.</p></li>
+</ul>
+<p>You can forgo taking one or more actions, or doing anything at all on
+your turn.</p>
+<h3 id="action-points">Action points</h3>
+<p>Heroes and elite and boss monsters have action points. Once per
+encounter (but not during a surprise round), a hero can spend an action
+point during their turn to take one additional standard, move or swift
+action.</p>
+<p>Monsters are not limited to one action point per encounter, but they
+still cannot use more than one action point per round.</p>
+<p>A hero’s action points are reset to 1 after each long rest. A
+character gains an additional action point after every second encounter
+they have between long rests.</p>
+<h3 id="saving-throws">Saving throws</h3>
+<p>A saving throw – also called a save – represents an attempt to shake
+off an effect. You don’t normally decide to make a saving throw; you are
+forced to make one because your character or monster is at risk of harm
+or trying to shake off a condition, persistent damage or other negative
+effect.</p>
+<p>To make a saving throw, roll a d20. If specified, add other bonuses.
+If the result is 10 or higher, the save succeeds. Typically, a success
+means the effect ends.</p>
+<h5 id="special-saving-throw-riders">Special saving throw riders</h5>
+<p><em>Aftereffect:</em> An aftereffect takes place after the target
+succeeds on its saving throw against the initial effect.</p>
+<p>For example, “blinded (save ends); <em>Aftereffect:</em> dazed (save
+ends)” means the target is blinded until it succeeds on a saving throw.
+Then it is dazed until it succeeds on a saving throw.</p>
+<p>For another example, “The target is dazed until the end of your next
+turn; <em>Aftereffect:</em> The target takes damage equal to your
+Charisma modifier” means that the target is dazed until the end of your
+next turn, then they stop being dazed but they take damage.</p>
+<p><em>First Failed Save:</em> This effect applies to the target the
+first time they fail a saving throw.</p>
+<p>For example, “rattled (save ends); <em>First Failed Save:</em> The
+target is instead blinded (save ends)” means the target is rattled until
+it succeeds on a saving throw. If it fails a saving throw, it becomes
+blinded instead of rattled.</p>
+<p><em>Grappled (save ends):</em> Most grapples last until the target
+breaks the grapple or the grappler chooses to end the grapple. When a
+power says the target is “grappled (save ends)”, as well as those
+methods to end the grapple the target also makes a saving throw each
+turn and breaks the grapple on a success.</p>
+<h3 id="the-end-of-your-turn">The end of your turn</h3>
+<p>At the end of your turn you make saving throws against any effects
+that require them.</p>
+<p>Any effects that require an action to maintain concentration, which
+you have not spent, end now.</p>
+<p>Other effects may also resolve at the end of your turn as noted in
+their descriptions. You choose in which order to resolve effects that
+happen at the end of your turn.</p>
+<h2 id="free-actions">Free actions</h2>
+<p>You can use free actions to:</p>
+<ul>
+<li><p>Communicate however you are able, through brief utterances and
+gestures, as you take your turn or on other characters’ turns.</p></li>
+<li><p>Drop an item.</p></li>
+<li><p>Drop prone.</p></li>
+<li><p>End a grapple (if you are the grappler).</p></li>
+<li><p>Spend an action point.</p></li>
+</ul>
+<p>There are also some powers that require a free action.</p>
+<h2 id="outside-of-your-turn">Outside of your turn</h2>
+<p>There are three types of action you can take outside of your turn:
+immediate actions, opportunity attacks and free actions that have a
+trigger that is met outside of your turn.</p>
+<h3 id="immediate-actions">Immediate actions</h3>
+<p>Certain special abilities, powers, and situations allow you to take a
+special action called an immediate action. It must occur on someone
+else’s turn, and you can only take one immediate action between each of
+your turns.</p>
+<p>Immediate actions come in two varieties:</p>
+<ul>
+<li><p><strong>Counter action:</strong> These immediate actions
+interrupt the other creature’s action. When your immediate action is a
+counter action to another creature’s action, their action pauses while
+your immediate action is resolved. Then that creature can continue its
+action right after the immediate action ends.</p></li>
+<li><p><strong>Reaction:</strong> These immediate actions are reactions
+to the other creature’s action, and occur after the creature completes
+their action. That creature can continue its turn right after the
+immediate action.</p></li>
+</ul>
+<h3 id="opportunity-attacks">Opportunity attacks</h3>
+<p>In a fight, everyone is constantly watching for a chance to strike an
+enemy who is fleeing or passing by. Such a strike is called an
+opportunity attack.</p>
+<p>You can make an opportunity attack when an adjacent hostile creature
+that you can see moves to no longer be adjacent to you. Movement in the
+form of a shift or a teleport does not “provoke” (trigger) opportunity
+attacks. The attack occurs right before the creature leaves the
+square.</p>
+<p>Some types of movement do not provoke opportunity attacks: shifting
+(for example, by taking the Step action), teleporting and unwilling
+movement.</p>
+<p>You can also make an opportunity attack when an adjacent hostile
+creature uses a far or ranged power.</p>
+<p>You can only take one opportunity attack per turn, even if they
+provoke an attack multiple times.</p>
+<p>On rare occasions, you can perform a non-attack action when someone
+provokes an opportunity attack. These are called “opportunity
+actions”.</p>
+<h1 id="section-1"></h1>
+<h1 id="actions">Actions</h1>
+<p>Actions are discrete things that creatures can do. Each action
+describes the type of action it is – with standard, move and swift
+actions being the most common – and what happens when the creature
+performs the action. Some actions can only occur if certain requirements
+are met, or when the action is “triggered” by something else.</p>
+<p>Powers are actions that only certain characters can use. For example,
+only spellcasters can use <em>tangles</em> (and not even all
+spellcasters can do so). Powers are <em>in</em> <em>lower-case and
+italics</em>, while other actions are Usually In Capitals.</p>
+<h2 id="action-descriptions">Action descriptions</h2>
+<p>When a character uses an action, the same basic rules are
+followed.</p>
+<p>Each action description begins with a block of information, including
+the action’s name, category, tags, frequency, action required, range and
+targets, and effects.</p>
+<p>The rest of an entry describes the action’s effects.</p>
+<p>For example, <em>tangles</em> is an at-will attack power:</p>
+<h4 class="Heading-4---At-Will" id="tangles-at-will">Tangles
+(at-will)</h4>
+<blockquote>
+<p><strong>Standard Action</strong> ● <strong>Spell</strong><br />
+<strong>Far</strong> burst 1 within 10, every creature in area<br />
+<strong>Attack</strong> vs Fortitude<br />
+<strong>Hit</strong> 2d6 + your level damage.<br />
+<em>Level 21</em> 3d6 + your level damage instead.<br />
+<strong>Effect</strong> The area becomes difficult terrain until the end
+of your next turn.</p>
+</blockquote>
+<h3 id="category">Category</h3>
+<p>An <strong>attack action</strong> is directed against one or more
+targets, typically enemies (although you can catch allies in friendly
+fire in some cases). It usually involves an attack roll which, if it
+hits, has some kind of negative effect on the target. Some actions also
+have effects when they miss, or regardless of whether they hit or
+miss.</p>
+<p>A <strong>utility action</strong> may affect you, an ally, the
+environment, etc., but typically not an enemy. They can still serve a
+function in combat, however.</p>
+<h3 id="tags">Tags</h3>
+<p>An action’s tags tell you various information about it, which can be
+relevant for other parts of the game. For example, if you get a +2 bonus
+on attack rolls with fire powers, that refers to powers with the Fire
+tag.</p>
+<p>A power with the Weapon tag uses a weapon you are wielding to
+determine some of its effects (damage, and often range). If you are
+proficient with the weapon, add its proficiency bonus to the attack
+roll. You need a weapon (or unarmed strike) to use a Weapon power.</p>
+<p>A power with the Focus tag may use the focus you are currently
+wielding to determine some of its effects.</p>
+<h5 id="traditions">Traditions</h5>
+<p>Tradition tags specify the power source for a power. The main four
+are Arcane, Divine, Martial and Spirit.</p>
+<h2 id="action-recharge">Action recharge</h2>
+<p>Some actions can be used any number of times. Other actions, once
+used, only recharge after a rest.</p>
+<ul>
+<li><p><strong>At-will:</strong> Take this action any number of
+times.</p></li>
+<li><p><strong>Encounter:</strong> After taking this action, you must
+have a short rest before you can use it again.</p></li>
+<li><p><strong>Daily:</strong> After taking this action, you must have a
+long rest before you can use it again.</p></li>
+</ul>
+<p>Most actions that recharge per encounter or daily are powers, but
+there are some other actions (like Rally) that are usable once per
+encounter.</p>
+<h3 id="unusual-recharge-conditions">Unusual recharge conditions</h3>
+<p>Some powers, particularly those belonging to monsters, may recharge
+on a different schedule to encounter and daily powers:</p>
+<p><strong>Recharge X–Y</strong> The notation "Recharge X–Y" means a
+monster can use a power once and that the power then has a random chance
+of recharging during each subsequent round of combat. At the start of
+each of the monster's turns, roll a d6. If the roll is one of the
+numbers in the recharge notation, the monster regains the use of the
+power. The power also recharges when the monster finishes a short or
+long rest.</p>
+<p>For example, "Recharge 5–6" means a monster can use the power once.
+Then, at the start of the monster's turn, it regains the use of that
+power if it rolls a 5 or 6 on a d6.</p>
+<p><strong>Recharge if …</strong> This means a monster can use a power
+once, and then the power recharges if the condition is described. For
+example, “Recharge if the creature takes lightning damage” means the
+power recharges each time the creature takes lightning damage. The power
+also recharges when the monster finishes a short or long rest.</p>
+<h2 id="action-required">Action required</h2>
+<p>Actions will specify whether they are standard actions, move actions,
+swift actions, free actions, immediate actions or opportunity actions.
+This determines when they can be used.</p>
+<p>Some actions have a “<strong>Trigger</strong>” listed. You can only
+use such actions if the trigger is satisfied, although you do not have
+to use the action just because you are able to do so. If the action is a
+counter, its effects commence before the trigger is resolved, and may
+prevent the trigger from taking place. If the action is a reaction or
+free action, the effects of the power commence after the trigger is
+fully resolved.</p>
+<p>For example, if you have a counter power with the Trigger “You take
+damage” or “You would take damage,” the effects of the power take place
+before the damage, and may prevent the damage from taking place (if the
+power gives you resistance or allows you to move away, for example). If
+you have a reaction power with the same Trigger and effect, the effects
+of the power take place after you take damage; they cannot stop you from
+taking that damage.</p>
+<h2 id="targeting">Targeting</h2>
+<p>There are four elements to targeting: origin of effect, area of
+effect, range, and targets.</p>
+<h3 id="origin-of-effect">Origin of effect</h3>
+<p>The five origins of effect for actions are:</p>
+<p><strong>Melee:</strong> The effect originates with the user, and
+targets one or more creatures the user can reach with a melee weapon or
+their body (like a longsword cut, a healing touch or a kick).</p>
+<p><strong>Ranged:</strong> The effect originates with the user, and
+either targets one or more creatures the user can reach with a ranged
+weapon, or targets one or more creatures at a range specified by the
+power (like an arrow shot from a longbow or a beam of fire).</p>
+<p><strong>Near area:</strong> The effect originates in or adjacent to
+the user’s space and targets squares from there, or creatures in those
+squares (like an aura emanating from you or a cone of fire you have
+breathed out).</p>
+<p><strong>Far area:</strong> The effect originates in a distant square
+and targets squares from there, or creatures in those squares (like a
+ball of fire exploding from a location you point at).</p>
+<p><strong>Self:</strong> The effect originates with you and affects
+only you. You are always within range of yourself.</p>
+<p>The first four origins can be sorted two different ways: whether the
+action affects those near the user (melee, near) or far from them
+(ranged, far); or whether the action targets creatures directly (melee,
+ranged) or targets an area of effect (near, far).</p>
+<p>Making a ranged attack or a far attack provokes an opportunity attack
+from adjacent enemies.</p>
+<h3 id="areas-of-effect">Areas of effect</h3>
+<p>Areas of effect only apply to near and far actions.</p>
+<p>Each near or far action describes its area of effect, usually by
+giving its size and one of the following area types:</p>
+<ul>
+<li><p><strong>Burst:</strong> A burst targets the origin space and
+squares around it, for a number of squares in all directions equal to
+the burst size. A Near burst does not affect the user of the
+power.</p></li>
+<li><p><strong>Spray:</strong> A spray affects squares adjacent to the
+origin space, in a quadrilateral of sides equal to the spray
+size.</p></li>
+<li><p><strong>Wall:</strong> A wall affects a square adjacent to the
+origin space, and a square adjacent to that square, and so on until a
+number of squares equal to the wall’s size have been affected. The wall
+does not have to be in a straight line, but no wall square can share
+more than two edges with other wall squares. The user of a wall power
+can halve the length of the wall to double its height (or third it to
+triple it, etc).</p></li>
+</ul>
+<p>When an area of effect attack affects multiple targets you make a
+separate attack roll for each of them, but you only roll damage once and
+apply that amount as the damage for each target that is hit. Damage that
+depends on the attack roll, such as critical hit bonus damage, is rolled
+separately for each target.</p>
+<p>If a creature that is Large or larger is affected by an area of
+effect power it is only affected once, even if more than one of its
+squares is within the area of effect.</p>
+<p>When you make an area of effect attack with a ranged weapon you need
+one projectile or thrown weapon for each target.</p>
+<p>Special sizes for area of effect are “eyesight” and “earshot”.
+Eyesight means the target(s) can be anywhere that the user has line of
+sight. Earshot means the target(s) can be any creature that can hear the
+user.</p>
+<h3 id="range">Range</h3>
+<p>The range of attacks involving a weapon (the action will indicate
+this with the Weapon tag) is the reach of the melee weapon (usually 1,
+in other words adjacent squares only) or the range of the ranged
+weapon.</p>
+<p>Ranged weapons usually have a “short range” and a “long range”
+(Ranged 24/48 means short range of 24 squares and long range of 48
+squares, for example). Attacks at long range suffer a -2 penalty.</p>
+<p>Ranged actions that do not involve a weapon will usually specify the
+range in squares.</p>
+<p>Melee “touch” actions have a range equal to the user’s reach. Medium
+and Small creatures typically have a reach of 1, and the rules will
+specify if the creature has a longer reach. This is separate to the
+user’s weapon’s reach.</p>
+<p>Near powers have no range; they originate with the user and have a
+set area of effect.</p>
+<p>Far powers have a range specified; the origin square of the area of
+effect must be within that range.</p>
+<p>To calculate range, count the squares between the user and the
+target, plus a square to actually reach the target. Remember that
+diagonal squares are adjacent to one another when you count range.</p>
+<h5 id="attacks-with-ammunition">Attacks with ammunition</h5>
+<p>When you use an action that allows you to make multiple attacks, with
+a weapon that consumes ammunition, you use one piece of ammunition per
+attack.</p>
+<p>Reloading between these attacks is free, even if the weapon normally
+requires an action to reload. However, after the attack is complete the
+normal reload action is then required before another attack can be made
+with the weapon.</p>
+<h3 id="targets">Targets</h3>
+<p>Melee and ranged actions will specify whether they have one or more
+targets.</p>
+<p>Unless otherwise mentioned, area of effect powers target all
+creatures in the area of effect. Other example targets are:</p>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<tbody>
+<tr>
+<td><strong>Nearest ally</strong></td>
+<td>the nearest ally in the area of effect</td>
+</tr>
+<tr>
+<td><strong>Nearest enemy</strong></td>
+<td>the nearest enemy in the area of effect</td>
+</tr>
+<tr>
+<td><strong>All enemies</strong></td>
+<td>only enemies in the area of effect</td>
+</tr>
+<tr>
+<td><strong>All allies</strong></td>
+<td>only allies in the area of effect</td>
+</tr>
+<tr>
+<td><strong>One ally</strong></td>
+<td>one ally in the area of effect of the user’s choice</td>
+</tr>
+<tr>
+<td><strong>One enemy</strong></td>
+<td>one enemy in the area of effect of the user’s choice</td>
+</tr>
+<tr>
+<td><strong>Any</strong></td>
+<td>one or more targets of the user’s choice in the area of effect.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Attacks with multiple targets:</strong> Make one attack roll
+for each target, but roll damage once and do that much damage to every
+creature you hit (unless there is a reason why it would take more
+damage, such as you scored a critical hit against it).</p>
+<p><strong>Allies and enemies:</strong> The person taking the action
+chooses who their allies are for the purpose of that action. Enemies are
+any creatures not chosen as an ally. A creature can choose to not count
+as an ally (and therefore count as an enemy) for the purposes of an
+action.</p>
+<p>For example, Dunca casts a spell that heals all allies. But her
+berserker friend Flynn gets a benefit when he stays at low hit points.
+Dunca could count Flynn as an enemy to exclude him from the healing, or
+Flynn could count himself as an enemy and decline the healing. They
+immediately go back to being allies afterwards.</p>
+<p><strong>Line of sight:</strong> Some effects require your target to
+be within line of sight. To determine if a target is within line of
+sight, draw a line from any corner of a square in your space to any part
+of the target’s space. If you can draw such a line without passing
+through something that blocks your vision, you can see the target.</p>
+<p><strong>Line of effect:</strong> A line of effect is similar to a
+line of sight, except it is only blocked by solid obstacles. Note that
+an obstruction can be solid but transparent, meaning it blocks line of
+effect but not line of sight.</p>
+<p><strong>Targeting yourself:</strong> If a power targets a creature or
+creatures of your choice, you can choose yourself. If it targets an
+enemy or enemies only, you cannot choose yourself.</p>
+<p>A power that targets an ally or allies does not target you; you are
+not your own ally.</p>
+<p><strong>Nearest:</strong> To determine the nearest target, determine
+the range to each possible target and then pick the one at the shortest
+range. If the range to two or more targets is equal the attacker can
+choose which is the nearest.</p>
+<h2 id="attack-roll">Attack roll</h2>
+<p>Roll a d20 and apply your attack modifier plus any circumstantial
+bonuses or penalties.</p>
+<p>If the total of the roll plus modifiers equals or exceeds the
+target’s defense (AC, Fortitude, Reflex or Will depending on the
+attack), the attack hits.</p>
+<p>On a hit, you apply the “Hit” effect of the attack, which usually
+includes doing damage.</p>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Circumstance</th>
+<th>Attack Roll Modifier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Target is off-guard</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>Attacker is prone</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>Attacker used the Charge action</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>Target is in cover</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>Target is in three-quarters cover</td>
+<td>-5</td>
+</tr>
+<tr>
+<td>Target has concealment, and the attack is melee or ranged</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>Target has total concealment, and the attack is melee or ranged</td>
+<td>-5</td>
+</tr>
+<tr>
+<td>Ranged attack made at long range</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>Attacker is restrained</td>
+<td>-2</td>
+</tr>
+</tbody>
+</table>
+<p>There are some attacks that automatically hit, and therefore do not
+involve an attack roll. Others involve a skill check rather than an
+attack roll.</p>
+<p><strong>Choosing to be hit:</strong> Unless otherwise specified, you
+can choose to be hit by an attack instead of requiring the attacker to
+make an attack roll. For example, <em>transplant senses</em> allows the
+attacker to see out of your eyes. If the attacker is an ally, you may
+allow them to do this without making an attack roll against your Will
+defense first.</p>
+<h2 id="critical-hits-and-fumbles">Critical hits and fumbles</h2>
+<p>A natural 20 on an attack roll is a critical hit and is always
+successful and does maximum damage (instead of rolling for damage).</p>
+<p>Rolling a natural 1 on an attack roll is considered a critical fumble
+and always misses.</p>
+<h2 id="effects">Effects</h2>
+<p>An attack can have three kinds of effects:</p>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<tbody>
+<tr>
+<td>Hit</td>
+<td>If the attack roll meets or exceeds the target’s defense.</td>
+</tr>
+<tr>
+<td>Miss</td>
+<td>If the attack roll does not meet the target’s defense.</td>
+</tr>
+<tr>
+<td>Effect</td>
+<td>This applies regardless of the attack roll result, or if there is no
+attack roll.</td>
+</tr>
+</tbody>
+</table>
+<p>Other actions either only have “Effect” listed, or they may have
+“Success” and “Failure” listed if there is still an element of chance
+involved (for example, a skill check against a DC).</p>
+<p>Unless otherwise specified, a creature knows the effect of an action
+that has affected it.</p>
+<h3 id="damage-rolls">Damage rolls</h3>
+<p>Each weapon, spell, and harmful monster ability specifies the damage
+it deals. You roll the damage die or dice, add any modifiers, and apply
+the damage to your target. Magic weapons, special abilities, and other
+factors can grant a bonus to damage. With a penalty, it is possible to
+deal 0 damage, but never negative damage.</p>
+<p>If a spell or other effect deals damage to <strong>more than one
+target</strong> at the same time, roll the damage once for all of them.
+For example, when a wizard casts <em>fireball</em>, the spell's damage
+is rolled once for all creatures in the blast.</p>
+<h3 id="secondary-attacks">Secondary attacks</h3>
+<p>If a power has a “Secondary Attack” listed, the user of the power can
+make an attack, contingent on that effect occurring. For example, if
+Secondary Attack is listed under the Hit entry, it only takes place on a
+hit.</p>
+<p>Secondary attacks use the same tags, attack, defense and range as the
+original attack, unless otherwise specified.</p>
+<h3 id="weapon-dice-dw">Weapon dice (“dW”)</h3>
+<p>The term “dW” refers to weapon dice. Every weapon has a given damage
+die. Roll that die as many times as specified, and add up the results.
+For example, if you use a power with a longsword (weapon die: 1d10), and
+the Hit effect is “3dW damage” that means you do 3d10 damage. If it is
+“3dW + Strength modifier damage” and your Strength modifier is +2, you
+roll three d10s, add them up and then add 2.</p>
+<p>Rarely, a weapon will have multiple damage dice, for example 2d4 or
+2d6. Multiply these by the number of dW to get the final dice total. For
+example, a 3dW attack with a weapon that does 2d6 damage does 6d6
+damage.</p>
+<h2 id="duration">Duration</h2>
+<p>The following are common durations:</p>
+<ul>
+<li><p>Until the end of the target’s next turn</p></li>
+<li><p>Until the end of the user’s next turn</p></li>
+<li><p>Until the start of the target’s next turn</p></li>
+<li><p>Until the start of the user’s next turn</p></li>
+<li><p>Save ends</p></li>
+</ul>
+<h3 id="maintain">Maintain</h3>
+<p>Some actions have effects that continue as long as you maintain them.
+On your turn, you must take the specified action to maintain them.
+Otherwise, the effect ends at the end of your turn.</p>
+<p>For example, <em>black tentacles</em> creates a zone of tentacles.
+“Maintain Swift” means the zone disappears at the end of your turn
+unless you take a swift action on your turn to maintain it until the end
+of your next turn (during which turn you can spend another swift action,
+and so on to maintain the effect indefinitely if you are prepared to pay
+the action cost).</p>
+<p>You can end an effect that requires maintenance at any time as a free
+action.</p>
+<p>You can maintain any number of effects, provided you have the actions
+to do so.</p>
+<p>You cannot maintain an effect that has ended. The one exception is a
+power that naturally ended at the start of your turn. If a power like
+this has a Maintain option, it represents using the power again.</p>
+<h2 id="universal-actions">Universal actions</h2>
+<p>The following actions can be taken by any creature (unless specified
+otherwise).</p>
+<h3 id="standard-actions">Standard actions</h3>
+<h4 class="Heading-4---At-Will" id="basic-attack-at-will">Basic Attack
+(at-will)</h4>
+<blockquote>
+<p><strong>Standard Action</strong> ● <strong>Weapon</strong><br />
+<strong>Melee or Ranged</strong> weapon (one enemy)<br />
+<strong>Attack</strong> vs AC<br />
+<strong>Hit</strong> 2dW + level damage.<br />
+<em>Level 21:</em> 3dW + level damage.</p>
+</blockquote>
+<h4 class="Heading-4---At-Will" id="bull-rush-at-will">Bull Rush
+(at-will)</h4>
+<blockquote>
+<p><strong>Standard Action</strong> ● <strong>Weapon</strong><br />
+<strong>Melee</strong> touch (one enemy)<br />
+<strong>Attack</strong> Strength vs Fortitude<br />
+<strong>Hit</strong> Push the target 1 square. If you wish, you can
+shift into the space they just left.</p>
+</blockquote>
+<h4 class="Heading-4---At-Will" id="charge-at-will">Charge
+(at-will)</h4>
+<blockquote>
+<p><strong>Standard Action</strong><br />
+<strong>Effect</strong> Choose an enemy target. Walk up to your speed
+directly towards the nearest unoccupied space from which you can attack
+that enemy. Make a basic melee attack against that enemy. If you move at
+least 2 squares, you get a +1 bonus on the attack roll. After this
+action, you lose all remaining actions in your turn (meaning your turn
+ends unless you spend a hero point to gain another action).</p>
+</blockquote>
+<h4 class="Heading-4---At-Will" id="coup-de-grace-at-will">Coup De Grace
+(at-will)</h4>
+<blockquote>
+<p><strong>Standard Action</strong><br />
+<strong>Requirements</strong> You are adjacent to a helpless
+enemy.<br />
+<strong>Effect</strong> Make a basic attack or use an attack power
+targeting that enemy. Instead of making an attack roll, the attack
+automatically hits and is a critical hit. If the target takes damage
+equal to or greater than its staggered value, it dies.</p>
+</blockquote>
+<h4 class="Heading-4---At-Will" id="full-defense-at-will">Full Defense
+(at-will)</h4>
+<blockquote>
+<p><strong>Standard Action</strong><br />
+<strong>Effect</strong> Until the start of your next turn, add +2 to
+your defenses.</p>
+</blockquote>
+<h4 class="Heading-4---At-Will" id="grapple-at-will">Grapple
+(at-will)</h4>
+<blockquote>
+<p><strong>Standard Action</strong><br />
+<strong>Melee</strong> touch (one enemy)<br />
+<strong>Requirements</strong> You have one or more hands free.<br />
+<strong>Attack</strong> Strength vs Reflex<br />
+<strong>Hit</strong> The enemy is immobilized until it escapes (see the
+Escape action), you move away from it (willingly or unwillingly), it
+moves away from you due to unwilling movement or you choose to end the
+grapple.<br />
+<strong>Special</strong> You can end a grapple as a free action. If you
+lose the ability to make attacks of opportunity, you cannot grapple
+creatures and any creature grappled by you is freed.<br />
+<strong>Maintain Swift</strong> After the turn in which you begin
+grappling a creature, in every subsequent turn you must spend a swift
+action to maintain the grapple.</p>
+</blockquote>
+<h4 class="Heading-4---Encounter" id="rally-encounter">Rally
+(encounter)</h4>
+<blockquote>
+<p><strong>Standard Action</strong><br />
+<strong>Effect</strong> Spend a recovery and heal your recovery value.
+Until the start of your next turn, add +2 to your defenses.</p>
+</blockquote>
+<h3 id="move-actions">Move actions</h3>
+<h4 class="Heading-4---At-Will" id="walk-at-will">Walk (at-will)</h4>
+<blockquote>
+<p><strong>Move Action</strong><br />
+<strong>Effect</strong> Move a number of squares up to your speed. If
+you have a special movement mode (like fly, climb or swim), you can move
+the number of squares specified for that mode instead.</p>
+</blockquote>
+<h4 class="Heading-4---At-Will" id="run-at-will">Run (at-will)</h4>
+<blockquote>
+<p><strong>Move Action</strong><br />
+<strong>Effect</strong> Move a number of squares up to your speed +2. If
+you have a special movement mode (like fly, climb or swim), you can move
+the number of squares specified for that mode +2 instead.<br />
+<strong>Special</strong> After running you suffer a -5 penalty to attack
+rolls and are off-guard (both penalties end at the start of your next
+turn).</p>
+</blockquote>
+<h4 class="Heading-4---At-Will" id="step-at-will">Step (at-will)</h4>
+<blockquote>
+<p><strong>Move Action</strong><br />
+<strong>Effect</strong> Step 1 square. Stepping does not provoke
+reactive attacks.</p>
+</blockquote>
+<h4 class="Heading-4---At-Will" id="stand-up-at-will">Stand Up
+(at-will)</h4>
+<blockquote>
+<p><strong>Move Action</strong><br />
+<strong>Effect</strong> You stand up from prone.</p>
+</blockquote>
+<h3 id="skill-actions"><br />
+Skill actions</h3>
+<p>Anyone can attempt the following skill actions, even if they are not
+trained in the relevant skill.</p>
+<p>Skill actions that are only possible for those trained in a skill are
+listed under each skill.</p>
+<h4 class="Heading-4---Encounter" id="create-diversion-encounter">Create
+Diversion (encounter)</h4>
+<blockquote>
+<p><strong>Standard Action</strong><br />
+<strong>Near</strong> eyesight (all enemies)<br />
+<strong>DC</strong> Bluff vs target’s passive Insight score<br />
+<strong>Success</strong> You have the momentary diversion you need to
+attempt a Stealth check while people are aware of you.</p>
+</blockquote>
+<h4 class="Heading-4---At-Will" id="deter-at-will">Deter (at-will)</h4>
+<blockquote>
+<p><strong>Standard Action</strong><br />
+<strong>Near</strong> eyesight or earshot (one enemy)<br />
+<strong>DC</strong> Intimidate vs Will. Targets get a +5 bonus to their
+Will defense if unfriendly, or +10 if hostile. They gain a further +5
+bonus if you do not speak in a language that they understand.<br />
+<strong>Success</strong> The target cannot take an action of your choice
+until the end of their next turn.<br />
+<strong>Failure</strong> The target cannot be the target of your Deter
+or Unnerve action again until the end of this encounter.<br />
+<strong>Effect</strong> The target becomes hostile if it was not
+already.</p>
+</blockquote>
+<h4 class="Heading-4---At-Will" id="disable-device-at-will">Disable
+Device (at-will)</h4>
+<blockquote>
+<p><strong>Standard Action</strong><br />
+<strong>Melee</strong> touch (one trap or device)<br />
+<strong>DC</strong> Thievery vs trap’s DC (trap) or 20 (device)<br />
+<strong>Success</strong> You disable the device or trap.<br />
+<strong>Failure</strong> You fail to disable the device or trap. If you
+fail by 5 or more, you spring the trap or the device malfunctions.<br />
+<strong>Special</strong> Add +5 to your Thievery check if you are only
+trying to temporarily disable the trap or device (if successful, it is
+only disabled until the end of your next turn).</p>
+</blockquote>
+<h4 class="Heading-4---At-Will" id="escape-a-grapple-at-will">Escape a
+Grapple (at-will)</h4>
+<blockquote>
+<p><strong>Move Action</strong><br />
+<strong>Requirements</strong> You are grappled.<br />
+<strong>DC</strong> Acrobatics vs Reflex<br />
+<strong>Success</strong> You escape the grapple and can shift 1
+square.<br />
+<strong>Special</strong> You can instead make an Athletics check against
+the target's Fortitude.</p>
+</blockquote>
+<h4 class="Heading-4---Encounter" id="feint-encounter">Feint
+(encounter)</h4>
+<blockquote>
+<p><strong>Standard Action</strong><br />
+<strong>Near</strong> burst 1 (one enemy)<br />
+<strong>DC</strong> Bluff vs target’s passive Insight score<br />
+<strong>Success</strong> You gain combat advantage against the target
+until the end of your next turn.</p>
+</blockquote>
+<h4 class="Heading-4---At-Will" id="grant-save-at-will">Grant Save
+(at-will)</h4>
+<blockquote>
+<p><strong>Standard Action</strong><br />
+<strong>Melee</strong> touch (one ally)<br />
+<strong>DC</strong> Heal vs 15<br />
+<strong>Success</strong> The target can (their choice) make a new saving
+throw right away or take a +2 bonus on a saving throw of their choice at
+the end of their next turn.</p>
+</blockquote>
+<h4 class="Heading-4---At-Will" id="open-lock-at-will">Open Lock
+(at-will)</h4>
+<blockquote>
+<p><strong>Standard Action</strong><br />
+<strong>Melee</strong> touch (one lock)<br />
+<strong>DC</strong> Thievery vs 20<br />
+<strong>Success</strong> You pick the lock.<br />
+<strong>Failure</strong> You fail to pick the lock this time.</p>
+</blockquote>
+<h4 class="Heading-4---At-Will" id="pick-pocket-at-will">Pick Pocket
+(at-will)</h4>
+<blockquote>
+<p><strong>Standard Action</strong><br />
+<strong>Melee</strong> touch (one item on the target’s person but not
+held by them)<br />
+<strong>DC</strong> Thievery vs 20 + half your target's level<br />
+<strong>Success</strong> You take the item.<br />
+<strong>Failure</strong> You fail to take the item, and if you fail by 5
+or more the target notices your attempt.<br />
+<strong>Special</strong> In combat, the DC is 30 + half your target's
+level.</p>
+</blockquote>
+<h4 class="Heading-4---At-Will" id="rally-ally-at-will">Rally Ally
+(at-will)</h4>
+<blockquote>
+<p><strong>Standard Action</strong><br />
+<strong>Melee</strong> touch (one ally)<br />
+<strong>DC</strong> Heal vs 10<br />
+<strong>Success</strong> The target can Rally without using an action
+(if it has a Rally use remaining).</p>
+</blockquote>
+<h4 class="Heading-4---At-Will" id="sleight-of-hand-at-will">Sleight of
+Hand (at-will)</h4>
+<blockquote>
+<p><strong>Standard Action</strong><br />
+<strong>Melee</strong> touch (one unattended item)<br />
+<strong>DC</strong> Thievery vs 15<br />
+<strong>Success</strong> You pick up a small item without anyone
+noticing.<br />
+<strong>Failure</strong> You pick up the item, but others notice.</p>
+</blockquote>
+<h4 class="Heading-4---At-Will" id="soothe-beast-at-will">Soothe Beast
+(at-will)</h4>
+<blockquote>
+<p><strong>Standard Action</strong><br />
+<strong>Requirements</strong> A natural beast that is not hostile.<br />
+<strong>DC</strong> Nature vs Hard DC for the creature's level<br />
+<strong>Success</strong> The beast is soothed.</p>
+</blockquote>
+<h4 class="Heading-4---At-Will" id="stabilize-at-will">Stabilize
+(at-will)</h4>
+<blockquote>
+<p><strong>Standard Action</strong><br />
+<strong>Melee</strong> touch (one dying ally)<br />
+<strong>DC</strong> Heal vs 15<br />
+<strong>Success</strong> The target is stabilized and stops making death
+saving throws until it is next damaged.</p>
+</blockquote>
+<h4 class="Heading-4---At-Will" id="unnerve-at-will">Unnerve
+(at-will)</h4>
+<blockquote>
+<p><strong>Standard Action</strong><br />
+<strong>Near</strong> eyesight and earshot (all staggered enemies)<br />
+<strong>DC</strong> Intimidate vs Will +10. Targets get a further +5
+bonus to Will if you do not speak in a language that they
+understand.<br />
+<strong>Success</strong> The target surrenders.<br />
+<strong>Failure</strong> The target cannot be the target of your Deter
+or Unnerve action again until the end of this encounter.</p>
+</blockquote>
+<h1 id="section-2"></h1>
+<h1 id="conditions">Conditions </h1>
+<h2 id="section-3"></h2>
+<p>Conditions reduce a creature’s capabilities. Some conditions, such as
+prone, can be advantageous in rare circumstances.</p>
+<p>A condition lasts until it is resolved (prone is resolved by standing
+up, for example) or for a specified duration.</p>
+<p>If multiple effects impose the same condition on a creature, each
+instance of the condition has its own duration, but the condition’s
+effects don’t get worse. A creature either has a condition or
+doesn’t.</p>
+<p>The following definitions specify what happens to a creature while it
+is subjected to a condition.</p>
+<h3 id="blinded">Blinded</h3>
+<ul>
+<li><p>You automatically fail any check that requires sight.</p></li>
+<li><p>You are off-guard.</p></li>
+<li><p>Your targets have total concealment.</p></li>
+</ul>
+<ul>
+<li><p>You suffer a -10 penalty to Perception checks.</p></li>
+<li><p>You cannot contribute to a flank.</p></li>
+</ul>
+<h3 id="dazed">Dazed</h3>
+<ul>
+<li><p>You are off-guard.</p></li>
+<li><p>You cannot contribute to a flank.</p></li>
+<li><p>You do not get a move or swift action on your turn. You may
+convert your standard action to a move or swift action.</p></li>
+</ul>
+<h3 id="dying">Dying</h3>
+<ul>
+<li><p>You are at 0 HP or below.</p></li>
+</ul>
+<ul>
+<li><p>You are unconscious.</p></li>
+<li><p>At the end of each of your turns, make a death saving
+throw.</p></li>
+</ul>
+<h3 id="helpless">Helpless</h3>
+<ul>
+<li><p>You are off-guard.</p></li>
+<li><p>Enemies can use the Coup de Grace action on you.</p></li>
+</ul>
+<h3 id="immobilized">Immobilized </h3>
+<ul>
+<li><p>You cannot willingly move from your space.</p></li>
+<li><p>Teleportation and unwilling movement is not affected by the
+immobilized condition.</p></li>
+</ul>
+<h3 id="marked">Marked</h3>
+<ul>
+<li><p>Attacks you make that do <em>not</em> include the creature who
+marked you suffer a -2 penalty to attack rolls.</p></li>
+<li><p>Only one creature can mark you at a time; replace an older mark
+with the newest one.</p></li>
+</ul>
+<h3 id="prone">Prone</h3>
+<ul>
+<li><p>You are off-guard against melee attacks.</p></li>
+<li><p>Ranged attacks by enemies not adjacent to you suffer a -2
+penalty.</p></li>
+<li><p>You are flat on the ground (if you are flying when you become
+prone, you gently fall a distance equal to your fly speed without taking
+damage. The remainder of the fall, if any, is damaging as
+normal).</p></li>
+<li><p>You suffer a -2 penalty to attack rolls.</p></li>
+</ul>
+<h3 id="restrained">Restrained</h3>
+<ul>
+<li><p>You cannot move from your space, and you cannot be moved from
+your space by unwilling movement.</p></li>
+<li><p>Teleportation is not affected by this condition.</p></li>
+<li><p>You suffer a -2 penalty to attack rolls.</p></li>
+<li><p>You are off-guard.</p></li>
+</ul>
+<h3 id="slowed">Slowed</h3>
+<ul>
+<li><p>Set your speed to 2 if it was higher.</p></li>
+<li><p>If you become slowed in the middle of movement, your movement
+ends if/when you have moved 2 or more squares.</p></li>
+<li><p>Teleportation and unwilling movement are not affected by the
+slowed condition.</p></li>
+</ul>
+<h3 id="stunned">Stunned</h3>
+<ul>
+<li><p>A stunned creature can’t take actions.</p></li>
+<li><p>You are off-guard.</p></li>
+<li><p>You cannot contribute to a flank.</p></li>
+</ul>
+<h3 id="surprised">Surprised</h3>
+<ul>
+<li><p>You are off-guard.</p></li>
+<li><p>You cannot contribute to a flank.</p></li>
+<li><p>The only actions you can take are free actions.</p></li>
+</ul>
+<h3 id="unconscious">Unconscious</h3>
+<ul>
+<li><p>You are off-guard.</p></li>
+<li><p>You suffer -5 to AC, Fortitude, Reflex and Will.</p></li>
+<li><p>An unconscious creature can’t take actions.</p></li>
+<li><p>You fall prone, if possible.</p></li>
+<li><p>You cannot contribute to a flank.</p></li>
+</ul>
+<h3 id="weakened">Weakened</h3>
+<ul>
+<li><p>Halve the damage you do from attacks.</p></li>
+<li><p>Do not halve persistent damage you do.</p></li>
+</ul>
+<h1 id="section-4"></h1>
+<h1 id="combat-statuses">Combat statuses</h1>
+<h3 id="section-5"></h3>
+<h3 id="flanking">Flanking</h3>
+<p>Two allies who are adjacent to an enemy, but on opposite corners or
+edges, are said to be flanking that enemy. A creature is off-guard
+against creatures who are flanking it. A creature must be able to attack
+an enemy in order to flank it (a helpless creature or a creature that
+cannot make opportunity attacks does not contribute to a flank).</p>
+<h3 id="incorporeal">Incorporeal</h3>
+<p>Take half damage from all attacks.</p>
+<h3 id="off-guard">Off-guard</h3>
+<p>Attackers that can see an off-guard creature receive a +2 bonus on
+attack rolls against it.</p>
+<h3 id="cover">Cover </h3>
+<p>Walls, trees, creatures, and other obstacles can provide cover during
+combat, making a target more difficult to harm. A target can benefit
+from cover only when an attack or other effect originates on the
+opposite side of the cover.</p>
+<p>To determine cover, the attacker chooses a corner of their space and
+draws lines from that corner of the target’s space. If one or two lines
+pass through an obstacle (including one of the target’s allies), the
+target has cover. If three or four lines pass through an obstacle, the
+target has three-quarters cover.</p>
+<p>Attack rolls against a target with <strong>cover</strong> suffer a -2
+penalty.</p>
+<p>Attack rolls against a target with <strong>three-quarters
+cover</strong> suffer a -5 penalty.</p>
+<h3 id="concealment">Concealment </h3>
+<p>Smoke, darkness, mist or foliage can obscure you from the sight of
+those attacking you, making it harder to hit you. Concealment only
+applies against melee and ranged attacks, not near or far ones.</p>
+<p>Attack rolls against a target with <strong>concealment</strong>
+suffer a -2 penalty.</p>
+<p>Attack rolls against a target with <strong>total concealment</strong>
+suffer a -5 penalty. Total concealment exists when you know (or
+correctly guess) which square a creature is in, but cannot see them at
+all.</p>
+<p>When lighting or other conditions cause creatures in an area to be
+harder to see, the squares in that area are obscured. A square can be
+lightly obscured, heavily obscured, or totally obscured.</p>
+<p>Targets in obscured squares gain concealment as follows:</p>
+<ul>
+<li><p>A target in a lightly obscured square or an adjacent target in a
+heavily obscured square has concealment.</p></li>
+<li><p>A non-adjacent target in a heavily obscured square or any target
+in a totally obscured square has total concealment.</p></li>
+</ul>
+<p>An invisible target also has total concealment.</p>
+<h3 id="invisible">Invisible</h3>
+<ul>
+<li><p>An invisible creature is impossible to see without the aid of
+magic or a special sense.</p></li>
+<li><p>Enemies that can’t see you are off-guard against your
+attacks.</p></li>
+<li><p>Enemies that can’t see you can’t make reactive strikes against
+you.</p></li>
+</ul>
+<h1 id="section-6"></h1>
+<h1 id="movement-and-positioning">Movement and positioning</h1>
+<p>A “square” represents a five-foot-by-five-foot square. A creature
+that can move 6 squares with a move action can therefore move 30
+feet.</p>
+<h2 id="speed">Speed</h2>
+<p>Every creature capable of movement has a Speed, measured in squares,
+that it can move in a single round.</p>
+<h3 id="special-movement-modes">Special movement modes</h3>
+<p>While any creature can attempt to climb and swim, some have a
+movement mode listed with its own speed (like “climb 6”).</p>
+<h5 id="burrow">Burrow</h5>
+<p>A creature that has a burrowing speed can use that speed to move
+through sand, earth, mud, or ice. A creature can't burrow through solid
+rock unless it has a special trait that allows it to do so.</p>
+<h5 id="climb">Climb</h5>
+<p>A creature that has a climbing speed can use all or part of its
+movement to move on vertical surfaces. The creature doesn't need to
+spend extra movement to climb and isn’t off-guard just because it is
+climbing.</p>
+<h5 id="fly">Fly</h5>
+<p>A creature that has a flying speed can use all or part of its
+movement to fly. Some creatures have the ability to hover. Such a
+creature stops hovering when it dies.</p>
+<h5 id="swim">Swim</h5>
+<p>A creature that has a swimming speed doesn't need to spend extra
+movement to swim and doesn’t become off-guard just because it is
+swimming.</p>
+<h2 id="size">Size</h2>
+<p>A creature can be Tiny, Small, Medium, Large, Huge, or Gargantuan.
+The Size Categories table shows how much space a creature of a
+particular size occupies.</p>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Size Categories</th>
+<th>Space</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tiny</td>
+<td>0.5 x 0.5</td>
+<td>Imp, sprite</td>
+</tr>
+<tr>
+<td>Small</td>
+<td>1 x 1</td>
+<td>Giant rat, goblin</td>
+</tr>
+<tr>
+<td>Medium</td>
+<td>1 x 1</td>
+<td>Orc, werewolf</td>
+</tr>
+<tr>
+<td>Large</td>
+<td>2 x 2</td>
+<td>Hippogriff, ogre</td>
+</tr>
+<tr>
+<td>Huge</td>
+<td>3 x 3</td>
+<td>Fire giant, treant</td>
+</tr>
+<tr>
+<td>Gargantuan</td>
+<td>4 x 4</td>
+<td>Kraken, purple worm</td>
+</tr>
+</tbody>
+</table>
+<h3 id="occupied-spaces">Occupied spaces</h3>
+<p>You can move through a nonhostile creature's space, and through a
+hostile creature’s space if it is helpless.</p>
+<p>Whether a creature is a friend or an enemy, you can't willingly end
+your move in its space unless it is prone.</p>
+<h2 id="unwilling-movement">Unwilling movement</h2>
+<p>Creatures can be moved against their will in the form of a push, pull
+or shunt.</p>
+<ul>
+<li><p>A push must move the target further from the origin of the effect
+(usually, the creature doing the pushing) with each square
+moved.</p></li>
+<li><p>A pull must move the target closer to the origin of the effect
+with each square moved.</p></li>
+<li><p>A shunt is not limited in where it can move the target.</p></li>
+</ul>
+<p>Special rules apply to unwilling movement:</p>
+<ul>
+<li><p>A creature never provokes attacks of opportunity for being
+unwillingly moved.</p></li>
+<li><p>Difficult terrain does not affect unwilling movement.</p></li>
+<li><p>The creature causing the unwilling movement can choose to move
+the target fewer squares, or no squares – they do not have to move the
+creature the maximum.</p></li>
+<li><p>A creature that would be forced to fall (it is pushed off a
+cliff, for example) can attempt a saving throw. On a success, instead of
+being forced to fall, it becomes prone adjacent to the edge and the
+unwilling movement ends.</p></li>
+</ul>
+<h2 id="difficult-terrain">Difficult terrain</h2>
+<p>Every square of movement in difficult terrain costs 1 extra
+square.</p>
+<p>Low furniture, rubble, undergrowth, steep stairs, snow, and shallow
+bogs are examples of difficult terrain.</p>
+<h2 id="mounted-combat"><br />
+Mounted combat </h2>
+<p>A knight charging into battle on a warhorse, a wizard casting spells
+from the back of a griffon, or a cleric soaring through the sky on a
+pegasus all enjoy the benefits of speed and mobility that a mount can
+provide.</p>
+<p>A willing creature that is at least one size larger than you and that
+has an appropriate anatomy can serve as a mount, using the following
+rules.</p>
+<h3 id="mounting-and-dismounting">Mounting and dismounting </h3>
+<p>You can mount a creature an adjacent creature or dismount into an
+adjacent, unoccupied space. Mounting or dismounting is a move
+action.</p>
+<p>If an effect moves your mount against its will while you're on it,
+you travel with it. If an effect moves you against your will while
+mounted, you can choose whether it is moved as well, or whether you fall
+off it and are moved.</p>
+<p>If your mount is knocked prone, you are dismounted and land in a
+space within 1 square.</p>
+<p>If you are knocked prone while mounted, immediately make a saving
+throw. If you fail, you are dismounted and fall prone in a space of your
+choice within 1 square. If you succeed, you are not dismounted or
+knocked prone.</p>
+<h3 id="controlling-a-mount">Controlling a mount </h3>
+<p>While you're mounted, you have two options. You can either control
+the mount or allow it to act independently. Intelligent creatures, such
+as dragons, always act independently.</p>
+<p>You can control a mount only if it has been trained to accept a
+rider. Domesticated horses, donkeys, and similar creatures are assumed
+to have such training. The initiative of a controlled mount changes to
+match yours when you mount it.</p>
+<p>You can give up actions to command a controlled mount, in which case
+it gets to take the same actions. For example, you can give up your
+standard action in order for the mount to take a standard action. You
+can also use an immediate action in order for the mount to make an
+opportunity attack or use a counter or reaction (in all three cases,
+only if eligible to do so).</p>
+<p>An independent mount retains its place in the initiative order.
+Bearing a rider puts no restrictions on the actions the mount can take,
+and it moves and acts as it wishes. It might flee from combat, rush to
+attack and devour a badly injured foe, or otherwise act against your
+wishes.</p>
+<p>In either case, if the mount provokes an opportunity attack while
+you're on it, the attacker can target you or the mount. If you provoke
+an opportunity attack, the attacker can only target you.</p>
+<h2 id="underwater-combat">Underwater combat </h2>
+<p>When adventurers pursue sahuagin back to their undersea homes, fight
+off sharks in an ancient shipwreck, or find themselves in a flooded
+dungeon room, they must fight in a challenging environment. Underwater
+the following rules apply.</p>
+<p>Monsters without a swim speed must make Athletics checks to swim.</p>
+<p>When making a <strong>weapon attack</strong>, a creature has -2 on
+the attack roll unless the weapon is in the Spears &amp; Lances or
+Crossbows weapon groups.</p>
+<p>Powers with the Fire tag have a -2 penalty on attack rolls.</p>
+<p>Creatures with the Aquatic tag get a +2 bonus on attack rolls against
+creatures without the Aquatic tag.</p>
+<h1 id="section-7"></h1>
+<h1 id="hit-points-and-healing">Hit points and healing </h1>
+<h2 id="section-8"></h2>
+<h2 id="hit-points">Hit points</h2>
+<p>Hit points (or HP) represent a combination of physical and mental
+durability, the will to live, and luck. Creatures with more hit points
+are more difficult to kill.</p>
+<p>A creature's current hit points (usually just called hit points) can
+be any number from the creature's hit point maximum down to 0. This
+number changes as a creature takes damage or receives healing.</p>
+<p>Whenever a creature takes damage, that damage is subtracted from its
+hit points.</p>
+<h3 id="staggered">Staggered </h3>
+<p>A creature is staggered if it is reduced to half its maximum hit
+points (round down) or below. It is usually apparent to other creatures
+when a creature is staggered.</p>
+<h3 id="temporary-hit-points">Temporary hit points</h3>
+<p>Some powers and features confer temporary HP on a creature. Temporary
+HP aren’t actual hit points; they are a buffer against damage.</p>
+<p>When you have temporary HP and take damage, the temporary HP are lost
+first, and any leftover damage carries over to your normal hit points.
+For example, if you have 5 temporary HP and take 7 damage, you lose the
+temporary HP and then take 2 damage.</p>
+<p>Because temporary HP are separate from your actual hit points, they
+can exceed your hit point maximum. A character can, therefore, be at
+full hit points and receive temporary HP.</p>
+<p>Temporary HP does not stack. For example, if a spell grants you 12
+temporary HP when you already have 10, you now have 12 temporary HP.</p>
+<p>If you have 0 hit points, receiving temporary hit points doesn’t
+restore you to consciousness or stabilize you. They can still absorb
+damage directed at you while you’re in that state, but only true healing
+can save you.</p>
+<p>Temporary HP last until the end of the encounter, unless otherwise
+specified.</p>
+<h2 id="damage-types"><br />
+Damage types</h2>
+<p>Different attacks, damaging spells, and other harmful effects deal
+different types of damage. Damage types have no rules of their own, but
+other rules, such as damage resistance, rely on the types.</p>
+<p>The damage types follow, with examples to help a GM assign a damage
+type to a new effect.</p>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Type</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Acid</td>
+<td>The corrosive spray of a black dragon's breath and the dissolving
+enzymes secreted by a black pudding.</td>
+</tr>
+<tr>
+<td>Cold</td>
+<td>The frigid blast of a white dragon's breath.</td>
+</tr>
+<tr>
+<td>Fire</td>
+<td>Red dragons’ fire breath and spells that conjure flames.</td>
+</tr>
+<tr>
+<td>Force</td>
+<td>Pure magical energy.</td>
+</tr>
+<tr>
+<td>Lightning</td>
+<td>A <em>lightning bolt</em> spell and a blue dragon's breath.</td>
+</tr>
+<tr>
+<td>Necrotic</td>
+<td>Necrotic damage, dealt by certain undead and a spell such as
+<em>chill touch</em>, withers matter and even the soul.</td>
+</tr>
+<tr>
+<td>Poison</td>
+<td>Venomous stings; toxic gas.</td>
+</tr>
+<tr>
+<td>Psychic</td>
+<td>Mental abilities, such as a psionic blast.</td>
+</tr>
+<tr>
+<td>Radiant</td>
+<td>Damage that overloads the spirit with divine power.</td>
+</tr>
+<tr>
+<td>Thunder</td>
+<td>A concussive burst of sound.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="immunities-resistances-and-weaknesses">Immunities, resistances
+and weaknesses</h3>
+<p>If you are immune to a particular damage type, you take no damage
+from it.</p>
+<p>If you resist a particular damage type, reduce any damage of that
+type by the value of your resistance. For example, resist fire 5 means
+you subtract 5 from any fire damage you take (minimum 0).</p>
+<p>If you are weak to a particular damage type, increase any damage of
+that type by the value of your weakness. For example, weak fire 5 means
+you add 5 to any fire damage you take.</p>
+<h2 id="hit-points-or-below">0 hit points or below</h2>
+<p>When you drop to 0 hit points or below, you are dying. You fall
+unconscious.</p>
+<p>As soon as a creature regains any number of HP, it stops dying and
+becomes conscious.</p>
+<h3 id="death-saving-throws">Death saving throws</h3>
+<p>Whenever you end your turn with 0 hit points or below, you must make
+a special saving throw, called a death saving throw, to determine
+whether you creep closer to death or hang onto life.</p>
+<p>Roll a d20. If the roll is 10 or higher, you succeed. Otherwise, you
+fail. A success indicates no change unless you roll a 20 or higher (see
+below). A failure has no effect until your third failure, whereupon you
+die.</p>
+<p>The failure count resets to zero on a short or long rest.</p>
+<h5 id="rolling-a-20-or-higher">Rolling a 20 or higher</h5>
+<p>When you make a death saving throw and roll 20 or higher, you can
+spend a recovery. Your HP are set to equal to your recovery value, and
+therefore you stop dying and become conscious (you are still prone).</p>
+<h5 id="healing-with-no-recoveries">Healing with no recoveries</h5>
+<p>If a dying creature gets the opportunity to spend a recovery to heal
+but it has no recoveries left, its HP is set to 1 instead.</p>
+<h3 id="negative-hp">Negative HP</h3>
+<p>If you are reduced to a negative hit point value equal to or lower
+than your staggered value, you die. For example, if your HP maximum is
+20 and you are reduced to -10 hit points, you die.</p>
+<h3 id="knocking-a-creature-out">Knocking a creature out</h3>
+<p>Sometimes an attacker wants to incapacitate a foe, rather than deal a
+killing blow. When an attacker reduces a creature to 0 hit points or
+below, the attacker can knock the creature out. The attacker can make
+this choice the instant the damage is dealt. The creature falls
+unconscious. It heals 1 HP after a short rest.</p>
+<h2 id="healing">Healing</h2>
+<p>When a creature receives healing of any kind, hit points regained are
+added to its current hit points. A creature's hit points can't exceed
+its hit point maximum, so any hit points regained in excess of this
+number are lost.</p>
+<p>A creature that is healed while it is on negative hit points has its
+current hit points set to the value of the healing, ignoring the
+negative hit points. For example, a dying creature on -5 HP healed of 10
+damage goes straight to 10 current HP.</p>
+<p>A creature that has died can't regain hit points.</p>
+<h3 id="regeneration">Regeneration</h3>
+<p>A creature with regeneration heals the specified amount of damage at
+the beginning of each of their turns. A creature that has multiple
+sources of regeneration only benefits from the highest value on its
+turn.</p>
+<h2 id="persistent-damage">Persistent damage</h2>
+<p>Persistent damage does no damage at the time it is imposed.</p>
+<p>Instead, at the start of each of your turns, you take X damage of
+that type for each source of persistent damage you are affected by.</p>
+<p>For example, “persistent acid damage 5” means you take 5 acid damage
+(applying resistances, weaknesses and immunities as normal).</p>
+<p>If you have multiple persistent damage effects of the same damage
+type, only keep the highest persistent damage of that type.</p>
+<p>At the end of each of your turns, make a saving throw for each type
+of persistent damage you are taking. On a success, you are no longer
+affected by that persistent damage.</p>
+<h2 id="resting">Resting </h2>
+<p>Heroic though they might be, adventurers can't spend every hour of
+the day in the thick of exploration, social interaction, and combat.
+They need rest—time to sleep and eat, tend their wounds, refresh their
+minds and spirits for spellcasting, and brace themselves for further
+adventure. Adventurers can take short rests in the midst of an
+adventuring day and a long rest to end the day.</p>
+<h3 id="short-rest">Short rest</h3>
+<p>A short rest is a period of downtime, at least 5 minutes long, during
+which a character does nothing more strenuous than eating, drinking,
+reading, and tending to wounds.</p>
+<p>During a short rest, a creature can spend any number of recoveries,
+healing its recovery value each time. It also recharges any encounter
+powers it had expended.</p>
+<h3 id="long-rest">Long rest</h3>
+<p>A long rest is a period of extended downtime, at least 6 hours long,
+during which a character sleeps or performs light activity.</p>
+<p>At the end of a long rest, a character regains all lost hit points
+and all spent recoveries. It also recharges any encounter and daily
+powers it had expended. It resets its action point pool to 1 action
+point.</p>
+<p>A character cannot benefit from more than one long rest in a 24-hour
+period.</p>
+<h1 id="section-9"></h1>
+<h1 id="equipment">Equipment</h1>
+<h2 id="section-10"></h2>
+<h2 id="coinage">Coinage </h2>
+<p>Common coins come in several different denominations based on the
+relative worth of the metal from which they are made. The three most
+common coins are the gold piece (gp), the silver piece (sp), and the
+copper piece (cp).</p>
+<p>A skilled (but not exceptional) artisan can earn one gold piece a
+day. The gold piece is the standard unit of measure for wealth, even if
+the coin itself is not commonly used. When merchants discuss deals that
+involve goods or services worth hundreds or thousands of gold pieces,
+the transactions don’t usually involve the exchange of individual coins.
+Rather, the gold piece is a standard measure of value, and the actual
+exchange is in gold bars, letters of credit, or valuable goods.</p>
+<p>One gold piece is worth ten silver pieces, the most prevalent coin
+among commoners. A silver piece buys a laborer’s work for half a day or
+a night’s rest in a poor inn.</p>
+<p>One silver piece is worth ten copper pieces, which are common among
+laborers and beggars.</p>
+<p>In addition, unusual coins made of other precious metals sometimes
+appear in treasure hoards. The platinum piece (pp) originates from
+fallen empires and lost kingdoms, and they sometimes arouse suspicion
+and skepticism when used in transactions. A platinum piece is worth one
+hundred gold pieces.</p>
+<p>A standard coin weighs about a third of an ounce, so fifty coins
+weigh a pound.</p>
+<h5 id="table-exchange-rates">Table – Exchange Rates </h5>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Coin</th>
+<th>CP</th>
+<th>SP</th>
+<th>GP</th>
+<th>PP</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Copper (cp)</td>
+<td>1</td>
+<td>1/10</td>
+<td>1/100</td>
+<td>1/10,000</td>
+</tr>
+<tr>
+<td>Silver (sp)</td>
+<td>10</td>
+<td>1</td>
+<td>1/10</td>
+<td>1/1,000</td>
+</tr>
+<tr>
+<td>Gold (gp)</td>
+<td>100</td>
+<td>10</td>
+<td>1</td>
+<td>1/100</td>
+</tr>
+<tr>
+<td>Platinum (pp)</td>
+<td>10,000</td>
+<td>1,000</td>
+<td>100</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2 id="selling-treasure">Selling Treasure </h2>
+<p>Opportunities abound to find treasure, equipment, weapons, armor, and
+more in the dungeons you explore. Normally, you can sell your treasures
+and trinkets when you return to a town or other settlement, provided
+that you can find buyers and merchants interested in your loot.</p>
+<p><strong>Arms, armor, and other equipment:</strong> As a general rule,
+undamaged weapons, armor, and other equipment fetch one-fifth their cost
+when sold in a market.</p>
+<p><strong>Magic items:</strong> As a general rule, magic items fetch
+one-fifth their cost when sold in a market.</p>
+<p><strong>Gems, jewelry, and art objects:</strong> These items retain
+their full value in the marketplace, and you can either trade them in
+for coin or use them as currency for other transactions. For
+exceptionally valuable treasures, the GM might require you to find a
+buyer in a large town or larger community first.</p>
+<p><strong>Trade goods:</strong> On the borderlands, many people conduct
+transactions through barter. Like gems and art objects, trade goods –
+bars of iron, bags of salt, livestock, and so on – retain their full
+value in the market and can be used as currency.</p>
+<h2 id="armor">Armor </h2>
+<p>Adventurers have access to a variety of armor types, ranging from
+cloth (lightly padded armor or regular clothing) to chain mail to costly
+plate armor, with several other kinds of armor in between. The Armor
+table collects the most commonly available types of armor found in the
+game and separates them into two categories: light armor and heavy
+armor. Many warriors supplement their armor with a shield.</p>
+<p>The Armor table shows the cost, weight, and other properties of the
+common types of armor worn in fantasy gaming worlds.</p>
+<p><strong>Armor Proficiency:</strong> Anyone can put on a suit of armor
+or strap a shield to an arm. Only those proficient in the armor’s use
+know how to wear it effectively, however. Your class gives you
+proficiency with certain types of armor. If you wear armor you are not
+proficient with, you suffer a -2 penalty to attack rolls and Reflex
+defense.</p>
+<p><strong>Armor Class (AC):</strong> Armor protects its wearer from
+attacks. The armor (and shield) you wear determines your base Armor
+Class.</p>
+<p><strong>Armor Check Penalty:</strong> The wearer suffers the listed
+penalty to skills that identify that they come with an Armor Check
+Penalty.</p>
+<p><strong>Shields:</strong> A shield is made from wood or metal and is
+carried in one hand.</p>
+<p>You can benefit from only one shield at a time.</p>
+<p>Light shields are strapped to your arm, you can still use your hand
+(for example, to hold things or climb, but not to wield a weapon). Heavy
+shields are strapped to your arm and held in your hand, so you cannot
+use your hand for anything else.</p>
+<p>A shield’s bonus applies to Armor Class and Reflex defenses.</p>
+<p><strong>Speed Penalty:</strong> The wearer's speed is reduced by the
+listed amount. If the wearer has multiple movement modes (for example,
+walk, swim and fly speeds), the penalty applies to each movement
+mode.</p>
+<h3 id="light-armor">Light armor </h3>
+<p>Made from supple and thin materials, light armor favors agile
+adventurers since it offers some protection without sacrificing
+mobility. If you wear light armor, you add your Dexterity or
+Intelligence modifier to the base number from your armor type to
+determine your Armor Class.</p>
+<p><strong>Cloth:</strong> Padded armor, or just regular clothes or a
+robe.</p>
+<p><strong>Leather:</strong> Leather that has been stiffened by being
+boiled in oil.</p>
+<p><strong>Hide:</strong> Thick furs and pelts.</p>
+<h3 id="heavy-armor">Heavy armor </h3>
+<p>Of all the armor categories, heavy armor offers the best protection.
+These suits of armor cover the entire body and are designed to stop a
+wide range of attacks. Only proficient warriors can manage their weight
+and bulk.</p>
+<p>Heavy armor does <strong>not</strong> let you add your Intelligence
+or Dexterity modifier to your Armor Class.</p>
+<p><strong>Chain Mail:</strong> Made of interlocking metal rings, chain
+mail includes a layer of quilted fabric underneath the mail.</p>
+<p><strong>Scale:</strong> A coat and leggings of leather covered with
+overlapping pieces of metal, like the scales of a fish.</p>
+<p><strong>Plate:</strong> Plate consists of shaped, interlocking metal
+plates to cover the entire body.</p>
+<h5 id="section-11"></h5>
+<h5 id="table-armor-and-shields">Table – Armor and Shields </h5>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th style="text-align: center;">Base AC</th>
+<th style="text-align: center;">Armor Check Penalty</th>
+<th style="text-align: center;">Speed Penalty</th>
+<th style="text-align: center;">Cost</th>
+<th style="text-align: center;">Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cloth armor</td>
+<td>Light</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">4 lb.</td>
+</tr>
+<tr>
+<td>Leather armor</td>
+<td>Light</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">25</td>
+<td style="text-align: center;">15 lb.</td>
+</tr>
+<tr>
+<td>Hide armor</td>
+<td>Light</td>
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">-1</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">30</td>
+<td style="text-align: center;">25 lb.</td>
+</tr>
+<tr>
+<td>Chainmail</td>
+<td>Heavy</td>
+<td style="text-align: center;">16</td>
+<td style="text-align: center;">-1</td>
+<td style="text-align: center;">-1</td>
+<td style="text-align: center;">40</td>
+<td style="text-align: center;">40 lb.</td>
+</tr>
+<tr>
+<td>Scale armor</td>
+<td>Heavy</td>
+<td style="text-align: center;">17</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">-1</td>
+<td style="text-align: center;">45</td>
+<td style="text-align: center;">45 lb.</td>
+</tr>
+<tr>
+<td>Plate armor</td>
+<td>Heavy</td>
+<td style="text-align: center;">18</td>
+<td style="text-align: center;">-2</td>
+<td style="text-align: center;">-1</td>
+<td style="text-align: center;">50</td>
+<td style="text-align: center;">50 lb.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th style="text-align: center;">Shield Bonus</th>
+<th style="text-align: center;">Armor Check Penalty</th>
+<th style="text-align: center;">Speed Penalty</th>
+<th style="text-align: center;">Cost</th>
+<th style="text-align: center;">Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Light shield</td>
+<td>Shield</td>
+<td style="text-align: center;">+1</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">5 gp</td>
+<td style="text-align: center;">6 lb.</td>
+</tr>
+<tr>
+<td>Heavy shield</td>
+<td>Shield</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">-2</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">10 gp</td>
+<td style="text-align: center;">15 lb.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="weapons-1">Weapons </h2>
+<p>Your class grants proficiency in certain weapons, reflecting both the
+class’s approach and the tools you are most likely to use. Whether you
+favor a longsword or a longbow, your weapon and your ability to wield it
+effectively can mean the difference between life and death while
+adventuring.</p>
+<p>The Weapons table shows the most common weapons used in the fantasy
+gaming worlds, their price and weight, the damage they deal when they
+hit, and any special properties they possess.</p>
+<p>Every weapon is classified as either melee or ranged. A <strong>melee
+weapon</strong> is typically used to attack a target in an adjacent
+square to you, whereas a <strong>ranged weapon</strong> is used to
+attack a target at a distance. Some melee weapons, called <strong>thrown
+weapons</strong>, can be used at a range. Other melee weapons, called
+<strong>reach weapons</strong>, are still held in the hands for an
+attack but can attack creatures further away than just adjacent
+squares.</p>
+<p>By default, Strength is added to attack and damage rolls for melee
+weapon attacks and Dexterity to attack and damage rolls for ranged
+weapons.</p>
+<h3 id="weapon-proficiency">Weapon proficiency </h3>
+<p>Your ancestry, class, and feats can grant you proficiency with
+certain weapons or categories of weapons. The three categories are
+<strong>simple</strong>, <strong>martial</strong> and
+<strong>exotic</strong>. Most people can use simple weapons with
+proficiency. These weapons include clubs, maces, and other weapons often
+found in the hands of commoners. Martial weapons, including swords,
+axes, and polearms, require more specialized training to use
+effectively. Proficiency in an exotic weapon is rare.</p>
+<p>Proficiency with a weapon allows you to add the weapon’s proficiency
+bonus to the attack roll for any attack you make with that weapon. If
+you make an attack roll using a weapon with which you lack proficiency,
+you do not add the proficiency bonus to the attack roll.</p>
+<h3 id="weapon-groups">Weapon groups </h3>
+<p>A weapon group describes the category that a weapon belongs to.
+Handaxes, battleaxes and greataxes all belong to the Axes category, for
+example.</p>
+<p>Weapon group has no rules of its own, but other powers and features
+might depend on the player character using a weapon from a particular
+group.</p>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<tbody>
+<tr>
+<td>Axes
+Bows
+Crossbows
+Flails and Chains</td>
+<td>Heavy Blades
+Light Blades
+Maces and Clubs
+Picks and Hammers</td>
+<td>Polearms
+Slings
+Spears and Lances
+Staffs</td>
+</tr>
+</tbody>
+</table>
+<h3 id="weapon-properties">Weapon properties </h3>
+<p>Many weapons have special properties related to their use, as shown
+in the Weapons table.</p>
+<p><strong>Improved Critical:</strong> <em>Level 1:</em> +1dW damage on
+a critical hit. <em>Level 11:</em> +2dW damage on a critical hit.
+<em>Level 21:</em> +3dW damage on a critical hit.</p>
+<p><strong>Loading:</strong> You can use a weapon that requires loading
+with ammunition to make a ranged attack only if you have ammunition to
+fire from the weapon. Each time you attack with the weapon, you expend
+one piece of ammunition. Drawing the ammunition from a quiver, case, or
+other container takes either a free or swift action, as specified in the
+table. At the end of the encounter, you can recover half your expended
+ammunition by taking a minute to search the battlefield.</p>
+<p><em>Loading (free):</em> It takes two hands to reload this
+weapon.</p>
+<p><em>Loading (swift):</em> It takes two hands to reload this weapon.
+Because of the time required to load this weapon, after making a basic
+attack or attack power with this weapon, you must spend a swift action
+before attacking with it again.</p>
+<p><strong>Range:</strong> A weapon that can be used to make a ranged
+attack has a range. The range lists two numbers. The first is the
+weapon’s normal range in feet, and the second indicates the weapon’s
+long range. When attacking a target beyond normal range, you have a -2
+penalty on the attack roll. You can’t attack a target beyond the
+weapon’s long range.</p>
+<p><strong>Reach:</strong> This weapon adds 1 square to your reach when
+you attack with it (for a total reach of 2 for most characters, since
+the default reach is 1). You can only flank or opportunity attack
+adjacent enemies, however.</p>
+<p><strong>Thrown:</strong> You can throw the weapon to make a ranged
+attack.</p>
+<p>Unless otherwise mentioned, thrown weapons have a range of 5/10
+(short/long).</p>
+<p><em>Thrown (light):</em> Use Dexterity for attack and damage rolls
+when you make a basic ranged attack with a heavy thrown weapon.</p>
+<p><em>Thrown (heavy):</em> Use Strength instead of Dexterity for attack
+and damage rolls when you make a basic ranged attack with a heavy thrown
+weapon.</p>
+<p><strong>Two-Handed:</strong> This weapon requires two hands when you
+attack with it.</p>
+<p><strong>Side Weapon:</strong> You can hold a side weapon in your off
+hand. You can wield a one-handed weapon in one hand and a side weapon in
+your other. Each time you make a weapon attack (including a weapon
+power), you choose which weapon you attack with.</p>
+<h3 id="silvered-weapons">Silvered weapons </h3>
+<p>Some monsters that have immunity or resistance to nonmagical weapons
+are susceptible to silver weapons, so cautious adventurers invest extra
+coin to plate their weapons with silver. You can silver a single weapon,
+10 crossbow bolts, 20 sling bullets or 30 arrows for 500 gp. This cost
+represents not only the price of the silver, but the time and expertise
+needed to add silver to the weapon without making it less effective.</p>
+<h3 id="improvised-weapons">Improvised weapons </h3>
+<p>An improvised weapon, including an unarmed strike, does 1d4 damage
+(one-handed) or 1d8 damage (two-handed), with no proficiency bonus on
+the attack.</p>
+<p>A character makes two-handed unarmed strikes if they have two hands
+free; otherwise they make one-handed unarmed strikes (a character can
+make one-handed unarmed strikes with both hands full by kicking or
+headbutting).</p>
+<h3 id="increasing-weapon-damage-dice">Increasing weapon damage
+dice</h3>
+<p>The table below shows what happens when a weapon’s damage die is
+increased by one.</p>
+<h5 id="table-increased-weapon-die">Table – Increased Weapon Die </h5>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Die</th>
+<th>Increases to</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1d4</td>
+<td>1d6</td>
+</tr>
+<tr>
+<td>1d6</td>
+<td>1d8</td>
+</tr>
+<tr>
+<td>1d8</td>
+<td>1d10</td>
+</tr>
+<tr>
+<td>1d10</td>
+<td>2d6 or 1d12</td>
+</tr>
+</tbody>
+</table>
+<h5 id="section-12"></h5>
+<h5 id="table-melee-weapons">Table – Melee Weapons</h5>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;">Type</th>
+<th style="text-align: center;">Hands</th>
+<th style="text-align: center;">Proficiency Bonus</th>
+<th style="text-align: center;">Damage (dW)</th>
+<th style="text-align: center;">Cost (gp)</th>
+<th style="text-align: center;">Weight (lb)</th>
+<th style="text-align: center;">Properties</th>
+<th style="text-align: center;">Group</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="8" style="text-align: center;">Simple Weapons</td>
+</tr>
+<tr>
+<td style="text-align: center;">Dart</td>
+<td style="text-align: center;">Side</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d6</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Thrown (Light)</td>
+<td style="text-align: center;">Spear &amp; Lance</td>
+</tr>
+<tr>
+<td style="text-align: center;">Knife</td>
+<td style="text-align: center;">Side</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: center;">1d4</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">Thrown (Light)</td>
+<td style="text-align: center;">Light Blade</td>
+</tr>
+<tr>
+<td style="text-align: center;">Club</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d10</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Mace &amp; Club</td>
+</tr>
+<tr>
+<td style="text-align: center;">Shortspear</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d10</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Spear &amp; Lance</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sickle</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: center;">1d8</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Light Blade</td>
+</tr>
+<tr>
+<td style="text-align: center;">Greatclub</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d12</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Mace &amp; Hammer</td>
+</tr>
+<tr>
+<td style="text-align: center;">Quarterstaff</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d12</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Staff</td>
+</tr>
+<tr>
+<td style="text-align: center;">Scythe</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: center;">1d10</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Heavy Blade</td>
+</tr>
+<tr>
+<td colspan="8" style="text-align: center;">Martial Weapons</td>
+</tr>
+<tr>
+<td style="text-align: center;">Fork</td>
+<td style="text-align: center;">Side</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d8</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Thrown (Heavy)</td>
+<td style="text-align: center;">Spear &amp; Lance</td>
+</tr>
+<tr>
+<td style="text-align: center;">Handaxe</td>
+<td style="text-align: center;">Side</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d8</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Thrown (Heavy)</td>
+<td style="text-align: center;">Axe</td>
+</tr>
+<tr>
+<td style="text-align: center;">Juggling club</td>
+<td style="text-align: center;">Side</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d8</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Thrown (Heavy)</td>
+<td style="text-align: center;">Mace &amp; Club</td>
+</tr>
+<tr>
+<td style="text-align: center;">Light pick</td>
+<td style="text-align: center;">Side</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d6</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Thrown (Heavy), Improved Critical</td>
+<td style="text-align: center;">Pick &amp; Hammer</td>
+</tr>
+<tr>
+<td style="text-align: center;">Shortsword</td>
+<td style="text-align: center;">Side</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: center;">1d6</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Thrown (Heavy)</td>
+<td style="text-align: center;">Light Blade</td>
+</tr>
+<tr>
+<td style="text-align: center;">Battleaxe</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d10</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Axe</td>
+</tr>
+<tr>
+<td style="text-align: center;">Light flail</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d8</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Improved Critical</td>
+<td style="text-align: center;">Flail &amp; Chain</td>
+</tr>
+<tr>
+<td style="text-align: center;">Light mace</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d10</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Mace &amp; Club</td>
+</tr>
+<tr>
+<td style="text-align: center;">Longsword</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: center;">1d8</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Heavy Blade</td>
+</tr>
+<tr>
+<td style="text-align: center;">Rapier</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: center;">1d8</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Light Blade</td>
+</tr>
+<tr>
+<td style="text-align: center;">Warhammer</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d8</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Improved Critical</td>
+<td style="text-align: center;">Pick &amp; Hammer</td>
+</tr>
+<tr>
+<td style="text-align: center;">Bo staff</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d10</td>
+<td style="text-align: center;">25</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">Reach</td>
+<td style="text-align: center;">Staff, Polearm</td>
+</tr>
+<tr>
+<td style="text-align: center;">Glaive</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: center;">1d8</td>
+<td style="text-align: center;">25</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">Reach</td>
+<td style="text-align: center;">Heavy Blade, Polearm</td>
+</tr>
+<tr>
+<td style="text-align: center;">Greataxe</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d12</td>
+<td style="text-align: center;">25</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Axe</td>
+</tr>
+<tr>
+<td style="text-align: center;">Greatsword</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: center;">1d10</td>
+<td style="text-align: center;">25</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Heavy Blade</td>
+</tr>
+<tr>
+<td style="text-align: center;">Halberd</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d10</td>
+<td style="text-align: center;">25</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">Reach</td>
+<td style="text-align: center;">Axe, Polearm</td>
+</tr>
+<tr>
+<td style="text-align: center;">Heavy flail</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d10</td>
+<td style="text-align: center;">25</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">Improved Critical</td>
+<td style="text-align: center;">Flail &amp; Chain</td>
+</tr>
+<tr>
+<td style="text-align: center;">Heavy mace</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d12</td>
+<td style="text-align: center;">25</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Mace &amp; Club</td>
+</tr>
+<tr>
+<td style="text-align: center;">Longspear</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d10</td>
+<td style="text-align: center;">25</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">Reach</td>
+<td style="text-align: center;">Spear &amp; Lance, Polearm</td>
+</tr>
+<tr>
+<td style="text-align: center;">Maul</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d10</td>
+<td style="text-align: center;">25</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">Improved Critical</td>
+<td style="text-align: center;">Pick &amp; Hammer</td>
+</tr>
+<tr>
+<td colspan="8" style="text-align: center;">Exotic Weapons</td>
+</tr>
+<tr>
+<td style="text-align: center;">Kukri</td>
+<td style="text-align: center;">Side</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: center;">1d6</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Thrown (Heavy)</td>
+<td style="text-align: center;">Light Blade, Heavy Blade</td>
+</tr>
+<tr>
+<td style="text-align: center;">Nunchaku</td>
+<td style="text-align: center;">Side</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d8</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Thrown (Heavy), Improved Critical</td>
+<td style="text-align: center;">Mace &amp; Club, Flail &amp; Chain</td>
+</tr>
+<tr>
+<td style="text-align: center;">Dwarven spear-axe</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">2d8</td>
+<td style="text-align: center;">25</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Axe, Spear &amp; Lance</td>
+</tr>
+<tr>
+<td style="text-align: center;">Hooked hammer</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d12</td>
+<td style="text-align: center;">25</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">Improved Critical</td>
+<td style="text-align: center;">Pick &amp; Hammer, Mace</td>
+</tr>
+<tr>
+<td style="text-align: center;">Khopesh</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: center;">1d10</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Axe, Heavy Blade</td>
+</tr>
+<tr>
+<td style="text-align: center;">Spiked chain</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: center;">1d8</td>
+<td style="text-align: center;">25</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">Reach, Improved Critical</td>
+<td style="text-align: center;">Light Blade, Flail &amp; Chain,
+Polearm</td>
+</tr>
+<tr>
+<td style="text-align: center;">Two-bladed sword</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+4</td>
+<td style="text-align: center;">1d10</td>
+<td style="text-align: center;">25</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">Heavy Blade, Light Blade</td>
+</tr>
+</tbody>
+</table>
+<h5 id="table-ranged-weapons"><br />
+Table – Ranged Weapons </h5>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th style="text-align: center;">Name</th>
+<th style="text-align: center;">Hands</th>
+<th style="text-align: center;">Proficiency Bonus</th>
+<th style="text-align: center;">Damage (dW)</th>
+<th style="text-align: center;">Range</th>
+<th style="text-align: center;">Cost (gp)</th>
+<th style="text-align: center;">Weight (lb)</th>
+<th style="text-align: center;">Properties</th>
+<th style="text-align: center;">Group</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="9" style="text-align: center;">Simple</td>
+</tr>
+<tr>
+<td style="text-align: center;">Light crossbow</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d6</td>
+<td style="text-align: center;">10/20</td>
+<td style="text-align: center;">35</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Loading (Free)</td>
+<td style="text-align: center;">Crossbow</td>
+</tr>
+<tr>
+<td style="text-align: center;">Sling</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d8</td>
+<td style="text-align: center;">10/20</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">Loading (Free)</td>
+<td style="text-align: center;">Sling</td>
+</tr>
+<tr>
+<td style="text-align: center;">Heavy crossbow</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d8</td>
+<td style="text-align: center;">15/30</td>
+<td style="text-align: center;">50</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">Loading (Swift)</td>
+<td style="text-align: center;">Crossbow</td>
+</tr>
+<tr>
+<td colspan="9" style="text-align: center;">Martial</td>
+</tr>
+<tr>
+<td style="text-align: center;">Longbow</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d10</td>
+<td style="text-align: center;">20/40</td>
+<td style="text-align: center;">50</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">Loading (Free)</td>
+<td style="text-align: center;">Bow</td>
+</tr>
+<tr>
+<td colspan="9" style="text-align: center;">Exotic</td>
+</tr>
+<tr>
+<td style="text-align: center;">Composite bow</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+2</td>
+<td style="text-align: center;">1d12</td>
+<td style="text-align: center;">25/50</td>
+<td style="text-align: center;">75</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: center;">Loading (Free)</td>
+<td style="text-align: center;">Bow</td>
+</tr>
+<tr>
+<td style="text-align: center;">Dire crossbow</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">+3</td>
+<td style="text-align: center;">1d10</td>
+<td style="text-align: center;">20/40</td>
+<td style="text-align: center;">100</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">Loading (Swift)</td>
+<td style="text-align: center;">Crossbow</td>
+</tr>
+</tbody>
+</table>
+<h2 id="section-13"></h2>
+<h2 id="focuses">Focuses</h2>
+<p>Most arcane, divine and primal powers, and some martial powers, have
+the Focus tag, meaning that they benefit from a magic focus if you use
+one while you use the power. Each power can only benefit from one magic
+focus at most.</p>
+<p>You get no benefit from using a focus unless you are proficient with
+it.</p>
+<p><strong>Arcane Focus:</strong> An arcane focus is a special item –
+typically an orb, rod, staff, wand or book, although a crystal or a
+pouch of spell components would also be thematically appropriate –
+designed to channel the power of arcane spells.</p>
+<p>A quarterstaff (also called a “staff”) can be used as both an arcane
+focus and a weapon. A quarterstaff can be held in one hand when being
+used as a focus. A quarterstaff can either be enchanted as a focus or as
+a weapon, or separately as a weapon and as a focus -- in which case it
+costs as much as each item would separately, put together.</p>
+<p>Unless otherwise mentioned, an arcane focus requires a hand to
+use.</p>
+<p><strong>Druidic Focus:</strong> A druidic focus might be a sprig of
+mistletoe or holly, a wand or scepter made of yew or another special
+wood, a staff drawn whole out of a living tree, or an object
+incorporating feathers, fur, bones, and teeth from sacred animals.</p>
+<p>Unless otherwise mentioned, a druidic focus requires a hand to
+use.</p>
+<p><strong>Holy Symbol:</strong> A holy symbol is a representation of a
+god or pantheon. It might be an amulet depicting a symbol representing a
+deity, the same symbol carefully engraved or inlaid as an emblem on a
+shield, or a tiny box holding a fragment of a sacred relic.</p>
+<p>Unless otherwise mentioned, a holy symbol does not require a hand to
+use. It is enough that you have it on your person (perhaps emblazoned on
+a shield or hung around your neck).</p>
+<p><strong>Martial Focus:</strong> A martial focus is an item that
+inspires or reminds when seen or studied. It might be a short scroll
+describing a meditation that sharpens the mind for battle, or a book of
+strategies that can be reviewed quickly before bed, or a blunt sword
+that can be practiced with, or bindings wrapped around your hands while
+bareknuckle boxing, or a banner you carry on your back.</p>
+<p>Unless otherwise mentioned, a martial focus does not require a hand
+to use. It is enough that you have it on your person.</p>
+<h2 id="adventuring-gear">Adventuring Gear </h2>
+<p>This section describes items that have special rules or require
+further explanation.</p>
+<p><strong>Climber’s Kit:</strong> Gain a +2 bonus on Athletics checks
+to climb when you use a climber’s kit.</p>
+<p><strong>Candle:</strong> For 1 hour, it casts dim light in a 2-square
+radius.</p>
+<p><strong>Dungeoneer’s Pack (15 gp):</strong> Includes a backpack, a
+bedroll, a flint and steel, a belt pouch, 10 days of rations, a
+waterskin and two glowbaskets. The pack also has 50 feet of hempen rope
+strapped to the side of it. The total weight of the pack is 30.5
+lbs.</p>
+<p><strong>Lantern:</strong> For 8 hours per pint of oil, it casts
+bright light in a 10-square radius.</p>
+<p><strong>Rations:</strong> Rations consist of dry foods suitable for
+extended travel, including jerky, dried fruit, hardtack, and nuts.</p>
+<p><strong>Spellbook:</strong> Essential for wizards, a spellbook is a
+leather-bound tome with 128 blank vellum pages suitable for recording
+spells. It is also used to record incantations by those who can cast
+them.</p>
+<p><strong>Glowbaskets:</strong> This basket is activated by shaking.
+For 4 hours, it casts bright light in a 20-square radius.</p>
+<p><strong>Torch:</strong> For 1 hour, it casts bright light in a
+5-square radius.</p>
+<p><strong>Thieves’ tools:</strong> Gain a +2 bonus on Thievery checks
+to disable traps and open locks.</p>
+<p><strong>Waybread:</strong> 10 days’ worth of food in a light but
+expensive form. Precariously wrapped in loosely-bound leaves.</p>
+<h5 id="table-ammunition">Table – Ammunition </h5>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Cost</th>
+<th style="text-align: right;">Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arrows (30)</td>
+<td style="text-align: right;">1 gp</td>
+<td style="text-align: right;">3 lb.</td>
+</tr>
+<tr>
+<td>Crossbow bolts (20)</td>
+<td style="text-align: right;">1 gp</td>
+<td style="text-align: right;">2 lb.</td>
+</tr>
+<tr>
+<td>Sling bullets (20)</td>
+<td style="text-align: right;">1 gp</td>
+<td style="text-align: right;">5 lb.</td>
+</tr>
+</tbody>
+</table>
+<h5 id="table-focuses">Table – Focuses </h5>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Cost</th>
+<th style="text-align: right;">Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arcane focus: Book, orb, rod, wand</td>
+<td style="text-align: right;">10 gp</td>
+<td style="text-align: right;">1 lb.</td>
+</tr>
+<tr>
+<td>Arcane focus: Quarterstaff</td>
+<td style="text-align: right;">5 gp</td>
+<td style="text-align: right;">4 lb.</td>
+</tr>
+<tr>
+<td>Druidic focus</td>
+<td style="text-align: right;">5 gp</td>
+<td style="text-align: right;">1 lb.</td>
+</tr>
+<tr>
+<td>Holy symbol</td>
+<td style="text-align: right;">10 gp</td>
+<td style="text-align: right;">1 lb.</td>
+</tr>
+<tr>
+<td>Martial focus</td>
+<td style="text-align: right;">10 gp</td>
+<td style="text-align: right;">1 lb.</td>
+</tr>
+</tbody>
+</table>
+<h5 id="table-mounts-and-other-animals">Table – Mounts and other animals
+</h5>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: center;">Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Riding horse</td>
+<td style="text-align: center;">360 gp</td>
+</tr>
+<tr>
+<td>War horse</td>
+<td style="text-align: center;">520 gp</td>
+</tr>
+</tbody>
+</table>
+<h5 id="table-vehicles">Table – Vehicles </h5>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Cost</th>
+<th style="text-align: right;">Carrying Capacity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cart</td>
+<td style="text-align: right;">340 gp</td>
+<td style="text-align: right;">2,000 lb.</td>
+</tr>
+<tr>
+<td>Rowboat</td>
+<td style="text-align: right;">420 gp</td>
+<td style="text-align: right;">600 lb.</td>
+</tr>
+</tbody>
+</table>
+<h5 id="table-adventuring-gear"><br />
+Table – Adventuring Gear </h5>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Item</th>
+<th style="text-align: right;">Cost</th>
+<th style="text-align: right;">Weight</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Backpack</td>
+<td style="text-align: right;">2 gp</td>
+<td style="text-align: right;">2 lb.</td>
+</tr>
+<tr>
+<td>Bedroll</td>
+<td style="text-align: right;">1 sp</td>
+<td style="text-align: right;">5 lb.</td>
+</tr>
+<tr>
+<td>Candle</td>
+<td style="text-align: right;">1 cp</td>
+<td style="text-align: right;">-</td>
+</tr>
+<tr>
+<td>Chain (10 feet)</td>
+<td style="text-align: right;">30 gp</td>
+<td style="text-align: right;">2 lb.</td>
+</tr>
+<tr>
+<td>Chest</td>
+<td style="text-align: right;">2 gp</td>
+<td style="text-align: right;">25 lb.</td>
+</tr>
+<tr>
+<td>Climber’s kit</td>
+<td style="text-align: right;">2 gp</td>
+<td style="text-align: right;">11 lb.</td>
+</tr>
+<tr>
+<td>Flask</td>
+<td style="text-align: right;">3 cp</td>
+<td style="text-align: right;">1 lb.</td>
+</tr>
+<tr>
+<td>Flint and steel</td>
+<td style="text-align: right;">1 gp</td>
+<td style="text-align: right;">-</td>
+</tr>
+<tr>
+<td>Good clothes</td>
+<td style="text-align: right;">30 gp</td>
+<td style="text-align: right;">6 lb.</td>
+</tr>
+<tr>
+<td>Grappling hook</td>
+<td style="text-align: right;">1 gp</td>
+<td style="text-align: right;">4 lb.</td>
+</tr>
+<tr>
+<td>Hammer</td>
+<td style="text-align: right;">5 sp</td>
+<td style="text-align: right;">2 lb.</td>
+</tr>
+<tr>
+<td>Lantern</td>
+<td style="text-align: right;">10 gp</td>
+<td style="text-align: right;">2 lb.</td>
+</tr>
+<tr>
+<td>Oil (flask)</td>
+<td style="text-align: right;">1 sp</td>
+<td style="text-align: right;">1 lb.</td>
+</tr>
+<tr>
+<td>Piton</td>
+<td style="text-align: right;">1 sp</td>
+<td style="text-align: right;">0.5 lb.</td>
+</tr>
+<tr>
+<td>Pole (10-foot)</td>
+<td style="text-align: right;">5 cp</td>
+<td style="text-align: right;">7 lb.</td>
+</tr>
+<tr>
+<td>Pouch</td>
+<td style="text-align: right;">1 gp</td>
+<td style="text-align: right;">0.5 lb.</td>
+</tr>
+<tr>
+<td>Rations (10 days)</td>
+<td style="text-align: right;">5 gp</td>
+<td style="text-align: right;">10 lb.</td>
+</tr>
+<tr>
+<td>Rope, hempen (50 feet)</td>
+<td style="text-align: right;">1 gp</td>
+<td style="text-align: right;">10 lb.</td>
+</tr>
+<tr>
+<td>Rope, silk (50 feet)</td>
+<td style="text-align: right;">10 gp</td>
+<td style="text-align: right;">5 lb.</td>
+</tr>
+<tr>
+<td>Spellbook</td>
+<td style="text-align: right;">50 gp</td>
+<td style="text-align: right;">3 lb.</td>
+</tr>
+<tr>
+<td>Glowbasket</td>
+<td style="text-align: right;">4 gp</td>
+<td style="text-align: right;">2 lb.</td>
+</tr>
+<tr>
+<td>Tent, two-person</td>
+<td style="text-align: right;">10 gp</td>
+<td style="text-align: right;">20 lb.</td>
+</tr>
+<tr>
+<td>Thieves’ tools</td>
+<td style="text-align: right;">20 gp</td>
+<td style="text-align: right;">1 lb.</td>
+</tr>
+<tr>
+<td>Torch</td>
+<td style="text-align: right;">1 cp</td>
+<td style="text-align: right;">1 lb.</td>
+</tr>
+<tr>
+<td>Waterskin</td>
+<td style="text-align: right;">1 gp</td>
+<td style="text-align: right;">4 lb. (full)</td>
+</tr>
+<tr>
+<td>Waybread (10 days)</td>
+<td style="text-align: right;">50 gp</td>
+<td style="text-align: right;">1 lb.</td>
+</tr>
+</tbody>
+</table>
+<h1 id="abilities-and-skills">Abilities and skills</h1>
+<h2 id="section-14"></h2>
+<h2 id="ability-and-skill-checks">Ability and skill checks</h2>
+<p>A skill check is made to determine whether a creature succeeds at a
+task. The Game Master chooses which skill the creature should use and
+assigns a number representing the task’s Difficulty Class (DC). The more
+difficult the task, the higher its DC (see Table: Typical Difficulty
+Classes).</p>
+<h5 id="table-typical-difficulty-classes">Table – Typical Difficulty
+Classes</h5>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Difficulty</th>
+<th>DC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Easy</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Moderate</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Hard</td>
+<td>18</td>
+</tr>
+</tbody>
+</table>
+<p>To make a skill check, roll a d20 and add your skill modifier and any
+other relevant bonuses and penalties.</p>
+<p>In some cases, there is no applicable skill but an ability (Strength,
+Constitution, Dexterity, Intelligence, Wisdom or Charisma) could still
+apply. Add your ability modifier instead of your skill modifier in these
+cases.</p>
+<h5 id="maintaining-difficulties-at-higher-levels">Maintaining
+difficulties at higher levels</h5>
+<p>To create a higher-level challenge, increase DCs by about 0.5 per
+level (more for moderate and hard challenges).</p>
+<p>For example, if a wooden door is DC 8 to burst down, an obsidian door
+in an abyssal crypt (where the monsters are around level 21) might be DC
+18 to burst down.</p>
+<h2 id="abilities">Abilities</h2>
+<p>Six abilities provide a quick description of every creature’s
+physical and mental characteristics:</p>
+<ul>
+<li><p><strong>Strength</strong>, measuring physical power</p></li>
+<li><p><strong>Constitution</strong>, measuring endurance, hardiness and
+health</p></li>
+<li><p><strong>Dexterity</strong>, measuring agility, quickness and fine
+motor skills</p></li>
+<li><p><strong>Intelligence</strong>, measuring reasoning and
+memory</p></li>
+<li><p><strong>Wisdom</strong>, measuring perception and
+insight</p></li>
+<li><p><strong>Charisma</strong>, measuring force of
+personality</p></li>
+</ul>
+<p>Is a character muscle-bound and insightful? Brilliant and charming?
+Nimble and hardy? Ability scores define these qualities – a creature’s
+assets as well as weaknesses.</p>
+<p>The three main rolls of the game – the ability check, the skill
+check, and the attack roll – rely on the six ability scores. The book’s
+introduction describes the basic rule behind these rolls: roll a d20,
+add an ability modifier derived from one of the six ability scores, and
+compare the total to a target number.</p>
+<h3 id="ability-scores-and-modifiers">Ability scores and modifiers </h3>
+<p>Each of a creature’s abilities has a score, a number that defines the
+magnitude of that ability. An ability score is not just a measure of
+innate capabilities, but also encompasses a creature’s training and
+competence in activities related to that ability.</p>
+<p>A score of 10 or 11 is the normal human average, but adventurers and
+many monsters are a cut above average in most abilities. A score of 18
+is the highest that a person usually reaches.</p>
+<p>Each ability also has a modifier, derived from the score and ranging
+from -5 (for an ability score of 1) to +10 (for a score of 30). The
+Ability Scores and Modifiers table notes the ability modifiers for the
+range of possible ability scores, from 1 to 30.</p>
+<h5 id="table-ability-scores-and-modifiers">Table – Ability Scores and
+Modifiers </h5>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Score</th>
+<th>Modifier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>-5</td>
+</tr>
+<tr>
+<td>2-3</td>
+<td>-4</td>
+</tr>
+<tr>
+<td>4-5</td>
+<td>-3</td>
+</tr>
+<tr>
+<td>6-7</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>8-9</td>
+<td>-1</td>
+</tr>
+<tr>
+<td>10-11</td>
+<td>+0</td>
+</tr>
+<tr>
+<td>12-13</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>14-15</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>16-17</td>
+<td>+3</td>
+</tr>
+<tr>
+<td>18-19</td>
+<td>+4</td>
+</tr>
+<tr>
+<td>20-21</td>
+<td>+5</td>
+</tr>
+<tr>
+<td>22-23</td>
+<td>+6</td>
+</tr>
+<tr>
+<td>24-25</td>
+<td>+7</td>
+</tr>
+<tr>
+<td>26-27</td>
+<td>+8</td>
+</tr>
+<tr>
+<td>28-29</td>
+<td>+9</td>
+</tr>
+<tr>
+<td>30</td>
+<td>+10</td>
+</tr>
+</tbody>
+</table>
+<p>To determine an ability modifier without consulting the table,
+subtract 10 from the ability score and then divide the total by 2 (round
+down).</p>
+<p>Because ability modifiers affect almost every attack roll, skill
+check, ability check, and defense, ability modifiers come up in play
+more often than their associated scores.</p>
+<h2 id="using-each-ability">Using each ability </h2>
+<p>Many tasks that a character or monster might attempt in the game are
+covered by one of the six abilities. This section explains in more
+detail what those abilities mean and the ways they are used in the
+game.</p>
+<h3 id="strength">Strength </h3>
+<p>Strength measures bodily power, athletic training, and the extent to
+which you can exert raw physical force.</p>
+<h5 id="strength-checks">Strength Checks </h5>
+<p>The GM might call for a Strength check when you try to accomplish
+tasks that require brute strength, that do not fall under the Athletics
+skill. Examples might include:</p>
+<ul>
+<li><p>Forcing open a stuck, locked, or barred door</p></li>
+<li><p>Tipping over a statue</p></li>
+<li><p>Keeping a boulder from rolling</p></li>
+</ul>
+<h5 id="skill-checks">Skill Checks </h5>
+<p>Athletics skill checks add your Strength modifier.</p>
+<h5 id="attack-rolls-and-damage">Attack Rolls and Damage </h5>
+<p>You add your Strength modifier to your attack roll and your damage
+roll when making a basic attack with a melee weapon such as a mace or
+battleaxe, or a heavy thrown weapon like a javelin.</p>
+<p>Certain powers use a Strength attack roll and/or add Strength
+modifier to damage.</p>
+<h5 id="fortitude-defense">Fortitude Defense </h5>
+<p>Add either your Strength modifier or your Constitution modifier
+(whichever is higher) to your Fortitude defense.</p>
+<h5 id="lifting-and-carrying">Lifting and Carrying</h5>
+<p>Your Strength score determines the amount of weight you can bear. The
+following terms define what you can lift or carry.</p>
+<p><strong>Medium Load:</strong> Your medium load is your Strength score
+multiplied by 10. This is the weight (in pounds) that you can lift or
+carry without suffering a penalty, which is high enough that most
+characters don’t usually have to worry about it.</p>
+<p><strong>Heavy Load:</strong> You can lift or carry a weight in pounds
+up to twice your carrying capacity. While lifting weight in excess of
+your carrying capacity, you get the slowed condition.</p>
+<p><strong>Push or Drag:</strong> You can push or drag a weight in
+pounds up to five times your carrying capacity. While pushing or
+dragging weight in excess of your carrying capacity, you get the slowed
+condition.</p>
+<h3 id="constitution">Constitution </h3>
+<p>Constitution measures health, stamina, and vital force.</p>
+<h5 id="constitution-checks">Constitution Checks </h5>
+<p>The GM might call for a Constitution check when you try to accomplish
+tasks that require hardiness and good health, that do not fall under the
+Endure skill. The Endure skill is broad enough that it would cover most
+situations that you might otherwise use a Constitution check for, but
+for example testing to see if you can quaff an entire stein of ale in
+one go might use a Constitution check since it is not really something
+you “endure.”</p>
+<h5 id="skill-checks-1">Skill Checks </h5>
+<p>Endurance skill checks add your Constitution modifier.</p>
+<h5 id="attack-rolls-and-damage-1">Attack Rolls and Damage </h5>
+<p>Certain powers use a Constitution attack roll and/or add Constitution
+modifier to damage.</p>
+<h5 id="fortitude-defense-1">Fortitude Defense </h5>
+<p>Add either your Strength modifier or your Constitution modifier
+(whichever is higher) to your Fortitude defense.</p>
+<h5 id="hit-points-and-recoveries">Hit Points and Recoveries </h5>
+<p>Your Constitution contributes to your hit points. You add your
+Constitution score to your hit point total.</p>
+<p>If your Constitution score changes, your hit point maximum changes as
+well, as though you had the new score from 1st level.</p>
+<p>You add your Constitution modifier to the number of recoveries that
+you have.</p>
+<h3 id="dexterity">Dexterity </h3>
+<p>Dexterity measures agility, reflexes, and balance.</p>
+<h5 id="dexterity-checks">Dexterity Checks </h5>
+<p>The GM might call for a Dexterity check when you try to accomplish
+tasks that require finesse or agility, that do not fall under the
+Acrobatics, Stealth, or Sleight of Hand skills. Examples might
+include:</p>
+<ul>
+<li><p>Steering a chariot around a tight turn</p></li>
+<li><p>Playing a stringed instrument</p></li>
+<li><p>Crafting a small or detailed object</p></li>
+</ul>
+<h5 id="initiative-1">Initiative </h5>
+<p>An initiative check is a special Dexterity check that you make at the
+beginning of every combat. Initiative determines the order of creatures’
+turns in combat.</p>
+<h5 id="skill-checks-2">Skill Checks </h5>
+<p>Acrobatics, Stealth, and Sleight of Hand skill checks add your
+Dexterity modifier.</p>
+<h5 id="attack-rolls-and-damage-2">Attack Rolls and Damage </h5>
+<p>You add your Dexterity modifier to your attack roll and your damage
+roll when making a basic attack with a ranged weapon, such as a sling or
+a longbow, or with a light throwing weapon.</p>
+<p>Certain powers use a Dexterity attack roll and/or add Dexterity
+modifier to damage.</p>
+<h5 id="armor-class-and-reflex-defense">Armor Class and Reflex Defense
+</h5>
+<p>Add either your Dexterity modifier or your Intelligence modifier
+(whichever is higher) to your Reflex defense.</p>
+<p>If you wear light or no armor, add either your Dexterity modifier or
+your Intelligence modifier (whichever is higher) to your Armor Class. If
+you wear heavy armor, do not add any ability modifier to your Armor
+Class.</p>
+<h3 id="intelligence">Intelligence </h3>
+<p>Intelligence measures mental acuity, accuracy of recall, and the
+ability to reason.</p>
+<h5 id="intelligence-checks">Intelligence Checks </h5>
+<p>The GM might call for an Intelligence check when you try to
+accomplish tasks that require quick-wittedness and rationality, that do
+not fall under the Arcana, History, and Religion skills. Examples might
+include:</p>
+<ul>
+<li><p>Estimating the value of a precious item</p></li>
+<li><p>Recalling lore about a craft or trade</p></li>
+</ul>
+<h5 id="skill-checks-3">Skill Checks </h5>
+<p>Arcana, History, and Religion skill checks add your Intelligence
+modifier.</p>
+<h5 id="attack-rolls-and-damage-3">Attack Rolls and Damage </h5>
+<p>Certain powers use an Intelligence attack roll and/or add
+Intelligence modifier to damage.</p>
+<h5 id="armor-class-and-reflex-defense-1">Armor Class and Reflex Defense
+</h5>
+<p>Add either your Dexterity modifier or your Intelligence modifier
+(whichever is higher) to your Reflex defense.</p>
+<p>If you wear light or no armor, add either your Dexterity modifier or
+your Intelligence modifier (whichever is higher) to your Armor Class. If
+you wear heavy armor, do not add any ability modifier to your Armor
+Class.</p>
+<h3 id="wisdom-1"><br />
+Wisdom </h3>
+<p>Wisdom reflects how attuned you are to the world around you and
+represents perceptiveness and intuition.</p>
+<h5 id="wisdom-checks">Wisdom Checks </h5>
+<p>The GM might call for a Wisdom check when you try to accomplish tasks
+that require perceptiveness and intuition, that do not fall under the
+Dungeoneering, Heal, Insight, and Perception skills. An example could be
+getting a gut feeling about what course of action to follow.</p>
+<h5 id="skill-checks-4">Skill Checks </h5>
+<p>Dungeoneering, Heal, Insight, and Perception skill checks add your
+Wisdom modifier.</p>
+<h5 id="attack-rolls-and-damage-4">Attack Rolls and Damage </h5>
+<p>Certain powers use a Wisdom attack roll and/or add Wisdom modifier to
+damage.</p>
+<h5 id="will-defense">Will Defense </h5>
+<p>Add either your Wisdom modifier or your Charisma modifier (whichever
+is higher) to your Will defense.</p>
+<h3 id="charisma-1">Charisma </h3>
+<p>Charisma measures your ability to interact effectively with others.
+It includes such factors as confidence and eloquence, and it can
+represent a charming or commanding personality.</p>
+<h5 id="charisma-checks">Charisma Checks </h5>
+<p>The GM might call for a Charisma check when you try to accomplish
+tasks that require charm and personability, that do not fall under the
+Bluff, Diplomacy, Intimidate, and Streetwise skills. An example could be
+communicating with a creature when you do not share a common
+language.</p>
+<h5 id="skill-checks-5">Skill Checks </h5>
+<p>Bluff, Diplomacy, Intimidate, and Streetwise skill checks add your
+Charisma modifier.</p>
+<h5 id="attack-rolls-and-damage-5">Attack Rolls and Damage </h5>
+<p>Certain powers use a Charisma attack roll and/or add Charisma
+modifier to damage.</p>
+<h5 id="will-defense-1">Will Defense </h5>
+<p>Add either your Wisdom modifier or your Charisma modifier (whichever
+is higher) to your Will defense.</p>
+<h2 id="the-skills"><br />
+The skills</h2>
+<p>The skills are:</p>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Skill</th>
+<th>Ability</th>
+<th>Armor Check Penalty</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Acrobatics</td>
+<td>Dex</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Arcana</td>
+<td>Int</td>
+<td></td>
+</tr>
+<tr>
+<td>Athletics</td>
+<td>Str</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Bluff</td>
+<td>Cha</td>
+<td></td>
+</tr>
+<tr>
+<td>Diplomacy</td>
+<td>Cha</td>
+<td></td>
+</tr>
+<tr>
+<td>Dungeoneering</td>
+<td>Wis</td>
+<td></td>
+</tr>
+<tr>
+<td>Endure</td>
+<td>Con</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Heal</td>
+<td>Wis</td>
+<td></td>
+</tr>
+<tr>
+<td>History</td>
+<td>Int</td>
+<td></td>
+</tr>
+<tr>
+<td>Insight</td>
+<td>Wis</td>
+<td></td>
+</tr>
+<tr>
+<td>Intimidate</td>
+<td>Cha</td>
+<td></td>
+</tr>
+<tr>
+<td>Perception</td>
+<td>Wis</td>
+<td></td>
+</tr>
+<tr>
+<td>Religion</td>
+<td>Int</td>
+<td></td>
+</tr>
+<tr>
+<td>Sleight of Hand</td>
+<td>Dex</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Stealth</td>
+<td>Dex</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Streetwise</td>
+<td>Cha</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>If a skill has “Armor Check Penalty” listed, it means users of that
+skill suffer a penalty if they are wearing bulky or unwieldy armor or
+equipped with shields.</p>
+<h5 id="passive-skills">Passive skills</h5>
+<p>You can calculate a creature’s “Passive Perception” and “Passive
+Insight” by adding each skill modifier to 10. When that skill “counters”
+another skill, like Insight countering Deception or Perception
+countering Stealth, use the passive value as the DC for the skill
+check.</p>
+<h5 id="lore-skills">Lore skills</h5>
+<p>Five skills – Arcana, Dungeoneering, History, Nature and Religion –
+concern how much the character knows about something. The DCs to see if
+a character knows something about a given area are:</p>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Area</th>
+<th>DC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Common knowledge</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Expert knowledge</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Obscure or deliberately hidden knowledge</td>
+<td>25</td>
+</tr>
+</tbody>
+</table>
+<p>A character may get a bonus on these checks if they have reference
+books or a library they can make use of.</p>
+<p>Lore skills can also be used to test what a character knows about a
+creature off of the top of their head. It does not take an action, but a
+character can only make the check once for a given creature (at least
+until they have had a chance to gain more knowledge somehow).</p>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>DC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Name, type, tags</td>
+<td>15</td>
+</tr>
+<tr>
+<td>What powers it has</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Immunities, resistances and weaknesses</td>
+<td>25</td>
+</tr>
+</tbody>
+</table>
+<h3 id="acrobatics">Acrobatics</h3>
+<p>An Acrobatics check allows a character to perform gymnastic feats
+such as rolling under a closing gate, swinging across a chasm on a rope,
+or keeping their balance on a narrow ledge.</p>
+<p>Those trained in Acrobatics can take the Slow Fall action.</p>
+<h4 class="Heading-4---At-Will" id="slow-fall">Slow Fall </h4>
+<blockquote>
+<p><strong>At-Will Utility</strong> (<strong>Free Action</strong>)<br />
+<strong>Trigger</strong> You are falling.<br />
+<strong>Effect</strong> Make an Acrobatics check. Halve your result.
+Reduce falling damage by that amount. If you take no damage from the
+fall, you end the fall standing (otherwise, you fall prone).</p>
+</blockquote>
+<h3 id="arcana">Arcana</h3>
+<p>Arcana measures a character’s knowledge of magic and magical
+creatures. It can also be used to sense whether an area has magical
+qualities.</p>
+<p>Use Arcana for knowledge checks relating to elemental, fey, shadow or
+construct creatures.</p>
+<p>Those trained in Arcana can take the Identify Persistent Power,
+Identify Magical Thing and Sense Magic actions.</p>
+<h4 class="Heading-4---At-Will" id="identify-persistent-power">Identify
+Persistent Power </h4>
+<blockquote>
+<p><strong>At-Will</strong> <strong>Utility</strong> (<strong>Swift
+Action</strong>)<br />
+<strong>Requirements</strong> You can see a power with the Conjuration,
+Summons or Zone tag<br />
+<strong>Attack</strong> Arcana vs 15 + half the power's level<br />
+<strong>Hit</strong> You learn the power’s name, tags and
+tradition.<br />
+<strong>Miss</strong> You must take a short rest before trying to
+identify that particular power again.</p>
+</blockquote>
+<h4 class="Heading-4---At-Will" id="identify-magical-thing">Identify
+Magical Thing </h4>
+<blockquote>
+<p><strong>At-Will</strong> <strong>Utility</strong> (<strong>Standard
+Action</strong>)<br />
+<strong>Requirements</strong> You can see an environmental magical
+effect or the results of an incantation<br />
+<strong>DC</strong> Arcana vs Hard DC for your level, or for the
+incantation’s level if it has one<br />
+<strong>Hit</strong> You identify the name of the phenomenon, any tags
+it might have or tradition it comes from, and its general purpose. If it
+is the result of an incantation, you learn the incantation’s names and
+the basics of its effects.<br />
+<strong>Miss</strong> You must take a long rest before trying to
+identify that particular thing again.</p>
+</blockquote>
+<h4 class="Heading-4---At-Will" id="sense-magic">Sense Magic </h4>
+<blockquote>
+<p><strong>At-Will</strong> <strong>Utility</strong> (<strong>Standard
+Action</strong>)<br />
+<strong>Effect</strong> You attempt to sense the presence of magic
+within 5 + your level squares.</p>
+<p>For each magical thing in range:</p>
+<p>• If its level is your level -5 or less, you automatically learn its
+tradition and location.<br />
+• If its level is greater than your level -5, make an Arcana check (hard
+DC for your level) to learn its tradition and location.</p>
+</blockquote>
+<h3 id="athletics">Athletics</h3>
+<p>A character makes an Athletics check to perform unusually difficult
+feats of swimming, running, climbing, or jumping. These activities take
+place during a movement, and they count towards the total number of
+squares you can move.</p>
+<p>While climbing, you are off-guard and each square of movement costs 1
+extra square. When you start climbing as part of your movement, make an
+Athletics check against a DC chosen by the GM. If you fail by 4 or less,
+your action ends and you stay in place. If you fail by 5 or more, you
+fall.</p>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Conditions</th>
+<th>DC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rope</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Uneven surface like a cliff face</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Rough surface like a brick wall</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Smooth surface like a concrete wall</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Slippery surface</td>
+<td>+5</td>
+</tr>
+</tbody>
+</table>
+<p>While swimming, you are off-guard and each square of movement costs 1
+extra square. When you start swimming as part of your movement, make an
+Athletics check against a DC chosen by the GM. If you fail by 4 or less,
+your action ends and you stay in place. If you fail by 5 or more, you
+sink 1 square underwater.</p>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Conditions</th>
+<th>DC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Good</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Choppy</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Stormy</td>
+<td>20</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Long Jump:</strong> When you make a long jump, make an
+Athletics check. You clear a number of <em>squares</em> equal to the
+check result divided by 10 (standing long jump) or divided by 5 (if you
+move at least 2 squares immediately before the jump).</p>
+<p><strong>High Jump:</strong> When you make a high jump, you leap into
+the air a number of <em>feet</em> equal to the check result divided by
+10 (standing high jump) or divided by 5 (if you move at least 2 squares
+immediately before the jump). Either way, every five feet costs a square
+of movement.</p>
+<h3 id="bluff">Bluff</h3>
+<p>The Bluff skill is used when a character lies, misleads, or hides the
+truth whether verbally or otherwise.</p>
+<p>Bluff checks are usually opposed by a target’s Insight check.</p>
+<h3 id="diplomacy">Diplomacy</h3>
+<p>A character makes a Diplomacy check to convince or influence someone
+through logic, flattery, or negotiation (unlike a Bluff check, a
+Diplomacy check is made in some degree of good faith.)</p>
+<h3 id="dungeoneering">Dungeoneering</h3>
+<p>Dungeoneering allows a character to navigate and survive in dungeons
+and identify underground hazards.</p>
+<p>Use Dungeoneering for knowledge checks relating to cosmic
+creatures.</p>
+<h3 id="endurance">Endurance</h3>
+<p>The GM might call for an Endurance check when you try to accomplish
+tasks like the following:</p>
+<ul>
+<li><p>Hold your breath</p></li>
+<li><p>March or labor for hours without rest</p></li>
+<li><p>Go without sleep</p></li>
+<li><p>Survive without food or water</p></li>
+<li><p>Quaff an entire stein of ale in one go</p></li>
+</ul>
+<h3 id="heal">Heal</h3>
+<p>A character can perform a Medicine check to stabilize a dying
+creature, treat or diagnose a disease or poison, or determine a cause of
+death.</p>
+<p>Creatures that take the Rally Ally, Stabilize and Grant Save actions
+use the Heal skill.</p>
+<h3 id="history">History</h3>
+<p>The History skill measures a character’s knowledge of past
+events.</p>
+<h3 id="insight">Insight</h3>
+<p>An Insight check can be used for reading a creature’s intentions or
+motives, and to see through a creature’s lies when it is using
+Deception.</p>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Use</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Read intentions or motives</td>
+<td>10 + half creature’s level</td>
+</tr>
+<tr>
+<td>Disbelieve a magical illusion</td>
+<td>15 + half effect’s level</td>
+</tr>
+</tbody>
+</table>
+<h3 id="intimidate">Intimidate</h3>
+<p>A character makes an Intimidate check to alter someone’s behavior by
+frightening or threatening them.</p>
+<h3 id="nature">Nature</h3>
+<p>The Nature skill measures a character’s knowledge of natural
+terrains, beasts, plants, and hazards.</p>
+<p>It is also used to perform the tasks necessary to thrive in the
+wilderness: hunting, tracking, avoiding natural hazards, and traveling
+without getting lost.</p>
+<p>Nature also allows a character to train or control a domesticated
+animal, to handle a steed, or to communicate nonaggression to a wild
+beast.</p>
+<p>Use Nature for knowledge checks relating to natural creatures.</p>
+<h3 id="perception">Perception</h3>
+<p>A character’s Perception measures what they are able to see, hear, or
+otherwise sense. Perception is also used for actively searching and
+looking for clues.</p>
+<p>Perception checks are made against Stealth when seeing if a creature
+spots another a creature that is hiding or moving silently. These
+typically do not require an action.</p>
+<p>Perception checks are made against a DC when a creature is searching
+an area for something hidden. Generally, searching takes 10 minutes or
+more.</p>
+<h3 id="religion">Religion</h3>
+<p>Religion measures a character’s knowledge of gods, religions, rites,
+and systems of morality.</p>
+<p>Use Religion for knowledge checks relating to outsider and undead
+creatures.</p>
+<h3 id="stealth">Stealth</h3>
+<p>Stealth is used to hide or avoid notice.</p>
+<p>You can hide at the end of any action where you moved, provided you
+are in three-quarters cover or total concealment.</p>
+<p>When you try to hide, make a Stealth check opposed by the passive
+Perception of any enemy that can sense you.</p>
+<p>If you succeed, you are silent and invisible against those enemies.
+You remain so provided you do not make an attack, move more than 2
+squares, stay in three-quarters cover/total concealment and do not make
+excessive noise.</p>
+<p>Until you are discovered or you stop hiding, that check’s total is
+contested by the Perception check of any creature that actively searches
+on its turn for signs of your presence (does not require an action on
+behalf of that creature).</p>
+<p><strong>Movement:</strong> If you moved 3 squares or more, take a -5
+penalty on the check to hide. If you took the Run action, take a -10
+penalty instead.</p>
+<p>While hidden, if you move 3 squares or more, you must make another
+Stealth check vs passive Perception score with a -5 penalty (-10 if
+running).</p>
+<p><strong>Effects of Hidden:</strong> If you take an action that would
+cause you to stop being hidden, the benefits of being hidden end at the
+end of that action.</p>
+<h3 id="streetwise">Streetwise</h3>
+<p>You have a good sense of what is going on in a settlement and can
+quickly ingratiate yourself with the locals.</p>
+<h5 id="gather-information">Gather Information</h5>
+<p>After an hour, you gather useful information – jobs going, a good
+deal, local rumors or other tidbits.</p>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Area</th>
+<th>DC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Common information</td>
+<td>13</td>
+</tr>
+<tr>
+<td>Niche information</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Obscure or deliberately hidden information</td>
+<td>25</td>
+</tr>
+</tbody>
+</table>
+<h3 id="thievery">Thievery</h3>
+<p>A character makes a Sleight of Hand check to perform legerdemain,
+pickpocket, hide an object on another creature, make a concealed hand
+signal, or otherwise deceive the eyes with feats of agility.</p>
+<h1 id="section-15"></h1>
+<h1 id="monsters">Monsters</h1>
+<p>A monster's statistics, sometimes referred to as its <strong>stat
+block</strong>, provide the essential information that you need to run
+the monster. In general, monsters follow the same rules as other
+creatures. What follows are the rules that are specific to monsters.</p>
+<h5 id="level">Level </h5>
+<p>A monster's level tells you how great a threat the monster is. An
+appropriately equipped party of four adventurers should be able to
+survive four combat encounters before needing a long rest, with each of
+the four combat encounters having one standard monster per hero, of the
+same level as the heroes.</p>
+<p>For example, a party of four 3rd-level characters should find an
+encounter of four level-3 monsters to be a worthy challenge, but not a
+deadly one.</p>
+<p>If a monster is four or more levels higher or lower than the heroes,
+it is unlikely to be a satisfying challenge. Recreate higher-level
+monsters as lower-level elite or boss monsters, and recreate lower-level
+monsters as higher level mook monsters for a more balanced fight.</p>
+<h5 id="rank">Rank</h5>
+<p>Some monsters are an appropriate challenge for two or more heroes of
+the same level. Other monsters are only an appropriate challenge for a
+hero if there are several monsters. This is called the monster’s
+rank.</p>
+<p>An elite monsters is an appropriate threat for two heroes of the same
+level and a boss monster for four heroes of the same level. Four mooks
+are an appropriate threat for one hero of the same level.</p>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Challenge</th>
+<th>Rank</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4 or 5 heroes</td>
+<td>Boss</td>
+</tr>
+<tr>
+<td>2 or 3 heroes</td>
+<td>Elite</td>
+</tr>
+<tr>
+<td>1 hero</td>
+<td>Standard</td>
+</tr>
+<tr>
+<td>4 monsters challenges 1 hero</td>
+<td>Mook</td>
+</tr>
+</tbody>
+</table>
+<h5 id="experience-points">Experience Points</h5>
+<p>The number of experience points (XP) a monster is worth is based on
+its level and rank. Typically, XP is awarded for defeating the monster,
+although the GM may also award XP for neutralizing the threat posed by
+the monster in some other manner.</p>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Level</th>
+<th>Mook</th>
+<th>Standard</th>
+<th>Elite</th>
+<th>Boss</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>25</td>
+<td>100</td>
+<td>200</td>
+<td>500</td>
+</tr>
+<tr>
+<td>2</td>
+<td>31</td>
+<td>125</td>
+<td>250</td>
+<td>625</td>
+</tr>
+<tr>
+<td>3</td>
+<td>38</td>
+<td>150</td>
+<td>300</td>
+<td>750</td>
+</tr>
+<tr>
+<td>4</td>
+<td>44</td>
+<td>175</td>
+<td>350</td>
+<td>875</td>
+</tr>
+<tr>
+<td>5</td>
+<td>50</td>
+<td>200</td>
+<td>400</td>
+<td>1,000</td>
+</tr>
+<tr>
+<td>6</td>
+<td>63</td>
+<td>250</td>
+<td>500</td>
+<td>1,250</td>
+</tr>
+<tr>
+<td>7</td>
+<td>75</td>
+<td>300</td>
+<td>600</td>
+<td>1,500</td>
+</tr>
+<tr>
+<td>8</td>
+<td>88</td>
+<td>350</td>
+<td>700</td>
+<td>1,750</td>
+</tr>
+<tr>
+<td>9</td>
+<td>100</td>
+<td>400</td>
+<td>800</td>
+<td>2,000</td>
+</tr>
+<tr>
+<td>10</td>
+<td>125</td>
+<td>500</td>
+<td>1,000</td>
+<td>2,500</td>
+</tr>
+<tr>
+<td>11</td>
+<td>150</td>
+<td>600</td>
+<td>1,200</td>
+<td>3,000</td>
+</tr>
+<tr>
+<td>12</td>
+<td>175</td>
+<td>700</td>
+<td>1,400</td>
+<td>3,500</td>
+</tr>
+<tr>
+<td>13</td>
+<td>200</td>
+<td>800</td>
+<td>1,600</td>
+<td>4,000</td>
+</tr>
+<tr>
+<td>14</td>
+<td>250</td>
+<td>1,000</td>
+<td>2,000</td>
+<td>5,000</td>
+</tr>
+<tr>
+<td>15</td>
+<td>300</td>
+<td>1,200</td>
+<td>2,400</td>
+<td>6,000</td>
+</tr>
+<tr>
+<td>16</td>
+<td>350</td>
+<td>1,400</td>
+<td>2,800</td>
+<td>7,000</td>
+</tr>
+<tr>
+<td>17</td>
+<td>400</td>
+<td>1,600</td>
+<td>3,200</td>
+<td>8,000</td>
+</tr>
+<tr>
+<td>18</td>
+<td>500</td>
+<td>2,000</td>
+<td>4,000</td>
+<td>10,000</td>
+</tr>
+<tr>
+<td>19</td>
+<td>600</td>
+<td>2,400</td>
+<td>4,800</td>
+<td>12,000</td>
+</tr>
+<tr>
+<td>20</td>
+<td>700</td>
+<td>2,800</td>
+<td>5,600</td>
+<td>14,000</td>
+</tr>
+<tr>
+<td>21</td>
+<td>800</td>
+<td>3,200</td>
+<td>6,400</td>
+<td>16,000</td>
+</tr>
+<tr>
+<td>22</td>
+<td>1,000</td>
+<td>4,000</td>
+<td>8,000</td>
+<td>20,000</td>
+</tr>
+<tr>
+<td>23</td>
+<td>1,200</td>
+<td>4,800</td>
+<td>9,600</td>
+<td>24,000</td>
+</tr>
+<tr>
+<td>24</td>
+<td>1,400</td>
+<td>5,600</td>
+<td>11,200</td>
+<td>28,000</td>
+</tr>
+<tr>
+<td>25</td>
+<td>1,600</td>
+<td>6,400</td>
+<td>12,800</td>
+<td>32,000</td>
+</tr>
+<tr>
+<td>26</td>
+<td>2,000</td>
+<td>8,000</td>
+<td>16,000</td>
+<td>40,000</td>
+</tr>
+<tr>
+<td>27</td>
+<td>2,400</td>
+<td>9,600</td>
+<td>19,200</td>
+<td>48,000</td>
+</tr>
+<tr>
+<td>28</td>
+<td>2,800</td>
+<td>11,200</td>
+<td>22,400</td>
+<td>56,000</td>
+</tr>
+<tr>
+<td>29</td>
+<td>3,200</td>
+<td>12,800</td>
+<td>25,600</td>
+<td>64,000</td>
+</tr>
+<tr>
+<td>30</td>
+<td>4,000</td>
+<td>16,000</td>
+<td>32,000</td>
+<td>80,000</td>
+</tr>
+</tbody>
+</table>
+<h5 id="size-1">Size</h5>
+<p>How large is this monster?</p>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Comparison</th>
+<th>Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cat sized or smaller</td>
+<td>Tiny</td>
+</tr>
+<tr>
+<td>Dog sized</td>
+<td>Small</td>
+</tr>
+<tr>
+<td>Human sized</td>
+<td>Medium</td>
+</tr>
+<tr>
+<td>Cow sized</td>
+<td>Large</td>
+</tr>
+<tr>
+<td>Elephant sized</td>
+<td>Huge</td>
+</tr>
+<tr>
+<td>Blue whale sized or larger</td>
+<td>Gargantuan</td>
+</tr>
+</tbody>
+</table>
+<h5 id="source">Source</h5>
+<p>A creature’s source describes where its species or type has come
+from. Certain spells, magic items, class features, and other effects in
+the game interact in special ways with creatures of a particular
+source.</p>
+<p>Almost all player characters will be natural – they come from the
+world.</p>
+<p><strong>Cosmic</strong> creatures are utterly alien, aberrant beings.
+Many of them have innate magical abilities drawn from the creature’s
+alien mind.</p>
+<p><strong>Elemental</strong> creatures are native to the elemental
+planes. Some creatures of this type are little more than animate masses
+of their respective elements. Others have biological forms infused with
+elemental energy.</p>
+<p><strong>Fey</strong> creatures are closely tied to the Faerie World
+and forces of nature. They dwell in twilight groves and misty
+forests.</p>
+<p><strong>Natural</strong> creatures are native to the Prime Material
+Plane, the world.</p>
+<p><strong>Outsider</strong> creatures are tied to an Outer Plane, like
+the heavens or hells.</p>
+<p><strong>Shadow</strong> creatures are tied to the Underworld or the
+Plane of Shadow.</p>
+<h5 id="type">Type</h5>
+<p>A creature’s type describes its shape and form. Certain spells, magic
+items, class features, and other effects in the game interact in special
+ways with creatures of a particular type.</p>
+<p>The game includes the following creature types, which have no rules
+of their own. Almost all player characters will be humanoids.</p>
+<p><strong>Automatons</strong> do not have organs or coherent bodily
+systems. They may be very simple creatures, like a gelatinous cube, or
+masses of a material that is magically animated, like a fire elemental
+or a golem. Undead that have been reanimated from a body or body parts,
+like skeletons and zombies, are automatons, whereas undead that have
+been transformed from their living form, like vampires, or undead that
+are a separate soul, like specters, are humanoids.</p>
+<p><strong>Beasts</strong> are nonhumanoid creatures that are a natural
+part of the fantasy ecology. Some of them have magical powers, but most
+are unintelligent and lack any society or language. Beasts include all
+varieties of ordinary animals, dinosaurs, and giant versions of animals,
+as well as fantastical animals like winged cats or elf hounds.</p>
+<p><strong>Humanoids</strong> have bipedal forms, and typically are
+sapient and sentient, and capable of language and culture. Humanoid
+races include those commonly found as player characters - humans,
+dwarves, elves, halflings, goblinoids, orcs, gnolls, lizardfolk, and
+kobolds – well as fey like nymphs and dryads and outsiders with humanoid
+forms like many devils.</p>
+<p><strong>Monstrosities</strong> are monsters in the strictest sense -
+frightening creatures that are not ordinary, not truly natural, and
+almost never benign. Some are the results of magical experimentation
+gone awry (such as owlbears), and others are the product of terrible
+curses (including minotaurs and medusae). Others are creatures with
+elemental or other magical influences, like dragons.</p>
+<h5 id="tags-1">Tags</h5>
+<p>A creature might have one or more tags appended to its type, in
+parentheses.</p>
+<p>The tags have no rules of their own, but something in the game, such
+as a magic item, might refer to them. For instance, a <em>demonbane</em>
+spear would work against any creature with the demon tag.</p>
+<p>Most player characters only have a tag corresponding to their
+ancestry (“dwarf” for a dwarf, for example).</p>
+<h3 id="role">Role</h3>
+<p>Like heroes, monsters have a role that they play in combat.</p>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Role</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Archer</td>
+<td>Archers make ranged attacks, sometimes ranged area attacks.</td>
+</tr>
+<tr>
+<td>Blocker</td>
+<td>Blockers are harder to hit than other monsters, and can defend their
+weaker allies from attacks.</td>
+</tr>
+<tr>
+<td>Leaders</td>
+<td>Leaders give benefits to their allies. “Leader” is a rider added to
+other roles, like Blocker (Leader) or Spoiler (Leader), rather than a
+pure role.</td>
+</tr>
+<tr>
+<td>Skulkers</td>
+<td>Skulkers do devastating attacks every so often, interspersed with
+hiding, repositioning or escaping.</td>
+</tr>
+<tr>
+<td>Spoiler</td>
+<td>Spoilers create zones and other battlefield conditions, use area
+attacks and debuff enemies.</td>
+</tr>
+<tr>
+<td>Strikers</td>
+<td>Strikers are mobile, powerful attackers.</td>
+</tr>
+<tr>
+<td>Wrecker</td>
+<td>Wreckers do large amounts of damage, usually in melee range.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="powers"><br />
+Powers</h3>
+<p>Monster powers follow the same rules as other powers. Special symbols
+are used to indicate whether an attack is a basic attack, and what its
+range is:</p>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<tbody>
+<tr>
+<td>‡</td>
+<td>Basic Melee Attack</td>
+</tr>
+<tr>
+<td>†</td>
+<td>Melee Attack</td>
+</tr>
+<tr>
+<td>⤢</td>
+<td>Basic Ranged Attack</td>
+</tr>
+<tr>
+<td>↗</td>
+<td>Ranged Attack</td>
+</tr>
+<tr>
+<td>∢</td>
+<td>Near Attack</td>
+</tr>
+<tr>
+<td>⋇</td>
+<td>Far Attack</td>
+</tr>
+</tbody>
+</table>
+<p>Unless otherwise mentioned, the reach of a melee attack is 1
+(adjacent squares only) and melee and ranged attacks have one target.
+Near and far attacks target all creatures within area of effect, unless
+otherwise mentioned.</p>
+<p>If a power does not have a symbol, it has a range of “self” (it
+applies to the creature using it).</p>
+<h3 id="alignment-1">Alignment</h3>
+<p>A monster's alignment provides a clue to its disposition and how it
+behaves in a roleplaying or combat situation.</p>
+<p>The alignment specified in a monster's stat block is the default.
+Feel free to depart from it and change a monster's alignment to suit the
+needs of your campaign.</p>
+<h3 id="ability-scores">Ability Scores</h3>
+<p>Every monster has six ability scores (Strength, Dexterity,
+Constitution, Intelligence, Wisdom, and Charisma) and corresponding
+modifiers.</p>
+<p>Monsters, like heroes, receive half their level (round down) as a
+bonus to their attack rolls, ability and skill checks, defenses and
+initiative (already included).</p>
+<h3 id="equipment-1">Equipment</h3>
+<p>A stat block rarely refers to equipment, other than armor or weapons
+used by a monster.</p>
+<h2 id="creating-new-monsters">Creating new monsters</h2>
+<p>Choose a level and rank (boss, elite, standard or mook) for the
+monster. Assign size, source, type and tags.</p>
+<h3 id="movement">Movement </h3>
+<p>Most monsters have a regular speed, which is their speed on land
+(walking). A monster that is as fast as a human should have a speed of
+6.</p>
+<p>Some monsters can also swim, climb, fly, burrow or teleport.</p>
+<h3 id="role-1">Role </h3>
+<p>The role is the function that the monster plays in combat.</p>
+<h5 id="archer">Archer </h5>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<tbody>
+<tr>
+<td><strong>AC</strong> 12 + level</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Fort</strong> 11 + level</td>
+<td><strong>Ref</strong> 12 + level</td>
+<td><strong>Will</strong> 12 + level</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>HP</strong> 21 + (4 * level)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td colspan="2"><strong>Attack<br />
+vs AC</strong> +5 + level</td>
+<td colspan="2"><strong><br />
+vs F/R/W</strong> +3 + level</td>
+</tr>
+</tbody>
+</table>
+<h5 id="blocker">Blocker </h5>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<tbody>
+<tr>
+<td><strong>AC</strong> 16 + level</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Fort</strong> 13 + level</td>
+<td><strong>Ref</strong> 12 + level</td>
+<td><strong>Will</strong> 12 + level</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>HP</strong> 24 + (5 * level)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td colspan="2"><strong>Attack<br />
+vs AC</strong> +5 + level</td>
+<td colspan="2"><strong><br />
+vs F/R/W</strong> +3 + level</td>
+</tr>
+</tbody>
+</table>
+<h5 id="skulker">Skulker</h5>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<tbody>
+<tr>
+<td><strong>AC</strong> 14 + level</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Fort</strong> 12 + level</td>
+<td><strong>Ref</strong> 13 + level</td>
+<td><strong>Will</strong> 11 + level</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>HP</strong> 21 + (4 * level)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td colspan="2"><strong>Attack<br />
+vs AC</strong> +5 + level</td>
+<td colspan="2"><strong><br />
+vs F/R/W</strong> +3 + level</td>
+</tr>
+</tbody>
+</table>
+<h5 id="spoiler">Spoiler </h5>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<tbody>
+<tr>
+<td><strong>AC</strong> 14 + level</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Fort</strong> 12 + level</td>
+<td><strong>Ref</strong> 11 + level</td>
+<td><strong>Will</strong> 13 + level</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>HP</strong> 24 + (5 * level)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td colspan="2"><strong>Attack<br />
+vs AC</strong> +5 + level</td>
+<td colspan="2"><strong><br />
+vs F/R/W</strong> +3 + level</td>
+</tr>
+</tbody>
+</table>
+<h5 id="striker">Striker </h5>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<tbody>
+<tr>
+<td><strong>AC</strong> 14 + level</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Fort</strong> 11 + level</td>
+<td><strong>Ref</strong> 13 + level</td>
+<td><strong>Will</strong> 12 + level</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>HP</strong> 24 + (5 * level)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td colspan="2"><strong>Attack<br />
+vs AC</strong> +5 + level</td>
+<td colspan="2"><strong><br />
+vs F/R/W</strong> +3 + level</td>
+</tr>
+</tbody>
+</table>
+<h5 id="wrecker">Wrecker </h5>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<tbody>
+<tr>
+<td><strong>AC</strong> 12 + level</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Fort</strong> 13 + level</td>
+<td><strong>Ref</strong> 11 + level</td>
+<td><strong>Will</strong> 12 + level</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>HP</strong> 27 + (6 * level)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td colspan="2"><strong>Attack<br />
+vs AC</strong> +5 + level</td>
+<td colspan="2"><strong><br />
+vs F/R/W</strong> +3 + level</td>
+</tr>
+</tbody>
+</table>
+<p><strong>HP:</strong> For elites, double HP. For bosses, quadruple it.
+Mooks only ever have 1 HP.</p>
+<p><strong>F/R/W:</strong> Fortitude, Reflex and Will.</p>
+<h3 id="abilities-1">Abilities </h3>
+<p>Assign the monster ability scores based on what seems appropriate. In
+general, a monster's highest ability score should equal about 16 + half
+its level.</p>
+<p>A monster’s modifier for each ability is equal to the base ability
+modifier, plus half its level (rounded down).</p>
+<h3 id="skills">Skills</h3>
+<p>Choose skills for the monster to be trained in. They have a bonus of
+5 + half level + the relevant ability modifier.</p>
+<p>List the monster’s Perception modifier under “Senses”, whether or not
+they are trained. If they are not trained, the modifier is half monster
+level + Wisdom modifier.</p>
+<h3 id="initiative-2">Initiative</h3>
+<p>Half the monster's level plus its Dexterity modifier.</p>
+<h3 id="powers-1">Powers </h3>
+<p>Damage is based on whether a power is single target or multi-target
+and whether it is usable at-will or infrequently (a “surge” power).</p>
+<h5 id="rank-1">Rank</h5>
+<p>Mooks deal static damage, and in general should only target one
+creature with each attack.</p>
+<p>Elites should have powers that allow them to attack roughly twice as
+often as standard monsters.</p>
+<p>Bosses should have powers that allow them to attack roughly four
+times as often as standard monsters, or do more damage when they
+attack.</p>
+<h5 id="role-2">Role</h5>
+<p>Creatures with the wrecker role do bonus damage on all attacks.</p>
+<p>Mooks with the wrecker role should only add half that number to their
+damage (round down).</p>
+<p><em><br />
+</em>Table - Monster Level and Damage</p>
+<table>
+<colgroup>
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+<col style="width: 0%" />
+</colgroup>
+<thead>
+<tr>
+<th>Level</th>
+<th>Mook Damage</th>
+<th>At-Will Damage<br />
+(Single Target)</th>
+<th>At-Will Damage<br />
+(Multi-Target)</th>
+<th>Surge Damage<br />
+(Single Target)</th>
+<th>Surge Damage<br />
+(Multi-Target)</th>
+<th>Wrecker Bonus Damage</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>5</td>
+<td>1d10+3</td>
+<td>1d6+3</td>
+<td>2d8+3</td>
+<td>1d10+3</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>2</td>
+<td>5</td>
+<td>1d12+3</td>
+<td>1d8+3</td>
+<td>2d10+2</td>
+<td>1d12+3</td>
+<td>+3</td>
+</tr>
+<tr>
+<td>3</td>
+<td>6</td>
+<td>1d12+4</td>
+<td>1d8+3</td>
+<td>2d10+3</td>
+<td>1d12+4</td>
+<td>+3</td>
+</tr>
+<tr>
+<td>4</td>
+<td>6</td>
+<td>1d12+5</td>
+<td>1d8+4</td>
+<td>2d12+3</td>
+<td>1d12+5</td>
+<td>+3</td>
+</tr>
+<tr>
+<td>5</td>
+<td>7</td>
+<td>2d8+4</td>
+<td>1d10+4</td>
+<td>2d12+4</td>
+<td>2d8+4</td>
+<td>+3</td>
+</tr>
+<tr>
+<td>6</td>
+<td>7</td>
+<td>2d10+3</td>
+<td>1d12+4</td>
+<td>3d8+5</td>
+<td>2d10+3</td>
+<td>+4</td>
+</tr>
+<tr>
+<td>7</td>
+<td>8</td>
+<td>2d10+4</td>
+<td>1d12+4</td>
+<td>3d10+3</td>
+<td>2d10+4</td>
+<td>+4</td>
+</tr>
+<tr>
+<td>8</td>
+<td>8</td>
+<td>2d10+5</td>
+<td>1d12+5</td>
+<td>3d10+5</td>
+<td>2d10+5</td>
+<td>+4</td>
+</tr>
+<tr>
+<td>9</td>
+<td>9</td>
+<td>2d12+4</td>
+<td>1d12+6</td>
+<td>4d8+5</td>
+<td>2d12+4</td>
+<td>+4</td>
+</tr>
+<tr>
+<td>10</td>
+<td>9</td>
+<td>2d12+5</td>
+<td>2d8+5</td>
+<td>4d8+6</td>
+<td>2d12+5</td>
+<td>+5</td>
+</tr>
+<tr>
+<td>11</td>
+<td>10</td>
+<td>3d8+5</td>
+<td>2d8+5</td>
+<td>6d6+4</td>
+<td>3d8+5</td>
+<td>+5</td>
+</tr>
+<tr>
+<td>12</td>
+<td>10</td>
+<td>3d8+6</td>
+<td>2d8+6</td>
+<td>6d6+6</td>
+<td>3d8+6</td>
+<td>+5</td>
+</tr>
+<tr>
+<td>13</td>
+<td>11</td>
+<td>3d8+7</td>
+<td>2d10+5</td>
+<td>4d10+6</td>
+<td>3d8+7</td>
+<td>+5</td>
+</tr>
+<tr>
+<td>14</td>
+<td>11</td>
+<td>3d10+5</td>
+<td>2d10+6</td>
+<td>5d8+6</td>
+<td>3d10+5</td>
+<td>+6</td>
+</tr>
+<tr>
+<td>15</td>
+<td>12</td>
+<td>3d10+6</td>
+<td>2d10+6</td>
+<td>5d8+7</td>
+<td>3d10+6</td>
+<td>+6</td>
+</tr>
+<tr>
+<td>16</td>
+<td>12</td>
+<td>3d10+7</td>
+<td>2d10+7</td>
+<td>7d6+7</td>
+<td>3d10+7</td>
+<td>+6</td>
+</tr>
+<tr>
+<td>17</td>
+<td>13</td>
+<td>4d8+7</td>
+<td>2d12+6</td>
+<td>4d12+7</td>
+<td>4d8+7</td>
+<td>+6</td>
+</tr>
+<tr>
+<td>18</td>
+<td>13</td>
+<td>4d8+8</td>
+<td>2d12+7</td>
+<td>5d10+7</td>
+<td>4d8+8</td>
+<td>+7</td>
+</tr>
+<tr>
+<td>19</td>
+<td>14</td>
+<td>6d6+6</td>
+<td>2d12+7</td>
+<td>5d10+8</td>
+<td>6d6+6</td>
+<td>+7</td>
+</tr>
+<tr>
+<td>20</td>
+<td>14</td>
+<td>6d6+7</td>
+<td>2d12+8</td>
+<td>7d8+6</td>
+<td>6d6+7</td>
+<td>+7</td>
+</tr>
+<tr>
+<td>21</td>
+<td>15</td>
+<td>6d6+8</td>
+<td>3d8+8</td>
+<td>7d8+7</td>
+<td>6d6+8</td>
+<td>+7</td>
+</tr>
+<tr>
+<td>22</td>
+<td>15</td>
+<td>4d10+8</td>
+<td>3d8+9</td>
+<td>7d8+8</td>
+<td>4d10+8</td>
+<td>+8</td>
+</tr>
+<tr>
+<td>23</td>
+<td>16</td>
+<td>5d8+8</td>
+<td>3d8+9</td>
+<td>5d12+8</td>
+<td>5d8+8</td>
+<td>+8</td>
+</tr>
+<tr>
+<td>24</td>
+<td>16</td>
+<td>5d8+9</td>
+<td>3d8+10</td>
+<td>5d12+10</td>
+<td>5d8+9</td>
+<td>+8</td>
+</tr>
+<tr>
+<td>25</td>
+<td>17</td>
+<td>5d8+10</td>
+<td>3d10+8</td>
+<td>8d8+8</td>
+<td>5d8+10</td>
+<td>+8</td>
+</tr>
+<tr>
+<td>26</td>
+<td>17</td>
+<td>7d6+9</td>
+<td>3d10+9</td>
+<td>8d8+9</td>
+<td>7d6+9</td>
+<td>+9</td>
+</tr>
+<tr>
+<td>27</td>
+<td>18</td>
+<td>4d12+9</td>
+<td>3d10+9</td>
+<td>8d8+10</td>
+<td>4d12+9</td>
+<td>+9</td>
+</tr>
+<tr>
+<td>28</td>
+<td>18</td>
+<td>4d12+10</td>
+<td>3d10+10</td>
+<td>6d12+9</td>
+<td>4d12+10</td>
+<td>+9</td>
+</tr>
+<tr>
+<td>29</td>
+<td>19</td>
+<td>6d8+10</td>
+<td>4d8+10</td>
+<td>6d12+10</td>
+<td>6d8+10</td>
+<td>+9</td>
+</tr>
+<tr>
+<td>30</td>
+<td>19</td>
+<td>5d10+10</td>
+<td>4d8+11</td>
+<td>9d8+10</td>
+<td>5d10+10</td>
+<td>+10</td>
+</tr>
+<tr>
+<td>31</td>
+<td>20</td>
+<td>5d10+11</td>
+<td>4d8+11</td>
+<td>9d8+11</td>
+<td>5d10+11</td>
+<td>+10</td>
+</tr>
+<tr>
+<td>32</td>
+<td>20</td>
+<td>5d10+12</td>
+<td>4d8+12</td>
+<td>8d10+10</td>
+<td>5d10+12</td>
+<td>+10</td>
+</tr>
+<tr>
+<td>33</td>
+<td>21</td>
+<td>7d8+9</td>
+<td>6d6+10</td>
+<td>8d10+11</td>
+<td>7d8+9</td>
+<td>+10</td>
+</tr>
+<tr>
+<td>34</td>
+<td>21</td>
+<td>7d8+10</td>
+<td>6d6+11</td>
+<td>7d12+10</td>
+<td>7d8+10</td>
+<td>+11</td>
+</tr>
+<tr>
+<td>35</td>
+<td>22</td>
+<td>7d8+11</td>
+<td>6d6+11</td>
+<td>7d12+11</td>
+<td>7d8+11</td>
+<td>+11</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

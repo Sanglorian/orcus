@@ -21,7 +21,7 @@ Download the *Orcus Game Master's Guide* <a href="https://raw.githubusercontent.
 ## Basic Rules
 Creative Commons Attribution 4.0 licensed.
 
-* [Basic Rules](Basic.md) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Basic%20Rules%200.1.pdf))
+* [Basic Rules](Basic.html) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Basic%20Rules%200.1.pdf))
 
 ## Orcus SRD
 
