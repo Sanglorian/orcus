@@ -298,3 +298,15 @@ h4.Heading-4---Monster{   background-color: #7030A0; }
   a{ color: inherit; text-decoration: none; }
   table, pre, blockquote{ break-inside: avoid; }
 }
+
+/* ---- Table of Contents ---- */
+p[class^="toc-level-"]{
+  margin-bottom: 0;
+}
+p.toc-level-0{ margin-left: 0; }
+p.toc-level-1{ margin-left: 1.5em; }
+p.toc-level-2{ margin-left: 3em; }
+p.toc-level-3{ margin-left: 4.5em; }
+p.toc-level-4{ margin-left: 6em; }
+p.toc-level-5{ margin-left: 7.5em; }
+
