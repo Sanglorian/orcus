@@ -34,12 +34,6 @@ html{
   --orcus-h3: #4F81BD;
   --orcus-h6: #4F81BD;
 
-  /* Heading 4 variants (Word shading) */
-  --orcus-at-will-bg: #9BBB59;
-  --orcus-encounter-bg: #E36C0A;
-  --orcus-daily-bg: #17365D;
-  --orcus-monster-bg: #7030A0;
-
   --orcus-rule: rgba(0,0,0,.12);
   --orcus-code-bg: #f6f7f9;
   --orcus-muted: #555;
@@ -287,8 +281,8 @@ h4.Heading-4---At-Will{
 }
 
 h4.Heading-4---Encounter{ background-color: #E36C0A; }
-h4.daily{     background-color: var(--orcus-daily-bg); }
-h4.monster{   background-color: var(--orcus-monster-bg); }
+h4.Heading-4---Daily{     background-color: #17365D; }
+h4.Heading-4---Monster{   background-color: #7030A0; }
 
 @media print{
   html{ background-color: white; }
