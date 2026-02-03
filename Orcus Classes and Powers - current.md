@@ -415,7 +415,7 @@ You gain the *punish cowardice* and *block retreat* powers.
 > **Trigger** A creature is hit by your opportunity attack, and the opportunity attack was provoked by movement.  
 > **Effect** Their movement stops for this action. They may attempt to move again using another action, if applicable.  
 
-> #### Punish Cowardice  
+<h4 class="Heading-4---At-Will">Punish Cowardice</h4>
 > **At-Will** **Utility** **Feature** (**Counter Action**) ● **Martial**  
 > **Trigger** An adjacent creature you have marked shifts or makes an attack that does not include you.  
 > **Effect** Make a basic melee attack against the triggering creature.  
@@ -540,25 +540,25 @@ Choose one at character creation.
 * **Punishment Specialist:** You can use the *fiery sigil* power. Your secondary ability is Charisma. 
 * **Rush Specialist:** You can use the *beacon sigil* power. Your secondary ability is Strength.  
 
-> #### Beacon Sigil  
+<h4 class="Heading-4---At-Will">Beacon Sigil</h4>
 > **At-Will** **Utility** **Feature** (**Reaction Action**) ● **Arcane, Teleport, Weapon**  
 > **Near** burst 5, the triggering enemy  
 > **Trigger** A creature marked by your *sigil* makes an attack that does not include you as a target  
 > **Effect** Teleport to an unoccupied square adjacent to the target and make a basic melee attack against them.  
 
-> #### Blurring Sigil  
+<h4 class="Heading-4---At-Will">Blurring Sigil</h4>
 > **At-Will** **Utility** **Feature** (**Counter Action**) ● **Arcane, Weapon**  
 > **Near** burst 10, the triggering enemy  
 > **Trigger** A creature marked by your *sigil* makes an attack that does not include you as a target  
 > **Effect** Any one target of the triggering creature’s attack gains resistance to all damage equal to your level + your Dexterity modifier, until the end of the current turn.  
 
-> #### Fiery Sigil  
+<h4 class="Heading-4---At-Will">Fiery Sigil</h4>
 > **At-Will** **Utility** **Feature** (**Reaction Action**) ● **Arcane, Fire, Weapon**  
 > **Near** burst 10, the triggering enemy  
 > **Trigger** A creature marked by your *sigil* makes an attack that does not include you as a target  
 > **Effect** The triggering creature takes 1d6 + your Charisma modifier fire damage. *Level 11:* 2d6 + your Charisma modifier damage. *Level 21:* 3d6 + your Charisma modifier damage.  
 
-> #### Vortex Sigil  
+<h4 class="Heading-4---At-Will">Vortex Sigil</h4>
 > **At-Will** **Utility** **Feature** (**Counter Action**) ● **Arcane, Teleport, Weapon**  
 > **Near** burst 5, the triggering enemy  
 > **Trigger** A creature marked by your *sigil* attempts to make an attack that does not include you as a target  
@@ -2342,35 +2342,35 @@ Your attacks are tricky and punishing, taking advantage of any signs of weakness
 
 If you do gain momentum from a power, the same rule for losing momentum applies as for the Exemplar: you lose it if you are hit by any attack.  
 
-> #### Deadly Thrust  
+<h4 class="Heading-4---At-Will">Deadly Thrust</h4>
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Attack** Dexterity vs AC  
 > **Hit** 1dW + Dexterity modifier. If the target is staggered, also add your Strength modifier to the damage. 
 *Level 21:* 2dW + Dexterity modifier damage.  
 
-> #### Evasive Strike  
+<h4 class="Heading-4---At-Will">Evasive Strike</h4>
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Attack** Dexterity vs AC  
 > **Hit** 1dW + Dexterity modifier damage and you shift 1.
 *Level 21:* 2dW + Dexterity modifier damage.  
 
-> #### Flying Blade  
+<h4 class="Heading-4---At-Will">Flying Blade</h4>
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Ranged** weapon, one target  
 > **Attack** Dexterity vs AC  
 > **Hit** 1dW + Dexterity modifier and you gain momentum.
 *Level 21:* 2dW + Dexterity modifier damage.  
 
-> #### Sure Cut  
+<h4 class="Heading-4---Encounter">Sure Cut</h4>
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Attack** Dexterity vs AC  
 > **Hit** 1dW + Dexterity modifier.  
 > **Miss** If you have momentum, you lose momentum but the target takes damage equal to your Triumphant Strike value.  
 
-> #### Retort  
+<h4 class="Heading-4---Daily">Retort</h4>
 > **Daily** **Attack** **1** (**Reaction Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Trigger** You lose momentum  
@@ -2379,39 +2379,39 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 > **Effect** Make a secondary attack against the same target. 
 *Secondary Attack:* Dexterity vs AC; 1dW + Dexterity modifier damage *or* 2dW + Dexterity modifier damage if you gained momentum this turn.  
 
-> #### Pocket of Sand  
+<h4 class="Heading-4---Encounter">Pocket of Sand</h4>
 > **Encounter** **Utility** **2** (**Standard Action**) ● **Martial**  
 > **Melee** touch, one target  
 > **Attack** Dexterity vs Reflex  
 > **Hit** The target is blinded until the end of your next turn.  
 > **Special** If you have momentum and an enemy targets you with an attack, you can lose momentum to use this as a reaction against that enemy.  
 
-> #### Roll With It  
+<h4 class="Heading-4---Daily">Roll With It</h4>
 > **Daily** **Utility** **2** (**Counter Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You are hit by an attack while you have momentum.  
 > **Effect** You take half damage from the attack and do not lose momentum.  
 
-> #### Tumbling Strike  
+<h4 class="Heading-4---Encounter">Tumbling Strike</h4>
 > **Encounter** **Attack** **3** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Attack** Dexterity vs AC  
 > **Hit** 2dW + Dexterity modifier damage.  
 > **Effect** Until the start of your next turn, if an attack misses you you can shift 1 as a reaction.  
 
-> #### Attack from the Blue  
+<h4 class="Heading-4---Daily">Attack from the Blue</h4>
 > **Daily** **Attack** **5** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Attack** Dexterity vs AC  
 > **Hit** 3dW + Dexterity modifier damage.  
 > **Special** Move up to your speed before your attack. If you moved less than your speed before the attack, you can shift a number of squares up to the difference after your attack.  
 
-> #### Double Down  
+<h4 class="Heading-4---Encounter">Double Down</h4>
 > **Encounter** **Utility** **6** (**Counter Action**) ● **Martial**  
 > **Trigger** You miss with an attack roll or fail on a skill check.  
 > **Effect** Reroll the attack roll or check. If the attack still misses or the check still fails, you are dazed until the end of your next turn.  
 
-> #### Sloppy Strike  
+<h4 class="Heading-4---Encounter">Sloppy Strike</h4>
 > **Encounter** **Attack** **7** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Attack** Dexterity vs AC  
@@ -2419,25 +2419,25 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 *Secondary Attack:* Dexterity vs AC; 2dW + Dexterity modifier damage and the target is slowed until the end of your next turn.  
 > **Boost** **Level 17** If your secondary attack hits, the triggering attack automatically misses.  
 
-> #### Bleeding Strike  
+<h4 class="Heading-4---Daily">Bleeding Strike</h4>
 > **Daily** **Attack** **9** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Attack** Dexterity vs AC  
 > **Hit** 3dW + Dexterity modifier damage and the target takes persistent 5 damage and is slowed (save ends both).  
 > **Miss** Half damage (no persistent damage).  
 
-> #### Kip-Up  
+<h4 class="Heading-4---At-Will">Kip-Up</h4>
 > **At-Will** **Utility** **10** (**Swift Action**) ● **Martial**  
 > **Self**   
 > **Effect** You stand up from prone.  
 
-> #### Deflection  
+<h4 class="Heading-4---Encounter">Deflection</h4>
 > **Encounter** **Utility** **10** (**Reaction Action**) ● **Martial, Weapon**  
 > **Self**   
 > **Trigger** You are missed by a melee or ranged attack while you have momentum.  
 > **Effect** Choose an enemy in range of the missed attack. The attacker makes the attack that missed you again, but this time against that target.   
 
-> #### Slick Feint  
+<h4 class="Heading-4---Encounter">Slick Feint</h4>
 > **Encounter** **Attack** **13** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Attack** Dexterity vs AC  
@@ -2445,20 +2445,20 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 > **Effect** Make a secondary attack against a different target.
 *Secondary Attack:* Dexterity vs AC; 2dW + Dexterity modifier damage.  
 
-> #### Thief’s Strike  
+<h4 class="Heading-4---Encounter">Thief’s Strike</h4>
 > **Encounter** **Utility** **16** (**Reaction Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You hit a target within reach.  
 > **Effect** You can make a Sleight of Hand check against that enemy, for example to plant something on them or to pick their pocket.  
 
-> #### Assassin’s Gambit  
+<h4 class="Heading-4---Encounter">Assassin’s Gambit</h4>
 > **Encounter** **Attack** **17** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Attack** Dexterity vs AC  
 > **Hit** 3dW + Dexterity damage. If the target is reduced to 0 HP or below, you can shift 2 and make a secondary attack.
 *Secondary Attack:* Dexterity vs AC; 3dW + Dexterity damage.  
 
-> #### Spikey Bastard  
+<h4 class="Heading-4---Daily">Spikey Bastard</h4>
 > **Daily** **Attack** **19** (**Reaction Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Trigger** An enemy misses you with an attack.  
@@ -2467,30 +2467,30 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 > **Effect** Until the end of your next turn, each time an enemy misses you with an attack you can make a basic melee attack against them as a reaction.  
 > **Maintain Swift** The effect persists until the end of your next turn.  
 
-> #### I’ll Take It  
+<h4 class="Heading-4---Daily">I’ll Take It</h4>
 > **Daily** **Utility** **22** (**Counter Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You roll a natural 18 or 19 on an attack.  
 > **Effect** The attack counts as a critical hit.  
 
-> #### True Targeting  
+<h4 class="Heading-4---Daily">True Targeting</h4>
 > **Daily** **Utility** **22** (**Swift Action**) ● **Martial**  
 > **Self**   
 > **Effect** Until the end of the encounter, you ignore all cover and concealment penalties, and can see invisible creatures and things.  
 
-> #### Death’s Twin  
+<h4 class="Heading-4---Encounter">Death’s Twin</h4>
 > **Encounter** **Attack** **23** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Effect** You hit automatically and do 3dW + Dexterity modifier damage.  
 
-> #### Twirling Towards Freedom  
+<h4 class="Heading-4---Encounter">Twirling Towards Freedom</h4>
 > **Encounter** **Attack** **27** (**Standard Action**) ● **Martial, Weapon**  
 > **Near** burst 2, all enemies  
 > **Attack** Dexterity vs AC  
 > **Hit** 3dW + Dexterity modifier damage.  
 > **Effect** Until the start of your next turn, you can take an immediate (counter) action to shift 2 at any point during the turn of each enemy you targeted.  
 
-> #### End of the Beginning  
+<h4 class="Heading-4---Daily">End of the Beginning</h4>
 > **Daily** **Attack** **29** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Attack** Dexterity vs AC  
@@ -2635,7 +2635,7 @@ You have mastered minor magics.
 
 **Note:** The Cantrips “discipline” is a collection of powers that can be selected by characters with the Cantrips feat. As such, it does not have a key or secondary ability.  
 
-> #### Chill Spirit  
+<h4 class="Heading-4---At-Will">Chill Spirit</h4>
 > **At-Will** **Utility** **Feature** (**Standard Action**) ● **Arcane, Cold**  
 > **Self**   
 > **Effect** Use this power to accomplish one of the effects given below, or an equivalent with the GM’s approval. Continuing effects persist until the end of your next turn.
@@ -2645,7 +2645,7 @@ You have mastered minor magics.
 > ● Chill food to a desired temperature.  
 > **Maintain Swift** The effect persists  until the end of your next turn. After you stop maintaining this power,  things warm and ice melts out over time according to ambient conditions. 
 
-> #### Fiery Spirit  
+<h4 class="Heading-4---At-Will">Fiery Spirit</h4>
 > **At-Will** **Utility** **Feature** (**Standard Action**) ● **Arcane, Fire**  
 > **Self**   
 > **Effect** Use this power to accomplish one of the effects given below, or an equivalent with the GM’s approval. Continuing effects persist until the end of your next turn.
@@ -2659,7 +2659,7 @@ You have mastered minor magics.
 ● Cook food to a desired temperature.  
 > **Maintain Swift** The effect persists until the end of your next turn. After you stop maintaining this power, heat dissipates and fires burn out over time according to ambient conditions.  
 
-> #### Friendly Zephyr  
+<h4 class="Heading-4---At-Will">Friendly Zephyr</h4>
 > **At-Will** **Utility** **Feature** (**Standard Action**) ● **Arcane, Air**  
 > **Ranged** 20  
 > **Effect** You may do to one target in the area one of the following:  
@@ -2668,45 +2668,45 @@ You have mastered minor magics.
 ● Moisten a creature, giving it resistance to fire 5 until the end of your next turn.  
 > **Maintain Swift** Repeat the effect. 
 
-> #### Ghost Sound  
+<h4 class="Heading-4---At-Will">Ghost Sound</h4>
 > **At-Will** **Utility** **Feature** (**Standard Action**) ● **Illusion**  
 > **Ranged** 10, one object or empty square  
 > **Effect** Create a sound that rises, recedes, approaches, or remains at a fixed place. You choose what type of sound when spending the standard action to create it. You must use another standard action to change the sound’s basic character. You can produce as much noise as a person. The noise can be virtually any type of sound within the volume limit. The noise persists until the end of your next turn.  
 > **Maintain Swift** The effect persists until the end of your next turn.
 
-> #### Create Item  
+<h4 class="Heading-4---Encounter">Create Item</h4>
 > **Encounter** **Utility** **Feature** (**Standard Action**) ● **Arcane, Conjuration**  
 > **Self**   
 > **Effect** Create an item that costs 5 gp or less. It disappears after 24 hours.  
 
-> #### Glowing Moss  
+<h4 class="Heading-4---Encounter">Glowing Moss</h4>
 > **Encounter** **Utility** **Feature** (**Swift Action**) ● **Arcane, Zone**  
 > **Special**   
 > **Effect** You and any zones you have created emit bright light in a burst X where X is your Intelligence modifier.  
 
-> #### Telepathy  
+<h4 class="Heading-4---Encounter">Telepathy</h4>
 > **Encounter** **Utility** **Feature** (**Swift Action**) ● **Arcane**  
 > **Self**   
 > **Effect** You have telepathy 10 until the end of your next turn.  
 
-> #### Buoyancy  
+<h4 class="Heading-4---Daily">Buoyancy</h4>
 > **Daily** **Utility** **Feature** (**Standard Action**) ● **Arcane**  
 > **Melee** touch, one creature  
 > **Effect** Target ignores encumbrance until your next long rest.  
 
-> #### Double Dimension  
+<h4 class="Heading-4---Daily">Double Dimension</h4>
 > **Daily** **Utility** **Feature** (**Standard Action**) ● **Arcane**  
 > **Melee** touch, one item  
 > **Effect** You make an item two times longer, two times wider and two times deeper on the inside than it is on the outside, until your next long rest.  At that point, if the contents of the item are too large to be contained by it, all the contents are emptied out of the item just beside it. 
 
-> #### Sheltering Lamp  
+<h4 class="Heading-4---Daily">Sheltering Lamp</h4>
 > **Daily** **Utility** **Feature** (**Counter Action**) ● **Arcane, Transmutation**  
 > **Self**   
 > **Requirements** You are hit by an attack, or as a standard action at any time.  
 > **Effect** Spend a recovery. You take the form of a lamp, bottle or other small container. In this form you have your defenses, but cannot take any actions other than a swift action to end this power. The bottle has HP equal to your recovery value - minus whatever damage is done by the triggering attack, if any. If the bottle is destroyed, you take any excess damage yourself and appear in the space the bottle occupied.   
 > **Special** You can take a long rest while in lamp form.  
 
-> #### Stow  
+<h4 class="Heading-4---Daily">Stow</h4>
 > **Daily** **Utility** **Feature** (**Swift Action**) ● **Arcane**  
 > **Melee** touch, one item of your size or smaller  
 > **Effect** An item you are holding disappears. It reappears in your hands the next time that you take a long rest. If you are reduced to 0 HP or below, it appears immediately in an unoccupied square adjacent to you. The item does not weigh anything while stowed.  
@@ -2720,7 +2720,7 @@ You call on demonic forces for your attacks, and summon fiends to fight for you.
 
 <figure><img src="pics\JoyceMaureira_CGSPLASH.png" alt="Summoning by Joyce Maureira" style="zoom: 100%;" /><figcaption>Summoning by Joyce Maureira</figcaption></figure>
 
-> #### Burn It Off  
+<h4 class="Heading-4---At-Will">Burn It Off</h4>
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Arcane, Fire**  
 > **Ranged** 10, one enemy  
 > **Attack** Charisma vs Fortitude  
@@ -2728,7 +2728,7 @@ You call on demonic forces for your attacks, and summon fiends to fight for you.
 > *Level 21:* 2d8 + Charisma modifier fire damage. 
 > **Special** You can use this power as a basic ranged attack.  
 
-> #### Stab in the Soul  
+<h4 class="Heading-4---At-Will">Stab in the Soul</h4>
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Arcane, Necrotic**  
 > **Ranged** 10, one enemy  
 > **Attack** Charisma vs Fortitude  
@@ -2737,63 +2737,63 @@ You call on demonic forces for your attacks, and summon fiends to fight for you.
 > **Miss** You take 1d6 damage.  
 > **Special** You can use this power as a basic ranged attack.  
 
-> #### Death Mark  
+<h4 class="Heading-4---Encounter">Death Mark</h4>
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Focus, Arcane**  
 > **Ranged** 10, one enemy  
 > **Attack** Charisma vs Fortitude  
 > **Hit** 1d8 + Charisma modifier necrotic damage and the target gains vulnerability to all damage 5 until the end of your next turn.  
 
-> #### Redoubled Misery  
+<h4 class="Heading-4---Encounter">Redoubled Misery</h4>
 > **Encounter** **Attack** **1** (**Reaction Action**) ● **Focus, Arcane**  
 > **Ranged** 10, one enemy  
 > **Trigger** The target fails a saving throw  
 > **Attack** Charisma vs Fortitude  
 > **Hit** 2d6 + Charisma modifier damage and they suffer a -2 penalty on saving throws until the end of your next turn.  
 
-> #### Least Binding  
+<h4 class="Heading-4---Daily">Least Binding</h4>
 > **Daily** **Attack** **1** (**Standard Action**) ● **Focus, Arcane, Summons**  
 > **Ranged** 1, unoccupied square  
 > **Effect** You summon a Small demon toad or Small hopping imp until the end of the encounter.  
 
-> #### Perverse Blessing  
+<h4 class="Heading-4---Daily">Perverse Blessing</h4>
 > **Daily** **Utility** **2** (**Swift Action**) ● **Arcane, Stance**  
 > **Self**   
 > **Effect** You gain a +2 power bonus to defenses. If you are hit by an attack, you lose this bonus and instead get a -1 penalty to defenses. Until you leave this stance, you keep switching between bonus and penalty each time you are hit.  
 
-> #### Everburn  
+<h4 class="Heading-4---Encounter">Everburn</h4>
 > **Encounter** **Attack** **3** (**Standard Action**) ● **Focus, Arcane, Fire**  
 > **Ranged** 10, one enemy  
 > **Attack** Charisma vs Fortitude  
 > **Hit** 1d6 + Charisma modifier fire damage. The target takes persistent 5 fire damage and gains vulnerability to fire 5 (save ends both). 
 
-> #### Minor Binding  
+<h4 class="Heading-4---Daily">Minor Binding</h4>
 > **Daily** **Attack** **5** (**Standard Action**) ● **Focus, Arcane, Summons**  
 > **Ranged** 1, unoccupied square  
 > **Effect** You summon a Medium burner demon or Medium hellhound until the end of the encounter. If you summon the hellhound, choose one enemy within 10 squares to become the hellhound’s quarry.  
 
-> #### Dance in Fire  
+<h4 class="Heading-4---Daily">Dance in Fire</h4>
 > **Daily** **Utility** **6** (**Swift Action**) ● **Arcane, Fire, Stance**  
 > **Self**   
 > **Effect** When an enemy enters a square adjacent to you, it takes damage equal to your Intelligence modifier.  
 
-> #### Mocking Curse  
+<h4 class="Heading-4---Encounter">Mocking Curse</h4>
 > **Encounter** **Attack** **7** (**Reaction Action**) ● **Focus, Arcane, Psychic**  
 > **Ranged** 10, one enemy  
 > **Trigger** The target misses you with an attack  
 > **Attack** Charisma vs Fortitude  
 > **Hit** 1d10 + Charisma modifier psychic damage and the target is dazed until the end of your next turn.  
 
-> #### Lesser Binding  
+<h4 class="Heading-4---Daily">Lesser Binding</h4>
 > **Daily** **Attack** **9** (**Standard Action**) ● **Focus, Arcane, Summons**  
 > **Ranged** 1, unoccupied square  
 > **Effect** You summon a Large vulture demon, Medium hungry maw or Large hezrou until the end of the encounter.  
 
-> #### Flaming Teleport  
+<h4 class="Heading-4---Encounter">Flaming Teleport</h4>
 > **Encounter** **Utility** **10** (**Swift Action**) ● **Arcane, Teleportation**  
 > **Self**   
 > **Effect** Teleport to an unoccupied space adjacent to a creature that is taking persistent fire damage.  
 
-> #### Demonic Explosion  
+<h4 class="Heading-4---Encounter">Demonic Explosion</h4>
 > **Encounter** **Attack** **13** (**Reaction Action**) ● **Focus, Arcane, Fire**  
 > **Far** burst 1 within special range, all creatures  
 > **Trigger** One of your summoned monsters is reduced to 0 HP or below.  
@@ -2801,70 +2801,70 @@ You call on demonic forces for your attacks, and summon fiends to fight for you.
 > **Hit** 1d10 + Charisma modifier fire damage.  
 > **Special** The burst is centered on the triggering monster.  
 
-> #### Sadistic Shot  
+<h4 class="Heading-4---Encounter">Sadistic Shot</h4>
 > **Encounter** **Attack** **13** (**Standard Action**) ● **Focus, Arcane, Fire**  
 > **Ranged** 10, one enemy  
 > **Attack** Charisma vs Fortitude  
 > **Hit** 2d8 + Charisma modifier damage, and you may spend a recovery to heal your recovery value in HP.  
 
-> #### Prestige Binding  
+<h4 class="Heading-4---Daily">Prestige Binding</h4>
 > **Daily** **Attack** **15** (**Standard Action**) ● **Focus, Arcane, Summons**  
 > **Ranged** 1, unoccupied square  
 > **Effect** You summon a Large big burner until the end of the encounter.  
 
-> #### Follow the Blood  
+<h4 class="Heading-4---Encounter">Follow the Blood</h4>
 > **Encounter** **Utility** **16** (**Swift Action**) ● **Arcane, Teleportation**  
 > **Ranged** 10, one staggered creature  
 > **Effect** Teleport to an unoccupied space adjacent to the target.  
 
-> #### Abyssal Bargain  
+<h4 class="Heading-4---Daily">Abyssal Bargain</h4>
 > **Daily** **Utility** **16** (**Swift Action**) ● **Arcane, Healing**  
 > **Melee** touch, one ally on 0 HP or below  
 > **Effect** The ally heals to maximum HP. You and the ally both have zero recoveries until the next long rest.  
 
-> #### Keep Burning Please  
+<h4 class="Heading-4---Encounter">Keep Burning Please</h4>
 > **Encounter** **Attack** **17** (**Reaction Action**) ● **Arcane, Fire**  
 > **Ranged** 10, one enemy  
 > **Trigger** The target makes a successful saving throw against persistent fire damage.  
 > **Attack** Charisma vs Fortitude  
 > **Hit** 2d8 + Charisma modifier fire damage and persistent fire damage 10 (save ends).  
 
-> #### Rabble Babble  
+<h4 class="Heading-4---Encounter">Rabble Babble</h4>
 > **Encounter** **Attack** **17** (**Standard Action**) ● **Focus, Arcane, Psychic**  
 > **Far** burst 1 within range 10, all enemies  
 > **Attack** Charisma vs Fortitude  
 > **Hit** 1d10 + Charisma modifier psychic damage and the target is dazed until the end of your next turn.  
 *Aftereffect:* The target takes damage equal to your Charisma modifier.  
 
-> #### Advanced Binding  
+<h4 class="Heading-4---Daily">Advanced Binding</h4>
 > **Daily** **Attack** **19** (**Standard Action**) ● **Focus, Arcane, Summons**  
 > **Ranged** 1, unoccupied square  
 > **Effect** You summon a Medium frenzy demon, Large boar demon or Huge pincer demon until the end of the encounter.  
 
-> #### Golden Claw  
+<h4 class="Heading-4---Daily">Golden Claw</h4>
 > **Daily** **Utility** **22** (**Swift Action**) ● **Arcane, Conjuration, Fire**  
 > **Self**   
 > **Effect** You conjure a Medium golden claw in your space. The claw carries you, giving you a fly speed of 12 (hover, maximum altitude 2). If you are subject to an opportunity attack, make the following secondary attack against the attacker.
 *Secondary Attack:* Charisma vs Fortitude; 3d6 + Charisma modifier fire damage. Then this power ends.  
 
-> #### Carrion Screech  
+<h4 class="Heading-4---Encounter">Carrion Screech</h4>
 > **Encounter** **Attack** **23** (**Standard Action**) ● **Focus, Arcane, Psychic**  
 > **Near** blast 3, all enemies  
 > **Attack** Charisma vs Fortitude  
 > **Hit** 3d8 + Charisma modifier necrotic damage and the target gains vulnerability to all damage 10 (save ends).  
 
-> #### Greater Binding  
+<h4 class="Heading-4---Daily">Greater Binding</h4>
 > **Daily** **Attack** **25** (**Standard Action**) ● **Focus, Arcane, Summons**  
 > **Ranged** 1, unoccupied square  
 > **Effect** You summon a Large laughing demon until the end of the encounter.  
 
-> #### Killing Doubt  
+<h4 class="Heading-4---Encounter">Killing Doubt</h4>
 > **Encounter** **Attack** **27** (**Standard Action**) ● **Focus, Arcane, Psychic**  
 > **Ranged** 10, one enemy  
 > **Attack** Charisma vs Fortitude  
 > **Hit** 4d10 + Intelligence modifier psychic damage. The target’s next standard action must be a basic attack.  
 
-> #### Ultimate Binding  
+<h4 class="Heading-4---Daily">Ultimate Binding</h4>
 > **Daily** **Attack** **29** (**Standard Action**) ● **Focus, Arcane, Summons**  
 > **Ranged** 1, unoccupied square  
 > **Effect** You summon a Large balor or Large marilith until the end of the encounter.
@@ -3327,7 +3327,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 > **Effect** Each attack you make until the end of your next turn inflicts +1d6 [flux] damage on a hit. You can choose to daze a target that you hit until the end of your next turn, but then this power ends.  
 > **Maintain Swift** The effect persists until the end of your next turn.  
 
-> #### Elemental Realignment  
+<h4 class="Heading-4---Daily">Elemental Realignment</h4>
 > **Daily** **Utility** **2** (**Swift Action**) ● **Arcane, Flux**  
 > **Self**   
 > **Effect** Change your Flux energy. You gain resistance to [flux] 5 + your Constitution modifier until the end of the encounter.  
@@ -3424,7 +3424,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 > **Trigger** You take damage from an energy source.  
 > **Effect** Spend a recovery to heal your recovery value + your Constitution modifier. You may change your flux energy if you like.  
 
-> #### Chaotic Blow  
+<h4 class="Heading-4---Encounter">Chaotic Blow</h4>
 > **Encounter** **Attack** **17** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Melee or Ranged** weapon, one target  
 > **Attack** Intelligence vs AC  
@@ -4292,7 +4292,7 @@ You are sturdy and powerful, and it is almost impossible to take you down or hol
 
 You are a slippery, taunting combatant who can fool even skeptical foes. 
 
-> #### Biting Taunt  
+<h4 class="Heading-4---At-Will">Biting Taunt</h4>
 > **At-Will** **Attack** **1** (**Swift Action**) ● **Martial, Stance**  
 > **Self**   
 > **Effect** When you enter this stance, you may mark one creature within 10 squares. While you are in this stance, creatures you have marked do half damage on any attack that does not include you as a target.  
@@ -4304,7 +4304,7 @@ You are a slippery, taunting combatant who can fool even skeptical foes.
 > **Effect** Make a basic attack.  After the attack, you can shift a square.  
 > **Special** If the creature you attacked as part of this action misses you with an attack before the start of your next turn, you can make a basic attack against it as a reaction.  
 
-> #### Tricky Taunt  
+<h4 class="Heading-4---At-Will">Tricky Taunt</h4>
 > **At-Will** **Attack** **1** (**Swift Action**) ● **Martial, Stance**  
 > **Self**   
 > **Effect** When you enter this stance, you may mark one creature within 10 squares. While you are in this stance, creatures you have marked provoke an opportunity attack from you if they miss you with an attack. You can make basic ranged attacks for opportunity attacks triggered by this power.  
@@ -4351,12 +4351,12 @@ You are a slippery, taunting combatant who can fool even skeptical foes.
 > **Encounter** **Utility** **2** (**Swift Action**) ● **Martial**  
 > **Effect** Until the start of your next turn, you gain a +2 power bonus to all defenses (AC, Fortitude, Reflex and Will).  
 
-> #### Winning Smile  
+<h4 class="Heading-4---Daily">Winning Smile</h4>
 > **Daily** **Utility** **2** (**No Action**) ● **Martial**  
 > **Self**   
 > **Effect** Double your Charisma modifier to Bluff or Diplomacy checks until the end of the encounter (or five minutes).  
 
-> #### Talk Down  
+<h4 class="Heading-4---Encounter">Talk Down</h4>
 > **Encounter** **Attack** **3** (**Move Action**) ● **Martial, Consistent, Psychic**  
 > **Near** burst 10, one creature you can see  
 > **Attack** Charisma +2 vs Will  
@@ -4432,7 +4432,7 @@ You are a slippery, taunting combatant who can fool even skeptical foes.
 > **Trigger** You are affected by one following conditions that a save can end:  dazed, marked, slowed, or stunned.  
 > **Effect** You gain a +5 power bonus to saving throws against the triggering condition until you save.  
 
-> #### Center of Attention  
+<h4 class="Heading-4---Encounter">Center of Attention</h4>
 > **Encounter** **Attack** **13** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Effect** You mark all enemies that can see you until the end of your next turn. You lose all benefits of cover or concealment. Until the end of your next turn, basic attacks only require a swift action.  
@@ -4451,7 +4451,7 @@ You are a slippery, taunting combatant who can fool even skeptical foes.
 > **Trigger** You make a Bluff, Diplomacy or Intimidate check and dislike the result.  
 > **Effect** Make a basic attack against the target. On a hit, the target takes 3dW extra damage from the attack and is dazed (save ends). On a miss, the target is dazed until the start of your next turn. 
 
-> #### Stunning Good Looks  
+<h4 class="Heading-4---Daily">Stunning Good Looks</h4>
 > **Daily** **Attack** **15** (**Standard Action**) ● **Martial, Psychic**  
 > **Near** burst 5, all enemies  
 > **Requirements** You, the target, and the target’s allies have not been damaged this encounter.  
@@ -4481,7 +4481,7 @@ You are a slippery, taunting combatant who can fool even skeptical foes.
 > **Attack** Charisma +2 vs Will  
 > **Hit** The target is controlled until the start of your next turn.  
 
-> #### Intimate Assassin  
+<h4 class="Heading-4---Daily">Intimate Assassin</h4>
 > **Daily** **Attack** **19** (**Move Action**) ● **Martial, Psychic, Consistent**  
 > **Near** burst 1, one creature you can see  
 > **Requirements** This power cannot be used if you, the target, or any of the target’s allies has taken damage previously in the encounter.  
@@ -5130,7 +5130,7 @@ You use the divine power of the sun to blast and dazzle your enemies and heal yo
 > **Near** burst 5, one ally  
 > **Effect** The ally gains resistance to all 5 until the end of your next turn. *Level 11:* 10. *Level 21:* 15.  
 
-> #### The Caged Sun  
+<h4 class="Heading-4---Daily">The Caged Sun</h4>
 > **Daily** **Utility** **2** (**Swift Action**) ● **Divine, Stance, Healing**  
 > **Self**   
 > **Effect** You cannot heal creatures other than yourself, or enable other creatures to spend recoveries. However, all healing you receive is doubled. If you receive healing but are already at maximum HP, you gain that amount as temporary HP instead.  
@@ -5314,7 +5314,7 @@ You use the divine power of the sun to blast and dazzle your enemies and heal yo
 > **Hit** 3d10 + Wisdom modifier radiant damage and the target is dazed until the end of your next turn.  
 > **Special** Attack ignores all penalties from cover, concealment, invisibility, etc. If you target a square, the attack is made against the nearest enemy to that square, whether or not you are able to target them or even know that they exist.  
 
-> #### Judgement Day  
+<h4 class="Heading-4---Daily">Judgement Day</h4>
 > **Daily** **Attack** **29** (**Standard Action**) ● **Divine, Radiant, Focus**  
 > **Far** burst 2 within range 10, all enemies  
 > **Attack** Wisdom vs Fortitude  
@@ -5340,14 +5340,14 @@ You are a graceful, skilled duelist.
 
 If you do gain momentum from a power, the same rule for losing momentum applies as for the Exemplar: you lose it if you are hit by any attack.  
 
-> #### Dance of Blades  
+<h4 class="Heading-4---At-Will">Dance of Blades</h4>
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Attack** Dexterity vs AC  
 > **Hit** 1dW + Dexterity modifier and you swap places with the target.
 *Level 21:* 2dW + Dexterity modifier damage.  
 
-> #### Gentlefolk’s Challenge  
+<h4 class="Heading-4---At-Will">Gentlefolk’s Challenge</h4>
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Attack** Dexterity vs AC  
@@ -5355,13 +5355,13 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 *Level 21:* 2dW + Dexterity modifier damage.  
 > **Effect** The target is marked.  
 
-> #### Sure Thing  
+<h4 class="Heading-4---Encounter">Sure Thing</h4>
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Attack** Dexterity +2 vs Reflex  
 > **Hit** 1dW + Dexterity modifier damage.  
 
-> #### Only Fooling  
+<h4 class="Heading-4---Daily">Only Fooling</h4>
 > **Daily** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Trigger** You are prone, immobile, restrained, grappled or slowed.  
@@ -5369,19 +5369,19 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 > **Hit** 2dW + Dexterity modifier damage.  
 > **Special** You lose one condition that triggers this power, or you stand up from prone. Move up to your speed before making your attack.  
 
-> #### Scornful Laugh  
+<h4 class="Heading-4---Encounter">Scornful Laugh</h4>
 > **Encounter** **Utility** **2** (**Reaction Action**) ● **Martial**  
 > **Near** burst 10  
 > **Trigger** An enemy misses you with an attack.  
 > **Effect** The enemy takes a -4 penalty on attack rolls until the end of your next turn.  
 
-> #### Lunging Draw  
+<h4 class="Heading-4---Encounter">Lunging Draw</h4>
 > **Encounter** **Attack** **3** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon +1 reach, one target  
 > **Attack** Dexterity vs Will  
 > **Hit** 2dW + Dexterity modifier damage and pull 1.  
 
-> #### Calling Card  
+<h4 class="Heading-4---Daily">Calling Card</h4>
 > **Daily** **Attack** **5** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Attack** Dexterity vs AC  
@@ -5389,51 +5389,51 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 > **Effect** Until the end of your next turn, your allies get a +2 bonus on attack rolls against the target.  
 > **Maintain Swift** The effect persists until the end of your next turn.    
 
-> #### Throw Off  
+<h4 class="Heading-4---Daily">Throw Off</h4>
 > **Daily** **Utility** **6** (**Swift Action**) ● **Martial**  
 > **Near** burst 5, one enemy  
 > **Effect** The target grants combat advantage until the end of your next turn.  
 
-> #### Through the Foot  
+<h4 class="Heading-4---Encounter">Through the Foot</h4>
 > **Encounter** **Attack** **7** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Attack** Dexterity vs AC  
 > **Hit** 1dW + Dexterity modifier damage and the target is immobile until the end of your next turn.  
 
-> #### Certain Strike  
+<h4 class="Heading-4---Daily">Certain Strike</h4>
 > **Daily** **Attack** **9** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Attack** Dexterity vs AC  
 > **Hit** 2dW + Dexterity modifier damage. On this attack, you can score a critical hit on a 16-20.  
 > **Miss** This power is not expended.  
 
-> #### Bravado  
+<h4 class="Heading-4---Encounter">Bravado</h4>
 > **Encounter** **Utility** **10** (**Counter Action**) ● **Martial**  
 > **Self**   
 > **Effect** An attack against your Fortitude, Reflex or Will is instead made against your Armor Class.  
 
-> #### Fend Off Horde  
+<h4 class="Heading-4---Encounter">Fend Off Horde</h4>
 > **Encounter** **Attack** **13** (**Standard Action**) ● **Martial, Weapon**  
 > **Near** burst 1, all enemies  
 > **Attack** Dexterity vs AC  
 > **Hit** 2dW + Dexterity modifier damage and push a number of squares equal to your Charisma modifier.  
 > **Boost** **Level 23** 3dW + Dexterity modifier damage, and the target is also knocked prone.  
 
-> #### Blur of Cloaks  
+<h4 class="Heading-4---Daily">Blur of Cloaks</h4>
 > **Daily** **Attack** **15** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Attack** Dexterity vs AC  
 > **Hit** 3dW + Dexterity modifier damage.  
 > **Effect** Until the end of your next turn, the target cannot target you with attacks. Even its near and far attacks ignore you.  
 
-> #### Harmless Misdirection  
+<h4 class="Heading-4---Encounter">Harmless Misdirection</h4>
 > **Encounter** **Utility** **16** (**Reaction Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You miss with a melee attack.  
 > **Effect** You turn invisible until the end of your turn. 
 *Lose momentum:* Until the start of your next turn.  
 
-> #### Press the Advantage  
+<h4 class="Heading-4---Encounter">Press the Advantage</h4>
 > **Encounter** **Attack** **17** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Attack** Dexterity vs AC  
@@ -5442,7 +5442,7 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 *Secondary Attack:* Dexterity vs AC; 1dW + Dexterity modifier damage and push 1. You shift 1.  
 > **Boost** **Level 27** Do 2dW + Dexterity modifier damage with each attack, and you push and shift a number of squares equal to your Charisma modifier.  
 
-> #### Call Bid  
+<h4 class="Heading-4---Daily">Call Bid</h4>
 > **Daily** **Attack** **19** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Attack** Dexterity vs AC  
@@ -5451,26 +5451,26 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 *Secondary Attack:* Dexterity vs AC. 2dW + Dexterity modifier damage.  
 > **Special** Before you use this power, announce how many times you will hit the target, between one and five. You can make this many secondary attacks. Count up all hits (including from your primary attack). For each attack you are short your bid, your enemy can make that many basic attacks against you.  
 
-> #### Rescuing Intercept  
+<h4 class="Heading-4---Daily">Rescuing Intercept</h4>
 > **Daily** **Attack** **19** (**Standard Action**) ● **Martial**  
 > **Melee** weapon, one target  
 > **Attack** Dexterity vs AC  
 > **Hit** 3dW + Dexterity modifier damage.  
 > **Special** Before your attack, an ally within Near range 10 shifts squares equal to your Charisma modifier. Then you teleport into their original space.  
 
-> #### Dodge with Panache  
+<h4 class="Heading-4---Encounter">Dodge with Panache</h4>
 > **Encounter** **Utility** **22** (**Counter Action**) ● **Martial**  
 > **Self and allies**   
 > **Trigger** You are the target of an attack  
 > **Effect** The attacker must roll twice against you and every ally who is a target of the attack, taking the lower result each time.  
 
-> #### Swift Riposte  
+<h4 class="Heading-4---Daily">Swift Riposte</h4>
 > **Daily** **Utility** **22** (**Swift Action**) ● **Martial**  
 > **Self**   
 > **Effect** Each time you are the target of an attack, you can make a basic melee or ranged attack against the attacker as an immediate (counter) action. This effect lasts until the end of your next turn.  
 > **Maintain Swift** The effect persists until the end of your next turn.  
 
-> #### Lethal Misdirection  
+<h4 class="Heading-4---Daily">Lethal Misdirection</h4>
 > **Daily** **Attack** **25** (**Counter Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Trigger** An enemy makes an attack that includes you as a target, and at least one creature, not including that enemy, is adjacent to you and is not currently a target of the attack.  
@@ -5478,7 +5478,7 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 > **Hit** 3dW + Dexterity modifier damage.  
 > **Effect** The enemy’s attack is resolved against the creature adjacent to you instead of you.  
 
-> #### Deflect Attack  
+<h4 class="Heading-4---Daily">Deflect Attack</h4>
 > **Daily** **Attack** **29** (**Counter Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
 > **Trigger** An enemy in reach targets you with an attack.  
@@ -6675,7 +6675,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Self**   
 > **Effect** Shift your speed -2. You do not count as having moved for the purpose of powers that get a benefit if you have not moved.  
 
-> #### Clearing the Room  
+<h4 class="Heading-4---Encounter">Clearing the Room</h4>
 > **Encounter** **Attack** **13** (**Standard Action**) ● **Martial, Weapon**  
 > **Ranged** 5, one, two or three creatures  
 > **Attack** Dexterity vs AC, three attacks  
@@ -6717,7 +6717,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Trigger** You are affected by one of the following conditions that a save can end: blinded, dazed, marked, slowed, stunned, or weakened.  
 > **Effect** You gain a +5 bonus to the saving throw until you succeed.  
 
-> #### Toxophilite  
+<h4 class="Heading-4---Encounter">Toxophilite</h4>
 > **Encounter** **Utility** **16** (**Swift Action**) ● **Martial**  
 > **Self**   
 > **Effect** Until the end of your next turn, gain a +1 bonus to attack rolls and a +4 bonus to damage rolls.  
@@ -6860,75 +6860,75 @@ You share a special bond with your companion that allows you to fight as one.
 
 **Note:** “Companion” refers to a familiar, animal companion or summoned creature. Unless otherwise mentioned, your companion must be within line of sight or 20 squares for a Strong Bidding power that uses your companion.  
 
-> #### Companion Strike  
+<h4 class="Heading-4---At-Will">Companion Strike</h4>
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Spirit, Companion**  
 > **Special**   
 > **Effect** Your companion makes a basic melee attack and adds your Charisma modifier to the damage.  
 
-> #### Side by Side  
+<h4 class="Heading-4---Encounter">Side by Side</h4>
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Spirit, Companion**  
 > **Melee** weapon, one creature   
 > **Attack** Charisma vs AC  
 > **Hit** 1dW + Charisma modifier damage.  
 > **Effect** Your companion can also move its speed and make a basic melee attack against the same target.  
 
-> #### Lifelink  
+<h4 class="Heading-4---Daily">Lifelink</h4>
 > **Daily** **Utility** **2** (**Counter Action**) ● **Spirit, Companion**  
 > **Trigger** Your companion is hit by an attack.  
 > **Effect** You experience all of the consequences of the hit, instead of your companion. If you are also a target of the attack, you are also affected by it as normal.  
 
-> #### Share Senses  
+<h4 class="Heading-4---Daily">Share Senses</h4>
 > **Daily** **Utility** **2** (**Swift Action**) ● **Spirit, Companion**  
 > **Effect** Until the end of your next turn, you can use any or all of your companion’s senses as your own, gaining the benefits of any special senses that it has. During this time, you lose any of the senses that you take from your companion, but retain your other senses as normal. For example, you could share your companion’s sight, but keep your hearing.  
 > **Maintain Swift** The effect persists until the end of your next turn.   
 > **Boost** **Level 16** This becomes an encounter power.  
 
-> #### Familiar Guidance  
+<h4 class="Heading-4---Encounter">Familiar Guidance</h4>
 > **Encounter** **Utility** **6** (**Counter Action**) ● **Spirit, Companion**  
 > **Trigger** You miss on an at-will or encounter attack  
 > **Effect** Reroll the attack and take the second result.  
 
-> #### Interfering Companion  
+<h4 class="Heading-4---Encounter">Interfering Companion</h4>
 > **Encounter** **Utility** **6** (**Swift Action**) ● **Spirit, Companion**  
 > **Self**   
 > **Effect** Your companion can flank, if it couldn’t already, until the end of the encounter.  
 *Level 11:* You get combat advantage against enemies adjacent to your companion.  
 *Level 21:* Enemies adjacent to your companion cannot shift. You get combat advantage against enemies adjacent to your companion.  
 
-> #### Leap to Companion  
+<h4 class="Heading-4---Encounter">Leap to Companion</h4>
 > **Encounter** **Utility** **6** (**Move Action**) ● **Spirit, Teleport, Companion**  
 > **Self**   
 > **Requirements** There must be room for you in the space your companion occupies.  
 > **Effect** Teleport to the space occupied by your companion. If they are a familiar, they are hidden away. If they are a different type of companion, they shift 1 into an unoccupied space.  If there is no eligible space, the companion falls prone in your space. 
 
-> #### Leaping Intercept  
+<h4 class="Heading-4---Encounter">Leaping Intercept</h4>
 > **Encounter** **Utility** **6** (**Counter Action**) ● **Spirit, Companion**  
 > **Trigger** Your companion is adjacent to you and you are hit by an attack  
 > **Effect** You take half damage from the attack and your companion takes half damage from the attack.  
 
-> #### Safeguard Companion  
+<h4 class="Heading-4---Encounter">Safeguard Companion</h4>
 > **Encounter** **Attack** **7** (**Counter Action**) ● **Spirit, Focus, Companion**  
 > **Trigger** Your companion is the target of an attack from an enemy adjacent to it.  
 > **Attack** Charisma vs Will  
 > **Hit** 1d8 + Charisma modifier + Intelligence modifier and push the target 2.  
 
-> #### Recall Familiar  
+<h4 class="Heading-4---Daily">Recall Familiar</h4>
 > **Daily** **Utility** **10** (**Counter Action**) ● **Spirit, Companion**  
 > **Trigger** Your familiar is hit by an attack.  
 > **Effect** Your familiar teleports to your space and is hidden away.  
 
-> #### Companion Form  
+<h4 class="Heading-4---Daily">Companion Form</h4>
 > **Daily** **Utility** **10** (**Swift Action**) ● **Spirit, Form**  
 > **Self**   
 > **Effect** You take the form of your companion, including size, source and type, senses and speed. You can also spend one recovery to heal your recovery value. While in this form you cannot use powers unless they have the Wild Shape tag. You can leave this form as a swift action, and you do so automatically if you are reduced to 0 HP or below. Otherwise, it lasts until you take a long rest.  
 
-> #### Master’s Form  
+<h4 class="Heading-4---Daily">Master’s Form</h4>
 > **Daily** **Utility** **10** (**Swift Action**) ● **Spirit, Transmutation, Companion**  
 > **Ranged** 10, one companion  
 > **Effect** Until the end of your next turn, your companion transforms into a humanoid of your race with the same age, gender, and build of its true form, though it always maintains a clearly unnatural remnant of its nature, such as a cat’s eyes or a serpent’s tongue.  
 > **Maintain Swift** The effect persists until the end of your next turn.   
 
-> #### Companion Swarm  
+<h4 class="Heading-4---Daily">Companion Swarm</h4>
 > **Daily** **Attack** **19** (**Standard Action**) ● **Spirit, Focus, Companion**  
 > **Far** burst 1 within range 20 (centered on your companion), all enemies  
 > **Attack** Charisma vs Fortitude  
@@ -6937,7 +6937,7 @@ You share a special bond with your companion that allows you to fight as one.
 > **Special** Your companion is removed from play while the zone remains in effect.  
 > **Maintain Swift** The zone persists until the end of your next turn.   
 
-> #### Enlarge Companion  
+<h4 class="Heading-4---Daily">Enlarge Companion</h4>
 > **Daily** **Utility** **19** (**Swift Action**) ● **Spirit, Transmutation, Companion**  
 > **Ranged** 10, one companion  
 > **Effect** If your companion is smaller than Medium size, it grows to Medium size. If your companion is Medium size or larger, it increases by one size category. Its maximum and current HP are increased by your recovery value. The companion can flank if it could not already. Once per round, as a swift action, the companion can knock an adjacent enemy prone or push it 1 square. You may use a swift action to end the effect; otherwise it lasts until your next long rest.  
@@ -7557,7 +7557,7 @@ You specialize in the cracks in reality, the passages between worlds. With the r
 
 ### Powers 
 
-> #### Sidestep Charge
+<h4 class="Heading-4---Encounter">Sidestep Charge</h4>
 > **Encounter** **Attack** **11** (**Counter Action**) ● **Phrenic, Weapon**
 > **Self** 
 > **Trigger** An enemy that has already moved this turn makes an attack against you that misses.
@@ -7568,7 +7568,7 @@ You specialize in the cracks in reality, the passages between worlds. With the r
 > **Near** burst 5, one unoccupied square
 > **Effect** You summon a dimensional echo in the target square. When you take a move action, you can move the dimensional echo up to 6 squares. The echo assists your allies with flanks. The echo remains until the end of the encounter, or until you dismiss it with a swift action. When you dismiss it, you may teleport to the square it occupied if you wish. 
 
-> #### Accelerated Action
+<h4 class="Heading-4---Daily">Accelerated Action</h4>
 > **Daily** **Attack** **20** (**Swift Action**) ● **Phrenic**
 > **Self**
 > **Effect** Make a basic attack or take a move action. 
@@ -7590,18 +7590,18 @@ By candlelight in the temple, you were sworn to take the word of your god to the
 
 ### Powers 
 
-> #### Blast Infidels
+<h4 class="Heading-4---Encounter">Blast Infidels</h4>
 > **Encounter** **Attack** **11** (**Standard Action**) ● **Divine, Focus, Radiant**
 > **Near** burst 3, all creatures of the alignment of your choice
 > **Attack** Wisdom vs Fortitude
 > **Hit** 2d10 + Wisdom modifier radiant damage. 
 
-> #### Faith Healing
+<h4 class="Heading-4---Daily">Faith Healing</h4>
 > **Daily** **Utility** **12** (**Swift Action**) ● **Divine, Healing**
 > **Near** burst 5, you and all allies 
 > **Effect** The target may spend a recovery to heal hit points equal to their recovery value. 
 
-> #### Proselytize 
+<h4 class="Heading-4---Daily">Proselytize</h4>
 > **Daily** **Attack** **20** (**Standard Action**) ● **Charm, Divine, Focus, Radiant**
 > **Ranged** 10, one enemy
 > **Attack** Wisdom vs Will 
@@ -7708,7 +7708,7 @@ Since a child you have been obsessed with fire: its destructive potential, but a
 
 ### Powers 
 
-> #### Fire Lash
+<h4 class="Heading-4---Encounter">Fire Lash</h4>
 > **Encounter** **Attack** **11** (**Standard Action**) ● **Arcane, Fire, Focus** 
 > **Melee** 5, one creature 
 > **Attack** Intelligence vs Reflex 
@@ -7720,7 +7720,7 @@ Since a child you have been obsessed with fire: its destructive potential, but a
 > **Attack** Intelligence vs Fortitude 
 > **Hit** The target takes damage equal to the amount of persistent damage they are suffering. This damage is of the same type they are already suffering.
 
-> #### Heat Death
+<h4 class="Heading-4---Daily">Heat Death</h4>
 > **Daily** **Attack** **20** (**Standard Action**) ● **Arcane, Fire, Focus** 
 > **Near** burst 5, one creature 
 > **Attack** Intelligence vs Will 
@@ -7929,7 +7929,7 @@ You have dedicated yourself to mastering the arcane arts through dedicated study
 
 ### Powers 
 
-> #### Metamagical Violence
+<h4 class="Heading-4---Encounter">Metamagical Violence</h4>
 > **Encounter** **Attack** **11** (**Free Action**) ● **Arcane** 
 > **Self** 
 > **Trigger** You use an arcane at-will attack power. 
@@ -8000,18 +8000,18 @@ You have probably graduated from a command school or officer college. You emerge
 
 ### Powers  
 
-> #### One-Two Strike
+<h4 class="Heading-4---Encounter">One-Two Strike</h4>
 > **Encounter** **Attack** **11** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, one target  
 > **Attack** Strength vs AC, two attacks  
 > **Hit** 1dW + Strength modifier damage and the target is dazed until the end of your next turn. If both attacks hit, the target is stunned until the end of your next turn.  
 
-> #### Fast Learner  
+<h4 class="Heading-4---Daily">Fast Learner</h4>
 > **Daily** **Utility** **12** (**Swift Action**) ● **Martial**  
 > **Self**   
 > **Effect** Select a feat you meet the prerequisites for. You gain that feat until your next long rest.  
 
-> #### First Blood  
+<h4 class="Heading-4---Daily">First Blood</h4>
 > **Daily** **Attack** **20** (**Standard Action**) ● **Martial, Weapon**  
 > **Near** burst 1, all enemies  
 > **Attack** Strength vs AC  
@@ -8062,7 +8062,7 @@ When you are adjacent to your corpse, you can use a swift action to merge the ol
 
 ### Power  
 
-> #### Force Sphere  
+<h4 class="Heading-4---Daily">Force Sphere</h4>
 > **Daily** **Utility** **26** (**Counter Action**) ● **Arcane, Force, Zone**  
 > **Near** burst X  
 > **Effect** Create a sphere of force in a near burst between 1 and 5 squares in radius (your choice). The sphere is impenetrable by any means. The zone persists until the end of your next turn.  
