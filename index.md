@@ -3,18 +3,16 @@ layout: default
 title: Home
 navigation_weight: 0
 ---
-
+<img src="https://github.com/Sanglorian/orcus/raw/main/pics/Heroes'%20Handbook%20-%20small.png" style="float: right; max-width: 150px;" />
 ## The books
 
 ### Orcus Heroes' Handbook
-
-<img src="https://github.com/Sanglorian/orcus/raw/main/pics/Heroes'%20Handbook%20-%20small.png" style="float: right; max-width: 200px;" />
 
 Download the *Orcus Heroes' Handbook* <a href="https://github.com/Sanglorian/orcus/raw/main/Orcus%20Heroes'%20Handbook.pdf">PDF</a> or buy a print copy on <a href="https://www.lulu.com/shop/chris-sakkas/orcus-heroes-handbook/paperback/product-wdjdr4.html">Lulu</a>.
 
 ### Orcus Game Master's Guide
 
-<img src="https://github.com/Sanglorian/orcus/raw/main/pics/Game%20Master's%20Guide%20-%20small.png" style="float: right; max-width: 200px;" />
+<img src="https://github.com/Sanglorian/orcus/raw/main/pics/Game%20Master's%20Guide%20-%20small.png" style="float: right; max-width: 150px;" />
 
 Download the *Orcus Game Master's Guide* <a href="https://raw.githubusercontent.com/Sanglorian/orcus/main/Orcus%20Game%20Master's%20Guide.pdf">PDF</a> or buy a print copy on <a href="https://www.lulu.com/shop/chris-sakkas/orcus-game-masters-guide/paperback/product-ezm4zw.html">Lulu</a>.
 
