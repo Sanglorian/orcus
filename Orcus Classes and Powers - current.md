@@ -268,7 +268,7 @@ Choose one at character creation.
 You can use the *lift spirits* power two times each encounter.  
 *Level 16:* Three times per encounter.  
 
-> #### Lift Spirits  
+<h4 class="Heading-4---Encounter">Lift Spirits</h4>
 >
 > **Encounter** **Utility** **1** (**Swift Action**) ● **Martial, Healing**  
 > **Near** burst 5 (10 at level 11, 15 at level 21), one ally or yourself  
@@ -409,7 +409,7 @@ Add your Wisdom modifier to your attack rolls when making opportunity attacks.
 
 You gain the *punish cowardice* and *block retreat* powers.  
 
-> #### Block Retreat  
+<h4 class="Heading-4---At-Will">Block Retreat</h4>
 >
 > **At-Will** **Utility** **Feature** (**Free Action**) ● **Martial**  
 > **Trigger** A creature is hit by your opportunity attack, and the opportunity attack was provoked by movement.  
@@ -478,13 +478,13 @@ You do not provoke opportunity attacks from creatures you have attacked this tur
 
 You gain the *hasty retreat* and *general confusion* powers.  
 
-> #### General Confusion  
+<h4 class="Heading-4---At-Will">General Confusion</h4>
 >
 > **At-Will** **Utility** **Feature** (**Swift Action**) ● **Martial**  
 > **Near** 5, one creature marked by yourself or one of your allies  
 > **Effect** The target is no longer marked by that character, and is instead marked by yourself or the ally of your choice until the end of your next turn.  
 
-> #### Hasty Retreat  
+<h4 class="Heading-4---At-Will">Hasty Retreat</h4>
 >
 > **At-Will** **Utility** **Feature** (**Swift Action**) ● **Martial**  
 > **Self**   
@@ -568,7 +568,7 @@ Choose one at character creation.
 
 You can use the *mageblade’s sigil* power.  
 
-> #### Mageblade’s Sigil  
+<h4 class="Heading-4---At-Will">Mageblade’s Sigil</h4>
 >
 > **At-Will** **Utility** **Feature** (**Swift Action**) ● **Arcane**  
 > **Near** burst 2, one target  
@@ -730,7 +730,7 @@ You gain the ability to channel divine energy directly from your deity, using th
 
 When you use your Channel Divinity, you choose which effect to create. By default, you can use Channel Divinity once per encounter (although see Action Recharge).  
 
-> #### Censure Undead  
+<h4 class="Heading-4---Encounter">Censure Undead</h4>
 >
 > *You present your holy symbol and speak a prayer censuring the undead.*  
 > **Encounter** **Attack** **Feature** (**Standard Action**) ● **Divine, Focus, Radiant**  
@@ -744,7 +744,7 @@ When you use your Channel Divinity, you choose which effect to create. By defaul
 
 You can use the *infuse with life* power twice per encounter.  
 
-> #### Infuse with Life  
+<h4 class="Heading-4---Encounter">Infuse with Life</h4>
 >
 > **Encounter** **Utility** **Feature** (**Swift Action**) ● **Divine**  
 > **Near** burst 5 (Level 11: 10; Level 21: 15), self or one ally  
@@ -812,7 +812,7 @@ Choose one at character creation.
 
 You have the *sprouting overwatch* power.  
 
-> #### Sprouting Overwatch  
+<h4 class="Heading-4---At-Will">Sprouting Overwatch</h4>
 >
 > *You cover a person or area and attack anything that gets too close.*  
 > **At-Will** **Attack** **Feature** (**Move Action**) ● **Spirit, Weapon, Zone**  
@@ -825,7 +825,7 @@ You gain the ability to entreat the spirits for a favor. You start with access t
 
 When you use your Spirit Entreaty, you choose which effect to create. By default, you can use Spirit Entreaty once per encounter (although see Action Recharge).  
 
-> #### Grasping Vines  
+<h4 class="Heading-4---Encounter">Grasping Vines</h4>
 >
 > **Encounter** **Attack** **Feature** (**Swift Action**) ● **Spirit**  
 > **Near** burst 1, all enemies  
@@ -833,14 +833,14 @@ When you use your Spirit Entreaty, you choose which effect to create. By default
 > **Special** *Level 11:* Range is now burst 2.
 > *Level 21:* Range is now burst 3.  
 
-> #### Spirit’s Prank  
+<h4 class="Heading-4---Encounter">Spirit’s Prank</h4>
 >
 > **Encounter** **Attack** **Feature** (**Free Action**) ● **Spirit**  
 > **Self**   
 > **Trigger** Your ranged attack misses a target  
 > **Effect** Make a ranged basic attack against a creature within 5 of the triggering target.  
 
-> #### Unleashed Spirit  
+<h4 class="Heading-4---Encounter">Unleashed Spirit</h4>
 >
 > **Encounter** **Attack** **Feature** (**Reaction Action**) ● **Spirit, Weapon**  
 > **Melee** weapon, the triggering enemy  
@@ -901,7 +901,7 @@ Choose one at character creation. Note that rampage powers do not necessarily ha
 * **Companionable:** You gain the *companion rampage* power. Your secondary ability is Charisma. 
 * **Swift:** You gain the *swift rampage* power. Your secondary ability is Dexterity.  
 
-> #### Companion Rampage  
+<h4 class="Heading-4---At-Will">Companion Rampage</h4>
 >
 > **At-Will** **Attack** **Feature** (**No Action**) ● **Spirit, Weapon or Focus**  
 > **Special** range, one creature  
@@ -911,7 +911,7 @@ Choose one at character creation. Note that rampage powers do not necessarily ha
 > *Level 11:* Special range, one or two creatures.
 > *Level 21:* Special range, all enemies.  
 
-> #### Fearful Rampage  
+<h4 class="Heading-4---At-Will">Fearful Rampage</h4>
 >
 > **At-Will** **Attack** **Feature** (**No Action**) ● **Spirit, Weapon or Focus, Psychic, Fear**  
 > **Melee** touch, one creature  
@@ -921,7 +921,7 @@ Choose one at character creation. Note that rampage powers do not necessarily ha
 > *Level 11:* Melee touch, one or two creatures.
 > *Level 21:* Melee touch, all enemies.  
 
-> #### Swift Rampage  
+<h4 class="Heading-4---At-Will">Swift Rampage</h4>
 >
 > **At-Will** **Attack** **Feature** (**No Action**) ● **Spirit, Weapon or Focus**  
 > **Melee** touch, one creature  
@@ -1393,7 +1393,7 @@ You can focus your mind to unlock your psychic potential.
 
 You can give up your *focus surge* for an encounter to use the *intensity* power instead.
 
-> #### Intensity  
+<h4 class="Heading-4---Encounter">Intensity</h4>
 > *You focus on your connection with your Godmind and you become more intensely focused on your next action.*  
 > **Encounter** **Utility** **Feature** (**Swift Action**) ● **Phrenic**  
 > **Self**   
@@ -1859,14 +1859,14 @@ Your words and example inspire allies to stay in the fight, and cooperate to tak
 
 <figure><img src="pics\MiguelSantos_MAGCLERICEND.png" alt="Cleric by Miguel Santos" style="zoom: 33%;" /><figcaption>Cleric by Miguel Santos</figcaption></figure>
 
-> #### Identify Target  
+<h4 class="Heading-4---At-Will">Identify Target</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Martial**  
 > **Ranged** 10, one enemy  
 > **Attack** Charisma vs Will  
 > **Hit** The target grants combat advantage until the end of your next turn. The first ally to hit the target with an attack heals 1d6 + your Charisma modifier HP.  
 
-> #### Make Room  
+<h4 class="Heading-4---At-Will">Make Room</h4>
 >
 > *There are others in a better position.  You give them the opening they need.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial**  
@@ -1874,7 +1874,7 @@ Your words and example inspire allies to stay in the fight, and cooperate to tak
 > **Effect** The target makes a basic attack against an enemy of your choice, and gains a bonus to damage rolls for the attack equal to your Charisma modifier.  
 > *Level 21:* Use as a move action instead of a standard action.  
 
-> #### Quick Save  
+<h4 class="Heading-4---Encounter">Quick Save</h4>
 >
 > *A quick word or push allows an ally a momentary improvement to their accuracy.*  
 > **Encounter** **Attack** **1** (**Counter Action**) ● **Martial**  
@@ -1882,20 +1882,20 @@ Your words and example inspire allies to stay in the fight, and cooperate to tak
 > **Trigger** One ally misses with an attack roll against a creature you can see.  
 > **Effect** The target may reroll  the attack. 
 
-> #### Targeted Call  
+<h4 class="Heading-4---Encounter">Targeted Call</h4>
 >
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Martial**  
 > **Near** burst 10, one ally  
 > **Effect** Choose one ally. They make a basic melee or ranged attack. If they hit, they gain temporary HP equal to your Wisdom modifier.  
 
-> #### Break Will  
+<h4 class="Heading-4---Daily">Break Will</h4>
 >
 > **Daily** **Attack** **1** (**Standard Action**) ● **Focus, Martial, Psychic**  
 > **Near** burst 3, all enemies  
 > **Attack** Charisma vs Will  
 > **Hit** The target is weakened (save ends).  
 
-> #### Geometric Strategy  
+<h4 class="Heading-4---Daily">Geometric Strategy</h4>
 >
 > *There’s a whole machine that works because everyone does what they are supposed to.*  
 > **Daily** **Attack** **1** (**Reaction Action**) ● **Martial**  
@@ -1903,21 +1903,21 @@ Your words and example inspire allies to stay in the fight, and cooperate to tak
 > **Trigger** One ally hits with an attack.  
 > **Effect** The target’s attack deals +3dW damage.  
 
-> #### No One Hits The Chief  
+<h4 class="Heading-4---Daily">No One Hits The Chief</h4>
 >
 > *You’re hit and your comrades don’t take kindly to that.*  
 > **Daily** **Attack** **1** (**Move Action**) ● **Martial**  
 > **Near** earshot, two allies  
 > **Effect** The target makes a basic attack against one creature that hit you since the start of your last turn.  
 
-> #### Rescuing Angel  
+<h4 class="Heading-4---Daily">Rescuing Angel</h4>
 >
 > **Daily** **Attack** **1** (**Reaction Action**) ● **Focus, Martial**  
 > **Near** burst 10, one ally  
 > **Trigger** An ally in range is reduced to 0 HP or below  
 > **Effect** Choose one ally. They make a basic melee or ranged attack against the creature that made the attack, and can add your Charisma modifier to their attack and damage. You move your speed. If you end your move adjacent to the original ally, they can spend a recovery to heal their recovery value plus your Wisdom modifier.  
 
-> #### Hold Fast  
+<h4 class="Heading-4---Encounter">Hold Fast</h4>
 >
 > *You push the heads down of those around you, keeping them from the line of fire.*  
 > **Encounter** **Utility** **2** (**Move Action**) ● **Martial**  
@@ -1925,61 +1925,61 @@ Your words and example inspire allies to stay in the fight, and cooperate to tak
 > **Effect** The target gains resistance to all damage equal to your Charisma modifier until the start of your next turn.  
 > **Maintain Move** The effect persists until the end of your next turn. If either target leaves its current square, the effect ends.
 
-> #### An Ounce of Prevention   
+<h4 class="Heading-4---Encounter">An Ounce of Prevention</h4>
 >
 > **Encounter** **Utility** **2** (**Counter Action**) ● **Martial**  
 > **Near** burst 10, one ally  
 > **Trigger** An ally in range is hit by an attack.  
 > **Effect** The ally can spend a recovery to gain temporary hit points equal to their recovery value.  
 
-> #### Encouraging Peal  
+<h4 class="Heading-4---Daily">Encouraging Peal</h4>
 >
 > *You let out shouts of encouragement to bolster your allies in battle.*  
 > **Daily** **Utility** **2** (**Swift Action**) ● **Martial**  
 > **Near** burst 5, all allies  
 > **Effect** Targets receive a +2 power bonus on attack rolls and add your Charisma modifier to damage until the end of the encounter.  
 
-> #### Inspire the Troops  
+<h4 class="Heading-4---Daily">Inspire the Troops</h4>
 >
 > *“Come on, say a few words …”*  
 > **Daily** **Utility** **2** (**Standard Action**) ● **Martial**  
 > **Near** burst 5, two allies  
 > **Effect** The target gains a +2 power bonus to all attack rolls until the start of your next turn. The target gains an additional move action on their next turn, and can trade two move actions for one standard action.  
 
-> #### Pride Leader’s Stance  
+<h4 class="Heading-4---Daily">Pride Leader’s Stance</h4>
 >
 > *By adopting the mannerisms of commanding lions of the great savannahs, you inspire heroics by your presence.*  
 > **Daily** **Utility** **2** (**Swift Action**) ● **Martial, Stance**  
 > **Self**   
 > **Effect** Allies within 10 squares (including yourself) have a +2 power bonus to Will defense and on saving throws.  
 
-> #### The Strength Within  
+<h4 class="Heading-4---Daily">The Strength Within</h4>
 >
 > **Daily** **Utility** **2** (**Swift Action**) ● **Martial**  
 > **Near** burst 10, one ally or yourself  
 > **Effect** The target can spend a recovery to heal their recovery value, and add your Charisma modifier to damage rolls until the end of your next turn.  
 
-> #### Call to Action  
+<h4 class="Heading-4---Encounter">Call to Action</h4>
 >
 > *By having a watchful eye on the flow of combat, you know when to spur an ally into a better position.*  
 > **Encounter** **Attack** **3** (**Standard Action**) ● **Martial, Weapon**  
 > **Near** burst 10, one enemy  
 > **Effect** Choose two allies. Each ally chooses one: they may charge the target or make a basic melee or ranged attack against them.  
 
-> #### Rallying Instruction  
+<h4 class="Heading-4---Daily">Rallying Instruction</h4>
 >
 > **Daily** **Attack** **5** (**Standard Action**) ● **Martial**  
 > **Near** burst 10, one ally  
 > **Effect** The target regains one recovery. The target can make a basic melee or ranged attack. They do +2dW damage if they hit. 
 
-> #### Golden Commander Stance  
+<h4 class="Heading-4---Encounter">Golden Commander Stance</h4>
 >
 > *Through the use of your superior tactical ability, you are able to direct your allies in combat for maximum effectiveness.*  
 > **Encounter** **Utility** **6** (**Swift Action**) ● **Martial, Stance**  
 > **Self**   
 > **Effect** Any enemies within 10 that are flanked by any allies (including yourself) count as flanked by all of your allies.  
 
-> #### No One Left Behind  
+<h4 class="Heading-4---Encounter">No One Left Behind</h4>
 >
 > *You grab an ally by the shoulder and drag them to safety.*  
 > **Encounter** **Utility** **6** (**Move Action**) ● **Healing, Martial**  
@@ -1987,14 +1987,14 @@ Your words and example inspire allies to stay in the fight, and cooperate to tak
 > **Effect** Spend a recovery, but do not regain hit points; instead, the target regains hit points as if they had spent a recovery. You and the target shift a number of squares equal to 1+ your Charisma modifier. You and the target must be adjacent at the end of the shift.  
 > **Maintain Move** You and the target shift a number of squares equal to 1 + your Charisma modifier squares. You and the target must be in adjacent squares at the end of the shift.  
 
-> #### Inherit Toughness  
+<h4 class="Heading-4---Daily">Inherit Toughness</h4>
 >
 > *With a cry to defend themselves from incoming attacks, your inspirational words aid your allies in their defense.*  
 > **Daily** **Utility** **6** (**Swift Action**) ● **Healing, Martial**  
 > **Near** burst 5, all allies and yourself  
 > **Effect** Each target heals 10 + your Charisma modifier HP.  
 
-> #### When A Plan Comes Together  
+<h4 class="Heading-4---Daily">When A Plan Comes Together</h4>
 >
 > *You congratulate the group for a job well done.*  
 > **Daily** **Utility** **6** (**No Action**) ● **Martial**  
@@ -2002,13 +2002,13 @@ Your words and example inspire allies to stay in the fight, and cooperate to tak
 > **Requirements** An encounter ends with no allies dying, unconscious, or staggered.  
 > **Effect** Each ally gains one additional action point.  
 
-> #### Milestone Foe  
+<h4 class="Heading-4---Encounter">Milestone Foe</h4>
 >
 > **Encounter** **Attack** **7** (**Standard Action**) ● **Martial**  
 > **Near** burst 10, one enemy  
 > **Effect** Until the end of your next turn, attacks against the target add your Charisma modifier to the attack and damage roll. 
 
-> #### Identify Weak Point  
+<h4 class="Heading-4---Daily">Identify Weak Point</h4>
 >
 > **Daily** **Attack** **9** (**Standard Action**) ● **Focus, Martial**  
 > **Near** burst 10, one enemy  
@@ -2016,28 +2016,28 @@ Your words and example inspire allies to stay in the fight, and cooperate to tak
 > **Hit** The target is vulnerable to all damage 5 until the end of the encounter.  
 > **Effect** The target is dazed (save ends).  
 
-> #### Bolster the Line  
+<h4 class="Heading-4---Encounter">Bolster the Line</h4>
 >
 > *You shout a few inspiring words and quote the soldier’s creed.  The spines of those around you stiffen.*  
 > **Encounter** **Utility** **10** (**Standard Action**) ● **Healing, Martial**  
 > **Near** burst 2, all allies  
 > **Effect** The target gains temporary hit points equal to twice your Charisma modifier.  
 
-> #### Control The Battle Theatre  
+<h4 class="Heading-4---Encounter">Control The Battle Theatre</h4>
 >
 > *You bark out orders and change the pattern of attack.*  
 > **Encounter** **Utility** **10** (**Move Action**) ● **Martial**  
 > **Near** burst 3, you and four allies  
 > **Effect** The target shifts its speed.  
 
-> #### Golden General’s Victory  
+<h4 class="Heading-4---Daily">Golden General’s Victory</h4>
 >
 > *You are a beacon of command on the field of battle, inspiring your troops by your mere presence.*  
 > **Daily** **Utility** **10** (**Swift Action**) ● **Healing, Martial**  
 > **Near** burst 5, all allies  
 > **Effect** Each target can spend a recovery to heal their recovery value. They also make a saving throw against one effect of their choice. They get a +2 power bonus to attack rolls until the end of your next turn.  
 
-> #### Now What Did We Learn?  
+<h4 class="Heading-4---Daily">Now What Did We Learn?</h4>
 >
 > *You talk it over with the others and you show how, even in the direst circumstances, something can be learned.*  
 > **Daily** **Utility** **10** (**No Action**) ● **Martial**  
@@ -2046,27 +2046,27 @@ Your words and example inspire allies to stay in the fight, and cooperate to tak
 > **Effect** An ally who was staggered during the encounter regains 2 recoveries and 1 daily power.   
 > **Special** This power can only be recovered during a long rest.  
 
-> #### Restraint  
+<h4 class="Heading-4---Encounter">Restraint</h4>
 >
 > **Encounter** **Attack** **13** (**Standard Action**) ● **Focus, Martial**  
 > **Near** burst 10, one enemy  
 > **Attack** Charisma vs Will  
 > **Hit** The target cannot make attacks until the end of your next turn.  
 
-> #### Lead the Group  
+<h4 class="Heading-4---Daily">Lead the Group</h4>
 >
 > *You stand in front as a proud example.  Where you point, others will follow.*  
 > **Daily** **Attack** **15** (**Swift Action**) ● **Martial**  
 > **Near** earshot, all allies  
 > **Effect** Until the end of the encounter, on the target’s turn, you can either shunt the target one square or the target gains a +2 bonus to all attack rolls until the end of the turn. You can also use a reaction to grant the target a basic attack.  
 
-> #### To Arms  
+<h4 class="Heading-4---Daily">To Arms</h4>
 >
 > **Daily** **Attack** **15** (**Standard Action**) ● **Martial**  
 > **Near** burst 10, three allies  
 > **Effect** Each ally may immediately choose to perform any one of the following: charge, make a basic melee or ranged attack or spend a recovery to heal their recovery value.  
 
-> #### Discipline of the Holy Host  
+<h4 class="Heading-4---Encounter">Discipline of the Holy Host</h4>
 >
 > *Through training with your allies, you have taught them the basics of your military skill that they may call upon in times of duress.*  
 > **Encounter** **Utility** **16** (**Free Action**) ● **Martial**  
@@ -2074,27 +2074,27 @@ Your words and example inspire allies to stay in the fight, and cooperate to tak
 > **Trigger** Use when you have just used a utility power with the range of Self.  
 > **Effect** The utility power you just used has a range of “Self and one ally within range of *discipline of the holy host*”  
 
-> #### Look Alive!  
+<h4 class="Heading-4---Encounter">Look Alive!</h4>
 >
 > *You grab an ally by the shoulder, help them up, and reassure them of the triviality of their wound.*  
 > **Encounter** **Utility** **16** (**Standard Action**) ● **Healing, Martial**  
 > **Melee** touch, one staggered ally  
 > **Requirements** The target can spend a recovery and heal their recovery value. If the target is prone, they can stand up.  
-> #### Hang Together  
+<h4 class="Heading-4---Daily">Hang Together</h4>
 >
 > *Your presence inspires others to act with a similar strength of personality.*  
 > **Daily** **Utility** **16** (**Move Action**) ● **Martial**  
 > **Near** burst 5, you and all allies  
 > **Effect** The target receives temporary hit points equal to twice your Charisma modifier. Until the end of your next turn, the target gains a +2 bonus to Fortitude and Will defense and a +2 bonus to all saving throws.   
 
-> #### Martyr  
+<h4 class="Heading-4---Encounter">Martyr</h4>
 >
 > **Encounter** **Attack** **17** (**Reaction Action**) ● **Martial**  
 > **Near** burst 10, one ally  
 > **Trigger** You are hit by an attack  
 > **Effect** An ally within range can make a basic melee or ranged attack or charge against the creature that made the attack. The attack has combat advantage, and adds your Wisdom modifier to attack and damage rolls.  
 
-> #### Blitzing Yell  
+<h4 class="Heading-4---Daily">Blitzing Yell</h4>
 >
 > **Daily** **Attack** **19** (**Standard Action**) ● **Focus, Martial**  
 > **Near** burst 5, all enemies  
@@ -2102,7 +2102,7 @@ Your words and example inspire allies to stay in the fight, and cooperate to tak
 > **Hit** The target is stunned (save ends).  
 > **Effect** Allies within range can spend a recovery to heal their recovery value plus your Wisdom modifier.  
 
-> #### Critical Moment  
+<h4 class="Heading-4---Daily">Critical Moment</h4>
 >
 > *One word of encouragement at the right moments can make all the difference.*  
 > **Daily** **Attack** **19** (**Reaction Action**) ● **Martial**  
@@ -2110,7 +2110,7 @@ Your words and example inspire allies to stay in the fight, and cooperate to tak
 > **Trigger** An ally hits with an attack  
 > **Effect** The triggering hit becomes a critical hit.  
 
-> #### Pull It Together  
+<h4 class="Heading-4---Encounter">Pull It Together</h4>
 >
 > *You resort to anger, encouraging support, or violence to get an ally to shrug it off.*  
 > **Encounter** **Utility** **22** (**Swift Action**) ● **Healing, Martial**  
@@ -2118,35 +2118,35 @@ Your words and example inspire allies to stay in the fight, and cooperate to tak
 > **Effect** You suppress one of the listed conditions until the start of your next turn.  
 > **Maintain Swift** The effect persists until the start of your next turn. The target must still be in range.  
 
-> #### Peal of Hope  
+<h4 class="Heading-4---Daily">Peal of Hope</h4>
 >
 > *With an awesome cry for victory and bravery from your allies, you bolster allies’ defenses and attacks for a moment as your allies cannot help themselves but to win.*  
 > **Daily** **Utility** **22** (**Swift Action**) ● **Martial**  
 > **Near** burst 5, all allies  
 > **Effect** Until the end of your next turn, any ally that misses with an encounter or daily attack power can choose to keep the power unexpended instead of its usual miss effect (if any).  
 
-> #### On Your Feet  
+<h4 class="Heading-4---Daily">On Your Feet</h4>
 >
 > *Your inspiring words reach even the fallen.*
 > **Daily** **Utility** **22** (**Swift Action**) ● **Healing, Martial**  
 > **Melee** touch, one unconscious ally  
 > **Effect** The target is no longer unconscious. If they spend a recovery, they heal hit points equal to double their recovery value; otherwise they heal hit points equal to their recovery value.   
 
-> #### Just Stop …  
+<h4 class="Heading-4---Daily">Just Stop …</h4>
 >
 > *“We need to take a moment to focus … just focus. Take a deep breath and let us deal with this threat like the team we are.”*  
 > **Daily** **Utility** **22** (**Swift Action**) ● **Martial**  
 > **Near** earshot, you and all allies  
 > **Effect** The target recovers one expended encounter power. The target may spend a recovery. If they do so, they heal their recovery value.   
 
-> #### Blessed Feast  
+<h4 class="Heading-4---Daily">Blessed Feast</h4>
 >
 > *Victory over each foe invigorate your allies like the courses at a great banquet.* 
 > **Daily** **Utility** **22** (**Swift Action**) ● **Healing, Martial, Stance**  
 > **Self**   
 > **Effect** Whenever an enemy within 10 is reduced to 0 HP or below, choose an ally within 10. That ally can spend a recovery and heal their recovery value plus your Charisma modifier.  
 
-> #### Take Me  
+<h4 class="Heading-4---Encounter">Take Me</h4>
 >
 > **Encounter** **Attack** **23** (**Standard Action**) ● **Focus, Martial**  
 > **Near** burst 10, one enemy  
@@ -2154,41 +2154,41 @@ Your words and example inspire allies to stay in the fight, and cooperate to tak
 > **Hit** The target is stunned and marked until the end of your next turn.  
 > **Miss** The target is marked until the end of your next turn.  
 
-> #### Encouraging Reaction  
+<h4 class="Heading-4---Daily">Encouraging Reaction</h4>
 >
 > *You risk everything, even personal injury, towards the success of the mission.*  
 > **Daily** **Attack** **25** (**Standard Action**) ● **Healing, Martial**  
 > **Near** earshot, you and four allies  
 > **Effect** The target can spend a recovery. They can either regain hit points or gain their recovery value as a power bonus to the damage roll on their next hit. The target can make a basic attack.  
 
-> #### Full Suite  
+<h4 class="Heading-4---Daily">Full Suite</h4>
 >
 > **Daily** **Attack** **25** (**Standard Action**) ● **Martial**  
 > **Near** burst 10, one ally  
 > **Effect** One ally regains all expended encounter powers. You regain one expended encounter power.  
 
-> #### Boost Performance  
+<h4 class="Heading-4---Encounter">Boost Performance</h4>
 >
 > *You offer your expertise to others.  Your talents are appreciated.*  
 > **Encounter** **Attack** **27** (**Move Action**) ● **Martial**  
 > **Near** earshot, four allies  
 > **Effect** The target gains a 2dW damage bonus to her next hit.  
 
-> #### Gripped with Fear  
+<h4 class="Heading-4---Encounter">Gripped with Fear</h4>
 >
 > **Encounter** **Attack** **27** (**Standard Action**) ● **Fear, Focus, Martial**  
 > **Near** burst 5, all enemies  
 > **Attack** Charisma vs Will  
 > **Hit** Shunt the target a number of squares equal to your Charisma modifier. Each ally in range selects one target. If that target passes within reach, they may make an opportunity attack against that creature during the shunt.  
 
-> #### Battle Symphony  
+<h4 class="Heading-4---Daily">Battle Symphony</h4>
 >
 > *Allies target where you want. You perform a magnum opus of combat--your concert of indomitable defense, devastating attacks, and the silence of your fallen foes.*  
 > **Daily** **Attack** **29** (**Standard Action**) ● **Martial**  
 > **Near** earshot, four allies  
 > **Effect** The target can shift a number of squares equal to 1 + your Charisma modifier. The target can make a basic attack before or after the move, dealing +2dW extra damage on a hit. If the target misses, they can make a second basic attack, dealing +1dW extra damage on a hit.  
 
-> #### Remember Me?  
+<h4 class="Heading-4---Daily">Remember Me?</h4>
 >
 > **Daily** **Attack** **29** (**Reaction Action**) ● **Martial**  
 > **Near** burst 10, one ally  
@@ -2203,7 +2203,7 @@ Your words and example inspire allies to stay in the fight, and cooperate to tak
 
 You are a highly effective fighter who takes advantage of any weakness left by your enemy.
 
-> #### Passing Kill  
+<h4 class="Heading-4---At-Will">Passing Kill</h4>
 > *A mere low-level thug blocks your path.  You don’t even give them the luxury of losing momentum.*  
 > **At-Will** **Attack** **1** (**Swift Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, one creature  
@@ -2211,7 +2211,7 @@ You are a highly effective fighter who takes advantage of any weakness left by y
 > **Hit** 1 point of damage.  
 > **Special** At 21st level, you can make two attacks.  
 
-> #### Swift Strike  
+<h4 class="Heading-4---At-Will">Swift Strike</h4>
 > *You find a split-second opening and deliver the attack, hoping to hold the enemy back.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, one creature  
@@ -2232,27 +2232,27 @@ You are a highly effective fighter who takes advantage of any weakness left by y
 > **Attack** Dexterity (ranged) or Strength (melee) vs AC  
 > **Hit** 3dW + Dexterity (ranged) or Strength (melee) modifier damage.   
 
-> #### Heron Defense  
+<h4 class="Heading-4---At-Will">Heron Defense</h4>
 > *Your enemy tries to find a weakness.  It finds none.*  
 > **At-Will** **Utility** **2** (**Move Action**) ● **Martial**  
 > **Self**   
 > **Effect** You do not grant combat advantage until the start of your next turn.  
 
-> #### Counter-Surge  
+<h4 class="Heading-4---Daily">Counter-Surge</h4>
 > *An opponent strikes you with an attack.  You take the impact and channel it into strength.*  
 > **Daily** **Utility** **2** (**Reaction Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You take damage from a melee or ranged attack.  
 > **Effect** You gain temporary hit points equal to the damage dealt (to a maximum of your recovery value).  
 
-> #### Faster Than The Hammer  
+<h4 class="Heading-4---Encounter">Faster Than The Hammer</h4>
 > *You hear your enemy’s muscles twitch.*  
 > **Encounter** **Attack** **3** (**Counter Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, the triggering creature  
 > **Trigger** A creature makes an  attack against you.  
 > **Effect** Make a basic attack against the target.  The target suffers a -4 penalty to the triggering attack roll.  
 
-> #### All or Nothing  
+<h4 class="Heading-4---Daily">All or Nothing</h4>
 > *You strike so fast, both attacks are literally too close to distinguish them.*  
 > **Daily** **Attack** **5** (**Free Action**) ● **Martial**  
 > **Self**   
@@ -2260,13 +2260,13 @@ You are a highly effective fighter who takes advantage of any weakness left by y
 > **Effect** The target takes 2dW extra damage from the triggering attack and is knocked prone.  
 > **Boost Level 15** The target takes 3dW extra damage from the triggering attack and is knocked prone.  
 
-> #### Flow or Crash  
+<h4 class="Heading-4---Encounter">Flow or Crash</h4>
 > *Become what you need to survive. Adapt, flow, slide, and prove yourself.*  
 > **Encounter** **Utility** **6** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Effect** You gain a move action.  
 
-> #### False Strike  
+<h4 class="Heading-4---Encounter">False Strike</h4>
 > *Your first strike was intentionally lackluster to trick your opponent into a mistake. You counter and strike hard before they realize their folly.*  
 > **Encounter** **Attack** **7** (**Standard Action**) ● **Martial**  
 > **Melee** weapon, one creature  
@@ -2274,26 +2274,26 @@ You are a highly effective fighter who takes advantage of any weakness left by y
 > **Hit** 3dW + Strength modifier damage.  
 > **Miss** Shift to any square adjacent to the target and repeat the attack.  Don’t repeat if you miss with the second attack.  
 
-> #### Idle Hands  
+<h4 class="Heading-4---Daily">Idle Hands</h4>
 > *Your limbs seemingly act on their own as your concentrate on other matters.*  
 > **Daily** **Utility** **10** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Effect** You gain an additional standard action on your next turn.  
 
-> #### Reflex Shot  
+<h4 class="Heading-4---Encounter">Reflex Shot</h4>
 > *Your training creates an instinctual reaction if an ally is at risk of being struck down.*  
 > **Encounter** **Attack** **13** (**Counter Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, the triggering creature  
 > **Trigger** A creature’s attack does damage to an ally that would cause the ally to become staggered.  
 > **Effect** Make a basic attack against the target. If the attack hits, the triggering creature’s attack misses.  
 
-> #### Swell of Discipline  
+<h4 class="Heading-4---Daily">Swell of Discipline</h4>
 > *Your body moves faster than others can blink and without warning, you have either vanished or your enemies around have fallen at your feet.*  
 > **Daily** **Utility** **16** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Effect** Until the end of your turn, all powers you use have their actions reduced from standard to move, or move to swift.  
 
-> #### Nerve Cluster  
+<h4 class="Heading-4---Encounter">Nerve Cluster</h4>
 > *Your attack temporarily paralyzes your opponent.*  
 > **Encounter** **Attack** **17** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature marked by you  
@@ -2303,28 +2303,28 @@ You are a highly effective fighter who takes advantage of any weakness left by y
 > **Maintain Standard** Repeat the attack against the same target. You cannot maintain if you miss.  
 > **Boost Level 27** 2dW + Strength modifier damage, and the target is dazed, weakened, and is rattled until the end of your next turn.
 
-> #### An Unwise Action  
+<h4 class="Heading-4---Daily">An Unwise Action</h4>
 > *Enemies train their weapons.  You advise your opponents of the wisdom of such a risk, and then show them why.*  
 > **Daily** **Attack** **19** (**Move Action**) ● **Martial, Weapon**  
 > **Near** burst 1, all enemies you can see  
 > **Effect** The target drops any weapons it is holding, and you make a basic attack against it.  
 > **Special** You can choose to grab any weapon a target drops and use it for subsequent basic attack/s. You can drop a weapon you pick up as part of this power as a free action.  
 
-> #### Strike and Slip Away  
+<h4 class="Heading-4---Encounter">Strike and Slip Away</h4>
 > *After your attack, you move into your target's blind spot.*  
 > **Encounter** **Attack** **23** (**Free Action**) ● **Martial, Weapon**  
 > **Self**   
 > **Trigger** You hit an enemy.  
 > **Effect** The target takes 2dW extra damage from the triggering attack, and it cannot attack you until the start of your next turn unless that attack includes at least one other creature.  
 
-> #### Attack Deflection  
+<h4 class="Heading-4---Daily">Attack Deflection</h4>
 > *You maneuver in such a way to direct the attack to an enemy nearby.*  
 > **Daily** **Attack** **25** (**Counter Action**) ● **Martial, Weapon**  
 > **Near** burst 1, one creature  
 > **Trigger** You are hit by an attack.  
 > **Effect** The attack hits the target instead of you. If the target is not in range or in line of sight of the attack, shunt the target to the nearest square to place it in range and in line of sight. Then shift your speed and make a basic attack.  
 
-> #### Delayed Death Touch  
+<h4 class="Heading-4---Daily">Delayed Death Touch</h4>
 > *With a twist in the right position, your attack carries a powerful energy that shatters your opponent’s bones and ruptures their organs.*  
 > **Daily** **Attack** **29** (**Free Action**) ● **Martial**  
 > **Self**   
@@ -2505,13 +2505,13 @@ If you do gain momentum from a power, the same rule for losing momentum applies 
 
 You are a master of agile, fast and unconventional movement. 
 
-> #### Brilliant Display  
+<h4 class="Heading-4---At-Will">Brilliant Display</h4>
 > *You prepare for an amazing feat of athleticism.*  
 > **At-Will** **Utility** **2** (**Standard Action**) ● **Martial**  
 > **Self**   
 > **Effect** Gain a +2 power bonus to your next Acrobatics or Athletics check.  
 
-> #### Kinesics  
+<h4 class="Heading-4---At-Will">Kinesics</h4>
 > *You study an enemy’s movements and countermove to best avoid them.*  
 > **At-Will** **Utility** **2** (**Move Action**) ● **Focus, Martial**  
 > **Near** burst 10, one creature you can see  
@@ -2519,20 +2519,20 @@ You are a master of agile, fast and unconventional movement.
 > **Hit** Until the end of your next turn, you can pass through the target’s square, and the target cannot make opportunity attacks against you. If you end your movement 3 or more squares from your starting point, you gain a +2 power bonus to AC and Reflex defense against the target.  
 > **Effect** Move up to your speed -2.  
 
-> #### Flip Dodge  
+<h4 class="Heading-4---Encounter">Flip Dodge</h4>
 > *You throw your legs and toss yourself in the air, avoiding an enemy’s attack.  The level of flamboyance is up to you.*  
 > **Encounter** **Utility** **2** (**Counter Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You are hit by an attack.  
 > **Effect** You gain a +2 power bonus to AC and Reflex defense against the attack. If this causes the attack to miss, shift 1 square. If it still hits, you recover the use of this power.  
 
-> #### Head Down  
+<h4 class="Heading-4---Encounter">Head Down</h4>
 > *You keep your profile low and move defensively.*  
 > **Encounter** **Utility** **2** (**Move Action**) ● **Martial**  
 > **Self**   
 > **Effect** Shift your speed.  You gain a +4 power bonus to AC and Reflex defense until the start of your next turn.  
 
-> #### Slippery Bastard  
+<h4 class="Heading-4---Encounter">Slippery Bastard</h4>
 > *You employ all the tools your body gave you in order to evade enemy attacks.*  
 > **Encounter** **Utility** **2** (**Move Action**) ● **Martial, Consistent**  
 > **Near** burst 10, two creatures you can see  
@@ -2540,87 +2540,87 @@ You are a master of agile, fast and unconventional movement.
 > **Hit** The target cannot attack you until the start of your next turn.  You can pass through the target’s square.  
 > **Effect** Shift your speed and ignore difficult terrain.  
 
-> #### Single Bound  
+<h4 class="Heading-4---Daily">Single Bound</h4>
 > *You clear the heads of your opponents in a single jump, getting their attention, but not their attacks.*  
 > **Daily** **Utility** **2** (**Move Action**) ● **Martial**  
 > **Self**   
 > **Effect** Shift a number of squares equal to your Dexterity modifier. You can pass through enemy occupied squares.
 All enemies in squares you pass through and adjacent to squares you pass through cannot attack you until the start of your next turn unless the attack targets at least one other creature.  
 
-> #### Only Way Out Is Through  
+<h4 class="Heading-4---Encounter">Only Way Out Is Through</h4>
 > *The only way to escape is through the enemy line.  You analyze the position of every opponent and plan a dash to avoid them.*  
 > **Encounter** **Utility** **6** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Effect** Until the end of this turn, all your movement is considered a shift.  You can pass through enemy occupied squares.  
 
-> #### Step Aside  
+<h4 class="Heading-4---Encounter">Step Aside</h4>
 > *You don’t freak out.  As the creature lunges forwards, you take an almost casual sidestep.*  
 > **Encounter** **Utility** **6** (**Counter Action**) ● **Martial**  
 > **Near** burst 1, the triggering creature  
 > **Trigger** A creature enters an adjacent square as part of an attack against you.  
 > **Effect** Shift a number of squares equal to 1+ your Dexterity modifier and the target grants you combat advantage until the end of your next turn.  
 
-> #### Somatic Reflex Arc  
+<h4 class="Heading-4---Daily">Somatic Reflex Arc</h4>
 > *Weeks practicing in front of a mirror have finally paid off.*  
 > **Daily** **Utility** **6** (**Free Action**) ● **Martial, Weapon**  
 > **Self**   
 > **Trigger** You start your first turn of the encounter.  
 > **Effect** You gain a +2 power bonus to attack rolls and a +4 power bonus to damage rolls until the end of your first turn or until you hit, whichever comes last.  
 > 
-> #### Unachievable Transition  
+<h4 class="Heading-4---Daily">Unachievable Transition</h4>
 > *Onlookers haven’t a clue how you got from here to there. It was almost as if you walked on air or phased through matter.*  
 > **Daily** **Utility** **6** (**Swift Action**) ● **Martial, Teleportation**  
 > **Near** burst 10, one creature you can see  
 > **Effect** Until the end of your next turn, the target can only hit you with a natural 20. You teleport up to 8 squares. You must have line of sight and line of effect to the destination square.  
 
-> #### Mad Dash  
+<h4 class="Heading-4---Encounter">Mad Dash</h4>
 > *Papers fly off shelves and bystanders are blown down as you race past them all.*  
 > **Encounter** **Utility** **10** (**Swift Action**) ● **Martial**  
 > **Self**   
 > **Effect** Double your speed until the end of your next turn.  
 
-> #### Abnormally Fast  
+<h4 class="Heading-4---Daily">Abnormally Fast</h4>
 > *You know there’s danger and jump into action.*  
 > **Daily** **Utility** **10** (**No Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You roll initiative.  
 > **Effect** Gain a standard action or two move actions and take them immediately.  
 
-> #### Instant Recovery  
+<h4 class="Heading-4---Daily">Instant Recovery</h4>
 > *You stumble but your instincts take over and you recover to prevent something catastrophic.*  
 > **Daily** **Utility** **10** (**No Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You make an Athletics or Acrobatics check and dislike the result.  
 > **Effect** Either add +20 to the roll or gain a move action.  
 
-> #### Focus Everything  
+<h4 class="Heading-4---At-Will">Focus Everything</h4>
 > *Eyes on the target.  Think of nothing else.*  
 > **At-Will** **Utility** **16** (**Move Action**) ● **Martial**  
 > **Self**   
 > **Effect** Gain a +3 power bonus to your next Acrobatics or Athletics check.  
 
-> #### Loose Joints  
+<h4 class="Heading-4---Daily">Loose Joints</h4>
 > *You wriggle your way free and do so without knives, broken bones, or untying any knots.*  
 > **Daily** **Utility** **16** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Effect** Gain a +10 power bonus to escape from restraints or grapple. If escaping a grapple, you cannot be grappled by the same creature until after the end of your next turn.  
 > **Special** If you don’t escape, you recover the use of this power, though it cannot be used again this round.  
 
-> #### Where They Don’t Expect You  
+<h4 class="Heading-4---Daily">Where They Don’t Expect You</h4>
 > *You feint and slip under your opponent’s arm to position yourself behind them.*  
 > **Daily** **Utility** **16** (**Counter Action**) ● **Martial**  
 > **Near** burst 5, the triggering enemy  
 > **Trigger** One enemy in range hits you with a melee or ranged attack.  
 > **Effect** Take no damage. Shift to any unoccupied square within 2 squares of the target. The target grants you combat advantage until the end of your next turn.  
 
-> #### I Can Hear Bells Ringing  
+<h4 class="Heading-4---Encounter">I Can Hear Bells Ringing</h4>
 > *A blast occurs nearby.  You narrowly escape its effects.*  
 > **Encounter** **Utility** **22** (**Counter Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You are targeted by an area effect.  
 > **Effect** Shift to the nearest unoccupied square outside the area. Gain a +5 power bonus to AC and Reflex defense until the end of your next turn.  
 
-> #### Moment of Truth  
+<h4 class="Heading-4---Daily">Moment of Truth</h4>
 > *You slide like water with the speed of a cheetah, effortlessly avoiding any attack, never losing an inch of momentum in your run.*  
 > **Daily** **Utility** **22** (**Free Action**) ● **Martial**  
 > **Self**   
@@ -3170,7 +3170,7 @@ At the end of your turn, if the marilith has not received a command that turn, i
 
 You’re able to modify your body in ways not reflective of any animal. This includes the manipulation of your bone structure, your muscles, even altering your size and the position of your limbs.  
 
-> #### Brief Mimicry  
+<h4 class="Heading-4---At-Will">Brief Mimicry</h4>
 > *You change your shape to look like another, throwing off those who see you.*  
 > **At-Will** **Attack** **1** (**Move Action**) ● **Arcane, Focus, Transmutation**  
 > **Near** burst 5, one enemy    
@@ -3178,67 +3178,67 @@ You’re able to modify your body in ways not reflective of any animal. This inc
 > **Hit** Until the end of your next turn, the target must make a saving throw each time they target you with an attack. If the save fails, they must target the attack so it does not affect you, or the attack fails.
 > **Effect** Until the end of your next turn, you take the form of a particular creature that is an ally of the target.  
 
-> #### Clay  
+<h4 class="Heading-4---At-Will">Clay</h4>
 > *It’s like you’re made out of plastic, rubber, or some other kind of other flexible material.*  
 > **At-Will** **Utility** **2** (**Move Action**) ● **Arcane, Transmutation**  
 > **Self**   
 > **Effect** Your reach increases by 1 until the start of your next turn.  
 
-> #### Squeeeeze  
+<h4 class="Heading-4---At-Will">Squeeeeze</h4>
 > *Your muscles can extend; your bones can slip from their sockets. You find yourself moving through places even a rodent would find difficult.*  
 > **At-Will** **Utility** **2** (**Move Action**) ● **Arcane, Transmutation**  
 > **Self**   
 > **Effect** Until the start of your next turn, you can squeeze without a reduction in speed. You suffer no penalties to attack, and do not grant combat advantage while squeezing. You are treated as a Small creature for purposes of squeezing into Tiny spaces.  
 
-> #### Bone Blade  
+<h4 class="Heading-4---Encounter">Bone Blade</h4>
 > *From beneath your skin, you extend a sharpened piece of bone which you can immediately employ as a weapon.*  
 > **Encounter** **Utility** **2** (**Standard Action**) ● **Arcane, Transmutation, Focus**  
 > **Self**   
 > **Effect** You create a weapon of your choice. It can remain attached to your body or be detached so it can be thrown. The weapon is an enchanted weapon of the same bonus as the focus used for this power (if any).  
 
-> #### Behemoth  
+<h4 class="Heading-4---Daily">Behemoth</h4>
 > *You are able to change your basic biological makeup to make yourself extremely resistant to damage.*  
 > **Daily** **Utility** **2** (**Standard Action**) ● **Arcane, Transmutation**  
 > **Self**   
 > **Effect** Add double your Constitution modifier to your level. You gain that number of temporary hit points. Until you lose all these temporary hit points, your weight is doubled and you reduce any unwilling movement you are subject to by 1 square.   
 
-> #### Bone Shield  
+<h4 class="Heading-4---Daily">Bone Shield</h4>
 > *You expand one of your arm’s bones to emerge as a shield to defend against attack. It doesn’t look pretty. It only has to work.*  
 > **Daily** **Utility** **2** (**Standard Action**) ● **Arcane, Transmutation, Focus**  
 > **Self**   
 > **Effect** You create a light or heavy shield attached to your arm. You can dismiss the shield as a swift action. The shield is an enchanted shield of the same bonus as the focus used for this power (if any).  
 
-> #### Theriophily  
+<h4 class="Heading-4---Daily">Theriophily</h4>
 > *You are no monster, and unlike others like you, fitting in has never been a real issue, especially when you can look like anyone.*  
 > **Daily** **Utility** **2** (**Swift Action**) ● **Arcane, Transmutation, Stance**  
 > **Self**   
 > **Effect** You can alter your physical form to take on the appearance of another humanoid creature of your size, including unique individuals. You retain your statistics in your new form, and your clothing, armor, and possessions do not change. Other creatures can attempt an Insight check (opposed by your Bluff check) to pierce the disguise. You must have seen the individual being imitated (as well as hear the individual if you wish to simulate the voice as well).  
 
-> #### Perfect Harmony  
+<h4 class="Heading-4---Encounter">Perfect Harmony</h4>
 > *There is an old saying about making your weapon part of you. In this case, that’s easy.*  
 > **Encounter** **Attack** **3** (**Swift Action**) ● **Arcane, Transmutation**  
 > **Self**   
 > **Effect** Your next melee or ranged attack roll with any weapon you create with a Transmutation power automatically hits (but cannot inflict critical hits).  
 
-> #### Metalform  
+<h4 class="Heading-4---Encounter">Metalform</h4>
 > *You crystallize your skin to be resistant to any damage.*  
 > **Encounter** **Utility** **6** (**Move Action**) ● **Arcane, Transmutation, Stance**  
 > **Self**   
 > **Effect** You gain resistance 5 to all damage.  
 
-> #### Enlarge  
+<h4 class="Heading-4---Daily">Enlarge</h4>
 > *You increase in  size.*  
 > **Daily** **Utility** **10** (**Swift Action**) ● **Arcane, Transmutation, Stance**  
 > **Self**   
 > **Effect** You become a Large creature until you leave this stance. You get a +2 bonus on attack rolls.  
 
-> #### Instinctive Shift  
+<h4 class="Heading-4---Daily">Instinctive Shift</h4>
 > *You change form without conscious thought.*  
 > **Daily** **Utility** **10** (**Counter Action**) ● **Arcane, Transmutation**  
 > **Self**   
 > **Effect** You can use a power with the Transmutation tag that normally takes a swift, move or standard action. This still counts as a use of the power for those that are limited in how often they can be used.  
 
-> #### Reduce 
+<h4 class="Heading-4---Daily">Reduce</h4>
 > *You shrink in size.*  
 > **Daily** **Utility** **10** (**Swift Action**) ● **Arcane, Transmutation, Stance**  
 > **Self**   
@@ -3257,7 +3257,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 
 <figure><img src="pics\JoyceMaureira_SORCLIST3.png" alt="Sorcerer by Joyce Maureira" style="zoom: 100%;" /><figcaption>Sorcerer by Joyce Maureira</figcaption></figure>
 
-> #### Energy Jolt  
+<h4 class="Heading-4---At-Will">Energy Jolt</h4>
 > *You fill the opponent with harmful elemental energy, dealing damage and causing them to suffer debilitating effects.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Near** burst 3, one target  
@@ -3270,14 +3270,14 @@ When a power refers to [flux], it always means your current flux energy, even if
 ● Thunder: Is pushed 2.  
 > *Level 21:* 2dW + Intelligence modifier [flux] damage, and the additional effect.
 
-> #### Spark Strike  
+<h4 class="Heading-4---Encounter">Spark Strike</h4>
 > *By letting the power of the elements flow through you and into your attack, you’re able to strike true with raw primal energies at your unlucky foe.*  
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Melee or Ranged** weapon, one target  
 > **Attack** Intelligence vs AC  
 > **Hit** 2dW + Intelligence modifier [flux] damage.  
 
-> #### Variable Flux  
+<h4 class="Heading-4---Daily">Variable Flux</h4>
 > *Filling your weapon with the power of the elements, you lash out with barely-contained eldritch power.*  
 > **Daily** **Attack** **1** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Melee or Ranged** weapon, one target  
@@ -3290,14 +3290,14 @@ When a power refers to [flux], it always means your current flux energy, even if
 ● Thunder: Dazed.  
 > **Miss** Half damage, and no additional effect.  
 
-> #### Eldritch Shield  
+<h4 class="Heading-4---Encounter">Eldritch Shield</h4>
 > *By drawing upon the elements, you are capable of defending against energy effects.*  
 > **Encounter** **Utility** **2** (**Counter Action**) ● **Arcane, Flux**  
 > **Self**   
 > **Trigger** You are about to take damage.  
 > **Effect** You gain resistance to [flux] 5 + your Constitution modifier, for that attack.  
 
-> #### Fluctuation Movement  
+<h4 class="Heading-4---Encounter">Fluctuation Movement</h4>
 > *Coating your feet in the power of the elements, you alter your movement to grant you a burst of speed and maneuverability.*  
 > **Encounter** **Utility** **2** (**Swift Action**) ● **Arcane, Stance, Flux**  
 > **Self**   
@@ -3308,19 +3308,19 @@ When a power refers to [flux], it always means your current flux energy, even if
 ● Lightning: Make a jump as a free action, with a +10 bonus to Athletics.
 ● Thunder: Until the end of your next turn, whenever you are subject to unwilling movement you can shift 1 at the end of the move.  
 
-> #### Arcane Shield  
+<h4 class="Heading-4---Daily">Arcane Shield</h4>
 > *You rely on your unique insight into eldritch powers to create a shield of energy that protects you from an attack.*  
 > **Daily** **Utility** **2** (**Counter Action**) ● **Arcane**  
 > **Trigger** You are hit by an attack.  
 > **Effect** Attacker rerolls their attack.  
 
-> #### Degrade Resistance  
+<h4 class="Heading-4---Daily">Degrade Resistance</h4>
 > *As a disciple of the Elemental Flux, you understand how to use elements to assault those normally resistant to them.*  
 > **Daily** **Utility** **2** (**Swift Action**) ● **Arcane**  
 > **Effect** Until the end of your next turn, your attacks ignore the first 5 points of energy resistance.  
 > **Maintain Swift** The effect persists until the end of your next turn.  
 
-> #### Elemental Nimbus  
+<h4 class="Heading-4---Daily">Elemental Nimbus</h4>
 > *Channeling the strength of the elements lends your attacks strength and fury.*  
 > **Daily** **Utility** **2** (**Swift Action**) ● **Arcane, Flux**  
 > **Self**   
@@ -3332,14 +3332,14 @@ When a power refers to [flux], it always means your current flux energy, even if
 > **Self**   
 > **Effect** Change your Flux energy. You gain resistance to [flux] 5 + your Constitution modifier until the end of the encounter.  
 
-> #### Eldritch Fang  
+<h4 class="Heading-4---Encounter">Eldritch Fang</h4>
 > *You fill your strike with eldritch energy that overwhelms the senses of your target.*  
 > **Encounter** **Attack** **3** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Melee or Ranged** weapon, one target  
 > **Attack** Intelligence vs Fortitude  
 > **Hit** 1dW + Intelligence modifier [flux] damage and the target is dazed until the end of your next turn.  
 
-> #### Elemental Strike  
+<h4 class="Heading-4---Daily">Elemental Strike</h4>
 > *You channel the fluctuating power of the elements to land an empowered blow.*  
 > **Daily** **Attack** **5** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Melee or Ranged** weapon, one target  
@@ -3352,14 +3352,14 @@ When a power refers to [flux], it always means your current flux energy, even if
 ● Lightning: Dazed (end of your next turn).  
 > **Miss** Half damage, and no additional effect.  
 
-> #### Energy Spark  
+<h4 class="Heading-4---Daily">Energy Spark</h4>
 > *You fill the air with elemental energy, which explodes as you strike your target.*  
 > **Daily** **Attack** **5** (**Standard Action**) ● **Arcane, Flux, Focus**  
 > **Ranged** 10  
 > **Attack** Intelligence vs Reflex  
 > **Hit** 4d10 + Intelligence modifier [flux] damage  
 
-> #### Elemental Flux Stance  
+<h4 class="Heading-4---Daily">Elemental Flux Stance</h4>
 > *Filling both your body and soul with the power of the elements, you open yourself up to new powers.*  
 > **Daily** **Utility** **6** (**Swift Action**) ● **Arcane, Flux, Stance**  
 > **Near** burst 3, all allies  
@@ -3370,7 +3370,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 ● Lightning: +2 bonus to speed.
 ● Thunder: One hit on an attack per turn pushes 1.  
 
-> #### Lance of Power  
+<h4 class="Heading-4---Encounter">Lance of Power</h4>
 > *With a swing of your blade, you release a rippling line of elemental energy.*  
 > **Encounter** **Attack** **7** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Near** arc 3, all creatures  
@@ -3382,7 +3382,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 ● Lightning: Targets must save or drop what they are holding.
 ● Thunder: Targets are deafened until the end of your next turn.  
 
-> #### Raging Flux  
+<h4 class="Heading-4---Daily">Raging Flux</h4>
 > *You know how to strike with such eldritch force that it drives your foes backwards.*  
 > **Daily** **Attack** **9** (**Standard Action**) ● **Arcane, Flux, Weapon, Zone**  
 > **Far** burst 3 within range 10, all creatures  
@@ -3390,21 +3390,21 @@ When a power refers to [flux], it always means your current flux energy, even if
 > **Hit** 3dW + Intelligence modifier [flux] damage.  
 > **Effect** Creates a zone in the area of effect, until the end of the encounter. Creatures that enter the zone take 1d6 + Intelligence modifier [flux] damage. At the beginning of each of your turns, creatures in the zone take 1d6 + your Intelligence modifier [flux] damage. While the zone persists, you can change your flux energy once each time a creature is damaged by your *raging flux*.  
 
-> #### Assay Resistance  
+<h4 class="Heading-4---Encounter">Assay Resistance</h4>
 > *By directly targeting the elemental essence that suffuses all creatures, you overcome an opponent’s defenses with a powerful attack.*  
 > **Encounter** **Utility** **10** (**Swift Action**) ● **Arcane, Flux**  
 > **Near** burst 5, one creature  
 > **Effect** You learn the target’s resistances, immunities and vulnerabilities. Until the end of your next turn, the target gains vulnerability to [flux] 5 + your Constitution modifier.  
 > **Boost** **Level 22** Targets all creatures in area of effect; the target gains vulnerability to [flux] 10 + your Constitution modifier.  
 
-> #### Arcane Torrent  
+<h4 class="Heading-4---Encounter">Arcane Torrent</h4>
 > *You unleash a sudden burst of eldritch energy that surges towards a distant foe.*  
 > **Encounter** **Attack** **13** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Near** arc 3, all creatures  
 > **Attack** Intelligence vs Fortitude  
 > **Hit** 2dW + Intelligence modifier [flux] damage and push 3.  
 
-> #### Energy Hammer  
+<h4 class="Heading-4---Daily">Energy Hammer</h4>
 > *As you advance your training, you learn to unleash ever more powerful bursts of energy.*  
 > **Daily** **Attack** **15** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Near** arc 3, all creatures  
@@ -3417,7 +3417,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 ● Thunder: Target is deafened and dazed (save ends both).  
 > **Miss** Half damage, and no additional effect.  
 
-> #### Eldritch Consumption  
+<h4 class="Heading-4---Encounter">Eldritch Consumption</h4>
 > *You have such an intimate understanding of the underlying nature of magic that you can capture its essence and feast on it to rejuvenate yourself.*  
 > **Encounter** **Utility** **16** (**Counter Action**) ● **Arcane, Flux**  
 > **Self**   
@@ -3430,34 +3430,34 @@ When a power refers to [flux], it always means your current flux energy, even if
 > **Attack** Intelligence vs AC  
 > **Hit** 3dW + Intelligence modifier [flux] damage.  
 
-> #### Elemental Drive  
+<h4 class="Heading-4---Daily">Elemental Drive</h4>
 > *You charge your weapon with kinetic and elemental energy, driving them back with a wave of elemental power.*  
 > **Daily** **Attack** **19** (**Free Action**) ● **Arcane, Flux, Weapon**  
 > **Self**   
 > **Trigger** You make an attack after a charge.  
 > **Effect** Whether or not you hit, you do an additional 3dW + Intelligence modifier [flux] damage and push them squares equal to your Constitution modifier.  
 
-> #### Redirecting Flux  
+<h4 class="Heading-4---Encounter">Redirecting Flux</h4>
 > *You can read and alter the flow of magical energy.*  
 > **Encounter** **Utility** **22** (**Counter Action**) ● **Arcane, Flux**  
 > **Near** burst 10, one power  
 > **Trigger** A creature uses a near or far power that targets you and/or an ally.  
 > **Effect** Choose a creature within the area of effect. That creature is no longer a target of the attack. Choose an enemy within near burst 10 that is not already a target of the attack. That creature becomes a target of the attack, even if they are not within the area of effect. 
 
-> #### Elemental Absorption  
+<h4 class="Heading-4---Daily">Elemental Absorption</h4>
 > *You learn to suffuse your being with an element to such a degree that its presence heals you instead of harming you.*  
 > **Daily** **Utility** **22** (**Counter Action**) ● **Arcane, Flux**  
 > **Self**   
 > **Trigger** You are about to take energy damage.  
 > **Effect** Set your flux energy to the energy of your choice. Until the end of the encounter, you are immune to [flux] damage, and heal your level + your Constitution modifier each time you are subject to [flux] damage.  
 
-> #### Nexus of Elemental Retribution  
+<h4 class="Heading-4---Daily">Nexus of Elemental Retribution</h4>
 > *You can absorb and redirect the flow of elemental power, syphoning away energies that would harm you and making them your own.*  
 > **Daily** **Utility** **22** (**Swift Action**) ● **Arcane, Flux, Stance**  
 > **Self**   
 > **Hit** You gain resistance 15 to acid, cold, fire, lightning and thunder. Each time you are the target of an attack that does acid, cold, fire, lightning or thunder damage, you can make a basic melee or ranged attack that does additional [flux] damage equal to your Constitution modifier.  
 
-> #### Enter the Vortex  
+<h4 class="Heading-4---Encounter">Enter the Vortex</h4>
 > *Riding on the currents of elemental energy, you gain the benefit of a new form of movement.*  
 > **Encounter** **Attack** **23** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Melee or Ranged** weapon, one target  
@@ -3470,14 +3470,14 @@ When a power refers to [flux], it always means your current flux energy, even if
 ● Lightning: You can teleport 4 as a move action. 
 ● Thunder: You get a fly speed of 8.  
 
-> #### Cascade of Elemental Wrath  
+<h4 class="Heading-4---Daily">Cascade of Elemental Wrath</h4>
 > *Each slash of your blade releases more and more eldritch power, overwhelming your enemies with the power of your strikes.*  
 > **Daily** **Attack** **25** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Melee or Ranged** weapon, one to three targets  
 > **Attack** Intelligence vs AC  
 > **Hit** Three attacks. 2dW + Intelligence modifier damage. You can change your flux energy before each attack.  
 
-> #### Elemental Vortex  
+<h4 class="Heading-4---Daily">Elemental Vortex</h4>
 > *A whirling vortex of elemental energy engulfs your foe just as your blade lands.*  
 > **Daily** **Attack** **25** (**Standard Action**) ● **Arcane, Conjuration, Flux, Weapon**  
 > **Near** burst 1, all creatures  
@@ -3485,7 +3485,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 > **Hit** 3dW + Intelligence modifier [flux] damage.  
 > **Effect** You conjure a Medium flux vortex in an adjacent square, which lasts till the end of the encounter. Once per turn, you can shunt the vortex up to 6 squares as a swift action. At the end of each of your turns, including the turn in which the vortex was created, enemies adjacent to the vortex demon take 3d10 [flux] damage.
 
-> #### Zephyr Flux  
+<h4 class="Heading-4---Daily">Zephyr Flux</h4>
 > *You may transmute your entire being into elemental energy and travel in the blink of an eye across the battlefield, leaving a wake of devastation behind you.*  
 > **Daily** **Attack** **25** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Melee or Ranged** weapon, multiple targets  
@@ -3493,7 +3493,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 > **Hit** 3dW + Intelligence modifier [flux] damage.  
 > **Special** When you use this power, shift up to your speed. Make the attack against each enemy you are adjacent to at some point during your shift.  
 
-> #### Eldritch Energy Hammer  
+<h4 class="Heading-4---Encounter">Eldritch Energy Hammer</h4>
 > *You know how to destroy the bonds that hold magic together just as easily as you can forge them.*  
 > **Encounter** **Attack** **27** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Melee or Ranged** weapon, one zone, summon or conjuration in range  
@@ -3501,7 +3501,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 > **Hit** The conjuration or zone is destroyed, or the summon takes 5dW + Intelligence modifier [flux] damage. Enemies within the zone, or enemies within Near burst 3 of the summon (if destroyed) or conjuration are subject to a secondary attack.
 *Secondary Attack:* Intelligence vs Will; 3dW + Intelligence modifier [flux] damage.  
 
-> #### Elemental Destruction Ring  
+<h4 class="Heading-4---Daily">Elemental Destruction Ring</h4>
 > *You whip the elements around you into a fury, then unleash the energy at all the foes who surround you.*  
 > **Daily** **Attack** **29** (**Standard Action**) ● **Arcane, Flux, Zone, Weapon**  
 > **Near** burst 3, all enemies  
@@ -3515,7 +3515,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 ● Fire: The target is dazed until the end of your next turn.  
 > **Maintain Swift** The aura persists until the end of your next turn.  
 
-> #### Strike of Elemental Devastation  
+<h4 class="Heading-4---Daily">Strike of Elemental Devastation</h4>
 > *You crush your opponents under a fierce magical assault.*  
 > **Daily** **Attack** **29** (**Standard Action**) ● **Arcane, Flux, Weapon**  
 > **Melee or Ranged** weapon, one target  
@@ -3530,7 +3530,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 
 You are a knock-down, drag-out battler, happy to mix haymakers with weapon blows.  
 
-> #### Rope-A-Dope  
+<h4 class="Heading-4---At-Will">Rope-A-Dope</h4>
 > *You confuse your enemy with one hand but strike fast with the other. You weave around your opponent in the confusion.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
@@ -3539,7 +3539,7 @@ You are a knock-down, drag-out battler, happy to mix haymakers with weapon blows
 *Level 21:* 2dW + Strength modifier.  
 > **Effect** Shift to any square adjacent to the target.  You either push the target 1 square or shunt it into the square you just occupied.  
 
-> #### Unbalancing Strike  
+<h4 class="Heading-4---At-Will">Unbalancing Strike</h4>
 > *A quick jab is better than a heavier thrust which can throw you off balance.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
@@ -3547,14 +3547,14 @@ You are a knock-down, drag-out battler, happy to mix haymakers with weapon blows
 > **Hit** 1dW damage, and you gain combat advantage against the target until the end of your next turn.
 *Level 21:* 2dW.  
 
-> #### Full Sweep  
+<h4 class="Heading-4---Encounter">Full Sweep</h4>
 > *You spin around, attacking all targets around you.*  
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Near** burst 1, all enemies you can see  
 > **Attack** Strength vs AC  
 > **Hit** 1dW + Strength modifier damage, and the target is knocked prone and dazed until the start of your next turn.  
 
-> #### Sudden Leap  
+<h4 class="Heading-4---Encounter">Sudden Leap</h4>
 > *You vault in the air and deliver a crippling blow from up high.*  
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Near** burst 4 (minimum 3), one creature  
@@ -3563,7 +3563,7 @@ You are a knock-down, drag-out battler, happy to mix haymakers with weapon blows
 If the target cannot be pushed, the target is knocked prone and you shift into the occupied square.  
 > **Miss** You shift to a square adjacent to the target.  
 
-> #### Best Defense is Good Offense  
+<h4 class="Heading-4---Daily">Best Defense is Good Offense</h4>
 >
 > *You strike when the enemy least suspects it, through an assumed impenetrable defense.*  
 > **Daily** **Attack** **1** (**Counter Action**) ● **Martial, Weapon**  
@@ -3574,7 +3574,7 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Miss** Half damage.  
 > **Effect** You gain a +3 power bonus to AC until the end of your next turn.  
 
-> #### Insult to Injury  
+<h4 class="Heading-4---Daily">Insult to Injury</h4>
 > *A noble warrior doesn’t kick someone when they’re down. You’re not that noble.*  
 > **Daily** **Attack** **1** (**Special Action**) ● **Martial, Weapon**  
 > **Melee** weapon, the triggering enemy  
@@ -3584,28 +3584,28 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Miss** Half damage, and the target is not pushed.  
 > **Special** You can use this power as a swift action or a reaction.  
 
-> #### Redirection of Energy  
+<h4 class="Heading-4---Encounter">Redirection of Energy</h4>
 > *You utilize the direction of your enemy’s attack injury into a counter-maneuver.*  
 > **Encounter** **Utility** **2** (**Counter Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You are hit by a melee or ranged attack by an adjacent enemy.  
 > **Effect** You gain a +4 power bonus to AC and Reflex defense against the attack. Shift to any other square adjacent to the target and gain combat advantage against the target until the end of your next turn.  
 
-> #### Roll With It  
+<h4 class="Heading-4---Encounter">Roll With It</h4>
 > *You take an injury and fall back, hoping to diminish the severity of the impact.*  
 > **Encounter** **Utility** **2** (**Reaction Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You are hit by a melee or ranged attack.  
 > **Effect** You shift 1 square away from the triggering attacker and only suffer 1 point of damage from the hit. If you cannot move away from the attacker, you may not use this power.  
 
-> #### Adaptable Warrior  
+<h4 class="Heading-4---Encounter">Adaptable Warrior</h4>
 > *Being able to adapt to any situation is the mark of any master of the martial arts.*  
 > **Encounter** **Attack** **3** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one or two creatures  
 > **Attack** Strength +1 vs AC (2 attacks) or Strength +4 vs AC (1 attack)  
 > **Hit** 1dW + Strength modifier damage.  
 
-> #### Mistaken Aggravation  
+<h4 class="Heading-4---Encounter">Mistaken Aggravation</h4>
 > *You might have misjudged this opponent.  Time for a strategic withdrawal.*  
 > **Encounter** **Attack** **3** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
@@ -3613,7 +3613,7 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Hit** 1dW + Strength modifier damage.  
 > **Effect** Shift your speed.  You must take the most direct path away from the target.  
 
-> #### Overreach Lunge  
+<h4 class="Heading-4---Encounter">Overreach Lunge</h4>
 > *Your opponent thinks they are safe.  Prove them wrong.*  
 > **Encounter** **Attack** **3** (**Standard Action**) ● **Martial, Consistent, Weapon**  
 > **Melee** weapon, one creature 1 square beyond your reach  
@@ -3621,7 +3621,7 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Hit** 2dW + Strength modifier damage.  
 > **Effect** Shift to any square adjacent to the target.  
 
-> #### Flawless Victory  
+<h4 class="Heading-4---Daily">Flawless Victory</h4>
 > *Your enemy is near defeat.  Use all remaining reserves for a decisive win.*  
 > **Daily** **Attack** **5** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one staggered enemy  
@@ -3630,7 +3630,7 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Miss** Half damage.  
 > **Effect** If the attack does not drop the target to 0 hit points or fewer, you grant combat advantage to the target until the end of your next turn. If the target hits you before the start of your next turn, you grant combat advantage until the end of your following turn.  
 
-> #### Hip Throw  
+<h4 class="Heading-4---Daily">Hip Throw</h4>
 > *You and your opponent are in a clinch. You utilize leverage and superior balance to toss your enemy down.*  
 > **Daily** **Attack** **5** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon (unarmed), one creature  
@@ -3638,14 +3638,14 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Hit** 3dW + Strength modifier damage, and you shunt the target 3 squares, knock it prone and daze it until the end of your next turn.  
 > **Miss** Half damage, and you shunt the target 3 squares.  
 
-> #### Smack-Attack  
+<h4 class="Heading-4---Daily">Smack-Attack</h4>
 > *Your opponent rushes you.  You direct their energy past you.*  
 > **Daily** **Utility** **6** (**Counter Action**) ● **Martial**  
 > **Self**   
 > **Trigger** A creature hits you with a melee attack.  
 > **Effect** The attack misses. Shift to any square adjacent to the triggering attacker, and it grants you combat advantage until the end of your next turn.  
 
-> #### Consequential Attack  
+<h4 class="Heading-4---Encounter">Consequential Attack</h4>
 > *You throw yourself to such a degree into the attack, you leave yourself vulnerable.*  
 > **Encounter** **Attack** **7** (**Standard Action**) ● **Martial, Consistent, Weapon**  
 > **Melee** weapon, one creature 1 square beyond your reach  
@@ -3653,41 +3653,41 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Hit** 3dW + Strength modifier damage + Constitution modifier.  
 > **Effect** Regardless if you hit, you grant combat advantage to all enemies until the start of your next turn.  
 
-> #### Jaw Strike  
+<h4 class="Heading-4---Encounter">Jaw Strike</h4>
 > *You connect hard, sending a bolt of pain into your opponent’s head.*  
 > **Encounter** **Attack** **7** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
 > **Attack** Strength vs AC  
 > **Hit** 1dW + Strength modifier damage, and the target is pushed 1 square, knocked prone, and dazed until the start of your next turn.  
 
-> #### Any Opportunity  
+<h4 class="Heading-4---Daily">Any Opportunity</h4>
 > *You see a split-second opening to take a passing strike.*  
 > **Daily** **Attack** **9** (**Free Action**) ● **Martial, Consistent, Weapon**  
 > **Melee** weapon, one creature  
 > **Attack** Strength vs AC  
 > **Hit** 2dW + Strength modifier damage.  
 
-> #### Knock-Out Button  
+<h4 class="Heading-4---Daily">Knock-Out Button</h4>
 > *You hit that sweet spot.  Hopefully it’s lights out for your opponent.*  
 > **Daily** **Attack** **9** (**Standard Action**) ● **Martial, Consistent, Weapon**  
 > **Melee** weapon, one creature  
 > **Attack** Strength vs AC  
 > **Hit** 1dW + Strength modifier damage, and the target is knocked prone and stunned (save ends).  
 
-> #### Last Second Recovery  
+<h4 class="Heading-4---Encounter">Last Second Recovery</h4>
 > *You jump back, shake your head, clear your mind, and ready yourself to push back into the fight.*  
 > **Encounter** **Utility** **10** (**Move Action**) ● **Healing, Martial**  
 > **Self**   
 > **Requirements** You must be staggered.  
 > **Effect** Shift to the nearest square not in reach of an enemy and spend a recovery to heal hit points equal to your recovery value.  
 
-> #### Pound for Pound  
+<h4 class="Heading-4---Encounter">Pound for Pound</h4>
 > *All things being equal . . . you have no equal.*  
 > **Encounter** **Utility** **10** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Effect** Until the end of your next turn, your at-will powers that require a standard action only require a move action, and those that require a move action only require a swift action.  
 
-> #### Snap-Sweep  
+<h4 class="Heading-4---Encounter">Snap-Sweep</h4>
 > *You drop and spin around, tripping your opponent and making them open for another attack.*  
 > **Encounter** **Attack** **13** (**Swift Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
@@ -3695,14 +3695,14 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Hit** 2dW + Strength modifier damage, and the target is knocked prone.  
 > **Miss** Half damage, and the target is not knocked prone.  
 
-> #### Vicious Hook  
+<h4 class="Heading-4---Encounter">Vicious Hook</h4>
 > *You bend your arm and shift your weight.  Your throw everything into a solid strike with knockout power.*  
 > **Encounter** **Attack** **13** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
 > **Attack** Strength vs AC  
 > **Hit** 1dW + Strength modifier damage, and the target is stunned until the start of your next turn.  
 
-> #### Battle Stride  
+<h4 class="Heading-4---Daily">Battle Stride</h4>
 > *Whether you barrel in or elegantly weave through, you fight your way past enemy lines.*  
 > **Daily** **Attack** **15** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
@@ -3712,7 +3712,7 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Effect** Before your attack, shift up to 3 squares. After your attack, shift 3 squares and repeat the attack against a different target.  Then shift 3 squares and repeat the attack against a third target. Then shift 1 square.   
 > **Special** The target of each attack must be different. If there is not a target close to enough to shift to, the power ends.
 
-> #### Roundhouse Attack  
+<h4 class="Heading-4---Daily">Roundhouse Attack</h4>
 > *In the air, with a circular sweep, you cut all your enemies down.  Yeah, it works.*  
 > **Daily** **Attack** **15** (**Standard Action**) ● **Martial, Weapon**  
 > **Near** burst 1, all creatures  
@@ -3720,34 +3720,34 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Hit** 3dW + Strength modifier damage, and the target is pushed 1 square. If the target cannot be pushed due to an obstruction, the target takes additional damage equal to twice your Constitution modifier.  
 > **Miss** Half damage, and the target is pushed 1 square. They do not take additional damage if they cannot be pushed. 
 
-> #### Gambit Recovery  
+<h4 class="Heading-4---Encounter">Gambit Recovery</h4>
 > *You give your opponent the impression you’re not in your game. An uncharacteristic miss is instantly followed up with another attempt.*  
 > **Encounter** **Utility** **16** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You miss with an attack roll.  
 > **Effect** Reroll until the result is higher than the triggering attack roll.  
 
-> #### Knockout Power  
+<h4 class="Heading-4---Daily">Knockout Power</h4>
 > *You’ve been working out.*  
 > **Daily** **Utility** **16** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Effect** Until the end of the encounter (or five minutes), the damage die of your unarmed attacks increases by one step ( 1d4 > 1d6 > 1d8 > 1d10 > 2d6).
 
-> #### String-Combo  
+<h4 class="Heading-4---Encounter">String-Combo</h4>
 > *You mount attack upon attack so rapidly, your enemies are unable to defend themselves.*  
 > **Encounter** **Attack** **17** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
 > **Attack** Strength vs AC, three attacks. Resolve each attack before making the next.  
 > **Hit** 1dW + Strength modifier damage. Gain a cumulative +2 bonus to additional attack rolls with this power. If you hit the target with all three attacks, you inflict additional damage equal to twice your Strength modifier.  
 
-> #### Wear Them Down  
+<h4 class="Heading-4---Encounter">Wear Them Down</h4>
 > *You pound upon your foe in hopes of breaking their spirit.*  
 > **Encounter** **Attack** **17** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
 > **Attack** Strength vs AC, two attacks  
 > **Hit** 2dW + Strength modifier damage, and the target is weakened and dazed until the end of your next turn. If you hit the target with both attacks, the target is weakened and dazed (save ends both) and cannot save until the end of your next turn.  
 
-> #### Lights Out  
+<h4 class="Heading-4---Daily">Lights Out</h4>
 > *You strike your opponent at a tender spot, just behind the head or under the jaw. Your enemy falls limp before you.*  
 > **Daily** **Attack** **19** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
@@ -3755,7 +3755,7 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Hit** 3dW + Strength modifier damage, and the target is unconscious (save ends). The moment the target takes any further damage, it immediately wakes up.  
 > **Miss** 3dW + Strength modifier damage.  
 
-> #### Off the Bone  
+<h4 class="Heading-4---Daily">Off the Bone</h4>
 > *Your enemy’s tendons snap and bones break.*  
 > **Daily** **Attack** **19** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
@@ -3763,14 +3763,14 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Hit** 4dW + Strength modifier damage, and the target suffers 10 persistent damage (save ends).  
 > **Miss** Half damage and 5 persistent damage (save ends).  
 
-> #### Blocking Pose  
+<h4 class="Heading-4---Encounter">Blocking Pose</h4>
 > *You change your guard to withstand punishment from oncoming attacks.*  
 > **Encounter** **Utility** **22** (**Move Action**) ● **Healing, Martial**  
 > **Self**   
 > **Effect** Take half damage from all melee attacks until the start of your next turn.  
 > **Maintain Move** The effect persists until the start of your next turn. You cannot maintain if you move from your square or an enemy scores a critical hit against you.  
 
-> #### Calculated Strike  
+<h4 class="Heading-4---Encounter">Calculated Strike</h4>
 > *You make a quick determination upon the best course of action, choosing either accuracy or power.*  
 > **Encounter** **Attack** **23** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
@@ -3778,7 +3778,7 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Hit** 2dW + Strength modifier damage.  
 > **Effect** For every -2 penalty you accept on this attack (maximum -6) the attack deals +1dW damage.  
 
-> #### Spherical Discipline  
+<h4 class="Heading-4---Encounter">Spherical Discipline</h4>
 > *You lash at opponents all around, striking behind, in front, and in blind spots.*  
 > **Encounter** **Attack** **23** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, all enemies in reach  
@@ -3786,14 +3786,14 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Hit** 2dW + Strength modifier damage, and the target is dazed and weakened until the end of your next turn.  
 > **Effect** You gain a +2 power bonus to AC until the end of your next turn.  
 
-> #### Master Combo  
+<h4 class="Heading-4---Daily">Master Combo</h4>
 > *Your opponents have never seen talent like this. Your resolve is absolute. There could be ten times more men against you and it still wouldn’t matter.*  
 > **Daily** **Attack** **25** (**Move Action**) ● **Martial, Weapon**  
 > **Melee** weapon  
 > **Effect** Use three at-will powers.  You can select the same power multiple times.  
 > **Special** When you complete a streak, you recover the use of this power.  
 
-> #### Roundabout Strike  
+<h4 class="Heading-4---Daily">Roundabout Strike</h4>
 > *After your opponent is temporarily dazed, you slide to another position for a follow-up attack.*  
 > **Daily** **Attack** **25** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
@@ -3803,7 +3803,7 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Effect** Shift to any unoccupied square adjacent to the enemy and make a secondary attack.  
 *Secondary Attack:*  Strength vs AC; 2dW + Strength modifier damage, and the target is knocked prone and cannot stand (save ends).  
 
-> #### Flow Like Water  
+<h4 class="Heading-4---Encounter">Flow Like Water</h4>
 > *You pass through enemy lines without worry, crashing into whatever foes you wish.*  
 > **Encounter** **Attack** **27** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
@@ -3812,7 +3812,7 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 > **Effect** Shift to any square adjacent to the target.  
 > **Maintain Standard** Repeat the attack against a different target.  
 
-> #### Sure-Kill  
+<h4 class="Heading-4---Daily">Sure-Kill</h4>
 > *One single strike is all you’ll need. You crush your opponent and strike fear into all those around with such a brutal act of violence.*  
 > **Daily** **Attack** **29** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
@@ -3827,7 +3827,7 @@ If the target cannot be pushed, the target is knocked prone and you shift into t
 
 You are an inspiring leader who throws themselves into the thick of battle. 
 
-> #### Pack Pounce  
+<h4 class="Heading-4---At-Will">Pack Pounce</h4>
 > *By capitalizing on the opportunities granted by the presence of your allies who are attacking your foe, your lethality increases dramatically due to your knowledge of pack tactics.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, one target  
@@ -3835,14 +3835,14 @@ You are an inspiring leader who throws themselves into the thick of battle.
 > **Hit** 1dW + Strength modifier damage, +2 for every ally that is adjacent to the target.
 Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to the target.  
 
-> #### Tactical Strike  
+<h4 class="Heading-4---Encounter">Tactical Strike</h4>
 > *Any commander knows that in battle, footwork is key. By utilizing this theory, you help your comrades to understand this.*  
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, one target  
 > **Attack** Strength vs AC  
 > **Hit** 1dW + Strength modifier damage. Choose an ally within 2. They can shift 2.  
 
-> #### Demoralizing Roar  
+<h4 class="Heading-4---Daily">Demoralizing Roar</h4>
 > *With a shout of rage and defiance, you wade into battle with fearless determination, shattering the resolve of your foes.*  
 > **Daily** **Attack** **1** (**Standard Action**) ● **Martial, Focus**  
 > **Near** burst 2, all enemies  
@@ -3850,27 +3850,27 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Hit** Target is dazed (save ends)  
 > **Miss** Target is dazed until the end of their next turn  
 
-> #### Hunting Party  
+<h4 class="Heading-4---Encounter">Hunting Party</h4>
 > *When two or more soldiers converge on a single target, the odds of victory increase and with the knowledge of this strike you can assist your comrade’s potential lethality.*  
 > **Encounter** **Utility** **2** (**Reaction Action**) ● **Martial**  
 > **Near** burst 5, one ally  
 > **Trigger** An ally hits an enemy  
 > **Effect** Another ally within range of the enemy (including yourself) makes a basic attack (melee or ranged) against the enemy.  
 
-> #### Pride Movement  
+<h4 class="Heading-4---Encounter">Pride Movement</h4>
 > *By having a watchful eye on the flow of combat, you know when to spur an ally into a better position.*  
 > **Encounter** **Utility** **2** (**Swift Action**) ● **Martial**  
 > **Melee** touch, one ally  
 > **Effect** The target can take a move action right away,  
 
-> #### Distracting Strike  
+<h4 class="Heading-4---Encounter">Distracting Strike</h4>
 > *By attracting the attentions of a foe with a well-placed and vicious blow, you may distract and weaken your foe to the predations of your allies.*  
 > **Encounter** **Attack** **3** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, one target  
 > **Attack** Strength vs AC  
 > **Hit** 1dW + Strength modifier damage and the target grants combat advantage until the end of your next turn.  
 
-> #### Defending the Pride  
+<h4 class="Heading-4---Daily">Defending the Pride</h4>
 > *With a cry to defend themselves from incoming attacks, the inspirational words of the disciple aid your allies in your defense.*  
 > **Daily** **Attack** **5** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, one target  
@@ -3878,20 +3878,20 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Hit** 2dW + Strength modifier damage.  
 > **Effect** Allies within 5 receive a +2 power bonus to AC until the end of the encounter.  
 
-> #### Circling the Prey  
+<h4 class="Heading-4---Encounter">Circling the Prey</h4>
 > *With practiced precision and a quick shout, you and your allies move in unison for better strategic advantage.*  
 > **Encounter** **Utility** **6** (**Swift Action**) ● **Martial**  
 > **Near** burst 5, all allies and yourself  
 > **Effect** You and all allies in range shift 1.  
 
-> #### Warning Roar  
+<h4 class="Heading-4---Encounter">Warning Roar</h4>
 > *Witnessing a clear and present danger to an ally, you shout out a well-timed warning and aid your ally in defending against an attack.*  
 > **Encounter** **Utility** **6** (**Counter Action**) ● **Martial**  
 > **Near** burst 5, one ally  
 > **Trigger** An ally in range is hit by an attack.  
 > **Effect** The attacker must reroll their attack and use the second result.  
 
-> #### Pyrite Swipe  
+<h4 class="Heading-4---Encounter">Pyrite Swipe</h4>
 > *With a powerful strike, you push your foe into the waiting arms of your allies and their hungry blades.*  
 > **Encounter** **Attack** **7** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
@@ -3900,7 +3900,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Boost** **Level 17** 2dW + Strength modifier damage, and shunt the target 4 squares.  
 **Boost Level 27** 3dW + Strength modifier damage, and shunt the target 8 squares.  
 
-> #### Kill the Wounded  
+<h4 class="Heading-4---Daily">Kill the Wounded</h4>
 > *You make a ferocious assault on your foe, opening the enemy’s defenses to the attacks of your allies.*  
 > **Daily** **Attack** **9** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, one target  
@@ -3908,19 +3908,19 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Hit** 2dW + Strength modifier damage.  
 > **Effect** The target gets vulnerability to all damage 5 until the end of your next turn.  
 
-> #### Direct the Pride  
+<h4 class="Heading-4---Encounter">Direct the Pride</h4>
 > *Cooperation and teamwork form the backbone of tactical warfare, and through your knowledge of all of these things, you may help direct the actions of your ally to greater effectiveness.*  
 > **Encounter** **Utility** **10** (**Swift Action**) ● **Martial**  
 > **Near** burst 5, one ally that has not yet acted this turn  
 > **Effect** The ally moves up in the initiative order to act just after your turn ends.  
 
-> #### Golden Lion Charger  
+<h4 class="Heading-4---Encounter">Golden Lion Charger</h4>
 > *A student of the art of war, you know that sometimes a powerful opening charge can be the edge the warrior needs.*  
 > **Encounter** **Utility** **10** (**Swift Action**) ● **Martial, Stance**  
 > **Near** burst 5, all allies and yourself  
 > **Effect** While you are in this stance, allies in range, including yourself, add your Charisma modifier to damage when attacking during the Charge action.  
 
-> #### Charge of the Battle Cat  
+<h4 class="Heading-4---Encounter">Charge of the Battle Cat</h4>
 > *Like the charge of the mighty lion as he takes his prey to the ground, you charge into battle, heedless of your enemies, to crash into your chosen foe with a mighty strike, knocking them to the ground at your feet.*  
 > **Encounter** **Attack** **13** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
@@ -3928,7 +3928,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Hit** 3dW + Strength modifier damage and the target falls prone.  
 > **Special** Before your attack, move up to your speed.  
 
-> #### Golden Swipe  
+<h4 class="Heading-4---Daily">Golden Swipe</h4>
 > *With a series of furious blows against your foe, you batter them into the waiting blades of your allies.*  
 > **Daily** **Attack** **15** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
@@ -3936,7 +3936,7 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Hit** 3dW + Strength modifier damage.  
 > **Effect** The target is pushed 6 squares. Each ally that is in reach of the target at some point during its move may make a melee basic attack against it.  
 
-> #### Harry the Prey  
+<h4 class="Heading-4---Daily">Harry the Prey</h4>
 > *Through coordinated tactics, the comrades at your side may act as one.*  
 > **Daily** **Attack** **15** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, one target  
@@ -3944,20 +3944,20 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Hit** 3dW + Strength modifier damage.  
 > **Miss** Allies within 5 squares of the target can make a basic melee attack against a target of their choice, or a basic ranged attack against the target of your attack.  
 
-> #### Guard the Pride  
+<h4 class="Heading-4---Daily">Guard the Pride</h4>
 > *You trust in your heavenly sense of the battle around you to see where the next attack is coming and move away from danger.*  
 > **Daily** **Utility** **16** (**Swift Action**) ● **Martial**  
 > **Near** burst 5, all allies and yourself  
 > **Effect** You and all allies receive a +10 power bonus to attack rolls. Each time an attack misses one or more of you, the bonus decreases by 2 until it reaches +0, at which point this power ends.  
 
-> #### Roar of Battle  
+<h4 class="Heading-4---Encounter">Roar of Battle</h4>
 > *You deliver a telling blow, shattering bones and piercing defenses alike as you press the foe into opening vital places for your allies to gain purchase.*  
 > **Encounter** **Attack** **17** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, one target  
 > **Attack** Strength vs AC  
 > **Hit** 3dW + Strength modifier damage and the target gets vulnerability to all damage 5 until the end of your next turn.  
 
-> #### Strategic Blow  
+<h4 class="Heading-4---Daily">Strategic Blow</h4>
 > *With a tremendous strike, you confuse the enemy and create an opening for an ally to reposition themselves.*  
 > **Daily** **Attack** **19** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, one target  
@@ -3965,19 +3965,19 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Hit** 3dW + Strength modifier damage.  
 > **Effect** Allies within 5 of the target can immediately shift 2 as a free action.  
 
-> #### Golden General’s Stance  
+<h4 class="Heading-4---Daily">Golden General’s Stance</h4>
 > *A beacon of victory upon the field of combat, you personify glory in combat and those in your presence may share in your prowess.*  
 > **Daily** **Utility** **22** (**Swift Action**) ● **Martial, Stance**  
 > **Self**   
 > **Effect** Allies within 5 receive a +2 power bonus on attack rolls. If they score a critical hit, they add your Charisma modifier to the damage.  
 
-> #### Lord of the Pridelands  
+<h4 class="Heading-4---Daily">Lord of the Pridelands</h4>
 > *Proving you are the undisputed master of war, you call for absolute and crushing victory through overwhelming force of numbers.*  
 > **Daily** **Utility** **22** (**Swift Action**) ● **Martial, Stance**  
 > **Self**   
 > **Effect** While you are in this stance, allies within 10 can use your Strength attack bonus instead of their own for any melee attacks that they make. You can end the stance with a swift action.  
 
-> #### War Lion’s Charge  
+<h4 class="Heading-4---Encounter">War Lion’s Charge</h4>
 > *With the ferocity of an angered lion, you race across the battlefield ignoring secondary targets to bear down on a single enemy and reduce them to dust.*  
 > **Encounter** **Attack** **23** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one target  
@@ -3985,14 +3985,14 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 > **Hit** 3dW + Strength modifier damage and the target is stunned until the end of your next turn  
 > **Effect** Half damage and the target is dazed until the end of your next turn.  
 
-> #### Lion Lord’s Agony  
+<h4 class="Heading-4---Encounter">Lion Lord’s Agony</h4>
 > *With a fury born of desperation and determination for victory, you pour your pain into your swings so that the enemy may drink deeply of it.*  
 > **Encounter** **Attack** **27** (**Standard Action**) ● **Martial, Weapon**  
 > **Near** burst 1, all enemies  
 > **Attack** Strength vs AC  
 > **Hit** 3dW + Strength modifier damage and push the target 2.  
 
-> #### Triumphant Lion’s Leadership  
+<h4 class="Heading-4---Daily">Triumphant Lion’s Leadership</h4>
 > *The power and majesty of the lion lords of the wild lives within you, so much so that your victories are a victory for your allies.*  
 > **Daily** **Attack** **29** (**Counter Action**) ● **Martial, Weapon, Healing**  
 > **Melee** weapon, one target  
@@ -4010,14 +4010,14 @@ Level 21: 2dW + Strength modifier damage, +4 for every ally that is adjacent to 
 
 You are a clever fighter who can size up your opponents. 
 
-> #### Outthink & Outwit  
+<h4 class="Heading-4---At-Will">Outthink & Outwit</h4>
 > *You quickly ascertain your enemy’s eye movements and body language and determine the best course of action.*  
 > **At-Will** **Attack** **1** (**Move Action**) ● **Martial**  
 > **Ranged** 10, one creature  
 > **Attack** Intelligence +2 vs Reflex  
 > **Hit** The target grants combat advantage to you and all allies until the start of your next turn.  
 
-> #### Instant Analysis  
+<h4 class="Heading-4---Encounter">Instant Analysis</h4>
 > *You study your opponent and gauge what their strengths are as well as possible weaknesses.*  
 > **Encounter** **Attack** **1** (**Move Action**) ● **Martial, Consistent**  
 > **Ranged** 20, one creature  
@@ -4025,13 +4025,13 @@ You are a clever fighter who can size up your opponents.
 > **Hit** You learn the target’s attack modifiers, all defense values, and the damage capacities of its attacks. The target is rattled until the end of your next turn.  
 > **Maintain Move** The rattled condition persists until the end of your next turn.  
 
-> #### No Sweat  
+<h4 class="Heading-4---At-Will">No Sweat</h4>
 > *You take everything in stride.*  
 > **At-Will** **Utility** **2** (**Standard Action**) ● **Martial**  
 > **Self**   
 > **Effect** You gain a +2 power bonus to your next Intelligence- or Wisdom-based skill check.  
 
-> #### Evasive Action  
+<h4 class="Heading-4---Encounter">Evasive Action</h4>
 > *Your talent to avoid attacks is legendary.*  
 > **Encounter** **Attack** **3** (**Move Action**) ● **Martial, Consistent**  
 > **Near** burst 10, one creature  
@@ -4039,14 +4039,14 @@ You are a clever fighter who can size up your opponents.
 > **Hit** Until the end of your next turn, the target cannot make any attack against you that does not target at least one other creature.  
 > **Maintain Move** Repeat the attack against the same target.  You cannot maintain if you miss.  
 
-> #### Flash of Brilliance  
+<h4 class="Heading-4---Daily">Flash of Brilliance</h4>
 > *In an instant, thousands of possible outcomes race by, and you realize the best course of action*  
 > **Daily** **Attack** **5** (**Move Action**) ● **Martial, Consistent**  
 > **Near** burst 10, one creature you can see  
 > **Attack** Intelligence +2 vs Reflex  
 > **Hit** Until the end of the encounter, you gain a +2 power bonus to all defenses and a +5 power bonus to all skill checks against the target.  
 
-> #### Think Things Through  
+<h4 class="Heading-4---Encounter">Think Things Through</h4>
 > *You stop and consider your opponent’s weak spot.*  
 > **Encounter** **Attack** **7** (**Move Action**) ● **Martial, Consistent**  
 > **Near** burst 10, one creature  
@@ -4054,7 +4054,7 @@ You are a clever fighter who can size up your opponents.
 > **Hit** Until the end of your next turn, the target’s highest defense value is reduced by 4. All other defenses are reduced by 2. Remove any marks the target has placed on you or your allies. You and each ally can immediately make a saving throw against one condition inflicted by the target.  
 > **Maintain Move** Repeat the attack against the same target.  You cannot maintain if you miss.  
 
-> #### Flash of Violence  
+<h4 class="Heading-4---Daily">Flash of Violence</h4>
 > *You outmaneuver your enemies, allowing yourself a chance to escape.*  
 > **Daily** **Attack** **9** (**Move Action**) ● **Martial, Consistent, Weapon**  
 > **Near** burst 10, one creature you can see  
@@ -4063,32 +4063,32 @@ You are a clever fighter who can size up your opponents.
 > ● You gain a +2 power bonus to all attack rolls and a +4 power bonus to all  damage rolls against the target; or        
 > ● You gain a +4 power bonus to all defenses against the target’s  attacks 
 
-> #### Improvisational Desperation  
+<h4 class="Heading-4---Daily">Improvisational Desperation</h4>
 > *Well, it should work … in theory.*  
 > **Daily** **Attack** **9** (**Move Action**) ● **Martial**  
 > **Self**   
 > **Effect** Use one of your daily or encounter powers. You may choose a power that is already expended. If you choose a power that is not expended, this use of the power does not expend it.  
 
-> #### Two Steps Ahead  
+<h4 class="Heading-4---Encounter">Two Steps Ahead</h4>
 > *You remember the fundamentals of strategy from playing games of chance. You apply what you know in the combat field.*  
 > **Encounter** **Utility** **10** (**Swift Action**) ● **Martial**  
 > **Self**   
 > **Effect** Add your Intelligence modifier to all defenses until the end of your next turn. All movement you make until the end of your next turn is considered a shift.  
 
-> #### Sweep Terrain  
+<h4 class="Heading-4---Daily">Sweep Terrain</h4>
 > *You gain a lay of the land and instantly recognize where to take advantage of beneficial environment.*  
 > **Daily** **Utility** **10** (**Move Action**) ● **Martial**  
 > **Near** earshot, you and four allies  
 > **Effect** The target can shift its speed -2. Until the end of the encounter, whenever the target has cover of any sort, the penalty to attack rolls against it increases by -2.  
 
-> #### Well-Informed Hypothesis  
+<h4 class="Heading-4---Encounter">Well-Informed Hypothesis</h4>
 > *Everything that just happened was in your head, the result of you balancing the benefits of your action.*  
 > **Encounter** **Utility** **16** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You end your turn but don’t like the results of it.  
 > **Effect** Redo your entire turn.  Everything that occurred during your turn did not occur.  
 
-> #### Game Theory  
+<h4 class="Heading-4---Encounter">Game Theory</h4>
 > *It can all be boiled down to mathematics.*  
 > **Encounter** **Attack** **17** (**Move Action**) ● **Martial**  
 > **Ranged** 20, one enemy  
@@ -4096,27 +4096,27 @@ You are a clever fighter who can size up your opponents.
 > **Hit** You gain the target’s defense values (if higher than yours) and basic attack bonus (if higher than yours) until the end of your next turn. If the target’s values are lower than yours, you gain a +2 bonus to yours.  
 > **Maintain Move** The effect persists until the end of your next turn. You cannot maintain if you are staggered or the target scores a critical hit on you.  
 
-> #### Focus Weakness  
+<h4 class="Heading-4---Daily">Focus Weakness</h4>
 > *You know this enemy well and know what to do to inflict the most harm.*  
 > **Daily** **Attack** **19** (**Move Action**) ● **Martial, Consistent**  
 > **Ranged** 20, one enemy  
 > **Attack** Intelligence +2 vs Will  
 > **Hit** Until the end of the encounter, you learn all of the target’s powers, defense values, and characteristics. In addition, you score a critical hit on a natural roll of 18, 19 or 20 and if you score a critical hit, the target takes 1dW extra damage.  
 
-> #### Thousands of Calculations  
+<h4 class="Heading-4---At-Will">Thousands of Calculations</h4>
 > *Every outcome, every possible consequence, repeats in your head until you decide a course of action. The strain of thinking this quickly can get to some people.*  
 > **At-Will** **Utility** **22** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Effect** Roll twice for your next attack roll or skill check and take the better result value. Take damage equal to half your level.  
 > **Special** This power can only be used once per round.  
 
-> #### Natural Instincts  
+<h4 class="Heading-4---Daily">Natural Instincts</h4>
 > *The last attempt worked so well, you try it again, hoping for the same result.*  
 > **Daily** **Attack** **25** (**Swift Action**) ● **Martial**  
 > **Self**   
 > **Effect** You recover the attack power you last used and immediately use it again.  You cannot reuse a power that is being maintained.  
 
-> #### Prodigy  
+<h4 class="Heading-4---Encounter">Prodigy</h4>
 > *You are a natural predator.*  
 > **Encounter** **Attack** **27** (**Free Action**) ● **Martial**  
 > **Self**   
@@ -4129,7 +4129,7 @@ You are a clever fighter who can size up your opponents.
 
 You are sturdy and powerful, and it is almost impossible to take you down or hold you back.
 
-> #### Devastating Body Attack  
+<h4 class="Heading-4---At-Will">Devastating Body Attack</h4>
 > *You make the target think it just got struck by a gorilla … riding a horse.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature up to one square out of reach  
@@ -4144,33 +4144,33 @@ You are sturdy and powerful, and it is almost impossible to take you down or hol
 > **Self**  
 > **Effect** Make a basic melee attack. If you hit, the target is also rattled until the end of your next turn.  
 
-> #### Inconsequential Injury  
+<h4 class="Heading-4---Daily">Inconsequential Injury</h4>
 > *Nothing clears the head like hurting something else.*  
 > **Daily** **Attack** **1** (**No Action**) ● **Martial**  
 > **Self**   
 > **Effect** Select one condition you suffer from. Gain a +4 bonus to the saving throw against that condition until you pass. When you pass, you gain two basic attacks.  
 
-> #### For the Common Honor  
+<h4 class="Heading-4---Encounter">For the Common Honor</h4>
 > *In an instant, you weigh the options and realize someone else’s life is more vital than your own.*  
 > **Encounter** **Utility** **2** (**Counter Action**) ● **Martial**  
 > **Near** burst 2, one ally  
 > **Trigger** One staggered ally in range is hit by an attack that does not include you.  
 > **Effect** You are hit by the attack instead of the ally.  
 
-> #### I’m the Juggernaut  
+<h4 class="Heading-4---Encounter">I’m the Juggernaut</h4>
 > *You ignore any obstacles as you plow through terrain and opponents.*  
 > **Encounter** **Utility** **2** (**Move Action**) ● **Martial**  
 > **Self**   
 > **Effect** Shift a number of squares equal to 1 + your Constitution modifier, ignoring difficult terrain. You can move through enemies’ squares during this movement. Non-creature obstructions in squares you attempt to enter take damage equal to 5 × your Strength modifier: if this destroys the obstruction, you can enter the square.  
 
-> #### The Behemoth  
+<h4 class="Heading-4---Daily">The Behemoth</h4>
 > *You lift up a few inches and widen your stance.  You find a newly found surge of adrenaline.*  
 > **Daily** **Utility** **2** (**Swift Action**) ● **Martial**  
 > **Self**   
 > **Effect** You gain temporary hit points equal to twice your Strength modifier.  
 > **Special** Use a standard action and a move action instead of a swift action with this power and gain temporary hit points equal to twice your Constitution and Strength modifier.  
 
-> #### Out of the Fire  
+<h4 class="Heading-4---Encounter">Out of the Fire</h4>
 > *You know when to fight and when not to.  You grab an ally and pull back.*  
 > **Encounter** **Attack** **3** (**Free Action**) ● **Martial, Weapon**  
 > **Self**   
@@ -4186,20 +4186,20 @@ You are sturdy and powerful, and it is almost impossible to take you down or hol
 > **Hit** 3dW + Strength modifier damage and the target is dazed until the end of your next turn. 
 > **Effect** You gain resistance to all damage 5 until the end of your next turn.
 
-> #### Once More Into the Breach  
+<h4 class="Heading-4---Encounter">Once More Into the Breach</h4>
 > *Despite injuries and your brain telling you you’re done, your body refuses to fall.*  
 > **Encounter** **Utility** **6** (**Move Action**) ● **Healing, Martial**  
 > **Self**   
 > **Requirements** You must be staggered.  
 > **Effect** You regain hit points equal to twice your Strength modifier plus twice your Constitution modifier.  
 
-> #### The Bulldozer  
+<h4 class="Heading-4---Daily">The Bulldozer</h4>
 > *You slowly approach your enemies, pushing your advancing line and claiming more of the battlefield.*  
 > **Daily** **Utility** **6** (**Swift Action**) ● **Martial, Stance**  
 > **Self**   
 > **Effect** While you are in this stance, you have resistance 5 to all damage. You can shift 1 as a swift action, but you must shift towards the nearest enemy.  
 
-> #### In The Face  
+<h4 class="Heading-4---Encounter">In The Face</h4>
 > *An enemy raises a club, sword, or any other archaic implement of barbarity and you respond with your own medieval response.*  
 > **Encounter** **Attack** **7** (**No Action**) ● **Martial, Weapon**  
 > **Melee** weapon, the triggering enemy  
@@ -4208,7 +4208,7 @@ You are sturdy and powerful, and it is almost impossible to take you down or hol
 > **Hit** 1dW + Strength modifier damage, and the attack misses.  
 > **Boost Level 17** 3dW + Strength modifier damage, and the attack misses. 
 
-> #### He Ain’t Heavy  
+<h4 class="Heading-4---Daily">He Ain’t Heavy</h4>
 > *You grab a fallen ally and throw them over your shoulder as you withdraw.*  
 > **Daily** **Attack** **9** (**Standard Action**) ● **Martial, Weapon**  
 > **Near** burst 6, one unconscious or otherwise helpless ally  
@@ -4217,14 +4217,14 @@ You are sturdy and powerful, and it is almost impossible to take you down or hol
 *Miss:*  Half damage
 *Tertiary Effect:*  Shift a number of squares equal to 1+ your Constitution or Strength modifier, and shunt the target with you.  
 
-> #### The Runaway Boulder  
+<h4 class="Heading-4---Daily">The Runaway Boulder</h4>
 > *You barrel through terrain and people and anchor yourself further up the line.*  
 > **Daily** **Utility** **10** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Effect** Shift your speed +2. Until the end of your next turn, you gain resistance 10 to all damage.  
 > **Special** If you complete a streak, you recover the use of this power.  
 
-> #### Like An Elephant  
+<h4 class="Heading-4---Encounter">Like An Elephant</h4>
 > *You offer your shoulder to enemies you plow through, slamming them back and clearing a way.*  
 > **Encounter** **Attack** **13** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, each enemy in reach during your shift  
@@ -4232,7 +4232,7 @@ You are sturdy and powerful, and it is almost impossible to take you down or hol
 > **Hit** 2dW + Strength modifier damage, and the target is pushed 3 squares and knocked prone.  
 > **Effect** Before your attacks, shift your speed. You can pass through enemy occupied squares.  
 
-> #### Down Fighting  
+<h4 class="Heading-4---Daily">Down Fighting</h4>
 > *You ignore all those pesky holes and bleeding wounds.  You refuse to accept humiliation.  You will not fall before winning a fight.*  
 > **Daily** **Attack** **15** (**Reaction Action**) ● **Martial**  
 > **Self**   
@@ -4241,14 +4241,14 @@ You are sturdy and powerful, and it is almost impossible to take you down or hol
 > **Special** If you are still alive at the end of the encounter, you automatically stabilize at 0 hit points.  
 > **Maintain Free** The effect persists until the start of your next turn. If you do not hit with an attack before the start of your next turn, you are considered to have failed a death save.  
 
-> #### The Fortress  
+<h4 class="Heading-4---Daily">The Fortress</h4>
 > *You’re an immovable object, a rooted post for allies to rally back to.*  
 > **Daily** **Utility** **16** (**Move Action**) ● **Martial**  
 > **Self**   
 > **Effect** You gain regeneration 5 until the end of your next turn. You grant cover to all allies in adjacent squares, regardless of line of sight.  
 > **Maintain Move** The effect persists until the end of your next turn. You cannot maintain if you leave your current square.  
 
-> #### Nosebleed  
+<h4 class="Heading-4---Daily">Nosebleed</h4>
 > *You sniff up the blood, bark loudly, and assault the newly frightened enemy.*  
 > **Daily** **Attack** **19** (**Reaction Action**) ● **Martial, Weapon**  
 > **Melee** weapon, the triggering enemy  
@@ -4256,14 +4256,14 @@ You are sturdy and powerful, and it is almost impossible to take you down or hol
 > **Effect** The hit inflicts no damage. Make a basic attack: one hit creature takes 1dW extra damage.  
 > **Boost Level 29** After you make your basic attack, you gain a +2 bonus to all attack rolls and damage rolls until the end of the encounter against the triggering enemy. 
 
-> #### Just Got the Wind Knocked  
+<h4 class="Heading-4---Encounter">Just Got the Wind Knocked</h4>
 > *What? Nah, nah, I’m doing just fine.*  
 > **Encounter** **Utility** **22** (**Reaction Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You take damage from an attack.  
 > **Effect** Until the end of the encounter, you suppress all effects of the attack. At the end of the encounter, you immediately suffer these effects.  
 
-> #### Just Walk It Off  
+<h4 class="Heading-4---Encounter">Just Walk It Off</h4>
 > *You know perfectly well how much damage was done.  You attempt to ignore it and continue the fight.*  
 > **Encounter** **Attack** **23** (**Standard Action**) ● **Healing, Martial, Weapon**  
 > **Melee** weapon, one creature  
@@ -4273,13 +4273,13 @@ You are sturdy and powerful, and it is almost impossible to take you down or hol
 > **Miss** Half damage.  
 > **Effect** Spend a recovery and regain double your recovery value.  
 
-> #### Blatant Disregard for Personal Safety  
+<h4 class="Heading-4---Daily">Blatant Disregard for Personal Safety</h4>
 > *You walk in the open, brazenly approaching your foe without care or concern.*  
 > **Daily** **Attack** **25** (**Standard Action**) ● **Martial, Weapon**  
 > **Self**   
 > **Effect** Shift a number of squares equal to your Strength modifier. Make three basic attacks at any point during the move. Each time you miss with an attack roll, you can spend a recovery and heal your recovery value in hit points.  
 
-> #### Behind Me!  
+<h4 class="Heading-4---Encounter">Behind Me!</h4>
 > *Your ally uses you as cover as you march towards your enemy.*  
 > **Encounter** **Attack** **27** (**Standard Action**) ● **Martial**  
 > **Near** burst 1, you and two allies  
@@ -4297,7 +4297,7 @@ You are a slippery, taunting combatant who can fool even skeptical foes.
 > **Self**   
 > **Effect** When you enter this stance, you may mark one creature within 10 squares. While you are in this stance, creatures you have marked do half damage on any attack that does not include you as a target.  
 
-> #### Failure to Communicate  
+<h4 class="Heading-4---At-Will">Failure to Communicate</h4>
 > *Events are not moving in your favor. You act in the best interest of the situation.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Self**   
@@ -4309,28 +4309,28 @@ You are a slippery, taunting combatant who can fool even skeptical foes.
 > **Self**   
 > **Effect** When you enter this stance, you may mark one creature within 10 squares. While you are in this stance, creatures you have marked provoke an opportunity attack from you if they miss you with an attack. You can make basic ranged attacks for opportunity attacks triggered by this power.  
 
-> #### Who, Me?  
+<h4 class="Heading-4---At-Will">Who, Me?</h4>
 > *You claim ignorance in the situation, acting as the innocent or an ally of the opposite side. You seem trustworthy enough.*  
 > **At-Will** **Attack** **1** (**Move Action**) ● **Martial, Psychic**  
 > **Near** burst 10, three creatures not within 3 of you  
 > **Attack** Charisma +2 vs Will  
 > **Hit** The target cannot make melee or ranged attacks against you until the start of your next turn. If you mark or inflict damage on the target, the effect ends and the target is immune to this power until the end of the encounter.  
 
-> #### Exploit Weakness  
+<h4 class="Heading-4---Encounter">Exploit Weakness</h4>
 > *Your enemy is not angry as much as confused by what you just said.*  
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Martial, Psychic, Consistent**  
 > **Near** burst 10, one creature you can see  
 > **Attack** Charisma +2 vs Will  
 > **Hit** The target is immobile until the end of your next turn. If the target takes any damage from you or your allies, it immediately recovers from this effect.   
 
-> #### Personal Betrayal  
+<h4 class="Heading-4---Encounter">Personal Betrayal</h4>
 > *The enemy wasn’t expecting your attack. It wasn’t even sure you were an enemy. Well, now it knows.*  
 > **Encounter** **Attack** **1** (**Swift Action**) ● **Martial**  
 > **Near** burst 10, one creature you can see that you have not damaged this encounter  
 > **Effect** Until the start of your next turn, whenever you make a damage roll against the target, you gain a power bonus to the roll equal to your Charisma modifier.  
 > **Maintain Swift** The effect persists until the start of your next turn.  
 
-> #### Forked Tongue  
+<h4 class="Heading-4---Daily">Forked Tongue</h4>
 > *The target is swayed by your magnetic charisma, the tone of your voice, and your general attitude.*  
 > **Daily** **Attack** **1** (**Standard Action**) ● **Martial, Psychic, Consistent**  
 > **Near** burst 5, one creature you can see  
@@ -4339,14 +4339,14 @@ You are a slippery, taunting combatant who can fool even skeptical foes.
 > **Hit** Until the end of your next turn, your allies have concealment against the target and you gain a +3 power bonus to all Diplomacy and Bluff checks against it. If the target takes any damage while this power is in effect, it is stunned until the end of your next turn.  
 > **Maintain Standard** The effect persists until the end of your next turn, until the target takes damage or until you take damage, whichever comes first.  
 
-> #### Parley  
+<h4 class="Heading-4---Daily">Parley</h4>
 > *You convince your enemy to settle down and pause, at least for a moment. It may not last, especially if an ally is aggressive.*  
 > **Daily** **Attack** **1** (**Standard Action**) ● **Martial, Psychic, Consistent**  
 > **Near** burst 10, one creature you can see  
 > **Attack** Charisma +2 vs Will  
 > **Hit** The target is stunned (save ends). If the target takes any damage or is moved, the effect immediately ends and the target gains a +2 bonus to all defenses until the start of its next turn.  
 
-> #### Grace Under Pressure  
+<h4 class="Heading-4---Encounter">Grace Under Pressure</h4>
 > *You are suave and as cool as ice.  Even when the arrows fly, you act calmly.*  
 > **Encounter** **Utility** **2** (**Swift Action**) ● **Martial**  
 > **Effect** Until the start of your next turn, you gain a +2 power bonus to all defenses (AC, Fortitude, Reflex and Will).  
@@ -4362,7 +4362,7 @@ You are a slippery, taunting combatant who can fool even skeptical foes.
 > **Attack** Charisma +2 vs Will  
 > **Hit** The target is dazed until the end of your next turn.  
 
-> #### Perfect Masquerade  
+<h4 class="Heading-4---Daily">Perfect Masquerade</h4>
 > *Your accent and mannerisms are flawless. No matter the task or test, you can fake it.*  
 > **Daily** **Attack** **5** (**Standard Action**) ● **Martial, Psychic**  
 > **Near** burst 10, all creatures  
@@ -4372,7 +4372,7 @@ You are a slippery, taunting combatant who can fool even skeptical foes.
 > **Effect** You gain a +3 power bonus to Bluff checks and can make a Bluff check in place of any knowledge (but not monster knowledge) check until the end of your next turn.  
 > **Maintain Standard** Repeat the attack.  
 
-> #### Sow Distrust  
+<h4 class="Heading-4---Daily">Sow Distrust</h4>
 > *You convince an enemy with thrown voices, rocks, or any other diversion to choose another target.*  
 > **Daily** **Attack** **5** (**Counter Action**) ● **Martial, Consistent, Psychic**  
 > **Near** burst 10, one creature  
@@ -4380,33 +4380,33 @@ You are a slippery, taunting combatant who can fool even skeptical foes.
 > **Attack** Charisma +2 vs Will  
 > **Hit** The target’s attack is directed to any other target in range and line of sight (your choice).  
 
-> #### Smooth Talker  
+<h4 class="Heading-4---Encounter">Smooth Talker</h4>
 > *You step in during an escalating conversation and attempt to smooth out the ripples of an impending confrontation. If the situation requires, you can also spot a liar.*  
 > **Encounter** **Utility** **6** (**No Action**) ● **Martial**  
 > **Self**   
 > **Effect** Gain a +5 power bonus to your next Bluff, Diplomacy, Insight, or Perception check or your next attack with the Psychic tag.  
 > **Special** If you fail the check or miss with the attack, this power is not expended.  
 
-> #### Cool Nerves  
+<h4 class="Heading-4---Daily">Cool Nerves</h4>
 > *The group is under attack. Tempers are fraying. Someone’s about ready to snap. You blurt out a comical remark that brings it all home.*  
 > **Daily** **Utility** **6** (**Move Action**) ● **Martial, Psychic**  
 > **Near** earshot, all allies  
 > **Effect** The target gains a +2 power bonus to Will defense until the end of the encounter. On their next turn, the target can either spend a recovery or gain an additional move action.  
 
-> #### Fast-Talk  
+<h4 class="Heading-4---Daily">Fast-Talk</h4>
 > *While normal people bog down someone with a lot of useless banter, you get to the point, and it works.*  
 > **Daily** **Utility** **6** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Effect** You gain a +10 power bonus to your next Bluff, Diplomacy, or Intimidate check, and you gain a +3 power bonus to all other skill checks with those skills until the end of the encounter (or five minutes).  
 
-> #### Empathic Response  
+<h4 class="Heading-4---Encounter">Empathic Response</h4>
 > *“I know what you’re going through. This is not the solution. We can make a deal. Just me … just talk to me. You know you can trust me.”*  
 > **Encounter** **Attack** **7** (**Move Action**) ● **Martial, Psychic, Consistent**  
 > **Near** burst 10, one creature you can see  
 > **Attack** Charisma +2 vs Will  
 > **Hit** The target is marked and cannot make any attack that only includes you until the end of your next turn.  
 
-> #### Instant Infatuation  
+<h4 class="Heading-4---Daily">Instant Infatuation</h4>
 > *You say and do exactly what they want you to say or do, instantly enticing your target.*  
 > **Daily** **Attack** **9** (**Swift Action**) ● **Martial, Psychic, Consistent**  
 > **Near** burst 2, one creature you can see  
@@ -4416,7 +4416,7 @@ You are a slippery, taunting combatant who can fool even skeptical foes.
 > **Miss** Until the end of your next turn, you gain a +4 power bonus to Will defense against the target’s attacks and a +4 power bonus to Bluff and Diplomacy checks against the target.  
 > **Maintain Swift** The effects persist until the end of your next turn. You can maintain until you inflict damage on the target or until the target inflicts damage on you.  
 
-> #### Read Body Language  
+<h4 class="Heading-4---Daily">Read Body Language</h4>
 > *You read your opponent’s movements and their next course of action. You throw a diversion to prevent concentration.*  
 > **Daily** **Attack** **9** (**Counter Action**) ● **Martial, Psychic, Consistent**  
 > **Near** burst 10, the triggering enemy  
@@ -4425,7 +4425,7 @@ You are a slippery, taunting combatant who can fool even skeptical foes.
 > **Hit** The triggering power is expended and the target’s action is lost. If you score a critical hit, the target is also stunned until the start of your next turn.  
 > **Special** Spend a recovery as part of this power, but regain no hit points; instead, you recover the use of this power.  
 
-> #### I Know This Trick  
+<h4 class="Heading-4---Encounter">I Know This Trick</h4>
 > *Your enemy attempts a tricky tactic you have been trained to avoid.*  
 > **Encounter** **Utility** **10** (**No Action**) ● **Martial**  
 > **Self**   
@@ -4437,14 +4437,14 @@ You are a slippery, taunting combatant who can fool even skeptical foes.
 > **Self**   
 > **Effect** You mark all enemies that can see you until the end of your next turn. You lose all benefits of cover or concealment. Until the end of your next turn, basic attacks only require a swift action.  
 
-> #### Gruff and Tough  
+<h4 class="Heading-4---Encounter">Gruff and Tough</h4>
 > *You snort and spout a boast about your abilities.*  
 > **Encounter** **Attack** **13** (**Move Action**) ● **Fear, Martial, Psychic**  
 > **Near** burst 10, one creature you can see  
 > **Attack** Charisma +2 vs Will  
 > **Effect** The target is stunned until the end of your next turn, and you push the target its speed.  
 
-> #### Backup Plan  
+<h4 class="Heading-4---Daily">Backup Plan</h4>
 > *You realize things are going badly and act quickly with a backup.*  
 > **Daily** **Attack** **15** (**Free Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, one creature  
@@ -4461,20 +4461,20 @@ You are a slippery, taunting combatant who can fool even skeptical foes.
 > **Special** If the target takes any damage, they are no longer helpless, though they are still dazed.  
 > **Maintain Standard** The effect persists until the end of your next turn. If either the target or you take damage, the effect ends immediately and cannot be maintained. 
 
-> #### Method Acting  
+<h4 class="Heading-4---Daily">Method Acting</h4>
 > *You become the part. You take on the role so flawlessly, the old you is pushed away.*  
 > **Daily** **Utility** **16** (**Swift Action**) ● **Martial**  
 > **Self**   
 > **Effect** Until the end of the encounter, you gain a +5 power bonus to all Bluff and Intimidate checks and can use Bluff in place of any Intelligence- or Wisdom-based skill.  
 
-> #### Unshakable Persona  
+<h4 class="Heading-4---Daily">Unshakable Persona</h4>
 > *You can recover in an instant, changing course fast enough that listeners didn’t even notice.*  
 > **Daily** **Utility** **16** (**No Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You make any Intelligence-, Wisdom-, or Charisma-based skill check and dislike the result.  
 > **Effect** You succeed at the roll.  
 
-> #### Dazzling Personality  
+<h4 class="Heading-4---Encounter">Dazzling Personality</h4>
 > *You manage to direct your opponent to doing exactly what you wanted, even if your target wasn’t even aware of it.*  
 > **Encounter** **Attack** **17** (**Move Action**) ● **Martial, Psychic**  
 > **Near** burst 10, one creature you can see  
@@ -4488,13 +4488,13 @@ You are a slippery, taunting combatant who can fool even skeptical foes.
 > **Attack** Charisma +2 vs Will  
 > **Effect** Until the start of your next turn, the target is stunned and helpless against your attacks.  
 
-> #### Lead the Shot  
+<h4 class="Heading-4---Daily">Lead the Shot</h4>
 > *The time for talking is over.  You give your ally the sign to end the conversation.*  
 > **Daily** **Attack** **19** (**Free Action**) ● **Martial**  
 > **Near** earshot, one ally  
 > **Effect** Until the start of your next turn, as an immediate counter action, the target may make any single action available to it. The target gains a +4 power bonus to attack rolls made as part of that action. Before or after your ally acts, you can take a move action.  
 
-> #### Butt In  
+<h4 class="Heading-4---Daily">Butt In</h4>
 > *You step forward an instant before things go sour and you attempt to cool the situation or at least stall while others prepare.*  
 > **Daily** **Utility** **22** (**No Action**) ● **Martial, Psychic**  
 > **Self**   
@@ -4502,7 +4502,7 @@ You are a slippery, taunting combatant who can fool even skeptical foes.
 > **Trigger** You roll for initiative.  
 > **Effect** Gain a +10 power bonus to initiative. If you act first in an encounter, you gain a standard action which must be used for a power with the Psychic tag.  
 
-> #### All Attention  
+<h4 class="Heading-4---Encounter">All Attention</h4>
 > *You draw the attention of all those around, allowing allies to get into a better position.*  
 > **Encounter** **Attack** **23** (**Move Action**) ● **Martial, Open, Psychic**  
 > **Near** burst 10, four creatures  
@@ -4510,7 +4510,7 @@ You are a slippery, taunting combatant who can fool even skeptical foes.
 > **Hit** The target is marked and cannot make attacks that do not include you until the end of your next turn. Each ally in burst can shift a number of squares up to their speed.  
 > **Effect** You gain a +4 power bonus to all defenses until the start of your next turn.  
 
-> #### Feign Mortality  
+<h4 class="Heading-4---Daily">Feign Mortality</h4>
 > *You lure your opponent with an award-winning performance faking injury, death, or vulnerability. When your enemy least suspects it, you strike.*  
 > **Daily** **Attack** **25** (**Free Action**) ● **Martial, Psychic, Weapon**  
 > **Melee or Ranged** weapon, the creature that staggered you  
@@ -4518,14 +4518,14 @@ You are a slippery, taunting combatant who can fool even skeptical foes.
 > **Effect** Choose a condition, like helpless or unconscious, or an affliction, like cyanide poisoning or a witch’s curse. You appear to suffer from that condition or affliction. You can drop prone as part of this action. You gain a +10 bonus to Bluff checks to maintain the illusion. This effect lasts until the end of the encounter or until you make the following attack.  
 *Attack:* As an immediate interrupt or as a swift action on your turn, make a basic attack against the target. You automatically score a critical hit, and deal 1dW extra damage.  
 
-> #### Touched a Nerve  
+<h4 class="Heading-4---Daily">Touched a Nerve</h4>
 > *You must have really said something to upset them.*  
 > **Daily** **Attack** **25** (**Move Action**) ● **Martial, Psychic, Consistent**  
 > **Near** burst 10, one creature you can see  
 > **Attack** Charisma +2 vs Will  
 > **Hit** The target is helpless (save ends).  If the target is hit by an attack, they are no longer helpless.  
 
-> #### Destructive Criticism  
+<h4 class="Heading-4---Encounter">Destructive Criticism</h4>
 > *You really know what to say to bring someone down.*  
 > **Encounter** **Attack** **27** (**Move Action**) ● **Martial, Psychic, Consistent**  
 > **Near** burst 10, one creature  
@@ -4535,7 +4535,7 @@ You are a slippery, taunting combatant who can fool even skeptical foes.
 > ● One condition with a finite duration that the target is suffering lasts an additional round.  
 > **Maintain Move** Repeat the attack. You can maintain until you miss.  
 
-> #### Commanding Presence  
+<h4 class="Heading-4---Daily">Commanding Presence</h4>
 > *You give the illusion of authority.*  
 > **Daily** **Attack** **29** (**Move Action**) ● **Martial, Psychic, Consistent**  
 > **Near** burst 10, two creatures you can see  
@@ -4549,27 +4549,27 @@ You are a slippery, taunting combatant who can fool even skeptical foes.
 
 A tactical master, you direct your allies to seize victory. 
 
-> #### Instinctual Reaction  
+<h4 class="Heading-4---At-Will">Instinctual Reaction</h4>
 > *Your intuition tells you where your enemy is most likely to be, where their weaknesses lie, and where to direct your attention to counteract their plan.*  
 > **At-Will** **Attack** **1** (**Move Action**) ● **Focus, Martial**  
 > **Ranged** 10, one creature  
 > **Attack** Intelligence +2 vs Will  
 > **Hit** Until the start of your next turn, the target loses all benefits of cover or concealment; superior cover and total concealment is reduced to -2. The target grants combat advantage to one ally in range until the start of your next turn.  
 
-> #### Mark of the Puppeteer  
+<h4 class="Heading-4---At-Will">Mark of the Puppeteer</h4>
 > *You lead the target into another’s threat range.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Self**   
 > **Effect** Make a basic attack.  If you hit, you shunt the target two squares.  
 
-> #### Tactical Alteration  
+<h4 class="Heading-4---At-Will">Tactical Alteration</h4>
 > *You outmaneuver your opponent and feign them into a poor strategic position.*  
 > **At-Will** **Attack** **1** (**Move Action**) ● **Focus, Martial**  
 > **Near** burst 10, one creature you can see  
 > **Attack** Intelligence +2 vs Will  
 > **Hit** The target is marked by an ally in line of sight to the target. The mark lasts until the target is staggered or until you use *tactical alteration* again.  
 
-> #### Distracting Attack  
+<h4 class="Heading-4---Encounter">Distracting Attack</h4>
 > *You make your foe believe an attack is impending from a flank.  You cause it to move from cover.*  
 > **Encounter** **Attack** **1** (**Free Action**) ● **Martial**  
 > **Self**   
@@ -4577,14 +4577,14 @@ A tactical master, you direct your allies to seize victory.
 > **Effect** The target grants combat advantage to all allies in eyesight until the start of your next turn.  
 > **Maintain Standard** The effect persists until the start of your next turn. You cannot maintain if the target moves from cover.  
 
-> #### Into the Fire  
+<h4 class="Heading-4---Encounter">Into the Fire</h4>
 > *You rescue an ally from impending doom.*  
 > **Encounter** **Attack** **1** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You hit a creature.  
 > **Effect** The creature you hit is marked until the end of your next turn. Two allies in eyesight shift their speed.  
 
-> #### Stick to the Plan  
+<h4 class="Heading-4---Encounter">Stick to the Plan</h4>
 > *Your brilliant maneuver forces enemies into an unwise counter-maneuver.*  
 > **Encounter** **Attack** **1** (**Move Action**) ● **Focus, Martial**  
 > **Near** eyesight, all creatures  
@@ -4592,34 +4592,34 @@ A tactical master, you direct your allies to seize victory.
 > **Hit** Shunt the target 2 squares.   
 > **Special** Allies must be  willing to be targeted. 
 
-> #### Force It Back  
+<h4 class="Heading-4---Daily">Force It Back</h4>
 > *Converge all attacks on the target and drive it back.*  
 > **Daily** **Attack** **1** (**Move Action**) ● **Focus, Martial, Consistent**  
 > **Near** eyesight, one creature  
 > **Attack** Intelligence +2 vs Will  
 > **Hit** Until the end of the encounter, each time the target is hit with an attack, you can shunt it 1 square.  
 
-> #### Make It Dance  
+<h4 class="Heading-4---Daily">Make It Dance</h4>
 > *You make your foe dive for cover rather than continue their attack.*  
 > **Daily** **Attack** **1** (**Counter Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, triggering creature  
 > **Trigger** A creature in eyesight moves towards you or an ally.  
 > **Effect** Make a basic attack against the target. Until the end of your next turn, the target is immobile, and you and all allies in sight gain combat advantage against the target.  
 
-> #### Bring Me Everyone  
+<h4 class="Heading-4---Encounter">Bring Me Everyone</h4>
 > *Everyone?*  
 > **Encounter** **Utility** **2** (**Move Action**) ● **Martial**  
 > **Near** eyesight, all allies  
 > **Effect** Pull the target 4 squares.  
 
-> #### Cover The Escape  
+<h4 class="Heading-4---Encounter">Cover The Escape</h4>
 > *You provide direct assistance to allow allies to withdraw.*  
 > **Encounter** **Attack** **3** (**Free Action**) ● **Martial, Weapon**  
 > **Self**   
 > **Trigger** You hit a creature.  
 > **Effect** The creature you hit takes 1dW extra damage from the triggering attack and, until the end of your next turn, that creature cannot make opportunity attacks or benefit from combat advantage. All allies adjacent to the creature can shift their speed −4.  
 
-> #### Encouraging Advice  
+<h4 class="Heading-4---Encounter">Encouraging Advice</h4>
 > *You stand with your allies and support their actions.*  
 > **Encounter** **Attack** **3** (**Counter Action**) ● **Martial, Consistent**  
 > **Near** eyesight, one creature  
@@ -4627,14 +4627,14 @@ A tactical master, you direct your allies to seize victory.
 > **Attack** Intelligence +2 vs Reflex  
 > **Hit** The target is hit by the triggering attack.  
 
-> #### Back-To-Back  
+<h4 class="Heading-4---Daily">Back-To-Back</h4>
 > *They have your back; you have theirs.*  
 > **Daily** **Attack** **5** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** touch, you and one adjacent ally  
 > **Effect** The target makes a basic attack.  Until the start of your next turn, the target gains a +2 power bonus to AC and Reflex defense.  
 > **Maintain Standard** The target repeats the attack and the effect persists. You cannot maintain if you and the targeted ally are no longer in adjacent squares.  
 
-> #### Cover Opportunity  
+<h4 class="Heading-4---Daily">Cover Opportunity</h4>
 > *You take the full force of your enemy’s attack to offer your allies a chance to recover.*  
 > **Daily** **Attack** **5** (**Move Action**) ● **Healing, Martial, Consistent**  
 > **Near** burst 5, two creatures you can see  
@@ -4642,21 +4642,21 @@ A tactical master, you direct your allies to seize victory.
 > **Hit** The target is marked until the end of the encounter.  
 > **Effect** All allies in eyesight can spend a recovery and heal their recovery value in hit points.  
 
-> #### Attract Attention  
+<h4 class="Heading-4---Daily">Attract Attention</h4>
 > *You’ve got to do something stupid in order to save the team.*  
 > **Daily** **Utility** **6** (**Move Action**) ● **Martial**  
 > **Self**   
 > **Effect** All creatures you have marked suffer an additional -2 penalty to attacks that don’t include you until the end of your next turn. All targets you have marked gain a +2 bonus to attack you until the end of your next turn.  
 > **Maintain Move** The effect persists  until the end of your next turn.  
 
-> #### Blind Spot  
+<h4 class="Heading-4---Encounter">Blind Spot</h4>
 > *An enemy comes out of nowhere.  You make a quick attack before it can assault a comrade.*  
 > **Encounter** **Attack** **7** (**Counter Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, one enemy  
 > **Trigger** An enemy makes its first attack of the encounter.  
 > **Effect** Make a basic attack against the target. If you hit, the target takes 1dW extra damage from the attack. The target suffers a -4 penalty to attack rolls until the end of your next turn.  
 
-> #### Right into the Trap  
+<h4 class="Heading-4---Encounter">Right into the Trap</h4>
 > *Your opponent falls perfectly for your taunt.  It doesn’t realize its mistake until it’s too late.*  
 > **Encounter** **Attack** **7** (**Counter Action**) ● **Focus, Martial**  
 > **Near** eyesight, the triggering ally  
@@ -4664,7 +4664,7 @@ A tactical master, you direct your allies to seize victory.
 > **Attack** Intelligence +2 vs Reflex  
 > **Hit** Your ally’s hit becomes a critical hit.  
 
-> #### Take the Lead  
+<h4 class="Heading-4---Encounter">Take the Lead</h4>
 > *In the absence of proper leadership, you stand up to lead the charge.*  
 > **Encounter** **Attack** **7** (**Free Action**) ● **Martial, Weapon**  
 > **Self**   
@@ -4672,14 +4672,14 @@ A tactical master, you direct your allies to seize victory.
 > **Effect** The creature is  marked until the end of your next turn. While it is marked, if  the creature moves in any direction that does not bring it closer to you, you  can make a basic attack against it as a counter.  
 > **Maintain Swift** The effect persists until the end of your next turn.  
 
-> #### Aggravate the Wound  
+<h4 class="Heading-4---Daily">Aggravate the Wound</h4>
 > *Your attack struck a previous wound the enemy had already sustained, causing further damage.*  
 > **Daily** **Attack** **9** (**Free Action**) ● **Martial, Weapon**  
 > **Self**   
 > **Trigger** You hit a creature.  
 > **Effect** The creature you hit takes 2dW extra damage from the triggering attack, and it fails its next saving throw.  
 
-> #### Proud Target  
+<h4 class="Heading-4---Daily">Proud Target</h4>
 > *Yup, you’re the leader.  They know it, even if it isn’t true.*  
 > **Daily** **Attack** **9** (**Move Action**) ● **Focus, Martial**  
 > **Near** burst 10, all enemies you can see  
@@ -4688,20 +4688,20 @@ A tactical master, you direct your allies to seize victory.
 > **Effect** You gain a +2 power bonus to all defenses until the end of your next turn.  
 > **Maintain Move** Repeat the attack and the bonus to defenses persists until the end of your next turn. 
 
-> #### Boar’s Head  
+<h4 class="Heading-4---Encounter">Boar’s Head</h4>
 > *You and your allies move in formation.*  
 > **Encounter** **Utility** **10** (**Move Action**) ● **Martial**  
 > **Near** burst 3, you and all allies  
 > **Effect** The target moves your speed. Each target must end their move adjacent to at least one other target. 
 
-> #### Taunting Mockery  
+<h4 class="Heading-4---Encounter">Taunting Mockery</h4>
 > *You scream obscenities and hurl rocks to anger an opponent.*  
 > **Encounter** **Utility** **10** (**Swift Action**) ● **Martial**  
 > **Ranged** 20, one creature  
 > **Effect** You mark the target until the start of your next turn.  
 > **Maintain Swift** The effect persists until the start of your next turn.  
 
-> #### Diverting Attack  
+<h4 class="Heading-4---Encounter">Diverting Attack</h4>
 > *Your attack causes your enemy to rear its head, allowing others to take the kill shot.*  
 > **Encounter** **Attack** **13** (**Free Action**) ● **Focus, Martial, Consistent**  
 > **Self**   
@@ -4709,51 +4709,51 @@ A tactical master, you direct your allies to seize victory.
 > **Hit** You and all allies in sight can score a critical hit against the creature you hit on a natural roll of 18, 19, or 20 until the start of your next turn.  
 > **Maintain Move** The effect persists until the start of your next turn. You cannot maintain if you or any ally scored a critical hit the previous round.  
 
-> #### Positive Reinforcement  
+<h4 class="Heading-4---Encounter">Positive Reinforcement</h4>
 > *You ally’s attack was far more deadly than even they thought it was.*  
 > **Encounter** **Attack** **13** (**Move Action**) ● **Focus, Martial, Consistent**  
 > **Near** burst 10, one creature you damaged this turn  
 > **Attack** Intelligence +2 vs Reflex  
 > **Hit** Until the start of your next turn, you and all allies in sight gain a +6 power bonus to attack rolls with basic attacks against the target.  
 
-> #### Subtle Encouragement  
+<h4 class="Heading-4---Encounter">Subtle Encouragement</h4>
 > *The enemy doesn’t know it, but you have maneuvered them right where you want them.*  
 > **Encounter** **Attack** **13** (**Move Action**) ● **Martial**  
 > **Near** burst 10, one creature  
 > **Hit** Shunt the target a number of squares equal to your Charisma modifier, and it grants you and all allies combat advantage until the end of your next turn. One ally in eyesight automatically hits with their next at-will or encounter power against the target.  
 
-> #### Hearten the Squad  
+<h4 class="Heading-4---Daily">Hearten the Squad</h4>
 > *There stands the enemy and your group must destroy it.*  
 > **Daily** **Attack** **15** (**Standard Action**) ● **Focus, Martial**  
 > **Near** burst 10, one creature you can see  
 > **Effect** All allies in sight and in line of effect to the target automatically hit the target with basic attacks until the start of your next turn.  
 
-> #### No Time to Bleed  
+<h4 class="Heading-4---Daily">No Time to Bleed</h4>
 > *You’re hit but the others can’t see you squirm.*  
 > **Daily** **Attack** **15** (**Free Action**) ● **Healing, Martial, Weapon**  
 > **Near** eyesight, the triggering creature  
 > **Trigger** You hit one creature that hit you since the start of your last turn.  
 > **Effect** The target takes 3dW extra damage from the triggering attack, and you can spend a recovery and heal your recovery value.  
 
-> #### Direct Strike  
+<h4 class="Heading-4---Encounter">Direct Strike</h4>
 > *You relay important information to allies about approaching threats.*  
 > **Encounter** **Utility** **16** (**Move Action**) ● **Martial**  
 > **Near** burst 10, all enemies you can see  
 > **Effect** The target grants combat advantage to you and all allies until the start of your next turn.  
 
-> #### Plan of Attack  
+<h4 class="Heading-4---Encounter">Plan of Attack</h4>
 > *Don’t just all of you run headstrong into a fight. Let’s think this through.*  
 > **Encounter** **Utility** **16** (**Move Action**) ● **Martial**  
 > **Near** eyesight, four allies  
 > **Effect** The target gains a +3 power bonus to attack rolls until the start of your next turn.  
 
-> #### Center Peel  
+<h4 class="Heading-4---Encounter">Center Peel</h4>
 > *You create a diversion and a precious opportunity for a wounded ally to break off and retreat.*  
 > **Encounter** **Attack** **17** (**Move Action**) ● **Martial**  
 > **Ranged** eyesight, all enemies  
 > **Effect** Until the end of your next turn, the targets are marked and slowed. Allies in range shift a number of squares equal to 1 + your Charisma modifier, but must not end their movement adjacent to an enemy.
 
-> #### Direct Threat  
+<h4 class="Heading-4---Encounter">Direct Threat</h4>
 > *You stand against the most dangerous opponent on the field.*  
 > **Encounter** **Attack** **17** (**Move Action**) ● **Focus, Martial, Consistent**  
 > **Near** burst 5, one creature you can see  
@@ -4761,27 +4761,27 @@ A tactical master, you direct your allies to seize victory.
 > **Hit** Until the end of your next turn, the target can make no attacks that do not include you, you gain a +2 bonus to all defenses against the target’s attacks, and if the target hits you, you can make a basic attack against it as an immediate reaction.  
 > **Maintain Swift** The effect persists until the end of your next turn. You can only sustain if you are not staggered.  
 
-> #### Target Priority  
+<h4 class="Heading-4---Encounter">Target Priority</h4>
 > *One ally is injured.  You goad enemies into shifting their attention.*  
 > **Encounter** **Attack** **17** (**Move Action**) ● **Martial**  
 > **Near** eyesight, one ally  
 > **Effect** Until the start of your next turn, all enemies suffer a -4 penalty to attack rolls against the target, and if any enemy hits the target, one ally in eyesight gains a basic attack against that enemy as a counter.  
 > **Maintain Move** The effect persists until the start of your next turn. You cannot sustain if the target scores a critical hit on an enemy.  
 
-> #### Secure Perimeter  
+<h4 class="Heading-4---Daily">Secure Perimeter</h4>
 > *You form a circle with your comrades when surrounded by enemies.  You make a final stand against the onslaught.*  
 > **Daily** **Attack** **19** (**Standard Action**) ● **Martial, Weapon**  
 > **Near** burst 3, you and up to four allies  
 > **Effect** The target can make a basic attack as an opportunity action against any enemy that approaches within 5 squares of them but is not adjacent. Creatures hit are immobile until the start of the target’s next turn.  
 > **Maintain Standard** You and allies repeat the attack. You cannot sustain if a target moves 3 squares or further from another target.  
 
-> #### Focus Target  
+<h4 class="Heading-4---Encounter">Focus Target</h4>
 > *You order an ally to focus and ignore all distractions.*  
 > **Encounter** **Utility** **22** (**Move Action**) ● **Martial**  
 > **Near** eyesight, one ally  
 > **Effect** Until the start of your next turn, the target gains a +4 power bonus to attack rolls and can score a critical hit on a natural roll of 18-20.  
 
-> #### Sudden Exposure  
+<h4 class="Heading-4---Encounter">Sudden Exposure</h4>
 > *You scream for an ally to get down, making their foe vulnerable to attack.*  
 > **Encounter** **Attack** **23** (**Move Action**) ● **Focus, Martial, Consistent**  
 > **Near** eyesight, one enemy  
@@ -4790,20 +4790,20 @@ A tactical master, you direct your allies to seize victory.
 > *Hit:* The target gains vulnerability to all weapon damage 5 until the end of your next turn.  
 > **Maintain Move** The target gains vulnerability to all weapon damage 5 until the end of your next turn. You cannot sustain if the target is staggered.  
 
-> #### On A Pile of Corpses  
+<h4 class="Heading-4---Encounter">On A Pile of Corpses</h4>
 > *You scream in defiance, standing on a hill built from the bodies of your enemies.*  
 > **Encounter** **Attack** **23** (**Move Action**) ● **Martial, Weapon**  
 > **Near** burst 10, all enemies you can see  
 > **Effect** You mark the target and pull it 4 squares. Until the end of your next turn, you gain a +4 bonus to all defenses, and if any of your marked targets makes an attack that does not include you, the target is helpless against your attacks.  
 > **Maintain Move** The effect persists until the end of your next turn. You can only sustain this power once.  
 
-> #### Point Of No Return  
+<h4 class="Heading-4---Daily">Point Of No Return</h4>
 > *You risk everything, even personal injury, towards the success of the mission.*  
 > **Daily** **Attack** **25** (**Standard Action**) ● **Healing, Martial**  
 > **Near** eyesight, you and four allies  
 > **Effect** The target can spend a recovery. They can either regain hit points or use their recovery value as a damage bonus on their next hit. The target can make an immediate basic attack.  
 
-> #### Pinpoint Objective  
+<h4 class="Heading-4---Daily">Pinpoint Objective</h4>
 > *You find the most dangerous opponent--the enemy commander or the largest target.  Everyone coordinates their attacks.*  
 > **Daily** **Attack** **25** (**Move Action**) ● **Focus, Martial, Consistent**  
 > **Near** burst 10, one creature you can see  
@@ -4811,7 +4811,7 @@ A tactical master, you direct your allies to seize victory.
 > **Hit** Until the start of your next turn, all allies in sight gain a +2 bonus to attack and a +5 bonus to damage against the target.  
 > **Maintain Move** Until the start of your next turn, each time an ally hits the target, the target takes +5 damage.  
 
-> #### Brilliant Opportunity  
+<h4 class="Heading-4---Encounter">Brilliant Opportunity</h4>
 > *Your tactical planning has created an opening.*  
 > **Encounter** **Attack** **27** (**Move Action**) ● **Focus, Martial, Consistent**  
 > **Ranged** eyesight, one creature  
@@ -4819,13 +4819,13 @@ A tactical master, you direct your allies to seize victory.
 > **Hit** Until the start of your next turn, when the target hits with an attack, one ally in eyesight makes a basic attack against a target of their choice as a reaction.  
 > **Maintain Move** The effect persists until the start of your next turn.  You can only sustain once.  
 
-> #### Perfect Timing  
+<h4 class="Heading-4---Encounter">Perfect Timing</h4>
 > *You‘ve planned ahead for this moment. You knew where your enemy would be, where they would strike, and when their weaknesses would be revealed. You give your allies the word and they act according to the plan.*  
 > **Encounter** **Attack** **27** (**Standard Action**) ● **Martial**  
 > **Near** eyesight, all allies  
 > **Effect** Once before the start of your next turn, the target can make a basic attack as a counter.  
 
-> #### Shock And Awe  
+<h4 class="Heading-4---Daily">Shock And Awe</h4>
 > *You display overwhelming battle awareness.*  
 > **Daily** **Attack** **29** (**Swift Action**) ● **Focus, Martial**  
 > **Near** burst 10, all enemies  
@@ -4834,7 +4834,7 @@ A tactical master, you direct your allies to seize victory.
 > **Effect** You and each ally in burst can shift a number of squares equal to 1+ your Intelligence modifier.  
 > **Maintain Swift** Repeat the attack.  
 
-> #### Shining Example  
+<h4 class="Heading-4---Daily">Shining Example</h4>
 > *Your allies are moved by your bravado.*  
 > **Daily** **Attack** **29** (**Move Action**) ● **Martial**  
 > **Near** burst 10, all enemies  
@@ -4851,7 +4851,7 @@ You can enchant, influence and dominate the weaker willed.
 
 <figure><img src="pics\LuigiCastellani_CONVERSIONSLOT.png" alt="Conversion by Luigi Castellani" style="zoom: 33%;" /><figcaption>Conversion by Luigi Castellani</figcaption></figure>
 
-> #### Befuddle  
+<h4 class="Heading-4---At-Will">Befuddle</h4>
 >
 > *Your mental influence clouds your opponent’s concentration.*  
 > **At-Will** **Attack** **1** (**Move Action**) ● **Arcane, Focus, Psychic**  
@@ -4859,7 +4859,7 @@ You can enchant, influence and dominate the weaker willed.
 > **Attack** Wisdom vs Will  
 > **Hit** The target is dazed until the start of your next turn.  
 
-> #### Neural Spear  
+<h4 class="Heading-4---At-Will">Neural Spear</h4>
 >
 > *You scour the target’s mind.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Arcane, Focus, Psychic**  
@@ -4868,7 +4868,7 @@ You can enchant, influence and dominate the weaker willed.
 > **Hit** 1d8 + Wisdom modifier psychic damage. 
 > *Level 21:* 2d8 + Wisdom modifier damage.  
 
-> #### Instant Friends  
+<h4 class="Heading-4---Encounter">Instant Friends</h4>
 >
 > *Don’t you remember me? We’re old pals.*  
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Arcane, Charm, Focus, Psychic**  
@@ -4877,7 +4877,7 @@ You can enchant, influence and dominate the weaker willed.
 > **Hit** The target treats you as a friend and cannot attack you until the end of your next turn. You can use your Bluff skill to convince the target to do something for you, as per normal rules for Bluff. The effect ends immediately if you make an attack that damages the target.   
 > **Maintain Swift** Repeat the attack against the same target. On a hit the duration is extended until the end of your next turn.  
 
-> #### Recall Probe  
+<h4 class="Heading-4---Daily">Recall Probe</h4>
 >
 > *You sift through the target’s memories, searching for the needed one.*  
 > **Daily** **Attack** **1** (**Standard Action**) ● **Arcane, Focus, Psychic**  
@@ -4887,7 +4887,7 @@ You can enchant, influence and dominate the weaker willed.
 > **Miss** The power is not expended, but you cannot use it on the same target until after your next long rest.  
 > **Maintain Standard** Repeat the attack against an eligible target.  
 
-> #### Dreamtrancer  
+<h4 class="Heading-4---At-Will">Dreamtrancer</h4>
 >
 > *You move through the netherscape of untapped subconscious to communicate with someone else.*  
 > **At-Will** **Utility** **2** (**Standard and Move Action**) ● **Arcane, Psychic**  
@@ -4895,21 +4895,21 @@ You can enchant, influence and dominate the weaker willed.
 > **Effect** You enter the target’s dream until the start of your next turn. You can communicate with the target, convince it you are real or not. Once on your turn, make a Wisdom vs Will attack if you wish to take control of the dream: otherwise, you can only control your dream body and anything you can directly affect with it. If you take control of the dream, the target can attempt a Wisdom or Charisma vs Will attack at the start of its next turn to regain control. If you inflict harm on the target or the target inflicts harm on itself, it wakes up: however, if you are in control of the dream, the target can only harm itself if you wish it. While you are in the dream, you can take no actions outside of it. If you suffer damage in reality, the effect ends.  
 > **Maintain Free** The effect persists until the start of your next turn. You cannot maintain if the target wakes up.  
 
-> #### Imprint  
+<h4 class="Heading-4---At-Will">Imprint</h4>
 >
 > *You wave your hand and suddenly a piece of paper looks like a letter from the king, a copper coin looks like a gold coin, or a rock looks like a diamond. Surely there are other applications, but you can’t think of any.*  
 > **At-Will** **Utility** **2** (**Standard Action**) ● **Arcane, Illusion**  
 > **Melee** touch, one tiny object  
 > **Effect** You make one object look like something else of the same approximate size and shape. The illusion only affects the object’s visual qualities. Observers can make a Perception check opposed by your Bluff check to identify the illusion. The effect lasts until you dismiss it as a free action, or until you stop touching the object.  
 
-> #### Long Range Communication  
+<h4 class="Heading-4---At-Will">Long Range Communication</h4>
 >
 > *You concentrate and transmit a simple message over a vast distance.*  
 > **At-Will** **Utility** **2** (**Standard Action**) ● **Arcane, Psychic**  
 > **Near** burst 1 mile, one creature you can envision  
 > **Effect** You transmit a message of 25 words or less that only the target will hear.  
 
-> #### Indirect Camouflage  
+<h4 class="Heading-4---Daily">Indirect Camouflage</h4>
 >
 > *The best disguise is the one established in the mind.*  
 > **Daily** **Utility** **2** (**Move Action**) ● **Arcane, Consistent, Focus, Illusion, Psychic**  
@@ -4917,7 +4917,7 @@ You can enchant, influence and dominate the weaker willed.
 > **Hit** You disguise your appearance until the end of your next turn, making you look like someone else. The details of your appearance are up to you. You gain a +5 bonus to Bluff checks related to the disguise.  
 > **Maintain Move** The effect persists until the end of your next turn. You cannot maintain for longer than five minutes. 
 
-> #### All a Jumble  
+<h4 class="Heading-4---Encounter">All a Jumble</h4>
 >
 > *The target mixes up their target and ends attacking their best friend. That won’t go over well.*  
 > **Encounter** **Attack** **3** (**Counter Action**) ● **Arcane, Consistent, Focus, Psychic**  
@@ -4926,7 +4926,7 @@ You can enchant, influence and dominate the weaker willed.
 > **Attack** Wisdom vs Will  
 > **Hit** The target attacks a different creature of your choice within its attack’s range.  
 
-> #### Cut the Strings  
+<h4 class="Heading-4---Encounter">Cut the Strings</h4>
 >
 > *The target’s eyes roll back and they take a nice long nap.*  
 > **Encounter** **Attack** **3** (**Standard Action**) ● **Arcane, Consistent, Focus, Psychic**  
@@ -4935,7 +4935,7 @@ You can enchant, influence and dominate the weaker willed.
 > **Hit** The target falls unconscious until the end of your next turn. If it suffers any damage, it immediately wakes up.  
 > **Maintain Swift** Repeat the attack against the same target. You can continue to maintain even after the encounter ends. While you are not in an encounter, each time you maintain this power, the target  is unconscious for one hour or until it suffers damage. 
 
-> #### Reverberation  
+<h4 class="Heading-4---Encounter">Reverberation</h4>
 >
 > *You create a sound everyone thinks they hear.*  
 > **Encounter** **Attack** **3** (**Move Action**) ● **Arcane, Consistent, Focus, Psychic**  
@@ -4943,7 +4943,7 @@ You can enchant, influence and dominate the weaker willed.
 > **Attack** Wisdom vs Will  
 > **Hit** The target is distracted and grants combat advantage to all creatures until the end of your next turn.  
 
-> #### Direct Manipulation  
+<h4 class="Heading-4---Daily">Direct Manipulation</h4>
 >
 > *You push the target’s brain aside and take direct control of the target.*  
 > **Daily** **Attack** **5** (**Standard Action**) ● **Arcane, Charm, Consistent, Focus, Psychic**  
@@ -4952,7 +4952,7 @@ You can enchant, influence and dominate the weaker willed.
 > **Hit** The target is controlled until the end of your next turn.  
 > **Maintain Standard** Repeat the attack against the same target. You can continue to maintain even after the encounter ends. While you are not in an encounter, each time you maintain this power, the target is controlled for one hour. 
 
-> #### Making Matters Worse  
+<h4 class="Heading-4---Daily">Making Matters Worse</h4>
 >
 > *You’re already wiggling around their mind. Might as well cut a few nerves.*  
 > **Daily** **Attack** **5** (**Free Action**) ● **Arcane, Focus, Psychic**  
@@ -4961,7 +4961,7 @@ You can enchant, influence and dominate the weaker willed.
 > *Level 15:* 3d8 + Wisdom modifier damage.
 > *Level 25:* 4d8 + Wisdom modifier damage.  
 
-> #### Deep Scan  
+<h4 class="Heading-4---Daily">Deep Scan</h4>
 >
 > *You attempt to scan the thoughts of someone you cannot see.*  
 > **Daily** **Utility** **6** (**Standard and Move Action**) ● **Arcane, Consistent, Focus, Psychic**  
@@ -4970,21 +4970,21 @@ You can enchant, influence and dominate the weaker willed.
 > **Hit** You are able to scan the surface thoughts of the target, revealing its current location and what it is doing.  
 > **Special** No attack necessary against a willing target.  
 
-> #### Instill Confidence  
+<h4 class="Heading-4---Daily">Instill Confidence</h4>
 >
 > *You make someone feel just awesome.*  
 > **Daily** **Utility** **6** (**Swift Action**) ● **Arcane, Psychic**  
 > **Near** burst 5, one ally  
 > **Effect** The target gains a +5 bonus to all skill checks for five minutes.  
 
-> #### Psychic Refresh  
+<h4 class="Heading-4---Daily">Psychic Refresh</h4>
 >
 > *You are not like other people, limited in their uses of things.*  
 > **Daily** **Utility** **6** (**Move Action**) ● **Arcane, Psychic**  
 > **Self**   
 > **Effect** Recover the use of one of your encounter powers.  
 
-> #### Visual Deletion  
+<h4 class="Heading-4---Encounter">Visual Deletion</h4>
 >
 > *Although you can still make a noise, your opponents have no other ways to locate you.*  
 > **Encounter** **Attack** **7** (**Standard Action**) ● **Arcane, Focus, Illusion, Psychic**  
@@ -4993,7 +4993,7 @@ You can enchant, influence and dominate the weaker willed.
 > **Hit** You are invisible to the target until the end of your next turn.  
 > **Maintain Move** Repeat the attack against any targets you hit last turn.  
 
-> #### Act Casual  
+<h4 class="Heading-4---Daily">Act Casual</h4>
 >
 > *No one suspects a thing.*  
 > **Daily** **Attack** **9** (**Standard Action**) ● **Arcane, Charm, Focus, Psychic**  
@@ -5001,7 +5001,7 @@ You can enchant, influence and dominate the weaker willed.
 > **Attack** Wisdom vs Will  
 > **Hit** The target is controlled (save ends), but not dazed (enabling you to use more than one of its actions) and the target doesn’t grant combat advantage unless you wish them to.  
 
-> #### Neural Slice  
+<h4 class="Heading-4---Daily">Neural Slice</h4>
 >
 > *You send out a cascade of psychic energy to affect all those around.*  
 > **Daily** **Attack** **9** (**Standard Action**) ● **Arcane, Focus, Psychic**  
@@ -5010,14 +5010,14 @@ You can enchant, influence and dominate the weaker willed.
 > **Hit** The target is dazed, immobile, and weakened (save ends all).  
 > **Miss** The target is dazed, immobile, and weakened until the start of your next turn.  
 
-> #### Telepathic Blocker  
+<h4 class="Heading-4---Daily">Telepathic Blocker</h4>
 >
 > *You go on the defense to ensure you don’t suffer from any effects you yourself are known for.*  
 > **Daily** **Utility** **10** (**Free Action**) ● **Arcane, Psychic**  
 > **Self**   
 > **Effect** You gain a +4 bonus to Will defense for 5 minutes.  
 
-> #### Blackout  
+<h4 class="Heading-4---Daily">Blackout</h4>
 >
 > *You cut off every sense in your opponent. You suppose they could still smell you.*  
 > **Daily** **Attack** **15** (**Standard Action**) ● **Arcane, Focus, Psychic**  
@@ -5026,7 +5026,7 @@ You can enchant, influence and dominate the weaker willed.
 > **Hit** The target is blinded and deafened (save ends).  
 > **Miss** The target is blinded and deafened until the start of your next turn.  
 
-> #### Transplant Senses  
+<h4 class="Heading-4---Encounter">Transplant Senses</h4>
 >
 > *You can either look through someone else’s eyes or force their vision through your own.*  
 > **Encounter** **Attack** **17** (**Standard Action**) ● **Arcane, Consistent, Focus, Psychic**  
@@ -5035,7 +5035,7 @@ You can enchant, influence and dominate the weaker willed.
 > **Hit** Until the start of your next turn, you either look through the targets eyes or you force the target to see what you see. While looking through the target’s eyes, you may choose whether or not the target is aware of your use of this power. While looking through the target’s eyes, you grant combat advantage to all creatures: while looking through yours, the target grants combat advantage to all creatures and may not be able to see certain targets in order to attack them. If the target takes damage, the effect ends.  
 > **Maintain Standard** Repeat the attack against the same target. You can continue to maintain even after the encounter ends. While you are not in an encounter, each time you maintain this power, the effect remains for one hour or until you end it as a swift action.  
 
-> #### Field Control  
+<h4 class="Heading-4---Daily">Field Control</h4>
 >
 > *This feels more like a tabletop wargame and these are your troops.*  
 > **Daily** **Attack** **19** (**Standard Action**) ● **Arcane, Charm, Focus, Psychic**  
@@ -5044,7 +5044,7 @@ You can enchant, influence and dominate the weaker willed.
 > **Hit** The target is controlled until the end of your next turn.  
 > **Maintain Standard** Repeat the attack against any targets you hit last turn.  
 
-> #### Phrenic Cascade  
+<h4 class="Heading-4---Encounter">Phrenic Cascade</h4>
 >
 > *You simply cause havoc in the target’s brain.*  
 > **Encounter** **Attack** **23** (**Standard Action**) ● **Arcane, Consistent, Focus, Psychic**  
@@ -5053,7 +5053,7 @@ You can enchant, influence and dominate the weaker willed.
 > **Hit** 5d10 + Wisdom modifier damage, and the target is stunned until the end of your next turn.
 > *Level 27:* 7d10 + Wisdom modifier damage  
 
-> #### Godly String  
+<h4 class="Heading-4---Daily">Godly String</h4>
 >
 > *No matter where they go, no matter where they hide, you can get at them.*  
 > **Daily** **Attack** **25** (**Standard and Move Action**) ● **Arcane, Focus, Psychic**  
@@ -5061,7 +5061,7 @@ You can enchant, influence and dominate the weaker willed.
 > **Attack** Wisdom vs Will  
 > **Hit** The target is controlled (save ends).  
 
-> #### Pure Puppeteer  
+<h4 class="Heading-4---Daily">Pure Puppeteer</h4>
 >
 > *You convince the target that what you wish is all that matters. You are nothing less than a god and they will do anything and everything in your name.*  
 > **Daily** **Attack** **25** (**Standard Action**) ● **Arcane, Consistent, Focus, Psychic**  
@@ -5070,7 +5070,7 @@ You can enchant, influence and dominate the weaker willed.
 > **Hit** The target is under your control until the end of your next turn. This is identical to being controlled, except you can activate rechargeable, encounter, and daily powers. You can command the target to attack allies or itself (if possible).  
 > **Maintain Move** Repeat the attack against the same target. You can continue to maintain even after the encounter ends. While you are not in an encounter, each time you maintain this power, the effect remains for one hour.  
 
-> #### Personality Manipulation  
+<h4 class="Heading-4---Daily">Personality Manipulation</h4>
 >
 > *Until now, everything you have done has been temporary. People would wake up and feel the fool. Now, there is nothing holding you back … this is that moment where you need to decide which side you’re really on.*  
 > **Daily** **Attack** **29** (**Standard Action**) ● **Arcane, Charm, Consistent, Focus, Psychic**  
@@ -5086,7 +5086,7 @@ You can enchant, influence and dominate the weaker willed.
 
 You use the divine power of the sun to blast and dazzle your enemies and heal your allies.
 
-> #### Dismiss  
+<h4 class="Heading-4---At-Will">Dismiss</h4>
 > *This attack ‘softly’ removes an enemy from your presence.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Divine, Weapon, Radiant**  
 > **Melee** weapon, one creature  
@@ -5095,21 +5095,21 @@ You use the divine power of the sun to blast and dazzle your enemies and heal yo
 *Level 21:* 2dW + Wisdom modifier radiant damage and the target is pushed 2 squares.   
 > **Special** If the target is undead, they are pushed 4 squares on a hit instead. 
 
-> #### Expose Weakness  
+<h4 class="Heading-4---At-Will">Expose Weakness</h4>
 > *You strike with a weak, but swift, attack that hampers an opponent.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Divine, Focus**  
 > **Ranged** 10, one creature  
 > **Attack** Wisdom vs Will  
 > **Hit** The creature is weakened and slowed (save ends both).  
 
-> #### Staunching Strike  
+<h4 class="Heading-4---Encounter">Staunching Strike</h4>
 > *To help your allies and harm your enemies is the most basic tenet of the Radiant Dawn discipline.*  
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Divine, Weapon, Radiant, Healing**  
 > **Melee** weapon, one creature  
 > **Attack** Wisdom vs AC  
 > **Hit** 2dW + Wisdom modifier radiant damage. You or an ally within sight can spend a recovery to heal their recovery value.  
 
-> #### Spoils of War  
+<h4 class="Heading-4---Daily">Spoils of War</h4>
 > *Might makes right.*  
 > **Daily** **Attack** **1** (**Standard Action**) ● **Divine, Focus, Radiant**  
 > **Near** burst 3, all enemies  
@@ -5117,14 +5117,14 @@ You use the divine power of the sun to blast and dazzle your enemies and heal yo
 > **Hit** 2d8 + Wisdom modifier damage.  
 > **Effect** Until the end of the encounter, each time an ally within 3 hits with an attack, they heal damage equal to your Wisdom modifier.  
 
-> #### Decree of Mercy  
+<h4 class="Heading-4---Encounter">Decree of Mercy</h4>
 > *A simple look and gesture can weaken one’s resolve to kill.*  
 > **Encounter** **Utility** **2** (**Counter Action**) ● **Divine**  
 > **Near** burst 5, all enemies  
 > **Attack** Wisdom vs Will  
 > **Hit** Attacks the target makes until the end of your next turn are nonlethal.  
 
-> #### Bolster  
+<h4 class="Heading-4---Daily">Bolster</h4>
 > *You fortify an ally with akasha, hardening their skin like the scales of a dragon.*  
 > **Daily** **Utility** **2** (**Counter Action**) ● **Divine**  
 > **Near** burst 5, one ally  
@@ -5136,34 +5136,34 @@ You use the divine power of the sun to blast and dazzle your enemies and heal yo
 > **Effect** You cannot heal creatures other than yourself, or enable other creatures to spend recoveries. However, all healing you receive is doubled. If you receive healing but are already at maximum HP, you gain that amount as temporary HP instead.  
 > **Special** If you are staggered, you can enter this stance as a reaction.  
 
-> #### Curate’s Strike  
+<h4 class="Heading-4---Encounter">Curate’s Strike</h4>
 > *This strike was created by a kobold leader to fight both controlling magics and vicious wounds.*  
 > **Encounter** **Attack** **3** (**Standard Action**) ● **Divine, Focus, Radiant, Healing**  
 > **Ranged** 5, one creature  
 > **Attack** Wisdom vs AC  
 > **Hit** 2d8 + Wisdom modifier radiant damage. You or an ally within sight can spend a recovery to heal their recovery value. They also gain a +2 bonus on saving throws until the end of your next turn.  
 
-> #### Decree of Purity  
+<h4 class="Heading-4---Encounter">Decree of Purity</h4>
 > *A single word and a wave of the hand purifies those who would stand with you.*  
 > **Encounter** **Utility** **6** (**Swift Action**) ● **Divine, Healing**  
 > **Ranged** 5, one ally  
 > **Effect** The target makes a saving throw against persistent damage or a condition with a save ends duration.  
 
-> #### Healer’s Bane  
+<h4 class="Heading-4---Encounter">Healer’s Bane</h4>
 > *You hijack healing for your own purpose.*  
 > **Encounter** **Utility** **6** (**Counter Action**) ● **Divine, Healing**  
 > **Near** burst 10, one creature  
 > **Trigger** The creature is about to heal.  
 > **Effect** The creature does not heal, but does lose a recovery. Pick an ally within range. They heal equal to their recovery value.  
 
-> #### Witness to Glory  
+<h4 class="Heading-4---Daily">Witness to Glory</h4>
 > *With a surge of akasha, you spur an ally into battle.*  
 > **Daily** **Utility** **6** (**Counter Action**) ● **Divine**  
 > **Near** burst 10, one ally  
 > **Trigger** Initiative is rolled.  
 > **Effect** The ally receives a +4 power bonus to initiative. They add your Wisdom modifier to their speed until the end of your next turn.  
 
-> #### Armaments of the Empire  
+<h4 class="Heading-4---Encounter">Armaments of the Empire</h4>
 > *A thin layer of akasha flows forth from you and covers your and your allies’ weapons.*  
 > **Encounter** **Attack** **7** (**Standard Action**) ● **Divine, Weapon, Radiant**  
 > **Melee** weapon, one creature  
@@ -5171,21 +5171,21 @@ You use the divine power of the sun to blast and dazzle your enemies and heal yo
 > **Hit** 2dW + Wisdom modifier damage.  
 > **Effect** Until the end of your next turn, all allies within 5 squares gain a +2 power bonus on attack rolls.  
 
-> #### Decree of Death  
+<h4 class="Heading-4---Encounter">Decree of Death</h4>
 > *You single out targets for execution.*  
 > **Encounter** **Attack** **7** (**Standard Action**) ● **Divine, Radiant, Focus**  
 > **Far** burst 1 within range 5, all enemies  
 > **Attack** Wisdom vs Will  
 > **Hit** 1d8 + Wisdom modifier radiant damage and the target grants combat advantage until the end of your next turn.  
 
-> #### Disrupt Essence  
+<h4 class="Heading-4---Daily">Disrupt Essence</h4>
 > *A powerful blow that disrupts one’s essence, inhibiting the use of abilities.*  
 > **Daily** **Attack** **9** (**Standard Action**) ● **Divine, Weapon, Radiant**  
 > **Melee** weapon, one creature  
 > **Attack** Wisdom vs AC  
 > **Hit** 2dW + Wisdom modifier damage and the target cannot use encounter, daily or refresh powers until the end of your next turn.  
 
-> #### Lifeburst Strike  
+<h4 class="Heading-4---Daily">Lifeburst Strike</h4>
 > *You strike out with a simple blow with an uncanny power to heal and harm.*  
 > **Daily** **Attack** **9** (**Standard Action**) ● **Divine, Healing, Radiant, Focus**  
 > **Near** burst 1, all enemies  
@@ -5194,20 +5194,20 @@ You use the divine power of the sun to blast and dazzle your enemies and heal yo
 > **Miss** Half damage, and no healing effect.  
 > **Maintain Swift** The healing effect persists until the end of your next turn. 
 
-> #### Decree of Silence  
+<h4 class="Heading-4---Daily">Decree of Silence</h4>
 > *Your presence demands silence.*  
 > **Daily** **Utility** **10** (**Counter Action**) ● **Divine**  
 > **Near** burst 1, self and all allies  
 > **Trigger** You are the target of a near or far attack.  
 > **Effect** Creatures in the area of this power cannot be targeted by the attack.  
 
-> #### Lifeburst Imbuement  
+<h4 class="Heading-4---Encounter">Lifeburst Imbuement</h4>
 > *This maneuver imbues another to carry out your will.*  
 > **Encounter** **Attack** **13** (**Standard Action**) ● **Divine, Radiant**  
 > **Near** burst 5, one ally  
 > **Effect** The next attack the ally makes has combat advantage, and does 3d8 additional radiant damage on a hit.  
 
-> #### Sunstroke  
+<h4 class="Heading-4---Daily">Sunstroke</h4>
 > *Your akasha shapes an attack into a powerful solar flare.*  
 > **Daily** **Attack** **15** (**Standard Action**) ● **Divine, Fire, Radiant, Focus**  
 > **Far** burst 2 within range 10, all enemies  
@@ -5216,28 +5216,28 @@ You use the divine power of the sun to blast and dazzle your enemies and heal yo
 > **Miss** Half damage, and no persistent damage.  
 > **Effect** One ally in the burst can spend a recovery to heal their recovery value.  
 
-> #### Shatter Spell  
+<h4 class="Heading-4---Daily">Shatter Spell</h4>
 > *You bring a spell or other magical effect to an unceremonious end.*  
 > **Daily** **Utility** **16** (**Standard Action**) ● **Divine**  
 > **Ranged** 10, one persisting power  
 > **Attack** Wisdom vs Will (power’s user)  
 > **Effect** The power comes to an end.  
 
-> #### Sunlight Shields  
+<h4 class="Heading-4---Daily">Sunlight Shields</h4>
 > *Your stance sits halfway between martial form and magic prowess, conjuring shields of light to defend yourself and others.*  
 > **Daily** **Utility** **16** (**Swift Action**) ● **Divine, Radiant, Conjuration**  
 > **Far** wall 1 within range 10  
 > **Effect** Allies in or adjacent to the wall get a +2 power bonus to AC. An enemy that moves into the wall stops moving immediately and cannot move for the rest of the turn. Walls created last until the end of your next turn.  
 > **Maintain Swift** Conjure a new wall within range, which lasts until the end of your next turn. This does not prolong the duration of any existing walls you conjured with this power. You cannot conjure the new wall in the same location as an existing wall.
 
-> #### Divide and Conquer  
+<h4 class="Heading-4---Encounter">Divide and Conquer</h4>
 > *This strike pulls essence from the target, creating an effigy of the creature.*  
 > **Encounter** **Attack** **17** (**Standard Action**) ● **Divine, Fire, Focus**  
 > **Ranged** 10, one creature  
 > **Attack** Wisdom vs Fortitude  
 > **Hit** 3d8 + Wisdom modifier fire damage, and conjure an effigy of the target in an unoccupied square in range. Any attack that targets the effigy targets the target as well, even if the target would normally be out of range of the attack. The target only gets targeted once by any given attack, even if both the target and their effigy are in the area of effect.  
 
-> #### Battle Against the Sun  
+<h4 class="Heading-4---Daily">Battle Against the Sun</h4>
 > *To challenge you is to challenge the sun itself: An exercise in futility.*  
 > **Daily** **Attack** **19** (**Standard Action**) ● **Conjuration, Divine, Fire, Focus**  
 > **Ranged** 10, an unoccupied square  
@@ -5245,7 +5245,7 @@ You use the divine power of the sun to blast and dazzle your enemies and heal yo
 > *Attack:* Ranged 5, one enemy; your Wisdom vs Reflex; 2d10 + Wisdom modifier radiant damage.  
 > **Maintain Swift** The sun remains until the end of your next turn.  
 
-> #### Noblesse Oblige  
+<h4 class="Heading-4---Daily">Noblesse Oblige</h4>
 > *When all else fails, your allies turn to you to save them.*  
 > **Daily** **Attack** **19** (**Counter Action**) ● **Divine, Weapon, Radiant, Healing**  
 > **Near** burst 10, the triggering enemy  
@@ -5254,19 +5254,19 @@ You use the divine power of the sun to blast and dazzle your enemies and heal yo
 > **Effect** The triggering ally can spend a recovery and heal 1 damage, plus they heal equal to the damage done by your attack (if any).  
 > **Special** Before the attack, you can shift up to your Strength modifier squares.  
 
-> #### Decree of Freedom  
+<h4 class="Heading-4---Encounter">Decree of Freedom</h4>
 > *With a gesture and a single word, you cause a target’s essence to flare, freeing them from their bonds.*  
 > **Encounter** **Utility** **22** (**Swift Action**) ● **Divine, Healing**  
 > **Near** burst 10, one ally  
 > **Effect** The target ignores all conditions and persistent damage it is affected by until the end of your next turn. It can also ignore any zones or difficult or hazardous terrain during the same period.  
 
-> #### Awaken the Sleeper  
+<h4 class="Heading-4---Encounter">Awaken the Sleeper</h4>
 > *It’s said that the soul of a mortal contains power that can rival the gods, and this maneuver awakens a fraction of that power for a brief moment.*  
 > **Encounter** **Attack** **23** (**Standard Action**) ● **Divine**  
 > **Near** burst 10, one ally  
 > **Effect** Select one of your unexpended encounter or daily powers that takes a standard, move, swift or free action. Your ally can use that power. They also gain temporary HP equal to your recovery value.  
 
-> #### King’s Castle  
+<h4 class="Heading-4---Encounter">King’s Castle</h4>
 > *Your faithful respond to your call for help.*  
 > **Encounter** **Attack** **23** (**Counter Action**) ● **Divine, Focus, Radiant**  
 > **Near** burst 10, the triggering enemy  
@@ -5275,7 +5275,7 @@ You use the divine power of the sun to blast and dazzle your enemies and heal yo
 > **Hit** 4d10 + Wisdom radiant damage.  
 > **Effect** You or a willing ally within range teleports to the triggering ally’s space, and the triggering ally teleports to the space you/the other ally just left. The one teleported to the space takes the hit instead of the triggering ally.  
 
-> #### Swords to Ploughshares  
+<h4 class="Heading-4---Encounter">Swords to Ploughshares</h4>
 > *This blow marks an enemy with a simple brand that burrows into their essence. Their strikes heal and harm in equal measure.*  
 > **Encounter** **Attack** **23** (**Standard Action**) ● **Divine, Weapon, Radiant**  
 > **Melee** weapon, one creature  
@@ -5284,7 +5284,7 @@ You use the divine power of the sun to blast and dazzle your enemies and heal yo
 > **Effect** Until the end of your next turn, any ally of yours targeted by the target’s attack can spend a recovery to heal up to their recovery value.  
 > **Maintain Swift** Maintain the effect.  
 
-> #### Path of the Sun  
+<h4 class="Heading-4---Daily">Path of the Sun</h4>
 > *Coalesce the power of the sun into a powerful beam that washes over enemies and allies alike, leaving behind thousands of motes of light.*  
 > **Daily** **Attack** **25** (**Standard Action**) ● **Divine, Focus, Fire, Radiant**  
 > **Near** wall 10, all enemies in the wall  
@@ -5293,20 +5293,20 @@ You use the divine power of the sun to blast and dazzle your enemies and heal yo
 > **Effect** The wall persists until the end of your next turn. Allies that move through the wall only spend 1 movement for every 2 wall spaces moved through. Make the attack against any enemy that enters a wall space or ends its turn on a wall space. The wall persists until the end of your next turn.  
 **Maintain Swift** The wall persists until the end of your next turn.  
 
-> #### Push the Advantage  
+<h4 class="Heading-4---Daily">Push the Advantage</h4>
 > *With the enemy defeated, you spur an ally towards further glory.*  
 > **Daily** **Attack** **25** (**Reaction Action**) ● **Divine, Weapon, Radiant**  
 > **Near** burst 10, one ally  
 > **Trigger** An ally reduces an enemy to 0 HP or below  
 > **Effect** The triggering ally can immediately take a move action and a standard action, in either order. Also, if you spend a recovery all allies within range heal equal to your recovery value.  
 
-> #### Decree of Vengeance  
+<h4 class="Heading-4---Encounter">Decree of Vengeance</h4>
 > *You and your allies rise in revenge against your assailants.*  
 > **Encounter** **Attack** **27** (**Standard Action**) ● **Divine**  
 > **Near** burst 5, all allies  
 > **Effect** Each ally in range may make a basic attack. If they do so, they heal equal to their recovery value.  
 
-> #### Harsh Light of Day  
+<h4 class="Heading-4---Encounter">Harsh Light of Day</h4>
 > *This attack brings with it a blast of light, making your enemies quail before the light of judgement.*  
 > **Encounter** **Attack** **27** (**Standard Action**) ● **Divine, Focus, Radiant**  
 > **Ranged** 10, one enemy or square  
@@ -5321,7 +5321,7 @@ You use the divine power of the sun to blast and dazzle your enemies and heal yo
 > **Hit** 3d8 + Wisdom modifier radiant damage and they are blinded (save ends).  
 > **Effect** Allies within the area heal equal to their recovery value.  
 
-> #### Tyrant’s End  
+<h4 class="Heading-4---Daily">Tyrant’s End</h4>
 > *This powerful blow brings the end to tyrant’s reigns.*  
 > **Daily** **Attack** **29** (**Standard Action**) ● **Divine, Weapon, Radiant**  
 > **Melee** weapon, one creature  
@@ -5496,7 +5496,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 
 **Note:** See the Tags rules for details on how Form and Wild Shape tagged powers work.  
 
-> #### Blood Lust  
+<h4 class="Heading-4---At-Will">Blood Lust</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
 > **Melee** 1, one enemy  
@@ -5505,7 +5505,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > *Level 21:* 2d8 + Constitution modifier damage, and you gain temporary hit points equal to double your Wisdom modifier.  
 > **Special** Can be used as a basic melee attack.  
 
-> #### Bob and Weave  
+<h4 class="Heading-4---At-Will">Bob and Weave</h4>
 >
 > *You bob and weave through combat with the grace of a cat.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
@@ -5515,7 +5515,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > *Level 21:* 2d6 + Constitution modifier damage.  
 > **Special** Can be used as a basic melee attack.  
 
-> #### Stout Rebuff  
+<h4 class="Heading-4---At-Will">Stout Rebuff</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
 > **Melee** 1, one enemy  
@@ -5524,7 +5524,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > *Level 21:* 2d8 + Constitution modifier damage.  
 > **Special** Can be used as a basic melee attack.  
 
-> #### Knockback  
+<h4 class="Heading-4---At-Will">Knockback</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
 > **Melee** 1, one enemy  
@@ -5533,7 +5533,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > *Level 21:* 2d8 + Constitution modifier damage and the target is pushed a number of squares equal to your Wisdom modifier.  
 > **Special** Can be used as a basic melee attack.  
 
-> #### Mad Rush  
+<h4 class="Heading-4---At-Will">Mad Rush</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
 > **Melee** 1, one enemy  
@@ -5543,7 +5543,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Special** If used as part of a charge, increase your speed by 2 for the charge and do additional damage equal to your Wisdom modifier.  
 > Can be used as a basic melee attack.  
 
-> #### Powerful Swipe  
+<h4 class="Heading-4---At-Will">Powerful Swipe</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
 > **Melee** 1, one enemy  
@@ -5552,7 +5552,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > *Level 21:* 2d12 + Constitution modifier damage.  
 > **Special** Can be used as a basic melee attack.  
 
-> #### Sic ’Em  
+<h4 class="Heading-4---At-Will">Sic ’Em</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
 > **Melee** 1, one enemy  
@@ -5561,7 +5561,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > *Level 21:* 2d8 + Constitution modifier damage.  
 > **Special** Can be used as a basic melee attack.  
 
-> #### Sneaky Strike  
+<h4 class="Heading-4---At-Will">Sneaky Strike</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
 > **Melee** 1, one enemy  
@@ -5570,7 +5570,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > *Level 21:* 2d8 + Constitution modifier damage, and if you have combat advantage against the target, do additional damage equal to double your Wisdom modifier.  
 > **Special** Can be used as a basic melee attack.  
 
-> #### Tongue Lash  
+<h4 class="Heading-4---At-Will">Tongue Lash</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
 > **Melee** 2, one enemy  
@@ -5579,7 +5579,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > *Level 21:* Reach 2; 2d8 + Constitution modifier damage and the target is pulled 2.  
 > **Special** Can be used as a basic melee attack.  
 
-> #### Venomous Strike  
+<h4 class="Heading-4---At-Will">Venomous Strike</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Poison, Spirit, Wild Shape**  
 > **Melee** 1, one enemy  
@@ -5588,7 +5588,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > *Level 21:* 2d8 + Constitution modifier damage, and if the creature moves before the end of its next turn, it takes additional poison damage equal to double your Wisdom modifier.  
 > **Special** Can be used as a basic melee attack.  
 
-> #### Drag Down 
+<h4 class="Heading-4---At-Will">Drag Down</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Focus, Spirit, Wild Shape**  
 > **Melee** 1, one enemy  
@@ -5597,7 +5597,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > *Level 21:* 2d8 + Constitution modifier damage.  
 > **Special** Can be used as a basic melee attack.  
 
-> #### Choppers  
+<h4 class="Heading-4---Encounter">Choppers</h4>
 >
 > *Your opponent wasn’t expecting you to use your teeth.*  
 > **Encounter** **Attack** **1** (**Swift Action**) ● **Consistent, Focus, Spirit**  
@@ -5607,7 +5607,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Boost** **Level 13** 4d6 + Strength modifier damage.
 > **Boost Level 27** 6d6 + Strength modifier damage.  
 
-> #### Flailing Attacks  
+<h4 class="Heading-4---Encounter">Flailing Attacks</h4>
 >
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Focus, Spirit**  
 > **Melee** touch, one target  
@@ -5616,7 +5616,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Miss** Make a secondary attack against the same or a different target.
 > *Secondary Attack:* Constitution vs AC; 1d8 + Constitution modifier damage.  
 
-> #### Rake  
+<h4 class="Heading-4---Encounter">Rake</h4>
 >
 > **Encounter** **Attack** **1** (**Free Action**) ● **Focus, Spirit**  
 > **Melee** touch, one target  
@@ -5624,13 +5624,13 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Attack** Same target; Constitution vs AC  
 > **Hit** 1d8 + Constitution modifier damage and 5 persistent damage (save ends).  
 
-> #### Wild Swings  
+<h4 class="Heading-4---Encounter">Wild Swings</h4>
 >
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Focus, Spirit**  
 > **Near** burst 1, all enemies  
 > **Hit** 1d6 + Constitution modifier damage.  
 
-> #### Shape of the Badger  
+<h4 class="Heading-4---Daily">Shape of the Badger</h4>
 >
 > **Daily** **Attack** **1** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
@@ -5639,7 +5639,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Form Attack** (standard action) ● Focus  
 > Melee 1; Con vs AC; 2d8 + Constitution modifier damage, or 3d8 + Constitution modifier if you are staggered; on a miss, the target takes half damage.  
 
-> #### Shape of the Bear  
+<h4 class="Heading-4---Daily">Shape of the Bear</h4>
 >
 > **Daily** **Attack** **1** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
@@ -5648,7 +5648,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Form Attack** (standard action) ● Focus  
 > Melee 1; Con vs AC; 2d8 + Constitution modifier damage and the target is grappled; half damage on a miss.  
 
-> #### Shape of the Cat  
+<h4 class="Heading-4---Daily">Shape of the Cat</h4>
 >
 > **Daily** **Attack** **1** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
@@ -5659,7 +5659,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 
 <figure><img src="pics\LuigiCastellani_WERELEOPARD.png" alt="Wereleopard by Luigi Castellani" style="zoom: 33%;" /><figcaption>Wereleopard by Luigi Castellani</figcaption></figure>
 
-> #### Shape of the Dire Rat  
+<h4 class="Heading-4---Daily">Shape of the Dire Rat</h4>
 >
 > **Daily** **Attack** **1** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
@@ -5668,7 +5668,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Form Attack** (standard action) ● Focus  
 > Melee 1; Con vs AC; 1d8 + Constitution modifier damage and the target is blinded until the end of your next turn.  
 
-> #### Shape of the Elk  
+<h4 class="Heading-4---Daily">Shape of the Elk</h4>
 >
 > **Daily** **Attack** **1** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
@@ -5677,7 +5677,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Form Attack** (standard action) ● Focus  
 > Melee 1; Con vs AC; you may shift 2 before this attack; Constitution modifier damage and the target takes 10 persistent damage (save ends); the target takes 5 persistent damage on a miss.  
 
-> #### Shape of the Tortoise  
+<h4 class="Heading-4---Daily">Shape of the Tortoise</h4>
 >
 > **Daily** **Attack** **1** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
@@ -5686,7 +5686,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Form Attack** (standard action) ● Focus, Healing  
 > Melee 1; Con vs AC; 2d8 + Constitution modifier damage and you may spend a recovery to heal your recovery value in hit points; half damage on a miss.  
 
-> #### Shape of the Wolf  
+<h4 class="Heading-4---Daily">Shape of the Wolf</h4>
 >
 > **Daily** **Attack** **1** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
@@ -5695,32 +5695,32 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Form Attack** (standard action) ● Focus  
 > Melee 1; Con vs AC; 2d8 + Constitution modifier damage, and if the target is prone you grapple them; on a miss, the target takes half damage. *Effect:* After the attack, move up to half your speed. You may pull one adjacent enemy of size Large or smaller behind you.  
 
-> #### All Fours  
+<h4 class="Heading-4---At-Will">All Fours</h4>
 >
 > *Your spine makes a slight adjustment and you become a much faster runner.*  
 > **At-Will** **Utility** **2** (**Standard Action**) ● **Spirit, Wild Shape**  
 > **Self**   
 > **Effect** You gain a +1 bonus to speed and Reflex defense, and you gain a +2 bonus to Acrobatics and Athletics checks. You also suffer a -4 penalty to ranged attacks. The effect lasts until you end it with a move action.  
 
-> #### Bramble Step  
+<h4 class="Heading-4---Encounter">Bramble Step</h4>
 >
 > **Encounter** **Utility** **2** (**Swift Action**) ● **Focus, Spirit**  
 > **Self**   
 > **Effect** Until the end of your next turn, you get the woodland stride feature (ignore difficult terrain from shrubbery, trees or plants).  
 
-> #### Quick Change Artist  
+<h4 class="Heading-4---Encounter">Quick Change Artist</h4>
 >
 > **Encounter** **Utility** **2** (**Counter Action**) ● **Spirit**  
 > **Self**   
 > **Effect** Use a *shape of the X* power that you know, if you have one that is not expended.  
 
-> #### Wild Empathy  
+<h4 class="Heading-4---Encounter">Wild Empathy</h4>
 >
 > **Encounter** **Utility** **2** (**Swift Action**) ● **Spirit**  
 > **Self**   
 > **Effect** Until the end of the encounter, you get a +4 bonus on Diplomacy, Bluff, Intimidate and Insight checks against creatures with the beast type.  
 
-> #### Agile Animus  
+<h4 class="Heading-4---Daily">Agile Animus</h4>
 >
 > *The line between human and beast begins to blur.*  
 > **Daily** **Utility** **2** (**Swift Action**) ● **Spirit**  
@@ -5728,7 +5728,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Effect** Until the end of your next turn, you channel your inner beast.  You gain a +1 power bonus to speed, a +2 power bonus to AC and Reflex defense, and a +3 power bonus to Acrobatics and Stealth checks.  
 > **Maintain Special** At the end of each of your turns during which this power is in effect, make a saving throw. If you succeed, the effect persists until the end of your next turn. 
 
-> #### Forceful Animus  
+<h4 class="Heading-4---Daily">Forceful Animus</h4>
 >
 > *The line between human and beast begins to blur.*  
 > **Daily** **Utility** **2** (**Swift Action**) ● **Spirit**  
@@ -5736,13 +5736,13 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Effect** Until the end of your next turn, you channel your inner beast.  You gain a +2 power bonus to all damage rolls and to AC and Fortitude defense, and a +3 power bonus to Athletics and Endurance checks.  
 > **Maintain Special** At the end of each of your turns during which this power is in effect, make a saving throw. If you succeed, the effect persists until the end of your next turn. 
 
-> #### Full Moon Stance  
+<h4 class="Heading-4---Daily">Full Moon Stance</h4>
 >
 > **Daily** **Utility** **2** (**Swift Action**) ● **Spirit, Stance**  
 > **Self**   
 > **Effect** At the end of each of your turns, if you are staggered you regenerate damage equal to your Wisdom modifier. This lasts until the end of the encounter.  
 
-> #### Scout Form  
+<h4 class="Heading-4---Daily">Scout Form</h4>
 >
 > **Daily** **Utility** **2** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
@@ -5754,21 +5754,21 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > ● Your speed becomes 4 and you can squeeze through gaps as if you were a Diminutive creature  
 > **Maintain Swift** You remain in this form until the end of your next turn.  
 
-> #### Bear Hug  
+<h4 class="Heading-4---Encounter">Bear Hug</h4>
 >
 > **Encounter** **Attack** **3** (**Standard Action**) ● **Focus, Spirit**  
 > **Melee** touch, one target  
 > **Attack** Constitution vs AC  
 > **Hit** 1d8 + Constitution modifier damage and the target is grappled.  
 
-> #### Fearsome Roar  
+<h4 class="Heading-4---Encounter">Fearsome Roar</h4>
 >
 > **Encounter** **Attack** **3** (**Standard Action**) ● **Focus, Psychic, Spirit**  
 > **Near** burst 2  
 > **Attack** Constitution vs Will  
 > **Hit** 1d8 + Constitution modifier psychic damage, and the target suffers a -4 penalty on attacks against you until the end of your next turn.  
 
-> #### Hard to Miss  
+<h4 class="Heading-4---Encounter">Hard to Miss</h4>
 >
 > *Of all the opponents to target, you’re the one that stands out.*  
 > **Encounter** **Attack** **3** (**Move Action**) ● **Spirit**  
@@ -5776,7 +5776,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Effect** The target is marked until they inflict damage on you. You gain combat advantage against each marked target until the end of your next turn. If you take damage from a target while it is marked, as a reaction you may shift up to 5 squares and then make a basic attack against the target.  
 > **Maintain Move** The effect persists against marked targets until the end of your next turn.  
 
-> #### Illogical Rage  
+<h4 class="Heading-4---Daily">Illogical Rage</h4>
 >
 > *You’ve stopped listening to reason. The best thing your allies can do is give you a direction a step back.*  
 > **Daily** **Attack** **5** (**Reaction Action**) ● **Spirit**  
@@ -5784,7 +5784,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Trigger** You are staggered.  
 > **Effect** Until you are no longer staggered or until you fall unconscious, you gain a +4 power bonus to all damage rolls. If you don’t hit with any attack on your turn, you gain a +2 bonus to damage on your next hit. This bonus is cumulative every round until you hit. If you do not hit an enemy before the bonus reaches +14, you must make a melee basic attack against the nearest creature on your turn.  
 
-> #### Panicked Switch  
+<h4 class="Heading-4---Daily">Panicked Switch</h4>
 >
 > *You turn the target into a small, defenseless animal.*  
 > **Daily** **Attack** **5** (**Standard Action**) ● **Polymorph, Focus, Form, Spirit**  
@@ -5792,7 +5792,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Attack** Constitution vs Will  
 > **Hit** 3d10 + your Intelligence modifier damage and shunt the target 2. They are helpless and size Small (save ends both). Until they make their saving throw, you can use a move action to shunt them 2.  
 
-> #### Shape of the Frog  
+<h4 class="Heading-4---Daily">Shape of the Frog</h4>
 >
 > **Daily** **Attack** **5** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
@@ -5802,7 +5802,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > Melee 1; Con vs Reflex; the target is grappled. Make a secondary attack against the target.    
 > *Secondary Attack:* Melee 1; Con vs Fortitude, must be grappling the target, the target must be Medium or smaller; the target is swallowed. While the target is swallowed, it is restrained and takes 5 damage plus 5 acid damage at the start of each of its turns. The swallowed creature can make basic melee attacks against you with one-handed or natural weapons. You may release the creature as a swift action. If the creature succeeds at an escape a grapple action with a -4 penalty, it escapes your stomach and appears in an unoccupied space of its choice adjacent to you.  
 
-> #### Shape of the Toad  
+<h4 class="Heading-4---Daily">Shape of the Toad</h4>
 >
 > **Daily** **Attack** **5** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
@@ -5811,7 +5811,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Form Attack** (swift action) ● Focus, Poison  
 > Near arc 3; Con vs Fortitude; 2d6 + Constitution modifier poison damage and the target grants combat advantage until the end of your next turn.  
 
-> #### Shape of the Serpent  
+<h4 class="Heading-4---Daily">Shape of the Serpent</h4>
 >
 > **Daily** **Attack** **5** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
@@ -5820,7 +5820,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Form Attack** (swift action) ● Focus, Poison  
 > Melee 2; Con vs Fortitude; 2d6 + Constitution modifier poison damage, and the target takes persistent 10 poison damage (save ends); on a miss, the target takes half damage and persistent 5 poison damage (save ends).  
 
-> #### Shape of the Weaver  
+<h4 class="Heading-4---Daily">Shape of the Weaver</h4>
 >
 > **Daily** **Attack** **5** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
@@ -5829,33 +5829,33 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Form Attack** (swift action) ● Focus  
 > Ranged 5; Con vs Reflex; the target is restrained (save ends); on a miss, the target is slowed (save ends).  
 
-> #### Animal Instincts  
+<h4 class="Heading-4---Daily">Animal Instincts</h4>
 >
 > **Daily** **Utility** **6** (**Swift Action**) ● **Spirit**  
 > **Self**   
 > **Effect** Until the end of the encounter, you get a +2 bonus on Athletics, Acrobatics, Endure, Stealth and Nature checks. End this power early to reroll an Athletics, Acrobatics, Endure, Stealth or Nature check and take the second result.  
 
-> #### Regenesis  
+<h4 class="Heading-4---Daily">Regenesis</h4>
 >
 > *Your injuries knit in seconds to the shock of those around. You assure them it still hurts like hell.*  
 > **Daily** **Utility** **6** (**Move Action**) ● **Healing, Spirit**  
 > **Self**   
 > **Effect** You gain regeneration 3 until the end of the encounter.  
 
-> #### Rhinohide  
+<h4 class="Heading-4---Daily">Rhinohide</h4>
 >
 > *Your skin becomes thick and leathery, able to withstand considerable punishment.*  
 > **Daily** **Utility** **6** (**Move Action**) ● **Spirit**  
 > **Self**   
 > **Effect** You gain resistance 3 to all damage until the end of the encounter.  
 
-> #### Scent  
+<h4 class="Heading-4---Daily">Scent</h4>
 >
 > **Daily** **Utility** **6** (**Swift Action**) ● **Spirit**  
 > **Self**   
 > **Effect** You have truesight 6.  
 
-> #### Frenzy  
+<h4 class="Heading-4---Encounter">Frenzy</h4>
 >
 > *Your opponent scores a hit; you growl back.*  
 > **Encounter** **Attack** **7** (**Reaction Action**) ● **Consistent, Spirit**  
@@ -5863,7 +5863,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Trigger** You are hit by an attack.  
 > **Effect** Shift your speed toward the triggering creature and make a melee basic attack against it.  
 
-> #### Shape of the Bat  
+<h4 class="Heading-4---Daily">Shape of the Bat</h4>
 >
 > **Daily** **Attack** **9** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
@@ -5872,7 +5872,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Form Attack** (standard action) ● Focus  
 > Melee 1; Con vs AC; you may shift 2 before this attack and after this attack; 1d8 + Constitution modifier damage and the target takes 10 persistent damage (save ends); the target takes 5 persistent damage on a miss. *Effect:* Each time the target takes persistent damage from this attack, you heal 5 damage.  
 
-> #### Shape of the Eagle  
+<h4 class="Heading-4---Daily">Shape of the Eagle</h4>
 >
 > **Daily** **Attack** **9** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
@@ -5881,7 +5881,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Form Attack** (standard action) ● Focus  
 > Melee 1; Con vs AC; you may shift 2 before this attack and after this attack; 2d8 + Constitution modifier damage.  
 
-> #### Shape of the Shark  
+<h4 class="Heading-4---Daily">Shape of the Shark</h4>
 >
 > **Daily** **Attack** **9** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
@@ -5890,7 +5890,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Form Attack** (swift action) ● Focus  
 > Melee 1; Con vs AC; 3d8 + Constitution modifier damage; on a miss, the target takes half damage. *Effect:* Shift a number of squares up to your Wisdom modifier. Drag the target behind you.  
 
-> #### Shape of the Wyrmling  
+<h4 class="Heading-4---Daily">Shape of the Wyrmling</h4>
 >
 > **Daily** **Attack** **9** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
@@ -5899,55 +5899,55 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Form Attack** (swift action) ● Focus, [energy type]  
 > Near arc 3; Con vs Fortitude; 2d8 + Constitution modifier damage of the energy type you chose.  
 
-> #### You, Afraid?  
+<h4 class="Heading-4---Daily">You, Afraid?</h4>
 >
 > *The bigger they are…*  
 > **Daily** **Attack** **9** (**Swift Action**) ● **Spirit**  
 > **Near** burst 10, one creature  
 > **Effect** The target is marked and you gain a +1 bonus to attack and a +2 bonus to damage against the target. You are also immune to any fear effects from the target. This effect persists until the end of the encounter.
 
-> #### Active Camouflage  
+<h4 class="Heading-4---Daily">Active Camouflage</h4>
 >
 > *Whether it be a natural ability of your skin or an acute sense of your surroundings, hiding has never been difficult for you.*  
 > **Daily** **Utility** **10** (**Free Action**) ● **Spirit,**  
 > **Self**   
 > **Effect** You gain a +15 bonus to your next Stealth check and until you leave cover, if you make a melee or ranged attack from hiding, you are still considered to be hiding.  
 
-> #### Bloodhound  
+<h4 class="Heading-4---Daily">Bloodhound</h4>
 >
 > *They don’t call it a detective’s nose for nothing.*  
 > **Daily** **Utility** **10** (**Free Action**) ● **Spirit**  
 > **Self**   
 > **Effect** Gain a +10 power bonus to your next Insight or Perception check.  
 
-> #### Flittering Form  
+<h4 class="Heading-4---Daily">Flittering Form</h4>
 >
 > **Daily** **Utility** **10** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
 > **Effect** You take the form of a Tiny flying animal, like a bird or a bat. You cannot talk in this form. While in this form you cannot use powers unless they have the Wild Shape tag, and you cannot make attacks or use attack powers. Your speed becomes 4 but you get a fly speed of 8. You remain in this  form until the end of your next turn.  
 > **Maintain Swift** You remain in this  form until the end of your next turn.  
 
-> #### Survivor  
+<h4 class="Heading-4---Daily">Survivor</h4>
 >
 > **Daily** **Utility** **10** (**Swift Action**) ● **Spirit**  
 > **Self**   
 > **Effect** You may spend a recovery. If you do so, you heal your recovery value plus additional hit points and gain a +10 bonus to Endurance checks for one hour. 
 
-> #### Tenacity  
+<h4 class="Heading-4---Daily">Tenacity</h4>
 >
 > **Daily** **Utility** **10** (**Counter Action**) ● **Spirit**  
 > **Self**   
 > **Trigger** You fall to 0 HP or below.  
 > **Effect** Until the end of the encounter, you do not fall unconscious from being at 0 HP or below, or make death saves. At the end of the encounter, if you are still at 0 HP or below, you immediately fall unconscious and start making death saves.  
 
-> #### Through New Eyes  
+<h4 class="Heading-4---Daily">Through New Eyes</h4>
 >
 > **Daily** **Utility** **10** (**Free Action**) ● **Focus, Spirit**  
 > **Self**   
 > **Trigger** You change form or return to your original form.  
 > **Effect** Reroll your initiative with a +4 bonus. You use that initiative from next round onwards.  
 
-> #### Deimatic Display  
+<h4 class="Heading-4---Encounter">Deimatic Display</h4>
 >
 > **Encounter** **Attack** **13** (**Standard Action**) ● **Focus, Spirit**  
 > **Near** burst 10, one creature  
@@ -5955,7 +5955,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Hit** 2d10 + Constitution modifier psychic damage, and the creature cannot willingly move closer to you until the end of your next turn.  
 > **Boost** **Level 27** Range becomes Near burst 10, all enemies  
 
-> #### Ferocious Feline  
+<h4 class="Heading-4---Daily">Ferocious Feline</h4>
 >
 > *You jump all limbs forward toward the enemy with such speed, no one can prepare for a defense.*  
 > **Daily** **Attack** **15** (**Swift Action**) ● **Spirit**  
@@ -5963,7 +5963,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Effect** Until the end of the encounter you gain a +2 power bonus to Dexterity-based checks and to AC and Reflex defense, and a +1 bonus to speed.  
 > **Boost** **Level 29** Make a basic melee attack when you use this power. Also, you receive a +4 power bonus to Dexterity-based checks and to AC and Reflex defense, and a +2 bonus to speed, instead of the bonuses listed under Effect.  
 
-> #### Shape of the Manticore  
+<h4 class="Heading-4---Daily">Shape of the Manticore</h4>
 >
 > **Daily** **Attack** **15** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
@@ -5972,7 +5972,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Form Attack** (swift action) ● Focus  
 > Near arc 3; Con vs Reflex; 2d8 + Constitution modifier damage and the target is immobile (save ends).  
 
-> #### Shape of the Raptor 
+<h4 class="Heading-4---Daily">Shape of the Raptor</h4>
 >
 > **Daily** **Attack** **15** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
@@ -5981,21 +5981,21 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Form Attack** (swift action) ● Focus  
 > Melee 1; Con vs Reflex, two attacks; 2d8 + Constitution modifier damage. If both attacks hit, the target is knocked prone.  
 
-> #### Perfect Form  
+<h4 class="Heading-4---Daily">Perfect Form</h4>
 >
 > *It’s not a pleasant process to watch, and you may require a new set of clothes if you didn’t think ahead.*  
 > **Daily** **Utility** **16** (**Standard Action**) ● **Form, Spirit, Stance**  
 > **Self**   
 > **Effect** You can alter your physical form to take on the appearance of any natural beast of your level or lower. You gain the beast’s attacks and special abilities, but you use your attack bonuses for the attacks. You retain your statistics, including current HP. The effect persists until you end it with a swift action or until you fall unconscious. While in this form you cannot use powers unless they have the Wild Shape tag.  
 
-> #### Threat Discouragement  
+<h4 class="Heading-4---Daily">Threat Discouragement</h4>
 >
 > *You actually appear to get a little bigger. It’s probably an illusion.*  
 > **Daily** **Utility** **16** (**Swift Action**) ● **Healing, Spirit**  
 > **Self**   
 > **Effect** You gain temporary hit points equal to the sum of your Strength, Constitution, and Dexterity bonuses + your level. All adjacent enemies are dazed until the start of your next turn.  
 
-> #### Into the Fray  
+<h4 class="Heading-4---Encounter">Into the Fray</h4>
 >
 > *You would look like someone flying if your legs and arms weren’t all pointing forward.*  
 > **Encounter** **Attack** **17** (**Standard Action**) ● **Focus, Spirit**  
@@ -6004,14 +6004,14 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Hit** 2d10 + Constitution modifier damage.  
 > **Effect** Before your attack, teleport double your speed to a square in line of sight.  
 
-> #### Bad Bear  
+<h4 class="Heading-4---Daily">Bad Bear</h4>
 >
 > *As you let go of your emotional control, your body begins to take on a shape reflective of your mood.*  
 > **Daily** **Attack** **19** (**Swift Action**) ● **Spirit**  
 > **Self**   
 > **Effect** Until the end of the encounter you gain a +2 power bonus to your Strength and Constitution-based checks, attack and damage rolls and Fortitude defense, and 2 temporary hit points per level.  
 
-> #### Shape of the Dragon  
+<h4 class="Heading-4---Daily">Shape of the Dragon</h4>
 >
 > **Daily** **Attack** **19** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
@@ -6020,14 +6020,14 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Form Attack** (swift action) ● Focus, [energy type]  
 > Near arc 5; Con vs Fortitude; 4d8 + Constitution modifier damage of the energy type you chose.  
 
-> #### Feline-Like Grace  
+<h4 class="Heading-4---Encounter">Feline-Like Grace</h4>
 >
 > *No one knows how you got from there to here without a scratch.*  
 > **Encounter** **Utility** **22** (**Free Action**) ● **Spirit**  
 > **Self**   
 > **Effect** Until the end of your turn, all movement is considered a shift, regardless of the distance or the abilities used.  
 
-> #### Instant Regeneration  
+<h4 class="Heading-4---Daily">Instant Regeneration</h4>
 >
 > *Wounds knit it in seconds, almost as if someone had cast a spell on you.*  
 > **Daily** **Utility** **22** (**Swift Action**) ● **Healing, Spirit**  
@@ -6035,21 +6035,21 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Effect** Until the start of your next turn, you take no damage of any kind.  
 > **Maintain Swift** You gain resistance to all damage 15 until the start of your next turn. 
 
-> #### Shake It Off  
+<h4 class="Heading-4---Daily">Shake It Off</h4>
 >
 > **Daily** **Utility** **22** (**Counter Action**) ● **Spirit, Wild Shape**  
 > **Self**   
 > **Trigger** You are hit by an attack.  
 > **Effect** You immediately return to your original form. Instead of the normal damage done by the attack, you take 3d6 damage. However, other conditions and effects of the attack (including persistent damage) still apply.  
 
-> #### Stampede  
+<h4 class="Heading-4---Encounter">Stampede</h4>
 >
 > **Encounter** **Attack** **23** (**Standard Action**) ● **Focus, Spirit**  
 > **Near** arc 5, all enemies  
 > **Attack** Constitution vs AC  
 > **Hit** 2d10 + Constitution modifier thunder damage, and the target falls prone.  
 
-> #### Scratching Tempest  
+<h4 class="Heading-4---Daily">Scratching Tempest</h4>
 >
 > **Daily** **Attack** **25** (**Standard Action**) ● **Focus, Spirit**  
 > **Near** burst 2, all enemies  
@@ -6057,7 +6057,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Hit** 4d6 + Constitution modifier damage.  
 > **Effect** Until the end of the encounter, your reach increases by 1.  
 
-> #### Shape of the Chimera  
+<h4 class="Heading-4---Daily">Shape of the Chimera</h4>
 >
 > **Daily** **Attack** **25** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
@@ -6066,7 +6066,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 > **Form Attack** (swift action) ● Fire, Focus  
 > Near arc 5; Con vs Fortitude; 5d8 + Constitution modifier fire damage.  
 
-> #### Shape of the Great Wyrm  
+<h4 class="Heading-4---Daily">Shape of the Great Wyrm</h4>
 >
 > **Daily** **Attack** **29** (**Swift Action**) ● **Form, Polymorph, Spirit**  
 > **Self**   
@@ -6083,7 +6083,7 @@ You can take the form of wild beasts, or take on their characteristics while kee
 
 You are a keen, measured sharpshooter. 
 
-> #### Aimed Shot  
+<h4 class="Heading-4---At-Will">Aimed Shot</h4>
 >
 > *You take a moment to aim before firing.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
@@ -6092,7 +6092,7 @@ You are a keen, measured sharpshooter.
 > **Hit** 1dW damage, and the target is shunted 1 square.  
 > *Level 21:* Increases to 2dW damage.  
 
-> #### Sharpshooter  
+<h4 class="Heading-4---At-Will">Sharpshooter</h4>
 >
 > *You check for range and shoot a perfect shot.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
@@ -6103,7 +6103,7 @@ You are a keen, measured sharpshooter.
 > ● The target suffers a -2 penalty to defenses until the end of your next turn.  
 > *Level 21:* Increases to 2dW damage.  
 
-> #### Snap-Shot  
+<h4 class="Heading-4---At-Will">Snap-Shot</h4>
 >
 > *You bring up your weapon quickly and shoot a vital location.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
@@ -6115,7 +6115,7 @@ You are a keen, measured sharpshooter.
 > *Level 21:* Increases to 2dW damage.  
 > **Special** If a target you have marked with *snap-shot* makes an attack that does not include you as a target, you can make a *snap-shot* attack against them as a counter.  
 
-> #### Beyond The Call  
+<h4 class="Heading-4---Encounter">Beyond The Call</h4>
 >
 > *You stop aiming as enemy numbers begin to mass.*  
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
@@ -6123,7 +6123,7 @@ You are a keen, measured sharpshooter.
 > **Attack** Dexterity vs AC  
 > **Hit** 1dW + Dexterity modifier damage.  
 
-> #### Swift, Silent, Deadly  
+<h4 class="Heading-4---Encounter">Swift, Silent, Deadly</h4>
 >
 > *From across the field of battle, your arrow finds its mark.*  
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Consistent, Martial, Weapon**  
@@ -6133,7 +6133,7 @@ You are a keen, measured sharpshooter.
 > **Effect** Gain a +2 power bonus to attack rolls against the target until the end of your next turn.  
 > **Boost Level 7** This power gains the Consistent tag. 
 
-> #### Keyhole Attack  
+<h4 class="Heading-4---Daily">Keyhole Attack</h4>
 >
 > *The target is dead before the twang of the bowstring is heard.*  
 > **Daily** **Attack** **1** (**Standard Action**) ● **Consistent, Martial, Weapon**  
@@ -6141,7 +6141,7 @@ You are a keen, measured sharpshooter.
 > **Attack** Dexterity vs AC  
 > **Hit** 3dW + Dexterity modifier damage.  
 
-> #### Fake Echo  
+<h4 class="Heading-4---Encounter">Fake Echo</h4>
 >
 > *Enemies have trouble finding where your shots come from.*  
 > **Encounter** **Utility** **2** (**Free Action**) ● **Martial**  
@@ -6149,14 +6149,14 @@ You are a keen, measured sharpshooter.
 > **Requirements** You make a ranged attack while hidden.  
 > **Effect** You remain hidden after the attack.  
 
-> #### Hold The Breath, Skip A Beat  
+<h4 class="Heading-4---Daily">Hold The Breath, Skip A Beat</h4>
 >
 > *You pause for a split second before loosing your arrow.*  
 > **Daily** **Utility** **2** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Effect** Gain +4 power bonus to your next attack roll. If you miss, this power is not expended.  
 
-> #### Batter The Target  
+<h4 class="Heading-4---Encounter">Batter The Target</h4>
 >
 > *Your opponent struggles to move after your last hit.  You fire again to keep them down.*  
 > **Encounter** **Attack** **3** (**Swift Action**) ● **Martial, Weapon**  
@@ -6164,7 +6164,7 @@ You are a keen, measured sharpshooter.
 > **Trigger** You hit a creature.  
 > **Effect** The target takes 1dW extra damage from the triggering attack, and you can make a basic attack against the same target.  
 
-> #### Expose Target  
+<h4 class="Heading-4---Encounter">Expose Target</h4>
 >
 > *Your attack is less meant to kill but more to force the target into the firing line of your allies.*  
 > **Encounter** **Attack** **3** (**Standard Action**) ● **Martial, Weapon**  
@@ -6173,7 +6173,7 @@ You are a keen, measured sharpshooter.
 > **Hit** 2dW + Dexterity modifier damage and the target grants combat advantage until the end of your next turn.  
 > **Effect** Shunt the target 2.  
 
-> #### Organ Shot  
+<h4 class="Heading-4---Daily">Organ Shot</h4>
 >
 > *The arrow pierced a vital organ and the subject struggles to breathe.*  
 > **Daily** **Attack** **5** (**Free Action**) ● **Consistent, Martial, Weapon**  
@@ -6182,14 +6182,14 @@ You are a keen, measured sharpshooter.
 > **Attack** Dexterity vs Fortitude  
 > **Hit** The target takes 10 damage, and a further 10 persistent damage (save ends).  
 
-> #### Check the Wind  
+<h4 class="Heading-4---Encounter">Check the Wind</h4>
 >
 > *You take advantage of the prevailing weather conditions.*  
 > **Encounter** **Utility** **6** (**Swift Action**) ● **Martial, Weapon**  
 > **Self**   
 > **Effect** Your weapon’s long range doubles for your next ranged attack and you gain a +2 bonus to the attack roll.  
 
-> #### Pinpoint Accuracy  
+<h4 class="Heading-4---Encounter">Pinpoint Accuracy</h4>
 > *You find a tiny gap in the enemy’s cover and exploit it*  
 > **Encounter** **Attack** **7** (**Standard Action**) ● **Martial, Consistent, Weapon**  
 > **Ranged** weapon, one creature  
@@ -6197,7 +6197,7 @@ You are a keen, measured sharpshooter.
 > **Hit** 2dW + Dexterity modifier damage.  
 > **Special** Ignore any penalties to attack for cover or superior cover.  
 
-> #### Penetrating Shot  
+<h4 class="Heading-4---Daily">Penetrating Shot</h4>
 > *You know impulsively where the enemy is hiding.*  
 > **Daily** **Attack** **9** (**Standard Action**) ● **Martial, Weapon**  
 > **Ranged** weapon, one creature  
@@ -6206,7 +6206,7 @@ You are a keen, measured sharpshooter.
 > **Miss** Half damage.  
 > **Special** You can ignore one square of blocking terrain for line of sight, line of effect, and cover.  
 
-> #### Nock Three Arrows  
+<h4 class="Heading-4---Daily">Nock Three Arrows</h4>
 > *The moment arrives, and you put your training to the test.*  
 > **Daily** **Attack** **9** (**Standard Action**) ● **Martial, Weapon**  
 > **Ranged** weapon, three creatures  
@@ -6215,14 +6215,14 @@ You are a keen, measured sharpshooter.
 > **Miss** Half damage.  
 > **Special** The first attack gains a +3 power bonus to attack, the second gains a +2 power bonus and the third gains a +1 power bonus.  
 
-> #### Failure Is Not an Option  
+<h4 class="Heading-4---Encounter">Failure Is Not an Option</h4>
 > *You can’t afford to miss this shot.*  
 > **Encounter** **Utility** **10** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You make a ranged attack roll and do not like the result.  
 > **Effect** Reroll the attack roll and use the second result.  
 
-> #### Act of God  
+<h4 class="Heading-4---Encounter">Act of God</h4>
 > *Your attack was sudden and violent. It sends your enemies diving for cover.*  
 > **Encounter** **Attack** **13** (**Free Action**) ● **Fear, Martial, Weapon**  
 > **Self**   
@@ -6230,14 +6230,14 @@ You are a keen, measured sharpshooter.
 > **Effect** The target takes 1dW extra damage from the triggering attack, and you make the following secondary attack.  
 > *Secondary Attack:* Far burst 1 centered on the initial target (all enemies); Wisdom +2 vs Will. On a hit, the target is immobile until the end of your next turn. *Aftereffect:* The target is slowed until the end of your next turn.  
 
-> #### Careful Targeting  
+<h4 class="Heading-4---Encounter">Careful Targeting</h4>
 > *You take an extra moment to find a weak spot on the target and exploit it.*  
 > **Encounter** **Attack** **13** (**Swift and Standard Action**) ● **Martial, Consistent, Weapon**  
 > **Ranged** weapon, one creature  
 > **Attack** Dexterity vs AC  
 > **Hit** 3dW + Dexterity modifier + Wisdom modifier damage.  
 
-> #### Eye Shot  
+<h4 class="Heading-4---Daily">Eye Shot</h4>
 > *You see your rival aiming back at you.  Your reflexes are better than theirs.*  
 > **Daily** **Attack** **15** (**Counter Action**) ● **Martial, Weapon**  
 > **Ranged** weapon, one creature  
@@ -6246,20 +6246,20 @@ You are a keen, measured sharpshooter.
 > **Hit** 3dW + Dexterity modifier damage, and the target is blinded (save ends).  
 > **Miss** Half damage, and the target is dazed until the start of your next turn.  
 
-> #### No Exit Wound  
+<h4 class="Heading-4---Daily">No Exit Wound</h4>
 > *The barbed arrow is still inside the target and every muscle twitch inches it closer to a critical artery.*  
 > **Daily** **Attack** **15** (**Free Action**) ● **Martial, Weapon**  
 > **Self**   
 > **Trigger** You hit one creature with a ranged weapon.  
 > **Effect** Until the end of the encounter, once per round when the target moves or attacks, it takes 1dW damage. This damage is not maximized if the triggering attack was a critical hit.  
 
-> #### Sharpshooter’s Aim  
+<h4 class="Heading-4---Encounter">Sharpshooter’s Aim</h4>
 > *You balance every aspect of your weapon, including compensating for range, gravity and wind.*  
 > **Encounter** **Utility** **16** (**Move Action**) ● **Martial, Weapon**  
 > **Self**   
 > **Effect** Double both the normal and the long range of your weapon. Until the end of your next turn, any attacks you make with this weapon can score a critical hit on a natural roll of 18, 19, or 20.  
 
-> #### Deep Cover  
+<h4 class="Heading-4---Encounter">Deep Cover</h4>
 > *Drenched in mud and leaves, layered in war paint, you can’t be distinguished from the surrounding terrain.*  
 > **Encounter** **Attack** **17** (**Move and Standard Action**) ● **Martial, Weapon**  
 > **Ranged** weapon, one creature  
@@ -6267,41 +6267,41 @@ You are a keen, measured sharpshooter.
 > **Hit** 3dW + Dexterity modifier damage.  
 > **Effect** You drop prone. Shift your speed. You lose any marks placed on you. You gain concealment until you move from your new square.  
 
-> #### Found the Sweet Spot  
+<h4 class="Heading-4---Encounter">Found the Sweet Spot</h4>
 > *The target screams in pain and thrashes about from your attack. You must have struck a nerve.*  
 > **Encounter** **Attack** **17** (**Standard Action**) ● **Martial, Weapon**  
 > **Ranged** weapon, one creature  
 > **Attack** Dexterity vs AC  
 > **Hit** 2dW + Dexterity modifier damage, and the target is stunned until the end of your next turn. *Aftereffect:* The target is weakened and slowed (save ends both).  
 
-> #### Go for the Kill  
+<h4 class="Heading-4---Daily">Go for the Kill</h4>
 > *It’s wounded.  Move in and finish it off.*  
 > **Daily** **Attack** **19** (**Free Action**) ● **Martial, Weapon**  
 > **Self**   
 > **Trigger** You stagger a creature.  
 > **Effect** The target takes 2dW extra damage from the triggering attack. If the attack does not drop the target, shift your speed towards the target and make a basic attack against it.  
 
-> #### Internal Ricochet  
+<h4 class="Heading-4---Daily">Internal Ricochet</h4>
 > *The spirits give you a hand.*  
 > **Daily** **Attack** **19** (**Free Action**) ● **Martial, Weapon**  
 > **Self**   
 > **Trigger** You hit a creature.  
 > **Effect** The target takes 1dW extra damage from the triggering attack, and one adjacent creature takes 2dW + Dexterity modifier damage.  
 
-> #### Ghostly Form  
+<h4 class="Heading-4---Daily">Ghostly Form</h4>
 > *You move like a spirit.*  
 > **Daily** **Utility** **22** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Effect** All creatures you can see grant you combat advantage until the end of the encounter. Your next hit before the end of the encounter is a critical hit. If you deal damage greater than or equal to the creature’s staggered value with this hit, it dies.  
 
-> #### Accompanying Elfshot  
+<h4 class="Heading-4---Encounter">Accompanying Elfshot</h4>
 > *You loose a second arrow so fast after the first, your enemy is led to believe there is more than one of you.*  
 > **Encounter** **Attack** **23** (**Swift Action**) ● **Martial, Consistent, Weapon**  
 > **Ranged** weapon, one creature  
 > **Attack** Dexterity vs AC  
 > **Hit** 3dW + Dexterity modifier damage.  
 
-> #### Assassin’s Arrow  
+<h4 class="Heading-4---Daily">Assassin’s Arrow</h4>
 > *Combat is not the solution. A single arrow is.*  
 > **Daily** **Attack** **25** (**Standard Action**) ● **Martial, Weapon**  
 > **Ranged** weapon, one creature granting you combat advantage  
@@ -6309,7 +6309,7 @@ You are a keen, measured sharpshooter.
 > **Hit** 2dW + Dexterity modifier damage.  
 > **Effect** If the target is staggered by this attack, it takes 2dW extra damage and is stunned until the start of your next turn. If the target is not staggered by this attack, this power is not expended.  
 
-> #### Guide My Hand  
+<h4 class="Heading-4---Encounter">Guide My Hand</h4>
 > *You bring everything you know for a single powerful shot so mighty, even the gods hear it.*  
 > **Encounter** **Attack** **27** (**Standard Action**) ● **Martial, Weapon**  
 > **Ranged** weapon, one creature  
@@ -6318,7 +6318,7 @@ You are a keen, measured sharpshooter.
 > **Miss** Half damage.  
 > **Special** Your normal and long range are doubled for this attack.  
 
-> #### Clean Kill  
+<h4 class="Heading-4---Daily">Clean Kill</h4>
 > *The first shot wasn’t intended to kill the target, just to bring its head around for the final shot.*  
 > **Daily** **Attack** **29** (**Standard Action**) ● **Martial, Weapon**  
 > **Ranged** weapon, one creature  
@@ -6339,7 +6339,7 @@ When a power refers to [flux], it always means your current flux energy, even if
 
 Note that the Spells of Ice and Fire discipline is dedicated to the cold and fire flux energies. You can use these powers while you have a different flux energy active, but you don’t get any of the special “Cold” or “Fire” riders.  
 
-> #### Thermal Touch  
+<h4 class="Heading-4---At-Will">Thermal Touch</h4>
 > *Your touch does lasting damage.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Arcane, Flux, Focus**  
 > **Melee** touch, one creature  
@@ -6348,7 +6348,7 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 *Level 21:* Increase to 2d6 + Dexterity modifier [flux] damage.  
 > **Maintain Standard** At the start of your next turn, the target takes the half damage again.  
 
-> #### Thermodynamic Bolt  
+<h4 class="Heading-4---At-Will">Thermodynamic Bolt</h4>
 > *With only the slightest catalyst, you catch a personification of a classical element and hurl it towards the enemy.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Arcane, Flux, Focus**  
 > **Ranged** 10, one creature  
@@ -6356,7 +6356,7 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Hit** 1d6 + Dexterity modifier [flux] damage.  
 > *Level 21:* 2d6 + Dexterity modifier [flux] damage.  
 
-> #### Bottled Thermodynamic Transfer  
+<h4 class="Heading-4---Encounter">Bottled Thermodynamic Transfer</h4>
 > *You bind a localized severe temperature change to your hand and hurl it to your foes.*  
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Arcane, Flux, Focus**  
 > **Ranged** 20, one creature  
@@ -6367,7 +6367,7 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Boost** **Level 13** Primary damage 3d8 + Dexterity modifier, secondary damage 2d8 + Dexterity modifier.
 **Boost Level 27** Primary damage 4d8 + Dexterity modifier, secondary damage 3d8 + Dexterity modifier.  
 
-> #### Entropic Burst  
+<h4 class="Heading-4---Encounter">Entropic Burst</h4>
 > *You shift the air density, creating a vortex to knock away your enemies.*  
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Arcane, Flux, Focus**  
 > **Near** burst 3, all creatures  
@@ -6377,7 +6377,7 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Boost** **Level 13** Near burst 4; 2d6 + Dexterity modifier [flux] damage.
 **Boost Level 27** Near burst 6; 4d6 + Dexterity modifier [flux] damage.  
 
-> #### Resonant Ray  
+<h4 class="Heading-4---Daily">Resonant Ray</h4>
 > *You hold your hand to the ground and a line of fire or jagged ice spreads across the surface to strike your foes.*  
 > **Daily** **Attack** **1** (**Standard Action**) ● **Arcane, Flux, Focus**  
 > **Near** wall 8, all creatures in wall  
@@ -6388,14 +6388,14 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Boost** **Level 15** Two walls; 3d8 + Dexterity modifier [flux] damage each.
 **Boost Level 29** Three walls; 4d8 + Dexterity modifier [flux] damage each, and the condition duration is save ends.  
 
-> #### Thermal Absorption  
+<h4 class="Heading-4---Encounter">Thermal Absorption</h4>
 > *Regardless of the temperature, it’s all just levels of entropy which you can absorb.*  
 > **Encounter** **Utility** **2** (**Counter Action**) ● **Arcane, Flux**  
 > **Self**   
 > **Trigger** You are about to take damage matching your flux energy.  
 > **Effect** You take no damage. You recover hit points up to your recovery value or the damage of the attack (whichever is less).  
 
-> #### Elemental Restraint  
+<h4 class="Heading-4---Encounter">Elemental Restraint</h4>
 > *You employ your element to grab your target. You can either hold them in place or fling them across a room.*  
 > **Encounter** **Attack** **3** (**Standard Action**) ● **Arcane, Flux, Focus**  
 > **Ranged** 20, one Medium or smaller creature  
@@ -6405,7 +6405,7 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 ● Fire: You inflict additional damage equal to your level and can shunt the target as many squares as your Dexterity modifier.  
 > **Boost** **Level 17** 3d6 + Dexterity modifier damage.  
 
-> #### Thermal Isolation  
+<h4 class="Heading-4---Encounter">Thermal Isolation</h4>
 > *You pick one location and radically affect its entropic state. This could freeze a target in its spot or light it on fire.*  
 > **Encounter** **Attack** **3** (**Standard Action**) ● **Arcane, Flux, Focus**  
 > **Ranged** 20, one creature  
@@ -6413,7 +6413,7 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Hit** 2d8 + Dexterity modifier [flux] damage, and you inflict additional effects based on your flux energy: the target is restrained until the end of your next turn (cold) or if the target does not drop prone on its next turn, it suffers an additional 10 fire damage (fire).  
 > **Boost** **Level 17** 4d8 + Dexterity modifier damage.  
 
-> #### Expanding Phase Transition  
+<h4 class="Heading-4---Daily">Expanding Phase Transition</h4>
 > *With feet firmly planted, your send out a radiating expanse of altered terrain, either coated in ice or setting it ablaze; either result should impede your enemies.*  
 > **Daily** **Attack** **5** (**Standard Action**) ● **Arcane, Flux, Focus, Zone**  
 > **Near** burst 3  
@@ -6424,14 +6424,14 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Maintain Move** The fire expanse persists until the end of your next turn.  
 > **Boost** **Level 19** Near burst 8.  
 
-> #### Frozen Creation  
+<h4 class="Heading-4---At-Will">Frozen Creation</h4>
 > *You use ambient water to quickly create something useful.*  
 > **At-Will** **Utility** **6** (**Standard Action**) ● **Arcane, Cold**  
 > **Near** wall 4  
 > **Effect** You can create simple objects made of ice, such as bridges, walls, pillars, or furniture. The objects can support 500 lbs of weight per square but are not durable, and will shatter if they suffer more than 10 points of damage. The objects persist until the end of your next turn.   
 > **Maintain Swift** The objects persist until the end of your next turn.  
 
-> #### Thermal Wall  
+<h4 class="Heading-4---Daily">Thermal Wall</h4>
 > *You throw up a wall of ice or a sheet of fire to discourage attack.*  
 > **Daily** **Utility** **6** (**Move Action**) ● **Arcane, Flux**  
 > **Far** wall 5 within range 3  
@@ -6440,7 +6440,7 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 ● Fire: The wall grants resistance 3 to all damage to anyone behind it. Creatures that enter or begin their turn in the wall suffer 3d6 fire damage. The wall lasts until the end of your next turn.  
 > **Maintain Swift** The fire wall persists until the end of your next turn.  
 
-> #### Broken Equilibrium  
+<h4 class="Heading-4---Encounter">Broken Equilibrium</h4>
 > *You release a pellet sized thermodynamic catalyst which upon impact creates an instant shift in the surrounding energy levels.*  
 > **Encounter** **Attack** **7** (**Standard Action**) ● **Arcane, Flux, Focus**  
 > **Far** burst 2 within range 20, all creatures  
@@ -6450,7 +6450,7 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 ● Fire: If the target moves more than two squares on its next turn, it suffers 5 fire damage.  
 > **Boost** **Level 23** Far burst 4 within 20 squares; 4d6 + Dexterity modifier [flux] damage.  
 
-> #### Dynamic Tempest  
+<h4 class="Heading-4---Daily">Dynamic Tempest</h4>
 > *You can control the weather.*  
 > **Daily** **Attack** **9** (**Standard Action**) ● **Arcane, Focus, Cold**  
 > **Near** burst 5, all creatures  
@@ -6458,7 +6458,7 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Effect** You create a localized storm in the area of effect which lasts until the end of your next turn. It grants concealment and any creature other than you that starts its turn in the tempest takes cold damage equal to your level and is slowed. If you move, the storm moves with you.  
 > **Maintain Standard** The effect persists until the end of your next turn.  
 
-> #### Halo of Fire  
+<h4 class="Heading-4---Daily">Halo of Fire</h4>
 > *You surround targets in a circle of flame and then close the circle around them.*  
 > **Daily** **Attack** **9** (**Standard Action**) ● **Arcane, Focus, Fire**  
 > **Far** burst 3 within range 20, all creatures  
@@ -6466,7 +6466,7 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Hit** 3d6 + Dexterity modifier fire damage. The target is either pulled 2 squares towards the center of the burst or takes an additional 3d6 fire damage (their choice). If there is not room for them to move at least one square closer, they must take the additional damage.  
 > **Miss** 3d6 + Dexterity modifier fire damage. 
 
-> #### Thermal Shield  
+<h4 class="Heading-4---Daily">Thermal Shield</h4>
 > *You protect yourself and all those around you with your power.*  
 > **Daily** **Utility** **10** (**Move Action**) ● **Arcane, Flux**  
 > **Near** burst 3  
@@ -6474,14 +6474,14 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 ● Cold: The dome is solid and can withstand 100 points of damage before shattering. Creatures within cannot leave until the dome is shattered or dismissed, but cannot be targeted from outside. The dome lasts until destroyed or until you cancel the effect.
 ● Fire: The burst creates a wall of fire in the outermost squares that grants resistance 3 to all damage to those inside it. Creatures that enter or begin their turn in the wall suffer 4d6 fire damage. The wall lasts until the end of your next turn.  
 
-> #### Rocket Propulsion  
+<h4 class="Heading-4---Daily">Rocket Propulsion</h4>
 > *With enough influence over the transfer of energy, you’re able to create a sustainable thermal reaction you can use to enable flight.*  
 > **Daily** **Utility** **16** (**Move Action**) ● **Arcane, Fire**  
 > **Self**   
 > **Effect** You gain a fly speed of 8 until the end of your next turn. Each creature adjacent to your launch square take 5 points of fire damage.  
 > **Maintain Swift** Your fly speed persists until the end of your next turn. If you do not maintain and are still in the air at the start of the following turn, you fall.  
 
-> #### Blood Tell  
+<h4 class="Heading-4---Daily">Blood Tell</h4>
 > *Humans are 90% water. Humans are in a state of entropy which you can alter. This won’t look pretty.*  
 > **Daily** **Attack** **19** (**Standard Action**) ● **Arcane, Flux, Focus**  
 > **Ranged** 5, one living creature  
@@ -6489,7 +6489,7 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 > **Hit** 4d10 + Dexterity modifier [flux] damage, and the target is weakened and dazed (save ends). If the target dies, it explodes (which may make raising it from the dead more difficult).  
 > **Miss** Half damage and the target can still explode.  
 
-> #### Ice Castle  
+<h4 class="Heading-4---Daily">Ice Castle</h4>
 > *They say when you become an adult, you put away childish things; but when you can make a fort out of ice, some things will never change.*  
 > **Daily** **Utility** **22** (**Standard and Move Action**) ● **Arcane, Ice**  
 > **Self**   
@@ -6504,7 +6504,7 @@ Note that the Spells of Ice and Fire discipline is dedicated to the cold and fir
 
 You are a one-person siege weapon, firing down rains of arrows that force your foes to duck for cover.
 
-> #### Attack of Necessity  
+<h4 class="Heading-4---At-Will">Attack of Necessity</h4>
 > *Out of options, become a hero.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Near** arc 3, all creatures  
@@ -6513,7 +6513,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > *Level 21*  2dW damage.  
 > **Special** If you do not move this turn, arc 4 instead.  
 
-> #### Micro Burst  
+<h4 class="Heading-4---At-Will">Micro Burst</h4>
 > *Your shots are more to impede enemies than kill them.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Far** burst 1 within weapon range, all creatures you can see  
@@ -6521,7 +6521,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Hit** 1 damage and the target is slowed until the start of your next turn.  
 > **Special** If you do not move this turn, your Dexterity modifier in damage instead.  
 
-> #### Potential Push  
+<h4 class="Heading-4---At-Will">Potential Push</h4>
 > *The power of your attack sends the enemy tumbling back.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Ranged** weapon, one creature  
@@ -6530,7 +6530,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > *Level 21:* 2dW + Dexterity modifier damage.  
 > **Special** If you do not move this turn, the target is pushed 2 squares instead of 1 (and suffers the indicated damage if it cannot be pushed at least 2 squares).  
 
-> #### Rapid Shots  
+<h4 class="Heading-4---At-Will">Rapid Shots</h4>
 > *You shoot towards an area.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Far** wall 3 within weapon range, all creatures in wall you can see  
@@ -6539,7 +6539,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > *Level 21:* 2dW damage.  
 > **Special** If you do not move this turn, wall 4 instead of a wall 3.  
 
-> #### Focused Shot  
+<h4 class="Heading-4---Encounter">Focused Shot</h4>
 > *You make a continuous stream of attacks against a single target.*  
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Martial, Consistent, Weapon**  
 > **Ranged** weapon, one creature  
@@ -6547,7 +6547,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Hit** 2dW + Dexterity modifier damage.  
 > **Special** If you do not move this turn, the target is also slowed or weakened (your choice) until the start of your next turn.  
 
-> #### Pinning Shot  
+<h4 class="Heading-4---Encounter">Pinning Shot</h4>
 > *Your shots force an enemy down or to cover.*  
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Ranged** weapon, one creature  
@@ -6556,7 +6556,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Special** If you do not move this turn, the target is immobile instead of slowed.  
 > **Maintain Standard** Repeat the attack against the same target.  You can maintain only once.  
 
-> #### Shot on the Run  
+<h4 class="Heading-4---Daily">Shot on the Run</h4>
 > *You lay down a line of shots as you make a dash across the enemy’s flank.*  
 > **Daily** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Far** wall 5 within weapon range, all creatures in wall you can see  
@@ -6566,7 +6566,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Effect** Before the attack, you can run, shift, or walk as a normal move action; if you are wielding a weapon that normally incurs attack penalties when moving, this movement does not inflict those penalties.  
 > **Special** If you do not move this turn, wall 6.  
 
-> #### Wildfire  
+<h4 class="Heading-4---Daily">Wildfire</h4>
 > *There’s too many of them.  You keep the arrows coming and plow a road.*  
 > **Daily** **Attack** **1** (**Move and Standard Action**) ● **Martial, Weapon**  
 > **Near** arc 6, all creatures  
@@ -6575,14 +6575,14 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Miss** The target is dazed until the start of your next turn.  
 > **Special** If you do not move this turn, arc 7.  
 
-> #### Barbed Arrows  
+<h4 class="Heading-4---Daily">Barbed Arrows</h4>
 > *You may have loosed a storm of arrows, but each one cuts as deeply as if it were carefully aimed.*  
 > **Daily** **Utility** **2** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You hit with an arc, burst, or wall attack.  
 > **Effect** Each creature you hit takes an additional 5 extra damage.  
 
-> #### Covering Shot  
+<h4 class="Heading-4---Encounter">Covering Shot</h4>
 > *You protect an ally’s movement through hostile terrain.*  
 > **Encounter** **Attack** **3** (**Standard Action**) ● **Martial, Weapon**  
 > **Ranged** weapon, one creature  
@@ -6590,7 +6590,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Hit** 1dW + Dexterity modifier damage, and the target is immobile and cannot make opportunity attacks until the start of your next turn.  
 > **Effect** If you do not move this turn, the target is rattled until the start of your next turn (this does not require a hit).  
 
-> #### Eye the Enemy  
+<h4 class="Heading-4---Encounter">Eye the Enemy</h4>
 > *You quickly ascertain your enemy’s tactics and motives.  You taunt them to reveal a weakness.*  
 > **Encounter** **Attack** **3** (**Free Action**) ● **Martial, Weapon**  
 > **Self**   
@@ -6598,7 +6598,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Effect** Add your Intelligence modifier to the damage roll of all hits against the target (including the triggering hit) until the start of your next turn.  
 > **Maintain Swift** The effect persists until the start of your next turn. You cannot maintain if the target is staggered.
 
-> #### Black Sky  
+<h4 class="Heading-4---Daily">Black Sky</h4>
 > *You unleash a hail of arrows so intense, enemies are sent flat on their backs.*  
 > **Daily** **Attack** **5** (**Standard Action**) ● **Martial, Weapon**  
 > **Ranged** 5, one, two or three creatures  
@@ -6607,7 +6607,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Miss** Half damage, and the target is knocked prone.  
 > **Special** If you do not move this turn, on a hit, the target also suffers 5 persistent damage (save ends).  
 
-> #### Standing Barrage  
+<h4 class="Heading-4---Daily">Standing Barrage</h4>
 > *You lay down a rain of arrows against entrenched or approaching foes.*  
 > **Daily** **Attack** **5** (**Move and Standard Action**) ● **Martial, Weapon**  
 > **Far** burst 1 within weapon range, all creatures you can see  
@@ -6617,20 +6617,20 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Special** If you do not move this turn, on a hit, the target is rattled until the start of your next turn.  
 > **Maintain Move and Standard** Repeat the attack against the same area.  
 
-> #### Chain Shots  
+<h4 class="Heading-4---Encounter">Chain Shots</h4>
 > *It almost feels like a game as enemies drop quickly in your path.*  
 > **Encounter** **Utility** **6** (**Swift Action**) ● **Martial**  
 > **Self**   
 > **Effect** Until the end of your next turn, roll twice for every attack roll (using ammunition with each roll) and take the higher result.  
 
-> #### To the Rescue!  
+<h4 class="Heading-4---Encounter">To the Rescue!</h4>
 > *You drop to a knee by a fallen ally and ensure that ally is safe until help arrives.*  
 > **Encounter** **Utility** **6** (**Standard Action**) ● **Martial**  
 > **Near** burst 6, one dead, prone, or unconscious ally in burst.  
 > **Effect** You shift into the target’s square. Enemies cannot make any ranged or melee attack against the target, and the target gains a +3 power bonus to all defenses against area attacks. The effect ends at the end of your next turn, when the target stands, or when you leave the target’s square, whichever happens first.   
 > **Maintain Swift** The effect persists until the end of your next turn, or until the target stands, or until you leave the target’s square, whichever happens first.  
 
-> #### The Killing Field  
+<h4 class="Heading-4---Encounter">The Killing Field</h4>
 > *You hold your weapon back and wait for the advancing enemy. You have the entire battlefield in your view.*  
 > **Encounter** **Attack** **7** (**Standard Action**) ● **Martial, Weapon, Zone**  
 > **Far** burst 5 within range 20  
@@ -6640,21 +6640,21 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Special** Note that most characters only receive one opportunity action per turn.
 > **Maintain Standard** The zone persists until the end of your next turn. You can move the zone to a new area within range as part of this action.  
 
-> #### Tri-Shot  
+<h4 class="Heading-4---Encounter">Tri-Shot</h4>
 > *To conserve arrows, you control your shots to specific targets rather than shooting chaotically at your foes.*  
 > **Encounter** **Attack** **7** (**Standard Action**) ● **Martial, Weapon**  
 > **Ranged** weapon, one, two or three creatures  
 > **Attack** Dexterity vs AC, three attacks  
 > **Hit** 1dW + Dexterity modifier damage.  
 
-> #### Distracting Arrow  
+<h4 class="Heading-4---Daily">Distracting Arrow</h4>
 > *Your attack is more of a diversion to allow others the opportunity to recover.*  
 > **Daily** **Attack** **9** (**Swift Action**) ● **Martial, Weapon**  
 > **Self**   
 > **Trigger** You hit an enemy with a ranged weapon.  
 > **Effect** The target takes 1dW extra damage from the triggering attack. Two allies in line of sight can make saving throws against one condition a save can end.  
 
-> #### Force Back  
+<h4 class="Heading-4---Daily">Force Back</h4>
 > *A nonstop rain of arrows tracks an assaulting or flanking enemy.*  
 > **Daily** **Attack** **9** (**Standard Action**) ● **Martial, Weapon**  
 > **Far** burst 2 within weapon range, all creatures you can see  
@@ -6663,13 +6663,13 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Special** If you do not move this turn, the target is rattled until the start of your next turn whether or not you hit.  
 > **Maintain Standard** Repeat the attack. You can shift the barrage up to 3 squares every turn. If you miss all targets in the burst, you can no longer maintain.  
 
-> #### Machine of Destruction  
+<h4 class="Heading-4---Encounter">Machine of Destruction</h4>
 > *This is what it all comes down to.  You and your weapon.  That’s all that matters.*  
 > **Encounter** **Utility** **10** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Effect** Until the end of your next turn, you are immobile and the action required for any basic attack or at-will power is reduced from standard to move, or from move to swift.  
 
-> #### Battle Position  
+<h4 class="Heading-4---Daily">Battle Position</h4>
 > *Enemies are all around you. You need room to shoot.  You wave your bow wildly.*  
 > **Daily** **Utility** **10** (**Free Action**) ● **Martial**  
 > **Self**   
@@ -6682,7 +6682,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Hit** 2dW + Dexterity modifier damage, and the target is pushed 2 squares. If the target cannot be pushed 2 squares, it suffers an additional 1dW damage.  
 > **Special** If you do not move this turn, a hit target is pushed 4 squares and suffers additional damage if it cannot be pushed back 4 squares.  
 
-> #### Stacked Volleys  
+<h4 class="Heading-4---Encounter">Stacked Volleys</h4>
 > *You launch two identical volleys of arrows, nearly on top of each other. Opponents don’t expect the second one as quickly.*  
 > **Encounter** **Attack** **13** (**Standard Action**) ● **Martial, Weapon**  
 > **Far** burst 2 within weapon range, all creatures  
@@ -6690,7 +6690,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Hit** 1dW + Dexterity modifier, and the target is dazed until the end of its next turn.  If hit twice, the target is dazed (save ends).  
 > **Special** If you do not move this turn, gain a +1 bonus to each second attack.  
 
-> #### Tracking Shots  
+<h4 class="Heading-4---Daily">Tracking Shots</h4>
 > *Your first shot guides your second.*  
 > **Daily** **Attack** **15** (**Standard Action**) ● **Martial, Consistent, Weapon**  
 > **Ranged** weapon, one creature  
@@ -6702,7 +6702,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 *Tertiary Attack:*  Dexterity +4 vs AC
 *Hit:*  2dW + Dexterity modifier damage.  
 
-> #### Wildfire Blitz  
+<h4 class="Heading-4---Daily">Wildfire Blitz</h4>
 > *You spray arrows across a massive area.*  
 > **Daily** **Attack** **15** (**Move and Standard Action**) ● **Martial, Weapon**  
 > **Far** burst 4 within weapon range, all creatures you can see  
@@ -6710,7 +6710,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Hit** 2dW + Dexterity modifier damage.  
 > **Miss** Half damage.  
 
-> #### Bandit’s Yell  
+<h4 class="Heading-4---Encounter">Bandit’s Yell</h4>
 > *You scream loudly as you shake off the damage.*  
 > **Encounter** **Utility** **16** (**No Action**) ● **Healing, Martial**  
 > **Self**   
@@ -6722,7 +6722,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Self**   
 > **Effect** Until the end of your next turn, gain a +1 bonus to attack rolls and a +4 bonus to damage rolls.  
 
-> #### Flurry of Arrows  
+<h4 class="Heading-4---Encounter">Flurry of Arrows</h4>
 > *You unleash a flurry of arrows towards an enemy.*  
 > **Encounter** **Attack** **17** (**Standard Action**) ● **Martial, Weapon**  
 > **Ranged** weapon, one or two enemies  
@@ -6730,14 +6730,14 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Hit** 2dW + Dexterity modifier damage  
 > **Special** If you do not move this turn, increase damage to 3dW + Dexterity modifier.  
 
-> #### Mosquito’s Nip  
+<h4 class="Heading-4---Encounter">Mosquito’s Nip</h4>
 > *It is hard for your enemies to think of anything but you as you continue to rain steel from the sky.*  
 > **Encounter** **Attack** **17** (**Move Action**) ● **Martial, Weapon**  
 > **Self**   
 > **Effect** Each enemy you hit with a ranged attack until the end of your next turn is marked until the end of your next turn.  If your marked target makes an attack that does not include you as a target, you gain a +2 bonus to attack rolls and a +4 bonus to damage rolls against the target until the end of your next turn.  
 > **Maintain Move**  The effect persists until the end of your next turn. 
 
-> #### Mindless Mayhem  
+<h4 class="Heading-4---Daily">Mindless Mayhem</h4>
 > *You send a tsunami of arrows into the enemy.*  
 > **Daily** **Attack** **19** (**Standard Action**) ● **Martial, Weapon**  
 > **Ranged** weapon, one two or three enemies  
@@ -6746,7 +6746,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Miss** Half damage and the target is weakened until the start of your next turn.  
 > **Special** If you do not move this turn, you can target up to 4 enemies instead of 3 and make 4 attacks instead of 3; you must target at least two separate creatures.  
 
-> #### Suppressing Shots  
+<h4 class="Heading-4---Daily">Suppressing Shots</h4>
 > *You cover an area with arrows to keep enemies from moving.*  
 > **Daily** **Attack** **19** (**Standard and Move Action**) ● **Martial, Weapon, Zone**  
 > **Far** burst 2 within weapon range, all creatures you can see  
@@ -6756,13 +6756,13 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Special** If you do not move this turn, burst 3.  
 > **Maintain Move** The zone persists until the start of your next turn. 
 
-> #### New Position  
+<h4 class="Heading-4---Encounter">New Position</h4>
 > *The effectiveness of your current location is in question.  You quickly move to better ground.*  
 > **Encounter** **Utility** **22** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Effect** Shift your speed.  
 
-> #### Behemoth-Killer  
+<h4 class="Heading-4---Encounter">Behemoth-Killer</h4>
 > *You relax as you loose the arrow.  It’s not like you can miss.*  
 > **Encounter** **Attack** **23** (**Standard Action**) ● **Martial, Weapon**  
 > **Far** burst 5 within weapon range, one Large or larger creature you can see  
@@ -6770,7 +6770,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Hit** 3dW + Dexterity modifier damage.  
 > **Special** If you do not move this turn, increase to 4dW + Dexterity modifier damage.  
 
-> #### Clear the Ground  
+<h4 class="Heading-4---Encounter">Clear the Ground</h4>
 > *You cut down trees, walls, bushes, and people--anything that gets in your way.*  
 > **Encounter** **Attack** **23** (**Standard Action**) ● **Martial, Weapon**  
 > **Far** burst 5 within weapon range, all creatures you can see  
@@ -6779,7 +6779,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Effect** Until the end of the encounter, all difficult terrain in the area is no longer difficult terrain.  
 > **Special** If you do not move this turn, 3dW damage  
 
-> #### Cloud of Hellfire  
+<h4 class="Heading-4---Encounter">Cloud of Hellfire</h4>
 > *Your shots pepper the ground, sending up debris, hampering vision and movement.*  
 > **Encounter** **Attack** **23** (**Move and Standard Action**) ● **Martial, Weapon**  
 > **Far** burst 4 within weapon range, all creatures you can see  
@@ -6789,7 +6789,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Special** If you do not move this turn, burst 5.  
 > **Maintain Move** The zone persists until the end of your next turn.  
 
-> #### Cone of Barbs  
+<h4 class="Heading-4---Daily">Cone of Barbs</h4>
 > *You sweep your weapon wide, attacking everything in front of you.*  
 > **Daily** **Attack** **25** (**Standard Action**) ● **Martial, Weapon**  
 > **Near** arc 8, all creatures you can see  
@@ -6798,7 +6798,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Miss** Half damage, and the target is knocked prone and dazed until the end of your next turn.  
 > **Special** If you do not move this turn, targets in Near arc 3 take 1dW extra damage.  
 
-> #### One on One  
+<h4 class="Heading-4---Daily">One on One</h4>
 > *Your opponent is a lone creature of incredible power. You aim for this single target and release everything.*  
 > **Daily** **Attack** **25** (**Standard Action**) ● **Martial, Consistent, Weapon**  
 > **Ranged** weapon, one creature  
@@ -6807,7 +6807,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Special** If you do not move this turn, you can reroll all 1s on any damage dice for this power until the result is anything but a 1.  
 > **Maintain Standard** Repeat the attack against the same target.  You cannot maintain if you missed on your previous turn.  
 
-> #### Overwatch  
+<h4 class="Heading-4---Daily">Overwatch</h4>
 > *You keep a careful eye on an ally or allies from an advantageous position, and wait for enemies to poke out their heads.*  
 > **Daily** **Attack** **25** (**Standard Action**) ● **Martial, Weapon**  
 > **Far** burst 3 within weapon range, all creatures you can see  
@@ -6816,7 +6816,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Special** If you do not move this turn, burst 4  
 > **Maintain Standard** Repeat the attack against the same area. On a hit, you deal no additional damage but the target is stunned until the end of your next turn.  
 
-> #### Finish the Job  
+<h4 class="Heading-4---Encounter">Finish the Job</h4>
 > *After an onslaught of arrows, one target still didn’t fall. You turn your attention and ensure it follows your advice.*  
 > **Encounter** **Attack** **27** (**Swift Action**) ● **Martial, Consistent, Weapon**  
 > **Ranged** weapon, one creature you hit this round as part of a Far attack  
@@ -6824,7 +6824,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Hit** 3dW + Dexterity modifier damage.  
 > **Special** If you do not move this turn, 4dW + Dexterity modifier damage  
 
-> #### Selective Shots  
+<h4 class="Heading-4---Encounter">Selective Shots</h4>
 > *You’ve trained enough to know the difference between friend and enemy.  You no longer need to lay down broad volleys of arrows.*  
 > **Encounter** **Attack** **27** (**Standard Action**) ● **Martial, Weapon**  
 > **Ranged** weapon, five creatures, each no more than 3 squares from another target.  
@@ -6833,7 +6833,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Effect** The target is dazed until the start of your next turn.  
 > **Special** If you do not move this turn, each target can be no more than 5 squares away from another.  
 
-> #### Fall of Heaven  
+<h4 class="Heading-4---Daily">Fall of Heaven</h4>
 > *You crash the pillars and bring down the sky, raining steel, offloading everything you have.*  
 > **Daily** **Attack** **29** (**Standard Action**) ● **Martial, Weapon**  
 > **Ranged** weapon, all enemies you can see  
@@ -6842,7 +6842,7 @@ You are a one-person siege weapon, firing down rains of arrows that force your f
 > **Miss** Half damage.  
 > **Special** If you do not move this turn, 2dW + Dexterity modifier + Intelligence modifier damage.  
 
-> #### Measured Response  
+<h4 class="Heading-4---Daily">Measured Response</h4>
 > *You respond to an attack with a proportionate level of aggression.*  
 > **Daily** **Attack** **29** (**Standard Action**) ● **Martial, Weapon**  
 > **Far** burst 1 within weapon range, all creatures you can see  
@@ -6949,7 +6949,7 @@ You share a special bond with your companion that allows you to fight as one.
 
 Your psychic powers allow you to waylay your enemies and clear the minds of your allies. 
 
-> #### Blazing Mantle  
+<h4 class="Heading-4---At-Will">Blazing Mantle</h4>
 > *Your channel the awesome energies of your Godmind and you literally come ablaze with phrenic power.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Augmentable, Phrenic, Focus, Psychic**  
 > **Near** burst 1, all enemies  
@@ -6958,7 +6958,7 @@ Your psychic powers allow you to waylay your enemies and clear the minds of your
 *Level 21:* Increase damage to 2d6 damage + Wisdom modifier.  
 > **Special—Augment:** Push each target a number of squares equal to 1 + Charisma modifier.  
 
-> #### Gaze of Aeons  
+<h4 class="Heading-4---At-Will">Gaze of Aeons</h4>
 > *You allow yourself to become the outlet of your Godmind’s phrenic power, reflecting in your eyes that burn with divine energy, jarring an enemy.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Augmentable, Phrenic, Focus, Radiant**  
 > **Ranged** 5, one creature  
@@ -6966,7 +6966,7 @@ Your psychic powers allow you to waylay your enemies and clear the minds of your
 > **Hit** The target grants combat advantage until the end of your next turn. Whenever an ally hits the target with an attack before the end of your next turn, they also deal radiant damage equal to your Charisma modifier. 
 > **Special—Augment:** As part of the initial attack, also deal 1d6 + Wisdom modifier radiant damage.  
 
-> #### Unerring Guidance  
+<h4 class="Heading-4---Encounter">Unerring Guidance</h4>
 > *You ask your Godmind to guide your attacks against an enemy and your blows ring true.*  
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Augmentable, Phrenic, Weapon**  
 > **Melee** weapon, one creature  
@@ -6974,21 +6974,21 @@ Your psychic powers allow you to waylay your enemies and clear the minds of your
 > **Hit** 2dW and the next ally that attacks the target before the end of your next turn gains a +2 power bonus to their attack roll.  
 > **Special—Augment:** Add your Charisma modifier to the damage and give all allies +2 to their attack rolls against the target until your next turn, instead of just the next ally.  
 
-> #### Aura of Painful Clarity  
+<h4 class="Heading-4---Daily">Aura of Painful Clarity</h4>
 > *Your connection to your Godmind extends into a shining aura, empowering all with greater clarity and focus as they attack their enemies. While enemies are within the aura, their vulnerabilities become clear to your allies and your intense focus might burn their minds.*  
 > **Daily** **Attack** **1** (**Standard Action**) ● **Augmentable, Aura, Phrenic, Focus, Psychic**  
 > **Near** burst 1, all creatures  
 > **Effect** Allies that begin their turn inside the aura gain a +2 power bonus to their next attack roll. Enemies inside the aura have vulnerability to all damage 2. 
 > **Special—Augment:** As a standard action, make a Wisdom vs Will attack against each enemy inside the aura. Hit: 1d6 + your Charisma modifier psychic damage.  
 
-> #### Surging Meditation  
+<h4 class="Heading-4---Daily">Surging Meditation</h4>
 > *You meditate, entering a state of mental clarity that allows you to heal yourself or an ally, while at the same time refreshing their mind.*  
 > **Daily** **Utility** **2** (**Standard Action**) ● **Augmentable, Phrenic, Healing**  
 > **Near** burst 10, you or one ally  
 > **Effect** The target may spend one recovery and one focus surge.  
 > **Special—Augment:** This power is not expended when used.  
 
-> #### Strike the Weakened Mind  
+<h4 class="Heading-4---Encounter">Strike the Weakened Mind</h4>
 > *You wield your weapon in a blazing arc and as you hit, you shatter both their physical and mental selves.*  
 > **Encounter** **Attack** **3** (**Standard Action**) ● **Augmentable, Phrenic, Weapon**  
 > **Melee** weapon, one creature  
@@ -6996,7 +6996,7 @@ Your psychic powers allow you to waylay your enemies and clear the minds of your
 > **Hit** 2dW + Wisdom modifier damage. The target also loses any psi focus they had (refresh as if spent on a daily) and takes a -2 penalty to their Will defense until the end of their next turn.  
 > **Special—Augment:** Before making the attack roll, this power gains the Consistent tag.  
 
-> #### Siphon the Soul  
+<h4 class="Heading-4---Daily">Siphon the Soul</h4>
 > *You intertwine the souls and minds of one enemy and an ally of yours, siphoning away the energy of one to heal the other.*  
 > **Daily** **Attack** **5** (**Standard Action**) ● **Augmentable, Phrenic, Healing, Focus, Psychic**  
 > **Ranged** 10, one creature  
@@ -7005,14 +7005,14 @@ Your psychic powers allow you to waylay your enemies and clear the minds of your
 > **Effect** One ally within 10 may spend a recovery.  
 > **Special—Augment:** Give the target a penalty on saves against the dazed condition equal to your Charisma modifier.  
 
-> #### Aura of Mending  
+<h4 class="Heading-4---Daily">Aura of Mending</h4>
 > *Your aura shines forth, powered by the connection to your godmind. Allies nearby regain their health and you can guide them into drawing upon inner resources.*  
 > **Daily** **Utility** **6** (**Swift Action**) ● **Augmentable, Aura, Phrenic, Healing**  
 > **Near** burst 2, all allies  
 > **Effect** Every ally inside the aura at the start of their turn gains regeneration 1. While this aura is in place, you may, as a standard action, spend your *psi focus* to enable an ally within the aura to spend a recovery. Expending your *psi focus* in this fashion makes it refresh as after having used an encounter power.  
 > **Special—Augment:** Add your Charisma modifier to the number of hit points regained each time yourself or an ally within the aura spends a recovery.  
 
-> #### Unveiling the Godmind  
+<h4 class="Heading-4---Encounter">Unveiling the Godmind</h4>
 > *You stretch out your hand, creating a bridge between your godmind’s unbridled energy and the mind of a lesser creature, burning their mind and body to cinders.*  
 > **Encounter** **Attack** **7** (**Standard Action**) ● **Augmentable, Phrenic, Fear, Focus, Psychic**  
 > **Melee** touch, one creature  
@@ -7020,7 +7020,7 @@ Your psychic powers allow you to waylay your enemies and clear the minds of your
 > **Hit** 3d6 + your Wisdom modifier psychic damage, push the target 1 square and the target is restrained until the end of your next turn.  
 > **Special—Augment:** Add your Charisma as a power bonus to both the attack and the damage roll.  
 
-> #### Consumption of the Sinful  
+<h4 class="Heading-4---Daily">Consumption of the Sinful</h4>
 > *Reaching forth into the mind of your enemy, you unleash their darkest sins and give them form, haunting your enemy while aiding your allies in combat.*  
 > **Daily** **Attack** **9** (**Standard Action**) ● **Augmentable, Conjuration, Phrenic, Focus, Psychic**  
 > **Ranged** 10, one creature  
@@ -7030,7 +7030,7 @@ Your psychic powers allow you to waylay your enemies and clear the minds of your
 > **Special—Augment:** The target receives a penalty equal to your Charisma modifier to attack rolls (save ends).  
 > **Maintain Swift** The manifestation exists until the end of your next turn. 
 
-> #### Aura of Psychic Vengeance  
+<h4 class="Heading-4---Daily">Aura of Psychic Vengeance</h4>
 > *You meditate for a short while before your aura blooms out around you, allowing your mind to become as one with your allies, aiding their attacks.*  
 > **Daily** **Utility** **10** (**Standard Action**) ● **Augmentable, Aura, Phrenic**  
 > **Near** burst 2, all allies  
@@ -7044,7 +7044,7 @@ Your psychic powers allow you to waylay your enemies and clear the minds of your
 
 You pass through worlds, delivering attacks from impossible vantage points.
 
-> #### Dimensional Strike  
+<h4 class="Heading-4---At-Will">Dimensional Strike</h4>
 > *By shifting slightly between two worlds, you confuse the senses of your foe so you may land your attack more easily.*  
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Arcane, Weapon**  
 > **Melee or Ranged** weapon, one target  
@@ -7052,14 +7052,14 @@ You pass through worlds, delivering attacks from impossible vantage points.
 > **Hit** 1dW + Intelligence modifier damage. 
 *Level 21:* 2dW + Intelligence modifier damage.  
 
-> #### Disturbing Blow  
+<h4 class="Heading-4---Encounter">Disturbing Blow</h4>
 > *By establishing counter-resonance within the spirit of an enemy with a well-placed blow, you may disrupt and disturb its next action.*  
 > **Encounter** **Attack** **1** (**Standard Action**) ● **Arcane, Weapon**  
 > **Melee** weapon, one target  
 > **Attack** Intelligence vs AC  
 > **Hit** 1dW + Intelligence modifier damage. The creature grants combat advantage to the next attack against it, provided that attack occurs before the end of your next turn.   
 
-> #### Cursed Fate  
+<h4 class="Heading-4---Daily">Cursed Fate</h4>
 > *You can befuddle and bewilder your opponent with this strike, causing a grave imbalance in the psyche of the victim.*  
 > **Daily** **Attack** **1** (**Standard Action**) ● **Arcane, Weapon**  
 > **Melee or Ranged** weapon, one target  
@@ -7067,13 +7067,13 @@ You pass through worlds, delivering attacks from impossible vantage points.
 > **Hit** 2dW + Intelligence modifier damage and the target grants combat advantage until the end of your next turn.  
 > **Miss** 1dW + Intelligence modifier damage and the creature grants combat advantage to the next attack against it, provided that attack occurs before the end of your next turn.  
 
-> #### Ghost Hunting Blow  
+<h4 class="Heading-4---Encounter">Ghost Hunting Blow</h4>
 > *By reaching across the barrier between worlds, you may strike at disembodied spirits as easily you would strike a normal mortal.*  
 > **Encounter** **Utility** **2** (**Swift Action**) ● **Arcane, Stance**  
 > **Self**   
 > **Effect** Your attacks do force damage as well as any other type of damage, and they do damage against incorporeal targets as if the targets were not incorporeal.  
 
-> #### Inner Sense  
+<h4 class="Heading-4---Encounter">Inner Sense</h4>
 > *By sensing ripples in the spiritual world around him, you are capable of better avoiding dangerous effects and situations.*  
 > **Encounter** **Utility** **2** (**Free Action**) ● **Arcane**  
 > **Self**   
@@ -7081,19 +7081,19 @@ You pass through worlds, delivering attacks from impossible vantage points.
 > **Effect** Add +2 to the result.  
 > **Special** You can use this power after seeing the result of your roll.  
 
-> #### Leaping Spirit Dance  
+<h4 class="Heading-4---Daily">Leaping Spirit Dance</h4>
 > *Light as a feather, you move gracefully in combat, with the smooth and practiced grace of an incorporeal being.*  
 > **Daily** **Utility** **2** (**Swift Action**) ● **Arcane, Stance**  
 > **Self**   
 > **Effect** You receive a +2 power bonus to AC and Reflex. If you end any turn without having moved at least 2 squares, this stance ends.  
 
-> #### Spirit Sensing Stance  
+<h4 class="Heading-4---Daily">Spirit Sensing Stance</h4>
 > *Your senses exceed that of natural beings and move into the realm of supernatural awareness. You sense the different patterns that exist within all beings.*  
 > **Daily** **Utility** **2** (**Swift Action**) ● **Arcane, Stance**  
 > **Self**   
 > **Effect** You know the location to the nearest square of all creatures within 6 squares of you, even if they are hiding, incorporeal or invisible.  
 
-> #### Resonance Strike  
+<h4 class="Heading-4---Daily">Resonance Strike</h4>
 > *By funneling your spiritual power into your attack, you may strike an opponent with glowing silvery light.*  
 > **Daily** **Attack** **5** (**Standard Action**) ● **Arcane, Weapon**  
 > **Near** burst 10, one enemy in range  
@@ -7101,20 +7101,20 @@ You pass through worlds, delivering attacks from impossible vantage points.
 > **Hit** 3dW + Intelligence modifier force damage  
 > **Miss** Half damage.  
 
-> #### Fading Strike  
+<h4 class="Heading-4---Encounter">Fading Strike</h4>
 > *You learn the basic technique for walking between worlds to reach locations that previously could be inaccessible on the mortal world and potentially attack foes at those locales.*  
 > **Encounter** **Utility** **6** (**Move Action**) ● **Arcane, Teleport**  
 > **Self**   
 > **Effect** Teleport 6  
 
-> #### Half-Gone  
+<h4 class="Heading-4---Encounter">Half-Gone</h4>
 > *By momentarily slipping through the barrier between the Material and the Astral planes, you may attempt to avoid an attack by being incorporeal.*  
 > **Encounter** **Utility** **6** (**Counter Action**) ● **Arcane**  
 > **Self**   
 > **Trigger** You are hit by an attack.  
 > **Effect** You are incorporeal for the purpose of this attack (typically, you take half damage from the attack).  
 
-> #### Altered Penumbra  
+<h4 class="Heading-4---Daily">Altered Penumbra</h4>
 > *Position is relative to your thinking, and your position in the universe is mutable. Using these principles, you may circumvent reality to remove yourself from harm’s way when necessary.*  
 > **Daily** **Utility** **6** (**Counter Action**) ● **Arcane, Conjuration, Teleport**  
 > **Self**   
@@ -7123,14 +7123,14 @@ You pass through worlds, delivering attacks from impossible vantage points.
 > **Special** If the teleportation does not move you outside the range of a near or far attack, you are still subject to that attack.  
 > **Maintain Move** Repeat the effect.  
 
-> #### Brilliant Moon  
+<h4 class="Heading-4---Encounter">Brilliant Moon</h4>
 > *By partially phasing a portion of your attack out of this reality, you may ignore certain obstacles, such as armor, when striking at an opponent.*  
 > **Encounter** **Attack** **7** (**Standard Action**) ● **Arcane, Weapon**  
 > **Melee or Ranged** weapon, one target  
 > **Attack** Intelligence vs Reflex  
 > **Hit** 2dW + Intelligence modifier force damage.  
 
-> #### Breath of the Moon  
+<h4 class="Heading-4---Daily">Breath of the Moon</h4>
 > *You use the principles of lunar cycles on the psyche of mortals.*  
 > **Daily** **Attack** **9** (**Standard Action**) ● **Arcane, Weapon**  
 > **Near** arc 3  
@@ -7138,38 +7138,38 @@ You pass through worlds, delivering attacks from impossible vantage points.
 > **Hit** 2dW + Intelligence modifier psychic damage, and the target cannot target you with attacks (save ends).  
 > **Miss** Target cannot target you with attacks until the end of your next turn.  
 
-> #### Fading Leap  
+<h4 class="Heading-4---Encounter">Fading Leap</h4>
 > *With nary a thought and a gesture you may flow like moonlight from one location to another through the Astral plane, moving faster than your earthly body would allow.*  
 > **Encounter** **Utility** **10** (**Swift Action**) ● **Arcane, Teleport**  
 > **Self**   
 > **Effect** Teleport 6  
 
-> #### Formless Dance  
+<h4 class="Heading-4---Encounter">Formless Dance</h4>
 > *You immerse yourself in a sort of dimensional flux, causing you to be able to see what cannot be perceived and seemingly be in many places at once.*  
 > **Encounter** **Utility** **10** (**Swift Action**) ● **Arcane, Illusion, Stance**  
 > **Self**   
 > **Effect** You have concealment and truesight 6.  
 
-> #### Ghostwalk  
+<h4 class="Heading-4---Encounter">Ghostwalk</h4>
 > *You step through to the borderland between the Material and the Ethereal planes, becoming an incorporeal figure in both realities for a few moments.*  
 > **Encounter** **Utility** **10** (**Swift Action**) ● **Arcane**  
 > **Self**   
 > **Hit** You become incorporeal until the end of your next turn.  
 
-> #### Ethereal Reminiscence  
+<h4 class="Heading-4---Daily">Ethereal Reminiscence</h4>
 > *The ectoplasmic nature of beings on the Ethereal plane allows you to briefly transport yourself to that realm and use your will to restore some of your form by filling your wounds with spectral energies, displacing your injuries.*  
 > **Daily** **Utility** **10** (**Standard Action**) ● **Arcane**  
 > **Self**   
 > **Hit** You become incorporeal until the end of your next turn. You may spend a recovery to heal your recovery value.  
 
-> #### Flicker Strike  
+<h4 class="Heading-4---Encounter">Flicker Strike</h4>
 > *In a flickering blur of teleportation and movement, you disappear, blink into existence to strike a foe, and then disappear again to appear a safe distance away.*  
 > **Encounter** **Attack** **13** (**Standard Action**) ● **Arcane, Weapon, Teleport**  
 > **Self**   
 > **Effect** Teleport 6.
 *Secondary Attack:* Intelligence vs AC. 2dW + Intelligence modifier damage on a hit, and you can teleport 6.  
 
-> #### Essence Shattering Strike  
+<h4 class="Heading-4---Daily">Essence Shattering Strike</h4>
 > *With a powerful strike, you attack the very spirit of your foe with your silver-blue light.*  
 > **Daily** **Attack** **15** (**Standard Action**) ● **Arcane, Weapon**  
 > **Melee or Ranged** weapon, one target  
@@ -7177,19 +7177,19 @@ You pass through worlds, delivering attacks from impossible vantage points.
 > **Hit** 3dW + Intelligence modifier damage and the target is dazed (save ends).  
 > **Miss** Half damage. The target is not dazed. 
 
-> #### Twisting Ether  
+<h4 class="Heading-4---Encounter">Twisting Ether</h4>
 > *You sink through the world with your ally and switch places for better effect in combat.*  
 > **Encounter** **Utility** **16** (**Swift Action**) ● **Arcane, Teleport**  
 > **Near** burst 5, one ally  
 > **Effect** You and your ally simultaneously swap spaces via teleportation.  
 
-> #### Stance of the Ether Gate  
+<h4 class="Heading-4---Daily">Stance of the Ether Gate</h4>
 > *By shifting your essence partially into the Astral plane, you find that moving through that plane as just as easy as moving through the material plane.*  
 > **Daily** **Utility** **16** (**Swift Action**) ● **Arcane, Stance, Teleport**  
 > **Self**   
 > **Effect** As a move action, you can teleport 6.  
 
-> #### Ether Wave  
+<h4 class="Heading-4---Daily">Ether Wave</h4>
 > *You concentrate your spiritual energies to your hand, tear into the barrier between the Astral and the Material, and release the energies that form from this in a wracking wave of silvery-blue energy.*  
 > **Daily** **Attack** **19** (**Standard Action**) ● **Arcane, Weapon**  
 > **Near** arc 4  
@@ -7197,7 +7197,7 @@ You pass through worlds, delivering attacks from impossible vantage points.
 > **Hit** 3dW + Intelligence modifier force damage, and persistent 5 force damage (save ends).  
 > **Miss** Half damage (no persistent damage).  
 
-> #### Warp Worm  
+<h4 class="Heading-4---Daily">Warp Worm</h4>
 > *By creating temporary breaches between the worlds of the Material and the Astral, you may teleport through a few enemies and emerge from the space between worlds having done your foes great internal harm.*  
 > **Daily** **Attack** **19** (**Standard Action**) ● **Arcane, Weapon, Teleport**  
 > **Melee** weapon, one target  
@@ -7209,38 +7209,38 @@ You pass through worlds, delivering attacks from impossible vantage points.
 > *Secondary Attack:* Intelligence vs AC; 1d8 + Intelligence modifier damage, and you teleport up to 4 squares; on a miss, no damage and you teleport up to 2 squares.
 > **Special:** No creature may be the target of more than one attack as part of this action. 
 
-> #### Anchoring Spirit  
+<h4 class="Heading-4---Daily">Anchoring Spirit</h4>
 > *You pull yourself fully into the Ethereal and manifest a ghostly apparition of your form upon the Material, and in doing so you lock your immediate area for travel through the Ethereal or Astral plane.*  
 > **Daily** **Utility** **22** (**Swift Action**) ● **Arcane, Stance**  
 > **Self**   
 > **Effect** You become incorporeal. Enemies within 12 cannot choose to teleport. Allies within 12 can always choose not to teleport if they would be subject to an effect that would teleport them.  
 
-> #### Fade Through  
+<h4 class="Heading-4---Daily">Fade Through</h4>
 > *You fold two points in space around you to appear at another location within the span of a heartbeat.*  
 > **Daily** **Utility** **22** (**Standard Action**) ● **Arcane, Teleport**  
 > **Self**   
 > **Effect** Move up to your speed, with phasing. Make a basic melee attack against each enemy that you move through.  
 
-> #### Lunar Penumbra  
+<h4 class="Heading-4---Daily">Lunar Penumbra</h4>
 > *It is said that the moon is portrayed in some legends as a laughing trickster, and with this powerful ability, you pull an incredible trick upon your foe.*  
 > **Daily** **Utility** **22** (**Counter Action**) ● **Arcane, Teleport**  
 > **Self**   
 > **Trigger** You are the target of an attack.  
 > **Effect** You and the attacker swap places via teleportation. The attacker now becomes the target of their own attack.  
 
-> #### Phantom Penumbra  
+<h4 class="Heading-4---Daily">Phantom Penumbra</h4>
 > *To slip through the worlds is a simple matter for you, and using this to deceive and evade an attacker is effortlessly done.*  
 > **Daily** **Utility** **22** (**Swift Action**) ● **Arcane, Illusion**  
 > **Self**   
 > **Effect** A number of times equal to the number of recoveries you have spent so far since your last long rest, you can force enemies within 6 squares to reroll an attack roll. You can only force each attack roll to be rerolled once. Any remaining uses are lost when the encounter ends.   
 
-> #### Spiritual Weapon Stance  
+<h4 class="Heading-4---Daily">Spiritual Weapon Stance</h4>
 > *By channeling ethereal energies along your weapons and body, you become immersed in both worlds, being as solid on the Ethereal Plane as you are on the Material.*  
 > **Daily** **Utility** **22** (**Swift Action**) ● **Arcane, Stance**  
 > **Self**   
 > **Effect** Your attacks do persistent 5 force damage (save ends).  
 
-> #### Dispersal Strike  
+<h4 class="Heading-4---Daily">Dispersal Strike</h4>
 > *With a powerful strike and flash of silver-blue light, you slam your foe directly into the Ethereal for a few moments, causing it to become ghostly and unreal.*  
 > **Daily** **Attack** **25** (**Standard Action**) ● **Arcane, Weapon**  
 > **Melee or Ranged** weapon, one target  
@@ -7249,7 +7249,7 @@ You pass through worlds, delivering attacks from impossible vantage points.
 > **Miss** Half damage.  
 > **Effect** The target becomes incorporeal (save ends). While incorporeal, their attacks behave as if all targets had the incorporeal property (in most cases, this means they do half damage).  
 
-> #### Flashing Ether Touch  
+<h4 class="Heading-4---Daily">Flashing Ether Touch</h4>
 > *With but a touch you send a foe hurtling through the Astral to reappear with frightening velocity to hit the ground.*  
 > **Daily** **Attack** **25** (**Standard Action**) ● **Arcane, Weapon, Teleport**  
 > **Melee** touch, one target  
@@ -7257,7 +7257,7 @@ You pass through worlds, delivering attacks from impossible vantage points.
 > **Hit** The target disappears until the beginning of your next turn. Then they appear in the space 12 squares above the space that they disappeared from.  
 > **Miss** The target disappears until the beginning of your next turn. Then they appear in the space 6 squares above the space that they disappeared from.  
 
-> #### Banish to the Beyond  
+<h4 class="Heading-4---Daily">Banish to the Beyond</h4>
 > *You lay a mark against a target and shunt it gently into the Astral plane where it may ponder its reasons for crossing the likes of a master.*  
 > **Daily** **Attack** **29** (**Standard Action**) ● **Arcane, Weapon, Teleport**  
 > **Melee** touch, one target  
@@ -7265,7 +7265,7 @@ You pass through worlds, delivering attacks from impossible vantage points.
 > **Hit** 4dW + Intelligence modifier force damage. If, immediately after this damage, the target’s current hit points are lower than yours, they are transported to the Astral Plane indefinitely. Otherwise, they are transported to the Astral Plane (save ends).  
 > **Miss** Half damage, and the target is not transported to the Astral Plane.  
 
-> #### Eclipsing Moon  
+<h4 class="Heading-4---Daily">Eclipsing Moon</h4>
 > *Folding space around your form effortlessly, you leap through the ether and attack through the barrier between the worlds in a series of staccato bursts of silvery-blue light, your image blinking as you strike.*  
 > **Daily** **Attack** **29** (**Standard Action**) ● **Arcane, Weapon, Teleport**  
 > **Near** burst 12, all enemies  
@@ -7315,7 +7315,7 @@ Someone hands you an image, an address, or just a name. You move in quickly and 
 
 ### Powers  
 
-> #### Make Sure They’re Dead  
+<h4 class="Heading-4---Encounter">Make Sure They’re Dead</h4>
 >
 > *Otherwise you don’t get paid …*  
 > **Encounter** **Attack** **11** (**Free Action**) ● **Martial, Consistent, Weapon**  
@@ -7324,7 +7324,7 @@ Someone hands you an image, an address, or just a name. You move in quickly and 
 > **Attack** Strength or Dexterity (your choice) vs AC  
 > **Hit** 2dW + Strength or Dexterity (your choice) modifier damage.  
 
-> #### The Professional  
+<h4 class="Heading-4---Daily">The Professional</h4>
 >
 > *No emotions.  No investments.  No hesitation.*  
 > **Daily** **Utility** **12** (**Swift Action**) ● **Martial**  
@@ -7332,7 +7332,7 @@ Someone hands you an image, an address, or just a name. You move in quickly and 
 > **Effect** Until the end of the encounter, when you are granted a basic attack outside of your turn (from an opportunity action, ally power, etc.), you do additional damage equal to your Dexterity modifier +2 if you hit. 
 >  *Level 21:* You do additional damage equal to your Dexterity modifier +5 if you hit.
 
-> #### Like a Ghost  
+<h4 class="Heading-4---Daily">Like a Ghost</h4>
 >
 > *You move like the wind and strike like lightning.*  
 > **Daily** **Attack** **20** (**Standard Action**) ● **Martial, Weapon**  
@@ -7360,20 +7360,20 @@ You exist for the betterment of others. You specialize in impromptu medical care
 
 ### Powers  
 
-> #### Race to the Fallen  
+<h4 class="Heading-4---Encounter">Race to the Fallen</h4>
 > *An ally falls from a heavy blow. You race to their aid, attacking the enemy desperately in hopes it will back off.*  
 > **Encounter** **Attack** **11** (**Reaction Action**) ● **Healing, Martial, Weapon**  
 > **Near** burst 5, the triggering ally  
 > **Trigger** One ally in burst you can see is staggered by an attack.  
 > **Effect** The triggering enemy is pushed 2 squares, and you make a basic attack against it (in either order).  Shift into a square adjacent to the target. The target can spend a recovery and regain its recovery value plus 3d6 additional hit points.  
 
-> #### Impromptu Surgery  
+<h4 class="Heading-4---Daily">Impromptu Surgery</h4>
 > *A foreign implement is causing internal bleeding.  You fish it out and try to close the wound.*  
 > **Daily** **Utility** **12** (**Standard Action**) ● **Healing, Martial**  
 > **Melee** touch, one staggered ally  
 > **Effect** The target automatically succeeds on one saving throw and can spend up to two recoveries to heal its recovery value that many times.  
 
-> #### No Longer Civilized  
+<h4 class="Heading-4---Daily">No Longer Civilized</h4>
 > *An ally succumbs to their injuries.  You can no longer be a healer.  You must be a protector.*  
 > **Daily** **Attack** **20** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, one creature that has reduced an ally in line of sight to 0 hit points or below.  
@@ -7395,21 +7395,21 @@ You don’t analyze the patterns of combat but the actions and motivations of in
 
 ### Powers  
 
-> #### Thought Process  
+<h4 class="Heading-4---Encounter">Thought Process</h4>
 > *You predict where the enemy will move.*  
 > **Encounter** **Attack** **11** (**Swift Action**) ● **Martial, Consistent**  
 > **Near** burst 10, a creature you have marked  
 > **Attack** Intelligence +2 vs Will  
 > **Hit** The target is rattled and grants combat advantage to all allies in sight until the end of your next turn.  
 
-> #### Mental Prediction  
+<h4 class="Heading-4---Encounter">Mental Prediction</h4>
 > *Your knowledge of the enemy runs deep, beyond what your allies or even enemies know.*  
 > **Encounter** **Utility** **12** (**Move Action**) ● **Martial**  
 > **Near** earshot, you and up to four allies  
 > **Effect** The target gains a +2 power bonus to AC and Reflex defense against creatures you have marked until the start of your next turn.  
 > **Maintain Swift** The effect persists until the start of your next turn. You can maintain only once. 
 
-> #### This One Especially  
+<h4 class="Heading-4---Daily">This One Especially</h4>
 > *Of all the targets, this is the one that must be taken down immediately.*  
 > **Daily** **Attack** **20** (**Swift Action**) ● **Martial, Weapon**  
 > **Near** earshot, you and up to four allies  
@@ -7431,21 +7431,21 @@ You are a silent, cold, calculating assassin. Your skills involve intimate kills
 
 ### Powers  
 
-> #### Torque Twist  
+<h4 class="Heading-4---Encounter">Torque Twist</h4>
 > *You wind the cord and draw it tight employing a technique few others know.*  
 > **Encounter** **Attack** **11** (**Free Action**) ● **Martial, Weapon**  
 > **Self**   
 > **Trigger** You hit a creature with a garrote.  
 > **Effect** The target takes 1dW extra damage from the triggering attack, and is stunned until the start of your next turn.  
 
-> #### Compliant Target  
+<h4 class="Heading-4---Daily">Compliant Target</h4>
 > *Your opponent doesn’t appear capable of struggling when you have a cord wrapped tight around their neck.*  
 > **Daily** **Utility** **12** (**Move Action**) ● **Martial**  
 > **Self**   
 > **Requirements** You are grappling a creature using a garrote.  
 > **Effect** Shift your speed and pull the creature you are grappling with you.  You gain a +2 bonus to sustain the grapple until the grapple ends.  
 
-> #### Go to Sleep  
+<h4 class="Heading-4---Daily">Go to Sleep</h4>
 > *You feel the breath leave the target as you apply pressure.*  
 > **Daily** **Attack** **20** (**Swift Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature you are grappling with a garotte  
@@ -7465,7 +7465,7 @@ You are a silent, cold, calculating assassin. Your skills involve intimate kills
 
 ### Powers  
 
-> #### Splintering Shot  
+<h4 class="Heading-4---Encounter">Splintering Shot</h4>
 > *The arrow shatters, damaging targets around.*  
 > **Encounter** **Attack** **11** (**Free Action**) ● **Martial**  
 > **Self**   
@@ -7473,13 +7473,13 @@ You are a silent, cold, calculating assassin. Your skills involve intimate kills
 > **Effect** Each creature in a burst 2 around the target takes damage equal to 2 + your Dexterity modifier. 
 >  *Level 21:* Each creature in a burst 2 around the target takes damage equal to 5 + your Dexterity modifier. 
 
-> #### Stalking Horse  
+<h4 class="Heading-4---Daily">Stalking Horse</h4>
 > *Your enemy is certain of your location. They’re wrong.*  
 > **Daily** **Utility** **12** (**Move Action**) ● **Martial, Teleportation**  
 > **Near** burst 10, an unoccupied space you can see that grants three-quarters cover or total concealment  
 > **Effect** You teleport to the target space.  
 
-> #### Perfect Shot Placement  
+<h4 class="Heading-4---Daily">Perfect Shot Placement</h4>
 > *Once you get the measure of one enemy, their allies are easy pickings.*
 > **Daily** **Attack** **20** (**Standard Action**) ● **Consistent,** **Martial, Weapon**
 > **Ranged** weapon, one creature 
@@ -7503,7 +7503,7 @@ You keep your weapon down until the last second. You prefer to stare down oppone
 
 ### Powers  
 
-> #### Strafing Attack  
+<h4 class="Heading-4---Encounter">Strafing Attack</h4>
 > *You bolt across the battlefield, hardly taking a moment to aim. The crossbow remains steady as you run.*  
 > **Encounter** **Attack** **11** (**Standard Action**) ● **Martial, Weapon**  
 > **Ranged** weapon, one creature  
@@ -7512,14 +7512,14 @@ You keep your weapon down until the last second. You prefer to stare down oppone
 > **Miss** Half damage, and the target is pushed 1 square.  
 > **Effect** Before your attack, shift your speed. You can attack at any point during the move.  
 
-> #### Through the Hat  
+<h4 class="Heading-4---Daily">Through the Hat</h4>
 > *That last shot had you for certain.  You pass your fingers nonchalantly through your hair and reenter the fight.*  
 > **Daily** **Utility** **12** (**Counter Action**) ● **Martial**  
 > **Self**   
 > **Trigger** You are hit with a ranged attack.  
 > **Effect** The attack misses.  
 
-> #### Bolt Waltz  
+<h4 class="Heading-4---Daily">Bolt Waltz</h4>
 > *Like a ballet, you sashay and sidestep, firing at opponents and avoiding every counterattack.*  
 > **Daily** **Attack** **20** (**Standard Action**) ● **Martial, Weapon**  
 > **Ranged** weapon, one creature  
@@ -7563,7 +7563,7 @@ You specialize in the cracks in reality, the passages between worlds. With the r
 > **Trigger** An enemy that has already moved this turn makes an attack against you that misses.
 > **Effect** Make a basic attack against the triggering creature. 
 
-> #### Flanking Echo
+<h4 class="Heading-4---Daily">Flanking Echo</h4>
 > **Encounter Utility** **12** (**Swift Action**) ● **Phrenic, Summons, Teleportation**
 > **Near** burst 5, one unoccupied square
 > **Effect** You summon a dimensional echo in the target square. When you take a move action, you can move the dimensional echo up to 6 squares. The echo assists your allies with flanks. The echo remains until the end of the encounter, or until you dismiss it with a swift action. When you dismiss it, you may teleport to the square it occupied if you wish. 
@@ -7624,7 +7624,7 @@ Against creatures you have marked, you gain a +2 bonus to damage rolls. This bon
 
 ### Powers  
 
-> #### Remember Me?  
+<h4 class="Heading-4---Encounter">Remember Me?</h4>
 > *A few well-placed shots brings an enemy’s attention back around to you.*  
 > **Encounter** **Attack** **11** (**Counter Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, the triggering enemy  
@@ -7634,14 +7634,14 @@ Against creatures you have marked, you gain a +2 bonus to damage rolls. This bon
 > **Miss** Half damage.  
 > **Effect** The target’s attack misses.  
 
-> #### Encouraging Stance  
+<h4 class="Heading-4---Daily">Encouraging Stance</h4>
 > *You may not be the leader, but you do set the example.*  
 > **Daily** **Utility** **12** (**Free Action**) ● **Martial**  
 > **Near** burst 10, up to three allies  
 > **Trigger** You score a critical hit on an enemy.  
 > **Effect** The target can spend a recovery and heal their recovery value plus your Constitution modifier.  
 
-> #### Onslaught  
+<h4 class="Heading-4---Daily">Onslaught</h4>
 > *The enemy forces are close enough to see your eyes. They expect you to run; you don’t. They realize too late your unshakable will.*  
 > **Daily** **Attack** **20** (**Standard and Move Action**) ● **Martial, Weapon**  
 > **Near** arc 6, all enemies  
@@ -7679,13 +7679,13 @@ You immediately deal damage equal to your Strength or Dexterity modifier (whiche
 >  **Trigger** You hit a creature.
 >  **Effect** The triggering creature takes persistent 10 damage (save ends).  
 
-> #### Battlefield Dance  
+<h4 class="Heading-4---Daily">Battlefield Dance</h4>
 > *You flip, jump, and dance your way past your enemies.*  
 > **Daily** **Utility** **12** (**Move Action**) ● **Martial**  
 > **Self**   
 > **Effect** Shift up to 10 squares, ignoring difficult terrain. 
 
-> #### Technical Attack 
+<h4 class="Heading-4---Daily">Technical Attack</h4>
 >
 > *Your attack carries amazing power from a short distance.*
 >  **Daily** **Attack 20** (**Swift Action**) ● **Martial, Stance**
@@ -7714,7 +7714,7 @@ Since a child you have been obsessed with fire: its destructive potential, but a
 > **Attack** Intelligence vs Reflex 
 > **Hit** 3d10 + Intelligence fire damage and the target is pulled 4 squares. 
 
-> #### Fast Burn
+<h4 class="Heading-4---Daily">Fast Burn</h4>
 > **Encounter Utility** **12** (**Swift** **Action**) ● **Arcane, Fire, Focus**
 > **Near** burst 5, all enemies suffering any persistent damage
 > **Attack** Intelligence vs Fortitude 
@@ -7743,19 +7743,19 @@ You have the belt, claimed the trophy. Few others boast the record you have. You
 
 ### Powers  
 
-> #### Side Control  
+<h4 class="Heading-4---Encounter">Side Control</h4>
 > *You gain the edge and lock your opponent on the ground.*  
 > **Encounter** **Attack** **11** (**Move Action**) ● **Martial**  
 > **Melee** touch, one creature you are grappling  
 > **Effect** Strength modifier + Dexterity modifier damage, and the target is dazed until they escape.  
 
-> #### Tolerance Threshold  
+<h4 class="Heading-4---Daily">Tolerance Threshold</h4>
 > *The enemy puts on the pressure. You grit your teeth and hold back the pain.*  
 > **Daily** **Utility** **12** (**No Action**) ● **Martial**  
 > **Self**   
 > **Effect** Recover from any of the following conditions at the start of your turn: dazed, slowed, stunned, and weakened. You also end any persistent damage conditions you currently suffer from, and gain a +5 bonus to escape from any grapple you are currently in until you succeed.  
 
-> #### Mounted Attack  
+<h4 class="Heading-4---Daily">Mounted Attack</h4>
 > *You have complete control. Your enemy is done for the day.*  
 > **Daily** **Attack** **20** (**Standard Action**) ● **Martial**  
 > **Melee** touch, one creature you are grappling  
@@ -7776,7 +7776,7 @@ You are recognized by every brigand and cutpurse, every sneakthief and bandit. C
 
 ### Powers  
 
-> #### Just Desserts  
+<h4 class="Heading-4---Encounter">Just Desserts</h4>
 >
 > *You show a foe that two can play at that game.*  
 > **Encounter** **Attack** **11** (**Reaction Action**) ● **Shadow, Weapon**  
@@ -7785,14 +7785,14 @@ You are recognized by every brigand and cutpurse, every sneakthief and bandit. C
 > **Attack** Dexterity vs AC  
 > **Hit** 2dW + Dexterity modifier and the target suffers the condition or persistent damage that they imposed.  
 
-> #### Out of Mind  
+<h4 class="Heading-4---Daily">Out of Mind</h4>
 >
 > *You slip out of view and appear somewhere totally different.*  
 > **Daily** **Utility** **16** (**Swift Action**) ● **Shadow, Teleport**  
 > **Self**   
 > **Effect** You teleport 20 squares, but must choose an unoccupied space that either no creature can see or that no creature other than you can see. You are incorporeal and have phasing until the end of your next turn. 
 
-> #### Cloak Abduction  
+<h4 class="Heading-4---Daily">Cloak Abduction</h4>
 >
 > *You sweep someone up in your cloak.*  
 > **Daily** **Attack** **20** (**Standard Action**) ● **Shadow, Teleport**  
@@ -7815,21 +7815,21 @@ You possess a natural instinct to protect whoever is assigned to you. You may ne
 
 ### Powers  
 
-> #### Protective Instincts  
+<h4 class="Heading-4---Encounter">Protective Instincts</h4>
 > *Someone takes a shot at you or your assignment.  Your reflexes kick in.*  
 > **Encounter** **Attack** **11** (**Counter Action**) ● **Martial, Weapon**  
 > **Self**   
 > **Trigger** A creature attacks you or your focus.  
 > **Effect** Make a basic attack, and you and your focus shift together 4 squares.  
 
-> #### Evasive Techniques  
+<h4 class="Heading-4---Daily">Evasive Techniques</h4>
 > *You throw your client out of the way of imminent death.*  
 > **Daily** **Utility** **12** (**Counter Action**) ● **Martial**  
 > **Melee** touch, your focus  
 > **Trigger** Your focus is hit by an attack.  
 > **Effect** Swap places with your focus and you are the target of the attack. You and your focus shift together 5 squares. You gain a +2 power bonus to AC and Reflex defense until the end of your next turn.  
 
-> #### Aggressive Response  
+<h4 class="Heading-4---Daily">Aggressive Response</h4>
 > **Effect** *The point is to act before your enemy even intends to strike.*
 > **Daily** **Attack** **20** (**Counter Action**) ● **Martial, Weapon**
 > **Melee or Ranged** weapon, one creature 
@@ -7852,20 +7852,20 @@ You move in darkness behind enemy lines. You sneak under heavy cover into prohib
 
 ### Powers  
 
-> #### Complete Covertness  
+<h4 class="Heading-4---Encounter">Complete Covertness</h4>
 > *You could be standing in front of the enemy, and they still wouldn’t see you.*  
 > **Encounter** **Attack** **11** (**Swift Action**) ● **Martial**  
 > **Ranged** 10, one creature granting you combat advantage  
 > **Attack** Dexterity +2 vs Will  
 > **Hit** Until the end of your next turn, you are invisible to the target, you can pass through its square, and you can make Stealth checks against it with no penalties for movement and without requiring any cover or concealment.  
 
-> #### Back of Your Head  
+<h4 class="Heading-4---Daily">Back of Your Head</h4>
 > *Nothing gets past you.*  
 > **Daily** **Utility** **12** (**Swift Action**) ● **Martial**  
 > **Self**   
 > **Effect** Until the end of the encounter, you don’t grant combat advantage and you cannot be distracted. You can walk or run without suffering penalties to Stealth checks.  
 
-> #### Looking Nonchalant  
+<h4 class="Heading-4---Daily">Looking Nonchalant</h4>
 > *You slip by your enemies even with them looking straight at you.*  
 > **Daily** **Attack** **20** (**Move Action**) ● **Martial**  
 > **Near** burst 10, all enemies you can see  
@@ -7890,7 +7890,7 @@ You’re the one brought in when weapons cannot be used, when even the brandishi
 
 ### Powers  
 
-> #### Volume and Presence  
+<h4 class="Heading-4---Encounter">Volume and Presence</h4>
 > *Your opponent’s argument is invalid and ridiculous and your tolerance for their ignorance is over.*  
 > **Encounter** **Attack** **11** (**Move Action**) ● **Fear, Martial, Psychic, Consistent**  
 > **Near** burst 5, one creature  
@@ -7898,13 +7898,13 @@ You’re the one brought in when weapons cannot be used, when even the brandishi
 > **Hit** The target is immobile and dazed until the start of your next turn. You gain a +2 power bonus to Intimidate and Diplomacy checks against the target until the end of your next turn.  
 > **Maintain Swift** You gain a +2 power bonus to Intimidate and Diplomacy checks against the target until the end of your next turn.  
 
-> #### Making It Up  
+<h4 class="Heading-4---Daily">Making It Up</h4>
 > *Unable to find the right set of truths to make your point, you just take a guess.*  
 > **Daily** **Utility** **12** (**Free Action**) ● **Martial**  
 > **Self**   
 > **Effect** You treat your next Bluff, History or Streetsmarts check before the end of your next turn as if you had rolled a 20.  
 
-> #### Everything You Got  
+<h4 class="Heading-4---Daily">Everything You Got</h4>
 > *Your arguments are so compelling, your opponent is having a difficult time concentrating.*  
 > **Daily** **Attack** **20** (**Move Action**) ● **Martial, Psychic, Consistent**  
 > **Near** burst 5, one creature  
@@ -7945,7 +7945,7 @@ You have dedicated yourself to mastering the arcane arts through dedicated study
 > ● From a range of Melee to Ranged or vice versa
 > ● From Maintain Standard or Maintain Move to Maintain Swift
 
-> #### Arcane Expulsion 
+<h4 class="Heading-4---Daily">Arcane Expulsion</h4>
 > *You suddenly and painfully unleash the unrealized magical potential of your target.*
 > **Daily** **Attack** **20** (**Standard Action**) ● **Arcane, Focus** 
 > **Near** burst 5, one creature 
@@ -7968,19 +7968,19 @@ You have probably graduated from a command school or officer college. You emerge
 
 ### Powers  
 
-> #### Eyes All Around  
+<h4 class="Heading-4---Encounter">Eyes All Around</h4>
 > *You relay enemy weaknesses to an ally, giving them an opportunity to attack.*  
 > **Encounter** **Attack** **11** (**Move Action**) ● **Martial**  
 > **Near** burst 10, one ally  
 > **Effect** The target makes a basic attack.  
 
-> #### Reevaluate Strategy  
+<h4 class="Heading-4---At-Will">Reevaluate Strategy</h4>
 > *Battles are unpredictable and you make a quick alteration in the plan to adjust to enemy maneuvers.*  
 > **At-Will** **Utility** **12** (**Move Action**) ● **Martial**  
 > **Near** burst 10, up to two allies  
 > **Effect** The target shifts 1 square.  
 
-> #### Superior Strategic Endeavor  
+<h4 class="Heading-4---Daily">Superior Strategic Endeavor</h4>
 > *You shout out a particularly complicated plan which will work flawlessly if everyone does what they’re supposed to do.*  
 > **Daily** **Attack** **20** (**Standard Action**) ● **Martial**  
 > **Near** burst 10, up to two allies  
@@ -8082,7 +8082,7 @@ You are the single greatest expert on the planet on a specific subject. All othe
 
 ### Power  
 
-> #### Pioneer  
+<h4 class="Heading-4---Daily">Pioneer</h4>
 > *You’re not tired. You’re just getting warmed up.*  
 > **Daily** **Utility** **26** (**Free Action**) ● **Martial**  
 > **Self**   
@@ -8103,7 +8103,7 @@ No one who hunts you knows your real name. You’re a ghost. Enemies and allies 
 
 ### Power  
 
-> #### Reputation Earned  
+<h4 class="Heading-4---Daily">Reputation Earned</h4>
 > *Your enemy will soon discover why your name is so feared.*  
 > **Daily** **Utility** **26** (**Free Action**) ● **Martial**  
 > **Self**   
@@ -8123,7 +8123,7 @@ Your uniform weighs you down with the number of medals and honors bestowed. You 
 
 ### Power  
 
-> #### Not Tolerate Losing  
+<h4 class="Heading-4---Daily">Not Tolerate Losing</h4>
 > *You make every ally in the battle know how you feel about defeat. You make them fear you more than the enemy.*  
 > **Daily** **Utility** **26** (**Standard Action**) ● **Martial**  
 > **Near** burst 10, all allies  
@@ -8143,7 +8143,7 @@ It has never been about personal glory or selfish ideals. From the beginning, yo
 
 ### Power  
 
-> #### For the Sake of the Team  
+<h4 class="Heading-4---Encounter">For the Sake of the Team</h4>
 > *You give an ally the precious time they need complete the task.*  
 > **Encounter** **Utility** **26** (**Free Action**) ● **Martial**  
 > **Near** burst 10, one ally  
@@ -8163,7 +8163,7 @@ As the legendary fighter, you have too many laurels to count. In the old age, yo
 
 ### Power  
 
-> #### Lasting Image  
+<h4 class="Heading-4---Daily">Lasting Image</h4>
 > *You are prepared to die, but you will be damned if you will let this opponent get away with what it just did.*  
 > **Daily** **Utility** **26** (**No Action**) ● **Martial**  
 > **Self**   
