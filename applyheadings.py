@@ -8,6 +8,10 @@ CLASS_MAP = {
     "Daily": "Heading-4---Daily",
 }
 
+import re
+
+BOLD_FIRST_RE = re.compile(r'^\*\*(.*?)\*\*')  # first **...** at start
+
 def detect_power_class(line: str) -> str | None:
     s = line.lstrip()
     if not s.startswith(">"):
@@ -15,15 +19,20 @@ def detect_power_class(line: str) -> str | None:
 
     rest = s[1:].lstrip()
 
-    # Only consider lines that start with bold, per your requirement
-    if not rest.startswith("**"):
+    # Must start with bold, per your rule
+    m = BOLD_FIRST_RE.match(rest)
+    if not m:
         return None
 
+    first_bold = m.group(1).strip()  # contents inside **...**
+
     for key, css_class in CLASS_MAP.items():
-        if rest.startswith(f"**{key}**"):
+        # Match either exact ("At-Will") OR prefixed ("At-Will Attack", "At-Will (Foo)", etc.)
+        if first_bold == key or first_bold.startswith(key + " "):
             return css_class
 
     return None
+
 
 
 

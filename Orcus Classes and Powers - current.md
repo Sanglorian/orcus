@@ -2218,14 +2218,14 @@ You are a highly effective fighter who takes advantage of any weakness left by y
 > **Attack** Dexterity (ranged) or Strength (melee) vs AC  
 > **Hit** Dexterity (ranged) or Strength (melee) modifier damage, and the target is dazed until the start of your next turn.  
 
-> #### In Their Face
+<h4 class="Heading-4---Encounter">In Their Face</h4>
 > *Your darting attack puts your enemy off guard.*  
 > **Encounter Attack 1 (Standard Action)** ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, one creature  
 > **Attack** Dexterity (ranged) or Strength (melee) vs AC  
 > **Hit** 2dW + Dexterity (ranged) or Strength (melee) modifier damage and the target grants combat advantage until the end of your next turn.   
 
-> #### The Finisher
+<h4 class="Heading-4---Daily">The Finisher</h4>
 > *You hit hard. That’s it. That’s enough.*  
 > **Daily Attack 1 (Standard Action)** ● **Consistent, Martial, Weapon**  
 > **Melee or Ranged** weapon, one creature  
@@ -4138,7 +4138,7 @@ You are sturdy and powerful, and it is almost impossible to take you down or hol
 *Level 21:* 2dW + Strength modifier damage.  
 > **Effect** Before your attack, shift up to one square towards the target. This must bring the target within reach.  
 
-> #### Knock-About Strike   
+<h4 class="Heading-4---Encounter">Knock-About Strike</h4>
 > *You leave your opponent reeling.*  
 > **Encounter Attack 1 (Standard Action)** ● **Martial**  
 > **Self**  
@@ -4178,7 +4178,7 @@ You are sturdy and powerful, and it is almost impossible to take you down or hol
 > **Effect** The target takes 1dW extra damage from the triggering attack.
 *Secondary Effect:* You and one adjacent ally can shift a number of squares equal to 1+ your Strength modifier. You and the ally must be adjacent at the end of the shift.  
 
-> #### Wade In
+<h4 class="Heading-4---Daily">Wade In</h4>
 > *A powerful blow tells your foes to bring it on. You are ready.* 
 > **Daily Attack 5 (Standard Action)** ● **Martial, Weapon**
 > **Melee** weapon, one creature 
@@ -7671,7 +7671,7 @@ You immediately deal damage equal to your Strength or Dexterity modifier (whiche
 
 ### Powers  
 
-> #### Pressure Point 
+<h4 class="Heading-4---Encounter">Pressure Point</h4>
 >
 > *Your strike causes the touch of death.*
 >  **Encounter Attack** **11** (**Free Action**) ● **Martial, Weapon**
@@ -7935,7 +7935,7 @@ You have dedicated yourself to mastering the arcane arts through dedicated study
 > **Trigger** You use an arcane at-will attack power. 
 > **Effect** The attack’s damage type changes to your choice of acid, cold, fire, lightning, psychic or thunder. You can also add one target to a melee or ranged attack, or increase the area of effect of a near or far power by 1. If the attack hits, you do an additional +2d8 damage.  
 
-> #### Metamagical Theorums 
+<h4 class="Heading-4---Encounter">Metamagical Theorums</h4>
 > **Encounter Utility** **12** (**Free** **Action**) ● **Arcane** 
 > **Self** 
 > **Trigger** You use an arcane power. 
