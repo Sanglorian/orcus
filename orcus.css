@@ -92,8 +92,10 @@ h3{
   margin-bottom: 0pt;
 }
 
-/* Word style: Heading 4 (shared frame for all H4) */
-h4{
+h4.Heading-4---At-Will,
+h4.Heading-4---Encounter,
+h4.Heading-4---Daily,
+h4.Heading-4---Monster{
   /* Font (base) */
   font-family: Calibri, "Segoe UI", Arial, sans-serif;
   font-size: 10pt;
@@ -276,10 +278,7 @@ img{
 
 
 
-h4.Heading-4---At-Will{
-  background-color: #9BBB59;
-}
-
+h4.Heading-4---At-Will{background-color: #9BBB59;}
 h4.Heading-4---Encounter{ background-color: #E36C0A; }
 h4.Heading-4---Daily{     background-color: #17365D; }
 h4.Heading-4---Monster{   background-color: #7030A0; }

@@ -2177,14 +2177,14 @@ You can lend your aid to another creature in the completion of a skill check. Se
 
 With this action, you make a melee basic attack or a ranged basic attack.  
 
-> #### Basic Melee Attack  
+<h4 class="Heading-4---At-Will">Basic Melee Attack</h4>
 > **At-Will** **Attack** **Feature** (**Standard Action**) ● **Weapon**  
 > **Melee** weapon, one creature  
 > **Attack** Strength vs AC  
 > **Hit** 1dW + Strength modifier damage.  
 *Level 21:* 2dW + Strength modifier damage.  
 
-> #### Basic Ranged Attack  
+<h4 class="Heading-4---At-Will">Basic Ranged Attack</h4>
 > **At-Will** **Attack** **Feature** (**Standard Action**) ● **Weapon**  
 > **Ranged** weapon, one creature  
 > **Attack** Dexterity vs AC  
@@ -2212,7 +2212,7 @@ You cannot Walk or Dash while prone, which is why you might choose the Crawl act
 
 ### Create Diversion (standard action)
 
-> #### Create Diversion  
+<h4 class="Heading-4---Encounter">Create Diversion</h4>
 > **Encounter** **Attack** **Feature** (**Standard Action**)   
 > **Near** eyesight, all enemies  
 > **Attack** Bluff check vs target's passive Insight score  
@@ -2226,7 +2226,7 @@ Your movement provokes opportunity attacks as normal movement does.
 
 ### Deter (standard action)
 
-> #### Deter  
+<h4 class="Heading-4---At-Will">Deter</h4>
 > **At-Will** **Attack** **Feature** (**Standard Action**)   
 > **Near** eyesight or earshot, one enemy  
 > **Attack** Intimidate check vs Will. Targets get a +5 bonus to their Will defense if unfriendly, or +10 if hostile. They gain a further +5 bonus if you do not speak in a language that they understand.  
@@ -2236,7 +2236,7 @@ Your movement provokes opportunity attacks as normal movement does.
 
 ### Feint (standard action)
 
-> #### Feint  
+<h4 class="Heading-4---Encounter">Feint</h4>
 > **Encounter** **Attack** **Feature** (**Standard Action**)   
 > **Near** burst 1, one enemy  
 > **Attack** Bluff check vs target's passive Insight score  
@@ -2262,7 +2262,7 @@ You cannot maintain powers if you Delay. Beneficial effects that end at the end 
 
 ### Grapple (standard action)  
 
-> #### Grapple  
+<h4 class="Heading-4---At-Will">Grapple</h4>
 > **At-Will** **Attack** **Feature** (**Standard Action**) ● **Weapon**  
 > **Melee** touch, one enemy no more than one size larger than you  
 > **Requirements** You must have a hand free.  
@@ -2290,7 +2290,7 @@ You grant a +2 bonus to your ally’s defenses against the target’s next attac
 
 ### Rally (standard action)  
 
-> #### Rally  
+<h4 class="Heading-4---Encounter">Rally</h4>
 > **Encounter** **Utility** **Feature** (**Standard Action**)   
 > **Self**   
 > **Effect** You spend one of your recoveries and regain your recovery value in HP. You also get +2 to all defenses until the start of your next turn.  
@@ -2305,7 +2305,7 @@ You can ready a standard action, a move action, or a swift action. To do so, spe
 
 ### Shove (standard action)  
 
-> #### Shove  
+<h4 class="Heading-4---At-Will">Shove</h4>
 > **At-Will** **Attack** **Feature** (**Standard Action**) ● **Weapon**  
 > **Near** burst 1, one enemy that is no more than one size larger than you  
 > **Attack** Strength vs Fortitude  
@@ -2343,7 +2343,7 @@ _Treat Wound (DC 10)_: A successful Heal check allows an adjacent ally to use th
 
 ### Unnerve (standard action)
 
-> #### Unnerve  
+<h4 class="Heading-4---At-Will">Unnerve</h4>
 > **At-Will** **Attack** **Feature** (**Standard Action**)   
 > **Near** eyesight and earshot, all staggered enemies  
 > **Attack** Intimidate vs Will +10. Targets get a further +5 bonus if you do not speak in a language that they understand.  

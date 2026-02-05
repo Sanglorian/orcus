@@ -41,7 +41,7 @@ At level 1, you can use the power *warrior’s surge* once per encounter. At lev
 
 You gain a class utility power at levels 2, 6, 10, 16 and 22. You can choose utility powers from any Martial discipline.  
 
-> #### Warrior’s Surge  
+<h4 class="Heading-4---Encounter">Warrior’s Surge</h4>
 >
 > **Encounter** **Attack** **1** (**Free Action**) ● **Martial**  
 > **Self**   
@@ -78,7 +78,7 @@ The Dualclass Recruit feat is not available for the Warrior class.
 
 In your hands, every weapon has its own strengths and special qualities. 
 
-> #### Arrow Flight  
+<h4 class="Heading-4---At-Will">Arrow Flight</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Bows, Martial, Weapon**  
 > **Ranged** weapon, one target  
@@ -87,7 +87,7 @@ In your hands, every weapon has its own strengths and special qualities.
 > **Hit** 1dW + Strength modifier + Dexterity modifier damage. 
 > *Level 21:* 2dW + Strength modifier + Dexterity modifier damage.  
 
-> #### Axe Grind  
+<h4 class="Heading-4---At-Will">Axe Grind</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Axes, Martial, Weapon**  
 > **Melee** weapon, one target  
@@ -96,7 +96,7 @@ In your hands, every weapon has its own strengths and special qualities.
 > **Hit** 1dW + Strength modifier damage and push the target 1 square.
 > *Level 21:* 2dW + Strength modifier damage. Push target 1.  
 
-> #### Bolt from the Blue  
+<h4 class="Heading-4---At-Will">Bolt from the Blue</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Crossbows, Martial, Weapon**  
 > **Ranged** weapon, one target  
@@ -105,7 +105,7 @@ In your hands, every weapon has its own strengths and special qualities.
 > **Hit** 1dW + Dexterity modifier damage. 
 > *Level 21:* 2dW + Dexterity modifier damage.  
 
-> #### Careful Slice  
+<h4 class="Heading-4---At-Will">Careful Slice</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Light Blades, Martial, Weapon**  
 > **Melee** weapon, one target  
@@ -114,7 +114,7 @@ In your hands, every weapon has its own strengths and special qualities.
 > **Hit** 1dW damage.
 > *Level 21:* 2dW damage.  
 
-> #### Cleaving Slice  
+<h4 class="Heading-4---At-Will">Cleaving Slice</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Heavy Blades, Martial, Weapon**  
 > **Melee** weapon, one target  
@@ -123,7 +123,7 @@ In your hands, every weapon has its own strengths and special qualities.
 > **Hit** 1dW + Strength modifier damage. An enemy adjacent to the target takes Strength modifier damage. 
 > *Level 21:* 2dW + Strength modifier damage. An enemy adjacent to the target takes Strength modifier damage.  
 
-> #### Double Attack  
+<h4 class="Heading-4---At-Will">Double Attack</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, two targets  
@@ -132,7 +132,7 @@ In your hands, every weapon has its own strengths and special qualities.
 > **Hit** 1dW damage.
 > *Level 21:* 2dW damage.  
 
-> #### Flail About  
+<h4 class="Heading-4---At-Will">Flail About</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Flails and Chains, Martial, Weapon**  
 > **Melee** weapon, one target  
@@ -141,7 +141,7 @@ In your hands, every weapon has its own strengths and special qualities.
 > **Hit** 1dW + Strength modifier damage. Then you may shift 1 square.
 > *Level 21:* 2dW + Strength modifier damage. Then you may shift 1 square.
 
-> #### Hammerfall  
+<h4 class="Heading-4---At-Will">Hammerfall</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Picks and Hammers, Weapon,**  
 > **Melee** weapon, one target  
@@ -151,7 +151,7 @@ In your hands, every weapon has its own strengths and special qualities.
 > *Level 21:* 2dW + Strength modifier damage.  
 > **Miss** The target takes Strength modifier damage.  
 
-> #### Poleaxe  
+<h4 class="Heading-4---At-Will">Poleaxe</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Polearms, Weapon**  
 > **Melee** weapon, one target  
@@ -160,7 +160,7 @@ In your hands, every weapon has its own strengths and special qualities.
 > **Hit** 1dW + Strength modifier damage and the target is rattled until the end of your next turn.
 > *Level 21:* 2dW + Strength modifier damage and the target is rattled until the end of your next turn. 
 
-> #### Shillelagh  
+<h4 class="Heading-4---At-Will">Shillelagh</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Maces and Clubs, Martial, Weapon**  
 > **Melee** weapon, one target  
@@ -169,7 +169,7 @@ In your hands, every weapon has its own strengths and special qualities.
 > **Hit** 1dW + Strength modifier damage and the target is dazed until the end of your next turn. 
 > *Level 21:* 2dW + Strength modifier damage and the target is dazed until the end of your next turn. 
 
-> #### Sling of Misfortune  
+<h4 class="Heading-4---At-Will">Sling of Misfortune</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Slings, Weapon**  
 > **Ranged** weapon, one target  
@@ -178,7 +178,7 @@ In your hands, every weapon has its own strengths and special qualities.
 > **Hit** 1dW. Target's speed is reduced by 2 (save ends).
 > *Level 21:* 2dW. Target's speed is reduced by 2 (save ends).  
 
-> #### Spear Discipline  
+<h4 class="Heading-4---At-Will">Spear Discipline</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Spears and Lances, Weapon**  
 > **Melee** weapon, one target  
@@ -188,7 +188,7 @@ In your hands, every weapon has its own strengths and special qualities.
 > *Level 21:* 2dW + Strength modifier damage. Any ally adjacent to the target can shift 1.  
 > **Miss** *Level 21:* 1dW + Strength or Dexterity modifier damage.  
 
-> #### Staff Sweep  
+<h4 class="Heading-4---At-Will">Staff Sweep</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Staffs, Weapon**  
 > **Melee** weapon, one target  
@@ -197,7 +197,7 @@ In your hands, every weapon has its own strengths and special qualities.
 > **Hit** 1dW and the target must save or fall prone. 
 > *Level 21:* 2dW and the target must save or fall prone.  
 
-> #### Unarmed Flurry  
+<h4 class="Heading-4---At-Will">Unarmed Flurry</h4>
 >
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Martial, Unarmed, Weapon**  
 > **Near** burst 1, all enemies  

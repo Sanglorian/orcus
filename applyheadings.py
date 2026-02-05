@@ -1,16 +1,19 @@
 from pathlib import Path
 
-INPUT_FILE = Path("Orcus Classes and Powers - current.md")
+INPUT_FILE = Path("Warrior.md")
 
 CLASS_MAP = {
     "At-Will": "Heading-4---At-Will",
     "Encounter": "Heading-4---Encounter",
     "Daily": "Heading-4---Daily",
+    "Level": "Heading-4---Monster", 
+    "Consumable": "Heading-4---Monster",
 }
 
 import re
 
 BOLD_FIRST_RE = re.compile(r'^\*\*(.*?)\*\*')  # first **...** at start
+
 
 def detect_power_class(line: str) -> str | None:
     s = line.lstrip()
@@ -19,19 +22,24 @@ def detect_power_class(line: str) -> str | None:
 
     rest = s[1:].lstrip()
 
-    # Must start with bold, per your rule
+    # Must start with bold
     m = BOLD_FIRST_RE.match(rest)
     if not m:
         return None
 
-    first_bold = m.group(1).strip()  # contents inside **...**
+    first_bold = m.group(1).strip()
 
     for key, css_class in CLASS_MAP.items():
-        # Match either exact ("At-Will") OR prefixed ("At-Will Attack", "At-Will (Foo)", etc.)
+        # Match:
+        #   **At-Will**
+        #   **At-Will Attack**
+        #   **Encounter (Healing)**
+        #   **Level 5 Brute**
         if first_bold == key or first_bold.startswith(key + " "):
             return css_class
 
     return None
+
 
 
 

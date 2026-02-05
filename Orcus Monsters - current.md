@@ -152,7 +152,7 @@ The creature can sacrifice its move action to give an ally a move action. Creatu
 In cliffside caves and sunken ruins dwell strange beings, servants of the mysterious aboleth.  
 
 
-> #### Enthralled Servant  
+<h4 class="Heading-4---Monster">Enthralled Servant</h4>
 > **Level 6 Blocker** (250 XP)  
 > Medium Natural Humanoid (Chaotic Evil)  
 > **Senses:** Perception +4, low-light vision   
@@ -177,7 +177,7 @@ In cliffside caves and sunken ruins dwell strange beings, servants of the myster
 Thralls are mind-controlled humanoids forced to obey their aboleth master's commands.  
 
 
-> #### Half-Aboleth  
+<h4 class="Heading-4---Monster">Half-Aboleth</h4>
 > **Level 6 Boss Wrecker** (1250 XP)  
 > Medium Cosmic Humanoid (Chaotic Evil)  
 > **Senses:** Perception +4, darkvision   
@@ -205,7 +205,7 @@ Thralls are mind-controlled humanoids forced to obey their aboleth master's comm
 Half-aboleths are trusted, elite servants of the aboleths. Whether they are truly the children of an aboleth is unclear, but they have mucus sacs and tentacles reminiscent of their namesakes.  
 
 
-> #### Transformed Servant  
+<h4 class="Heading-4---Monster">Transformed Servant</h4>
 > **Level 8 Blocker** (350 XP)  
 > Medium Natural Humanoid ● Aquatic (Chaotic Evil)  
 > **Senses:** Perception +5, low-light vision   
@@ -230,7 +230,7 @@ Half-aboleths are trusted, elite servants of the aboleths. Whether they are trul
 A transformed servant is a mind-controlled servant of the aboleth that has been "gifted" underwater adaptations.  
 
 
-> #### Veteran Thrall  
+<h4 class="Heading-4---Monster">Veteran Thrall</h4>
 > **Level 8 Wrecker** (350 XP)  
 > Medium Cosmic Humanoid ● Aquatic (Evil)  
 > **Senses:** Perception +8, darkvision; **Skills:** Bluff +13, Intimidate +13   
@@ -257,7 +257,7 @@ A transformed servant is a mind-controlled servant of the aboleth that has been 
 Those that have been kept as thralls of the aboleths for longer periods – the veteran thralls and thrall commanders – are trusted with the nets used to capture future thralls.  
 
 
-> #### Thrall Commander  
+<h4 class="Heading-4---Monster">Thrall Commander</h4>
 > **Level 10 Blocker** (500 XP)  
 > Medium Cosmic Humanoid ● Aquatic (Evil)  
 > **Senses:** Perception +10, darkvision; **Skills:** Bluff +16, Intimidate +16, Nature +15   
@@ -284,7 +284,7 @@ Those that have been kept as thralls of the aboleths for longer periods – the 
 > While a thrall commander has combat advantage against a target, allies within 5 squares also have combat advantage against that target.  
 
 
-> #### Chuul  
+<h4 class="Heading-4---Monster">Chuul</h4>
 > **Level 14 Wrecker** (1000 XP)  
 > Large Cosmic Monstrosity ● Aquatic (Chaotic Evil)  
 > **Senses:** Perception +16, darkvision; **Skills:** Athletics +24, Stealth +22   
@@ -304,7 +304,7 @@ Those that have been kept as thralls of the aboleths for longer periods – the 
 A horrible mix of crustacean, insect, and serpent, the chuul is an abomination that lurks submerged or partially submerged, awaiting intelligent prey to devour. Although amphibious, chuuls are not good swimmers and actually prefer to be on land or in very shallow water when they attack. A chuul is about 8 feet long and weighs 650 pounds.  
 
 
-> #### Aboleth  
+<h4 class="Heading-4---Monster">Aboleth</h4>
 > **Level 18 Spoiler** (Leader) (2000 XP)  
 > Large Cosmic Monstrosity ● Aquatic (Evil)  
 > **Senses:** Perception +26, darkvision; **Skills:** Arcana +25, Dungeoneering +25, History +25   
@@ -337,7 +337,7 @@ The aboleth is a revolting fishlike amphibian found primarily in subterranean la
 Many animals are mundane beasts, like those found in the real world.  
 
 
-> #### Eagle  
+<h4 class="Heading-4---Monster">Eagle</h4>
 > **Level 1 Striker** (100 XP)  
 > Small Natural Beast (Unaligned)  
 > **Senses:** Perception +8, low-light vision   
@@ -356,7 +356,7 @@ Many animals are mundane beasts, like those found in the real world.
 A bird of prey with keen eyesight.  
 
 
-> #### Raven of Doom  
+<h4 class="Heading-4---Monster">Raven of Doom</h4>
 > **Level 1 Skulker** (100 XP)  
 > Small Natural Beast (Unaligned)  
 > **Senses:** Perception +1, low-light vision   
@@ -375,7 +375,7 @@ A bird of prey with keen eyesight.
 A sinister raven associated with ill omens.  
 
 
-> #### Great Ape  
+<h4 class="Heading-4---Monster">Great Ape</h4>
 > **Level 3 Wrecker** (150 XP)  
 > Large Natural Beast (Unaligned)  
 > **Senses:** Perception +7, low-light vision; **Skills:** Athletics +10   
@@ -394,7 +394,7 @@ A sinister raven associated with ill omens.
 An unnaturally large and powerful gorilla, orangutan or chimpanzee, or a hitherto unknown ape.  
 
 
-> #### Bison  
+<h4 class="Heading-4---Monster">Bison</h4>
 > **Level 4 Wrecker** (175 XP)  
 > Large Natural Beast (Unaligned)  
 > **Senses:** Perception +3, low-light vision; **Skills:** Endure +12   
@@ -416,7 +416,7 @@ An unnaturally large and powerful gorilla, orangutan or chimpanzee, or a hithert
 A large herbivorous mammal with formidable horns. Statistics can also be used for a bull.  
 
 
-> #### Giant Frog  
+<h4 class="Heading-4---Monster">Giant Frog</h4>
 > **Level 4 Wrecker** (175 XP)  
 > Medium Natural Beast (Unaligned)  
 > **Senses:** Perception +6, low-light vision; **Skills:** Athletics +10 (+15 jumping), Stealth +8   
@@ -443,7 +443,7 @@ Replace *tongue lash* with:
 Ranged 10; +9 vs Reflex; 1d8+3 poison damage, and the target is blinded until the end of the giant frog’s next turn.  
 
 
-> #### Panther 
+<h4 class="Heading-4---Monster">Panther</h4>
 > **Level 4 Striker** (175 XP)  
 > Medium Natural Beast (Unaligned)  
 > **Senses:** Perception +8, low-light vision; **Skills:** Stealth +11   
@@ -462,7 +462,7 @@ Ranged 10; +9 vs Reflex; 1d8+3 poison damage, and the target is blinded until th
 A leopard or jaguar.  
 
 
-> #### Dog-faced Baboon  
+<h4 class="Heading-4---Monster">Dog-faced Baboon</h4>
 > **Level 5 Elite Wrecker** (400 XP)  
 > Medium Natural Beast (Unaligned)  
 > **Senses:** Perception +5, low-light vision; **Skills:** Athletics +12   
@@ -484,7 +484,7 @@ A leopard or jaguar.
 A fearsome yellow baboon, usually found in troops dominated by a particularly powerful male.  
 
 
-> #### Scintillating Boa  
+<h4 class="Heading-4---Monster">Scintillating Boa</h4>
 > **Level 5 Elite Blocker** (400 XP)  
 > Large Natural Monstrosity ● Reptile (Unaligned)  
 > **Senses:** Perception +9, low-light vision; **Skills:** Stealth +10   
@@ -508,7 +508,7 @@ A fearsome yellow baboon, usually found in troops dominated by a particularly po
 A gigantic constrictor with shimmering scales that can hypnotize its prey with captivating patterns and constrict them with immense strength.  
 
 
-> #### Ancient Hermit Crab  
+<h4 class="Heading-4---Monster">Ancient Hermit Crab</h4>
 > **Level 5 Boss Blocker** (1000 XP)  
 > Large Natural Monstrosity ● Aquatic (Unaligned)  
 > **Senses:** Perception +10, low-light vision; **Skills:** History +10, Religion +10   
@@ -534,7 +534,7 @@ A gigantic constrictor with shimmering scales that can hypnotize its prey with c
 Ancient hermit crabs are sought out for their wisdom and knowledge, particularly of the deep past. Sometimes, they are revered as estuarine gods by villages and towns.  
 
 
-> #### Devil Ape  
+<h4 class="Heading-4---Monster">Devil Ape</h4>
 > **Level 8 Wrecker** (350 XP)  
 > Medium Natural Beast (Unaligned)  
 > **Senses:** Perception +9, low-light vision; **Skills:** Athletics +19, Endure +16   
@@ -558,7 +558,7 @@ Ancient hermit crabs are sought out for their wisdom and knowledge, particularly
 A demonic primate with fiery eyes, razor-sharp claws, and a bloodcurdling howl. Dark magic binds a devil ape to its mountain home, allowing it to control the elements and punish its slayer.  
 
 
-> #### Tyrannosaur  
+<h4 class="Heading-4---Monster">Tyrannosaur</h4>
 > **Level 10 Elite Striker** (1000 XP)  
 > Huge Natural Beast ● Reptile (Unaligned)  
 > **Senses:** Perception +7, low-light vision; **Skills:** Athletics +16, Stealth +13   
@@ -582,7 +582,7 @@ Despite its enormous size and 6-ton weight, a tyrannosaurus is a swift runner. I
 ## Aquatic  
 
 
-> #### Ragged Tooth Shark  
+<h4 class="Heading-4---Monster">Ragged Tooth Shark</h4>
 > **Level 4 Striker** (175 XP)  
 > Medium Natural Beast ● Aquatic (Unaligned)  
 > **Senses:** Perception +9, low-light vision   
@@ -603,7 +603,7 @@ Despite its enormous size and 6-ton weight, a tyrannosaurus is a swift runner. I
 These carnivorous fish are aggressive and liable to make unprovoked attacks against anything that approaches them.  
 
 
-> #### Quipper Swarm  
+<h4 class="Heading-4---Monster">Quipper Swarm</h4>
 > **Level 6 Striker** (250 XP)  
 > Medium Natural Beast ● Aquatic, Swarm (Unaligned)  
 > **Senses:** Perception +3, low-light vision   
@@ -623,7 +623,7 @@ These carnivorous fish are aggressive and liable to make unprovoked attacks agai
 Swarming school of small, carnivorous fish with sharp teeth, capable of overwhelming and devouring larger prey.  
 
 
-> #### Plesiosaur  
+<h4 class="Heading-4---Monster">Plesiosaur</h4>
 > **Level 10 Wrecker** (500 XP)  
 > Huge Natural Beast ● Aquatic, Reptile (Unaligned)  
 > **Senses:** Perception +8, low-light vision   
@@ -646,7 +646,7 @@ An aquatic, long-necked reptile.
 ## Canines  
 
 
-> #### Dog  
+<h4 class="Heading-4---Monster">Dog</h4>
 > **Level 1 Striker** (100 XP)  
 > Small Natural Beast (Unaligned)  
 > **Senses:** Perception +6, low-light vision; **Skills:** Athletics +6   
@@ -671,7 +671,7 @@ Some breeds of domesticated dog are effective trackers or guards. These statisti
 Add the Adventurer template (Priest class).  
 
 
-> #### Wolf  
+<h4 class="Heading-4---Monster">Wolf</h4>
 > **Level 3 Striker** (150 XP)  
 > Medium Natural Beast (Unaligned)  
 > **Senses:** Perception +8, low-light vision; **Skills:** Nature +8, Stealth +9   
@@ -690,7 +690,7 @@ Add the Adventurer template (Priest class).
 Wolves are cunning pack predators and effective hunters. These statistics can also be used for hyenas.  
 
 
-> #### Dire Wolf  
+<h4 class="Heading-4---Monster">Dire Wolf</h4>
 > **Level 7 Striker** (300 XP)  
 > Large Natural Beast (Unaligned)  
 > **Senses:** Perception +12, low-light vision; **Skills:** Nature +12, Stealth +14   
@@ -721,7 +721,7 @@ Dire wolves are prehistoric pack predators of enormous size and ferocity. These 
 **Shadow Blend:** While the shadow mastiff is in dim light, it is invisible.  
 
 
-> #### Worg  
+<h4 class="Heading-4---Monster">Worg</h4>
 > **Level 11 Striker** (600 XP)  
 > Large Natural Beast (Unaligned)  
 > **Senses:** Perception +17, low-light vision; **Skills:** Nature +17, Stealth +17   
@@ -752,7 +752,7 @@ Large, intelligent, and malevolent wolf-like creatures, worgs are often found in
 ## Quadrupeds  
 
 
-> #### Riding Horse  
+<h4 class="Heading-4---Monster">Riding Horse</h4>
 > **Level 1 Wrecker** (100 XP)  
 > Large Natural Beast ● Mount (Unaligned)  
 > **Senses:** Perception +2; **Skills:** Athletics +9, Endure +9   
@@ -773,7 +773,7 @@ Large, intelligent, and malevolent wolf-like creatures, worgs are often found in
 A horse trained to be comfortable around humanoids, suitable for travel, riding and light loads.  
 
 
-> #### War Horse  
+<h4 class="Heading-4---Monster">War Horse</h4>
 > **Level 2 Wrecker** (125 XP)  
 > Large Natural Beast ● Mount (Unaligned)  
 > **Senses:** Perception +3; **Skills:** Athletics +11, Endure +10   
@@ -794,7 +794,7 @@ A horse trained to be comfortable around humanoids, suitable for travel, riding 
 Powerful horses trained to endure or even relish the chaos and stress of battle.  
 
 
-> #### Boar  
+<h4 class="Heading-4---Monster">Boar</h4>
 > **Level 4 Wrecker** (175 XP)  
 > Medium Natural Beast (Unaligned)  
 > **Senses:** Perception +5, low-light vision   
@@ -813,7 +813,7 @@ Powerful horses trained to endure or even relish the chaos and stress of battle.
 Aggressive wild pigs, armed with sharp tusks and fierce when provoked.  
 
 
-> #### Pegasus  
+<h4 class="Heading-4---Monster">Pegasus</h4>
 > **Level 8 Striker** (350 XP)  
 > Large Natural Beast ● Mount (Good)  
 > **Senses:** Perception +14, darkvision; **Skills:** Insight +14   
@@ -835,7 +835,7 @@ Aggressive wild pigs, armed with sharp tusks and fierce when provoked.
 The pegasus is a magnificent winged horse that sometimes serves the cause of good. Though highly prized as aerial steeds, pegasi are wild and shy creatures not easily tamed. A typical pegasus stands 6 feet high at the shoulder, weighs 1,500 pounds, and has a wingspan of 20 feet.  
 
 
-> #### Unicorn  
+<h4 class="Heading-4---Monster">Unicorn</h4>
 > **Level 8 Striker** (350 XP)  
 > Large Natural Beast ● Mount (Good)  
 > **Senses:** Perception +13, low-light vision; **Skills:** Athletics +18, Religion +13   
@@ -866,7 +866,7 @@ A unicorn has deep sea-blue, violet, brown, or fiery gold eyes. Males sport a wh
 **Speed** 8, fly 12  
 
 
-> #### Nightmare  
+<h4 class="Heading-4---Monster">Nightmare</h4>
 > **Level 12 Striker** (700 XP)  
 > Large Natural Beast ● Mount (Evil)  
 > **Senses:** Perception +13, darkvision; **Skills:** Arcana +18, Stealth +19   
@@ -890,7 +890,7 @@ A unicorn has deep sea-blue, violet, brown, or fiery gold eyes. Males sport a wh
 A demonic steed wreathed in flames, conjured from the underworld for dark missions and shadowy purposes. A nightmare is about the size of a light war horse, and has the wit to carry out tasks with or without a rider.  
 
 
-> #### Elephant  
+<h4 class="Heading-4---Monster">Elephant</h4>
 > **Level 13 Blocker** (800 XP)  
 > Huge Natural Beast (Unaligned)  
 > **Senses:** Perception +18, low-light vision; **Skills:** Insight +18   
@@ -913,7 +913,7 @@ A demonic steed wreathed in flames, conjured from the underworld for dark missio
 Massive herbivores of tropical lands, elephants are unpredictable creatures but nevertheless are sometimes used as mounts or beasts of burden.  
 
 
-> #### Mammoth  
+<h4 class="Heading-4---Monster">Mammoth</h4>
 > **Level 17 Blocker** (1600 XP)  
 > Huge Natural Beast (Unaligned)  
 > **Senses:** Perception +22, low-light vision; **Skills:** Insight +22   
@@ -940,7 +940,7 @@ A prehistoric elephant with long, curved tusks and a shaggy coat.
 Constructs are magically created automatons.  
 
 
-> #### Wicker Golem  
+<h4 class="Heading-4---Monster">Wicker Golem</h4>
 > **Level 1 Striker** (100 XP)  
 > Medium Natural Automaton ● Construct (Unaligned)  
 > **Senses:** Perception +0, darkvision; **Skills:** Athletics +8   
@@ -960,7 +960,7 @@ Constructs are magically created automatons.
 Constructed of interwoven dried branches and vines, the wicker golem is often set as a task for apprentice magicians.  
 
 
-> #### Vigilant Statue  
+<h4 class="Heading-4---Monster">Vigilant Statue</h4>
 > **Level 6 Boss Blocker** (1250 XP)  
 > Large Natural Automaton ● Construct (Unaligned)  
 > **Senses:** Perception +2, darkvision; see also *vigilance*   
@@ -989,7 +989,7 @@ Constructed of interwoven dried branches and vines, the wicker golem is often se
 A stoic stone statue enchanted to stand guard, the vigilant statue remains motionless until provoked, at which point it animates with surprising speed and strength to defend its designated area.  
 
 
-> #### Animate Collector  
+<h4 class="Heading-4---Monster">Animate Collector</h4>
 > **Level 8 Spoiler** (350 XP)  
 > Medium Natural Automaton ● Construct (Unaligned)  
 > **Senses:** Perception +11, low-light vision; **Skills:** Diplomacy +14, Endure +18, History +18   
@@ -1014,7 +1014,7 @@ A stoic stone statue enchanted to stand guard, the vigilant statue remains motio
 An amalgamation of enchanted objects brought to life, the animate collector has a relentless desire to gather and hoard valuable items.  
 
 
-> #### Animate Guardian  
+<h4 class="Heading-4---Monster">Animate Guardian</h4>
 > **Level 12 Blocker** (700 XP)  
 > Large Natural Automaton ● Construct (Unaligned)  
 > **Senses:** Perception +19, low-light vision; **Skills:** Endure +22   
@@ -1043,7 +1043,7 @@ An amalgamation of enchanted objects brought to life, the animate collector has 
 A magical construct bound to protect a specific person, object, or location, the animate guardian is a loyal and unwavering sentinel, skilled in combat and relentless in its duty.  
 
 
-> #### Animate Battleform  
+<h4 class="Heading-4---Monster">Animate Battleform</h4>
 > **Level 16 Blocker** (1400 XP)  
 > Large Natural Automaton ● Construct (Unaligned)  
 > **Senses:** Perception +23, low-light vision; **Skills:** Endure +26   
@@ -1091,7 +1091,7 @@ A powerful construct purpose-built for combat, the animate battleform is powered
 ## Juggernauts  
 Juggernauts are the constructs created by a long-ago empire. Unlike some other constructs, Juggernauts are not capable of independent action.  Each juggernaut has room in its torso for a humanoid rider, who controls the juggernaut.
 
-> #### The Minotaur  
+<h4 class="Heading-4---Monster">The Minotaur</h4>
 > **Level 5 Elite Wrecker** (400 XP)  
 > Large Natural Automaton ● Construct (Unaligned)  
 > **Senses:** Perception +12, darkvision; **Skills:** Athletics +15, Endure +16, Intimidate +9   
@@ -1118,7 +1118,7 @@ Juggernauts are the constructs created by a long-ago empire. Unlike some other c
 The original use of the Minotaur was to breach walls and other defenses during siege warfare.  
 
 
-> #### The Emperor  
+<h4 class="Heading-4---Monster">The Emperor</h4>
 > **Level 9 Elite Archer** (800 XP)  
 > Large Natural Automaton ● Construct (Unaligned)  
 > **Senses:** Perception +11, darkvision; **Skills:** Acrobatics +14, Athletics +13, Endure +16   
@@ -1145,7 +1145,7 @@ The original use of the Minotaur was to breach walls and other defenses during s
 The Emperor is built in the shape of a gigantic, powerful human. The exposed copper and bronze wires that make up its artificial musculature give it the appearance of a skinless, gleaming gold giant floating through the air.  
 
 
-> #### The Scorpion  
+<h4 class="Heading-4---Monster">The Scorpion</h4>
 > **Level 15 Elite Archer** (2400 XP)  
 > Large Natural Automaton ● Construct (Unaligned)  
 > **Senses:** Perception +13, darkvision; **Skills:** Acrobatics +16, Athletics +24, Endure +24   
@@ -1176,7 +1176,7 @@ The Emperor is built in the shape of a gigantic, powerful human. The exposed cop
 The Scorpion is in the shape of a many-legged insect, but with the animated stone and bronze of the other juggernauts. The rider must lie supine in the "body" of the Scorpion, in a small dark room called the "coffin".  
 
 
-> #### The Awoken  
+<h4 class="Heading-4---Monster">The Awoken</h4>
 > **Level 15 Boss Striker** (6000 XP)  
 > Large Natural Automaton ● Construct (Good)  
 > **Senses:** Perception +19, darkvision, blindsight 10   
@@ -1214,7 +1214,7 @@ The Awoken is the only juggernaut in recorded history to become self-aware, and 
 Couatl, also known as feathered dragons, are dragons sent from the heavens to do good on earth. Despite their holy mission, they remain carnivores - and they hunger for the meat of those intellectually beneath them.  
 
 
-> #### Young Couatl  
+<h4 class="Heading-4---Monster">Young Couatl</h4>
 > **Level 3 Boss Striker** (750 XP)  
 > Medium Natural Monstrosity ● Dragon, Celestial (Lawful Good)  
 > **Senses:** Perception +7, darkvision; **Skills:** Arcana +9, Insight +7, Religion +9, Stealth +10   
@@ -1244,7 +1244,7 @@ Couatl, also known as feathered dragons, are dragons sent from the heavens to do
 > Near burst 5; +6 vs Will (enemies only); the target is blinded until the end of the couatl’s next turn. *Aftereffect:* The target is rattled (save ends).  
 
 
-> #### Adult Couatl  
+<h4 class="Heading-4---Monster">Adult Couatl</h4>
 > **Level 8 Boss Striker** (1750 XP)  
 > Large Natural Monstrosity ● Dragon, Celestial (Lawful Good)  
 > **Senses:** Perception +11, darkvision; **Skills:** Arcana +13, Insight +11, Religion +13, Stealth +14   
@@ -1276,7 +1276,7 @@ Couatl, also known as feathered dragons, are dragons sent from the heavens to do
 > The couatl becomes invisible until it attacks.  
 
 
-> #### Elder Couatl  
+<h4 class="Heading-4---Monster">Elder Couatl</h4>
 > **Level 15 Boss Striker** (6000 XP)  
 > Large Natural Monstrosity ● Dragon, Celestial (Lawful Good)  
 > **Senses:** Perception +16, darkvision; **Skills:** Arcana +17, Insight +15, Religion +17, Stealth +19   
@@ -1311,7 +1311,7 @@ Couatl, also known as feathered dragons, are dragons sent from the heavens to do
 > The couatl becomes incorporeal and teleports 12 squares. It remains incorporeal until the end of its next turn.  
 
 
-> #### Ancient Couatl  
+<h4 class="Heading-4---Monster">Ancient Couatl</h4>
 > **Level 22 Boss Striker** (20000 XP)  
 > Huge Natural Monstrosity ● Dragon, Celestial (Lawful Good)  
 > **Senses:** Perception +20, darkvision; **Skills:** Arcana +22, Insight +20, Religion +22, Stealth +25   
@@ -1351,7 +1351,7 @@ Couatl, also known as feathered dragons, are dragons sent from the heavens to do
 The church of Shehaan has never shied from acknowledging the goddess's moods and strange humors. She can be wild during the new moon, and takes on a shadowed aspect during the lunar eclipse. Legend has it that Shehaan's shadow self once lasted for decades or centuries, and ruled the earth with darkness and glory. The Cult of the New Moon are a heretic branch of the church of Shehaan that worships what they claim is the true Shehaan, the dark aspect she showed during this period. Whereas the church cautions that lycanthropy is a gift or a curse depending on how it is used, the Cult treats shapechanging as a tool at best and an excuse for cruelty and violence at worst.  
 
 
-> #### Squirming Mound  
+<h4 class="Heading-4---Monster">Squirming Mound</h4>
 > **Level 1 Striker** (100 XP)  
 > Medium Natural Automaton ● Construct (Chaotic Evil)  
 > **Senses:** Perception +0, darkvision; **Skills:** Acrobatics +8, Stealth +8   
@@ -1375,7 +1375,7 @@ The church of Shehaan has never shied from acknowledging the goddess's moods and
 A squirming mound is made of worms, newts, frogs, millipedes and all manner of other creeping and crawling things.  
 
 
-> #### Worm That Walks  
+<h4 class="Heading-4---Monster">Worm That Walks</h4>
 > **Level 2 Boss Spoiler** (Leader) (625 XP)  
 > Medium Natural Humanoid ● Vermin (Chaotic Evil)  
 > **Senses:** Perception +10, Darkvision, blindsight 6; **Skills:** Arcana +8, Diplomacy +9, Insight +10, Stealth +10   
@@ -1404,7 +1404,7 @@ A squirming mound is made of worms, newts, frogs, millipedes and all manner of o
 Vermin feeding on the corpse of a dead spellcaster sometimes capture a sliver of the caster's soul and power, and form into the horrifying shambling entity known as the worm that walks.  
 
 
-> #### Lamia  
+<h4 class="Heading-4---Monster">Lamia</h4>
 > **Level 15 Spoiler** (1200 XP)  
 > Large Shadow Beast (Evil)  
 > **Senses:** Perception +21, darkvision; **Skills:** Bluff +20, History +20, Religion +20   
@@ -1436,7 +1436,7 @@ Lamias are scorpion, snake or lion-bodied centaurs with human upper bodies. They
 Lamias recruit unwanted children, turning them into lycanthropes - their janissaries. As an incantation, a lamia can remove one of its eyes and either command it roll of its own volition (speed 3) or assign it to a servant to spy. Lamias will bargain to get an eye back.  
 
 
-> #### Lamia Superior  
+<h4 class="Heading-4---Monster">Lamia Superior</h4>
 > **Level 19 Spoiler** (2400 XP)  
 > Large Shadow Beast (Evil)  
 > **Senses:** Perception +26, darkvision; **Skills:** Bluff +28, History +27, Religion +27   
@@ -1471,7 +1471,7 @@ Lamias recruit unwanted children, turning them into lycanthropes - their janissa
 Deepfolk are amphibious humanoids with fish-like features, skilled in underwater combat and wielding weapons crafted from coral and obsidian.  
 
 
-> #### Deepfolk Warrior  
+<h4 class="Heading-4---Monster">Deepfolk Warrior</h4>
 > **Level 6 Wrecker** (250 XP)  
 > Medium Cosmic Humanoid ● Aquatic (Evil)  
 > **Senses:** Perception +9; **Skills:** Athletics +14, Stealth +11   
@@ -1492,7 +1492,7 @@ Deepfolk are amphibious humanoids with fish-like features, skilled in underwater
 > Ranged 5; +9 vs Reflex; 1d8+3 damage, and the target is blinded until the end of the deepfolk’s next turn.  
 
 
-> #### Deepfolk Berserker  
+<h4 class="Heading-4---Monster">Deepfolk Berserker</h4>
 > **Level 8 Wrecker** (350 XP)  
 > Medium Cosmic Humanoid ● Aquatic (Evil)  
 > **Senses:** Perception +7, darkvision; **Skills:** Athletics +17, Nature +12   
@@ -1512,7 +1512,7 @@ Deepfolk are amphibious humanoids with fish-like features, skilled in underwater
 > +13 vs AC; 2d10 damage and 10 persistent damage (save ends). *Effect:* The deepfolk berserker grants combat advantage until the end of its next turn.  
 
 
-> #### Deepfolk Hydromancer  
+<h4 class="Heading-4---Monster">Deepfolk Hydromancer</h4>
 > **Level 10 Spoiler** (500 XP)  
 > Medium Cosmic Humanoid ● Aquatic (Evil)  
 > **Senses:** Perception +17, darkvision; **Skills:** Arcana +19, Insight +17   
@@ -1536,7 +1536,7 @@ Deepfolk are amphibious humanoids with fish-like features, skilled in underwater
 # Elementals  
 
 
-> #### Gargoyle  
+<h4 class="Heading-4---Monster">Gargoyle</h4>
 > **Level 8 Skulker** (350 XP)  
 > Medium Elemental Humanoid ● Earth (Evil)  
 > **Senses:** Perception +12, darkvision; **Skills:** Stealth +12   
@@ -1562,7 +1562,7 @@ Stone guardians brought to life, gargoyles are winged creatures with a menacing 
 Add the Aquatic tag. Replace the fly speed with swim speed 6.  
 
 
-> #### Jinushigami  
+<h4 class="Heading-4---Monster">Jinushigami</h4>
 > **Level 13 Elite Spoiler** (1600 XP)  
 > Gargantuan Elemental Automaton ● Earth (Unaligned)  
 > **Senses:** Perception +18, tremorsense 12, truesight 6, telepathy 30; **Skills:** Diplomacy +21, Heal +18, Intimidate +21   
@@ -1597,7 +1597,7 @@ Jinushigami are the spirit guardians of natural wonders, with control over the l
 ## Air Elementals  
 Air elementals are composed of swirling winds.  
 
-> #### Small Air Elemental  
+<h4 class="Heading-4---Monster">Small Air Elemental</h4>
 > **Level 5 Spoiler** (200 XP)  
 > Small Elemental Automaton ● Air (Unaligned)  
 > **Senses:** Perception +4, darkvision   
@@ -1618,7 +1618,7 @@ Air elementals are composed of swirling winds.
 > ↗	**Control Wind** (standard, at-will) ● **Air**  
 > +8 vs Fortitude; The target is shunted 2 squares.  
 
-> #### Medium Air Elemental  
+<h4 class="Heading-4---Monster">Medium Air Elemental</h4>
 > **Level 9 Spoiler** (400 XP)  
 > Medium Elemental Automaton ● Air (Unaligned)  
 > **Senses:** Perception +8, darkvision   
@@ -1651,7 +1651,7 @@ Replace *buffet* and *control wind* with
 **Medium shadow humanoid (undead)**  
 **Raise Up (free, at-will)** If *control wind* hits: +14 vs Will; the target is levitated 1 square and restrained (save ends both).  
 
-> #### Large Air Elemental  
+<h4 class="Heading-4---Monster">Large Air Elemental</h4>
 > **Level 13 Spoiler** (800 XP)  
 > Large Elemental Automaton ● Air (Unaligned)  
 > **Senses:** Perception +12, darkvision; **Skills:** Acrobatics +24   
@@ -1678,7 +1678,7 @@ Earth elementals embody raw earth and stone.
 
 <figure><img src="pics\DnD_Stone_Elemental.png" alt="Earth Elemental by LadyofHats" style="zoom: 100%;" /><figcaption>Earth Elemental by LadyofHats</figcaption></figure>  
 
-> #### Small Earth Elemental  
+<h4 class="Heading-4---Monster">Small Earth Elemental</h4>
 > **Level 3 Skulker** (150 XP)  
 > Small Elemental Automaton ● Earth (Unaligned)  
 > **Senses:** Perception +2, tremorsense 12; **Skills:** Endure +8   
@@ -1699,7 +1699,7 @@ Earth elementals embody raw earth and stone.
 ##### Small Xorn
 **All-Around Vision** The xorn cannot be flanked.  
 
-> #### Medium Earth Elemental  
+<h4 class="Heading-4---Monster">Medium Earth Elemental</h4>
 > **Level 7 Skulker** (300 XP)  
 > Medium Elemental Automaton ● Earth (Unaligned)  
 > **Senses:** Perception +6, tremorsense 12; **Skills:** Endure +14   
@@ -1726,7 +1726,7 @@ Earth elementals embody raw earth and stone.
 ∢ **Blinding Sand (standard, encounter)** Near arc 2; +12 vs Reflex; 2d10+4 damage, and the target is blinded (save ends).   
 **Glass Armor** When the sand sentry takes fire or lightning damage, its outer layer of sand fuses into sheets of hardened glass. It loses earth glide but gains resistance to all damage 5 until it takes damage.  
 
-> #### Large Earth Elemental  
+<h4 class="Heading-4---Monster">Large Earth Elemental</h4>
 > **Level 11 Skulker** (600 XP)  
 > Large Elemental Automaton ● Earth (Unaligned)  
 > **Senses:** Perception +10, tremorsense 12; **Skills:** Endure +18   
@@ -1751,7 +1751,7 @@ Earth elementals embody raw earth and stone.
 Fire elementals are living manifestations of flame.  
 
 
-> #### Small Fire Elemental  
+<h4 class="Heading-4---Monster">Small Fire Elemental</h4>
 > **Level 4 Striker** (175 XP)  
 > Small Elemental Automaton ● Fire (Unaligned)  
 > **Senses:** Perception +4, darkvision   
@@ -1792,7 +1792,7 @@ Replace *burn* with:
 **Heatwave aura 2** A creature that ends its turn within the aura takes 5 fire damage.  
 
 
-> #### Medium Fire Elemental  
+<h4 class="Heading-4---Monster">Medium Fire Elemental</h4>
 > **Level 8 Striker** (350 XP)  
 > Medium Elemental Automaton ● Fire (Unaligned)  
 > **Senses:** Perception +8, darkvision   
@@ -1833,7 +1833,7 @@ Medium elemental humanoid (fire)
 **Humanoid** The azer can wield weapons. Any time the azer hits a creature with a metal melee weapon, it can make a *burn* attack against that target as a free action.  
 
 
-> #### Large Fire Elemental  
+<h4 class="Heading-4---Monster">Large Fire Elemental</h4>
 > **Level 12 Striker** (700 XP)  
 > Large Elemental Automaton ● Fire (Unaligned)  
 > **Senses:** Perception +12, darkvision   
@@ -1863,7 +1863,7 @@ Large cosmic monstrosity (fire)
 Water elementals are fluid entities shaped from water.  
 
 
-> #### Small Water Elemental  
+<h4 class="Heading-4---Monster">Small Water Elemental</h4>
 > **Level 3 Spoiler** (150 XP)  
 > Small Elemental Automaton ● Water (Unaligned)  
 > **Senses:** Perception +2, darkvision; **Skills:** Athletics +9   
@@ -1882,7 +1882,7 @@ Water elementals are fluid entities shaped from water.
 > Near burst 2; All non-magical fires are extinguished. Creatures taking persistent fire damage no longer do so. Any ongoing powers with the Fire tag end immediately.  
 
 
-> #### Medium Water Elemental  
+<h4 class="Heading-4---Monster">Medium Water Elemental</h4>
 > **Level 7 Spoiler** (300 XP)  
 > Medium Elemental Automaton ● Water (Unaligned)  
 > **Senses:** Perception +6, darkvision; **Skills:** Athletics +14   
@@ -1901,7 +1901,7 @@ Water elementals are fluid entities shaped from water.
 > Near burst 3; All non-magical fires are extinguished. Creatures taking persistent fire damage no longer do so. Any ongoing powers with the Fire tag end immediately.  
 
 
-> #### Large Water Elemental  
+<h4 class="Heading-4---Monster">Large Water Elemental</h4>
 > **Level 11 Spoiler** (600 XP)  
 > Large Elemental Automaton ● Water (Unaligned)  
 > **Senses:** Perception +10, darkvision; **Skills:** Athletics +20   
@@ -1928,7 +1928,7 @@ Barghests are wicked, shape-changing wolf-goblin monsters.
 **Transformation:** If a barghest has fed on 10 or more humanoids, then the next full moon it reforms as a greater barghest. This is a good opportunity for the heroes to face the barghest in a weaker form, get a sense of its powers and tactics before it flees, and then a few days later face a more challenging greater barghest.  
 
 
-> #### Barghest  
+<h4 class="Heading-4---Monster">Barghest</h4>
 > **Level 6 Elite Striker** (500 XP)  
 > Medium Fey Humanoid ● Shapechanger (Evil)  
 > **Senses:** Perception +10, low-light vision; **Skills:** Athletics +12, Stealth +11   
@@ -1951,7 +1951,7 @@ Barghests are wicked, shape-changing wolf-goblin monsters.
 > A barghest can assume the shape of a giant black dog or a goblin-like humanoid, or its original barghest form. It loses its bite attack in goblin form. Each time a barghest changes shape it can shift 3 squares.  
 
 
-> #### Greater Barghest  
+<h4 class="Heading-4---Monster">Greater Barghest</h4>
 > **Level 11 Elite Striker** (1200 XP)  
 > Large Fey Humanoid ● Shapechanger (Evil)  
 > **Senses:** Perception +12, low-light vision; **Skills:** Athletics +16, Intimidate +14, Insight +12, Stealth +14   
@@ -1976,7 +1976,7 @@ Barghests are wicked, shape-changing wolf-goblin monsters.
 ## Mitflits  
 
 
-> #### Mitflit  
+<h4 class="Heading-4---Monster">Mitflit</h4>
 > **Level 1 Mook Striker** (25 XP)  
 > Small Fey Humanoid ● Gremlin (Any)  
 > **Senses:** Perception +1, Darkvision   
@@ -2000,7 +2000,7 @@ Barghests are wicked, shape-changing wolf-goblin monsters.
 Small, cowardly and self-pitying fey, mitflits have an empathetic connection with insects, scorpions and other skittering things.  
 
 
-> #### Scorpion Knight  
+<h4 class="Heading-4---Monster">Scorpion Knight</h4>
 > **Level 1 Blocker** (100 XP)  
 > Small Fey Humanoid ● Gremlin (Any)  
 > **Senses:** Perception +1, Darkvision; **Skills:** Sleight of Hand +7, Stealth +7   
@@ -2029,7 +2029,7 @@ Mitflits mounted on scorpions, spiders and other giant vermin.
 # Fiends  
 
 
-> #### Demon Toad  
+<h4 class="Heading-4---Monster">Demon Toad</h4>
 > **Level 1 Wrecker** (100 XP)  
 > Small Outsider Monstrosity ● Demon (Chaotic Evil)  
 > **Senses:** Perception +3, darkvision   
@@ -2052,7 +2052,7 @@ Mitflits mounted on scorpions, spiders and other giant vermin.
 A fiendish toad that can belch toxic gas.  
 
 
-> #### Hopping Imp  
+<h4 class="Heading-4---Monster">Hopping Imp</h4>
 > **Level 1 Wrecker** (100 XP)  
 > Small Outsider Humanoid ● Devil (Evil)  
 > **Senses:** Perception +2, darkvision   
@@ -2074,7 +2074,7 @@ A fiendish toad that can belch toxic gas.
 A mischievous demon about the size of a cat, with sharp claws and the ability to spit bile through its proboscis.  
 
 
-> #### Burner Demon  
+<h4 class="Heading-4---Monster">Burner Demon</h4>
 > **Level 5 Wrecker** (200 XP)  
 > Medium Outsider Humanoid ● Demon, Fire (Chaotic Evil)  
 > **Senses:** Perception +6, darkvision   
@@ -2095,7 +2095,7 @@ A mischievous demon about the size of a cat, with sharp claws and the ability to
 An alien demon consisting of many smoking tubes emerging from its goat-like legs. Some of the tubes have eyes, and others lamprey mouths to suck up bodies that have been reduced to ash.  
 
 
-> #### Hellhound  
+<h4 class="Heading-4---Monster">Hellhound</h4>
 > **Level 5 Wrecker** (200 XP)  
 > Medium Outsider Beast ● Demon (Evil)  
 > **Senses:** Perception +8, darkvision   
@@ -2116,7 +2116,7 @@ An alien demon consisting of many smoking tubes emerging from its goat-like legs
 A demonic canine with red eyes, razor-sharp fangs, and the ability to breathe fire.  
 
 
-> #### Flay Devil  
+<h4 class="Heading-4---Monster">Flay Devil</h4>
 > **Level 6 Striker** (250 XP)  
 > Medium Outsider Humanoid ● Devil, Shapechanger (Evil)  
 > **Senses:** Perception +7, darkvision; **Skills:** Athletics +12, Bluff +13, Stealth +13   
@@ -2144,7 +2144,7 @@ A demonic canine with red eyes, razor-sharp fangs, and the ability to breathe fi
 A sadistic demon that can take the form of those whose flayed skin it wears.  
 
 
-> #### Hezrou  
+<h4 class="Heading-4---Monster">Hezrou</h4>
 > **Level 9 Wrecker** (400 XP)  
 > Large Outsider Humanoid ● Demon (Chaotic Evil)  
 > **Senses:** Perception +11, darkvision   
@@ -2167,7 +2167,7 @@ A sadistic demon that can take the form of those whose flayed skin it wears.
 A hulking and repugnant toad-demon with bloated flesh.  
 
 
-> #### Hungry Maw  
+<h4 class="Heading-4---Monster">Hungry Maw</h4>
 > **Level 9 Wrecker** (400 XP)  
 > Medium Outsider Monstrosity ● Demon (Chaotic Evil)  
 > **Senses:** Perception +13, darkvision   
@@ -2186,7 +2186,7 @@ A hulking and repugnant toad-demon with bloated flesh.
 An open mouth bristling with teeth of all sizes and shapes, on legs.  
 
 
-> #### Vulture Demon  
+<h4 class="Heading-4---Monster">Vulture Demon</h4>
 > **Level 9 Wrecker** (400 XP)  
 > Large Outsider Monstrosity ● Demon (Chaotic Evil)  
 > **Senses:** Perception +13, darkvision   
@@ -2206,7 +2206,7 @@ An open mouth bristling with teeth of all sizes and shapes, on legs.
 A winged scavenger with a fearful keening screech and claws matted with the rotted flesh of previous victims.  
 
 
-> #### Big Burner  
+<h4 class="Heading-4---Monster">Big Burner</h4>
 > **Level 15 Wrecker** (1200 XP)  
 > Large Outsider Humanoid ● Demon, Fire (Chaotic Evil)  
 > **Senses:** Perception +16, darkvision   
@@ -2225,7 +2225,7 @@ A winged scavenger with a fearful keening screech and claws matted with the rott
 > Far burst 1 within 5; +18 vs Reflex (one random target in range); 4d6+8 fire damage.  
 
 
-> #### Mountain Demon  
+<h4 class="Heading-4---Monster">Mountain Demon</h4>
 > **Level 15 Skulker** (1200 XP)  
 > Medium Outsider Humanoid ● Demon (Chaotic Evil)  
 > **Senses:** Perception +19, darkvision; **Skills:** Athletics +24, Endure +22   
@@ -2250,7 +2250,7 @@ A winged scavenger with a fearful keening screech and claws matted with the rott
 A long, lean demon with skin of mottled stone. More patient than most of their kin, they spend long years meditating on the slopes of mountains awaiting inspiration for evil deeds of appropriate stature.  
 
 
-> #### Boar Demon (Nalfeshnee)  
+<h4 class="Heading-4---Monster">Boar Demon (Nalfeshnee)</h4>
 > **Level 19 Wrecker** (2400 XP)  
 > Large Outsider Humanoid ● Demon (Chaotic Evil)  
 > **Senses:** Perception +25, darkvision   
@@ -2272,7 +2272,7 @@ A long, lean demon with skin of mottled stone. More patient than most of their k
 A demonic fusion of boar and humanoid, their powerful tusks channel havoc magic.  
 
 
-> #### Frenzy Demon  
+<h4 class="Heading-4---Monster">Frenzy Demon</h4>
 > **Level 19 Wrecker** (2400 XP)  
 > Medium Outsider Humanoid ● Demon (Chaotic Evil)  
 > **Senses:** Perception +20, darkvision   
@@ -2295,7 +2295,7 @@ A demonic fusion of boar and humanoid, their powerful tusks channel havoc magic.
 A manic and frenzied demon with a twisted and contorted form, possessing incredible speed, agility, and a relentless drive to shred its victims apart.  
 
 
-> #### Pincer Demon (Glabrezu)  
+<h4 class="Heading-4---Monster">Pincer Demon (Glabrezu)</h4>
 > **Level 19 Wrecker** (2400 XP)  
 > Huge Outsider Humanoid ● Demon (Chaotic Evil)  
 > **Senses:** Perception +22, darkvision   
@@ -2315,7 +2315,7 @@ A manic and frenzied demon with a twisted and contorted form, possessing incredi
 A wolf-headed, crab-clawed demon, with a sweet tongue belied by its monstrous appearance. Glabrezu tempt victims into ruin by promising power or wealth.  
 
 
-> #### Laughing Demon  
+<h4 class="Heading-4---Monster">Laughing Demon</h4>
 > **Level 25 Wrecker** (6400 XP)  
 > Large Outsider Humanoid ● Demon (Chaotic Evil)  
 > **Senses:** Perception +27, darkvision   
@@ -2338,7 +2338,7 @@ A wolf-headed, crab-clawed demon, with a sweet tongue belied by its monstrous ap
 A deranged and sadistic demon that derives pleasure from the failure of others. Those who provoke its haunting laughter suffer physical harm.  
 
 
-> #### Balor  
+<h4 class="Heading-4---Monster">Balor</h4>
 > **Level 29 Wrecker** (12800 XP)  
 > Large Outsider Humanoid ● Demon, Fire (Chaotic Evil)  
 > **Senses:** Perception +36, darkvision, trueseeing   
@@ -2364,7 +2364,7 @@ A deranged and sadistic demon that derives pleasure from the failure of others. 
 A towering and immensely powerful demon with fiery wings, wielding a flaming sword and whip, serving as a high-ranking commander of amassed fiends.  
 
 
-> #### Marilith  
+<h4 class="Heading-4---Monster">Marilith</h4>
 > **Level 29 Wrecker** (12800 XP)  
 > Large Outsider Humanoid ● Demon (Chaotic Evil)  
 > **Senses:** Perception +33, darkvision   
@@ -2391,7 +2391,7 @@ A demon with multiple arms and the lower body of a massive snake, able to wield 
 ## Orcus  
 
 
-> #### Abyssal Mummy  
+<h4 class="Heading-4---Monster">Abyssal Mummy</h4>
 > **Level 35 Mook Blocker** (10000 XP)  
 > Medium Outsider Humanoid ● Demon, Undead (Chaotic Evil)  
 > **Senses:** Perception +40, Truesight 24; **Skills:** Arcana +39, History +39, Religion +39   
@@ -2420,7 +2420,7 @@ A demon with multiple arms and the lower body of a massive snake, able to wield 
 Over the millennia, kings, emperors and high priests who sold their souls to Orcus have been marshalled as his undead servants.  
 
 
-> #### Orcus  
+<h4 class="Heading-4---Monster">Orcus</h4>
 > **Level 35 Boss Spoiler** (200000 XP)  
 > Huge Outsider Humanoid ● Demon (Chaotic Evil)  
 > **Senses:** Perception +47, Truesight 24; **Skills:** History +47, Religion +47   
@@ -2464,7 +2464,7 @@ Orcus likes to travel the planes, particularly the Material Plane.
 
 # Elohim  
 
-> #### Elohim Sky Guardian  
+<h4 class="Heading-4---Monster">Elohim Sky Guardian</h4>
 > **Level 10 Archer** (500 XP)  
 > Medium Outsider Humanoid ● Celestial (Good)  
 > **Senses:** Perception +20, low-light vision; **Skills:** Arcana +19   
@@ -2494,7 +2494,7 @@ Winged, angelic warriors in golden armor, the elohim sky guardians are sworn to 
 # Flying Heads  
 
 
-> #### Flying Head  
+<h4 class="Heading-4---Monster">Flying Head</h4>
 > **Level 5 Striker** (200 XP)  
 > Small Shadow Monstrosity (Evil)  
 > **Senses:** Perception +3, darkvision; **Skills:** Stealth +11   
@@ -2517,7 +2517,7 @@ Winged, angelic warriors in golden armor, the elohim sky guardians are sworn to 
 A winged head, about 18 inches high, with a wingspan of 4 feet. It weighs about 10 pounds.  
 
 
-> #### Flying Head Swarm  
+<h4 class="Heading-4---Monster">Flying Head Swarm</h4>
 > **Level 17 Elite Striker** (1600 XP)  
 > Huge Shadow Monstrosity ● Swarm (Evil)  
 > **Senses:** Perception +7, darkvision; **Skills:** Stealth +19   
@@ -2544,7 +2544,7 @@ A winged head, about 18 inches high, with a wingspan of 4 feet. It weighs about 
 Ghouls are foul and ravenous undead, with a paralyzing touch which lets them eat their prey alive.  
 
 
-> #### Ghoul  
+<h4 class="Heading-4---Monster">Ghoul</h4>
 > **Level 5 Striker** (200 XP)  
 > Medium Natural Humanoid ● Undead (Unaligned)  
 > **Senses:** Perception +6, darkvision; **Skills:** Acrobatics +11, Athletics +10, Stealth +11   
@@ -2569,7 +2569,7 @@ Medium natural humanoid (aquatic, undead)
 **Speed** 6, swim 6  
 
 
-> #### Ghast  
+<h4 class="Heading-4---Monster">Ghast</h4>
 > **Level 9 Striker** (400 XP)  
 > Medium Natural Humanoid ● Undead (Unaligned)  
 > **Senses:** Perception +10, darkvision; **Skills:** Acrobatics +16, Athletics +16, Stealth +16   
@@ -2604,7 +2604,7 @@ Living creatures too near an ichor-ghoul start sweating blood and their skin bec
 When one of the desiccated husks transforms into bloody bones, the husk’s dry skin cracks open and the bloody bones literally tear themselves out of their own body. The thing which emerges is a glistening mass of raw muscle, pulsing with thick veins of crimson-black blood. Its fang-like teeth glitter as its mouth parts in a ghastly, hissing smile.  
 
 
-> #### Desiccated Husk  
+<h4 class="Heading-4---Monster">Desiccated Husk</h4>
 > **Level 3 Wrecker** (150 XP)  
 > Medium Elemental Humanoid ● Undead (Evil)  
 > **Senses:** Perception +1, darkvision   
@@ -2623,7 +2623,7 @@ When one of the desiccated husks transforms into bloody bones, the husk’s dry 
 > Keep track of all damage the desiccated husk does, including through its aura. If damage done ever exceeds 22, that desiccated husk is replaced by a bloody bones as a reaction. Add 44 to the desiccated husk’s current HP to determine the bloody bones' current HP. A bloody bones created in this way only gives 150 XP total for being defeated.  
 
 
-> #### Bloody Bones  
+<h4 class="Heading-4---Monster">Bloody Bones</h4>
 > **Level 3 Elite Wrecker** (300 XP)  
 > Medium Elemental Humanoid ● Undead (Evil)  
 > **Senses:** Perception +2, darkvision   
@@ -2651,7 +2651,7 @@ Heroes can either encounter a bloody bones after it emerges from a dessicated hu
 # Giants  
 
 
-> #### Ogre  
+<h4 class="Heading-4---Monster">Ogre</h4>
 > **Level 10 Wrecker** (500 XP)  
 > Large Natural Humanoid ● Giant (Evil)  
 > **Senses:** Perception +10; **Skills:** Athletics +20   
@@ -2682,7 +2682,7 @@ Adult ogres stand 9 to 10 feet tall and weigh 600 to 650 pounds. Their skin colo
 **Speed** 6, swim 8  
 
 
-> #### Hill Giant  
+<h4 class="Heading-4---Monster">Hill Giant</h4>
 > **Level 12 Wrecker** (700 XP)  
 > Large Natural Humanoid ● Giant (Evil)  
 > **Senses:** Perception +12; **Skills:** Athletics +24   
@@ -2708,7 +2708,7 @@ The weakest and smallest of the true giants, hill giants are still large and for
 Adults are about 10½ feet tall and weigh about 1,100 pounds. Hill giants can live to be 200 years old.  
 
 
-> #### Fire Giant  
+<h4 class="Heading-4---Monster">Fire Giant</h4>
 > **Level 14 Spoiler** (1000 XP)  
 > Large Elemental Humanoid ● Fire, Giant (Evil)  
 > **Senses:** Perception +16; **Skills:** Athletics +29, Intimidate +19   
@@ -2733,7 +2733,7 @@ Some fire giants have bright orange hair. An adult male is 12 feet tall, has a c
 Fire giants wear sturdy cloth or leather garments colored red, orange, yellow, or black. Warriors wear helmets and half-plate armor of blackened steel.  
 
 
-> #### Frost Giant  
+<h4 class="Heading-4---Monster">Frost Giant</h4>
 > **Level 16 Wrecker** (1400 XP)  
 > Large Elemental Humanoid ● Cold, Giant (Evil)  
 > **Senses:** Perception +18; **Skills:** Athletics +30   
@@ -2759,7 +2759,7 @@ A frost giant’s hair can be light blue or dirty yellow, and its eyes usually m
 An adult male is about 15 feet tall and weighs about 2,800 pounds. Females are slightly shorter and lighter, but otherwise identical with males. Frost giants can live to be 250 years old.  
 
 
-> #### Stone Giant  
+<h4 class="Heading-4---Monster">Stone Giant</h4>
 > **Level 18 Wrecker** (2000 XP)  
 > Huge Elemental Humanoid ● Earth, Giant (Unaligned)  
 > **Senses:** Perception +19; **Skills:** Athletics +31, Stealth +25   
@@ -2787,7 +2787,7 @@ The most patient and thoughtful of the giants, stone giants are often found medi
 Stone giants prefer robes or loose-fitting tunics and trousers, dyed in shades of red or saffron. Adults are about 12 feet tall and weigh about 1,500 pounds. Stone giants can live to be 800 years old.  
 
 
-> #### Storm Giant  
+<h4 class="Heading-4---Monster">Storm Giant</h4>
 > **Level 20 Spoiler** (2800 XP)  
 > Huge Elemental Humanoid ● Giant, Lightning (Unaligned)  
 > **Senses:** Perception +30; **Skills:** Athletics +39, Insight +30, Intimidate +27   
@@ -2814,7 +2814,7 @@ Adults are about 21 feet tall and weigh about 12,000 pounds. Storm giants can li
 Proud and noble warriors of giant size, the fir bolg live in tight-knit clans in forests and other wild places.  
 
 
-> #### Fir Bolg Hunter  
+<h4 class="Heading-4---Monster">Fir Bolg Hunter</h4>
 > **Level 6 Striker** (250 XP)  
 > Large Natural Humanoid (Unaligned)  
 > **Senses:** Perception +8, low-light vision; **Skills:** Nature +13, Stealth +13   
@@ -2840,7 +2840,7 @@ Proud and noble warriors of giant size, the fir bolg live in tight-knit clans in
 > The fir bolg has a +2 bonus to defenses until it moves from its current space.  
 
 
-> #### Fir Bolg Archer  
+<h4 class="Heading-4---Monster">Fir Bolg Archer</h4>
 > **Level 7 Archer** (300 XP)  
 > Large Natural Humanoid (Unaligned)  
 > **Senses:** Perception +8, low-light vision; **Skills:** Nature +13, Stealth +15   
@@ -2866,7 +2866,7 @@ Proud and noble warriors of giant size, the fir bolg live in tight-knit clans in
 > The fir bolg has a +2 bonus to defenses until it moves from its current space.  
 
 
-> #### Fir Bolg Shaman  
+<h4 class="Heading-4---Monster">Fir Bolg Shaman</h4>
 > **Level 8 Spoiler** (350 XP)  
 > Large Natural Humanoid (Unaligned)  
 > **Senses:** Perception +12, low-light vision; **Skills:** Arcana +18, Nature +17   
@@ -2894,7 +2894,7 @@ Proud and noble warriors of giant size, the fir bolg live in tight-knit clans in
 > The fir bolg gains 21 temporary hit points.  
 
 
-> #### Fir Bolg Chieftain  
+<h4 class="Heading-4---Monster">Fir Bolg Chieftain</h4>
 > **Level 14 Blocker** (1000 XP)  
 > Large Natural Humanoid (Unaligned)  
 > **Senses:** Perception +17, low-light vision; **Skills:** Diplomacy +25, Nature +22, Stealth +22   
@@ -2925,7 +2925,7 @@ Proud and noble warriors of giant size, the fir bolg live in tight-knit clans in
 Hags are witches from the Plane of Faerie.  
 
 
-> #### Tear-Drinker Hag  
+<h4 class="Heading-4---Monster">Tear-Drinker Hag</h4>
 > **Level 3 Boss Spoiler** (750 XP)  
 > Medium Fey Humanoid (Any)  
 > **Senses:** Perception +5, darkvision; **Skills:** Bluff +8   
@@ -2953,7 +2953,7 @@ Hags are witches from the Plane of Faerie.
 > The hag gains a +2 power bonus to all defenses while the hag is grappling one or more enemies.  
 
 
-> #### Ice Hag  
+<h4 class="Heading-4---Monster">Ice Hag</h4>
 > **Level 12 Elite Striker** (1400 XP)  
 > Medium Fey Humanoid ● Cold (Any)  
 > **Senses:** Perception +10, low-light vision, can see through concealment from precipitation, including the hag's *unceasing sleet* aura; **Skills:** Intimidate +13, Nature +11, Stealth +15   
@@ -2986,7 +2986,7 @@ By default, these profiles represent humans. Any stat block can be easily adapte
 Thieves, bandits and other violent thugs can be represented by the statistics below.  
 
 
-> #### Ill-Equipped Combatant  
+<h4 class="Heading-4---Monster">Ill-Equipped Combatant</h4>
 > **Level 1 Mook Striker** (25 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +4; **Skills:** Intimidate + 5, Sleight of Hand +5   
@@ -3004,7 +3004,7 @@ Thieves, bandits and other violent thugs can be represented by the statistics be
 > Ranged 10/20; +6 vs AC; 5 damage.  
 
 
-> #### Bodyguard  
+<h4 class="Heading-4---Monster">Bodyguard</h4>
 > **Level 1 Blocker** (100 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +6; **Skills:** Acrobatics +7, Athletics +8   
@@ -3022,7 +3022,7 @@ Thieves, bandits and other violent thugs can be represented by the statistics be
 > +6 vs AC; 2d4+3 damage, and the target is knocked prone.  
 
 
-> #### Chain Brawler  
+<h4 class="Heading-4---Monster">Chain Brawler</h4>
 > **Level 1 Striker** (100 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +4; **Skills:** Intimidate +5, Stealth +7, Sleight of Hand +7   
@@ -3038,7 +3038,7 @@ Thieves, bandits and other violent thugs can be represented by the statistics be
 > Reach 2; +6 vs AC; 1d6+3 damage (1d6+6 vs prone target). The chain brawler can choose to knock the target prone instead of doing damage.  
 
 
-> #### Mancatcher  
+<h4 class="Heading-4---Monster">Mancatcher</h4>
 > **Level 1 Striker** (100 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +5; **Skills:** Stealth +8, Thievery +8   
@@ -3061,7 +3061,7 @@ Thieves, bandits and other violent thugs can be represented by the statistics be
 > The mancatcher deals an additional 1d6 damage against any target it has combat advantage against.  
 
 
-> #### Scurvy Pirate  
+<h4 class="Heading-4---Monster">Scurvy Pirate</h4>
 > **Level 3 Blocker** (150 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +6; **Skills:** Athletics +9   
@@ -3083,7 +3083,7 @@ Thieves, bandits and other violent thugs can be represented by the statistics be
 > When an enemy moves or shifts within reach: Reach 2; +6 vs Fortitude; target ends its movement, losing its action (although it can take another action to continue moving).  
 
 
-> #### Shadowblast Warlock  
+<h4 class="Heading-4---Monster">Shadowblast Warlock</h4>
 > **Level 3 Skulker** (150 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +10; **Skills:** Intimidate +7, Stealth +7, Athletics +6   
@@ -3103,7 +3103,7 @@ Thieves, bandits and other violent thugs can be represented by the statistics be
 > Ranged 40/80; +8 vs AC; 2d8+6 damage, and the target is dazed (save ends); *Miss:*  The shadowblast warlock regains the use of this power  
 
 
-> #### Gang Initiate  
+<h4 class="Heading-4---Monster">Gang Initiate</h4>
 > **Level 4 Mook Striker** (44 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +7; **Skills:** Intimidate +7, Stealth +10   
@@ -3121,7 +3121,7 @@ Thieves, bandits and other violent thugs can be represented by the statistics be
 > Ranged 10/20; +9 vs AC; 8 damage.  
 
 
-> #### Gang Leader  
+<h4 class="Heading-4---Monster">Gang Leader</h4>
 > **Level 4 Elite Spoiler** (Leader) (350 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +8; **Skills:** Intimidate +10, Bluff +10, Stealth +9   
@@ -3148,7 +3148,7 @@ Thieves, bandits and other violent thugs can be represented by the statistics be
 ## Legion  
 Soldiers and other organized, well-equipped armed forces can be represented by the statistics below.  
 
-> #### Legion Recruit  
+<h4 class="Heading-4---Monster">Legion Recruit</h4>
 > **Level 1 Mook Striker** (25 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +1; **Skills:** Athletics +5, Endure +3   
@@ -3165,7 +3165,7 @@ Soldiers and other organized, well-equipped armed forces can be represented by t
 > **Heart of the Legion**   
 > When adjacent to an ally, the legion recruit receives a +1 power bonus to all defenses.  
 
-> #### Legionary  
+<h4 class="Heading-4---Monster">Legionary</h4>
 > **Level 1 Blocker** (100 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +2; **Skills:** Athletics +10, Endure +7   
@@ -3184,7 +3184,7 @@ Soldiers and other organized, well-equipped armed forces can be represented by t
 > **Heart of the Legion**   
 > When adjacent to an ally, the legionary receives a +1 power bonus to all defenses.  
 
-> #### Grenadier  
+<h4 class="Heading-4---Monster">Grenadier</h4>
 > **Level 2 Archer** (125 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +6; **Skills:** Endure + 9   
@@ -3208,7 +3208,7 @@ Soldiers and other organized, well-equipped armed forces can be represented by t
 > When adjacent to an ally, the grenadier receives a +1 power bonus to all defenses.  
 
 
-> #### Siege Engineer  
+<h4 class="Heading-4---Monster">Siege Engineer</h4>
 > **Level 2 Archer** (125 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +1; **Skills:** Athletics +7   
@@ -3230,7 +3230,7 @@ Soldiers and other organized, well-equipped armed forces can be represented by t
 > When adjacent to an ally, the grenadier receives a +1 power bonus to all defenses.  
 
 
-> #### Signifier  
+<h4 class="Heading-4---Monster">Signifier</h4>
 > **Level 2 Spoiler** (Leader) (125 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +5; **Skills:** Athletics +10, Endure +5, Religion +7   
@@ -3256,7 +3256,7 @@ Soldiers and other organized, well-equipped armed forces can be represented by t
 > When adjacent to an ally, the signifier receives a +1 power bonus to all defenses.  
 
 
-> #### Centurion  
+<h4 class="Heading-4---Monster">Centurion</h4>
 > **Level 3 Blocker** (Leader) (150 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +4; **Skills:** Athletics +13, Endure +11   
@@ -3276,7 +3276,7 @@ Soldiers and other organized, well-equipped armed forces can be represented by t
 > When adjacent to an ally, the centurion receives a +1 power bonus to all defenses.  
 
 
-> #### Infiltrator  
+<h4 class="Heading-4---Monster">Infiltrator</h4>
 > **Level 5 Skulker** (200 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +9; **Skills:** Athletics +12, Endure +6, Stealth +11   
@@ -3301,7 +3301,7 @@ Soldiers and other organized, well-equipped armed forces can be represented by t
 A powerful and well-established mercenary group or rival adventuring party.  
 
 
-> #### Mercenary Archer  
+<h4 class="Heading-4---Monster">Mercenary Archer</h4>
 > **Level 8 Mook Archer** (88 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +11; **Skills:** Intimidate +9, Stealth +13   
@@ -3321,7 +3321,7 @@ A powerful and well-established mercenary group or rival adventuring party.
 > The mercenary archer makes a *longbow* attack.  
 
 
-> #### Fire Magician  
+<h4 class="Heading-4---Monster">Fire Magician</h4>
 > **Level 8 Archer** (350 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +10; **Skills:** Athletics +11, Intimidate +12   
@@ -3342,7 +3342,7 @@ A powerful and well-established mercenary group or rival adventuring party.
 > Far wall 5 within 10; +11 vs Reflex; 2d6+5 damage, and the target takes persistent 5 fire damage (save ends).  
 
 
-> #### Insidious Assassin  
+<h4 class="Heading-4---Monster">Insidious Assassin</h4>
 > **Level 9 Skulker** (400 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +13; **Skills:** Acrobatics +13, Stealth +16   
@@ -3364,7 +3364,7 @@ A powerful and well-established mercenary group or rival adventuring party.
 > When the insidious assassin hits a target granting combat advantage to the insidious assassin: The target takes persistent 5 damage until the end of the encounter or until the target is reduced to 0 hit points or below.  
 
 
-> #### Mercenary Lord  
+<h4 class="Heading-4---Monster">Mercenary Lord</h4>
 > **Level 10 Elite Spoiler** (Leader) (1000 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +13; **Skills:** Bluff +13, Diplomacy +13, Endure +13, Athletics +13, Intimidate +13   
@@ -3396,7 +3396,7 @@ A powerful and well-established mercenary group or rival adventuring party.
 Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable face of tyranny. With gentle words and sheathed swords, they explain why hierarchy and control are needed in these dark times. Only when defied do they send in their veteran guards or draw on their own considerable power. Even then, they are careful to make an example of only as many people as is needed to restore order – plus a few of the usual suspects to deter any further rebellion.  
 
 
-> #### Dark Knight  
+<h4 class="Heading-4---Monster">Dark Knight</h4>
 > **Level 11 Boss Wrecker** (3000 XP)  
 > Medium Natural Humanoid ● Human (Evil)  
 > **Senses:** Perception +13; **Skills:** Endure +19, Athletics +17, Intimidate +13   
@@ -3424,7 +3424,7 @@ Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable fa
 > The dark knight cannot be dazed, marked, or weakened.  
 
 
-> #### Armored Warmage  
+<h4 class="Heading-4---Monster">Armored Warmage</h4>
 > **Level 12 Wrecker** (700 XP)  
 > Medium Natural Humanoid ● Human (Evil)  
 > **Senses:** Perception +10; **Skills:** Intimidate +10, Athletics +11   
@@ -3446,7 +3446,7 @@ Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable fa
 > Far burst 5 within 40; +15 vs Reflex; 1d8+14 lightning damage, and the target is marked until the armored warmage is reduced to 0 hit points or below.  
 
 
-> #### Master Assassin  
+<h4 class="Heading-4---Monster">Master Assassin</h4>
 > **Level 12 Elite Skulker** (1400 XP)  
 > Medium Natural Humanoid ● Human (Evil)  
 > **Senses:** Perception +17; **Skills:** Bluff +14, Diplomacy +14, Intimidate +14, Stealth +20   
@@ -3473,7 +3473,7 @@ Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable fa
 > The master assassin shifts 4 squares and can make a Stealth check.  
 
 
-> #### Martial Arts Master  
+<h4 class="Heading-4---Monster">Martial Arts Master</h4>
 > **Level 13 Boss Blocker** (4000 XP)  
 > Medium Natural Humanoid ● Human (Evil)  
 > **Senses:** Perception +19, darkvision, blindsight 10   
@@ -3499,7 +3499,7 @@ Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable fa
 > +16 vs Fortitude; 3d6+12 damage, and the target is dazed, slowed, and weakened (save ends each).  
 
 
-> #### Crossbow Master  
+<h4 class="Heading-4---Monster">Crossbow Master</h4>
 > **Level 14 Mook Archer** (250 XP)  
 > Medium Natural Humanoid ● Human (Unaligned)  
 > **Senses:** Perception +12   
@@ -3519,7 +3519,7 @@ Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable fa
 > The crossbow master can shift a square as a swift action.  
 
 
-> #### Blademaster  
+<h4 class="Heading-4---Monster">Blademaster</h4>
 > **Level 14 Mook Striker** (250 XP)  
 > Medium Natural Humanoid ● Human (Unaligned)  
 > **Senses:** Perception +14   
@@ -3537,7 +3537,7 @@ Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable fa
 > The blademaster gains a +2 power bonus to attack and makes a *longsword* attack.  The blademaster then suffers a -2 penalty to AC and Reflex defense until the start of their next turn.  
 
 
-> #### Cruel Lieutenant  
+<h4 class="Heading-4---Monster">Cruel Lieutenant</h4>
 > **Level 14 Elite Striker** (2000 XP)  
 > Medium Natural Humanoid ● Human (Evil)  
 > **Senses:** Perception +14; **Skills:** Acrobatics +16, Athletics +17, Intimidate +14   
@@ -3561,7 +3561,7 @@ Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable fa
 > +17 vs AC (must be grappling the target); 3d8+12 damage and the target is dazed and takes persistent 5 damage (save ends both).  
 
 
-> #### Formidable Archer  
+<h4 class="Heading-4---Monster">Formidable Archer</h4>
 > **Level 15 Archer** (1200 XP)  
 > Medium Natural Humanoid ● Human (Evil)  
 > **Senses:** Perception +14; **Skills:** Acrobatics +16, Intimidate +14, Stealth +16   
@@ -3583,7 +3583,7 @@ Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable fa
 > When the formidable archer hits with a *composite longbow* attack: The triggering attack becomes a critical hit.  
 
 
-> #### Archvillain  
+<h4 class="Heading-4---Monster">Archvillain</h4>
 > **Level 16 Elite Wrecker** (Leader) (2800 XP)  
 > Medium Natural Humanoid ● Human (Evil)  
 > **Senses:** Perception +15; **Skills:** Acrobatics +12, Intimidate +9, Stealth +12   
@@ -3614,7 +3614,7 @@ Worshippers of the power-hungry god Kain, the Black Gloves are the acceptable fa
 A thieves' guild, powerful and united bandit clan or other group of well-established, stealthy combatants can be represented by the statistics below.  
 
 
-> #### Crossbow Skirmisher  
+<h4 class="Heading-4---Monster">Crossbow Skirmisher</h4>
 > **Level 5 Mook Archer** (50 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +7; **Skills:** Intimidate +7, Stealth +9   
@@ -3634,7 +3634,7 @@ A thieves' guild, powerful and united bandit clan or other group of well-establi
 > The crossbow skirmisher hit with a *repeater crossbow* attack this turn; the crossbow skirmisher  makes one *repeater crossbow* attack against another enemy within 2 squares of the original target.  
 
 
-> #### Cowled Assassin  
+<h4 class="Heading-4---Monster">Cowled Assassin</h4>
 > **Level 5 Skulker** (200 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +9; **Skills:** Bluff +11, Intimidate +10, Stealth +11   
@@ -3656,7 +3656,7 @@ A thieves' guild, powerful and united bandit clan or other group of well-establi
 > Ranged 20; +8 vs Will; the target grants combat advantage to the cowled  assassin until the start of the cowled assassin’s next turn. For the  same duration, the target also grants combat advantage to all allies of the cowled assassin who share a language with the cowled assassin. 
 
 
-> #### Repeater Crossbow Master  
+<h4 class="Heading-4---Monster">Repeater Crossbow Master</h4>
 > **Level 5 Archer** (200 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +9; **Skills:** Intimidate +7, Athletics +10   
@@ -3676,7 +3676,7 @@ A thieves' guild, powerful and united bandit clan or other group of well-establi
 > Far wall 4 within 25; +8 vs Reflex; 1d8+6 damage.  
 
 
-> #### Wolfshead Bandit  
+<h4 class="Heading-4---Monster">Wolfshead Bandit</h4>
 > **Level 6 Mook Archer** (63 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +10; **Skills:** Intimidate +9, Stealth +11   
@@ -3694,7 +3694,7 @@ A thieves' guild, powerful and united bandit clan or other group of well-establi
 > Ranged 20/40; +11 vs AC; 7 damage.  
 
 
-> #### Hulk  
+<h4 class="Heading-4---Monster">Hulk</h4>
 > **Level 6 Wrecker** (250 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +10; **Skills:** Intimidate +11, Athletics +12   
@@ -3715,7 +3715,7 @@ A thieves' guild, powerful and united bandit clan or other group of well-establi
 > If the hulk is dazed, immobile, slowed or weakened, the hulk loses these conditions.  
 
 
-> #### Sniper Bandit  
+<h4 class="Heading-4---Monster">Sniper Bandit</h4>
 > **Level 7 Mook Striker** (75 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +9; **Skills:** Intimidate +9, Stealth +11   
@@ -3735,7 +3735,7 @@ A thieves' guild, powerful and united bandit clan or other group of well-establi
 > Shift 4 squares then: Ranged 10/20; +12 vs AC; 6 damage, and the target is knocked prone.  
 
 
-> #### King of Thieves  
+<h4 class="Heading-4---Monster">King of Thieves</h4>
 > **Level 7 Elite Blocker** (Leader) (600 XP)  
 > Medium Natural Humanoid ● Human (Any)  
 > **Senses:** Perception +10; **Skills:** Acrobatics +12, Intimidate +9, Stealth +12   
@@ -3762,7 +3762,7 @@ A thieves' guild, powerful and united bandit clan or other group of well-establi
 Inevitables are epic threats that punish those who defy the laws of the universe.  
 
 
-> #### Undying  
+<h4 class="Heading-4---Monster">Undying</h4>
 > **Level 20 Skulker** (2800 XP)  
 > Medium Fey Humanoid ● Undead (Unaligned)  
 > **Senses:** Perception +23, darkvision; **Skills:** Arcana +28, Bluff +32, Nature +28, Sleight of Hand +30, Stealth +30   
@@ -3789,7 +3789,7 @@ Inevitables are epic threats that punish those who defy the laws of the universe
 The Undying are elves and fey who attempted to extend their lifespans by unnatural means, and were struck down by the god Enoran as punishment. Now they hunt those who would prolong their lives.  
 
 
-> #### Marut  
+<h4 class="Heading-4---Monster">Marut</h4>
 > **Level 21 Blocker** (3200 XP)  
 > Large Outsider Humanoid ● Construct (Unaligned)  
 > **Senses:** Perception +23, darkvision; **Skills:** Diplomacy +29, Insight +28, Religion +26   
@@ -3826,7 +3826,7 @@ The Infected come about because of a disease, which creates lesions, warts, and 
 <figure><img src="pics\IanMacLean_BCREEPER.png" alt="Creeper by Ian MacLean" style="zoom: 33%;" /><figcaption>Creeper by Ian MacLean</figcaption></figure>  
 
 
-> #### Infected Animal  
+<h4 class="Heading-4---Monster">Infected Animal</h4>
 > **Level 3 Wrecker** (150 XP)  
 > Medium Natural Beast (Unaligned)  
 > **Senses:** Perception +1, darkvision   
@@ -3850,7 +3850,7 @@ The Infected come about because of a disease, which creates lesions, warts, and 
 Infected animals are mostly dogs with the occasional bear thrown in. They prefer running at full speed, pouncing an opponent with the basic strike, and then keeping them in place by raking at them constantly.  
 
 
-> #### Infected Drone  
+<h4 class="Heading-4---Monster">Infected Drone</h4>
 > **Level 3 Wrecker** (150 XP)  
 > Medium Natural Humanoid (Unaligned)  
 > **Senses:** Perception +0, darkvision   
@@ -3874,7 +3874,7 @@ Infected animals are mostly dogs with the occasional bear thrown in. They prefer
 Humanoids who are infected by the virus become Infected drones.  
 
 
-> #### Infected Guard  
+<h4 class="Heading-4---Monster">Infected Guard</h4>
 > **Level 4 Wrecker** (150 XP)  
 > Medium Natural Humanoid (Unaligned)  
 > **Senses:** Perception +1, darkvision   
@@ -3900,7 +3900,7 @@ Humanoids who are infected by the virus become Infected drones.
 Infected guards were soldiers or guards who were infected while they were still in armor. They are also physically larger.  
 
 
-> #### Infected Grub  
+<h4 class="Heading-4---Monster">Infected Grub</h4>
 > **Level 5 Mook Striker** (50 XP)  
 > Medium Natural Humanoid (Unaligned)  
 > **Senses:** Perception -1, darkvision   
@@ -3918,7 +3918,7 @@ Infected guards were soldiers or guards who were infected while they were still 
 Infected drones that go undestroyed for long enough become Infected grubs. They prefer running towards a target and ripping it apart.  
 
 
-> #### Infected Behemoth  
+<h4 class="Heading-4---Monster">Infected Behemoth</h4>
 > **Level 8 Wrecker** (350 XP)  
 > Large Natural Beast (Unaligned)  
 > **Senses:** Perception +3, darkvision   
@@ -3952,7 +3952,7 @@ Mixing science fiction and fantasy genres has been a part of the hobby since the
 The Invaders could just as easily be insectoid horrors from another dimension seeking out warm-blooded food or ancient alchemical constructs that cannibalize the living to replenish their numbers.
 
 
-> #### Skinner  
+<h4 class="Heading-4---Monster">Skinner</h4>
 > **Level 13 Mook Archer** (350 XP)  
 > Medium Cosmic Automaton ● Construct (Unaligned)  
 > **Senses:** Perception +14; **Skills:** Acrobatics +16, Athletics +15   
@@ -3971,7 +3971,7 @@ The Invaders could just as easily be insectoid horrors from another dimension se
 Skinners are jumbled collections of cybernetic and organic parts.  They are produced in the thousands from on-site materials.  
 
 
-> #### Punk  
+<h4 class="Heading-4---Monster">Punk</h4>
 > **Level 13 Elite Wrecker** (1600 XP)  
 > Large Cosmic Automaton ● Construct (Unaligned)  
 > **Senses:** Perception +8; **Skills:** Intimidate +12, Athletics +15   
@@ -3999,7 +3999,7 @@ Skinners are jumbled collections of cybernetic and organic parts.  They are prod
 The punk is a larger infantry support unit with four legs, capable of laying down heavy fire against single or multiple targets. What’s left of its organic head has been supplanted with considerable tracking equipment to pinpoint distant targets. The punk is also often seen as a counter to flying opponents. It is often flanked by at least a half-dozen skinners.  
 
 
-> #### Chank  
+<h4 class="Heading-4---Monster">Chank</h4>
 > **Level 14 Archer** (1000 XP)  
 > Large Cosmic Automaton ● Construct (Unaligned)  
 > **Senses:** Perception +8; **Skills:** Athletics +12   
@@ -4024,7 +4024,7 @@ The punk is a larger infantry support unit with four legs, capable of laying dow
 This unfortunately nicknamed cybernetic mobile artillery unit is only seen coupled with larger units. It has few organic components in its assembly, mostly consisting of recoil absorption hardware and armament. As the chank has no close combat capacity, it depends on its guards to protect it.  
 
 
-> #### Baby Screamer  
+<h4 class="Heading-4---Monster">Baby Screamer</h4>
 >
 > **Level 14 Mook Archer** (250 XP)  
 > Medium Cosmic Automaton ● Construct (Unaligned)  
@@ -4044,7 +4044,7 @@ This unfortunately nicknamed cybernetic mobile artillery unit is only seen coupl
 > When an enemy hits the baby screamer: The baby screamer shifts one square, and the attack misses.  
 
 
-> #### Mother Screamer  
+<h4 class="Heading-4---Monster">Mother Screamer</h4>
 > **Level 14 Skulker** (Leader) (1000 XP)  
 > Large Cosmic Automaton ● Construct (Unaligned)  
 > **Senses:** Perception +12   
@@ -4067,7 +4067,7 @@ This unfortunately nicknamed cybernetic mobile artillery unit is only seen coupl
 Screamer is an umbrella term for one-manned aircraft operated by the shells. Both are considered attack vehicles as neither can be used as a transport. The smaller screamer is used in close quarters as a high-ground support platform for ground based infantry shells while the larger one is an anti-vehicle / crowd disposal device. The only organic compound used in the screamer is a brain (the baby often sports an exposed human skull).  
 
 
-> #### Beast  
+<h4 class="Heading-4---Monster">Beast</h4>
 > **Level 14 Boss Striker** (5000 XP)  
 > Large Cosmic Automaton ● Construct (Unaligned)  
 > **Senses:** Perception +14; **Skills:** Athletics +16   
@@ -4097,7 +4097,7 @@ Screamer is an umbrella term for one-manned aircraft operated by the shells. Bot
 Also known as a conversion unit, the beast is a mobile command node that expands the Invaders' influence and sphere of control. Although capable of combat, the beast prefers to remain back, while constructing more Invaders. While fixed and defended facilities produce larger units like screamers and punks, beasts expand though uncontrolled and populated areas producing ground units as fast as they can acquire raw materials. To destroy one is to cripple the enemy advancement in that area. Unfortunately, beasts are incredibly difficult to defeat. Unlike many Invaders, the beast, although cybernetic, has no visible human features.  
 
 
-> #### Widow  
+<h4 class="Heading-4---Monster">Widow</h4>
 > **Level 15 Spoiler** (Leader) (1200 XP)  
 > Medium Cosmic Automaton ● Construct (Unaligned)  
 > **Senses:** Perception +14; **Skills:** Acrobatics +16, Intimidate +14, Stealth +16   
@@ -4122,7 +4122,7 @@ The widow is an advanced skinner that has the capacity to influence if not outri
 <figure><img src="pics\kami-noir.jpg" alt="Ryzom MMORPG Concept Art (Kami Noir)" style="zoom: 100%;" /><figcaption>Ryzom MMORPG Concept Art (Kami Noir)</figcaption></figure>  
 
 
-> #### The Tri-Pod  
+<h4 class="Heading-4---Monster">The Tri-Pod</h4>
 > **Level 15 Boss Striker** (6000 XP)  
 > Gargantuan Cosmic Automaton ● Construct, Mount (Unaligned)  
 > **Senses:** Perception +16; **Skills:** Athletics +16, Bluff +16, Intimidate +16   
@@ -4164,7 +4164,7 @@ Jiang-shi are hopping vampires.
 **Transformation:** If a jiang-shi scholar has drunk the breath of 10 or more humanoids, then the next time it is reduced to 0 HP, it reforms as a jiang-shi magistrate. This is a good opportunity for the heroes to face the jiang-shi in a weaker form, get a sense of its powers and tactics to defeat it, and then a few days later face a more challenging jiang-shi magistrate.  
 
 
-> #### Jiang-Shi Scholar  
+<h4 class="Heading-4---Monster">Jiang-Shi Scholar</h4>
 > **Level 8 Boss Striker** (Leader) (1750 XP)  
 > Medium Natural Humanoid ● Undead (Evil)  
 > **Senses:** Perception +12, blind, breathsense 12; **Skills:** Acrobatics +13, Athletics +10, Insight +12, Stealth +13   
@@ -4194,7 +4194,7 @@ Jiang-shi are hopping vampires.
 > As truesight, except that a living creature who holds their breath and covers their mouth and nose is invisible to the jiang-shi for as long as they hold their breath. Covering the nose and mouth can be done with a free hand, or through another contrivance.  
 
 
-> #### Jiang-Shi Magistrate  
+<h4 class="Heading-4---Monster">Jiang-Shi Magistrate</h4>
 > **Level 11 Boss Striker** (Leader) (3000 XP)  
 > Medium Natural Humanoid ● Undead (Evil)  
 > **Senses:** Perception +14, blind, breathsense 18; **Skills:** Acrobatics +15, Athletics +12, History +12, Insight +14, Stealth +15   
@@ -4232,7 +4232,7 @@ Jiang-shi are hopping vampires.
 Lycanthropes are humanoids that can take animal or hybrid form. Those bitten by a lycanthrope risk contracting the disease themselves. This is represented by the curse of lycanthropy affliction (see the Afflictions chapter).  
 
 
-> #### Wolf Shifter  
+<h4 class="Heading-4---Monster">Wolf Shifter</h4>
 > **Level 6 Striker** (250 XP)  
 > Medium Natural Humanoid ● Shapeshifter (Unaligned)  
 > **Senses:** Perception +14, low-light vision; **Skills:** Stealth +15   
@@ -4258,7 +4258,7 @@ Lycanthropes are humanoids that can take animal or hybrid form. Those bitten by 
 The wolf shifter can use *battleaxe* while in humanoid form and *bite* and *hamstring* while in wolf form.  
 
 
-> #### Bear Shifter  
+<h4 class="Heading-4---Monster">Bear Shifter</h4>
 > **Level 8 Wrecker** (350 XP)  
 > Medium Natural Humanoid ● Shapeshifter (Unaligned)  
 > **Senses:** Perception +8, low-light vision; **Skills:** Endure +16, Nature +13   
@@ -4282,7 +4282,7 @@ The wolf shifter can use *battleaxe* while in humanoid form and *bite* and *hams
 > If the bear shifter starts its turn in this stance, it changes form (from humanoid to wolf or vice versa). In humanoid form it can use *maul*. In bear form it can use *claws* and *cave bear frenzy* and its speed increases to 8. In either form, it can use *overbearing attack*.  
 
 
-> #### Raven Scout  
+<h4 class="Heading-4---Monster">Raven Scout</h4>
 > **Level 8 Skulker** (350 XP)  
 > Small Natural Humanoid ● Shapeshifter (Unaligned)  
 > **Senses:** Perception +8, low-light vision; **Skills:** Sleight of Hand +19, Stealth +19   
@@ -4308,7 +4308,7 @@ The wolf shifter can use *battleaxe* while in humanoid form and *bite* and *hams
 > If the raven scout starts its turn in this stance, it changes form (from humanoid to raven or vice versa). It can use *dagger strike*, *dagger throw* and *twin strike* in humanoid form and *claws* and *dive bomb* in raven form.  
 
 
-> #### Rabbit Shaman  
+<h4 class="Heading-4---Monster">Rabbit Shaman</h4>
 > **Level 11 Spoiler** (600 XP)  
 > Small Natural Humanoid ● Shapeshifter (Unaligned)  
 > **Senses:** Perception +16, low-light vision; **Skills:** Endure +17, Nature +21   
@@ -4338,7 +4338,7 @@ force.
 <figure><img src="pics\Ophiduan.png" alt="Ophiduan by Beth Trott" style="zoom: 33%;" /><figcaption>Ophiduan by Beth Trott</figcaption></figure>  
 
 
-> #### Semiferum Caste Ophiduan  
+<h4 class="Heading-4---Monster">Semiferum Caste Ophiduan</h4>
 > **Level 13 Striker** (800 XP)  
 > Medium Natural Monstrosity ● Reptile (Evil)  
 > **Senses:** Perception +7, darkvision   
@@ -4361,7 +4361,7 @@ force.
 This creature appears as a somehow pathetic cross of man and snake. A vaguely humanoid torso, covered in reptilian scales, melds into an enormous serpentine tail at the waist. A gaunt humanoid face, also covered in scales, bulges in odd spots as fangs far too large for the mouth push at the thin lips from within. Sporadic tufts of hair just from the top of the head, giving the creature almost a sickly appearance.  
 
 
-> #### Hominis Caste Ophiduan  
+<h4 class="Heading-4---Monster">Hominis Caste Ophiduan</h4>
 > **Level 13 Elite Spoiler** (Leader) (1600 XP)  
 > Medium Natural Humanoid ● Reptile (Evil)  
 > **Senses:** Perception +10, darkvision   
@@ -4387,7 +4387,7 @@ This creature appears as a somehow pathetic cross of man and snake. A vaguely hu
 The individual before you might pass for human, were it not for the supple scales that make up her skin. Her eyes are dark and unblinking, her features gaunt, her teeth unusually sharp. A dark shock of hair begins at a widow’s peak at her forehead, and flows down her neck and back.  
 
 
-> #### Anguineum Caste Ophiduan  
+<h4 class="Heading-4---Monster">Anguineum Caste Ophiduan</h4>
 > **Level 13 Boss Spoiler** (3200 XP)  
 > Medium Natural Monstrosity ● Reptile (Evil)  
 > **Senses:** Perception +9, darkvision   
@@ -4422,7 +4422,7 @@ Jealous of the size and skeletons of larger creatures, the strange insects calle
 Ostovites are usually found sheltered in their bone chariots, which they control through elaborate pulleys and levers. The ostovites will intermittently lift their bone chariot’s face masks (often made from hip bones or interlaced ribs) to strike with their mandibles.  
 
 
-> #### Bone Chariot  
+<h4 class="Heading-4---Monster">Bone Chariot</h4>
 > **Level 2 Blocker** (125 XP)  
 > Medium Natural Automaton ● Construct, Mount (Unaligned)  
 > **Senses:** Perception -3   
@@ -4456,7 +4456,7 @@ Since a chariot stops working when its ostovite is destroyed, the heroes may sta
 * Any other creative solution will do.  
 
 
-> #### Ostovite  
+<h4 class="Heading-4---Monster">Ostovite</h4>
 > **Level 2 Skulker** (125 XP)  
 > Tiny Cosmic Monstrosity (Evil)  
 > **Senses:** Perception +2; **Skills:** Stealth +9   
@@ -4480,7 +4480,7 @@ Since a chariot stops working when its ostovite is destroyed, the heroes may sta
 *Activation aura 10:* Bone chariots within the aura that are not being ridden act on the ostovite sentient’s initiative as if they were being ridden, taking their full complement of actions.  
 
 
-> #### Mega-Chariot  
+<h4 class="Heading-4---Monster">Mega-Chariot</h4>
 > **Level 3 Boss Blocker** (0 XP)  
 > Large Natural Automaton ● Construct (Unaligned)  
 > **Senses:** Perception -3   
@@ -4509,7 +4509,7 @@ The mega-chariot and ostovite swarm work differently to the bone chariot and ost
 
 The ostovite swarm cannot be targeted until the mega-chariot is destroyed. The mega-chariot gives no XP. The ostovite swarm must be defeated for the heroes to gain XP. 
 
-> #### Ostovite Swarm  
+<h4 class="Heading-4---Monster">Ostovite Swarm</h4>
 > **Level 3 Boss Spoiler** (750 XP)  
 > Large Cosmic Monstrosity ● Swarm (Evil)  
 > **Senses:** Perception +2   
@@ -4532,7 +4532,7 @@ The ostovite swarm cannot be targeted until the mega-chariot is destroyed. The m
 > When the ostovite swarm is staggered for the first time; Shift 5  
 
 
-> #### Ghoul Worm  
+<h4 class="Heading-4---Monster">Ghoul Worm</h4>
 > **Level 4 Elite Striker** (350 XP)  
 > Large Cosmic Monstrosity (Evil)  
 > **Senses:** Perception +7; **Skills:** Stealth +8   
@@ -4563,7 +4563,7 @@ An ostovite that grows fat and strong on freshly-dead corpses eventually sheds i
 The Plane of Shadow coexists alongside the Prime Material Plane, the world. It is a twisted shadow of the world.  
 
 
-> #### Shadow Bat Swarm  
+<h4 class="Heading-4---Monster">Shadow Bat Swarm</h4>
 > **Level 3 Skulker** (150 XP)  
 > Medium Shadow Beast ● Swarm (Unaligned)  
 > **Senses:** Perception +7, darkvision; **Skills:** Stealth +10   
@@ -4586,7 +4586,7 @@ The Plane of Shadow coexists alongside the Prime Material Plane, the world. It i
 A swarm of eerie, shadowy bats that soar through the Plane of Shadow. Their touch leaves a shadowy film behind.  
 
 
-> #### Shadow Drake  
+<h4 class="Heading-4---Monster">Shadow Drake</h4>
 > **Level 3 Boss Skulker** (750 XP)  
 > Large Shadow Beast (Evil)  
 > **Senses:** Perception +8, darkvision; **Skills:** Arcana +7, Stealth +10   
@@ -4614,7 +4614,7 @@ A swarm of eerie, shadowy bats that soar through the Plane of Shadow. Their touc
 The shadow drake resembles a clumsy, stub-nosed lizard with wings barely large enough to lift it from the ground. Clinging, frosted-over dark goop trail like snot from its nostrils.  
 
 
-> #### Umbral Mass  
+<h4 class="Heading-4---Monster">Umbral Mass</h4>
 > **Level 4 Elite Skulker** (350 XP)  
 > Large Shadow Monstrosity (Evil)  
 > **Senses:** Perception +3, darkvision; **Skills:** Stealth +10   
@@ -4640,7 +4640,7 @@ The shadow drake resembles a clumsy, stub-nosed lizard with wings barely large e
 A malevolent entity formed from condensed shadows, the umbral mass engulfs its prey.  
 
 
-> #### Shadow Prince  
+<h4 class="Heading-4---Monster">Shadow Prince</h4>
 > **Level 5 Elite Spoiler** (400 XP)  
 > Medium Shadow Humanoid ● Human (Any)  
 > **Senses:** Perception +11, darkvision; **Skills:** Arcana +9, Insight +11, Religion +9   
@@ -4667,7 +4667,7 @@ A malevolent entity formed from condensed shadows, the umbral mass engulfs its p
 Shadow princes are born from the dying hopes and dreams of those in the Prime Material Plane who would have been great, but for an accident of birth or other misfortune.  
 
 
-> #### Greymalkin  
+<h4 class="Heading-4---Monster">Greymalkin</h4>
 > **Level 8 Elite Striker** (700 XP)  
 > Large Shadow Monstrosity (Evil)  
 > **Senses:** Perception +7, darkvision, low-light vision; **Skills:** Stealth +14   
@@ -4695,7 +4695,7 @@ Shapeshifter slime are oozes of unusual intelligence, who can disguise themselve
 <figure><img src="pics\DnD_Ochre_Jelly.png" alt="Ochre Jelly by LadyofHats" style="zoom: 100%;" /><figcaption>Ochre Jelly by LadyofHats</figcaption></figure>  
 
 
-> #### Shapeshifter Slime (Human Form)  
+<h4 class="Heading-4---Monster">Shapeshifter Slime (Human Form)</h4>
 > **Level 6 Archer** (250 XP)  
 > Medium Cosmic Humanoid ● Shapechanger (Unaligned)  
 > **Senses:** Perception +6; **Skills:** Arcana +12, Bluff +9, History +12   
@@ -4716,7 +4716,7 @@ Shapeshifter slime are oozes of unusual intelligence, who can disguise themselve
 > When first staggered: The monster regresses to its natural form.  
 
 
-> #### Shapeshifter Slime (Slime Form)  
+<h4 class="Heading-4---Monster">Shapeshifter Slime (Slime Form)</h4>
 > **Level 6 Skulker** (250 XP)  
 > Medium Cosmic Automaton ● Blind, Shapechanger (Unaligned)  
 > **Senses:** Perception +12, blindsight 10,  tremorsense 10; **Skills:** Bluff +6, Stealth +6   
@@ -4738,7 +4738,7 @@ Shapeshifter slime are oozes of unusual intelligence, who can disguise themselve
 <figure><img src="pics\LuigiCastellani_ETWAR.png" alt="Undead by Luigi Castellani" style="zoom: 100%;" /><figcaption>Undead by Luigi Castellani</figcaption></figure>  
 
 
-> #### Skeleton Warrior  
+<h4 class="Heading-4---Monster">Skeleton Warrior</h4>
 > **Level 1 Blocker** (100 XP)  
 > Medium Natural Humanoid ● Undead (Unaligned)  
 > **Senses:** Perception +0, darkvision   
@@ -4758,7 +4758,7 @@ Shapeshifter slime are oozes of unusual intelligence, who can disguise themselve
 An animated skeleton clad in tattered armor, wielding ancient weapons with an eerie proficiency, relentless in pursuit of its long-forgotten purpose.  
 
 
-> #### Smoldering Skeleton  
+<h4 class="Heading-4---Monster">Smoldering Skeleton</h4>
 > **Level 2 Archer** (125 XP)  
 > Medium Natural Humanoid ● Undead (Unaligned)  
 > **Senses:** Perception +9, low-light vision   
@@ -4780,7 +4780,7 @@ An animated skeleton clad in tattered armor, wielding ancient weapons with an ee
 A charred skeleton, wreathed in flames and embers. It flings balls of fire conjured in its bony palms.  
 
 
-> #### Failed Sacrifice  
+<h4 class="Heading-4---Monster">Failed Sacrifice</h4>
 > **Level 6 Wrecker** (250 XP)  
 > Medium Natural Humanoid ● Undead (Chaotic Evil)  
 > **Senses:** Perception +3, darkvision; **Skills:** Stealth +10   
@@ -4803,7 +4803,7 @@ A charred skeleton, wreathed in flames and embers. It flings balls of fire conju
 A skeleton of a victim from a dark ritual gone awry, driven by hunger for revenge against those responsible for its fate.  
 
 
-> #### Revenant Skeleton  
+<h4 class="Heading-4---Monster">Revenant Skeleton</h4>
 > **Level 6 Elite Wrecker** (500 XP)  
 > Medium Natural Humanoid ● Undead (Evil)  
 > **Senses:** Perception +4, darkvision   
@@ -4829,7 +4829,7 @@ A skeleton of a victim from a dark ritual gone awry, driven by hunger for reveng
 A skeletal figure escaped from the Plane of Shadow to seek retribution against its killers.  
 
 
-> #### Greater Failed Sacrifice  
+<h4 class="Heading-4---Monster">Greater Failed Sacrifice</h4>
 > **Level 14 Wrecker** (1000 XP)  
 > Medium Natural Humanoid ● Undead (Chaotic Evil)  
 > **Senses:** Perception +9, darkvision; **Skills:** Athletics +19, Stealth +16   
@@ -4853,7 +4853,7 @@ A skeletal figure escaped from the Plane of Shadow to seek retribution against i
 <figure><img src="pics\EarlGeier_JIANGSHI.bmp" alt="Art by Earl Geier" style="zoom: 33%;" /><figcaption>Art by Earl Geier</figcaption></figure>  
 
 
-> #### Peaceful Specter  
+<h4 class="Heading-4---Monster">Peaceful Specter</h4>
 > **Level 5 Skulker** (200 XP)  
 > Medium Shadow Humanoid ● Undead (Good)  
 > **Senses:** Perception +12, darkvision; **Skills:** Stealth +12   
@@ -4876,7 +4876,7 @@ A skeletal figure escaped from the Plane of Shadow to seek retribution against i
 
 A serene spirit, the peaceful specter offers guidance and solace to lost souls.  
 
-> #### Spectral Spawn  
+<h4 class="Heading-4---Monster">Spectral Spawn</h4>
 > **Level 6 Stalker Mook** (62 XP)  
 > Medium Shadow Humanoid ● Undead (Good)  
 > **Senses:** Perception +6, darkvision   
@@ -4894,7 +4894,7 @@ A serene spirit, the peaceful specter offers guidance and solace to lost souls.
 
 A spectral spawn defeated in the same encounter it was created does not grant any XP.
 
-> #### Specter of Chivalry  
+<h4 class="Heading-4---Monster">Specter of Chivalry</h4>
 > **Level 6 Blocker** (250 XP)  
 > Medium Shadow Humanoid ● Undead (Unaligned)  
 > **Senses:** Perception +10, darkvision   
@@ -4917,7 +4917,7 @@ A spectral spawn defeated in the same encounter it was created does not grant an
 A gallant specter, born of the soul of one betrayed while upholding their sworn duty. They can be over-zealous in maintaining the codes of honor of a bygone time.  
 
 
-> #### Specter of Sorrow  
+<h4 class="Heading-4---Monster">Specter of Sorrow</h4>
 > **Level 6 Spoiler** (250 XP)  
 > Medium Shadow Humanoid ● Undead (Chaotic Evil)  
 > **Senses:** Perception +6, darkvision   
@@ -4941,7 +4941,7 @@ A gallant specter, born of the soul of one betrayed while upholding their sworn 
 A melancholic specter that tries to subject others to whatever tragedy took the specter's life.  
 
 
-> #### Deathgaunt  
+<h4 class="Heading-4---Monster">Deathgaunt</h4>
 > **Level 10 Skulker** (500 XP)  
 > Medium Shadow Humanoid ● Undead (Chaotic Evil)  
 > **Senses:** Perception +19, darkvision; **Skills:** Stealth +19   
@@ -4967,7 +4967,7 @@ A melancholic specter that tries to subject others to whatever tragedy took the 
 Deathgaunts and gloomwardens are specters that remain on the Prime Material Plane to cause trouble and suffering, even after being given a chance to move on to the afterlife.  
 
 
-> #### Gloomwarden  
+<h4 class="Heading-4---Monster">Gloomwarden</h4>
 > **Level 12 Spoiler** (700 XP)  
 > Medium Shadow Humanoid ● Undead (Chaotic Evil)  
 > **Senses:** Perception +22, darkvision; **Skills:** Stealth +22   
@@ -5000,7 +5000,7 @@ rainy regions. Where one throach is found, others are usually located, so even a
 Throaches can be deadly to non-adventurers, or even unprepared adventurers with their bite and sting, but the true danger lies in their reproductive method. Throaches are asexual creatures that both produce and fertilize their own eggs. However, in order for the young to hatch and survive, the eggs must be implanted in a living creature. Typically, a throach will sting a victim, and when the paralyzed victim lies helpless it will implant several eggs inside the abdominal cavity. These eggs hatch in 24 hours and begin feeding on the host, killing it in the process. This provides enough nutrition and energy for the young throaches to scurry for cover and establish a territory.  
 
 
-> #### Throach Hatchling  
+<h4 class="Heading-4---Monster">Throach Hatchling</h4>
 > **Level 2 Mook Striker** (31.25 XP)  
 > Small Natural Beast ● Vermin (Unaligned)  
 > **Senses:** Perception -2, Darkvision; **Skills:** Athletics +6, Stealth +9   
@@ -5020,7 +5020,7 @@ Throaches can be deadly to non-adventurers, or even unprepared adventurers with 
 Throach hatchlings created through a throach's *implant* power do not grant any XP.  
 
 
-> #### Throach  
+<h4 class="Heading-4---Monster">Throach</h4>
 > **Level 2 Elite Blocker** (250 XP)  
 > Large Natural Beast ● Vermin (Unaligned)  
 > **Senses:** Perception +3, Darkvision; **Skills:** Athletics +11, Sleight of Hand +6, Stealth +6   
@@ -5047,7 +5047,7 @@ Throach hatchlings created through a throach's *implant* power do not grant any 
 # Underdeep  
 
 
-> #### Giant Amoeba  
+<h4 class="Heading-4---Monster">Giant Amoeba</h4>
 > **Level 1 Elite Blocker** (200 XP)  
 > Medium Natural Automaton ● Aquatic, Ooze (Unaligned)  
 > **Senses:** Perception -5, Blindsight 6; **Skills:** Athletics +6   
@@ -5070,7 +5070,7 @@ Throach hatchlings created through a throach's *implant* power do not grant any 
 A massive single-celled organism with a gelatinous body, capable of engulfing and digesting its prey.  
 
 
-> #### Hate Reaper  
+<h4 class="Heading-4---Monster">Hate Reaper</h4>
 > **Level 3 Spoiler** (150 XP)  
 > Small Natural Monstrosity (Evil)  
 > **Senses:** Perception +3, tremorsense 12; **Skills:** Stealth +11   
@@ -5091,7 +5091,7 @@ A massive single-celled organism with a gelatinous body, capable of engulfing an
 A hate reaper is a small, rodent-like monster that can manipulate the emotions of those it is near. In particular, it can amplify anger and fear into incandescent rage.  
 
 
-> #### Ettercap  
+<h4 class="Heading-4---Monster">Ettercap</h4>
 > **Level 4 Skulker** (175 XP)  
 > Medium Natural Humanoid ● Spider (Unaligned)  
 > **Senses:** Perception +6, darkvision, tremorsense 12 (creatures touching its web); **Skills:** Athletics +11, Stealth +12   
@@ -5118,7 +5118,7 @@ A hate reaper is a small, rodent-like monster that can manipulate the emotions o
 An ettercap is about 6 feet tall and weighs about 200 pounds. Ettercaps are not brave creatures, but their cunning traps often ensure that the enemy never draws a weapon. When an ettercap does engage its enemies, it attacks with its keen-edged claws and venomous bite. It usually will not come within melee reach of any foe that is still able to move.  
 
 
-> #### Witchcrawler  
+<h4 class="Heading-4---Monster">Witchcrawler</h4>
 > **Level 5 Spoiler** (200 XP)  
 > Tiny Natural Monstrosity (Evil)  
 > **Senses:** Perception +9, blindsight 10; **Skills:** Stealth +11   
@@ -5139,7 +5139,7 @@ An ettercap is about 6 feet tall and weighs about 200 pounds. Ettercaps are not 
 The witchcrawler is a nightmarish blend of arachnid and serpent, possessing the power to suffocate foes without touching them and the ability to crawl along walls and ceilings with unnatural agility. 
 
 
-> #### Stygira  
+<h4 class="Heading-4---Monster">Stygira</h4>
 > **Level 7 Elite Spoiler** (600 XP)  
 > Medium Fey Humanoid ● Earth (Evil)  
 > **Senses:** Perception +6, gemsight; **Skills:** Arcana +10, Bluff +8, Dungeoneering +11   
@@ -5175,7 +5175,7 @@ A hooded humanoid that sees only through a crystal it holds in its hand, able to
 Those stygira with particularly precious gemstones may have different gaze attacks.  
 
 
-> #### Bauble Beast  
+<h4 class="Heading-4---Monster">Bauble Beast</h4>
 > **Level 9 Elite Blocker** (800 XP)  
 > Large Natural Monstrosity ● Earth (Unaligned)  
 > **Senses:** Perception +7, darkvision; **Skills:** Acrobatics +13, Bluff +13, Sleight of Hand +13   
@@ -5218,7 +5218,7 @@ If no creature requested a gift, the affected creature attempts to give a random
 
 The bauble beast usually requests gems or jewelry. 
 
-> #### Otyugh  
+<h4 class="Heading-4---Monster">Otyugh</h4>
 > **Level 12 Striker** (700 XP)  
 > Large Cosmic Monstrosity (Unaligned)  
 > **Senses:** Perception +13, darkvision   
@@ -5242,7 +5242,7 @@ The bauble beast usually requests gems or jewelry.
 A scavenger with an orb-like body, three legs, three tentacles and a gigantic mouth. A redundancy of eyes bristle from one of its tentacles; the other two are barbed.  
 
 
-> #### Tunnel Brute  
+<h4 class="Heading-4---Monster">Tunnel Brute</h4>
 > **Level 16 Wrecker** (1400 XP)  
 > Large Natural Monstrosity (Unaligned)  
 > **Senses:** Perception +8, darkvision, tremorsense 12   
@@ -5264,7 +5264,7 @@ A scavenger with an orb-like body, three legs, three tentacles and a gigantic mo
 <figure><img src="pics\Tunnel Brute.png" alt="Tunnel Brute by Beth Trott" style="zoom: 33%;" /><figcaption>Tunnel Brute by Beth Trott</figcaption></figure>  
 
 
-> #### Phrenic Scourge  
+<h4 class="Heading-4---Monster">Phrenic Scourge</h4>
 > **Level 16 Elite Spoiler** (2800 XP)  
 > Medium Cosmic Monstrosity (Evil)  
 > **Senses:** Perception +13, darkvision; **Skills:** Bluff +15, Dungeoneering +20, Insight +18   
@@ -5296,7 +5296,7 @@ A scavenger with an orb-like body, three legs, three tentacles and a gigantic mo
 <figure><img src="pics\Phrenic Scourge.jpg" alt="Phrenic Scourge by Beth Trott" style="zoom: 33%;" /><figcaption>Phrenic Scourge by Beth Trott</figcaption></figure>  
 
 
-> #### Evil Eye  
+<h4 class="Heading-4---Monster">Evil Eye</h4>
 > **Level 16 Boss Wrecker** (5600 XP)  
 > Large Cosmic Monstrosity (Evil)  
 > **Senses:** Perception +13, all-around vision, darkvision, truesight   
@@ -5332,7 +5332,7 @@ A scavenger with an orb-like body, three legs, three tentacles and a gigantic mo
 <figure><img src="pics\JoyceMaureira_SLAO.png" alt="Spider by Joyce Maureira" style="zoom: 33%;" /><figcaption>Spider by Joyce Maureira</figcaption></figure>  
 
 
-> #### Flash Beetle  
+<h4 class="Heading-4---Monster">Flash Beetle</h4>
 > **Level 1 Spoiler** (100 XP)  
 > Small Natural Beast ● Vermin (Unaligned)  
 > **Senses:** Perception +2, low-light vision   
@@ -5352,7 +5352,7 @@ A scavenger with an orb-like body, three legs, three tentacles and a gigantic mo
 A bioluminescent insect that can emit dazzling flashes of light when threatened. Flash beetles are found in dark and cavernous environments.  
 
 
-> #### Iridescent Scorpion  
+<h4 class="Heading-4---Monster">Iridescent Scorpion</h4>
 > **Level 1 Striker** (100 XP)  
 > Medium Natural Beast ● Vermin (Unaligned)  
 > **Senses:** Perception +0, Tremorsense 12; **Skills:** Athletics +5, Stealth +6   
@@ -5378,7 +5378,7 @@ Iridescent scorpions are either blue or red. Each variety has a different poison
 A large and agile spider adapted to aquatic habitats, the fishing spider skates across water surfaces or clings on to the riverbed to remain submerged.  
 
 
-> #### Small Fishing Spider  
+<h4 class="Heading-4---Monster">Small Fishing Spider</h4>
 > **Level 1 Skulker** (100 XP)  
 > Small Natural Beast ● Spider (Unaligned)  
 > **Senses:** Perception +0, darkvision, tremorsense (body of water the spider is on or in reach of); **Skills:** Acrobatics +8, Athletics +3, Stealth +8   
@@ -5397,7 +5397,7 @@ A large and agile spider adapted to aquatic habitats, the fishing spider skates 
 > At any time that the spider is on the floor of a body of water, it can release its hold to float to the surface.  
 
 
-> #### Medium Fishing Spider  
+<h4 class="Heading-4---Monster">Medium Fishing Spider</h4>
 > **Level 4 Skulker** (175 XP)  
 > Medium Natural Beast ● Spider (Unaligned)  
 > **Senses:** Perception +4, darkvision, tremorsense (body of water the spider is on or in reach of); **Skills:** Acrobatics +12, Athletics +9, Stealth +12   
@@ -5416,7 +5416,7 @@ A large and agile spider adapted to aquatic habitats, the fishing spider skates 
 > At any time that the spider is on the floor of a body of water, it can release its hold to float to the surface.  
 
 
-> #### Large Fishing Spider  
+<h4 class="Heading-4---Monster">Large Fishing Spider</h4>
 > **Level 8 Skulker** (350 XP)  
 > Large Natural Beast ● Spider (Unaligned)  
 > **Senses:** Perception +8, darkvision, tremorsense (body of water the spider is on or in reach of); **Skills:** Acrobatics +16, Athletics +15, Stealth +16   
@@ -5435,7 +5435,7 @@ A large and agile spider adapted to aquatic habitats, the fishing spider skates 
 > At any time that the spider is on the floor of a body of water, it can release its hold to float to the surface.  
 
 
-> #### Huge Fishing Spider  
+<h4 class="Heading-4---Monster">Huge Fishing Spider</h4>
 > **Level 12 Skulker** (700 XP)  
 > Huge Natural Beast ● Spider (Unaligned)  
 > **Senses:** Perception +12, darkvision, tremorsense (body of water the spider is on or in reach of); **Skills:** Acrobatics +20, Athletics +21, Stealth +20   
@@ -5463,7 +5463,7 @@ No spider has access to all powers. Instead, they each get a selection, describe
 **Wolf Spider:** *Bite*, *venomous bite* and *egg sacs*.  
 
 
-> #### Small Hunting Spider  
+<h4 class="Heading-4---Monster">Small Hunting Spider</h4>
 > **Level 1 Striker** (100 XP)  
 > Small Natural Beast ● Spider (Unaligned)  
 > **Senses:** Perception +0, darkvision; **Skills:** Acrobatics +8, Athletics +3, Stealth +8   
@@ -5487,7 +5487,7 @@ No spider has access to all powers. Instead, they each get a selection, describe
 > †	**Venomous Bite** (standard, at-will) ● **Poison**  
 > +6 vs AC; 1d10+3 poison damage and the target is slowed until the end of their next turn.  
 
-> #### Medium Hunting Spider  
+<h4 class="Heading-4---Monster">Medium Hunting Spider</h4>
 > **Level 4 Striker** (175 XP)  
 > Medium Natural Beast ● Spider (Unaligned)  
 > **Senses:** Perception +4, darkvision; **Skills:** Acrobatics +12, Athletics +9, Stealth +12   
@@ -5512,7 +5512,7 @@ No spider has access to all powers. Instead, they each get a selection, describe
 > +9 vs AC; 1d12+5 poison damage and the target is slowed until the end of their next turn.  
 
 
-> #### Large Hunting Spider  
+<h4 class="Heading-4---Monster">Large Hunting Spider</h4>
 > **Level 8 Striker** (350 XP)  
 > Large Natural Beast ● Spider (Unaligned)  
 > **Senses:** Perception +8, darkvision; **Skills:** Acrobatics +16, Athletics +15, Stealth +16   
@@ -5536,7 +5536,7 @@ No spider has access to all powers. Instead, they each get a selection, describe
 > †	**Venomous Bite** (standard, at-will) ● **Poison**  
 > +13 vs AC; 2d10+5 poison damage and the target is slowed until the end of their next turn.  
 
-> #### Huge Hunting Spider  
+<h4 class="Heading-4---Monster">Huge Hunting Spider</h4>
 > **Level 12 Striker** (700 XP)  
 > Huge Natural Beast ● Spider (Unaligned)  
 > **Senses:** Perception +12, darkvision; **Skills:** Acrobatics +20, Athletics +21, Stealth +20   
@@ -5568,7 +5568,7 @@ A writhing mass of countless small insects, spiders or other biting creatures.
 **Spider Swarm:** Spider tag. Tremorsense (with contiguous web spaces, while on a web).  
 
 
-> #### Vermin Swarm  
+<h4 class="Heading-4---Monster">Vermin Swarm</h4>
 > **Level 2 Striker** (125 XP)  
 > Medium Natural Beast ● Swarm (Unaligned)  
 > **Senses:** Perception +7, low-light vision; **Skills:** Stealth +10   
@@ -5588,7 +5588,7 @@ A writhing mass of countless small insects, spiders or other biting creatures.
 > A swarm can occupy the same space as other creatures.  
 
 
-> #### Large Vermin Swarm  
+<h4 class="Heading-4---Monster">Large Vermin Swarm</h4>
 > **Level 6 Striker** (250 XP)  
 > Large Natural Beast ● Swarm (Unaligned)  
 > **Senses:** Perception +9, low-light vision; **Skills:** Stealth +12   
@@ -5623,7 +5623,7 @@ No spider has access to all powers. Instead, they each get a selection, describe
 **Spitting Spider:** *Bite*, *venomous bite*, *spray sticky venom* and *wrap in silk*.  
 
 
-> #### Small Webbing Spider  
+<h4 class="Heading-4---Monster">Small Webbing Spider</h4>
 > **Level 1 Skulker** (100 XP)  
 > Small Natural Beast ● Spider (Unaligned)  
 > **Senses:** Perception +0, darkvision, tremorsense (when standing on a web, for contiguous web spaces only); **Skills:** Acrobatics +8, Athletics +3, Stealth +8   
@@ -5655,7 +5655,7 @@ No spider has access to all powers. Instead, they each get a selection, describe
 > †	**Wrap in Silk** (standard, at-will)   
 > +6 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.  
 
-> #### Medium Webbing Spider  
+<h4 class="Heading-4---Monster">Medium Webbing Spider</h4>
 > **Level 4 Skulker** (175 XP)  
 > Medium Natural Beast ● Spider (Unaligned)  
 > **Senses:** Perception +4, darkvision, tremorsense (when standing on a web, for contiguous web spaces only); **Skills:** Acrobatics +12, Athletics +9, Stealth +12   
@@ -5687,7 +5687,7 @@ No spider has access to all powers. Instead, they each get a selection, describe
 > †	**Wrap in Silk** (standard, at-will)   
 > +9 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.  
 
-> #### Large Webbing Spider  
+<h4 class="Heading-4---Monster">Large Webbing Spider</h4>
 > **Level 8 Skulker** (350 XP)  
 > Large Natural Beast ● Spider (Unaligned)  
 > **Senses:** Perception +8, darkvision, tremorsense (when standing on a web, for contiguous web spaces only); **Skills:** Acrobatics +16, Athletics +15, Stealth +16   
@@ -5719,7 +5719,7 @@ No spider has access to all powers. Instead, they each get a selection, describe
 > †	**Wrap in Silk** (standard, at-will)   
 > +13 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.  
 
-> #### Huge Webbing Spider  
+<h4 class="Heading-4---Monster">Huge Webbing Spider</h4>
 > **Level 12 Skulker** (700 XP)  
 > Huge Natural Beast ● Spider (Unaligned)  
 > **Senses:** Perception +12, darkvision, tremorsense (when standing on a web, for contiguous web spaces only); **Skills:** Acrobatics +20, Athletics +21, Stealth +20   
@@ -5755,7 +5755,7 @@ No spider has access to all powers. Instead, they each get a selection, describe
 <figure><img src="pics\DnD_PurpleWorm.png" alt="Purple Worm by LadyofHats" style="zoom: 100%;" /><figcaption>Purple Worm by LadyofHats</figcaption></figure>  
 
 
-> #### Scavenger Worm  
+<h4 class="Heading-4---Monster">Scavenger Worm</h4>
 > **Level 8 Blocker** (350 XP)  
 > Large Cosmic Monstrosity (Unaligned)  
 > **Senses:** Perception +13, blindsight 12   
@@ -5775,7 +5775,7 @@ No spider has access to all powers. Instead, they each get a selection, describe
 *This insectoid creature might be mistaken for a simple giant centipede, were it not for the circular, moray-like maw, the hard reflective chitin that clicks as it moves, and its complete lack of eyes. Something green and foul-smelling trickles from its mouth.*  
 
 
-> #### Burrower Worm  
+<h4 class="Heading-4---Monster">Burrower Worm</h4>
 > **Level 10 Elite Striker** (1000 XP)  
 > Huge Cosmic Monstrosity (Evil)  
 > **Senses:** Perception +13; **Skills:** Stealth +15   
@@ -5801,7 +5801,7 @@ A digging worm of enormous size. It prefers to attack from below, tunnelling up 
 A reanimated but decaying corpse, the zombie shambles aimlessly.  
 
 
-> #### Zombie  
+<h4 class="Heading-4---Monster">Zombie</h4>
 > **Level 1 Blocker** (100 XP)  
 > Medium Natural Humanoid ● Undead (Unaligned)  
 > **Senses:** Perception +0, darkvision   
@@ -5830,7 +5830,7 @@ Remove the *slow* feature.
 *Stench aura 1* Living creatures that begin their turn within the aura grant combat advantage.  
 
 
-> #### Zombified Wyvern  
+<h4 class="Heading-4---Monster">Zombified Wyvern</h4>
 > **Level 7 Wrecker** (300 XP)  
 > Large Natural Automaton ● Undead (Evil)  
 > **Senses:** Perception +4, darkvision   

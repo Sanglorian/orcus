@@ -71,7 +71,7 @@ Instead of giving humans the Dabbler feature, GMs may want to offer them the *tr
 
 **Human Power:** You have the *true grit* power.  
 
-> #### True Grit  
+<h4 class="Heading-4---Encounter">True Grit</h4>
 >
 > **Encounter** **No Action**  
 > **Human Utility Ancestry**     
@@ -97,12 +97,12 @@ Apefolk are humanoids reminiscent of humankind’s closest relatives: gorillas, 
 **Heart of the Legion:** When adjacent to at least two allies, you receive a +1 power bonus to all defenses.  
 **Apefolk Power:** Each apefolk has one of the following powers: *cull the weak* or *rally the troops*.  
 
-> #### Cull the Weak  
+<h4 class="Heading-4---Encounter">Cull the Weak</h4>
 > **Encounter** **Attack** **Feature** (**Standard Action**)   
 > **Self**   
 > **Effect** Make two basic attacks against a staggered target.  
 
-> #### Rally the Troops  
+<h4 class="Heading-4---Encounter">Rally the Troops</h4>
 > **Encounter** **Utility**  (**Swift Action**)   
 > **Near** burst 5, one ally  
 > **Effect** The target can take the rally action as a free action, if they are eligible to do so.  
@@ -128,7 +128,7 @@ Created beings of brass, clockwork and a pinch of sorcery, the automatons are a 
 You do not sleep, breathe, eat or drink.  
 **Ingenuity:** You have the *ingenuity* power.  
 
-> #### Ingenuity  
+<h4 class="Heading-4---Encounter">Ingenuity</h4>
 > **Encounter** **Utility** **Feature** (**Swift Action**)   
 > **Near** burst 5, self or one ally  
 > **Effect** Choose one: the target shifts up to 2 as a free action, makes a saving throw, gets +2 power bonus to next attack roll or gets +4 power bonus to next skill check. Power bonuses expire at the end of your next turn if not already used.  
@@ -152,7 +152,7 @@ Stout beings who resemble dwarves with hair of fire, azer are often skilled arti
 **Minor Magics:** You know the *fiery spirit* power from the Cantrips discipline.  
 **Vengeance of the Pit:** You have the *vengeance of the pit* power.  
 
-> #### Vengeance of the Pits  
+<h4 class="Heading-4---Encounter">Vengeance of the Pits</h4>
 > **Encounter** **Attack** **Feature** (**Free Action**) ● **Fire**  
 > **Near** burst 10, one enemy  
 > **Trigger** An attack by that enemy hits you.  
@@ -198,7 +198,7 @@ Catfolk are playful humanoids with short fur all over their lithe bodies. They h
 **Nimbleness:** +2 ancestry bonus to AC against opportunity attacks.  
 **Farstrider:** You have the *farstrider* power.  
 
-> #### Farstrider  
+<h4 class="Heading-4---Encounter">Farstrider</h4>
 > **Encounter** **Utility** **Feature** (**Move Action**)   
 > **Self**   
 > **Effect** Shift up to your speed.  
@@ -221,7 +221,7 @@ Cervitaurs are fey with the upper body of a small elf and the lower body of a de
 **Woodland Stride:** Shrubbery, trees or plants are not difficult terrain for you.  
 **Sleep Dart:** You have the *sleep dart* power.  
 
-> #### Sleep Dart  
+<h4 class="Heading-4---Encounter">Sleep Dart</h4>
 > **Encounter** **Utility** **Feature** (**Standard Action**) ● **Focus**  
 > **Ranged** 10, one creature  
 > **Attack** Dex, Wis or Cha (your choice) vs Will  
@@ -243,7 +243,7 @@ Deepfolk are amphibious humanoids with fish-like features, skilled in underwater
 **Darkvision:** You can see in darkness or dim light as if it were bright light.  
 **Blinding Mucus:** You have the *blinding mucus* power.  
 
-> #### Blinding Mucus  
+<h4 class="Heading-4---Encounter">Blinding Mucus</h4>
 > **Encounter** **Attack** **Feature** (**Standard Action**) ● **Focus**  
 > **Ranged** 5, one creature  
 > **Attack** Dex, Wis or Cha (your choice) vs Reflex  
@@ -267,7 +267,7 @@ Dromite are small insect-like humanoids that form cooperative colonies in gigant
 **Blast Shard:** You gain Blast Shard as a bonus feat.  
 **Psychic Leap:** You have the *psychic leap* power.  
 
-> #### Psychic Leap  
+<h4 class="Heading-4---Encounter">Psychic Leap</h4>
 > **Encounter** **Attack** **Feature** (**Move Action**) ● **Psychic**  
 > **Near** burst 5, self or one ally  
 > **Effect** The target jumps up to 3 squares. This movement does not provoke opportunity attacks.  
@@ -291,7 +291,7 @@ Fetchlings are spectral beings, hovering between life and death. They tend to be
 **Stealth Guidance:** Allies within 10 receive a +1 ancestry bonus to Stealth.  
 **Disappearing Act:** You have the *disappearing act* power.  
 
-> #### Disappearing Act  
+<h4 class="Heading-4---Encounter">Disappearing Act</h4>
 > **Encounter** **Utility** **Feature** (**Reaction Action**)   
 > **Self**   
 > **Trigger** You take damage.  
@@ -315,7 +315,7 @@ Frogfolk are amphibious humanoids, with webbed feet and hands and long, sticky t
 **Nimbleness:** +2 ancestry bonus to AC against opportunity attacks.  
 **Lucky:** You have the *lucky* power.  
 
-> #### Lucky  
+<h4 class="Heading-4---Encounter">Lucky</h4>
 > **Encounter** **Utility** **Feature** (**Counter Action**)   
 > **Self**   
 > **Trigger** An attack hits you.  
@@ -340,7 +340,7 @@ Gnolls are humanoid hyenas with a reputation for wildness and cunning. Gnolls of
 **Natural Weapon – Bite:** You are proficient with a martial weapon, your bite. Your bite is a martial one-handed weapon in the heavy blades category (proficiency +3, 1d8 damage), although it requires no hands to use.  
 **Violent Rush:** You have the *violent rush* power.  
 
-> #### Violent Rush  
+<h4 class="Heading-4---Encounter">Violent Rush</h4>
 > **Encounter** **Utility** **Feature** (**Free Action**)   
 > **Self**   
 > **Trigger** You hit with an attack.  
@@ -365,12 +365,12 @@ Their ability to shape magic allows them to write messages invisible to the nake
 **Magic Sight:** You can, to a range of 12 squares, see invisible creatures and objects, automatically detect visual illusions and succeed on saving throws against them, and perceive the original form of a shapechanger or a creature that is transformed by magic.  
 **Grynloc Gifts:** Once per encounter, you can use *shape magic* or *distraction*.  
 
-> #### Shape Magic  
+<h4 class="Heading-4---Encounter">Shape Magic</h4>
 > **Encounter** **Utility** **Feature** (**Swift Action**) ● **Zone**  
 > **Far** burst 3 within range 10, one conjuration, summon or zone  
 > **Effect** If the target is a conjuration or summon, you can move it to any unoccupied space in the burst. If the target is a zone, squares of your choice in the burst cease to be part of the zone and an equal number of squares in the burst become part of the zone.  
 
-> #### Distraction  
+<h4 class="Heading-4---Encounter">Distraction</h4>
 > **Encounter** **Attack** **Feature** (**Swift Action**) ● **Focus, Psychic**  
 > **Ranged** 10, one creature  
 > **Attack** Dex, Int or Wis (your choice) vs Will  
@@ -394,7 +394,7 @@ Half-giants typically stand from 7 feet to nearly 8 feet tall. Despite their nam
 **Unmoved:** You may reduce any unwilling movement you are subject to by 1 square. When you would fall prone as the result of an attack, make a saving throw – on a success, you do not fall.  
 **Stomp:** You have the *stomp* power.  
 
-> #### Stomp  
+<h4 class="Heading-4---Encounter">Stomp</h4>
 > **Encounter** **Attack** **Feature** (**Standard Action**) ● **Focus**  
 > **Near** burst 1, all creatures  
 > **Attack** Str, Con or Wis (your choice) vs Fortitude  
@@ -418,7 +418,7 @@ Hobgoblins are bright-skinned (often red or blue) humanoids with pointed ears an
 **Heavy Blade Weapon Proficiency:** You have proficiency with martial weapons in the heavy blades category.  
 **Careful Focus:** You have the *careful focus* power.  
 
-> #### Careful Focus  
+<h4 class="Heading-4---Encounter">Careful Focus</h4>
 > **Encounter** **Utility** **Feature** (**Free Action**)   
 > **Self**   
 > **Trigger** You just made an attack roll.  
@@ -441,7 +441,7 @@ Hoddydod, also known as snailfolk, are a small folk with humanoid upper bodies a
 **Slimy Coating:** After each short rest you gain temporary hit points equal to your Constitution modifier (2 + Con at level 11, 5 + Con at level 21).   
 **Travel Bug:** You have the *travel bug* power.  
 
-> #### Travel Bug  
+<h4 class="Heading-4---Encounter">Travel Bug</h4>
 > **Encounter** **Attack** **Feature** (**Swift Action**) ● **Focus**  
 > **Ranged** 10, one creature  
 > **Attack** Con, Int or Wis (your choice) vs Fortitude  
@@ -468,7 +468,7 @@ Air mephits are resistant to lightning and thunder. Ice mephits are resistant to
 **Resistance to X:** Resistance to the specified damage type(s) 5 + half your level.  
 **Breath Weapon:** You have the *breath weapon* power.  
 
-> #### Breath Weapon  
+<h4 class="Heading-4---Encounter">Breath Weapon</h4>
 > **Encounter** **Attack** **Feature** (**Swift Action**) ● **Focus, [Energy]**  
 > **Near** arc 3, targets all  
 > **Attack** (Highest of Strength, Constitution, Dexterity) vs Reflex  
@@ -498,7 +498,7 @@ Strong and imposing half-bull, half-humans, minotaurs are often characterized by
 **Wandering Charge:** When you charge, you do not need to move in a straight line.  
 **Momentum Blow:** You have the *momentum blow* power.  
 
-> #### Momentum Blow  
+<h4 class="Heading-4---Encounter">Momentum Blow</h4>
 > **Encounter** **Attack** **Feature** (**Free Action**)   
 > **Self**   
 > **Requirements** You have made an attack after moving at least two spaces this turn.  
@@ -522,7 +522,7 @@ Quicklings are are nimble and hyperactive fey, with their speed making them adep
 **Hide in a Flash:** When you make an initiative check, if you are in cover or concealment, you can make a Stealth check to hide (takes no action).  
 **Deceptive Motion:** You have the *deceptive motion* power.  
 
-> #### Deceptive Motion  
+<h4 class="Heading-4---Encounter">Deceptive Motion</h4>
 > **Encounter** **Utility** **Feature** (**Free Action**)   
 > **Self**   
 > **Effect** Until the end of your next turn, when you make any attack that normally targets AC, you can choose to target Reflex instead. 
@@ -546,13 +546,13 @@ While unconscious, you do not need to breathe nor do you get hungrier or thirsti
 **Will Defense:** +1 ancestry bonus to Will defense.  
 **Rook Power:** Each rook has one of the following powers: *soften* or *gargoyle's rest*.  
 
-> #### Soften  
+<h4 class="Heading-4---Encounter">Soften</h4>
 > **Encounter** **Attack** **Feature** (**Swift Action**) ● **Focus**  
 > **Melee** touch, one creature  
 > **Attack** Str, Con or Int (your choice) vs Fortitude  
 > **Hit** The target loses its resistances and one immunity of your choice (save ends). If the creature has no resistances or immunities, it instead gains vulnerability to untyped damage 5 (save ends). If the target is an object, the effect lasts for five minutes (no save) and its break DC is also reduced by 5.  
 
-> #### Gargoyle’s Rest  
+<h4 class="Heading-4---Encounter">Gargoyle’s Rest</h4>
 > **Encounter** **Utility** **Feature** (**Move Action**)   
 > **Self**   
 > **Effect** Your turn ends. You gain resistance to all damage 5 (10 at level 11, 15 at level 21) until the end of your next turn.  
@@ -577,7 +577,7 @@ Selkmays are those who have been claimed by nature spirits, or otherwise bound t
 **Tongue of Salt and Spray:** You can speak with riverine and ocean-going mammals and water birds.  
 **Animal Form:** You can use *animal form* once a day.  
 
-> #### Animal Form  
+<h4 class="Heading-4---Daily">Animal Form</h4>
 > **Daily** **Utility** **Feature** (**Swift Action**)   
 > **Self**   
 > **Effect** You take one of the following forms. You cannot make attacks in this form. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action.  
@@ -586,7 +586,7 @@ Selkmays are those who have been claimed by nature spirits, or otherwise bound t
 
 **Supernatural Beauty:** You have the *supernatural beauty* power.  
 
-> #### Supernatural Beauty  
+<h4 class="Heading-4---Encounter">Supernatural Beauty</h4>
 > **Encounter** **Attack** **Feature** (**Swift Action**) ● **Focus, Illusion, Psychic**  
 > **Near** burst 5, all enemies  
 > **Effect** The target grants you combat advantage until the end of your next turn.  
@@ -610,7 +610,7 @@ Shadow elves are enigmatic beings from the Plane of Shadow, the descendents of r
 **Trance:** You don’t need to sleep. Instead, you meditate deeply, remaining semiconscious, for 4 hours a day. While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. Your 4-hour trance has the same effect as a 6-hour long rest.  
 **Highblood Teleport:** You have the *highblood teleport* power.  
 
-> #### Highblood Teleport  
+<h4 class="Heading-4---Encounter">Highblood Teleport</h4>
 > **Encounter** **Utility** **Feature** (**Move Action**) ● **Teleport**  
 > **Self**   
 > **Effect** Teleport up to 5.  
@@ -633,7 +633,7 @@ Spriggans are mischievous and diminutive fey creatures, at home in forests and m
 **Injured Rage:** +1 ancestry bonus on attack rolls while staggered.  
 **Giant Form:** You have the *giant form* power.  
 
-> #### Giant Form  
+<h4 class="Heading-4---Encounter">Giant Form</h4>
 > **Encounter** **Utility** **Feature** (**Swift Action**) ● **Form, Transmutation**  
 > **Self**   
 > **Effect** You become Large. You remain in the form until you are reduced to 0 HP or below, take a long rest or take a new form. You can return to your original form as a swift action. Upon using this power, you can spend a recovery to gain temporary hit points equal to your recovery value. While in this form, you receive a +2 power bonus on basic melee attack rolls.  
@@ -658,7 +658,7 @@ Vishyas are graceful humanoids with venomous fangs and serpentine eyes. Their su
 **Whistle:** Vishya can communicate using high-pitch whistles that adults cannot hear but dogs and children can.  
 **Poisonous Nip:** You have the *poisonous nip* power.  
 
-> #### Poisonous Nip  
+<h4 class="Heading-4---Encounter">Poisonous Nip</h4>
 > *Your fangs excrete a mild poison.*  
 > **Encounter** **Attack** **Feature** (**Swift Action**) ● **Focus, Poison**  
 > **Melee** 1, one target  
@@ -687,7 +687,7 @@ Whoms are humanoid wombats who live in burrows underground.
 **Burrow:** You have a burrow speed of 1 square. Your burrow cannot extend too far or it risks caving in; you must double back to the surface after burrowing for 5 squares.  
 **Barrel Along:** You have the *barrel along* power.  
 
-> #### Barrel Along  
+<h4 class="Heading-4---Encounter">Barrel Along</h4>
 > **Encounter** **Utility** **Feature** (**Swift Action**)   
 > **Self**   
 > **Trigger** You are staggered.  
@@ -807,7 +807,7 @@ You do not sleep, breathe, eat or drink.
 
 **Relentless Endurance:** You have the *relentless endurance* power. 
 
-> #### Relentless Endurance
+<h4 class="Heading-4---Encounter">Relentless Endurance</h4>
 >
 > **Encounter** **Utility** **Feature** (**Counter Action**)   
 > **Self**   
@@ -850,14 +850,14 @@ Choose powers from an existing ancestry, or design your own.
 
 The maneuvers introduced here are available to all characters, but they are only usable where they make sense in the fiction. In particular, the *damage power source*, *repel* and *lure* powers are intended to be used only where an enemy could lose access to its powers (for example, a gem in its forehead is the source of its energy ray), be repulsed by something (perhaps a clove of garlic brandished at a vampire) or attracted to something (like a tyrannosaurus drawn to a dead cow).
 
-> #### Damage Power Source  
+<h4 class="Heading-4---At-Will">Damage Power Source</h4>
 >
 > **At-Will** **Attack**  (**Standard Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, one creature  
 > **Attack** Strength or Dexterity vs Fortitude or Reflex (whichever is higher)  
 > **Hit** Choose one of the target’s powers. They cannot use it until it refreshes (roll of 5 or 6 required).  
 
-> #### Disarm  
+<h4 class="Heading-4---At-Will">Disarm</h4>
 >
 > **At-Will** **Attack**  (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
@@ -866,7 +866,7 @@ The maneuvers introduced here are available to all characters, but they are only
 > **Effect** You provoke an opportunity attack from the target.  
 > **Special** A disarmed creature cannot use powers with the Weapon tag that are associated with that weapon. However, if disarmed of a melee weapon, they can always make an unarmed attack with the same attack bonus, doing damage equal to 4 + their level.  
 
-> #### Ignite  
+<h4 class="Heading-4---At-Will">Ignite</h4>
 >
 > **At-Will** **Attack**  (**Standard Action**) ● **Martial, Weapon**  
 > **Melee or Ranged** weapon, one creature  
@@ -874,7 +874,7 @@ The maneuvers introduced here are available to all characters, but they are only
 > **Hit** The target takes 5 persistent fire damage (save ends). *Level 11:* 10 persistent fire damage. *Level 21:* 15 persistent fire damage.  
 > **Special** You must have a source of fire to use this power.  
 
-> #### Lure  
+<h4 class="Heading-4---At-Will">Lure</h4>
 >
 > **At-Will** **Attack**  (**Standard Action**) ● **Focus**  
 > **Near** burst 5, any creatures susceptible to the *lure*  
@@ -884,13 +884,13 @@ The maneuvers introduced here are available to all characters, but they are only
 > **Effect** The target is immune to the *lure* power until the end of the encounter.  
 > **Special** Depending on the susceptibility of the creature, the *lure* might be deployed in a different space to the user.  
 
-> #### Overrun  
+<h4 class="Heading-4---At-Will">Overrun</h4>
 >
 > **At-Will** **Attack**  (**Move Action**) ● **Martial, Weapon**  
 > **Effect** Move up to your speed. During this movement, you can attempt to enter enemies’ spaces. Make a secondary attack against an enemy each time you attempt to enter their space.   
 > *Secondary Attack:* Strength vs Fortitude; on a hit, push the target 1 square and you successfully enter their space; on a miss, you provoke an opportunity attack from the target, fail to enter their space, and your movement ends.
 
-> #### Repel  
+<h4 class="Heading-4---At-Will">Repel</h4>
 >
 > **At-Will** **Attack**  (**Standard Action**) ● **Focus**  
 > **Near** burst 2, any vulnerable creatures  
@@ -899,7 +899,7 @@ The maneuvers introduced here are available to all characters, but they are only
 > **Effect** The target is immune to the *repel* power until the end of the encounter.  
 > **Special** Depending on the vulnerability of the creature, the repellant might be deployed in a different space to the user.  
 
-> #### Sunder  
+<h4 class="Heading-4---At-Will">Sunder</h4>
 >
 > **At-Will** **Attack**  (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
@@ -907,7 +907,7 @@ The maneuvers introduced here are available to all characters, but they are only
 > **Hit** Choose an item in the possession of the creature. Any bonuses it gives the user are reduced by 1 (cumulative) until the user takes a long rest.  
 > **Effect** You provoke an opportunity attack from the target.  
 
-> #### Trip  
+<h4 class="Heading-4---At-Will">Trip</h4>
 >
 > **At-Will** **Attack**  (**Standard Action**) ● **Martial, Weapon**  
 > **Melee** weapon, one creature  
@@ -2124,50 +2124,50 @@ Poisons are “masterwork consumables”, which just means they cost double that
 
 Poisons can either be used in combat as powers, or if the poisoner gets an opportunity to expose the target to the poison more extensively (by feeding it to them, storing it in a container that the target opens, placing it on their clothes, etc.) then the target can suffer a more serious effect. 
 
-> #### Assassin’s Blood  
+<h4 class="Heading-4---Monster">Assassin’s Blood</h4>
 >
 > **Consumable** **Attack** **1** (**Swift Action**) ● **Poison**  
 > **Effect** Until your next short rest, any target you hit with a weapon takes 2 persistent poison damage (save ends). If they fail their first save, they instead take 5 persistent poison damage (save ends).  
 > **Special** If Assassin’s Blood is ingested, for 12 hours the target gains vulnerability to poison 5 and loses any poison resistances or immunities it had.  
 
-> #### Pale Tincture  
+<h4 class="Heading-4---Monster">Pale Tincture</h4>
 >
 > **Consumable** **Attack** **1** (**Swift Action**) ● **Poison**  
 > **Effect** The next target you hit with a weapon takes 1d10 poison damage and cannot heal by any means (save ends).  
 > **Special** If the Pale Tincture is ingested, the target suffers a -4 penalty to all saves and cannot heal for 12 hours.  
 
-> #### Spear Frog Poison  
+<h4 class="Heading-4---Monster">Spear Frog Poison</h4>
 >
 > **Consumable** **Attack** **1** (**Swift Action**) ● **Poison**  
 > **Effect** The next target you hit with a weapon takes 1d6 poison damage and is dazed (save ends).  
 > **Special** If Spear Frog Poison is ingested, the target takes 2d6 poison damage.  
 
-> #### Oil of Taggit  
+<h4 class="Heading-4---Monster">Oil of Taggit</h4>
 >
 > **Consumable** **Attack** **5** (**Swift Action**) ● **Poison**  
 > **Effect** Until your next short rest, any target you hit with a weapon takes 1d8 poison damage and is slowed until the end of their next turn.  
 > **Special** If a creature is in prolonged contact with Oil of Taggit (e.g. it wears clothes on which it has been placed), the creature remains immobilised.  
 
-> #### Phase Spider Venom  
+<h4 class="Heading-4---Monster">Phase Spider Venom</h4>
 >
 > **Consumable** **Attack** **5** (**Swift Action**) ● **Poison**  
 > **Effect** The next target you hit with a weapon takes 5 persistent poison damage and is slowed (save ends both).  
 > **Special** If a creature is in prolonged contact with Phase Spider Venom (e.g. it wears clothes on which it has been placed), it is weakened and gains incorporeal (both for 4 hours).  
 
-> #### Torpor  
+<h4 class="Heading-4---Monster">Torpor</h4>
 >
 > **Consumable** **Attack** **5** (**Swift Action**) ● **Poison**  
 > **Effect** The next target you hit with a weapon takes 2d6 poison damage and is dazed (save ends).  
 > **Special** If Torpor is ingested, the target is dazed for 12 hours.  
 
-> #### Lethargy Poison  
+<h4 class="Heading-4---Monster">Lethargy Poison</h4>
 >
 > **Consumable** **Attack** **9** (**Swift Action**) ● **Poison**  
 > **Effect** The next target you hit with a weapon is dazed (save ends).  
 > *Aftereffect:* The target falls asleep until disturbed.  
 > **Special** If Lethargy Poison is ingested, the target falls into a coma for 24 hours.  
 
-> #### Malice  
+<h4 class="Heading-4---Monster">Malice</h4>
 >
 > **Consumable** **Attack** **9** (**Standard Action**) ● **Poison**  
 > **Ranged** 5  
@@ -2176,14 +2176,14 @@ Poisons can either be used in combat as powers, or if the poisoner gets an oppor
 > **Miss** Target takes half damage and 5 persistent psychic damage (save ends).  
 > **Special** If a creature is in prolonged contact with Malice (e.g. it wears clothes on which it has been placed), it hallucinates a terrible waking nightmare.  
 
-> #### Toadskin Salve  
+<h4 class="Heading-4---Monster">Toadskin Salve</h4>
 >
 > **Consumable** **Attack** **9** (**Swift Action**) ● **Poison**  
 > **Effect** Until the end of the encounter, if you are hit by a melee attack, you can make the following attack against your attacker. 
 > *Secondary Attack:* Dexterity vs Fortitude; the target takes 5 persistent poison damage.  
 > **Special** If a creature is in prolonged contact with Toadskin Salve (e.g. it wears clothes on which it has been placed), its skin hardens and the creature is slowed for 3 hours.  
 
-> #### Truth Serum  
+<h4 class="Heading-4---Monster">Truth Serum</h4>
 >
 > **Consumable** **Attack** **9** (**Standard Action**) ● **Poison**  
 > **Ranged** 5  
@@ -2191,20 +2191,20 @@ Poisons can either be used in combat as powers, or if the poisoner gets an oppor
 > **Hit** Target is controlled (save ends).  
 > **Special** If the Truth Serum is ingested, the target is controlled (save ends) and cannot knowingly tell a lie for 1 hour.  
 
-> #### Hunting Spider Venom  
+<h4 class="Heading-4---Monster">Hunting Spider Venom</h4>
 >
 > **Consumable** **Attack** **15** (**Swift Action**) ● **Poison**  
 > **Effect** Until your next short rest, any target you hit with a weapon takes 5 persistent poison damage (save ends), and grants combat advantage until the end of your next turn.  
 > **Special** If Hunting Spider Venom is ingested, the target takes 4d6 poison damage.  
 
-> #### Malyass Root Paste  
+<h4 class="Heading-4---Monster">Malyass Root Paste</h4>
 >
 > **Consumable** **Attack** **15** (**Swift Action**) ● **Poison**  
 > **Effect** The next target you hit with a weapon is slowed (save ends).  
 > *Aftereffect:* The target is restrained (save ends).  
 > **Special** If Malyass Root Paste is ingested, the target is paralyzed for 3 hours.  
 
-> #### Mindfog Mist  
+<h4 class="Heading-4---Monster">Mindfog Mist</h4>
 >
 > **Consumable** **Attack** **15** (**Standard Action**) ● **Poison**  
 > **Far** burst 1 within range 5, all creatures  
@@ -2212,26 +2212,26 @@ Poisons can either be used in combat as powers, or if the poisoner gets an oppor
 > **Hit** 2d6 + Dexterity modifier poison damage, and the target cannot use encounter, refresh or daily powers (save ends).  
 > **Special** Mindfog Mist can be stored in a tight container for up to 24 hours. When the container is opened, the attack is targeted on the container.  
 
-> #### Nightmare Salt  
+<h4 class="Heading-4---Monster">Nightmare Salt</h4>
 > *The victim experiences waking nightmares.*  
 > **Consumable** **Attack** **15** (**Swift Action**) ● **Poison**  
 > **Effect** The next target you hit with a weapon takes 3d6 poison damage and is dazed (save ends). While the target remains dazed, at the start of each of their turns, you can shunt them 2.  
 > **Special** If Nightmare Salt is ingested, for 12 hours the target has a -4 penalty on defenses against effects with the Fear or Psychic tags.  
 
-> #### Black Smear Poison  
+<h4 class="Heading-4---Monster">Black Smear Poison</h4>
 >
 > **Consumable** **Attack** **19** (**Swift Action**) ● **Poison**  
 > **Effect** Until your next short rest, any target you hit with a weapon takes 5 persistent poison damage (save ends), and is rattled until the end of your next turn.  
 > **Special** If Black Smear Poison is ingested, the target takes 6d6 poison damage.  
 
-> #### Cerulean Scourge  
+<h4 class="Heading-4---Monster">Cerulean Scourge</h4>
 >
 > **Consumable** **Attack** **19** (**Swift Action**) ● **Poison, Transmutation**  
 > **Effect** The next target you hit with a weapon casts light with the brightness of a sunrod (save ends).  
 > *Aftereffect:* The target takes 4d6 + Dexterity modifier poison damage.  
 > **Special** If Cerulean Scourge is ingested, the target casts light like a sunrod for 24 hours, and then takes 6d6 poison damage.  
 
-> #### Brimstone Fumes  
+<h4 class="Heading-4---Monster">Brimstone Fumes</h4>
 >
 > **Consumable** **Attack** **25** (**Standard Action**) ● **Poison**  
 > **Far** burst 1 within range 5, all creatures  
@@ -2240,7 +2240,7 @@ Poisons can either be used in combat as powers, or if the poisoner gets an oppor
 > **Miss** The target is weakened until the end of your next turn.  
 > **Special** Brimstone Fumes can be stored in a tight container for up to 24 hours. When the container is opened, the attack is targeted on the container.  
 
-> #### Frenzy Oil  
+<h4 class="Heading-4---Monster">Frenzy Oil</h4>
 >
 > **Consumable** **Attack** **25** (**Standard Action**) ● **Poison, Psychic**  
 > **Ranged** 5  
@@ -2249,7 +2249,7 @@ Poisons can either be used in combat as powers, or if the poisoner gets an oppor
 > **Miss** The target attacks the nearest creature (chosen randomly if multiple creatures are equally near) (save ends).  
 > **Special** If a creature is in prolonged contact with Frenzy Oil (e.g. it wears clothes on which it has been placed), it is thrown into an uncontrollable rage and hatred of all living creatures for 15 minutes.  
 
-> #### Weeping Midnight  
+<h4 class="Heading-4---Monster">Weeping Midnight</h4>
 >
 > **Consumable** **Attack** **25** (**Standard Action**) ● **Poison**  
 > **Hit** 5d6 + Dexterity modifier poison damage, and the target is dazed (save ends).  
@@ -2257,7 +2257,7 @@ Poisons can either be used in combat as powers, or if the poisoner gets an oppor
 > **Miss** The target is blinded until the end of your next turn.  
 > **Special** If Weeping Midnight is ingested, the target is blinded for 1 day.  
 
-> #### Gorgon’s Breath  
+<h4 class="Heading-4---Monster">Gorgon’s Breath</h4>
 >
 > **Consumable** **Attack** **29** (**Standard Action**) ● **Poison**  
 > **Far** burst 1 within range 5, all creatures  
@@ -2266,13 +2266,13 @@ Poisons can either be used in combat as powers, or if the poisoner gets an oppor
 > *Aftereffect:* The target is petrified (save ends).  
 > **Special** Gorgon’s Breath can be stored in a tight container for up to 24 hours. When the container is opened, the attack is targeted on the container.  
 
-> #### Oblivion Essence  
+<h4 class="Heading-4---Monster">Oblivion Essence</h4>
 >
 > **Consumable** **Attack** **29** (**Swift Action**) ● **Poison**  
 > **Effect** Until your next short rest, any target you hit with a weapon takes 10 persistent poison damage (save ends), and is dazed until the end of your next turn.  
 > **Special** If Oblivion Essence is ingested, the target ages 2d6 years.  
 
-> #### Repulsion Resin  
+<h4 class="Heading-4---Monster">Repulsion Resin</h4>
 >
 > **Consumable** **Attack** **29** (**Standard Action**) ● **Poison, Psychic**  
 > **Ranged** 5  
@@ -4407,7 +4407,7 @@ Example ways a character might gain or lose Golemrider: Atlas Favor:
 
 **Repair module:** You gain the *repair module* power.
 
-> #### Repair Module  
+<h4 class="Heading-4---Encounter">Repair Module</h4>
 >
 > **Encounter** **Utility**  (**Swift Action**) ● **Healing**  
 > **Self**   
@@ -4488,7 +4488,7 @@ You are granted lands of your own for which you are responsible.
 
 **Look Out, Sir:** You can use the *look out, sir* power.
 
-> #### Look Out, Sir  
+<h4 class="Heading-4---Encounter">Look Out, Sir</h4>
 >
 > **Encounter** **Utility**  (**Counter Action**)   
 > **Near** burst 1, one ally  
@@ -4511,7 +4511,7 @@ The knight gains a “license to crenellate”, entitling them to build a castle
 
 **Rally the Troops:** You can use the *rally the troops* power.
 
-> #### Rally the Troops  
+<h4 class="Heading-4---Encounter">Rally the Troops</h4>
 >
 > **Encounter** **Utility**  (**Swift Action**)   
 > **Near** burst 5, one ally  
@@ -4578,7 +4578,7 @@ Example ways a character may gain or lose Revenant Favor:
 
 **Shadowswarm:** You can use the *shadowswarm* power. 
 
-> #### Shadowswarm  
+<h4 class="Heading-4---Encounter">Shadowswarm</h4>
 > *You vomit forth a cloud of screaming, shadowy bats.*  
 > **Encounter** **Attack**  (**Standard Action**) ● **Focus, Necrotic, Zone**  
 > **Near** burst 2  
@@ -4650,7 +4650,7 @@ Example ways a character may gain or lose Tyrfing Favor:
 
 **The Twin:** You can use *the twin*.
 
-> #### The Twin  
+<h4 class="Heading-4---Daily">The Twin</h4>
 >
 > **Daily** **Attack**  (**Standard Action**) ● **Conjuration**  
 > **Near** burst 10, one unoccupied square  

@@ -48,7 +48,7 @@ You betrayed someone or something you once held dear, and it forever left its ma
 * **Hold Breath:** +5 ancestry bonus to Endure checks to hold your breath.  
 * **Poisonous Nip:** You have the *poisonous nip* power.  
 
-> #### Poisonous Nip  
+<h4 class="Heading-4---Encounter">Poisonous Nip</h4>
 >
 > **Encounter** **Attack** **Feature** (**Swift Action**) ● **Poison**  
 > **Melee** 1, one target  
@@ -65,7 +65,7 @@ Someone destroyed everyone and everything you loved.
 * **Go for the Jugular:** +1 ancestry bonus on attacks against staggered enemies.   
 * **Vengeance of the Pits:** You have the *vengeance of the pits* power.   
 
-> #### Vengeance of the Pits  
+<h4 class="Heading-4---Encounter">Vengeance of the Pits</h4>
 >
 > **Encounter** **Attack** **Feature** (**Free Action**) ● **Fire**  
 > **Near** burst 10, one enemy  
@@ -91,7 +91,7 @@ You were imprisoned, trapped, in check or otherwise in a situation that seemed t
 * **Web Stride:** Webs, like those from a spider, are not difficult terrain for you.  
 * **Disappearing Act:** You have the *disappearing act* power.  
 
-> #### Disappearing Act  
+<h4 class="Heading-4---Encounter">Disappearing Act</h4>
 >
 > **Encounter** **Utility** **Feature** (**Reaction Action**)   
 > **Self**   
@@ -106,7 +106,7 @@ You discovered that perched in your family tree is a dragon, and its greatness c
 * **Minor Magics:** You know one power from the Cantrips discipline.   
 * **Breath Weapon:** You have the *breath weapon* power.   
 
-> #### Breath Weapon  
+<h4 class="Heading-4---Encounter">Breath Weapon</h4>
 >
 > **Encounter** **Attack** **Feature** (**Swift Action**) ● **[Energy]**  
 > **Near** arc 3, targets all  
@@ -123,7 +123,7 @@ You risked your own life to defend something precious: perhaps a loved one, a vi
 * **Unmoved:** Reduce any unwilling movement you are subject to by 1 square. When you would fall prone as the result of an attack, make a saving throw-on a success, you do not fall.   
 * **Violent Rush:** You have the *violent rush* power.  
 
-> #### Violent Rush  
+<h4 class="Heading-4---Encounter">Violent Rush</h4>
 >
 > **Encounter** **Utility** **Feature** (**Free Action**)   
 > **Self**   
@@ -138,7 +138,7 @@ Through sheer chutzpah and unbelievable luck, you have survived ordeals that wou
 * **Eager Charge:** Your speed increases by +2 when you charge.   
 * **Lucky:** You have the *lucky* power.  
 
-> #### Lucky  
+<h4 class="Heading-4---Encounter">Lucky</h4>
 >
 > **Encounter** **Utility** **Feature** (**Counter Action**)   
 > **Self**   
@@ -153,7 +153,7 @@ You come from another place or time, or are destined to leave this one in time.
 * **Nimbleness:** +2 ancestry bonus to AC against attacks of opportunity.   
 * **Highblood Teleport:** You have the *highblood teleport* power.  
 
-> #### Highblood Teleport  
+<h4 class="Heading-4---Encounter">Highblood Teleport</h4>
 >
 > **Encounter** **Utility** **Feature** (**Move Action**) ● **Teleport**  
 > **Self**   
@@ -168,7 +168,7 @@ You survived impossible peril, physical harm or terror, and came back of your ow
 * **Shake Off Fear:** +5 ancestry bonus on saving throws against powers and effects with the Fear tag.   
 * **Tough as Nails:** You have the *tough as nails* power.  
 
-> #### Tough as Nails  
+<h4 class="Heading-4---Encounter">Tough as Nails</h4>
 >
 > **Encounter** **Utility** **Feature** (**Swift Action**)   
 > **Self**   
@@ -182,7 +182,7 @@ Through knowledge, practice and experience, you provided sage advice that preven
 * **Skill Training:** You are trained in an extra skill of your choice.  
 * **Ingenuity:** You have the *ingenuity* power.  
 
-> #### Ingenuity  
+<h4 class="Heading-4---Encounter">Ingenuity</h4>
 >
 > **Encounter** **Utility** **Feature** (**Swift Action**)   
 > **Near** burst 5, self or one ally  
@@ -197,7 +197,7 @@ You experienced something that opened your mind to something beyond this physica
 * **Shake Off Fear:** +5 ancestry bonus on saving throws against powers and effects with the Illusion tag.   
 * **Careful Focus:** You have the *careful focus* power.  
 
-> #### Careful Focus  
+<h4 class="Heading-4---Encounter">Careful Focus</h4>
 >
 > **Encounter** **Utility** **Feature** (**Free Action**)   
 > **Self**   
@@ -213,7 +213,7 @@ You were abandoned to the wilderness.
 * **Low-Light Vision:** You can see in dim light as if it were bright light.  
 * **Barrel Along:** You have the *barrel along* power.   
 
-> #### Barrel Along  
+<h4 class="Heading-4---Encounter">Barrel Along</h4>
 >
 > **Encounter** **Utility** **Feature** (**Swift Action**)   
 > **Self**   
@@ -245,7 +245,7 @@ You come from an isolated town in the mountains.
 * +2 Dungeoneering  
 * **Relentless Endurance:** You have the *relentless endurance* power. 
 
-> #### Relentless Endurance
+<h4 class="Heading-4---Encounter">Relentless Endurance</h4>
 >
 > **Encounter** **Utility** **Feature** (**Counter Action**)   
 > **Self**   
@@ -740,48 +740,48 @@ Arts are special, time-consuming practices that achieve remarkable effects. They
 | Tyranny     | Kain                | *Spur on*                |
 | War         | Korven              | *Shielded soul*          |
 
-> #### Biteback  
+<h4 class="Heading-4---Encounter">Biteback</h4>
 >
 > **Encounter** **Attack** **Feature** (**Reaction Action**) ● **Divine**  
 > **Self**   
 > **Trigger** You are hit by an attack, and you have not made an attack so far in this encounter.  
 > **Effect** Make a basic attack.  
 
-> #### Blood Tracer  
+<h4 class="Heading-4---Encounter">Blood Tracer</h4>
 >
 > **Encounter** **Utility** **Feature** (**Reaction Action**) ● **Divine**  
 > **Near** burst 10, one ally  
 > **Trigger** The target's attack just reduced an enemy to 0 HP or below.  
 > **Effect** The ally's next attack does +1d8 damage. *Level 11:* +2d8 damage instead. *Level 21:* +3d8 damage instead.  
 
-> #### Death Defying  
+<h4 class="Heading-4---Encounter">Death Defying</h4>
 >
 > **Encounter** **Attack** **Feature** (**Counter Action**) ● **Divine**  
 > **Self**   
 > **Trigger** You fail an Acrobatics, Athletics, Endure, Sleight of Hand or Stealth check.  
 > **Effect** Reroll the skill check and use the new result instead. After the action associated with the skill check, you fall prone.  
 
-> #### Easy Charm  
+<h4 class="Heading-4---Encounter">Easy Charm</h4>
 >
 > **Encounter** **Attack** **Feature** (**Swift Action**) ● **Charm, Divine, Focus**  
 > **Near** burst 10, one enemy  
 > **Attack** Wisdom vs Will  
 > **Hit** The target cannot target you with attacks (save ends). This effect ends immediately if the target takes damage from any source.  
 
-> #### Explosive Item  
+<h4 class="Heading-4---Encounter">Explosive Item</h4>
 >
 > **Encounter** **Attack** **Feature** (**Standard Action**) ● **Divine, Fire, Focus**  
 > **Near** burst 10, one object  
 > **Attack** Wisdom vs AC  
 > **Hit** The object takes 2d8 fire damage. If the object is destroyed, creatures in the same and adjacent spaces take fire damage equal to the amount of damage that was needed to reduce the object to 0 HP. *Level 11:* 3d8 damage instead. *Level 21:* 4d8 damage instead.  
 
-> #### Guidance  
+<h4 class="Heading-4---Encounter">Guidance</h4>
 >
 > **Encounter** **Utility** **Feature** (**Swift Action**) ● **Divine**  
 > **Near** burst 3, self or one ally  
 > **Effect** The target receives a +1 bonus to their next attack roll or saving throw. If they do not use this bonus by the end of their next turn, they lose it.  
 
-> #### I'll Have That  
+<h4 class="Heading-4---Encounter">I'll Have That</h4>
 >
 > **Encounter** **Attack** **Feature** (**Reaction Action**) ● **Divine, Focus**  
 > **Near** burst 5, one enemy  
@@ -789,34 +789,34 @@ Arts are special, time-consuming practices that achieve remarkable effects. They
 > **Attack** Wisdom vs Will  
 > **Effect** You become the target of the beneficial power instead.  
 
-> #### Light Shadow  
+<h4 class="Heading-4---Encounter">Light Shadow</h4>
 >
 > **Encounter** **Utility** **Feature** (**Move Action**) ● **Conjuration, Divine**  
 > **Self**   
 > **Effect** Shift 1 square. Conjure a light shadow of your size in the space you left. Attacks against a target adjacent to your light shadow suffer a -2 penalty. The light shadow persists until the end of your next turn.  
 > **Maintain Swift** The light shadow persists until the end of your next turn.  
 
-> #### Light Ward  
+<h4 class="Heading-4---Encounter">Light Ward</h4>
 >
 > **Encounter** **Utility** **Feature** (**Standard Action**) ● **Divine**  
 > **Near** burst 10, one ally  
 > **Effect** The target receives a +2 bonus to all defenses until the end of your next turn. The first time it is hit by an attack during this period, the attacker takes your Wisdom modifier in damage.  
 
-> #### Negate Critical  
+<h4 class="Heading-4---Encounter">Negate Critical</h4>
 >
 > **Encounter** **Utility** **Feature** (**Counter Action**) ● **Divine**  
 > **Near** burst 10, yourself or one ally  
 > **Trigger** The target is hit by a critical hit.  
 > **Effect** The attack becomes a normal hit instead.  
 
-> #### Shared Bite  
+<h4 class="Heading-4---Encounter">Shared Bite</h4>
 >
 > **Encounter** **Utility** **Feature** (**Free Action**) ● **Divine**  
 > **Near** burst 5, one ally  
 > **Requirements** You *rally*.  
 > **Effect** Your ally can *rally* on their turn as a swift action.  
 
-> #### Shielded Soul  
+<h4 class="Heading-4---Encounter">Shielded Soul</h4>
 >
 > **Encounter** **Utility** **Feature** (**Counter Action**) ● **Divine**  
 > **Near** burst 3, self or one ally  
@@ -825,47 +825,47 @@ Arts are special, time-consuming practices that achieve remarkable effects. They
 > *Level 11:* 10.  
 > *Level 21:* 15.  
 
-> #### Skyfall  
+<h4 class="Heading-4---Encounter">Skyfall</h4>
 >
 > **Encounter** **Utility** **Feature** (**Free Action**) ● **Divine**  
 > **Self**   
 > **Trigger** You use a ranged or far power or make a ranged or far attack.  
 > **Effect** Double the range of the ranged or far power or attack.  
 
-> #### Slip Between Worlds  
+<h4 class="Heading-4---Encounter">Slip Between Worlds</h4>
 >
 > **Encounter** **Utility** **Feature** (**Swift Action**) ● **Divine, Teleportation**  
 > **Self**   
 > **Effect** You teleport up to 5 squares, and are lightly concealed until the end of your next turn.  
 
-> #### Spur On  
+<h4 class="Heading-4---Encounter">Spur On</h4>
 >
 > **Encounter** **Utility** **Feature** (**Counter Action**) ● **Divine, Psychic**  
 > **Near** burst 5, self or one ally  
 > **Trigger** The target is making an attack roll or saving throw.  
 > **Effect** The target takes 1d6 psychic damage, but can reroll the roll once if it misses/fails.  
 
-> #### Stoneblood  
+<h4 class="Heading-4---Encounter">Stoneblood</h4>
 >
 > **Encounter** **Utility** **Feature** (**Swift Action**) ● **Divine**  
 > **Near** burst 1, yourself or an ally  
 > **Effect** The target gains resistance to all damage 3 until the end of your next turn. *Level 11:* Resistance 5. *Level 15:* Resistance 10.  
 
-> #### The Weight of Time  
+<h4 class="Heading-4---Encounter">The Weight of Time</h4>
 >
 > **Encounter** **Attack** **Feature** (**Standard Action**) ● **Divine, Focus**  
 > **Near** burst 10, one enemy  
 > **Attack** Wisdom vs Will  
 > **Hit** The target is slowed until the end of their next turn. At the end of their next turn, make a secondary attack. *Secondary Attack:* Wisdom vs Will; on a hit, the target is immobile until the end of their next turn.  
 
-> #### Throw Web  
+<h4 class="Heading-4---Encounter">Throw Web</h4>
 >
 > **Encounter** **Utility** **Feature** (**Standard Action**) ● **Divine, Zone**  
 > **Far** burst 1 within range 5  
 > **Effect** The area of effect becomes a zone of difficult terrain. You can end the effect as a swift action, in which case a creature of your choice within the zone (if any) is slowed until the end of your next turn. Otherwise, the zone persists until the end of your next turn.  
 > **Maintain Swift** The zone persists until the end of your next turn.  
 
-> #### Wrath of the She-Bear  
+<h4 class="Heading-4---Encounter">Wrath of the She-Bear</h4>
 >
 > **Encounter** **Attack** **Feature** (**Reaction Action**) ● **Divine**  
 > **Self**   
@@ -922,7 +922,7 @@ Feats from this section expand the power of your mind. They require the *psi foc
 
 **Benefit:** You gain the *focus surge* power.
 
-> #### Focus Surge  
+<h4 class="Heading-4---Encounter">Focus Surge</h4>
 >
 > *You tap into the mental connection between yourself and your Godmind, allowing you to refresh the phrenic energies of either yourself or an ally.*  
 > **Encounter** **Utility** **Feature** (**Swift Action**) ● **Phrenic**  
@@ -950,7 +950,7 @@ Feats from this section expand the power of your mind. They require the *psi foc
 
 *Psi focus*, once used, must refresh, much like how certain monsters have powers that refresh at the beginning of their turn on a successful roll. *Psi focus* works in the exact same way, but the roll needed to refresh it depends on what kind of power it was last used to augment. 
 
-> #### Psi Focus  
+<h4 class="Heading-4---At-Will">Psi Focus</h4>
 >
 > *Utilizing your phrenic power, you heighten a power or ability beyond what others could fathom.*  
 > **At-Will** **Utility** **Feature** (**Free Action**) ● **Phrenic**  
@@ -1091,7 +1091,7 @@ Your shard is touched by the vitriol and hate you hold for your enemies, allowin
 
 You gain the *acid shard* at-will power. 
 
-> #### Acid Shard  
+<h4 class="Heading-4---At-Will">Acid Shard</h4>
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Acid, Phrenic, Weapon**  
 > **Ranged** weapon (blast shard), one target  
 > **Attack** Dexterity vs Reflex  
@@ -1107,7 +1107,7 @@ You hold nothing but disdain and contempt for your enemies and your phrenic powe
 
 You gain the *cold shard* at-will power. 
 
-> #### Cold Shard  
+<h4 class="Heading-4---At-Will">Cold Shard</h4>
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Cold, Phrenic, Weapon**  
 > **Ranged** weapon (blast shard), one target  
 > **Attack** Dexterity vs Fortitude  
@@ -1137,7 +1137,7 @@ Rage, wrath, pride and anger are all fiery emotions that set the world on fire. 
 
 You gain the *fire shard* at-will power. 
 
-> #### Fire Shard  
+<h4 class="Heading-4---At-Will">Fire Shard</h4>
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Fire, Phrenic, Weapon**  
 > **Near** arc 3  
 > **Requirements** The attack must be made with a blast shard.  
@@ -1161,7 +1161,7 @@ Nothing is as fast as the mind – and lightning. You use your willpower and dis
 
 You gain the *lightning shard* at-will power. 
 
-> #### Lightning Shard  
+<h4 class="Heading-4---At-Will">Lightning Shard</h4>
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Lightning, Phrenic, Weapon**  
 > **Ranged** weapon (blast shard), one target  
 > **Attack** Dexterity vs Fortitude  
@@ -1177,7 +1177,7 @@ You do not manifest your blast shard as a physical creation, rather you use your
 
 You gain the *mind shard* at-will power. 
 
-> #### Mind Shard  
+<h4 class="Heading-4---At-Will">Mind Shard</h4>
 > **At-Will** **Attack** **1** (**Standard Action**) ● **Phrenic, Psychic, Weapon**  
 > **Ranged** weapon (blast shard), one target  
 > **Attack** Dexterity vs Will  
