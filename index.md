@@ -21,6 +21,7 @@ Creative Commons Attribution 4.0 licensed.
 
 * [Basic Rules](Basic.html) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Basic%20Rules%200.1.pdf))
 * [Twisted Space](Twisted Space.html) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Twisted%20Space%200.1.pdf))
+* [Power Cards](Power Cards.html)
 
 ## Orcus SRD
 

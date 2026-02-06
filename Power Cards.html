@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Power Cards</title>
+
+<style>
+
+
+p{margin-top: 0px;margin-bottom: 0px;
+  font-family: Calibri, "Segoe UI", Arial, sans-serif;
+  font-size: 9pt; 
+padding-left: 7.5px;
+padding-right: 7.5px;  }
+
+br {
+  display: block;
+  content: "";
+  margin-bottom: 4pt; /* adjust to taste */
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  font-family: Calibri, "Segoe UI", Arial, sans-serif;
+  color: #111;
+}
+
+/* Sheet grid */
+.card-sheet{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 2.5in);
+  gap: 0.125in;
+  justify-content: start;
+  padding: 0.25in;
+}
+
+.monster-card-sheet{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 2.75in);
+  gap: 0.125in;
+  justify-content: start;
+  padding: 0.25in;
+}
+
+.monster-card-sheet .card 
+{ width: 2.75in; height: 4.75in; 
+  box-sizing: border-box;
+
+  border: 0.5pt solid #000;
+  background: #fff;
+  padding: 0.12in;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  break-inside: avoid;
+  page-break-inside: avoid;}
+
+/* Poker card */
+.card-sheet .card{
+  width: 2.5in;
+  height: 3.5in;
+  box-sizing: border-box;
+
+  border: 0.5pt solid #000;
+  background: #fff;
+  padding: 0.12in;
+
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+/* H4 only for the four classes */
+.card h4.Heading-4---At-Will,
+.card h4.Heading-4---Encounter,
+.card h4.Heading-4---Daily,
+.card h4.Heading-4---Monster{
+  margin: 0 0 6pt 0;
+
+  font-family: Calibri, "Segoe UI", Arial, sans-serif;
+  font-size: 11pt;   
+  font-weight: bold;
+  color: #ffffff;
+
+  padding-left: 0.2cm;
+  padding-right: 0.2cm;
+  padding-top: 2pt;
+  padding-bottom: 2pt;
+
+  border: none;      /* removed borders */
+
+  break-after: avoid;
+  break-inside: avoid;
+}
+
+/* Shading by type */
+.card h4.Heading-4---At-Will{    background-color: #9BBB59; }
+.card h4.Heading-4---Encounter{ background-color: #E36C0A; }
+.card h4.Heading-4---Daily{     background-color: #17365D; }
+.card h4.Heading-4---Monster{   background-color: #7030A0; }
+
+/* Blockquote content area */
+.card blockquote.power-body{
+  margin: 0;
+  padding: 0;
+
+  border: none;
+  background: transparent;
+
+  flex: 1 1 auto;
+  overflow: hidden;
+
+
+  line-height: 1.2;
+}
+
+/* Paragraph spacing inside cards */
+.card blockquote.power-body p{
+  margin: 0 0 4pt 0;
+}
+.card blockquote.power-body p:last-child{
+  margin-bottom: 0;
+}
+
+@media print{
+  .card-sheet{ padding: 0.25in; }
+  a{ color: inherit; text-decoration: none; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="card-sheet">
+
+<div class="card"><h4 class="Heading-4---Encounter" id="lucky">Lucky </h4>
+<p><strong>Encounter</strong> <strong>Utility</strong> <strong>Feature</strong> (<strong>Counter Action</strong>)<br/>
+<strong>Self</strong><br/>
+<strong>Trigger</strong> An opponent hits you with an attack roll.<br/>
+<strong>Effect</strong> The opponent must reroll that attack and take the second result.</p>
+</div><div class="card"><h4 class="Heading-4---Encounter" id="censure-undead-encounter-channeled">Censure Undead (encounter, channeled)</h4>
+<p><strong>Standard Action</strong> ● <strong>Divine, Radiant, Channel Faith</strong><br/>
+<strong>Cost</strong> One use of Channel Faith<strong><br/>
+Near</strong> burst 2 (Level 11: 5; Level 21: 8), all undead<br/>
+<strong>Attack</strong> Wisdom vs Will<br/>
+<strong>Hit</strong> 2d8 + your level radiant damage. Target is pushed 5 squares and immobile until the end of your next turn.<br/>
+<em>Level 21:</em> 3d8 damage instead.<br/>
+<strong>Miss</strong> Half damage. Target is pushed 2 squares.</p>
+</div><div class="card"><h4 class="Heading-4---Encounter" id="swift-healing-encounter">Swift Healing (encounter) </h4>
+<p><strong>Swift Action</strong><br/>
+<strong>Near</strong> burst 5, self or one ally<br/>
+<strong>Effect</strong> The target may spend a recovery to heal equal to their recovery value +1d6 + your level or make a saving throw against a condition currently affecting them (their choice).<br/>
+<em>Level 11:</em> Near burst 10 instead.<br/>
+<em>Level 21:</em> Near burst 15 instead.<br/>
+<strong>Special</strong> You can use <em>swift healing</em> up to two times per encounter.</p>
+</div><div class="card"><h4 class="Heading-4---Encounter" id="rallying-strike-encounter">Rallying Strike (encounter)</h4>
+<p><strong>Standard Action</strong><br/>
+<strong>Effect</strong> Make a basic or at-will attack. Choose an ally. They make a basic attack. If they wish, they can move up to their speed before making the attack.</p>
+</div><div class="card"><h4 class="Heading-4---Encounter" id="bomber-encounter">Bomber (encounter)</h4>
+<p><strong>Free Action</strong> ● <strong>Arcane<br/>
+Trigger:</strong> You make a melee or ranged attack<br/>
+<strong>Effect:</strong> If a melee attack, the attack instead becomes Near burst 1 (all creatures in area). If a ranged attack, the attack instead becomes Far spray 2 within 10 squares (all creatures in area).</p>
+</div><div class="card"><h4 class="Heading-4---Encounter" id="escalated-attack-encounter-level-1">Escalated Attack (encounter, level 1)</h4>
+<p><strong>Free Action</strong> ● <strong>Arcane<br/>
+Trigger:</strong> You make a basic or at-will attack<br/>
+<strong>Cost:</strong> 1 Focus<br/>
+<strong>Effect:</strong> Choose one additional target for the attack, within 5 squares of another target of the attack.<br/>
+All targets of the attack take +1d10 damage if they are hit by the attack.<br/>
+<em>Level 17:</em> +2d10 damage instead and you gain your choice of (a) 5 temporary HP, (b) you may shift up to 3 squares or (c) you gain +2 to all defenses until the end of your next turn.<br/>
+<em>Level 27:</em> +3d10 damage instead, and you gain all three of 5 temporary HP, may shift up to 3 squares and +2 to all defenses until the end of your next turn.<br/>
+<strong>Special:</strong> You can use <em>hard hitting</em> multiple times an encounter, spending 1 Focus each time.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="punish-distraction-at-will">Punish Distraction (at-will)</h4>
+<p><strong>Immediate Counter</strong> ● <strong>Martial<br/>
+Trigger</strong> A marked enemy either (a) makes an attack that does not include you as a target or (b) shifts out of your reach<br/>
+<strong>Effect</strong> Make a basic melee attack against them.</p>
+</div><div class="card"><h4 class="Heading-4---Encounter" id="hard-hitting-encounter-level-1">Hard Hitting (encounter, level 1)</h4>
+<p><strong>No Action</strong> ● <strong>Martial<br/>
+Trigger</strong> You damage an enemy with a basic or at-will attack<br/>
+<strong>Cost</strong> 1 Focus<br/>
+<strong>Effect:</strong> The target takes an additional 1dW damage.<br/>
+<em>Level 7</em> The target is also off-guard until the end of your next turn.<br/>
+<em>Level 17</em> 2dW damage instead.<br/>
+<em>Level 27</em> 3dW damage instead.<br/>
+<strong>Special</strong> You can use <em>hard hitting</em> multiple times an encounter, spending 1 Focus each time.</p>
+</div><div class="card"><h4 class="Heading-4---Daily" id="death-blow-daily-level-1">Death Blow (daily, level 1)</h4>
+<p><strong>Standard Action</strong> ● <strong>Martial, Weapon<br/>
+Cost</strong> 1 Stamina<br/>
+<strong>Melee or Ranged</strong> weapon, one target<br/>
+<strong>Attack</strong> vs AC<br/>
+<strong>Hit</strong> 3dW + twice your level damage.<br/>
+<strong>Miss</strong> This power is not expended.<br/>
+<strong>Special</strong> You can use <em>death blow</em> multiple times a day, spending 1 Stamina each time.</p>
+</div><div class="card"><h4 class="Heading-4---Daily" id="warp-daily">Warp (daily) </h4>
+<p><strong>Swift Action</strong><br/>
+<strong>Effect</strong> Choose any wand or one-handed martial weapon. Until the end of the encounter, you can attack as if you were equipped with that weapon/wand and were proficient in its use. This includes using the at-will power associated with that weapon/wand.</p>
+</div><div class="card"><h4 class="Heading-4---Encounter" id="ambush-encounter">Ambush (encounter)</h4>
+<p><strong>Free Action</strong><br/>
+<strong>Trigger:</strong> You make a basic attack against an off-guard enemy.<br/>
+<strong>Effect:</strong> You get a +3 power bonus to the attack. If it hits, you do +1d6 damage to that enemy.<br/>
+<em>Level 7:</em> +2d6 damage instead.<em><br/>
+Level 17:</em> +3d6 damage instead.<br/>
+<em>Level 27:</em> +4d6 damage instead.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="gravity-manipulation-at-will">Gravity Manipulation (at-will)</h4>
+<p><strong>Standard Action</strong> ● <strong>Spell, Focus</strong><br/>
+<strong>Far</strong> burst 1 within 10 squares, every creature in area<br/>
+<strong>Attack</strong> vs Fortitude<br/>
+<strong>Hit</strong> 1d8 + your level damage and shunt the target 1 square.<br/>
+<em>Level 21</em> 2d8 + your level damage.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="frostbite-at-will">Frostbite (at-will)</h4>
+<p><strong>Standard Action</strong> ● <strong>Spell, Focus, Cold</strong><br/>
+<strong>Far</strong> burst 1 within 10, every creature in area<br/>
+<strong>Attack</strong> vs Fortitude<br/>
+<strong>Hit</strong> 1d8 + your level cold damage, and the target is slowed until the end of your next turn.<br/>
+<em>Level 21</em> 2d8 + your level cold damage instead.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="force-missile-at-will">Force Missile (at-will)</h4>
+<p><strong>Standard Action</strong> ● <strong>Spell, Focus, Force</strong><br/>
+<strong>Ranged</strong> 20, one target<br/>
+<strong>Attack</strong> vs Reflex<br/>
+<strong>Hit</strong> 2d10 + twice your level force damage.<br/>
+<em>Level 21</em> 3d10 + twice your level damage instead.<br/>
+<strong>Special</strong> <em>Force missile</em> can be used as a basic ranged attack.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="acid-splash-at-will">Acid Splash (at-will)</h4>
+<p><strong>Standard Action</strong> ● <strong>Spell, Focus, Acid</strong><br/>
+<strong>Ranged</strong> 10, one target<br/>
+<strong>Attack</strong> vs Reflex<br/>
+<strong>Hit</strong> 2d8 + twice your level acid damage. An enemy directly between you and the target takes 1d8 acid damage.<br/>
+<em>Level 21</em> 3d8 + twice your level damage instead.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="shock-at-will">Shock (at-will)</h4>
+<p><strong>Standard Action</strong> ● <strong>Spell, Focus, Lightning</strong><br/>
+<strong>Ranged</strong> 10, one target<br/>
+<strong>Attack</strong> vs Reflex<br/>
+<strong>Hit</strong> 2d8 + your level lightning damage.<br/>
+<em>Level 21</em> 3d8 + your level lightning damage instead.<br/>
+<strong>Effect</strong> Make a secondary attack against a creature within 5 squares of the original target. <strong><br/>
+Secondary Attack</strong> vs Reflex<br/>
+<strong>Hit</strong> 1d8 + your level lightning damage.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="tangles-at-will">Tangles (at-will)</h4>
+<p><strong>Standard Action</strong> ● <strong>Spell, Focus</strong><br/>
+<strong>Far</strong> burst 1 within 10, every creature in area<br/>
+<strong>Attack</strong> vs Fortitude<br/>
+<strong>Hit</strong> 2d6 + your level damage.<br/>
+<em>Level 21</em> 3d6 + your level damage instead.<br/>
+<strong>Effect</strong> The area becomes difficult terrain until the end of your next turn.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="manipulation-at-will">Manipulation (at-will)</h4>
+<p><strong>Standard Action</strong> ● <strong>Spell, Focus, Charm</strong><br/>
+<strong>Ranged</strong> 10, one target<br/>
+<strong>Attack</strong> vs Will<br/>
+<strong>Hit</strong> 1d8 psychic damage, and the target makes a basic attack against a target of your choice.<br/>
+<em>Level 21</em> 2d8 psychic damage instead.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="tremors-at-will">Tremors (at-will)</h4>
+<p><strong>Standard Action</strong> ● <strong>Spell, Focus</strong><br/>
+<strong>Close</strong> burst 1, all creatures in area<br/>
+<strong>Attack</strong> vs Fortitude<br/>
+<strong>Hit</strong> 1d6 + your level damage, and the target falls prone.<br/>
+<em>Level 21</em> 2d6 + your level damage instead.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="force-push-at-will">Force Push (at-will)</h4>
+<p><strong>Standard Action</strong> ● <strong>Spell, Focus, Force</strong><br/>
+<strong>Close</strong> spray 3, all creatures in area<br/>
+<strong>Attack</strong> vs Fortitude<br/>
+<strong>Hit</strong> 1d6 + your level damage, and push the target 3 squares.<br/>
+<em>Level 21</em> 2d6 + your level damage instead.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="worrisome-gnats-at-will">Worrisome Gnats (at-will)</h4>
+<p><strong>Standard Action</strong> ● <strong>Spell, Focus, Conjuration</strong><br/>
+<strong>Far</strong> burst 1 within 10 squares, all creatures in area<br/>
+<strong>Attack</strong> vs Will<br/>
+<strong>Hit</strong> 1d8 + your level damage, and the target is rattled until the end of their next turn.<br/>
+<em>Level 21</em> 2d8 + your level damage instead.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="axe-grind-at-will">Axe Grind (at-will)</h4>
+<p><strong>Standard Action</strong> ● <strong>Martial, Weapon, Axes</strong><br/>
+<strong>Melee</strong> weapon, one target<br/>
+<strong>Attack</strong> vs AC<br/>
+<strong>Hit</strong> 2dW + double level damage and push the target 1 square.<br/>
+<em>Level 21</em> 3dW + double level damage instead.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="arrow-flight-at-will">Arrow Flight (at-will)</h4>
+<p><strong>Standard Action</strong> ● <strong>Martial, Weapon, Bows</strong><br/>
+<strong>Ranged</strong> weapon, one target<br/>
+<strong>Attack</strong> vs AC<br/>
+<strong>Hit</strong> 2dW + level damage and the target is off-guard until the start of your next turn.<br/>
+<em>Level 21</em> 3dW + level damage instead.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="bolt-from-the-blue-at-will">Bolt from the Blue (at-will)</h4>
+<p><strong>Standard Action</strong> ● <strong>Martial, Weapon, Crossbows</strong><br/>
+<strong>Ranged</strong> weapon, one target<br/>
+<strong>Attack</strong> vs AC<br/>
+<strong>Hit</strong> 2dW + double level damage.<br/>
+<em>Level 21</em> 3dW + double level damage instead.<br/>
+<strong>Effect</strong> Shift 1 square before making the attack.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="sling-of-misfortune-at-will">Sling of Misfortune (at-will)</h4>
+<p><strong>Standard Action</strong> ● <strong>Martial, Weapon, Slings</strong><br/>
+<strong>Ranged</strong> weapon, one target<br/>
+<strong>Attack</strong> vs AC<br/>
+<strong>Hit</strong> 1dW + level damage. Target's speed is reduced by 2 (save ends).<br/>
+<em>Level 21</em> 2dW + level damage instead.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="shillelagh-at-will">Shillelagh (at-will)</h4>
+<p><strong>Standard Action</strong> ● <strong>Martial, Weapon, Maces and Clubs</strong><br/>
+<strong>Melee</strong> weapon, one target<br/>
+<strong>Attack</strong> vs AC<br/>
+<strong>Hit</strong> 2dW + double level damage and the target is dazed until the end of your next turn.<br/>
+<em>Level 21</em> 3dW + double level damage instead.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="careful-slice-at-will">Careful Slice (at-will)</h4>
+<p><strong>Standard Action</strong> ● <strong>Martial, Weapon, Light Blades</strong><br/>
+<strong>Melee</strong> weapon, one target<br/>
+<strong>Attack</strong> vs Reflex<br/>
+<strong>Hit</strong> 1dW + level damage.<br/>
+<em>Level 21</em> 2dW + level damage instead.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="spear-discipline-at-will">Spear Discipline (at-will)</h4>
+<p><strong>Standard Action</strong> ● <strong>Martial, Weapon, Spears and Lances</strong><br/>
+<strong>Melee</strong> weapon, one target<br/>
+<strong>Attack</strong> vs AC<br/>
+<strong>Hit</strong> 2dW + double level damage. Any ally adjacent to the target can shift 1 square.<br/>
+<em>Level 21</em> 3dW + double level damage instead.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="staff-sweep-at-will">Staff Sweep (at-will)</h4>
+<p><strong>Standard Action</strong> ● <strong>Martial, Weapon, Staffs</strong><br/>
+<strong>Melee</strong> weapon, one target<br/>
+<strong>Attack</strong> vs AC<br/>
+<strong>Hit</strong> 2dW + level damage. Target must save or fall prone.<br/>
+<em>Level 21</em> 3dW + level damage instead.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="cleaving-slice-at-will">Cleaving Slice (at-will)</h4>
+<p><strong>Standard Action</strong> ● <strong>Martial, Weapon, Heavy Blades</strong><br/>
+<strong>Melee</strong> weapon, one target<br/>
+<strong>Attack</strong> vs AC<br/>
+<strong>Hit</strong> 2dW + double level damage. An enemy adjacent to the target takes 1dW damage.<br/>
+<em>Level 21</em> 3dW + double level damage instead. An enemy adjacent to the target still takes 1dW damage.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="hammerfall-at-will">Hammerfall (at-will)</h4>
+<p><strong>Standard Action</strong> ● <strong>Martial, Weapon, Picks and Hammers</strong><br/>
+<strong>Melee</strong> weapon, one target<br/>
+<strong>Attack</strong> vs AC<br/>
+<strong>Hit</strong> 2dW + double level damage.<br/>
+<em>Level 21</em> 3dW + double level damage instead.<br/>
+<strong>Miss</strong> Target takes 1dW damage.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="poleaxe-at-will">Poleaxe (at-will)</h4>
+<p><strong>Standard Action</strong> ● <strong>Martial, Weapon, Polearms</strong><br/>
+<strong>Melee</strong> weapon, one target<br/>
+<strong>Attack</strong> vs AC<br/>
+<strong>Hit</strong> 2dW + double level damage. Target is rattled until the end of your next turn.<br/>
+<em>Level 21</em> 3dW + double level damage instead.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="flail-about-at-will">Flail About (at-will)</h4>
+<p><strong>Standard Action</strong> ● <strong>Martial, Weapon, Flails and Chains</strong><br/>
+<strong>Melee</strong> weapon, one target<br/>
+<strong>Attack</strong> vs AC<br/>
+<strong>Hit</strong> 2dW + double level damage. Then shift 1 square.<br/>
+<em>Level 21</em> 3dW + double level damage instead.</p>
+</div><div class="card"><h4 class="Heading-4---At-Will" id="double-attack-at-will">Double Attack (at-will)</h4>
+<p><strong>Standard Action</strong> ● <strong>Martial, Weapon<br/>
+Requirement</strong> Must be dual-wielding<br/>
+<strong>Melee</strong> weapon, two targets<br/>
+<strong>Attack</strong> vs AC<br/>
+<strong>Hit</strong> 1dW + level damage.<br/>
+<em>Level 21</em> 2dW + level damage.</p>
+</div><div class="card"><h4 class="Heading-4---Encounter" id="take-the-hit-encounter">Take the Hit (encounter)</h4>
+<p><strong>Interrupt Action</strong><br/>
+<strong>Trigger</strong> An adjacent ally is hit by attack that did not hit you<br/>
+<strong>Effect</strong> You are hit by the attack instead of your ally.<br/>
+<em>Level 16,</em> you also only take half damage from the attack.</p>
+</div><div class="card"><h4 class="Heading-4---Encounter" id="bullheaded-encounter">Bullheaded (encounter)</h4>
+<p><strong>Interrupt Action<br/>
+Trigger</strong> You are hit by an attack.<br/>
+<strong>Effect</strong> You gain 5 temporary hit points.<br/>
+<em>Level 11</em> 10 temporary hit points.<br/>
+<em>Level 21</em> 15 temporary hit points.</p>
+</div><div class="card"><h4 class="Heading-4---Daily" id="second-wind-daily">Second Wind (daily)</h4>
+<p><strong>Free Action</strong><br/>
+<strong>Requirement</strong> You have already taken the Rally action this encounter.<br/>
+<strong>Effect</strong> You may take the Rally action again (when you spend the relevant action to do so).</p>
+</div><div class="card"><h4 class="Heading-4---Encounter" id="i-dont-think-so-encounter-reaction">I Don’t Think So (encounter, reaction)</h4>
+<p><strong>Reaction Action</strong><br/>
+<strong>Trigger</strong> You have just gained a save-ends condition<br/>
+<strong>Effect</strong> Make a saving throw against the condition immediately.</p>
+</div><div class="card"><h4 class="Heading-4---Encounter" id="shake-it-off">Shake it Off </h4>
+<p><strong>Encounter</strong> <strong>Utility</strong> <strong>10</strong> (<strong>Immediate (Counter) Action</strong>) ● <strong>Martial</strong><br/>
+<strong>Self</strong><br/>
+<strong>Trigger</strong> You would make a saving throw against an effect.<br/>
+<strong>Effect</strong> You pass the saving throw automatically.</p>
+</div><div class="card"><h4 class="Heading-4---Encounter" id="bind-wounds-encounter">Bind Wounds (encounter)</h4>
+<p><strong>Standard Action<br/>
+Effect</strong> Yourself or an adjacent ally can spend a recovery to heal their recovery value in hit points.</p>
+</div><div class="card"><h4 class="Heading-4---Encounter" id="adrenaline-boost-encounter">Adrenaline Boost (encounter)</h4>
+<p><strong>Swift Action<br/>
+Condition</strong> An adjacent ally has already taken the Rally action this encounter<br/>
+<strong>Effect</strong> The ally may take the Rally action again (when they spend the relevant action to do so).</p>
+</div><div class="card"><h4 class="Heading-4---Encounter" id="heavy-blow-encounter-level-1">Heavy Blow (encounter, level 1)</h4>
+<p><strong>Standard Action</strong> ● <strong>Martial, Weapon</strong><br/>
+<strong>Melee or Ranged</strong> weapon, one target<br/>
+<strong>Attack</strong> vs AC<br/>
+<strong>Hit</strong> 2dW + Strength modifier damage and slowed (save ends)</p>
+</div><div class="card"><h4 class="Heading-4---Encounter" id="sneaky-trip-encounter-level-1">Sneaky Trip (encounter, level 1)</h4>
+<p><strong>Standard Action</strong> ● <strong>Martial, Weapon</strong><br/>
+<strong>Melee or Ranged</strong> weapon, one target<br/>
+<strong>Attack</strong> vs AC<br/>
+<strong>Hit</strong> 1dW + Strength modifier damage and the target falls prone.</p>
+</div><div class="card"><h4 class="Heading-4---Daily" id="forked-attack">Forked Attack </h4>
+<p><strong>Daily</strong> <strong>Attack</strong> <strong>1</strong> (<strong>Standard Action</strong>) ● <strong>Martial, Weapon</strong><br/>
+<strong>Melee</strong> weapon, one or two targets<br/>
+<strong>Attack</strong> vs AC<br/>
+<strong>Hit</strong> 2dW + Strength modifier damage.<br/>
+<strong>Miss</strong> Half damage.<br/>
+<strong>Effect</strong> Make two attacks against one enemy or one attack each against two enemies.</p>
+</div><div class="card"><h4 class="Heading-4---Daily" id="bilateral-assault">Bilateral Assault </h4>
+<p><strong>Daily</strong> <strong>Attack</strong> <strong>1</strong> (<strong>Standard Action</strong>) ● <strong>Martial, Weapon</strong><br/>
+<strong>Effect</strong> Make an at-will weapon attack. You may then sheathe a weapon and draw a weapon. Make an at-will weapon attack.</p>
+</div><div class="card"><h4 class="Heading-4---Encounter" id="got-the-meat-encounter">Got the Meat (encounter)</h4>
+<p><strong>Level 3 Standard Action</strong> ● <strong>Martial, Weapon</strong><br/>
+<strong>Melee</strong> weapon, one target<br/>
+<strong>Attack</strong> vs AC<br/>
+<strong>Hit</strong> 2dW + Strength modifier + Constitution modifier damage</p>
+</div><div class="card"><h4 class="Heading-4---Encounter" id="precision-strike">Precision Strike </h4>
+<p><strong>Level 3</strong> <strong>Standard Action</strong> ● <strong>Martial, Weapon</strong><br/>
+<strong>Melee or Ranged</strong> weapon, one target<br/>
+<strong>Attack</strong> +2 vs Reflex<br/>
+<strong>Hit</strong> 2dW + Strength modifier damage.</p>
+</div><div class="card"><h4 class="Heading-4---Daily" id="steel-ring">Steel Ring </h4>
+<p><strong>Daily</strong> <strong>Utility</strong> <strong>6</strong> (<strong>Swift Action</strong>) ● <strong>Martial, Stance</strong><br/>
+<strong>Self</strong><br/>
+<strong>Effect</strong> At the end of your turn, all adjacent enemies take 1dW damage.</p>
+</div><div class="card"><h4 class="Heading-4---Daily" id="shifting-defense">Shifting Defense </h4>
+<p><strong>Daily</strong> <strong>Utility</strong> <strong>6</strong> (<strong>Swift Action</strong>) ● <strong>Martial, Stance</strong><br/>
+<strong>Self</strong><br/>
+<strong>Hit</strong> At the beginning of each round, choose a defense. For that round, you get a +2 power bonus to that defense, and a -2 penalty to the other three defenses.</p>
+</div><div class="card"><h4 class="Heading-4---Encounter" id="cutting-dash">Cutting Dash </h4>
+<p><strong>Encounter</strong> <strong>Attack</strong> <strong>7</strong> (<strong>Move Action</strong>) ● <strong>Martial, Weapon</strong><br/>
+<strong>Melee</strong> weapon, one target<br/>
+<strong>Attack</strong> vs AC<br/>
+<strong>Hit</strong> 1dW + Strength modifier damage.<br/>
+<strong>Effect</strong> Before making the attack, move up to your speed. After the attack, you may move the remainder (if any).</p>
+</div><div class="card"><h4 class="Heading-4---Encounter" id="cutting-sweep">Cutting Sweep </h4>
+<p><strong>Encounter</strong> <strong>Attack</strong> <strong>7</strong> (<strong>Standard Action</strong>) ● <strong>Martial, Weapon</strong><br/>
+<strong>Near</strong> burst 1, all enemies<br/>
+<strong>Attack</strong> vs AC<br/>
+<strong>Hit</strong> 2dW + Strength modifier damage.</p>
+</div><div class="card"><h4 class="Heading-4---Encounter" id="cutting-defense">Cutting Defense </h4>
+<p><strong>Encounter</strong> <strong>Attack</strong> <strong>7</strong> (<strong>Standard Action</strong>) ● <strong>Martial, Weapon</strong><br/>
+<strong>Melee</strong> weapon, one target<br/>
+<strong>Attack</strong> Strength vs AC<br/>
+<strong>Hit</strong> 2dW + Strength modifier damage. The target is rattled until the start of your next turn.</p>
+</div><div class="card"><h4 class="Heading-4---Daily" id="finisher">Finisher </h4>
+<p><strong>Daily</strong> <strong>Attack</strong> <strong>9</strong> (<strong>Standard Action</strong>) ● <strong>Martial, Weapon</strong><br/>
+<strong>Melee or Ranged</strong> weapon, one target<br/>
+<strong>Attack</strong> Strength vs AC<br/>
+<strong>Hit</strong> 3dW + Strength modifier damage. If this attack reduces the target to 0 HP, this power is not expended.</p>
+</div><div class="card"><h4 class="Heading-4---Daily" id="full-court-attack">Full Court Attack </h4>
+<p><strong>Daily</strong> <strong>Attack</strong> <strong>9</strong> (<strong>Standard Action</strong>) ● <strong>Martial, Weapon</strong><br/>
+<strong>Melee</strong> weapon, one target<br/>
+<strong>Attack</strong> Strength vs AC<br/>
+<strong>Hit</strong> 1dW + Strength modifier damage.<br/>
+<strong>Effect</strong> Make a secondary attack against the same target, Strength vs Fortitude. 1dW + Strength modifier damage.<br/>
+Make a secondary attack against the same target, Strength vs Reflex. 1dW + Strength modifier damage.<br/>
+Make a secondary attack against the same target, Strength vs Will. 1dW + Strength modifier damage.</p>
+</div></div><div class="monster-card-sheet">
+<div class="card"><h4 class="Heading-4---Monster" id="dog">Dog </h4>
+<p><strong>Level 1 Striker</strong> (100 XP)<br/>
+Small Natural Beast (Unaligned)<br/>
+<strong>Senses:</strong> Perception +6, low-light vision; <strong>Skills:</strong> Athletics +6<br/>
+<strong>Str:</strong> 13 (+1), <strong>Con:</strong> 17 (+3), <strong>Dex:</strong> 15 (+2)<br/>
+<strong>Int:</strong> 2 (-4), <strong>Wis:</strong> 12 (+1), <strong>Cha:</strong> 6 (-2)</p>
+<p><strong>Initiative:</strong> +2; <strong>Speed:</strong> 8<br/>
+<strong>AC:</strong> 15; <strong>Fort:</strong> 12, <strong>Ref:</strong> 14, <strong>Will:</strong> 13<br/>
+<strong>HP:</strong> 29, <strong>Staggered:</strong> 14</p>
+<p>‡ <strong>Bite</strong> (standard, at-will)<br/>
++6 vs AC; 1d10+3 damage. <em>Secondary Attack:</em> +6 vs Reflex; the target falls prone.<br/>
+<strong>Worry</strong><br/>
+If the dog's target is prone, attacks do +1d6 damage on a hit.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="wolf">Wolf </h4>
+<p><strong>Level 3 Striker</strong> (150 XP)<br/>
+Medium Natural Beast (Unaligned)<br/>
+<strong>Senses:</strong> Perception +8, low-light vision; <strong>Skills:</strong> Nature +8, Stealth +9<br/>
+<strong>Str:</strong> 13 (+2), <strong>Con:</strong> 15 (+3), <strong>Dex:</strong> 15 (+3)<br/>
+<strong>Int:</strong> 2 (-3), <strong>Wis:</strong> 12 (+2), <strong>Cha:</strong> 6 (-1)</p>
+<p><strong>Initiative:</strong> +4; <strong>Speed:</strong> 8<br/>
+<strong>AC:</strong> 17; <strong>Fort:</strong> 14, <strong>Ref:</strong> 16, <strong>Will:</strong> 15<br/>
+<strong>HP:</strong> 39, <strong>Staggered:</strong> 19</p>
+<p>‡ <strong>Bite</strong> (standard, at-will)<br/>
++8 vs AC; 1d12+4 damage. <em>Secondary Attack:</em> +8 vs Reflex; the target falls prone.<br/>
+<strong>Worry</strong><br/>
+If the wolf's target is prone, attacks do +1d6 damage on a hit.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="dire-wolf">Dire Wolf </h4>
+<p><strong>Level 7 Striker</strong> (300 XP)<br/>
+Large Natural Beast (Unaligned)<br/>
+<strong>Senses:</strong> Perception +12, low-light vision; <strong>Skills:</strong> Nature +12, Stealth +14<br/>
+<strong>Str:</strong> 25 (+10), <strong>Con:</strong> 15 (+5), <strong>Dex:</strong> 17 (+6)<br/>
+<strong>Int:</strong> 2 (-1), <strong>Wis:</strong> 12 (+4), <strong>Cha:</strong> 10 (+3)</p>
+<p><strong>Initiative:</strong> +9; <strong>Speed:</strong> 8<br/>
+<strong>AC:</strong> 21; <strong>Fort:</strong> 18, <strong>Ref:</strong> 20, <strong>Will:</strong> 19<br/>
+<strong>HP:</strong> 59, <strong>Staggered:</strong> 29</p>
+<p>‡ <strong>Bite</strong> (standard, at-will)<br/>
++12 vs AC; 2d10+4 damage. <em>Secondary Attack:</em> +12 vs Reflex; the target falls prone.<br/>
+<strong>Worry</strong><br/>
+If the dire wolf's target is prone, attacks do +2d6 damage on a hit.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="worg">Worg </h4>
+<p><strong>Level 11 Striker</strong> (600 XP)<br/>
+Large Natural Beast (Unaligned)<br/>
+<strong>Senses:</strong> Perception +17, low-light vision; <strong>Skills:</strong> Nature +17, Stealth +17<br/>
+<strong>Str:</strong> 17 (+8), <strong>Con:</strong> 15 (+7), <strong>Dex:</strong> 15 (+7)<br/>
+<strong>Int:</strong> 6 (+3), <strong>Wis:</strong> 14 (+7), <strong>Cha:</strong> 10 (+5)</p>
+<p><strong>Initiative:</strong> +12; <strong>Speed:</strong> 8<br/>
+<strong>AC:</strong> 25; <strong>Fort:</strong> 22, <strong>Ref:</strong> 24, <strong>Will:</strong> 23<br/>
+<strong>HP:</strong> 79, <strong>Staggered:</strong> 39</p>
+<p>‡ <strong>Bite</strong> (standard, at-will)<br/>
++16 vs AC; 3d8+5 damage. <em>Secondary Attack:</em> +16 vs Reflex; the target falls prone.<br/>
+<strong>Worry</strong><br/>
+If the worg's target is prone, attacks do +3d6 damage on a hit.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="lamia">Lamia </h4>
+<p><strong>Level 15 Spoiler</strong> (1200 XP)<br/>
+Large Shadow Beast (Evil)<br/>
+<strong>Senses:</strong> Perception +21, darkvision; <strong>Skills:</strong> Bluff +20, History +20, Religion +20<br/>
+<strong>Languages:</strong> Common<br/>
+<strong>Str:</strong> 18 (+11), <strong>Con:</strong> 12 (+8), <strong>Dex:</strong> 15 (+9)<br/>
+<strong>Int:</strong> 13 (+8), <strong>Wis:</strong> 15 (+9), <strong>Cha:</strong> 12 (+8)</p>
+<p><strong>Initiative:</strong> +16; <strong>Speed:</strong> 8<br/>
+<strong>AC:</strong> 29; <strong>Fort:</strong> 27, <strong>Ref:</strong> 26, <strong>Will:</strong> 28<br/>
+<strong>HP:</strong> 99, <strong>Staggered:</strong> 49</p>
+<p>‡ <strong>Spear</strong> (standard, at-will) ● <strong>Weapon</strong><br/>
++20 vs AC; 3d10+6 damage.<br/>
+⤢ <strong>Javelin</strong> (standard, at-will) ● <strong>Weapon</strong><br/>
+Ranged 5/10; +20 vs AC; 2d10+6 damage.<br/>
+↗ <strong>Charm</strong> (standard, encounter) ● <strong>Psychic</strong><br/>
+Ranged 10; +20 vs Will; The target is dominated until the end of their next turn.<br/>
+⋇ <strong>Touch of Slumber</strong> (standard, encounter) ● <strong>Psychic</strong><br/>
+Far burst 1 (within 10); +20 vs Will; The target is slowed (save ends). If the target is already slowed, the target falls asleep until roused.<br/>
+† <strong>Lamia's Touch</strong> (standard, at-will) ● <strong>Necrotic</strong><br/>
++20 vs Fortitude; 2d10+6 necrotic damage and the target ages one year. The aging wears off at a rate of one year per month.<br/>
+<strong>Declaration Powers</strong><br/>
+At the end of its turn, the lamia can choose one of the following:<br/>
+<em>Collapse into swarm</em> (counter) The lamia is the target of Melee or Ranged attack, or as a free action during its turn: The lamia becomes a swarm. It gains the Swarm tag, the compress Tiny special movement mode and resistance 10 to damage from Melee and Ranged attacks. However, it gains weakness 10 to damage from Near and Far attacks. A swarm can occupy the same space as other creatures. The lamia can leave swarm form as a swift action.<br/>
+<em>Fast healing</em> (reaction) The lamia does not take fire or thunder damage before the start of its next turn: The lamia heals 10.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="lamia-superior">Lamia Superior </h4>
+<p><strong>Level 19 Spoiler</strong> (2400 XP)<br/>
+Large Shadow Beast (Evil)<br/>
+<strong>Senses:</strong> Perception +26, darkvision; <strong>Skills:</strong> Bluff +28, History +27, Religion +27<br/>
+<strong>Languages:</strong> Common<br/>
+<strong>Str:</strong> 20 (+14), <strong>Con:</strong> 12 (+10), <strong>Dex:</strong> 15 (+11)<br/>
+<strong>Int:</strong> 18 (+13), <strong>Wis:</strong> 17 (+12), <strong>Cha:</strong> 20 (+14)</p>
+<p><strong>Initiative:</strong> +20; <strong>Speed:</strong> 8, climb 6, swim 6<br/>
+<strong>AC:</strong> 33; <strong>Fort:</strong> 31, <strong>Ref:</strong> 30, <strong>Will:</strong> 32<br/>
+<strong>HP:</strong> 119, <strong>Staggered:</strong> 59</p>
+<p>‡ <strong>Scimitar</strong> (standard, at-will) ● <strong>Weapon</strong><br/>
++24 vs AC; 6d6+6 damage.<br/>
+⤢ <strong>Javelin</strong> (standard, at-will) ● <strong>Weapon</strong><br/>
+Ranged 5/10; +24 vs AC; 2d12+7 damage.<br/>
+↗ <strong>Charm</strong> (standard, encounter) ● <strong>Psychic</strong><br/>
+Ranged 10; +24 vs Will; The target is dominated until the end of their next turn.<br/>
+⋇ <strong>Touch of Slumber</strong> (standard, encounter) ● <strong>Psychic</strong><br/>
+Far burst 1 (within 10); +24 vs Will; The target is slowed (save ends). If the target is already slowed, the target falls asleep until roused.<br/>
+† <strong>Lamia's Touch</strong> (standard, at-will) ● <strong>Necrotic</strong><br/>
++24 vs Fortitude; 6d6+6 necrotic damage and the target ages 1d4 years. The aging wears off at a rate of one year per month.<br/>
+<strong>Invisibility</strong> (swift, encounter) ● <strong>Illusion</strong><br/>
+The lamia superior turns invisible until the end of its next turn.<br/>
+<strong>Declaration Powers</strong><br/>
+At the end of its turn, the lamia can choose one of the following:<br/>
+<em>Collapse into swarm</em> (counter) The lamia is the target of Melee or Ranged attack, or as a free action during its turn: The lamia becomes a swarm. It gains the Swarm tag, the compress Tiny special movement mode and resistance 10 to damage from Melee and Ranged attacks. However, it gains weakness 10 to damage from Near and Far attacks. A swarm can occupy the same space as other creatures. The lamia can leave swarm form as a swift action.<br/>
+<em>Fast healing</em> (reaction) The lamia does not take fire or thunder damage before the start of its next turn: The lamia heals 10.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="skeleton-warrior">Skeleton Warrior </h4>
+<p><strong>Level 1 Blocker</strong> (100 XP)<br/>
+Medium Natural Humanoid ● Undead (Unaligned)<br/>
+<strong>Senses:</strong> Perception +0, darkvision<br/>
+<strong>Str:</strong> 10 (+0), <strong>Con:</strong> 10 (+0), <strong>Dex:</strong> 10 (+0)<br/>
+<strong>Int:</strong> 2 (-4), <strong>Wis:</strong> 10 (+0), <strong>Cha:</strong> 10 (+0)</p>
+<p><strong>Initiative:</strong> +0; <strong>Speed:</strong> 6<br/>
+<strong>AC:</strong> 17; <strong>Fort:</strong> 14, <strong>Ref:</strong> 13, <strong>Will:</strong> 13<br/>
+<strong>HP:</strong> 29, <strong>Staggered:</strong> 14<br/>
+<strong>Immune:</strong> disease, poison, <strong>Resist:</strong> necrotic 5, <strong>Vulnerable:</strong> radiant 5</p>
+<p>‡ <strong>Longsword</strong> (standard, at-will) ● <strong>Heavy Blade, Weapon</strong><br/>
++6 vs AC; 1d10+3 damage. The skeleton warrior may also do 2 damage to a creature adjacent to the skeleton warrior or the target.<br/>
+<strong>Reform</strong><br/>
+The skeleton is unconscious and helpless when reduced to 0 HP, but is not destroyed unless reduced to negative HP equal to its staggered value or its bones are disturbed. Bones can be disturbed as a swift action by an adjacent creature or by a creature moving through the space or stopping on it. One round after being reduced to 0 HP, the skeleton makes a saving throw. On a success, the skeleton is restored to 1 HP. On a failure, it is destroyed.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="zombie">Zombie </h4>
+<p><strong>Level 1 Blocker</strong> (100 XP)<br/>
+Medium Natural Humanoid ● Undead (Unaligned)<br/>
+<strong>Senses:</strong> Perception +0, darkvision<br/>
+<strong>Str:</strong> 12 (+1), <strong>Con:</strong> 10 (+0), <strong>Dex:</strong> 8 (-1)<br/>
+<strong>Int:</strong> 2 (-4), <strong>Wis:</strong> 10 (+0), <strong>Cha:</strong> 1 (-5)</p>
+<p><strong>Initiative:</strong> -1; <strong>Speed:</strong> 4<br/>
+<strong>AC:</strong> 17; <strong>Fort:</strong> 14, <strong>Ref:</strong> 13, <strong>Will:</strong> 13<br/>
+<strong>HP:</strong> 29, <strong>Staggered:</strong> 14<br/>
+<strong>Immune:</strong> disease, poison, <strong>Resist:</strong> necrotic 5, <strong>Vulnerable:</strong> radiant 5</p>
+<p>‡ <strong>Slam</strong> (standard, at-will)<br/>
++6 vs AC; 1d10+3 damage and make a secondary attack against the target. <em>Secondary Attack:</em> +4 vs Fortitude; the target is grappled.<br/>
+<strong>Teamwork</strong><br/>
+The zombie gets a +4 bonus on attacks against grappled targets.<br/>
+<strong>Dinner Rush</strong><br/>
+The zombie gets +2 Speed when charging.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="small-hunting-spider">Small Hunting Spider </h4>
+<p><strong>Level 1 Striker</strong> (100 XP)<br/>
+Small Natural Beast ● Spider (Unaligned)<br/>
+<strong>Senses:</strong> Perception +0, darkvision; <strong>Skills:</strong> Acrobatics +8, Athletics +3, Stealth +8<br/>
+<strong>Str:</strong> 7 (-2), <strong>Con:</strong> 10 (+0), <strong>Dex:</strong> 17 (+3)<br/>
+<strong>Int:</strong> 2 (-4), <strong>Wis:</strong> 10 (+0), <strong>Cha:</strong> 2 (-4)</p>
+<p><strong>Initiative:</strong> +3; <strong>Speed:</strong> 5, climb 2 (wall-climber)<br/>
+<strong>AC:</strong> 15; <strong>Fort:</strong> 12, <strong>Ref:</strong> 14, <strong>Will:</strong> 13<br/>
+<strong>HP:</strong> 29, <strong>Staggered:</strong> 14</p>
+<p>‡ <strong>Bite</strong> (standard, at-will)<br/>
++6 vs AC; 1d10+3 damage, or 2d8+3 damage against a slowed, grappled, restrained or immobile target.<br/>
+<strong>Egg Sacs</strong> (counter, encounter)<br/>
+If the spider is hit by an attack: Place a spider swarm in an adjacent space (whether or not it is occupied).<br/>
+∢ <strong>Hiss</strong> (swift, encounter) ● <strong>Fear</strong><br/>
+Near burst 3, all creatures without the Spider tag; +6 vs Will; The target grants combat advantage until the end of their next turn.<br/>
+<strong>Raise Hairs</strong> (swift, at-will) ● <strong>Poison, Stance</strong><br/>
+If an adjacent creature hits the spider with an attack, make an attack. +4 vs Fortitude; the target grants combat advantage until the end of their next turn.<br/>
+∢ <strong>Spray Hairs</strong> (swift, encounter) ● <strong>Poison</strong><br/>
+Near burst 3, all creatures without the Spider tag; +6 vs Reflex; The target grants combat advantage until the end of their next turn. The spider cannot use <em>raise hairs</em> if it has used <em>spray hairs</em> this encounter.<br/>
+† <strong>Venomous Bite</strong> (standard, at-will) ● <strong>Poison</strong><br/>
++6 vs AC; 1d10+3 poison damage and the target is slowed until the end of their next turn.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="medium-hunting-spider">Medium Hunting Spider </h4>
+<p><strong>Level 4 Striker</strong> (175 XP)<br/>
+Medium Natural Beast ● Spider (Unaligned)<br/>
+<strong>Senses:</strong> Perception +4, darkvision; <strong>Skills:</strong> Acrobatics +12, Athletics +9, Stealth +12<br/>
+<strong>Str:</strong> 11 (+2), <strong>Con:</strong> 12 (+3), <strong>Dex:</strong> 17 (+5)<br/>
+<strong>Int:</strong> 2 (-2), <strong>Wis:</strong> 10 (+2), <strong>Cha:</strong> 2 (-2)</p>
+<p><strong>Initiative:</strong> +7; <strong>Speed:</strong> 6, climb 3 (wall-climber)<br/>
+<strong>AC:</strong> 18; <strong>Fort:</strong> 15, <strong>Ref:</strong> 17, <strong>Will:</strong> 16<br/>
+<strong>HP:</strong> 44, <strong>Staggered:</strong> 22</p>
+<p>‡ <strong>Bite</strong> (standard, at-will)<br/>
++9 vs AC; 1d12+5 damage, or 2d12+3 damage against a slowed, grappled, restrained or immobile target.<br/>
+<strong>Egg Sacs</strong> (counter, encounter)<br/>
+If the spider is hit by an attack: Place a spider swarm in an adjacent space (whether or not it is occupied).<br/>
+∢ <strong>Hiss</strong> (swift, encounter) ● <strong>Fear</strong><br/>
+Near burst 3, all creatures without the Spider tag; +9 vs Will; The target grants combat advantage until the end of their next turn.<br/>
+<strong>Raise Hairs</strong> (swift, at-will) ● <strong>Poison, Stance</strong><br/>
+If an adjacent creature hits the spider with an attack, make an attack. +7 vs Fortitude; the target grants combat advantage until the end of their next turn.<br/>
+∢ <strong>Spray Hairs</strong> (swift, encounter) ● <strong>Poison</strong><br/>
+Near burst 3, all creatures without the Spider tag; +9 vs Reflex; The target grants combat advantage until the end of their next turn. The spider cannot use <em>raise hairs</em> if it has used <em>spray hairs</em> this encounter.<br/>
+† <strong>Venomous Bite</strong> (standard, at-will) ● <strong>Poison</strong><br/>
++9 vs AC; 1d12+5 poison damage and the target is slowed until the end of their next turn.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="large-hunting-spider">Large Hunting Spider </h4>
+<p><strong>Level 8 Striker</strong> (350 XP)<br/>
+Large Natural Beast ● Spider (Unaligned)<br/>
+<strong>Senses:</strong> Perception +8, darkvision; <strong>Skills:</strong> Acrobatics +16, Athletics +15, Stealth +16<br/>
+<strong>Str:</strong> 15 (+6), <strong>Con:</strong> 12 (+5), <strong>Dex:</strong> 17 (+7)<br/>
+<strong>Int:</strong> 2 (+0), <strong>Wis:</strong> 10 (+4), <strong>Cha:</strong> 2 (+0)</p>
+<p><strong>Initiative:</strong> +11; <strong>Speed:</strong> 6, climb 4 (wall-climber)<br/>
+<strong>AC:</strong> 22; <strong>Fort:</strong> 19, <strong>Ref:</strong> 21, <strong>Will:</strong> 20<br/>
+<strong>HP:</strong> 64, <strong>Staggered:</strong> 32</p>
+<p>‡ <strong>Bite</strong> (standard, at-will)<br/>
++13 vs AC; 2d10+5 damage, or 3d10+5 damage against a slowed, grappled, restrained or immobile target.<br/>
+<strong>Egg Sacs</strong> (counter, encounter)<br/>
+If the spider is hit by an attack: Place a spider swarm in an adjacent space (whether or not it is occupied).<br/>
+∢ <strong>Hiss</strong> (swift, encounter) ● <strong>Fear</strong><br/>
+Near burst 3, all creatures without the Spider tag; +13 vs Will; The target grants combat advantage until the end of their next turn.<br/>
+<strong>Raise Hairs</strong> (swift, at-will) ● <strong>Poison, Stance</strong><br/>
+If an adjacent creature hits the spider with an attack, make an attack. +11 vs Fortitude; the target grants combat advantage until the end of their next turn.<br/>
+∢ <strong>Spray Hairs</strong> (swift, encounter) ● <strong>Poison</strong><br/>
+Near burst 3, all creatures without the Spider tag; +13 vs Reflex; The target grants combat advantage until the end of their next turn. The spider cannot use <em>raise hairs</em> if it has used <em>spray hairs</em> this encounter.<br/>
+† <strong>Venomous Bite</strong> (standard, at-will) ● <strong>Poison</strong><br/>
++13 vs AC; 2d10+5 poison damage and the target is slowed until the end of their next turn.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="huge-hunting-spider">Huge Hunting Spider </h4>
+<p><strong>Level 12 Striker</strong> (700 XP)<br/>
+Huge Natural Beast ● Spider (Unaligned)<br/>
+<strong>Senses:</strong> Perception +12, darkvision; <strong>Skills:</strong> Acrobatics +20, Athletics +21, Stealth +20<br/>
+<strong>Str:</strong> 19 (+10), <strong>Con:</strong> 14 (+8), <strong>Dex:</strong> 17 (+9)<br/>
+<strong>Int:</strong> 2 (+2), <strong>Wis:</strong> 10 (+6), <strong>Cha:</strong> 2 (+2)</p>
+<p><strong>Initiative:</strong> +15; <strong>Speed:</strong> 8, climb 6 (wall-climber)<br/>
+<strong>AC:</strong> 26; <strong>Fort:</strong> 23, <strong>Ref:</strong> 25, <strong>Will:</strong> 24<br/>
+<strong>HP:</strong> 84, <strong>Staggered:</strong> 42</p>
+<p>‡ <strong>Bite</strong> (standard, at-will)<br/>
++17 vs AC; 3d8+6 damage, or 6d6+6 damage against a slowed, grappled, restrained or immobile target.<br/>
+<strong>Egg Sacs</strong> (counter, encounter)<br/>
+If the spider is hit by an attack: Place a spider swarm in an adjacent space (whether or not it is occupied).<br/>
+∢ <strong>Hiss</strong> (swift, encounter) ● <strong>Fear</strong><br/>
+Near burst 3, all creatures without the Spider tag; +17 vs Will; The target grants combat advantage until the end of their next turn.<br/>
+<strong>Raise Hairs</strong> (swift, at-will) ● <strong>Poison, Stance</strong><br/>
+If an adjacent creature hits the spider with an attack, make an attack. +15 vs Fortitude; the target grants combat advantage until the end of their next turn.<br/>
+∢ <strong>Spray Hairs</strong> (swift, encounter) ● <strong>Poison</strong><br/>
+Near burst 3, all creatures without the Spider tag; +17 vs Reflex; The target grants combat advantage until the end of their next turn. The spider cannot use <em>raise hairs</em> if it has used <em>spray hairs</em> this encounter.<br/>
+† <strong>Venomous Bite</strong> (standard, at-will) ● <strong>Poison</strong><br/>
++17 vs AC; 3d8+6 poison damage and the target is slowed until the end of their next turn.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="vermin-swarm">Vermin Swarm </h4>
+<p><strong>Level 2 Striker</strong> (125 XP)<br/>
+Medium Natural Beast ● Swarm (Unaligned)<br/>
+<strong>Senses:</strong> Perception +7, low-light vision; <strong>Skills:</strong> Stealth +10<br/>
+<strong>Str:</strong> 11 (+1), <strong>Con:</strong> 12 (+2), <strong>Dex:</strong> 18 (+5)<br/>
+<strong>Int:</strong> 2 (-3), <strong>Wis:</strong> 12 (+2), <strong>Cha:</strong> 10 (+1)</p>
+<p><strong>Initiative:</strong> +7; <strong>Speed:</strong> 6, climb 6 (compress Tiny)<br/>
+<strong>AC:</strong> 16; <strong>Fort:</strong> 13, <strong>Ref:</strong> 16, <strong>Will:</strong> 13<br/>
+<strong>HP:</strong> 34, <strong>Staggered:</strong> 17<br/>
+<strong>Resist:</strong> Melee and Ranged attacks (half damage), <strong>Vulnerable:</strong> Near and Far attacks 5<br/>
+<em>Swarm Damage aura 1:</em> If an enemy begins their turn in this aura, the swarm makes a basic melee attack against them as a free action.</p>
+<p>‡ <strong>Bites</strong> (standard, at-will) ● <strong>Poison</strong><br/>
++7 vs AC; 1d10+2 damage, and the vermin swarm makes a secondary attack on the same target.<br/>
+<em>Secondary Attack:</em> +5 vs Fortitude; 1d10 poison damage.<br/>
+<strong>Swarm</strong><br/>
+A swarm can occupy the same space as other creatures.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="large-vermin-swarm">Large Vermin Swarm </h4>
+<p><strong>Level 6 Striker</strong> (250 XP)<br/>
+Large Natural Beast ● Swarm (Unaligned)<br/>
+<strong>Senses:</strong> Perception +9, low-light vision; <strong>Skills:</strong> Stealth +12<br/>
+<strong>Str:</strong> 11 (+3), <strong>Con:</strong> 12 (+4), <strong>Dex:</strong> 18 (+7)<br/>
+<strong>Int:</strong> 2 (-1), <strong>Wis:</strong> 12 (+4), <strong>Cha:</strong> 10 (+3)</p>
+<p><strong>Initiative:</strong> +9; <strong>Speed:</strong> 6, climb 6 (compress Tiny)<br/>
+<strong>AC:</strong> 20; <strong>Fort:</strong> 17, <strong>Ref:</strong> 20, <strong>Will:</strong> 17<br/>
+<strong>HP:</strong> 54, <strong>Staggered:</strong> 27<br/>
+<strong>Resist:</strong> Melee and Ranged attacks (half damage), <strong>Vulnerable:</strong> Near and Far attacks 5<br/>
+<em>Swarm Damage aura 1:</em> If an enemy begins their turn in this aura, the swarm makes a basic melee attack against them as a free action.</p>
+<p>‡ <strong>Bites</strong> (standard, at-will) ● <strong>Poison</strong><br/>
++11 vs AC; 2d10+2 damage, and the vermin swarm makes a secondary attack on the same target.<br/>
+<em>Secondary Attack:</em> +9 vs Fortitude; 1d10 poison damage.<br/>
+<strong>Swarm</strong><br/>
+A swarm can occupy the same space as other creatures.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="small-webbing-spider">Small Webbing Spider </h4>
+<p><strong>Level 1 Skulker</strong> (100 XP)<br/>
+Small Natural Beast ● Spider (Unaligned)<br/>
+<strong>Senses:</strong> Perception +0, darkvision, tremorsense (when standing on a web, for contiguous web spaces only); <strong>Skills:</strong> Acrobatics +8, Athletics +3, Stealth +8<br/>
+<strong>Str:</strong> 7 (-2), <strong>Con:</strong> 10 (+0), <strong>Dex:</strong> 17 (+3)<br/>
+<strong>Int:</strong> 2 (-4), <strong>Wis:</strong> 10 (+0), <strong>Cha:</strong> 2 (-4)</p>
+<p><strong>Initiative:</strong> +3; <strong>Speed:</strong> 5 (web stride), climb 2 (wall-climber)<br/>
+<strong>AC:</strong> 13; <strong>Fort:</strong> 14, <strong>Ref:</strong> 12, <strong>Will:</strong> 13<br/>
+<strong>HP:</strong> 33, <strong>Staggered:</strong> 16</p>
+<p>‡ <strong>Bite</strong> (standard, at-will)<br/>
++6 vs AC; 1d10+3 damage, or 2d8+3 damage against a slowed, grappled, restrained or immobile target.<br/>
+† <strong>Gladiator's Strike</strong> (standard, refresh 4, 5, 6)<br/>
++6 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.<br/>
+<strong>Play Dead</strong> (swift, at-will) ● <strong>Stance</strong><br/>
+If the spider is hit by an attack, as an immediate reaction the spider makes a Bluff check against its enemies' passive Perception. On a successful check, it appears dead until it next acts.<br/>
+† <strong>Recluse Bite</strong> (standard, at-will) ● <strong>Necrotic</strong><br/>
++6 vs AC; 1d10+3 necrotic damage. <em>Secondary Attack:</em> +4 vs Fortitude; the target cannot heal necrotic damage from any source until the target's next long rest.<br/>
+† <strong>Snare</strong> (swift, at-will)<br/>
+Reach 4 (directly beneath the spider only); +6 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.<br/>
+† <strong>Spit Juices</strong> (standard, at-will) ● <strong>Acid</strong><br/>
+The target must be grappled or restrained: The target takes 10 persistent acid damage (save ends).<br/>
+∢ <strong>Spray Sticky Venom</strong> (standard, encounter) ● <strong>Poison</strong><br/>
+Near blast 3, all creatures without the Spider tag; +6 vs Fortitude; 1d10+3 poison damage and the target is immobile (save ends).<br/>
+<strong>Tethered Leap</strong> (move, at-will)<br/>
+The spider jumps 4 squares, or travels directly down 4 squares. The spider leaves a tether attached to the original square. It can jump back to the original square at any time as a swift action, provided the silk line to its tether remains intact and it hasn't moved more than 8 squares from the tether. Movement made as part of this ability never provokes opportunity attacks.<br/>
+† <strong>Venomous Bite</strong> (standard, at-will) ● <strong>Poison</strong><br/>
++6 vs AC; 1d10+3 poison damage and the target is slowed until the end of their next turn.<br/>
+† <strong>Wrap in Silk</strong> (standard, at-will)<br/>
++6 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="medium-webbing-spider">Medium Webbing Spider </h4>
+<p><strong>Level 4 Skulker</strong> (175 XP)<br/>
+Medium Natural Beast ● Spider (Unaligned)<br/>
+<strong>Senses:</strong> Perception +4, darkvision, tremorsense (when standing on a web, for contiguous web spaces only); <strong>Skills:</strong> Acrobatics +12, Athletics +9, Stealth +12<br/>
+<strong>Str:</strong> 11 (+2), <strong>Con:</strong> 12 (+3), <strong>Dex:</strong> 17 (+5)<br/>
+<strong>Int:</strong> 2 (-2), <strong>Wis:</strong> 10 (+2), <strong>Cha:</strong> 2 (-2)</p>
+<p><strong>Initiative:</strong> +7; <strong>Speed:</strong> 6 (web stride), climb 3 (wall-climber)<br/>
+<strong>AC:</strong> 16; <strong>Fort:</strong> 17, <strong>Ref:</strong> 15, <strong>Will:</strong> 16<br/>
+<strong>HP:</strong> 51, <strong>Staggered:</strong> 25</p>
+<p>‡ <strong>Bite</strong> (standard, at-will)<br/>
++9 vs AC; 1d12+5 damage, or 2d12+3 damage against a slowed, grappled, restrained or immobile target.<br/>
+† <strong>Gladiator's Strike</strong> (standard, refresh 4, 5, 6)<br/>
++9 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.<br/>
+<strong>Play Dead</strong> (swift, at-will) ● <strong>Stance</strong><br/>
+If the spider is hit by an attack, as an immediate reaction the spider makes a Bluff check against its enemies' passive Perception. On a successful check, it appears dead until it next acts.<br/>
+† <strong>Recluse Bite</strong> (standard, at-will) ● <strong>Necrotic</strong><br/>
++9 vs AC; 1d12+5 necrotic damage. <em>Secondary Attack:</em> +7 vs Fortitude; the target cannot heal necrotic damage from any source until the target's next long rest.<br/>
+† <strong>Snare</strong> (swift, at-will)<br/>
+Reach 4 (directly beneath the spider only); +9 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.<br/>
+† <strong>Spit Juices</strong> (standard, at-will) ● <strong>Acid</strong><br/>
+The target must be grappled or restrained: The target takes 15 persistent acid damage (save ends).<br/>
+∢ <strong>Spray Sticky Venom</strong> (standard, encounter) ● <strong>Poison</strong><br/>
+Near blast 3, all creatures without the Spider tag; +9 vs Fortitude; 1d12+5 poison damage and the target is immobile (save ends).<br/>
+<strong>Tethered Leap</strong> (move, at-will)<br/>
+The spider jumps 5 squares, or travels directly down 5 squares. The spider leaves a tether attached to the original square. It can jump back to the original square at any time as a swift action, provided the silk line to its tether remains intact and it hasn't moved more than 10 squares from the tether. Movement made as part of this ability never provokes opportunity attacks.<br/>
+† <strong>Venomous Bite</strong> (standard, at-will) ● <strong>Poison</strong><br/>
++9 vs AC; 1d12+5 poison damage and the target is slowed until the end of their next turn.<br/>
+† <strong>Wrap in Silk</strong> (standard, at-will)<br/>
++9 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="large-webbing-spider">Large Webbing Spider </h4>
+<p><strong>Level 8 Skulker</strong> (350 XP)<br/>
+Large Natural Beast ● Spider (Unaligned)<br/>
+<strong>Senses:</strong> Perception +8, darkvision, tremorsense (when standing on a web, for contiguous web spaces only); <strong>Skills:</strong> Acrobatics +16, Athletics +15, Stealth +16<br/>
+<strong>Str:</strong> 15 (+6), <strong>Con:</strong> 12 (+5), <strong>Dex:</strong> 17 (+7)<br/>
+<strong>Int:</strong> 2 (+0), <strong>Wis:</strong> 10 (+4), <strong>Cha:</strong> 2 (+0)</p>
+<p><strong>Initiative:</strong> +11; <strong>Speed:</strong> 6 (web stride), climb 4 (wall-climber)<br/>
+<strong>AC:</strong> 20; <strong>Fort:</strong> 21, <strong>Ref:</strong> 19, <strong>Will:</strong> 20<br/>
+<strong>HP:</strong> 75, <strong>Staggered:</strong> 37</p>
+<p>‡ <strong>Bite</strong> (standard, at-will)<br/>
++13 vs AC; 2d10+5 damage, or 3d10+5 damage against a slowed, grappled, restrained or immobile target.<br/>
+† <strong>Gladiator's Strike</strong> (standard, refresh 4, 5, 6)<br/>
++13 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.<br/>
+<strong>Play Dead</strong> (swift, at-will) ● <strong>Stance</strong><br/>
+If the spider is hit by an attack, as an immediate reaction the spider makes a Bluff check against its enemies' passive Perception. On a successful check, it appears dead until it next acts.<br/>
+† <strong>Recluse Bite</strong> (standard, at-will) ● <strong>Necrotic</strong><br/>
++13 vs AC; 2d10+5 necrotic damage. <em>Secondary Attack:</em> +11 vs Fortitude; the target cannot heal necrotic damage from any source until the target's next long rest.<br/>
+† <strong>Snare</strong> (swift, at-will)<br/>
+Reach 4 (directly beneath the spider only); +13 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.<br/>
+† <strong>Spit Juices</strong> (standard, at-will) ● <strong>Acid</strong><br/>
+The target must be grappled or restrained: The target takes 20 persistent acid damage (save ends).<br/>
+∢ <strong>Spray Sticky Venom</strong> (standard, encounter) ● <strong>Poison</strong><br/>
+Near blast 3, all creatures without the Spider tag; +13 vs Fortitude; 2d10+5 poison damage and the target is immobile (save ends).<br/>
+<strong>Tethered Leap</strong> (move, at-will)<br/>
+The spider jumps 6 squares, or travels directly down 6 squares. The spider leaves a tether attached to the original square. It can jump back to the original square at any time as a swift action, provided the silk line to its tether remains intact and it hasn't moved more than 12 squares from the tether. Movement made as part of this ability never provokes opportunity attacks.<br/>
+† <strong>Venomous Bite</strong> (standard, at-will) ● <strong>Poison</strong><br/>
++13 vs AC; 2d10+5 poison damage and the target is slowed until the end of their next turn.<br/>
+† <strong>Wrap in Silk</strong> (standard, at-will)<br/>
++13 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="huge-webbing-spider">Huge Webbing Spider </h4>
+<p><strong>Level 12 Skulker</strong> (700 XP)<br/>
+Huge Natural Beast ● Spider (Unaligned)<br/>
+<strong>Senses:</strong> Perception +12, darkvision, tremorsense (when standing on a web, for contiguous web spaces only); <strong>Skills:</strong> Acrobatics +20, Athletics +21, Stealth +20<br/>
+<strong>Str:</strong> 19 (+10), <strong>Con:</strong> 14 (+8), <strong>Dex:</strong> 17 (+9)<br/>
+<strong>Int:</strong> 2 (+2), <strong>Wis:</strong> 10 (+6), <strong>Cha:</strong> 2 (+2)</p>
+<p><strong>Initiative:</strong> +15; <strong>Speed:</strong> 8 (web stride), climb 6 (wall-climber)<br/>
+<strong>AC:</strong> 24; <strong>Fort:</strong> 25, <strong>Ref:</strong> 23, <strong>Will:</strong> 24<br/>
+<strong>HP:</strong> 99, <strong>Staggered:</strong> 49</p>
+<p>‡ <strong>Bite</strong> (standard, at-will)<br/>
++17 vs AC; 3d8+6 damage, or 6d6+6 damage against a slowed, grappled, restrained or immobile target.<br/>
+† <strong>Gladiator's Strike</strong> (standard, refresh 4, 5, 6)<br/>
++17 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.<br/>
+<strong>Play Dead</strong> (swift, at-will) ● <strong>Stance</strong><br/>
+If the spider is hit by an attack, as an immediate reaction the spider makes a Bluff check against its enemies' passive Perception. On a successful check, it appears dead until it next acts.<br/>
+† <strong>Recluse Bite</strong> (standard, at-will) ● <strong>Necrotic</strong><br/>
++17 vs AC; 3d8+6 necrotic damage. <em>Secondary Attack:</em> +15 vs Fortitude; the target cannot heal necrotic damage from any source until the target's next long rest.<br/>
+† <strong>Snare</strong> (swift, at-will)<br/>
+Reach 4 (directly beneath the spider only); +17 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.<br/>
+† <strong>Spit Juices</strong> (standard, at-will) ● <strong>Acid</strong><br/>
+The target must be grappled or restrained: The target takes 25 persistent acid damage (save ends).<br/>
+∢ <strong>Spray Sticky Venom</strong> (standard, encounter) ● <strong>Poison</strong><br/>
+Near blast 3, all creatures without the Spider tag; +17 vs Fortitude; 3d8+6 poison damage and the target is immobile (save ends).<br/>
+<strong>Tethered Leap</strong> (move, at-will)<br/>
+The spider jumps 6 squares, or travels directly down 6 squares. The spider leaves a tether attached to the original square. It can jump back to the original square at any time as a swift action, provided the silk line to its tether remains intact and it hasn't moved more than 12 squares from the tether. Movement made as part of this ability never provokes opportunity attacks.<br/>
+† <strong>Venomous Bite</strong> (standard, at-will) ● <strong>Poison</strong><br/>
++17 vs AC; 3d8+6 poison damage and the target is slowed until the end of their next turn.<br/>
+† <strong>Wrap in Silk</strong> (standard, at-will)<br/>
++17 vs Reflex; The target is slowed (save ends). If the target is already slowed, they are grappled until they escape. If they are already grappled, they are restrained until they escape the grapple.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="small-air-elemental">Small Air Elemental </h4>
+<p><strong>Level 5 Spoiler</strong> (200 XP)<br/>
+Small Elemental Automaton ● Air (Unaligned)<br/>
+<strong>Senses:</strong> Perception +4, darkvision<br/>
+<strong>Languages:</strong> Primordial<br/>
+<strong>Str:</strong> 10 (+2), <strong>Con:</strong> 10 (+2), <strong>Dex:</strong> 17 (+5)<br/>
+<strong>Int:</strong> 4 (-1), <strong>Wis:</strong> 11 (+2), <strong>Cha:</strong> 11 (+2)</p>
+<p><strong>Initiative:</strong> +7; <strong>Speed:</strong> fly 10<br/>
+<strong>AC:</strong> 19; <strong>Fort:</strong> 17, <strong>Ref:</strong> 16, <strong>Will:</strong> 18<br/>
+<strong>HP:</strong> 49, <strong>Staggered:</strong> 24</p>
+<p>‡ <strong>Buffet</strong> (standard, at-will) ● <strong>Air</strong><br/>
++8 vs Fortitude; The target is pushed 2 squares and falls prone.<br/>
+<strong>Pass Through</strong> (standard, at-will)<br/>
+The air elemental must be invisible: The air elemental moves up to its speed, with phasing. Make a basic melee attack against all creatures moved through.<br/>
+<strong>Lesser Air</strong> (standard, at-will) ● <strong>Illusion</strong><br/>
+The air elemental becomes invisible. After it completes a move or attack, or after it is hit by an attack, it becomes visible.<br/>
+↗ <strong>Control Wind</strong> (standard, at-will) ● <strong>Air</strong><br/>
++8 vs Fortitude; The target is shunted 2 squares.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="medium-air-elemental">Medium Air Elemental </h4>
+<p><strong>Level 9 Spoiler</strong> (400 XP)<br/>
+Medium Elemental Automaton ● Air (Unaligned)<br/>
+<strong>Senses:</strong> Perception +8, darkvision<br/>
+<strong>Languages:</strong> Primordial<br/>
+<strong>Str:</strong> 12 (+5), <strong>Con:</strong> 14 (+6), <strong>Dex:</strong> 21 (+9)<br/>
+<strong>Int:</strong> 4 (+1), <strong>Wis:</strong> 11 (+4), <strong>Cha:</strong> 11 (+4)</p>
+<p><strong>Initiative:</strong> +13; <strong>Speed:</strong> fly 10<br/>
+<strong>AC:</strong> 23; <strong>Fort:</strong> 21, <strong>Ref:</strong> 20, <strong>Will:</strong> 22<br/>
+<strong>HP:</strong> 69, <strong>Staggered:</strong> 34<br/>
+<em>Clattering din aura 2</em> Creatures that begin their turn within the aura are rattled and deafened until they leave the aura.</p>
+<p>‡ <strong>Buffet</strong> (standard, at-will) ● <strong>Air</strong><br/>
++12 vs Fortitude; The target is pushed 3 squares and falls prone.<br/>
+<strong>Pass Through</strong> (standard, at-will)<br/>
+The air elemental must be invisible: The air elemental moves up to its speed, with phasing. Make a basic melee attack against all creatures moved through.<br/>
+<strong>Lesser Air</strong> (standard, at-will) ● <strong>Illusion</strong><br/>
+The air elemental becomes invisible. After it completes a move or attack, or after it is hit by an attack, it becomes visible.<br/>
+↗ <strong>Control Wind</strong> (standard, at-will) ● <strong>Air</strong><br/>
++12 vs Fortitude; The target is shunted 2 squares.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="large-air-elemental">Large Air Elemental </h4>
+<p><strong>Level 13 Spoiler</strong> (800 XP)<br/>
+Large Elemental Automaton ● Air (Unaligned)<br/>
+<strong>Senses:</strong> Perception +12, darkvision; <strong>Skills:</strong> Acrobatics +24<br/>
+<strong>Languages:</strong> Primordial<br/>
+<strong>Str:</strong> 14 (+8), <strong>Con:</strong> 16 (+9), <strong>Dex:</strong> 25 (+13)<br/>
+<strong>Int:</strong> 6 (+4), <strong>Wis:</strong> 11 (+6), <strong>Cha:</strong> 11 (+6)</p>
+<p><strong>Initiative:</strong> +19; <strong>Speed:</strong> fly 10<br/>
+<strong>AC:</strong> 27; <strong>Fort:</strong> 25, <strong>Ref:</strong> 24, <strong>Will:</strong> 26<br/>
+<strong>HP:</strong> 89, <strong>Staggered:</strong> 44<br/>
+<em>Clattering din aura 2</em> Creatures that begin their turn within the aura are rattled and deafened until they leave the aura.</p>
+<p>‡ <strong>Buffet</strong> (standard, at-will) ● <strong>Air</strong><br/>
++16 vs Fortitude; The target is pushed 4 squares and falls prone.<br/>
+<strong>Pass Through</strong> (standard, at-will)<br/>
+The air elemental must be invisible: The air elemental moves up to its speed, with phasing. Make a basic melee attack against all creatures moved through.<br/>
+<strong>Lesser Air</strong> (standard, at-will) ● <strong>Illusion</strong><br/>
+The air elemental becomes invisible. After it completes a move or attack, or after it is hit by an attack, it becomes visible.<br/>
+↗ <strong>Control Wind</strong> (standard, at-will) ● <strong>Air</strong><br/>
++16 vs Fortitude; The target is shunted 3 squares.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="small-earth-elemental">Small Earth Elemental </h4>
+<p><strong>Level 3 Skulker</strong> (150 XP)<br/>
+Small Elemental Automaton ● Earth (Unaligned)<br/>
+<strong>Senses:</strong> Perception +2, tremorsense 12; <strong>Skills:</strong> Endure +8<br/>
+<strong>Languages:</strong> Primordial<br/>
+<strong>Str:</strong> 17 (+4), <strong>Con:</strong> 13 (+2), <strong>Dex:</strong> 8 (+0)<br/>
+<strong>Int:</strong> 4 (-2), <strong>Wis:</strong> 11 (+1), <strong>Cha:</strong> 11 (+1)</p>
+<p><strong>Initiative:</strong> +1; <strong>Speed:</strong> 4, burrow 4 (earth glide)<br/>
+<strong>AC:</strong> 15; <strong>Fort:</strong> 16, <strong>Ref:</strong> 14, <strong>Will:</strong> 15<br/>
+<strong>HP:</strong> 45, <strong>Staggered:</strong> 22</p>
+<p>‡ <strong>Slam</strong> (standard, at-will) ● <strong>Air</strong><br/>
++8 vs AC; 1d12+4 damage.<br/>
+<strong>Hardened Skin</strong> (swift, at-will) ● <strong>Stance</strong><br/>
+While in this stance, the earth elemental can halve the damage it takes from attack as an immediate counter. It then leaves this stance.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="medium-earth-elemental">Medium Earth Elemental </h4>
+<p><strong>Level 7 Skulker</strong> (300 XP)<br/>
+Medium Elemental Automaton ● Earth (Unaligned)<br/>
+<strong>Senses:</strong> Perception +6, tremorsense 12; <strong>Skills:</strong> Endure +14<br/>
+<strong>Languages:</strong> Primordial<br/>
+<strong>Str:</strong> 21 (+8), <strong>Con:</strong> 17 (+6), <strong>Dex:</strong> 8 (+2)<br/>
+<strong>Int:</strong> 4 (+0), <strong>Wis:</strong> 11 (+3), <strong>Cha:</strong> 11 (+3)</p>
+<p><strong>Initiative:</strong> +5; <strong>Speed:</strong> 4, burrow 4 (earth glide)<br/>
+<strong>AC:</strong> 19; <strong>Fort:</strong> 20, <strong>Ref:</strong> 18, <strong>Will:</strong> 19<br/>
+<strong>HP:</strong> 69, <strong>Staggered:</strong> 34</p>
+<p>‡ <strong>Slam</strong> (standard, at-will) ● <strong>Air</strong><br/>
++12 vs AC; 2d10+4 damage.<br/>
+<strong>Hardened Skin</strong> (swift, at-will) ● <strong>Stance</strong><br/>
+While in this stance, the earth elemental can halve the damage it takes from attack as an immediate counter. It then leaves this stance.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="large-earth-elemental">Large Earth Elemental </h4>
+<p><strong>Level 11 Skulker</strong> (600 XP)<br/>
+Large Elemental Automaton ● Earth (Unaligned)<br/>
+<strong>Senses:</strong> Perception +10, tremorsense 12; <strong>Skills:</strong> Endure +18<br/>
+<strong>Languages:</strong> Primordial<br/>
+<strong>Str:</strong> 25 (+12), <strong>Con:</strong> 17 (+8), <strong>Dex:</strong> 19 (+9)<br/>
+<strong>Int:</strong> 6 (+3), <strong>Wis:</strong> 11 (+5), <strong>Cha:</strong> 11 (+5)</p>
+<p><strong>Initiative:</strong> +14; <strong>Speed:</strong> 4, burrow 4 (earth glide)<br/>
+<strong>AC:</strong> 23; <strong>Fort:</strong> 24, <strong>Ref:</strong> 22, <strong>Will:</strong> 23<br/>
+<strong>HP:</strong> 93, <strong>Staggered:</strong> 46</p>
+<p>‡ <strong>Slam</strong> (standard, at-will) ● <strong>Air</strong><br/>
++16 vs AC; 3d8+5 damage.<br/>
+<strong>Hardened Skin</strong> (swift, at-will) ● <strong>Stance</strong><br/>
+While in this stance, the earth elemental can halve the damage it takes from attack as an immediate counter. It then leaves this stance.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="small-fire-elemental">Small Fire Elemental </h4>
+<p><strong>Level 4 Striker</strong> (175 XP)<br/>
+Small Elemental Automaton ● Fire (Unaligned)<br/>
+<strong>Senses:</strong> Perception +4, darkvision<br/>
+<strong>Languages:</strong> Primordial<br/>
+<strong>Str:</strong> 10 (+2), <strong>Con:</strong> 10 (+2), <strong>Dex:</strong> 13 (+3)<br/>
+<strong>Int:</strong> 4 (-1), <strong>Wis:</strong> 11 (+2), <strong>Cha:</strong> 11 (+2)</p>
+<p><strong>Initiative:</strong> +5; <strong>Speed:</strong> 6<br/>
+<strong>AC:</strong> 18; <strong>Fort:</strong> 15, <strong>Ref:</strong> 17, <strong>Will:</strong> 16<br/>
+<strong>HP:</strong> 44, <strong>Staggered:</strong> 22<br/>
+<strong>Resist:</strong> fire 10</p>
+<p>‡ <strong>Burn</strong> (standard, at-will) ● <strong>Fire</strong><br/>
++7 vs Reflex; The target takes 5 persistent fire damage (save ends). If it is already taking persistent fire damage, the amount it is taking increases by 5.<br/>
+<strong>Doused</strong><br/>
+If the fire elemental is doused in water, smothered or otherwise risks being put out, it loses the <em>burn</em> power (save ends).</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="medium-fire-elemental">Medium Fire Elemental </h4>
+<p><strong>Level 8 Striker</strong> (350 XP)<br/>
+Medium Elemental Automaton ● Fire (Unaligned)<br/>
+<strong>Senses:</strong> Perception +8, darkvision<br/>
+<strong>Languages:</strong> Primordial<br/>
+<strong>Str:</strong> 12 (+5), <strong>Con:</strong> 14 (+6), <strong>Dex:</strong> 17 (+7)<br/>
+<strong>Int:</strong> 4 (+1), <strong>Wis:</strong> 11 (+4), <strong>Cha:</strong> 11 (+4)</p>
+<p><strong>Initiative:</strong> +11; <strong>Speed:</strong> 6<br/>
+<strong>AC:</strong> 22; <strong>Fort:</strong> 19, <strong>Ref:</strong> 21, <strong>Will:</strong> 20<br/>
+<strong>HP:</strong> 64, <strong>Staggered:</strong> 32<br/>
+<strong>Resist:</strong> fire 15</p>
+<p>‡ <strong>Burn</strong> (standard, at-will) ● <strong>Fire</strong><br/>
++11 vs Reflex; The target takes 10 persistent fire damage (save ends). If it is already taking persistent fire damage, the amount it is taking increases by 10.<br/>
+<strong>Doused</strong><br/>
+If the fire elemental is doused in water, smothered or otherwise risks being put out, it loses the <em>burn</em> power (save ends).</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="large-fire-elemental">Large Fire Elemental </h4>
+<p><strong>Level 12 Striker</strong> (700 XP)<br/>
+Large Elemental Automaton ● Fire (Unaligned)<br/>
+<strong>Senses:</strong> Perception +12, darkvision<br/>
+<strong>Languages:</strong> Primordial<br/>
+<strong>Str:</strong> 14 (+8), <strong>Con:</strong> 14 (+8), <strong>Dex:</strong> 21 (+11)<br/>
+<strong>Int:</strong> 6 (+4), <strong>Wis:</strong> 11 (+6), <strong>Cha:</strong> 11 (+6)</p>
+<p><strong>Initiative:</strong> +17; <strong>Speed:</strong> 8<br/>
+<strong>AC:</strong> 26; <strong>Fort:</strong> 23, <strong>Ref:</strong> 25, <strong>Will:</strong> 24<br/>
+<strong>HP:</strong> 84, <strong>Staggered:</strong> 42<br/>
+<strong>Resist:</strong> fire 20</p>
+<p>‡ <strong>Burn</strong> (standard, at-will) ● <strong>Fire</strong><br/>
++15 vs Reflex; The target takes 15 persistent fire damage (save ends). If it is already taking persistent fire damage, the amount it is taking increases by 15.<br/>
+<strong>Doused</strong><br/>
+If the fire elemental is doused in water, smothered or otherwise risks being put out, it loses the <em>burn</em> power (save ends). </p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="small-water-elemental">Small Water Elemental </h4>
+<p><strong>Level 3 Spoiler</strong> (150 XP)<br/>
+Small Elemental Automaton ● Water (Unaligned)<br/>
+<strong>Senses:</strong> Perception +2, darkvision; <strong>Skills:</strong> Athletics +9<br/>
+<strong>Languages:</strong> Primordial<br/>
+<strong>Str:</strong> 14 (+3), <strong>Con:</strong> 13 (+2), <strong>Dex:</strong> 10 (+1)<br/>
+<strong>Int:</strong> 4 (-2), <strong>Wis:</strong> 11 (+1), <strong>Cha:</strong> 11 (+1)</p>
+<p><strong>Initiative:</strong> +2; <strong>Speed:</strong> 4, swim 10<br/>
+<strong>AC:</strong> 17; <strong>Fort:</strong> 15, <strong>Ref:</strong> 14, <strong>Will:</strong> 16<br/>
+<strong>HP:</strong> 39, <strong>Staggered:</strong> 19<br/>
+<em>Vortex aura 2</em> Water in the area that is in the same body of water as the water elemental is difficult terrain for swimming creatures that don’t have the Water tag.</p>
+<p>‡ <strong>Wave</strong> (standard, at-will) ● <strong>Water</strong><br/>
++8 vs AC; 1d12+4 damage and the target is shunted 1 square.<br/>
+∢ <strong>Drench</strong> (swift, at-will) ● <strong>Water</strong><br/>
+Near burst 2; All non-magical fires are extinguished. Creatures taking persistent fire damage no longer do so. Any ongoing powers with the Fire tag end immediately.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="medium-water-elemental">Medium Water Elemental </h4>
+<p><strong>Level 7 Spoiler</strong> (300 XP)<br/>
+Medium Elemental Automaton ● Water (Unaligned)<br/>
+<strong>Senses:</strong> Perception +6, darkvision; <strong>Skills:</strong> Athletics +14<br/>
+<strong>Languages:</strong> Primordial<br/>
+<strong>Str:</strong> 16 (+6), <strong>Con:</strong> 17 (+6), <strong>Dex:</strong> 12 (+4)<br/>
+<strong>Int:</strong> 4 (+0), <strong>Wis:</strong> 11 (+3), <strong>Cha:</strong> 11 (+3)</p>
+<p><strong>Initiative:</strong> +7; <strong>Speed:</strong> 4, swim 10<br/>
+<strong>AC:</strong> 21; <strong>Fort:</strong> 19, <strong>Ref:</strong> 18, <strong>Will:</strong> 20<br/>
+<strong>HP:</strong> 59, <strong>Staggered:</strong> 29<br/>
+<em>Vortex aura 3</em> Water in the area that is in the same body of water as the water elemental is difficult terrain for swimming creatures that don’t have the Water tag.</p>
+<p>‡ <strong>Wave</strong> (standard, at-will) ● <strong>Water</strong><br/>
++12 vs AC; 2d10+4 damage and the target is shunted 2 squares.<br/>
+∢ <strong>Drench</strong> (swift, at-will) ● <strong>Water</strong><br/>
+Near burst 3; All non-magical fires are extinguished. Creatures taking persistent fire damage no longer do so. Any ongoing powers with the Fire tag end immediately.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="large-water-elemental">Large Water Elemental </h4>
+<p><strong>Level 11 Spoiler</strong> (600 XP)<br/>
+Large Elemental Automaton ● Water (Unaligned)<br/>
+<strong>Senses:</strong> Perception +10, darkvision; <strong>Skills:</strong> Athletics +20<br/>
+<strong>Languages:</strong> Primordial<br/>
+<strong>Str:</strong> 20 (+10), <strong>Con:</strong> 19 (+9), <strong>Dex:</strong> 14 (+7)<br/>
+<strong>Int:</strong> 6 (+3), <strong>Wis:</strong> 11 (+5), <strong>Cha:</strong> 11 (+5)</p>
+<p><strong>Initiative:</strong> +12; <strong>Speed:</strong> 4, swim 10<br/>
+<strong>AC:</strong> 25; <strong>Fort:</strong> 23, <strong>Ref:</strong> 22, <strong>Will:</strong> 24<br/>
+<strong>HP:</strong> 79, <strong>Staggered:</strong> 39<br/>
+<em>Vortex aura 4</em> Water in the area that is in the same body of water as the water elemental is difficult terrain for swimming creatures that don’t have the Water tag.</p>
+<p>‡ <strong>Wave</strong> (standard, at-will) ● <strong>Water</strong><br/>
++16 vs AC; 3d8+5 damage and the target is shunted 4 squares.<br/>
+∢ <strong>Drench</strong> (swift, at-will) ● <strong>Water</strong><br/>
+Near burst 4; All non-magical fires are extinguished. Creatures taking persistent fire damage no longer do so. Any ongoing powers with the Fire tag end immediately.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="ghoul">Ghoul </h4>
+<p><strong>Level 5 Striker</strong> (200 XP)<br/>
+Medium Natural Humanoid ● Undead (Unaligned)<br/>
+<strong>Senses:</strong> Perception +6, darkvision; <strong>Skills:</strong> Acrobatics +11, Athletics +10, Stealth +11<br/>
+<strong>Str:</strong> 13 (+3), <strong>Con:</strong> 10 (+2), <strong>Dex:</strong> 15 (+4)<br/>
+<strong>Int:</strong> 13 (+3), <strong>Wis:</strong> 14 (+4), <strong>Cha:</strong> 12 (+3)</p>
+<p><strong>Initiative:</strong> +6; <strong>Speed:</strong> 6<br/>
+<strong>AC:</strong> 19; <strong>Fort:</strong> 16, <strong>Ref:</strong> 18, <strong>Will:</strong> 17<br/>
+<strong>HP:</strong> 49, <strong>Staggered:</strong> 24<br/>
+<strong>Immune:</strong> disease, <strong>Resist:</strong> necrotic 5, <strong>Vulnerable:</strong> radiant 5</p>
+<p>‡ <strong>Claw</strong> (standard, at-will)<br/>
++10 vs AC; 2d8+4 damage and the target is immobile until the end of its next turn. If the target is already immobile, it loses 1 recovery. If the target loses all their recoveries, they turn into a ghoul after their next long rest.<br/>
+<strong>Shuffle</strong> (swift, at-will)<br/>
+The ghoul shifts 1 space.<br/>
+<strong>Easy Pickings</strong><br/>
+The ghoul automatically hits creatures that are immobile.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="ghast">Ghast </h4>
+<p><strong>Level 9 Striker</strong> (400 XP)<br/>
+Medium Natural Humanoid ● Undead (Unaligned)<br/>
+<strong>Senses:</strong> Perception +10, darkvision; <strong>Skills:</strong> Acrobatics +16, Athletics +16, Stealth +16<br/>
+<strong>Str:</strong> 17 (+7), <strong>Con:</strong> 10 (+4), <strong>Dex:</strong> 17 (+7)<br/>
+<strong>Int:</strong> 13 (+5), <strong>Wis:</strong> 14 (+6), <strong>Cha:</strong> 16 (+7)</p>
+<p><strong>Initiative:</strong> +11; <strong>Speed:</strong> 6<br/>
+<strong>AC:</strong> 23; <strong>Fort:</strong> 20, <strong>Ref:</strong> 22, <strong>Will:</strong> 21<br/>
+<strong>HP:</strong> 69, <strong>Staggered:</strong> 34<br/>
+<strong>Immune:</strong> disease, <strong>Resist:</strong> necrotic 5, <strong>Vulnerable:</strong> radiant 5<br/>
+<em>Stench aura 1</em> Living creatures that begin their turn in the aura grant combat advantage until the end of their next turn.</p>
+<p>‡ <strong>Claw</strong> (standard, at-will)<br/>
++14 vs AC; 2d12+4 damage and the target is immobile until the end of its next turn. If the target is already immobile, it loses 1 recovery. If the target loses all their recoveries, they turn into a ghast after their next long rest.<br/>
+<strong>Shuffle</strong> (swift, at-will)<br/>
+The ghast shifts 1 space.<br/>
+<strong>Easy Pickings</strong><br/>
+The ghast automatically hits creatures that are immobile.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="section"></h4><blockquote class="power-body"></div><div class="card"><h4 class="Heading-4---Monster" id="ogre">Ogre </h4>
+<p><strong>Level 10 Wrecker</strong> (500 XP)<br/>
+Large Natural Humanoid ● Giant (Evil)<br/>
+<strong>Senses:</strong> Perception +10; <strong>Skills:</strong> Athletics +20<br/>
+<strong>Languages:</strong> Common, Giantish<br/>
+<strong>Str:</strong> 21 (+10), <strong>Con:</strong> 8 (+4), <strong>Dex:</strong> 15 (+7)<br/>
+<strong>Int:</strong> 6 (+3), <strong>Wis:</strong> 10 (+5), <strong>Cha:</strong> 7 (+3)</p>
+<p><strong>Initiative:</strong> +12; <strong>Speed:</strong> 6<br/>
+<strong>AC:</strong> 22; <strong>Fort:</strong> 23, <strong>Ref:</strong> 21, <strong>Will:</strong> 22<br/>
+<strong>HP:</strong> 87, <strong>Staggered:</strong> 43</p>
+<p>‡ <strong>Greatclub</strong> (standard, at-will) ● <strong>Club, Weapon</strong><br/>
+Reach 2; +15 vs AC; 2d12+10 damage. <em>Secondary Attack:</em> +15 vs Fortitude; the target is dazed.<br/>
+⤢ <strong>Javelin</strong> (standard, at-will) ● <strong>Thrown Weapon, Weapon</strong><br/>
+Ranged 5/10; +15 vs AC; 2d12+5 damage and the target suffers a -2 penalty to AC until they spend a swift action pulling the javelin from where it has lodged.<br/>
+<strong>Wild Swing</strong> (standard, encounter)<br/>
+Make a basic melee attack against all enemies in reach. If the attack hits, push the target 2 squares and they fall prone.<br/>
+<strong>Punisher</strong> (swift, at-will) ● <strong>Club, Stance</strong><br/>
+If the ogre starts its turn in this stance, and it is wielding a club, it does 6 damage to an enemy in reach. While in this stance, the ogre cannot make opportunity attacks.<br/>
+<strong>Throw and Rush</strong> (swift, at-will) ● <strong>Stance, Thrown Weapon</strong><br/>
+If the ogre starts its turn in this stance, it can make a basic ranged attack with a thrown weapon, switch weapons and charge the same enemy it threw the javelin at. If so, it then leaves this stance and its turn ends.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="hill-giant">Hill Giant </h4>
+<p><strong>Level 12 Wrecker</strong> (700 XP)<br/>
+Large Natural Humanoid ● Giant (Evil)<br/>
+<strong>Senses:</strong> Perception +12; <strong>Skills:</strong> Athletics +24<br/>
+<strong>Languages:</strong> Common, Giantish<br/>
+<strong>Str:</strong> 25 (+13), <strong>Con:</strong> 19 (+10), <strong>Dex:</strong> 8 (+5)<br/>
+<strong>Int:</strong> 6 (+4), <strong>Wis:</strong> 10 (+6), <strong>Cha:</strong> 7 (+4)</p>
+<p><strong>Initiative:</strong> +11; <strong>Speed:</strong> 6<br/>
+<strong>AC:</strong> 24; <strong>Fort:</strong> 25, <strong>Ref:</strong> 23, <strong>Will:</strong> 24<br/>
+<strong>HP:</strong> 99, <strong>Staggered:</strong> 49</p>
+<p>‡ <strong>Greatclub</strong> (standard, at-will) ● <strong>Club, Weapon</strong><br/>
+Reach 2; +17 vs AC; 3d8+11 damage. <em>Secondary Attack:</em> +17 vs Fortitude; the target is dazed.<br/>
+⤢ <strong>Rock</strong> (standard, at-will) ● <strong>Weapon</strong><br/>
+Far arc 2 within 10; +17 vs AC (There must be a suitable rock within reach); 3d8+11 damage and the target is pushed 2 squares and knocked prone.<br/>
+<strong>Punisher</strong> (swift, at-will) ● <strong>Club, Stance</strong><br/>
+If the giant starts its turn in this stance, and it is wielding a club, it does 6 damage to an enemy in reach. While in this stance, the giant cannot make opportunity attacks.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="fire-giant">Fire Giant </h4>
+<p><strong>Level 14 Spoiler</strong> (1000 XP)<br/>
+Large Elemental Humanoid ● Fire, Giant (Evil)<br/>
+<strong>Senses:</strong> Perception +16; <strong>Skills:</strong> Athletics +29, Intimidate +19<br/>
+<strong>Languages:</strong> Common, Giantish, Primordial<br/>
+<strong>Str:</strong> 31 (+17), <strong>Con:</strong> 21 (+12), <strong>Dex:</strong> 9 (+6)<br/>
+<strong>Int:</strong> 10 (+7), <strong>Wis:</strong> 14 (+9), <strong>Cha:</strong> 11 (+7)</p>
+<p><strong>Initiative:</strong> +13; <strong>Speed:</strong> 6<br/>
+<strong>AC:</strong> 26; <strong>Fort:</strong> 27, <strong>Ref:</strong> 25, <strong>Will:</strong> 26<br/>
+<strong>HP:</strong> 111, <strong>Staggered:</strong> 55<br/>
+Burning aura 2: Creatures take 7 fire damage if they begin their turns in the aura.</p>
+<p>‡ <strong>Greatsword</strong> (standard, at-will) ● <strong>Heavy Blade, Weapon</strong><br/>
+Reach 2; +19 vs AC; 3d10+5 damage, and do 8 damage to a creature adjacent to the giant or the target.<br/>
+⤢ <strong>Rock</strong> (standard, at-will) ● <strong>Weapon</strong><br/>
+Far arc 2 within 10; +19 vs AC (There must be a suitable rock within reach); 3d10+5 damage and the target is pushed 2 squares and knocked prone.<br/>
+↗ <strong>Provoke the Earth</strong> (swift, once per round) ● <strong>Fire</strong><br/>
+Ranged 10; A fire- or earth-based trap or hazard of your choice triggers, even if it has already been expended.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="frost-giant">Frost Giant </h4>
+<p><strong>Level 16 Wrecker</strong> (1400 XP)<br/>
+Large Elemental Humanoid ● Cold, Giant (Evil)<br/>
+<strong>Senses:</strong> Perception +18; <strong>Skills:</strong> Athletics +30<br/>
+<strong>Languages:</strong> Common, Giantish, Primordial<br/>
+<strong>Str:</strong> 29 (+17), <strong>Con:</strong> 21 (+13), <strong>Dex:</strong> 9 (+7)<br/>
+<strong>Int:</strong> 10 (+8), <strong>Wis:</strong> 14 (+10), <strong>Cha:</strong> 11 (+8)</p>
+<p><strong>Initiative:</strong> +15; <strong>Speed:</strong> 6<br/>
+<strong>AC:</strong> 28; <strong>Fort:</strong> 29, <strong>Ref:</strong> 27, <strong>Will:</strong> 28<br/>
+<strong>HP:</strong> 123, <strong>Staggered:</strong> 61</p>
+<p>‡ <strong>Greataxe</strong> (standard, at-will) ● <strong>Axe, Weapon</strong><br/>
+Reach 2; +21 vs AC; 3d10+13 damage; on a miss, do 9 damage.<br/>
+⤢ <strong>Throw Ice</strong> (standard, at-will) ● <strong>Weapon</strong><br/>
+Far arc 2 within 10; +21 vs AC (There must be a suitable chunk of ice within reach); 3d10+7 cold damage and the target is pushed 2 squares and knocked prone.<br/>
+<strong>Slip</strong> (swift, at-will) ● <strong>Stance</strong><br/>
+While in this stance, when the giant moves (willingly or unwillingly), at the end of the move the giant can shift 2 squares.<br/>
+<strong>Blood Lust</strong> (swift, at-will) ● <strong>Axe, Stance</strong><br/>
+While in this stance, if an attack causes you to become staggered, as a reaction you can make a basic melee attack against the creature that attacked you.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="stone-giant">Stone Giant </h4>
+<p><strong>Level 18 Wrecker</strong> (2000 XP)<br/>
+Huge Elemental Humanoid ● Earth, Giant (Unaligned)<br/>
+<strong>Senses:</strong> Perception +19; <strong>Skills:</strong> Athletics +31, Stealth +25<br/>
+<strong>Languages:</strong> Common, Giantish, Primordial<br/>
+<strong>Str:</strong> 27 (+17), <strong>Con:</strong> 19 (+13), <strong>Dex:</strong> 15 (+11)<br/>
+<strong>Int:</strong> 10 (+9), <strong>Wis:</strong> 12 (+10), <strong>Cha:</strong> 11 (+9)</p>
+<p><strong>Initiative:</strong> +20; <strong>Speed:</strong> 8<br/>
+<strong>AC:</strong> 30; <strong>Fort:</strong> 31, <strong>Ref:</strong> 29, <strong>Will:</strong> 30<br/>
+<strong>HP:</strong> 135, <strong>Staggered:</strong> 67</p>
+<p>‡ <strong>Greatclub</strong> (standard, at-will) ● <strong>Club, Weapon</strong><br/>
+Reach 2; +23 vs AC; 4d8+15 damage and make a secondary attack. <em>Secondary Attack:</em> +23 vs Fortitude; the target is dazed until the end of its next turn.<br/>
+⤢ <strong>Rock</strong> (standard, at-will) ● <strong>Weapon</strong><br/>
+Far arc 2 within 10; +23 vs AC (There must be a suitable rock within reach); 4d8+8 damage and the target is pushed 2 squares and knocked prone.<br/>
+<strong>Meld with Stone</strong> (swift, encounter) ● <strong>Stance</strong><br/>
+While in this stance, the giant gains burrow 8 (earth glide). This stance ends when the giant next emerges from the earth/stone.<br/>
+<strong>Hardened Skin</strong> (swift, at-will) ● <strong>Stance</strong><br/>
+While in this stance, the giant can halve the damage it takes from one attack as an immediate counter. It then leaves this stance.<br/>
+<strong>Punisher</strong> (swift, at-will) ● <strong>Stance</strong><br/>
+If the giant starts its turn in this stance, and it is wielding a club, it does 6 damage to an enemy in reach. While in this stance, the giant cannot make opportunity attacks.</p>
+</div><div class="card"><h4 class="Heading-4---Monster" id="storm-giant">Storm Giant </h4>
+<p><strong>Level 20 Spoiler</strong> (2800 XP)<br/>
+Huge Elemental Humanoid ● Giant, Lightning (Unaligned)<br/>
+<strong>Senses:</strong> Perception +30; <strong>Skills:</strong> Athletics +39, Insight +30, Intimidate +27<br/>
+<strong>Languages:</strong> Common, Giantish, Primordial<br/>
+<strong>Str:</strong> 39 (+24), <strong>Con:</strong> 23 (+16), <strong>Dex:</strong> 14 (+12)<br/>
+<strong>Int:</strong> 16 (+13), <strong>Wis:</strong> 20 (+15), <strong>Cha:</strong> 15 (+12)</p>
+<p><strong>Initiative:</strong> +22; <strong>Speed:</strong> 8<br/>
+<strong>AC:</strong> 34; <strong>Fort:</strong> 32, <strong>Ref:</strong> 31, <strong>Will:</strong> 33<br/>
+<strong>HP:</strong> 124, <strong>Staggered:</strong> 62</p>
+<p>‡ <strong>Greatsword</strong> (standard, at-will) ● <strong>Heavy Blade, Weapon</strong><br/>
+Reach 2; +25 vs AC; 6d6+7 damage, and do 11 damage to a creature adjacent to the giant or the target.<br/>
+⤢ <strong>Rock</strong> (standard, at-will) ● <strong>Weapon</strong><br/>
+Far arc 2 within 10; +25 vs AC (There must be a suitable rock within reach); 6d6+7 damage and the target is pushed 2 squares and knocked prone.<br/>
+↗ <strong>Lightning Bolt</strong> (standard, encounter) ● <strong>Lightning</strong><br/>
+Ranged 10; +23 vs Reflex; 7d8+6 lightning damage and the target is dazed (save ends).<br/>
+<strong>Bolt from the Blue</strong> (swift, at-will) ● <strong>Stance</strong><br/>
+While in this stance, the <em>lightning bolt</em> power recharges at the start of each of the giant's turns. The giant cannot make opportunity attacks while in this stance.</p>
+</div>
+
+</div>
+
+
+
+</body>
+</html>
