@@ -85,12 +85,11 @@ margin-bottom: 0pt;
 }
 
 .layout-with-sidebar {
-  display: grid;
-  grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
-  gap: 24px;
+  position: relative;
 }
 
 .layout-with-sidebar .sidebar {
+  width: 260px;
   align-self: start;
   position: sticky;
   top: 1rem;
@@ -100,6 +99,13 @@ margin-bottom: 0pt;
   border: 1px solid #d0d0d0;
   background: #f7f7f7;
   border-radius: 6px;
+  margin: 0;
+  float: right;
+  margin-right: -300px;
+}
+
+.layout-with-sidebar .content {
+  min-width: 0;
 }
 
 .layout-with-sidebar .sidebar ul {
@@ -112,6 +118,10 @@ margin-bottom: 0pt;
   margin-left: 16px;
 }
 
+.layout-with-sidebar .sidebar ul ul ul {
+  display: none;
+}
+
 .layout-with-sidebar .sidebar a {
   text-decoration: none;
 }
@@ -121,13 +131,13 @@ margin-bottom: 0pt;
 }
 
 @media (max-width: 900px) {
-  .layout-with-sidebar {
-    grid-template-columns: 1fr;
-  }
-
   .layout-with-sidebar .sidebar {
     position: static;
     max-height: none;
+    float: none;
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 16px;
   }
 }
   </style>
