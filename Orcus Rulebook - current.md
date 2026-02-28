@@ -7,8 +7,8 @@ footer: ${pageNo}
 
 # Rulebook
 
-<div class="layout-with-sidebar">
-  <aside class="sidebar">
+<div class="layout-with-sidebar" markdown="1">
+  <aside class="sidebar" markdown="1">
 
   ## On this page
 
@@ -16,7 +16,7 @@ footer: ${pageNo}
   {:toc}
 
   </aside>
-  <div class="content">
+  <div class="content" markdown="1">
 
 1.1
 
