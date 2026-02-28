@@ -83,6 +83,53 @@ h4.Heading-4---Monster{
 blockquote p {margin-top: 0pt;
 margin-bottom: 0pt;
 }
+
+.layout-with-sidebar {
+  display: grid;
+  grid-template-columns: minmax(220px, 280px) minmax(0, 1fr);
+  gap: 24px;
+}
+
+.layout-with-sidebar .sidebar {
+  align-self: start;
+  position: sticky;
+  top: 1rem;
+  max-height: calc(100vh - 2rem);
+  overflow: auto;
+  padding: 12px 14px;
+  border: 1px solid #d0d0d0;
+  background: #f7f7f7;
+  border-radius: 6px;
+}
+
+.layout-with-sidebar .sidebar ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.layout-with-sidebar .sidebar ul ul {
+  margin-left: 16px;
+}
+
+.layout-with-sidebar .sidebar a {
+  text-decoration: none;
+}
+
+.layout-with-sidebar .sidebar a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .layout-with-sidebar {
+    grid-template-columns: 1fr;
+  }
+
+  .layout-with-sidebar .sidebar {
+    position: static;
+    max-height: none;
+  }
+}
   </style>
   </head>
 

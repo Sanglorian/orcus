@@ -7,10 +7,18 @@ footer: ${pageNo}
 
 # Rulebook
 
-1.1
+<div class="layout-with-sidebar">
+  <aside class="sidebar">
 
-* TOC  
-{:toc}
+  ## On this page
+
+  * TOC
+  {:toc}
+
+  </aside>
+  <div class="content">
+
+1.1
 
 # The Core Mechanic  
 
@@ -3807,12 +3815,15 @@ The following table shows how many powers and of which levels a character is ent
 | 29    | 1, 1           | 11 (P), 17, 23, 27 | 19, 20 (P), 25, 29 | 2, 6, 10, 12 (P), 16, 22, 26 (E) |
 | 30    | 1, 1           | 11 (P), 17, 23, 27 | 19, 20 (P), 25, 29 | 2, 6, 10, 12 (P), 16, 22, 26 (E) |
 
-# Legal  
+# Legal
 
-The text of this document is released as Open Game Content under the Open Game License, with the exception of the Open Game License itself (which is not Open Game Content).   
+The text of this document is released as Open Game Content under the Open Game License, with the exception of the Open Game License itself (which is not Open Game Content).
 
-No items are declared as Product Identity.   
+No items are declared as Product Identity.
 
-The terms of the Open Game License Version 1.0a and the relevant Section 15 entries are provided in a separate file.    
+The terms of the Open Game License Version 1.0a and the relevant Section 15 entries are provided in a separate file.
 
-Artworks are not Open Game Content unless otherwise mentioned. Full attribution and license for each artwork is available in the Artworks file.   
+Artworks are not Open Game Content unless otherwise mentioned. Full attribution and license for each artwork is available in the Artworks file.
+
+  </div>
+</div>
