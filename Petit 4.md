@@ -8,7 +8,8 @@ footer: ${pageNo}
 # Petit 4
 The game of unbridled heroic fantasy!
 
-:toc
+* TOC
+{:toc}
 
 Version 0.2.27
 
