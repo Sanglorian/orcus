@@ -9,7 +9,64 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+.layout-with-sidebar {
+  position: relative;
+}
 
+.layout-with-sidebar .sidebar {
+  width: 260px;
+  align-self: start;
+  position: sticky;
+  top: 1rem;
+  max-height: calc(100vh - 2rem);
+  overflow: auto;
+  padding: 12px 14px;
+  border: 1px solid #d0d0d0;
+  background: #f7f7f7;
+  border-radius: 6px;
+  margin: 0;
+  float: right;
+  margin-right: -300px;
+}
+
+.layout-with-sidebar .content {
+  min-width: 0;
+}
+
+.layout-with-sidebar .sidebar ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.layout-with-sidebar .sidebar ul ul {
+  margin-left: 16px;
+}
+
+.layout-with-sidebar .sidebar ul ul ul {
+  display: none;
+}
+
+.layout-with-sidebar .sidebar a {
+  text-decoration: none;
+}
+
+.layout-with-sidebar .sidebar a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .layout-with-sidebar .sidebar {
+    position: static;
+    max-height: none;
+    float: none;
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+}
+</style>
 
 </head>
 <body>
@@ -36,9 +93,10 @@ under the Creative Commons Attribution 4.0 International License.</p>
 <p><img src="Compatible with Fourth Edition.png"
 style="width:3.925in;height:0.95833in"
 alt="Compatible with Fourth Edition" /></p>
-<h2 id="table-of-contents">Table of Contents</h2>
+<div class="layout-with-sidebar">
+<aside class="sidebar">
+<h2>On this page</h2>
 <p class="toc-level-1"><a href="#proudly-free-and-open-source">Proudly free and open source</a></p>
-<p class="toc-level-1"><a href="#table-of-contents">Table of Contents</a></p>
 <p class="toc-level-0"><a href="#playing-orcus">Playing Orcus</a></p>
 <p class="toc-level-1"><a href="#the-core-rule">The core rule</a></p>
 <p class="toc-level-1"><a href="#other-general-rules">Other general rules</a></p>
@@ -95,6 +153,8 @@ alt="Compatible with Fourth Edition" /></p>
 <p class="toc-level-1"><a href="#the-skills">The skills</a></p>
 <p class="toc-level-0"><a href="#monsters">Monsters</a></p>
 <p class="toc-level-1"><a href="#creating-new-monsters">Creating new monsters</a></p>
+</aside>
+<div class="content">
 <h1 id="playing-orcus">Playing Orcus</h1>
 <p>Orcus is a collaborative tabletop role-playing game that involves
 imagination and creativity. The Game Master (GM) acts as the storyteller
@@ -4848,5 +4908,7 @@ damage (round down).</p>
 </tr>
 </tbody>
 </table>
+</div>
+</div>
 </body>
 </html>
