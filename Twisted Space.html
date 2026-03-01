@@ -10,6 +10,65 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+.layout-with-sidebar {
+  position: relative;
+}
+
+.layout-with-sidebar .sidebar {
+  width: 260px;
+  align-self: start;
+  position: sticky;
+  top: 1rem;
+  max-height: calc(100vh - 2rem);
+  overflow: auto;
+  padding: 12px 14px;
+  border: 1px solid #d0d0d0;
+  background: #f7f7f7;
+  border-radius: 6px;
+  margin: 0;
+  float: right;
+  margin-right: -300px;
+}
+
+.layout-with-sidebar .content {
+  min-width: 0;
+}
+
+.layout-with-sidebar .sidebar ul {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.layout-with-sidebar .sidebar ul ul {
+  margin-left: 16px;
+}
+
+.layout-with-sidebar .sidebar ul ul ul {
+  display: none;
+}
+
+.layout-with-sidebar .sidebar a {
+  text-decoration: none;
+}
+
+.layout-with-sidebar .sidebar a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  .layout-with-sidebar .sidebar {
+    position: static;
+    max-height: none;
+    float: none;
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+}
+</style>
+
 
 </head>
 <body>
@@ -27,6 +86,25 @@
 </header>
 <p>An encounter for five 5th level adventurers by Nick Wedig.</p>
 <p><a href="https://nickwedig.libraryofhighmoon.com/2011/02/twisted-space/">First published in 2011</a> under the Creative Commons Attribution 3.0 (Unported) license. Lightly adapted for Orcus by Chris Sakkas, under the same license.</p>
+<div class="layout-with-sidebar">
+<aside class="sidebar">
+<h2>On this page</h2>
+<p class="toc-level-0"><a href="#introduction">Introduction</a></p>
+<p class="toc-level-0"><a href="#bizarre-geometry">Bizarre geometry</a></p>
+<p class="toc-level-0"><a href="#the-shift">The shift</a></p>
+<p class="toc-level-2"><a href="#warping-of-space">Warping of Space</a></p>
+<p class="toc-level-0"><a href="#antilles">Antilles</a></p>
+<p class="toc-level-1"><a href="#background">Background</a></p>
+<p class="toc-level-1"><a href="#roleplaying-antilles">Roleplaying Antilles</a></p>
+<p class="toc-level-0"><a href="#the-other-monsters">The other monsters</a></p>
+<p class="toc-level-1"><a href="#encounter-level-5-1150-xp-total-value">Encounter Level 5</a></p>
+<p class="toc-level-1"><a href="#setup">Setup</a></p>
+<p class="toc-level-1"><a href="#features-of-the-area">Features of the Area</a></p>
+<p class="toc-level-2"><a href="#antilles-1">Antilles</a></p>
+<p class="toc-level-2"><a href="#humanoid-pile-of-tentacles">Humanoid Pile of Tentacles</a></p>
+<p class="toc-level-2"><a href="#strange-ungeometric-entity">Strange Ungeometric Entity</a></p>
+</aside>
+<div class="content">
 <h2 id="introduction">Introduction</h2>
 <p><em>As happens so often, the adventurers came upon the vile ritual just as the mad wizard reached the conclusion. But the heroes were too late. As they watched, the Realms Beyond poured through the portal and Twisted creatures sprang forth from the opening. Everywhere the portal’s energies touched, reality warped and twisted in impossible ways.</em></p>
 <p>This PDF presents a simple encounter that can be inserted into your existing Orcus campaign. The mad wizard, Antilles, driven insane by grief, attempts to tear a hole to a hostile alien plane of existence. Once open, this portal to an alternate reality warps and changes the mortal world.</p>
@@ -165,6 +243,8 @@ Small cosmic automaton (Unaligned)<br />
 When an ally within 5 squares takes damage, the Entity may teleport 4 squares.</p>
 </blockquote>
   </section>
+</div>
+</div>
 </div>
 </body>
 </html>
