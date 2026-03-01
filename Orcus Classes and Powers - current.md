@@ -8187,7 +8187,7 @@ No items are declared as Product Identity.
 
 The terms of the Open Game License Version 1.0a and the relevant Section 15 entries are provided in a separate file.
 
-Artworks are not Open Game Content unless otherwise mentioned. Full attribution and license for each artwork is available in the Artworks file.   ironsiC
+Artworks are not Open Game Content unless otherwise mentioned. Full attribution and license for each artwork is available in the Artworks file.
 
 </div>
 </div>
