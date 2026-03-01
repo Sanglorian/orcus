@@ -10,14 +10,14 @@ The game of unbridled heroic fantasy!
 
 Version 0.2.27
 
-<div class="layout-with-sidebar">
+<div class="layout-with-sidebar" markdown="1">
 <aside class="sidebar" markdown="1">
 ## On this page
 
 * TOC
 {:toc}
 </aside>
-<div class="content">
+<div class="content" markdown="1">
 
 ## Introduction
 
