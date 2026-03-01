@@ -8,10 +8,16 @@ footer: ${pageNo}
 # Petit 4
 The game of unbridled heroic fantasy!
 
+Version 0.2.27
+
+<div class="layout-with-sidebar">
+<aside class="sidebar" markdown="1">
+## On this page
+
 * TOC
 {:toc}
-
-Version 0.2.27
+</aside>
+<div class="content">
 
 ## Introduction
 
@@ -1233,3 +1239,6 @@ M4: Le jeu des héros Version 0.2.27, le Scriptorium; Authors Batronoban, Roland
 Petit 4 Version 0.2.27 Copyright 2021.
 
 END OF LICENSE
+
+</div>
+</div>
