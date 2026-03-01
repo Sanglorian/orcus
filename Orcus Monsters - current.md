@@ -3,8 +3,6 @@ layout: default
 title: Monsters
 navigation_weight: 4
 footer: ${pageNo}
-extra_css:
-  - /orcus.css
 ---
 
 # Monsters  

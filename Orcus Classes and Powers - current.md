@@ -3,8 +3,6 @@ layout: default
 title: Classes and Powers
 navigation_weight: 2
 footer: ${pageNo}
-extra_css:
-  - /orcus.css
 ---
 
 # Classes and Powers

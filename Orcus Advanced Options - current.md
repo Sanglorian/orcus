@@ -3,8 +3,6 @@ layout: default
 title: Advanced Options
 navigation_weight: 5
 footer: ${pageNo}
-extra_css:
-  - /orcus.css
 
 ---
 

@@ -3,8 +3,6 @@ layout: default
 title: Rulebook
 navigation_weight: 1
 footer: ${pageNo}
-extra_css:
-  - /orcus.css
 ---
 
 # Rulebook

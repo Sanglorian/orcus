@@ -3,8 +3,6 @@ layout: default
 title: Player Options
 navigation_weight: 3
 footer: ${pageNo}
-extra_css:
-  - /orcus.css
 ---
 
 # Player Options
