@@ -8,6 +8,8 @@ footer: ${pageNo}
 # Petit 4
 The game of unbridled heroic fantasy!
 
+:toc
+
 Version 0.2.27
 
 ## Introduction
@@ -1223,7 +1225,7 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 
 Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.
 
-System Reference Document Copyright 2000, Wizard of the Coast, Inc .; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on original material by E. Gary Gygax and Dave Arneson. 
+System Reference Document Copyright 2000, Wizard of the Coast, Inc .; Authors Jonathan Tweet, Monte Cook, Skip Williams, based on original material by E. Gary Gygax and Dave Arneson.
 
 M4: Le jeu des héros Version 0.2.27, le Scriptorium; Authors Batronoban, Roland Scaron and Olivier Fanton.
 

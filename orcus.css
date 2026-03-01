@@ -98,7 +98,7 @@ h4.Heading-4---Daily,
 h4.Heading-4---Monster{
   /* Font (base) */
   font-family: Calibri, "Segoe UI", Arial, sans-serif;
-  font-size: 10pt;
+  font-size: 12pt;
   font-weight: bold;
   color: #ffffff;
 
@@ -190,6 +190,7 @@ blockquote{
 
 blockquote p {margin-top: 0pt;
 margin-bottom: 0pt;
+font-size: 12pt;
 }
 
 /* ---- Inline code / code blocks ---- */
@@ -221,7 +222,7 @@ table{
 
 td{
   font-family: "League Spartan", sans-serif;
-  font-size: 8pt;
+  font-size: 9pt;
   font-weight: normal;
   vertical-align: top;
 
@@ -237,7 +238,7 @@ td{
 
 th{
   font-family: "League Spartan", sans-serif;
-  font-size: 8pt;
+  font-size: 9pt;
   font-weight: normal;
   text-align: left;
   vertical-align: top;
