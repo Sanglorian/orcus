@@ -9,8 +9,17 @@ footer: ${pageNo}
 
 1.0
 
-* TOC  
-{:toc}  
+<div class="layout-with-sidebar" markdown="1">
+<aside class="sidebar" markdown="1">
+
+## On this page
+
+* TOC
+{:toc}
+
+</aside>
+<div class="content" markdown="1">
+
 <figure><img src="pics\LuigiCastellani_SYSTEMSPLASH.png" alt="Battle by Luigi Castellani" style="zoom: 100%;" /><figcaption>Battle by Luigi Castellani</figcaption></figure>
 
 # Monster Templates  
@@ -7103,28 +7112,31 @@ At the end of each long rest, an infected creature must make an Endure check (DC
 
 ## Sight Rot (Disease)  
 
-*Level 9*  
+*Level 9*
 
-This painful infection causes bleeding from the eyes and eventually blinds the victim.  
+This painful infection causes bleeding from the eyes and eventually blinds the victim.
 
-**Infection:** One day after a beast or humanoid drinks water tainted by sight rot, they suffer a +12 attack vs Fortitude. On a hit, they are infected with the disease (beginning on stage 1). 
+**Infection:** One day after a beast or humanoid drinks water tainted by sight rot, they suffer a +12 attack vs Fortitude. On a hit, they are infected with the disease (beginning on stage 1).
 
-**Progression:** The creature's vision starts to become blurry.   
+**Progression:** The creature's vision starts to become blurry.
 
-At the end of each long rest, an infected creature must make an Endure check (DC 22). If they fail, they get one stage worse. If they beat the DC by 5 or more, they get one stage better. Otherwise, they remain at the same stage. If the infected creature reaches stage 3, they remain at that stage until specially treated.   
+At the end of each long rest, an infected creature must make an Endure check (DC 22). If they fail, they get one stage worse. If they beat the DC by 5 or more, they get one stage better. Otherwise, they remain at the same stage. If the infected creature reaches stage 3, they remain at that stage until specially treated.
 
-* *Stage 1:* The creature suffers a -2 penalty to attack rolls and Perception checks.  
-* *Stage 2:* The creature suffers a -4 penalty to attack rolls and Perception checks.   
-* *Stage 3:* The creature is blinded until treated.  
+* *Stage 1:* The creature suffers a -2 penalty to attack rolls and Perception checks.
+* *Stage 2:* The creature suffers a -4 penalty to attack rolls and Perception checks.
+* *Stage 3:* The creature is blinded until treated.
 
-**Treatment:** Sight rot can be cured using a rare flower called Eyebright, which grows in some swamps. Given an hour, a character trained in Nature can turn the flower into one dose of ointment. Applied to the eyes before a long rest, one dose of it prevents the disease from worsening after that rest. After three doses, the ointment cures the disease entirely. 
+**Treatment:** Sight rot can be cured using a rare flower called Eyebright, which grows in some swamps. Given an hour, a character trained in Nature can turn the flower into one dose of ointment. Applied to the eyes before a long rest, one dose of it prevents the disease from worsening after that rest. After three doses, the ointment cures the disease entirely.
 
-# Legal  
+# Legal
 
-The text of this document is released as Open Game Content under the Open Game License, with the exception of the Open Game License itself (which is not Open Game Content).   
+The text of this document is released as Open Game Content under the Open Game License, with the exception of the Open Game License itself (which is not Open Game Content).
 
-No items are declared as Product Identity.   
+No items are declared as Product Identity.
 
-The terms of the Open Game License Version 1.0a and the relevant Section 15 entries are provided in a separate file.    
+The terms of the Open Game License Version 1.0a and the relevant Section 15 entries are provided in a separate file.
 
 Artworks are not Open Game Content unless otherwise mentioned. Full attribution and license for each artwork is available in the Artworks file.
+
+</div>
+</div>

@@ -10,8 +10,17 @@ footer: ${pageNo}
 
 1.1
 
-* TOC  
-{:toc}  
+<div class="layout-with-sidebar" markdown="1">
+<aside class="sidebar" markdown="1">
+
+## On this page
+
+* TOC
+{:toc}
+
+</aside>
+<div class="content" markdown="1">
+
 
 
 # Species
@@ -4781,28 +4790,31 @@ A ship, 24 feet long, 8 feet wide, and 6 feet deep. The ship has a deck, rowing 
 
 A skiff, 10 feet long, 4 feet wide, and 2 feet deep. The boat has one pair of oars, an anchor, a mast, and a lateen sail. The boat can hold up to four Medium creatures comfortably.  
 
-**Careen:** Just after its driver's place in the initiative count, the skiff moves the same distance it moved last round -1. Additionally, roll 1d6; on a 1 the skiff turns 45 degrees to the left at the halfway point of its movement. On a 6 it turns 45 degrees to the right. On any other result, the movement is in a straight line. After it comes to a stop, it moves according to the current. 
+**Careen:** Just after its driver's place in the initiative count, the skiff moves the same distance it moved last round -1. Additionally, roll 1d6; on a 1 the skiff turns 45 degrees to the left at the halfway point of its movement. On a 6 it turns 45 degrees to the right. On any other result, the movement is in a straight line. After it comes to a stop, it moves according to the current.
 
 ### Roller Juggernaut
 
-**Level 8 Huge vehicle**  
-**Capacity:** 1+3; **Cargo:** 500 pounds  
-**HP:** 64; **AC:** 20, **Fortitude:** 22; **Reflex:** 16; **Will:** N/A; **Resistance** hardness 5  
-**Speed:** 8  
+**Level 8 Huge vehicle**
+**Capacity:** 1+3; **Cargo:** 500 pounds
+**HP:** 64; **AC:** 20, **Fortitude:** 22; **Reflex:** 16; **Will:** N/A; **Resistance** hardness 5
+**Speed:** 8
 **Driver Skill:** Athletics
 
 A gigantic arcano-mechanical vehicle made of hewn stone and baked clay, travelling forward on log rollers.
 
 **Roll On:** Roller juggernauts suffer no penalties for difficult terrain. Terrain behind a juggernaut’s movement is no longer considered difficult terrain if it was difficult terrain due to obstructions (a swamp remains difficult terrain, for example).
 
-**Careen:** Just after its driver's place in the initiative count, the roller juggernaut moves the same distance it moved last round -1.  
+**Careen:** Just after its driver's place in the initiative count, the roller juggernaut moves the same distance it moved last round -1.
 
-# Legal  
+# Legal
 
-The text of this document is released as Open Game Content under the Open Game License, with the exception of the Open Game License itself (which is not Open Game Content).   
+The text of this document is released as Open Game Content under the Open Game License, with the exception of the Open Game License itself (which is not Open Game Content).
 
-No items are declared as Product Identity.   
+No items are declared as Product Identity.
 
-The terms of the Open Game License Version 1.0a and the relevant Section 15 entries are provided in a separate file.    
+The terms of the Open Game License Version 1.0a and the relevant Section 15 entries are provided in a separate file.
 
 Artworks are not Open Game Content unless otherwise mentioned. Full attribution and license for each artwork is available in the Artworks file.   d
+
+</div>
+</div>

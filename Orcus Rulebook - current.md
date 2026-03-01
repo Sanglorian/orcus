@@ -8,15 +8,15 @@ footer: ${pageNo}
 # Rulebook
 
 <div class="layout-with-sidebar" markdown="1">
-  <aside class="sidebar" markdown="1">
+<aside class="sidebar" markdown="1">
 
-  ## On this page
+## On this page
 
-  * TOC
-  {:toc}
+* TOC
+{:toc}
 
-  </aside>
-  <div class="content" markdown="1">
+</aside>
+<div class="content" markdown="1">
 
 1.1
 

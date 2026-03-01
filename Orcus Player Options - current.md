@@ -9,8 +9,17 @@ footer: ${pageNo}
 
 1.1
 
-* TOC  
-{:toc}  
+<div class="layout-with-sidebar" markdown="1">
+<aside class="sidebar" markdown="1">
+
+## On this page
+
+* TOC
+{:toc}
+
+</aside>
+<div class="content" markdown="1">
+
 # Ancestries  
 
 A character's ancestry reflects their upbringing before becoming an adventurer. This can be “nature” or “nurture,” or both. For example, one game of Orcus might have characters choose a species origin for their ancestry: dwarf, human, elf, and so on. See the Advanced Options section for more details on ancestries as species. 
@@ -1528,29 +1537,32 @@ The Firelord
  **Portfolio:** Wildfire, destruction, randomness  
  **Favored Weapon:** Mace  
 
-Vogg (VOG) is the embodiment of random destruction. Although he is as intelligent as his brother Kain, he only uses his mind to think up ways to break things faster, louder, and hotter. He is more than content to run about covered in flames of his own creation, setting afire anything he touches or even gazes at for too long.  
+Vogg (VOG) is the embodiment of random destruction. Although he is as intelligent as his brother Kain, he only uses his mind to think up ways to break things faster, louder, and hotter. He is more than content to run about covered in flames of his own creation, setting afire anything he touches or even gazes at for too long.
 
-He is shown as a humanoid (the type varies by artist and cult) with his skin blackened by great heat, hair of flame, and carrying a mace made of solid fire. Vogg doesn’t really hate anything as much as he is curious about how well and how quickly he can destroy it. He becomes angry when someone places in his way obstacles that he cannot harm, and he becomes livid when someone quenches a fire he sets or dares to try calming him. Vogg would be a more powerful deity if he didn’t have the habit of answering some invocations with blasts of violent fire, which tends to reduce his number of worshippers. He is a friend to fire elementals and tolerates efreet and other fiery creatures.  
+He is shown as a humanoid (the type varies by artist and cult) with his skin blackened by great heat, hair of flame, and carrying a mace made of solid fire. Vogg doesn’t really hate anything as much as he is curious about how well and how quickly he can destroy it. He becomes angry when someone places in his way obstacles that he cannot harm, and he becomes livid when someone quenches a fire he sets or dares to try calming him. Vogg would be a more powerful deity if he didn’t have the habit of answering some invocations with blasts of violent fire, which tends to reduce his number of worshippers. He is a friend to fire elementals and tolerates efreet and other fiery creatures.
 
-Vogg’s worshippers care little for scheduled holidays, but revel in the presence of any great fire, whether naturally occurring or deliberately set. They’re not above setting a fire for the excuse to celebrate. Though most of his followers are too simpleminded to appreciate the destruction of particularly valuable things (such as sacred groves, historic buildings, and so on), they do like watching temples to protective or water deities burn to ash. On the hottest day of the year, members of the church summon as many fire elementals as possible and send them running about, burning whatever they see. In idle times, cult cells are likely to self-destruct, as rival priests set each other on fire as fanatical offerings to their obsessive deity.  
+Vogg’s worshippers care little for scheduled holidays, but revel in the presence of any great fire, whether naturally occurring or deliberately set. They’re not above setting a fire for the excuse to celebrate. Though most of his followers are too simpleminded to appreciate the destruction of particularly valuable things (such as sacred groves, historic buildings, and so on), they do like watching temples to protective or water deities burn to ash. On the hottest day of the year, members of the church summon as many fire elementals as possible and send them running about, burning whatever they see. In idle times, cult cells are likely to self-destruct, as rival priests set each other on fire as fanatical offerings to their obsessive deity.
 
-### Yaheine  
+### Yaheine
 
-The Sword Maiden  
- **Symbol:** Kite shield with a sunburst  
- **Portfolio:** Protection, valor, honor  
- **Favored Weapon:** Bastard sword  
+The Sword Maiden
+ **Symbol:** Kite shield with a sunburst
+ **Portfolio:** Protection, valor, honor
+ **Favored Weapon:** Bastard sword
 
-Daughter of the sun god Thalander, Yaheine (ya-HEEN) is the faithful guardian, protector of the innocent, and champion of good. Channeling the power of her father, Yaheine strikes out at all evil in her path, making places safe for decent folk. She cannot abide fiends or the undead, and hunts necromancers and demonologists without mercy. She is shown as a tall woman bearing a flashing bastard sword and clad in shining metal armor, her gold hair unbound in a storm about her face like solar flames. When age catches up with her priests, they usually take up a leadership role in a community, administering fair law and keeping the peace, ready to bear arms whenever evil raises its head. Her followers respect those who worship Thalander, and the two closely allied churches often share space in the same temple—a sometimes awkward alliance given Yaheine’s dutifulness and faithfulness can clash with her father's mischief and appetites.  
+Daughter of the sun god Thalander, Yaheine (ya-HEEN) is the faithful guardian, protector of the innocent, and champion of good. Channeling the power of her father, Yaheine strikes out at all evil in her path, making places safe for decent folk. She cannot abide fiends or the undead, and hunts necromancers and demonologists without mercy. She is shown as a tall woman bearing a flashing bastard sword and clad in shining metal armor, her gold hair unbound in a storm about her face like solar flames. When age catches up with her priests, they usually take up a leadership role in a community, administering fair law and keeping the peace, ready to bear arms whenever evil raises its head. Her followers respect those who worship Thalander, and the two closely allied churches often share space in the same temple—a sometimes awkward alliance given Yaheine’s dutifulness and faithfulness can clash with her father's mischief and appetites.
 
-Yaheine’s priests pray for their spells at dawn when the leading edge of the sun first becomes visible. Their holy days are the summer solstice and midwinter—said to be the time of year when the sun god’s priests received word that his daughter had been born and would become a champion for all good in the world. Common folk pray to her for fairness in all things, as well as protection in unsafe places. Her name is used to seal oaths as a promise of good intent. 
+Yaheine’s priests pray for their spells at dawn when the leading edge of the sun first becomes visible. Their holy days are the summer solstice and midwinter—said to be the time of year when the sun god’s priests received word that his daughter had been born and would become a champion for all good in the world. Common folk pray to her for fairness in all things, as well as protection in unsafe places. Her name is used to seal oaths as a promise of good intent.
 
-# Legal  
+# Legal
 
-The text of this document is released as Open Game Content under the Open Game License, with the exception of the Open Game License itself (which is not Open Game Content).   
+The text of this document is released as Open Game Content under the Open Game License, with the exception of the Open Game License itself (which is not Open Game Content).
 
-No items are declared as Product Identity.   
+No items are declared as Product Identity.
 
-The terms of the Open Game License Version 1.0a and the relevant Section 15 entries are provided in a separate file.    
+The terms of the Open Game License Version 1.0a and the relevant Section 15 entries are provided in a separate file.
 
-Artworks are not Open Game Content unless otherwise mentioned. Full attribution and license for each artwork is available in the Artworks file. 
+Artworks are not Open Game Content unless otherwise mentioned. Full attribution and license for each artwork is available in the Artworks file.
+
+</div>
+</div>

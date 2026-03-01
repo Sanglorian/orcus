@@ -9,8 +9,17 @@ footer: ${pageNo}
 
 1.1
 
-* TOC  
-{:toc}  
+<div class="layout-with-sidebar" markdown="1">
+<aside class="sidebar" markdown="1">
+
+## On this page
+
+* TOC
+{:toc}
+
+</aside>
+<div class="content" markdown="1">
+
 # Creating a Character
 
 To create an Orcus character, take the following steps:
@@ -8153,29 +8162,32 @@ It has never been about personal glory or selfish ideals. From the beginning, yo
 
 As the legendary fighter, you have too many laurels to count. In the old age, you would have been given freedom by the Caesar or awarded a lordship and a manor for your deeds. You have the blood of kings. History is written by the winners and you have seldom seen defeat.  
 
-### Class Features  
+### Class Features
 
-**Why Won’t You Die? (21st level):** Attacks cannot score critical hits against you (take normal damage).  
+**Why Won’t You Die? (21st level):** Attacks cannot score critical hits against you (take normal damage).
 
-**Glory of the Fight (24th level):** If you kill a non-mook enemy, you gain a +4 power bonus on your next attack roll. 
+**Glory of the Fight (24th level):** If you kill a non-mook enemy, you gain a +4 power bonus on your next attack roll.
 
-**Risky Maneuver (30th level):** As a swift action, you can reduce all your defense values to 1 until the start of your next turn. On your next turn, the first attack you make is an automatic critical hit. 
+**Risky Maneuver (30th level):** As a swift action, you can reduce all your defense values to 1 until the start of your next turn. On your next turn, the first attack you make is an automatic critical hit.
 
-### Power  
+### Power
 
 <h4 class="Heading-4---Daily">Lasting Image</h4>
-> *You are prepared to die, but you will be damned if you will let this opponent get away with what it just did.*  
-> **Daily** **Utility** **26** (**No Action**) ● **Martial**  
-> **Self**   
-> **Trigger** You begin dying.  
-> **Effect** You regain consciousness and stand up. You can take a single action on your turn, losing all other actions except free actions. You can still take immediate actions and opportunity attacks. You gain a +2 bonus to all attack rolls and a +5 bonus to all damage rolls until the end of the encounter. You cannot be healed until the end of the encounter, and do not make death saves until then. At the end of the encounter, you fall unconscious and begin making death saves as normal.  
+> *You are prepared to die, but you will be damned if you will let this opponent get away with what it just did.*
+> **Daily** **Utility** **26** (**No Action**) ● **Martial**
+> **Self**
+> **Trigger** You begin dying.
+> **Effect** You regain consciousness and stand up. You can take a single action on your turn, losing all other actions except free actions. You can still take immediate actions and opportunity attacks. You gain a +2 bonus to all attack rolls and a +5 bonus to all damage rolls until the end of the encounter. You cannot be healed until the end of the encounter, and do not make death saves until then. At the end of the encounter, you fall unconscious and begin making death saves as normal.
 
-# Legal  
+# Legal
 
-The text of this document is released as Open Game Content under the Open Game License, with the exception of the Open Game License itself (which is not Open Game Content).   
+The text of this document is released as Open Game Content under the Open Game License, with the exception of the Open Game License itself (which is not Open Game Content).
 
-No items are declared as Product Identity.   
+No items are declared as Product Identity.
 
-The terms of the Open Game License Version 1.0a and the relevant Section 15 entries are provided in a separate file.    
+The terms of the Open Game License Version 1.0a and the relevant Section 15 entries are provided in a separate file.
 
 Artworks are not Open Game Content unless otherwise mentioned. Full attribution and license for each artwork is available in the Artworks file.   ironsiC
+
+</div>
+</div>
