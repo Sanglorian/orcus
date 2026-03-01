@@ -8174,9 +8174,9 @@ As the legendary fighter, you have too many laurels to count. In the old age, yo
 
 <h4 class="Heading-4---Daily">Lasting Image</h4>
 > *You are prepared to die, but you will be damned if you will let this opponent get away with what it just did.*
-> **Daily** **Utility** **26** (**No Action**) ● **Martial**
-> **Self**
-> **Trigger** You begin dying.
+> **Daily** **Utility** **26** (**No Action**) ● **Martial**  
+> **Self**  
+> **Trigger** You begin dying.  
 > **Effect** You regain consciousness and stand up. You can take a single action on your turn, losing all other actions except free actions. You can still take immediate actions and opportunity attacks. You gain a +2 bonus to all attack rolls and a +5 bonus to all damage rolls until the end of the encounter. You cannot be healed until the end of the encounter, and do not make death saves until then. At the end of the encounter, you fall unconscious and begin making death saves as normal.
 
 # Legal
