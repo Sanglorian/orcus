@@ -309,3 +309,64 @@ p.toc-level-2{ margin-left: 3em; }
 p.toc-level-3{ margin-left: 4.5em; }
 p.toc-level-4{ margin-left: 6em; }
 p.toc-level-5{ margin-left: 7.5em; }
+
+
+/* ---- Rules pages: the back link, the sidebar of sections, and a power set into the text ---- */
+
+.back-link {
+    margin: 0 0 1rem 0;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #d0d0d0;
+    font-size: 0.95rem;
+}
+
+.layout-with-sidebar {
+    position: relative;
+}
+
+.layout-with-sidebar .sidebar {
+    width: 260px;
+    align-self: start;
+    position: sticky;
+    top: 1rem;
+    max-height: calc(100vh - 2rem);
+    overflow: auto;
+    padding: 12px 14px;
+    border: 1px solid #d0d0d0;
+    background: #f7f7f7;
+    border-radius: 6px;
+    margin: 0;
+    float: right;
+    margin-right: -300px;
+}
+
+.layout-with-sidebar .content {
+    min-width: 0;
+}
+
+.layout-with-sidebar .sidebar a {
+    text-decoration: none;
+}
+
+.layout-with-sidebar .sidebar a:hover {
+    text-decoration: underline;
+}
+
+/* A power set into the text, as a card in the flow format or as the cut-out
+   card. The cards' own look comes from power-card.js, whose stylesheet the
+   saved page keeps. */
+.flow-slot, .card-slot { margin: 7px 0 9px; break-inside: avoid; }
+.flow-slot .power-card { width: 100%; }
+.card-slot { display: flex; justify-content: center; }
+.card-slot .power-card { margin: 0; }
+
+@media (max-width: 900px) {
+    .layout-with-sidebar .sidebar {
+        position: static;
+        max-height: none;
+        float: none;
+        width: auto;
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+}
