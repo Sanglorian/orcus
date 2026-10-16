@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Heroes of the Borderlands</title>
+    <link rel="stylesheet" href="orcus.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;600;700;800;900&amp;display=swap" rel="stylesheet">
+    
+    <!-- The powers come from the same workbook, through the same card code, as on
+         every other page; none of these scripts is kept in the saved page. -->
+    
+    <style id="power-card-css">
+    .power-card {
+        width: 2.5in;
+        height: 3.5in;
+        box-sizing: border-box;
+        position: relative;
+        overflow: hidden;
+        background: white;
+        border: 2px solid var(--card-color);
+        border-radius: 6px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        --card-color: #4d7a30;   /* default At-Will green; set per card below */
+        font-family: 'Source Sans 3', 'Source Sans Pro', Calibri, system-ui, sans-serif;
+    }
+    .power-card.frequency-daily      { --card-color: #1b477e; }   /* dark blue */
+    .power-card.frequency-encounter  { --card-color: #a85412; }   /* rich orange */
+    .power-card.frequency-at-will     { --card-color: #4d7a30; }   /* middle green */
+    .power-card.frequency-consumable { --card-color: #6a4796; }   /* royal purple */
+    .power-card.frequency-item       { --card-color: #8a6a14; }   /* golden yellow, for magic items */
+    /* A consumable item – a potion, a poison – in the consumable powers' purple. */
+    .power-card.frequency-item.item-consumable { --card-color: #6a4796; }
+    .power-card.frequency-terrain       { --card-color: #1b477e; }   /* dark blue, for traps and terrain */
+    /* A magic item short enough for half a card: two of them take one card's space. */
+    .power-card.half { height: 1.75in; }
+    /* Terrain headers keep a low profile: 9pt, and only as tall as that needs. */
+    .power-card.frequency-terrain .card-header { padding: 2px 8px 3px; }
+    /* Terrain: only the name is bold – the icon and the tags beside it are not. */
+    .power-card.frequency-terrain .card-header .card-title { font-size: 9pt; font-weight: normal; }
+    .power-card.frequency-terrain .card-header .card-title b { font-weight: bold; }
+    .power-card.frequency-terrain .card-header .card-frequency { font-size: 9pt; font-weight: normal; }
+
+    /* Power-Flow: the same card, but it takes the height its text needs and has no
+       border, so it can sit inside a page's own flow rather than being cut out. */
+    .power-card.card-flow {
+        width: auto;
+        height: auto;
+        border: none;
+        border-radius: 0;
+        margin: 0;
+        background: transparent;
+    }
+    .power-card.card-flow .card-body { overflow: visible; }
+    /* Set into a page, the flow format takes its size from the text around it, so a
+       page that shrinks its body to fit one sheet shrinks these with it. At a 9.5pt
+       body the sizes come out where the cut-out card has them. */
+    .power-card.card-flow { font-size: inherit; }
+    .power-card.card-flow .card-header .card-title { font-size: 1.26em; }
+    .power-card.card-flow .card-header .card-frequency { font-size: 1em; }
+    .power-card.card-flow .card-text { font-size: 1em; }
+    /* An in-line power's name: a size down from the cut-out card's, in the card's
+       own sans-serif rather than whatever face the page gives its headings. */
+    .power-card.card-flow .card-header h4.card-title { font-size: 1.1em; font-family: inherit; }
+    /* An in-line power is set 2pt under the text around it, name and all, so it
+       reads as an aside to the text rather than part of it. */
+    .power-card.power-flow .card-text { font-size: calc(1em - 2pt); }
+    .power-card.power-flow .card-header h4.card-title { font-size: calc(1.1em - 2pt); }
+    .power-card.power-flow .card-header .card-frequency { font-size: calc(1em - 2pt); }
+    /* A magic item set into a page takes the trap's lower-profile header. */
+    .power-card.card-flow.frequency-item .card-header { padding: 2px 8px 3px; }
+    .power-card.card-flow.frequency-terrain .card-header .card-title,
+    .power-card.card-flow.frequency-terrain .card-header .card-frequency,
+    .power-card.card-flow.frequency-item .card-header .card-title,
+    .power-card.card-flow.frequency-item .card-header .card-frequency { font-size: 0.95em; }
+    /* The line that stands in for the footer: class, level and tags in the card's color. */
+    .power-card .entry.meta {
+        color: var(--card-color);
+        font-weight: 600;
+        margin-bottom: 1px;
+    }
+    /* Mid-line here, rather than opening a line as it does in a footer, so the bullet
+       needs a little air on its left. */
+    .power-card .entry.meta .separator,
+    .power-card .card-header .card-frequency .separator,
+    .power-card .card-header .card-title .separator { padding-left: 4px; }
+    .power-card.card-flow .card-header { border-radius: 0; }
+
+    /* Colored header: name on the left, "Level N Frequency" right-aligned. */
+    .power-card .card-header {
+        flex: 0 0 auto;
+        background: var(--card-color);
+        color: white;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 8px;
+        padding: 4px 8px 5px;
+    }
+    /* Resource icons (Stamina sun / Impetus tent): pin to monochrome SYMBOL fonts and force
+       text presentation, so they render as clean line glyphs rather than color emoji.
+       Color-emoji fonts are deliberately absent from this stack. */
+    .power-card .resource-icon {
+        font-family: "Segoe UI Symbol", "Noto Sans Symbols 2", "Noto Sans Symbols2",
+                     "Symbola", "DejaVu Sans", "Arial Unicode MS", sans-serif;
+        font-variant-emoji: text;
+    }
+
+    /* The title takes the header's white even where a site styles every h3 (the
+       rules page's orcus.css colors them blue). */
+    .power-card .card-header .card-title  { font-size: 12pt; font-weight: bold; line-height: 1.1; margin: 0; color: inherit; }
+    .power-card .card-header .card-frequency  { font-size: 9.5pt; line-height: 1.2; white-space: nowrap; text-align: right; opacity: 0.95; }
+
+    /* Body fills the space between header and footer; the text auto-fits into it. */
+    .power-card .card-body { flex: 1 1 auto; min-height: 0; overflow: hidden; }
+    .power-card .card-text { font-size: 10pt; line-height: 1.22; padding: 6px 8px; }
+
+    .power-card .card-flavor { font-style: italic; color: #555; margin-bottom: 4px; }
+
+    /* Footer band, same color as the header: "[Class] Level N". */
+    /* Footer is always two lines deep, so every card's footer is the same height:
+       class/level (with the icon right-aligned) on top, bullet + tags indented below. */
+    .power-card .card-footer {
+        flex: 0 0 auto;
+        background: var(--card-color);
+        color: white;
+        font-size: 8pt;
+        line-height: 1.25;
+        padding: 3px 8px;
+        height: calc(2.5em + 6px);   /* 2 lines at 1.25 line-height + the padding */
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    /* Line 1: class and level. */
+    /* Magic items carry one line, so their band is one line deep. */
+    .power-card .card-footer.footer-single { height: calc(1.25em + 6px); }
+    .power-card .card-footer.footer-single .separator { padding: 0 3px 0 5px; }
+
+    .power-card .card-footer .footer-top {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    /* Line 2: indented bullet + tags on the left, icon and "n/total" on the right. */
+    .power-card .card-footer .footer-bottom {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 8px;
+    }
+    .power-card .card-footer .footer-tags {
+        padding-left: 1.1em;
+        min-width: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .power-card .card-footer .footer-right { white-space: nowrap; flex: 0 0 auto; }
+    /* The character icon is drawn larger than the text around it. line-height: 0 keeps it
+       out of the line-box calculation, so the footer stays exactly two lines deep. */
+    .power-card .card-footer .footer-icon {
+        font-size: 1.5em;
+        line-height: 0;
+        vertical-align: -0.1em;
+    }
+    /* Fallback when the tags are too long for line 2: class/level and tags run as one
+       flow starting on line 1 and wrapping onto line 2, with the icon + "n/total" held
+       at the bottom right and the text wrapping around it. */
+    .power-card .card-footer.footer-wrapped .footer-right-box {
+        float: right;
+        height: 2.5em;              /* the full two-line content box */
+        display: flex;
+        align-items: flex-end;      /* keeps the icon on the lower line */
+        margin-left: 8px;
+    }
+    .power-card .card-footer.footer-wrapped .footer-flow { display: block; }
+    /* The tags run on from "Cleric Level 5" here, so the bullet needs a space before it. */
+    .power-card .card-footer.footer-wrapped .footer-flow .separator { padding: 0 2px 0 4px; }
+    /* Weapon details for Armament cards: a rule in the card's own color, then one
+       line per weapon named in the Weapon column. */
+    .power-card .weapons { margin-top: 9px; }
+    .power-card .weapons-rule {
+        border-top: 1px solid var(--card-color);
+        margin-bottom: 7px;
+    }
+    /* Phrases that should never be split across lines ("1d10 damage"). */
+    .power-card .weapon .no-break { white-space: nowrap; }
+    /* Melee 1 goes without saying; any other range is noted, a little smaller. */
+    .power-card .weapon .weapon-range { font-size: calc(1em - 2pt); white-space: nowrap; }
+    /* Hand glyph before the weapon name; line-height: 0 keeps it out of the line box. */
+    .power-card .weapon .hand-icon {
+        font-size: 1.15em;
+        line-height: 0;
+        margin-right: 0.25em;
+        vertical-align: -0.05em;
+    }
+    /* One weapon per line, with a little air between them and a hanging indent so a
+       weapon that wraps sits clear of the one above. */
+    .power-card .weapon {
+        margin-top: 3px;
+        padding-left: 0.9em;
+        text-indent: -0.9em;
+    }
+    .power-card .weapon:first-of-type { margin-top: 0; }
+    /* An Armament card lists every weapon in its group, each with a box, ticked for
+       the weapons the sub-class is proficient with. The hanging indent clears the
+       box as well as the hand. */
+    .power-card .weapon.with-box { padding-left: 2.1em; text-indent: -2.1em; }
+    .power-card .weapon .weapon-box { margin-right: 0.3em; }
+    .power-card .entry { margin-top: 3px; }
+    /* Hit and Effect are what a player looks for first, so they sit on a light band
+       that runs the full width of the card's text column. */
+    .power-card .entry.highlight {
+        background: #ededed;
+        padding: 2px 8px;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    .power-card .entry:first-child { margin-top: 0; }
+    .power-card .rider { margin-left: 12px; }   /* Hit/Effect rider, indented a little */
+    .power-card .entry-label { font-weight: bold; }        /* keyword lead (Standard Action, Hit, ...) */
+    .power-card .separator { padding: 0 2px 0 0; }   /* dot separator; no space before it */
+    /* A bullet between two words – "Magic Item Level 5 ● Ring" – has a real space each
+       side, and no padding on top of it. */
+    .power-card .separator.spaced,
+    .power-card .card-header .card-title .separator.spaced,
+    .power-card .card-header .card-frequency .separator.spaced,
+    .power-card .card-footer.footer-single .separator.spaced { padding: 0; }
+    /* Lists inside a card sit just inside the text, not at the browser's default 40px. */
+    .power-card .card-text ul,
+    .power-card .card-text ol { margin: 3px 0; padding-left: 12px; }
+    .power-card .card-text li { margin: 0 0 1px; }
+
+    /* [Power Header - …]: a heading one rank below the card's own, in the color of
+       the frequency it names, for a power set inside another card's text. Not
+       scoped to .power-card, since an adventure page's magic item inserts use it too. */
+    .power-subhead { font-weight: bold; margin: 4px 0 1px; color: #4d7a30; }
+    .power-subhead:first-child { margin-top: 0; }
+    .power-subhead.frequency-daily     { color: #1b477e; }
+    .power-subhead.frequency-encounter { color: #a85412; }
+    .power-subhead.frequency-consumable { color: #6a4796; }
+    .power-subhead .separator { padding: 0 4px; }
+</style>
+    <style id="feat-talent-css">
+    /* The sticker's size, defined once. A sticker is cut out and pasted into a slot
+       on a playbook, and the playbook draws its slots from these same two values:
+       the width of a playbook's outer columns (a third of A4 landscape, less its
+       margin and half the gap at the fold), and three lines of 8pt text with the
+       sticker's padding and border. */
+    :root {
+        --sticker-width: 8.5cm;
+        --sticker-height: calc(3 * 8pt * 1.25 + 4px + 2pt);
+        --ancestry-width: 7.92cm;
+        --ancestry-height: 6.03cm;
+    }
+    /* One sticker per feat/talent. Feats are dark blue and
+       square; talents are black and rounded at the right-hand end only. Both carry a
+       thicker left-hand edge, which is the first thing you see in a stack of them. */
+    .sticker {
+        width: var(--sticker-width);
+        height: var(--sticker-height);
+        box-sizing: border-box;
+        border: 1pt solid var(--ft, #1b477e);
+        border-left: 4px solid var(--ft, #1b477e);
+        overflow: hidden;
+        padding: 2px 5px;
+        display: flex;
+        align-items: center;
+        margin-bottom: -1pt;      /* collapse adjacent borders into a single cut-line */
+        page-break-inside: avoid;
+        break-inside: avoid;
+        --ft: #1b477e;            /* dark blue: a feat */
+    }
+    .sticker.type-feat .feature-name { color: var(--ft); }
+    /* Talents are the same box, rounded on the right so a talent stuck in a feat slot
+       (or the reverse) is obvious at a glance. A rounded end doesn't share a cut line
+       with its neighbor, so these don't pull their borders together. */
+    .sticker.type-talent {
+        --ft: #000;
+        border-radius: 0 calc(var(--sticker-height) / 2) calc(var(--sticker-height) / 2) 0;   /* a pill at one end */
+        margin-bottom: 0;
+        padding-right: 9px;
+    }
+
+    /* The text block the auto-fit scales so everything fits the fixed height. */
+    .sticker-body { font-size: 9pt; line-height: 1.12; width: 100%; }
+    .sticker-body .feature-name { font-weight: bold; }
+    /* Applied by the fitter when the Name can sit on its own line without shrinking. */
+    .sticker-body.split .feature-name { display: block; }
+
+    /* Ancestry cards (second sheet), printed after the stickers. Same card
+       language as the power and magic-item cards – colored header, matching
+       outline – at the ancestry card's own size, which hasn't changed. */
+    .ancestry {
+        width: var(--ancestry-width);
+        height: var(--ancestry-height);
+        box-sizing: border-box;
+        border: 2px solid var(--anc);
+        overflow: hidden;
+        margin-bottom: 6px;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        --anc: #1d6660;   /* deep teal, the one card color not already spoken for */
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+    .ancestry .ancestry-header {
+        flex: 0 0 auto;
+        background: var(--anc);
+        color: white;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 8px;
+        padding: 3px 7px 4px;
+    }
+    .ancestry .ancestry-header .ancestry-name { font-size: 13pt; font-weight: bold; line-height: 1.1; margin: 0; }
+    /* The icon the ancestry's power cards carry, as a plain line glyph like theirs. */
+    .ancestry .ancestry-header .ancestry-icon {
+        font-family: "Segoe UI Symbol", "Noto Sans Symbols 2", "Noto Sans Symbols2",
+                     "Symbola", "DejaVu Sans", "Arial Unicode MS", sans-serif;
+        font-variant-emoji: text;
+        font-weight: normal;
+        margin-right: 0.25em;
+    }
+    .ancestry .ancestry-header .ancestry-kind {
+        font-size: 8.5pt;
+        letter-spacing: 0.02em;
+        white-space: nowrap;
+    }
+    /* The text the fitter scales; it, not the card, is what has the padding now. */
+    .ancestry .ancestry-body {
+        flex: 1 1 auto;
+        overflow: hidden;
+        padding: 4px 7px 5px;
+    }
+    /* flow-root so a floated portrait is included when the fitter measures height. */
+    .ancestry-text { font-size: 9pt; line-height: 1.2; display: flow-root; }
+    .ancestry-text .ancestry-portrait {
+        float: right;
+        max-width: 2.2cm;
+        max-height: 2.6cm;
+        margin: 0 0 4px 6px;
+        object-fit: contain;
+    }
+    .ancestry-text .feature-label { font-weight: bold; }
+    /* A little breathing room between features and the stat lines. */
+    .ancestry-text > div + div { margin-top: 0.4em; }
+    /* The language options are a continuation of the Languages line, so keep them close. */
+    .ancestry-text .language-options { padding-left: 1.4em; margin-top: 0.1em; }
+    /* Ballot boxes: monochrome text glyphs, never color emoji. */
+    .ancestry-text .checkbox {
+        font-family: "Segoe UI Symbol", "Noto Sans Symbols 2", "Noto Sans Symbols2",
+                     "Symbola", "DejaVu Sans", sans-serif;
+        font-variant-emoji: text;
+    }
+
+    /* The block form: the sticker's content without the fixed sticker size, for
+       pages that lay feats and talents out in a column. Same border language —
+       square for a feat, rounded for a talent. */
+    .feat-block {
+        box-sizing: border-box;   /* so a page can set one width and mean it */
+        border: 1pt solid var(--ft, #1b477e);
+        border-left: 4px solid var(--ft, #1b477e);
+        padding: 4px 8px 5px;
+        margin: 7px 0 9px;
+        background: white;
+        break-inside: avoid;
+        -webkit-column-break-inside: avoid;
+        --ft: #1b477e;
+    }
+    .feat-block.type-talent { --ft: #000; border-radius: 0 9px 9px 0; padding-right: 10px; }
+    .feat-block .feature-name { font-weight: bold; }
+    .sticker-body .feature-tag,
+    .feat-block .feature-tag {
+        font-weight: normal;
+        font-variant: small-caps;
+        color: #6b6b6b;
+    }
+    .feat-block.type-feat .feature-name { color: var(--ft); }
+</style>
+    
+</head>
+
+<body>
+    
+
+    <nav class="back-link"><a href="index.html">← Back to main page</a></nav>
+<header id="title-block-header">
+<h1 class="title">Heroes of the Borderlands</h1>
+</header>
+<p><em>Orcus</em> is a tabletop roleplaying game based on the fourth edition of the world’s most popular roleplaying game. The <em>Heroes</em> series is a quick way to create balanced and fun <em>Orcus</em> heroes so you can quickly get to playing.</p>
+<p><em>Heroes of the Borderlands</em> introduces four characters: the Grim (a member of the Fighter class), the Seraph (Cleric class), the Haunt (Ranger class) and the Mindfire Adept (Wizard class).</p>
+<div class="layout-with-sidebar">
+<aside class="sidebar">
+<h2>On this page</h2>
+<p class="toc-level-1"><a href="#character-creation">Character Creation</a></p>
+<p class="toc-level-1"><a href="#powers">Powers</a></p>
+<p class="toc-level-1"><a href="#leveling-up">Leveling up</a></p>
+<p class="toc-level-1"><a href="#new-statuses">New statuses</a></p>
+<p class="toc-level-1"><a href="#power-options">Power options</a></p>
+<p class="toc-level-1"><a href="#monsters">Monsters</a></p>
+</aside>
+<div class="content">
+
+
+<h2 id="character-creation">Character Creation</h2>
+<p>Choose one of the four playbooks (the one-pager brochures for each character option).</p>
+<p>The instructions below assume you are starting at level 1. If starting at a higher level, see “Leveling up”, below.</p>
+<p><strong>Abilities and Skills:</strong> Distribute +3, +2, +1, +0 and -1 between the five abilities, then add +1 to any one ability. Any time your character must make a Constitution check, use Strength instead.</p>
+<p>Unlike regular <em>Orcus</em> characters, <em>Heroes</em> characters do not add their ability scores to attack rolls, defenses, number of recoveries, damage or other pre-calculated stats. Abilities are mostly used for skills and (when it comes to the Strength stat) carrying capacity/encumbrance.</p>
+<p><strong>Ancestry:</strong> Every playbook has a default ancestry, but you are not required to use it. You can paste a different ancestry on top. Either way, most ancestries will tell you to select a bonus language, bonus feat and bonus talent. The language options are provided. The feats and talents are separate sticker sheets.</p>
+<p>Some feats and talents have extra requirements, usually a certain level. A character that does not meet the requirements cannot select that feat or talent.</p>
+<p><strong>Other features:</strong> Occasionally, a character gets to make other choices at level 1 (for example, the Seraph gets a Channel Faith power). Select those now.</p>
+<p><strong>Powers:</strong> Under Class Features, each character has listed the powers they get at level 1. Assemble the relevant power cards.</p>
+<p><strong>Proficiencies:</strong> Characters can wield weapons and wands in which they are proficient. They can wield weapons they are not proficient in, but with a -2 penalty to the attack roll. Characters can wear armor they are not proficient with, but while they do they take a -2 penalty to attack rolls and to their Reflex defense.</p>
+<p>Martial weapons typically do more damage than simple ones. Do not use the weapon rules from <em>Orcus</em>. In <em>Heroes of the Borderlands</em>, all weapons have a +2 proficiency bonus (already included) and do not have special riders like "improved crit".</p>
+<p><strong>Equipment:</strong> At first level, each character starts with some standard equipment and can choose a few items specifically.</p>
+<h2 id="powers">Powers</h2>
+<p>There are two main rules for using powers:</p>
+<p><strong>Usage:</strong> Any encounter power can be used once per encounter (unless otherwise specified). Characters get their encounter powers back after a short rest (five minutes). Any daily power can be used once per day (unless otherwise specified).</p>
+<p><strong>Impetus and Stamina costs:</strong> Some encounter and daily powers have an additional cost, called Impetus (for encounter powers) or Stamina (for daily powers). You can only use these powers if you have one or more Impetus or Stamina left, and they use up 1 Impetus or 1 Stamina respectively. You can still only use these once per encounter/day unless otherwise specified.</p>
+<h2 id="leveling-up">Leveling up</h2>
+<p>When a character gets enough experience points (XP) for their next level (1,000 XP to go from level 1 to level 2), they increase in level. Strike out their existing level, and use the row for their new level to determine attack rolls, defenses, and so on. If there is an entry in the Other column, the character gets that thing: a new feat, talent, Impetus power or Stamina power.</p>
+<p>Feats and talents are distinguished by shape: feats have hard corners, talents have two rounded corners.</p>
+<p>These playbooks go up to level 10, the “adventurer tier”. Rules for levels 11 to 20 (the “prestige tier”) and levels 21 to 30 (the “epic tier”) are yet to come.</p>
+<p><strong>Repeatable</strong> feats can be taken multiple times, choosing a different option each time. For example, Skill Training gives you a new trained skill. You can keep taking that feat as long as you have untrained skills.</p>
+<h2 id="new-statuses">New statuses</h2>
+<p><em>Heroes of the Borderlands</em> standardizes some buffs so they are easier to keep track of. These are called “boons”.</p>
+<ul><li><p><strong>Blessed</strong> +2 bonus to all saving throws</p></li><li><p><strong>Fortified</strong> +2 bonus to all defenses</p></li><li><p><strong>Guided</strong> +4 bonus to all skill checks</p></li><li><p><strong>Hastened</strong> +2 bonus to Speed</p></li><li><p><strong>Honed</strong> +2 bonus to all attacks</p></li></ul>
+<p>It also introduces a new saving throw condition: “save maintains”.</p>
+<blockquote><p><strong>Save maintains:</strong> At the end of your next turn, make a saving throw. On a success, keep the boon. On a failure, lose it.</p></blockquote>
+<p>There is one new condition:</p>
+<p><strong>Encumbered</strong> You suffer a -2 penalty to Speed</p>
+<h2 id="power-options">Power options</h2>
+<p>Some powers have the “Cantrip” option. This is a different way to use the power, usually out of combat. It doesn’t use up the power, so for example if you use the cantrip effect of <em>drowsy,</em> you can still cast <em>drowsy</em> later in the day. It can even be used if the power has already been expended; if you have cast <em>drowsy</em> already, you can still use the cantrip effect.</p>
+<h2 id="monsters">Monsters</h2>
+<p>Monsters use a simplified stat block. Treat a monster's defenses as the result of any other checks or rolls they would make. For example, instead of rolling initiative monsters use their Reflex defense. Instead of making a Perception check, monsters use their Will defense.</p>
+</div>
+</div>
+
+
+    
+
+
+
+</body></html>

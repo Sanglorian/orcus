@@ -1,9 +1,27 @@
 ---
+
 layout: default
 title: Home
 navigation_weight: 0
 ---
+
+## Basic Orcus
+
+Creative Commons Attribution 4.0 licensed.
+
+* [Basic Rules](Basic.html) ([PDF](Basic.pdf))
+* [Twisted Space](Twisted Space.html) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Twisted%20Space%200.1.pdf))
+
+### Heroes of the Borderlands
+
+Character and adventure playbooks and power cards.
+
+* [Heroes of the Borderlands rules](Borderlands.html) ([PDF]())
+
+
+
 <img src="https://github.com/Sanglorian/orcus/raw/main/pics/Heroes'%20Handbook%20-%20small.png" style="float: right; max-width: 150px;" />
+
 ## The books
 
 ### Orcus Heroes' Handbook
@@ -15,13 +33,6 @@ Download the *Orcus Heroes' Handbook* <a href="https://github.com/Sanglorian/orc
 <img src="https://github.com/Sanglorian/orcus/raw/main/pics/Game%20Master's%20Guide%20-%20small.png" style="float: right; max-width: 150px;" />
 
 Download the *Orcus Game Master's Guide* <a href="https://raw.githubusercontent.com/Sanglorian/orcus/main/Orcus%20Game%20Master's%20Guide.pdf">PDF</a> or buy a print copy on <a href="https://www.lulu.com/shop/chris-sakkas/orcus-game-masters-guide/paperback/product-ezm4zw.html">Lulu</a>.
-
-## Basic Rules
-Creative Commons Attribution 4.0 licensed.
-
-* [Basic Rules](Basic.html) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Orcus%20Basic%20Rules%200.1.pdf))
-* [Twisted Space](Twisted Space.html) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Twisted%20Space%200.1.pdf))
-* [Power Cards](Power Cards.html)
 
 ## Orcus SRD
 
