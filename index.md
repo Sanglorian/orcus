@@ -6,7 +6,7 @@ navigation_weight: 0
 
 ## Basic Orcus
 
-Creative Commons Attribution 4.0 licensed.
+All Basic Orcus content, including Heroes of the Borderlands, is released under a Creative Commons Attribution 4.0 license.
 
 * [Basic Rules](Basic.html) ([PDF](Basic.pdf))
 * [Twisted Space](Twisted Space.html) ([PDF](https://github.com/Sanglorian/orcus/raw/main/Twisted%20Space%200.1.pdf))
