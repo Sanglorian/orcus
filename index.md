@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: Home
 navigation_weight: 0
@@ -17,8 +16,7 @@ Creative Commons Attribution 4.0 licensed.
 Character and adventure playbooks and power cards.
 
 * [Heroes of the Borderlands rules](Borderlands.html) ([PDF]())
-
-
+* [The Grim](The Grim.html) (PDF)
 
 <img src="https://github.com/Sanglorian/orcus/raw/main/pics/Heroes'%20Handbook%20-%20small.png" style="float: right; max-width: 150px;" />
 
