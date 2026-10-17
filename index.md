@@ -16,10 +16,14 @@ Creative Commons Attribution 4.0 licensed.
 Character and adventure playbooks and power cards.
 
 * [Heroes of the Borderlands rules](Borderlands.html) ([PDF](Borderlands.pdf))
+* [Condition tokens](Conditions.html)
 
 **Heroes**
 
 * [The Grim](The Grim.html) ([PDF](The Grim.pdf))
+
+**Coming Soon**
+
 * [The Haunt](The Haunt.html) ([PDF](The Haunt.pdf))
 * [The Mindfire Adept](Mindfire Adept.html) ([PDF](Mindfire Adept.pdf))
 * [The Seraph](The Seraph.html) ([PDF](The Seraph.pdf))
