@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Castle Death</title>
+<style>
+
+.power-card {
+        width: 2.5in;
+        height: 3.5in;
+        box-sizing: border-box;
+        position: relative;
+        overflow: hidden;
+        background: white;
+        border: 2px solid var(--card-color);
+        border-radius: 6px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        --card-color: #4d7a30;
+        font-family: 'Source Sans 3', 'Source Sans Pro', Calibri, system-ui, sans-serif;
+    }
+    .power-card.frequency-daily      { --card-color: #1b477e; }
+    .power-card.frequency-encounter  { --card-color: #a85412; }
+    .power-card.frequency-at-will     { --card-color: #4d7a30; }
+    .power-card.frequency-consumable { --card-color: #6a4796; }
+    .power-card.frequency-item       { --card-color: #8a6a14; }
+    .power-card.frequency-item.item-consumable { --card-color: #6a4796; }
+    .power-card.frequency-terrain       { --card-color: #1b477e; }
+    .power-card.half { height: 1.75in; }
+    .power-card.frequency-terrain .card-header { padding: 2px 8px 3px; }
+    .power-card.frequency-terrain .card-header .card-title { font-size: 9pt; font-weight: normal; }
+    .power-card.frequency-terrain .card-header .card-title b { font-weight: bold; }
+    .power-card.frequency-terrain .card-header .card-frequency { font-size: 9pt; font-weight: normal; }
+    .power-card.card-flow {
+        width: auto;
+        height: auto;
+        border: none;
+        border-radius: 0;
+        margin: 0;
+        background: transparent;
+    }
+    .power-card.card-flow .card-body { overflow: visible; }
+    .power-card.card-flow { font-size: inherit; }
+    .power-card.card-flow .card-header .card-title { font-size: 1.26em; }
+    .power-card.card-flow .card-header .card-frequency { font-size: 1em; }
+    .power-card.card-flow .card-text { font-size: 1em; }
+    .power-card.card-flow .card-header h4.card-title { font-size: 1.1em; font-family: inherit; }
+    .power-card.power-flow .card-text { font-size: calc(1em - 2pt); }
+    .power-card.power-flow .card-header h4.card-title { font-size: calc(1.1em - 2pt); }
+    .power-card.power-flow .card-header .card-frequency { font-size: calc(1em - 2pt); }
+    .power-card.card-flow.frequency-item .card-header { padding: 2px 8px 3px; }
+    .power-card.card-flow.frequency-terrain .card-header .card-title,
+    .power-card.card-flow.frequency-terrain .card-header .card-frequency,
+    .power-card.card-flow.frequency-item .card-header .card-title,
+    .power-card.card-flow.frequency-item .card-header .card-frequency { font-size: 0.95em; }
+    .power-card .entry.meta {
+        color: var(--card-color);
+        font-weight: 600;
+        margin-bottom: 1px;
+    }
+    .power-card .entry.meta .separator,
+    .power-card .card-header .card-frequency .separator,
+    .power-card .card-header .card-title .separator { padding-left: 4px; }
+    .power-card.card-flow .card-header { border-radius: 0; }
+    .power-card .card-header {
+        flex: 0 0 auto;
+        background: var(--card-color);
+        color: white;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 8px;
+        padding: 4px 8px 5px;
+    }
+    .power-card .resource-icon {
+        font-family: "Segoe UI Symbol", "Noto Sans Symbols 2", "Noto Sans Symbols2",
+                     "Symbola", "DejaVu Sans", "Arial Unicode MS", sans-serif;
+        font-variant-emoji: text;
+    }
+    .power-card .card-header .card-title  { font-size: 12pt; font-weight: bold; line-height: 1.1; margin: 0; color: inherit; }
+    .power-card .card-header .card-frequency  { font-size: 9.5pt; line-height: 1.2; white-space: nowrap; text-align: right; opacity: 0.95; }
+    .power-card .card-body { flex: 1 1 auto; min-height: 0; overflow: hidden; }
+    .power-card .card-text { font-size: 10pt; line-height: 1.22; padding: 6px 8px; }
+    .power-card .card-flavor { font-style: italic; color: #555; margin-bottom: 4px; }
+    .power-card .card-footer {
+        flex: 0 0 auto;
+        background: var(--card-color);
+        color: white;
+        font-size: 8pt;
+        line-height: 1.25;
+        padding: 3px 8px;
+        height: calc(2.5em + 6px);
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .power-card .card-footer.footer-single { height: calc(1.25em + 6px); }
+    .power-card .card-footer.footer-single .separator { padding: 0 3px 0 5px; }
+    .power-card .card-footer .footer-top {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .power-card .card-footer .footer-bottom {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 8px;
+    }
+    .power-card .card-footer .footer-tags {
+        padding-left: 1.1em;
+        min-width: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .power-card .card-footer .footer-right { white-space: nowrap; flex: 0 0 auto; }
+    .power-card .card-footer .footer-icon {
+        font-size: 1.5em;
+        line-height: 0;
+        vertical-align: -0.1em;
+    }
+    .power-card .card-footer.footer-wrapped .footer-right-box {
+        float: right;
+        height: 2.5em;
+        display: flex;
+        align-items: flex-end;
+        margin-left: 8px;
+    }
+    .power-card .card-footer.footer-wrapped .footer-flow { display: block; }
+    .power-card .card-footer.footer-wrapped .footer-flow .separator { padding: 0 2px 0 4px; }
+    .power-card .weapons { margin-top: 9px; }
+    .power-card .weapons-rule {
+        border-top: 1px solid var(--card-color);
+        margin-bottom: 7px;
+    }
+    .power-card .weapon .no-break { white-space: nowrap; }
+    .power-card .weapon .weapon-range { font-size: calc(1em - 2pt); white-space: nowrap; }
+    .power-card .weapon .hand-icon {
+        font-size: 1.15em;
+        line-height: 0;
+        margin-right: 0.25em;
+        vertical-align: -0.05em;
+    }
+    .power-card .weapon {
+        margin-top: 3px;
+        padding-left: 0.9em;
+        text-indent: -0.9em;
+    }
+    .power-card .weapon:first-of-type { margin-top: 0; }
+    .power-card .weapon.with-box { padding-left: 2.1em; text-indent: -2.1em; }
+    .power-card .weapon .weapon-box { margin-right: 0.3em; }
+    .power-card .entry { margin-top: 3px; }
+    .power-card .entry.highlight {
+        background: #ededed;
+        padding: 2px 8px;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    .power-card .entry:first-child { margin-top: 0; }
+    .power-card .rider { margin-left: 12px; }
+    .power-card .entry-label { font-weight: bold; }
+    .power-card .separator { padding: 0 2px 0 0; }
+    .power-card .separator.spaced,
+    .power-card .card-header .card-title .separator.spaced,
+    .power-card .card-header .card-frequency .separator.spaced,
+    .power-card .card-footer.footer-single .separator.spaced { padding: 0; }
+    .power-card .card-text ul,
+    .power-card .card-text ol { margin: 3px 0; padding-left: 12px; }
+    .power-card .card-text li { margin: 0 0 1px; }
+    .power-subhead { font-weight: bold; margin: 4px 0 1px; color: #4d7a30; }
+    .power-subhead:first-child { margin-top: 0; }
+    .power-subhead.frequency-daily     { color: #1b477e; }
+    .power-subhead.frequency-encounter { color: #a85412; }
+    .power-subhead.frequency-consumable { color: #6a4796; }
+    .power-subhead .separator { padding: 0 4px; }
+:root {
+        --sticker-width: 8.5cm;
+        --sticker-height: calc(3 * 8pt * 1.25 + 4px + 2pt);
+        --ancestry-width: 7.92cm;
+        --ancestry-height: 6.03cm;
+    }
+    .sticker {
+        width: var(--sticker-width);
+        height: var(--sticker-height);
+        box-sizing: border-box;
+        border: 1pt solid var(--ft, #1b477e);
+        border-left: 4px solid var(--ft, #1b477e);
+        overflow: hidden;
+        padding: 2px 5px;
+        display: flex;
+        align-items: center;
+        margin-bottom: -1pt;
+        page-break-inside: avoid;
+        break-inside: avoid;
+        --ft: #1b477e;
+    }
+    .sticker.type-feat .feature-name { color: var(--ft); }
+    .sticker.type-talent {
+        --ft: #000;
+        border-radius: 0 calc(var(--sticker-height) / 2) calc(var(--sticker-height) / 2) 0;
+        margin-bottom: 0;
+        padding-right: 9px;
+    }
+    .sticker-body { font-size: 9pt; line-height: 1.12; width: 100%; }
+    .sticker-body .feature-name { font-weight: bold; }
+    .sticker-body.split .feature-name { display: block; }
+    .ancestry {
+        width: var(--ancestry-width);
+        height: var(--ancestry-height);
+        box-sizing: border-box;
+        border: 2px solid var(--anc);
+        overflow: hidden;
+        margin-bottom: 6px;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        --anc: #1d6660;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+    .ancestry .ancestry-header {
+        flex: 0 0 auto;
+        background: var(--anc);
+        color: white;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 8px;
+        padding: 3px 7px 4px;
+    }
+    .ancestry .ancestry-header .ancestry-name { font-size: 13pt; font-weight: bold; line-height: 1.1; margin: 0; }
+    .ancestry .ancestry-header .ancestry-icon {
+        font-family: "Segoe UI Symbol", "Noto Sans Symbols 2", "Noto Sans Symbols2",
+                     "Symbola", "DejaVu Sans", "Arial Unicode MS", sans-serif;
+        font-variant-emoji: text;
+        font-weight: normal;
+        margin-right: 0.25em;
+    }
+    .ancestry .ancestry-header .ancestry-kind {
+        font-size: 8.5pt;
+        letter-spacing: 0.02em;
+        white-space: nowrap;
+    }
+    .ancestry .ancestry-body {
+        flex: 1 1 auto;
+        overflow: hidden;
+        padding: 4px 7px 5px;
+    }
+    .ancestry-text { font-size: 9pt; line-height: 1.2; display: flow-root; }
+    .ancestry-text .ancestry-portrait {
+        float: right;
+        max-width: 2.2cm;
+        max-height: 2.6cm;
+        margin: 0 0 4px 6px;
+        object-fit: contain;
+    }
+    .ancestry-text .feature-label { font-weight: bold; }
+    .ancestry-text > div + div { margin-top: 0.4em; }
+    .ancestry-text .language-options { padding-left: 1.4em; margin-top: 0.1em; }
+    .ancestry-text .checkbox {
+        font-family: "Segoe UI Symbol", "Noto Sans Symbols 2", "Noto Sans Symbols2",
+                     "Symbola", "DejaVu Sans", sans-serif;
+        font-variant-emoji: text;
+    }
+    .feat-block {
+        box-sizing: border-box;
+        border: 1pt solid var(--ft, #1b477e);
+        border-left: 4px solid var(--ft, #1b477e);
+        padding: 4px 8px 5px;
+        margin: 7px 0 9px;
+        background: white;
+        break-inside: avoid;
+        -webkit-column-break-inside: avoid;
+        --ft: #1b477e;
+    }
+    .feat-block.type-talent { --ft: #000; border-radius: 0 9px 9px 0; padding-right: 10px; }
+    .feat-block .feature-name { font-weight: bold; }
+    .sticker-body .feature-tag,
+    .feat-block .feature-tag {
+        font-weight: normal;
+        font-variant: small-caps;
+        color: #6b6b6b;
+    }
+    .feat-block.type-feat .feature-name { color: var(--ft); }
+.monster {
+        font-family: Calibri, 'Source Sans 3', system-ui, sans-serif;
+        font-size: 9.5pt;
+        line-height: 1.28;
+        color: #1b1b1b;
+        break-inside: avoid;
+        page-break-inside: avoid;
+        margin: 0 0 14px;
+    }
+    .monster { --mon: #2e5a22; --mon-light: #e3ecda; }
+    .monster .monster-header {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 8px;
+        background: var(--mon);
+        color: #fff;
+        padding: 2px 8px 3px;
+        font-family: 'Source Sans 3', 'Source Sans Pro', Calibri, system-ui, sans-serif;
+    }
+    .monster .monster-body { padding: 2px 7px 0; }
+    .monster .monster-name {
+        font-size: 0.95em;
+        margin: 0;
+        font-weight: 700;
+        line-height: 1.1;
+        flex: 1 1 auto;
+    }
+    .monster .monster-level {
+        flex: 0 0 auto;
+        font-size: 0.95em;
+        font-weight: normal;
+        line-height: 1.2;
+        opacity: 0.95;
+        white-space: nowrap;
+    }
+    .monster .monster-kind { font-size: 0.9em; color: #5a5a5a; }
+    .monster .monster-flavor { font-style: italic; color: #3a3a3a; margin: 2px 0; }
+    .monster .monster-stats { margin: 2px 0 1px; }
+    .monster .monster-senses,
+    .monster .monster-defenses { font-size: 0.9em; color: #3a3a3a; }
+    .monster .monster-defenses b { color: #1b1b1b; }
+    .monster .action-points-stat { white-space: nowrap; }
+    .monster .monster-trait { margin-top: 2px; }
+    .monster .monster-trait .trait-name { font-style: italic; }
+    .monster .action-group {
+        font-family: 'League Spartan', 'Source Sans 3', Calibri, system-ui, sans-serif;
+        font-size: 0.85em;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        color: var(--mon);
+        background: var(--mon-light);
+        margin: 4px -7px 2px;
+        padding: 1px 7px;
+    }
+    .monster .monster-trait .trait-name { font-style: italic; }
+    .monster .monster-power { margin: 0 0 1px; padding-left: 1.35em; text-indent: -1.35em; }
+    .monster .monster-power .power-icon,
+    .monster .monster-trait .power-icon {
+        font-family: 'Segoe UI Symbol', 'Noto Sans Symbols 2', 'DejaVu Sans', sans-serif;
+        font-variant-emoji: text;
+        margin-right: 3px;
+    }
+    .monster .power-icon.ranged { font-size: 0.8em; }
+    .monster .power-icon.basic {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 1.1em;
+        height: 1.1em;
+        box-sizing: border-box;
+        border: 1px solid #000;
+        border-radius: 50%;
+        text-indent: 0;
+        line-height: 1;
+        vertical-align: middle;
+        position: relative;
+        top: -0.05em;
+    }
+    .monster .power-icon.basic .glyph { font-size: 0.72em; }
+    .monster .power-icon.basic.ranged { font-size: 1em; }
+    .monster .power-icon.basic.ranged .glyph { font-size: 0.6em; }
+    .monster .tag-separator { font-weight: normal; }
+    .monster .monster-power .power-usage { font-size: 0.9em; color: #3a3a3a; }
+    .monster .monster-power .power-usage .power-icon { margin: 0; }
+    .monster .monster-power .power-keywords { font-variant: small-caps; letter-spacing: 0.02em; }
+    .monster .action-points { letter-spacing: 0.5px; }
+body {
+        margin: 0;
+        background: #efece6;
+        font-family: 'Source Sans 3', 'Source Sans Pro', Calibri, system-ui, sans-serif;
+        color: #1b1b1b;
+    }
+    #loader {
+        font-family: system-ui, sans-serif;
+        font-size: 13px;
+        padding: 10px 14px;
+        color: #333;
+    }
+    #loader.hide { display: none; }
+    #loader .hint { color: #777; margin-left: 8px; }
+    #loader .missing { color: #9c2b2b; }
+    #controls { font-family: system-ui, sans-serif; font-size: 13px; padding: 6px 14px 8px; }
+    #controls button { font: inherit; padding: 3px 9px; border: 1px solid #bdb8ae;
+                       border-radius: 4px; background: #f7f5f1; cursor: pointer; }
+    #controls label { margin-right: 16px; cursor: pointer; user-select: none; }
+    #controls .save-note { color: #777; margin-left: 10px; }
+    @media print { #loader, #controls { display: none !important; } }
+    .page {
+        background: white;
+        font-size: 9.5pt;
+        line-height: 1.35;
+        margin: 10px auto 24px;
+        padding: 12mm 12mm 10mm;
+        max-width: var(--page-w, 297mm);
+    }
+    .masthead {
+        padding-bottom: 5px;
+        margin-bottom: 8px;
+    }
+    .masthead h1 {
+        font-family: 'League Spartan', 'Source Sans 3', Calibri, system-ui, sans-serif;
+        font-size: 36pt;
+        line-height: 1.05;
+        margin: 0;
+        color: #1b1b1b;
+        letter-spacing: 0.4px;
+    }
+    .masthead .attribution { font-size: 12pt; font-style: italic; color: #1b1b1b; margin-top: 3px; }
+    .masthead .masthead-line { font-size: 12pt; color: #1b1b1b; margin: 0; }
+    .masthead .masthead-line .attribution { font-size: inherit; display: inline; margin: 0; }
+    .masthead.with-side {
+        display: grid;
+        grid-template-columns: calc((100% - (var(--cols, 3) - 1) * 8mm) / var(--cols, 3) + 8mm) minmax(0, 1fr);
+        align-items: end;
+    }
+    .masthead.with-side h1 { padding-right: 4mm; }
+    .masthead.with-side .masthead-side { padding-bottom: 4px; }
+    .masthead.with-side .masthead-side > :first-child { margin-top: 0; }
+    .sheet, .flow-page { position: relative; z-index: 0; }
+    .watermark {
+        position: absolute;
+        left: 50%;
+        top: 42%;
+        transform: translateX(-50%);
+        font-family: "Segoe UI Symbol", "Noto Sans Symbols 2", "Symbola", "DejaVu Sans", sans-serif;
+        font-variant-emoji: text;
+        font-size: 300pt;
+        line-height: 0.8;
+        color: #f8f5f0;
+        pointer-events: none;
+        z-index: -1;
+    }
+    @media print {
+        .flow-page + .flow-page, .flow-section + .flow-section {
+            break-before: page;
+            page-break-before: always;
+        }
+    }
+    .page .indented { margin-left: 1.2em; }
+    .page .indented > :last-child { margin-bottom: 5px; }
+    .column-break { height: 0; break-inside: avoid; -webkit-column-break-inside: avoid; }
+    .column-break + * { margin-top: 0 !important; }
+    .columns {
+        column-count: var(--cols, 3);
+        column-gap: 8mm;
+        column-rule: 0.5pt solid #ddd8cf;
+        font-size: 9.5pt;
+        line-height: 1.35;
+    }
+    .page h2 {
+        font-family: 'League Spartan', 'Source Sans 3', Calibri, system-ui, sans-serif;
+        font-size: 13pt;
+        color: #1b1b1b;
+        margin: 10px 0 4px;
+        break-after: avoid;
+        -webkit-column-break-after: avoid;
+    }
+    .page .columns h2:first-child, .page .panel > h2:first-child { margin-top: 0; }
+    .page h3 {
+        font-family: 'League Spartan', 'Source Sans 3', Calibri, system-ui, sans-serif;
+        font-size: 10pt;
+        margin: 9px 0 3px;
+        break-after: avoid;
+        -webkit-column-break-after: avoid;
+    }
+    .page p { margin: 0 0 5px; }
+    .page ul { margin: 0 0 6px; padding-left: 14px; }
+    .page li { margin-bottom: 1px; break-inside: avoid; }
+    .page p, .page li { orphans: 2; widows: 2; }
+    .page ul.checklist { list-style: none; padding-left: 0; }
+    .checklist li { padding-left: 1.1em; text-indent: -1.1em; }
+    .checkbox, .checklist .box {
+        font-family: "Segoe UI Symbol", "Noto Sans Symbols 2", "Noto Sans Symbols2",
+                     "Symbola", "DejaVu Sans", sans-serif;
+        font-variant-emoji: text;
+    }
+    .fill-row { display: flex; align-items: baseline; gap: 4px; }
+    .fill-row .write-line.full-width { flex: 1 1 auto; min-width: 2em; }
+    .write-line {
+        display: inline-block;
+        min-width: 3em;
+        flex: 1 1 auto;
+        border-bottom: 0.75pt solid #9a958b;
+        margin: 0 2px;
+        vertical-align: baseline;
+    }
+    .page table { border-collapse: collapse; width: 100%; margin: 4px 0 7px; font-size: 0.92em; }
+    .page th, .page td { border: 0.5pt solid #bdbdbd; padding: 1px 4px; text-align: left; vertical-align: middle; }
+    .page th { background: none; font-weight: bold; vertical-align: bottom; border: none; border-bottom: 2pt solid #1b1b1b; }
+    .page tbody tr:nth-child(even) td { background: #e6e6e6; }
+    .page th.numeric, .page td.numeric { text-align: center; }
+    .page table { break-inside: avoid; -webkit-column-break-inside: avoid; }
+    .symbol.u24d0 { color: #4d7a30; }
+    .symbol.u24ba, .symbol.u26fa { color: #a85412; }
+    .symbol.u24b9, .symbol.u1f323 { color: #1b477e; }
+    .map-tile {
+        box-sizing: border-box;
+        width: 2cm;
+        height: 2cm;
+        border: 1pt dotted #1b1b1b;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1mm;
+        margin: 4px 0 6px;
+        background: white;
+        break-inside: avoid;
+        -webkit-column-break-inside: avoid;
+    }
+    .map-tile-icon {
+        font-family: "Segoe UI Symbol", "Noto Sans Symbols 2", "Symbola", "DejaVu Sans", sans-serif;
+        font-variant-emoji: text;
+        font-size: 0.85cm;
+        line-height: 1;
+        color: #1b1b1b;
+    }
+    .map-tile-name {
+        font-family: 'League Spartan', 'Source Sans 3', Calibri, system-ui, sans-serif;
+        font-size: 6.5pt;
+        font-weight: bold;
+        line-height: 1.05;
+        text-align: center;
+        padding: 0 1.5mm;
+        color: #1b1b1b;
+    }
+    .page .sticker { margin: 4px 0 2px; break-inside: avoid; -webkit-column-break-inside: avoid; }
+    .sheet {
+        display: grid;
+        grid-template-columns: repeat(var(--panels, 3), minmax(0, 1fr));
+        column-gap: 8mm;
+        row-gap: 4mm;
+        align-content: start;
+    }
+    .sheet .sheet-band { grid-column: 1 / -1; order: -1; }
+    .sheet .sheet-foot { grid-column: 1 / -1; order: 9; }
+    .sheet .panel { min-width: 0; position: relative; }
+    .sheet .panel.full-height { grid-row: span 2; }
+    .sheet .panel + .panel::before, .sheet.fold .panel:nth-child(1)::before {
+        content: "";
+        position: absolute;
+        left: -4mm;
+        top: 0;
+        bottom: 0;
+        border-left: 0.5pt solid #ddd8cf;
+    }
+    .sheet.fold .panel:nth-child(1) { order: 3; }
+    .sheet.fold .panel:nth-child(2) { order: 1; }
+    .sheet.fold .panel:nth-child(3) { order: 2; }
+    .sheet.fold .panel:nth-child(2)::before { display: none; }
+    .sheet + .sheet { margin-top: 10mm; }
+    @media print {
+        .sheet { break-inside: avoid; page-break-inside: avoid; }
+        .sheet + .sheet { break-before: page; page-break-before: always; margin-top: 0; }
+    }
+    .callout {
+        border: 0.75pt solid #cdc8bf;
+        border-radius: 2px;
+        padding: 4px 7px 6px;
+        margin: 6px 0 8px;
+        break-inside: avoid;
+        -webkit-column-break-inside: avoid;
+    }
+    .callout > .callout-title {
+        font-family: 'League Spartan', 'Source Sans 3', Calibri, system-ui, sans-serif;
+        font-size: 10pt;
+        color: #651c1c;
+        margin-bottom: 2px;
+    }
+    .insert {
+        border: 0.75pt solid #9c2b2b;
+        border-left-width: 3pt;
+        border-radius: 2px;
+        padding: 5px 8px 6px;
+        margin: 7px 0 9px;
+        background: #fdfbf7;
+        break-inside: avoid;
+        -webkit-column-break-inside: avoid;
+    }
+    .insert .insert-title { font-weight: bold; font-size: 10pt; color: #651c1c; }
+    .insert .insert-slot {
+        font-size: 8pt;
+        color: #6b6b6b;
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+        margin-left: 5px;
+    }
+    .insert .insert-flavor { font-style: italic; color: #4a4a4a; margin: 2px 0 3px; }
+    .insert .insert-details ul { margin: 3px 0 0; padding-left: 15px; }
+    .insert .insert-source { font-size: 7.5pt; color: #8a8378; margin-top: 4px; }
+    .insert .feat-name { font-weight: bold; }
+    .insert .stat-line { font-size: 8.5pt; color: #4a4a4a; margin-bottom: 3px; }
+    .flow-slot, .card-slot, .ancestry-slot, .monster-slot {
+        break-inside: avoid;
+        -webkit-column-break-inside: avoid;
+        margin: 7px 0 9px;
+    }
+    .flow-slot .power-card { width: 100%; }
+    .card-slot, .ancestry-slot { display: flex; justify-content: center; }
+    .card-slot .power-card { margin: 0; }
+    .ancestry-slot .ancestry { margin-bottom: 0; background: white; }
+    .monster-slot .monster { font-size: inherit; margin-bottom: 0; }
+    .symbol {
+        font-family: "Segoe UI Symbol", "Noto Sans Symbols 2", "Noto Sans Symbols2",
+                     "Symbola", "DejaVu Sans", sans-serif;
+        font-variant-emoji: text;
+    }
+    .unresolved {
+        border: 1pt dashed #9c2b2b;
+        color: #9c2b2b;
+        padding: 4px 7px;
+        margin: 6px 0;
+        font-size: 8.5pt;
+        break-inside: avoid;
+    }
+    @media print {
+        body { background: white; }
+        .page { margin: 0; padding: 0; max-width: none; }
+    }
+@media print {
+            @page { size: A4 landscape; margin: 10mm 10mm 0; }
+            .flow-page { width: 277mm; padding-top: 10mm; }
+        }
+        @media screen {
+            .page { background: none; padding: 0; max-width: none; margin: 0; }
+            .flow-page {
+                width: 277mm;
+                height: 186mm;
+                padding: 20mm 10mm 4mm;
+                margin: 12px auto 20px;
+                background: white;
+                box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
+            }
+        }
+</style>
+</head>
+<body class="">
+<div class="page" id="page" style="--cols: 3; --page-w: 297mm;"><div class="flow-section"><div class="flow-page"><div class="watermark">🏰︎</div><div class="masthead with-side"><h1>Castle Death</h1><div class="masthead-side"><p class="masthead-line"><span class="attribution">Dungeon World starter by Mark Tygart. Adapted for Orcus by Chris Sakkas. Released under a Creative Commons 4.0 license.</span> <span class="recommended">Recommended for heroes of levels 1 through 3.</span></p></div></div><div class="columns" style="font-size: 9.5pt; column-fill: auto; height: 639.594px;"><h2>Questions</h2><ul><li>What brings you here, to Castle Death?</li><li>Have you been in this adventuring business for long?</li><li>What stories have you heard about the cruel tyrant said to have once ruled this place?</li><li>What do the locals say they see or hear at night when the battlements are observed from a safe distance?</li><li>What rumors of wealth are associated with the keep?</li><li>Do you believe in the prophecy of the return of a rightful lord?</li></ul><h2>Impressions</h2><ul><li>A stark silhouette against a stormy sky</li><li>Ancient stonework, vine-cloaked walls</li><li>A flash of lightning, deafening thunder</li><li>Rain and wind across the crumbling battlements</li><li>The gaping maw of the front gate</li><li>A raised portcullis, like a line of iron teeth</li><li>The stench of goblin</li><li>The flickering light of torches, here and there</li><li>A high-ceiling passage, dense with thick webs</li><li>Rich and soiled furnishings, looted from elsewhere</li><li>The distant sound of guttural laughter</li></ul><div class="column-break" style="height: 205px;"></div><h2>Creeping Doom</h2><p>If the denizens of Castle Death have reason to be suspicious ...</p><p><strong>After a short rest,</strong> the GM chooses one.</p><ul><li>Bongaz prepares a Potion of Healing from his treasure trove.</li><li>Mordrivaug dons the Ring of Shadows and slips out of his chambers to investigate.</li><li>The torches in one room burn low, threatening to plunge it into darkness mid-encounter.</li><li>Night approaches. Skeletal wretches gain +2 Speed.</li><li>The goblins light bonfires for their next meal. Smoke spreads.</li></ul><p><strong>After a long rest,</strong> the GM chooses one.</p><ul><li>Weak-hearted goblins are rooted out. No option for goblin recruits.</li><li>Hobgoblin soldiers arrive.</li><li>Mordrivaug breaks the Lightblade in two. It will need repairs.</li><li>Some treasure is sent away as tribute.</li><li>The Book of Wonders is cleverly hidden.</li></ul><h2>Places</h2><p><strong>Hidden Sanctuary</strong> The first time you take a short rest in the Hidden Sanctuary, one hero makes a Dungeoneering check (DC 15). On a success, choose three. On a failure, choose one.</p><ul><li>You recover as if you had taken a long rest</li><li>You each collect an additional 1d6 days’ worth of rations</li><li>You experience a vision (ask the GM what you see)</li><li>You do not collapse into mystical sleep</li></ul><p><strong>Throne Room</strong> When you enter the Throne Room for the first time, each make Stealth and Perception checks (DC 14).</p><p><em>If most succeed on Perception,</em> they notice the Pit Traps.</p><p><em>If most succeed on Stealth,</em> Bongaz is asleep.</p><div class="column-break" style="height: 49px;"></div><h2>Discoveries</h2><p>☐ <strong>Goblin Recruit</strong> A goblin lackey joins the party. Later heroes can start with the goblin ancestry.</p><p>☐ <strong>Grave Goods</strong> Salamander Amulet, Old Map, gold cartouche (250 gold)</p><div class="indented"><p class="item-inline"><strong>Salamander Amulet</strong> <em>An arrowhead-shaped amulet of polished black onyx on a square-linked chain.</em></p></div><div class="indented"><p><strong>Old Map</strong> <em>A 3’x3’ piece of vellum, soft as silk from a lifetime of folding and unfolding. Fingerprints, scratch marks, and unidentifiable stains (blood? tea?) obscure a detailed architectural schematic in faded brown ink.</em> A floorplan of Castle Death. You may discern the location of the Hidden Sanctuary, and one or more of the Architect’s Pit Traps.</p></div><p>☐ <strong>Goblin Bank</strong> Codex of Wonders, 60 gold, 300 silver</p><div class="indented"><p class="item-inline"><strong>Codex of Wonders</strong> <em>A thick tome with a latching cover, bound in canvas that appears gray, but upon close examination swirls with living color.</em></p></div><p>☐ <strong>Bongaz's Stash</strong> Potion of Healing, 70 gold, 100 silver, ruby earring (100 gold)</p><p>☐ <strong>Mordrivaug's Horde</strong> The Lightblade, Ring of Shadows, Deed to Castle Death, 2 Potions of Healing, 260 gold, ruby earring (100 gold)</p><div class="indented"><p class="item-inline"><strong>The Lightblade</strong> <em>A short sword glowing white, as easy to wield as a willow switch.</em></p></div><div class="indented"><p class="item-inline"><strong>Ring of Shadows</strong> <em>A simple band of smoky quartz.</em></p></div><div class="indented"><p><strong>Deed to Castle Death</strong> A sheaf of yellowed pages, tied up with string. When you decipher the ridiculous legal language of the Deed, you learn that a member of your party is the true and rightful heir to Castle Death! Ask the GM who it is.</p></div><div class="column-break" style="height: 77px;"></div></div></div><div class="flow-page"><div class="columns" style="font-size: 8.5pt; column-fill: auto; height: 702.994px;"><h2>Terrain</h2><div class="flow-slot"><div class="power-card card-flow frequency-terrain"><div class="card-header"><h3 class="card-title"><span class="resource-icon">🙾︎</span> <b>Chequerboard</b></h3><div class="card-frequency">Level 1, 50 XP</div></div><div class="card-body"><div class="card-text"><div class="entry">Each square is either black or white. On odd rounds, spikes attack creatures standing on black squares. On even rounds, spikes attack creatures standing on white squares. +4 vs Reflex; 1d10+3 damage.</div></div></div></div></div><div class="flow-slot"><div class="power-card card-flow frequency-terrain"><div class="card-header"><h3 class="card-title"><span class="resource-icon">♕︎</span> <b>Marble Queen</b> <span class="separator spaced">●</span> Cover</h3></div><div class="card-body"><div class="card-text"><div class="entry">Medium. <b>AC/Ref</b> 5, <b>Fort</b> 10, <b>HP</b> 20</div><div class="entry">DC 12 Athletics to rotate. While the queen faces the chequerboard, pattern swaps: on odd rounds, spikes attack white. On even, spikes attack black.</div></div></div></div></div><div class="flow-slot"><div class="power-card card-flow frequency-terrain"><div class="card-header"><h3 class="card-title"><span class="resource-icon">△︎</span> <b>Rubble</b> <span class="separator spaced">●</span> Difficult Terrain</h3></div><div class="card-body"><div class="card-text"></div></div></div></div><div class="flow-slot"><div class="power-card card-flow frequency-terrain"><div class="card-header"><h3 class="card-title"><span class="resource-icon">☠️︎</span> <b>Pile of Bones</b> <span class="separator spaced">●</span> Difficult Terrain</h3></div><div class="card-body"><div class="card-text"><div class="entry">After moving through this space, remove this terrain. The bones are scattered.</div></div></div></div></div><div class="flow-slot"><div class="power-card card-flow frequency-terrain"><div class="card-header"><h3 class="card-title"><span class="resource-icon">☁︎</span> <b>Smoke</b> <span class="separator spaced">●</span> Lightly Obscuring</h3></div><div class="card-body"><div class="card-text"></div></div></div></div><div class="flow-slot"><div class="power-card card-flow frequency-terrain"><div class="card-header"><h3 class="card-title"><span class="resource-icon">✪︎</span> <b>Statue</b> <span class="separator spaced">●</span> Cover</h3></div><div class="card-body"><div class="card-text"><div class="entry">Medium. <b>AC/Ref</b> 5, <b>Fort</b> 10, <b>HP</b> 20</div></div></div></div></div><div class="flow-slot"><div class="power-card card-flow frequency-terrain"><div class="card-header"><h3 class="card-title"><span class="resource-icon">☒︎</span> <b>Architect’s pit trap</b></h3><div class="card-frequency">Level 1, 50 XP</div></div><div class="card-body"><div class="card-text"><div class="entry"><em>Appears as cobblestone (notice DC 12 reveals hinge)</em></div><div class="entry">+4 vs Reflex (all creatures standing in the area). On a hit, the target falls 10 feet into the pit (1d10 falling damage).</div></div></div></div></div><div class="flow-slot"><div class="power-card card-flow frequency-terrain"><div class="card-header"><h3 class="card-title"><span class="resource-icon">☒︎</span> <b>Goblin Dart Trap</b></h3><div class="card-frequency">Level 1, 25 XP</div></div><div class="card-body"><div class="card-text"><div class="entry"><em>Appears as chequerboard (notice DC 12 reveals hole)</em></div><div class="entry">+4 vs Fortitude. On a hit, the target takes 5 persistent poison damage (save ends). <em>Aftereffect:</em> The target is restrained (save ends).</div></div></div></div></div><div class="column-break" style="height: 108px;"></div><h2>Monsters</h2><div class="monster-slot"><div class="monster"><div class="monster-header"><h3 class="monster-name">Goblin Lackey</h3><div class="monster-level">Level 1, 100 XP</div></div><div class="monster-body"><div class="monster-flavor">Yellow-eyed, snaggle-toothed, underfed; oppressed.</div><div class="monster-stats"><b>HP</b> 29. <b>AC</b> 15. <b>Fort</b> 12, <b>Ref</b> 14, <b>Will</b> 13. <b>Spd</b> 6.</div><div class="monster-trait"><em class="trait-name">Assault En Masse</em> Once per turn, if an adjacent goblin ally charges, you may charge.</div><h4 class="action-group">Standard Actions</h4><div class="monster-power"><span class="power-icon melee basic"><span class="glyph">⚔︎</span></span><b>Crude Weapon</b> +6 vs AC: 1d10+3 damage.</div><div class="monster-power"><span class="power-icon ranged basic"><span class="glyph">🏹︎</span></span><b>Pelt</b> Ranged 10, +4 vs Ref: target is off-guard until the end of their next turn.</div><h4 class="action-group">Move Action</h4><div class="monster-power"><b>Disorganized Panic</b> Shift up to your Speed. You must move as far away from enemies as possible.</div></div></div></div><div class="monster-slot"><div class="monster"><div class="monster-header"><h3 class="monster-name">Skeletal Wretch</h3><div class="monster-level">Level 1 Mook, 25 XP</div></div><div class="monster-body"><div class="monster-stats"><b>HP</b> 1. <b>AC</b> 17. <b>Fort</b> 14, <b>Ref</b> 13, <b>Will</b> 13. <b>Spd</b> 6. <span class="monster-defenses"><b>Immune</b> poison, <b>Resist</b> necrotic 5, <b>Weak</b> radiant 5.</span></div><div class="monster-trait"><em class="trait-name">Mook</em> Missed attacks never damage you.</div><div class="monster-trait"><em class="trait-name">Increase Ranks <span class="tag-separator">●</span> Summoning</em> If the skeletal wretch begins its turn adjacent to a corpse or pile of bones, they create one skeletal wretch ally in that space, then remove the corpse/pile of bones.</div><h4 class="action-group">Standard Actions</h4><div class="monster-power"><span class="power-icon melee basic"><span class="glyph">⚔︎</span></span><b>Rusted Weapon</b> +6 vs AC: 5 damage, and the target is marked.</div><div class="monster-power"><span class="power-icon melee"><span class="glyph">⚔︎</span></span><b>Drag Them Down</b> +4 vs Fort: target falls prone.</div></div></div></div><div class="monster-slot"><div class="monster"><div class="monster-header"><h3 class="monster-name">Giant Spider</h3><div class="monster-level">Level 2 Elite, 250 XP</div></div><div class="monster-body"><div class="monster-stats"><b>HP</b> 68. <b>AC</b> 16. <b>Fort</b> 14, <b>Ref</b> 13, <b>Will</b> 15. <b>Spd</b> 6, climb 4. <b>Saves</b> +2. <span class="action-points-stat"><b>Action Points</b> <span class="action-points">☐</span></span></div><div class="monster-trait"><em class="trait-name">Tremorsense 5</em>. <em class="trait-name">Web Stride</em>.</div><div class="monster-trait"><em class="trait-name">Skitter</em> If an attack causes you to become bloodied, you may move up to your Speed.</div><h4 class="action-group">Standard Actions</h4><div class="monster-power"><span class="power-icon melee basic"><span class="glyph">⚔︎</span></span><b>Fangs</b> +7 vs AC: 1d12+3 damage, +1d8 against slowed, restrained or immobilized targets.</div><div class="monster-power"><span class="power-icon ranged basic"><span class="glyph">🏹︎</span></span><b>Clot of Webbing</b> Ranged 10, +5 vs Ref: the target is slowed (save ends).</div><h4 class="action-group">Swift Action</h4><div class="monster-power"><span class="power-icon melee"><span class="glyph">⚔︎</span></span><b>Inject</b> 1 slowed enemy, +5 vs Fort: the target is stunned until the end of their next turn.</div></div></div></div><div class="monster-slot"><div class="monster"><div class="monster-header"><h3 class="monster-name">Bongaz, Bugbear Overlord</h3><div class="monster-level">Level 3 Elite, 300 XP</div></div><div class="monster-body"><div class="monster-flavor">Hulking, gray-skinned, goblin-blooded, with a head, neck, and back covered with thinning black hair. Self-proclaimed master of Castle Death and bullying ruler of its goblin inhabitants. Surprisingly sneaky, always hungry, not above eating his subjects.</div><div class="monster-stats"><b>HP</b> 90. <b>AC</b> 15. <b>Fort</b> 16, <b>Ref</b> 14, <b>Will</b> 15. <b>Spd</b> 6. <b>Saves</b> +2. <span class="action-points-stat"><b>Action Points</b> <span class="action-points">☐</span></span></div><div class="monster-trait"><em class="trait-name">Eat The Weak</em> Each time an adjacent enemy becomes bloodied, you can make a morningstar attack against them as a free action.</div><h4 class="action-group">Standard Action</h4><div class="monster-power"><span class="power-icon melee basic"><span class="glyph">⚔︎</span></span><b>Morningstar <span class="tag-separator">●</span> Weapon</b> +8 vs AC: 1d12+7 damage, and push 2 squares. +1d12 damage against rattled, surprised or flanked targets.</div><h4 class="action-group">Swift Actions</h4><div class="monster-power"><span class="power-icon melee"><span class="glyph">⚔︎</span></span><b>Disarm</b> +6 vs Fort: target loses a weapon or their shield.</div><div class="monster-power"><span class="power-icon near"><span class="glyph">∢︎</span></span><b>Bully The Weak</b> <span class="power-usage">(encounter)</span> Near burst 5, +6 vs Will: bloodied creatures become rattled until the end of their next turn.</div><div class="monster-power"><span class="power-icon far"><span class="glyph">⋇︎</span></span><b>Command Lesser Goblins <span class="tag-separator">●</span> Charm</b> <span class="power-usage">(refresh <span class="power-icon">⚃⚄⚅︎</span>)</span> Far burst 1 within 10, goblin allies. the target can make a basic attack or move their speed.</div></div></div></div><div class="monster-slot"><div class="monster"><div class="monster-header"><h3 class="monster-name">Mordrivaug, Dragon of Death</h3><div class="monster-level">Level 3 Boss, 750 XP</div></div><div class="monster-body"><div class="monster-flavor">The true master of Castle Death.</div><div class="monster-stats"><b>HP</b> 156. <b>AC</b> 17. <b>Fort</b> 15, <b>Ref</b> 14, <b>Will</b> 16. <b>Spd</b> 5, fly 8. <b>Saves</b> +5. <span class="monster-defenses"><b>Resist</b> fire 5, <b>Weak</b> radiant 5.</span> <span class="action-points-stat"><b>Action Points</b> <span class="action-points">☐☐</span></span></div><h4 class="action-group">Standard Actions</h4><div class="monster-power"><span class="power-icon melee basic"><span class="glyph">⚔︎</span></span><b>Tail Swipe</b> Reach 2, +8 vs AC: 1d12+4 damage, and push 2.</div><div class="monster-power"><span class="power-icon melee basic"><span class="glyph">⚔︎</span></span><b>Bite</b> +8 vs Ref: 1d12+4 damage, and the target is rattled until the end of their next turn.</div><div class="monster-power"><b>Multiattack</b> You make a tail swipe and a bite attack, against different targets.</div><div class="monster-power"><span class="power-icon near"><span class="glyph">∢︎</span></span><b>Black Fire <span class="tag-separator">●</span> Fire</b> <span class="power-usage">(refresh <span class="power-icon">⚄⚅︎</span>)</span> Near spray 5, +6 vs Ref: 1d12+4 damage. Does double damage to objects and terrain.</div><h4 class="action-group">Swift Actions</h4><div class="monster-power"><span class="power-icon ranged"><span class="glyph">🏹︎</span></span><b>Demand Tribute <span class="tag-separator">●</span> Charm</b> <span class="power-usage">(refresh <span class="power-icon">⚄⚅︎</span>)</span> Ranged 10, +6 vs Will: the target must drop its most valuable item and cannot pick it up again until the end of the encounter.</div><div class="monster-power"><b>Disdain</b> <span class="power-usage">(encounter)</span> At the start of your turn, make a saving throw against each condition affecting you. You can take this action even if you are stunned.</div><h4 class="action-group">Counter</h4><div class="monster-power"><span class="power-icon ranged"><span class="glyph">🏹︎</span></span><b>Word of Command</b> Ranged 10, one enemy moving towards you or targeting you with an attack, +6 vs Will: they stop moving/cannot target you with that attack.</div></div></div></div></div></div></div><div class="flow-section"><div class="flow-page"><div class="columns" style="font-size: 9.5pt; column-fill: balance; height: 702.994px;"><div class="map-tile"><div class="map-tile-icon">🏰︎</div><div class="map-tile-name">Castle Death</div></div><div class="card-slot"><div class="power-card frequency-item may-halve half"><div class="card-header"><h3 class="card-title">Salamander Amulet</h3></div><div class="card-body"><div class="card-text" style="font-size: 9.86874pt;"><div class="card-flavor">An arrowhead-shaped amulet of polished black onyx on a square-linked chain.</div><div class="entry">You resist 5 fire. <br><em>Level 11</em> Resist 10 fire, <em>Level 21</em> Resist 15 fire.</div></div></div><div class="card-footer"><div class="footer-top">Magic Item Level 3 <span class="separator spaced">●</span> Neck</div><div class="footer-bottom"><span></span><span class="footer-right">680 gold</span></div></div></div></div><div class="card-slot"><div class="power-card frequency-item may-halve half"><div class="card-header"><h3 class="card-title">The Lightblade</h3></div><div class="card-body"><div class="card-text" style="font-size: 8.75624pt;"><div class="card-flavor">A short sword glowing white, as easy to wield as a willow switch.</div><div class="entry">Basic and at-will attacks do radiant damage in addition to any other damage type.<br>While unsheathed, the Lightblade casts light like a torch.</div></div></div><div class="card-footer"><div class="footer-top">Magic Item Level 2 <span class="separator spaced">●</span> Weapon</div><div class="footer-bottom"><span></span><span class="footer-right">520 gold</span></div></div></div></div><div class="card-slot"><div class="power-card frequency-item may-halve"><div class="card-header"><h3 class="card-title">Codex of Wonders</h3></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="card-flavor">A thick tome with a latching cover, bound in canvas that appears gray, but upon close examination swirls with living color.</div><div class="entry">When you use the Codex to research an artifact or magic item, you may ask three questions about the object of your study. Make an Arcana check (DC 12 + the item's level). On a success, the GM will answer two of the questions correctly. On a failure, the GM will answer two of the questions incorrectly.</div></div></div><div class="card-footer"><div class="footer-top">Magic Item Level 3 <span class="separator spaced">●</span> Wondrous Item</div><div class="footer-bottom"><span></span><span class="footer-right">680 gold</span></div></div></div></div><div class="card-slot"><div class="power-card frequency-item may-halve"><div class="card-header"><h3 class="card-title">Ring of Shadows</h3></div><div class="card-body"><div class="card-text" style="font-size: 9.96875pt;"><div class="card-flavor">A simple band of smoky quartz.</div><div class="entry"><div class="power-subhead frequency-daily">Power<span class="separator">●</span>Daily (Swift Action)</div>You become invisible (save maintains). While you are invisible, you are weakened. You can end both effects by taking off the ring as a swift action. <br>
+<br>Each time you activate the ring, the GM chooses one side effect: <ul><li>All light sources in your vicinity flicker and go out</li>
+<li>You draw the attention of nearby creatures of shadow</li>
+<li>You’ll have to make a Will save (DC 15) to take the ring off</li></ul></div></div></div><div class="card-footer"><div class="footer-top">Magic Item Level 4 <span class="separator spaced">●</span> Ring</div><div class="footer-bottom"><span></span><span class="footer-right">840 gold</span></div></div></div></div><h3>Goblin Recruit</h3><div class="ancestry-slot"><div class="ancestry-group"><div class="ancestry"><div class="ancestry-header"><h3 class="ancestry-name">Goblin</h3><div class="ancestry-kind">Ancestry</div></div><div class="ancestry-body"><div class="ancestry-text" style="font-size: 9pt;"><img class="ancestry-portrait" alt="" src="goblin.png"><div>Small fey humanoid</div><div><span class="feature-label">Speed</span> 6 squares</div><div><span class="feature-label">Languages</span> <span class="checkbox">☑</span> Common, <span class="checkbox">☑</span> Goblin</div><div><span class="feature-label">Lightning Reflexes</span> You gain the Lightning Reflexes feat.</div><div><span class="feature-label">Evasive Maneuvers</span> Add the &lt;em&gt;Evasive maneuvers&lt;/em&gt; talent.</div></div></div></div></div></div><div class="sticker type-feat"><div class="sticker-body split" style="font-size: 9pt;"><strong class="feature-name">Lightning Reflexes</strong> +2 Reflex. <em>Level 11,</em> +3 instead. <i>Level 21, </i>+4 instead.</div></div><div class="sticker type-talent"><div class="sticker-body split" style="font-size: 9pt;"><strong class="feature-name">Evasive Maneuvers <span class="feature-tag">Puck</span></strong> Add <i>Evasive maneuvers </i>to your powers.</div></div><div class="card-slot"><div class="power-card frequency-at-will"><div class="card-header"><h3 class="card-title">Evasive Maneuvers</h3><div class="card-frequency">At-Will</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Reaction Action</span></div><div class="entry"><span class="entry-label">Trigger</span> An enemy misses you with an attack</div><div class="entry highlight"><span class="entry-label">Effect</span> You shift 1 square.</div></div></div><div class="card-footer"><div class="footer-top">Puck</div><div class="footer-bottom"><span class="footer-tags"></span><span class="footer-right"><span class="resource-icon footer-icon">🍄︎</span></span></div></div></div></div></div></div></div></div>
+</body>
+</html>

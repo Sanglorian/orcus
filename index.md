@@ -16,7 +16,17 @@ Creative Commons Attribution 4.0 licensed.
 Character and adventure playbooks and power cards.
 
 * [Heroes of the Borderlands rules](Borderlands.html) ([PDF](Borderlands.pdf))
+
+**Heroes**
+
 * [The Grim](The Grim.html) ((PDF)[The Grim.pdf])
+* [The Haunt](The Haunt.html) ((PDF)[The Haunt.pdf])
+* [The Mindfire Adept](Mindfire Adept.html) ((PDF)[Mindfire Adept.pdf])
+* [The Seraph](The Seraph.html) ((PDF)[The Seraph.pdf])
+
+**Adventure Starters**
+
+* [Castle Death](Castle Death.html) ((PDF)[Castle Death.pdf])
 
 <img src="https://github.com/Sanglorian/orcus/raw/main/pics/Heroes'%20Handbook%20-%20small.png" style="float: right; max-width: 150px;" />
 
