@@ -136,8 +136,8 @@
     }
     /* Line 1: class and level. */
     /* Magic items carry one line, so their band is one line deep. */
-    .power-card .card-footer.foot-single { height: calc(1.25em + 6px); }
-    .power-card .card-footer.foot-single .separator { padding: 0 3px 0 5px; }
+    .power-card .card-footer.footer-single { height: calc(1.25em + 6px); }
+    .power-card .card-footer.footer-single .separator { padding: 0 3px 0 5px; }
 
     .power-card .card-footer .footer-top {
         white-space: nowrap;
@@ -169,14 +169,16 @@
     /* Fallback when the tags are too long for line 2: class/level and tags run as one
        flow starting on line 1 and wrapping onto line 2, with the icon + "n/total" held
        at the bottom right and the text wrapping around it. */
-    .power-card .card-footer.foot-wrap .footer-right-box {
+    .power-card .card-footer.footer-wrapped .footer-right-box {
         float: right;
         height: 2.5em;              /* the full two-line content box */
         display: flex;
         align-items: flex-end;      /* keeps the icon on the lower line */
         margin-left: 8px;
     }
-    .power-card .card-footer.foot-wrap .footer-flow { display: block; }
+    .power-card .card-footer.footer-wrapped .footer-flow { display: block; }
+    /* The tags run on from "Cleric Level 5" here, so the bullet needs a space before it. */
+    .power-card .card-footer.footer-wrapped .footer-flow .separator { padding: 0 2px 0 4px; }
     /* Weapon details for Armament cards: a rule in the card's own color, then one
        line per weapon named in the Weapon column. */
     .power-card .weapons { margin-top: 9px; }
@@ -186,6 +188,8 @@
     }
     /* Phrases that should never be split across lines ("1d10 damage"). */
     .power-card .weapon .no-break { white-space: nowrap; }
+    /* Melee 1 goes without saying; any other range is noted, a little smaller. */
+    .power-card .weapon .weapon-range { font-size: calc(1em - 2pt); white-space: nowrap; }
     /* Hand glyph before the weapon name; line-height: 0 keeps it out of the line box. */
     .power-card .weapon .hand-icon {
         font-size: 1.15em;
@@ -201,6 +205,11 @@
         text-indent: -0.9em;
     }
     .power-card .weapon:first-of-type { margin-top: 0; }
+    /* An Armament card lists every weapon in its group, each with a box, ticked for
+       the weapons the sub-class is proficient with. The hanging indent clears the
+       box as well as the hand. */
+    .power-card .weapon.with-box { padding-left: 2.1em; text-indent: -2.1em; }
+    .power-card .weapon .weapon-box { margin-right: 0.3em; }
     .power-card .entry { margin-top: 3px; }
     /* Hit and Effect are what a player looks for first, so they sit on a light band
        that runs the full width of the card's text column. */
@@ -219,7 +228,7 @@
     .power-card .separator.spaced,
     .power-card .card-header .card-title .separator.spaced,
     .power-card .card-header .card-frequency .separator.spaced,
-    .power-card .card-footer.foot-single .separator.spaced { padding: 0; }
+    .power-card .card-footer.footer-single .separator.spaced { padding: 0; }
     /* Lists inside a card sit just inside the text, not at the browser's default 40px. */
     .power-card .card-text ul,
     .power-card .card-text ol { margin: 3px 0; padding-left: 12px; }
@@ -310,6 +319,14 @@
         padding: 3px 7px 4px;
     }
     .ancestry .ancestry-header .ancestry-name { font-size: 13pt; font-weight: bold; line-height: 1.1; margin: 0; }
+    /* The icon the ancestry's power cards carry, as a plain line glyph like theirs. */
+    .ancestry .ancestry-header .ancestry-icon {
+        font-family: "Segoe UI Symbol", "Noto Sans Symbols 2", "Noto Sans Symbols2",
+                     "Symbola", "DejaVu Sans", "Arial Unicode MS", sans-serif;
+        font-variant-emoji: text;
+        font-weight: normal;
+        margin-right: 0.25em;
+    }
     .ancestry .ancestry-header .ancestry-kind {
         font-size: 8.5pt;
         letter-spacing: 0.02em;
@@ -1887,8 +1904,7 @@ Staffs</td>
 <tr>
 <td><strong>Fort</strong> 11 + level</td>
 <td><strong>Ref</strong> 12 + level</td>
-<td><strong>Will</strong> 12 + level</td>
-<td></td>
+<td colspan="2"><strong>Will</strong> 12 + level</td>
 </tr>
 <tr>
 <td><strong>HP</strong> 21 + (4 * level)</td>
@@ -1897,9 +1913,8 @@ Staffs</td>
 <td></td>
 </tr>
 <tr>
-<td colspan="2"><strong>Attack<br>
-vs AC</strong> +5 + level</td>
-<td colspan="2"><strong><br>
+<td colspan="2"><strong>Attack … vs AC</strong> +5 + level</td>
+<td colspan="2"><strong>
 vs F/R/W</strong> +3 + level</td>
 </tr>
 </tbody>
@@ -1917,8 +1932,7 @@ vs F/R/W</strong> +3 + level</td>
 <tr>
 <td><strong>Fort</strong> 13 + level</td>
 <td><strong>Ref</strong> 12 + level</td>
-<td><strong>Will</strong> 12 + level</td>
-<td></td>
+<td colspan="2"><strong>Will</strong> 12 + level</td>
 </tr>
 <tr>
 <td><strong>HP</strong> 24 + (5 * level)</td>
@@ -1927,9 +1941,8 @@ vs F/R/W</strong> +3 + level</td>
 <td></td>
 </tr>
 <tr>
-<td colspan="2"><strong>Attack<br>
-vs AC</strong> +5 + level</td>
-<td colspan="2"><strong><br>
+<td colspan="2"><strong>Attack … vs AC</strong> +5 + level</td>
+<td colspan="2"><strong>
 vs F/R/W</strong> +3 + level</td>
 </tr>
 </tbody>
@@ -1947,8 +1960,7 @@ vs F/R/W</strong> +3 + level</td>
 <tr>
 <td><strong>Fort</strong> 12 + level</td>
 <td><strong>Ref</strong> 13 + level</td>
-<td><strong>Will</strong> 11 + level</td>
-<td></td>
+<td colspan="2"><strong>Will</strong> 11 + level</td>
 </tr>
 <tr>
 <td><strong>HP</strong> 21 + (4 * level)</td>
@@ -1957,9 +1969,8 @@ vs F/R/W</strong> +3 + level</td>
 <td></td>
 </tr>
 <tr>
-<td colspan="2"><strong>Attack<br>
-vs AC</strong> +5 + level</td>
-<td colspan="2"><strong><br>
+<td colspan="2"><strong>Attack … vs AC</strong> +5 + level</td>
+<td colspan="2"><strong>
 vs F/R/W</strong> +3 + level</td>
 </tr>
 </tbody>
@@ -1977,8 +1988,7 @@ vs F/R/W</strong> +3 + level</td>
 <tr>
 <td><strong>Fort</strong> 12 + level</td>
 <td><strong>Ref</strong> 11 + level</td>
-<td><strong>Will</strong> 13 + level</td>
-<td></td>
+<td colspan="2"><strong>Will</strong> 13 + level</td>
 </tr>
 <tr>
 <td><strong>HP</strong> 24 + (5 * level)</td>
@@ -1987,9 +1997,8 @@ vs F/R/W</strong> +3 + level</td>
 <td></td>
 </tr>
 <tr>
-<td colspan="2"><strong>Attack<br>
-vs AC</strong> +5 + level</td>
-<td colspan="2"><strong><br>
+<td colspan="2"><strong>Attack … vs AC</strong> +5 + level</td>
+<td colspan="2"><strong>
 vs F/R/W</strong> +3 + level</td>
 </tr>
 </tbody>
@@ -2007,8 +2016,7 @@ vs F/R/W</strong> +3 + level</td>
 <tr>
 <td><strong>Fort</strong> 11 + level</td>
 <td><strong>Ref</strong> 13 + level</td>
-<td><strong>Will</strong> 12 + level</td>
-<td></td>
+<td colspan="2"><strong>Will</strong> 12 + level</td>
 </tr>
 <tr>
 <td><strong>HP</strong> 24 + (5 * level)</td>
@@ -2017,9 +2025,8 @@ vs F/R/W</strong> +3 + level</td>
 <td></td>
 </tr>
 <tr>
-<td colspan="2"><strong>Attack<br>
-vs AC</strong> +5 + level</td>
-<td colspan="2"><strong><br>
+<td colspan="2"><strong>Attack … vs AC</strong> +5 + level</td>
+<td colspan="2"><strong>
 vs F/R/W</strong> +3 + level</td>
 </tr>
 </tbody>
@@ -2037,8 +2044,7 @@ vs F/R/W</strong> +3 + level</td>
 <tr>
 <td><strong>Fort</strong> 13 + level</td>
 <td><strong>Ref</strong> 11 + level</td>
-<td><strong>Will</strong> 12 + level</td>
-<td></td>
+<td colspan="2"><strong>Will</strong> 12 + level</td>
 </tr>
 <tr>
 <td><strong>HP</strong> 27 + (6 * level)</td>
@@ -2047,9 +2053,8 @@ vs F/R/W</strong> +3 + level</td>
 <td></td>
 </tr>
 <tr>
-<td colspan="2"><strong>Attack<br>
-vs AC</strong> +5 + level</td>
-<td colspan="2"><strong><br>
+<td colspan="2"><strong>Attack … vs AC</strong> +5 + level</td>
+<td colspan="2"><strong>
 vs F/R/W</strong> +3 + level</td>
 </tr>
 </tbody>
