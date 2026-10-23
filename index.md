@@ -21,9 +21,6 @@ Character and adventure playbooks and power cards.
 **Heroes**
 
 * [The Grim](The Grim.html) ([PDF](The Grim.pdf))
-
-**Coming Soon**
-
 * [The Haunt](The Haunt.html) ([PDF](The Haunt.pdf))
 * [The Mindfire Adept](Mindfire Adept.html) ([PDF](Mindfire Adept.pdf))
 * [The Seraph](The Seraph.html) ([PDF](The Seraph.pdf))
