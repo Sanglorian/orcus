@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Mindfire Adept</title>
+<style>
+
+.power-card {
+        width: 2.5in;
+        height: 3.5in;
+        box-sizing: border-box;
+        position: relative;
+        overflow: hidden;
+        background: white;
+        border: 2px solid var(--card-color);
+        border-radius: 6px;
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        --card-color: #4d7a30;
+        font-family: 'Source Sans 3', 'Source Sans Pro', Calibri, system-ui, sans-serif;
+    }
+    .power-card.frequency-daily      { --card-color: #1b477e; }
+    .power-card.frequency-encounter  { --card-color: #a85412; }
+    .power-card.frequency-at-will     { --card-color: #4d7a30; }
+    .power-card.frequency-consumable { --card-color: #6a4796; }
+    .power-card.frequency-item       { --card-color: #8a6a14; }
+    .power-card.frequency-item.item-consumable { --card-color: #6a4796; }
+    .power-card.frequency-terrain       { --card-color: #1b477e; }
+    .power-card.half { height: 1.75in; }
+    .power-card.frequency-terrain .card-header { padding: 2px 8px 3px; }
+    .power-card.frequency-terrain .card-header .card-title { font-size: 9pt; font-weight: normal; }
+    .power-card.frequency-terrain .card-header .card-title b { font-weight: bold; }
+    .power-card.frequency-terrain .card-header .card-frequency { font-size: 9pt; font-weight: normal; }
+    .power-card.card-flow {
+        width: auto;
+        height: auto;
+        border: none;
+        border-radius: 0;
+        margin: 0;
+        background: transparent;
+    }
+    .power-card.card-flow .card-body { overflow: visible; }
+    .power-card.card-flow { font-size: inherit; }
+    .power-card.card-flow .card-header .card-title { font-size: 1.26em; }
+    .power-card.card-flow .card-header .card-frequency { font-size: 1em; }
+    .power-card.card-flow .card-text { font-size: 1em; }
+    .power-card.card-flow .card-header h4.card-title { font-size: 1.1em; font-family: inherit; }
+    .power-card.power-flow .card-text { font-size: calc(1em - 2pt); }
+    .power-card.power-flow .card-header h4.card-title { font-size: calc(1.1em - 2pt); }
+    .power-card.power-flow .card-header .card-frequency { font-size: calc(1em - 2pt); }
+    .power-card.card-flow.frequency-item .card-header { padding: 2px 8px 3px; }
+    .power-card.card-flow.frequency-terrain .card-header .card-title,
+    .power-card.card-flow.frequency-terrain .card-header .card-frequency,
+    .power-card.card-flow.frequency-item .card-header .card-title,
+    .power-card.card-flow.frequency-item .card-header .card-frequency { font-size: 0.95em; }
+    .power-card .entry.meta {
+        color: var(--card-color);
+        font-weight: 600;
+        margin-bottom: 1px;
+    }
+    .power-card .entry.meta .separator,
+    .power-card .card-header .card-frequency .separator,
+    .power-card .card-header .card-title .separator { padding-left: 4px; }
+    .power-card.card-flow .card-header { border-radius: 0; }
+    .power-card .card-header {
+        flex: 0 0 auto;
+        background: var(--card-color);
+        color: white;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 8px;
+        padding: 4px 8px 5px;
+    }
+    .power-card .resource-icon {
+        font-family: "Segoe UI Symbol", "Noto Sans Symbols 2", "Noto Sans Symbols2",
+                     "Symbola", "DejaVu Sans", "Arial Unicode MS", sans-serif;
+        font-variant-emoji: text;
+    }
+    .power-card .card-header .card-title  { font-size: 12pt; font-weight: bold; line-height: 1.1; margin: 0; color: inherit; }
+    .power-card .card-header .card-frequency  { font-size: 9.5pt; line-height: 1.2; white-space: nowrap; text-align: right; opacity: 0.95; }
+    .power-card .card-body { flex: 1 1 auto; min-height: 0; overflow: hidden; }
+    .power-card .card-text { font-size: 10pt; line-height: 1.22; padding: 6px 8px; }
+    .power-card .card-flavor { font-style: italic; color: #555; margin-bottom: 4px; }
+    .power-card .card-footer {
+        flex: 0 0 auto;
+        background: var(--card-color);
+        color: white;
+        font-size: 8pt;
+        line-height: 1.25;
+        padding: 3px 8px;
+        height: calc(2.5em + 6px);
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .power-card .card-footer.footer-single { height: calc(1.25em + 6px); }
+    .power-card .card-footer.footer-single .separator { padding: 0 3px 0 5px; }
+    .power-card .card-footer .footer-top {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .power-card .card-footer .footer-bottom {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 8px;
+    }
+    .power-card .card-footer .footer-tags {
+        padding-left: 1.1em;
+        min-width: 0;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .power-card .card-footer .footer-right { white-space: nowrap; flex: 0 0 auto; }
+    .power-card .card-footer .footer-icon {
+        font-size: 1.5em;
+        line-height: 0;
+        vertical-align: -0.1em;
+    }
+    .power-card .card-footer.footer-wrapped .footer-right-box {
+        float: right;
+        height: 2.5em;
+        display: flex;
+        align-items: flex-end;
+        margin-left: 8px;
+    }
+    .power-card .card-footer.footer-wrapped .footer-flow { display: block; }
+    .power-card .card-footer.footer-wrapped .footer-flow .separator { padding: 0 2px 0 4px; }
+    .power-card .weapons { margin-top: 9px; }
+    .power-card .weapons-rule {
+        border-top: 1px solid var(--card-color);
+        margin-bottom: 7px;
+    }
+    .power-card .weapon .no-break { white-space: nowrap; }
+    .power-card .weapon .weapon-range { font-size: calc(1em - 2pt); white-space: nowrap; }
+    .power-card .weapon .hand-icon {
+        font-size: 1.15em;
+        line-height: 0;
+        margin-right: 0.25em;
+        vertical-align: -0.05em;
+    }
+    .power-card .weapon {
+        margin-top: 3px;
+        padding-left: 0.9em;
+        text-indent: -0.9em;
+    }
+    .power-card .weapon:first-of-type { margin-top: 0; }
+    .power-card .weapon.with-box { padding-left: 2.1em; text-indent: -2.1em; }
+    .power-card .weapon .weapon-box { margin-right: 0.3em; }
+    .power-card .entry { margin-top: 3px; }
+    .power-card .entry.highlight {
+        background: #ededed;
+        padding: 2px 8px;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+    .power-card .entry:first-child { margin-top: 0; }
+    .power-card .rider { margin-left: 12px; }
+    .power-card .entry-label { font-weight: bold; }
+    .power-card .separator { padding: 0 2px 0 0; }
+    .power-card .separator.spaced,
+    .power-card .card-header .card-title .separator.spaced,
+    .power-card .card-header .card-frequency .separator.spaced,
+    .power-card .card-footer.footer-single .separator.spaced { padding: 0; }
+    .power-card .card-text ul,
+    .power-card .card-text ol { margin: 3px 0; padding-left: 12px; }
+    .power-card .card-text li { margin: 0 0 1px; }
+    .power-subhead { font-weight: bold; margin: 4px 0 1px; color: #4d7a30; }
+    .power-subhead:first-child { margin-top: 0; }
+    .power-subhead.frequency-daily     { color: #1b477e; }
+    .power-subhead.frequency-encounter { color: #a85412; }
+    .power-subhead.frequency-consumable { color: #6a4796; }
+    .power-subhead .separator { padding: 0 4px; }
+:root {
+        --sticker-width: 8.5cm;
+        --sticker-height: calc(3 * 8pt * 1.25 + 4px + 2pt);
+        --ancestry-width: 7.92cm;
+        --ancestry-height: 6.03cm;
+    }
+    .sticker {
+        width: var(--sticker-width);
+        height: var(--sticker-height);
+        box-sizing: border-box;
+        border: 1pt solid var(--ft, #1b477e);
+        border-left: 4px solid var(--ft, #1b477e);
+        overflow: hidden;
+        padding: 2px 5px;
+        display: flex;
+        align-items: center;
+        margin-bottom: -1pt;
+        page-break-inside: avoid;
+        break-inside: avoid;
+        --ft: #1b477e;
+    }
+    .sticker.type-feat .feature-name { color: var(--ft); }
+    .sticker.type-talent {
+        --ft: #000;
+        border-radius: 0 calc(var(--sticker-height) / 2) calc(var(--sticker-height) / 2) 0;
+        margin-bottom: 0;
+        padding-right: 9px;
+    }
+    .sticker-body { font-size: 9pt; line-height: 1.12; width: 100%; }
+    .sticker-body .feature-name { font-weight: bold; }
+    .sticker-body.split .feature-name { display: block; }
+    .ancestry {
+        width: var(--ancestry-width);
+        height: var(--ancestry-height);
+        box-sizing: border-box;
+        border: 2px solid var(--anc);
+        overflow: hidden;
+        margin-bottom: 6px;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        --anc: #1d6660;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+    .ancestry .ancestry-header {
+        flex: 0 0 auto;
+        background: var(--anc);
+        color: white;
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 8px;
+        padding: 3px 7px 4px;
+    }
+    .ancestry .ancestry-header .ancestry-name { font-size: 13pt; font-weight: bold; line-height: 1.1; margin: 0; }
+    .ancestry .ancestry-header .ancestry-kind {
+        font-size: 8.5pt;
+        letter-spacing: 0.02em;
+        white-space: nowrap;
+    }
+    .ancestry .ancestry-body {
+        flex: 1 1 auto;
+        overflow: hidden;
+        padding: 4px 7px 5px;
+    }
+    .ancestry-text { font-size: 9pt; line-height: 1.2; display: flow-root; }
+    .ancestry-text .ancestry-portrait {
+        float: right;
+        max-width: 2.2cm;
+        max-height: 2.6cm;
+        margin: 0 0 4px 6px;
+        object-fit: contain;
+    }
+    .ancestry-text .feature-label { font-weight: bold; }
+    .ancestry-text > div + div { margin-top: 0.4em; }
+    .ancestry-text .language-options { padding-left: 1.4em; margin-top: 0.1em; }
+    .ancestry-text .checkbox {
+        font-family: "Segoe UI Symbol", "Noto Sans Symbols 2", "Noto Sans Symbols2",
+                     "Symbola", "DejaVu Sans", sans-serif;
+        font-variant-emoji: text;
+    }
+    .feat-block {
+        box-sizing: border-box;
+        border: 1pt solid var(--ft, #1b477e);
+        border-left: 4px solid var(--ft, #1b477e);
+        padding: 4px 8px 5px;
+        margin: 7px 0 9px;
+        background: white;
+        break-inside: avoid;
+        -webkit-column-break-inside: avoid;
+        --ft: #1b477e;
+    }
+    .feat-block.type-talent { --ft: #000; border-radius: 0 9px 9px 0; padding-right: 10px; }
+    .feat-block .feature-name { font-weight: bold; }
+    .sticker-body .feature-tag,
+    .feat-block .feature-tag {
+        font-weight: normal;
+        font-variant: small-caps;
+        color: #6b6b6b;
+    }
+    .feat-block.type-feat .feature-name { color: var(--ft); }
+    .monster-token {
+        box-sizing: border-box;
+        position: relative;
+        overflow: hidden;
+        border: 1pt dotted #1b1b1b;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        break-inside: avoid;
+        -webkit-column-break-inside: avoid;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+    .monster-token.size-large { width: 2in; height: 2in; }
+    .monster-token.size-medium { width: 1in; height: 1in; }
+    .monster-token.size-small { width: 20mm; height: 20mm; }
+    .monster-token-mark {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Segoe UI Symbol", "Noto Sans Symbols 2", "Symbola", "Noto Color Emoji", "DejaVu Sans", sans-serif;
+        font-variant-emoji: text;
+        line-height: 1;
+        color: #1b1b1b;
+        opacity: 0.22;
+        pointer-events: none;
+    }
+    .size-large .monster-token-mark { font-size: 1.4in; }
+    .size-medium .monster-token-mark { font-size: 0.7in; }
+    .size-small .monster-token-mark { font-size: 14mm; }
+    .monster-token-name {
+        position: relative;
+        font-family: 'League Spartan', 'Source Sans 3', Calibri, system-ui, sans-serif;
+        font-weight: bold;
+        line-height: 1.05;
+        text-align: center;
+        color: #000;
+        overflow-wrap: anywhere;
+    }
+    .size-large .monster-token-name { font-size: 14pt; padding: 2mm 3mm; }
+    .size-medium .monster-token-name { font-size: 7.5pt; padding: 1mm 1.5mm; }
+    .size-small .monster-token-name { font-size: 6.5pt; padding: 0.8mm 1mm; }
+    .character-tile-slot { break-inside: avoid; -webkit-column-break-inside: avoid; }
+.monster {
+        font-family: Calibri, 'Source Sans 3', system-ui, sans-serif;
+        font-size: 9.5pt;
+        line-height: 1.28;
+        color: #1b1b1b;
+        break-inside: avoid;
+        page-break-inside: avoid;
+        margin: 0 0 14px;
+    }
+    .monster { --mon: #2e5a22; --mon-light: #e3ecda; }
+    .monster .monster-header {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        gap: 8px;
+        background: var(--mon);
+        color: #fff;
+        padding: 2px 8px 3px;
+        font-family: 'Source Sans 3', 'Source Sans Pro', Calibri, system-ui, sans-serif;
+    }
+    .monster .monster-body { padding: 2px 7px 0; }
+    .monster .monster-name {
+        font-size: 0.95em;
+        margin: 0;
+        font-weight: 700;
+        line-height: 1.1;
+        flex: 1 1 auto;
+    }
+    .monster .monster-level {
+        flex: 0 0 auto;
+        font-size: 0.95em;
+        font-weight: normal;
+        line-height: 1.2;
+        opacity: 0.95;
+        white-space: nowrap;
+    }
+    .monster .monster-kind { font-size: 0.9em; color: #5a5a5a; }
+    .monster .monster-flavor { font-style: italic; color: #3a3a3a; margin: 2px 0; }
+    .monster .monster-stats { margin: 2px 0 1px; }
+    .monster .monster-senses,
+    .monster .monster-defenses { font-size: 0.9em; color: #3a3a3a; }
+    .monster .monster-defenses b { color: #1b1b1b; }
+    .monster .action-points-stat { white-space: nowrap; }
+    .monster .monster-trait { margin-top: 2px; }
+    .monster .monster-trait .trait-name { font-style: italic; }
+    .monster .action-group {
+        font-family: 'League Spartan', 'Source Sans 3', Calibri, system-ui, sans-serif;
+        font-size: 0.85em;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        color: var(--mon);
+        background: var(--mon-light);
+        margin: 4px -7px 2px;
+        padding: 1px 7px;
+    }
+    .monster .monster-trait .trait-name { font-style: italic; }
+    .monster .monster-power { margin: 0 0 1px; padding-left: 1.35em; text-indent: -1.35em; }
+    .monster .monster-power .power-icon,
+    .monster .monster-trait .power-icon {
+        font-family: 'Segoe UI Symbol', 'Noto Sans Symbols 2', 'DejaVu Sans', sans-serif;
+        font-variant-emoji: text;
+        margin-right: 3px;
+    }
+    .monster .power-icon.ranged { font-size: 0.8em; }
+    .monster .power-icon.basic {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 1.1em;
+        height: 1.1em;
+        box-sizing: border-box;
+        border: 1px solid #000;
+        border-radius: 50%;
+        text-indent: 0;
+        line-height: 1;
+        vertical-align: middle;
+        position: relative;
+        top: -0.05em;
+    }
+    .monster .power-icon.basic .glyph { font-size: 0.72em; }
+    .monster .power-icon.basic.ranged { font-size: 1em; }
+    .monster .power-icon.basic.ranged .glyph { font-size: 0.6em; }
+    .monster .tag-separator { font-weight: normal; }
+    .monster .monster-power .power-usage { font-size: 0.9em; color: #3a3a3a; }
+    .monster .monster-power .power-usage .power-icon { margin: 0; }
+    .monster .monster-power .power-keywords { font-variant: small-caps; letter-spacing: 0.02em; }
+    .monster .action-points { letter-spacing: 0.5px; }
+body {
+        margin: 0;
+        background: #efece6;
+        font-family: 'Source Sans 3', 'Source Sans Pro', Calibri, system-ui, sans-serif;
+        color: #1b1b1b;
+    }
+    #loader {
+        font-family: system-ui, sans-serif;
+        font-size: 13px;
+        padding: 10px 14px;
+        color: #333;
+    }
+    #loader.hide { display: none; }
+    #loader .hint { color: #777; margin-left: 8px; }
+    #loader .missing { color: #9c2b2b; }
+    #controls { font-family: system-ui, sans-serif; font-size: 13px; padding: 6px 14px 8px; }
+    #controls button { font: inherit; padding: 3px 9px; border: 1px solid #bdb8ae;
+                       border-radius: 4px; background: #f7f5f1; cursor: pointer; }
+    #controls label { margin-right: 16px; cursor: pointer; user-select: none; }
+    #controls .save-note { color: #777; margin-left: 10px; }
+    @media print { #loader, #controls { display: none !important; } }
+    .page {
+        background: white;
+        font-size: 9.5pt;
+        line-height: 1.35;
+        margin: 10px auto 24px;
+        padding: 12mm 12mm 10mm;
+        max-width: var(--page-w, 297mm);
+    }
+    .masthead {
+        padding-bottom: 5px;
+        margin-bottom: 8px;
+    }
+    .masthead h1 {
+        font-family: 'League Spartan', 'Source Sans 3', Calibri, system-ui, sans-serif;
+        font-size: 36pt;
+        line-height: 1.05;
+        margin: 0;
+        color: #1b1b1b;
+        letter-spacing: 0.4px;
+    }
+    .masthead .attribution { font-size: 12pt; font-style: italic; color: #1b1b1b; margin-top: 3px; }
+    .masthead .masthead-line { font-size: 12pt; color: #1b1b1b; margin: 0; }
+    .masthead .masthead-line .attribution { font-size: inherit; display: inline; margin: 0; }
+    .masthead.with-side {
+        display: grid;
+        grid-template-columns: calc((100% - (var(--cols, 3) - 1) * 8mm) / var(--cols, 3) + 8mm) minmax(0, 1fr);
+        align-items: end;
+    }
+    .masthead.with-side h1 { padding-right: 4mm; }
+    .masthead.with-side .masthead-side { padding-bottom: 4px; }
+    .masthead.with-side .masthead-side > :first-child { margin-top: 0; }
+    .sheet, .flow-page { position: relative; z-index: 0; }
+    .watermark {
+        position: absolute;
+        left: 50%;
+        top: 42%;
+        transform: translateX(-50%);
+        font-family: "Segoe UI Symbol", "Noto Sans Symbols 2", "Symbola", "DejaVu Sans", sans-serif;
+        font-variant-emoji: text;
+        font-size: 300pt;
+        line-height: 0.8;
+        color: #f8f5f0;
+        pointer-events: none;
+        z-index: -1;
+    }
+    @media print {
+        .flow-page + .flow-page, .flow-section + .flow-section {
+            break-before: page;
+            page-break-before: always;
+        }
+    }
+    .page .indented { margin-left: 1.2em; }
+    .page .indented > :last-child { margin-bottom: 5px; }
+    .column-break { height: 0; break-inside: avoid; -webkit-column-break-inside: avoid; }
+    .column-break + * { margin-top: 0 !important; }
+    .columns {
+        column-count: var(--cols, 3);
+        column-gap: 8mm;
+        column-rule: 0.5pt solid #ddd8cf;
+        font-size: 9.5pt;
+        line-height: 1.35;
+    }
+    .page h2 {
+        font-family: 'League Spartan', 'Source Sans 3', Calibri, system-ui, sans-serif;
+        font-size: 13pt;
+        color: #1b1b1b;
+        margin: 10px 0 4px;
+        break-after: avoid;
+        -webkit-column-break-after: avoid;
+    }
+    .page .columns h2:first-child, .page .panel > h2:first-child { margin-top: 0; }
+    .page h3 {
+        font-family: 'League Spartan', 'Source Sans 3', Calibri, system-ui, sans-serif;
+        font-size: 10pt;
+        margin: 9px 0 3px;
+        break-after: avoid;
+        -webkit-column-break-after: avoid;
+    }
+    .page p { margin: 0 0 5px; }
+    .page ul { margin: 0 0 6px; padding-left: 14px; }
+    .page li { margin-bottom: 1px; break-inside: avoid; }
+    .page p, .page li { orphans: 2; widows: 2; }
+    .page ul.checklist { list-style: none; padding-left: 0; }
+    .checklist li { padding-left: 1.1em; text-indent: -1.1em; }
+    .checkbox, .checklist .box {
+        font-family: "Segoe UI Symbol", "Noto Sans Symbols 2", "Noto Sans Symbols2",
+                     "Symbola", "DejaVu Sans", sans-serif;
+        font-variant-emoji: text;
+    }
+    .fill-row { display: flex; align-items: baseline; gap: 4px; }
+    .fill-row .write-line.full-width { flex: 1 1 auto; min-width: 2em; }
+    .write-line {
+        display: inline-block;
+        min-width: 3em;
+        flex: 1 1 auto;
+        border-bottom: 0.75pt solid #9a958b;
+        margin: 0 2px;
+        vertical-align: baseline;
+    }
+    .page table { border-collapse: collapse; width: 100%; margin: 4px 0 7px; font-size: 0.92em; }
+    .page th, .page td { border: 0.5pt solid #bdbdbd; padding: 1px 4px; text-align: left; vertical-align: middle; }
+    .page th { background: none; font-weight: bold; vertical-align: bottom; border: none; border-bottom: 2pt solid #1b1b1b; }
+    .page tbody tr:nth-child(even) td { background: #e6e6e6; }
+    .page th.numeric, .page td.numeric { text-align: center; }
+    .page table { break-inside: avoid; -webkit-column-break-inside: avoid; }
+    .symbol.u24d0 { color: #4d7a30; }
+    .symbol.u24ba, .symbol.u26fa { color: #a85412; }
+    .symbol.u24b9, .symbol.u1f323 { color: #1b477e; }
+    .map-tile {
+        box-sizing: border-box;
+        width: 2cm;
+        height: 2cm;
+        border: 1pt dotted #1b1b1b;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1mm;
+        background: white;
+        break-inside: avoid;
+        -webkit-column-break-inside: avoid;
+    }
+    .map-tile-icon {
+        font-family: "Segoe UI Symbol", "Noto Sans Symbols 2", "Symbola", "DejaVu Sans", sans-serif;
+        font-variant-emoji: text;
+        font-size: 0.85cm;
+        line-height: 1;
+        color: #1b1b1b;
+    }
+    .tile-run {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin: 4px 0 6px;
+        padding: 0 1pt 1pt 0;
+    }
+    .tile-run > * { margin: 0 -1pt -1pt 0; flex: none; }
+    .map-tile-name {
+        font-family: 'League Spartan', 'Source Sans 3', Calibri, system-ui, sans-serif;
+        font-size: 6.5pt;
+        font-weight: bold;
+        line-height: 1.05;
+        text-align: center;
+        padding: 0 1.5mm;
+        color: #1b1b1b;
+    }
+    .page .sticker { margin: 4px 0 2px; break-inside: avoid; -webkit-column-break-inside: avoid; }
+    .sheet {
+        display: grid;
+        grid-template-columns: repeat(var(--panels, 3), minmax(0, 1fr));
+        column-gap: 8mm;
+        row-gap: 4mm;
+        align-content: start;
+    }
+    .sheet .sheet-band { grid-column: 1 / -1; order: -1; }
+    .sheet .sheet-foot { grid-column: 1 / -1; order: 9; }
+    .sheet .panel { min-width: 0; position: relative; }
+    .sheet .panel.full-height { grid-row: span 2; }
+    .sheet .panel + .panel::before, .sheet.fold .panel:nth-child(1)::before {
+        content: "";
+        position: absolute;
+        left: -4mm;
+        top: 0;
+        bottom: 0;
+        border-left: 0.5pt solid #ddd8cf;
+    }
+    .sheet.fold .panel:nth-child(1) { order: 3; }
+    .sheet.fold .panel:nth-child(2) { order: 1; }
+    .sheet.fold .panel:nth-child(3) { order: 2; }
+    .sheet.fold .panel:nth-child(2)::before { display: none; }
+    .sheet + .sheet { margin-top: 10mm; }
+    @media print {
+        .sheet { break-inside: avoid; page-break-inside: avoid; }
+        .sheet + .sheet { break-before: page; page-break-before: always; margin-top: 0; }
+    }
+    .callout {
+        border: 0.75pt solid #cdc8bf;
+        border-radius: 2px;
+        padding: 4px 7px 6px;
+        margin: 6px 0 8px;
+        break-inside: avoid;
+        -webkit-column-break-inside: avoid;
+    }
+    .callout > .callout-title {
+        font-family: 'League Spartan', 'Source Sans 3', Calibri, system-ui, sans-serif;
+        font-size: 10pt;
+        color: #651c1c;
+        margin-bottom: 2px;
+    }
+    .insert {
+        border: 0.75pt solid #9c2b2b;
+        border-left-width: 3pt;
+        border-radius: 2px;
+        padding: 5px 8px 6px;
+        margin: 7px 0 9px;
+        background: #fdfbf7;
+        break-inside: avoid;
+        -webkit-column-break-inside: avoid;
+    }
+    .insert .insert-title { font-weight: bold; font-size: 10pt; color: #651c1c; }
+    .insert .insert-slot {
+        font-size: 8pt;
+        color: #6b6b6b;
+        text-transform: uppercase;
+        letter-spacing: 0.4px;
+        margin-left: 5px;
+    }
+    .insert .insert-flavor { font-style: italic; color: #4a4a4a; margin: 2px 0 3px; }
+    .insert .insert-details ul { margin: 3px 0 0; padding-left: 15px; }
+    .insert .insert-source { font-size: 7.5pt; color: #8a8378; margin-top: 4px; }
+    .insert .feat-name { font-weight: bold; }
+    .insert .stat-line { font-size: 8.5pt; color: #4a4a4a; margin-bottom: 3px; }
+    .columns.cut-out-sheet {
+        column-count: 1;
+        column-rule: none;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 0;
+    }
+    .cut-out-sheet > * { margin: 0 !important; flex: none; }
+    .cut-out-sheet > p, .cut-out-sheet > ul, .cut-out-sheet > ol { flex: 0 0 100%; }
+    .cut-out-sheet > .labeled-group { display: flex; align-items: flex-start; }
+    .cut-out-sheet > .labeled-group > * { margin: 0; flex: none; }
+    .labeled-group > h1, .labeled-group > h2, .labeled-group > h3, .labeled-group > h4,
+    .cut-out-sheet > h1, .cut-out-sheet > h2, .cut-out-sheet > h3, .cut-out-sheet > h4 {
+        font-size: 9pt; line-height: 1.2; max-width: 25mm; padding: 1mm 1.5mm 0 0;
+    }
+    .cut-out-sheet > .sticker-stack, .cut-out-sheet > .half-pair { display: flex; flex-direction: column; }
+    .cut-out-sheet .half-pair > .card-slot { margin: 0; }
+    .cut-out-sheet > .tile-run { display: contents; }
+    .cut-out-sheet .sticker, .cut-out-sheet .card-slot .power-card, .cut-out-sheet .ancestry,
+    .cut-out-sheet .ancestry-group { margin: 0; }
+    .cut-out-sheet > .flow-slot, .cut-out-sheet > .monster-slot { flex: 0 0 85mm; }
+    .cut-out-sheet .card-slot .power-card {
+        border-radius: 0;
+        outline: 1px dotted #fff;
+        outline-offset: -1px;
+    }
+    .flow-slot, .card-slot, .ancestry-slot, .monster-slot {
+        break-inside: avoid;
+        -webkit-column-break-inside: avoid;
+        margin: 7px 0 9px;
+    }
+    .flow-slot .power-card { width: 100%; }
+    .card-slot, .ancestry-slot { display: flex; justify-content: center; }
+    .card-slot .power-card { margin: 0; }
+    .ancestry-slot .ancestry { margin-bottom: 0; background: white; }
+    .monster-slot .monster { font-size: inherit; margin-bottom: 0; }
+    .symbol {
+        font-family: "Segoe UI Symbol", "Noto Sans Symbols 2", "Noto Sans Symbols2",
+                     "Symbola", "DejaVu Sans", sans-serif;
+        font-variant-emoji: text;
+    }
+    .unresolved {
+        border: 1pt dashed #9c2b2b;
+        color: #9c2b2b;
+        padding: 4px 7px;
+        margin: 6px 0;
+        font-size: 8.5pt;
+        break-inside: avoid;
+    }
+    @media print {
+        body { background: white; }
+        .page { margin: 0; padding: 0; max-width: none; }
+    }
+@media print {
+            @page { size: A4 landscape; margin: 10mm 10mm 0; }
+            .sheet { padding-top: 10mm; width: 277mm; }
+        }
+        @media screen {
+            .page { background: none; padding: 0; max-width: none; margin: 0; }
+            .sheet {
+                width: 277mm;
+                padding: 20mm 10mm 4mm;
+                margin: 12px auto 20px;
+                background: white;
+                box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
+                overflow: hidden;
+            }
+            .sheet + .sheet { margin-top: 0; }
+            .sheet.overfull { outline: 2px dashed #c00000; overflow: visible; }
+        }
+        .page h2 {
+            font-size: 14pt;
+            color: #1b1b1b;
+            border-bottom: none;
+            padding-bottom: 0;
+            margin: 8px 0 3px;
+        }
+        .page .panel > h2:first-child, .page .power-text > h2:first-child, .page .gear-text > h2:first-child,
+        .page .panel-bottom > h2:first-child { margin-top: 0; }
+        .sheet .masthead.playbook { display: block; position: relative; border-bottom: none; margin-bottom: 6px; }
+        .masthead.playbook .playbook-glyph-anchor { position: relative; height: 0; }
+        .masthead.playbook .playbook-glyph {
+            position: absolute;
+            right: 0;
+            bottom: 2pt;
+            font-family: "Segoe UI Symbol", "Noto Sans Symbols 2", "Symbola", "DejaVu Sans", sans-serif;
+            font-variant-emoji: text;
+            font-size: 50pt;
+            line-height: 1;
+            color: #444;
+        }
+        .masthead.playbook.no-welcome .playbook-glyph { font-size: 24pt; }
+        .masthead.playbook .playbook-welcome { font-size: 16pt; line-height: 1.15; color: #1b1b1b; margin-bottom: 0.5em; }
+        .masthead.playbook h1, .masthead.playbook .playbook-role, .masthead.playbook .attribution { margin-left: 1cm; }
+        .masthead.playbook h1 { font-size: 40pt; line-height: 1; white-space: nowrap; color: #1b1b1b; margin-top: 0; margin-bottom: 0; }
+        .masthead.playbook .playbook-role {
+            font-family: 'League Spartan', 'Source Sans 3', Calibri, system-ui, sans-serif;
+            font-size: 18pt;
+            line-height: 1.05;
+            color: #1b1b1b;
+        }
+        .masthead.playbook .attribution {
+            font-size: 12pt;
+            font-style: italic;
+            color: #1b1b1b;
+            max-width: none;
+            margin-top: 3px;
+        }
+        .checklist li.fill-row { text-indent: 0; padding-left: 0; }
+        .equipment-option, .choice-option { display: inline-block; text-indent: 0; }
+        .gear-text { font-size: 10.5pt; }
+        .equipment-note { font-size: 8.5pt; font-style: italic; }
+        .equipment .choice-line + .choice-line { text-indent: 0; }
+        .equipment .choice-line.fill-row:first-child { margin-left: -1.1em; text-indent: 0; }
+        .resource-heading-encounter { color: #a85412; }
+        .resource-heading-daily { color: #1b477e; }
+        .resource-heading-encounter p, .resource-heading-daily p { margin-bottom: 3px; }
+        .power-text { font-size: 10.5pt; }
+        .power-text p { margin-bottom: 4px; }
+        .split-columns { column-count: 2; column-gap: 5mm; margin-bottom: 3px; }
+        .split-columns ul { margin-bottom: 0; }
+        .panel:has(> .panel-bottom) { display: flex; flex-direction: column; }
+        .panel-bottom { margin-top: auto; }
+        .field-row { display: flex; flex-wrap: wrap; gap: 3px 14px; margin: 3px 0 4px; font-size: 12pt; }
+        .field-row .field { flex: 1 1 40%; display: flex; align-items: baseline; gap: 5px; }
+        .field-row .field .field-label { white-space: nowrap; }
+        .field-row .field .field-value { flex: 1 1 auto; border-bottom: 0.75pt solid #9a958b; }
+        .field-row .write-line { min-width: 2em; }
+        .panel > p.instruction { font-size: 9.5pt; line-height: 1.25; }
+        .abilities { display: flex; flex-wrap: wrap; gap: 11px 22px; margin: 6px 0 0;
+                     break-inside: avoid; -webkit-column-break-inside: avoid; }
+        .abilities .ability { flex: 1 1 40%; break-inside: avoid; }
+        .abilities .ability-head { display: flex; align-items: center; gap: 6px; }
+        .abilities .ability-box { width: 1cm; height: 1cm; border: 1pt solid #1b1b1b; flex: 0 0 auto; }
+        .abilities .ability-name {
+            font-family: 'League Spartan', 'Source Sans 3', Calibri, system-ui, sans-serif;
+            font-size: 16pt;
+        }
+        .abilities .ability-skills { margin: 2px 0 0 calc(1cm + 6px); }
+        .abilities .skill { white-space: nowrap; font-size: 9pt; line-height: 1.25; }
+        .stat-cells { display: flex; flex-wrap: wrap; gap: 6px 8px; margin: 4px 0 8px;
+                      break-inside: avoid; -webkit-column-break-inside: avoid; }
+        .stat-cells .stat-cell { text-align: center; }
+        .stat-cells .stat-box { width: 1.7cm; height: 1.3cm; border: 1pt solid #1b1b1b; margin: 0 auto; }
+        .stat-cells .stat-cell.wide .stat-box { width: 3cm; height: 0.7cm; }
+        .stat-cells .stat-label { font-size: 8pt; color: #4a4a4a; }
+        .pip-row { display: flex; align-items: flex-end; margin: 4px 0 8px;
+                   break-inside: avoid; -webkit-column-break-inside: avoid; }
+        .pip-row .pip-label { flex: 0 0 2.3cm; font-size: 10pt; font-weight: bold; align-self: center; }
+        .pip-row .pip-marks { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 4px; }
+        .pip-cell { display: flex; flex-direction: column; align-items: center; }
+        .pip-cell .pip-caption { font-size: 8pt; color: #4a4a4a; line-height: 1.1; white-space: nowrap; }
+        .pip {
+            width: 0.95cm;
+            height: 0.95cm;
+            box-sizing: border-box;
+            border: 0.75pt solid #1b1b1b;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1;
+        }
+        .pip.round, .pip.disc, .pip.glyph-mark { border-radius: 50%; }
+        .pip.disc { background: #9c2b2b; border-color: #7d2020; }
+        .pip.later { background: #ece7dd; }
+        .pip.heart { border: none; }
+        .pip-row.marks-heart .pip-marks { display: grid; grid-template-columns: repeat(var(--per-row, 4), auto); }
+        .pip.heart svg { width: 0.95cm; height: 0.95cm; }
+        .pip-row.marks-tent, .pip-row.marks-sun { border-top: 0.5pt solid #bdbdbd; padding-top: 6px; margin-top: 8px; }
+        .rest-note { text-align: center; font-style: italic; }
+        .rest-note p { margin: 2px 0 6px; }
+        .hit-points { display: flex; align-items: flex-start; gap: 6px; margin: 4px 0 8px; }
+        .hit-points .stat-cells { margin: 0; }
+        .hit-points .hit-points-slash { font-size: 26pt; line-height: 1.3cm; color: #4a4a4a; }
+        .hit-points .bloodied { margin-left: auto; }
+        .hit-points .bloodied .stat-box { border-color: #8b1a1a; }
+        .hit-points .bloodied .stat-label { color: #8b1a1a; font-weight: bold; }
+        .recoveries { display: flex; align-items: center; gap: 6px; }
+        .recoveries .pip-row { margin-bottom: 4px; }
+        .recoveries .stat-cells { margin: 0 0 0 auto; }
+        .recoveries .stat-box { width: 1.5cm; }
+        .pip.box { width: 1.7cm; border-width: 1pt; }
+        .pip.impetus { background: #a85412; border-color: #a85412; color: white; }
+        .pip.stamina { background: #1b477e; border-color: #1b477e; color: white; }
+        .pip.impetus.later { background: #edd5c2; color: #a85412; }
+        .pip.stamina.later { background: #c9d4e3; color: #1b477e; }
+        .pip .pip-glyph {
+            font-size: 15pt;
+            font-family: "Segoe UI Symbol", "Noto Sans Symbols 2", "Symbola", "DejaVu Sans", sans-serif;
+            font-variant-emoji: text;
+        }
+        .rule-lines { margin-bottom: 8px; }
+        .rule-lines .rule-line { border-bottom: 0.75pt solid #9a958b; height: 0.65cm; }
+        .panel:has(> .rule-lines.fill) { display: flex; flex-direction: column; }
+        .rule-lines.fill {
+            flex: 1 1 auto;
+            min-height: calc(4 * 0.65cm);
+            background: linear-gradient(to bottom, transparent calc(0.65cm - 0.75pt), #9a958b calc(0.65cm - 0.75pt)) 0 0 / 100% 0.65cm repeat-y;
+        }
+        .coin-row { display: flex; justify-content: center; gap: 14px; margin: 4px 0 6px;
+                    break-inside: avoid; -webkit-column-break-inside: avoid; }
+        .coin-row .coin { text-align: center; }
+        .coin-row .coin-disc { width: 1.2cm; height: 1.2cm; margin: 0 auto; border-radius: 50%; border: 0.75pt solid #6b6b6b; }
+        .coin-row .gold   { background: #d9b64a; }
+        .coin-row .silver { background: #c3c7cc; }
+        .coin-row .copper { background: #c08457; }
+        .coin-row .stat-label { font-size: 9pt; color: #4a4a4a; }
+        .sticker-slots { margin: 0; }
+        .sticker-slots .sticker-slot { width: var(--sticker-width); max-width: 100%; }
+        .sticker-slots .sticker-slot {
+            box-sizing: border-box;
+            height: var(--sticker-height);
+            border: 1pt solid #1b477e;
+            border-left-width: 4px;
+            margin-bottom: 2px;
+            padding: 2px 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            break-inside: avoid;
+        }
+        .sticker-slots .slot-label { color: #9a958b; font-size: 8pt; }
+        .sticker-slots.talent .sticker-slot {
+            border-color: #000;
+            border-radius: 0 calc(var(--sticker-height) / 2) calc(var(--sticker-height) / 2) 0;
+        }
+        .ancestry-paste {
+            box-sizing: border-box;
+            border: 1pt dashed #1d6660;
+            width: var(--ancestry-width);
+            max-width: 100%;
+            height: var(--ancestry-height);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #1d6660;
+            font-size: 9pt;
+            margin: 4px 0 0;
+            break-inside: avoid;
+        }
+        .page .level-table { font-size: 9pt; line-height: 1.15; margin: 0 0 3px; }
+        .page .level-table th, .page .level-table td {
+            text-align: center;
+            vertical-align: middle;
+            border-color: #bdbdbd;
+            padding: 1px 4px;
+        }
+        .page .level-table th {
+            background: none;
+            color: #1b1b1b;
+            font-weight: bold;
+            vertical-align: bottom;
+            border: none;
+            border-bottom: 2pt solid #1b1b1b;
+        }
+        .page .level-table tbody tr:nth-child(even) td { background: #e6e6e6; }
+        .page .level-table .other-column { text-align: left; }
+        .shield-icon { width: 0.95em; height: 0.95em; vertical-align: -0.12em; fill: currentColor; }
+        .band-row { display: flex; gap: 8mm; align-items: center; }
+        .band-row > * { flex: 1 1 0; min-width: 0; }
+        .band-row > .stat-cells { flex: 0 0 auto; margin: 0; }
+        .band-row .stat-cell { display: flex; flex-direction: row-reverse; align-items: center; gap: 6px; }
+        .band-row .stat-cell .stat-label { font-size: 10pt; font-weight: bold; color: #1b1b1b; }
+        .table-note { margin: 0; font-size: 9pt; }
+        .band-notes .table-note { margin: 0; line-height: 1.2; }
+        @page pack-cards { size: A4 landscape; margin: 16mm 21.5mm; }
+        @page pack-stickers { size: A4 landscape; margin: 10mm; }
+        .pack-section { box-sizing: border-box; background: white; color: #000; font-size: 16px; line-height: normal; }
+        @media screen {
+            .pack-section { margin: 12px auto 20px; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18); }
+            .pack-cards { width: 297mm; min-height: 210mm; padding: 16mm 21.5mm; }
+            .pack-stickers { width: 297mm; min-height: 210mm; padding: 10mm; }
+        }
+        @media print {
+            .pack-section { break-before: page; page-break-before: always; }
+            .pack-cards { page: pack-cards; }
+            .pack-stickers { page: pack-stickers; }
+            .pack-section + .sheet { break-before: page; page-break-before: always; }
+        }
+        .pack-cards .card-grid { display: grid; grid-template-columns: repeat(4, 2.5in); grid-auto-rows: 3.5in; }
+        .pack-cards .power-card { margin: 0; border-radius: 0; outline: 1px dotted #fff; outline-offset: -1px; }
+        .pack-cards .power-card .card-title, .pack-stickers .ancestry .ancestry-name { font-family: inherit; }
+        .pack-stickers .sticker-sheet { column-count: 3; column-gap: 1cm; }
+        .pack-stickers .sticker-group { break-inside: avoid; -webkit-column-break-inside: avoid; margin-bottom: 6px; }
+        .pack-stickers .ancestry { margin: 0 0 6px; }
+        .page .pack-stickers .sticker { margin: 0 0 -1pt; }
+        .page .pack-stickers .sticker.type-talent { margin-bottom: 0; }
+        .pack-stickers .character-tile-slot { margin: 6px 0 0; }
+        .page .pack-stickers .group-heading {
+            font-family: 'League Spartan', 'Source Sans 3', Calibri, system-ui, sans-serif;
+            font-size: 12pt;
+            font-weight: bold;
+            margin: 10px 0 5px;
+        }
+        .page .pack-stickers .sticker-group:first-child .group-heading,
+        .page .pack-stickers .ancestry-cluster > .sticker-group:first-child .group-heading { margin-top: 0; }
+</style>
+</head>
+<body class="">
+<div class="page" id="page" style="--cols: 3; --page-w: 297mm; font-size: 9pt;"><div class="sheet fold" style="--panels: 3; grid-template-columns: minmax(0px, 85fr) minmax(0px, 91fr) minmax(0px, 85fr); height: 702.987px; overflow: hidden;"><div class="panel"><div class="masthead playbook"><div class="playbook-who"><div class="playbook-welcome">Welcome to the ...</div><div class="playbook-glyph-anchor"><div class="playbook-glyph">🌀︎</div></div><h1 style="font-size: 31pt;">Mindfire Adept</h1><div class="playbook-role">Arcane Controller</div><div class="attribution">Colorless fire burns through the Mindfire Adept and leaks into the receptive world.</div></div></div><div class="field-row"><div class="field"><span class="field-label">Name</span><span class="write-line"></span></div><div class="field"><span class="field-label">Faith</span><span class="write-line"></span></div><div class="field"><span class="field-label">Party</span><span class="write-line"></span></div><div class="field"><span class="field-label">Class</span><span class="field-value">Wizard</span></div></div>
+<h2>Abilities and Skills</h2>
+<p class="instruction" style=""><em>Distribute <strong>+3, +2, +1, +0 and -1</strong> between abilities, then <strong>add +1 to any one ability</strong>.</em></p>
+<p class="instruction"><em>Train <strong>4 more</strong> skills of your choice. Arcana is already trained.</em></p>
+<div class="abilities"><div class="ability"><div class="ability-head"><span class="ability-box"></span><span class="ability-name">Strength</span></div><div class="ability-skills"><div class="skill"><span class="checkbox">☐</span> Athletics</div><div class="skill"><span class="checkbox">☐</span> Endurance</div></div></div><div class="ability"><div class="ability-head"><span class="ability-box"></span><span class="ability-name">Dexterity</span></div><div class="ability-skills"><div class="skill"><span class="checkbox">☐</span> Acrobatics</div><div class="skill"><span class="checkbox">☐</span> Initiative</div><div class="skill"><span class="checkbox">☐</span> Sleight of Hand</div><div class="skill"><span class="checkbox">☐</span> Stealth</div></div></div><div class="ability"><div class="ability-head"><span class="ability-box"></span><span class="ability-name">Intelligence</span></div><div class="ability-skills"><div class="skill"><span class="checkbox">☑</span> Arcana</div><div class="skill"><span class="checkbox">☐</span> History</div><div class="skill"><span class="checkbox">☐</span> Religion</div></div></div><div class="ability"><div class="ability-head"><span class="ability-box"></span><span class="ability-name">Wisdom</span></div><div class="ability-skills"><div class="skill"><span class="checkbox">☐</span> Dungeoneering</div><div class="skill"><span class="checkbox">☐</span> Heal</div><div class="skill"><span class="checkbox">☐</span> Insight</div><div class="skill"><span class="checkbox">☐</span> Nature</div><div class="skill"><span class="checkbox">☐</span> Perception</div></div></div><div class="ability"><div class="ability-head"><span class="ability-box"></span><span class="ability-name">Charisma</span></div><div class="ability-skills"><div class="skill"><span class="checkbox">☐</span> Bluff</div><div class="skill"><span class="checkbox">☐</span> Diplomacy</div><div class="skill"><span class="checkbox">☐</span> Intimidate</div><div class="skill"><span class="checkbox">☐</span> Streetwise</div></div></div></div></div><div class="panel"><div class="gear-text"><h2>Proficiencies</h2>
+<p><strong>Weapons</strong> Dagger, sickle, club, quarterstaff</p><p><strong>Armor</strong> None</p><p class="fill-row"><strong>Wands</strong> <span class="checkbox">☑</span> <span class="write-line full-width"></span> <span class="checkbox">☑</span> <span class="write-line full-width"></span> <span class="checkbox">☑</span> <span class="write-line full-width"></span></p>
+<h2>Equipment</h2>
+<ul class="checklist equipment"><li class="fill-row"><span class="checkbox">☑</span> Any weapon: <span class="write-line full-width"></span></li><li class="fill-row"><span class="checkbox">☑</span> Any wand: <span class="write-line full-width"></span></li><li class="fill-row"><span class="checkbox">☑</span> Any wand: <span class="write-line full-width"></span></li><li class="fill-row"><span class="checkbox">☑</span> Any wand: <span class="write-line full-width"></span></li><li><span class="checkbox">☑</span> Cloth <span class="equipment-note">(+0 AC, already included)</span></li><li><div class="choice-line"><span class="equipment-option"><span class="checkbox">☐</span> 20gp of ritual components</span> <span class="equipment-option">OR <span class="checkbox">☐</span> pen that belonged to an archdevil</span> <span class="equipment-option">OR <span class="checkbox">☐</span> scribe's kit</span></div></li><li><span class="checkbox">☑</span> Dungeoneer's pack <span class="equipment-note">(backpack, bedroll, flint &amp; steel, belt pouch, 10 days rations, waterskin, 2 glowbaskets, 50' rope)</span></li></ul></div>
+<h2>Loot and Plunder</h2>
+<div class="rule-lines fill"></div>
+<div class="coin-row"><div class="coin"><div class="coin-disc gold"></div><div class="stat-label">gold pieces</div></div><div class="coin"><div class="coin-disc silver"></div><div class="stat-label">silver pieces</div></div><div class="coin"><div class="coin-disc copper"></div><div class="stat-label">copper pieces</div></div></div></div><div class="panel"><h2>In Play</h2>
+<div class="hit-points"><div class="stat-cells"><div class="stat-cell"><div class="stat-box"></div><div class="stat-label">Current HP</div></div></div><span class="hit-points-slash">/</span><div class="stat-cells"><div class="stat-cell"><div class="stat-box"></div><div class="stat-label">Max HP</div></div></div><div class="stat-cells bloodied"><div class="stat-cell"><div class="stat-box"></div><div class="stat-label">Bloodied</div></div></div></div>
+<div class="recoveries" style="--per-row: 4"><div class="pip-row marks-heart"><span class="pip-label">Recoveries</span><span class="pip-marks"><span class="pip-cell"><span class="pip-caption"></span><span class="pip heart"><svg viewBox="0 0 24 22" aria-hidden="true"><path d="M12 21 2.6 11.6a5.6 5.6 0 0 1 7.9-7.9L12 5.2l1.5-1.5a5.6 5.6 0 0 1 7.9 7.9Z" fill="#fff" stroke="#c00000" stroke-width="1.6"></path></svg></span></span><span class="pip-cell"><span class="pip-caption"></span><span class="pip heart"><svg viewBox="0 0 24 22" aria-hidden="true"><path d="M12 21 2.6 11.6a5.6 5.6 0 0 1 7.9-7.9L12 5.2l1.5-1.5a5.6 5.6 0 0 1 7.9 7.9Z" fill="#fff" stroke="#c00000" stroke-width="1.6"></path></svg></span></span><span class="pip-cell"><span class="pip-caption"></span><span class="pip heart"><svg viewBox="0 0 24 22" aria-hidden="true"><path d="M12 21 2.6 11.6a5.6 5.6 0 0 1 7.9-7.9L12 5.2l1.5-1.5a5.6 5.6 0 0 1 7.9 7.9Z" fill="#fff" stroke="#c00000" stroke-width="1.6"></path></svg></span></span><span class="pip-cell"><span class="pip-caption"></span><span class="pip heart"><svg viewBox="0 0 24 22" aria-hidden="true"><path d="M12 21 2.6 11.6a5.6 5.6 0 0 1 7.9-7.9L12 5.2l1.5-1.5a5.6 5.6 0 0 1 7.9 7.9Z" fill="#fff" stroke="#c00000" stroke-width="1.6"></path></svg></span></span><span class="pip-cell"><span class="pip-caption"></span><span class="pip heart"><svg viewBox="0 0 24 22" aria-hidden="true"><path d="M12 21 2.6 11.6a5.6 5.6 0 0 1 7.9-7.9L12 5.2l1.5-1.5a5.6 5.6 0 0 1 7.9 7.9Z" fill="#fff" stroke="#c00000" stroke-width="1.6"></path></svg></span></span><span class="pip-cell"><span class="pip-caption"></span><span class="pip heart"><svg viewBox="0 0 24 22" aria-hidden="true"><path d="M12 21 2.6 11.6a5.6 5.6 0 0 1 7.9-7.9L12 5.2l1.5-1.5a5.6 5.6 0 0 1 7.9 7.9Z" fill="#fff" stroke="#c00000" stroke-width="1.6"></path></svg></span></span><span class="pip-cell"><span class="pip-caption"></span><span class="pip heart"><svg viewBox="0 0 24 22" aria-hidden="true"><path d="M12 21 2.6 11.6a5.6 5.6 0 0 1 7.9-7.9L12 5.2l1.5-1.5a5.6 5.6 0 0 1 7.9 7.9Z" fill="#fff" stroke="#c00000" stroke-width="1.6"></path></svg></span></span></span></div><div class="stat-cells"><div class="stat-cell"><div class="stat-box"></div><div class="stat-label">Recovery Value</div></div></div></div>
+<div class="pip-row marks-tent"><span class="pip-label">Impetus</span><span class="pip-marks"><span class="pip-cell"><span class="pip-caption"></span><span class="pip glyph-mark impetus"><span class="pip-glyph">⛺︎</span></span></span><span class="pip-cell"><span class="pip-caption">Level 3</span><span class="pip glyph-mark impetus later"><span class="pip-glyph">⛺︎</span></span></span><span class="pip-cell"><span class="pip-caption">Level 7</span><span class="pip glyph-mark impetus later"><span class="pip-glyph">⛺︎</span></span></span></span></div>
+<div class="rest-note"><p><strong>Short rest (5 mins)</strong> Regain Impetus, spend recoveries to heal</p></div>
+<div class="pip-row marks-sun"><span class="pip-label">Stamina</span><span class="pip-marks"><span class="pip-cell"><span class="pip-caption"></span><span class="pip glyph-mark stamina"><span class="pip-glyph">🌣︎</span></span></span><span class="pip-cell"><span class="pip-caption">Level 5</span><span class="pip glyph-mark stamina later"><span class="pip-glyph">🌣︎</span></span></span><span class="pip-cell"><span class="pip-caption">Level 9</span><span class="pip glyph-mark stamina later"><span class="pip-glyph">🌣︎</span></span></span></span></div>
+<div class="pip-row marks-box"><span class="pip-label">Action Points</span><span class="pip-marks"><span class="pip-cell"><span class="pip-caption"></span><span class="pip box"></span></span></span></div>
+<div class="rest-note"><p><strong>Long rest (6 hours)</strong> Regain Stamina, heal to maximum HP, regain all spent recoveries, set Action Points to 1</p></div></div></div><div class="sheet" style="--panels: 3; grid-template-columns: minmax(0px, 85fr) minmax(0px, 91fr) minmax(0px, 85fr); height: 702.987px; overflow: hidden;"><div class="panel"><h2>Feats</h2>
+<p class="instruction" style=""><em>At levels 4, 7 and 10, add a feat from any you meet the requirements for.</em></p>
+<div class="sticker type-feat"><div class="sticker-body" style="font-size: 9pt;"><strong class="feature-name">Arcane Armor</strong> +2 feat bonus to AC while you wear cloth or no armor (already included).</div></div>
+<div class="sticker-slots feat"><div class="sticker-slot"><span class="slot-label">Ancestry</span></div><div class="sticker-slot"><span class="slot-label">Level 4</span></div><div class="sticker-slot"><span class="slot-label">Level 7</span></div><div class="sticker-slot"><span class="slot-label">Level 10</span></div><div class="sticker-slot"><span class="slot-label">Other</span></div><div class="sticker-slot"><span class="slot-label">Other</span></div></div></div><div class="panel"><h2>Talents</h2>
+<p class="instruction" style=""><em>At levels 2, 6 and 10, add a talent from any skill you have proficiency in.</em></p>
+<div class="sticker type-talent"><div class="sticker-body" style="font-size: 9pt;"><strong class="feature-name">Fine Control <span class="feature-tag">Wizard</span></strong> Any power you use that targets creatures can instead target enemies if you wish.</div></div>
+<div class="sticker-slots talent"><div class="sticker-slot"><span class="slot-label">Ancestry</span></div><div class="sticker-slot"><span class="slot-label">Level 2</span></div><div class="sticker-slot"><span class="slot-label">Level 6</span></div><div class="sticker-slot"><span class="slot-label">Level 10</span></div><div class="sticker-slot"><span class="slot-label">Other</span></div><div class="sticker-slot"><span class="slot-label">Other</span></div><div class="sticker-slot"><span class="slot-label">Other</span></div></div></div><div class="panel full-height"><div class="power-text"><h2>Class Features</h2>
+<p><strong>Morning Study</strong> After a long rest, you can replace one impetus or stamina power you know with a impetus or stamina power from the original list of options for that power, or replace one Arcana talent you know with one you are eligible to learn.</p>
+<p><strong>Fiery Soul</strong> +1 feat bonus to your damage with any fire attack and ignore the first 5 points of a target's fire resistance. <em>Level 11:</em> +2 instead. <em>Level 21:</em> +3 instead.</p>
+<h2>Powers</h2>
+<p><span class="symbol u24ba">Ⓔ︎</span>&nbsp;<em>Bomber</em>, <span class="symbol u26fa">⛺︎</span>&nbsp;<em>Heighten&nbsp;spell</em>, <span class="symbol u1f323">🌣︎</span> <span class="checkbox">☐</span>&nbsp;<em>Fireball</em> or <span class="checkbox">☐</span>&nbsp;<em>Drowsy</em>.</p>
+<div class="resource-heading-encounter"><p><span class="symbol">⛺︎</span> <strong>Levels 3 and 7 – choose one</strong></p></div>
+<div class="split-columns"><ul class="checklist"><li><span class="checkbox">☐</span> <em>Burning&nbsp;sheet</em></li><li><span class="checkbox">☐</span> <em>Force&nbsp;bludgeon</em></li><li><span class="checkbox">☐</span> <em>Illusory&nbsp;enemies</em></li><li><span class="checkbox">☐</span> <em>Fiery&nbsp;eruption</em></li><li><span class="checkbox">☐</span> <em>Sinister&nbsp;control</em></li><li><span class="checkbox">☐</span> <em>Gravity&nbsp;warp</em></li></ul></div>
+<div class="resource-heading-daily"><p><span class="symbol">🌣︎</span> <strong>Levels 5 and 9 – choose one</strong></p></div>
+<div class="split-columns"><ul class="checklist"><li><span class="checkbox">☐</span> <em>Quagmire</em></li><li><span class="checkbox">☐</span> <em>Burned&nbsp;over</em></li><li><span class="checkbox">☐</span> <em>Moths&nbsp;to&nbsp;a&nbsp;flame</em></li><li><span class="checkbox">☐</span> <em>Fireball</em></li><li><span class="checkbox">☐</span> <em>Drowsy</em></li></ul></div></div>
+<div class="panel-bottom"><h2>Ancestry</h2>
+<div class="ancestry-paste">Paste your ancestry here</div></div></div><div class="sheet-foot" style="grid-column: 1 / span 2"><div class="full-width"><table class="level-table"><thead><tr><th>Level</th><th>Attack<br>(weapon / spell)</th><th>AC <svg class="shield-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.5 3.5 4.8v6.4c0 5.2 3.6 9.9 8.5 11.3 4.9-1.4 8.5-6.1 8.5-11.3V4.8Z"></path></svg></th><th>Fort</th><th>Reflex <svg class="shield-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.5 3.5 4.8v6.4c0 5.2 3.6 9.9 8.5 11.3 4.9-1.4 8.5-6.1 8.5-11.3V4.8Z"></path></svg></th><th>Will</th><th>Skills*<br>(trained / untrained)</th><th>HP (bloodied) / recovery</th><th class="other-column">Other</th><th>XP for next</th></tr></thead><tbody><tr><td>1</td><td>+7 / +5</td><td>15</td><td>12</td><td>13</td><td>15</td><td>+5 / +0</td><td>25 (12) / 6</td><td class="other-column"></td><td>1,000</td></tr><tr><td>2</td><td>+8 / +6</td><td>16</td><td>13</td><td>14</td><td>16</td><td>+6 / +1</td><td>29 (14) / 7</td><td class="other-column">Talent</td><td>2,250</td></tr><tr><td>3</td><td>+9 / +7</td><td>17</td><td>14</td><td>15</td><td>17</td><td>+6 / +1</td><td>33 (16) / 8</td><td class="other-column">Impetus Power</td><td>3,750</td></tr><tr><td>4</td><td>+10 / +8</td><td>18</td><td>15</td><td>16</td><td>18</td><td>+7 / +2</td><td>37 (18) / 9</td><td class="other-column">Feat</td><td>5,500</td></tr><tr><td>5</td><td>+11 / +9</td><td>19</td><td>16</td><td>17</td><td>19</td><td>+7 / +2</td><td>41 (20) / 10</td><td class="other-column">Stamina Power</td><td>7,500</td></tr><tr><td>6</td><td>+12 / +10</td><td>20</td><td>17</td><td>18</td><td>20</td><td>+8 / +3</td><td>45 (22) / 11</td><td class="other-column">Talent</td><td>10,000</td></tr><tr><td>7</td><td>+13 / +11</td><td>21</td><td>18</td><td>19</td><td>21</td><td>+8 / +3</td><td>49 (24) / 12</td><td class="other-column">Feat, Impetus Power</td><td>13,000</td></tr><tr><td>8</td><td>+14 / +12</td><td>22</td><td>19</td><td>20</td><td>22</td><td>+9 / +4</td><td>53 (26) / 13</td><td class="other-column"></td><td>16,500</td></tr><tr><td>9</td><td>+15 / +13</td><td>23</td><td>20</td><td>21</td><td>23</td><td>+9 / +4</td><td>57 (28) / 14</td><td class="other-column">Stamina Power</td><td>20,500</td></tr><tr><td>10</td><td>+16 / +14</td><td>24</td><td>21</td><td>22</td><td>24</td><td>+10 / +5</td><td>61 (30) / 15</td><td class="other-column">Talent, Feat</td><td>25,500</td></tr></tbody></table>
+<div class="band-row"><div class="band-notes"><p class="table-note"><svg class="shield-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.5 3.5 4.8v6.4c0 5.2 3.6 9.9 8.5 11.3 4.9-1.4 8.5-6.1 8.5-11.3V4.8Z"></path></svg> +2 AC and Reflex if equipped with a shield. Adjust AC if unarmored.</p>
+<p class="table-note">* Add the relevant ability, for example Strength for Athletics.</p></div>
+<div class="stat-cells"><div class="stat-cell wide"><div class="stat-box"></div><div class="stat-label">Current XP</div></div></div></div></div></div></div><section class="pack-section pack-cards"><div class="card-grid"><div class="power-card frequency-encounter"><div class="card-header"><h3 class="card-title">Bomber</h3><div class="card-frequency">Encounter</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Free Action</span></div><div class="entry"><span class="entry-label">Trigger</span> You make a melee or ranged attack</div><div class="entry highlight"><span class="entry-label">Effect</span> If a melee attack, the attack instead becomes Near burst 1 (all creatures in area). If a ranged attack, the attack instead becomes Far spray 2 within 10 squares (all creatures in area).</div></div></div><div class="card-footer"><div class="footer-top">Wizard</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Arcane</span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 1/26</span></div></div></div><div class="power-card frequency-encounter"><div class="card-header"><h3 class="card-title">Rally</h3><div class="card-frequency">Encounter</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Standard Action</span></div><div class="entry highlight"><span class="entry-label">Effect</span> Spend a recovery and heal your recovery value. You are fortified until the end of your next turn.</div></div></div><div class="card-footer"><div class="footer-top"></div><div class="footer-bottom"><span class="footer-tags"></span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 2/26</span></div></div></div><div class="power-card frequency-daily"><div class="card-header"><h3 class="card-title">Drowsy</h3><div class="card-frequency"><span class="resource-icon">🌣︎</span> Daily</div></div><div class="card-body"><div class="card-text" style="font-size: 8.34374pt;"><div class="card-flavor">A few lilting words, and eyes grow heavy.</div><div class="entry"><span class="entry-label">Standard Action</span> <span class="resource-icon">🌣︎</span> Stamina</div><div class="entry"><span class="entry-label">Far</span> burst 2 within 20, all creatures</div><div class="entry"><span class="entry-label">Attack</span> vs Will</div><div class="entry highlight"><span class="entry-label">Hit</span> The target is slowed (save ends). On their first failed save, the target falls unconscious instead until they take damage or makes a successful save, whichever happens sooner.</div><div class="entry"><span class="entry-label">Miss</span> The target is slowed (save ends).</div><div class="entry"><span class="entry-label">Special</span> Creatures still unconscious at the end of the encounter sleep for an hour or until disturbed. <br>
+You can use <em>drowsy</em> multiple times a day, spending 1 Stamina each time.</div><div class="entry"><span class="entry-label">Cantrip</span> You can enter a sleeping creature’s dreams by lightly touching them. You are expelled when they wake.</div></div></div><div class="card-footer"><div class="footer-top">Wizard Level 1</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Arcane, Psychic, Spell</span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 3/26</span></div></div></div><div class="power-card frequency-daily"><div class="card-header"><h3 class="card-title">Fireball</h3><div class="card-frequency"><span class="resource-icon">🌣︎</span> Daily</div></div><div class="card-body"><div class="card-text" style="font-size: 9.08125pt;"><div class="entry"><span class="entry-label">Standard Action</span> <span class="resource-icon">🌣︎</span> Stamina</div><div class="entry"><span class="entry-label">Far</span> burst 2 within 10, all creatures</div><div class="entry"><span class="entry-label">Attack</span> vs Reflex</div><div class="entry highlight"><span class="entry-label">Hit</span> 4d8 + your level fire damage.</div><div class="entry"><span class="entry-label">Miss</span> Half damage.</div><div class="entry highlight"><span class="entry-label">Effect</span> The area becomes a zone until the end of the encounter. Any creature that ends its turn in the zone takes 5 fire damage.</div><div class="entry"><span class="entry-label">Special</span> You can use <em>fireball</em> multiple times a day, spending 1 Stamina each time.</div><div class="entry"><span class="entry-label">Cantrip</span> You can cause flames within 6 squares to flicker, brighten, dim, or change color as a swift action or create light as bright as a lantern from your hand or forehead.</div></div></div><div class="card-footer"><div class="footer-top">Wizard Level 1</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Arcane, Fire, Spell, Zone</span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 4/26</span></div></div></div><div class="power-card frequency-encounter"><div class="card-header"><h3 class="card-title">Heighten Spell</h3><div class="card-frequency"><span class="resource-icon">⛺︎</span> Encounter</div></div><div class="card-body"><div class="card-text" style="font-size: 9.50624pt;"><div class="entry"><span class="entry-label">Free Action</span> <span class="resource-icon">⛺︎</span> Impetus</div><div class="entry"><span class="entry-label">Trigger</span> You make an at-will spell attack</div><div class="entry highlight"><span class="entry-label">Effect</span> Choose one additional target for the attack, within 5 squares of another target of the attack. All targets of the attack take +1d10 damage if they are hit by the attack.</div><div class="entry"><em>Level 17</em> +2d10 damage instead and you gain your choice of (a) 5 temporary HP, (b) shift up to 3 squares or (c) fortified until the end of your next turn. <em>Level 21</em> +3d10 damage instead, and you gain all three instead of choosing.</div><div class="entry"><span class="entry-label">Special</span> You can use <em>heighten spell</em> multiple times an encounter, spending 1 Impetus each time.</div></div></div><div class="card-footer"><div class="footer-top">Wizard Level 1</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Arcane</span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 5/26</span></div></div></div><div class="power-card frequency-at-will"><div class="card-header"><h3 class="card-title">Careful Slice</h3><div class="card-frequency">At-Will</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Standard Action</span></div><div class="entry"><span class="entry-label">Melee</span> weapon, one target</div><div class="entry"><span class="entry-label">Attack</span> vs Reflex</div><div class="entry highlight"><span class="entry-label">Hit</span> 1dW + level damage.</div><div class="entry"><em>Level 21</em> 2dW + level damage instead.</div><div class="weapons"><div class="weapons-rule"></div><div class="weapon with-box"><span class="resource-icon weapon-box">☑︎</span><span class="resource-icon hand-icon">✋︎</span><em>Dagger</em> <span class="no-break">1d6 damage</span> <span class="weapon-range">(Melee 1 or Ranged 5/10)</span></div><div class="weapon with-box"><span class="resource-icon weapon-box">☐︎</span><span class="resource-icon hand-icon">✋︎</span><em>Misericorde</em> <span class="no-break">1d8 damage</span> <span class="weapon-range">(Melee 1 or Ranged 5/10)</span></div><div class="weapon with-box"><span class="resource-icon weapon-box">☐︎</span><span class="resource-icon hand-icon">✋︎</span><em>Rapier</em> <span class="no-break">1d10 damage</span></div></div></div></div><div class="card-footer"><div class="footer-top">Armament Level 1</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Light Blades, Weapon</span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 6/26</span></div></div></div><div class="power-card frequency-at-will"><div class="card-header"><h3 class="card-title">Cleaving Slice</h3><div class="card-frequency">At-Will</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Standard Action</span></div><div class="entry"><span class="entry-label">Melee</span> weapon, one target</div><div class="entry"><span class="entry-label">Attack</span> vs AC</div><div class="entry highlight"><span class="entry-label">Hit</span> 2dW + double level damage. An enemy adjacent to the target takes 1dW damage.</div><div class="entry"><em>Level 21</em> 3dW + double level damage instead. An enemy adjacent to the target still takes 1dW damage.</div><div class="weapons"><div class="weapons-rule"></div><div class="weapon with-box"><span class="resource-icon weapon-box">☑︎</span><span class="resource-icon hand-icon">✋︎</span><em>Sickle</em> <span class="no-break">1d8 damage</span></div><div class="weapon with-box"><span class="resource-icon weapon-box">☐︎</span><span class="resource-icon hand-icon">👐︎</span><em>Scythe</em> <span class="no-break">1d10 damage</span></div><div class="weapon with-box"><span class="resource-icon weapon-box">☐︎</span><span class="resource-icon hand-icon">✋︎</span><em>Longsword</em> <span class="no-break">1d10 damage</span></div><div class="weapon with-box"><span class="resource-icon weapon-box">☐︎</span><span class="resource-icon hand-icon">👐︎</span><em>Greatsword</em> <span class="no-break">1d12 damage</span></div></div></div></div><div class="card-footer"><div class="footer-top">Armament Level 1</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Heavy Blades, Weapon</span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 7/26</span></div></div></div><div class="power-card frequency-at-will"><div class="card-header"><h3 class="card-title">Double Attack</h3><div class="card-frequency">At-Will</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Standard Action</span></div><div class="entry"><span class="entry-label">Requirement</span> Must have a melee weapon in each hand</div><div class="entry"><span class="entry-label">Melee</span> weapon, two targets</div><div class="entry"><span class="entry-label">Attack</span> vs AC</div><div class="entry highlight"><span class="entry-label">Hit</span> 1dW + level damage.</div><div class="entry"><em>Level 21</em> 2dW + level damage.</div><div class="entry"><span class="entry-label">Special</span> Each attack must be with a different melee weapon and against a different target.</div></div></div><div class="card-footer"><div class="footer-top">Armament Level 1</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Weapon</span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 8/26</span></div></div></div></div></section><section class="pack-section pack-cards"><div class="card-grid"><div class="power-card frequency-at-will"><div class="card-header"><h3 class="card-title">Shillelagh</h3><div class="card-frequency">At-Will</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Standard Action</span></div><div class="entry"><span class="entry-label">Melee</span> weapon, one target</div><div class="entry"><span class="entry-label">Attack</span> vs AC</div><div class="entry highlight"><span class="entry-label">Hit</span> 2dW + double level damage and the target is dazed until the end of their next turn.</div><div class="entry"><em>Level 21</em> 3dW + double level damage instead.</div><div class="weapons"><div class="weapons-rule"></div><div class="weapon with-box"><span class="resource-icon weapon-box">☑︎</span><span class="resource-icon hand-icon">✋︎</span><em>Club</em> <span class="no-break">1d8 damage</span></div><div class="weapon with-box"><span class="resource-icon weapon-box">☐︎</span><span class="resource-icon hand-icon">👐︎</span><em>Greatclub</em> <span class="no-break">1d10 damage</span></div><div class="weapon with-box"><span class="resource-icon weapon-box">☐︎</span><span class="resource-icon hand-icon">✋︎</span><em>Light mace</em> <span class="no-break">1d10 damage</span></div><div class="weapon with-box"><span class="resource-icon weapon-box">☐︎</span><span class="resource-icon hand-icon">👐︎</span><em>Heavy mace</em> <span class="no-break">1d12 damage</span></div></div></div></div><div class="card-footer"><div class="footer-top">Armament Level 1</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Maces and Clubs, Weapon</span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 9/26</span></div></div></div><div class="power-card frequency-at-will"><div class="card-header"><h3 class="card-title">Staff Sweep</h3><div class="card-frequency">At-Will</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Standard Action</span></div><div class="entry"><span class="entry-label">Melee</span> weapon, one target</div><div class="entry"><span class="entry-label">Attack</span> vs AC</div><div class="entry highlight"><span class="entry-label">Hit</span> 2dW + level damage. Target must save or fall prone.</div><div class="entry"><em>Level 21</em> 3dW + level damage instead.</div><div class="weapons"><div class="weapons-rule"></div><div class="weapon with-box"><span class="resource-icon weapon-box">☑︎</span><span class="resource-icon hand-icon">👐︎</span><em>Quarterstaff</em> <span class="no-break">1d10 damage</span></div></div></div></div><div class="card-footer"><div class="footer-top">Armament Level 1</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Staffs, Weapon</span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 10/26</span></div></div></div><div class="power-card frequency-daily"><div class="card-header"><h3 class="card-title">Blur</h3><div class="card-frequency">Daily</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Move Action</span></div><div class="entry highlight"><span class="entry-label">Effect</span> You become incorporeal until the end of your next turn.</div><div class="entry"><span class="entry-label">Maintain</span> Move</div></div></div><div class="card-footer"><div class="footer-top">Skill (Arcana) Level 2</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Arcane</span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 11/26</span></div></div></div><div class="power-card frequency-encounter"><div class="card-header"><h3 class="card-title">Feather Fall</h3><div class="card-frequency">Encounter</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Counter Action</span></div><div class="entry"><span class="entry-label">Target</span> a falling creature (including yourself) within 10 squares</div><div class="entry highlight"><span class="entry-label">Effect</span> The target floats to earth, taking no damage from the fall and not falling prone afterwards.</div></div></div><div class="card-footer"><div class="footer-top">Skill (Arcana) Level 2</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Arcane</span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 12/26</span></div></div></div><div class="power-card frequency-encounter"><div class="card-header"><h3 class="card-title">Force Shield</h3><div class="card-frequency">Encounter</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Counter Action</span></div><div class="entry"><span class="entry-label">Trigger</span> An attack would hit you.</div><div class="entry highlight"><span class="entry-label">Effect</span> You are fortified until the end of your next turn.</div></div></div><div class="card-footer"><div class="footer-top">Skill (Arcana) Level 2</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Arcane</span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 13/26</span></div></div></div><div class="power-card frequency-encounter"><div class="card-header"><h3 class="card-title">Sculpt Spell</h3><div class="card-frequency">Encounter</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Free Action</span></div><div class="entry"><span class="entry-label">Trigger</span> You use a Near or Far power.</div><div class="entry highlight"><span class="entry-label">Effect</span> The spell only targets creatures of your choice within the area of effect.</div></div></div><div class="card-footer"><div class="footer-top">Skill (Arcana) Level 2</div><div class="footer-bottom"><span class="footer-tags"></span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 14/26</span></div></div></div><div class="power-card frequency-encounter"><div class="card-header"><h3 class="card-title">Suggestion</h3><div class="card-frequency">Encounter</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Free Action</span></div><div class="entry"><span class="entry-label">Trigger</span> You are about to make a Bluff, Diplomacy or Intimidate check.</div><div class="entry highlight"><span class="entry-label">Effect</span> Use your Arcana modifier for the check instead.</div></div></div><div class="card-footer"><div class="footer-top">Skill (Arcana) Level 2</div><div class="footer-bottom"><span class="footer-tags"></span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 15/26</span></div></div></div><div class="power-card frequency-encounter"><div class="card-header"><h3 class="card-title">Burning Sheet</h3><div class="card-frequency"><span class="resource-icon">⛺︎</span> Encounter</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Standard Action</span> <span class="resource-icon">⛺︎</span> Impetus</div><div class="entry"><span class="entry-label">Near</span> burst 3, all creatures</div><div class="entry"><span class="entry-label">Attack</span> vs Fortitude</div><div class="entry highlight"><span class="entry-label">Hit</span> 2d8 + level fire damage and 5 persistent fire damage (save ends).</div></div></div><div class="card-footer"><div class="footer-top">Wizard Level 3</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Arcane, Fire, Spell</span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 16/26</span></div></div></div></div></section><section class="pack-section pack-cards"><div class="card-grid"><div class="power-card frequency-encounter"><div class="card-header"><h3 class="card-title">Fiery Eruption</h3><div class="card-frequency"><span class="resource-icon">⛺︎</span> Encounter</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Standard Action</span> <span class="resource-icon">⛺︎</span> Impetus</div><div class="entry"><span class="entry-label">Far</span> burst 2 within 20, all creatures</div><div class="entry"><span class="entry-label">Attack</span> vs Reflex</div><div class="entry highlight"><span class="entry-label">Hit</span> 4d6 + level fire damage.</div><div class="entry"><span class="entry-label">Miss</span> Half damage.</div></div></div><div class="card-footer"><div class="footer-top">Wizard Level 3</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Arcane, Fire, Spell</span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 17/26</span></div></div></div><div class="power-card frequency-encounter"><div class="card-header"><h3 class="card-title">Force Bludgeon</h3><div class="card-frequency"><span class="resource-icon">⛺︎</span> Encounter</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Standard Action</span> <span class="resource-icon">⛺︎</span> Impetus</div><div class="entry"><span class="entry-label">Near</span> spray 5, all creatures</div><div class="entry"><span class="entry-label">Attack</span> vs Will</div><div class="entry highlight"><span class="entry-label">Hit</span> 2d6 + level force damage and the target is dazed until the end of their next turn.</div></div></div><div class="card-footer"><div class="footer-top">Wizard Level 3</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Arcane, Force, Spell</span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 18/26</span></div></div></div><div class="power-card frequency-encounter"><div class="card-header"><h3 class="card-title">Gravity Warp</h3><div class="card-frequency"><span class="resource-icon">⛺︎</span> Encounter</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Standard Action</span> <span class="resource-icon">⛺︎</span> Impetus</div><div class="entry"><span class="entry-label">Far</span> burst 1 within 10, all creatures</div><div class="entry"><span class="entry-label">Attack</span> vs Will</div><div class="entry highlight"><span class="entry-label">Hit</span> 2d6 + level damage and the target is slowed until the end of their next turn. Shunt the target 2 squares.</div></div></div><div class="card-footer"><div class="footer-top">Wizard Level 3</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Arcane, Spell, Teleportation</span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 19/26</span></div></div></div><div class="power-card frequency-encounter"><div class="card-header"><h3 class="card-title">Illusory Enemies</h3><div class="card-frequency"><span class="resource-icon">⛺︎</span> Encounter</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Standard Action</span> <span class="resource-icon">⛺︎</span> Impetus</div><div class="entry"><span class="entry-label">Far</span> burst 1 within 10, all creatures</div><div class="entry"><span class="entry-label">Attack</span> vs Will</div><div class="entry highlight"><span class="entry-label">Hit</span> Immobilized and rattled until the end of their next turn.</div><div class="entry"><span class="entry-label">Miss</span> Slowed until the end of their next turn.</div></div></div><div class="card-footer"><div class="footer-top">Wizard Level 3</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Arcane, Illusion, Spell</span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 20/26</span></div></div></div><div class="power-card frequency-encounter"><div class="card-header"><h3 class="card-title">Lightning Spheres</h3><div class="card-frequency"><span class="resource-icon">⛺︎</span> Encounter</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Standard Action</span> <span class="resource-icon">⛺︎</span> Impetus</div><div class="entry"><span class="entry-label">Far</span> burst 2 within 10, all creatures</div><div class="entry"><span class="entry-label">Attack</span> vs Reflex</div><div class="entry highlight"><span class="entry-label">Hit</span> 3d6 + level lightning damage.</div><div class="entry"><span class="entry-label">Miss</span> Half damage.</div></div></div><div class="card-footer"><div class="footer-top">Wizard Level 3</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Arcane, Lightning, Spell</span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 21/26</span></div></div></div><div class="power-card frequency-encounter"><div class="card-header"><h3 class="card-title">Sinister Control</h3><div class="card-frequency"><span class="resource-icon">⛺︎</span> Encounter</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Standard Action</span> <span class="resource-icon">⛺︎</span> Impetus</div><div class="entry"><span class="entry-label">Ranged</span> 10, one creature</div><div class="entry"><span class="entry-label">Attack</span> vs Will</div><div class="entry highlight"><span class="entry-label">Hit</span> The target makes a basic attack against an eligible target of your choice.</div><div class="entry highlight"><span class="entry-label">Effect</span> Shunt the target 2 squares.</div></div></div><div class="card-footer"><div class="footer-top">Wizard Level 3</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Arcane, Charm, Spell</span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 22/26</span></div></div></div><div class="power-card frequency-daily"><div class="card-header"><h3 class="card-title">Burned Over</h3><div class="card-frequency"><span class="resource-icon">🌣︎</span> Daily</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Standard Action</span> <span class="resource-icon">🌣︎</span> Stamina</div><div class="entry"><span class="entry-label">Far</span> burst 2 within 10, all creatures</div><div class="entry"><span class="entry-label">Attack</span> vs Fortitude</div><div class="entry highlight"><span class="entry-label">Hit</span> The target takes your level in fire damage. They are dazed and slowed (save ends both).</div><div class="entry"><span class="entry-label">Miss</span> Half damage and the target is slowed until the end of their next turn.</div><div class="entry"><span class="entry-label">Cantrip</span> You can spend 1 minute to remove a memory from the mind of a helpless or willing creature. Each creature can only lose one memory in this way.</div></div></div><div class="card-footer"><div class="footer-top">Wizard Level 5</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Arcane, Fire, Spell</span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 23/26</span></div></div></div><div class="power-card frequency-daily"><div class="card-header"><h3 class="card-title">Moths to a Flame</h3><div class="card-frequency"><span class="resource-icon">🌣︎</span> Daily</div></div><div class="card-body"><div class="card-text" style="font-size: 9.98125pt;"><div class="entry"><span class="entry-label">Standard Action</span> <span class="resource-icon">🌣︎</span> Stamina</div><div class="entry"><span class="entry-label">Far</span> burst 3 within 10, all creatures</div><div class="entry"><span class="entry-label">Attack</span> vs Fortitude</div><div class="entry highlight"><span class="entry-label">Hit</span> Shunt the target 2 squares. If the target ends this unwilling movement next to another creature, both take 1d8 + level lightning damage. Each creature only takes this damage once even if they are affected multiple times.</div><div class="entry"><span class="entry-label">Cantrip</span> You can take a standard action to create up to four torch-sized lights within 24 squares. You can move the lights up to 6 squares with a swift action. The lights disappear after one hour.</div></div></div><div class="card-footer"><div class="footer-top">Wizard Level 5</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Arcane, Fire, Spell</span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 24/26</span></div></div></div></div></section><section class="pack-section pack-cards"><div class="card-grid"><div class="power-card frequency-daily"><div class="card-header"><h3 class="card-title">Quagmire</h3><div class="card-frequency"><span class="resource-icon">🌣︎</span> Daily</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Standard Action</span> <span class="resource-icon">🌣︎</span> Stamina</div><div class="entry"><span class="entry-label">Far</span> burst 2 within 20, all creatures</div><div class="entry"><span class="entry-label">Attack</span> vs Reflex</div><div class="entry highlight"><span class="entry-label">Hit</span> The target is immobilized (save ends).</div><div class="entry highlight"><span class="entry-label">Effect</span> The area becomes a zone of difficult terrain until the end of the encounter. If a creature ends their turn in the zone, they are immobilized until the end of their next turn.</div><div class="entry"><span class="entry-label">Cantrip</span> You can cast <em>quagmire</em> without spending 1 Stamina if you take 10 minutes to cast it.</div></div></div><div class="card-footer"><div class="footer-top">Wizard Level 5</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Arcane, Spell, Zone</span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 25/26</span></div></div></div><div class="power-card frequency-daily"><div class="card-header"><h3 class="card-title">Dimension Door</h3><div class="card-frequency">Daily</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Swift Action</span></div><div class="entry"><span class="entry-label">Ranged</span> 20</div><div class="entry highlight"><span class="entry-label">Effect</span> Choose two unoccupied squares. Until the end of your next turn, a creature standing on either square can spend 1 square of movement to move to the other.</div><div class="entry"><span class="entry-label">Maintain</span> Swift</div></div></div><div class="card-footer"><div class="footer-top">Skill (Arcana) Level 10</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Arcane, Teleportation</span><span class="footer-right"><span class="resource-icon footer-icon">🌀︎︎</span> 26/26</span></div></div></div></div></section><section class="pack-section pack-stickers"><div class="sticker-sheet"><div class="sticker-group"><h2 class="group-heading">Wizard Feats</h2><div class="sticker type-feat"><div class="sticker-body split" style="font-size: 9pt;"><strong class="feature-name">Improved Initiative</strong> +4 feat bonus to Initiative checks.</div></div><div class="sticker type-feat"><div class="sticker-body" style="font-size: 8.88125pt;"><strong class="feature-name">Maelstrom</strong> If you hit two or more creatures with a spell attack, the attack gets a +2 feat bonus to damage. <em>Level 11,</em> +3 instead. <i>Level 21</i>, +4 instead.</div></div><div class="sticker type-feat"><div class="sticker-body split" style="font-size: 9pt;"><strong class="feature-name">Wand Proficiency <span class="feature-tag">Repeatable</span></strong> Proficient with a wand: ______________________</div></div><div class="sticker type-feat"><div class="sticker-body split" style="font-size: 9pt;"><strong class="feature-name">Wand Proficiency <span class="feature-tag">Repeatable</span></strong> Proficient with a wand: ______________________</div></div><div class="sticker type-feat"><div class="sticker-body split" style="font-size: 9pt;"><strong class="feature-name">Skill Training <span class="feature-tag">Repeatable</span></strong> Become trained in a skill of your choice.</div></div><div class="sticker type-feat"><div class="sticker-body split" style="font-size: 9pt;"><strong class="feature-name">Skill Training <span class="feature-tag">Repeatable</span></strong> Become trained in a skill of your choice.</div></div><div class="sticker type-feat"><div class="sticker-body split" style="font-size: 9pt;"><strong class="feature-name">Skill Training <span class="feature-tag">Repeatable</span></strong> Become trained in a skill of your choice.</div></div><div class="sticker type-feat"><div class="sticker-body split" style="font-size: 9pt;"><strong class="feature-name">Skill Training <span class="feature-tag">Repeatable</span></strong> Become trained in a skill of your choice.</div></div><div class="sticker type-feat"><div class="sticker-body" style="font-size: 8.88125pt;"><strong class="feature-name">Seize Advantage</strong> Treat immobilized and slowed targets as off-guard. <em>Level 11,</em> Deafened and weakened targets are also off-guard.</div></div><div class="sticker type-feat"><div class="sticker-body" style="font-size: 9pt;"><strong class="feature-name">Spiteful Energies</strong> You do +2 damage to creatures taking persistent damage. <em>Level 11,</em> +3 instead. <i>Level 21</i>, +4 instead.</div></div><div class="sticker type-feat"><div class="sticker-body" style="font-size: 9pt;"><strong class="feature-name">Touch of Grace</strong> You get a +1 bonus on all saving throws. <em>Level 11,</em> +2 instead. <i>Level 21</i>, +3 instead.</div></div><div class="character-tile-slot"><div class="monster-token size-medium character-tile" style="background: #a3d18a"><div class="monster-token-mark" aria-hidden="true">🌀︎</div><div class="monster-token-name">Mindfire Adept</div></div></div></div><div class="sticker-group"><h2 class="group-heading">Arcana Talents</h2><div class="sticker type-talent"><div class="sticker-body split" style="font-size: 9pt;"><strong class="feature-name">Blur <span class="feature-tag">Arcana</span></strong> Add <i>Blur </i>to your powers. <em>Requires Level 6 or higher</em></div></div><div class="sticker type-talent"><div class="sticker-body" style="font-size: 9pt;"><strong class="feature-name">Dimension Door <span class="feature-tag">Arcana</span></strong> Add <i>Dimension door </i>to your powers. <em>Requires Level 10 or higher</em></div></div><div class="sticker type-talent"><div class="sticker-body split" style="font-size: 9pt;"><strong class="feature-name">Feather Fall <span class="feature-tag">Arcana</span></strong> Add <i>Feather fall </i>to your powers.</div></div><div class="sticker type-talent"><div class="sticker-body split" style="font-size: 9pt;"><strong class="feature-name">Force Shield <span class="feature-tag">Arcana</span></strong> Add <i>Force shield </i>to your powers.</div></div><div class="sticker type-talent"><div class="sticker-body split" style="font-size: 9pt;"><strong class="feature-name">Sculpt Spell <span class="feature-tag">Arcana</span></strong> Add <i>Sculpt spell </i>to your powers.</div></div><div class="sticker type-talent"><div class="sticker-body split" style="font-size: 9pt;"><strong class="feature-name">Suggestion <span class="feature-tag">Arcana</span></strong> Add <i>Suggestion </i>to your powers.</div></div><div class="sticker type-talent"><div class="sticker-body" style="font-size: 8.88125pt;"><strong class="feature-name">Detect Supernatural <span class="feature-tag">Arcana</span></strong> As a swift action, you know how many elemental, how many fey and how many shadow creatures are within 12 squares of you. They are not identified.</div></div></div><div class="ancestry-cluster"><div class="ancestry-group"><div class="ancestry"><div class="ancestry-header"><h3 class="ancestry-name">Nephilim</h3><div class="ancestry-kind">Ancestry</div></div><div class="ancestry-body"><div class="ancestry-text" style="font-size: 9pt;"><img class="ancestry-portrait" alt="" src="nephilim.png"><div>Medium outsider humanoid</div><div><span class="feature-label">Speed</span> 6 squares</div><div><span class="feature-label">Languages</span> <span class="checkbox">☑</span> Common, one of:</div><div class="language-options"><span class="checkbox">☐</span> Primordial&nbsp;&nbsp;<span class="checkbox">☐</span> Draconic&nbsp;&nbsp;<span class="checkbox">☐</span> Abyssal</div><div><span class="feature-label">Relentless Endurance</span> The first time in an encounter that you are bloodied, you gain temporary HP equal to your level.</div><div><span class="feature-label">Ancestry Feat</span> Add a nephilim feat.</div><div><span class="feature-label">Ancestry Talent</span> Add a nephilim talent.</div></div></div></div></div><div class="sticker-group"><h2 class="group-heading">Nephilim Feats</h2><div class="sticker type-feat"><div class="sticker-body" style="font-size: 8.88125pt;"><strong class="feature-name">Energy Resistance <span class="feature-tag">Repeatable</span></strong> Resist equal to 5 + your level: ☐ acid, ☐ cold, ☐ fire, ☐ force, ☐ lightning, ☐ necrotic, ☐ poison, ☐ psychic, ☐ radiant or ☐ thunder.</div></div><div class="sticker type-feat"><div class="sticker-body" style="font-size: 8.88125pt;"><strong class="feature-name">Energy Resistance <span class="feature-tag">Repeatable</span></strong> Resist equal to 5 + your level: ☐ acid, ☐ cold, ☐ fire, ☐ force, ☐ lightning, ☐ necrotic, ☐ poison, ☐ psychic, ☐ radiant or ☐ thunder.</div></div><div class="sticker type-feat"><div class="sticker-body split" style="font-size: 9pt;"><strong class="feature-name">Darkvision</strong> You can see in darkness or dim light as if it were bright light.</div></div><div class="sticker type-feat"><div class="sticker-body" style="font-size: 8.88125pt;"><strong class="feature-name">Made of Metal</strong> You do not make death saving throws. You still die if reduced to negative hit points equal to your maximum hit points. You do not sleep, breathe, eat or drink.</div></div></div><div class="sticker-group"><h2 class="group-heading">Nephilim Talents</h2><div class="sticker type-talent"><div class="sticker-body split" style="font-size: 9pt;"><strong class="feature-name">Psychic Leap <span class="feature-tag">Nephilim</span></strong> Add <i>Psychic leap </i>to your powers.</div></div><div class="sticker type-talent"><div class="sticker-body split" style="font-size: 9pt;"><strong class="feature-name">Vengeance of the Pits <span class="feature-tag">Nephilim</span></strong> Add <i>Vengeance of the pits </i>to your powers.</div></div><div class="sticker type-talent"><div class="sticker-body split" style="font-size: 9pt;"><strong class="feature-name">Breath Weapon <span class="feature-tag">Nephilim</span></strong> Add <i>Breath weapon </i>to your powers.</div></div><div class="sticker type-talent"><div class="sticker-body split" style="font-size: 9pt;"><strong class="feature-name">Gargoyle's Rest <span class="feature-tag">Nephilim</span></strong> Add <i>Gargoyle's rest </i>to your powers.</div></div><div class="sticker type-talent"><div class="sticker-body split" style="font-size: 9pt;"><strong class="feature-name">Poisonous Nip <span class="feature-tag">Nephilim</span></strong> Add <i>Poisonous nip </i>to your powers.</div></div><div class="sticker type-talent"><div class="sticker-body split" style="font-size: 9pt;"><strong class="feature-name">Ingenuity <span class="feature-tag">Nephilim</span></strong> Add <i>Ingenuity </i>to your powers.</div></div></div></div></div></section><section class="pack-section pack-cards"><div class="card-grid"><div class="power-card frequency-encounter"><div class="card-header"><h3 class="card-title">Breath Weapon</h3><div class="card-frequency">Encounter</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Swift Action</span></div><div class="entry"><span class="entry-label">Near</span> spray 3, all creatures in area</div><div class="entry"><span class="entry-label">Attack</span> vs Reflex</div><div class="entry highlight"><span class="entry-label">Hit</span> 2d6 + level damage.</div><div class="entry"><span class="entry-label">Special</span> On gaining this power, choose which type of damage it does: ☐ acid, ☐ cold, ☐ fire, ☐ force, ☐ lightning, ☐ necrotic, ☐ poison, ☐ psychic, ☐ radiant or ☐ thunder.</div></div></div><div class="card-footer"><div class="footer-top">Nephilim</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>[Energy]</span><span class="footer-right"><span class="resource-icon footer-icon">♆︎</span> 1/6</span></div></div></div><div class="power-card frequency-encounter"><div class="card-header"><h3 class="card-title">Gargoyle's Rest</h3><div class="card-frequency">Encounter</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Move Action</span></div><div class="entry"><span class="entry-label">Self</span> </div><div class="entry highlight"><span class="entry-label">Effect</span> Your turn ends immediately. You gain resistance to all damage 5 (10 at level 11, 15 at level 21) until the end of your next turn. At the beginning of your next turn, you may use your standard action to make a charge attack. If you do, increase your speed by 2 for the charge.</div></div></div><div class="card-footer"><div class="footer-top">Nephilim</div><div class="footer-bottom"><span class="footer-tags"></span><span class="footer-right"><span class="resource-icon footer-icon">♆︎</span> 2/6</span></div></div></div><div class="power-card frequency-encounter"><div class="card-header"><h3 class="card-title">Ingenuity</h3><div class="card-frequency">Encounter</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Swift Action</span></div><div class="entry"><span class="entry-label">Near</span> burst 5, one creature</div><div class="entry highlight"><span class="entry-label">Hit</span> Choose one: the target may shift up to 2 as a free action, make a saving throw, become honed until the end of their next turn or become guided until the end of their next turn.</div></div></div><div class="card-footer"><div class="footer-top">Nephilim</div><div class="footer-bottom"><span class="footer-tags"></span><span class="footer-right"><span class="resource-icon footer-icon">♆︎</span> 3/6</span></div></div></div><div class="power-card frequency-encounter"><div class="card-header"><h3 class="card-title">Poisonous Nip</h3><div class="card-frequency">Encounter</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Swift Action</span></div><div class="entry"><span class="entry-label">Melee</span> 1, one creature</div><div class="entry"><span class="entry-label">Attack</span> vs AC</div><div class="entry highlight"><span class="entry-label">Hit</span> 2d8 + level poison damage.</div></div></div><div class="card-footer"><div class="footer-top">Nephilim</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Poison</span><span class="footer-right"><span class="resource-icon footer-icon">♆︎</span> 4/6</span></div></div></div><div class="power-card frequency-encounter"><div class="card-header"><h3 class="card-title">Psychic Leap</h3><div class="card-frequency">Encounter</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Move Action</span></div><div class="entry"><span class="entry-label">Near</span> burst 5, self or one ally</div><div class="entry highlight"><span class="entry-label">Effect</span> The target jumps up to 3 squares. This movement does not provoke opportunity attacks.</div></div></div><div class="card-footer"><div class="footer-top">Nephilim</div><div class="footer-bottom"><span class="footer-tags"></span><span class="footer-right"><span class="resource-icon footer-icon">♆︎</span> 5/6</span></div></div></div><div class="power-card frequency-encounter"><div class="card-header"><h3 class="card-title">Vengeance of the Pits</h3><div class="card-frequency">Encounter</div></div><div class="card-body"><div class="card-text" style="font-size: 9.99998pt;"><div class="entry"><span class="entry-label">Free Action</span></div><div class="entry"><span class="entry-label">Near</span> burst 10, one enemy</div><div class="entry"><span class="entry-label">Trigger</span> An attack by that enemy hits you.</div><div class="entry highlight"><span class="entry-label">Effect</span> The target takes 2d6 + level fire damage.</div></div></div><div class="card-footer"><div class="footer-top">Nephilim</div><div class="footer-bottom"><span class="footer-tags"><span class="separator">●</span>Fire</span><span class="footer-right"><span class="resource-icon footer-icon">♆︎</span> 6/6</span></div></div></div></div></section></div>
+</body>
+</html>
